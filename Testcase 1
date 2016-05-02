@@ -5,7 +5,7 @@
 1. Open Bestelldispo, select a purchase candidate
     * Preis: taken from Flatrate_DataEntry; if none was set there: Preis is taken from pricelist
     * Preis abweichend: can be added manually 
-2.  Set a price in Preis abweichend, save, then do Aktion: Bestellen
+2.  Set a price in Preis abweichend, save, then do Aktion: Bestellen, OK
     * Bestellung is created
     * Preis in orderline: as set in Preis abweichend
 3. Complete the Bestellung, make an inout in Wareneingang POS
