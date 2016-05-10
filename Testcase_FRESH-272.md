@@ -9,19 +9,18 @@
 	* start & end date covered by the period of the flatrate term
 	* Gebinde Vertrag: Y
 	* Details anzeigen checked
-		* => report shows only HUs of the flatrate term with inouts from that period you set in start and end date, with Saldo at start date and the inout lines with date and inout no. 
+		* => report shows only HUs of the flatrate term with inouts from that period you set in start and end date, with Saldo at start & end date and the inout lines with date and inout no. 
 
 1. Run Gebindesaldo Gesamt for your bpartner with:
 	* start & end date covered by the period of the flatrate term
 	* Gebinde Vertrag: N
 	* Details anzeigen checked
-		* => report shows HUs NOT covered by the flatrate term with inouts from that period you set in start and end date, with Saldo at start date and the inout lines with date and inout no. 
+		* => report shows HUs NOT covered by the flatrate term with inouts from that period you set in start and end date, with Saldo at start & end date and the inout lines with date and inout no. 
 
 1. Run Gebindesaldo Gesamt for your bpartner with:
 	* start & end date covered by the period of the flatrate term
 	* Gebinde Vertrag: null
 	* Details anzeigen checked
-		* => report shows all HUs from the reports before, with Saldo at start date and the inout lines with date and inout no. 
 
 1. Run Gebindesaldo Gesamt for your bpartner with:
 	* start & end date NOT covered by the period of the flatrate term (before or after)
@@ -33,19 +32,19 @@
 	* start & end date NOT covered by the period of the flatrate term (before or after)
 	* Gebinde Vertrag: N
 	* Details anzeigen checked
-		* => report shows all HUs with inouts from that period you set in start and end date, with Saldo at start date and the inout lines with date and inout no. 
+		* => report shows all HUs with inouts from that period you set in start and end date, with Saldo at start & end date and the inout lines with date and inout no. 
 
 1. Run Gebindesaldo Gesamt for your bpartner with:
 	* start & end date NOT covered by the period of the flatrate term (before or after)
 	* Gebinde Vertrag: null
 	* Details anzeigen checked
-		* => report shows all HUs with inouts from that period you set in start and end date, with Saldo at start date and the inout lines with date and inout no. 
+		* => report shows all HUs with inouts from that period you set in start and end date, with Saldo at start & end date and the inout lines with date and inout no. 
 
 1.  Run Gebindesaldo Gesamt for your bpartner with:
 	* start date BEFORE the start date of the flatrate term, and end date covered by the period of the flatrate term
 	* Gebinde Vertrag: Y
 	* Details anzeigen checked
-		* => report shows only HUs of the flatrate term with inouts from the WHOLE period you set in start and end date, with Saldo at start date and the inout lines with date and inout no. 
+		* => report shows only HUs of the flatrate term with inouts from the WHOLE period you set in start and end date, with Saldo at start & end date and the inout lines with date and inout no. 
 
 		
 1. Add another flatrate term for your bpartner for another type of HUs, e.g. IFCO 6014, in C_Flatrate_Term
@@ -64,7 +63,7 @@
 	* start & end date covered by the period of the new flatrate term
 	* Gebinde Vertrag: Y
 	* Details anzeigen checked
-		* => report shows the new HU with the inout you created earlier, with Saldo at start date and the other inout lines with date and inout no. (if they exist), and the HU of the old flatrate term
+		* => report shows the new HU with the inout you created earlier, with Saldo at start & end date and the other inout lines with date and inout no. (if they exist), and the HU of the old flatrate term
 
 1. Go back to your inout you created before, reactivate it
 
