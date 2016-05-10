@@ -21,6 +21,7 @@
 	* start & end date covered by the period of the flatrate term
 	* Gebinde Vertrag: null
 	* Details anzeigen checked
+		* => report shows all HUs from the two reports before, with Saldo at start & end date and the inout lines with date and inout no. 
 
 1. Run Gebindesaldo Gesamt for your bpartner with:
 	* start & end date NOT covered by the period of the flatrate term (before or after)
