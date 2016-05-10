@@ -72,4 +72,3 @@
 	* start & end date covered by the period of the new flatrate term
 	* Gebinde Vertrag: Y
 	* Details anzeigen checked
-		* => report is empty OR does not include inouts for the HU of the new flatrate term, but only the inouts for the HU of the old one
