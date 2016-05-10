@@ -72,3 +72,4 @@
 	* start & end date covered by the period of the new flatrate term
 	* Gebinde Vertrag: Y
 	* Details anzeigen checked
+		* => report is empty OR does not include the inout for the HU you reactivated, but only different inouts of that HU type or the inouts for the HU of the old flatrate term
