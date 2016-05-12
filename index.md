@@ -1,3 +1,8 @@
+---
+layout: default
+title: Home
+---
+
 #metasfresh-documentation
 
 This site contains the experimental beginnings of
