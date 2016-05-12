@@ -1,5 +1,5 @@
 ---
-what's this: random brainfart wrt metadata
+title: IT FRESH-265
 required data:
    product: P00001
    bpartner: G0007
@@ -7,8 +7,7 @@ provided data:
    procurement candidate: 123
 ---
 
-# IT FRESH-265
-### Procurement Candidates: Packvorschrift overwrite
+# Procurement Candidates: Packvorschrift overwrite
 > Testcase to check if the newly introduced Packvorschrift (M_HU_PI_Item_Product) overwrite set in Betelldisposition (PMM_PurchaseCandidate)
 > is also set in orderlines of the corresponding Bestellung.
 
