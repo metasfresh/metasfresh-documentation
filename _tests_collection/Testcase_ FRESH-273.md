@@ -62,8 +62,8 @@ required data:
 	| -----------------------------	|:-------------------------:|
 	|	Total ohne MWST (w/o tax)	|	20.00					|	
 	|	MWST Tax Amt 2.5%			|	0.50					|	
-	|	Total Gebinde 3.8%			|	0.04					|	
-	|	Rechnungstotal inkl. MWST	|	20.54					|
+	|	Total Gebinde 3.8%			|	1.04					|	
+	|	Rechnungstotal inkl. MWST	|	21.54					|
 
 
 
@@ -135,8 +135,8 @@ required data:
 	| -----------------------------	|:-------------------------:|
 	|	Total ohne MWST, MWST 2.5%	|	20.00					|				
 	|	MWST Tax Amt 2.5%			|	0.50					|	
-	|	Total Gebinde 3.8%			|	0.04					|	
-	|	Rechnungstotal inkl. MWST	|	20.54					|
+	|	Total Gebinde 3.8%			|	1.04					|	
+	|	Rechnungstotal inkl. MWST	|	21.54					|
 
 
 1. You can check the inoutlines and the invoice candidates for both of your orders in database: isPackagingMaterial = Y for data of TU A and TU B, but NOT for data of P0001 and P0002
