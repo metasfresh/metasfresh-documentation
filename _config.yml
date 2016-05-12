@@ -2,7 +2,7 @@ name: metasfresh documentation
 baseurl: /metasfresh-documentation
 
 collections:
-  tests:
+  tests_collection:
     output: true
 
 defaults:

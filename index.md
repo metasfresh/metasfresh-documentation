@@ -9,7 +9,7 @@ This site contains the experimental beginnings of
 
 * individual windows' documentation
 * workflow related documentation
-* [tests' documentation](tests/). 
+* [tests' documentation](tests_static/). 
 * maybe also our javadocs
 
 # Additional notes
