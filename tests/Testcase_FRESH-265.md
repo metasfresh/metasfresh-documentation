@@ -1,9 +1,9 @@
 ---
 what's this: random brainfart wrt metadata
-required data
+required data:
    product: P00001
    bpartner: G0007
-provided data
+provided data:
    procurement candidate: 123
 ---
 
