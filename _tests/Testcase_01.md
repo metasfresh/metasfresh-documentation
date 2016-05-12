@@ -1,3 +1,7 @@
+---
+title: Testcase 1
+---
+
 # Testcase 1 
 (taken from https://docs.google.com/spreadsheets/d/1kzJpnT0MoAl9XlpSevm1AnAt2i0IDU3D3rBiswtcoYA/edit#gid=0, testcase 11189)
 ### Procurement: purchase candidates have editable price

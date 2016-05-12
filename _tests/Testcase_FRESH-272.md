@@ -1,3 +1,8 @@
+---
+title: IT Fresh-272
+---
+
+
 # IT FRESH-272
 ### hubalance general flatrate filter
 > Testcase to check if the filter for flatrate term (= Gebindevertrag) 

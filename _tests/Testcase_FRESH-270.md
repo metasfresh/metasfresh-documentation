@@ -1,3 +1,7 @@
+---
+title: IT FRESH-270
+---
+
 # IT FRESH-270
 ### material tracking: total received qty and scrap sometimes missing on invoice
 > Testcase to check if total received qty and scrap are included in the Endabrechnung

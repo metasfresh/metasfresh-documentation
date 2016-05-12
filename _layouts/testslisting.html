@@ -1,0 +1,22 @@
+{% include head.html %}
+
+   <h1 class="title-site">{{ page.title }}</h1>
+
+    {{ content }}
+
+	<ul>
+			{% comment %} if we iterate "site.pages", we get everything {% endcomment %}
+	        {% for p in site.tests %}
+	        {% if p.home %}
+	        {% else %}
+			
+	        <li>
+	        	<a href="{{ site.baseurl }}{{ p.url }}">
+		            {{ p.title }}
+		        </a>
+	        </li>
+	        {% endif %}
+	        {% endfor %}
+	    </ul>
+	
+{% include foot.html %}
