@@ -1,10 +1,10 @@
 ---
 title: IT FRESH-273
 required data:
-	bpartner: bpartner G000X (customer & vendor)
-	products: P00001 with tax 2.5%, P00002 with tax 3.8%
-	HUs: TU A with Gebinde tax 0%, TU B with tax 3.8%
-	sales pricelist: including P00001 (2.00 EUR), P00002 (5.00 EUR), TU A (1.00 EUR), TU B (1.00 EUR)
+   bpartner: bpartner G000X (customer & vendor)
+   products: P00001 with tax 2.5%, P00002 with tax 3.8%
+   HUs: TU A with Gebinde tax 0%, TU B with tax 3.8%
+   sales pricelist: including P00001 (2.00 EUR), P00002 (5.00 EUR), TU A (1.00 EUR), TU B (1.00 EUR)
 ---
 
 # IT FRESH-273
