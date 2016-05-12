@@ -1,0 +1,43 @@
+<h1 id="it-fresh-265">IT FRESH-265</h1>
+<p>### Procurement Candidates: Packvorschrift overwrite
+&gt; Testcase to check if the newly introduced Packvorschrift (M_HU_PI_Item_Product) overwrite set in Betelldisposition (PMM_PurchaseCandidate)
+&gt; is also set in orderlines of the corresponding Bestellung.</p>
+
+<ol>
+  <li>Have a bpartner with a C_Flatrate_Term for procurement, for a product which has different PIs (M_HU_PI_Item_Product) available</li>
+  <li>Open WebUI for that bpartner, and create a PMM_PurchaseCandidate for that product
+    <ul>
+      <li>=&gt; Packvorschrift (M_HU_PI_Item_Product) is the one set in the C_Flatrate_Term</li>
+    </ul>
+  </li>
+  <li>Open Bestelldisposition (PMM_PurchaseCandidate), search for the PMM_PurchaseCandidate you created
+    <ul>
+      <li>=&gt; new field Packvorschrift-Produkt Zuordnung abw. (M_HU_PI_Item_Product overwrite)</li>
+    </ul>
+  </li>
+  <li>Set a different Packvorschrift in the new field, save</li>
+  <li>In Quantity to Order (TU), set any qty you want, save</li>
+  <li>Press Bestellen in Aktion, OK
+    <ul>
+      <li>=&gt; Bestellung for your PMM_PurchaseCandidate is created</li>
+    </ul>
+  </li>
+  <li>Open the Bestellung that was created, print Jasper
+    <ul>
+      <li>=&gt; Packvorschrift is the one you set in M_HU_PI_Item_Product overwrite, NOT the one from C_Flatrate_Term / in WebUI</li>
+      <li>=&gt; Menge TU in orderline = the one you set in PMM_PurchaseCandidate</li>
+      <li>=&gt; Menge in orderline = qty TU you set in PMM_PurchaseCandidate X qty CU in your Packvorschrift, e.g. 2 TUs X G1x6kg: Menge = 12</li>
+      <li>=&gt; Packvorschrift displayed in the Jasper is also the one you set in M_HU_PI_Item_Product overwrite</li>
+    </ul>
+  </li>
+  <li>Open Wareneingang POS, search for your orderline
+    <ul>
+      <li>=&gt; Packvorschrift-Produkt Zuordnung is the one you set in M_HU_PI_Item_Product overwrite</li>
+    </ul>
+  </li>
+  <li>Select the orderline, OK
+    <ul>
+      <li>=&gt; window Quantity to use opens with:  Packvorschrift you set in M_HU_PI_Item_Product overwrite selected, the one from C_Flatrate_Term / in WebUI is also selectable</li>
+    </ul>
+  </li>
+</ol>
