@@ -8,6 +8,7 @@ required data: -
 > Testcase to check login with wrong data and that no matter what data you set, the application doesn't crash
 
 **Login with correct properties**
+
 1. open application with your current config
  	* => application opens
  	
