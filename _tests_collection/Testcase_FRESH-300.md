@@ -30,18 +30,26 @@ required data: -
 1. logout, delete properties again
 
 **Login and write wrong data in properties file**
+
 1. login and leave application host like it is and put wrong data in database, press ok
    * => error message with NoDBConnection 
+   
 1. press on x, open application again
+
 1. set correct dates in database (don't change application host)
+
 1. test database to make sure you wrote well, press ok
     * => if database is ok button turns green
+
 1. choose language and role
     * =>  application opens fine
 
 **Login with wrong properties file**
+
 1. change the properties file as it's a wrong one:
+
 1. open it and where you see "Connection=" write "test" after it, and let the rest of the line which was there
+
 1. save and open the application again
     * => the server connection opens with the same config like when you remove the properties file  
     * => if you press x the application closes, if you press ok you get the error with the NoDBConnection 
