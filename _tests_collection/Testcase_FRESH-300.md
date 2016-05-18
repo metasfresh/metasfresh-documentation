@@ -10,16 +10,22 @@ required data: -
 **Login with correct properties**
 1. open application with your current config
  	* => application opens
+ 	
 1. delete your properties file and open the application again
     *  => the popup with license appears
+    
 1. press ok
     * => server connection (MyAppsServer, MyDataBase etc), buttons are red
+    
 1. on server connection don't setup anything, press ok
     * => error message NoDBConnection
+  
 1. press ok on the error message, set the application host and press test application
     * => button gets green, the one for DB is still red, but the correct data is set and readonly
+    
 1. press ok twice, choose language, press ok, choose role and press ok again
    * => application opens fine
+   
 1. logout, delete properties again
 
 **Login and write wrong data in properties file**
