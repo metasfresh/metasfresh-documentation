@@ -1,22 +1,22 @@
 --
 --
-# Produkt für die Produktion konfigurieren
+# Produkt fÃ¼r die Produktion konfigurieren
 ## Vorbereitung
 1. Es existiert ein Produkt namens "Ergebnis" das hergestellt werden soll
-1. [Stückliste anlegen] (https://gist.github.com/metasnw/416649728fab039959362c548b6e2c02/edit)
+1. [StÃ¼ckliste anlegen] (https://github.com/metasfresh/metasfresh-documentation/blob/master/users/Howto_DE_St%C3%BCckliste_Rezept_anlegen.md)
 1. Produktionsressource existiert
 1. Ein Arbeitsablauf wurde eingestellt
 
 ## Schritte
-1. Fenster `Produkt Plandaten` öffnen
+1. Fenster `Produkt Plandaten` Ã¶ffnen
 1. Nach Produkt "Ergebnis" suchen
 1. In Register `Daten Planung` wechseln
 1. Neuen Datensatz anlegen
-1. __Lager__ auswählen in dem produziert werden soll
-1. __Produktionsressource__ auswählen mit der produziert werden soll
+1. __Lager__ auswÃ¤hlen in dem produziert werden soll
+1. __Produktionsressource__ auswÃ¤hlen mit der produziert werden soll
 1. __Wird produziert__ auf _Ja_ setzen
-1. __Stücklisten Konfiguration__ für das Produkt auswählen (siehe [Stückliste anlegen] 
-1. __Arbeitsablauf__ auswählen nach dem produziert werden soll
-1. __Order Policy__ _Lot for Lot_ auswählen
+1. __StÃ¼cklisten Konfiguration__ fÃ¼r das Produkt auswÃ¤hlen (siehe [StÃ¼ckliste anlegen] 
+1. __Arbeitsablauf__ auswÃ¤hlen nach dem produziert werden soll
+1. __Order Policy__ _Lot for Lot_ auswÃ¤hlen
 1. optional: Wenn der Produktionsauftrag automatisch fertiggestellt werden soll __isDocComplete__ anhaken
  
