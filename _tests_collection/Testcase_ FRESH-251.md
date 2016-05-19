@@ -14,7 +14,7 @@ required data:
 
 **Picking in Kommissionierung without Verdichtung**
 
-1. Make sure P0001 and P0002 both have TU A x 5kg and TU B x 2kg selectable as Packvorschrift 
+1. Make sure P0001 and P0002 both have TU A x 5kg and TU B x 1kg selectable as Packvorschrift 
 
 1. Create and complete a sales order I (Auftrag) for G000X:
 	* P0001, 10 TU A x 5kg (overall qty 50)
@@ -52,7 +52,7 @@ required data:
 
 	
 	
-1. Create and complete another sales order II (Auftrag) for G000X:
+1. Create and complete sales order II (Auftrag) for G000X:
 	* P0001, 2 TU A x 5kg (overall qty 10)
 	* P0002, 1 TU B x 1kg (overall qty 1)	
 	
@@ -91,7 +91,7 @@ required data:
 		
 **Picking in Kommissionierung with Verdichtung**
 	
-1. Create and complete another sales order III (Auftrag) for G000X:
+1. Create and complete sales order III (Auftrag) for G000X:
 	* P0001, 1 TU A x 5kg (overall qty 5)
 	* P0002, 2 TU B x 1kg (overall qty 2)	
 	
@@ -114,7 +114,7 @@ required data:
 1. Open Verdichtung POS, the warehouse from your sales order and G000X, OK
 	* => you have 3 TUs in HU Editor: 1 TU A x 5kg with P0001, and 2 TUs B x 1kg with P0002
 
-1. Select both, click LU zuteilen and put them on an LU
+1. Select all, click LU zuteilen and put them on an LU
 
 1. Select the LU, select a Speditionsauftrag, OK
 
