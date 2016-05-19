@@ -1,3 +1,7 @@
+---
+title:  IT FRESH-203
+---
+
 # IT FRESH-203
 ### Procurement: Mail in BPartner language, other eMail Address
 > Testcase to check if the emails sent from Doc_Outbound (Ausgehende Belege) 

@@ -1,0 +1,13 @@
+name: metasfresh documentation
+baseurl: /metasfresh-documentation
+
+collections:
+  tests_collection:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: tests
+    values:
+      layout: default
