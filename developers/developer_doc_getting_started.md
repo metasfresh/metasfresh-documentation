@@ -20,6 +20,10 @@ therefore, please also get a clone of this repository.
 As a note: we recomment that you clone all the metasfresh repos to the same location.
 For this documentation, i'm using `C:\developement\repos`, so the individual repos' working copies are located at be `C:\developement\repos\metasfresh` and `C:\developement\repos\metasfres-parent` etc.
 
+# Java version
+
+Please make sure you are using java 7 while building the code.
+
 # Get the code into your IDE
 
 Even if you just want to study the code, it probably makes a lot of sense to do so in an IDE.
