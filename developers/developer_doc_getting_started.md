@@ -40,6 +40,10 @@ Note: the "Eclipse IDE for Java Developers" will probably do, we found that at l
  - choosing the location of your working copies 
  - and let eclipse do the rest
 
+* Starting the server and client:
+ - Start the server: de.metas.ServerBoot_mf15 (or de.metas.ServerBoot_mf15_jrebel)
+ - Start the client: de.metas.SwingUIApplication_mf15 (or de.metas.SwingUIApplication_mf15_jrebel)
+
 ## Other IDEs
 
 We don't yet have experince with code contributions that were created with e.g. Netbeans or IntelliJ.
