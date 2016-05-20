@@ -3,7 +3,7 @@ title: IT FRESH-320
 required data: -
 ---
 
-# IT FRESH-300
+# IT FRESH-320
 ### client not starting when config is not completed
 > Testcase to check if the License aggrement popup has an icon down in task bar
 
