@@ -1,4 +1,3 @@
-
 ---
 title: IT FRESH-228
 required data:
@@ -28,7 +27,7 @@ required data:
 	* end date: e.g. June 2016
 
 
-	|	Produkt		|	Geschäftspartner	|	Flatrate Term Info						|	Time Period covered	(with resp. qties	|
+	|	Produkt		|	Geschäftspartner	|	Flatrate Term Info						|	Time Period covered	(again, with resp. qties)	|
 	| --------------|:---------------------:|:-----------------------------------------:|:-----------------------------------------:|
 	|	P0001		|	G000X				|	time & qties flatrate term for P0001	|	April 2016, May 2016 & June 2016		|
 	|	P0002		|	G000X				|	time & qties flatrate term for P0002	|	April 2016, May 2016 & June 2016		|	
