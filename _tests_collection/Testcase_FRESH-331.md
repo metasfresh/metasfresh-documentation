@@ -8,6 +8,7 @@ required data: products with uom kg, products with uom stk, bpartner for purchas
 > Testcase to check if the weighting works properly in wareneingang pos
 
 **Weight Calculation**
+
 1. create a purchase order, add multiple products, kg and stk
 
 2. complete and open wareneingang pos 
