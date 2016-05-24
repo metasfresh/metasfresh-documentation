@@ -23,32 +23,35 @@ required data: products with uom kg, products with uom stk, bpartner for purchas
 5. change gross weight
     * => net weight updates accordingly (gross weight = net weight + tara weight) 	
 
-6. use split: have a line opened with 1LU, 1 TU, capacity x 
+6. change gross weight using the scale, press the button multiple times, use + and - and then use the scale again
+    * => net weight updates accordingly (gross weight = net weight + tara weight) 
 
-7. split this 1 TU in half: 2LUs, each with 1 TU, qty cu = x/2 => y
+7. use split: have a line opened with 1LU, 1 TU, capacity x 
+
+8. split this 1 TU in half: 2LUs, each with 1 TU, qty cu = x/2 => y
     * => net weight updates accordingly on each LU (1*y*product's weight)
 
-8. merge partially 2 TUs: select a TU from LU1 and another TU from LU2, press join
+9. merge partially 2 TUs: select a TU from LU1 and another TU from LU2, press join
     * => join popup opens with 2 TUs
 
-9. select both TUs and 1 CU (the one from LU1)
+10. select both TUs and 1 CU (the one from LU1)
 
-10. on menge cu write 1 and then press on merge, ok
+11. on menge cu write 1 and then press on merge, ok
     * => net weight updates accordingly on each LU (LU1 has qty-1 and LU2 has qty+1)
 	* => tara and gross weights are calculated same as in step 3
 
-11. join both TUs on the same LU: select the TU inside LU1, select LU2, press join
+12. join both TUs on the same LU: select the TU inside LU1, select LU2, press join
 
-12. select menge LU and menge TU and press ok
+13. select menge LU and menge TU and press ok
     * => only 1 LU remaining, with 2 TUs
 	* => all weights updated accordingly (tara weight updated because there are more TUs, net weight is like at begining- see step 6, gross weight = tara+net weight)
 
-13. select a TU, press on aus TU verteilen
+14. select a TU, press on aus TU verteilen
 
-14. put a part of it on the other TU 
+15. put a part of it on the other TU 
     * => the weights didn't change on LU level. Only on TUs level
 
-15. use aus TU verteilen again, moving whole qty from one TU to another
+16. use aus TU verteilen again, moving whole qty from one TU to another
     * => net weight is the same, gross and tara updated accordingly
 
 **Partial receipt. Weight more than TUs capacity**
