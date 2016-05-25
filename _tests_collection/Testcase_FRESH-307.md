@@ -49,7 +49,7 @@ dates used for the old reports when running the new ones as well (e.g. same Stic
 	
 1. Create a sales invoice A for G000X in Org I, and one invoice B for G000Y in Org II
 
-1. Complete them, and make sure they are both posted (check the accounts which are used for posting!)
+1. Complete them, and make sure they are both posted (check which accounts are used for posting!)
 
 1. Run Konten-Information for Org I and the resp. account used for posting of the invoice of G000X
 
