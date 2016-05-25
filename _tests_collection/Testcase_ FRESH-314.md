@@ -35,7 +35,7 @@ required data:
 
 	* => Created by: EDI-ORDERS Import Automatic User
 	
-1. Zoom into Lieferdispo, create the inout with Gear, Auswahl liefern
+1. Zoom into Lieferdispo, create the inout with Gear, Auswahl liefern (note the time!)
 
 1. Zoom into the inout, and reduce the qty for both products P0001 and P0002
 
@@ -51,4 +51,20 @@ required data:
 
 	* => Header: Created by: System, Updated by: EDI-ORDERS Import Automatic User 
 	* => Table: Updated by: EDI-ORDERS Import Automatic User (new), User S (old) 
+
+1. In database, run
+
+	```sh
+	SELECT * 
+	FROM AD_Changelog 
+	WHERE AD_PInstance_ID IS NOT NULL
+ 	AND TrxName ilike 'GenerateInOutFromShipmentSchedules'
+ 	AND Created>='2016-05-24 16:20:00' 
+ 	AND Created>='2016-05-24 16:25:00'
+ 	```
+ 	*Data for Created shall cover the time when you created the inout, this is just an example!*
+ 	
+1. Open Prozess-Revision, and search for Prozess-Instanz (ID): = the one you received from the query above
+
+	* => all info about the process creating your inout, e.g. User, protocol etc.
 	
