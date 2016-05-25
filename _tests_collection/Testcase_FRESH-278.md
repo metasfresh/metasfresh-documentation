@@ -88,7 +88,7 @@ required data:
 	
 	|	Währung	|	Art		|	 Zeitperiode (example)	|	Vergleichsperiode	|	Artikelkategorie	|	Artikel		|	Merkmal	|
 	| --------- |:---------:|:-------------------------:|:---------------------:|:---------------------:|:-------------:|:---------:|
-	|	CHF		|	Verkauf	|	20 2016 - 20 2016		|	19 2016 - 19 2016	|	alle				|	category C	|	alle	|
+	|	CHF		|	Verkauf	|	20 2016 - 20 2016		|	19 2016 - 19 2016	|	C				|	alle	|	alle	|
 	
 	
 	*Umsatzreport Geschäftspartner Woche G000X* 
@@ -106,7 +106,7 @@ required data:
 	
 	|	Währung	|	Art		|	 Zeitperiode (example)	|	Vergleichsperiode	|	Artikelkategorie	|	Artikel		|	Merkmal	|
 	| --------- |:---------:|:-------------------------:|:---------------------:|:---------------------:|:-------------:|:---------:|
-	|	CHF		|	Verkauf	|	20 2016 - 20 2016		|	19 2016 - 19 2016	|	alle				|	category C	|	alle	|
+	|	CHF		|	Verkauf	|	20 2016 - 20 2016		|	19 2016 - 19 2016	|	C				|	alle	|	alle	|
 	
 	
 	*Umsatzreport Geschäftspartner Woche G000X* 
