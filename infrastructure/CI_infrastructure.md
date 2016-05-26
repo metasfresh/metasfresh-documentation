@@ -2,8 +2,8 @@
 tags: CI, infrastructure
 ---
 
-Example:
 When building and deploying artifacts on our CI infrastructure, we build the "master" branch, but also feature branches like "FRESH-123"
+
 We distinguish between "master" builds and "feature" builds. 
 
 Note that there are dedicated "master" and "feature" build jobs, to  make it easier to e.g. provide a dedicated build agent for each kind of job, or to be able to prefer master builds to feature builds if needed.
@@ -11,14 +11,16 @@ Note that there are dedicated "master" and "feature" build jobs, to  make it eas
 "master" build
 
 When doing a "master" build, all metasfresh dependencies are build from their respective git repositories' master branches. 
-Also, the build artifacts' version is each set to 1-master-SNAPSHOT, as well as the value of this property, before the actual build starts.
+Also, the build artifacts' versions are each set to 1-master-SNAPSHOT, as well as the value of the metasfresh-dependency.version property, and then the actual build starts.
 
 Therefore, in a "master" build, only artifacts from the master branch are considered as dependencies.
 
-This scenario is comparatively boring and not the reason why need the metasfresh-dependency.version property.
+This scenario is comparatively boring and ***not*** the reason why need the metasfresh-dependency.version property and all build jobs & documentation.
  
 "feature" build
- 
+
+Feature builds are important to validate contributions before they are integrated into the main line of development.
+
 When doing a "feature" build, it means that the respective build itself ***or at least one of its metasfresh dependencies*** are build from their respective repositories' "not-master" branches.
 Typically, this is a branch like "FRESH-123, but it might also be some branch. 
 So, calling it a "feature" build is usually correct and seems to be relatively clear to me, but calling it "not-master" build would actually be more correct. 
