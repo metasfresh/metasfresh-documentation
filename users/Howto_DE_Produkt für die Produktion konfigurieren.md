@@ -1,5 +1,5 @@
---
---
+---
+---
 # Produkt für die Produktion konfigurieren
 ## Vorbereitung
 1. Es existiert ein Produkt namens "Ergebnis" das hergestellt werden soll
