@@ -47,7 +47,7 @@ This scenario is comparatively boring and ***not*** the reason why we need the m
 # "feature" build
 
 When doing a "feature" build, it means that the respective build itself ***or at least one of its metasfresh dependencies*** are built from their respective repositories' "not-master" branches.
-Typically, this is a branch like "FRESH-123", but it might also be some branch. 
+Typically, this is a branch like "FRESH-123", but it might also be some other branch. 
 So, calling it a "feature" build is usually correct and seems to be relatively clear to me, but calling it "not-master" build would actually be more correct. 
  
 To illustrate this case, I'll go with a concrete example:
@@ -69,6 +69,7 @@ Now we push a change on `metasfresh-commons-cxf`, branch `FRESH-276`.
 The push causes the git repository to notify our CI server (which is Jenkins), which in turn starts the build job `metasfresh-commons-cxf_feature`.
 
 This build job now does a number of things:
+
 1. check out the latest of branch `origin/FRESH-276` from the git repository
 1. get the branch name (i.e. "FRESH-276")
 1. call the [versions-maven-plugin](http://www.mojohaus.org/versions-maven-plugin) to set the pom's version to `2-FRESH-276-SNAPSHOT`
@@ -77,6 +78,7 @@ This build job now does a number of things:
 When invoking the downstream jobs, it also passes the maven version (i.e. `2-FRESH-276-SNAPSHOT`) on to them.
 
 So, now the build job `metasfresh-procurement-webui_feature` is invoked with a version parameter `2-FRESH-276-SNAPSHOT`. It does the following:
+
 1. attempt to check out the branch `origin/FRESH-276`, but as there is no such branch, it falls back to the `origin/master` branch
 1. call the [versions-maven-plugin](http://www.mojohaus.org/versions-maven-plugin) to set the pom's version also to `2-FRESH-276-SNAPSHOT`. 
 So, note that when dedicing on the maven version to go with, the parameter we got from the upstream build job takes precedence over the actual branch which the job is building!
