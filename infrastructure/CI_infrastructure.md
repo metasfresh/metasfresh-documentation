@@ -13,7 +13,12 @@ We might, for example, want to deploy them to a dedicated server for integration
 
 Finally, when developing locally, we need our local changes to take precedence, but also want to fall back to the "standard" version of those artifacts we need, but don't really care for.
 
-On a side note, when building in our CI infrastructure, we make heavy use of the [versions-maven-plugin](http://www.mojohaus.org/versions-maven-plugin) to edit the `version` value of our `pom.xml` files, before we build and deploy the respective projects.
+Some side notes
+* when building in our CI infrastructure, we make heavy use of the [versions-maven-plugin](http://www.mojohaus.org/versions-maven-plugin) to edit the `version` value of our `pom.xml` files, before we build and deploy the respective projects.
+* This work was to a great extend inspiered by those two articles 
+** https://opensource.com/business/15/12/next-gen-ci
+** https://axelfontaine.com/blog/final-nail.html
+* obviously, this would not have been possible without the great people that provided us with jenkins, git, the jenkins-git-plugin, linux etc. etc.
 
 # The `metasfresh-dependency.version` build property
 
