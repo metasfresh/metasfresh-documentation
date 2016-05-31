@@ -9,7 +9,8 @@ This site contains the experimental beginnings of
 
 * individual windows' documentation
 * workflow related documentation
-* [tests' documentation](tests_static/). 
+* [developer documentation](documentation_static/developer_doc_getting_started)
+* [tests' documentation](tests_static/).
 * maybe also our javadocs
 
 # Additional notes
