@@ -1,6 +1,6 @@
 ---
 title: IT FRESH-320
-required data: -
+required data:
 ---
 
 # IT FRESH-320
