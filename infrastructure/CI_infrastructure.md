@@ -116,4 +116,4 @@ For the `_feature_webhook` we pretty much leave the jenkins git plugin alone, an
 But for the fallback ability of the `_feature_downstream` scenario, we need to use the [Git Chooser Alternative Plugin](https://wiki.jenkins-ci.org/display/JENKINS/Git+Chooser+Alternative+Plugin). And it turned out, that with this plugin being active for a build job, the git plugin is not able any more to idendfiy the changes is has to build.
 
 Thus the two different jobs.
-As usual, be would be greatful for help.
+As usual, be would be grateful for help and improvements.
