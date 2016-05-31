@@ -1,6 +1,6 @@
 ---
 title: IT FRESH-329
-required data: -
+required data:
 ---
 
 # IT FRESH-329

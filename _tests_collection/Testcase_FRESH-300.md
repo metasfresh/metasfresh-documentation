@@ -1,6 +1,6 @@
 ---
 title: IT FRESH-300
-required data: -
+required data:
 ---
 
 # IT FRESH-300
