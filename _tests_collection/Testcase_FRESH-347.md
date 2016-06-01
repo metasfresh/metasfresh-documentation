@@ -36,3 +36,16 @@ required data:
 1. Zoom into the purchase orders
 
 	* => all three purchase orders you created are there, you can jump forth and back with the arrow buttons
+	
+1. Create another PMM_PurchaseCandidate for bpartner G000X, P0001, with the WebUI
+
+1. Open this PMM_PurchaseCandidate, and change the packing instruction or price
+
+1. Set a qty for Quantity to order (TU) in this PMM_PurchaseCandidate, and also for the older one
+
+1. Create the purchase order, so that it includes both PMM_PurchaseCandidates
+
+1. Zoom into the purchase order, and click Zoom Across there
+
+	 => the two PMM_PurchaseCandidate are displayed (=> Procurement candidates #2)
+
