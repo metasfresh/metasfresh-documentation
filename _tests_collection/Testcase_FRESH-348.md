@@ -21,7 +21,7 @@ required data:
 
 1. Open the PMM_PurchaseCandidate, search for bpartner G000X, and date of test
 
-	|	Produkt		|	Preis	|	
+	|	Product		|	Price	|	
 	| ------------	|:---------:|
 	|	P0001		|	1.00	|	
 	|	P0002		|	2.00	|	
