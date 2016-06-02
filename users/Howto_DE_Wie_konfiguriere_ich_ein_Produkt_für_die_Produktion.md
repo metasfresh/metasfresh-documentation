@@ -15,7 +15,7 @@
 1. __Lager__ auswählen in dem produziert werden soll
 1. __Produktionsressource__ auswählen mit der produziert werden soll
 1. __Wird produziert__ auf _Ja_ setzen
-1. __Stücklisten Konfiguration__ für das Produkt auswählen (siehe [Stückliste anlegen](Howto_DE_Wie_erstelle_ich_eine_Rezeptur_Stückliste.md) 
+1. __Stücklisten Konfiguration__ für das Produkt auswählen (siehe [Stückliste anlegen](Howto_DE_Wie_erstelle_ich_eine_Rezeptur_Stückliste.md))
 1. __Arbeitsablauf__ auswählen nach dem produziert werden soll
 1. __Order Policy__ _Lot for Lot_ auswählen
 1. optional: Wenn der Produktionsauftrag automatisch fertiggestellt werden soll __isDocComplete__ anhaken
