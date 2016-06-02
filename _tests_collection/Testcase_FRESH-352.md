@@ -5,7 +5,7 @@ required data:
 ---
 
 # IT FRESH-352
-### Avola Colored Bar similar Test
+### Colored Bar similar Test
 > Testcase to check if the window header
 > has different colours set for each Org.
 
