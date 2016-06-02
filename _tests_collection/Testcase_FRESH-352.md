@@ -31,8 +31,10 @@ required data:
 	|	#ffffff		|	white	|	
 	|	#000000		|	black	|		
 	
-		* => when you log out and log in again, the colour in the window header is displayed as you set it before
 
+1. Log out and in again for each Org
+
+	* => the colour in the window header is displayed as you set it before
 
 1. Play with the colours of UI_WindowHeader_Notice_FR_Color:
 
@@ -43,14 +45,16 @@ required data:
 	|	#0000ff		|	blue	|	
 	|	#ffff00		|	yellow	|
 	|	#ffffff		|	white	|	
-	|	#000000		|	black	|		
+	|	#000000		|	black	|
 	
-		* => when you log out and log in again, the colour of the text in the window header is displayed as you set it before
+	
+1. Log out and in again for each Org
+	
+	* => the colour of the text in the window header is displayed as you set it before
 
-		
-1. Set different texts for each Org in UI_WindowHeader_Notice_Text
+1. Set different texts for each Org in UI_WindowHeader_Notice_Text, log out and in again
 
-	* => when you log out and log in again, the text in the window header is displayed as you set it before
+	* => the text in the window header is displayed as you set it before
 	
 1. Inactivate UI_WindowHeader_Notice_FG_Color and UI_WindowHeader_Notice_BG_Color for Org I, but leave UI_WindowHeader_Notice_Text
 
@@ -58,7 +62,7 @@ required data:
 
 	* => this should be set as the default colour for Org, if only the text is set for it
 
-1. Log out and log in again for Org I
+1. Log out and in again for Org I
 
 	* => colour in window header is the default colour as defined above; default colour for text is white
 
