@@ -22,3 +22,6 @@
 1. in __Produkt__ "teil2" eintragen
 1. Haken setzen bei __Ist Menge in %__
 1. In Feld __Menge %___ 60% eintragen
+1. Im Menü den Prozess "Stückliste verifizieren" öffnen
+1. Die Produktgruppe des Stücklistenproduktsauswählen
+1. OK klicken
