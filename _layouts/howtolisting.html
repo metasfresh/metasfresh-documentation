@@ -1,0 +1,19 @@
+{% include head.html %}
+
+   <h1 class="title-site">{{ page.title }}</h1>
+
+    {{ content }}
+
+	<ul>
+			{% comment %} for now, iterate all howtos that we have
+			{% endcomment %}
+	        {% for p in site.users %}
+	        <li>
+	        	<a href="{{ site.baseurl }}{{ p.url }}">
+		            {{ p.title }}
+		        </a>
+	        </li>
+	        {% endfor %}
+	    </ul>
+	
+{% include foot.html %}
