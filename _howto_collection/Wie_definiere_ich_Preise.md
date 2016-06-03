@@ -1,7 +1,7 @@
 ---
 title: Wie definiere ich Preise ?
 ---
-# {{title}}
+# Wie definiere ich Preise ?
 
 * TOC
 {:toc}
