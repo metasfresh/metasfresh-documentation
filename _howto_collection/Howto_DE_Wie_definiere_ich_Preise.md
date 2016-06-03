@@ -12,7 +12,7 @@ Um einen Partnerspezifischen Preis für einen Artikel zu definieren benötigst D
 1. Einen Preisdatensatz
 1. Das Preissystem muss dem Partner zugeordnet sein
 
-![Preise]({{ site.url }}/images/de_drawing_preissystem_hierachie.png)
+![Preise](../images/de_drawing_preissystem_hierachie.png)
 
 ## Schritte
 
