@@ -8,17 +8,17 @@ title: Wie erstelle ich eine Stückliste mit Prozentualen Anteilen (Rezept) ?
 
 ## Schritte
 1. Fenster "Stücklistenkonfiguration" öffnen
-1. [Neuen Datensatz anlegen](Wie_lege_ich_einen_neuen_datensatz_an)
+1. [Neuen Datensatz anlegen](Wie_lege_ich_einen_neuen_datensatz_an.md)
 1. Produkt auswählen
 1. Datum für __gültig ab__ wählen das in der Vergangenheit liegt
-1. [Speichern](Wie_lege_ich_einen_neuen_datensatz_an)
+1. [Speichern](Wie_lege_ich_einen_neuen_datensatz_an.md)
 1. Register `Stücklistenbestandteile` wechseln
-1. [Neuen Datensatz anlegen](Wie_lege_ich_einen_neuen_datensatz_an)
+1. [Neuen Datensatz anlegen](Wie_lege_ich_einen_neuen_datensatz_an.md)
 1. in __Produkt__ "teil1" eintragen
 1. Haken setzen bei __Ist Menge in %__
 1. In Feld __Menge %___ 40% eintragen
-1. [Speichern](Wie_lege_ich_einen_neuen_datensatz_an)
-1. [Neuen Datensatz anlegen](Wie_lege_ich_einen_neuen_datensatz_an)
+1. [Speichern](Wie_lege_ich_einen_neuen_datensatz_an.md)
+1. [Neuen Datensatz anlegen](Wie_lege_ich_einen_neuen_datensatz_an.md)
 1. in __Produkt__ "teil2" eintragen
 1. Haken setzen bei __Ist Menge in %__
 1. In Feld __Menge %___ 60% eintragen

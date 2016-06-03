@@ -21,6 +21,6 @@ LU|Ladehilfsmittel|Palette, Container, Paloxe, usw.
 
 HU|Konfiguration|Erklärung
 ---|---|---
-CU|[Wie lege ich ein Produkt an?](Wie_lege_ich_ein_neues_Produkt_an)|Zeigt wie Du eine CU erstellst und ihr eine oder mehrere Packvorschriften (CU-TU Zuordnung) zuweist.
+CU|[Wie lege ich ein Produkt an?](Wie_lege_ich_ein_neues_Produkt_an.md)|Zeigt wie Du eine CU erstellst und ihr eine oder mehrere Packvorschriften (CU-TU Zuordnung) zuweist.
 TU|Wie lege ich eine Packvorschrift an? 
 LU|Wie weise ich eine LU einer Packvorschrift zu?
