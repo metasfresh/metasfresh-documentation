@@ -1,6 +1,6 @@
 ---
+title: Wie konfiguriere ich ein Produkt für die Produktion ?
 ---
-# Wie konfiguriere ich ein Produkt für die Produktion ?
 ## Vorbereitung
 1. [Es existiert ein Produkt namens "Ergebnis" das hergestellt werden soll](Wie_lege_ich_ein_neues_Produkt_an.md)
 1. [Stückliste anlegen](Wie_erstelle_ich_eine_Rezeptur_Stückliste.md)

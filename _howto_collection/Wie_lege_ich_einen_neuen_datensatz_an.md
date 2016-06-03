@@ -1,7 +1,6 @@
 ---
+title: Wie lege ich einen neuen Datensatz an ?
 ---
-# Wie lege ich einen neuen Datensatz an ?
-
 1. Einzelblattansicht aktivieren
 	 *Hinweis:* Falls eine Liste anstelle von einzelnen Feldern zu sehen ist, kann die Ansicht mit ![Single View Icon](../images/icons/Multi24.png) gewechselt werden.
 1. In der Symbolleiste auf das Neu Icon ![Neu Icon](../images/icons/New24.png) klicken

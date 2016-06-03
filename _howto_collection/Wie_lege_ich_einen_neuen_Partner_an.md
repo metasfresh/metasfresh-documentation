@@ -1,7 +1,6 @@
 ---
+title: Wie lege ich einen neuen Partner an ?
 ---
-# Wie lege ich einen neuen Partner an ?
-
 1. [Fenster Geschäftspartner öffnen](Wie_finde_und_öffne_ich_ein_Fenster.md)
 1. [Neuen Datensatz anlegen](Wie_lege_ich_einen_neuen_datensatz_an.md)
 1. Feld **Name** ausfüllen

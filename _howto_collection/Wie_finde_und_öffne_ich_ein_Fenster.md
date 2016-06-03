@@ -1,7 +1,6 @@
 ---
+title: Wie finde und öffne ich ein Fenster ?
 ---
-# Wie finde und öffne ich ein Fenster ?
-
 ## Suchfunktion nutzen
 1. An metasfresh anmelden
 1. Im Hauptmenü im Feld **Suche** einen Teil oder den ganzen Fensternamen eingeben ![Icon](../images/de_menu_suche.png)

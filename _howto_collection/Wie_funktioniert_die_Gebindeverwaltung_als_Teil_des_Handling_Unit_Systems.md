@@ -1,9 +1,6 @@
 ---
+title: Wie funktioniert die Gebindeverwaltung als Teil des Handling Unit Systems?
 ---
-
-# Wie funktioniert die Gebindeverwaltung als Teil des Handling Unit Systems?
-
-
 ## Übersicht
 
 metasfresh ermöglicht Dir ein Produkt nicht nur platt mit Bestandsmenge zu führen, sondern auch abzubilden in welcher Form der Artikel vorliegt.

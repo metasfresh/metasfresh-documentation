@@ -1,6 +1,7 @@
 ---
+title: Wie erstelle ich eine Stückliste mit Prozentualen Anteilen (Rezept) ?
 ---
-# Wie erstelle ich eine Stückliste mit Prozentualen Anteilen (Rezept) ?
+
 ## Vorbereitung
 1. Es existiert ein Produkt namens "Ergebnis" das hergestellt werden soll
 1. Es existiert zwei Produkte namens "teil1" und "teil2" aus denen Produkt "Ergebnis"  hergestellt werden soll
