@@ -2,7 +2,9 @@
 title: Wie definiere ich Preise ?
 ---
 # Wie definiere ich Preise ?
+
 ## Übersicht
+
 Um einen Partnerspezifischen Preis für einen Artikel zu definieren benötigst Du mindestens:
 
 1. Ein Preissystem
