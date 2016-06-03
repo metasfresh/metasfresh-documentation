@@ -2,8 +2,8 @@
 title: Wie lege ich ein neues Produkt an ?
 ---
 # Wie lege ich ein neues Produkt an ?
-1. [Fenster "Produkt" öffnen](Wie_finde_und_öffne_ich_ein_Fenster.md)
-1. [Neuen Datensatz anlegen](Wie_lege_ich_einen_neuen_datensatz_an.md)
+1. [Fenster "Produkt" öffnen](Wie_finde_und_öffne_ich_ein_Fenster)
+1. [Neuen Datensatz anlegen](Wie_lege_ich_einen_neuen_datensatz_an)
 1. Feld **Name** ausfüllen
 
 	*Hinweis:* Die **Artikelnummer** wird automatisch anhand der konfigurierbaren Nummernfolge beim Speichern gefüllt.
@@ -32,28 +32,28 @@ title: Wie lege ich ein neues Produkt an ?
 1. Feld **Lagerhaltig** bestimmt ob der Artikel (insofern Artikelart auf Option "Artikel" steht) bestandsgeführt wird
 1. Feld **eingekauft** bestimmt ob der Artikel im Einkauf zu Verfügung steht
 1. Feld **verkauft** bestimmt ob der Artikel im Einkauf zu Verfügung steht
-1. [Speichern](Wie_lege_ich_einen_neuen_datensatz_an.md)
+1. [Speichern](Wie_lege_ich_einen_neuen_datensatz_an)
 1. Register "CU-TU Zuordnung" öffnen
 	* **Artikel ohne Gebinde**
-		1. [Neuen Datensatz anlegen](Wie_lege_ich_einen_neuen_datensatz_an.md)
+		1. [Neuen Datensatz anlegen](Wie_lege_ich_einen_neuen_datensatz_an)
 		1. **Packvorschrift** "VirtualPI" auswählen
 		1. **unbestimmte Kapazität** anhaken
 		1. **gültig ab** Datum eintragen ab wann die Packvorschrift aktiviert sein soll. Üblicher Wert wäre ein Datum kleiner als heute.
-		1. [Speichern](Wie_lege_ich_einen_neuen_datensatz_an.md)
+		1. [Speichern](Wie_lege_ich_einen_neuen_datensatz_an)
 	* **Artikel im Gebinde** - Artikel soll mittels Packvorschrift als Gebinde verwaltet werden
-		1. [Neuen Datensatz anlegen](Wie_lege_ich_einen_neuen_datensatz_an.md)
+		1. [Neuen Datensatz anlegen](Wie_lege_ich_einen_neuen_datensatz_an)
 		1. Passende **Packvorschrift** auswählen
 		1. **Menge** eingeben wie oft der Artikel (CU) in die Packung (TU) passt
 		1. **gültig ab** Datum eintragen ab wann die Packvorschrift aktiviert sein soll. Üblicher Wert wäre ein Datum kleiner als heute.
 		1. Optional **Geschäftspartner** angeben damit diese Packvorschrift nur für diesen einen Partner gilt.
-		1. [Speichern](Wie_lege_ich_einen_neuen_datensatz_an.md)
+		1. [Speichern](Wie_lege_ich_einen_neuen_datensatz_an)
 
 *Hinweis:* Es können für einen Artikel auch verschiedene Packvorschriften erstellt werden!
 
 ## Wie geht es weiter?
-1. [Wie definiere ich Preise?](Wie_definiere_ich_Preise.md)
+1. [Wie definiere ich Preise?](Wie_definiere_ich_Preise)
 1. Wie konfiguriere ich einen Artikel für den Einkauf?
 1. Wie definiere ich die Steuerkategorie für einen Artikel?
 1. Wie stelle ich eine Übersetzung für einen Artikel ein?
 1. Wie definiere ich Umrechnungen zwischen Maßeinheiten?
-1. [Wie konfiguriere ich ein Produkt für die Produktion?](Wie_konfiguriere_ich_ein_Produkt_für_die_Produktion.md)
+1. [Wie konfiguriere ich ein Produkt für die Produktion?](Wie_konfiguriere_ich_ein_Produkt_für_die_Produktion)
