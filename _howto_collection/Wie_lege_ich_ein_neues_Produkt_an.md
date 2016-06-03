@@ -1,6 +1,7 @@
 ---
 title: Wie lege ich ein neues Produkt an ?
 ---
+# Wie lege ich ein neues Produkt an ?
 1. [Fenster "Produkt" öffnen](Wie_finde_und_öffne_ich_ein_Fenster.md)
 1. [Neuen Datensatz anlegen](Wie_lege_ich_einen_neuen_datensatz_an.md)
 1. Feld **Name** ausfüllen
