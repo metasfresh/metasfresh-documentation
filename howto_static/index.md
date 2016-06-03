@@ -1,8 +1,8 @@
 ---
 layout: howtolisting
-title: How To documentations
+title: How To Dokumentation
 ---
 
-This is the root for our documented How To manuals.
+# Inhaltsverzeichnis
 
 
