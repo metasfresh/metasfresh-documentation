@@ -1,9 +1,9 @@
----
+ï»¿---
 ---
 # Wie definiere ich Preise ?
 
-## Übersicht
-Um einen Partnerspezifischen Preis für einen Artikel zu definieren benötigst Du mindestens:
+## Ãœbersicht
+Um einen Partnerspezifischen Preis fÃ¼r einen Artikel zu definieren benÃ¶tigst Du mindestens:
 
 1. Ein Preissystem
 1. Eine Preisliste
@@ -16,49 +16,49 @@ Um einen Partnerspezifischen Preis für einen Artikel zu definieren benötigst Du 
 ## Schritte
 
 1. **Preissystem anlegen**
-	1. [Fenster "Preise" öffnen](Howto_DE_Wie_finde_und_öffne_ich_ein_Fenster.md) 
+	1. [Fenster "Preise" Ã¶ffnen](Howto_DE_Wie_finde_und_Ã¶ffne_ich_ein_Fenster.md) 
 	1. [Neuen Datensatz anlegen](Howto_DE_Wie_lege_ich_einen_neuen_datensatz_an.md)
-	1. Feld **Name** ausfüllen
+	1. Feld **Name** ausfÃ¼llen
 	1. [Speichern](Howto_DE_Wie_lege_ich_einen_neuen_datensatz_an.md)
 1. **Preisliste anlegen**
-	1. Register "Preisliste" öffnen 
+	1. Register "Preisliste" Ã¶ffnen 
 	1. [Neuen Datensatz anlegen](Howto_DE_Wie_lege_ich_einen_neuen_datensatz_an.md) 
-	1. Feld **Name** ausfüllen 
-	1. Feld **Land**: Das Land muss mit dem Land Liefer- und Rechnungsadresse des Partners übereinstimmen.
+	1. Feld **Name** ausfÃ¼llen 
+	1. Feld **Land**: Das Land muss mit dem Land Liefer- und Rechnungsadresse des Partners Ã¼bereinstimmen.
 	1. Feld **Preise inkl. Steuern**: Steuert ob die Preise inklusive Mehrwertsteuer (Brutto) oder exklusive (netto) zu verstehen sind. metasfresh rechnet dem entsprechend die Steuer entweder aus dem Preis oder auf den Preis.
-	1. Feld **Verkaufspreisliste**: Steuert ob diese Preisliste für den Verkauf verwendet werden soll.
+	1. Feld **Verkaufspreisliste**: Steuert ob diese Preisliste fÃ¼r den Verkauf verwendet werden soll.
 	1. [Speichern](Howto_DE_Wie_lege_ich_einen_neuen_datensatz_an.md) 
 1. **Preissystem anlegen**
-	1. Register "Preislistenversion" öffnen 
+	1. Register "Preislistenversion" Ã¶ffnen 
 	1. [Neuen Datensatz anlegen](Howto_DE_Wie_lege_ich_einen_neuen_datensatz_an.md)
-	1. Feld **Name** ausfüllen
-	1. Feld **gültig ab** bestimmt ab wann diese Version gültig ist. Das Datum kann in der Vergangenheit liegen falls die Version sofort gelten soll oder auch in der Zukunft falls die Preise erst ab einem bestimmten Datum verwendet werden sollen. metasfresh holt sich anhand des zugesagten Datum in Auftrag oder Bestellung die Preise von der jeweiligen Preislistenversion mit dem passenden gültig ab Datum.
+	1. Feld **Name** ausfÃ¼llen
+	1. Feld **gÃ¼ltig ab** bestimmt ab wann diese Version gÃ¼ltig ist. Das Datum kann in der Vergangenheit liegen falls die Version sofort gelten soll oder auch in der Zukunft falls die Preise erst ab einem bestimmten Datum verwendet werden sollen. metasfresh holt sich anhand des zugesagten Datum in Auftrag oder Bestellung die Preise von der jeweiligen Preislistenversion mit dem passenden gÃ¼ltig ab Datum.
 	1. [Speichern](Howto_DE_Wie_lege_ich_einen_neuen_datensatz_an.md)
 1. **Preis anlegen**
-	1. Register "Produkt-Preis" öffnen 
+	1. Register "Produkt-Preis" Ã¶ffnen 
 	1. [Neuen Datensatz anlegen](Howto_DE_Wie_lege_ich_einen_neuen_datensatz_an.md)
-	1. Feld **Produkt** ausfüllen
-	1. Feld **Steuerkategorie** enthält die jeweilige Mehrwertsteuerkategorie wie z.B. Normal, Reduziert, Steuerfrei enthalten.
+	1. Feld **Produkt** ausfÃ¼llen
+	1. Feld **Steuerkategorie** enthÃ¤lt die jeweilige Mehrwertsteuerkategorie wie z.B. Normal, Reduziert, Steuerfrei enthalten.
 	1. Feld **Auszeichnunspreis** dient nur zur Anzeige des Listenpreises auf Belegen
 	1. Feld **Standardpreis** ist der Preis der effektiv gilt.
-	1. Feld **Limitpreis** darf durch eine manuelle Preisänderung nicht unterschritten werden.
-	1. Feld **Maßeinheit** ist die Preiseinheit und nicht zu verwechseln mit der Maßeinheit des Artikels für die Bestandsführung.
+	1. Feld **Limitpreis** darf durch eine manuelle PreisÃ¤nderung nicht unterschritten werden.
+	1. Feld **MaÃŸeinheit** ist die Preiseinheit und nicht zu verwechseln mit der MaÃŸeinheit des Artikels fÃ¼r die BestandsfÃ¼hrung.
 	1. [Speichern](Howto_DE_Wie_lege_ich_einen_neuen_datensatz_an.md)
 1. **Preissystem dem Partner zuordnen**
-	1. [Fenster "Geschäftspartner" öffnen](Howto_DE_Wie_finde_und_öffne_ich_ein_Fenster.md) 
+	1. [Fenster "GeschÃ¤ftspartner" Ã¶ffnen](Howto_DE_Wie_finde_und_Ã¶ffne_ich_ein_Fenster.md) 
 	* **Fall Kunde**
-		1. Register "Kunde" öffnen
+		1. Register "Kunde" Ã¶ffnen
 		1. Feld **Preissystem**
 			1. rechte Maustaste auf das Feld klicken und "aktualisieren" klicken
-			1. das zuvor erstellte Preissystem auswählen
+			1. das zuvor erstellte Preissystem auswÃ¤hlen
 	* **Fall Lieferant**
-		1. Register "Lieferant" öffnen
+		1. Register "Lieferant" Ã¶ffnen
 		1. Feld **Preissystem**
 			1. rechte Maustaste auf das Feld klicken und "aktualisieren" klicken
-			1. das zuvor erstellte Preissystem auswählen
+			1. das zuvor erstellte Preissystem auswÃ¤hlen
 		
-## Häufige Fragen
-**Frage:** Warum taucht das von mir erstellte Preissystem nicht im Fenster Geschäftsparnter auf?
+## HÃ¤ufige Fragen
+**Frage:** Warum taucht das von mir erstellte Preissystem nicht im Fenster GeschÃ¤ftsparnter auf?
 
-**Antwort**: Taucht das Preissystem nicht auf bitte das Feld **Verkaufspreisliste** in der Preisliste überprüfen.
-Außerdem überprüfe ob Du das Feld mit **rechte Maustaste => aktualisieren** neu geladen hast.
+**Antwort**: Taucht das Preissystem nicht auf bitte das Feld **Verkaufspreisliste** in der Preisliste Ã¼berprÃ¼fen.
+AuÃŸerdem Ã¼berprÃ¼fe ob Du das Feld mit **rechte Maustaste => aktualisieren** neu geladen hast.
