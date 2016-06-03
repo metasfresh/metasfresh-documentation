@@ -3,6 +3,9 @@ title: Wie definiere ich Preise ?
 ---
 # Wie definiere ich Preise ?
 
+* TOC
+{:toc}
+
 ## Übersicht
 
 Um einen Partnerspezifischen Preis für einen Artikel zu definieren benötigst Du mindestens:
