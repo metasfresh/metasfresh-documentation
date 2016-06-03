@@ -7,11 +7,12 @@ title: Home
 
 This site contains the experimental beginnings of
 
-* individual windows' documentation
+* [How Tos](users/)
+* [developer documentation](developers/developer_doc_getting_started.md)
 * workflow related documentation
-* [developer documentation](documentation_static/developer_doc_getting_started)
-* [tests' documentation](tests_static/).
+* [test documentation](tests_static/)
 * maybe also our javadocs
+* * individual windows documentation
 
 # Additional notes
 
