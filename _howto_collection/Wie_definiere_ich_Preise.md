@@ -21,7 +21,7 @@ Um einen Partnerspezifischen Preis für einen Artikel zu definieren benötigst D
 ## Schritte
 
 1. **Preissystem anlegen**
-	1. [Fenster "Preise" öffnen](Wie_finde_und_öffne_ich_ein_Fenster.md) 
+	1. [Fenster "Preise" öffnen](Wie_finde_und_öffne_ich_ein_Fenster) 
 	1. [Neuen Datensatz anlegen](Wie_lege_ich_einen_neuen_datensatz_an.md)
 	1. Feld **Name** ausfüllen
 	1. [Speichern](Wie_lege_ich_einen_neuen_datensatz_an.md)
