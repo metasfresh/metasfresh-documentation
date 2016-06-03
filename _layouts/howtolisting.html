@@ -7,7 +7,7 @@
 	<ul>
 			{% comment %} for now, iterate all howtos that we have
 			{% endcomment %}
-	        {% for p in site.howto %}
+	        {% for p in site.howto_collection %}
 	        <li>
 	        	<a href="{{ site.baseurl }}{{ p.url }}">
 		            {{ p.title }}
