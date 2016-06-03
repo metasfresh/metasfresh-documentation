@@ -4,6 +4,8 @@ baseurl: /metasfresh-documentation
 collections:
   tests_collection:
     output: true
+  howto_collection:
+    output: true
 
 defaults:
   - scope:
