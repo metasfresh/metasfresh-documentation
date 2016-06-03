@@ -1,4 +1,4 @@
-﻿---
+---
 ---
 # Wie definiere ich Preise ?
 
