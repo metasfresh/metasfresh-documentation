@@ -4,12 +4,24 @@ baseurl: /metasfresh-documentation
 collections:
   tests_collection:
     output: true
-  howto_collection:
-    output: true
-
+  
+  
 defaults:
   - scope:
       path: ""
       type: tests
     values:
       layout: default
+
+
+  howto_collection:
+    output: true
+    
+    
+defaults:
+  - scope:
+      path: ""
+      type: howto
+    values:
+      layout: default
+
