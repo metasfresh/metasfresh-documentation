@@ -8,7 +8,7 @@ title: Home
 This site contains the experimental beginnings of
 
 * [How Tos](users/)
-* [developer documentation](developers/developer_doc_getting_started.md)
+* [developer documentation](developers/developer_doc_getting_started)
 * workflow related documentation
 * [test documentation](tests_static/)
 * maybe also our javadocs
