@@ -1,6 +1,6 @@
+﻿---
 ---
----
-##How To use Relations to browse through the workflow
+#How To use Relations to browse through the workflow
 
 ![Workflow](../_images/workflow_simple_order_to_invoice.png)
 
