@@ -1,5 +1,5 @@
 ---
-permalink: documentation_static/developer_doc_getting_started
+permalink: developers/developer_doc_getting_started
 ---
 
 # About this document
