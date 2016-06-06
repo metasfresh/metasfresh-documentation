@@ -4,8 +4,8 @@ title: Create your own metasfresh-installer using a script
 
 # Create your own metasfresh-installer
 ### Requirements:
-   * [This script](https://github.com/metasfresh/metasfresh/blob/master/de.metas.scripts.admin/installer_scripts/build_new_release.sh)
-   * [This config-file](https://github.com/metasfresh/metasfresh/blob/master/de.metas.scripts.admin/installer_scripts/.build_new_release.conf)
+   * [This script](https://github.com/metasfresh/metasfresh-scripts/blob/master/admin/installer_scripts/build_new_release.sh)
+   * [This config-file](https://github.com/metasfresh/metasfresh-scripts/blob/master/admin/installer_scripts/.build_new_release.conf)
    * On your build-server, you'll need following folders owned as "root":
 ```sh
 /opt/build
@@ -42,5 +42,4 @@ TRGT_DIR_DB=     #target directory where you want the database-seed to be upload
 /opt/build_tar/metasfresh-4_19_18.tar.gz         #This is the installer-tar-file
 /opt/build_db/metasfresh-4_19_18.pgdump          #This is the database-seed stored in native PostgreSQL-Format (pg_dump -Fc ...)
 /opt/mf_updates/metasfreshupdate_4_19_18.tar.gz  #This is the compressed update-package you can use to rollout any metasfresh-installation to this version
-```   
-   
+```
