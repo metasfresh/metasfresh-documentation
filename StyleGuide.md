@@ -1,5 +1,6 @@
 ---
 title: Style Guide
+layout: default
 ---
 
 # Style Guide for Documentation
@@ -8,7 +9,7 @@ title: Style Guide
 
 If you add new files ensure the following:
 * filename has extension .md (markdown)
-* UTF-8 Character Encoding 
+* UTF-8 **without BOM** character encoding 
 * a header for jekyll like:
 ```
 ---
