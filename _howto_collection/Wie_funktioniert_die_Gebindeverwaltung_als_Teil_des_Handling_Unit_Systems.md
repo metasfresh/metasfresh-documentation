@@ -21,6 +21,8 @@ CU|Produkt|Stückgut (z.B. Salatkopf), Schüttgut (z.B. Sand) oder Fließgut (z.
 TU|Verpackung|Einwegkiste, Mehrwegkiste (z.B. Eurobox, IFCO), Aufsteller,Getränkekiste, usw.
 LU|Ladehilfsmittel|Palette, Container, Paloxe, usw.
 
+## Einrichtung
+
 HU|Konfiguration|Erklärung
 ---|---|---
 CU|[Wie lege ich ein Produkt an?](Wie_lege_ich_ein_neues_Produkt_an)|Zeigt wie Du eine CU erstellst und ihr eine oder mehrere Packvorschriften (CU-TU Zuordnung) zuweist.
