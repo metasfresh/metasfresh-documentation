@@ -108,6 +108,7 @@ In the previous section, we described how a `_feature_webhook` build job was not
 Why do we need two different build jobs?
 
 Unfortunately, we need two differnt jobs for the two different scenarios, because yours truly is not capable of making one job do both things. Instead we have:
+
 * to be notified by the git repository and find out, which feature branch(es) have changes and need to be build => `_feature_webhook` job
 * to be invoked by an upstream job, try feature-branch first, master-branch second => `_feature_downstream` job
  
