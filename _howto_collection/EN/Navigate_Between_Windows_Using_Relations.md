@@ -1,7 +1,5 @@
----
-title: Navigate Between Windows Using Relations
-layout: default
----
+No frontmatter yet, since this page doesn't yet work
+
 #How To use Relations to browse through the workflow
 
 ![Workflow](../images/workflow_simple_order_to_invoice.png)
