@@ -7,6 +7,7 @@ title: Style Guide
 ## Technical Requirements
 
 If you add new files ensure the following:
+* filename has extension .md (markdown)
 * UTF-8 Character Encoding 
 * a header for jekyll like:
 ```
