@@ -1,5 +1,6 @@
 ---
 title: IT FRESH-272_version_2.0
+layout: default
 ---
 
 

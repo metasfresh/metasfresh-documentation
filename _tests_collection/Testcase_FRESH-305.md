@@ -4,6 +4,7 @@ required data:
    bpartner: bpartner G000X (vendor)
    products: P0001, P0002
    distribution network: for Material Receipt Warehouse W1
+layout: default
 ---
 
 # IT FRESH-305

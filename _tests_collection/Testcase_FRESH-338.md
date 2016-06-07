@@ -1,6 +1,7 @@
 ---
 title: IT FRESH-338
 required data: sales and purchase bpartners, 1 product per each
+layout: default
 ---
 
 # IT FRESH-338

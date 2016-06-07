@@ -3,6 +3,7 @@ title: IT FRESH-152
 required data:
    bpartner: bpartner G000X (customer & vendor)
    products: P0001
+layout: default
 ---
 
 # IT FRESH-152

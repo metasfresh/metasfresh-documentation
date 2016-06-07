@@ -1,6 +1,7 @@
 ---
 title: IT FRESH-333
 required data: bpartner with at least 1 procurement flatrate term, with no price set in flatrate data entry for the current month
+layout: default
 ---
 
 # IT FRESH-333

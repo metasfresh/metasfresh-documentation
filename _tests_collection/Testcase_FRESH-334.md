@@ -4,6 +4,7 @@ required data:
    bpartner: bpartners G000X (Org I), G000Y (Org II), G000Z (Org II)
    products: P0001 (Org I), P0002 (Org II)
    AD_Orgs: Org I, Org II, Org * 
+layout: default
 ---
 
 # IT FRESH-334

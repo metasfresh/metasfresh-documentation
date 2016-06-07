@@ -1,4 +1,6 @@
 ---
+layout: default
+tags: developer
 permalink: developers/EN/developer_doc_getting_started
 ---
 
