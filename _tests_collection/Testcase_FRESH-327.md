@@ -3,6 +3,7 @@ title: IT FRESH-327
 required data:
    bpartner: bpartner data for setup
    logo: logo != metasfresh 
+layout: default
 ---
 
 # IT FRESH-327

@@ -5,6 +5,7 @@ required data:
    products: P0001, P0002
    pricelist: customer pricelist for G000X & G000Y, including P0001 & P0002
    OLCands: for G000X, including P0001 & P0002, qty > 1 for both
+layout: default
 ---
 
 # IT FRESH-314

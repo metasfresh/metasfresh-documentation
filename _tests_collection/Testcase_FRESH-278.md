@@ -3,6 +3,7 @@ title: IT FRESH-278
 required data:
    bpartner: bpartners G000X & G000Y (customer & vendor)
    pricelist: vendor pricelist in EUR, vendor & customer pricelist in CHF
+layout: default
 ---
 
 # IT FRESH-278

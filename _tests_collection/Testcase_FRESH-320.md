@@ -1,6 +1,7 @@
 ---
+required datalayout: default
 title: IT FRESH-320
-required data:
+layout: default
 ---
 
 # IT FRESH-320

@@ -1,4 +1,5 @@
 ---
+layout: default
 tags: CI, infrastructure
 ---
 

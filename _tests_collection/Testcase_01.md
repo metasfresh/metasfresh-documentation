@@ -1,5 +1,6 @@
 ---
 title: Testcase 1
+layout: default
 ---
 
 # Testcase 1 

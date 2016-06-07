@@ -4,6 +4,7 @@ required data:
    bpartner: bpartner G000X (customer)
    products: P0001, P0002
    HUs: TU A x 5kg, TU B x 1kg
+layout: default
 ---
 
 # IT FRESH-251

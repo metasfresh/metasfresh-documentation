@@ -2,6 +2,7 @@
 title: IT FRESH-352
 required data:
    AD_Orgs: Org I, Org II, Org *
+layout: default
 ---
 
 # IT FRESH-352

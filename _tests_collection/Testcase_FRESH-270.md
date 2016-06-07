@@ -1,5 +1,6 @@
 ---
 title: IT FRESH-270
+layout: default
 ---
 
 # IT FRESH-270
