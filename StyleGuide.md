@@ -14,6 +14,7 @@ If you add new files ensure the following:
 ```
 ---
 title: StyleGuide
+layout: default
 ---
 ```
 * if your file is to be a part of a collection which is used to autogenerate table of contents, make sure its residing in a folder starting with "_"
