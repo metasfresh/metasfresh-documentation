@@ -8,11 +8,19 @@ title: Home
 This site contains the experimental beginnings of
 
 * [How Tos](howto_static/)
-* [developer documentation](developers/developer_doc_getting_started)
+
+* documentation for developers:
+** [getting started](developers/EN/developer_doc_getting_started): how to obtain and build metasfresh from the sources
+** [architectural overview](developers/EN/developer_doc_metasfresh_overview): different parts of metasfresh and what they are about
+** [buildsystem overview](infrastructure/EN/CI_infrastructure): how the maven-based buildsystem works locally as well a on our CI-server
+** Javadocs for the metasfresh 
+*** ["main" body of code](http://metasfresh.com/javadoc/metasfresh-master/) and also 
+*** [for the esb bundles](http://metasfresh.com/javadoc/metasfresh-esb-master/)
+
 * workflow related documentation
 * [test documentation](tests_static/)
-* maybe also our javadocs
-* * individual windows documentation
+
+* individual windows' documentation
 
 # Additional notes
 
