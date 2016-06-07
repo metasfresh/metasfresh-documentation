@@ -46,7 +46,7 @@ required data:
 
 	|	MwSt	|	Total Artikel	|	Total	|	Recapitulation					|	
 	| ---------	|:-----------------:|:---------:|:---------------------------------:|
-	|	empty	|	15.00 & 20.00	|	35.00	|	35.00, 2.5%, 35.85				|
+	|	2.5	|	15.00 & 20.00	|	35.00	|	35.00, 2.5%, 35.85				|
 	
 	
 1. Create a purchase order and a sales order for G000X, using the same tax, products and qties as the invoices (no TUs!)
