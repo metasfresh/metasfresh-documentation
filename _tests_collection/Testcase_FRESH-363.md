@@ -3,7 +3,7 @@ title: IT FRESH-363
 required data:
    AD_Client: Client I
    AD_Orgs: Org I
-   layout: default
+layout: default
 ---
 
 # IT FRESH-363
