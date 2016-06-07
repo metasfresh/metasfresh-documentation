@@ -16,7 +16,7 @@ This site contains the experimental beginnings of
 * documentation for admins and release managers:
   - [how to create your own metasfresh-installer](admins/installer_scripts/EN/build_new_release)
 
-* [Support & Troubleshooting](support_static/)
+* [Support & Troubleshooting](support_static/EN/)
 
 * [test documentation](tests_static/)
 * individual windows' documentation
