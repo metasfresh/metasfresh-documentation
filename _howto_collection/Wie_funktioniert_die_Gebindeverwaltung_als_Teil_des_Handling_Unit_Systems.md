@@ -14,6 +14,7 @@ Somit ist eine CU in einer TU in einer LU eine **Handling Unit**.
 ![Handling Unit](../images/en_drawing_Handling_Unit_System.png)
 
 ## Beispiele
+
 HU|typ|Beispiel
 ---|---|---
 CU|Produkt|Stückgut (z.B. Salatkopf), Schüttgut (z.B. Sand) oder Fließgut (z.B. Milch)
