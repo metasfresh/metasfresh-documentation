@@ -6,6 +6,8 @@ collections:
     output: true
   howto_collection:
     output: true
+  support_collection
+    output: true
   
 defaults:
   - scope:
