@@ -6,9 +6,9 @@ collections:
     output: true
   howto_collection:
     output: true
-  support_collection
+  support_collection:
     output: true
-  
+
 defaults:
   - scope:
       path: ""
