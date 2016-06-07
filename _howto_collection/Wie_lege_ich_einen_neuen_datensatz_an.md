@@ -1,5 +1,6 @@
 ---
 title: Wie lege ich einen neuen Datensatz an ?
+layout: default
 ---
 1. Einzelblattansicht aktivieren
 	 *Hinweis:* Falls eine Liste anstelle von einzelnen Feldern zu sehen ist, kann die Ansicht mit ![Single View Icon](../images/icons/Multi24.png) gewechselt werden.

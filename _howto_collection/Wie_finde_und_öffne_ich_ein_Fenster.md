@@ -1,5 +1,6 @@
 ---
 title: Wie finde und öffne ich ein Fenster ?
+layout: default
 ---
 ## Suchfunktion nutzen
 1. An metasfresh anmelden

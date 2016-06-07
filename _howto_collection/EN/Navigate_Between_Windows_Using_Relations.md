@@ -1,4 +1,6 @@
-﻿---
+---
+title: Navigate Between Windows Using Relations
+layout: default
 ---
 #How To use Relations to browse through the workflow
 

@@ -1,5 +1,6 @@
 ---
 title: Wie definiere ich Preise ?
+layout: default
 ---
 # Wie definiere ich Preise ?
 
