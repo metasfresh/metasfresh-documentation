@@ -24,5 +24,5 @@ layout: default
 1. Haken setzen bei **Ist Menge in %**
 1. In Feld **Menge %**_ 60% eintragen
 1. Im Menü den Prozess "Stückliste verifizieren" öffnen
-1. Die Produktgruppe des Stücklistenproduktsauswählen
+1. Die Produktgruppe des Stücklistenprodukts auswählen
 1. OK klicken
