@@ -1,6 +1,7 @@
 ---
 title: IT FRESH-331
 required data: products with uom kg, products with uom stk, bpartner for purchase
+layout: default
 ---
 
 # IT FRESH-331

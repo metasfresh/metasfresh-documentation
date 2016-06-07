@@ -1,7 +1,7 @@
 ---
 title: Create your own metasfresh-installer using a script
 layout: default
-permalink: admins/installer_scripts/EN/build_new_release.md
+permalink: admins/installer_scripts/EN/build_new_release
 ---
 
 # Create your own metasfresh-installer

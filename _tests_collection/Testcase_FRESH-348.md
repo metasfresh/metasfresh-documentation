@@ -6,6 +6,7 @@ required data:
    flatrate term: flatrate for procurement F
    pricelist: vendor pricelist P with IsTaxIncluded=Y
    prices: 1.00 for P0001 in F, 2.00 for P0002 in P
+layout: default
 ---
 
 # IT FRESH-348

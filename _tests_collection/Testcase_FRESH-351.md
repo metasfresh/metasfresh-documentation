@@ -6,6 +6,7 @@ required data:
    products: P0001 (Org I), P0002 (Org II)
    HUs: TU A (Org I), TU B (Org II)
    pricelists: vendor pricelist VP, customer pricelist CP
+layout: default
 ---
 
 # IT FRESH-351

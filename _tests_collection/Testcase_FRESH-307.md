@@ -3,6 +3,7 @@ title: IT FRESH-307
 required data:
    bpartner: G000X in Org I, G000Y in Org II (both customer)
    AD_Org: Org I, Org II
+layout: default
 ---
 
 # IT FRESH-307 (incl. FRESH-326)

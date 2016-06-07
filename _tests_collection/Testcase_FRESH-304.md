@@ -2,6 +2,7 @@
 title: IT FRESH-304
 required data:
    accounts: acct X with account type Expense or Revenue, acct Y with another acct type
+layout: default
 ---
 
 # IT FRESH-304

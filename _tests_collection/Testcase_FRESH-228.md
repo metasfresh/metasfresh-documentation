@@ -4,6 +4,7 @@ required data:
    bpartner: bpartner G000X (vendor)
    flatrate term: procurement for P0001, P0002
    other data: orders & inouts for P0001, P0002
+layout: default
 ---
 
 # IT FRESH-228
