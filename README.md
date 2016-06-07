@@ -1,5 +1,7 @@
 #metasfresh-documentation
 
+[![Join the chat at https://gitter.im/metasfresh/metasfresh-documentation](https://badges.gitter.im/metasfresh/metasfresh-documentation.svg)](https://gitter.im/metasfresh/metasfresh-documentation?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 This repo contains the experimental beginnings of
 * individual windows' documentation
 * workflow related documentation
