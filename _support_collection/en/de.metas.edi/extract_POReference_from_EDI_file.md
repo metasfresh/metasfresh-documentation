@@ -8,7 +8,7 @@ layout: default
 
 Here is an example for generated desadv files:
 
-{% include support/de.metas.edi/extract_POReference_from_EDI_file_bash.html %}
+{% include support/de.metas.edi/extract_POReference_from_EDI_file_bash.md %}
 
 Notes: 
 
