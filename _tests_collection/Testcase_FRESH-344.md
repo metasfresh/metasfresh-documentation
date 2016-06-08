@@ -1,11 +1,11 @@
 ---
 title: IT FRESH-344
 required data: 
-	ad_cliend_id: client1
-	pp_order_id: production orders
-	c_order_id: sales and purchase orders
-	c_invoice_id: sales and purchase invoices
-	m_inout_id: sales and purchase inouts
+   ad_cliend_id: client1
+   pp_order_id: production orders
+   c_order_id: sales and purchase orders
+   c_invoice_id: sales and purchase invoices
+   m_inout_id: sales and purchase inouts
 layout: default
 ---
 
@@ -774,6 +774,7 @@ layout: default
 	* => SELECT * FROM de_metas_fresh_kpi.KPI_Scrap_Worst_Numbers('2015-08-01','2015-08-31')
 
 **Shipment Status**
+
 1. What is used for 
 	* this report shows the status of a shipment and the invoiced amount
 	* this function returns the following columns:
