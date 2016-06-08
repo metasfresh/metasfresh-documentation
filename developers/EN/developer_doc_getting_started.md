@@ -8,6 +8,9 @@ permalink: developers/EN/developer_doc_getting_started
 
 The goal of this guide is to enable everyone who would like to contribute to metasfresh or to just simply study the code to do so.
 
+# Table of contents
+{:toc}
+
 # Get the code
 
 * go to the metasfresh repository at https://github.com/metasfresh/metasfresh and create your initial clone.
