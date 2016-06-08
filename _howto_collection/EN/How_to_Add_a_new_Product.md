@@ -4,8 +4,8 @@ layout: default
 ---
 
 # How do I add a new product ?
-1. [Open the window "Product" ](Wie_finde_und_öffne_ich_ein_Fenster)
-1. [Add new data](Wie_lege_ich_einen_neuen_datensatz_an)
+1. [Open the window "Product" ](How_to_find_and_open_a_window)
+1. [Add new data](How_to_add_new_data)
 1. Fill out the field **Name** 
 
 	*Note:* The **article number** will saved automatically according to the numbering rules which can be configured individually. 
@@ -34,7 +34,7 @@ layout: default
 1. Field **Used in warehouse** defines if the article (in case article type is set to article) is being accounted for
 1. Field **purchased** defines if the article is available in purchasing
 1. Field **sold** defines if the article is availably for purchasing
-1. [Save](Wie_lege_ich_einen_neuen_datensatz_an)
+1. [Save](How_to_add_new_data)
 1. Open register "CU-TU Zuordnung" 
 	* **Artikel ohne Gebinde**
 		1. [Neuen Datensatz anlegen](Wie_lege_ich_einen_neuen_datensatz_an)
