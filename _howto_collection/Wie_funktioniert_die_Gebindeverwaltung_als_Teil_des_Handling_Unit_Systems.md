@@ -14,11 +14,14 @@ Somit ist eine CU in einer TU in einer LU eine **Handling Unit**.
 ![Handling Unit](../images/en_drawing_Handling_Unit_System.png)
 
 ## Beispiele
+
 HU|typ|Beispiel
 ---|---|---
 CU|Produkt|Stückgut (z.B. Salatkopf), Schüttgut (z.B. Sand) oder Fließgut (z.B. Milch)
 TU|Verpackung|Einwegkiste, Mehrwegkiste (z.B. Eurobox, IFCO), Aufsteller,Getränkekiste, usw.
 LU|Ladehilfsmittel|Palette, Container, Paloxe, usw.
+
+## Einrichtung
 
 HU|Konfiguration|Erklärung
 ---|---|---
