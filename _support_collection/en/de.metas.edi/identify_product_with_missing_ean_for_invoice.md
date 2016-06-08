@@ -8,9 +8,9 @@ layout: default
 
 Typical error message in the invoice's EDI-Status:
 
-{% include {{incl_root}}/de.metas.edi/identify_product_with_missing_ean_for_invoice_errormsg.md %}
+{% include support/de.metas.edi/identify_product_with_missing_ean_for_invoice_errormsg.md %}
 
 This error message is not really helpfull..to find out which of the invoices' products lack an EAN (or customer product number!), you can do
 
-{% include {{incl_root}}/de.metas.edi/identify_product_with_missing_ean_for_invoice_sql.md %}
+{% include support/de.metas.edi/identify_product_with_missing_ean_for_invoice_sql.md %}
 
