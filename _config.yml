@@ -8,6 +8,7 @@ collections:
     output: true
   support_collection:
     output: true
+    incl_root: support
 
 defaults:
   - scope:
