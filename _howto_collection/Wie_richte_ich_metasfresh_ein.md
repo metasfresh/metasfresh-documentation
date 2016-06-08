@@ -1,5 +1,5 @@
 ---
-title: Wie definiere ich Preise ?
+title: Wie richte ich metasfresh ein ?
 layout: default
 label: Konfiguration, Quickstart
 ---
