@@ -4,6 +4,16 @@ tags: developer
 permalink: developers/EN/developer_doc_metasfresh_overview
 ---
 
+# About this document
+
+The goal of this guide is to help everyone who would like gain a better unterstanding of the metasfresh codebase. 
+
+If you want to check out and build the code, you might be interested in the [getting started](developer_doc_getting_started) document.
+
+# Table of contents
+{:toc}
+
+
 # metasfresh folders/modules overview
 
 The main [metasfresh code repository](https://github.com/metasfresh/metasfresh) has a number of different folders which we try to outline in this section.
