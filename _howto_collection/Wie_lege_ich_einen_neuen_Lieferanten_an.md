@@ -7,4 +7,4 @@ layout: default
 1. Den Haken bei Feld **Lieferant** aktivieren
 1. *Optional:* Weitere Felder wie Zahlungsbedingung, Preissystem, etc. ausfüllen und anschließend speichern
 
-> *Hinweis:* Ein Partner kann in metasfresh zugleich Kunde und Lieferant sein.
+	*Hinweis:* Ein Partner kann in metasfresh zugleich Kunde und Lieferant sein.
