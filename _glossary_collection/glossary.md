@@ -1,3 +1,7 @@
+---
+title: Glossary
+layout: default
+---
 
 ## Leihware
 Leihware sind Assets oder Ressourcen die ausgeliehen, verwendet und zurück gegeben werden, sich dabei abnutzen aber nicht verbrauchen.
