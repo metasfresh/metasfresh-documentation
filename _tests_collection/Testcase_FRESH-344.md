@@ -227,7 +227,7 @@ layout: default
         * where invoice candidates with issotrx='N', ic.isPackagingmaterial = 'N' AND ic.C_OrderLine_ID IS NOT NULL
         * where inouts: io.docstatus in ('CO','CL')
         * and all the data gathered is between the dates in params 
-    v2:
+    * v2:
         * everything is taken from C_BPartner joined with C_Invoice_Candidate on Bill_BPartner_ID
         * isissuepercentage is calculated like this: SUM(ic.qtywithissues)/SUM(ic.qtydelivered) - both qtys taken from C_Invoice_Candidates - but those qtys are sometimes wrong
         * where invoice candidates with ic.issotrx='N' AND ic.qtyDelivered != 0 AND ic.isPackagingmaterial = 'N' AND C_OrderLine_ID IS NOT NULL
