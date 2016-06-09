@@ -9,9 +9,9 @@ This site contains the experimental beginnings of
 
 * [How Tos](howto_static/)
 * documentation for developers:
-  - [getting started](developers/EN/developer_doc_getting_started): how to obtain and build metasfresh from the sources
-  - [architectural overview](developers/EN/developer_doc_metasfresh_overview): different parts of metasfresh and what they are about
-  - [buildsystem overview](infrastructure/EN/CI_infrastructure): how the maven-based buildsystem works locally as well a on our CI-server
+  - [getting started](developers/en/developer_doc_getting_started): how to obtain and build metasfresh from the sources
+  - [architectural overview](developers/en/developer_doc_metasfresh_overview): different parts of metasfresh and what they are about
+  - [buildsystem overview](infrastructure/en/CI_infrastructure): how the maven-based buildsystem works locally as well a on our CI-server
   - Javadocs for the metasfresh ["main" body of code](http://metasfresh.com/javadoc/metasfresh-master/) and also [for the esb bundles](http://metasfresh.com/javadoc/metasfresh-esb-master/)
 * documentation for admins and release managers:
   - [how to create your own metasfresh-installer](admins/installer_scripts/EN/build_new_release)
