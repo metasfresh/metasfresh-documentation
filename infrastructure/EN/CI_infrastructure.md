@@ -1,6 +1,7 @@
 ---
 layout: default
 tags: CI, infrastructure
+permalink: infrastructure/en/CI_infrastructure
 ---
 
 # Intro
