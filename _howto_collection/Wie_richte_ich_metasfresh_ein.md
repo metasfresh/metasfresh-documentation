@@ -3,8 +3,6 @@ title: Wie richte ich metasfresh ein ?
 layout: default
 label: Konfiguration, Quickstart
 ---
-# Wie richte ich metasfresh ein?
-
 ## Anpassung Basisdaten
 
 1. [Prozess "Ersteinrichtung-Assistent" öffnen](Wie_finde_und_öffne_ich_ein_Fenster) 
