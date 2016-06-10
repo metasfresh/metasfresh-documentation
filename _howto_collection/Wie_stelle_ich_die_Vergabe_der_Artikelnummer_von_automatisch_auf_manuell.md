@@ -4,7 +4,7 @@ layout: default
 targetgroup: admins
 ---
 
-##Schritte zur Einrichtung
+## Schritte zur Einrichtung
 
 1. An metasfresh mit Rolle "System Administrator" anmelden
 1. [Fenster "Fenster, Register, Feld" öffnen](Wie_finde_und_öffne_ich_ein_Fenster) 
