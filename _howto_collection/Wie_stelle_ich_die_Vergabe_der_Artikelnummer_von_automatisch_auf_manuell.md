@@ -5,6 +5,7 @@ targetgroup: admins
 ---
 
 ##Schritte zur Einrichtung
+
 1. An metasfresh mit Rolle "System Administrator" anmelden
 1. [Fenster "Fenster, Register, Feld" öffnen](Wie_finde_und_öffne_ich_ein_Fenster) 
 1. nach Name "Produkt" suchen
@@ -18,6 +19,7 @@ targetgroup: admins
 1. speichern
 
 ## Testen
+
 1. neu an metasfresh mit einer beliebigen Rolle anmelden
 1. Fenster Produkt öffnen
 1. Neuen Datensatz erstellen
