@@ -1,6 +1,7 @@
 ---
 title: IT FRESH-343
 required data: edi file
+layout: default
 ---
 
 # IT FRESH-343

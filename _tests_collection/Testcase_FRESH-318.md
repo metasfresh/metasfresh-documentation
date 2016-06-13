@@ -4,6 +4,7 @@ required data:
    bpartner: bpartner G000X (vendor)
    purchase invoices: invoice A, invoice B
    bank accounts: Acct I (ESR), Acct II (no ESR, Default)
+layout: default
 ---
 
 # IT FRESH-318

@@ -3,6 +3,7 @@ title: IT FRESH-311
 required data:
    AD_Org: Org I, Org II, Org *
    HUs: LU A, TU B
+layout: default
 ---
 
 # IT FRESH-311

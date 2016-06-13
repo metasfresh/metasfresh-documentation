@@ -5,6 +5,7 @@ required data:
    inouts: sales & purchase inouts of G000X
 provided data:
    print format: different print formats for sales inout
+layout: default
 ---
 
 # IT FRESH-302

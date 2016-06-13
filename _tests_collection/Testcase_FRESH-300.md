@@ -1,6 +1,7 @@
 ---
 title: IT FRESH-300
 required data:
+layout: default
 ---
 
 # IT FRESH-300

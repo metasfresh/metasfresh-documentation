@@ -1,5 +1,6 @@
 ---
 title:  IT FRESH-203
+layout: default
 ---
 
 # IT FRESH-203

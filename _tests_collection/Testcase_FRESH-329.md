@@ -1,6 +1,7 @@
 ---
 title: IT FRESH-329
 required data:
+layout: default
 ---
 
 # IT FRESH-329

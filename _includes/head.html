@@ -3,7 +3,18 @@
     <head>
         <meta charset="utf-8">
         <title>{{ page.title }}</title>
-        <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css" >
+		<link rel="stylesheet" href="{{ site.baseurl }}/css/github-markdown.css"/>
+		<style>
+			.markdown-body {
+				box-sizing: border-box;
+				min-width: 200px;
+				max-width: 980px;
+				margin: 0 auto;
+				padding: 45px;
+			}
+		</style>
     </head>
-    <body>
-
+    <body class="markdown-body">
+		
+		<!-- adding the data-proofer-ignore ignore attribute for html-proofer, because when this is evaluated, the respective md file might not yet be on the ghpages branch -->
+		<a href="https://github.com/metasfresh/metasfresh-documentation/blob/gh-pages/{{page.path}}" data-proofer-ignore>Zur Quelldatei auf github.com</a><br/>

@@ -3,6 +3,7 @@ title: IT FRESH-254
 required data:
    bpartner: bpartner G000X (customer & vendor)
    HUs: TU A, TU B 
+layout: default
 ---
 
 # IT FRESH-254

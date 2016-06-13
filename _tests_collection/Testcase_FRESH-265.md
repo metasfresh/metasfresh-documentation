@@ -5,6 +5,7 @@ required data:
    bpartner: G0007
 provided data:
    procurement candidate: 123
+layout: default
 ---
 
 # Procurement Candidates: Packvorschrift overwrite
