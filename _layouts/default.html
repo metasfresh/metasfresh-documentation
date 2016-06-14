@@ -1,6 +1,27 @@
 {% include head.html %}
 
+<header>
     <h1>{{ page.title }}</h1>
+</header>
+<nav>
+	<ul>
+		<!-- first a link to the underlying "source" file, in case we want to edit it -->
+		<li>
+			<!-- adding the data-proofer-ignore ignore attribute for html-proofer, because when this is evaluated, the respective md file might not yet be on the ghpages branch -->
+			<a href="https://github.com/metasfresh/metasfresh-documentation/blob/gh-pages/{{page.path}}" data-proofer-ignore>Zur Quelldatei auf github.com</a>
+		</li>
+{% assign path_tokens = page.path | split: "/" %}
+{% assign max_path_index = path_tokens.size | minus: 2 %}
+{% assign path = "" %}
+{% for c in (0..max_path_index) %}
+		<li>
+	{% capture path %}{{ path }}/{{pathParts[c]}}{% endcapture %}
+	{{ site.pages | where  }}
+			<a href="{{ path }}/index"></a>
+		</li>	
+{% endfor %}
+	</ul>
+</nav>
 
     {{ content }}
 
