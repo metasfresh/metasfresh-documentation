@@ -2,8 +2,6 @@
 title: Wie definiere ich Preise ?
 layout: default
 ---
-# Wie definiere ich Preise ?
-
 ## Übersicht
 
 Um einen Partnerspezifischen Preis für einen Artikel zu definieren benötigst Du mindestens:
