@@ -9,7 +9,7 @@ layout: default
 > have the correct sender email address and the text is in the correct 
 > language.
 
-1. In AD_MailBox (EMail Server), check if the Email Server is set up correctly, or set it up manually [Wie richte ich einen ausgehenden Mailserver ein?](../howto_collection/Wie_richte_ich_einen_ausgehenden_Mailserver_ein)
+1. In AD_MailBox (EMail Server), check if the Email Server is set up correctly, or set it up manually [Wie richte ich einen ausgehenden Mailserver ein?](howto_collection/Wie_richte_ich_einen_ausgehenden_Mailserver_ein)
 	* => you should have an EMail and a Registered EMail (with PW) for your EMail-Server (e.g. smtp.metasconsult.de), with SMTP-Anmeldung checked
 
 1. Add two more emails (AD_MailBox), with the same data (you can copy with details!), but set one with Email for purchase (e.g. einkauf@metasconsult.de) and one for sales side (e.g. verkauf@metasconsult.de)
