@@ -1,7 +1,7 @@
 ---
 layout: default
 tags: developer
-permalink: developers/EN/developer_doc_getting_started
+permalink: developers/en/developer_doc_getting_started
 ---
 
 # About this document
