@@ -34,7 +34,7 @@ TODO: for the correct link text, we actually need the especting translation, usi
 {% assign max_path_index = path_tokens.size | minus: 2 %}
 ==> disabling this whole thing (see above) by setting max_path_index = 0
 {% endcomment %}
-{% assign max_path_index = 0 %}
+{% assign max_path_index = -1 %}
 
 {% assign path = "" %}
 {% for c in (0..max_path_index) %}
