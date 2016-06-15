@@ -25,7 +25,7 @@ TODO: for the correct link text, we actually need the especting translation, usi
 {% for c in (0..max_path_index) %}
 		<li>
 	{% capture path %}{{ path }}/{{path_tokens[c]}}{% endcapture %}
-			<a href="{{ path }}/index">{{path_tokens[c]}}</a>
+			<a href="{{ path }}/">{{path_tokens[c]}}</a>
 		</li>	
 {% endfor %}
 	</ul>
