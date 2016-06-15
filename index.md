@@ -19,9 +19,9 @@ This site contains the metasfresh documentation for ...
   - Contact us via [gitter chat](https://gitter.im/metasfresh/metasfresh).
 * admins and release managers:
   - [how to create your own metasfresh-installer](pages/admins/installer_scripts/build_new_release_en)
-  - [Support & Troubleshooting](pages/support/index_en.md/)
+  - [Support & Troubleshooting](pages/support/index_en/)
 * testers
-  - [test documentation](pagest/tests/index_en)
+  - [test documentation](pages/tests/index_en)
 * documentation writers and editors  
   - Contact us via [gitter chat](https://gitter.im/metasfresh/metasfresh-documentation).
   - [StyleGuide](https://github.com/metasfresh/metasfresh-documentation/blob/master/StyleGuide.md)

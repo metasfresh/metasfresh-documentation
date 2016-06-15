@@ -14,13 +14,16 @@ Thx to http://stackoverflow.com/questions/34242743/distinct-in-jekyll-liquid
 {% assign tags = '' | split: ',' %}
 {% assign unique_tags = '' | split: ',' %}
 
+tags (expecting empty array) = {{tags}}
+<p/>
+site.members = {{ site.members }}
+<p/>
+
 {% comment %} Map and flatten {% endcomment %}
 {% assign tags =  site.members | map: 'tags' | join: ',' | join: ',' | split: ',' %}
 
-{% comment %}  Push to tags {% endcomment %}
-{% for tag in tags '%}
-  {% assign tags = tags | push: tag %}
-{% endfor %}
+tags (expecting all of them) = {{tags}}
+<p/>
 
 {% comment %} Uniqe, i.e. write the distinct values of "tags" into "unique_tags" {% endcomment %}
 {% assign tags = tags | sort %}
@@ -35,6 +38,9 @@ Thx to http://stackoverflow.com/questions/34242743/distinct-in-jekyll-liquid
 
   {% assign previous = tag %}
 {% endfor %}
+
+tags (uniqued) = {{tags}}
+<p/>
 
 
 {% comment %} create one section for each unique tag {% endcomment %}
