@@ -14,13 +14,18 @@ Get the curent page's path, tokenize it using "/" and provide a link for each to
 TODO: for the correct link text, we actually need the especting translation, using somthing like
 {{ site.pages | where ... }}
 {% endcomment %}
+
+{% comment %} make an array by splitting the path around each "/" {% endcomment %}
 {% assign path_tokens = page.path | split: "/" %}
+
+{% comment %} get the number of "path tokens" i.e. "/", but is nothe the "//"s from "http://" {% endcomment %}
 {% assign max_path_index = path_tokens.size | minus: 2 %}
+
 {% assign path = "" %}
 {% for c in (0..max_path_index) %}
 		<li>
-	{% capture path %}{{ path }}/{{pathParts[c]}}{% endcapture %}
-			<a href="{{ path }}/index">{{ path }}</a>
+	{% capture path %}{{ path }}/{{path_tokens[c]}}{% endcapture %}
+			<a href="{{ path }}/index">{{path_tokens[c]}}</a>
 		</li>	
 {% endfor %}
 	</ul>
