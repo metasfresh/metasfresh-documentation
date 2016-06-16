@@ -12,4 +12,4 @@ tags:
  => Nun klappt die Suchleiste auf
 
 1. Gebe einen Suchbegriff in eines der Standardsuchfelder ein wie z.B. "test" in Feld ***Name***
-1. [OK klicken] (Wie bestaetige ich einen Aktion)
+1. [OK klicken] (Wie_bestaetige_ich_eine_Aktion)

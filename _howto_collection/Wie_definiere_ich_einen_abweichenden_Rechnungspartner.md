@@ -1,12 +1,14 @@
 ---
-title: Wie ermögliche ich einem Partner für einen anderen Partner die Rechnung zu erhalten?
+title: Wie definiere ich einen abweichenden Rechnungspartner ?
 layout: default
 tags:
   - Benutzung
 
 ---
 ## Vorbereitung
+
 Du brauchst zwei Partner:
+
 * [Partner "Auftraggeber" anlegen] (Wie_lege_ich_einen_neuen_Partner_an)
 ** Für diesen Partner soll eingestellt werden, dass ein anderer Partner nämlich "Rechnungsempfänger" die Rechnung erhalten darf
 * [Partner "Rechnungsempfänger" anlegen] (Wie_lege_ich_einen_neuen_Partner_an)
