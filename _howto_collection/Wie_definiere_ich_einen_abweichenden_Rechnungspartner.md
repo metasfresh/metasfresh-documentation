@@ -10,9 +10,10 @@ tags:
 Du brauchst zwei Partner:
 
 * [Partner "Auftraggeber" anlegen](Wie_lege_ich_einen_neuen_Partner_an)
- * Für diesen Partner soll eingestellt werden, dass ein anderer Partner nämlich "Rechnungsempfänger" die Rechnung erhalten darf
+  * Für diesen Partner soll eingestellt werden, dass ein anderer Partner nämlich "Rechnungsempfänger" die Rechnung erhalten darf
 * [Partner "Rechnungsempfänger" anlegen](Wie_lege_ich_einen_neuen_Partner_an)
- * Dieser Partner soll anstelle von "Auftraggeber" die Rechnung erhalten
+  * Dieser Partner soll anstelle von "Auftraggeber" die Rechnung erhalten
+  
 
 ## Schritte
 1. [Fenster "Geschäftspartner" öffnen](Wie_finde_und_öffne_ich_ein_Fenster)
