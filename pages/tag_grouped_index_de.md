@@ -35,13 +35,7 @@ use uniq, see https://github.com/Shopify/liquid/wiki/Liquid-for-Designers
 
 	{% comment %} iterate all pages which have the current tag and add links to them {% endcomment %}
 	
-	{% for link in site.documents %}
-
-		{% if link.tags contains unique_tag %}
- * [{{ link.title }}]({{ site.baseurl }}{{ link.url }})
-		{% endif %}
-
-	{% endfor %}
+	{% include tag_linklist.md pages=site.documents tag=unique_tag %}
 
 {% endfor %}
 
