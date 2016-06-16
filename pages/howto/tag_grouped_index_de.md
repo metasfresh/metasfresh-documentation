@@ -25,13 +25,15 @@ use uniq, see https://github.com/Shopify/liquid/wiki/Liquid-for-Designers
 {% endcomment %}
 {% assign unique_tags = tags | uniq %}
 
+
 {% comment %} create one section for each unique tag, skip the "empty tag" {% endcomment %}
+
 {% for unique_tag in unique_tags %}
 	{% if unique_tag == "" %}
 		{% continue %}
 	{% endif %}
 	
-## Tag "{{ unique_tag }}"
+## Tag {{ unique_tag }}
 
 	{% include howto_linklist.md tag=unique_tag %}
 
