@@ -9,9 +9,9 @@ tags:
 
 Du brauchst zwei Partner:
 
-* [Partner "Auftraggeber" anlegen] (Wie_lege_ich_einen_neuen_Partner_an)
+* [Partner "Auftraggeber" anlegen](Wie_lege_ich_einen_neuen_Partner_an)
  * Für diesen Partner soll eingestellt werden, dass ein anderer Partner nämlich "Rechnungsempfänger" die Rechnung erhalten darf
-* [Partner "Rechnungsempfänger" anlegen] (Wie_lege_ich_einen_neuen_Partner_an)
+* [Partner "Rechnungsempfänger" anlegen](Wie_lege_ich_einen_neuen_Partner_an)
  * Dieser Partner soll anstelle von "Auftraggeber" die Rechnung erhalten
 
 ## Schritte
