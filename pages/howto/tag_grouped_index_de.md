@@ -15,16 +15,13 @@ Thx to http://stackoverflow.com/questions/34242743/distinct-in-jekyll-liquid for
 {% assign tags = '' | split: ',' %}
 {% assign unique_tags = '' | split: ',' %}
 
-{% comment %} 
-Map and flatten 
-{% endcomment %}
+{% comment %} Map and flatten {% endcomment %}
 {% assign tags =  site.howto_collection | map: 'tags' | join: ',' | join: ',' | split: ',' %}
 
 {% comment %} Uniqe, i.e. write the distinct values of "tags" into "unique_tags" 
 use uniq, see https://github.com/Shopify/liquid/wiki/Liquid-for-Designers
 {% endcomment %}
 {% assign unique_tags = tags | uniq %}
-
 
 {% comment %} create one section for each unique tag, skip the "empty tag" {% endcomment %}
 
@@ -33,7 +30,7 @@ use uniq, see https://github.com/Shopify/liquid/wiki/Liquid-for-Designers
 		{% continue %}
 	{% endif %}
 
-## Tag {{ unique_tag }}
+## {{ unique_tag }}
 
 	{% comment %} iterate all pages which have the current tag and add links to them {% endcomment %}
 	{% include howto_linklist.md tag=unique_tag %}

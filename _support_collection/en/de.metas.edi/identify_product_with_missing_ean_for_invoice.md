@@ -1,9 +1,13 @@
 ---
 title: Identify InvoiceLines whose product has a missing UPC/EAN
 component: de.metas.edi
-tags: EDI, support, sql
+tags: 
+  - support
+  - EDI
+  - sql
 lang: en
 layout: default
+sequence: 10
 ---
 
 Typical error message in the invoice's EDI-Status:
