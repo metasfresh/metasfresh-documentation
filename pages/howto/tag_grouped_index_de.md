@@ -32,9 +32,10 @@ use uniq, see https://github.com/Shopify/liquid/wiki/Liquid-for-Designers
 	{% if unique_tag == "" %}
 		{% continue %}
 	{% endif %}
-	
+
 ## Tag {{ unique_tag }}
 
+	{% comment %} iterate all pages which have the current tag and add links to them {% endcomment %}
 	{% include howto_linklist.md tag=unique_tag %}
 
 {% endfor %}

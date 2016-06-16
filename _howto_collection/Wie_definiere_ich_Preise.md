@@ -1,6 +1,8 @@
 ---
 title: Wie definiere ich Preise ?
 layout: default
+tags:
+  - Stammdaten
 ---
 ## Übersicht
 

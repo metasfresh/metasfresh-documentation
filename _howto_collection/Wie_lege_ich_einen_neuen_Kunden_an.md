@@ -1,6 +1,9 @@
 ---
 title: Wie lege ich einen neuen Kunden an ?
 layout: default
+tags:
+  - Stammdaten
+
 ---
 1. Zuerst [einen neuen Partner anlegen](Wie_lege_ich_einen_neuen_Partner_an)
 1. In das Register **Kunde** wechseln
