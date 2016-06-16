@@ -5,8 +5,7 @@
     {{ content }}
 
 	<ul>
-			{% comment %} for now, iterate all tests that we have
-			{% endcomment %}
+			{% comment %} for now, iterate all tests that we have {% endcomment %}
 	        {% for p in site.tests_collection %}
 	        <li>
 	        	<a href="{{ site.baseurl }}{{ p.url }}">
