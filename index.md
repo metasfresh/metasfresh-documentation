@@ -8,7 +8,7 @@ layout: default
 This site contains the metasfresh documentation for ...
 
 * Users
-  - [How Tos, grouped by tag (de)](pages/howto/tag_grouped_index_de)
+  - [How Tos (Deutsch)](pages/howto/tag_grouped_index_de)
 * Developers:
   - [The metasfresh source code](https://github.com/metasfresh/metasfresh)
   - [getting started](pages/developers/getting_started_en): how to obtain and build metasfresh from the sources
