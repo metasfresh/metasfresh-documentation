@@ -1,6 +1,7 @@
 ---
 title: Create your own metasfresh-installer using a script
 layout: default
+tags: shell
 ---
 
 # Create your own metasfresh-installer

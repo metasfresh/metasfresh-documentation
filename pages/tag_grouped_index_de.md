@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Howto Tag Index
+title: Tag Index
 ---
 
-Diese Seite enthält alle innerhalb der Howto-Dokumentation vergebenen Tags mit Links to den betreffenden Seiten.
+Diese Seite enthält alle innerhalb der Dokumentation vergebenen Tags mit Links to den betreffenden Seiten.
 Eine Seite kann mehrere zugeordnete Tags haben.
 
 {% comment %}
@@ -17,8 +17,9 @@ Thx to http://stackoverflow.com/questions/34242743/distinct-in-jekyll-liquid for
 
 {% comment %} 
 Map and flatten 
+site.documents is a list of all the documents in every collection. See https://jekyllrb.com/docs/variables/
 {% endcomment %}
-{% assign tags =  site.howto_collection | map: 'tags' | join: ',' | join: ',' | split: ',' %}
+{% assign tags =  site.documents | map: 'tags' | join: ',' | join: ',' | split: ',' %}
 
 {% comment %} Uniqe, i.e. write the distinct values of "tags" into "unique_tags" 
 use uniq, see https://github.com/Shopify/liquid/wiki/Liquid-for-Designers
@@ -34,7 +35,7 @@ use uniq, see https://github.com/Shopify/liquid/wiki/Liquid-for-Designers
 
 	{% comment %} iterate all pages which have the current tag and add links to them {% endcomment %}
 	
-	{% for link in site.howto_collection %}
+	{% for link in site.documents %}
 
 		{% if link.tags contains unique_tag %}
  * [{{ link.title }}]({{ site.baseurl }}{{ link.url }})
