@@ -8,6 +8,7 @@ layout: default
 If you add new files ensure the following:
 
 * filename has extension .md (markdown)
+* filename shall only include letters Aa-Zz, numbers 0-9, and _
 * UTF-8 **without BOM** character encoding 
 * a header for jekyll like:
 ```

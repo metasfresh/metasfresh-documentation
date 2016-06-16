@@ -4,7 +4,11 @@
 -->
 	<!-- adding the data-proofer-ignore ignore attribute for html-proofer, because when this is evaluated, the respective md file might not yet be on the ghpages branch -->
 	<a href="https://github.com/metasfresh/metasfresh-documentation/blob/gh-pages/{{page.path}}" data-proofer-ignore>Zur Quelldatei auf github.com</a><br/>
-
-
+	
+	{% comment %} 
+	This doesn't really make sense, because all pages are recreated if one of them changes.
+	What we could use would be an indiviual page's update time..
+	Seite zuletzt geändert: {{ site.time | date_to_long_string }} 
+	{% endcomment %}
 </body>
 </html>

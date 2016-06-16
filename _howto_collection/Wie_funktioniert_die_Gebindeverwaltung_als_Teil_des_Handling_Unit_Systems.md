@@ -1,6 +1,9 @@
 ---
 title: Wie funktioniert die Gebindeverwaltung als Teil des Handling Unit Systems?
 layout: default
+tags:
+  - Konzepte
+
 ---
 ## Übersicht
 

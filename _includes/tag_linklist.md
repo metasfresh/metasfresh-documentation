@@ -1,0 +1,41 @@
+{% comment %} iterate all pages which have the given tag and add links to them 
+Pages which have the tag as their 1st tag, are promary, the others are secondary
+{% endcomment %}
+
+{% assign primary_pages = '' | split: ',' %}
+{% assign secondary_pages = '' | split: ',' %}
+
+{% for current_page in include.pages %}
+	{% unless current_page.tags contains include.tag %}
+		{% continue %}
+	{% endunless %}
+	{% if current_page.tags[0] == include.tag %}
+		 {% assign primary_pages = primary_pages | push: current_page %}
+	{% else %}
+		{% assign secondary_pages = secondary_pages | push: current_page %}
+	{% endif %}
+{% endfor %}
+
+{% comment %} sort them {% endcomment %}
+{% assign primary_sorted_pages = primary_pages | sort: 'sequence', 'last' %}
+
+{% comment %} output them, first the sorted ones, then the rest {% endcomment %}
+
+<!-- pages that have {{ include.tag }} as primary tag (might be empty) -->
+<ul>
+{% for current_page in primary_sorted_pages %}
+	<li><a href="{{ site.baseurl }}{{ current_page.url }}">{{ current_page.title }}</a></li>
+{% endfor %}
+</ul>
+
+{% comment %} if both primary_sorted_pages and secondary_pages are not empty, then add "Weitere Infos" to distinguish the two {% endcomment %}
+{% if primary_sorted_pages != empty and secondary_pages != empty %}
+<b>Weitere Infos</b>
+{% endif %}
+
+<!-- pages that have {{ include.tag }} as secondary tag (might be empty) -->
+<ul>
+{% for current_page in secondary_pages %}
+	<li><a href="{{ site.baseurl }}{{ current_page.url }}">{{ current_page.title }}</a></li>
+{% endfor %}
+</ul>

@@ -1,6 +1,9 @@
 ---
 title: Wie lege ich ein neues Produkt an ?
 layout: default
+tags:
+  - Stammdaten
+
 ---
 ## Schritte
 1. [Fenster "Produkt" öffnen](Wie_finde_und_öffne_ich_ein_Fenster)

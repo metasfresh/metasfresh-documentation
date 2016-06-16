@@ -3,6 +3,7 @@ title: IT FRESH-400
 required data:
    invoices: sales & purchase invoices
 layout: default
+tags: test
 ---
 ## Cut off in invoice jaspers
 

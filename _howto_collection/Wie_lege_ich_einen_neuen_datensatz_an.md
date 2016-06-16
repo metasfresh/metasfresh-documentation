@@ -1,6 +1,9 @@
 ---
 title: Wie lege ich einen neuen Datensatz an ?
 layout: default
+tags:
+  - Benutzung
+
 ---
 1. Einzelblattansicht aktivieren
 

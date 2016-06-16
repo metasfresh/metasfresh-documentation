@@ -8,24 +8,25 @@ layout: default
 This site contains the metasfresh documentation for ...
 
 * Users
-  - [How Tos](howto_static/)
-* developers:
+  - [How Tos (Deutsch)](pages/howto/tag_grouped_index_de)
+* Developers:
   - [The metasfresh source code](https://github.com/metasfresh/metasfresh)
-  - [getting started](developers/en/developer_doc_getting_started): how to obtain and build metasfresh from the sources
-  - [architectural overview](developers/en/developer_doc_metasfresh_overview): different parts of metasfresh and what they are about
-  - [buildsystem overview](infrastructure/en/CI_infrastructure): how the maven-based buildsystem works locally as well a on our CI-server
+  - [getting started](pages/developers/getting_started_en): how to obtain and build metasfresh from the sources
+  - [architectural overview](pages/developers/metasfresh_overview_en): different parts of metasfresh and what they are about
+  - [buildsystem overview](pages/infrastructure/ci_en): how the maven-based buildsystem works locally as well a on our CI-server
   - Javadocs [for the "main" body of code](http://metasfresh.com/javadoc/metasfresh-master/) 
   - Javadocs [for the esb bundles](http://metasfresh.com/javadoc/metasfresh-esb-master/)
   - Contact us via [gitter chat](https://gitter.im/metasfresh/metasfresh).
-* admins and release managers:
-  - [how to create your own metasfresh-installer](admins/installer_scripts/EN/build_new_release)
-  - [Support & Troubleshooting](support_static/EN/)
-* testers
-  - [test documentation](tests_static/)
-* documentation writers and editors  
+* Admins and release managers:
+  - [how to create your own metasfresh-installer](pages/admins/installer_scripts/build_new_release_en)
+  - [Support & Troubleshooting](pages/support/index_en/)
+* Testers
+  - [test documentation](pages/tests/index_en)
+* Documentation writers and editors  
   - Contact us via [gitter chat](https://gitter.im/metasfresh/metasfresh-documentation).
   - [StyleGuide](https://github.com/metasfresh/metasfresh-documentation/blob/master/StyleGuide.md)
- 
+* General
+  - [Index, grouped by tag](pages/tag_grouped_index_de)
 
 ## Additional notes
 
