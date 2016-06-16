@@ -1,7 +1,10 @@
 ---
 title: Extract particular fields from a generated EDI file
 component: de.metas.edi
-tags: EDI, support
+tags: 
+  - EDI
+  - support
+  - shell
 lang: en
 layout: default
 ---
