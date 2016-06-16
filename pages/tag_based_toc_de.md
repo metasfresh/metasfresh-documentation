@@ -18,6 +18,11 @@ tags (expecting empty array) = {{tags}}
 <p/>
 site.members = {{ site.members }}
 <p/>
+site.pages = {{ site.pages }}
+<p/>
+site.documents = {{ site.documents }}
+<p/>
+
 
 {% comment %} Map and flatten {% endcomment %}
 {% assign tags =  site.members | map: 'tags' | join: ',' | join: ',' | split: ',' %}
