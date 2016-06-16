@@ -5,6 +5,6 @@ tags:
   - Benutzung
 ---
 
-1. Klicke im Fenster unten rechts auf den Button "Verarbeitung"
+1. Klicke im Fenster unten rechts auf den Button "Verarbeitung" ![img](...\images\de_verarbeitung_beleg.png)
 1. wähle "Verarbeitung(Fertigstellen)" aus
-1. klicke OK 
+1. klicke OK
