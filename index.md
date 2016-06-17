@@ -10,16 +10,15 @@ This site contains the metasfresh documentation for ...
 * Users
   - [How Tos (Deutsch)](pages/howto/tag_grouped_index_de)
 * Developers:
-  - [The metasfresh source code](https://github.com/metasfresh/metasfresh)
-  - [getting started](pages/developers/getting_started_en): how to obtain and build metasfresh from the sources
-  - [architectural overview](pages/developers/metasfresh_overview_en): different parts of metasfresh and what they are about
+  - [The metasfresh source code at github](https://github.com/metasfresh/metasfresh)
+  - [Informations for developers](pages/developers/tag_grouped_index_de)
   - [buildsystem overview](pages/infrastructure/ci_en): how the maven-based buildsystem works locally as well a on our CI-server
   - Javadocs [for the "main" body of code](http://metasfresh.com/javadoc/metasfresh-master/) 
   - Javadocs [for the esb bundles](http://metasfresh.com/javadoc/metasfresh-esb-master/)
-  - Contact us via [gitter chat](https://gitter.im/metasfresh/metasfresh).
+  - [The meatasfresh gitter chat](https://gitter.im/metasfresh/metasfresh)
 * Admins and release managers:
   - [how to create your own metasfresh-installer](pages/admins/installer_scripts/build_new_release_en)
-  - [Support & Troubleshooting](pages/support/index_en/)
+  - [Support & Troubleshooting](pages/support/index_en)
 * Testers
   - [test documentation](pages/tests/index_en)
 * Documentation writers and editors  
