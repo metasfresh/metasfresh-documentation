@@ -1,9 +1,12 @@
 ---
 title: Turn Waschproben (Quality Inspections) into normal PP_Orders (also works the other way round)
 component: de.metas.materialtracking
-tags: EDI, support, sql
-lang: EN
+tags: 
+  - support
+  - sql
+lang: en
 layout: default
+sequence: 5
 ---
 
 Change from quality inspection to ordinary PP_Order:

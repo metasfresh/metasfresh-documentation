@@ -1,7 +1,6 @@
 ---
 layout: default
 tags: developer
-permalink: developers/en/developer_doc_metasfresh_overview
 ---
 
 # About this document
