@@ -57,6 +57,7 @@ layout: default
 **Data migration**
 
 1. sql to check if the purchase orders' ASI are migrated correctly. Shall return no values: 
+
  ```sh
 SELECT DISTINCT x.m_attributesetinstance_id, x.m_attribute_id, x.ad_client_id, x.ad_org_id, 'Y' AS IsActive, now() AS Created, 99 AS CreatedBy, now() AS Updated, 99 AS UpdatedBy,
 				x.m_attributevalue_id, x.value, 0 AS valuenumber, null:: timestamp without time zone AS valuedate  
@@ -79,7 +80,9 @@ FROM
 ) x
 WHERE (NOT EXISTS (SELECT 1 FROM M_AttributeInstance ai WHERE ai.M_Attribute_ID = x.M_Attribute_ID AND ai.M_AttributeSetInstance_ID = x.M_AttributeSetInstance_ID))
 ```
+
 2. sql to check if the purchase inouts' ASI are migrated correctly. Shall return no values: 
+
 ```sh
 SELECT y.IOL_ASI_ID, y.m_attribute_id, y.ad_client_id, y.ad_org_id, y.isactive, y.created, y.createdby, y.updated, y.updatedby, y.m_attributevalue_id, y.value, y.valuenumber, y.valuedate 
  FROM
@@ -109,7 +112,9 @@ ON iol.C_Orderline_ID = x.C_Orderline_ID
 )y
 WHERE (NOT EXISTS (SELECT 1 FROM M_AttributeInstance ai WHERE ai.M_Attribute_ID = y.M_Attribute_ID AND ai.M_AttributeSetInstance_ID = y.IOL_ASI_ID))
 ```
+
 3. sql to check if the purchase invoices' ASI are migrated correctly. Shall return no values: 
+
 ```sh
 SELECT y.IL_ASI_ID, y.m_attribute_id, y.ad_client_id, y.ad_org_id, y.isactive, y.created, y.createdby, y.updated, y.updatedby, y.m_attributevalue_id, y.value, y.valuenumber, y.valuedate 
 FROM
