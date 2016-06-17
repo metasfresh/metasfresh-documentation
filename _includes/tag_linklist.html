@@ -24,7 +24,7 @@ Pages which have the tag as their 1st tag, are primary, the others are secondary
 <!-- pages that have '{{ include.tag }}' as primary tag (might be empty) -->
 <ul>
 {% for current_page in primary_sorted_pages %}
-	<li><a href="{{ site.baseurl }}{{ current_page.url }}">{{ current_page.title }}</a>
+	<li><a href="{{ site.github.url }}/{{ current_page.url }}">{{ current_page.title }}</a>
 	{% if current_page.summary %}
 		: {{ current_page.summary }}
 	{% endif %}
@@ -40,7 +40,7 @@ Pages which have the tag as their 1st tag, are primary, the others are secondary
 <!-- pages that have '{{ include.tag }}' as secondary tag (might be empty) -->
 <ul>
 {% for current_page in secondary_pages %}
-	<li><a href="{{ site.baseurl }}{{ current_page.url }}">{{ current_page.title }}</a>
+	<li><a href="{{ site.github.url }}/{{ current_page.url }}">{{ current_page.title }}</a>
 	{% if current_page.summary %}
 		: {{ current_page.summary }}
 	{% endif %}

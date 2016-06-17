@@ -37,7 +37,7 @@ use uniq, see https://github.com/Shopify/liquid/wiki/Liquid-for-Designers
 	{% for link in site.howto_collection %}
 
 		{% if link.tags contains unique_tag %}
- * [{{ link.title }}]({{ site.baseurl }}{{ link.url }})
+ * [{{ link.title }}]({{ site.github.url }}/{{ link.url }})
 		{% endif %}
 
 	{% endfor %}
