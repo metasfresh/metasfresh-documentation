@@ -1,0 +1,33 @@
+
+{% comment %}
+Get the different tags from the given include.pages variable, and create a section for each individual tag.
+List links to the respective include.pages for each tag value, using {% include tag_linklist %}
+
+Thx to http://stackoverflow.com/questions/34242743/distinct-in-jekyll-liquid for getting me started
+{% endcomment %}
+
+{% comment %} Create empty arrays {% endcomment %}
+{% assign tags = '' | split: ',' %}
+{% assign unique_tags = '' | split: ',' %}
+
+{% comment %} Map and flatten {% endcomment %}
+{% assign tags =  include.pages | map: 'tags' | join: ',' | join: ',' | split: ',' %}
+
+{% comment %} Uniqe, i.e. write the distinct values of "tags" into "unique_tags" 
+use uniq, see https://github.com/Shopify/liquid/wiki/Liquid-for-Designers
+{% endcomment %}
+{% assign unique_tags = tags | uniq %}
+
+{% comment %} create one section for each unique tag, skip the "empty tag" {% endcomment %}
+
+{% for unique_tag in unique_tags %}
+	{% if unique_tag == "" %}
+		{% continue %}
+	{% endif %}
+
+## {{ unique_tag }}
+
+	{% comment %} iterate all pages which have the current tag and add links to them {% endcomment %}
+	{% include tag_linklist.html pages=include.pages tag=unique_tag %}
+
+{% endfor %}
