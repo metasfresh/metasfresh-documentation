@@ -11,9 +11,4 @@ layout: default
 
 
 t1
-{% include_relative howto/Wie_lege_ich_eine_Adresse_an %}
-
-t2
-{% include_relative howto/Wie_lege_ich_eine_Adresse_an.html %}
-
-
+{% include_relative howto_collection/Wie_lege_ich_eine_Adresse_an %}
