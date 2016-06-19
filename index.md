@@ -3,12 +3,8 @@ title: metasfresh documentation
 layout: default
 ---
 
-
-
-This site contains the metasfresh documentation for ...
-
-* Users
-  - [How Tos (Deutsch)](pages/howto/tag_grouped_index_de)
+* Benutzer / Users
+  - [Kurzanleitungen (Deutsch)](pages/howto/tag_grouped_index_de)
 * Developers:
   - [The metasfresh source code at github](https://github.com/metasfresh/metasfresh)
   - [Informations for developers](pages/developers/tag_grouped_index_en)
