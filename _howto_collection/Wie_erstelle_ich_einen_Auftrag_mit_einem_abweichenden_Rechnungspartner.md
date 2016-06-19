@@ -3,7 +3,7 @@ title: Wie erstelle ich einen Auftrag mit einem abweichendem Rechnungspartner?
 layout: default
 tags:
   - Workflow
-  - Auftrag
+
 
 ---
 1. [Definiere einen abweichenden Rechnungspartner zu Deinem Kunden](Wie_definiere_ich_einen_abweichenden_Rechnungspartner)

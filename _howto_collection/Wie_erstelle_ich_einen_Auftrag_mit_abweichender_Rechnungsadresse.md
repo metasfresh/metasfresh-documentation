@@ -3,7 +3,7 @@ title: Wie erstelle ich einen Auftrag mit einer abweichenden Rechnungsadresse?
 layout: default
 tags:
   - Workflow
-  - Auftrag
+
 
 ---
 1. [Erstelle eine Adresse zu einem bestehenden Kunden](Wie_lege_ich_eine_Adresse_an)
