@@ -34,7 +34,7 @@ tags:
 
 1. Check sth else, e.g. Delivery Standard, OK
 
-* => no exception
+	* => no exception
 	
 1. Open window Partner Relation, search for G000X
 
