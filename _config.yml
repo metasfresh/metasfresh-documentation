@@ -1,5 +1,5 @@
 name: metasfresh documentation
-baseurl: /metasfresh-documentation
+
 
 collections:
   tests_collection:
@@ -8,7 +8,9 @@ collections:
     output: true
   support_collection:
     output: true
-
+  developers_collection:
+    output: true
+ 
 defaults:
   - scope:
       path: ""
