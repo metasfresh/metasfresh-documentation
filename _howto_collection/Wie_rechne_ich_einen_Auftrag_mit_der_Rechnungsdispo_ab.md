@@ -1,5 +1,5 @@
 ---
-title: Wie rechne ich einen Auftrag mit der Rechnungsdisposition aus ?
+title: Wie rechne ich einen Auftrag mit der Rechnungsdisposition ab ?
 layout: default
 tags:
   - Workflow
