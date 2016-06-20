@@ -3,6 +3,7 @@ title: Wie rechne ich einen Auftrag mit der Rechnungsdisposition aus ?
 layout: default
 tags:
   - Workflow
+sequence: 40
 ---
 
 1. Erstelle einen Auftrag 
