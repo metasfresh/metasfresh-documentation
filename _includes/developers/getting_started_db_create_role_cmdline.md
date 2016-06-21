@@ -1,6 +1,3 @@
----
----
-
 {% highlight bash %}
 CREATE ROLE metasfresh LOGIN
   ENCRYPTED PASSWORD 'metasfresh'
