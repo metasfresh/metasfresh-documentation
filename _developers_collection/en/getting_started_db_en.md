@@ -15,18 +15,15 @@ The database dump from the latest metasfresh release is available [here](http://
 To get it into your local database, do as follows:
 
 * Create a "Login Role" named `metasfresh`
-```
-CREATE ROLE metasfresh LOGIN
-  ENCRYPTED PASSWORD 'metasfresh'
-  SUPERUSER INHERIT CREATEDB NOCREATEROLE REPLICATION;
-```
+
+{% include_relative getting_started_db_create_role_cmdline.html %}
+
 * Create a new, empty database that is also named `metasfresh` and owned by the newly created role:
-```
-createdb metasfresh -O metasfresh
-```
+
+{% include_relative getting_started_db_create_db_cmdline.html %}
+
 * Load the database dump into the new database:
-```
-pg_restore -Fc -j 2 -d metasfresh latest.pgdump
-```
+
+{% include_relative getting_started_db_load_dump_cmdline.html %}
 
 Note that metasfresh contains more than 1000 tables. Importing the dump might take a while.
