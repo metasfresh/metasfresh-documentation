@@ -4,6 +4,8 @@ title: de.metas.esb
 tags: module-overview
 sequence: 100
 summary: esb bundles directories
+lang: en
+ref: developers_de.metas.esb
 ---
 
 

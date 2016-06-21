@@ -4,6 +4,8 @@ title: Get your local DB up and running
 tags: Getting Started
 sequence: 40 
 summary: how to import the latest metasfresh DB seed into your PostgreSQL database
+lang: en
+ref: developers_getting_started_db
 ---
 
 # Import the initial dump

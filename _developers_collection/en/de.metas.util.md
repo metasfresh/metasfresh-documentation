@@ -3,6 +3,8 @@ layout: default
 title: de.metas.util
 tags: module-overview
 sequence: 10
+lang: en
+ref: developers_de.metas.util
 ---
 
 [`de.metas.util`](https://github.com/metasfresh/metasfresh/tree/master/de.metas.util) contains classes that are not strictly related to metasfresh, but are supposed to be more general purpose. 

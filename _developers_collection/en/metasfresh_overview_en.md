@@ -4,6 +4,8 @@ title: Architectural Overview
 tags: Overview
 sequence: 100
 summary: different parts of metasfresh and what they are about
+lang: en
+ref: developers_overview
 ---
 
 # About this document

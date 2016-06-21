@@ -4,6 +4,8 @@ title: Getting started
 tags: Overview
 sequence: 50 
 summary: how to obtain and build metasfresh from the sources
+lang: en
+ref: developers_getting_started
 ---
 
 # About this document

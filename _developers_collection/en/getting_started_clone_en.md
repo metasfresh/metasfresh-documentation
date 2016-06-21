@@ -5,6 +5,8 @@ title: Get the code
 tags: Getting Started
 sequence: 10 
 summary: how to obtain the source code from Github
+lang: en
+ref: developers_getting_started_clone
 ---
 
 
