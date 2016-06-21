@@ -1,7 +1,9 @@
 ---
 layout: default
 title: de.metas.edi.esb.camel
-tags: module-overview
+tags: 
+  - developers_overview
+  - module-overview
 sequence: 110
 summary: the EDI esb bundle
 ---

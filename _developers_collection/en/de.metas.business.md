@@ -1,7 +1,9 @@
 ---
 layout: default
 title: de.metas.business
-tags: module-overview
+tags: 
+  - developers_overview
+  - module-overview
 sequence: 30
 ---
 

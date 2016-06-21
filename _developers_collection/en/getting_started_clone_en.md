@@ -2,7 +2,7 @@
 ---
 layout: default
 title: Get the code
-tags: Getting Started
+tags: developers_getting_started
 sequence: 10 
 summary: how to obtain the source code from Github
 ---

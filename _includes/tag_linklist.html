@@ -1,19 +1,27 @@
-{% comment %} iterate all pages which have the given tag and add links to them 
-Pages which have the tag as their 1st tag, are primary, the others are secondary
+{% comment %} 
+Iterates all pages which have the given tag and add links to them.
+Pages which have the tag as their first tag, are primary pages, the others are secondary pages.
+Primary pages are sorted by the respective pages' optional "sequence" values. 
+Parameters:
+  include.pages: the array of pages to iterate
+  include.tag: the given tag to filter for
 {% endcomment %}
 
 {% assign primary_pages = '' | split: ',' %}
 {% assign secondary_pages = '' | split: ',' %}
 
 {% for current_page in include.pages %}
+
 	{% unless current_page.tags contains include.tag %}
 		{% continue %}
 	{% endunless %}
+
 	{% if current_page.tags[0] == include.tag %}
 		 {% assign primary_pages = primary_pages | push: current_page %}
 	{% else %}
 		{% assign secondary_pages = secondary_pages | push: current_page %}
 	{% endif %}
+
 {% endfor %}
 
 {% comment %} sort them {% endcomment %}

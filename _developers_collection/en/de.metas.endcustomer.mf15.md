@@ -1,7 +1,9 @@
 ---
 layout: default
 title: de.metas.endcustomer.mf15
-tags: module-overview
+tags: 
+  - developers_overview
+  - module-overview
 sequence: 1000
 summary: where the actual distributable is build
 ---

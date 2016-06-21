@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Get the code into your IDE
-tags: Getting Started
+tags: developers_getting_started
 sequence: 30 
 summary: how to import the source code into your IDE (eclipse)
 ---

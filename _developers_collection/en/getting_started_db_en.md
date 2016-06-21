@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Get your local DB up and running
-tags: Getting Started
+tags: developers_getting_started
 sequence: 40 
 summary: how to import the latest metasfresh DB seed into your PostgreSQL database
 ---

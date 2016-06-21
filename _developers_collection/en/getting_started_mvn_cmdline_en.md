@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Build metasfresh from command line
-tags: Getting Started
+tags: developers_getting_started
 sequence: 100 
 summary: how to create a districbutable using maven from your command line
 ---

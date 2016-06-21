@@ -7,7 +7,7 @@ layout: default
   - [Kurzanleitungen (Deutsch)](pages/howto/tag_grouped_index_de)
 * Developers:
   - [The metasfresh source code at github](https://github.com/metasfresh/metasfresh)
-  - [Informations for developers](pages/developers/tag_grouped_index_en)
+  - [Informations for developers](pages/developers/index_en)
   - [buildsystem overview](pages/infrastructure/ci_en): how the maven-based buildsystem works locally as well a on our CI-server
   - Javadocs [for the "main" body of code](http://metasfresh.com/javadoc/metasfresh-master/) 
   - Javadocs [for the esb bundles](http://metasfresh.com/javadoc/metasfresh-esb-master/)

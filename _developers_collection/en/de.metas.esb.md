@@ -1,7 +1,9 @@
 ---
 layout: default
 title: de.metas.esb
-tags: module-overview
+tags: 
+  - developers_overview
+  - module-overview
 sequence: 100
 summary: esb bundles directories
 ---
