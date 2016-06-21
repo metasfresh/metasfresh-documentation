@@ -34,3 +34,21 @@ SELECT AD_Org_ID, * FROM C_BP_Group WHERE AD_Org_ID != 0
 
 8. select the dropdown of business partner group
 	* => you can see and choose from all groups
+	
+9. sql that was used to update groups:
+
+```sh
+UPDATE C_BP_Group 
+SET 
+	AD_Org_ID = 0,
+	CreatedBy = 100,
+	UpdatedBy = 100
+;
+
+UPDATE C_BP_Group_Acct 
+SET 
+	AD_Org_ID = 0,
+	CreatedBy = 100,
+	UpdatedBy = 100
+;
+```
