@@ -26,33 +26,31 @@ Also, the work package processor controls how many threads are assinged to the q
 Here is an experimental ascii-Diagram i started working on.
 Thx to http://stable.ascii-flow.appspot.com/
 
-```
+<pre>
              +-------------------+
-             | C_Queue_Processor |<--+
+             | C_Queue_Processor |&lt;--+
              |-------------------|   |
-             |                   |   |
-             |                   |   |
-             +-------------------+   |n:n                                      +---------------------------+
-                                     |                                      +-+| C_Queue_Element           |
-                                     |                                      |  |---------------------------|
-      +--------------------------+   |                                      |  | C_Queue_WorkPackage_ID    |
-  +-->| C_Queue_PackageProcessor |<--+                                      |  | AD_Table_ID               |
-  |   |--------------------------|                                          |  | Record_ID                 |
-  |   | ClassName                |                                          |  +---------------------------+
-  |   |                          |                                          |
-  |   +--------------------------+                                          |
-  |                                                                         |  +---------------------------+
-  |                                                                         |  | C_Queue_WorkPackage_Param |
-  |   +-----------------------------+   1:n   +---------------------+  1:n  |  |---------------------------|
-  |   | C_Queue_Block               |<---+    | C_Queue_WorkPackage |<------+--+ C_Queue_WorkPackage_ID    |
-  |   |-----------------------------|    |    |---------------------|       |  |                           |
-  +---+ C_Queue_PackageProcessor_ID |    +----| C_Queue_Block_ID    |       |  +---------------------------+
-      |                             |         | Prio                |       |
-      +-----------------------------+         | ReadyForProcessing  |       |
-                                              | Processed           |       |  +---------------------------+
-                                              | Error               |       |  | C_Queue_WorkPackage_Log   |
+             |                   |   |                                         +---------------------------+
+             |                   |   |                                      +-+| C_Queue_Element           |
+             +-------------------+   |n:n                                   |  |---------------------------|
+                                     |                                      |  | C_Queue_WorkPackage_ID    |
+                                     |                                      |  | AD_Table_ID               |
+ n:1  +--------------------------+   |                                      |  | Record_ID                 |
+  +--&gt;| C_Queue_PackageProcessor |&lt;--+                                      |  +---------------------------+
+  |   |--------------------------|                                          |
+  |   | ClassName                |                                          |
+  |   |                          |                                          |  +---------------------------+
+  |   +--------------------------+                                          |  | C_Queue_WorkPackage_Param |
+  |                                           +---------------------+  1:n  |  |---------------------------|
+  |                                           | C_Queue_WorkPackage |&lt;------+--+ C_Queue_WorkPackage_ID    |
+  |   +-----------------------------+   1:n   |---------------------|       |  |                           |
+  |   | C_Queue_Block               |&lt;---+----| C_Queue_Block_ID    |       |  +---------------------------+
+  |   |-----------------------------|         | Prio                |       |
+  +---+ C_Queue_PackageProcessor_ID |         | ReadyForProcessing  |       |
+      |                             |         | Processed           |       |  +---------------------------+
+      +-----------------------------+         | Error               |       |  | C_Queue_WorkPackage_Log   |
                                               | ...                 |       |  |---------------------------|
                                               +---------------------+       +--+ C_Queue_WorkPackage_ID    |
                                                                                |                           |
-                                                                               +---------------------------+
-```
+                                                                               +---------------------------+</pre>
+
