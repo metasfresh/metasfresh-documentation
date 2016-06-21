@@ -4,6 +4,8 @@ title: Build metasfresh from command line
 tags: developers_getting_started
 sequence: 100 
 summary: how to create a districbutable using maven from your command line
+lang: en
+ref: developers_getting_started_mvn_cmdline
 ---
 
 

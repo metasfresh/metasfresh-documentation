@@ -5,6 +5,8 @@ tags:
   - developers_overview
   - module-overview
 sequence: 30
+lang: en
+ref: developers_de.metas.async
 ---
 
 The purpose [`de.metas.async`](https://github.com/metasfresh/metasfresh/tree/master/de.metas.async) is to queue up and process tasks on the server side.

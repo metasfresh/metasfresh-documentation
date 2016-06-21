@@ -6,6 +6,8 @@ tags:
   - module-overview
 sequence: 1000
 summary: where the actual distributable is build
+lang: en
+ref: developers_de.metas.endcustomer.mf15
 ---
 
 In [`de.metas.endcustomer.mf15`](https://github.com/metasfresh/metasfresh/tree/master/de.metas.endcustomer.mf15) we take all the metasfresh projects and their artifacts and construct the distributables.

@@ -4,6 +4,8 @@ title: Get the code into your IDE
 tags: developers_getting_started
 sequence: 30 
 summary: how to import the source code into your IDE (eclipse)
+lang: en
+ref: developers_getting_started_ide
 ---
 
 Even if you just want to study the code, it probably makes a lot of sense to do so in an IDE.

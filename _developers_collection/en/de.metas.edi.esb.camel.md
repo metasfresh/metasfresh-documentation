@@ -6,6 +6,8 @@ tags:
   - module-overview
 sequence: 110
 summary: the EDI esb bundle
+lang: en
+ref: developers_de.metas.edi.esb.camel
 ---
 
 This bundle can import ORDERS files from a configurable camel endpoint (so far we gained experiences with the file and FTP endpoints) and send them to metasfresh.

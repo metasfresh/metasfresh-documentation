@@ -5,6 +5,8 @@ tags:
   - developers_overview
   - module-overview
 sequence: 30
+lang: en
+ref: developers_de.metas.business
 ---
 
 [`de.metas.business`](https://github.com/metasfresh/metasfresh/tree/master/de.metas.business)

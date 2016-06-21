@@ -5,6 +5,8 @@ tags:
   - developers_overview
   - module-overview
 sequence: 20
+lang: en
+ref: developers_de.metas.adempiere.adempiere
 ---
 
 [`de.metas.adempiere.adempiere`](https://github.com/metasfresh/metasfresh/tree/master/de.metas.adempiere.adempiere) contains code that originates from the [ADempiere](http://www.adempiere.net/) project.
