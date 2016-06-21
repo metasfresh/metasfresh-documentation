@@ -29,6 +29,9 @@ Parameters:
 
 {% comment %} output them, first the sorted ones, then the rest {% endcomment %}
 
+<!-- BEGIN tag_linklist.html -->
+<!-- DEBUG lang='{{ lang }}' -->
+<!-- DEBUG include.lang='{{ include.lang }}' -->
 <!-- pages that have '{{ include.tag }}' as primary tag (might be empty) -->
 <ul>
 {% for current_page in primary_sorted_pages %}
@@ -55,3 +58,4 @@ Parameters:
 	</li>
 {% endfor %}
 </ul>
+<!-- END tag_linklist.html -->

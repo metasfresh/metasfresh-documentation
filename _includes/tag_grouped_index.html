@@ -25,7 +25,7 @@ use uniq, see https://github.com/Shopify/liquid/wiki/Liquid-for-Designers
 		{% continue %}
 	{% endif %}
 
-## {{ unique_tag }}
+<h2>{{ unique_tag }}</h2>
 
 	{% comment %} iterate all pages which have the current tag and add links to them {% endcomment %}
 	{% include tag_linklist.html pages=include.pages tag=unique_tag %}
