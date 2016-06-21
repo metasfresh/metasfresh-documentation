@@ -11,9 +11,10 @@ Even if you just want to study the code, it probably makes a lot of sense to do 
 # Eclipse
 
 * Download the latest eclipse version (currently this is eclipse Mars) from [http://www.eclipse.org/](http://www.eclipse.org/)
-Note: the "Eclipse IDE for Java Developers" will probably do, we found that at least for us, the "Eclipse IDE for Java EE Develeopers" has too much unneeded overhead.
+Note: the "Eclipse IDE for Java Developers" will probably do. We found that at least for us, the "Eclipse IDE for Java EE Develeopers" has too much unneeded overhead.
 
 * Start Eclipse. You will be asked for a workspace location. In my example, i'm using `C:\development\repos`, because it's where all my working copies are located.
+* Make sure that you java the ***Java*** perspective open, not the Java EE perspective.
 * If you intend to contribute changes, we recomment that you check out the [metasfresh-eclipse-config](https://github.com/metasfresh/metasfresh-eclipse-config) repository.
 * Now you can import the code by 
  - switching to the workbench, right-clicking into the Package Explorer (on the left of the eclipse window) and choosing "Import..."
