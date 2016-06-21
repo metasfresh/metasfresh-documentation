@@ -12,14 +12,13 @@ The goal of this guide is to enable everyone who would like to contribute to met
 
 # Get the code
 
-* Go to the metasfresh repository at https://github.com/metasfresh/metasfresh and create your initial clone.
-Check the screenshot [developers/getting_started_initial_clone.png] for where to click.
-Particularly if you are new to git, we recommend installing _GitHub Desktop_ from https://desktop.github.com/ and then use the "Open in Desktop"
-option. Also note that we basically follow the "GitHub Flow" which is documented at https://guides.github.com/introduction/flow/.
+* Go to the metasfresh repository at [https://github.com/metasfresh/metasfresh](https://github.com/metasfresh/metasfresh) and create your initial clone.
+Particularly if you are new to git, we recommend installing _GitHub Desktop_ from [https://desktop.github.com/](https://desktop.github.com/) and then use the "Open in Desktop"
+option. Also note that we basically follow the "GitHub Flow" which is documented at [https://guides.github.com/introduction/flow/](https://guides.github.com/introduction/flow/).
 
-* In addition to the metasfresh repo, you will also need the https://github.com/metasfresh/metasfresh-parent repo. 
-It basically contains only one `pom.xml` file, but that file is very important to build any of the metasfresh code
-therefore, please also get a clone of this repository.
+* ***Important note:*** In addition to the metasfresh repo, you will also need the [https://github.com/metasfresh/metasfresh-parent](https://github.com/metasfresh/metasfresh-parent) repo. 
+It basically contains only one `pom.xml` file, but that file is very important to build any of the metasfresh code.
+Therefore, please also get a clone of this repository.
 
 As a sidenote: we recomment that you clone all the metasfresh repos to the same location.
 For this documentation, i'm using `C:\developement\repos`, so the individual repos' working copies are located at be `C:\developement\repos\metasfresh` and `C:\developement\repos\metasfres-parent` etc.
@@ -34,10 +33,11 @@ Even if you just want to study the code, it probably makes a lot of sense to do 
 
 ## Eclipse
 
-* Download the latest eclipse version (currently this is eclipse Mars) from http://www.eclipse.org/
-Note: the "Eclipse IDE for Java Developers" will probably do, we found that at least for us, the "Eclipse IDE for Java EE Develeopers" has too much unneeded overhead.
+* Download the latest eclipse version (currently this is eclipse Mars) from [http://www.eclipse.org/](http://www.eclipse.org/)
+Note: the "Eclipse IDE for Java Developers" will probably do. We found that at least for us, the "Eclipse IDE for Java EE Develeopers" has too much unneeded overhead.
 
 * Start Eclipse. You will be asked for a workspace location. In my excample, i'm using C:\development\repos, because it's where all my working copies are located.
+* Make sure that you java the ***Java*** perspective open, note the Java EE perspective
 * Now you can import the code by 
  - switching to the workbench, right-clicking into the Package Explorer (on the left of the eclipse window) and choosing "Import..."
  - selecting "Existing Maven Projects"
