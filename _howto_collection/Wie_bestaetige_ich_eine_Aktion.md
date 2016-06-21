@@ -5,4 +5,4 @@ tags:
   - Benutzung
 ---
 
-Klicke auf "OK"  ![printpreview](..\images\icons\Ok24.png) um Deine Aktion zu bestätigen
+Klicke auf "OK"  ![printpreview](../images/icons/Ok24.png) um Deine Aktion zu bestätigen

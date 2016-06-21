@@ -26,7 +26,7 @@ layout: default
 	* Doc Sub Type: Standard Order (Standardauftrag)
 	* Mail Box: select the one which includes verkauf@metasconsult.de
 	
-1. To make sure you receive the emails yourself, check [Wie richte ich einen ausgehenden Mailserver ein?](../howto_collection/Wie_richte_ich_einen_ausgehenden_Mailserver_ein) again and set your own email address as the debugmail
+1. To make sure you receive the emails yourself, check [Wie richte ich einen ausgehenden Mailserver ein?]({{ site.baseurl }}/howto_collection/Wie_richte_ich_einen_ausgehenden_Mailserver_ein) again and set your own email address as the debugmail
 
 1. Select a bpartner that is vendor and customer, and has language = DE set
 
