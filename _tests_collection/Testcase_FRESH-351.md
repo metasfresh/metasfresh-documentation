@@ -56,10 +56,15 @@ layout: default
 	* business partner G000I
 	* check for vendor & Default Vendor
 	
-1. In 1st tab, press Gear, create a product allocation (M_Product_Create_Mappings_Process):
+1. In 1st tab, press Gear, create a product mapping (M_Product_Create_Mappings_Process):
 
 	* Org I
 	* P0001, OK
+	
+1. In Product, search for TU B, press Gear, create a product mapping (M_Product_Create_Mappings_Process):
+
+	* Org I
+	* TU A, OK
 
 1. In pricelist VP, make sure you have 
 
