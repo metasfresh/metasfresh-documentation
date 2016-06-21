@@ -18,7 +18,7 @@ tags:
 
 **Set Up**
 
-1. See https://github.com/metasfresh/metasfresh-documentation/blob/master/_tests_collection/Testcase_FRESH-351.md for Set Up of Orgs, Counter Docs and Products with CU-TU Allocation etc.
+1. See [Error when sales order is automatically created as counter doc from a purchase order with packagings] (Testcase_FRESH-351) for Set Up of Orgs, Counter Docs and Products with CU-TU Allocation etc.
 
 1. Open Product, search for P0002, and create another CU-TU Allocation (M_HU_PI_Item_Product) in the 2nd tab:
 
