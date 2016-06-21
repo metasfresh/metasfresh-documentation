@@ -24,7 +24,7 @@ This means metasfresh does not need to have one queue for each workpackage proce
 Also, the work package processor controls how many threads are assinged to the queue it represents.
 
 Here is an experimental ascii-Diagram i started working on.
-It's not yet finished. Thx to http://stable.ascii-flow.appspot.com/
+Thx to http://stable.ascii-flow.appspot.com/
 
 <pre>
              +-------------------+
@@ -53,6 +53,4 @@ It's not yet finished. Thx to http://stable.ascii-flow.appspot.com/
                                               +---------------------+       +--+ C_Queue_WorkPackage_ID    |
                                                                                |                           |
                                                                                +---------------------------+</pre>
-
-
 
