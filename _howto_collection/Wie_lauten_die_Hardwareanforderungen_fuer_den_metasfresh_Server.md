@@ -6,13 +6,28 @@ tags:
 lang: de
 ---
 
-##  5-20 Benutzer
+## Einstieg
+
+Geringe Anzahl von Benutzern, Belegen und gleichzeitigen Serveroperationen
 
 Kriterium|Anforderung
 ---|---
-Festplattengeschwindigkeit| SSD Festplatten / SAS >10K 
+Festplattengeschwindigkeit| 2x SSD Festplatten / SAS >10K 
 Festplattensicherheit| RAID 1 oder RAID 10
 Festplattenspeicherplatz| min. 20 GB 
 CPU | min. 8x CPU Kerne 
 RAM | min. 16 GB
+
+
+##  Mittel
+
+Mittlere Anzahl von Benutzern, Belegen und gleichzeitigen Serveroperationen
+
+Kriterium|Anforderung
+---|---
+Festplattengeschwindigkeit| 4x SSD Festplatten / SAS >10K 
+Festplattensicherheit| RAID 10
+Festplattenspeicherplatz| min. 20 GB 
+CPU | min. 24x CPU Kerne 
+RAM | min. 32 GB
 
