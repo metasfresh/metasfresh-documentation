@@ -13,7 +13,7 @@ Geringe Anzahl von Benutzern, Belegen und gleichzeitigen Serveroperationen
 Kriterium|Anforderung
 ---|---
 Festplattengeschwindigkeit| 2x SSD Festplatten / SAS >10K 
-Festplattensicherheit| RAID 1 oder RAID 10
+Festplattensicherheit| RAID 1
 Festplattenspeicherplatz| min. 20 GB 
 CPU | min. 8x CPU Kerne 
 RAM | min. 16 GB
