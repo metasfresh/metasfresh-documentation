@@ -1,5 +1,5 @@
 ---
-title: Welche Hardware braucht mein Server ?
+title: Wie lauten die Hardwareanforderungen für den metasfresh Server?
 layout: default
 tags:
   - Serveradministration
