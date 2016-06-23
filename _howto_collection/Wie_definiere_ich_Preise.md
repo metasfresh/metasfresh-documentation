@@ -3,6 +3,7 @@ title: Wie definiere ich Preise ?
 layout: default
 tags:
   - Stammdaten
+sequence: 30
 ---
 ## Übersicht
 

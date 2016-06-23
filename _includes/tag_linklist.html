@@ -1,19 +1,27 @@
-{% comment %} iterate all pages which have the given tag and add links to them 
-Pages which have the tag as their 1st tag, are promary, the others are secondary
+{% comment %} 
+Iterates all pages which have the given tag and add links to them.
+Pages which have the tag as their first tag, are primary pages, the others are secondary pages.
+Primary pages are sorted by the respective pages' optional "sequence" values. 
+Parameters:
+  include.pages: the array of pages to iterate
+  include.tag: the given tag to filter for
 {% endcomment %}
 
 {% assign primary_pages = '' | split: ',' %}
 {% assign secondary_pages = '' | split: ',' %}
 
 {% for current_page in include.pages %}
+
 	{% unless current_page.tags contains include.tag %}
 		{% continue %}
 	{% endunless %}
+
 	{% if current_page.tags[0] == include.tag %}
 		 {% assign primary_pages = primary_pages | push: current_page %}
 	{% else %}
 		{% assign secondary_pages = secondary_pages | push: current_page %}
 	{% endif %}
+
 {% endfor %}
 
 {% comment %} sort them {% endcomment %}
@@ -21,10 +29,17 @@ Pages which have the tag as their 1st tag, are promary, the others are secondary
 
 {% comment %} output them, first the sorted ones, then the rest {% endcomment %}
 
-<!-- pages that have {{ include.tag }} as primary tag (might be empty) -->
+<!-- BEGIN tag_linklist.html -->
+<!-- DEBUG lang='{{ lang }}' -->
+<!-- DEBUG include.lang='{{ include.lang }}' -->
+<!-- pages that have '{{ include.tag }}' as primary tag (might be empty) -->
 <ul>
 {% for current_page in primary_sorted_pages %}
-	<li><a href="{{ site.baseurl }}{{ current_page.url }}">{{ current_page.title }}</a></li>
+	<li><a href="{{ site.github.url }}{{ current_page.url }}">{{ current_page.title }}</a>
+	{% if current_page.summary %}
+		: {{ current_page.summary }}
+	{% endif %}
+	</li>
 {% endfor %}
 </ul>
 
@@ -33,9 +48,14 @@ Pages which have the tag as their 1st tag, are promary, the others are secondary
 <b>Weitere Infos</b>
 {% endif %}
 
-<!-- pages that have {{ include.tag }} as secondary tag (might be empty) -->
+<!-- pages that have '{{ include.tag }}' as secondary tag (might be empty) -->
 <ul>
 {% for current_page in secondary_pages %}
-	<li><a href="{{ site.baseurl }}{{ current_page.url }}">{{ current_page.title }}</a></li>
+	<li><a href="{{ site.github.url }}{{ current_page.url }}">{{ current_page.title }}</a>
+	{% if current_page.summary %}
+		: {{ current_page.summary }}
+	{% endif %}
+	</li>
 {% endfor %}
 </ul>
+<!-- END tag_linklist.html -->
