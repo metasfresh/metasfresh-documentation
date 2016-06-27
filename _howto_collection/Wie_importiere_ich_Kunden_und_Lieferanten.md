@@ -41,6 +41,7 @@ Auf Basis des Standarddefinition für den Partnerimport möchten wir ein eigenes
 
 ### Beispiel
 
+
 ![img](../images/de_excel_spalten.png)
 
 
@@ -52,7 +53,7 @@ Auf Basis des Standarddefinition für den Partnerimport möchten wir ein eigenes
 Erstelle eine CSV Datei und achte dabei besonders auf Folgendes:
 - Das Trennzeichen muss demjenigen entsprichen das Du im Importfomat angebenen hast. z.B. Tab
 - Die Reihenfolge der Spalten muss den Werten von **startno** entsprechen. Beispiel. Feld mit startno = 3 muss in der Datei an dritter Stelle kommen.
-- Das Encoding der Datei muss mit der Auswahl im Fenster "Ladeprogramm für Import-Datei" öffnen
+- Das Encoding der Datei muss mit der Auswahl im Fenster "Ladeprogramm für Import-Datei" übereinstimmen. Zum Beispiel "Win-1252".
 
 *Tip:* Wenn Du Excel zum Erstellen der CSV-Datei verwendest, wähle als Speicherformat "Textdatei (Tabstop-getrennt)(*.txt)" aus.
 
@@ -75,14 +76,17 @@ Zeilen in Datei / geladen und bereit für Importiert:
    Anschließend migriert metasfresh die Daten von der Importtabelle in die eigentliche Live Tabellen und prüft dabei die Konsistenz der Daten. Übernommen werden nur Datensätze die korrekt sind.
    Sobald dieser Vorgang abgeschlossen ist, erscheint eine Notifikation die anzeigt wieviele Datensätze erfolgreich in die Livedatenstruktur importiert werden konnten.
    
-## Importdaten korrigieren
+## Importdaten korrigieren (Optional)
 
-metasfresh importiert alle CSV Daten in die LIVE-Tabellen außer diejenigen die bei der Konsistenzprüfung nicht bestehen. Diese Daten können dann im Fenster "Partner-Import" selektiert und nachbearbeitet werden.
-Über den Button "Geschäftspartner importieren" kann dann ein erneuter Import angestoßen werden.
+metasfresh importiert alle CSV Daten in die LIVE-Tabellen außer derjenigen die bei der Konsistenzprüfung beanstandet wurden. Um die fehlhaften Importdaten zu korrigieren folge diesen SChritten: 
 
-Die genaue Fehlermeldung warum der Partner nicht importiert werden konnte steht im Feld **Import-Fehlermeldung**.
-   
-## Import rückgängig machen
+1. Fenster "Partner-Import" öffnen
+1. Suche öffnen => erweiterte Suche => Feld **verarbeitet** hinzufügen und auf den Wert "Nein" filtern
+1. Den Grund für den Importfehler findest Du in Feld **Import-Fehlermeldung** 
+1. Ändere die Daten entweder durch eine manuelle Änderung oder einen neuen Import
+1. Bei einer manuellen Änderung kannst Du über den Button "Geschäftspartner importieren" eine neue Verarbeitung angestoßen
+ 
+## Import komplett rückgängig machen (Optional)
 
 Um einen erfolgreichen Import rückgängig zu machen bleibt nur die erstellten Daten wieder zu löschen.
 **ACHTUNG:** Dabei werden ALLE Daten des heutigen Tages gelöscht.
