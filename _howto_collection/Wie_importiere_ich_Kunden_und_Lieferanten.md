@@ -24,14 +24,25 @@ Auf Basis des Standarddefinition für den Partnerimport möchten wir ein eigenes
 ## Importformat anpassen
 
 1. Register "Format-Feld" öffnen
+1. nicht benötigte Felder auf inaktiv setzen. Die aktiven Felder müssen den Feldern der CSV Datei entsprechen die Du importieren möchtest. 
 
-Die angezeigten Felder müssen den Felder der CSV Datei entsprechen die Du importieren möchtest. Dabei besonders wichtig: Die **Startno** legt die Reihenfolge der Felder fest wie sie von metasfresh beim Import erwartet werden.
+   Diese Felder brauchst Du mindestens:
+   - Suchschlüssel
+   - Firmenname
+   - Straße und Nr
+   - Ort
+   - ISO Ländercode (Zweistelliger Code wie z.B. "DE")
+   
+   
+1. Feld **startno** setzen:  besonders wichtig ! Die **Startno** legt die Reihenfolge der Felder fest wie sie von metasfresh beim Import erwartet werden.
+
 
 ## Importdatei erstellen
 
 Erstelle eine CSV Datei und achte dabei besonders auf Folgendes:
 - Das Trennzeichen muss demjenigen entsprichen das Du im Importfomat angebenen hast. z.B. Komma
 - Die Reihenfolge der Spalten muss den Werten von **startno** entsprechen. Beispiel. Feld mit startno = 3 muss in der Datei an dritter Stelle kommen.
+- Das Encoding der Datei muss mit der Auswahl im Fenster "Ladeprogramm für Import-Datei" öffnen
 
 ## Importieren
 
@@ -40,7 +51,7 @@ Erstelle eine CSV Datei und achte dabei besonders auf Folgendes:
 1. Import-Format auswählen. z.B. "Partnerimport"
 1. OK drücken
 
-   Jetzt verarbeitet metasfresh die Zeilen aus der CSV Datei. Anschließend meldet es:
+   Jetzt verarbeitet metasfresh die Zeilen aus der CSV Datei und kopiert diese in die Importtabelle - einsehbar über das Fenster "Import - Geschäftspartner":
 
 ```
 erfolgreicher Import:
@@ -49,17 +60,29 @@ Zeilen in Datei / geladen und bereit für Importiert:
 #1388
 ```
 
+   Anschließend migriert metasfresh die Daten von der Importtabelle in die eigentliche Live Tabellen und prüft dabei die Konsistenz der Daten. Übernommen werden nur Datensätze die korrekt sind.
+   Sobald dieser Vorgang abgeschlossen ist, erscheint eine Notifikation die anzeigt wieviele Datensätze erfolgreich in die Livedatenstruktur importiert werden konnten.
+   
+## Importdaten korrigieren
+
+metasfresh importiert alle CSV Daten in die LIVE-Tabellen außer diejenigen die bei der Konsistenzprüfung nicht bestehen. Diese Daten können dann im Fenster "Partner-Import" selektiert und nachbearbeitet werden.
+Über den Button "Geschäftspartner importieren" kann dann ein erneuter Import angestoßen werden.
+
+Die genaue Fehlermeldung warum der Partner nicht importiert werden konnte steht im Feld **Import-Fehlermeldung**.
+   
 ## Import rückgängig machen
 
 Um einen erfolgreichen Import rückgängig zu machen bleibt nur die erstellten Daten wieder zu löschen.
 **ACHTUNG:** Dabei werden ALLE Daten des heutigen Tages gelöscht.
 
 1. Führe diese SQL via PGAdmin auf der Datenbank aus:
-```
+
+   ```
 --Revert todays Import
 delete from aD_user where created::date = now()::date; --löscht Kontakte
 delete from c_bpartner_location  where created::date = now()::date; --löscht Adressenzuordnungen
 delete from c_location where created::date = now()::date; --löscht Adressdaten
 delete from c_bpartner where created::date = now()::date; --löscht Partner
+delete from I_BPartner where created::date = now()::date;  --löscht Partnerimportdaten
 ```
 
