@@ -4,7 +4,8 @@ Pages which have the tag as their first tag, are primary pages, the others are s
 Primary pages are sorted by the respective pages' optional "sequence" values. 
 Parameters:
   include.pages: the array of pages to iterate
-  include.tag: the given tag to filter for
+  include.tag: the given tag to filter for (tag variable from the front matter)
+  include.lang: optional, maybe null; the given language to filter for (lang variable from the front matter)
 {% endcomment %}
 
 {% assign primary_pages = '' | split: ',' %}
@@ -15,7 +16,10 @@ Parameters:
 	{% unless current_page.tags contains include.tag %}
 		{% continue %}
 	{% endunless %}
-
+	{% if include.lang && current_page.lang != include.lang %}
+		{% continue %}
+	{% endif %}
+	
 	{% if current_page.tags[0] == include.tag %}
 		 {% assign primary_pages = primary_pages | push: current_page %}
 	{% else %}
@@ -29,10 +33,11 @@ Parameters:
 
 {% comment %} output them, first the sorted ones, then the rest {% endcomment %}
 
-<!-- BEGIN tag_linklist.html -->
+<!-- DEBUG BEGIN tag_linklist.html -->
 <!-- DEBUG lang='{{ lang }}' -->
 <!-- DEBUG include.lang='{{ include.lang }}' -->
-<!-- pages that have '{{ include.tag }}' as primary tag (might be empty) -->
+<!-- DEBUG include.tag='{{ include.tag }}' -->
+<!-- DEBUG pages that have '{{ include.tag }}' as primary tag (might be empty) -->
 <ul>
 {% for current_page in primary_sorted_pages %}
 	<li><a href="{{ site.github.url }}{{ current_page.url }}">{{ current_page.title }}</a>
@@ -48,7 +53,7 @@ Parameters:
 <b>Weitere Infos</b>
 {% endif %}
 
-<!-- pages that have '{{ include.tag }}' as secondary tag (might be empty) -->
+<!-- DEBUG pages that have '{{ include.tag }}' as secondary tag (might be empty) -->
 <ul>
 {% for current_page in secondary_pages %}
 	<li><a href="{{ site.github.url }}{{ current_page.url }}">{{ current_page.title }}</a>
@@ -58,4 +63,4 @@ Parameters:
 	</li>
 {% endfor %}
 </ul>
-<!-- END tag_linklist.html -->
+<!-- DEBUG END tag_linklist.html -->
