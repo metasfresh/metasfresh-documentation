@@ -18,11 +18,13 @@ Auf Basis des Standarddefinition für den Partnerimport möchten wir ein eigenes
 1. Button "Positionen kopieren" anklicken
 1. Import-Format "Geschäftspartner Standard" auswählen
 1. OK klicken. 
-  Jetzt wird das soeben angelegte Import-Format "Partnerimport" um die Standardfelder ergänzt. Das Ergebnis steht als Datensatzliste im Register "Format-Feld".
+
+   Jetzt wird das soeben angelegte Import-Format "Partnerimport" um die Standardfelder ergänzt. Das Ergebnis steht als Datensatzliste im Register "Format-Feld".
 
 ## Importformat anpassen
 
 1. Register "Format-Feld" öffnen
+
 Die angezeigten Felder müssen den Felder der CSV Datei entsprechen die Du importieren möchtest. Dabei besonders wichtig: Die **Startno** legt die Reihenfolge der Felder fest wie sie von metasfresh beim Import erwartet werden.
 
 ## Importdatei erstellen
@@ -38,7 +40,7 @@ Erstelle eine CSV Datei und achte dabei besonders auf Folgendes:
 1. Import-Format auswählen. z.B. "Partnerimport"
 1. OK drücken
 
-Jetzt verarbeitet metasfresh die Zeilen aus der CSV Datei. Anschließend meldet es:
+   Jetzt verarbeitet metasfresh die Zeilen aus der CSV Datei. Anschließend meldet es:
 
 ```
 erfolgreicher Import:
@@ -47,4 +49,17 @@ Zeilen in Datei / geladen und bereit für Importiert:
 #1388
 ```
 
+## Import rückgängig machen
+
+Um einen erfolgreichen Import rückgängig zu machen bleibt nur die erstellten Daten wieder zu löschen.
+**ACHTUNG:** Dabei werden ALLE Daten des heutigen Tages gelöscht.
+
+1. Führe diese SQL via PGAdmin auf der Datenbank aus:
+```
+--Revert todays Import
+delete from aD_user where created::date = now()::date; --löscht Kontakte
+delete from c_bpartner_location  where created::date = now()::date; --löscht Adressenzuordnungen
+delete from c_location where created::date = now()::date; --löscht Adressdaten
+delete from c_bpartner where created::date = now()::date; --löscht Partner
+```
 

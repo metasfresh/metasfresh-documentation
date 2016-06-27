@@ -1,5 +1,5 @@
 ---
-title: Wo finde ich das Serverlog ?
+title: Wie finde ich das Serverlog ?
 layout: default
 tags:
   - Serveradministration
