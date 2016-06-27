@@ -41,10 +41,10 @@ Auf Basis des Standarddefinition für den Partnerimport möchten wir ein eigenes
 
 ### Beispiel
 
-![img](de_excel_spalten.png)
+![img](../images/de_excel_spalten.png)
 
 
-![img](de_importformat.png)
+![img](../images/de_importformat.png)
 
 
 ## Importdatei erstellen
