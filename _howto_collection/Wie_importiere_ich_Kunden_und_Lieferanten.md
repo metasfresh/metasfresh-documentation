@@ -27,11 +27,11 @@ Auf Basis des Standarddefinition für den Partnerimport möchten wir ein eigenes
 1. nicht benötigte Felder auf inaktiv setzen. Die aktiven Felder müssen den Feldern der CSV Datei entsprechen die Du importieren möchtest. 
 
    Diese Felder brauchst Du mindestens:
-   - Suchschlüssel
-   - Firmenname
-   - Straße und Nr
-   - Ort
-   - ISO Ländercode (Zweistelliger Code wie z.B. "DE")
+    - Suchschlüssel
+    - Firmenname
+    - Straße und Nr
+    - Ort
+    - ISO Ländercode (Zweistelliger Code wie z.B. "DE")
  
   
 1. Feld **startno** setzen
