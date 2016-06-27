@@ -32,8 +32,8 @@ Auf Basis des Standarddefinition für den Partnerimport möchten wir ein eigenes
    - Straße und Nr
    - Ort
    - ISO Ländercode (Zweistelliger Code wie z.B. "DE")
-   
-   
+ 
+  
 1. Feld **startno** setzen
 
    Die **Startno** bestimmt die Position an der eine Spalte von metasfresh beim Import erwartet wird.
