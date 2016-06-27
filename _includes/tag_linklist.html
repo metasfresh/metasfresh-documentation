@@ -8,6 +8,10 @@ Parameters:
   include.lang: optional, maybe null; the given language to filter for (lang variable from the front matter)
 {% endcomment %}
 
+<!-- DEBUG BEGIN tag_linklist.html -->
+<!-- DEBUG include.lang='{{ include.lang }}' -->
+<!-- DEBUG include.tag='{{ include.tag }}' -->
+
 {% assign primary_pages = '' | split: ',' %}
 {% assign secondary_pages = '' | split: ',' %}
 
@@ -16,7 +20,7 @@ Parameters:
 	{% unless current_page.tags contains include.tag %}
 		{% continue %}
 	{% endunless %}
-	{% if include.lang && current_page.lang != include.lang %}
+	{% if include.lang and include.lang != '' and current_page.lang != include.lang %}
 		{% continue %}
 	{% endif %}
 	
@@ -33,10 +37,6 @@ Parameters:
 
 {% comment %} output them, first the sorted ones, then the rest {% endcomment %}
 
-<!-- DEBUG BEGIN tag_linklist.html -->
-<!-- DEBUG lang='{{ lang }}' -->
-<!-- DEBUG include.lang='{{ include.lang }}' -->
-<!-- DEBUG include.tag='{{ include.tag }}' -->
 <!-- DEBUG pages that have '{{ include.tag }}' as primary tag (might be empty) -->
 <ul>
 {% for current_page in primary_sorted_pages %}
