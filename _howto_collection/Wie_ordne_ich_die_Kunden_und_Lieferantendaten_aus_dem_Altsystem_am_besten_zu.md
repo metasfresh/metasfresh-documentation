@@ -50,8 +50,7 @@ Tip: Um das zu verhindern gehe einfach hin und formatiere die Spalte im Textform
 # Kontakt
 metasfresh speichert die Daten rund um einen Kontakt eines Partners in der Detaillierung Titel, Anrede, Vorname, Nachname
 
-Tip: Wenn Dein Altsystem die Kontaktdaten als "Herr Dr. Herbert Müller" ausgibt, trenne die Werte:
- mittels Leerzeichen in Anrede="Herr", titel="Dr.", Vorname="Herbert", Nachname ="Müller"
+Tip: Wenn Dein Altsystem den Kontaktnamen als ein Feld speichert, trenne die Werte nach Leerzeichen:
 
 Altdaten|Anrede|Titel|Vorname|Nachname
 ---|---|---|---
