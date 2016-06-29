@@ -64,12 +64,12 @@ Tip: Überlege Dir welche Nummern Deine importierten Partner in metasfresh haben
 
 Beispiele: 12345,G123,P1234
 		
-# Formatierung von Nummern
+## Formatierung von Nummern
 Excel konvertiert Zahlen wie z.B. "0228123456" automatisch in eine Nummer wodurch die 0 fehlt. Beispiel. "228123456"
 
 Tip: Um das zu verhindern gehe einfach hin und formatiere die Spalte im Textformat.
 	
-# Kontaktdaten
+## Kontaktdaten
 metasfresh speichert die Daten rund um einen Kontakt eines Partners in der Detaillierung Titel, Anrede, Vorname, Nachname
 
 Tip: Wenn Dein Altsystem den Kontaktnamen als ein Feld speichert, trenne die Werte nach Leerzeichen:
