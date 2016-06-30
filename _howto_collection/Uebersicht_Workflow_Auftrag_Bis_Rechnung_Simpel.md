@@ -11,6 +11,8 @@ Es gibt in metasfresh viele Varianten und Möglichkeiten um die Belege von Auftr
 ![IMG](../images/de_workflow_Auftrag_bis_Rechnung_simpel.png)
 
 
+## Schritte
+
 Hier die Anleitungen für die Durchführung des Workflows:
 
 1. [Wie erstelle ich einen Auftrag?](Wie_erstelle_ich_einen_Auftrag)
