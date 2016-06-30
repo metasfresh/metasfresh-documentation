@@ -62,9 +62,12 @@ Auf Basis des Standarddefinition für den Partnerimport möchten wir ein eigenes
 Erstelle eine CSV Datei und achte dabei besonders auf Folgendes:
 - Das Trennzeichen muss demjenigen entsprichen das Du im Importfomat angebenen hast. z.B. Tab
 - Die Reihenfolge der Spalten muss den Werten von **startno** entsprechen. Beispiel. Feld mit startno = 3 muss in der Datei an dritter Stelle kommen.
-- Das Encoding der Datei muss mit der Auswahl im Fenster "Ladeprogramm für Import-Datei" übereinstimmen. Zum Beispiel "Win-1252".
 
-*Tip:* Wenn Du Excel zum Erstellen der CSV-Datei verwendest, wähle als Speicherformat "Textdatei (Tabstop-getrennt)(*.txt)" aus.
+   *Hinweis:* Es ist egal ob die CSV Datei die Spaltennamen aus dem Importformat enthält oder wenn eine Headerzeile enthalten sein sollte wie die Spalten heißen. Alleine die Position des Feldes muss mit der **startno** übereinstimmmen.
+
+- Das Encoding der Datei muss mit der Auswahl im Fenster "Ladeprogramm für Import-Datei" übereinstimmen. Zum Beispiel "Win-1252".
+- Wenn Du eine Tabellenkalkulationssoftare zum Erstellen der CSV-Datei verwendest, wähle als Speicherformat "Textdatei (Tabstop-getrennt)(*.txt)" aus.
+- Spalten dürfen leer sein insofern es sich nicht um Pflichtfelder (wie z.B. Suchschlüssel) handelt
 
 ## CSV-Datei Importieren
 
