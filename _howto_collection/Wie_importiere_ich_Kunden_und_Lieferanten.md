@@ -60,6 +60,7 @@ Auf Basis des Standarddefinition für den Partnerimport möchten wir ein eigenes
 ## Importdatei erstellen
 
 Erstelle eine CSV Datei und achte dabei besonders auf Folgendes:
+
 - Das Trennzeichen muss demjenigen entsprichen das Du im Importfomat angebenen hast. z.B. Tab
 - Die Reihenfolge der Spalten muss den Werten von **startno** entsprechen. Beispiel. Feld mit startno = 3 muss in der Datei an dritter Stelle kommen.
 
