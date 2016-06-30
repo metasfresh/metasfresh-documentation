@@ -7,10 +7,10 @@ tags:
 
 ---
 
-Du kannst in metasfresh zu einem Geschäftspartner beliebig viele Adressen und Kontakte speichern.
-Über weitere Eigenschaften wie z.B. Lieferadresse oder Verkaufskontakt kannst Du diesen Daten dann unterschieden.
+Du kannst in metasfresh zu einem GeschÃ¤ftspartner beliebig viele Adressen und Kontakte speichern.
+Ãœber weitere Eigenschaften wie z.B. Lieferadresse oder Verkaufskontakt kannst Du diesen Daten dann unterschieden.
 
-|  Geschäftspartner       |Adresse                   | Kontakte|
+|  GeschÃ¤ftspartner       |Adresse                   | Kontakte|
 | ------------------- | ------------------------ | ---
 | metasfresh AG       |          | 
 |   				  | Adresse 1 (z.B. Rechnungsadresse)                 | 
