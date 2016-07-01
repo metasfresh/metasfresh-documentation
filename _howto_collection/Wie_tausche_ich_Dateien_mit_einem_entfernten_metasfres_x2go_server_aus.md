@@ -6,13 +6,13 @@ tags:
 lang: de
 ---
 
-Wenn Du metasfresh auf einem entfernten x2GO server nutzt möchtest Du eventuell Daten mit Deinem lokalen Client austauschen.
+Wenn Du metasfresh auf einem entfernten x2GO server nutzt, möchtest Du eventuell Daten mit Deinem lokalen Client austauschen.
 
-So richtest Du einen freigegebenen Ordner ein auf den über x2GO und Deinen Client zugreifen kannst:
+So richtest Du einen freigegebenen Ordner auf Deinem lokalen Client ein auf den über x2GO zugreifen kannst:
 
 1. Drücke die Tastenkombination STRG + E um die Liste der Sitzungen zu öffnen
 1. Doppel Klicke auf die Sitzung für die Du den Datentransfer einrichten möchtest
-1. Wechsle in das Register "freigegebene Ordner" => siehe Screenshot weiter unten
+   1. Wechsle in das Register "freigegebene Ordner" (=> siehe Screenshot weiter unten)
    1. Klicke das Ordnersymbol und wähle den lokalen Ordner aus den Du freigeben möchtest
    1. Klicke auf "hinzufügen"
    1. Klicke auf "automatisch verbinden" damit der Ordner direkt bei der Anmeldung an x2Go verbunden wird
