@@ -1,8 +1,10 @@
 ---
 title: How to confirm an action
 layout: default
+<!--
 tags:
   - Usage
+ -->
 lang: en
 ---
 

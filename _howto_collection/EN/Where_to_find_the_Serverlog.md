@@ -1,9 +1,11 @@
 ---
 title: Where to find the server logs
 layout: default
+<!--
 tags:
   - Administation
   - Server
+  -->
 lang: en
 ---
 
