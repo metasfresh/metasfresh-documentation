@@ -5,7 +5,7 @@ tags:
   - Konzepte
 lang: de
 ---
-metasfresh unterstützt beliebig viele Mandanten in einem System, deren Daten logisch getrennt sind und somit nicht untereinander sichtbar sind.
+metasfresh unterstützt beliebig viele Mandanten, deren Daten logisch getrennt und somit nicht untereinander sichtbar sind.
 
 
 Mandant|Zweck
