@@ -10,8 +10,8 @@ tags:
 ## Make recipient of the mail configurable in Process SendPDFMailsForSelection
 
 > Testcase to check if Emails sent from Doc_Outbound are sent
-> to the correct recipient,  who can now be configured in Email  
-> Server Routing.
+> to the correct recipient,  who can now be configured in 
+> Email Server Routing.
 
 1. Make sure you have the correct set up for sending Emails fron Doc_Outbound (Ausgehende Belege), [see IT for Procurement: Mail in BPartner language, other eMail Address]({{ site.baseurl }}/Testcase_FRESH-203)
 
