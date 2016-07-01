@@ -4,7 +4,7 @@ layout: default
 tags:
   - Administation
   - Server
-lang: de
+lang: en
 ---
 
 The current server logs can be found on the server in:

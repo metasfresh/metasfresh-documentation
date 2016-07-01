@@ -1,6 +1,7 @@
 ---
 title: How to configure a product for production purposes
 layout: default
+lang: en
 ---
 ## Preparation
 1. [A product called "result" exists which is meant to be produced](Wie_lege_ich_ein_neues_Produkt_an)
