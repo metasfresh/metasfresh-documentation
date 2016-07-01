@@ -10,7 +10,6 @@ Wenn Du metasfresh nutzen möchtest ohne dass der Server in Deinem Netzwerk ist, 
 
 So greifst Du mit Deinem Client auf einen x2Go Server zu:
 
-X2go installieren
 1. Lade Dir von dieser Seite die passende Version für Dein Betriebssystem herunter: http://wiki.x2go.org/doku.php/download:start
 1. Nach der Installation Starte x2go
 1. Drücke die Tastenkombination STRG + N um eine neue Verbindung anzulegen
