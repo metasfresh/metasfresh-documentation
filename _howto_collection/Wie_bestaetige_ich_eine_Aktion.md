@@ -1,5 +1,5 @@
 ---
-title: Wie bestätige ich einen Aktion?
+title: Wie bestätige ich eine Aktion?
 layout: default
 tags:
   - Benutzung
