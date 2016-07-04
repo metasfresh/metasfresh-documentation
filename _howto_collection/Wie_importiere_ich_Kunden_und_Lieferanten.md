@@ -70,6 +70,7 @@ Erstelle eine CSV Datei und achte dabei besonders auf Folgendes:
 - Spalten dürfen leer sein insofern es sich nicht um Pflichtfelder (wie z.B. Suchschlüssel) handelt
 
 Diese Spalten brauchst Du mindestens in der Importdatei:
+
 - Suchschlüssel
 - Firmenname
 - Straße und Nr
@@ -77,6 +78,7 @@ Diese Spalten brauchst Du mindestens in der Importdatei:
 - ISO Ländercode (Zweistelliger Code wie z.B. "DE")
  
 optionale Spalten - Beispiele:
+
 - Gruppe (Lege die Gruppe vorher in metasfresh an und verwende hier den Namen)
 - Kontakt (Wenn Du keinen Kontakt in den Quelldaten vorliege hast, trage einfach "zentrale" ein, damit weitere Daten wie Telefonnummer in metasfresh gespeichert werden können)
 - istKunde (Ist Dein Partner auch ein Kunde, trage hier "Y" ohne "" ein. Andernfalls bitte "N" eintragen.)
