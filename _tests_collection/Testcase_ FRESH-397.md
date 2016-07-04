@@ -1,6 +1,6 @@
 ---
 title: IT FRESH-397
-required data: -
+required data:
 layout: default
 ---
 
