@@ -6,10 +6,12 @@ tags:
 lang: de
 ---
 
-## OpenJDK-8-JDK on Ubuntu 14.04
-So aktualisierst Du Java auf einem Ubuntu 14.04:
+## OpenJDK-8-JDK on Ubuntu Server 12.04 / 14.04
+
 
 ```
+sudo apt-get update
+sudo apt-get install python-software-properties software-properties-common
 sudo add-apt-repository ppa:openjdk-r/ppa
 sudo apt-get update
 sudo apt-get install openjdk-8-jdk-headless
