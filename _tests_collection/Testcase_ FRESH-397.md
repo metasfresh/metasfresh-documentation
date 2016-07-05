@@ -24,6 +24,83 @@ layout: default
 5. export pdf from print preview 
 	* => works ok, bold fields are fine
 
+
+|Document Type 	                    |	Document Status	  | Partner Language | Report Language   | Preview | PDF |
+| ----------------------------------|:--------------------:|:----------------:|:-----------------:|:-------:|:---:|
+|Standardauftrag                    |  Completed           | Deutsch (Schweiz)| Deutsch (Schweiz) | OK      | OK  |
+|                                   |  Draft               | Deutsch (Schweiz)| Deutsch (Schweiz) | OK      | OK  |
+|                                   |  Completed           | French (Schweiz) | French (Schweiz)  | OK      | OK  |
+|                                   |  Draft               | French (Schweiz) | French (Schweiz)  | OK      | OK  |
+|Bestelluing                        |  Completed           | Deutsch (Schweiz)| Deutsch (Schweiz) | OK      | OK  |
+|                                   |  Draft               | Deutsch (Schweiz)| Deutsch (Schweiz) | OK      | OK  |
+|                                   |  Completed           | French (Schweiz) | French (Schweiz)  | OK      | OK  |
+|                                   |  Draft               | French (Schweiz) | French (Schweiz)  | OK      | OK  |
+|Lieferschein                       |  Completed           | Deutsch (Schweiz)| Deutsch (Schweiz) | OK      | OK  |
+|                                   |  Draft               | Deutsch (Schweiz)| Deutsch (Schweiz) | OK      | OK  |
+|                                   |  Completed           | French (Schweiz) | French (Schweiz)  | OK      | OK  |
+|                                   |  Draft               | French (Schweiz) | Deutsch (Schweiz) | OK      | OK  |
+|Produktanlieferung                 |  Completed           | Deutsch (Schweiz)| Deutsch (Schweiz) | OK      | OK  |
+|                                   |  Completed           | French (Schweiz) | French (Schweiz)  | OK      | OK  |
+|Ausgangsrechnung                   |  Completed           | Deutsch (Schweiz)| Deutsch (Schweiz) | OK      | OK  |
+|                                   |  Draft               | Deutsch (Schweiz)| Deutsch (Schweiz) | OK      | OK  |
+|                                   |  Completed           | French (Schweiz) | French (Schweiz)  | OK      | OK  |
+|                                   |  Draft               | French (Schweiz) | French (Schweiz)  | OK      | OK  |
+|Gutschrift                         |  Completed           | Deutsch (Schweiz)| Deutsch (Schweiz) | OK      | OK  |
+|                                   |  Draft               | Deutsch (Schweiz)| Deutsch (Schweiz) | OK      | OK  |
+|                                   |  Completed           | French (Schweiz) | French (Schweiz)  | OK      | OK  |
+|                                   |  Draft               | French (Schweiz) | French (Schweiz)  | OK      | OK  |
+|Gutschrift - Retoure               |  Completed           | Deutsch (Schweiz)| Deutsch (Schweiz) | OK      | OK  |
+|                                   |  Draft               | Deutsch (Schweiz)| Deutsch (Schweiz) | OK      | OK  |
+|                                   |  Completed           | French (Schweiz) | French (Schweiz)  | OK      | OK  |
+|                                   |  Draft               | French (Schweiz) | French (Schweiz)  | OK      | OK  |
+|Eingangsrechnung                   |  Completed           | Deutsch (Schweiz)| Deutsch (Schweiz) | OK      | OK  |
+|                                   |  Draft               | Deutsch (Schweiz)| Deutsch (Schweiz) | OK      | OK  |
+|                                   |  Completed           | French (Schweiz) | French (Schweiz)  | OK      | OK  |
+|                                   |  Draft               | French (Schweiz) | French (Schweiz)  | OK      | OK  |
+|Akontozahlung                      |  Completed           | Deutsch (Schweiz)| Deutsch (Schweiz) | OK      | OK  |
+|                                   |  Draft               | Deutsch (Schweiz)| Deutsch (Schweiz) | OK      | OK  |
+|                                   |  Completed           | French (Schweiz) | French (Schweiz)  | OK      | OK  |
+|                                   |  Draft               | French (Schweiz) | French (Schweiz)  | OK      | OK  |
+|Endabrechnung                      |  Completed           | Deutsch (Schweiz)| Deutsch (Schweiz) | OK      | OK  |
+|                                   |  Draft               | Deutsch (Schweiz)| Deutsch (Schweiz) | OK      | OK  |
+|                                   |  Completed           | French (Schweiz) | French (Schweiz)  | OK      | OK  |
+|                                   |  Draft               | French (Schweiz) | French (Schweiz)  | OK      | OK  |
+|Gutschrift (Lieferant)             |  Completed           | Deutsch (Schweiz)| Deutsch (Schweiz) | OK      | OK  |
+|                                   |  Draft               | Deutsch (Schweiz)| Deutsch (Schweiz) | OK      | OK  |
+|                                   |  Completed           | French (Schweiz) | French (Schweiz)  | OK      | OK  |
+|                                   |  Draft               | French (Schweiz) | French (Schweiz)  | OK      | OK  |
+|Produzentenabrechnung              |  Completed           | Deutsch (Schweiz)| Deutsch (Schweiz) | OK      | OK  |
+|                                   |  Draft               | Deutsch (Schweiz)| Deutsch (Schweiz) | OK      | OK  |
+|                                   |  Completed           | French (Schweiz) | French (Schweiz)  | OK      | OK  |
+|                                   |  Draft               | French (Schweiz) | French (Schweiz)  | OK      | OK  |
+|Lieferschein (customer specific)   |  Completed           | Deutsch (Schweiz)| Deutsch (Schweiz) | OK      | OK  |
+|                                   |  Draft               | Deutsch (Schweiz)| Deutsch (Schweiz) | OK      | OK  |
+|                                   |  Completed           | French (Schweiz) | French (Schweiz)  | OK      | OK  |
+|                                   |  Draft               | French (Schweiz) | Deutsch (Schweiz) | OK      | OK  |
+|Kundenwarenrückgabe                |  Completed           | Deutsch (Schweiz)| Deutsch (Schweiz) | OK      | OK  |
+|                                   |  Draft               | Deutsch (Schweiz)| Deutsch (Schweiz) | OK      | OK  |
+|                                   |  Completed           | French (Schweiz) | French (Schweiz)  | OK      | OK  |
+|                                   |  Draft               | French (Schweiz) | French (Schweiz)  | OK      | OK  |
+|Leergutrücknahme                   |  Completed           | Deutsch (Schweiz)| Deutsch (Schweiz) | OK      | OK  |
+|                                   |  Draft               | Deutsch (Schweiz)| Deutsch (Schweiz) | OK      | OK  |
+|                                   |  Completed           | French (Schweiz) | French (Schweiz)  | OK      | OK  |
+|                                   |  Draft               | French (Schweiz) | French (Schweiz)  | OK      | OK  |
+|Saldokorrektur Kunde               | Completed           | Deutsch (Schweiz)| Deutsch (Schweiz) | OK      | OK  |
+|                                   |  Draft               | Deutsch (Schweiz)| Deutsch (Schweiz) | OK      | OK  |
+|                                   |  Completed           | French (Schweiz) | French (Schweiz)  | OK      | OK  |
+|                                   |  Draft               | French (Schweiz) | French (Schweiz)  | OK      | OK  |
+|Leergutausgabe                     |  Completed           | Deutsch (Schweiz)| Deutsch (Schweiz) | OK      | OK  |
+|                                   |  Draft               | Deutsch (Schweiz)| Deutsch (Schweiz) | OK      | OK  |
+|                                   |  Completed           | French (Schweiz) | French (Schweiz)  | OK      | OK  |
+|                                   |  Draft               | French (Schweiz) | Deutsch (Schweiz) | OK      | OK  |
+|Lieferantenrückgabe                | Completed           | Deutsch (Schweiz)| Deutsch (Schweiz) | OK      | OK  |
+|                                   |  Draft               | Deutsch (Schweiz)| Deutsch (Schweiz) | OK      | OK  |
+|                                   |  Completed           | French (Schweiz) | French (Schweiz)  | OK      | OK  |
+|                                   |  Draft               | French (Schweiz) | Deutsch (Schweiz) | OK      | OK  |
+|Saldokorrektur Lieferant           | Completed            | Deutsch (Schweiz)| Deutsch (Schweiz) | OK      | OK  |
+|                                   |  Draft               | Deutsch (Schweiz)| Deutsch (Schweiz) | OK      | OK  |
+|                                   |  Completed           | French (Schweiz) | French (Schweiz)  | OK      | OK  |
+|                                   |  Draft               | French (Schweiz) | Deutsch (Schweiz) | OK      | OK  |
 **Jasper Processes**
 
 1. run all jasper processes: open items, umsatzreport, umsatzreport for bpartner (also per week and attribute), statistics, konten - info, deckungsbeitragsrechnung (with short version with and without last year), saldobilanz, bilanz, bankauszug, kostenstellenweschel, gebindesaldo, gebindeubersicht, fibukonto and lagerwert
