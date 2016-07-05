@@ -1,6 +1,7 @@
 ---
 title: How to add new data
 layout: default
+lang: en
 ---
 1. Activate Single View
 	 *Note:* In case a list instead of individual fields is shown the view can be changed using ![Single View Icon](../images/icons/Multi24.png).

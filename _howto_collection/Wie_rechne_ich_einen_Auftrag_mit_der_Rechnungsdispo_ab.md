@@ -6,7 +6,7 @@ tags:
 sequence: 40
 ---
 
-1. Erstelle einen Auftrag 
+1. [Erstelle einen Auftrag](Wie_erstelle_ich_einen_Auftrag)
 1. [Springe in die Rechnungsdispo](Wie_springe_ich_zwischen_Belegen)
 1. Wenn sich das Fenster "Rechnungsdisposition" geöffnet hat, [klicke auf das Zahnrad](Wie_starte_ich_Zahnrad_Prozesse)
 1. Starte den Prozess "auswahl fakturieren" um alle sichtbaren Auftragszeilen abzurechnen

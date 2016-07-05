@@ -1,6 +1,7 @@
 ---
 title: How to configure a parts lists with procentual parts (receipe) ?
 layout: default
+lang: en
 ---
 ## Preparation
 1. A product called "result" which is meant to be produced exists

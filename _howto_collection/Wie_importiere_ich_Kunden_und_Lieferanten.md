@@ -5,6 +5,15 @@ tags:
   - Datenimport
 lang: de
 ---
+## Vorbereitung
+Bevor Du mit dem Import beginnst ist es wichtig ein paar Grundsätzliche Dinge über das Datenmodell von metasfresh zu wissen.
+
+Daher empfehlen wir Dir hier mal reinzuschauen:
+- [Wie viele Adressen und Kontakte kann ein Partner haben?](Wie_viele_Adressen_und_Kontakte_kann_ein_Partner_haben)
+- [Woraus setzt sich die fertige Belegadresse zusammen?](Woraus_setzt_sich_die_fertige_Belegadresse_zusammen)
+- [Wie ordne ich die Kunden und Lieferantendaten aus dem Altsystem am besten zu?](Wie_ordne_ich_die_Kunden_und_Lieferantendaten_aus_dem_Altsystem_am_besten_zu)
+
+
 ## Importformat anlegen
 
 Auf Basis des Standarddefinition für den Partnerimport möchten wir ein eigenes Importformat anlegen.
@@ -32,8 +41,7 @@ Auf Basis des Standarddefinition für den Partnerimport möchten wir ein eigenes
     - Straße und Nr
     - Ort
     - ISO Ländercode (Zweistelliger Code wie z.B. "DE")
- 
-  
+   
 1. Feld **startno** setzen
 
    Die **Startno** bestimmt die Position an der eine Spalte von metasfresh beim Import erwartet wird.
@@ -51,11 +59,30 @@ Auf Basis des Standarddefinition für den Partnerimport möchten wir ein eigenes
 ## Importdatei erstellen
 
 Erstelle eine CSV Datei und achte dabei besonders auf Folgendes:
-- Das Trennzeichen muss demjenigen entsprichen das Du im Importfomat angebenen hast. z.B. Tab
-- Die Reihenfolge der Spalten muss den Werten von **startno** entsprechen. Beispiel. Feld mit startno = 3 muss in der Datei an dritter Stelle kommen.
-- Das Encoding der Datei muss mit der Auswahl im Fenster "Ladeprogramm für Import-Datei" übereinstimmen. Zum Beispiel "Win-1252".
 
-*Tip:* Wenn Du Excel zum Erstellen der CSV-Datei verwendest, wähle als Speicherformat "Textdatei (Tabstop-getrennt)(*.txt)" aus.
+- Das Trennzeichen muss demjenigen entsprichen das Du im Importfomat angebenen hast. z.B. Tab
+- Die Position der Spalten muss den Werten von **startno** entsprechen. Beispiel. Das Feld mit **startno** = 3 muss in der Datei an dritter Stelle kommen.
+
+   *Hinweis:* metasfresh erwartet keine Spaltennamen in der CSV Datei. Alleine die Position des Feldes muss mit der **startno** übereinstimmmen.
+
+- Das Encoding der Datei muss mit der Auswahl im Fenster "Ladeprogramm für Import-Datei" übereinstimmen. Zum Beispiel "Win-1252".
+- Wenn Du eine Tabellenkalkulationssoftare zum Erstellen der CSV-Datei verwendest, wähle als Speicherformat "Textdatei (Tabstop-getrennt)(*.txt)" aus.
+- Spalten dürfen leer sein insofern es sich nicht um Pflichtfelder (wie z.B. Suchschlüssel) handelt
+
+Diese Spalten brauchst Du mindestens in der Importdatei:
+
+- Suchschlüssel
+- Firmenname
+- Straße und Nr
+- Ort
+- ISO Ländercode (Zweistelliger Code wie z.B. "DE")
+ 
+optionale Spalten - Beispiele:
+
+- Gruppe (Lege die Gruppe vorher in metasfresh an und verwende hier den Namen)
+- Kontakt (Wenn Du keinen Kontakt in den Quelldaten vorliege hast, trage einfach "zentrale" ein, damit weitere Daten wie Telefonnummer in metasfresh gespeichert werden können)
+- istKunde (Ist Dein Partner auch ein Kunde, trage hier "Y" ohne "" ein. Andernfalls bitte "N" eintragen.)
+- istLieferant (Ist Dein Partner auch ein Lieferant, trage hier "Y" ohne "" ein. Andernfalls bitte "N" eintragen.)
 
 ## CSV-Datei Importieren
 

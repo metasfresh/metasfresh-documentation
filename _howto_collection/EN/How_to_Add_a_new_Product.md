@@ -1,6 +1,7 @@
 ---
 title: How do I add a new product ?
 layout: default
+lang: en
 ---
 
 # How do I add a new product ?
