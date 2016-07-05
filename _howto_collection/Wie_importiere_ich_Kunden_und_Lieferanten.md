@@ -9,6 +9,7 @@ lang: de
 Bevor Du mit dem Import beginnst ist es wichtig ein paar Grundsätzliche Dinge über das Datenmodell von metasfresh zu wissen.
 
 Daher empfehlen wir Dir hier mal reinzuschauen:
+
 - [Wie viele Adressen und Kontakte kann ein Partner haben?](Wie_viele_Adressen_und_Kontakte_kann_ein_Partner_haben)
 - [Woraus setzt sich die fertige Belegadresse zusammen?](Woraus_setzt_sich_die_fertige_Belegadresse_zusammen)
 - [Wie ordne ich die Kunden und Lieferantendaten aus dem Altsystem am besten zu?](Wie_ordne_ich_die_Kunden_und_Lieferantendaten_aus_dem_Altsystem_am_besten_zu)
