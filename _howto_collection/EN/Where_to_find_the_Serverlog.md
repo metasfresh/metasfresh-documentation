@@ -3,7 +3,7 @@ title: Where to find the server logs
 layout: default
 
 tags:
-  - Administation
+  - Administration
   - Server
 
 lang: en
