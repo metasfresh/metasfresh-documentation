@@ -3,6 +3,7 @@ title: Wie suche ich in einem Fenster?
 layout: default
 tags:
   - Benutzung
+lang: de
 ---
 
 ## Einfache Suche

@@ -4,6 +4,7 @@ layout: default
 targetgroup: admins
 tags:
   - Systemkonfiguration
+lang: de
 ---
 
 ## Schritte zur Einrichtung

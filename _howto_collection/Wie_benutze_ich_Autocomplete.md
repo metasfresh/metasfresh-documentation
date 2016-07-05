@@ -3,6 +3,7 @@ title: Wie benutze ich Autocomplete?
 layout: default
 tags:
   - Benutzung
+lang: de
 ---
 
 1. In das betreffene Feld einen Teil des Namens oder der Nummer eingeben

@@ -3,7 +3,7 @@ title: Woraus setzt sich die fertige Belegadresse zusammen?
 layout: default
 tags:
   - Konzepte
-
+lang: de
 ---
 ## Übersicht
 

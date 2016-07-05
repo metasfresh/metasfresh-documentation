@@ -4,7 +4,7 @@ layout: default
 tags:
   - Konzepte
   - Stammdaten
-
+lang: de
 ---
 
 Du kannst in metasfresh zu einem Geschäftspartner beliebig viele Adressen und Kontakte speichern.
