@@ -6,7 +6,9 @@ tags:
 lang: de
 ---
 
-**Sprache des Clients einstellen***
+**Sprache des Clients einstellen**
+
+
 ```
  -Dorg.adempiere.client.lang=\"de_CH\"
  ```
