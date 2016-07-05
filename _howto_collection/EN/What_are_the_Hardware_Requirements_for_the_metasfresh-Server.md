@@ -1,11 +1,9 @@
 ---
 title: Which system requirements does the metasfresh server have?
 layout: default
-<!--
 tags:
   - Server
   - Administration
-  -->
 lang: en
 ---
 
