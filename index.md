@@ -4,7 +4,7 @@ layout: default
 ---
 
 * Benutzer / Users
-  - [Kurzanleitungen (Deutsch)](pages/howto/tag_grouped_index_de)
+  - [Kurzanleitungen (Deutsch)](pages/howto/index_de)
 * Developers:
   - [The metasfresh source code at github](https://github.com/metasfresh/metasfresh)
   - [Informations for developers](pages/developers/index_en)
