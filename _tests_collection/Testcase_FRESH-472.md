@@ -4,7 +4,7 @@ required data:
    AD_Orgs: Org 1, Org 2   
 layout: default
 tags:
-  - 
+  - Document Type
 ---
 ## Sequence on Org for more than 1 Doctype
 
