@@ -31,6 +31,9 @@ ref: my_lang_independen_name
 * if your file is to be a part of a collection which is used to autogenerate table of contents, make sure its residing in a folder starting with "_"
  e.g. "_howto_collection"
  
+* make use of `{{ site.github.url }}`
+ - instead of `../images/myimage-png`, use `{{ site.github.url }}/images/myimage-png`
+ - this makes sure that the file which contains the link can be moved around without the link breaking.
 
 ## Formatting Requirements
  
