@@ -1,10 +1,12 @@
 ---
 title: Where to find the server logs
 layout: default
+<!--
 tags:
-  - Administation
+  - Administration
   - Server
-lang: de
+  -->
+lang: en
 ---
 
 The current server logs can be found on the server in:

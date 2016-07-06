@@ -3,6 +3,7 @@ title: Wie bestätige ich eine Aktion?
 layout: default
 tags:
   - Benutzung
+lang: de
 ---
 
 Klicke auf "OK"  ![printpreview](../images/icons/Ok24.png) um Deine Aktion zu bestätigen

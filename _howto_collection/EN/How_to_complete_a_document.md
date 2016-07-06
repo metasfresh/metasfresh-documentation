@@ -1,8 +1,11 @@
 ---
 title: How to complete a document?
 layout: default
+<!--
 tags:
   - Usage
+ -->
+lang: en
 ---
 
 1. In the lower right corner you can find a button marked "Process" ![img](../../images/de_verarbeitung_beleg.png)

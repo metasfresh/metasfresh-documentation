@@ -4,6 +4,7 @@ layout: default
 label: Konfiguration, Quickstart
 tags: 
   - Ersteinrichtung
+lang: de
 ---
 ## Anpassung Basisdaten
 

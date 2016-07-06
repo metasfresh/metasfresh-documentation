@@ -4,7 +4,7 @@ layout: default
 tags:
   - Workflow
 sequence: 10
-
+lang: de
 ---
 Es gibt in metasfresh viele Varianten und Möglichkeiten um die Belege von Auftrag bis Rechnung zu erstellen. Der folgende ist von den vielen Möglichkeiten nur eine besonders kurze und einfache.
 

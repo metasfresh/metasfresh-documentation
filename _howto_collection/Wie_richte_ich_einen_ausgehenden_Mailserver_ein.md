@@ -3,7 +3,7 @@ title: Wie richte ich einen ausgehenden Mailserver ein?
 layout: default
 tags:
   - Systemkonfiguration
-
+lang: de
 ---
 1. [Fenster Mandant öffnen](Wie_finde_und_öffne_ich_ein_Fenster)
 1. Informationen zur Mailbox in **Anfrage-Management** anlegen (verwendete Daten sind für einen Beispielmandanten, die Testfirma "Test"):

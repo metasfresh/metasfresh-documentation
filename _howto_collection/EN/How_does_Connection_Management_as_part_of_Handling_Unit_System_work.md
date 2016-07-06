@@ -1,6 +1,7 @@
 ---
 title: How does the Connection Management as part of the Handling Unit System work?
 layout: default
+lang: en
 ---
 ## Übersicht
 

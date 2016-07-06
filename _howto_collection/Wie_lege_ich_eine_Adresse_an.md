@@ -1,6 +1,7 @@
 ---
 title: Wie lege ich eine Adresse an?
 layout: default
+lang: de
 ---
 1. Im Fenster Geschäftspartner in das Register **Adresse** wechseln
 	1. [Neuen Datensatz anlegen](Wie_lege_ich_einen_neuen_datensatz_an)

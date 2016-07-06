@@ -3,7 +3,7 @@ title: Wie ordne ich die Kunden und Lieferantendaten aus dem Altsystem am besten
 layout: default
 tags:
   - Datenimport
-
+lang: de
 ---
 
 Das Datenmodell von metasfresh ist spezifisch und realitätsnah wodurch bei einer Migration von Daten aus einem Altsystem ein paar Dinge berücksichtigt werden sollten.

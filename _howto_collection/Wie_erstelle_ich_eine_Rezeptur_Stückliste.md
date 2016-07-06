@@ -3,6 +3,7 @@ title: Wie erstelle ich eine Stückliste mit Prozentualen Anteilen (Rezept) ?
 layout: default
 tags:
   - Stammdaten
+lang: de
 ---
 ## Vorbereitung
 1. Es existiert ein Produkt namens "Ergebnis" das hergestellt werden soll

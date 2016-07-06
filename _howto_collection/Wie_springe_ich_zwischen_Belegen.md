@@ -3,6 +3,7 @@ title: Wie springe ich zwischen Belegen
 layout: default
 tags:
   - Benutzung
+lang: de
 ---
 
 1. Öffne ein Belegfenster. wie z.B. Auftrag
