@@ -14,7 +14,7 @@ This article assumes that you more or less followed the "Getting Started" docume
 
 Check if you have the java perspective open. In the following screenshot, the Java-EE perspective is open instead:
 
-![troubleshooting_ide_eclipse_java_ee_perspective](../images/developers/troubleshooting_ide_eclipse_java_ee_perspective.png)
+![troubleshooting_ide_eclipse_java_ee_perspective]({{ site.github.url }}/images/developers/troubleshooting_ide_eclipse_java_ee_perspective.png)
 
 The buttons are visible on the upper right area of your screenshot.
 We never used the Java EE perspective, so frankly we can't even tell you if it makes sense to try and get it to work.
