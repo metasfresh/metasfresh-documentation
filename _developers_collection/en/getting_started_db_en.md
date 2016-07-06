@@ -37,13 +37,13 @@ To get the database dump into your local database via pgAdmin, do as follows:
 
 * Create a "Login Role" named `metasfresh`:
 
-![printpreview](../images/developers/getting_started_db_pgAdmin_add_role.png)
+![printpreview]({{ site.github.url }}/images/developers/getting_started_db_pgAdmin_add_role.png)
 
 For development purposes, you can create the role with the role privileges `LOGIN`, `SUPERUSER`, `INHERIT`, `CREATEDB` and `NOCREATEROLE`
 
 * Create a new, empty database that is also named `metasfresh` and owned by the newly created role. You can open the dialog by right-clicking on the database connection:
 
-![printpreview](../images/developers/getting_started_db_pgAdmin_add_database.png)
+![printpreview]({{ site.github.url }}/images/developers/getting_started_db_pgAdmin_add_database.png)
 
 Make sure that the new database is owned by the metasfresh role.
 

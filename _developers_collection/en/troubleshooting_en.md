@@ -10,7 +10,7 @@ ref: developers_troubleshooting
 
 This article assumes that you more or less followed the "Getting Started" documentation, but ran into problems.
 
-## Eclipse doesn't properly show java pacakges and classes
+## Eclipse doesn't properly show java packages and classes
 
 Check if you have the java perspective open. In the following screenshot, the Java-EE perspective is open instead:
 
@@ -19,20 +19,20 @@ Check if you have the java perspective open. In the following screenshot, the Ja
 The buttons are visible on the upper right area of your screenshot.
 We never used the Java EE perspective, so frankly we can't even tell you if it makes sense to try and get it to work.
 
-## Eclipse shows me 1000s or errors and i don't even know where to start
+## Eclipse shows me thousands of errors and I don't even know where to start
 
-Allmost every project depends on antoher project. Oftentimes, if one of the "root" projects has a possibly trivial project, this cascades to thousands of secondary problems in the downstream projects.
+Allmost every project depends on antoher project. Oftentimes, if one of the "root" projects has a possibly trivial problem, this cascades to thousands of secondary problems in the downstream projects.
 
 So, in order to apropoch this kind of problem, it makes sense to go to the root.
 
 We recoment to first check the following projects:
 
-1 [metasfresh-parent](https://github.com/metasfresh/metasfresh-parent) (a repo of its own)
-1 [de.metas.parent](https://github.com/metasfresh/metasfresh/tree/master/de.metas.parent) (comes with the metasfresh repo)
-1 [de.metas.util](https://github.com/metasfresh/metasfresh/tree/master/de.metas.util) (comes with the metasfresh repo)
-1 [de.metas.adempiere.adempiere.base](https://github.com/metasfresh/metasfresh/tree/master/de.metas.adempiere.adempiere/base) (also comes with the metasfresh repo)
+* [metasfresh-parent](https://github.com/metasfresh/metasfresh-parent) (a repo of its own)
+* [de.metas.parent](https://github.com/metasfresh/metasfresh/tree/master/de.metas.parent) (comes with the metasfresh repo)
+* [de.metas.util](https://github.com/metasfresh/metasfresh/tree/master/de.metas.util) (comes with the metasfresh repo)
+* [de.metas.adempiere.adempiere.base](https://github.com/metasfresh/metasfresh/tree/master/de.metas.adempiere.adempiere/base) (also comes with the metasfresh repo)
 
-## So how can I make eclipse on show the current project's errors?
+## So how can I make eclipse showing only the current project's errors?
 
 You can configure eclipse to only show errors from the project that is currently selected.
 
@@ -64,4 +64,4 @@ It looks like this:
 
 ![troubleshooting_ide_eclipse_missing_m2e_provider]({{ site.github.url }}/images/developers/troubleshooting_ide_eclipse_missing_m2e_provider.png)
 
-It means that your eclipse instalation is missing a particular m2e component. You can search for it and install it by right-clicking on the problem and following the "Quick-Fix" item.
+It means that your eclipse instalation is missing a particular m2e component. You can search for it in the eclipse market place (it's for free) and install it by right-clicking on the problem and following the "Quick-Fix" item.
