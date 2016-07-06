@@ -14,7 +14,7 @@ This article assumes that you more or less followed the "Getting Started" docume
 
 Check if you have the java perspective open. In the following screenshot, the Java-EE perspective is open instead:
 
-![printpreview](../images/developers/troubleshooting_ide_eclipse_java_ee_perspective.png)
+![troubleshooting_ide_eclipse_java_ee_perspective](../images/developers/troubleshooting_ide_eclipse_java_ee_perspective.png)
 
 The buttons are visible on the upper right area of your screenshot.
 We never used the Java EE perspective, so frankly we can't even tell you if it makes sense to try and get it to work.
@@ -38,17 +38,14 @@ You can configure eclipse to only show errors from the project that is currently
 
 * To to that, first open the "Problems" view by clicking on its tab:
 
-![printpreview](../images/developers/troubleshooting_ide_eclipse_problems_10.png)
 
 * Then, open the "Configure.." dialog:
 
-![printpreview](../images/developers/troubleshooting_ide_eclipse_configure_problems_20_open_configure.png)
 
 * ...and change the setting such that only errors from the currently selecte project are displayed: 
 
-![printpreview](../images/developers/troubleshooting_ide_eclipse_configure_problems_30_do_configure.png)
 
-## I Get a warning about "Version is duplicate of parent version"
+## I Get a warning about `Version is duplicate of parent version`
 
 You can ignore the warning. eclipse's maven plugin thinks one should remove the duplication version, but we need it. Details [here](http://docs.metasfresh.org/pages/infrastructure/ci_en).
 
@@ -58,10 +55,9 @@ This error indicates that you are trying to run the metasfresh code with a java 
 
 To fix it, make sure to run with java-8
 
-## I get an error about "Plugin execution not covered by lifecycle configuration
+## I get an error about `Plugin execution not covered by lifecycle configuration`
 
 It looks like this:
 
-![printpreview](../images/developers/troubleshooting_ide_eclipse_missing_m2e_provider.png)
 
 It means that your eclipse instalation is missing a particular m2e component. You can search for it and install it by right-clicking on the problem and following the "Quick-Fix" item.
