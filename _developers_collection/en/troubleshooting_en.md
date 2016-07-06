@@ -38,12 +38,15 @@ You can configure eclipse to only show errors from the project that is currently
 
 * To to that, first open the "Problems" view by clicking on its tab:
 
+![troubleshooting_ide_eclipse_problems_10]({{ site.github.url }}/images/developers/troubleshooting_ide_eclipse_problems_10.png)
 
 * Then, open the "Configure.." dialog:
 
+![troubleshooting_ide_eclipse_configure_problems_20_open_configure]({{ site.github.url }}/images/developers/troubleshooting_ide_eclipse_configure_problems_20_open_configure.png)
 
 * ...and change the setting such that only errors from the currently selecte project are displayed: 
 
+![troubleshooting_ide_eclipse_configure_problems_30_do_configure]({{ site.github.url }}/images/developers/troubleshooting_ide_eclipse_configure_problems_30_do_configure.png)
 
 ## I Get a warning about `Version is duplicate of parent version`
 
@@ -59,5 +62,6 @@ To fix it, make sure to run with java-8
 
 It looks like this:
 
+![troubleshooting_ide_eclipse_missing_m2e_provider]({{ site.github.url }}/images/developers/troubleshooting_ide_eclipse_missing_m2e_provider.png)
 
 It means that your eclipse instalation is missing a particular m2e component. You can search for it and install it by right-clicking on the problem and following the "Quick-Fix" item.
