@@ -11,11 +11,15 @@ The goal of this guide is to enable everyone who would like to contribute to met
 
 ## Java version
 
-Please make sure you are using java 7 while building the code.
+Please make sure you are using **Java 8** while building the code.
 
 ## Getting started
 
 {% include tag_linklist.html pages=site.developers_collection tag="developers_getting_started" %}
+
+## Troubleshooting
+
+{% include tag_linklist.html pages=site.developers_collection tag="developers_troubleshooting" %}
 
 ## Code/Architecture overview
 

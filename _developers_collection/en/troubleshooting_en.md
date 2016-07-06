@@ -36,14 +36,32 @@ We recoment to first check the following projects:
 
 You can configure eclipse to only show errors from the project that is currently selected.
 
-To to that, first open the "Problems" view by clicking on its tab:
+* To to that, first open the "Problems" view by clicking on its tab:
 
 ![printpreview](../images/developers/troubleshooting_ide_eclipse_problems_10.png)
 
-Then, open the "Configure.." dialog:
+* Then, open the "Configure.." dialog:
 
 ![printpreview](../images/developers/troubleshooting_ide_eclipse_configure_problems_20_open_configure.png)
 
-And change the setting such that only errors from the currently selecte project are displayed: 
+* ...and change the setting such that only errors from the currently selecte project are displayed: 
 
 ![printpreview](../images/developers/troubleshooting_ide_eclipse_configure_problems_30_do_configure.png)
+
+## I Get a warning about "Version is duplicate of parent version"
+
+You can ignore the warning. eclipse's maven plugin thinks one should remove the duplication version, but we need it. Details [here](http://docs.metasfresh.org/pages/infrastructure/ci_en).
+
+## I get an error saying `Unsupported major.minor version 52.0`
+
+This error indicates that you are trying to run the metasfresh code with a java version that is less than java-8.
+
+To fix it, make sure to run with java-8
+
+## I get an error about "Plugin execution not covered by lifecycle configuration
+
+It looks like this:
+
+![printpreview](../images/developers/troubleshooting_ide_eclipse_missing_m2e_provider.png)
+
+It means that your eclipse instalation is missing a particular m2e component. You can search for it and install it by right-clicking on the problem and following the "Quick-Fix" item.
