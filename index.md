@@ -25,8 +25,9 @@ layout: default
 
 ## Additional notes
 
-* The metasfresh website is at http://metasfresh.com/en, http://metasfresh.com/ (german)
-* You can follow us on twitter: @metasfresh (english), @metasfreshDE (german)
+* The metasfresh website is at [http://metasfresh.com/en](http://metasfresh.com/en) (english) and [http://metasfresh.com/](http://metasfresh.com/) (german).
+* You can follow us on twitter: @metasfresh (english), @metasfreshDE (german).
+* There also are two gitter chat rooms. One for [metasfresh](https://gitter.im/metasfresh/metasfresh) and one for [metasfresh-documentation](https://gitter.im/metasfresh/metasfresh-documentation).
 
 ## Please stay tuned...
 
