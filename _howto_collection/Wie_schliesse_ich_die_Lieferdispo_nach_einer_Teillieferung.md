@@ -6,7 +6,6 @@ tags:
 lang: de
 ---
 
-## Schritte
 1. Öffne die Lieferdispo nach Fertigstellung des Lieferscheins für eine Teillieferung
 
 1. Nach einer Überlieferung ist die Liefermenge = 0, das Feld ist rot, die Lieferdispo ist Verarbeitet
