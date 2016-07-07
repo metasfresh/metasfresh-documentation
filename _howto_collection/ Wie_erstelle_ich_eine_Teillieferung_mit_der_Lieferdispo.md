@@ -1,12 +1,12 @@
-﻿---
+---
 title: Wie erstelle ich eine Teillieferung mit der Lieferdispo?  
 layout: default
 tags:
   - 
 lang: de
 ---
-
 ## Schritte
+
 1. Erstelle einen Auftrag
 
 1. Springe in die Lieferdispo
