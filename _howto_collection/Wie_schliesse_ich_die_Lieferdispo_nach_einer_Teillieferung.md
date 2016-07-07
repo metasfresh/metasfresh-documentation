@@ -22,7 +22,10 @@ lang: de
 1. Falls es keine weiteren Rückstände gibt, ist der Lieferstatus des Auftrags jetzt "Vollständig Geliefert"
 
 
-## Wie geht es weiter?
-1. Fakturierung: vollständige Fakturierung trotz Teillieferung
+
+
+**Wie geht es weiter?**
+  
+Fakturierung: vollständige Fakturierung trotz Teillieferung
 
 
