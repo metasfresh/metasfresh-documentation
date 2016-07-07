@@ -32,7 +32,7 @@ Damit Du die Preisliste später auch exportieren kannst aktiviere die Druckvorsc
 1. Klicke auf "exportieren"
 1. Speichere die Datei an einem beliebigen Ort
 
-   *Hinweis:* Dein Kunde kann in der Exceldatei jetzt die Spalte "Menge" ausfüllen und Dir die Datei anschließend zurückschicken damit Du daraus via Import einen Auftrag erhälst. Damit das funktioniert muss der Integrationsdienst eingerichtet und aktiviert sein.
+   **Hinweis:** Dein Kunde kann in der Exceldatei jetzt die Spalte "Menge" ausfüllen und Dir die Datei anschließend zurückschicken damit Du daraus via Import einen Auftrag erhälst. Damit das funktioniert muss der Integrationsdienst eingerichtet und aktiviert sein.
 
 ## Nächste Schritte
 1. Wie importiere ich eine Excel-Preisliste als Auftrag ?
