@@ -2,11 +2,13 @@
 title: How to upgrade the server's Javaversion
 
 layout: default
+<!--
 tags:
   - Server
   - Administration
+-->
 
-<!---lang: en--!>
+lang:en
 ---
 
 ## OpenJDK-8-JDK on Ubuntu Server 12.04 / 14.04
