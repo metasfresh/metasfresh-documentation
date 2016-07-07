@@ -1,4 +1,4 @@
-﻿---
+---
 title: Wie schließe ich die Lieferdispo nach einer Teillieferung?  
 layout: default
 tags:
