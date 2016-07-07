@@ -8,8 +8,8 @@ lang: de
 ## Vorbereitung
 1. [Es existiert ein Produkt namens "Ergebnis" das hergestellt werden soll](Wie_lege_ich_ein_neues_Produkt_an)
 1. [Stückliste anlegen](Wie_erstelle_ich_eine_Rezeptur_Stückliste)
-1. Produktionsressource existiert
-1. Ein Arbeitsablauf wurde eingestellt
+1. [Produktionsressource existiert](Wie_erstelle_ich_eine_Produktionsressource)
+1. [Ein Arbeitsablauf wurde eingestellt](Wie_erstelle_ich_einen_Arbeitsablauf)
 
 ## Schritte
 1. [Fenster "Produkt Plandaten" öffnen](Wie_finde_und_öffne_ich_ein_Fenster)
