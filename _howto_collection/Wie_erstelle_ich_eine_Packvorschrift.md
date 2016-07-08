@@ -22,6 +22,7 @@ lang: de
 1. Feld **Name** ausfüllen
 1. [Speichern](Wie_lege_ich_einen_neuen_datensatz_an)
 1. Register `Position` öffnen
+
    Zuerst definieren wir welches Packmittel in dieser Packvorschrift verwendet wird:
    
    1. [Neuen Datensatz anlegen](Wie_lege_ich_einen_neuen_datensatz_an)
