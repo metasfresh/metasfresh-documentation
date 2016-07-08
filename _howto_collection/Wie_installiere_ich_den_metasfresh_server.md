@@ -12,4 +12,6 @@ lang: de
 
 ## Nächste Schritte
 
+Nach der Serverinstallation fehlt noch die Clientinstallation:
+
 [Wie installiere ich den metasfresh Client ?](Wie_installiere_ich_den_metasfresh_client)
