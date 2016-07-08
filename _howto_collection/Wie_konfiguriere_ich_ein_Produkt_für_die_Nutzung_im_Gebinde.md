@@ -24,11 +24,12 @@ So konfigurierst Du ein [Produkt](Wie_lege_ich_ein_neues_Produkt_an) für die Nu
 
 1. Feld **Geschäftspartner**: Optional kannst Du diese Packvorschrift nur für genau einen Partner aktivieren.
 1. Entscheidung wegen der Menge
-   1. Feste Menge
+    
+   **Option 1 - Feste Menge**
 
    Wenn von dem Produkt immer die gleiche, feste Menge in der TU liegt:
 
-      1. **Menge**: wie oft passt das Produkt (CU) in die Packung (TU)
+   Feld **Menge**: wie oft passt das Produkt (CU) in die Packung (TU)
 
    Beispiel: 10 Stück Convenience Salat in eine Mehrwegkiste. Menge = 10
    
@@ -36,11 +37,11 @@ So konfigurierst Du ein [Produkt](Wie_lege_ich_ein_neues_Produkt_an) für die Nu
    
    Konsequenz: Im Auftrag wird die Schnellerfassung nur die Menge der Gebinde abfragen und dann die Menge des Produkts daraus berechnen.
 
-   1. unbestimmte Menge
+   **Option 1 - unbestimmte Menge**
 
    Wenn von dem Produkt eine unbekannte, weil wechselnde Menge in der TU liegt:
 
-   1. **unbestimmte Kapazität**: setze den Haken aktiv wenn Du die Menge des Produkts in der TU nicht fest definieren möchtest.
+   Feld **unbestimmte Kapazität**: setze den Haken aktiv wenn Du die Menge des Produkts in der TU nicht fest definieren möchtest.
 
    Beispiel: In einen Metallgitterbox passen zwischen 1 und 100 Bauteilen.
 
