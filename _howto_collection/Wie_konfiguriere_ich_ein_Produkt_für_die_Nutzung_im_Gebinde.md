@@ -5,9 +5,17 @@ tags:
   - Stammdaten
 lang: de
 ---
+## Vorbereitung
+- [Wie lege ich ein neues Produkt an?](Wie_lege_ich_ein_neues_Produkt_an)
+
+
+## Schritte
 
 So konfigurierst Du ein [Produkt](Wie_lege_ich_ein_neues_Produkt_an) für die Nutzung im Gebinde: 
 	
+1. [Fenster "Produkt" öffnen](Wie_finde_und_öffne_ich_ein_Fenster)
+1. Bestehendes Produkt auswählen
+1. In Register `CU-TU Zuordnung wechseln
 1. [Neuen Datensatz anlegen](Wie_lege_ich_einen_neuen_datensatz_an)
 1. Passende **Packvorschrift** auswählen
 1. **Menge** eingeben wie oft der Artikel (CU) in die Packung (TU) passt
@@ -15,6 +23,4 @@ So konfigurierst Du ein [Produkt](Wie_lege_ich_ein_neues_Produkt_an) für die Nu
 1. Optional **Geschäftspartner** angeben damit diese Packvorschrift nur für diesen einen Partner gilt.
 1. [Speichern](Wie_lege_ich_einen_neuen_datensatz_an)
 
-*Hinweis:* Es können für einen Artikel auch verschiedene Packvorschriften erstellt werden!
-
-[Anleitung auf metasfresh.com](http://metasfresh.com/dokumentation/client-installation/)
+   **Hinweis:** Es können für einen Artikel auch verschiedene Packvorschriften erstellt werden!
