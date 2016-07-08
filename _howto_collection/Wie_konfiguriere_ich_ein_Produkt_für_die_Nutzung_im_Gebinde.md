@@ -19,6 +19,11 @@ So konfigurierst Du ein [Produkt](Wie_lege_ich_ein_neues_Produkt_an) für die Nu
 1. [Neuen Datensatz anlegen](Wie_lege_ich_einen_neuen_datensatz_an)
 1. Passende **Packvorschrift** auswählen
 1. **Menge** eingeben wie oft der Artikel (CU) in die Packung (TU) passt
+
+   z.B. 10 Stück Convenience Salat in eine Mehrwegkiste. Menge = 10
+   
+   z.B. 20 Flaschen in eine Getränkekiste. Menge = 20
+   
 1. **gültig ab** Datum eintragen ab wann die Packvorschrift aktiviert sein soll. Üblicher Wert wäre ein Datum kleiner als heute.
 1. Optional **Geschäftspartner** angeben damit diese Packvorschrift nur für diesen einen Partner gilt.
 1. [Speichern](Wie_lege_ich_einen_neuen_datensatz_an)
