@@ -9,7 +9,7 @@ lang: de
 
 ## Arbeitsablauf anlegen
 
-1. Fenster "Produktion Ablauf" öffnen
+1. [Fenster "Produktion Ablauf" öffnen](Wie_finde_und_öffne_ich_ein_Fenster)
 1. [Neuen Datensatz anlegen](Wie_lege_ich_einen_neuen_datensatz_an)
 1. Feld **Name** ausfüllen
 1. Feld **Status Arbeitsablauf** auf "Released" setzen

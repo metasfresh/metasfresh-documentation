@@ -11,7 +11,7 @@ lang: de
 
 
 ## Schritte
-1. Fenster "Stücklistenkonfiguration" öffnen
+1. [Fenster "Stücklistenkonfiguration" öffnen](Wie_finde_und_öffne_ich_ein_Fenster)
 1. [Neuen Datensatz anlegen](Wie_lege_ich_einen_neuen_datensatz_an)
 1. Produkt auswählen
 1. Datum für **gültig ab** wählen das in der Vergangenheit liegt
