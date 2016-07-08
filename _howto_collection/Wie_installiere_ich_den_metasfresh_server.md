@@ -10,6 +10,6 @@ lang: de
 
 [Anleitung auf metasfresh.com](http://metasfresh.com/dokumentation/installation-metas-fresh-unter-ubuntu-mittels-installationspaket/)
 
-## Nächste Schritte
+## NÃ¤chste Schritte
 
 [Wie installiere ich den metasfresh Client ?](Wie_installiere_ich_den_metasfresh_client)
