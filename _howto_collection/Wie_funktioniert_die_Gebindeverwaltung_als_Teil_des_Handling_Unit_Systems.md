@@ -28,8 +28,8 @@ LU|Ladehilfsmittel|Palette, Container, Paloxe, usw.
 
 HU|Konfiguration
 ---|---|---
-CU|[Wie konfiguriere ich ein Produkt für die Nutzung im Gebinde](Wie_konfiguriere_ich_ein_Produkt_für_die_Nutzung_im_Gebinde)
-TU|[Wie lege ich eine Packvorschrift an?](Wie_lege_ich_eine_Packvorschrift_an.md) 
+CU|[Wie konfiguriere ich ein Produkt für die Nutzung im Gebinde ?](Wie_konfiguriere_ich_ein_Produkt_für_die_Nutzung_im_Gebinde)
+TU|[Wie erstelle ich eine Packvorschrift ?](Wie_erstelle_ich_eine_Packvorschrift.md) 
 LU|Wie weise ich eine LU einer Packvorschrift zu?
 
 ## Begriffsklärung
