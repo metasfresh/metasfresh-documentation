@@ -2,7 +2,7 @@
 title: Wie finde ich das Serverlog ?
 layout: default
 tags:
-  - Serveradministration
+  - Systemadministration
 lang: de
 ---
 
