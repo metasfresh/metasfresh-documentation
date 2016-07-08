@@ -27,25 +27,25 @@ So konfigurierst Du ein [Produkt](Wie_lege_ich_ein_neues_Produkt_an) für die Nu
     
    **Option 1 - Feste Menge**
 
-      Wenn von dem Produkt immer die gleiche, feste Menge in der TU liegt:
-      
-      Feld **Menge**: wie oft passt das Produkt (CU) in die Packung (TU)
-      
+   Wenn von dem Produkt immer die gleiche, feste Menge in der TU liegt:
+   
+   - Feld **Menge**: wie oft passt das Produkt (CU) in die Packung (TU)
+   
       Beispiel: 10 Stück Convenience Salat in eine Mehrwegkiste. Menge = 10
-      
+   
       Beispiel: 20 Flaschen in eine Getränkekiste. Menge = 20
-      
+   
       Konsequenz: Im Auftrag wird die Schnellerfassung nur die Menge der Gebinde abfragen und dann die Menge des Produkts daraus berechnen.
 
    **Option 1 - unbestimmte Menge**
 
-      Wenn von dem Produkt eine unbekannte, weil wechselnde Menge in der TU liegt:
-      
-      Feld **unbestimmte Kapazität**: setze den Haken aktiv wenn Du die Menge des Produkts in der TU nicht fest definieren möchtest.
-      
-      Beispiel: In einen Metallgitterbox passen zwischen 1 und 100 Bauteilen.
-      
-      Konsequenz: Im Auftrag wird die Schnellerfassung erst die Menge der Gebinde abfragen und dann die Menge ohne Gebinde.
+   Wenn von dem Produkt eine unbekannte, weil wechselnde Menge in der TU liegt:
+
+   Feld **unbestimmte Kapazität**: setze den Haken aktiv wenn Du die Menge des Produkts in der TU nicht fest definieren möchtest.
+
+   Beispiel: In einen Metallgitterbox passen zwischen 1 und 100 Bauteilen.
+
+   Konsequenz: Im Auftrag wird die Schnellerfassung erst die Menge der Gebinde abfragen und dann die Menge ohne Gebinde.
  
 1. [Speichern](Wie_lege_ich_einen_neuen_datensatz_an)
 
