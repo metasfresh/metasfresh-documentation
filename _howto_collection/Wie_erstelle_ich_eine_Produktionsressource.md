@@ -3,7 +3,7 @@ title: Wie erstelle ich eine Produktionsressource ?
 layout: default
 tags:
   - Stammdaten
-  - Produktion
+  
 lang: de
 ---
 
