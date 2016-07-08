@@ -8,7 +8,7 @@ lang: de
 
 ## Vorbereitung
 
-- [Wie funktioniert die Gebindeverwaltung als Teil des Handling Unit Systems?](Wie_funktioniert_die_Gebindeverwaltung_als_Teil_des_Handling_Unit_Systems.mde)
+- [Wie funktioniert die Gebindeverwaltung als Teil des Handling Unit Systems?](Wie_funktioniert_die_Gebindeverwaltung_als_Teil_des_Handling_Unit_Systems)
 
 
 ## Schritte
@@ -36,4 +36,4 @@ lang: de
 
 ## nächste Schritte
 
-- [Wie konfiguriere ich ein Produkt für die Nutzung im Gebinde ?](Wie_konfiguriere_ich_ein_Produkt_für_die_Nutzung_im_Gebinde.md)
+- [Wie konfiguriere ich ein Produkt für die Nutzung im Gebinde ?](Wie_konfiguriere_ich_ein_Produkt_für_die_Nutzung_im_Gebinde)
