@@ -1,5 +1,5 @@
 ---
-title: Wie erstelle ich eine Packvorschrift ?
+title: Wie richte ich ein Packmittel ein ?
 layout: default
 tags:
   - Stammdaten
