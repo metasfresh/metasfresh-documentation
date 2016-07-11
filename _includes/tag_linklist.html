@@ -16,7 +16,7 @@ Parameters:
 
 {% assign primary_pages = '' | split: ',' %}
 {% assign secondary_pages = '' | split: ',' %}
-{% assign secondary_tags = '' | split: ',' %}
+{% assign secondary_page_tags = '' | split: ',' %}
 
 {% for current_page in include.pages %}
 
@@ -32,12 +32,11 @@ Parameters:
 	{% else %}
 		{% assign secondary_pages = secondary_pages | push: current_page %}
 		
-		{% comment %} also collect 2ndary tags, we will want to list them and their pages too {% endcomment %}
-		{% for i in (1..current_page.tags.quantity) %}
-			{% assign secondary_tags = secondary_tags | push: current_page.tags[i] %}
-		{% endfor %}
-		
+		{% comment %} also collect the primary_tags of out 2ndary pages, we will want to list the secondary pages under those tags {% endcomment %}
+		{% assign secondary_page_tags = secondary_page_tags | push: current_page.tags[0] %}
 	{% endif %}
+
+<!-- DEBUG tag_linklist.html pimary tags of the secondary pages (raw) - secondary_page_tags={{ secondary_page_tags }} -->
 
 {% endfor %}
 
@@ -47,12 +46,12 @@ Parameters:
 	{% assign primary_pages = primary_pages | sort: 'sequence', 'last' %}
 
 	{% comment %} sort the sencodary tags alphabetically and unique them {% endcomment %}
-	{% assign secondary_tags = secondary_tags | sort | uniq %}
-<!-- DEBUG tag_linklist.html secondary_tags={{ secondary_tags }} -->
-<!-- DEBUG tag_linklist.html quantity of secondary_pages={{ secondary_pages.quantity }} -->
+	{% assign secondary_page_tags = secondary_page_tags | sort | uniq %}
+<!-- DEBUG tag_linklist.html pimary tags of the secondary pages (sort&uniq) - secondary_page_tags={{ secondary_page_tags }} -->
+<!-- DEBUG tag_linklist.html quantity of secondary_pages={{ secondary_pages.size }} -->
 
 	{% comment %} output them, first the sorted ones, then the rest {% endcomment %}
-<!-- DEBUG tag_linklist.html pages that have '{{ include.tag }}' as primary tag -->
+<!-- DEBUG tag_linklist.html listing pages that have '{{ include.tag }}' as primary tag -->
 <ul>
 	{% for current_page in primary_pages %}
 	<li><a href="{{ site.github.url }}{{ current_page.url }}">{{ current_page.title }}</a>
@@ -65,14 +64,14 @@ Parameters:
 
 	{% unless suppress_secondary_pages and suppress_secondary_pages!='' %}
 	
-		{% for current_secondary_tag in secondary_tags %}
+		{% for current_secondary_page_tag in secondary_page_tags %}
 		
-<h3>{{ current_secondary_tag }}</h3>
-<!-- DEBUG tag_linklist.html including tag_linklist for current_secondary_tag ='{{ current_secondary_tag }}' -->	
-			{% include tag_linklist.html pages=secondary_pages tag=current_secondary_tag lang=include.lang suppress_secondary_pages="true" %}
+<h3>{{ current_secondary_page_tag }}</h3>
+<!-- DEBUG tag_linklist.html including tag_linklist for current_secondary_page_tag ='{{ current_secondary_page_tag }}' -->	
+			{% include tag_linklist.html pages=secondary_pages tag=current_secondary_page_tag lang=include.lang suppress_secondary_pages="true" %}
 		{% endfor %}
 	{% else %}
-<!-- DEBUG tag_linklist.html we are not suppressing secondary tags, but there aren't any -->		
+<!-- DEBUG tag_linklist.html we are not suppressing secondary pages, but there aren't any -->		
 	{% endunless %}
 
 {% else %}
