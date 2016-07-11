@@ -6,7 +6,7 @@ Parameters:
   include.pages: the array of pages to iterate
   include.tag: the given tag to filter for (tag variable from the front matter)
   include.lang: optional, maybe null; the given language to filter for (lang variable from the front matter)
-  include.suppress_secondary_pages: optional; if true-ish, then only primary pages are listed
+  include.suppress_secondary_pages: optional; if set to *any value* != '', then only primary pages are listed
 {% endcomment %}
 
 <!-- DEBUG tag_linklist.html BEGIN -->
@@ -48,10 +48,10 @@ Parameters:
 
 	{% comment %} sort the sencodary tags alphabetically and unique them {% endcomment %}
 	{% assign secondary_tags = secondary_tags | sort | uniq %}
+<!-- DEBUG tag_linklist.html secondary_tags={{ secondary_tags }} -->
 
 	{% comment %} output them, first the sorted ones, then the rest {% endcomment %}
-
-	<!-- DEBUG tag_linklist.html pages that have '{{ include.tag }}' as primary tag -->
+<!-- DEBUG tag_linklist.html pages that have '{{ include.tag }}' as primary tag -->
 <ul>
 	{% for current_page in primary_pages %}
 	<li><a href="{{ site.github.url }}{{ current_page.url }}">{{ current_page.title }}</a>
@@ -62,12 +62,12 @@ Parameters:
 	{% endfor %}
 </ul>
 
-	{% unless suppress_secondary_pages %}
+	{% unless suppress_secondary_pages and suppress_secondary_pages!='' %}
 	
 		{% for current_secondary_tag in secondary_tags %}
 		
-<h3>Weitere Infos zu {{ current_secondary_tag }}</h3>
-			<!-- DEBUG tag_linklist.html including tag_linklist for current_secondary_tag ='{{ current_secondary_tag }}' -->	
+<h3>{{ current_secondary_tag }}</h3>
+<!-- DEBUG tag_linklist.html including tag_linklist for current_secondary_tag ='{{ current_secondary_tag }}' -->	
 			{% include tag_linklist.html pages=secondary_pages tag=current_secondary_tag lang=include.lang suppress_secondary_pages="true" %}
 
 		{% endfor %}
@@ -75,7 +75,7 @@ Parameters:
 	{% endunless %}
 
 {% else %}
-	<!-- DEBUG tag_linklist.html there are not pages that have '{{ include.tag }}' as primary tag -->
+<!-- DEBUG tag_linklist.html there are not pages that have '{{ include.tag }}' as primary tag -->
 {% endif %}
 
 <!-- DEBUG tag_linklist.html END -->
