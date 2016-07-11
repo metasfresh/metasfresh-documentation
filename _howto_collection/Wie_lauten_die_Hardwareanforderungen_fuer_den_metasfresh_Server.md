@@ -2,7 +2,7 @@
 title: Wie lauten die Hardwareanforderungen für den metasfresh Server?
 layout: default
 tags:
-  - Serveradministration
+  - Systemadministration
 lang: de
 ---
 

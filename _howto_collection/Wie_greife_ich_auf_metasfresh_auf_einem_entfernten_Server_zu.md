@@ -2,7 +2,7 @@
 title: Wie greife ich auf metasfresh auf einem entfernten Server zu ?
 layout: default
 tags:
-  - Serveradministration
+  - Systemadministration
 lang: de
 ---
 

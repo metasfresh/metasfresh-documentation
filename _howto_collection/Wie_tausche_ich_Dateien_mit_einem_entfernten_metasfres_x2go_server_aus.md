@@ -2,7 +2,7 @@
 title: Wie tausche ich Dateien mit einem entfernten metasfres x2go server aus?
 layout: default
 tags:
-  - Serveradministration
+  - Systemadministration
 lang: de
 ---
 

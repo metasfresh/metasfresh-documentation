@@ -6,7 +6,6 @@ tags:
 lang: de
 ---
 
-## Schritte
 1. Öffne die Lieferdispo nach Fertigstellung des Lieferscheins für eine Teillieferung
 
 1. Nach einer Überlieferung ist die Liefermenge = 0, das Feld ist rot, die Lieferdispo ist Verarbeitet
@@ -22,7 +21,10 @@ lang: de
 1. Falls es keine weiteren Rückstände gibt, ist der Lieferstatus des Auftrags jetzt "Vollständig Geliefert"
 
 
-## Wie geht es weiter?
-1. Fakturierung: vollständige Fakturierung trotz Teillieferung
+
+
+**Wie geht es weiter?**
+  
+Fakturierung: vollständige Fakturierung trotz Teillieferung
 
 

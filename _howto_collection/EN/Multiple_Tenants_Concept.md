@@ -1,9 +1,12 @@
 ---
 title: Multiple Tenants Concept
 layout: default
+<!--
 tags:
   - Concepts
-<!---- lang: en ----!>
+-->
+lang: en
+
 ---
 metasfresh supports an unlimited amount of tenants. Data of these tenants are logically separated and therefore they are not visible among each other.
 

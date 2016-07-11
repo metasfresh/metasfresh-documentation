@@ -2,7 +2,7 @@
 title: Wie aktualisiere ich die Java Version auf meinem Server ?
 layout: default
 tags:
-  - Serveradministration
+  - Systemadministration
 lang: de
 ---
 
