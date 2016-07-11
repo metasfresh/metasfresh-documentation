@@ -151,7 +151,7 @@ THE SOFTWARE.
   clear: both;
   content: "";
 }
-
+/*
 .markdown-body h1,
 .markdown-body h2,
 .markdown-body h3,
@@ -161,6 +161,16 @@ THE SOFTWARE.
   margin-top: 0;
   margin-bottom: 0;
   line-height: 1.5;
+}
+*/
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3,
+.markdown-body h4,
+.markdown-body h5,
+.markdown-body h6 {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .markdown-body h1 {
