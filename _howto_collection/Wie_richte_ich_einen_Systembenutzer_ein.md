@@ -4,6 +4,7 @@ layout: default
 tags:
   - Systemkonfiguration
 lang: de
+sequence: 10
 ---
 1. [Fenster "Nutzer" öffnen](Wie_finde_und_öffne_ich_ein_Fenster)
 1. [Neuen Datensatz anlegen](Wie_lege_ich_einen_neuen_datensatz_an)
