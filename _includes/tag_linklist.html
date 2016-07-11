@@ -34,7 +34,7 @@ Parameters:
 		
 		{% comment %} also collect 2ndary tags, we will want to list them and their pages too {% endcomment %}
 		{% for i in (1..current_page.tags.quantity) %}
-			{% assign secondary_tags = secondary_tags | current_page.tags[i] %}
+			{% assign secondary_tags = secondary_tags | push: current_page.tags[i] %}
 		{% endfor %}
 		
 	{% endif %}
@@ -49,6 +49,7 @@ Parameters:
 	{% comment %} sort the sencodary tags alphabetically and unique them {% endcomment %}
 	{% assign secondary_tags = secondary_tags | sort | uniq %}
 <!-- DEBUG tag_linklist.html secondary_tags={{ secondary_tags }} -->
+<!-- DEBUG tag_linklist.html quantity of secondary_pages={{ secondary_pages.quantity }} -->
 
 	{% comment %} output them, first the sorted ones, then the rest {% endcomment %}
 <!-- DEBUG tag_linklist.html pages that have '{{ include.tag }}' as primary tag -->
@@ -69,13 +70,13 @@ Parameters:
 <h3>{{ current_secondary_tag }}</h3>
 <!-- DEBUG tag_linklist.html including tag_linklist for current_secondary_tag ='{{ current_secondary_tag }}' -->	
 			{% include tag_linklist.html pages=secondary_pages tag=current_secondary_tag lang=include.lang suppress_secondary_pages="true" %}
-
 		{% endfor %}
-		
+	{% else %}
+<!-- DEBUG tag_linklist.html we are not suppressing secondary tags, but there aren't any -->		
 	{% endunless %}
 
 {% else %}
-<!-- DEBUG tag_linklist.html there are not pages that have '{{ include.tag }}' as primary tag -->
+<!-- DEBUG tag_linklist.html primary_pages is empty, i.e. there are no pages that have '{{ include.tag }}' as primary tag -->
 {% endif %}
 
 <!-- DEBUG tag_linklist.html END -->

@@ -15,7 +15,6 @@ Parameters:
 
 {% comment %} Create empty arrays {% endcomment %}
 {% assign tags = '' | split: ',' %}
-{% assign unique_tags = '' | split: ',' %}
 
 <!-- DEBUG tag_grouped_index.html intial tags='{{tags}}' -->
 <!-- DEBUG tag_grouped_index.html intial unique_tags='{{unique_tags}}' -->
@@ -23,22 +22,17 @@ Parameters:
 {% comment %} Map and flatten {% endcomment %}
 {% if include.lang %}
 	{% comment %} #33 FRESH-514: if include.lang is set, then only consider pages with that language {% endcomment %}
-	{% assign tags =  include.pages | where:"lang",include.lang | map: 'tags' | join: ',' | join: ',' | split: ',' %}
-	<!-- DEBUG tag_grouped_index.html after map&flatten with filter by lang: tags='{{tags}}' -->
+	{% assign tags =  include.pages | where:"lang",include.lang | map: 'tags' | join: ',' | join: ',' | split: ',' | uniq %}
+<!-- DEBUG tag_grouped_index.html after map&flatten&uniq with filter by lang: tags='{{tags}}' -->
 {% else %}
-	{% assign tags =  include.pages | map: 'tags' | join: ',' | join: ',' | split: ',' %}
-	<!-- DEBUG tag_grouped_index.html after map&flatten without filter by lang: tags='{{tags}}' -->
+	{% assign tags =  include.pages | map: 'tags' | join: ',' | join: ',' | split: ',' | uniq %}
+<!-- DEBUG tag_grouped_index.html after map&flatten&uniq without filter by lang: tags='{{tags}}' -->
 {% endif %}
 
 
-{% comment %} Uniqe, i.e. write the distinct values of "tags" into "unique_tags" use uniq, see https://github.com/Shopify/liquid/wiki/Liquid-for-Designers {% endcomment %}
-{% assign unique_tags = tags | uniq %}
-
-<!-- DEBUG tag_grouped_index.html after map&flatten: unique_tags='{{unique_tags}}' -->
-
 {% comment %} create one section for each unique tag, skip the "empty tag" {% endcomment %}
 
-{% for unique_tag in unique_tags %}
+{% for unique_tag in tags %}
 	{% if unique_tag == "" %}
 		{% continue %}
 	{% endif %}
