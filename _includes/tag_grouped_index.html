@@ -1,32 +1,38 @@
 {% comment %}
 Get the different tags from the given include.pages variable, and create a section for each individual tag.
 List links to the respective include.pages for each tag value, using {% include tag_linklist %}.
-Thx to http://stackoverflow.com/questions/34242743/distinct-in-jekyll-liquid for getting usw started.
+Thx to http://stackoverflow.com/questions/34242743/distinct-in-jekyll-liquid for getting us started.
 
 Parameters:
   include.pages: the array of pages to iterate
-  include.lang: optional, maybe null; the given language to filter for (lang variable from the front matter)
+  include.lang: optional, maybe null; the given language to filter for (lang variable from the front matter); 
+	#33 FRESH-514: if set, then only list pages with the given lang
 {% endcomment %}
-<!-- include tag_grouped_index.html with
-lang='{{include.lang}}'
-pages: it'S not a good idea to try and list the pages, there whole html would be pasted in here
--->
+
+<!-- DEBUG tag_grouped_index.html BEGIN -->
+<!-- DEBUG tag_grouped_index.html lang='{{include.lang}}' -->
+{% comment %}<!-- DEBUG pages: it's not a good idea to try and list the pages, their whole html would be pasted in here -->{% endcomment %}
 
 {% comment %} Create empty arrays {% endcomment %}
 {% assign tags = '' | split: ',' %}
-{% assign unique_tags = '' | split: ',' %}
+
+<!-- DEBUG tag_grouped_index.html intial tags='{{tags}}' -->
+<!-- DEBUG tag_grouped_index.html intial unique_tags='{{unique_tags}}' -->
 
 {% comment %} Map and flatten {% endcomment %}
-{% assign tags =  include.pages | map: 'tags' | join: ',' | join: ',' | split: ',' %}
+{% if include.lang %}
+	{% comment %} #33 FRESH-514: if include.lang is set, then only consider pages with that language {% endcomment %}
+	{% assign tags =  include.pages | where:"lang",include.lang | map: 'tags' | join: ',' | join: ',' | split: ',' | uniq %}
+<!-- DEBUG tag_grouped_index.html after map&flatten&uniq with filter by lang: tags='{{tags}}' -->
+{% else %}
+	{% assign tags =  include.pages | map: 'tags' | join: ',' | join: ',' | split: ',' | uniq %}
+<!-- DEBUG tag_grouped_index.html after map&flatten&uniq without filter by lang: tags='{{tags}}' -->
+{% endif %}
 
-{% comment %} Uniqe, i.e. write the distinct values of "tags" into "unique_tags" 
-use uniq, see https://github.com/Shopify/liquid/wiki/Liquid-for-Designers
-{% endcomment %}
-{% assign unique_tags = tags | uniq %}
 
 {% comment %} create one section for each unique tag, skip the "empty tag" {% endcomment %}
 
-{% for unique_tag in unique_tags %}
+{% for unique_tag in tags %}
 	{% if unique_tag == "" %}
 		{% continue %}
 	{% endif %}
@@ -37,3 +43,5 @@ use uniq, see https://github.com/Shopify/liquid/wiki/Liquid-for-Designers
 	{% include tag_linklist.html pages=include.pages tag=unique_tag lang=include.lang %}
 
 {% endfor %}
+
+<!-- DEBUG tag_grouped_index.html END -->
