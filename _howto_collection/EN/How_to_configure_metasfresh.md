@@ -8,7 +8,7 @@ lang: en
 ---
 ## Configuring Basic Data
 
-1. [Prozess "Ersteinrichtung-Assistent" öffnen](Wie_finde_und_öffne_ich_ein_Fenster) 
+1. [Open the process "Quickstart Wizard" öffnen](How_to_find_and_open_a_window) 
 1. Change the fields according to your preferences
 1. Confirm using OK
 1. Login using the metasfresh client so that changes become visible
