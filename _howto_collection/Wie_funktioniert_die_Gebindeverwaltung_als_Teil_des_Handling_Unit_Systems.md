@@ -31,3 +31,13 @@ HU|Konfiguration|Erklärung
 CU|[Wie lege ich ein Produkt an?](Wie_lege_ich_ein_neues_Produkt_an)|Zeigt wie Du eine CU erstellst und ihr eine oder mehrere Packvorschriften (CU-TU Zuordnung) zuweist.
 TU|Wie lege ich eine Packvorschrift an? 
 LU|Wie weise ich eine LU einer Packvorschrift zu?
+
+## Begriffsklärung
+
+|                 | Beantwortet diese Fragen                                    | Wo in metasfresh zu finden?                |
+| --------------- | ----------------------------------------------------------- | ------------------------------------------ |
+| CU-TU Zuordnung | In welche Verpackungen (TUs) kann ich mein Produkt packen?  | Fenster Produkt → Register CU-TU Zuordnung |
+|                 | Wie viele Produkte passen in eine Verpackung (TU)?          | Feld Menge                                 |
+| Packvorschrift  |                                                             | Fenster Packvorschrift                     |
+| Packmittel      |  Aus welchem Packmittel besteht die Verpackung?             | Fenster Packvorschrift  → Packmittel       |
+| Packgut         | Darf ich in diese Packung auch ein Produkt tun?             | Fenster Packvorschrift  → Packgut          |
