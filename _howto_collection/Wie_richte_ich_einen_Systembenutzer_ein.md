@@ -11,7 +11,7 @@ lang: de
 1. Feld **Systembenutzer** anhaken
 1. Feld **Passwort** füllen
    
-   Hinweis: Das Passwort muss den Komplexitätsanforderungen entsprechend. Standard sind min. 8 Zeichen Länge.
+   Hinweis: Das Passwort muss den Komplexitätsanforderungen entsprechen. Standard sind min. 8 Zeichen Länge.
  
 1. [Speichern](Wie_lege_ich_einen_neuen_datensatz_an) 
    1. Register `Rolle`wechseln
