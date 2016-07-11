@@ -64,8 +64,8 @@ Parameters:
 	{% unless suppress_secondary_pages and suppress_secondary_pages!='' %}
 	
 		{% for current_secondary_page_tag in secondary_page_tags %}
-		
-<h3>Weitere Infos aus "{{ current_secondary_page_tag }}"</h3>
+<p>	
+<b>Weitere Infos aus "{{ current_secondary_page_tag }}"</b>
 <!-- DEBUG tag_linklist.html including tag_linklist for current_secondary_page_tag ='{{ current_secondary_page_tag }}' -->	
 			{% include tag_linklist.html pages=secondary_pages tag=current_secondary_page_tag lang=include.lang suppress_secondary_pages="true" %}
 		{% endfor %}
