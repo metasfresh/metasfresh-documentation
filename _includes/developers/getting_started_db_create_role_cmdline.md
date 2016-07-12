@@ -1,5 +1,3 @@
 {% highlight bash %}
-CREATE ROLE metasfresh LOGIN
-  ENCRYPTED PASSWORD 'metasfresh'
-  SUPERUSER INHERIT CREATEDB NOCREATEROLE REPLICATION;
+createuser --login --createdb --no-createrole --no-superuser --encrypted --replication --inherit --pwprompt metasfresh
 {% endhighlight %}
