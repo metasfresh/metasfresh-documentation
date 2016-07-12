@@ -73,6 +73,7 @@ tags:
 	
 	
 **Regression:**
+
 1. Use Kommissionier Terminal for picking the remaining 2 TUs (each order separately, for each Org)
 
 1. Create the inouts with Lieferdispo, gear, Erstellen mit kommissionierter Menge
