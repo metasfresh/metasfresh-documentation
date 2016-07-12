@@ -1,10 +1,12 @@
 ---
 title: Overview of the Quote to Cash workflow
 layout: default
+<!--
 tags:
   - Workflow
+-->
 sequence: 10
-<!---- lang: en ----!>
+lang: en
 ---
 In metasfresh there are numerous variants and possibilities to create documents in a quote to cash scenario. The following workflow is one of the many possibilities but a very short and simple one.
 

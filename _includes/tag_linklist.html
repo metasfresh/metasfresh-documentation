@@ -6,14 +6,17 @@ Parameters:
   include.pages: the array of pages to iterate
   include.tag: the given tag to filter for (tag variable from the front matter)
   include.lang: optional, maybe null; the given language to filter for (lang variable from the front matter)
+  include.suppress_secondary_pages: optional; if set to *any value* != '', then only primary pages are listed
 {% endcomment %}
 
-<!-- DEBUG BEGIN tag_linklist.html -->
-<!-- DEBUG include.lang='{{ include.lang }}' -->
-<!-- DEBUG include.tag='{{ include.tag }}' -->
+<!-- DEBUG tag_linklist.html BEGIN -->
+<!-- DEBUG tag_linklist.html include.lang='{{ include.lang }}' -->
+<!-- DEBUG tag_linklist.html include.tag='{{ include.tag }}' -->
+<!-- DEBUG tag_linklist.html include.suppress_secondary_pages='{{ include.suppress_secondary_pages }}' -->
 
 {% assign primary_pages = '' | split: ',' %}
 {% assign secondary_pages = '' | split: ',' %}
+{% assign secondary_page_tags = '' | split: ',' %}
 
 {% for current_page in include.pages %}
 
@@ -28,39 +31,50 @@ Parameters:
 		 {% assign primary_pages = primary_pages | push: current_page %}
 	{% else %}
 		{% assign secondary_pages = secondary_pages | push: current_page %}
+		
+		{% comment %} also collect the primary_tags of out 2ndary pages, we will want to list the secondary pages under those tags {% endcomment %}
+		{% assign secondary_page_tags = secondary_page_tags | push: current_page.tags[0] %}
 	{% endif %}
 
 {% endfor %}
+<!-- DEBUG tag_linklist.html pimary tags of the secondary pages (raw) - secondary_page_tags={{ secondary_page_tags }} -->
 
-{% comment %} sort them {% endcomment %}
-{% assign primary_sorted_pages = primary_pages | sort: 'sequence', 'last' %}
+{% if primary_pages != empty %}
 
-{% comment %} output them, first the sorted ones, then the rest {% endcomment %}
+	{% comment %} sort primary pages by their seqNo {% endcomment %}
+	{% assign primary_pages = primary_pages | sort: 'sequence', 'last' %}
 
-<!-- DEBUG pages that have '{{ include.tag }}' as primary tag (might be empty) -->
+	{% comment %} sort the sencodary tags alphabetically and unique them {% endcomment %}
+	{% assign secondary_page_tags = secondary_page_tags | sort | uniq %}
+<!-- DEBUG tag_linklist.html pimary tags of the secondary pages (sort&uniq) - secondary_page_tags={{ secondary_page_tags }} -->
+<!-- DEBUG tag_linklist.html quantity of secondary_pages={{ secondary_pages.size }} -->
+
+	{% comment %} output them, first the sorted ones, then the rest {% endcomment %}
+<!-- DEBUG tag_linklist.html listing pages that have '{{ include.tag }}' as primary tag -->
 <ul>
-{% for current_page in primary_sorted_pages %}
+	{% for current_page in primary_pages %}
 	<li><a href="{{ site.github.url }}{{ current_page.url }}">{{ current_page.title }}</a>
-	{% if current_page.summary %}
-		: {{ current_page.summary }}
-	{% endif %}
+		{% if current_page.summary %}
+			: {{ current_page.summary }}
+		{% endif %}
 	</li>
-{% endfor %}
+	{% endfor %}
 </ul>
 
-{% comment %} if both primary_sorted_pages and secondary_pages are not empty, then add "Weitere Infos" to distinguish the two {% endcomment %}
-{% if primary_sorted_pages != empty and secondary_pages != empty %}
-<b>Weitere Infos</b>
+	{% unless suppress_secondary_pages and suppress_secondary_pages!='' %}
+	
+		{% for current_secondary_page_tag in secondary_page_tags %}
+<p>	
+<b>Weitere Infos aus "{{ current_secondary_page_tag }}"</b>
+<!-- DEBUG tag_linklist.html including tag_linklist for current_secondary_page_tag ='{{ current_secondary_page_tag }}' -->	
+			{% include tag_linklist.html pages=secondary_pages tag=current_secondary_page_tag lang=include.lang suppress_secondary_pages="true" %}
+		{% endfor %}
+	{% else %}
+<!-- DEBUG tag_linklist.html we are not suppressing secondary pages, but there aren't any -->		
+	{% endunless %}
+
+{% else %}
+<!-- DEBUG tag_linklist.html primary_pages is empty, i.e. there are no pages that have '{{ include.tag }}' as primary tag -->
 {% endif %}
 
-<!-- DEBUG pages that have '{{ include.tag }}' as secondary tag (might be empty) -->
-<ul>
-{% for current_page in secondary_pages %}
-	<li><a href="{{ site.github.url }}{{ current_page.url }}">{{ current_page.title }}</a>
-	{% if current_page.summary %}
-		: {{ current_page.summary }}
-	{% endif %}
-	</li>
-{% endfor %}
-</ul>
-<!-- DEBUG END tag_linklist.html -->
+<!-- DEBUG tag_linklist.html END -->

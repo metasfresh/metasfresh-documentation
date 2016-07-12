@@ -15,7 +15,7 @@ ref: developers_getting_started_db
 
 ## Import the initial dump from command line
 
-To get the database dump into your local database via command line, do as follows:
+To get the database dump into your local database via command line, do as follows, as user `postgres`:
 
 * Create a "Login Role" named `metasfresh`
 

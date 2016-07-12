@@ -1,9 +1,11 @@
 ---
 title: How to make use of the auto-complete function
 layout: default
+<!--
 tags:
   - Usage
-<!--- lang: en ---!>
+-->
+lang:en
 ---
 
 1. Enter a part of the name or number in the corresponding field.
