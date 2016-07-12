@@ -7,13 +7,14 @@ required data:
    AD_Orgs: Org I, Org II
 layout: default
 tags:
-  -
+  - HUs
+  - InOut
 ---
 ## Wrong LU taken in InOut Generate
 
 > Testcase to check if the correct LU is taken in InOut.
 
-1. Log in as Admin, so you can work with both Orgs OR log in with each Org in 2 different clients!
+1. Log in with each Org in 2 different clients! Test for Org I and Org II in the resp. client!
 
 1. Make sure G000X is customer for both Org I and Org II
 
