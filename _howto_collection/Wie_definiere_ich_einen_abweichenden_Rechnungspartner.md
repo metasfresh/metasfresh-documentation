@@ -27,4 +27,4 @@ Du brauchst zwei Partner:
 1. [OK klicken](Wie_bestaetige_ich_eine_Aktion)
 
 ## Wie geht es weiter?
-1. Wie erstelle ich einen Auftrag mit einem abweichenden Rechnungspartner ?
+1. [Wie erstelle ich einen Auftrag mit einem abweichenden Rechnungspartner](Wie_erstelle_ich_einen_Auftrag_mit_einem_abweichenden_Rechnungspartner)?
