@@ -21,6 +21,8 @@ To get the database dump into your local database via command line, do as follow
 
 {% include developers/getting_started_db_create_role_cmdline.md %}
 
+For convenience and since this is just your local development DB, you might want to also specify `--superuser`
+
 * Create a new, empty database that is also named `metasfresh` and owned by the newly created role:
 
 {% include developers/getting_started_db_create_db_cmdline.md %}
