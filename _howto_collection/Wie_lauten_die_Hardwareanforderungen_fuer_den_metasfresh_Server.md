@@ -6,26 +6,38 @@ tags:
 lang: de
 ---
 
-## Einstieg
-
-Geringe Anzahl von Benutzern, Belegen und gleichzeitigen Serveroperationen
+## Testsystem
 
 Kriterium|Anforderung
 ---|---
-Festplattengeschwindigkeit| 2x SSD Festplatten / SAS >10K 
+Festplattengeschwindigkeit| 1x SSD Festplatte oder SAS >10K RPM
+Festplattensicherheit| optional
+Festplattenspeicherplatz| min. 20 GB 
+CPU | min. 2x CPU Kerne 
+RAM | min. 4 GB
+
+
+
+## Livesystem - Einstieg
+
+Geringe Anzahl von Benutzern, Belegen und gleichzeitigen Serveroperationen. 
+
+Kriterium|Anforderung
+---|---
+Festplattengeschwindigkeit| 2x SSD Festplatten oder SAS >10K RPM
 Festplattensicherheit| RAID 1
 Festplattenspeicherplatz| min. 20 GB 
 CPU | min. 8x CPU Kerne 
 RAM | min. 16 GB
 
 
-##  Mittel
+##  Livesystem - Fortgeschritten
 
 Mittlere Anzahl von Benutzern, Belegen und gleichzeitigen Serveroperationen
 
 Kriterium|Anforderung
 ---|---
-Festplattengeschwindigkeit| 4x SSD Festplatten / SAS >10K 
+Festplattengeschwindigkeit| 4x SSD Festplatten oder SAS >10K RPM
 Festplattensicherheit| RAID 10
 Festplattenspeicherplatz| min. 20 GB 
 CPU | min. 24x CPU Kerne 
