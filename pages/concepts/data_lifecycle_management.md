@@ -1,15 +1,14 @@
 ---
 layout: default
+title: Data lifecylce management concept
 lang: en
 issue: https://github.com/metasfresh/metasfresh-documentation/issues/35
 tags: concept
 ---
 
-= Data lifecylce management concept =
+Currenty this concept is still a work in progress.
 
-Currenty this is not really a concept, but rather a set of notes.
-
-The objective is to have a frramework that allows us to migrate data in a reversable way from production tables into an "archive".
+The objective is to have a framework that allows us to migrate data in a reversable way from production tables into an "archive".
 
 We need this to achieve two things:
 * improve performance when woking on the production tables
@@ -17,7 +16,7 @@ We need this to achieve two things:
 
 Throughout the text, "data lifecycle management" might be abbreviated with "DLM".
 
-==Database ==
+## Database
 
 Generally we need to decide for the first increment: do we want one DBMS with different table spaces or multiple DBMSs?
 
@@ -26,8 +25,8 @@ The only advantage of **multiple DMBSs** is that it's easier to make a dump of o
 Advantages of **multiple table spaces**:
 * we can use table partitioning and metasfresh can logically access *all* the data at once. 
 The archived data could be on a slow big disk. 
-We would just need to define a constraint that is added to every "normal" where clause and as a result the DB would only search in the production data and never bother with the archived data.
-* archived data like C_Order records could still reference unarchived data like `AD_Client` or `C_BPartner` (depending on the setup) with FK constraints in place, and without the need to also archive (duplicate) the referenced records.
+We would just need to define a constraint that is by default embedded to every where-clause (also subselects etc!) and as a result the DB would only search in the production data and never bother with the archived data.
+* archived data like `C_Order` records could still reference unarchived data like `AD_Client` or `C_BPartner` (depending on the setup) with FK constraints in place, and without the need to also archive (and thus duplicate) the referenced records.
 * no need to set up and manage another DBMS
 
 Further reading to understand the underpinnings of multiple table spaces:
@@ -36,34 +35,32 @@ Further reading to understand the underpinnings of multiple table spaces:
 * SQL to move a record from one table to the other
   - stackoverflow on how to delete and insert a single record at the same time: [http://stackoverflow.com/questions/2974057/move-data-from-one-table-to-another-postgresql-edition](http://stackoverflow.com/questions/2974057/move-data-from-one-table-to-another-postgresql-edition)
 * SQL to move a number of records within one trx?
-* We need easy ways to only dump the "current" data without the archived data
-  - pg_dump has "--exclude-table-data" we could have a tool (select on pg_catalog) to create that file.
+* We need a way to only dump the "current" data without the archived data
+  - pg_dump has a paremeter "--exclude-table-data" which takes a file with tables to exclude; we could have a tool (select on pg_catalog) to create that file.
 
 * postgres table partitioning extensions: [pg_partman](https://github.com/keithf4/pg_partman) 
    - only handles inserts, not updates! but maybe the setup, trigger-mgmt etc can be used
 
-== Application ==
+## Application
 
-=== New (logical) column ===
+### New (logical) column
 
 * How do we logically mark records as archived, so that metasfreseh-seects can augment their respective where clauses?
 * IsArchived flag vs multiple archive levels vs "domain-ID"?
-  - domain-ID won't work well, because in the domain-concept we wanted to be able to comine different domains into sets and have the actual records reference the set ID. So different sets that still contain the "Archived" domain would have different IDs,<br>
+  - domain-ID won't work well, because in the domain-concept we wanted to be able to combine different domains into sets and have the actual records reference the set ID. So different sets that still contain the "Archived" domain would have different IDs,<br>
 so it would be harder to figure out which is which  
   - i think a simple integer column **`DLM_ArchiveLevel`** wold be nice. Then we could even have multiple levels. `NULL` or 0 would mean "not archived". the bigger the number, the "further" the respective record is away from "production".
 * yet to be decided: shall `DLM_ArchiveLevel` be a regular AD_Column? As of now, i don't think so. Nevertheless, the information might be well-placed in `POInfo`
 
-* Background process, auditing data tables
+### Rough architectural outline
 
 I think there are three main parts to look at
 * A **partitioner** that runs in background and creates partitions.<br>
   - By partition I mean a set of records that generally belong to different tables and that are all directly or indirectly linked with each other.<br>
   - In other words, we can migrate the records of one partition together, without breaking foreign key constraints.
   - one record may belong to multiple partitions. Examples/Thoughts
-    - `AD_Client` is referenced by by almost every other record. Also the table is small, and it is "masterdata" that can change over time.<br>
-Since we realize DLM via table spaces and the "archive"-tables can reference `AD_Client`, there is no point to have AD_client records as parts of the partition.
-    - Let's assume for sake of argument that e.g. `C_AllocationHdr` is not referencing anything (besides AD_Client etc), but is directly and indirectly refrenced. Then, for the sake of preserving references, we would not have to migrate it into the archive.<br>
-but we still want to do it in order to avoid the "operational" C_AllocationHdr table from getting too big, and because it's an ummutable document that is after some time not very likely to be required in the day to day operative business.
+    - `AD_Client` is referenced by almost every other record. Also the table is small, and it is "masterdata" that can change   over time.<br>Since we realize DLM via table spaces and the "archive"-tables can reference `AD_Client`, there is no       point to have AD_client records as parts of the partition.
+    - Let's assume for sake of argument that e.g. `C_AllocationHdr` is not referencing anything (besides AD_Client etc), but is directly and indirectly refrenced. Then, for the sake of preserving references, we would not have to migrate it into the archive.<br>but we still want to do it in order to avoid the "operational" C_AllocationHdr table from getting too big, and because it's an ummutable document that is after some time not very likely to be required in the day to day operative business.
     - `C_BPartner` might or might not be a case for DLM depending on whether there are many partners and on how many of them become "ex-partners" over time.
   - The partitioner stores the partitions in the database. The information can be used not only to migrate data into the archive, but als to extract test data.
   - There could be two tables: one "partion" table and one "partition-item". Or we could check if we can reuse document-ref..to avoid ending up with something that is basically a duplication of document-ref.
@@ -78,9 +75,9 @@ but we still want to do it in order to avoid the "operational" C_AllocationHdr t
   
 * An extension in metasfresh that by default always prepends an additional condition to the where clause. The "normal" metasfresh code shall not have to care. In normal operation, archived data is just not in the database.
 
-== Increments ==
+## Increments
 
-=== `HU_`-Tables ===
+### `HU_`-Tables
 
 By far the fastest-growing table is `M_HU_Attribute`, followed by `M_HU_Attribute_Snapshot` and `M_HU_Trx_Line`. At the same time, `M_HU_Attribute` is not referenced by many other tables.
 That makes it the perfect candidate for a first WI that does not need a sophisticated "partitioner" implementation.
@@ -89,28 +86,28 @@ TODO for this increment:
 * set up an "archive" table space
 * figure out the dependency relations and how a minimal partition with `M_HU_Attribute` would look like (i.e. figure out which tables actually reference `M_HU_Attribute`).
 * depending on the result, create a minimal part of the "partitioner" infrastructure
-* set up partition tables, indexes FK-constraints etc, keeping in mind that we need to to this automatically in further increments
-* create a minimal part of the "migrator" infrastructure, so that we can move records from one table to the other; maybe a DB function that is run via SQL-async is already enough
+* set up partition tables, indexes FK-constraints etc, keeping in mind that we need to do this automatically in further increments
+* create a minimal part of the "migrator" infrastructure, so that we can move records from one table to the other; maybe a DB function that is run via SQL-async is already enough.
 
-=== metasfresh-SQL ===
+### metasfresh-SQL
 
-* Find the places where we actually generate our SQL and make sure that we only select records with `COALESCE(DLM_ArchiveLevel,0) = 0` and that only if the respective table actually has a DLM_ArchiveLevel column.
+* Find the places where we actually generate our SQL and make sure that we only select records with `COALESCE(DLM_ArchiveLevel,0) = 0`, and ofc only if the respective table actually has a DLM_ArchiveLevel column.
 
-=== partitioner ===
+### partitioner
 
 Figure out how the partitioner needs to be configured if we want to archive "Order, Inout, Invoice" "stuff" and implement it
 
 This might include a process which analyzes `AD_Table` and `AD_Column` and writes the results into the config data, to be fine-tuned.
 
-=== migrator ===
+### migrator
 
-Flesh out the table-to-table implementation; this certainly includes code to create new partitions and FK constraints.
+Flesh out the table-to-table implementation; this certainly includes code to turn "normal tables into "DLM-enabled" tables ( create new partitions, FK constraints etc).
 
-=== take stop and see what's next ===
+###take stop and see what's next
 
-== Q&A ==
+## Q&A
 
-=== How time consuming is it to add another column to a large table?===
+### How time consuming is it to add another column to a large table?
 
 `alter table M_HU_Attribute add column DLM_ArchiveLevel integer` is fast, because it just adds the column to the table metadata, but not assignes a value to any row.
 
