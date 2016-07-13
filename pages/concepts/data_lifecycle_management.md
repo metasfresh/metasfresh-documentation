@@ -88,6 +88,7 @@ TODO for this increment:
 * depending on the result, create a minimal part of the "partitioner" infrastructure
 * set up partition tables, indexes FK-constraints etc, keeping in mind that we need to do this automatically in further increments
 * create a minimal part of the "migrator" infrastructure, so that we can move records from one table to the other; maybe a DB function that is run via SQL-async is already enough.
+* provide some proof of concept around `pg_dump` that allows us to create the dump and reload it into a different DB.
 
 ### metasfresh-SQL
 
