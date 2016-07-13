@@ -15,7 +15,7 @@ We need this to achieve two things:
 * improve performance when woking on the production tables
 * reduce the size of the production database's data dump
 
-Throughout the text, "data lifecycle management" might be abreviated with "DLM".
+Throughout the text, "data lifecycle management" might be abbreviated with "DLM".
 
 ==Database ==
 
@@ -50,8 +50,8 @@ Further reading to understand the underpinnings of multiple table spaces:
 * IsArchived flag vs multiple archive levels vs "domain-ID"?
   - domain-ID won't work well, because in the domain-concept we wanted to be able to comine different domains into sets and have the actual records reference the set ID. So different sets that still contain the "Archived" domain would have different IDs,<br>
 so it would be harder to figure out which is which  
-  - i think a simple integer column **`DLM_ArchiveLevel`** wold be nice. Then we could even have multiple levels.
-
+  - i think a simple integer column **`DLM_ArchiveLevel`** wold be nice. Then we could even have multiple levels. `NULL` or 0 would mean "not archived". the bigger the number, the "further" the respective record is away from "production".
+* yet to be decided: shall `DLM_ArchiveLevel` be a regular AD_Column? As of now, i don't think so. Nevertheless, the information might be well-placed in `POInfo`
 
 * Background process, auditing data tables
 
@@ -71,9 +71,46 @@ but we still want to do it in order to avoid the "operational" C_AllocationHdr t
   - Probably, when walking the record-reference graph, the partitioner shall walk "forward" (e.g. from C_OrderLine.C_Order_ID to C_Order) because walking backward is too big of a performance penalty
   - We need to be able to tell the partitioner that e.g. `AD_Client` is not to be migrated. In the underlying database, the FK constraints need to be managed accordingly (i.e. FK from the respective "archive" tables to the `AD_Client` table).
   
-* A migrator that can receive partitions and is responsible to migrate them from one storage to the other
+* A **migrator** that can receive partitions and is responsible to migrate them from one storage to the other
   - the migrator can have different implementations. For the first increment, it needs to be able to move partitions from one storage to another
   - the API/SPI shall be such that there is a way to implement the migration in one step (e.g. for postgres it probably makes sense performance-wise to delete and insert in one statement) and also in two steps (e.g. export a partition into JSON and import it somewhere else).
   - audit tables that usually references partitions and shows which partition is currently in which `DLM_ArchiveLevel`.
   
 * An extension in metasfresh that by default always prepends an additional condition to the where clause. The "normal" metasfresh code shall not have to care. In normal operation, archived data is just not in the database.
+
+== Increments ==
+
+=== `HU_`-Tables ===
+
+By far the fastest-growing table is `M_HU_Attribute`, followed by `M_HU_Attribute_Snapshot` and `M_HU_Trx_Line`. At the same time, `M_HU_Attribute` is not referenced by many other tables.
+That makes it the perfect candidate for a first WI that does not need a sophisticated "partitioner" implementation.
+ 
+TODO for this increment:
+* set up an "archive" table space
+* figure out the dependency relations and how a minimal partition with `M_HU_Attribute` would look like (i.e. figure out which tables actually reference `M_HU_Attribute`).
+* depending on the result, create a minimal part of the "partitioner" infrastructure
+* set up partition tables, indexes FK-constraints etc, keeping in mind that we need to to this automatically in further increments
+* create a minimal part of the "migrator" infrastructure, so that we can move records from one table to the other; maybe a DB function that is run via SQL-async is already enough
+
+=== metasfresh-SQL ===
+
+* Find the places where we actually generate our SQL and make sure that we only select records with `COALESCE(DLM_ArchiveLevel,0) = 0` and that only if the respective table actually has a DLM_ArchiveLevel column.
+
+=== partitioner ===
+
+Figure out how the partitioner needs to be configured if we want to archive "Order, Inout, Invoice" "stuff" and implement it
+
+This might include a process which analyzes `AD_Table` and `AD_Column` and writes the results into the config data, to be fine-tuned.
+
+=== migrator ===
+
+Flesh out the table-to-table implementation; this certainly includes code to create new partitions and FK constraints.
+
+=== take stop and see what's next ===
+
+== Q&A ==
+
+=== How time consuming is it to add another column to a large table?===
+
+`alter table M_HU_Attribute add column DLM_ArchiveLevel integer` is fast, because it just adds the column to the table metadata, but not assignes a value to any row.
+
