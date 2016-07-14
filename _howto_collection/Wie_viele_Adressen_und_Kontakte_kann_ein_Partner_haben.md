@@ -17,7 +17,7 @@ Du kannst in metasfresh zu einem Geschäftspartner beliebig viele Adressen und K
 | 			        | Adresse 2 (z.B. Lieferadresse) | 
 |					| Adresse 3 (z.B. Rechnungsstandardadresse)|
 |					| Adresse n ... |
-|					|			   | Konakt A (z.B. Standardansprechpartner)
+|					|			   | Kontakt A (z.B. Standardansprechpartner)
 |					|				| Kontakt B (z.B. Verkaufskontakt)
 |					|				| Kontakt C (z.B. Einkaufskontakt)
 |					|				| Kontakt n ...
