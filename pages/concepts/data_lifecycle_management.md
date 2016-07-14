@@ -93,6 +93,7 @@ TODO for this increment:
 ### metasfresh-SQL
 
 * Find the places where we actually generate our SQL and make sure that we only select records with `COALESCE(DLM_ArchiveLevel,0) = 0`, and ofc only if the respective table actually has a DLM_ArchiveLevel column.
+* Maybe we can at the same time fix issue [#196](https://github.com/metasfresh/metasfresh/issues/196)
 
 ### partitioner
 
