@@ -1,5 +1,5 @@
 ---
-title: 
+title: List Languages via SQL
 layout: default
 
 <!--
