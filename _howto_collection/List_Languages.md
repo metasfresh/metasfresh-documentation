@@ -1,12 +1,9 @@
 ---
 title: List Languages via SQL
 layout: default
-<!--
-tags:
-  - SQL
--->
-
+lang: de
 ---
+
 Shows all Systemlanguages that are installed:
 
 ```
