@@ -8,9 +8,14 @@ tags:
 lang: de
 ---
 
-## RUN_metasfresh.bat
+## RUN_metasfresh.exe
 
-Wenn der Client über das Skript "RUN_metasfresh.bat" gestartet wird kannst Du über das Startskript folgende Parameter mitgeben:
+Zur Zeit unterstützt die EXE keine Parameter. Wenn Du Parameter verwenden möchtest, nimm statt dessen das Startscript für Windows oder Linux
+
+
+## RUN_metasfresh.bat/.sh
+
+Wenn der Client über das [Startskript] gestartet wird kannst Du über das Startskript folgende Parameter mitgeben:
 
 
 
