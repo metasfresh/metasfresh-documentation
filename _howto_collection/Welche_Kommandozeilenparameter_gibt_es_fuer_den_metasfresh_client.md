@@ -10,14 +10,15 @@ lang: de
 
 ## RUN_metasfresh.exe
 
-Zur Zeit unterstützt die EXE keine Parameter. Wenn Du Parameter verwenden möchtest, nimm statt dessen das [Startskript](Welche_Kommandozeilenparameter_gibt_es_fuer_den_metasfresh_client) für Windows oder Linux
+Zur Zeit unterstützt die EXE keine Parameter. Wenn Du Parameter verwenden möchtest, nimm statt dessen das [Startskript](Wie_benutze_ich_das_Startskript) für Windows oder Linux
 
 
 ## RUN_metasfresh.bat/.sh
 
-Wenn der Client über das [Startskript] gestartet wird kannst Du über das Startskript folgende Parameter mitgeben:
+Wenn der Client über das [Startskript](Wie_benutze_ich_das_Startskript) gestartet wird kannst Du über das Startskript folgende Parameter mitgeben:
 
 
+## Parameter
 
 **Sprache des Clients einstellen**
 
