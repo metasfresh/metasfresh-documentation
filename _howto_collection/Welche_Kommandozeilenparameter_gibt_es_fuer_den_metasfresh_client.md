@@ -10,7 +10,7 @@ lang: de
 
 ## RUN_metasfresh.exe
 
-Zur Zeit unterstützt die EXE keine Parameter. Wenn Du Parameter verwenden möchtest, nimm statt dessen das Startscript für Windows oder Linux
+Zur Zeit unterstützt die EXE keine Parameter. Wenn Du Parameter verwenden möchtest, nimm statt dessen das [Startskript](Welche_Kommandozeilenparameter_gibt_es_fuer_den_metasfresh_client) für Windows oder Linux
 
 
 ## RUN_metasfresh.bat/.sh
