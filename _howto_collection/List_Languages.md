@@ -1,13 +1,10 @@
 ---
 title: List Languages via SQL
 layout: default
-
 <!--
 tags:
   - SQL
 -->
-
-lang: de, en
 ---
 
 ```
