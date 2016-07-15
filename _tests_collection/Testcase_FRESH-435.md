@@ -16,52 +16,52 @@ tags:
 
 > Testcase to check if the handover address is propagating correctly from Order Candidates
 
-1. Order Candidate Handover Location with Picking Slot
-* Import the OLCands for G000X (e.g. with WinSCP), open Auftragsdisposition, look for your import
+**Order Candidate Handover Location with Picking Slot**
+1. Import the OLCands for G000X (e.g. with WinSCP), open Auftragsdisposition, look for your import
     * => OK: the order candidates created with the C_BPartner_Location Loc1
     * => OK: the order candidates created with the Handover_Location Loc2
-* For one of the order candidates set Handover_Location_Override to Loc3
-* Go to the gear of the Order Candidate, run the process Transaktion Freigaben
-* Go to the created Sales Order
+1. For one of the order candidates set Handover_Location_Override to Loc3
+1. Go to the gear of the Order Candidate, run the process Transaktion Freigaben
+1. Go to the created Sales Order
     * => OK: Abladeort: Loc 3 set as handover location
-* Note: The handover location is not displayed in the Shipment schedule
-* Go to Picking terminal, select the product for which the order candidate was created
-* Select the slot of Location Loc3
-* Pick the qty, close the box, exit Picking Terminal
-* Go to Verdichtung POS, select the partner G000X
+1. Note: The handover location is not displayed in the Shipment schedule
+1. Go to Picking terminal, select the product for which the order candidate was created
+1. Select the slot of Location Loc3
+1. Pick the qty, close the box, exit Picking Terminal
+1. Go to Verdichtung POS, select the partner G000X
     * => OK: There is a slot for Loc3
-* Open the slot for Loc3, select the schedule, set a shipper transportation
-* Complete the shipment,
-* Go to the completed shipment
+1. Open the slot for Loc3, select the schedule, set a shipper transportation
+1. Complete the shipment,
+1. Go to the completed shipment
     * => OK: The shipment is made for Loc3
-* Go to the invoice candidates linked with the shipment
-* Create an invoice oput of them
-* Go to the created invoice
+1. Go to the invoice candidates linked with the shipment
+1. Create an invoice oput of them
+1. Go to the created invoice
     * => OK: The invoice is made for Loc1
-* Print preview in the invoice
+1. Print preview in the invoice
     * => OK: The report contains Loc3 on the Lieferschein line
     
-2. Order Candidate Handover_Location without Picking Slot
-* Import the OLCands for G000X (e.g. with WinSCP), open Auftragsdisposition, look for your import
+**Order Candidate Handover_Location without Picking Slot**
+1. Import the OLCands for G000X (e.g. with WinSCP), open Auftragsdisposition, look for your import
     * => OK: the order candidates created with the C_BPartner_Location Loc1
     * => OK: the order candidates created with the Handover_Location Loc2
-* Go to an order candidate from the ones above
-* Go to the gear of the Order Candidate, run the process Transaktion Freigaben
-* Go to the created Sales Order
+1. Go to an order candidate from the ones above
+1. Go to the gear of the Order Candidate, run the process Transaktion Freigaben
+1. Go to the created Sales Order
     * => OK: Abladeort: Loc 2 set as handover location
-* Note: The handover location is not displayed in the Shipment schedule
-* Go to Picking terminal, select the product for which the order candidate was created
-* Select the slot of Location Loc4
-* Pick the qty, close the box, exit Picking Terminal
-* Go to Verdichtung POS, select the partner G000X
+1. Note: The handover location is not displayed in the Shipment schedule
+1. Go to Picking terminal, select the product for which the order candidate was created
+1. Select the slot of Location Loc4
+1. Pick the qty, close the box, exit Picking Terminal
+1. Go to Verdichtung POS, select the partner G000X
     * => OK: There is a slot for Loc4
-* Open the slot for Loc3, select the schedule, set a shipper transportation
-* Complete the shipment,
-* Go to the completed shipment
+1. Open the slot for Loc3, select the schedule, set a shipper transportation
+1. Complete the shipment,
+1. Go to the completed shipment
     * => OK: The shipment is made for Loc4
-* Go to the invoice candidates linked with the shipment
-* Create an invoice oput of them
-* Go to the created invoice
+1. Go to the invoice candidates linked with the shipment
+1. Create an invoice oput of them
+1. Go to the created invoice
     * => OK: The invoice is made for Loc1
-* Print preview in the invoice
+1. Print preview in the invoice
     * => OK: The report contains Loc4 on the Lieferschein line
