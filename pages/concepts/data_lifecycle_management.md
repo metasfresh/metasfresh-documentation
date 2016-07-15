@@ -219,12 +219,11 @@ BEGIN
 	THEN
 
 		RAISE EXCEPTION 
-'ERROR: migration C_Order with C_Order_ID=% to DLM_ArchiveLevel=% violates the constraint dlm_corder_cinvoice;
-
-Detail: the C_Invoice with C_Invoice_ID=% and DLM_ArchiveLevel=% still references that order via its C_Order_ID column', 
-			NEW.C_Order_ID, NEW.DLM_ArchiveLevel, C_Invoice_C_Invoice_ID, C_Invoice_DLM_ArchiveLevel
-		USING ERRCODE = '235D3'; /* '23503' is defined as foreign_key_violation.. we use 235D3 with D for DLM */
-
+'ERROR: Migrating the C_Order record with C_Order_ID=% to DLM_ArchiveLevel=% violates the constraint dlm_corder_cinvoice, 
+			NEW.C_Order_ID, NEW.DLM_ArchiveLevel
+		USING ERRCODE = '235D3', /* '23503' is defined as foreign_key_violation.. we use 235D3 with D for DLM */
+			HINT=The C_Invoice with C_Invoice_ID='|| C_Invoice_C_Invoice_ID ||' and DLM_ArchiveLevel='|| C_Invoice_DLM_ArchiveLevel ||' still references that order via its C_Order_ID column',
+			DETAIL='DLM_Referencing_Table_Name=C_Invoice; DLM_Referencig_Column_Name='C_Order_ID';' /* shall be parsable by metasfresh*/
 	END IF;
 RETURN NULL;
 END; $BODY$
@@ -240,6 +239,38 @@ Further reading:
 * [https://www.postgresql.org/docs/9.5/static/sql-createtrigger.html](https://www.postgresql.org/docs/9.5/static/sql-createtrigger.html)
 * as to the question wheter triggers or rules might be best, [this article](https://www.postgresql.org/docs/current/static/rules-triggers.html) is quite clear: triggers.
 
+#### The partioner's config
+
+* DLM_Partion_Config
+  * contains "header" data
+
+* DLM_Partion_Config_Version
+  * DLM_Partion_Config_ID: link to parent table
+  * Processed
+  
+* DLM_PartionLine_Config
+  * one line per table that is subject to DLM
+  * DLM_Partion_Config_Version_ID: link to parent table
+  * AD_Table_ID: a table that shall be subject to DLM, e.g. M_Invoice
+  * Description
+
+* DLM_PartionReference_Config
+  * DLM_PartionLine_Config_ID: link to parent table
+  * DLM_Referencing_Column_ID: a column of the table DLM_Partion_Config.AD_Table_ID that references a another record, e.g. M_Invoice.C_Order_ID
+  * DLM_Referenced_Table_ID: the table that is referenced by DLM_Referencing_Column_ID, e.g. C_Order
+  * DLM_Referencing_PartionLine_Config_ID: if the referenced table is also part of DLM according to this config-version, then this column references the respective line.
+    * Note that if the referenced table is not part of the same DLM config, then there isn't a point to this whole DLM_PartionReference_Config record.
+
+Further notes:
+
+* so we have different versions.<br>
+If a version is "processed" it can not be changed anymore, unless all it partitions are deleted and all the partitioned data are migrated back into production.<br>
+However, it can be deep-copied to serve as blueprint for another version
+* the partioner configuration invites the partitioner implementation(s) to "forward-follow" existing references.<br>
+So, when loading and adding records to a partition, the implementation should go from C_Invoice via C_Invoice.C_Order_ID to the referenced C_Order, and not from C_Order to the referencing invoices.<br>
+I think that's much more performant.
+* Repreating myself: despite this is specified in terms of metasfresh tables, the API needs to be DB agnostic. That means, the config shall be representable in terms of POJOs (and lists of maps of pojos).
+	
 ### Migrator
 
 By **migrator** i mean a component that can receive partitions and is responsible to migrate them from one "level" to the other.
