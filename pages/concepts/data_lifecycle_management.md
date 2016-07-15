@@ -23,6 +23,7 @@ It's fleshed out a bit in the [#Partitioner] section.
 We to achieve the following things. 
 They are prioritised in descending order. 
 Also, note that we are open towards ending up with different solutions for different goals:
+
 * improve performance when working on the production data. We'll need to become much more concrete, but initially, what we have in mind is improving performance of the "usual suspects":
   * material receipt (selecting, changing HU combinations, printing)
   * order (creation, printing, print preview, purchase order from order)
@@ -37,6 +38,7 @@ What would be even better is the ability to get an even smaller number of record
 ## Different approaches on the database level
 
 On the database level, we discussed different basic approaches, and did not yet conclude on which one we think is the best:
+
 * multiple databases: different DBs for production data and background data.<br>
 Migrating from "production" to "background" means to send data to a "background" database and delete them from the "production" database.<br>
 We actually already discarded this approach, see below. I'm just writing it up so that we can easier understand our past selves in the future.
@@ -50,6 +52,7 @@ Migrating from "production" to "background" means to update some column of the r
 
 The only advantage of multiple databases which we see is that it's easier to make a dump of only the current production data.
 Apart from that, the biggest disadvanteges we see are
+
 * we need to replicate also master data to preserve FK constraints of the background data. This adds a layer of pentential complicatios
 * we need to invest more effort in the applciation layer (DB connections to different DBs)
 * we think we can achieve our goals in a more lightweight way, with one of the other two approaches.
@@ -57,12 +60,14 @@ Apart from that, the biggest disadvanteges we see are
 ### Single database solutions
 
 These approaches have the advantages of:
+
 * all the data still being in one (logical) table, and therefore accessable at once and over the same DB connection.
 * no need to set up and manage another DB or even DBMS
 
 #### The `DLM_ArchiveLevel` column to flag records
 
-* How do we logically mark records as archived/background, so that the system knows to exclude them from operational selects?
+How do we logically mark records as archived/background, so that the system knows to exclude them from operational selects?
+
 * IsArchived flag vs multiple archive levels vs "domain-ID"?
   - domain-ID won't work well, because in the domain-concept we wanted to be able to combine different domains into sets and have the actual records reference the set ID. So different sets that still contain the "Archived" domain would have different IDs,<br>
 so it would be harder to figure out which is which  
@@ -71,7 +76,7 @@ so it would be harder to figure out which is which
 The bigger the number, the "further" the respective record is away from "production". Or, depending on the solition we will end up with, different numbers might denote different archive-blocks, like archived data from different years.
 * yet to be decided: shall `DLM_ArchiveLevel` be a regular AD_Column which is then added to every AD_Table in question? As of now, I don't think so. Nevertheless, the information might be well-placed in `POInfo`
 
-#### "Single table"
+#### Single table
 
 The idea here is to make sure that in the normal operation, the *where-clause* of every SQL statement will be augmented with something like `..AND COALESCE(DLM_ArchiveLevel,0)=0`.<br>
 That way the sytem normally never "sees" any background data above the actual database level.
@@ -79,6 +84,7 @@ That way the sytem normally never "sees" any background data above the actual da
 Archived transaction data like `C_Order` records could still reference unarchived master data like `AD_Client` with FK constraints in place and without the need to also archive (and thus duplicate) the master data records.
 
 One suggestion of how to implement the `DLM_ArchiveLevel` on a deep level is to rename tables such as `C_Invoice' to something like `C_Invoice_Tbl` and then create a view such as
+
 ```
 CREATE VIEW C_Invoice AS SELECT * FROM C_Invoice_Tbl WHERE COALESCE(DLM_ArchiveLevel,0)=0;
 ```
@@ -89,7 +95,7 @@ Once this is in place we might be able to achive performance gains by adding a (
 
 We could also prevent all other indices from growing further by adding a `...WHERE COALESCE(DLM_ArchiveLevel,0)=0` to them.
 
-#### "Table partitioning"
+#### Table partitioning
 
 This approach builds on top of the "single" table approach.
 
@@ -216,7 +222,8 @@ BEGIN
 'ERROR: migration C_Order with C_Order_ID=% to DLM_ArchiveLevel=% violates the constraint dlm_corder_cinvoice;
 
 Detail: the C_Invoice with C_Invoice_ID=% and DLM_ArchiveLevel=% still references that order via its C_Order_ID column', 
-			NEW.C_Order_ID, NEW.DLM_ArchiveLevel, C_Invoice_C_Invoice_ID, C_Invoice_DLM_ArchiveLevel;
+			NEW.C_Order_ID, NEW.DLM_ArchiveLevel, C_Invoice_C_Invoice_ID, C_Invoice_DLM_ArchiveLevel
+		USING ERRCODE = '235D3'; /* '23503' is defined as foreign_key_violation.. we use 235D3 with D for DLM */
 
 	END IF;
 RETURN NULL;
@@ -243,12 +250,28 @@ By **migrator** i mean a component that can receive partitions and is responsibl
 
 ### Filter
 
-* An extension in metasfresh that by default always prepends an additional condition to the where clause. The "normal" metasfresh code shall not have to care. In normal operation, archived data is just not in the database.
+An extension in metasfresh that by default always prepends an additional condition to the where clause. The "normal" metasfresh code shall not have to care. In normal operation, the background data just seems to be not to exist in the database.
 
-   
+We can achive this uing the "view" that was introduced in the "Single table" section.
+
+### Idea: a "self-learning" combination of migrator and optimistic partitioner
+
+Outline:
+
+* the partitioner's configuration starts out "sparse". If we are interested in DLMing `C_Invoice`, we just add the table `C_Invoice` to the config.
+* consequently, the partitioner will create individual partitions which just contain one `C_Invoice` record each.
+* then if the migrator tries to migrate a C_Invoice record that is referenced by a C_Payment which is not also migrated, then our trigger function will rause an error with error-code `235D3`.
+* this causes an SQL exception that is evaluted by the migrator, so the migrator can then notify the partioner about the problem (missing partitioner config item).
+* the partitioner can then complete both its configuration and its already existing but incomplete partitions
+* the migrator can try again.
+
+This way, a user can configure what he/she knows or wants to add. The rest will be added automatically and might then be further customized by the user.
+
 ## Increments
 
 **TO BE DONE**
+
+**the following subsections are outdated!**
 
 Notes: 
 * start with single table approach
@@ -258,8 +281,6 @@ Notes:
 * add the `DLM_ArchiveLevel` column to some tables of the sp80-DB. Add the views, indices etc.<br>
 Update some records to `DLM_ArchiveLevel=1`. For that we need to check out the table structures and decide if we want to start with a rudimentory partitioner and migrator, or if we can/want to update the tables manually.
 * repread the sp80 performance test
-
-**the following subsections are outdated!**
 
 ### `HU_`-Tables
 
