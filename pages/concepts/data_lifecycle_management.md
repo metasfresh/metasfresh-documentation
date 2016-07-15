@@ -60,7 +60,7 @@ These approaches have the advantages of:
 * all the data still being in one (logical) table, and therefore accessable at once and over the same DB connection.
 * no need to set up and manage another DB or even DBMS
 
-#### A new standard column
+#### The `DLM_ArchiveLevel` column to flag records
 
 * How do we logically mark records as archived/background, so that the system knows to exclude them from operational selects?
 * IsArchived flag vs multiple archive levels vs "domain-ID"?
@@ -99,38 +99,40 @@ The archived data could be on a slow big disk and be only accessed on rare occas
 
 Further reading to understand the underpinnings of multiple table spaces:
 
-* postgres table partitioning: [https://www.postgresql.org/docs/current/static/ddl-partitioning.html](https://www.postgresql.org/docs/current/static/ddl-partitioning.html)
-* SQL to move a record from one table to the other
+ * postgres table partitioning: [https://www.postgresql.org/docs/current/static/ddl-partitioning.html](https://www.postgresql.org/docs/current/static/ddl-partitioning.html)
+ * SQL to move a record from one table to the other
   - stackoverflow on how to delete and insert a single record at the same time: [http://stackoverflow.com/questions/2974057/move-data-from-one-table-to-another-postgresql-edition](http://stackoverflow.com/questions/2974057/move-data-from-one-table-to-another-postgresql-edition)
-* We need a way to only dump the "current" data without the archived data
+ * We need a way to only dump the "current" data without the archived data
   - pg_dump has a paremeter "--exclude-table-data" which takes a file with tables to exclude; we could have a tool (select on pg_catalog) to create that file.
-* postgres table partitioning extensions: [pg_partman](https://github.com/keithf4/pg_partman) 
+ * postgres table partitioning extensions: [pg_partman](https://github.com/keithf4/pg_partman) 
    - only handles inserts, not updates! but maybe the setup, trigger-mgmt etc can be used
 
-## **To check:** PostgreSQL-Version
+## PostgreSQL-Version
 
 We currently have PostgreSQL versions 9.1, 9.3 and 9.5 out there.<br>
-It *might* turn out that when we play with the single table approach on postgres-9.1, we gain no performance improvements, but we would have gained them with 9.3 or 9.5 because those versions are more performance optimized.
 
-We should put some research into this or maybe up-prioritize the task of migrating all customers to postgres-9.5.
+It *might* turn out that when we play with the single table approach on postgres-9.1, we gain a ton of performance. But we would not have gained it with 9.3 or 9.5.
+
+However, I'm willing to bet that newer versions will not get worse.
    
 ## Rough architectural outline
 
 General implementation note:
-* any API we provide to load and store migrating and partitioning config and actually any API needs to be database agnostic.
+ * any API we provide to load and store migrating and partitioning config and actually any API needs to be database agnostic.
 
 I think there are three main parts to look at
 
 ### Partitioner
 
-By **partitioner** i mean a component that runs in background and creates partitions.<br>
+By **partitioner** i mean a component that runs in background and creates partitions.
+
  * By partition I mean a set of records that can generally belong to different tables and that are all directly or indirectly linked with each other.<br>
  * In other words, we can migrate the records of one partition together, without breaking foreign key constraints.
  * one record may belong to multiple partitions. Examples/Thoughts
-    - `AD_Client` is referenced by almost every other record. Also the table is small, and it is "masterdata" that can change   over time.<br>
+   - `AD_Client` is referenced by almost every other record. Also the table is small, and it is "masterdata" that can change   over time.<br>
 Since we realize DLM via table spaces and the "archive"-tables can reference `AD_Client`, there is no point to have AD_client records as parts of the partition.
-    - Let's assume for sake of argument that e.g. `C_AllocationHdr` is not referencing anything (besides AD_Client etc), but is directly and indirectly refrenced. Then, for the sake of preserving references, we would not have to migrate it into the archive.<br>but we still want to do it in order to avoid the "operational" C_AllocationHdr table from getting too big, and because it's an ummutable document that is after some time not very likely to be required in the day to day operative business.
-    - `C_BPartner` might or might not be a case for DLM depending on whether there are many partners and on how many of them become "ex-partners" over time.
+   - Let's assume for sake of argument that e.g. `C_AllocationHdr` is not referencing anything (besides AD_Client etc), but is directly and indirectly refrenced. Then, for the sake of preserving references, we would not have to migrate it into the archive.<br>but we still want to do it in order to avoid the "operational" C_AllocationHdr table from getting too big, and because it's an ummutable document that is after some time not very likely to be required in the day to day operative business.
+   - `C_BPartner` might or might not be a case for DLM depending on whether there are many partners and on how many of them become "ex-partners" over time.
  * The partitioner stores the partitions in the database. The information can be used not only to migrate data into the archive, but als to extract test data.
  * There could be two tables: one "partion" table and one "partition-item". Or we could check if we can reuse document-ref..to avoid ending up with something that is basically a duplication of document-ref.
  * The partitioner has an API that is agnostic of the tables in which the partitions are stored.
@@ -150,9 +152,10 @@ However, *if* we learn that the single table approach in general can give us a p
 This partitioner would not add to a partition *everything* that is required to retain referential integrety, but just what we think usually goes together application-wise.
 
 In that scenario, if an invoice is still within production, but its order can't be loaded because it is already in background, and *if* the application needs to load that order, then we do as follows:
-* move the order back into production
-* log the event 
-* and retry loading the order
+
+ * move the order back into production
+ * log the event 
+ * and retry loading the order
 
 We can then provide ourselves with statistics about which records had to be handeled this way, and how often it occured and how much time it cost. We can use these statistics to tune that partitioner.
 
@@ -161,16 +164,18 @@ On the other hand, we can't handle reports in the same way, because they are "ju
 #### Reports and single table approach
 
 As written above, with the single table approach, no FK constraints prevent us creating "dangling" references within our production data.
-As long as our reports are essentially SQL-based, i think we must conclude that we can't guarantee con a constant basis that 
-* if we run any report with any `DLM_ArchiveLevel=0` reocrd
-* all the records which the SQL might reference
-* do always also have `DLM_ArchiveLevel=0`
+As long as our reports are essentially SQL-based, I think we must conclude that we can't guarantee con a constant basis that 
+
+ * if we run any report with any `DLM_ArchiveLevel=0` reocrd
+ * all the records which the SQL might reference
+ * do always also have `DLM_ArchiveLevel=0`
 
 We can't guarantee it, so might sometimes work out and sometimes not.
 I see these options:
-* implement a non-optimistic partioner and make it work great
-* implement whatever partitioner and *do not* distinguish between production and background data when it comes to reports (i.e. reports queries will not have the `DLM_ArchiveLevel=0` restriction).
-* implement referential integrety using triggers (-> next section)
+
+ * implement a non-optimistic partioner and make it work great
+ * implement whatever partitioner and *do not* distinguish between production and background data when it comes to reports (i.e. reports queries will not have the `DLM_ArchiveLevel=0` restriction).
+ * implement referential integrety using triggers (-> next section)
 
 #### Integrity and single table approach
 
@@ -224,6 +229,7 @@ END; $BODY$
 I believe we can provide ourselves with means to automatically generate these triggeres and fucntions for existing FK constraints.
 
 Further reading:
+
 * [https://www.postgresql.org/docs/9.5/static/sql-createtrigger.html](https://www.postgresql.org/docs/9.5/static/sql-createtrigger.html)
 * as to the question wheter triggers or rules might be best, [this article](https://www.postgresql.org/docs/current/static/rules-triggers.html) is quite clear: triggers.
 
@@ -231,9 +237,9 @@ Further reading:
 
 By **migrator** i mean a component that can receive partitions and is responsible to migrate them from one "level" to the other.
 
-  - the migrator can have different implementations. For the first increment, it might just need to be able to update tables' `DLM_ArchiveLevel` columns.
-  - the API/SPI shall be such that there is a way to implement the migration in one step (e.g. delete and insert or simply update, both in one statement) and also in two steps (e.g. export a partition into JSON and import it somewhere else).
-  - audit tables that usually references partitions and shows which partition is currently in which `DLM_ArchiveLevel`.
+  * the migrator can have different implementations. For the first increment, it might just need to be able to update tables' `DLM_ArchiveLevel` columns.
+  * the API/SPI shall be such that there is a way to implement the migration in one step (e.g. delete and insert or simply update, both in one statement) and also in two steps (e.g. export a partition into JSON and import it somewhere else).
+  * audit tables that usually references partitions and shows which partition is currently in which `DLM_ArchiveLevel`.
 
 ### Filter
 
