@@ -116,6 +116,9 @@ We should put some research into this or maybe up-prioritize the task of migrati
    
 ## Rough architectural outline
 
+General implementation note:
+* any API we provide to load and store migrating and partitioning config and actually any API needs to be database agnostic.
+
 I think there are three main parts to look at
 
 ### Partitioner
