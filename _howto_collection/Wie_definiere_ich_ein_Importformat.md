@@ -34,11 +34,3 @@ Die aktiven Felder mit deren Startno müssen den Feldern der CSV Datei entsprech
    Die **Startno** bestimmt die Position an der eine Spalte von metasfresh beim Import erwartet wird.
    Dabei ist es nicht nötig, dass die Felder in einer festen und aufsteigenden Reihenfolge sind.
    
-
-### Beispiel
-
-
-![img](../images/de_excel_spalten.png)
-
-
-![img](../images/de_importformat.png)

@@ -22,3 +22,10 @@ Daher empfehlen wir Dir hier mal reinzuschauen:
 1. [CSV-Datei importieren](Wie_importiere_ich_eine_CSV_Datei)
 
 
+## Beispiel
+
+
+![img](../images/de_excel_spalten.png)
+
+
+![img](../images/de_importformat.png)
