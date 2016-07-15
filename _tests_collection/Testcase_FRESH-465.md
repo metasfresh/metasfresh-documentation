@@ -9,8 +9,7 @@ tags:
 ---
 ## Extend Record_ID Column Implementation
 
-> Testcase to check if the additional Record_ID column   
-> is working fine.
+> Testcase to check if the additional Record_ID column is working fine.
 
 1. The additional Record_ID button is displayed in the views for missing counter documents, so in order to test you need documents and counter documents where reference orderlines are missing
 	* => see IT FRESH-417 for the documents and the view
