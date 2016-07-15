@@ -1,10 +1,10 @@
 ---
 title: How to complete a document?
 layout: default
-<!--
+
 tags:
   - Usage
- -->
+
 lang: en
 ---
 

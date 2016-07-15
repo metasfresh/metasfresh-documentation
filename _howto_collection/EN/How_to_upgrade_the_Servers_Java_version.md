@@ -2,11 +2,10 @@
 title: How to upgrade the server's Javaversion
 
 layout: default
-<!--
+
 tags:
-  - Server
-  - Administration
--->
+  - Systemadministration
+
 
 lang:en
 ---

@@ -1,10 +1,10 @@
 ---
 title: How to make use of the auto-complete function
 layout: default
-<!--
+
 tags:
   - Usage
--->
+
 lang:en
 ---
 
