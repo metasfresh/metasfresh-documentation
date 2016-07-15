@@ -16,7 +16,7 @@ tags:
 > in question is dunned in the dunning candidate.
 
 1. Open Dunning Candidates
-	* => new field Document No.
+	* => new field Document No. (also in grid mode)
 	
 1. Select one candidate and take the document no., and search for it in the window for the table in field DB-Tabelle (should be c_invoice, Ausgangsrechnung)
 	* => resp. invoice for that dunning candidate
