@@ -16,7 +16,7 @@ tags:
 
 > Testcase to check if the handover address is propagating correctly from Order Candidates
 
-1. Order Candidate Handover_Location_Override
+1. Order Candidate Handover Location with Picking Slot
 * Import the OLCands for G000X (e.g. with WinSCP), open Auftragsdisposition, look for your import
     * => OK: the order candidates created with the C_BPartner_Location Loc1
     * => OK: the order candidates created with the Handover_Location Loc2
@@ -41,7 +41,7 @@ tags:
 * Print preview in the invoice
     * => OK: The report contains Loc3 on the Lieferschein line
     
-2. Order Candidate Handover_Location
+2. Order Candidate Handover_Location without Picking Slot
 * Import the OLCands for G000X (e.g. with WinSCP), open Auftragsdisposition, look for your import
     * => OK: the order candidates created with the C_BPartner_Location Loc1
     * => OK: the order candidates created with the Handover_Location Loc2
