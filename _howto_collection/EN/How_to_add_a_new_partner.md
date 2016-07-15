@@ -3,7 +3,7 @@ title: How to add a new partner?
 layout: default
 lang: en
 tags:
-  - test
+  - Setup
 
 ---
 1. [Open the window Business Partner](How_to_find_and_open_a_window)
