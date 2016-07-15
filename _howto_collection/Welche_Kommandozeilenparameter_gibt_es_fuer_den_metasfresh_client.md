@@ -16,7 +16,7 @@ Wenn der Client über das Skript "RUN_metasfresh.bat" gestartet wird kannst Du i
 
 ```
  -Dorg.adempiere.client.lang=\"de_CH\"
- ```
+```
 
 **Versionsprüfung ausschalten**
 
@@ -24,4 +24,4 @@ Wenn dieser wert auf false gesetzt wird überprüft der client nicht ob er zu de
 
 ```
  -Dde.metas.clientcheck.Enabled=false
- ```
+```
