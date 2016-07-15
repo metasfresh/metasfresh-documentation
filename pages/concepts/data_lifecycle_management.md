@@ -170,12 +170,62 @@ We can't guarantee it, so might sometimes work out and sometimes not.
 I see these options:
 * implement a non-optimistic partioner and make it work great
 * implement whatever partitioner and *do not* distinguish between production and background data when it comes to reports (i.e. reports queries will not have the `DLM_ArchiveLevel=0` restriction).
+* implement referential integrety using triggers (-> next section)
 
-#### **To check:** FK-like rules in the single table approach?
+#### Integrity and single table approach
 
-We might be able to add rules which inforce FK-like integrety within the single-table approach.
-Those rules would only fire during migration, to there would probably be no performance degradation otherwise.
+We should be able to add triggers which inforce FK-like integrity among records, within the single table approach.
+Those triggers would only fire during migration, to there would probably be no performance degradation otherwise.
 
+Example: asuming that there is an FK-Contraint for `C_Invoice.C_Order_ID` referencing `C_Order.C_Order_ID`. Now we could att a trigger
+
+This would be the trigger. The name follows our convention for FK constraints, with a prepended "dlm_":
+
+{% highlight SQL %}
+CREATE CONSTRAINT TRIGGER dlm_corder_cinvoice 
+AFTER UPDATE OF DLM_ArchiveLevel ON C_Order
+DEFERRABLE INITIALLY DEFERRED
+FOR EACH ROW
+WHEN DLM_ArchiveLevel > 0 /* when we migrate out of production */
+EXECUTE PROCEDURE function_name;
+{% endhighlight %}
+
+The trigger function could look like this:
+
+{% highlight SQL %}
+CREATE OR REPLACE FUNCTION dlm_corder_cinvoice_tgfn()
+  RETURNS trigger AS
+$BODY$
+BEGIN
+
+	SELECT INTO 
+		C_Invoice_C_Invoice_ID, C_Invoice_DLM_ArchiveLevel
+		i.C_Invoice_ID, i.DLM_ArchiveLevel 
+	FROM C_Invoice i 
+	WHERE i.C_Order_ID = NEW.C_Order_ID AND COLAESCE(i.DLM_ArchiveLevel,0)=0;
+
+	IF C_Invoice_C_Invoice_ID IS NOT NULL
+	THEN
+
+		RAISE EXCEPTION 
+'ERROR: migration C_Order with C_Order_ID=% to DLM_ArchiveLevel=% violates the constraint dlm_corder_cinvoice;
+
+Detail: the C_Invoice with C_Invoice_ID=% and DLM_ArchiveLevel=% still references that order via its C_Order_ID column', 
+			NEW.C_Order_ID, NEW.DLM_ArchiveLevel, C_Invoice_C_Invoice_ID, C_Invoice_DLM_ArchiveLevel;
+
+	END IF;
+RETURN NULL;
+END; $BODY$
+  LANGUAGE plpgsql VOLATILE;
+{% endhighlight %}
+
+**The above is not yet tested!**
+
+I believe we can provide ourselves with means to automatically generate these triggeres and fucntions for existing FK constraints.
+
+Further reading:
+* [https://www.postgresql.org/docs/9.5/static/sql-createtrigger.html](https://www.postgresql.org/docs/9.5/static/sql-createtrigger.html)
+* as to the question wheter triggers or rules might be best, [this article](https://www.postgresql.org/docs/current/static/rules-triggers.html) is quite clear: triggers.
 
 ### Migrator
 
