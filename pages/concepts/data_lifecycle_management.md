@@ -6,76 +6,204 @@ issue: https://github.com/metasfresh/metasfresh-documentation/issues/35
 tags: concept
 ---
 
-Currenty this concept is still a work in progress.
+## Some notes and sloppy definitions
 
-The objective is to have a framework that allows us to migrate data in a reversable way from production tables into an "archive".
+* Currenty this concept is still a work in progress.
+* Throughout the text, "data lifecycle management" might be abbreviated with "DLM".
+* we will distinguish between **"production"** or **"operational"** data on one hand and **"archived"** or **"background"** data on the other.<br>
+The former is the data what needs to be availabe with a high client performance, the latter just needs to be available on demand.<br>
+As of writing this, it's not yet clear what the best terms are.
+* we talk about "migrating" data when records are moved from "production"/"operational" to "archived"/"background" or vice versa.
+* we distinguish between "master data" and "transaction data".<br>
+In short, transaction data is the data which we might want to migrate and turn into background data and master data is the data which were are not interested in migrating.<br>
+It's fleshed out a bit in the [#Partitioner] section.
 
-We need this to achieve two things:
-* improve performance when woking on the production tables
-* reduce the size of the production database's data dump
+## Goals
 
-Throughout the text, "data lifecycle management" might be abbreviated with "DLM".
+We to achieve the following things. 
+They are prioritised in descending order. 
+Also, note that we are open towards ending up with different solutions for different goals:
+* improve performance when working on the production data. We'll need to become much more concrete, but initially, what we have in mind is improving performance of the "usual suspects":
+  * material receipt (selecting, changing HU combinations, printing)
+  * order (creation, printing, print preview, purchase order from order)
+  * inout (lieferdispo search shipment creation, printing)
+  * invoice (rechnungsdispo search, filter, create invoices process, print preview, printing)
+  * financials (process open items, saldobilanz)
+* reduce the size of the (production) data dump.<br>
+What we want to gain at least is the ability to easiely get a copy of a customer's production data.<br>
+What would be even better is the ability to get an even smaller number of records, such as an order that caused certain problems and needs to be analyzed.
+* deal with the problem of ever-growing datasets, given that more disk space is cheap, but "attaching" it should be as easy as possible.
 
-## Database
+## Different approaches on the database level
 
-Generally we need to decide for the first increment: do we want one DBMS with different table spaces or multiple DBMSs?
+On the database level, we discussed different basic approaches, and did not yet conclude on which one we think is the best:
+* multiple databases: different DBs for production data and background data.<br>
+Migrating from "production" to "background" means to send data to a "background" database and delete them from the "production" database.<br>
+We actually already discarded this approach, see below. I'm just writing it up so that we can easier understand our past selves in the future.
+* table partitioning: one database with logical tables and underlying pyhsical tables.<br>
+These physical tables are partitioned by a "production data"/"background data" property and can potentially be on different table spaces.<br>
+Migrating from "production" to "background" means to delete a record in the "production" table and insert it into the "background" table. But note that both tables belong to the same logical table.
+* single table: partial indices and additional tweaks to restrict the data which the DB has to search within the still large and unpartitioned tables.<br>
+Migrating from "production" to "background" means to update some column of the respective records.
 
-The only advantage of **multiple DMBSs** is that it's easier to make a dump of only the current production data.
+### Multiple databases
 
-Advantages of **multiple table spaces**:
-* we can use table partitioning and metasfresh can logically access *all* the data at once. 
-The archived data could be on a slow big disk. 
-We would just need to define a constraint that is by default embedded to every where-clause (also subselects etc!) and as a result the DB would only search in the production data and never bother with the archived data.
-* archived data like `C_Order` records could still reference unarchived data like `AD_Client` or `C_BPartner` (depending on the setup) with FK constraints in place, and without the need to also archive (and thus duplicate) the referenced records.
-* no need to set up and manage another DBMS
+The only advantage of multiple databases which we see is that it's easier to make a dump of only the current production data.
+Apart from that, the biggest disadvanteges we see are
+* we need to replicate also master data to preserve FK constraints of the background data. This adds a layer of pentential complicatios
+* we need to invest more effort in the applciation layer (DB connections to different DBs)
+* we think we can achieve our goals in a more lightweight way, with one of the other two approaches.
+
+### Single database solutions
+
+These approaches have the advantages of:
+* all the data still being in one (logical) table, and therefore accessable at once and over the same DB connection.
+* no need to set up and manage another DB or even DBMS
+
+#### A new standard column
+
+* How do we logically mark records as archived/background, so that the system knows to exclude them from operational selects?
+* IsArchived flag vs multiple archive levels vs "domain-ID"?
+  - domain-ID won't work well, because in the domain-concept we wanted to be able to combine different domains into sets and have the actual records reference the set ID. So different sets that still contain the "Archived" domain would have different IDs,<br>
+so it would be harder to figure out which is which  
+  - i think a simple integer column like **`DLM_ArchiveLevel`** wold be nice. Then we could even have multiple levels. `NULL` or 0 would mean "not archived".<br>
+  - note that we will go with the column name `DLM_ArchiveLevel` in the rest of this text. Of course that name might still change...
+The bigger the number, the "further" the respective record is away from "production". Or, depending on the solition we will end up with, different numbers might denote different archive-blocks, like archived data from different years.
+* yet to be decided: shall `DLM_ArchiveLevel` be a regular AD_Column which is then added to every AD_Table in question? As of now, I don't think so. Nevertheless, the information might be well-placed in `POInfo`
+
+#### "Single table"
+
+The idea here is to make sure that in the normal operation, the *where-clause* of every SQL statement will be augmented with something like `..AND COALESCE(DLM_ArchiveLevel,0)=0`.<br>
+That way the sytem normally never "sees" any background data above the actual database level.
+
+Archived transaction data like `C_Order` records could still reference unarchived master data like `AD_Client` with FK constraints in place and without the need to also archive (and thus duplicate) the master data records.
+
+One suggestion of how to implement the `DLM_ArchiveLevel` on a deep level is to rename tables such as `C_Invoice' to something like `C_Invoice_Tbl` and then create a view such as
+```
+CREATE VIEW C_Invoice AS SELECT * FROM C_Invoice_Tbl WHERE COALESCE(DLM_ArchiveLevel,0)=0;
+```
+
+That way we would automatically have that whereclause in every SQL of our reports, functions, DAO-services etc.
+
+Once this is in place we might be able to achive performance gains by adding a (partial) index on the `DLM_ArchiveLevel` column. 
+
+We could also prevent all other indices from growing further by adding a `...WHERE COALESCE(DLM_ArchiveLevel,0)=0` to them.
+
+#### "Table partitioning"
+
+This approach builds on top of the "single" table approach.
+
+In addition from what we might gain with the "Single table" arpproach, table partioning offers the additional advantage that the physical table accessed by the DB is simply small.<br>
+That means we do not have the DB to deal with a large table and find way of helping it not to be burdened by it's "background" data part. Instead there simply isn't a lot of data in the foreground data table with which the DB can be burdened.<br>
+The archived data could be on a slow big disk and be only accessed on rare occasions. Howerver logically, if a query without `COALESCE(DLM_ArchiveLevel,0)=0` is made, then all the data would be retrived.
 
 Further reading to understand the underpinnings of multiple table spaces:
 
 * postgres table partitioning: [https://www.postgresql.org/docs/current/static/ddl-partitioning.html](https://www.postgresql.org/docs/current/static/ddl-partitioning.html)
 * SQL to move a record from one table to the other
   - stackoverflow on how to delete and insert a single record at the same time: [http://stackoverflow.com/questions/2974057/move-data-from-one-table-to-another-postgresql-edition](http://stackoverflow.com/questions/2974057/move-data-from-one-table-to-another-postgresql-edition)
-* SQL to move a number of records within one trx?
 * We need a way to only dump the "current" data without the archived data
   - pg_dump has a paremeter "--exclude-table-data" which takes a file with tables to exclude; we could have a tool (select on pg_catalog) to create that file.
-
 * postgres table partitioning extensions: [pg_partman](https://github.com/keithf4/pg_partman) 
    - only handles inserts, not updates! but maybe the setup, trigger-mgmt etc can be used
 
-## Application
+## **To check:** PostgreSQL-Version
 
-### New (logical) column
+We currently have PostgreSQL versions 9.1, 9.3 and 9.5 out there.<br>
+It *might* turn out that when we play with the single table approach on postgres-9.1, we gain no performance improvements, but we would have gained them with 9.3 or 9.5 because those versions are more performance optimized.
 
-* How do we logically mark records as archived, so that metasfreseh-seects can augment their respective where clauses?
-* IsArchived flag vs multiple archive levels vs "domain-ID"?
-  - domain-ID won't work well, because in the domain-concept we wanted to be able to combine different domains into sets and have the actual records reference the set ID. So different sets that still contain the "Archived" domain would have different IDs,<br>
-so it would be harder to figure out which is which  
-  - i think a simple integer column **`DLM_ArchiveLevel`** wold be nice. Then we could even have multiple levels. `NULL` or 0 would mean "not archived". the bigger the number, the "further" the respective record is away from "production".
-* yet to be decided: shall `DLM_ArchiveLevel` be a regular AD_Column? As of now, i don't think so. Nevertheless, the information might be well-placed in `POInfo`
+We should put some research into this or maybe up-prioritize the task of migrating all customers to postgres-9.5.
+   
+## Rough architectural outline
 
-### Rough architectural outline
+General implementation note:
+* any API we provide to load and store migrating and partitioning config and actually any API needs to be database agnostic.
 
 I think there are three main parts to look at
-* A **partitioner** that runs in background and creates partitions.<br>
-  - By partition I mean a set of records that generally belong to different tables and that are all directly or indirectly linked with each other.<br>
-  - In other words, we can migrate the records of one partition together, without breaking foreign key constraints.
-  - one record may belong to multiple partitions. Examples/Thoughts
-    - `AD_Client` is referenced by almost every other record. Also the table is small, and it is "masterdata" that can change   over time.<br>Since we realize DLM via table spaces and the "archive"-tables can reference `AD_Client`, there is no       point to have AD_client records as parts of the partition.
+
+### Partitioner
+
+By **partitioner** i mean a component that runs in background and creates partitions.<br>
+ * By partition I mean a set of records that can generally belong to different tables and that are all directly or indirectly linked with each other.<br>
+ * In other words, we can migrate the records of one partition together, without breaking foreign key constraints.
+ * one record may belong to multiple partitions. Examples/Thoughts
+    - `AD_Client` is referenced by almost every other record. Also the table is small, and it is "masterdata" that can change   over time.<br>
+Since we realize DLM via table spaces and the "archive"-tables can reference `AD_Client`, there is no point to have AD_client records as parts of the partition.
     - Let's assume for sake of argument that e.g. `C_AllocationHdr` is not referencing anything (besides AD_Client etc), but is directly and indirectly refrenced. Then, for the sake of preserving references, we would not have to migrate it into the archive.<br>but we still want to do it in order to avoid the "operational" C_AllocationHdr table from getting too big, and because it's an ummutable document that is after some time not very likely to be required in the day to day operative business.
     - `C_BPartner` might or might not be a case for DLM depending on whether there are many partners and on how many of them become "ex-partners" over time.
-  - The partitioner stores the partitions in the database. The information can be used not only to migrate data into the archive, but als to extract test data.
-  - There could be two tables: one "partion" table and one "partition-item". Or we could check if we can reuse document-ref..to avoid ending up with something that is basically a duplication of document-ref.
-  - The partitioner has an API that is agnostic of the tables in which the partitions are stored.
-  - Probably, when walking the record-reference graph, the partitioner shall walk "forward" (e.g. from C_OrderLine.C_Order_ID to C_Order) because walking backward is too big of a performance penalty
-  - We need to be able to tell the partitioner that e.g. `AD_Client` is not to be migrated. In the underlying database, the FK constraints need to be managed accordingly (i.e. FK from the respective "archive" tables to the `AD_Client` table).
-  
-* A **migrator** that can receive partitions and is responsible to migrate them from one storage to the other
-  - the migrator can have different implementations. For the first increment, it needs to be able to move partitions from one storage to another
-  - the API/SPI shall be such that there is a way to implement the migration in one step (e.g. for postgres it probably makes sense performance-wise to delete and insert in one statement) and also in two steps (e.g. export a partition into JSON and import it somewhere else).
+ * The partitioner stores the partitions in the database. The information can be used not only to migrate data into the archive, but als to extract test data.
+ * There could be two tables: one "partion" table and one "partition-item". Or we could check if we can reuse document-ref..to avoid ending up with something that is basically a duplication of document-ref.
+ * The partitioner has an API that is agnostic of the tables in which the partitions are stored.
+ * Probably, when walking the record-reference graph, the partitioner shall walk "forward" (e.g. from C_OrderLine.C_Order_ID to C_Order) because walking backward is too big of a performance penalty
+ * We need to be able to tell the partitioner that e.g. `AD_Client` is not to be migrated. If we do table partition, then the FK constraints need to be managed accordingly in the underlying database, (i.e. FK from the respective "archive" tables to the `AD_Client` table).
+
+#### Partitioner and single table approach
+
+It's important to note that we *probably* need the partitioner, even if we "just" go with the single table approach.<br>
+This is because to the application, background data won't be "there", even with the single table approach (remember the where-clause-view).<br>
+Therefore, if we set `DLM_ArchiveLevel=1` for a given `C_Order` record then we need to do the same for the `C_Invoice` records which referenece that order via `C_Invoice.C_Order_ID`. 
+If we don't, we end up with a "dangling" reference and there weill be errors in the application. Other that in the "table partitioning" approach, we don't have FK constraints to prevent such a situation.
+
+#### Optimistic partitioner
+
+However, *if* we learn that the single table approach in general can give us a preformance boost already, we might be able to get away with a less rigorous or say "optimistic" partitioner.
+This partitioner would not add to a partition *everything* that is required to retain referential integrety, but just what we think usually goes together application-wise.
+
+In that scenario, if an invoice is still within production, but its order can't be loaded because it is already in background, and *if* the application needs to load that order, then we do as follows:
+* move the order back into production
+* log the event 
+* and retry loading the order
+
+We can then provide ourselves with statistics about which records had to be handeled this way, and how often it occured and how much time it cost. We can use these statistics to tune that partitioner.
+
+On the other hand, we can't handle reports in the same way, because they are "just" SQL, so we can't trigger this sort of exception handling, and we even might not become aware those problems.
+
+#### Reports and single table approach
+
+As written above, with the single table approach, no FK constraints prevent us creating "dangling" references within our production data.
+As long as our reports are essentially SQL-based, i think we must conclude that we can't guarantee con a constant basis that 
+* if we run any report with any `DLM_ArchiveLevel=0` reocrd
+* all the records which the SQL might reference
+* do always also have `DLM_ArchiveLevel=0`
+
+We can't guarantee it, so might sometimes work out and sometimes not.
+I see these options:
+* implement a non-optimistic partioner and make it work great
+* implement whatever partitioner and *do not* distinguish between production and background data when it comes to reports (i.e. reports queries will not have the `DLM_ArchiveLevel=0` restriction).
+
+#### **To check:** FK-like rules in the single table approach?
+
+We might be able to add rules which inforce FK-like integrety within the single-table approach.
+Those rules would only fire during migration, to there would probably be no performance degradation otherwise.
+
+
+### Migrator
+
+By **migrator** i mean a component that can receive partitions and is responsible to migrate them from one "level" to the other.
+
+  - the migrator can have different implementations. For the first increment, it might just need to be able to update tables' `DLM_ArchiveLevel` columns.
+  - the API/SPI shall be such that there is a way to implement the migration in one step (e.g. delete and insert or simply update, both in one statement) and also in two steps (e.g. export a partition into JSON and import it somewhere else).
   - audit tables that usually references partitions and shows which partition is currently in which `DLM_ArchiveLevel`.
-  
+
+### Filter
+
 * An extension in metasfresh that by default always prepends an additional condition to the where clause. The "normal" metasfresh code shall not have to care. In normal operation, archived data is just not in the database.
 
+   
 ## Increments
+
+**TO BE DONE**
+
+Notes: 
+* start with single table approach
+* compare performances on mf15-DB with aprox 100 records with a sp80 DB
+  - only client, no server should run in the background
+  - measure widow opening times, how long it takes to search for a documentNo, zoom from invoice to order etc
+* add the `DLM_ArchiveLevel` column to some tables of the sp80-DB. Add the views, indices etc.<br>
+Update some records to `DLM_ArchiveLevel=1`. For that we need to check out the table structures and decide if we want to start with a rudimentory partitioner and migrator, or if we can/want to update the tables manually.
+* repread the sp80 performance test
+
+**the following subsections are outdated!**
 
 ### `HU_`-Tables
 
@@ -93,6 +221,7 @@ TODO for this increment:
 ### metasfresh-SQL
 
 * Find the places where we actually generate our SQL and make sure that we only select records with `COALESCE(DLM_ArchiveLevel,0) = 0`, and ofc only if the respective table actually has a DLM_ArchiveLevel column.
+* Maybe we can at the same time fix issue [#196](https://github.com/metasfresh/metasfresh/issues/196)
 
 ### partitioner
 

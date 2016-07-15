@@ -1,10 +1,10 @@
 ---
 title: Overview of the Quote to Cash workflow
 layout: default
-<!--
+
 tags:
   - Workflow
--->
+
 sequence: 10
 lang: en
 ---

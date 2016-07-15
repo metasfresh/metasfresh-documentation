@@ -1,0 +1,6 @@
+Instructions to install and use Macros for Notepad++
+
+1. place the shortcuts.xml in to folder %userprofile%\AppData\Roaming\Notepad++
+2. mark a word and press CTRL+G to seach on github for corresponding files
+3. copy the filename from github (e.g. how_to_whatever.md)
+4. press CTRL+T to transform the filename into a link

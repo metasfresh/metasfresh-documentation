@@ -3,7 +3,7 @@ title: How to configure metasfresh
 layout: default
 label: Konfiguration, Quickstart
 tags: 
-<!----  - Ersteinrichtung ----!>
+	- Setup
 lang: en
 ---
 ## Configuring Basic Data

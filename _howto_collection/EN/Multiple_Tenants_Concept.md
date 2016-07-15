@@ -1,10 +1,10 @@
 ---
 title: Multiple Tenants Concept
 layout: default
-<!--
+
 tags:
   - Concepts
--->
+
 lang: en
 
 ---
