@@ -81,19 +81,81 @@ The bigger the number, the "further" the respective record is away from "product
 The idea here is to make sure that in the normal operation, the *where-clause* of every SQL statement will be augmented with something like `..AND COALESCE(DLM_ArchiveLevel,0)=0`.<br>
 That way the sytem normally never "sees" any background data above the actual database level.
 
+Note: the `COALESCE` relieves us from the need to initially update every exising record's column value to 0.
+It's much faster to just add a column (without a default value) than it is to add and actually set it.
+But apart from that, the `COALSECE`is purely techical and we will ommit it further on.
+Instead we'll just write `DLM_ArchiveLevel=0`.
+
 Archived transaction data like `C_Order` records could still reference unarchived master data like `AD_Client` with FK constraints in place and without the need to also archive (and thus duplicate) the master data records.
 
 One suggestion of how to implement the `DLM_ArchiveLevel` on a deep level is to rename tables such as `C_Invoice' to something like `C_Invoice_Tbl` and then create a view such as
 
 ```
-CREATE VIEW C_Invoice AS SELECT * FROM C_Invoice_Tbl WHERE COALESCE(DLM_ArchiveLevel,0)=0;
+CREATE VIEW C_Invoice AS SELECT * FROM C_Invoice_Tbl WHERE DLM_ArchiveLevel = 0;
 ```
 
 That way we would automatically have that whereclause in every SQL of our reports, functions, DAO-services etc.
 
-Once this is in place we might be able to achive performance gains by adding a (partial) index on the `DLM_ArchiveLevel` column. 
+Once this is in place, we can hope to achive performance gains by adding a (partial) index on the `DLM_ArchiveLevel` column. 
 
-We could also prevent all other indices from growing further by adding a `...WHERE COALESCE(DLM_ArchiveLevel,0)=0` to them.
+We could also prevent all other indices from growing further by adding a `...WHERE DLM_ArchiveLevel=0` to them.
+
+Note: we might decide to create the new views in a dedicated schema "dlm", because we already have almost 200 views (which contain actual business logic!) in the public schema, and adding those new trivial views might introduce too much noise there.<br>
+We should in this case add "dlm" to the postgres search path.
+
+#### Using config settings to change the visible "scope"
+
+The idea of "hardcoding" a `WHERE DLM_ArchiveLevel=0` into every select has the drawback that now it is harder for the application to access background data when the user actually wants to access it.
+
+One solution might be to directly access the `C_Invoice_Tbl` table instead of the `C_Invoice` view, but that might turn out to be complicated to implement at the code places which generate SQL.
+
+The solution which i think we should follow instead is to use postgres settings.
+
+We would modify the above view to be:
+
+```
+CREATE VIEW C_Invoice AS SELECT * FROM C_Invoice_Tbl WHERE DLM_ArchiveLevel <= current_setting('metasfresh.DLM_ArchiveLevel')::integer;
+```
+
+In the server's `postgresql.conf` we could add something like:
+
+```
+custom_variable_classes = 'metasfresh'
+metasfresh.DLM_ArchiveLevel = '0'
+```
+
+And then, in metasfresh, we could invoke
+```
+set_config('metasfresh.DLM_ArchiveLevel', '1', false)
+```
+
+This way we can implement metasfresh to run "globally" in a mode where also archive data is visible.
+
+If we choose the boolean parameter (named "is_local") to be "true", then the setting will only be in effect for the current transaction. 
+This way we can implement metasfresh to only see archived records in the context of one particular search.
+
+Credits/further reading:
+
+* http://stackoverflow.com/questions/1307582/postgresql-can-one-define-a-session-variable-with-the-language-and-use-it-in-vi
+* https://www.postgresql.org/docs/current/static/runtime-config-custom.html
+* https://www.postgresql.org/docs/current/static/functions-admin.html
+
+#### Inserts and updates
+
+When we append "_Tbl" to the actual table name and add a view with the original name, then the question about write-access to the renamed table arises.
+
+We can also append "_Tbl" to the table name in each DML and DDL statement that we create in metasfresh. <br>
+Or we can use postgres to "translate" an insert or update on a view into the respective operation on the underlying table.
+To see how the latter is done, you can check out [http://michael.otacoo.com/postgresql-2/postgres-9-3-feature-highlight-auto-updatable-views/](http://michael.otacoo.com/postgresql-2/postgres-9-3-feature-highlight-auto-updatable-views/)
+
+Auto-updatable views are not available in postgres-9.1 and the other two alternatives (rule or trigger) require us to explicitly name all the columns in question. 
+This might introduce problems when we extend tables and forget to update the trigger or rule accordingly. Also, it doesn't address DDL changes.
+
+On the other hand, a table might be DLMd on one instalation and not be DLMd on another instalation. So `C_BPartner` might be a table on one metasfresh-DB and a view on another DB.
+
+To solve this, we can add further DB-functions to be used in our migration scripts.<br>
+Then, "INSERT INTO table" "UPDATE table" and "ALTER table" statements are not called directly, but are given as parameters to a DB-function that can append "_Tbl" to the table name.
+
 
 #### Table partitioning
 
@@ -101,7 +163,7 @@ This approach builds on top of the "single" table approach.
 
 In addition from what we might gain with the "Single table" arpproach, table partioning offers the additional advantage that the physical table accessed by the DB is simply small.<br>
 That means we do not have the DB to deal with a large table and find way of helping it not to be burdened by it's "background" data part. Instead there simply isn't a lot of data in the foreground data table with which the DB can be burdened.<br>
-The archived data could be on a slow big disk and be only accessed on rare occasions. Howerver logically, if a query without `COALESCE(DLM_ArchiveLevel,0)=0` is made, then all the data would be retrived.
+The archived data could be on a slow big disk and be only accessed on rare occasions. Howerver logically, if a query without `DLM_ArchiveLevel=0` is made, then all the data would be retrived.
 
 Further reading to understand the underpinnings of multiple table spaces:
 
@@ -147,7 +209,7 @@ Since we realize DLM via table spaces and the "archive"-tables can reference `AD
 
 #### Partitioner and single table approach
 
-It's important to note that we *probably* need the partitioner, even if we "just" go with the single table approach.<br>
+It's important to note that we need the partitioner, even if we "just" go with the single table approach.<br>
 This is because to the application, background data won't be "there", even with the single table approach (remember the where-clause-view).<br>
 Therefore, if we set `DLM_ArchiveLevel=1` for a given `C_Order` record then we need to do the same for the `C_Invoice` records which referenece that order via `C_Invoice.C_Order_ID`. 
 If we don't, we end up with a "dangling" reference and there weill be errors in the application. Other that in the "table partitioning" approach, we don't have FK constraints to prevent such a situation.
@@ -172,7 +234,7 @@ On the other hand, we can't handle reports in the same way, because they are "ju
 As written above, with the single table approach, no FK constraints prevent us creating "dangling" references within our production data.
 As long as our reports are essentially SQL-based, I think we must conclude that we can't guarantee con a constant basis that 
 
- * if we run any report with any `DLM_ArchiveLevel=0` reocrd
+ * if we run any report with any `DLM_ArchiveLevel=0` record
  * all the records which the SQL might reference
  * do always also have `DLM_ArchiveLevel=0`
 
@@ -197,7 +259,7 @@ CREATE CONSTRAINT TRIGGER dlm_corder_cinvoice
 AFTER UPDATE OF DLM_ArchiveLevel ON C_Order
 DEFERRABLE INITIALLY DEFERRED
 FOR EACH ROW
-WHEN DLM_ArchiveLevel > 0 /* when we migrate out of production */
+WHEN DLM_ArchiveLevel > 0 /* only when we migrate out of production */
 EXECUTE PROCEDURE function_name;
 {% endhighlight %}
 
@@ -263,17 +325,28 @@ Further reading:
 
 Further notes:
 
-* so we have different versions.<br>
+* so we have different config versions.<br>
 If a version is "processed" it can not be changed anymore, unless all it partitions are deleted and all the partitioned data are migrated back into production.<br>
 However, it can be deep-copied to serve as blueprint for another version
 * the partioner configuration invites the partitioner implementation(s) to "forward-follow" existing references.<br>
 So, when loading and adding records to a partition, the implementation should go from C_Invoice via C_Invoice.C_Order_ID to the referenced C_Order, and not from C_Order to the referencing invoices.<br>
 I think that's much more performant.
-* Repreating myself: despite this is specified in terms of metasfresh tables, the API needs to be DB agnostic. That means, the config shall be representable in terms of POJOs (and lists of maps of pojos).
+* Repeating myself: despite this is specified in terms of metasfresh tables, the API needs to be DB agnostic. That means, the config shall be representable in terms of simple POJOs and lists or maps of pojos.
 	
+### Coordinator
+
+By ** coordinator**  I mean a component checks out existing partitions and decides what to do this them. Not every partition shall "blindly" be migrated.
+
+* this component has the job of evaluating partitions and see
+  * whether the could be migrated. This might include some SPI to invoke domain specific stuff..e.g. a C_Invoice might not only require `Processed='Y'`, but also `Paid='Y'` to be true
+  * if they are not yet ready, decide when the time for a re-evaluation will be
+* if they should be migrated, flag them accordingly
+* keep audit records, so if a partition should not (yet) be migrated, make it easy for the users to understand why not.
+* the coordinator config needs to be part of the partitioner's config or needs to be referenced from the partitioner's config.
+
 ### Migrator
 
-By **migrator** i mean a component that can receive partitions and is responsible to migrate them from one "level" to the other.
+By **migrator** I mean a component that can receive partitions and is responsible to migrate them from one "level" to the other.
 
   * the migrator can have different implementations. For the first increment, it might just need to be able to update tables' `DLM_ArchiveLevel` columns.
   * the API/SPI shall be such that there is a way to implement the migration in one step (e.g. delete and insert or simply update, both in one statement) and also in two steps (e.g. export a partition into JSON and import it somewhere else).
@@ -291,57 +364,65 @@ Outline:
 
 * the partitioner's configuration starts out "sparse". If we are interested in DLMing `C_Invoice`, we just add the table `C_Invoice` to the config.
 * consequently, the partitioner will create individual partitions which just contain one `C_Invoice` record each.
-* then if the migrator tries to migrate a C_Invoice record that is referenced by a C_Payment which is not also migrated, then our trigger function will rause an error with error-code `235D3`.
+* then if the migrator tries to migrate a C_Invoice record that is referenced by a C_Payment which is not also migrated, then our trigger function will raise an error with error-code `235D3`.
 * this causes an SQL exception that is evaluted by the migrator, so the migrator can then notify the partioner about the problem (missing partitioner config item).
 * the partitioner can then complete both its configuration and its already existing but incomplete partitions
 * the migrator can try again.
 
 This way, a user can configure what he/she knows or wants to add. The rest will be added automatically and might then be further customized by the user.
 
-## Increments
+## Increments and their estimations
 
-**TO BE DONE**
+### DB level
 
-**the following subsections are outdated!**
+* Augment `postgresql.conf` (don't forget comments/docs)
+* Implement a DB function that for a given table
+  * appends "_tbl" to the table's name and creates the view with the table's former name
+  * adds a DLM_ArchiveLevel column
+  * adds an index on the new column
+  * adds a trigger and trigger-function for each existing FK-constraint
+  * consider adding a where-clause to every existing index (if it's a lot of effort, postpone)
+* Implement the DB functions for insert, update and alter-table which we can use in migration scripts when it's not know at script creation time if the respective table is DLMd or not.
+* Extend metasfresh
+  * Add a read-only "IsDLM" flag to `AD_Table`. It indicates if e.g. `C_BPartner` is juat a view and the actual table is named `C_BPartner_Tbl`.
+  * Add a process that can DLMify a given table by calling the above function
+  * Also add a process and a house-keeping task that can update AD_Table.IsDLM, e.g. if metasfresh starts up after a table was DLMified via migration script.
+  * PO, POInfo etc: add isDLM() (should be refreshable without restart); prepend "_Tbl" to inserts and updates if neccesary.
+  * The sync-columns process shall use the alter-table function from above
+  
+* To test (incomplete list):
+  * use the new function on e.g. M_HU_Attribute (it should finish fast, despite that table beeing rather large)
+  * update DLM_ArchiveLevel to 1 for an M_HU_Attribute record
+  * check out if the error message and error code is correct.
 
-Notes: 
-* start with single table approach
-* compare performances on mf15-DB with aprox 100 records with a sp80 DB
-  - only client, no server should run in the background
-  - measure widow opening times, how long it takes to search for a documentNo, zoom from invoice to order etc
-* add the `DLM_ArchiveLevel` column to some tables of the sp80-DB. Add the views, indices etc.<br>
-Update some records to `DLM_ArchiveLevel=1`. For that we need to check out the table structures and decide if we want to start with a rudimentory partitioner and migrator, or if we can/want to update the tables manually.
-* repread the sp80 performance test
+  
+### Partitioner
 
-### `HU_`-Tables
+* Create the config table(s)
+* Create the actual partition table(s)
+  * remember, check if we can use document-ref
+* Create and implement the configuration API
+* Create and implement the actual partitioning API
 
-By far the fastest-growing table is `M_HU_Attribute`, followed by `M_HU_Attribute_Snapshot` and `M_HU_Trx_Line`. At the same time, `M_HU_Attribute` is not referenced by many other tables.
-That makes it the perfect candidate for a first WI that does not need a sophisticated "partitioner" implementation.
- 
-TODO for this increment:
-* set up an "archive" table space
-* figure out the dependency relations and how a minimal partition with `M_HU_Attribute` would look like (i.e. figure out which tables actually reference `M_HU_Attribute`).
-* depending on the result, create a minimal part of the "partitioner" infrastructure
-* set up partition tables, indexes FK-constraints etc, keeping in mind that we need to do this automatically in further increments
-* create a minimal part of the "migrator" infrastructure, so that we can move records from one table to the other; maybe a DB function that is run via SQL-async is already enough.
-* provide some proof of concept around `pg_dump` that allows us to create the dump and reload it into a different DB.
 
-### metasfresh-SQL
+### Coordinator
 
-* Find the places where we actually generate our SQL and make sure that we only select records with `COALESCE(DLM_ArchiveLevel,0) = 0`, and ofc only if the respective table actually has a DLM_ArchiveLevel column.
-* Maybe we can at the same time fix issue [#196](https://github.com/metasfresh/metasfresh/issues/196)
+* Create the config table(s) and add stuff so we can link them to partition-config-versions
+* create and implement the API
 
-### partitioner
 
-Figure out how the partitioner needs to be configured if we want to archive "Order, Inout, Invoice" "stuff" and implement it
+### Migrator
 
-This might include a process which analyzes `AD_Table` and `AD_Column` and writes the results into the config data, to be fine-tuned.
+* Create the audit table(s)
+* Create and implement the API
+* Also crreate the logic that detects and handles too optimistic/too small partitioner configs.
+  
+  
+### Filter
 
-### migrator
+Augment metasfresh so it can get the current connection level to use e.g. from Env, and pass it to the DB-connection.
+Then the DB connection shall call `set_config()` to make sure the rest of metasfresh allways gets the data it needs in the given context.
 
-Flesh out the table-to-table implementation; this certainly includes code to turn "normal tables into "DLM-enabled" tables ( create new partitions, FK constraints etc).
-
-###take stop and see what's next
 
 ## Q&A
 
