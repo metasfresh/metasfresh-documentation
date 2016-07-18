@@ -1,7 +1,6 @@
 ---
 title: IT FRESH-487
 required data:
-  required data:
    bpartner: bpartner G000X (customer, org1), G000Y (vendor, org2)
    AD_Orgs: org1, org2
 layout: default
@@ -15,7 +14,7 @@ tags:
 
 
 1. Open missing counter docs window
-	* => now called Missing Counter Documents
+	* => now called Missing Counter Documents (Fehlender/Unvollständiger Gegenbeleg)
 	* => no data, if there are no documents with missing counter ones from day of test
 	
 1. Search for older data
