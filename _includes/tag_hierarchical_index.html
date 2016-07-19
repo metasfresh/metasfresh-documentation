@@ -1,0 +1,33 @@
+{% comment %}
+Get the different tags from the given include.pages variable, and create a section for each individual tag.
+List links to the respective include.pages for each tag value, using {% include tag_linklist %}.
+Thx to http://stackoverflow.com/questions/34242743/distinct-in-jekyll-liquid for getting us started.
+
+This include file goes beyond the existing tag_grouped_index.html as it implements https://github.com/metasfresh/metasfresh-documentation/issues/36
+
+Parameters:
+  include.pages: the array of pages to iterate
+  include.lang: optional, maybe null; the given language to filter for (lang variable from the front matter); 
+	#33 FRESH-514: if set, then only list pages with the given lang
+{% endcomment %}
+
+<!-- DEBUG tag_hierarchical_index.html BEGIN -->
+<!-- DEBUG tag_hierarchical_index.html lang='{{include.lang}}' -->
+{% comment %}<!-- DEBUG pages: it's not a good idea to try and list the pages, their whole html would be pasted in here -->{% endcomment %}
+
+{% comment %} sort the pages by their first tag; for pages having the same first tag, sort them by the number of tags. Pages with less tags are move general and shall be listed first {% endcomment %}
+{% assign sorted_pages = include.pages | sort: tags[0], 'last' | sort: 'tags.size' %}
+
+{% assign grouped_pages = include.pages | group_by:"tags" %}
+{% assign grouped_sorted_pages = grouped_pages | sort: name[0], 'last' | sort: 'name.size' %}
+
+<!-- DEBUG tag_hierarchical_index.html: listing grouped_sorted_pages  -->
+{% for current_tags in grouped_sorted_pages.name %}
+<!-- DEBUG tag_hierarchical_index.html:    current_tags={{ current_tags }}: -->
+	{% for current_page in grouped_sorted_pages.items %}
+<!-- DEBUG tag_hierarchical_index.html:           current_page={{ current_page.url }} -->
+	{% endfor %}
+{% endfor %}
+<!-- DEBUG tag_hierarchical_index.html: done with listing grouped_sorted_pages  -->
+
+<!-- DEBUG tag_hierarchical_index.html END -->
