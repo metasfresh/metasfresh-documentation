@@ -28,27 +28,29 @@ Parameters:
 
 {% comment %} trying to stor each pages tags-as-string together with the page {% endcomment %}
 {% for current_page in include.pages %}
-	{{ assign current_tag_as_string = current_page.tags | join ')(' }}
+
+	{{ assign current_tags_as_string = current_page.tags | join ")(" }}
 	
-	{{ assign tags_as_string = tags_as_string | push: current_tag_as_string }}
+	{{ assign tags_as_string = tags_as_string | push: current_tags_as_string }}
 	{{ assign tags_as_string_pages | push: current_page }}
-<!-- DEBUG tag_hierarchical_index.html: page={{ current_page.url }}; tag_as_string={{ tag_as_string }} -->
+<!-- DEBUG tag_hierarchical_index.html: page={{ current_page.url }}; tag={{ current_page.tags }}; current_tags_as_string={{ current_tags_as_string }} -->
 {% endfor %}
 
 {% assign tags_as_string_sorted = tags_as_string | sort %}
 
 <!-- DEBUG tag_hierarchical_index.html: iterating grouped_sorted_pages  -->
-{% for current_tag_as_string_sorted in tags_as_string_sorted %}
+{% for current_tags_as_string_sorted in tags_as_string_sorted %}
 
+<!-- DEBUG tag_hierarchical_index.html:   current_tags_as_string_sorted={{ current_tags_as_string_sorted }} -->
 	{% assign pages_for_current_tag = __empty_array %}
 
-	{% for current_tag_as_string in tags_as_string %}
-		{% if current_tag_as_string == current_tag_as_string_sorted %}
+	{% for current_tags_as_string in tags_as_string %}
+		{% if current_tags_as_string == current_tags_as_string_sorted %}
 			{% assign pages_for_current_tag = pages_for_current_tag | push tags_as_string_pages[forloop.index0] %}
 		{% endif %}
 	{% endfor %}
 
-<!-- DEBUG tag_hierarchical_index.html:   current_tag_as_string_sorted={{ current_tag_as_string_sorted }} -->
+<!-- DEBUG tag_hierarchical_index.html:   current_tags_as_string_sorted={{ current_tags_as_string_sorted }} -->
 	{% for current_page_for_current_tag in pages_for_current_tag %}
 <!-- DEBUG tag_hierarchical_index.html:      current_page_for_current_tag={{ current_page_for_current_tag.url }} -->
 	{% endfor %}
