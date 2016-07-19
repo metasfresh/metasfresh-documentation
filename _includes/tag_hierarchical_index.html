@@ -17,19 +17,25 @@ Parameters:
 
 {% comment %} goal: group and sort the pages; for pages having the same first tag, sort them by the number of tags. Pages with less tags are more general and shall be listed first {% endcomment %}
 
+{% comment %} trying to stor each pages tags-as-string together with the page {% endcomment %}
+{% for current_page in include.pages %}
+	{{ assign current_page.tags_string = current_page.tags | join "')(' }}
+{% endfor %}
 
-{% assign grouped_pages = include.pages | group_by:"tags" %}
+
+{% assign sorted_grouped_pages = include.pages | sort 'tags_string', 'last' | group_by:"tags_string" %}
 
 {% comment %}
 thx to http://stackoverflow.com/questions/38396538/jekyll-liquid-given-key-access-value-from-hash-in-template
 for the "inspect" hint
-{% endcomment %}
 <!-- DEBUG tag_hierarchical_index.html: grouped_pages= {{ grouped_pages | inspect }}  -->
+{% endcomment %}
+
 
 
 <!-- DEBUG tag_hierarchical_index.html: iterating grouped_sorted_pages  -->
-{% for current_tags in grouped_sorted_pages.name %}
-<!-- DEBUG tag_hierarchical_index.html:    current_tags={{ current_tags }}: -->
+{% for current_group in sorted_grouped_pages %}
+<!-- DEBUG tag_hierarchical_index.html:    current_tags={{ current_group.name }}: -->
 	{% for current_page in grouped_sorted_pages.items %}
 <!-- DEBUG tag_hierarchical_index.html:           current_page={{ current_page.url }} -->
 	{% endfor %}
