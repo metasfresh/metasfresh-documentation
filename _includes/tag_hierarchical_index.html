@@ -15,8 +15,7 @@ Parameters:
 <!-- DEBUG tag_hierarchical_index.html lang='{{include.lang}}' -->
 {% comment %}<!-- DEBUG pages: it's not a good idea to try and list the pages, their whole html would be pasted in here -->{% endcomment %}
 
-{% comment %} sort the pages by their first tag; for pages having the same first tag, sort them by the number of tags. Pages with less tags are move general and shall be listed first {% endcomment %}
-{% assign sorted_pages = include.pages | sort: tags[0], 'last' | sort: 'tags.size' %}
+{% comment %} group and sort the pages by their first tag; for pages having the same first tag, sort them by the number of tags. Pages with less tags are move general and shall be listed first {% endcomment %}
 
 {% assign grouped_pages = include.pages | group_by:"tags" %}
 {% assign grouped_sorted_pages = grouped_pages | sort: name[0], 'last' | sort: 'name.size' %}
