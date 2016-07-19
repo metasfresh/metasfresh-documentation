@@ -46,7 +46,7 @@ Parameters:
 
 	{% for current_tags_as_string in tags_as_string %}
 		{% if current_tags_as_string == current_tags_as_string_sorted %}
-			{% assign pages_for_current_tag = pages_for_current_tag | push tags_as_string_pages[forloop.index0] %}
+			{% assign pages_for_current_tag = pages_for_current_tag | push: tags_as_string_pages[forloop.index0] %}
 		{% endif %}
 	{% endfor %}
 
