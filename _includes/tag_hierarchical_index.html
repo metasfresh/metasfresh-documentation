@@ -20,23 +20,25 @@ Parameters:
 {% comment %} trying to stor each pages tags-as-string together with the page {% endcomment %}
 {% for current_page in include.pages %}
 	{{ assign current_page.tags_string = current_page.tags | join "')(' }}
+<!-- DEBUG tag_hierarchical_index.html: current_page.tags_string={{ current_page.tags_string }} -->
 {% endfor %}
 
 
-{% assign sorted_grouped_pages = include.pages | sort 'tags_string', 'last' | group_by:"tags_string" %}
+{% assign sorted_grouped_pages = include.pages | group_by:"tags_string" | sort: 'name' %}
 
 {% comment %}
 thx to http://stackoverflow.com/questions/38396538/jekyll-liquid-given-key-access-value-from-hash-in-template
 for the "inspect" hint
 <!-- DEBUG tag_hierarchical_index.html: grouped_pages= {{ grouped_pages | inspect }}  -->
 {% endcomment %}
+<!-- DEBUG tag_hierarchical_index.html: sorted_grouped_pages= {{ sorted_grouped_pages | inspect }}  -->
 
 
 
 <!-- DEBUG tag_hierarchical_index.html: iterating grouped_sorted_pages  -->
 {% for current_group in sorted_grouped_pages %}
-<!-- DEBUG tag_hierarchical_index.html:    current_tags={{ current_group.name }}: -->
-	{% for current_page in grouped_sorted_pages.items %}
+<!-- DEBUG tag_hierarchical_index.html:    current_tags={{ current_group.name }} (with {{ current_group.items.size }} items): -->
+	{% for current_page in current_group.items %}
 <!-- DEBUG tag_hierarchical_index.html:           current_page={{ current_page.url }} -->
 	{% endfor %}
 {% endfor %}
