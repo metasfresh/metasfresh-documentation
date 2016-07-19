@@ -87,9 +87,9 @@ tags:
 
 5. Go to created Receipt
 
-4. Check the created invoice candidates
+6. Check the created invoice candidates
     * => OK: 3 invoice candidates created
     * => OK: the invoice candidate for TU and the one for LU are both with Zur Verrechnung (IsToClear) on true
 	
-5.Create an invoice out of the linked invoice candidates
+7. Create an invoice out of the linked invoice candidates
     * => OK: Invoice only for the product line
