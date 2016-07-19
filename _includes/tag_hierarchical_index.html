@@ -17,7 +17,7 @@ Parameters:
 
 {% comment %} group and sort the pages by their first tag; for pages having the same first tag, sort them by the number of tags. Pages with less tags are move general and shall be listed first {% endcomment %}
 
-{% assign grouped_pages = include.pages | group_by:"tags" %}
+{% assign grouped_pages = include.pages | group_by:"{{ tags | join: ")(" }}" %}
 {% assign grouped_sorted_pages = grouped_pages | sort: name[0], 'last' | sort: 'name.size' %}
 
 <!-- DEBUG tag_hierarchical_index.html: listing grouped_sorted_pages  -->
