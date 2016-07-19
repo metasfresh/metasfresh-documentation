@@ -29,7 +29,7 @@ Parameters:
 {% comment %} trying to stor each pages tags-as-string together with the page {% endcomment %}
 {% for current_page in include.pages %}
 
-	{% assign current_tags_as_string = current_page.tags | join '___' %}
+	{% assign current_tags_as_string = current_page.tags | join '_' %}
 	
 	{% assign tags_as_string = tags_as_string | push: current_tags_as_string %}
 	{% assign tags_as_string_pages = tags_as_string_pages | push: current_page %}
