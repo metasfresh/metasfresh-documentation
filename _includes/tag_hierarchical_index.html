@@ -33,7 +33,7 @@ Parameters:
 	
 	{% assign tags_as_string = tags_as_string | push: current_tags_as_string %}
 	{% assign tags_as_string_pages = tags_as_string_pages | push: current_page %}
-<!-- DEBUG tag_hierarchical_index.html: page={{ current_page.url }}; tags.size={{ tags=current_page.tags.size }}; tags={{ current_page.tags }}; tags_as_string={{ current_tags_as_string }} -->
+<!-- DEBUG tag_hierarchical_index.html: page={{ current_page.url }}; tags.size={{ current_page.tags.size }}; tags={{ current_page.tags }}; tags_as_string={{ current_tags_as_string }} -->
 {% endfor %}
 
 {% assign tags_as_string_sorted = tags_as_string | sort | uniq %}
