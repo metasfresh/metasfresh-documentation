@@ -36,12 +36,15 @@ Parameters:
 <!-- DEBUG tag_hierarchical_index.html: page={{ current_page.url }}; tags={{ current_page.tags }}; tags_as_string={{ current_tags_as_string }} -->
 {% endfor %}
 
-{% assign tags_as_string_sorted = tags_as_string | sort %}
+{% assign tags_as_string_sorted = tags_as_string | sort | uniq %}
 
 <!-- DEBUG tag_hierarchical_index.html: iterating grouped_sorted_pages  -->
 {% for current_tags_as_string_sorted in tags_as_string_sorted %}
+	
+	{% if current_tags_as_string_sorted == "" %}
+		{% continue %}
+	{% endif %}
 
-<!-- DEBUG tag_hierarchical_index.html:   current_tags_as_string_sorted={{ current_tags_as_string_sorted }} -->
 	{% assign pages_for_current_tag = __empty_array %}
 
 	{% for current_tags_as_string in tags_as_string %}
