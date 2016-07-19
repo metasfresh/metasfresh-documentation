@@ -58,7 +58,7 @@ tags:
     
 
 
-** Regression: Invoicing for partner with Gebinde flatrate - SO part**
+**Regression: Invoicing for partner with Gebinde flatrate - SO part**
 
 1. Create a sales order for partner G0002, P0005 on TU2
 
@@ -75,7 +75,7 @@ tags:
    
 
 
-** Regression: Invoicing for partner with Gebinde flatrate - PO part**
+**Regression: Invoicing for partner with Gebinde flatrate - PO part**
 
 1. Create a purchase order for partner G0002, P0005 on TU2
 
