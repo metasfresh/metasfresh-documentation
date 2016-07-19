@@ -29,11 +29,11 @@ Parameters:
 {% comment %} trying to stor each pages tags-as-string together with the page {% endcomment %}
 {% for current_page in include.pages %}
 
-	{{ assign current_tags_as_string = current_page.tags | join ")(" }}
+	{% assign current_tags_as_string = current_page.tags | join ")(" %}
 	
-	{{ assign tags_as_string = tags_as_string | push: current_tags_as_string }}
-	{{ assign tags_as_string_pages | push: current_page }}
-<!-- DEBUG tag_hierarchical_index.html: page={{ current_page.url }}; tag={{ current_page.tags }}; current_tags_as_string={{ current_tags_as_string }} -->
+	{% assign tags_as_string = tags_as_string | push: current_tags_as_string %}
+	{% assign tags_as_string_pages | push: current_page %}
+<!-- DEBUG tag_hierarchical_index.html: page={{ current_page.url }}; tags={{ current_page.tags }}; tags_as_string={{ current_tags_as_string }} -->
 {% endfor %}
 
 {% assign tags_as_string_sorted = tags_as_string | sort %}
