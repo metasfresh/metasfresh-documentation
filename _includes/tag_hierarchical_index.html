@@ -15,7 +15,7 @@ Parameters:
 <!-- DEBUG tag_hierarchical_index.html lang='{{include.lang}}' -->
 {% comment %}<!-- DEBUG pages: it's not a good idea to try and list the pages, their whole html would be pasted in here -->{% endcomment %}
 
-{% comment %} goal: group and sort the pages by their first tag; for pages having the same first tag, sort them by the number of tags. Pages with less tags are move general and shall be listed first {% endcomment %}
+{% comment %} goal: group and sort the pages; for pages having the same first tag, sort them by the number of tags. Pages with less tags are more general and shall be listed first {% endcomment %}
 
 
 {% assign grouped_pages = include.pages | group_by:"tags" %}
@@ -26,7 +26,6 @@ for the "inspect" hint
 {% endcomment %}
 <!-- DEBUG tag_hierarchical_index.html: grouped_pages= {{ grouped_pages | inspect }}  -->
 
-{% assign grouped_sorted_pages = grouped_pages | sort: name[0], 'last' %}
 
 <!-- DEBUG tag_hierarchical_index.html: iterating grouped_sorted_pages  -->
 {% for current_tags in grouped_sorted_pages.name %}
