@@ -61,7 +61,7 @@ Parameters:
 			{% assign pages_for_current_tag = pages_for_current_tag | push: tags_as_string_pages[forloop.index0] %}
 			
 			{% comment %} also take the oportunity to get you current tags as not-string {% endcomment %}
-			{% current_tags = tags_as_string_pages[forloop.index0].tags %} 
+			{% assign current_tags = tags_as_string_pages[forloop.index0].tags %} 
 		{% endif %}
 	{% endfor %}
 
