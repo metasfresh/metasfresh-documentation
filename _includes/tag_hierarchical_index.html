@@ -26,7 +26,7 @@ Parameters:
 
 
 
-{% comment %} trying to stor each pages tags-as-string together with the page {% endcomment %}
+{% comment %} trying to store each pages tags-as-string together with the page {% endcomment %}
 {% for current_page in include.pages %}
 
 	{% assign current_tags_as_string = current_page.tags | join: ')(' %}
@@ -38,27 +38,81 @@ Parameters:
 
 {% assign tags_as_string_sorted = tags_as_string | sort | uniq %}
 
+
+{% assign current_tags = __empty_array %}
+{% assign last_tags = __empty_array %}
+{% assign common_tags = __empty_array %}
+{% assign last_tags_as_string = "" %}
+
+<ul>
 <!-- DEBUG tag_hierarchical_index.html: iterating grouped_sorted_pages  -->
 {% for current_tags_as_string_sorted in tags_as_string_sorted %}
-	
+
 	{% if current_tags_as_string_sorted == "" %}
+<!-- DEBUG tag_hierarchical_index.html: skipping "empty" tags-->	
 		{% continue %}
 	{% endif %}
 
 	{% assign pages_for_current_tag = __empty_array %}
-
 	{% for current_tags_as_string in tags_as_string %}
 		{% if current_tags_as_string == current_tags_as_string_sorted %}
+			
+			{% comment %} add the current paget to our list {% endcomment %}
 			{% assign pages_for_current_tag = pages_for_current_tag | push: tags_as_string_pages[forloop.index0] %}
+			
+			{% comment %} also take the oportunity to get you current tags as not-string {% endcomment %}
+			{% current_tags = tags_as_string_pages[forloop.index0].tags %} 
 		{% endif %}
+	{% endfor %}
+
+	{% comment %} 
+	CASES:
+		1: last_tags_as_string is a prefix of current_tags_as_string_sorted: => iterate the additional tags that current_tags_as_string_sorted "adds" and start a sublist like "<b>{{ tag }}</b><p><li><ul>" for each additional tag.
+		2: current_tags_as_string_sorted is a prefix of last_tags_as_string: => iterate the tags that current_tags_as_string_sorted "removes" and end a sublist "</li></ul>" for each such tag.
+		3: current_tags_as_string_sorted and last_tags_as_string have a common prefix: => combination of 1. and 2. first iterate the tags that last_tags has but the common prefix doesn't have. the open new sublists
+	{% endcomment %}
+	
+	{% for current_tag in current_tags %}
+	
+		{% if last_tags.size >= forloop.index and current_tag == last_tags[forloop.index0] %}
+			{% comment %} still in the common part of both current and last {% endcomment %}
+			{% assign common_tags = common_tags | push: current_tag %}
+			{% continue %}
+			
+		{ endif %}
+	
+		{% for current_tag in last_tags reversed %}
+			{% if forloop.index > common_tags.size %}
+				{% comment %} case 2 {% endcomment %}
+</ul></li>
+			{% else %}
+				{% break %}
+			{% endif %}
+		{% endfor %}
+
+		{% for current_tag in current_tags  %}
+			{% if forloop.index < common_tags.size %}
+				{% comment %} skip forward to the first tag that is not in common_tags {% endcomment %}
+			{% else %}
+				{% comment %} case 1 {% endcomment %}
+<li><b>{{ tag }}</b></li>
+<p>
+<li><ul>
+			{% endif %}
+		{% endfor %}
+		
 	{% endfor %}
 
 <!-- DEBUG tag_hierarchical_index.html:   current_tags_as_string_sorted={{ current_tags_as_string_sorted }} -->
 	{% for current_page_for_current_tag in pages_for_current_tag %}
-<!-- DEBUG tag_hierarchical_index.html:      current_page_for_current_tag={{ current_page_for_current_tag.url }} -->
+		{% include single_linklist_item.html page=current_page_for_current_tag %}
 	{% endfor %}
+	
+	{% comment %} prepare for the next loop {% endcomment %}
+	{% assign last_tags = current_tags %}
 	
 {% endfor %}
 <!-- DEBUG tag_hierarchical_index.html: done with iterating grouped_sorted_pages  -->
+</ul>
 
 <!-- DEBUG tag_hierarchical_index.html END -->
