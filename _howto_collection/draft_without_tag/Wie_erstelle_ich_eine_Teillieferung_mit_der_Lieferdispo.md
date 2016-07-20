@@ -5,13 +5,12 @@ tags:
   - 
 lang: de
 ---
-## Schritte
 
-1. Erstelle einen Auftrag
+1. [Erstelle einen Auftrag](Wie_erstelle_ich_einen_Auftrag)
 
-1. Springe in die Lieferdispo
+1. [Springe in die Lieferdispo](Wie_springe_ich_zwischen_Belegen)
 
-1. Klicke auf das Zahnrad
+1. [Klicke auf das Zahnrad](Wie_starte_ich_Zahnrad_Prozesse)
 
 1. Wähle den Prozess "Auswahl liefern"
 
@@ -30,9 +29,7 @@ lang: de
 1. Klicke Verarbeitung (Fertigstellen), um den Lieferschein fertigzustellen
 
 
-## Wie geht es weiter?
-1. Weiterverarbeitung der Lieferdispo: Rückstandsauflösung etc.
-1. Weiterverarbeitung des Auftrags: Lieferstatus
-1. Fakturierung: vollständige Fakturierung trotz Teillieferung
+  **Hinweis**: Der Auftrag kann auch nach einer Teillieferung wie gewohnt [fakturiert](Wie_rechne_ich_einen_Auftrag_mit_der_Rechnungsdispo_ab) werden!
+
 
 
