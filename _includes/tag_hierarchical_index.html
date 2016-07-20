@@ -1,0 +1,115 @@
+{% comment %}
+Get the different tags from the given include.pages variable, and create a section for each individual tag.
+List links to the respective include.pages for each tag value, using {% include tag_linklist %}.
+Thx to http://stackoverflow.com/questions/34242743/distinct-in-jekyll-liquid for getting us started.
+
+This include file goes beyond the existing tag_grouped_index.html as it implements https://github.com/metasfresh/metasfresh-documentation/issues/36
+Note: as of now it implements just the user story u1
+
+Parameters:
+  include.pages: the array of pages to iterate
+  include.lang: optional, maybe null; the given language to filter for (lang variable from the front matter); 
+	#33 FRESH-514: if set, then only list pages with the given lang
+{% endcomment %}
+
+<!-- DEBUG tag_hierarchical_index.html BEGIN -->
+<!-- DEBUG tag_hierarchical_index.html lang='{{include.lang}}' -->
+{% comment %}<!-- DEBUG pages: it's not a good idea to try and list the pages, their whole html would be pasted in here -->{% endcomment %}
+
+{% comment %} goal: group and sort the pages; for pages having the same first tag, sort them by the number of tags. Pages with less tags are more general and shall be listed first {% endcomment %}
+{% comment %} Thanks to https://github.com/mushishi78/jekyll-group-by-array for inspitation {% endcomment %}
+
+<!-- Initialize -->
+{% assign __empty_array = '' | split: ',' %}
+{% assign tags_as_string = __empty_array %}
+{% assign tags_as_string_pages = __empty_array %}
+{% assign tags_as_string_sorted = __empty_array %}
+
+{% comment %} trying to store each page's tags-as-string together with the page {% endcomment %}
+{% for current_page in include.pages %}
+
+	{% comment %} filtering by lang {% endcomment %}
+	{% if include.lang and current_page.lang != include.lang %}
+		{% continue %}	
+	{% endif %}
+
+	{% assign current_tags_as_string = current_page.tags | join: ')(' %}
+	
+	{% assign tags_as_string = tags_as_string | push: current_tags_as_string %}
+	{% assign tags_as_string_pages = tags_as_string_pages | push: current_page %}
+{% comment %} <!-- DEBUG tag_hierarchical_index.html: page={{ current_page.url }}; tags.size={{ current_page.tags.size }}; tags={{ current_page.tags }}; tags_as_string={{ current_tags_as_string }} --> {% endcomment %} 
+{% endfor %}
+
+{% assign tags_as_string_sorted = tags_as_string | sort | uniq %}
+
+{% assign current_tags = __empty_array %}
+{% assign last_tags = __empty_array %}
+{% assign common_tags = __empty_array %}
+{% assign last_tags_as_string = "" %}
+
+<ul>
+<!-- DEBUG tag_hierarchical_index.html: iterating grouped_sorted_pages  -->
+{% for current_tags_as_string_sorted in tags_as_string_sorted %}
+
+	{% if current_tags_as_string_sorted == "" %}
+<!-- DEBUG tag_hierarchical_index.html: skipping "empty" tags-->	
+		{% continue %}
+	{% endif %}
+	{% assign pages_for_current_tag = __empty_array %}
+	{% for current_tags_as_string in tags_as_string %}
+		{% if current_tags_as_string == current_tags_as_string_sorted %}
+			
+			{% comment %} add the current paget to our list {% endcomment %}
+			{% assign pages_for_current_tag = pages_for_current_tag | push: tags_as_string_pages[forloop.index0] %}
+			
+			{% comment %} also take the oportunity to get you current tags as not-string {% endcomment %}
+			{% assign current_tags = tags_as_string_pages[forloop.index0].tags %} 
+		{% endif %}
+	{% endfor %}
+	{% comment %} 
+	CASES:
+		1: last_tags_as_string is a prefix of current_tags_as_string_sorted: => iterate the additional tags that current_tags_as_string_sorted "adds" and start a sublist like "<b>{{ tag }}</b><p><li><ul>" for each additional tag.
+		2: current_tags_as_string_sorted is a prefix of last_tags_as_string: => iterate the tags that current_tags_as_string_sorted "removes" and end a sublist "</li></ul>" for each such tag.
+		3: current_tags_as_string_sorted and last_tags_as_string have a common prefix: => combination of 1. and 2. first iterate the tags that last_tags has but the common prefix doesn't have. the open new sublists
+	{% endcomment %}
+
+	{% comment %} make a list of the common first items of current_tags and last_tags {% endcomment %}	
+	{% for current_tag in current_tags %}
+		{% if last_tags.size < forloop.index or current_tag != last_tags[forloop.index0] %}
+			{% break %}
+		{% endif %}
+		{% comment %} still in the common part of both current and last {% endcomment %}
+		{% assign common_tags = common_tags | push: current_tag %}
+	{% endfor %}
+
+	{% for current_tag in last_tags reversed %}
+		{% if forloop.index > common_tags.size %}
+			{% comment %} case 2 {% endcomment %}
+</ul></li>
+		{% else %}
+			{% break %}
+		{% endif %}
+	{% endfor %}
+
+	{% for current_tag in current_tags  %}
+		{% if forloop.index <= common_tags.size %}
+			{% comment %} skip forward to the first tag that is *not* in common_tags {% endcomment %}
+			{% continue %}
+		{% else %}
+			{% comment %} case 1 {% endcomment %}
+<li><b>{{ current_tag }}</b>
+<ul>
+		{% endif %}
+	{% endfor %}
+<!-- DEBUG tag_hierarchical_index.html:   current_tags_as_string_sorted={{ current_tags_as_string_sorted }} -->
+	{% for current_page_for_current_tag in pages_for_current_tag %}
+		{% include single_linklist_item.html page=current_page_for_current_tag %}
+	{% endfor %}
+	{% comment %} prepare for the next loop {% endcomment %}
+	{% assign last_tags = current_tags %}
+	{% assign common_tags =  __empty_array %}
+{% endfor %}
+<!-- DEBUG tag_hierarchical_index.html: done with iterating grouped_sorted_pages  -->
+</ul>
+
+<!-- DEBUG tag_hierarchical_index.html END -->
