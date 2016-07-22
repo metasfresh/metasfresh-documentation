@@ -114,7 +114,7 @@ The idea of "hardcoding" a `WHERE DLM_ArchiveLevel=0` into every select has the 
 
 One solution might be to directly access the `C_Invoice_Tbl` table instead of the `C_Invoice` view, but it might turn out to be complicated to implement this at all code location which generate SQL.
 
-The solution whichIthink we should follow instead is to use postgres settings.
+The solution which I think we should follow instead is to use postgres settings.
 
 We would modify the above view to be:
 
@@ -145,6 +145,27 @@ Credits/further reading:
 * [http://stackoverflow.com/questions/1307582/postgresql-can-one-define-a-session-variable-with-the-language-and-use-it-in-vi](http://stackoverflow.com/questions/1307582/postgresql-can-one-define-a-session-variable-with-the-language-and-use-it-in-vi)
 * [https://www.postgresql.org/docs/current/static/runtime-config-custom.html](https://www.postgresql.org/docs/current/static/runtime-config-custom.html)
 * [https://www.postgresql.org/docs/current/static/functions-admin.html](https://www.postgresql.org/docs/current/static/functions-admin.html)
+
+##### Update: this doesn't work
+
+We tried it and the problem here is that postgres won't use the partial index if we have `current_setting('metasfresh.DLM_ArchiveLevel')`in the view's where clause.
+
+I assume that the reason is related to `current_setting()` being `VOLATILE`. That way, the planner doesn't know when
+` DLM_Level <= current_setting('metasfresh.DLM_ArchiveLevel')` is equivalent to `0 <= 0.
+
+It might also be the case that the function's volatility might not be the actual problem, but instead that the planner can map the view's 
+```
+WHERE COALESCE(DLM_Level,0) <= current_setting('metasfresh.DLM_ArchiveLevel')
+``` 
+with the partial indices'
+```
+WHERE COALESCE(DLM_Level,0) <= 0
+```
+See this [stackoverflow answer](http://stackoverflow.com/a/26031289/1012103) for more details.
+
+Either way, we can't have that function in the where clause and at the same time have a partial index.
+
+So, in order to access data from metasfresh, we need to either query the underlying `_Tbl' table directly or first migrate the data in question back to "production".
 
 #### Inserts and updates
 
