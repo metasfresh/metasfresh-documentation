@@ -15,7 +15,7 @@ tags:
 	SELECT * FROM de_metas_fresh_kpi.KPI_Accounter_Document (now())
 	```
 	
-	* => result will look like this:
+	
 	
 	| accounted_until_today   | accounted_from_today   |
 	| ----------------------- | ---------------------- |
