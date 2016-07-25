@@ -2,6 +2,7 @@
 title: Was bedeuten die Systemmeldungen?
 layout: default
 tags:
+  - Weitere Infos
   - Benutzung
 lang: de
 ---

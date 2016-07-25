@@ -2,6 +2,7 @@
 title: Wie öffne ich die Druckvorschau für einen Beleg ?
 layout: default
 tags:
+  - Weitere Infos
   - Benutzung
 lang: de
 ---

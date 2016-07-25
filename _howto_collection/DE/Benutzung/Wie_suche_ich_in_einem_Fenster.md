@@ -2,6 +2,7 @@
 title: Wie suche ich in einem Fenster?
 layout: default
 tags:
+  - Weitere Infos
   - Benutzung
 lang: de
 ---

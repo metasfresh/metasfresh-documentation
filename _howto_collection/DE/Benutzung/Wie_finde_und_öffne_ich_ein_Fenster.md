@@ -2,6 +2,7 @@
 title: Wie finde und öffne ich ein Fenster ?
 layout: default
 tags:
+  - Weitere Infos
   - Benutzung
 lang: de
 ---

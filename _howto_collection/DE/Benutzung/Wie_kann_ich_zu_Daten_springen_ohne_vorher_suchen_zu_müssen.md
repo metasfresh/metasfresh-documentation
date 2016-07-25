@@ -2,6 +2,7 @@
 title: Wie kann ich zu Daten springen ohne vorher suchen zu müssen ?
 layout: default
 tags:
+  - Weitere Infos
   - Benutzung
 lang: de
 ---

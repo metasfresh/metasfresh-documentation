@@ -2,6 +2,7 @@
 title: Wie benutze ich Autocomplete?
 layout: default
 tags:
+  - Weitere Infos
   - Benutzung
 lang: de
 ---

@@ -2,6 +2,7 @@
 title: Wie springe ich zwischen Belegen
 layout: default
 tags:
+  - Weitere Infos
   - Benutzung
 lang: de
 ---

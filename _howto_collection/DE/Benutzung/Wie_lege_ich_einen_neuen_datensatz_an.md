@@ -2,6 +2,7 @@
 title: Wie lege ich einen neuen Datensatz an ?
 layout: default
 tags:
+  - Weitere Infos
   - Benutzung
 lang: de
 ---
