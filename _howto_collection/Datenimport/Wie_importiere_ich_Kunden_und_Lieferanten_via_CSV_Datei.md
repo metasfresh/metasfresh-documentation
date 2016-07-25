@@ -3,6 +3,7 @@ title: Wie importiere ich Kunden und Lieferanten via CSV Datei ?
 layout: default
 tags:
   - Datenimport
+  - Beispiel
 lang: de
 sequence: 10
 ---
