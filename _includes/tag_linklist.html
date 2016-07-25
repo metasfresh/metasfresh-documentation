@@ -53,11 +53,7 @@ Parameters:
 <!-- DEBUG tag_linklist.html listing pages that have '{{ include.tag }}' as primary tag -->
 <ul>
 	{% for current_page in primary_pages %}
-	<li><a href="{{ site.github.url }}{{ current_page.url }}">{{ current_page.title }}</a>
-		{% if current_page.summary %}
-			: {{ current_page.summary }}
-		{% endif %}
-	</li>
+		{% include single_linklist_item.html page=current_page %}
 	{% endfor %}
 </ul>
 

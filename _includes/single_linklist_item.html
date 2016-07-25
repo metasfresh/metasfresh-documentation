@@ -1,0 +1,8 @@
+{% comment %}
+Creates link to the given page as list item. It the page has a summary, that summary is included. 
+The caller needs to make sure that there is "<ul>" and stuff around this include.
+
+Parameters:
+  include.page: the page to create a link to
+{% endcomment %}
+<li><a href="{{ site.github.url }}{{ include.page.url }}">{{ include.page.title }}</a>{% if include.page.summary %} : {{ include.page.summary }} {% endif %}</li>

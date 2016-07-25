@@ -2,8 +2,9 @@
 title: Wie viele Adressen und Kontakte kann ein Partner haben?
 layout: default
 tags:
-  - Konzepte
   - Stammdaten
+  - Partner
+  - Adresse
 lang: de
 ---
 
