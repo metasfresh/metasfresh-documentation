@@ -4,6 +4,7 @@ layout: default
 tags:
   - Stammdaten
   - Partner
+  - Adresse
 lang: de
 ---
 
