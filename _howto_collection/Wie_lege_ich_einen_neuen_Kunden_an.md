@@ -3,6 +3,7 @@ title: Wie lege ich einen neuen Kunden an ?
 layout: default
 tags:
   - Stammdaten
+  - Partner 
 sequence: 10
 lang: de
 ---
