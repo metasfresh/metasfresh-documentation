@@ -65,7 +65,7 @@ tags:
 1. Check your emails
 	* => you shall receive the info email for the procurement bidding for each user of your bpartners
 	* => there are 2 different mail templates for the info, one for when qty is set, and one when not; make sure it's the correct one for your set up!
-	* => the attached jaspers include all info for your RfQ (P0001, qties etc.) and the info for each bparter (address, user etc.) as well
+	* => the attached jaspers include all info for your RfQ (P0001, qty needed etc.) and the info for each bparter (address, user etc.) as well
 
 1. If one or more of your bpartners has a procurement flatrate term for P0001, run the Anbauplanung Auswertung Excel now, for the dates covered by the RfQ and P0001
 	* leave the report(s) open for comparison!
@@ -115,7 +115,7 @@ tags:
 1. Add more lines with qty and date for the bidding if you like
 	* => Zusagbar qty in header will be overall qty
 	
-1. In gridmode, you can compare the qties and prices for all bpartners (Docstatus: Draft), from both manual and WebUI entry
+1. In gridmode, you can compare the qties and prices for all bpartners (Docstatus: Drafted), from both manual and WebUI entry
 
 
 **Results of RfQ** 
@@ -137,7 +137,7 @@ tags:
 	
 1. Gear, close RfQ results
 	* => RfQ responses & response lines get closed
-	* => a flatrate term with Vertragsbedingungen: => Ausschreibung RfQ is created for the winners, status: Draft
+	* => a flatrate term with Vertragsbedingungen: => Ausschreibung RfQ is created for the winners, status: Drafted
 	
 1. Gear, Publish RfQ results
 	* => small window opens with info about responses for RfQ: Emails sent, procurement WebUI
@@ -148,7 +148,7 @@ tags:
 1. Check your emails again
 	* => emails for the winner(s) and loser(s), with the text from the resp. template and the resp. jasper attached
 	* => if the bpartner is e.g. french, then the text translation of the template was used
-	* => attached jasper: included the price you set, and the qties you agreed to deliver for each bpartner (jasper for loser has no price included!)
+	* => attached jasper: includes the price you set (jasper for loser has no price included!), and again the qty needed (if there was no required qty in the RfQ, this will be empty)
 	
 1. Run the Anbauplanung Auswertung Excel again
 	* => no additional line for the product from the new flatrate term Ausschreibung RfQ
@@ -163,12 +163,12 @@ tags:
 1. Open Laufender Vertrag, search for your bpartner(s) who was / were the winner(s)
 
 1. Check tab Vertragsperiode
-	* => new entry with Vertragsbedingungen = Ausschreibung RfQ, status: completed
+	* => new entry with Vertragsbedingungen = Ausschreibung RfQ, status: Completed
 	
 1. Open the entry with Vertragsbedingungen = Ausschreibung RfQ and its subtab Liefersatz
 	* => Vertrag autom. verlängern is not checked
 	* => Anfangsdatum & Enddatum are the dates set for the possible dates for delivery in RfQ
-	* => Liefersatz: has only 1 line, Period: the one month which includes the dates for delivery in RfQ, with the price and overall qty from Ausschreibung Antwort Position
+	* => Liefersatz: has only 1 line, Period: the one month which includes the dates for delivery in RfQ (if there are possible dates for delivery in 2 months, there will be 2 lines, respectively), with the price and overall qty from Ausschreibung Antwort Position 
 	
 1. Go back to the procurement candidate(s) for the winner (or winners)
 
