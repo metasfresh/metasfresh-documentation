@@ -120,7 +120,7 @@ tags:
 
 **Results of RfQ** 
 
-1. Go back to RfQ, Gear, close RfQ
+1. Go back to RfQ, Gear, close RfQ (Ausschreibung schließen)
 	* => bidding is over now
 	* => the info about the bidding process being closed is sent to the WebUI, as are the qties given by the bpartners
 	
