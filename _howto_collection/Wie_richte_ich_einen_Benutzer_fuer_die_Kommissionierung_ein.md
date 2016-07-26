@@ -3,6 +3,7 @@ title: Wie richtige ich einen Benutzer für die Kommissionierung ein ?
 layout: default
 tags:
   - Systemkonfiguration
+  - Benutzer und Berechtigungen
 lang: de
 ---
 1. [Systembenutzer anlegen](Wie_richte_ich_einen_Systembenutzer_ein)

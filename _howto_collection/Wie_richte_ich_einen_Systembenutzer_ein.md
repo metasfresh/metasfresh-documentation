@@ -3,6 +3,7 @@ title: Wie richte ich einen Systembenutzer ein ?
 layout: default
 tags:
   - Systemkonfiguration
+  - Benutzer und Berechtigungen
 lang: de
 sequence: 10
 ---
