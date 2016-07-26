@@ -3,6 +3,7 @@ title: Wie konfiguriere ich den Nummernkreis für eine Belegart ?
 layout: default
 tags:
   - Systemkonfiguration
+  - Nummernvergabe
 lang: de
 ---
 

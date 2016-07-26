@@ -1,8 +1,10 @@
 ---
-title: Wie konfiguriere ich den Nummernkreis für eine Belegart pro Organisation?
+title: Wie konfiguriere ich einen abweichenden Nummernkreis fuer eine weitere Organisation ?
 layout: default
 tags:
   - Systemkonfiguration  
+  - Nummernvergabe
+  
 lang: de
 ---
 ## Vorbereitung
