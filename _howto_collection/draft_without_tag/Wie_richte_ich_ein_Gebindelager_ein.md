@@ -21,4 +21,4 @@ lang: de
 1. Für **Document Base Type**, wähle Physischer Warenbestand
 1. [Speichern](Wie_lege_ich_einen_neuen_datensatz_an)
 
-	**Hinweis**: Die leeren Gebinde müssen zur Lagerung ins Gebindelager bewegt werden, dazu ist ein entsprechendes [Distribution Network](Wie_richte_ich_ein_Distribution_Network_für_Gebinde_ein) notwendig!
+	**Hinweis**: Die leeren Gebinde müssen zur Lagerung ins Gebindelager bewegt werden, dazu ist ein entsprechendes [Distribution Network](Wie_richte_ich_ein_Distribution_Network_fuer_Gebinde_ein) notwendig!
