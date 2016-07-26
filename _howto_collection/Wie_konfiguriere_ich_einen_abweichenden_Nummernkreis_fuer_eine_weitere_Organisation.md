@@ -19,7 +19,7 @@ In diesem Fall:
 
 1. Öffne z.B. das Fenster "Auftrag"
 1. trage in das Feld **Zielbelegart** die Belegart "Auftrag" ein
-1. [springe](Wie_kann_ich_zu_Daten_springen_ohne_vorher_suchen_zu_müssen) in das Feld Zielbelegart
+1. [springe](Wie_kann_ich_zu_Daten_springen_ohne_vorher_suchen_zu_müssen) in das Feld **Zielbelegart** 
 1. Das Fenster "Belegart" öffnet sich
 1. wechsel in das Register "sequence"
 1. lege einen neuen Datensatz an
