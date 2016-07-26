@@ -1,4 +1,4 @@
-﻿---
+---
 title: Wie richte ich ein Distribution Network für Gebinde ein?  
 layout: default
 tags:
@@ -7,8 +7,7 @@ tags:
 lang: de
 ---
 
->Ein Distribution Network für Gebinde ist notwendig, wenn in einem Lager Produkte aus ihrem Gebinde herausgenommen werden und die nun leeren Gebinde 
->in ein anderes Lager (hier Gebindelager genannt) bewegt werden sollen. Diese Bewegung wird durch das Distribution Network abgebildet.
+>Ein Distribution Network für Gebinde ist notwendig, wenn in einem Lager Produkte aus ihrem Gebinde herausgenommen werden und die nun leeren Gebinde in ein anderes Lager (hier Gebindelager genannt) bewegt werden sollen. Diese Bewegung wird durch das Distribution Network abgebildet.
 
 ## Vorbereitung
 Um ein Distribution Network für Gebinde zu erstellen benötigst Du:
