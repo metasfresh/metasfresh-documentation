@@ -29,4 +29,4 @@ In diesem Fall:
 Der nächste Auftrag für die Organisation erhält automatisch die Nummer aus dem neuen Kreis.
 
 
-{% include tag_linklist.html pages=site.howto_collection lang=page.lang tag="Nummernvergabe" %}
+{% include tag_linklist.html pages=site.howto_collection tag="Nummernvergabe" %}
