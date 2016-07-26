@@ -44,16 +44,16 @@ tags:
 	* name: select one you like for testing purposes
 	* RfQ Topic: select your RfQ Topic
 	* Ausschreibung Art: Procurement
-	* Vertragsbedingungen: Anbauplanung RfQ
-	* Bid start date: the date when the bidding process begins (with time)
-	* Bid end date: the date when the bidding will be closed (with time)
-	* Response date: the date until when the subscribers can send their responses for the bidding (with time)
-	* Workstart date / Complete date: possible dates for delivery of the qties from the bidding (with time)
+	* Vertragsbedingungen: Ausschreibung RfQ
+	* Bid start date: date & time when the bidding process begins 
+	* Bid end date: date & time when the bidding will be closed 
+	* Response date: date & time until when the subscribers can send their responses for the bidding 
+	* Workstart date / Complete date: possible date & time for delivery of the qties from the bidding
 	* line: select P0001 as Lieferprodukt, with the resp. packing item (if there are >1, select one of them), set a qty if you like
 	
 1. Save RfQ entry, and complete it via Gear: complete RfQ (Ausschreibung fertig stellen)
 	* => RfQ: Status Completed
-	* => RfQ Response (Ausschreibung Antwort) is created for your RfQ, status: Draft
+	* => RfQ Response (Ausschreibung Antwort) is created for your RfQ, status: Drafted
 	* => Ausschreibung Antwort Position is created for each bpartner, to be filled manually / by WebUI, status: Drafted
 	
 1. In RfQ, gear, Publish RfQ
@@ -62,7 +62,8 @@ tags:
 	* => the WebUI of your bpartners will now include info about the bidding in Preisanfrage
 	* => RfQ Response (Ausschreibung Antwort), Invited: date of publishing is added
 
-1. You shall receive the info email for the procurement bidding for each user of your bpartners
+1. Check your emails
+	* => you shall receive the info email for the procurement bidding for each user of your bpartners
 	* => there are 2 different mail templates for the info, one for when qty is set, and one when not; make sure it's the correct one for your set up!
 	* => the attached jaspers include all info for your RfQ (P0001, qties etc.) and the info for each bparter (address, user etc.) as well
 
@@ -98,7 +99,7 @@ tags:
 	* => price is as set in WebUI
 	* => 1 line in Antwort-Menge for each date you sent qties for, with the resp. date & qty
 	
-1. In gridmode, you can compare the qties and prices for each bpartner so far (Docstatus: Drafted)
+1. In gridmode, you can compare the qties and prices for each bpartner so far (status: Drafted)
 
 	
 **Manual entry**
@@ -108,7 +109,7 @@ tags:
 1. Enter a price in the header, save
 
 1. Add a line for a qty and date for the bidding in Antwort-Menge and save
-	* => if the selected date is not covered by the possible dates for delivery, you'll receive an error
+	* => if the selected date is not covered by the possible dates for delivery, you'll receive an error!
 	* => qty for Zusagbar in header is updated accordingly 
 
 1. Add more lines with qty and date for the bidding if you like
@@ -126,7 +127,7 @@ tags:
 1. Open WebUI for your bpartners again, click Preisanfrage
 	* => the RfQ is not displayed anymore
 	
-1. Go back to Ausschreibung Antwort Position 
+1. Check Ausschreibung Antwort Position for your bpartners
 	* => status: Completed
 
 1. Select 1 or 2 winners, by checking the corresp. box
@@ -144,7 +145,7 @@ tags:
 	* => email for the winners / losers will be sent with the resp. text (from template), and Jasper attached
 	* => the flatrate term with Vertragsbedingungen: => Ausschreibung RfQ is completed for the winners	
 
-1. Check your emails
+1. Check your emails again
 	* => emails for the winner(s) and loser(s), with the text from the resp. template and the resp. jasper attached
 	* => if the bpartner is e.g. french, then the text translation of the template was used
 	* => attached jasper: included the price you set, and the qties you agreed to deliver for each bpartner (jasper for loser has no price included!)
@@ -169,7 +170,7 @@ tags:
 	* => Anfangsdatum & Enddatum are the dates set for the possible dates for delivery in RfQ
 	* => Liefersatz: has only 1 line, Period: the one month which includes the dates for delivery in RfQ, with the price and overall qty from Ausschreibung Antwort Position
 	
-1. Open the procurement candidate(s) for the winner (or winners)
+1. Go back to the procurement candidate(s) for the winner (or winners)
 
 1. Create a purchase order: set a qty TU, save, and click Bestellen, OK
 	* => purchase order is created
@@ -178,7 +179,7 @@ tags:
 	* => price and qty from procurement candidate
 	* => date promised: as in procurement candidate, the delivery date set in Ausschreibung Antwort Position
 	
-1. Create the inout(s) for the purchase order(s)
+1. Create the receipt(s) for the purchase order(s)
 	
 1. Run the Anbauplanung Auswertung Excel again
 	* => no additional line for the product from the new flatrate term Ausschreibung RfQ
