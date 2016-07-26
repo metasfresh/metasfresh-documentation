@@ -1,7 +1,6 @@
 ---
 title: Wie richte ich metasfresh ein ?
 layout: default
-label: Konfiguration, Quickstart
 tags: 
   - Systemkonfiguration
 lang: de
