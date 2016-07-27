@@ -1,9 +1,10 @@
 ---
-title: Wie rechne ich einen Auftrag mit der Rechnungsdisposition ab ?
+title: Wie rechne ich einen Auftrag ab ?
 layout: default
 tags:
   - Workflow
-  - Fakturierung
+  - Verkauf
+  - Abrechnung
 sequence: 40
 lang: de
 ---
