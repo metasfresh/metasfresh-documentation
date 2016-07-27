@@ -1,5 +1,5 @@
 ---
-title: Wie erstelle ich eine Importdatei ?
+title: Wie importiere ich eine CSV Datei ?
 layout: default
 tags:
   - Datenimport
