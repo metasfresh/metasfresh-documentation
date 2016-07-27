@@ -1,16 +1,17 @@
 ---
-title: Wie richte ich ein Gebindelager ein?  
+title: Wie richte ich ein Leergebindelager ein?  
 layout: default
 tags:
-  - 
+  - Stammdaten
+  
 lang: de
 ---
 
->Ein Gebindelager ist notwendig, wenn leere Gebinde anfallen und diese gelagert werden sollen, etwa nachdem Produkte aus ihrem Gebinde herausgenommen wurden.
+>Ein Leergebindelager ist notwendig, wenn leere Gebinde anfallen und diese gelagert werden sollen, etwa nachdem Produkte aus ihrem Gebinde herausgenommen wurden.
 
 1. [Fenster "Lager und Lagerzuordnung" öffnen](Wie_finde_und_öffne_ich_ein_Fenster)
 1. Im ersten Tab **Lager**, [erstelle einen neuen Datensatz](Wie_lege_ich_einen_neuen_datensatz_an) 
-1. Feld **Name** ausfüllen, z.B.: Gebindelager
+1. Feld **Name** ausfüllen, z.B.: Leergebindelager
 1. Setze einen Haken bei Handling Units, **HU Storage Disabled**
 1. Entferne den Haken bei Kommissionierlager, Freigabe für Aufträge / Bestellungen soll angehakt bleiben
 1. [Speichern](Wie_lege_ich_einen_neuen_datensatz_an)

@@ -1,20 +1,20 @@
 ---
-title: Wie richte ich ein Distribution Network für Gebinde ein?  
+title: Wie richte ich eine automatische Warenverteilung für Leergebinde ein?  
 layout: default
 tags:
-  - 
-  - 
+  - Stammdaten
+
 lang: de
 ---
 
->Ein Distribution Network für Gebinde ist notwendig, wenn in einem Lager Produkte aus ihrem Gebinde herausgenommen werden und die nun leeren Gebinde in ein anderes Lager (hier Gebindelager genannt) bewegt werden sollen. Diese Bewegung wird durch das Distribution Network abgebildet.
+>Eine Warenverteilung (Distribution Network) für Leergebinde ist notwendig, wenn in einem Lager Produkte aus ihrem Gebinde herausgenommen werden und die nun leeren Gebinde in ein anderes Lager (hier "Leergebindelager" genannt) bewegt werden sollen. Diese Bewegung wird durch die Warenverteilung abgebildet.
 
 ## Vorbereitung
-Um ein Distribution Network für Gebinde zu erstellen benötigst Du:
+Um eine Warenverteilung für Leergebinde zu erstellen benötigst Du:
 
 1. ein Hauptlager (bereits in metasfresh enthalten)
 1. einen Lieferweg (bereits in metasfresh enthalten)
-1. ein [Gebindelager] (Wie_richte_ich_ein_Gebindelager_ein)
+1. ein [Leergebindelager] (Wie_richte_ich_ein_Gebindelager_ein)
 
 ## Schritte
 1. [Fenster "Distribution Network" öffnen](Wie_finde_und_öffne_ich_ein_Fenster)
