@@ -1,8 +1,9 @@
 ---
-title: Wie richtige ich einen Benutzer für die Kommissionierung ein ?
+title: Wie richte ich einen Benutzer für die Kommissionierung ein ?
 layout: default
 tags:
   - Systemkonfiguration
+  - Benutzer und Rechte
 
 lang: de
 ---
