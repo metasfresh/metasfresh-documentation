@@ -1,6 +1,8 @@
 ---
 title: How do I add a new product ?
 layout: default
+tags:
+  - master data
 lang: en
 ---
 

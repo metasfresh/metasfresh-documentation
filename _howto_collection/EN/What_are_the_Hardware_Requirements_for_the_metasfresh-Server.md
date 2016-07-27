@@ -3,7 +3,7 @@ title: Which system requirements does the metasfresh server have?
 layout: default
 
 tags:
-  - Systemadministration
+  - System Administration
   
 lang: en
 ---

@@ -2,7 +2,7 @@
 title: How do I update the client's Java version
 layout: default
 tags:
-	- Systemadministration
+  - System Administration
 lang: en
 ---
 
