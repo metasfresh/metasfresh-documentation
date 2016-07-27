@@ -81,13 +81,14 @@ Parameters:
 		{% comment %} still in the common part of both current and last {% endcomment %}
 		{% assign common_tags = common_tags | push: current_tag %}
 	{% endfor %}
-<!-- DEBUG tag_hierarchical_index.html: current_tags={{ current_tags }}; last_tags={{ last_tags }}; common_tags={{ common_tags }}  -->
+<!-- DEBUG tag_hierarchical_index.html: current_tags={{ current_tags }}; last_tags={{ last_tags }}; common_tags={{ common_tags }}, size={{ common_tags.size }}  -->
 	{% for current_tag in last_tags reversed %}
-		{% if forloop.index >= common_tags.size %}
+		{% if forloop.index > common_tags.size %}
 			{% comment %} case 2 {% endcomment %}
-<!-- DEBUG tag_hierarchical_index.html: closing sublist for last_tag={{ current_tag }} -->
+<!-- DEBUG tag_hierarchical_index.html: closing sublist for current last_tag={{ current_tag }}; forloop.index={{ forloop.index }} -->
 </ul></li>
 		{% else %}
+<!-- DEBUG tag_hierarchical_index.html: breaking out of loop with current last_tag={{ current_tag }}; forloop.index={{ forloop.index }} -->
 			{% break %}
 		{% endif %}
 	{% endfor %}
