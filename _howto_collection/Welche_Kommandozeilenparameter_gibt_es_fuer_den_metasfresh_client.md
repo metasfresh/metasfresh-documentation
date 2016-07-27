@@ -20,15 +20,19 @@ Wenn der Client über das [Startskript](Wie_benutze_ich_das_Startskript) gestart
 
 ## Parameter
 
-**Sprache des Clients einstellen**
+**Anwendungssprache -Dorg.adempiere.client.lang**
 
-Belegt das Feld bei der Anmeldung vor. Mögliche Werte findest Du so heraus: [SQL Abfrage](List_Languages)
+Stellt eine feste Anwendungssprache ein und blendet das Feld Sprache bei der Anmeldung aus. 
+
+Mögliche Werte findest Du so heraus: [SQL Abfrage](List_Languages)
+
+Beispiel für die Sprache Deutsch
 
 ```
- -Dorg.adempiere.client.lang=\"de_CH\"
+ -Dorg.adempiere.client.lang=\"de_DE\"
 ```
 
-**Versionsprüfung ausschalten**
+**Versionsprüfung -Dde.metas.clientcheck.Enabled**
 
 Wenn dieser wert auf "false" gesetzt wird überprüft der client nicht ob er zu der Version des Servers passt.
 

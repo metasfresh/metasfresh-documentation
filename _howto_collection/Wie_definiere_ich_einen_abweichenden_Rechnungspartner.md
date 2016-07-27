@@ -2,7 +2,7 @@
 title: Wie definiere ich einen abweichenden Rechnungspartner ?
 layout: default
 tags:
-  - Benutzung
+  - Stammdaten
 lang: de
 ---
 ## Vorbereitung

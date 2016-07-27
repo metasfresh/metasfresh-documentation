@@ -3,8 +3,10 @@ title: Wie kann ich zu Testzwecken alle Mails an eine eMail-Adresse schicken ?
 layout: default
 tags:
   - Systemkonfiguration
+  - E-Mail
 lang: de
 ---
+
 1. Mit Rolle "Systemadministrator" anmelden
 1. Fenster "System-konfigurator" öffnen
 1. Nach Name "org.adempiere.user.api.IUserBL.DebugMailTo" suchen

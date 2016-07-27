@@ -2,7 +2,7 @@
 title: Wie exportiere ich eine Kundenpreisliste nach Excel ?
 layout: default
 tags:
-  - Export
+  - Datenexport
 
 lang: de
 ---

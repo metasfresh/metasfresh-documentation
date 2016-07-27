@@ -3,6 +3,7 @@ title: Wie lege ich einen neuen Lieferanten an ?
 layout: default
 tags:
   - Stammdaten
+  - Partner
 sequence: 20
 lang: de
 ---

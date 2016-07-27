@@ -2,6 +2,7 @@
 title: Wie bestätige ich eine Aktion?
 layout: default
 tags:
+  - Weitere Infos
   - Benutzung
 lang: de
 ---

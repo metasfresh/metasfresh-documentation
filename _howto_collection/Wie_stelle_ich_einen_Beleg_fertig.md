@@ -2,6 +2,7 @@
 title: Wie stelle ich einen Beleg fertig?
 layout: default
 tags:
+  - Weitere Infos
   - Benutzung
 lang: de
 ---

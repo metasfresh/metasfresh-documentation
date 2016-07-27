@@ -3,6 +3,8 @@ title: Wie richte ich einen ausgehenden Mailserver ein?
 layout: default
 tags:
   - Systemkonfiguration
+  - E-Mail
+  
 lang: de
 ---
 1. [Fenster Mandant öffnen](Wie_finde_und_öffne_ich_ein_Fenster)
@@ -16,5 +18,6 @@ lang: de
 1. [Speichern](Wie_lege_ich_einen_neuen_datensatz_an)
 
 	*Hinweis:*
+	
 	1. Anfrage-Email: die Email-Adresse, von der Emails gesendet werden sollen
 	1. Anfrage-Nutzer: der Nutzername, der zur Authentifizierung beim Senden der Email benutzt werden soll

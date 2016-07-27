@@ -1,9 +1,9 @@
 ---
 title: Wie stelle ich die Vergabe der Artikelnummer von automatisch auf manuell?
 layout: default
-targetgroup: admins
 tags:
   - Systemkonfiguration
+  - Nummernvergabe
 lang: de
 ---
 
