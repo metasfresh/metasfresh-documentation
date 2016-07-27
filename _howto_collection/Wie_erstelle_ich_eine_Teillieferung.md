@@ -3,6 +3,7 @@ title: Wie erstelle ich eine Teillieferung ?
 layout: default
 tags:
   - Workflow
+  - Verkauf
   - Lieferung
 lang: de
 ---

@@ -3,6 +3,7 @@ title: Wie erstelle ich einen Auftrag mit einer abweichenden Lieferadresse ?
 layout: default
 tags:
   - Workflow
+  - Verkauf
   - Auftragserfassung
 lang: de
 

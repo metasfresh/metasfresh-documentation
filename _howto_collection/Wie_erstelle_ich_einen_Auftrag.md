@@ -3,6 +3,7 @@ title: Wie erstelle ich einen Auftrag ?
 layout: default
 tags:
   - Workflow
+  - Verkauf
   - Auftragserfassung
 sequence: 20
 lang: de

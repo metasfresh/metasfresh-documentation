@@ -3,7 +3,7 @@ title: Wie rechne ich einen Auftrag mit der Rechnungsdisposition ab ?
 layout: default
 tags:
   - Workflow
-  - Abrechnung
+  - Fakturierung
 sequence: 40
 lang: de
 ---
