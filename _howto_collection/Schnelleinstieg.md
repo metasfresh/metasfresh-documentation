@@ -2,9 +2,12 @@
 title: 
 layout: default
 tags:
-  - _Schnelleinstieg_
+  - Anfang
   
 lang: de
 ---
 
-{% include tag_linklist.html pages=site.howto_collection tag="Workflow" %}
+1. Testen: [Beispiel Workflow Auftrag bis Rechnung durchspielen](Uebersicht_Workflow_Auftrag_Bis_Rechnung_Simpel)
+1. Einrichten: [Wie richte ich metasfresh ein ?]( Wie_richte_ich_metasfresh_ein)
+
+
