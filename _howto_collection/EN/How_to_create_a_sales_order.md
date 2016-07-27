@@ -1,7 +1,6 @@
 ---
 title: How to create a sales order
 layout: default
-
 tags:
   - Workflow
 
