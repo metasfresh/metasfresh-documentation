@@ -85,7 +85,8 @@ Parameters:
 	{% for current_tag in last_tags reversed %}
 		{% if forloop.index >= common_tags.size %}
 			{% comment %} case 2 {% endcomment %}
-</ul></li> <!-- DEBUG tag_hierarchical_index.html: closing sublist for last_tag={{ current_tag }} -->
+<!-- DEBUG tag_hierarchical_index.html: closing sublist for last_tag={{ current_tag }} -->			
+</ul></li>
 		{% else %}
 			{% break %}
 		{% endif %}
