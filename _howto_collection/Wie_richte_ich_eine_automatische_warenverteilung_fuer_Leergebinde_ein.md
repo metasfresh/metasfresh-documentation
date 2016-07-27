@@ -14,7 +14,7 @@ Um eine Warenverteilung für Leergebinde zu erstellen benötigst Du:
 
 1. ein Hauptlager (bereits in metasfresh enthalten)
 1. einen Lieferweg (bereits in metasfresh enthalten)
-1. ein [Leergebindelager] (Wie_richte_ich_ein_Gebindelager_ein)
+1. ein [Leergebindelager](Wie_richte_ich_ein_Gebindelager_ein)
 
 ## Schritte
 1. [Fenster "Distribution Network" öffnen](Wie_finde_und_öffne_ich_ein_Fenster)
