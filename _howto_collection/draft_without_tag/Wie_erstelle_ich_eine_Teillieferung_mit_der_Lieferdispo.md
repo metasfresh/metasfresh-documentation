@@ -1,8 +1,8 @@
 ---
-title: Wie erstelle ich eine Teillieferung ?  
+title: Wie erstelle ich eine Teillieferung mit der Lieferdispo?  
 layout: default
 tags:
-  - Workflow
+  - 
 lang: de
 ---
 
@@ -14,21 +14,19 @@ lang: de
 
 1. Wähle den Prozess "Auswahl liefern"
 
-1. Stelle sicher, dass die Checkbox für **Lieferung Fertigstellen** nicht angehakt ist!
+1. Stelle sicher, dass die Checkbox für Lieferung(en) Fertigstellen nicht angehakt ist!
 
-1. klick auf OK um den Prozess "Auswahl liefern" zu starten
+1. Starte den Prozess "Auswahl liefern" um die Auftragszeilen zu liefern
 
->metasfresh erstellt jetzt im Hintergrund die Lieferung und meldet wenn der Lieferschein fertig ist.
-
-1. Wenn die [Notifikation](Wie_sieht_eine_Notifikation_aus) für die Lieferung erscheint, klicke auf die Belegnummer des erstellten Lieferscheins
+1. Wenn die Notifikation für die Lieferung erscheint, klicke auf die Belegnummer des erstellten Lieferscheins
 
 1. Das Fenster "Lieferung" öffnet sich
 
 1. Ändere die Menge bzw. die Menge TU in der Lieferzeile für das jeweilige Produkt entsprechend der gewünschten Liefermenge ab
 
-1. [Speichern](Wie_lege_ich_einen_neuen_datensatz_an)
+1. Klicke das Speichern Icon für die Lieferzeile
 
-1. [Beleg fertigstellen](Wie_stelle_ich_einen_Beleg_fertig)
+1. Klicke Verarbeitung (Fertigstellen), um den Lieferschein fertigzustellen
 
 
   **Hinweis**: Der Auftrag kann auch nach einer Teillieferung wie gewohnt [fakturiert](Wie_rechne_ich_einen_Auftrag_mit_der_Rechnungsdispo_ab) werden!
