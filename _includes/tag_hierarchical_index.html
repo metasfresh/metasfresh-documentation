@@ -66,6 +66,10 @@ Parameters:
 			{% assign current_tags = tags_as_string_pages[forloop.index0].tags %} 
 		{% endif %}
 	{% endfor %}
+	
+	{% comment %} sort them by their sequence {% endcomment %}
+	{% assign pages_for_current_tag = pages_for_current_tag | sort: 'sequence', 'last'  %}
+	
 	{% comment %} 
 	CASES:
 		1: last_tags_as_string is a prefix of current_tags_as_string_sorted: => iterate the additional tags that current_tags_as_string_sorted "adds" and start a sublist like "<b>{{ tag }}</b><p><li><ul>" for each additional tag.
