@@ -14,4 +14,6 @@ lang: de
 1. Adressfelder ausfüllen und mit OK bestätigen
 1. [Speichern](Wie_lege_ich_einen_neuen_datensatz_an)
 
-	*Hinweis:* Ein Partner kann beliebig viele Adressen haben.
+	*Hinweis:* Ein Partner kann beliebig viele Adressen haben. Weitere Infos unter:
+	
+	[Wie viele Adressen und Kontakte kann ein Partner haben ?](Wie_viele_Adressen_und_Kontakte_kann_ein_Partner_haben)
