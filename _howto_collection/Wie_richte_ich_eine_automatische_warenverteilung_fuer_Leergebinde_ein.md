@@ -7,7 +7,7 @@ tags:
 lang: de
 ---
 
->Eine Warenverteilung (Distribution Network) für Leergebinde ist notwendig, wenn in einem Lager Produkte aus ihrem Gebinde herausgenommen werden und die nun leeren Gebinde in ein anderes Lager (hier "Leergebindelager" genannt) bewegt werden sollen. Diese Bewegung wird durch die Warenverteilung abgebildet.
+Eine Warenverteilung (Distribution Network) für Leergebinde ist notwendig, wenn in einem Lager Produkte aus ihrem Gebinde herausgenommen werden und die nun leeren Gebinde in ein anderes Lager (hier "Leergebindelager" genannt) bewegt werden sollen. Diese Bewegung wird durch die Warenverteilung abgebildet.
 
 ## Vorbereitung
 Um eine Warenverteilung für Leergebinde zu erstellen benötigst Du:
