@@ -3,6 +3,7 @@ title: Wie richtige ich einen Benutzer für die Kommissionierung ein ?
 layout: default
 tags:
   - Systemkonfiguration
+  - Benutzer und Berechtigungen
 
 lang: de
 ---
