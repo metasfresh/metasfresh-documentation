@@ -52,7 +52,7 @@ Parameters:
 {% for current_tags_as_string_sorted in tags_as_string_sorted %}
 
 	{% if current_tags_as_string_sorted == "" %}
-<!-- DEBUG tag_hierarchical_index.html: skipping "empty" tags-->	
+<!-- DEBUG tag_hierarchical_index.html: skipping "empty" tags-->
 		{% continue %}
 	{% endif %}
 	{% assign pages_for_current_tag = __empty_array %}
@@ -73,7 +73,7 @@ Parameters:
 		3: current_tags_as_string_sorted and last_tags_as_string have a common prefix: => combination of 1. and 2. first iterate the tags that last_tags has but the common prefix doesn't have and close the respective lists. then open new lists
 	{% endcomment %}
 
-	{% comment %} make a list of the common first items of current_tags and last_tags {% endcomment %}	
+	{% comment %} make a list of the common first items of current_tags and last_tags {% endcomment %}
 	{% for current_tag in current_tags %}
 		{% if last_tags.size < forloop.index or current_tag != last_tags[forloop.index0] %}
 			{% break %}
@@ -85,10 +85,8 @@ Parameters:
 	{% for current_tag in last_tags reversed %}
 		{% if forloop.index >= common_tags.size %}
 			{% comment %} case 2 {% endcomment %}
-<!-- DEBUG tag_hierarchical_index.html: closing sublist for last_tag={{ current_tag }} -->			
-
+<!-- DEBUG tag_hierarchical_index.html: closing sublist for last_tag={{ current_tag }} -->
 </ul></li>
-
 		{% else %}
 			{% break %}
 		{% endif %}
