@@ -3,6 +3,7 @@ title: Wie erstelle ich einen Auftrag mit einem abweichendem Rechnungspartner?
 layout: default
 tags:
   - Workflow
+  - Auftragserfassung
 lang: de
 
 ---
