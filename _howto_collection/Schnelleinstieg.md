@@ -2,7 +2,7 @@
 title: 
 layout: default
 tags:
-  - _Schnelleinstieg_
+  - Anfang
   
 lang: de
 ---
