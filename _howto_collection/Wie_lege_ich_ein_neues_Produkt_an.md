@@ -3,6 +3,7 @@ title: Wie lege ich ein neues Produkt an ?
 layout: default
 tags:
   - Stammdaten
+  - Produkt
 lang: de
 ---
 ## Schritte
