@@ -14,7 +14,7 @@ lang: de
 1. Wenn sich das Fenster "Rechnungsdisposition" geöffnet hat, [klicke auf das Zahnrad](Wie_starte_ich_Zahnrad_Prozesse)
 1. Starte den Prozess "auswahl fakturieren" um alle sichtbaren Auftragszeilen abzurechnen
 1. metasfresh erstellt nun im Hintergrund die Rechnung
-1. Sobald die Rechnung erstellt ist erscheint eine Notifikation unten rechts
+1. Sobald die Rechnung erstellt ist erscheint eine [Notifikation](Wie_sieht_eine_Notifikation_aus) unten rechts
 1. Klicke auf die Belegnummer in der Notifikation
 1. Das Fenster "Rechnung" öffnet sich
 1. [Öffne die Druckvorschau](Wie_oeffne_ich_die_Druckvorschau) um Dir den Beleg anzuschauen

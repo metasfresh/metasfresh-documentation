@@ -22,7 +22,7 @@ Zeilen in Datei / geladen und bereit für Importiert:
    
    Anschließend versucht metasfresh die Daten in die Produktivtabellen zu übernehmen.
 
-   Es erscheint eine Notifikation die anzeigt wieviele Datensätze erfolgreich in die Livedatenstruktur importiert werden konnten:
+   Es erscheint eine [Notifikation](Wie_sieht_eine_Notifikation_aus) die anzeigt wieviele Datensätze erfolgreich in die Livedatenstruktur importiert werden konnten:
 
 ```
 999 records imported, 0 records updated to Produkt table
