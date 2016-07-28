@@ -15,17 +15,7 @@ lang: de
 
 1. [Preissystem anlegen](Wie_lege_ich_ein_Preissystem_an)
 1. [Preisliste anlegen](Wie_lege_ich_ein_Preisliste_an)
-1. [Preislistenversion anlegen](Wie_lege_ich_ein_Preislistenversion_an)
-1. **Preis anlegen**
-	1. Register "Produkt-Preis" öffnen 
-	1. [Neuen Datensatz anlegen](Wie_lege_ich_einen_neuen_datensatz_an)
-	1. Feld **Produkt** ausfüllen
-	1. Feld **Steuerkategorie** enthält die jeweilige Mehrwertsteuerkategorie wie z.B. Normal, Reduziert, Steuerfrei enthalten.
-	1. Feld **Auszeichnunspreis** dient nur zur Anzeige des Listenpreises auf Belegen
-	1. Feld **Standardpreis** ist der Preis der effektiv gilt.
-	1. Feld **Limitpreis** darf durch eine manuelle Preisänderung nicht unterschritten werden.
-	1. Feld **Maßeinheit** ist die Preiseinheit und nicht zu verwechseln mit der Maßeinheit des Artikels für die Bestandsführung.
-	1. [Speichern](Wie_lege_ich_einen_neuen_datensatz_an)
+1. [Preis anlegen](Wie_lege_ich_einen_Preis_auf_einer_bestehenden_Preisliste_an)
 1. **Preissystem dem Partner zuordnen**
 	1. [Fenster "Geschäftspartner" öffnen](Wie_finde_und_öffne_ich_ein_Fenster) 
 	* **Fall Kunde**

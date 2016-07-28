@@ -4,7 +4,7 @@ layout: default
 tags:
   - Stammdaten
   - Preise
-sequence: 10
+
 lang: de
 ---
 ## Übersicht
