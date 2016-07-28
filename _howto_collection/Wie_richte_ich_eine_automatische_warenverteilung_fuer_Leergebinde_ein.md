@@ -2,7 +2,7 @@
 title: Wie richte ich eine automatische Warenverteilung für Leergebinde ein?  
 layout: default
 tags:
-  - Stammdaten
+  - Warenverteilung
 
 lang: de
 ---
