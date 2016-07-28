@@ -1,5 +1,5 @@
 ---
-title: Wie definiere ich Preise ?
+title: Wie lege ich einen Preis auf einer bestehenden Preisliste an ?
 layout: default
 tags:
   - Stammdaten
