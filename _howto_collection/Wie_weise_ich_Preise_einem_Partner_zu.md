@@ -6,21 +6,26 @@ tags:
   - Partner
 lang: de
 ---
+## Übersicht
 
-1. **Preissystem dem Partner zuordnen**
-	1. [Fenster "Geschäftspartner" öffnen](Wie_finde_und_öffne_ich_ein_Fenster) 
-	* **Fall Kunde**
-		1. Register "Kunde" öffnen
-		1. Feld **Preissystem**
-			1. rechte Maustaste auf das Feld klicken und "aktualisieren" klicken
-			1. das zuvor erstellte Preissystem auswählen
-	* **Fall Lieferant**
-		1. Register "Lieferant" öffnen
-		1. Feld **Preissystem**
-			1. rechte Maustaste auf das Feld klicken und "aktualisieren" klicken
-			1. das zuvor erstellte Preissystem auswählen
+![Preiszuordnung](../images/de_Zuordnung Preise und Partner.png)
 
-## Häufige Fragen
+## Schritte
+
+1. [Fenster "Geschäftspartner" öffnen](Wie_finde_und_öffne_ich_ein_Fenster) 
+* **Fall Kunde**
+	1. Register "Kunde" öffnen
+	1. Feld **Preissystem**
+		1. rechte Maustaste auf das Feld klicken und "aktualisieren" klicken
+		1. das zuvor erstellte Preissystem auswählen
+* **Fall Lieferant**
+	1. Register "Lieferant" öffnen
+	1. Feld **Preissystem**
+		1. rechte Maustaste auf das Feld klicken und "aktualisieren" klicken
+		1. das zuvor erstellte Preissystem auswählen
+
+
+		## Häufige Fragen
 
 **Frage:** Warum taucht das von mir erstellte Preissystem nicht im Fenster "Geschäftsparnter" | Register "Kunde" auf?
 
