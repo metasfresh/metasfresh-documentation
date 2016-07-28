@@ -25,7 +25,7 @@ lang: de
 		1. das zuvor erstellte Preissystem auswählen
 
 
-		## Häufige Fragen
+## Häufige Fragen
 
 **Frage:** Warum taucht das von mir erstellte Preissystem nicht im Fenster "Geschäftsparnter" | Register "Kunde" auf?
 
