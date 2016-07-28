@@ -3,28 +3,17 @@ title: Wie definiere ich Preise ?
 layout: default
 tags:
   - Stammdaten
-sequence: 30
+  - Preise
+sequence: 10
 lang: de
 ---
 ## Übersicht
-
-Um einen Partnerspezifischen Preis für einen Artikel zu definieren benötigst Du mindestens:
-
-1. Ein Preissystem
-1. Eine Preisliste
-1. Eine Preislistenversion 
-1. Einen Preisdatensatz
-1. Das Preissystem muss dem Partner zugeordnet sein
 
 ![Preise](../images/de_drawing_preissystem_hierachie.png)
 
 ## Schritte
 
-1. **Preissystem anlegen**
-	1. [Fenster "Preise" öffnen](Wie_finde_und_öffne_ich_ein_Fenster) 
-	1. [Neuen Datensatz anlegen](Wie_lege_ich_einen_neuen_datensatz_an)
-	1. Feld **Name** ausfüllen
-	1. [Speichern](Wie_lege_ich_einen_neuen_datensatz_an)
+1. [Preissystem anlegen](Wie_lege_ich_ein_Preissystem_an)
 1. **Preisliste anlegen**
 	1. Register "Preisliste" öffnen 
 	1. [Neuen Datensatz anlegen](Wie_lege_ich_einen_neuen_datensatz_an) 
