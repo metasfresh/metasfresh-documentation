@@ -10,7 +10,7 @@ lang: de
 
 Ein Preissystem enthält ein oder mehrere Länderpreislisten um diese einem Kunden / Lieferant oder einer Partnergruppe zuzuordnen.
 
-![Preise](../images/de_drawing_preissystem_hierachie.png_h1.png)
+![Preise](../images/de_Preissystem Hierachie - Preissystem.png)
 
 ## Schritte
 

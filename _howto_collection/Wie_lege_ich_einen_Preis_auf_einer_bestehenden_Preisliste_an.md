@@ -14,8 +14,20 @@ lang: de
 ## Schritte
 
 1. [Preissystem anlegen](Wie_lege_ich_ein_Preissystem_an)
-1. [Preisliste anlegen](Wie_lege_ich_ein_Preisliste_an)
-1. [Preislistenversion anlegen](Wie_lege_ich_ein_Preislistenversion_an)
+1. **Preisliste anlegen**
+	1. Register "Preisliste" öffnen 
+	1. [Neuen Datensatz anlegen](Wie_lege_ich_einen_neuen_datensatz_an) 
+	1. Feld **Name** ausfüllen 
+	1. Feld **Land**: Das Land muss mit dem Land Liefer- und Rechnungsadresse des Partners übereinstimmen.
+	1. Feld **Preise inkl. Steuern**: Steuert ob die Preise inklusive Mehrwertsteuer (Brutto) oder exklusive (netto) zu verstehen sind. metasfresh rechnet dem entsprechend die Steuer entweder aus dem Preis oder auf den Preis.
+	1. Feld **Verkaufspreisliste**: Steuert ob diese Preisliste für den Verkauf verwendet werden soll.
+	1. [Speichern](Wie_lege_ich_einen_neuen_datensatz_an) 
+1. **Preissystem anlegen**
+	1. Register "Preislistenversion" öffnen 
+	1. [Neuen Datensatz anlegen](Wie_lege_ich_einen_neuen_datensatz_an)
+	1. Feld **Name** ausfüllen
+	1. Feld **gültig ab** bestimmt ab wann diese Version gültig ist. Das Datum kann in der Vergangenheit liegen falls die Version sofort gelten soll oder auch in der Zukunft falls die Preise erst ab einem bestimmten Datum verwendet werden sollen. metasfresh holt sich anhand des zugesagten Datum in Auftrag oder Bestellung die Preise von der jeweiligen Preislistenversion mit dem passenden gültig ab Datum.
+	1. [Speichern](Wie_lege_ich_einen_neuen_datensatz_an)
 1. **Preis anlegen**
 	1. Register "Produkt-Preis" öffnen 
 	1. [Neuen Datensatz anlegen](Wie_lege_ich_einen_neuen_datensatz_an)
