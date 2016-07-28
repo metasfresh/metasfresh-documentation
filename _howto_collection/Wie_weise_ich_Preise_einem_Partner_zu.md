@@ -27,7 +27,7 @@ lang: de
 
 ## Häufige Fragen
 
-**Frage:** Warum taucht das von mir erstellte Preissystem nicht im Fenster "Geschäftsparnter" | Register "Kunde" auf?
+**Frage:** Warum taucht das von mir erstellte Preissystem nicht im Fenster "Geschäftspartner" => Register "Kunde" auf?
 
 **Antwort #1**: Taucht das Preissystem nicht auf bitte das Feld **Verkaufspreisliste** in der Preisliste überprüfen.
 
