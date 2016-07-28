@@ -14,8 +14,7 @@ Ein Preissystem enthält ein oder mehrere Länderpreislisten um diese einem Kund
 
 ## Schritte
 
-1. **Preissystem anlegen**
-	1. [Fenster "Preise" öffnen](Wie_finde_und_öffne_ich_ein_Fenster) 
-	1. [Neuen Datensatz anlegen](Wie_lege_ich_einen_neuen_datensatz_an)
-	1. Feld **Name** ausfüllen	
-	1. [Speichern](Wie_lege_ich_einen_neuen_datensatz_an)
+1. [Fenster "Preise" öffnen](Wie_finde_und_öffne_ich_ein_Fenster) 
+1. [Neuen Datensatz anlegen](Wie_lege_ich_einen_neuen_datensatz_an)
+1. Feld **Name** ausfüllen	
+1. [Speichern](Wie_lege_ich_einen_neuen_datensatz_an)

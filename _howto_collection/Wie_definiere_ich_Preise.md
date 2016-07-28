@@ -14,23 +14,7 @@ lang: de
 ## Schritte
 
 1. [Preissystem anlegen](Wie_lege_ich_ein_Preissystem_an)
-1. [Preisliste anlegen](Wie_lege_ich_ein_Preisliste_an)
+1. [Preisliste anlegen](Wie_lege_ich_eine_Preisliste_an)
+1. [Preislistenversion anlegen](Wie_lege_ich_eine_Preislistenversion_an)
 1. [Preis anlegen](Wie_lege_ich_einen_Preis_auf_einer_bestehenden_Preisliste_an)
-1. **Preissystem dem Partner zuordnen**
-	1. [Fenster "Geschäftspartner" öffnen](Wie_finde_und_öffne_ich_ein_Fenster) 
-	* **Fall Kunde**
-		1. Register "Kunde" öffnen
-		1. Feld **Preissystem**
-			1. rechte Maustaste auf das Feld klicken und "aktualisieren" klicken
-			1. das zuvor erstellte Preissystem auswählen
-	* **Fall Lieferant**
-		1. Register "Lieferant" öffnen
-		1. Feld **Preissystem**
-			1. rechte Maustaste auf das Feld klicken und "aktualisieren" klicken
-			1. das zuvor erstellte Preissystem auswählen
-		
-## Häufige Fragen
-**Frage:** Warum taucht das von mir erstellte Preissystem nicht im Fenster Geschäftsparnter auf?
-
-**Antwort**: Taucht das Preissystem nicht auf bitte das Feld **Verkaufspreisliste** in der Preisliste überprüfen.
-Außerdem überprüfe ob Du das Feld mit **rechte Maustaste => aktualisieren** neu geladen hast.
+1. [Preise einem Partner zuordnen](Wie_weise_ich_Preise_einem_Partner_zu)
