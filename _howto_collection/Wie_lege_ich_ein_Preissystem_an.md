@@ -8,12 +8,13 @@ lang: de
 ---
 ## Übersicht
 
+![Preise](../images/de_Preissystem Hierachie - Preissystem.png)
+
 Ein Preissystem enthält ein oder mehrere Länderpreislisten um diese einem Kunden / Lieferant oder einer Partnergruppe zuzuordnen. 
 Weitere Details findest Du hier: 
 
 [Worin unterscheiden sich Preissystem und Preisliste ?](Worin_unterscheiden_sich_preissystem_und_preisliste)
 
-![Preise](../images/de_Preissystem Hierachie - Preissystem.png)
 
 ## Schritte
 
