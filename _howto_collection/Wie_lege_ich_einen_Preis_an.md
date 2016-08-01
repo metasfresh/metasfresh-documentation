@@ -22,3 +22,7 @@ lang: de
 1. Feld **Limitpreis** darf durch eine manuelle Preisänderung nicht unterschritten werden.
 1. Feld **Maßeinheit** ist die Preiseinheit und nicht zu verwechseln mit der Maßeinheit des Artikels für die Bestandsführung.
 1. [Speichern](Wie_lege_ich_einen_neuen_datensatz_an)
+
+## Weitere Schritte
+
+[Wie weise ich Preise einem Partner zu ?](Wie_weise_ich_Preise_einem_Partner_zu)
