@@ -3,7 +3,9 @@ title: Wie richte ich einen Systembenutzer ein ?
 layout: default
 tags:
   - Systemkonfiguration
+  - Benutzer und Rechte
 lang: de
+sequence: 10
 
 ---
 1. [Fenster "Nutzer" öffnen](Wie_finde_und_öffne_ich_ein_Fenster)

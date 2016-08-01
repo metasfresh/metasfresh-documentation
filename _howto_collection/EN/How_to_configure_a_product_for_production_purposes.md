@@ -1,6 +1,9 @@
 ---
 title: How to configure a product for production purposes
 layout: default
+tags:
+  - master data
+  - production
 lang: en
 ---
 ## Preparation

@@ -1,10 +1,8 @@
 ---
 title: How do I open the print view for a document ?
 layout: default
-
 tags:
   - Usage
-
 lang: en
 ---
 

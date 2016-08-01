@@ -3,6 +3,7 @@ title: Wie lege ich ein neues Lager an?
 layout: default
 tags:
   - Stammdaten
+  - Lager
   
 lang: de
 ---

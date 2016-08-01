@@ -5,7 +5,7 @@ tags:
   - 
 lang: de
 ---
-1. Nach einer [Teillieferung](Wie_erstelle_ich_eine_Teillieferung_mit_der_Lieferdispo) und der [Fakturierung für diese Teillieferung](Wie_rechne_ich_einen_Auftrag_mit_der_Rechnungsdispo_ab) ist die Rechnungsdispo für das entsprechende Produkt noch nicht komplett abgerechnet und kann weiter verarbeitet werden
+1. Nach einer [Teillieferung](Wie_erstelle_ich_eine_Teillieferung_mit_der_Lieferdispo) und der [Fakturierung für diese Teillieferung](Wie_rechne_ich_einen_Auftrag_ab) ist die Rechnungsdispo für das entsprechende Produkt noch nicht komplett abgerechnet und kann weiter verarbeitet werden
 
 1. Wenn keine weitere Lieferung und keine weitere Fakturierung gewünscht ist, kann die entsprechende Rechnungsdispo geschlossen werden
 

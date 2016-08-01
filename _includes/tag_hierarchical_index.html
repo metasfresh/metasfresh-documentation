@@ -52,7 +52,7 @@ Parameters:
 {% for current_tags_as_string_sorted in tags_as_string_sorted %}
 
 	{% if current_tags_as_string_sorted == "" %}
-<!-- DEBUG tag_hierarchical_index.html: skipping "empty" tags-->	
+<!-- DEBUG tag_hierarchical_index.html: skipping "empty" tags-->
 		{% continue %}
 	{% endif %}
 	{% assign pages_for_current_tag = __empty_array %}
@@ -66,14 +66,18 @@ Parameters:
 			{% assign current_tags = tags_as_string_pages[forloop.index0].tags %} 
 		{% endif %}
 	{% endfor %}
+	
+	{% comment %} sort them by their sequence {% endcomment %}
+	{% assign pages_for_current_tag = pages_for_current_tag | sort: 'sequence', 'last'  %}
+	
 	{% comment %} 
 	CASES:
 		1: last_tags_as_string is a prefix of current_tags_as_string_sorted: => iterate the additional tags that current_tags_as_string_sorted "adds" and start a sublist like "<b>{{ tag }}</b><p><li><ul>" for each additional tag.
 		2: current_tags_as_string_sorted is a prefix of last_tags_as_string: => iterate the tags that current_tags_as_string_sorted "removes" and end a sublist "</li></ul>" for each such tag.
-		3: current_tags_as_string_sorted and last_tags_as_string have a common prefix: => combination of 1. and 2. first iterate the tags that last_tags has but the common prefix doesn't have. the open new sublists
+		3: current_tags_as_string_sorted and last_tags_as_string have a common prefix: => combination of 1. and 2. first iterate the tags that last_tags has but the common prefix doesn't have and close the respective lists. then open new lists
 	{% endcomment %}
 
-	{% comment %} make a list of the common first items of current_tags and last_tags {% endcomment %}	
+	{% comment %} make a list of the common first items of current_tags and last_tags {% endcomment %}
 	{% for current_tag in current_tags %}
 		{% if last_tags.size < forloop.index or current_tag != last_tags[forloop.index0] %}
 			{% break %}
@@ -81,12 +85,14 @@ Parameters:
 		{% comment %} still in the common part of both current and last {% endcomment %}
 		{% assign common_tags = common_tags | push: current_tag %}
 	{% endfor %}
-
+<!-- DEBUG tag_hierarchical_index.html: current_tags={{ current_tags }}; last_tags={{ last_tags }}; common_tags={{ common_tags }}, size={{ common_tags.size }}  -->
 	{% for current_tag in last_tags reversed %}
-		{% if forloop.index > common_tags.size %}
+		{% if forloop.rindex > common_tags.size %}
 			{% comment %} case 2 {% endcomment %}
+<!-- DEBUG tag_hierarchical_index.html: closing sublist for current last_tag={{ current_tag }}; forloop.rindex={{ forloop.rindex }} -->
 </ul></li>
 		{% else %}
+<!-- DEBUG tag_hierarchical_index.html: breaking out of loop with current last_tag={{ current_tag }}; forloop.index={{ forloop.index }} -->
 			{% break %}
 		{% endif %}
 	{% endfor %}

@@ -3,6 +3,7 @@ title: Wie richte ich ein Leergebindelager ein?
 layout: default
 tags:
   - Stammdaten
+  - Lager
   
 lang: de
 ---
