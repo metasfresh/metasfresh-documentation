@@ -18,3 +18,8 @@ lang: de
 1. Feld **Name** ausfüllen
 1. Feld **gültig ab** bestimmt ab wann diese Version gültig ist. Das Datum kann in der Vergangenheit liegen falls die Version sofort gelten soll oder auch in der Zukunft falls die Preise erst ab einem bestimmten Datum verwendet werden sollen. metasfresh holt sich anhand des zugesagten Datum in Auftrag oder Bestellung die Preise von der jeweiligen Preislistenversion mit dem passenden gültig ab Datum.
 1. [Speichern](Wie_lege_ich_einen_neuen_datensatz_an)
+
+
+## Wie geht es weiter?
+
+[Wie lege ich einen Preis an ?](Wie_lege_ich_einen_Preis_an)

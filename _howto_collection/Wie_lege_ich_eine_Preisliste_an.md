@@ -19,3 +19,8 @@ lang: de
 1. Feld **Preise inkl. Steuern**: Steuert ob die Preise inklusive Mehrwertsteuer (Brutto) oder exklusive (netto) zu verstehen sind. metasfresh rechnet dem entsprechend die Steuer entweder aus dem Preis oder auf den Preis.
 1. Feld **Verkaufspreisliste**: Steuert ob diese Preisliste für den Verkauf verwendet werden soll.
 1. [Speichern](Wie_lege_ich_einen_neuen_datensatz_an) 
+
+
+## Wie geht es weiter?
+
+[Wie lege ich eine Preislistenversion an ?](Wie_lege_ich_eine_Preislistenversion_an)

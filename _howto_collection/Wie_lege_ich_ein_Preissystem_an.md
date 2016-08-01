@@ -22,3 +22,8 @@ Weitere Details findest Du hier:
 1. [Neuen Datensatz anlegen](Wie_lege_ich_einen_neuen_datensatz_an)
 1. Feld **Name** ausfüllen	
 1. [Speichern](Wie_lege_ich_einen_neuen_datensatz_an)
+
+
+## Wie geht es weiter?
+
+[Wie lege ich eine Preisliste an ?](Wie_lege_ich_eine_Preisliste_an)
