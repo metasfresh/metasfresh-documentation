@@ -2,7 +2,7 @@
 title: Where to find the server logs
 layout: default
 tags:
-  - Systemadministration 
+  - System Administration 
 
 lang: en
 ---

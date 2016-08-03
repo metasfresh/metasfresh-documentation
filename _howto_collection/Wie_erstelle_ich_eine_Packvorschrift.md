@@ -3,6 +3,7 @@ title: Wie erstelle ich eine Packvorschrift ?
 layout: default
 tags:
   - Stammdaten
+  - Produkt
 lang: de
 ---
 

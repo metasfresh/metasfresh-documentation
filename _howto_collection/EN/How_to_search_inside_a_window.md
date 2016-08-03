@@ -1,7 +1,6 @@
 ---
 title: How to search inside a window
 layout: default
-
 tags:
   - Usage
 

@@ -1,10 +1,8 @@
 ---
 title: How to upgrade the server's Javaversion
-
 layout: default
-
 tags:
-  - Systemadministration
+  - System Administration
 
 
 lang:en

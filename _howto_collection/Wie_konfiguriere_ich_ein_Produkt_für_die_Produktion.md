@@ -3,6 +3,7 @@ title: Wie konfiguriere ich ein Produkt für die Produktion ?
 layout: default
 tags:
   - Stammdaten
+  - Produktion
 lang: de
 ---
 ## Vorbereitung

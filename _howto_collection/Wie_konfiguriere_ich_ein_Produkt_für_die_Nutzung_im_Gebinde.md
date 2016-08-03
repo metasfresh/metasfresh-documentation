@@ -3,6 +3,7 @@ title: Wie konfiguriere ich ein Produkt für die Nutzung im Gebinde ?
 layout: default
 tags:
   - Stammdaten
+  - Produkt
 lang: de
 ---
 ## Vorbereitung

@@ -2,8 +2,9 @@
 title: How to define a different partner for invoicing purposes
 layout: default
 tags:
-	- Usage
+  - Usage
 lang: en
+
 ---
 ## Preparation
 

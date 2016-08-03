@@ -17,7 +17,7 @@ Hier die Anleitungen für die Durchführung des Workflows:
 
 1. [Wie erstelle ich einen Auftrag?](Wie_erstelle_ich_einen_Auftrag)
 1. [Wie liefere ich einen Auftrag mit der Lieferdispo aus?](Wie_liefere_ich_einen_Auftrag_mit_der_Lieferdispo_aus)
-1. [Wie rechne ich einen Auftrag mit der Rechnungsdispo ab?](Wie_rechne_ich_einen_Auftrag_mit_der_Rechnungsdispo_ab)
+1. [Wie rechne ich einen Auftrag ab?](Wie_rechne_ich_einen_Auftrag_ab)
 
 
 

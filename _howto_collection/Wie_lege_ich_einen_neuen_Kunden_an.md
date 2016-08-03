@@ -4,7 +4,7 @@ layout: default
 tags:
   - Stammdaten
   - Partner 
-sequence: 10
+sequence: 30
 lang: de
 ---
 1. Zuerst [einen neuen Partner anlegen](Wie_lege_ich_einen_neuen_Partner_an)

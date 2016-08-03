@@ -3,6 +3,7 @@ title: Wie richte ich ein Packmittel ein ?
 layout: default
 tags:
   - Stammdaten
+  - Produkt
 lang: de
 ---
 

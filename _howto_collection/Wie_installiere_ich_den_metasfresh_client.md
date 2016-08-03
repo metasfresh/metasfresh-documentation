@@ -3,6 +3,7 @@ title: Wie installiere ich den metasfresh Client ?
 layout: default
 tags:
   - Systemadministration
+  - Installation
 lang: de
 ---
 
