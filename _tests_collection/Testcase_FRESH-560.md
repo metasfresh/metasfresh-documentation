@@ -24,7 +24,7 @@ tags:
 	* komplett abgerechnet eff. = 'N'
 	* date_ordered / delivery_date = date of test
 
-1. For all invoice candidates, set invoice rule: immediate OR, alternatively, create the resp. inouts alternatively
+1. For all invoice candidates, set invoice rule: immediate OR, alternatively, create the resp. inouts 
 	
 1. Check invoice candidates:
 	* => the invoice candidates for both purchase orders, for Org I & II, are displayed
