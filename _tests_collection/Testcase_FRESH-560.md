@@ -28,7 +28,7 @@ tags:
 	
 1. Check invoice candidates:
 	* => the invoice candidates for both purchase orders, for Org I & II, are displayed
-	* => side bar: both orders are displayed
+	* => side bar: filters for both orders are displayed (e.g. order no., bpartner)
 	* => bar at the bottom: the overall net sum is displayed
 	
 1. Log out and in again, but this time with a different role, that has assignment for Org I only
