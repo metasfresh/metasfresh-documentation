@@ -23,7 +23,8 @@ tags:
 1. Open Rechnungsdispo, and filter for invoice candidates with:
 	* komplett abgerechnet eff. = 'N'
 	* date_ordered / delivery_date = date of test
-	* set all to invoice rule: immediate / create the resp. inouts
+
+1. For all invoice candidates, set invoice rule: immediate OR, alternatively, create the resp. inouts alternatively
 	
 1. Check invoice candidates:
 	* => the invoice candidates for both purchase orders, for Org I & II, are displayed
@@ -38,12 +39,12 @@ tags:
 	
 1. Check invoice candidates:
 	* => only invoice candidates for the purchase order with Org I are displayed
-	* => side bar: only order with Org I
+	* => side bar: only filters for order with Org I (e.g. order no., bpartner)
 	* => bar at the bottom: net sum from purchase order with Org I is displayed
 	
 1. Repeat with a different role, that has assignment for Org II only	
 	* => only invoice candidates for the purchase order with Org II are displayed
-	* => side bar: only order with Org II
+	* => side bar: only filters for order with Org II (e.g. order no., bpartner)
 	* => bar at the bottom: net sum from purchase order with Org II is displayed
 	
 1. Repeat everything for sales order side
