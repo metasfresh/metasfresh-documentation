@@ -10,6 +10,7 @@ lang: de
 ## Schritte
 1. [Fenster "Bestellung" öffnen](Wie_finde_und_öffne_ich_ein_Fenster)
 1. [Neuen Datensatz anlegen](Wie_lege_ich_einen_neuen_datensatz_an)
+1. Im Feld [**Lager**](Wie_lege_ich_ein_neues_Lager_an) das für den Wareneingang gewünschte Lager auswählen
 1. Feld **Lieferant** mittels [Autocomplete](Wie_benutze_ich_Autocomplete) ausfüllen
   z.B. "test" => "Testlieferant"
 1. [Speichern](Wie_lege_ich_einen_neuen_datensatz_an)
@@ -24,5 +25,5 @@ lang: de
 
 
 ## Wie geht es weiter?
-1. [Wie erstelle ich einen Wareneingang mit Wareneingang POS ?] Wie_erstelle_ich_einen_Wareneingang_mit_Wareneingang_POS) 
-1. [Wie rechne ich eine Bestellung ab?](Wie_rechne_ich_einen_Bestellung_ab) 
+1. [Wie erstelle ich einen Wareneingang mit Wareneingang POS ?](Wie_erstelle_ich_einen_Wareneingang_mit_Wareneingang_POS)
+1. [Wie rechne ich eine Bestellung ab ?](Wie_rechne_ich_einen_Bestellung_ab) 
