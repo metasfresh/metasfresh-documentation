@@ -19,7 +19,7 @@ lang: de
 1. Taste ´TAB´ drücken
 1. Feld **Menge Gebinde** ausfüllen
 1. Taste ´TAB´ drücken
-1. metasfresh fügt eine Bestellungszeile hinzu
+1. metasfresh fügt eine Bestellzeile hinzu
 1. [Beleg fertigstellen](Wie_stelle_ich_einen_Beleg_fertig)
 1. [Druckvorschau öffnen](Wie_oeffne_ich_die_Druckvorschau)
 
