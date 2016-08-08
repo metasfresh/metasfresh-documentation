@@ -1,5 +1,5 @@
 ---
-title: Wie importiere ich mehrere Adresesen und Kontakte zu einem Partner ?
+title: Wie importiere ich mehrere Adressen und Kontakte zu einem Partner ?
 layout: default
 tags:
   - Datenimport
