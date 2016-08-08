@@ -15,7 +15,7 @@ lang: de
  >bestimmtes Produkt aus mehreren Bestellungen gesammelt abgerechnet werden sollen, kannst Du an dieser Stelle nach dem gewünschten Produkt filtern und alle Bestellzeilen dazu in einer
  >Sammel-Rechnung zusammenfassen. Die übrigen Produkte können dann wie gewohnt pro Bestellung abgerechnet werden.
  
- >Beachte: Rechnungskandidaten zu Bestellungen, die unterschiedliche Werte im Feld **Referenz** haben, können allerdings nicht in einer Sammel-Rechnung fakturiert werden!
+ >Beachte: Rechnungskandidaten zu Bestellungen, die unterschiedliche Werte im Feld **Referenz** haben, können nicht in einer Sammel-Rechnung fakturiert werden!
 
 1. [Klicke auf das Zahnrad](Wie_starte_ich_Zahnrad_Prozesse)
 1. Starte den Prozess "Auswahl fakturieren" um alle sichtbaren Bestellzeilen abzurechnen
