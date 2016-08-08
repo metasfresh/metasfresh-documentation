@@ -1,5 +1,5 @@
 ---
-title: Wie erstelle ich eine Sammel-Rechnung für verschiedene Bestellungen?
+title: Wie erstelle ich eine Sammel-Rechnung zu verschiedenen Bestellungen?
 layout: default
 tags:
   - 
@@ -24,6 +24,5 @@ lang: de
 1. [Öffne die Druckvorschau](Wie_oeffne_ich_die_Druckvorschau) um Dir den Beleg anzuschauen 
 
 	
-	**Hinweis:** Für eine Sammel-Rechnung für verschiedene Bestellungen ist ein gemeinsamer Wareneingang nicht notwendig. Die Bestellzeilen, die zusammen fakturiert werden sollen, 
-	können auch zu verschiedenen Wareneingängen gehören; diese werden dann im Rechnungsdokument entsprechend ausgewiesen.
+	**Hinweis:** Für eine Sammel-Rechnung für verschiedene Bestellungen ist kein gemeinsamer Wareneingang notwendig. Die Bestellzeilen, die zusammen fakturiert werden sollen, können auch zu verschiedenen Wareneingängen gehören; diese werden dann im Rechnungsdokument entsprechend ausgewiesen.
 
