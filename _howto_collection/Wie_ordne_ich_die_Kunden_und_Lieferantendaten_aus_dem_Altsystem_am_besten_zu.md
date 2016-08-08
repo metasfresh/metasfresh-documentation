@@ -3,6 +3,7 @@ title: Wie ordne ich die Kunden und Lieferantendaten aus dem Altsystem am besten
 layout: default
 tags:
   - Datenimport
+  - Partner Beispiel
 lang: de
 ---
 
