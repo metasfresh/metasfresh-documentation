@@ -3,7 +3,7 @@ title: Wie importiere ich mehrere Adresesen und Kontakte zu einem Partner ?
 layout: default
 tags:
   - Datenimport
-  - Beispiel
+  - Partner Beispiel
 lang: de
 
 ---

@@ -3,7 +3,7 @@ title: Wie importiere ich Produkte via CSV Datei ?
 layout: default
 tags:
   - Datenimport
-  - Beispiel
+  - Produkt Beispiel
 lang: de
 sequence: 20
 ---
