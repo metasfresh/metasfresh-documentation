@@ -26,6 +26,6 @@ lang: de
 1. [Öffne die Druckvorschau](Wie_oeffne_ich_die_Druckvorschau) um Dir den Beleg anzuschauen 
 
 	
-	**Hinweis:** Für eine Sammel-Rechnung für verschiedene Aufträge ist eine Sammel-Lieferung nicht notwendig. Die Auftragszeilen, die zusammen fakturiert werden sollen, 
+	**Hinweis:** Für eine Sammel-Rechnung für verschiedene Aufträge ist keine Sammel-Lieferung notwendig. Die Auftragszeilen, die zusammen fakturiert werden sollen, 
 	können auch zu verschiedenen Lieferungen gehören; diese werden dann im Rechnungsdokument entsprechend ausgewiesen.
 
