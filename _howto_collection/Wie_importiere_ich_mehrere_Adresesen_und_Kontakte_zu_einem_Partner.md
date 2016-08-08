@@ -19,4 +19,4 @@ Hier findest Du ein Beispiel wie eine CSV Datei aufgebaut werden muss um mehrere
 ## Weitere Infos
 
 [Wie importiere ich Kunden und Lieferanten via CSV Datei ?](Wie_importiere_ich_Kunden_und_Lieferanten_via_CSV_Datei)
-
+ 
