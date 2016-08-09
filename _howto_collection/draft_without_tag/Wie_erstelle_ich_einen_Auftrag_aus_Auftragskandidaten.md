@@ -16,7 +16,7 @@ Um einen Auftrag aus Auftragskandidaten zu erstellen benötigst Du:
 
 ## Schritte
 1. [Fenster "Auftragsdisposition" öffnen](Wie_finde_und_öffne_ich_ein_Fenster)
-1. Klicke im Feld **Replikationstransaktion** auf ![Info](../images/de_feld_replikationstransaktion.png)
+1. Klicke im Feld **Replikationstransaktion** auf [Info](../images/de_feld_replikationstransaktion.png)
 1. Das Fenster **Info Replikationstransaktion** öffnet sich
 1. Im Fenster **Info Replikationstransaktion** trage im Feld **Name** den Namen deiner Importdatei ein
 1. Klicke auf ![img](../images/icons/Refresh24.png)
