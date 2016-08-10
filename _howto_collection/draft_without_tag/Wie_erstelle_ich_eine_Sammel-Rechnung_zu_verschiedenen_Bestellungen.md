@@ -11,7 +11,7 @@ lang: de
 1. [Öffne das Fenster "Geschäftspartner"](Wie_finde_und_öffne_ich_ein_Fenster)
 1. [Suche nach dem Geschäftspartner](Wie_suche_ich_in_einem_Fenster), für den Sammel-Lieferungen erstellt werden sollen
 1. Wechsle in das Tab "Lieferant"
-1. Stelle sicher, dass in den beiden Feldern zu *Aggregationsregel* kein Wert gesetzt ist
+1. Stelle sicher, dass in den beiden Feldern zu "Aggregationsregel" kein Wert gesetzt ist
 1. [Öffne das Fenster "Rechnungsdisposition"](Wie_finde_und_öffne_ich_ein_Fenster)
 1. [Suche nach den Rechnungszeilen](Wie_suche_ich_in_einem_Fenster) der Bestellungen, die in der Sammel-Rechnung zusammen fakturiert werden sollen, z.B. durch Suche nach Geschäftspartner und Lieferdatum
 
