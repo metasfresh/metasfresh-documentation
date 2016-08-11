@@ -15,7 +15,7 @@ Auf Basis des Standarddefinition für den Partnerimport möchten wir ein eigenes
 1. Feld **Name**: z.B. "Partnerimport" eintragen
 1. Feld **DB-Tabelle**: z.B. "I_BPartner_Import - Geschäftspartner" auswählen   
 1. Feld **Format**: Trennzeichen auswählen. z.B. Tab
-1. Datensatz speichern
+1. Datensatz speichern ([Offenes Problem](https://github.com/metasfresh/metasfresh/issues/282))
 1. Button "Positionen kopieren" anklicken
 1. Wähle nun das Standardformat aus von dem Du die Einstellungen kopieren möchtest. z.B. "Geschäftspartner Standard"
 1. OK klicken. 
