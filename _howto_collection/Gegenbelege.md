@@ -2,7 +2,7 @@
 title: Gegenbelege
 layout: default
 tags:
-  - Konzepte  
+  - Gegenbelege  
 lang: de
 ---
 ## Übersicht
