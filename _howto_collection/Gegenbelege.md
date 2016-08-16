@@ -20,20 +20,25 @@ Damit nicht beide Organisation die identischen Produkte und Packmittel führen m
 ![Gegenbelege Stammdaten](../images/de_Gegenbelege_Stammdaten.png) 
 
 
-## Konfiguration
+## Verwaltung
 
-Du kannst im [Fenster Gegenbeleg](Wie_finde_und_öffne_ich_ein_Fenster) genau einstellen für welche Fälle Du einen Gegenbeleg automatisch erstellt haben möchtest. 
+1. Du kannst im [Fenster Gegenbeleg](Wie_finde_und_öffne_ich_ein_Fenster) genau einstellen für welche Fälle Du einen Gegenbeleg automatisch erstellt haben möchtest. 
 
-## Ablauf
+1. [Wie ordne ich zwei Produkte einander zu zwecks Gelegenbelegerstellung?](Wie_ordne_ich_zwei_Produkte_einander_zu_zwecks_Gelegenbelegerstellung)
+1. [Wie sehe ich bestehende produktzuordnungen Gelegenbelegerstellung ?](Wie_sehe_ich_bestehende_produktzuordnungen_Gelegenbelegerstellung)
+1. [Wie entferne ich die Zuordnung zwischen zwei Produkten (Gelegenbelegerstellung) ?](Wie_entferne_ich_die_Zuordnung_zwischen_zwei_Produkten_Gelegenbelegerstellung)
+
+## Beispiel Ablauf
 
 1. Benutzer der Org A stellt Auftrag an Org B fertig
 2. Automatisch wird in Org B eine Bestellung erzeugt mit Org A als Lieferant und mit den jeweils zugehörigen Produkten und Packvorschriften 
 3. Die Bestellung in Org B bleibt erst einmal offen damit Du noch eine Sichtprüfung machen kannst
 
-## Überwachung
+## Kontrolle
 
 1. Einmal pro Tag versendet metasfresh eine Liste der Gegenbelege die erstellt wurden
 1. Sollte einmal ein Gegenbeleg nicht erstellt werden können weil z.B. verknüpfte Stammdaten nicht angelegt wurden, erhält Du eine entsprechende Fehlermeldung per mail
+1. Im Fenster Missing Counter Documents findest Du die Belege aufgelistet die nicht erstellt werden konnten 
 
 
 
