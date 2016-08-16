@@ -14,7 +14,12 @@ lang: de
 1. produkt aussuchen für das die zuordnung entfernt werden soll
 1. Zahnrad => Produkt Zuordnung für Gegenbeleg erstellen
 1. Zielorganisation aussuchen
+   
+   *Hinweis:* Es werden nur diejenigen Organisationen angezeigt in den das ausgewählte Produkt noch keine Verknüpfung hat.
+   
 1. Zielprodukt aussuchen
+
+   *Hinweis:* Es werden nur diejenigen Produkte angezeigt die noch keine Verknüpfung haben.
 
 ## Produktezuordnung entfernen
 1. fenster produkte
