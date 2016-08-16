@@ -1,5 +1,5 @@
 ---
-title: Das Konzept der Gegenbelege
+title: Gegenbelege
 layout: default
 tags:
   - Konzepte  
@@ -12,7 +12,12 @@ metasfresh ermöglicht Dir nicht nur die Verwaltung mehreren juristischer Person
 So wird z.B. ein Auftrag an Organisation B durch Org. A automatisch zu einer Bestellung in Org, B des Kunden Org. A. 
 
 
-![Handling Unit](../images/de_Gegenbelege.png)
+![Gegenbelege](../images/de_Gegenbelege.png)
+
+
+Damit nicht beide Organisation die identischen Produkte und Packmittel führen müssen, kannst Du die jeweiligen passenden Stammdaten miteinander verbinden.
+
+![Gegenbelege Stammdaten](../images/de_Gegenbelege_Stammdaten.png) 
 
 
 
