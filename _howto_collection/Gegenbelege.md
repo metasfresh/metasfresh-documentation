@@ -20,6 +20,21 @@ Damit nicht beide Organisation die identischen Produkte und Packmittel führen m
 ![Gegenbelege Stammdaten](../images/de_Gegenbelege_Stammdaten.png) 
 
 
+## Konfiguration
+
+Du kannst im [Fenster Gegenbeleg](Wie_finde_und_öffne_ich_ein_Fenster) genau einstellen für welche Fälle Du einen Gegenbeleg automatisch erstellt haben möchtest. 
+
+## Ablauf
+
+1. Benutzer der Org A stellt Auftrag an Org B fertig
+2. Automatisch wird in Org B eine Bestellung erzeugt mit Org A als Lieferant und mit den jeweils zugehörigen Produkten und Packvorschriften 
+3. Die Bestellung in Org B bleibt erst einmal offen damit Du noch eine Sichtprüfung machen kannst
+
+## Überwachung
+
+1. Einmal pro Tag versendet metasfresh eine Liste der Gegenbelege die erstellt wurden
+1. Sollte einmal ein Gegenbeleg nicht erstellt werden können weil z.B. verknüpfte Stammdaten nicht angelegt wurden, erhält Du eine entsprechende Fehlermeldung per mail
+
 
 
 
