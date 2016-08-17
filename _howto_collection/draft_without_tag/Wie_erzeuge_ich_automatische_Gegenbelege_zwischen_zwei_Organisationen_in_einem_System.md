@@ -8,25 +8,6 @@ tags:
 lang: de
 ---
 
-## Zweite Organisation anlegen
-## Produkte verknüpfen
-1. fenster produkte
-1. produkt aussuchen für das die zuordnung entfernt werden soll
-1. Zahnrad => Produkt Zuordnung für Gegenbeleg erstellen
-1. Zielorganisation aussuchen
-1. Zielprodukt aussuchen
-
-## Produktezuordnung entfernen
-1. fenster produkte
-1. produkt aussuchen für das die zuordnung entfernt werden soll
-1. Zahnrad => Produkt Zuordnung für Gegenbeleg entfernen
-
-
-## Bestellung und Auftrag
-1. in Org A Bestellung an Partner von Org B erstellen
-1. bei fehlen automatische mail?
-
-
 # Docu Todo
 1. wo konfiguriere ich den mail versand
 1. wo konfiguriere ich bei welchen Belegen ein Gegenbeleg automatisch erzeugt werden soll?

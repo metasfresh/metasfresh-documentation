@@ -37,3 +37,9 @@ Alternativ kannst Du auch die CSV-Datei für die Problemfälle ändern und diese
 1. Den Grund für den Importfehler findest Du in Feld **Import-Fehlermeldung** 
 1. Ändere die Daten entweder direkt im Fenster oder in der CSV Datei und importiere erneut
 1. Bei einer manuellen Änderung kannst Du über den Button "Geschäftspartner importieren" eine neue Verarbeitung angestoßen
+
+<!--
+Docs ToDO
+Spalte "status" auswerten da manche noch nicht einmal in die import tabelle landen.
+beispiel greetings import
+-->
