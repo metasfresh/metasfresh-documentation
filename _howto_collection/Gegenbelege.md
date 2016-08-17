@@ -23,10 +23,9 @@ Damit nicht beide Organisation die identischen Produkte und Packmittel führen m
 
 ## Verwaltung
 
-1. Du kannst im [Fenster Gegenbeleg](Wie_finde_und_öffne_ich_ein_Fenster) genau einstellen für welche Fälle Du einen Gegenbeleg automatisch erstellt haben möchtest. 
-
+1. [Wie konfiguriere ich die Gegenbelegerstellung für eine Belegart ?](Wie_konfiguriere_ich_die_Gegenbelegerstellung_für_eine_Belegart)
 1. [Wie ordne ich zwei Produkte einander zu zwecks Gelegenbelegerstellung?](Wie_ordne_ich_zwei_Produkte_einander_zu_zwecks_Gelegenbelegerstellung)
-1. [Wie_kann_ich_bestehende_Produktzuordnungen_für_die_Gegenbelegerstellung_einsehen](Wie_kann_ich_bestehende_Produktzuordnungen_für_die_Gegenbelegerstellung_einsehen)
+1. [Wie kann ich bestehende Produktzuordnungen für die Gegenbelegerstellung einsehen ?](Wie_kann_ich_bestehende_Produktzuordnungen_für_die_Gegenbelegerstellung_einsehen)
 1. [Wie entferne ich die Zuordnung zwischen zwei Produkten (Gelegenbelegerstellung) ?](Wie_entferne_ich_die_Zuordnung_zwischen_zwei_Produkten_Gelegenbelegerstellung)
 
 ## Beispiel Ablauf
