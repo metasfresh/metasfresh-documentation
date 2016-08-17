@@ -15,6 +15,6 @@ lang: de
    *Hinweis*: Diese Prozess wird nur angezeigt wenn es eine Verknüpfung gibt.
 
 
-## Weitere Seiten zum Thema Gegebenbelege
+## Weitere Seiten zum Thema Gegenbelege
 
 {% include tag_linklist.html lang=page.lang pages=site.howto_collection tag="Gegenbelege" suppress_secondary_pages=""%}

@@ -21,7 +21,7 @@ Damit nicht beide Organisation die identischen Produkte und Packmittel führen m
 ![Gegenbelege Stammdaten](../images/de_Gegenbelege_Stammdaten.png) 
 
 
-## Weitere Seiten zum Thema Gegebenbelege
+## Weitere Seiten zum Thema Gegenbelege
 
 {% include tag_linklist.html lang=page.lang pages=site.howto_collection tag="Gegenbelege" suppress_secondary_pages=""%}
 

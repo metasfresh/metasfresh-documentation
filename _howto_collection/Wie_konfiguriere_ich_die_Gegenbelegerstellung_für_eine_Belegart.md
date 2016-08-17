@@ -19,6 +19,6 @@ lang: de
 1. Abschließend starte den Prozess "Belegart validieren" um Konfigurationsfehler auszuschließen
 
 
-## Weitere Seiten zum Thema Gegebenbelege
+## Weitere Seiten zum Thema Gegenbelege
 
 {% include tag_linklist.html lang=page.lang pages=site.howto_collection tag="Gegenbelege" suppress_secondary_pages=""%}
