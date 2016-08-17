@@ -21,12 +21,9 @@ Damit nicht beide Organisation die identischen Produkte und Packmittel führen m
 ![Gegenbelege Stammdaten](../images/de_Gegenbelege_Stammdaten.png) 
 
 
-## Verwaltung
+## Weitere Seiten zum Thema Gegebenbelege
 
-1. [Wie konfiguriere ich die Gegenbelegerstellung für eine Belegart ?](Wie_konfiguriere_ich_die_Gegenbelegerstellung_für_eine_Belegart)
-1. [Wie ordne ich zwei Produkte einander zu zwecks Gelegenbelegerstellung?](Wie_ordne_ich_zwei_Produkte_einander_zu_zwecks_Gelegenbelegerstellung)
-1. [Wie kann ich bestehende Produktzuordnungen für die Gegenbelegerstellung einsehen ?](Wie_kann_ich_bestehende_Produktzuordnungen_für_die_Gegenbelegerstellung_einsehen)
-1. [Wie entferne ich die Zuordnung zwischen zwei Produkten (Gelegenbelegerstellung) ?](Wie_entferne_ich_die_Zuordnung_zwischen_zwei_Produkten_Gelegenbelegerstellung)
+{% include tag_linklist.html lang=page.lang pages=site.howto_collection tag="Gegenbelege" suppress_secondary_pages=""%}
 
 ## Beispiel Ablauf
 

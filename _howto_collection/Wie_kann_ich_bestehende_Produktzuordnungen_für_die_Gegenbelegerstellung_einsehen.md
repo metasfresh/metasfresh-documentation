@@ -13,3 +13,7 @@ lang: de
    Hier werden alle bestehenden Zuordnungen zu Produkten von anderen Organisationen angezeigt.
 
    
+
+## Weitere Seiten zum Thema Gegebenbelege
+
+{% include tag_linklist.html lang=page.lang pages=site.howto_collection tag="Gegenbelege" suppress_secondary_pages=""%}
