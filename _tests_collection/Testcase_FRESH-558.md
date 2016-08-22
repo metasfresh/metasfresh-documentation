@@ -11,7 +11,7 @@ tags:
 
 > Testcase to check if invoice candidates are not invoiced twice because they weren't updated.
 
-**Note: ** We had different cases on live where invoice candidates weren't updated and therefore invoiced twice; one of them was a problem with a missing UOM conversion,
+**Note:** We had different cases on live where invoice candidates weren't updated and therefore invoiced twice; one of them was a problem with a missing UOM conversion,
 which is the case we chose for testing here.
 
 1. Open AD_SysConfig, and make sure that de.metas.invoicecandidate.api.impl.InvoiceCandInvalidUpdater.ItemsPerBatch has value = 1
