@@ -26,19 +26,19 @@ tags:
 	* e.g. Price UOM: Kg
 	* Price 3.00 EUR per Kg
 	
-1. Create a sales order for G000X, for P0001, for 100 PCE
-	* => orderline for 100 PCE P0001
+1. Create a sales order for G000X, for P0001, for 10 PCE
+	* => orderline for 10 PCE P0001
 	* => product UOM: PCE, price UOM: Kg
-	* => price: 30.00 (100 PCE = 10 Kg)
+	* => price: 3.00 (10 PCE = 1 Kg)
 	
 1. Zoom into the shipment schedule, when it's created
 	* => Maßeinheit: PCE
-	* => Netto (offen): 30.00
+	* => Netto (offen): 3.00
 	
 1. Go back to Product, UOM Conversion, and deactivate the conversion
 
-1. In Lieferdispo, refresh (you can change sth like e.g. Prio, and save, so refreshing is necessary)
+1. In Lieferdispo, refresh (change sth like e.g. Prio, and save, so refreshing is necessary)
 	* => Netto (offen) is now set to -1.00, because of the missing conversion
 	
 1. Create the inout with Auswahl liefern
-	* => inout is created without errors or problems, despite Netto (offen) was changed and the UOM conversion is missing
+	* => inout is created without errors, despite Netto (offen) was changed and the UOM conversion is missing
