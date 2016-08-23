@@ -116,7 +116,7 @@ tags:
 **Note:**
 * the attribute on LU level overwrites the attribute on lower levels, => if you have >1 TU with different attributes, on the same LU, then the attribute will be taken from the LU for inoutline!
 * some template attributes are not displayed in the inoutline / the inout jasper (Subproducer / Produktionsart), => you will still get >1 inoutline if they are different in the LUs! (but not necessarily >1 invoiceline!)
-** => to be decided in follow-up tasks how to deal with that
+* => to be decided in follow-up tasks how to deal with that
 
 
 Regression testing:
