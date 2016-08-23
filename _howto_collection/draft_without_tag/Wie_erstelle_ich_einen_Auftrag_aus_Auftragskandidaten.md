@@ -19,7 +19,7 @@ Um einen Auftrag aus Auftragskandidaten zu erstellen benötigst Du:
 1. Klicke im Feld **Replikationstransaktion** auf Info ![Info](../images/de_feld_replikationstransaktion.png)
 1. Das Fenster **Info Replikationstransaktion** öffnet sich
 1. Im Fenster **Info Replikationstransaktion** trage im Feld **Name** den Namen deiner Importdatei ein
-1. Klicke auf ![img](../images/icons/Refresh24.png)
+1. Klicke auf ![img](../images/icons/Refresh16.png)
 1. Wähle Deine importierte Datei aus
 1. Klicke [OK](Wie_bestaetige_ich_eine_Aktion)
 1. Die Auftragskandidaten aus deiner Importdatei werden angezeigt
@@ -34,7 +34,7 @@ Um einen Auftrag aus Auftragskandidaten zu erstellen benötigst Du:
 	
 1. Um den erstellten Auftrag anzusehen, wähle einen Auftragskandidaten aus und wechsle in das Tab "Zuordnung - Auftragszeile"
 1. Klicke mit der `rechten Maustaste` auf das Feld **Auftragsposition** 
-1. Klicke auf "![img](../images/icons/Zoom24.png) Springe zu" 
+1. Klicke auf ![img](../images/icons/ZoomAcross16.png) 
 1. Jetzt öffnet sich das Fenster Auftrag, mit dem entsprechenden Auftrag der zu dem ausgewählten Auftragskandidaten erstellt wurde
 	
 	
