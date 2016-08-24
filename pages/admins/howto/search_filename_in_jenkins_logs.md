@@ -1,7 +1,7 @@
 ---
 title: Find a a particular artifact in the jenkins build job logs
 layout: default
-tags: CI, infrastructure
+tags: CI, infrastructure, shell
 lang: en
 ---
 
@@ -20,4 +20,4 @@ grep --include=log -R 'sync-api-1-master-20160823.083618-8' ./*
 Notes:
 * each build job's log file is named `log`
 * on our jenkins master, the search takes a while
-* from the full path of the `log`files found by the grep, you can discern the actual build job.
+* from the full path of the `log` file(s) found by the grep, you can discern the actual build job.
