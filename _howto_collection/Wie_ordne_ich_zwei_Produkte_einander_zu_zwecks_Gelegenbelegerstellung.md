@@ -18,3 +18,7 @@ lang: de
 
    *Hinweis:* Es werden nur diejenigen Produkte angezeigt die noch keine Verknüpfung haben.
 
+   
+## Weitere Seiten zum Thema Gegenbelege
+
+{% include tag_linklist.html lang=page.lang pages=site.howto_collection tag="Gegenbelege" suppress_secondary_pages=""%}
