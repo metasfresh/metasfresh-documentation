@@ -8,7 +8,7 @@ tags:
   - Jasper
   - language
 ---
-## #299 FRESH-??? Report "Leergutausgabe" from Window "Lieferantenrücklieferung"
+## #299 FRESH-598 Report "Leergutausgabe" from Window "Lieferantenrücklieferung"
 
 > Testcase to check if the correct language is used in Jasper for RMA inouts.
 
