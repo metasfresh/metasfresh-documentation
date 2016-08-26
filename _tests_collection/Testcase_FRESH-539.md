@@ -27,3 +27,4 @@ tags:
 1. In database, check de_metas_acct.RV_Reposted_Documents
 	* => your Allocation header(s) is displayed, with document no., etc.
 	
+**Note:** The schedule process is set to repost only data created the day before, and runs usually every night at 1:30 AM. If you want to have older data reposted, you have to change the created date for those in db first!
