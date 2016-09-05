@@ -26,7 +26,7 @@ Damit Du die Preisliste später auch exportieren kannst aktiviere die Druckvorsc
 1. [Fenster "Geschäftspartner" öffnen](Wie_finde_und_öffne_ich_ein_Fenster) 
 1. [klicke auf das Zahnrad](Wie_starte_ich_Zahnrad_Prozesse)
 1. Prozess "Preisliste" starten
-1. Die Vorschau öffnet sich und zeigt die Kundenindividuellen Preise
+1. Die Vorschau öffnet sich und zeigt die kundenindividuellen Preise
 1. Wähle als exportformat "XLS"
 1. Klicke auf "exportieren"
 1. Speichere die Datei an einem beliebigen Ort

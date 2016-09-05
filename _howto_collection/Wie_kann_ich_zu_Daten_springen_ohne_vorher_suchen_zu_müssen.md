@@ -15,7 +15,7 @@ Generell kannst Du bei allen Suchfeldern mit einem Klick in die dahinter liegend
 ## Beispiel
 
 1. Öffne das Fenster "Auftrag"
-1. trage einen Kunden in das Feld **Auftraggeber** ein
+1. Trage einen Kunden in das Feld **Auftraggeber** ein
 1. Klicke mit der `rechten Maustaste` auf das Feld **Auftraggeber** 
 1. Klicke auf das Icon "![img](../images/icons/Zoom24.png) Springe zu" 
 1. Jetzt öffnet sich das Fenster Geschäftspartner mit einem Filter genau auf den Auftraggeber den Du vorher im Fenster Auftrag gesehen hast
