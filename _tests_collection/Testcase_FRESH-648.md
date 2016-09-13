@@ -8,7 +8,7 @@ tags:
 ---
 ## #366 Faulty unique constraint on M_PriceList
 
-> Testcase to check the unique constraing for pricelists is working correctly.
+> Testcase to check the unique constraint for pricelists is working correctly.
 
 1. Open pricelist CP, check the country
 
