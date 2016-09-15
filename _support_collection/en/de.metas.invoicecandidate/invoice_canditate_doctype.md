@@ -2,7 +2,7 @@
 title: Diagnose and update invoice candidates' doctypes
 component: de.metas.invoicecandidate
 tags: 
-  - support
+  - Support
   - sql
 lang: en
 layout: default
