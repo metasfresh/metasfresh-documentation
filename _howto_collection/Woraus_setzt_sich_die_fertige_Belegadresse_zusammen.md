@@ -2,7 +2,9 @@
 title: Woraus setzt sich die fertige Belegadresse zusammen?
 layout: default
 tags:
-  - Konzepte
+  - Stammdaten
+  - Partner
+  - Adresse
 lang: de
 ---
 ## Übersicht
