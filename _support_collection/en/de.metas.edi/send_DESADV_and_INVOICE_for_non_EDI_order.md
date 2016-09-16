@@ -3,7 +3,7 @@ title: Fix a not-EDI order's shipment and invoice for EDI sending
 component: de.metas.edi
 tags: 
   - EDI
-  - support
+  - Support
 lang: en
 layout: default
 issue: https://github.com/metasfresh/metasfresh/issues/358
