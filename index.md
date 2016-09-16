@@ -5,7 +5,7 @@ layout: default
 
 * Benutzer / Users
   - [Kurzanleitungen (Deutsch)](pages/howto/index_de)
-  - [How-To's (English)](pages/howto/index_en)
+  - [How-Tos (English)](pages/howto/index_en)
 * Developers:
   - [The metasfresh source code at github](https://github.com/metasfresh/metasfresh)
   - [Informations for developers](pages/developers/index_en)
