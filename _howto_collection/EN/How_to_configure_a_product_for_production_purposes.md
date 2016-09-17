@@ -2,8 +2,8 @@
 title: How to configure a product for production purposes
 layout: default
 tags:
-  - master data
-  - production
+  - Master data
+  - Production
 lang: en
 ---
 ## Preparation

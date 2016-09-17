@@ -2,8 +2,8 @@
 title: How to configure a parts lists with procentual parts (receipe) ?
 layout: default
 tags:
-  - master data
-  - production
+  - Master data
+  - Production
 lang: en
 ---
 ## Preparation
