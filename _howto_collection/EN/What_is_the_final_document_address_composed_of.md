@@ -2,7 +2,7 @@
 title: What is the final document address composed of?
 layout: default
 tags:
-  - Master Data
+  - Master data
 lang: en
 ---
 ## Overview
