@@ -2,7 +2,7 @@
 title: How to add new data
 layout: default
 tags:
-  - usage
+  - Usage
 lang: en
 ---
 1. Activate Single View
