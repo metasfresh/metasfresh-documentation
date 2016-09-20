@@ -20,6 +20,7 @@ a. Run the report once when the PI1 (and BPP1 when needed) is Active and once wi
 b. Compare the results
 
 **Shipped inouts**
+
 1. Create an inout with speditionsauftrag for G0001 with a line fora P0001
 
 2. Go to the process RustListe from the menu
@@ -46,6 +47,7 @@ b. Compare the results
     * => OK
     
 **Partner specific Ordercheckup**
+
 1. Go to partner G0001, set a print format for Bestellkontrolle with is customer specific
 
 2. Have a C_Order_MFGWarehouse_Report for G0001 with product P0001 (they create on Sales Order Complete)
@@ -58,6 +60,7 @@ b. Compare the results
     * => OK: No duplicate lines
 
 **Sales inout**
+
 Check the following reposts: 
 * Normal Lieferchein (nothing set in the G0001's print format)
 * ALl customer specific reports (set hem one by one in print format of G0001)
@@ -73,6 +76,7 @@ For all of the above:
     * => OK: No duplicate lines
  
 **Purchase inout**
+
 1. Have a material receipot for G0002, with a line for P0001
  
 2. Step a. Print preview
