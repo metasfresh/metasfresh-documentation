@@ -7,7 +7,7 @@ required data:
    BPartner products : BPP1 for G0001 and P0001
 layout: default
 tags:
-  - Umsatzreport
+  - Reports
 ---
 ## Duplicate lines in inout
 
