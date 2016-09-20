@@ -250,8 +250,8 @@ tags:
 	
 1. Run the excel report for the purchase tracking again too:
 
-	|       Datum      | Bestell-Nr. | Geschäftspartner | Produkt-Nr. | Merkmal |	Einheit	| Menge |  Lieferdatum   | Lieferort | Auftrags-Nr. | Menge |
-	| :--------------: | :---------: | :--------------: | :---------: | :-----: | :------:	| :---: | :------------: | :-------: | :----------: | :---: |
+	|       Datum      | Bestell-Nr. | Geschäftspartner | Produkt-Nr. | Merkmal |	Einheit	| Menge |  Lieferdatum   | Lieferort | Auftrags-Nr. | Menge | Einheit |
+	| :--------------: | :---------: | :--------------: | :---------: | :-----: | :------:	| :---: | :------------: | :-------: | :----------: | :---: | :---: |
 	| 1st day of test |        001   |  G000Y   |    P0001    |           |    	|	5  | 1st day of test |       G000X       |       00I       |  5  |
 	| 1st day of test |        002   |  G000Y   |    P0001    |           |   	|	10 | 1st day of test |       G000X       |       0II       |  5  |
 	| 1st day of test |        002   |  G000Y   |    P0001    |           |   	|	10 | 1st day of test |       G000X       |       III       |  5  |
@@ -261,7 +261,7 @@ tags:
 	| 1st day of test |        005   |  G000Y   |    P0001    |           |    	|	3  | 1st day of test |       G000X       |       0VI       |  5  |
 	| 1st day of test |        006   |  G000Y   |    P0001    |           |   	|	10 | 1st day of test |       G000X       |       VII       |  8  |
 	| 1st day of test |        006   |  G000Y   |    P0001    |           |   	|	10 | 2nd day of test |       G000X       |       VII       |  2  |
-	| 2nd day of test |        007   |  G000Z   |    P0002    |           |  Kg |	10 | 2nd day of test |       G000X       |      VIII       |  5  |
+	| 2nd day of test |        007   |  G000Z   |    P0002    |           |  Kg |	10 | 2nd day of test |       G000X       |      VIII       |  5  | Stk |
 
 	
 	=> the attribute is taken from the sales inout, NOT from the material receipt!
@@ -279,9 +279,9 @@ tags:
 
 1. Run the excel report for the purchase tracking again too, but filter for G000Z instead of P0001!:
 
-	|       Datum       | Bestell-Nr. | Geschäftspartner | Produkt-Nr. | Merkmal |  Einheit	| Menge |  Lieferdatum   | Lieferort | Auftrags-Nr. | Menge |
-	| :--------------: | :----------------: | :------: | :---------: | :-------: |   :-------: |  :-: | :--------------: | :---------------: | :-------------: | :-: |
-	| 2nd day of test |        007         |  G000Z   |    P0001    |           |    Kg 	|	10  | 2nd day of test |       G000X       |      VIII       | 10  |
+	|       Datum       | Bestell-Nr. | Geschäftspartner | Produkt-Nr. | Merkmal |  Einheit	| Menge |  Lieferdatum   | Lieferort | Auftrags-Nr. | Menge | Einheit |
+	| :--------------: | :----------------: | :------: | :---------: | :-------: |   :-------: |  :-: | :--------------: | :---------------: | :-------------: | :-: | :---: |
+	| 2nd day of test |        007         |  G000Z   |    P0001    |           |    Kg 	|	10  | 2nd day of test |       G000X       |      VIII       | 10  | Stk |
 	
 	
 	=> no added line for the 2nd inout, BUT increased Menge for the qty used in 2nd inout!
