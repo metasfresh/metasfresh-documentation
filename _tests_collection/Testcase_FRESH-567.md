@@ -69,7 +69,8 @@ tags:
 	| 1st day of test |       0II       |  G000X   |    P0001    |           |  5  | 1st day of test  | G000Y  |        002         |
 	| 1st day of test |       III       |  G000X   |    P0001    |           |  5  | 1st day of test  | G000Y  |        002         |
 
-=> the attribute is taken from the inout, NOT from the order!
+
+	=> the attribute is taken from the inout, NOT from the order!
 	
 1. Run the excel report for the purchase tracking again too:
 
@@ -79,7 +80,8 @@ tags:
 	| 1st day of test |        002         |  G000Y   |    P0001    |           | 10  | 1st day of test |       G000X       |       0II       |  5  |
 	| 1st day of test |        002         |  G000Y   |    P0001    |           | 10  | 1st day of test |       G000X       |       III       |  5  |
 
-=> the attribute is taken from the inout, NOT from the order!
+
+	=> the attribute is taken from the inout, NOT from the order!
 	
 1. Create 2 more sales orders, 0IV and 00V, for G000X and P0001, both with qty: 2
 
@@ -200,7 +202,7 @@ tags:
 	| 1st day of test |       VII       |  G000X   |    P0001    |           |  10 | 1st day of test | G000Y  |        006         |
 
 	
-=> Lieferdatum in the sales tracking = the delivery date of the material receipt of the purchase order, NOT of the inout of the sales order! therefore there is no additional line!
+	=> Lieferdatum in the sales tracking = the delivery date of the material receipt of the purchase order, NOT of the inout of the sales order! therefore there is no additional line!
 
 	
 1. Run the excel report for the purchase tracking again too:
@@ -218,7 +220,7 @@ tags:
 	| 1st day of test |        006         |  G000Y   |    P0001    |           | 10  | 2nd day of test |       G000X       |       VII       |  2  |
 
 	
-=> Lieferdatum in the purchase tracking = the delivery date of inout of the sales order, NOT of the material receipt of the purchase order ! therefore there is an additional line here!
+	=> Lieferdatum in the purchase tracking = the delivery date of inout of the sales order, NOT of the material receipt of the purchase order ! therefore there is an additional line here!
 	
 	
 1. Create one more sales order VIII for G000X and P0002, with qty: 10, product UOM: Kg, price UOM: Stk
@@ -244,7 +246,7 @@ tags:
 	| 2nd day of test |      VIII       |  G000X   |    P0002    |  CH       | Stk 	|	10 | 2nd day of test | G000Z  |        007         |
 	
 	
-=> the attribute is taken from the inout, NOT from the order! the price UOM is taken, not product UOM!
+	=> the attribute is taken from the inout, NOT from the order! the price UOM is taken, not product UOM!
 	
 1. Run the excel report for the purchase tracking again too:
 
@@ -262,7 +264,7 @@ tags:
 	| 2nd day of test |        007   |  G000Z   |    P0002    |           |  Kg |	10 | 2nd day of test |       G000X       |      VIII       |  5  |
 
 	
-=> the attribute is taken from the sales inout, NOT from the material receipt!
+	=> the attribute is taken from the sales inout, NOT from the material receipt!
 	
 1. In Kommissionier Terminal, select the other 1 HU from Wareneingang with Menge: 5, set attribute: CH for Herkunft in the HU Editor and create the inout from Lieferdispo (must be the same qty, attribute etc., so the inout is practically doubled!)
 
@@ -273,7 +275,7 @@ tags:
 	| 2nd day of test |      VIII       |  G000X   |    P0001    |   CH      |   Stk 	|	10  | 2nd day of test | G000Z  |        007         |
 
 	
-=> no added line for the 2nd inout and no sum, since the full qty & data of the sales order was already tracked with the 1st inout!
+	=> no added line for the 2nd inout and no sum, since the full qty & data of the sales order was already tracked with the 1st inout!
 
 1. Run the excel report for the purchase tracking again too, but filter for G000Z instead of P0001!:
 
@@ -282,4 +284,4 @@ tags:
 	| 2nd day of test |        007         |  G000Z   |    P0001    |           |    Kg 	|	10  | 2nd day of test |       G000X       |      VIII       | 10  |
 	
 	
-=> no added line for the 2nd inout, BUT increased Menge for the qty used in 2nd inout!
+	=> no added line for the 2nd inout, BUT increased Menge for the qty used in 2nd inout!
