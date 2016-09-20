@@ -141,9 +141,9 @@ For all of the above:
 
  **Sales Invoice**
  
- 1. Create a sales invoice for G0001 with a line for P0001
+1. Create a sales invoice for G0001 with a line for P0001
  
- 2. Step a.: Print preview from invoice
+2. Step a.: Print preview from invoice
 
 3. Step b.:     
     * => OK: When the PI1 was active, its name was displayed in the report
@@ -155,9 +155,9 @@ For all of the above:
 
  **Purchase Invoice**
  
- 1. Create a purchase invoice for G0002 with a line for P0001
+1. Create a purchase invoice for G0002 with a line for P0001
  
- 2. Step a.: Print preview from invoice
+2. Step a.: Print preview from invoice
 
 3. Step b.:     
     * => OK: When the PI1 was active, its name was displayed in the report
