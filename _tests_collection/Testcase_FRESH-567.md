@@ -12,6 +12,9 @@ tags:
 
 > Testcase to check the excel reports for tracking products which were purchased and sold.
 
+
+**Set Up**
+
 1. Make sure P0001 is used in CP and VP, for both G000X and G000Y, and there were no inouts on 1st day of test for those for P0001
 
 1. Run the excel reports for tracking, purchase and sales side:
@@ -22,6 +25,11 @@ tags:
 	* => report names are: Einkaufsstatistik for purchase and Verkaufsstatistik for sales (with name of org)
 	* => the filters you set are displayed in the report as well, with Filterkriterien: ... => to be done in a future task
 	
+	* => both reports are empty!
+
+	
+**I. Tracking test: orders, bpartners, qties**
+
 1. Create sales order 00I, for G000X, P0001, qty: 5
 
 1. Create purchase order 001, for G000Y, P0001, qty: 5
@@ -82,7 +90,10 @@ tags:
 
 
 	=> the attribute is taken from the inout, NOT from the order!
+
 	
+**II. Tracking test: orders, bpartners, qties with splitting HUs**
+
 1. Create 2 more sales orders, 0IV and 00V, for G000X and P0001, both with qty: 2
 
 1. Create another purchase order, 003, for G000Y and P0001, with qty: 4
@@ -185,7 +196,9 @@ tags:
 	| 1st day of test |        005         |  G000Y   |    P0001    |  3  | 1st day of test |       G000X       |       0VI       |  5  |
 	| 1st day of test |        006         |  G000Y   |    P0001    | 10  | 1st day of test |       G000X       |       VII       |  8  |
 
-	
+
+**III. Tracking test: orders, bpartners, qties on different days**	
+
 1. Select the remaining Menge: 2 in Kommissionier Terminal the NEXT DAY, and create the inout for that in Lieferdispo
 
 1. Run the excel report for sales tracking again:
@@ -221,8 +234,10 @@ tags:
 
 	
 	=> Lieferdatum in the purchase tracking = the delivery date of inout of the sales order, NOT of the material receipt of the purchase order ! therefore there is an additional line here!
+
 	
-	
+**IV. Tracking test: orders, bpartners, qties with different attributes and UOMs**	
+
 1. Create one more sales order VIII for G000X and P0002, with qty: 10, product UOM: Kg, price UOM: Stk
 
 1. Create a purchase order 007 for G000Z and P0002, with qty: 10,  product & price UOM: Kg
