@@ -19,8 +19,8 @@ tags:
 	* set org which will be used for the orders & inouts
 	* set P0001
 	* => both reports should be empty
-	* => report names are: Einkaufsstatistik for purchase and Verkaufsstatistik for sales
-	* => the filters you set are displayed in the report as well, with Filterkriterien: ...
+	* => report names are: Einkaufsstatistik for purchase and Verkaufsstatistik for sales (with name of org)
+	* => the filters you set are displayed in the report as well, with Filterkriterien: ... => to be done in a future task
 	
 1. Create sales order 00I, for G000X, P0001, qty: 5
 
