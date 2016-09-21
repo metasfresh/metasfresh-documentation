@@ -6,12 +6,11 @@ required data:
    pricelists: vendor pricelist VP   
 layout: default
 tags:
-  -
+  - UI
 ---
 ## #361 Request change for customer service
 
-> Testcase to check ...
-> ...
+> Testcase to check the changes of window request and the new async process for creating them for material receipts with issues.
 
 **New window layout**
 
