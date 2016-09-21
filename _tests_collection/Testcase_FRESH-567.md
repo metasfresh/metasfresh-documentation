@@ -41,16 +41,16 @@ tags:
 
 1. Run the excel report for sales tracking (note: not all columns are included!):
 
-	|     Datum     | Auftrags-Nr. | Geschäftspartner | Produkt-Nr. | Merkmal | Menge | Lieferdatum | Lieferant | Bestell-Nr. |
-	| :----------: | :-------------: | :------: | :---------: | :-------: | :-: | :-----------: | :----: | :----------------: |
-	| 1st day of test |       00I       |  G000X   |    P0001    |           |  5  | 1st day of test  | G000Y  |        001         |
+	|     Datum     | Auftrags-Nr. | Geschäftspartner | Produkt-Nr. | Menge | Lieferdatum | Lieferant | Bestell-Nr. |
+	| :----------: | :-------------: | :------: | :---------: | :-: | :-----------: | :----: | :----------------: |
+	| 1st day of test |       00I       |  G000X   |    P0001    |  5  | 1st day of test  | G000Y  |        001         |
 
 	
 1. Run the excel report for the purchase tracking too (note: not all columns are included!):
 
-	|       Datum       | Bestell-Nr. | Geschäftspartner | Produkt-Nr. | Merkmal | Menge |  Lieferdatum   | Lieferort | Auftrags-Nr. | Menge |
-	| :--------------: | :----------------: | :------: | :---------: | :-------: | :-: | :--------------: | :---------------: | :-------------: | :-: |
-	| 1st day of test |        001         |  G000Y   |    P0001    |           |  5  | 1st day of test |       G000X       |       00I       |  5  |
+	|       Datum       | Bestell-Nr. | Geschäftspartner | Produkt-Nr. | Menge |  Lieferdatum   | Lieferort | Auftrags-Nr. | Menge |
+	| :--------------: | :----------------: | :------: | :---------: | :-: | :--------------: | :---------------: | :-------------: | :-: |
+	| 1st day of test |        001         |  G000Y   |    P0001    |  5  | 1st day of test |       G000X       |       00I       |  5  |
 
 	
 1. Create 2 more sales orders, 0II and III, for G000X and P0001, both with qty: 5, set attribute: CH for Herkunft
@@ -63,22 +63,22 @@ tags:
 
 1. Run the excel report for sales tracking again:
 
-	|     Datum     | Auftrags-Nr. | Geschäftspartner | Produkt-Nr. | Merkmal | Menge | Lieferdatum | Lieferant | Bestell-Nr. |
-	| :----------: | :-------------: | :------: | :---------: | :-------: | :-: | :-----------: | :----: | :----------------: |
-	| 1st day of test |       00I       |  G000X   |    P0001 	  |           |  5  | 1st day of test  | G000Y  |        001         |
-	| 1st day of test |       0II       |  G000X   |    P0001    |           |  5  | 1st day of test  | G000Y  |        002         |
-	| 1st day of test |       III       |  G000X   |    P0001    |           |  5  | 1st day of test  | G000Y  |        002         |
+	|     Datum     | Auftrags-Nr. | Geschäftspartner | Produkt-Nr. | Menge | Lieferdatum | Lieferant | Bestell-Nr. |
+	| :----------: | :-------------: | :------: | :---------: | :-: | :-----------: | :----: | :----------------: |
+	| 1st day of test |       00I       |  G000X   |    P0001    |  5  | 1st day of test  | G000Y  |        001         |
+	| 1st day of test |       0II       |  G000X   |    P0001    |  5  | 1st day of test  | G000Y  |        002         |
+	| 1st day of test |       III       |  G000X   |    P0001    |  5  | 1st day of test  | G000Y  |        002         |
 
 
 	=> the attribute is taken from the inout, NOT from the order!
 	
 1. Run the excel report for the purchase tracking again too:
 
-	|       Datum       | Bestell-Nr. | Geschäftspartner | Produkt-Nr. | Merkmal | Menge |  Lieferdatum   | Lieferort | Auftrags-Nr. | Menge |
-	| :--------------: | :----------------: | :------: | :---------: | :-------: | :-: | :--------------: | :---------------: | :-------------: | :-: |
-	| 1st day of test |        001         |  G000Y   |    P0001    |           |  5  | 1st day of test |       G000X       |       00I       |  5  |
-	| 1st day of test |        002         |  G000Y   |    P0001    |           | 10  | 1st day of test |       G000X       |       0II       |  5  |
-	| 1st day of test |        002         |  G000Y   |    P0001    |           | 10  | 1st day of test |       G000X       |       III       |  5  |
+	|       Datum       | Bestell-Nr. | Geschäftspartner | Produkt-Nr. | Menge |  Lieferdatum   | Lieferort | Auftrags-Nr. | Menge |
+	| :--------------: | :----------------: | :------: | :---------: | :-: | :--------------: | :---------------: | :-------------: | :-: |
+	| 1st day of test |        001         |  G000Y   |    P0001    |  5  | 1st day of test |       G000X       |       00I       |  5  |
+	| 1st day of test |        002         |  G000Y   |    P0001    | 10  | 1st day of test |       G000X       |       0II       |  5  |
+	| 1st day of test |        002         |  G000Y   |    P0001    | 10  | 1st day of test |       G000X       |       III       |  5  |
 
 
 	=> the attribute is taken from the inout, NOT from the order!
@@ -95,24 +95,24 @@ tags:
 
 1. Run the excel report for sales tracking again:
 
-	|     Datum     | Auftrags-Nr. | Geschäftspartner | Produkt-Nr. | Merkmal | Menge | Lieferdatum | Lieferant | Bestell-Nr. |
-	| :----------: | :-------------: | :------: | :---------: | :-------: | :-: | :-----------: | :----: | :----------------: |
-	| 1st day of test |       00I       |  G000X   |    P0001    |           |  5  | 1st day of test  | G000Y  |        001         |
-	| 1st day of test |       0II       |  G000X   |    P0001    |           |  5  | 1st day of test  | G000Y  |        002         |
-	| 1st day of test |       III       |  G000X   |    P0001    |           |  5  | 1st day of test  | G000Y  |        002         |
-	| 1st day of test |       0IV       |  G000X   |    P0001    |           |  2  | 1st day of test  | G000Y  |        003         |
-	| 1st day of test |       00V       |  G000X   |    P0001    |           |  2  | 1st day of test  | G000Y  |        003         |
+	|     Datum     | Auftrags-Nr. | Geschäftspartner | Produkt-Nr. | Menge | Lieferdatum | Lieferant | Bestell-Nr. |
+	| :----------: | :-------------: | :------: | :---------: | :-: | :-----------: | :----: | :----------------: |
+	| 1st day of test |       00I       |  G000X   |    P0001    |  5  | 1st day of test  | G000Y  |        001         |
+	| 1st day of test |       0II       |  G000X   |    P0001    |  5  | 1st day of test  | G000Y  |        002         |
+	| 1st day of test |       III       |  G000X   |    P0001    |  5  | 1st day of test  | G000Y  |        002         |
+	| 1st day of test |       0IV       |  G000X   |    P0001    |  2  | 1st day of test  | G000Y  |        003         |
+	| 1st day of test |       00V       |  G000X   |    P0001    |  2  | 1st day of test  | G000Y  |        003         |
 	
 
 1. Run the excel report for the purchase tracking again too:
 
-	|       Datum       | Bestell-Nr. | Geschäftspartner | Produkt-Nr. | Merkmal | Menge |  Lieferdatum   | Lieferort | Auftrags-Nr. | Menge |
-	| :--------------: | :----------------: | :------: | :---------: | :-------: | :-: | :--------------: | :---------------: | :-------------: | :-: |
-	| 1st day of test |        001         |  G000Y   |    P0001    |           |  5  | 1st day of test |       G000X       |       00I       |  5  |
-	| 1st day of test |        002         |  G000Y   |    P0001    |           | 10  | 1st day of test |       G000X       |       0II       |  5  |
-	| 1st day of test |        002         |  G000Y   |    P0001    |           | 10  | 1st day of test |       G000X       |       III       |  5  |
-	| 1st day of test |        003         |  G000Y   |    P0001    |           |  4  | 1st day of test |       G000X       |       0IV       |  2  |
-	| 1st day of test |        003         |  G000Y   |    P0001    |           |  4  | 1st day of test |       G000X       |       00V       |  2  |
+	|       Datum       | Bestell-Nr. | Geschäftspartner | Produkt-Nr. | Menge |  Lieferdatum   | Lieferort | Auftrags-Nr. | Menge |
+	| :--------------: | :----------------: | :------: | :---------: | :-: | :--------------: | :---------------: | :-------------: | :-: |
+	| 1st day of test |        001         |  G000Y   |    P0001    |  5  | 1st day of test |       G000X       |       00I       |  5  |
+	| 1st day of test |        002         |  G000Y   |    P0001    | 10  | 1st day of test |       G000X       |       0II       |  5  |
+	| 1st day of test |        002         |  G000Y   |    P0001    | 10  | 1st day of test |       G000X       |       III       |  5  |
+	| 1st day of test |        003         |  G000Y   |    P0001    |  4  | 1st day of test |       G000X       |       0IV       |  2  |
+	| 1st day of test |        003         |  G000Y   |    P0001    |  4  | 1st day of test |       G000X       |       00V       |  2  |
 
 1. Create another sales order, 0VI for G000X and P0001, with qty: 5
 
@@ -124,28 +124,28 @@ tags:
 
 1. Run the excel report for sales tracking again:
 
-	|     Datum     | Auftrags-Nr. | Geschäftspartner | Produkt-Nr. | Merkmal | Menge | Lieferdatum | Lieferant | Bestell-Nr. |
-	| :----------: | :-------------: | :------: | :---------: | :-------: | :-: | :-----------: | :----: | :----------------: |
-	| 1st day of test |       00I       |  G000X   |    P0001    |           |  5  | 1st day of test  | G000Y  |        001         |
-	| 1st day of test |       0II       |  G000X   |    P0001    |           |  5  | 1st day of test  | G000Y  |        002         |
-	| 1st day of test |       III       |  G000X   |    P0001    |           |  5  | 1st day of test  | G000Y  |        002         |
-	| 1st day of test |       0IV       |  G000X   |    P0001    |           |  2  | 1st day of test  | G000Y  |        003         |
-	| 1st day of test |       00V       |  G000X   |    P0001    |           |  2  | 1st day of test  | G000Y  |        003         |
-	| 1st day of test |       0VI       |  G000X   |    P0001    |           |  5  | 1st day of test  | G000Y  |        004         |
-	| 1st day of test |       0VI       |  G000X   |    P0001    |           |  5  | 1st day of test  | G000Y  |        005         |
+	|     Datum     | Auftrags-Nr. | Geschäftspartner | Produkt-Nr. | Menge | Lieferdatum | Lieferant | Bestell-Nr. |
+	| :----------: | :-------------: | :------: | :---------: | :-: | :-----------: | :----: | :----------------: |
+	| 1st day of test |       00I       |  G000X   |    P0001    |  5  | 1st day of test  | G000Y  |        001         |
+	| 1st day of test |       0II       |  G000X   |    P0001    |  5  | 1st day of test  | G000Y  |        002         |
+	| 1st day of test |       III       |  G000X   |    P0001    |  5  | 1st day of test  | G000Y  |        002         |
+	| 1st day of test |       0IV       |  G000X   |    P0001    |  2  | 1st day of test  | G000Y  |        003         |
+	| 1st day of test |       00V       |  G000X   |    P0001    |  2  | 1st day of test  | G000Y  |        003         |
+	| 1st day of test |       0VI       |  G000X   |    P0001    |  5  | 1st day of test  | G000Y  |        004         |
+	| 1st day of test |       0VI       |  G000X   |    P0001    |  5  | 1st day of test  | G000Y  |        005         |
 	
 	
 1. Run the excel report for the purchase tracking again too:
 
-	|       Datum       | Bestell-Nr. | Geschäftspartner | Produkt-Nr. | Merkmal | Menge |  Lieferdatum   | Lieferort | Auftrags-Nr. | Menge |
-	| :--------------: | :----------------: | :------: | :---------: | :-------: | :-: | :--------------: | :---------------: | :-------------: | :-: |
-	| 1st day of test |        001         |  G000Y   |    P0001    |           |  5  | 1st day of test |       G000X       |       00I       |  5  |
-	| 1st day of test |        002         |  G000Y   |    P0001    |           | 10  | 1st day of test |       G000X       |       0II       |  5  |
-	| 1st day of test |        002         |  G000Y   |    P0001    |           | 10  | 1st day of test |       G000X       |       III       |  5  |
-	| 1st day of test |        003         |  G000Y   |    P0001    |           |  4  | 1st day of test |       G000X       |       0IV       |  2  |
-	| 1st day of test |        003         |  G000Y   |    P0001    |           |  4  | 1st day of test |       G000X       |       00V       |  2  |
-	| 1st day of test |        004         |  G000Y   |    P0001    |           |  2  | 1st day of test |       G000X       |       0VI       |  5  |
-	| 1st day of test |        005         |  G000Y   |    P0001    |           |  3  | 1st day of test |       G000X       |       0VI       |  5  |
+	|       Datum       | Bestell-Nr. | Geschäftspartner | Produkt-Nr. | Menge |  Lieferdatum   | Lieferort | Auftrags-Nr. | Menge |
+	| :--------------: | :----------------: | :------: | :---------: | :-: | :--------------: | :---------------: | :-------------: | :-: |
+	| 1st day of test |        001         |  G000Y   |    P0001    |  5  | 1st day of test |       G000X       |       00I       |  5  |
+	| 1st day of test |        002         |  G000Y   |    P0001    | 10  | 1st day of test |       G000X       |       0II       |  5  |
+	| 1st day of test |        002         |  G000Y   |    P0001    | 10  | 1st day of test |       G000X       |       III       |  5  |
+	| 1st day of test |        003         |  G000Y   |    P0001    |  4  | 1st day of test |       G000X       |       0IV       |  2  |
+	| 1st day of test |        003         |  G000Y   |    P0001    |  4  | 1st day of test |       G000X       |       00V       |  2  |
+	| 1st day of test |        004         |  G000Y   |    P0001    |  2  | 1st day of test |       G000X       |       0VI       |  5  |
+	| 1st day of test |        005         |  G000Y   |    P0001    |  3  | 1st day of test |       G000X       |       0VI       |  5  |
 
 	
 1. Create another sales order, VII for G000X and P0001, with qty: 10
@@ -160,46 +160,46 @@ tags:
 
 1. Run the excel report for sales tracking again:
 
-	|       Datum       | Auftrags-Nr. | Geschäftspartner | Produkt-Nr. | Merkmal | Menge |  Lieferdatum   | Lieferant | Bestell-Nr. |
-	| :--------------: | :-------------: | :------: | :---------: | :-------: | :-: | :--------------: | :----: | :----------------: |
-	| 1st day of test |       00I       |  G000X   |    P0001    |           |  5  | 1st day of test | G000Y  |        001         |
-	| 1st day of test |       0II       |  G000X   |    P0001    |           |  5  | 1st day of test | G000Y  |        002         |
-	| 1st day of test |       III       |  G000X   |    P0001    |           |  5  | 1st day of test | G000Y  |        002         |
-	| 1st day of test |       0IV       |  G000X   |    P0001    |           |  2  | 1st day of test | G000Y  |        003         |
-	| 1st day of test |       00V       |  G000X   |    P0001    |           |  2  | 1st day of test | G000Y  |        003         |
-	| 1st day of test |       0VI       |  G000X   |    P0001    |           |  5  | 1st day of test | G000Y  |        004         |
-	| 1st day of test |       0VI       |  G000X   |    P0001    |           |  5  | 1st day of test | G000Y  |        005         |
-	| 1st day of test |       VII       |  G000X   |    P0001    |           |  10 | 1st day of test | G000Y  |        006         |
+	|       Datum       | Auftrags-Nr. | Geschäftspartner | Produkt-Nr. | Menge |  Lieferdatum   | Lieferant | Bestell-Nr. |
+	| :--------------: | :-------------: | :------: | :---------: | :-: | :--------------: | :----: | :----------------: |
+	| 1st day of test |       00I       |  G000X   |    P0001    |  5  | 1st day of test | G000Y  |        001         |
+	| 1st day of test |       0II       |  G000X   |    P0001    |  5  | 1st day of test | G000Y  |        002         |
+	| 1st day of test |       III       |  G000X   |    P0001    |  5  | 1st day of test | G000Y  |        002         |
+	| 1st day of test |       0IV       |  G000X   |    P0001    |  2  | 1st day of test | G000Y  |        003         |
+	| 1st day of test |       00V       |  G000X   |    P0001    |  2  | 1st day of test | G000Y  |        003         |
+	| 1st day of test |       0VI       |  G000X   |    P0001    |  5  | 1st day of test | G000Y  |        004         |
+	| 1st day of test |       0VI       |  G000X   |    P0001    |  5  | 1st day of test | G000Y  |        005         |
+	| 1st day of test |       VII       |  G000X   |    P0001    |  10 | 1st day of test | G000Y  |        006         |
 
 	
 1. Run the excel report for the purchase tracking again too:
 
-	|       Datum       | Bestell-Nr. | Geschäftspartner | Produkt-Nr. | Merkmal | Menge |  Lieferdatum   | Lieferort | Auftrags-Nr. | Menge |
-	| :--------------: | :----------------: | :------: | :---------: | :-------: | :-: | :--------------: | :---------------: | :-------------: | :-: |
-	| 1st day of test |        001         |  G000Y   |    P0001    |           |  5  | 1st day of test |       G000X       |       00I       |  5  |
-	| 1st day of test |        002         |  G000Y   |    P0001    |           | 10  | 1st day of test |       G000X       |       0II       |  5  |
-	| 1st day of test |        002         |  G000Y   |    P0001    |           | 10  | 1st day of test |       G000X       |       III       |  5  |
-	| 1st day of test |        003         |  G000Y   |    P0001    |           |  4  | 1st day of test |       G000X       |       0IV       |  2  |
-	| 1st day of test |        003         |  G000Y   |    P0001    |           |  4  | 1st day of test |       G000X       |       00V       |  2  |
-	| 1st day of test |        004         |  G000Y   |    P0001    |           |  2  | 1st day of test |       G000X       |       0VI       |  5  |
-	| 1st day of test |        005         |  G000Y   |    P0001    |           |  3  | 1st day of test |       G000X       |       0VI       |  5  |
-	| 1st day of test |        006         |  G000Y   |    P0001    |           | 10  | 1st day of test |       G000X       |       VII       |  8  |
+	|       Datum       | Bestell-Nr. | Geschäftspartner | Produkt-Nr. | Menge |  Lieferdatum   | Lieferort | Auftrags-Nr. | Menge |
+	| :--------------: | :----------------: | :------: | :---------: | :-: | :--------------: | :---------------: | :-------------: | :-: |
+	| 1st day of test |        001         |  G000Y   |    P0001    |  5  | 1st day of test |       G000X       |       00I       |  5  |
+	| 1st day of test |        002         |  G000Y   |    P0001    | 10  | 1st day of test |       G000X       |       0II       |  5  |
+	| 1st day of test |        002         |  G000Y   |    P0001    | 10  | 1st day of test |       G000X       |       III       |  5  |
+	| 1st day of test |        003         |  G000Y   |    P0001    |  4  | 1st day of test |       G000X       |       0IV       |  2  |
+	| 1st day of test |        003         |  G000Y   |    P0001    |  4  | 1st day of test |       G000X       |       00V       |  2  |
+	| 1st day of test |        004         |  G000Y   |    P0001    |  2  | 1st day of test |       G000X       |       0VI       |  5  |
+	| 1st day of test |        005         |  G000Y   |    P0001    |  3  | 1st day of test |       G000X       |       0VI       |  5  |
+	| 1st day of test |        006         |  G000Y   |    P0001    | 10  | 1st day of test |       G000X       |       VII       |  8  |
 
 	
 1. Select the remaining Menge: 2 in Kommissionier Terminal the NEXT DAY, and create the inout for that in Lieferdispo
 
 1. Run the excel report for sales tracking again:
 
-	|       Datum       | Auftrags-Nr. | Geschäftspartner | Produkt-Nr. | Merkmal | Menge |  Lieferdatum   | Lieferant | Bestell-Nr. |
-	| :--------------: | :-------------: | :------: | :---------: | :-------: | :-: | :--------------: | :----: | :----------------: |
-	| 1st day of test |       00I       |  G000X   |    P0001    |           |  5  | 1st day of test | G000Y  |        001         |
-	| 1st day of test |       0II       |  G000X   |    P0001    |           |  5  | 1st day of test | G000Y  |        002         |
-	| 1st day of test |       III       |  G000X   |    P0001    |           |  5  | 1st day of test | G000Y  |        002         |
-	| 1st day of test |       0IV       |  G000X   |    P0001    |           |  2  | 1st day of test | G000Y  |        003         |
-	| 1st day of test |       00V       |  G000X   |    P0001    |           |  2  | 1st day of test | G000Y  |        003         |
-	| 1st day of test |       0VI       |  G000X   |    P0001    |           |  5  | 1st day of test | G000Y  |        004         |
-	| 1st day of test |       0VI       |  G000X   |    P0001    |           |  5  | 1st day of test | G000Y  |        005         |
-	| 1st day of test |       VII       |  G000X   |    P0001    |           |  10 | 1st day of test | G000Y  |        006         |
+	|       Datum       | Auftrags-Nr. | Geschäftspartner | Produkt-Nr. | Menge |  Lieferdatum   | Lieferant | Bestell-Nr. |
+	| :--------------: | :-------------: | :------: | :---------: | :-: | :--------------: | :----: | :----------------: |
+	| 1st day of test |       00I       |  G000X   |    P0001    |  5  | 1st day of test | G000Y  |        001         |
+	| 1st day of test |       0II       |  G000X   |    P0001    |  5  | 1st day of test | G000Y  |        002         |
+	| 1st day of test |       III       |  G000X   |    P0001    |  5  | 1st day of test | G000Y  |        002         |
+	| 1st day of test |       0IV       |  G000X   |    P0001    |  2  | 1st day of test | G000Y  |        003         |
+	| 1st day of test |       00V       |  G000X   |    P0001    |  2  | 1st day of test | G000Y  |        003         |
+	| 1st day of test |       0VI       |  G000X   |    P0001    |  5  | 1st day of test | G000Y  |        004         |
+	| 1st day of test |       0VI       |  G000X   |    P0001    |  5  | 1st day of test | G000Y  |        005         |
+	| 1st day of test |       VII       |  G000X   |    P0001    |  10 | 1st day of test | G000Y  |        006         |
 
 	
 	=> Lieferdatum in the sales tracking = the delivery date of the material receipt of the purchase order, NOT of the inout of the sales order! therefore there is no additional line!
@@ -207,17 +207,17 @@ tags:
 	
 1. Run the excel report for the purchase tracking again too:
 
-	|       Datum       | Bestell-Nr. | Geschäftspartner | Produkt-Nr. | Merkmal | Menge |  Lieferdatum   | Lieferort | Auftrags-Nr. | Menge |
-	| :--------------: | :----------------: | :------: | :---------: | :-------: | :-: | :--------------: | :---------------: | :-------------: | :-: |
-	| 1st day of test |        001         |  G000Y   |    P0001    |           |  5  | 1st day of test |       G000X       |       00I       |  5  |
-	| 1st day of test |        002         |  G000Y   |    P0001    |           | 10  | 1st day of test |       G000X       |       0II       |  5  |
-	| 1st day of test |        002         |  G000Y   |    P0001    |           | 10  | 1st day of test |       G000X       |       III       |  5  |
-	| 1st day of test |        003         |  G000Y   |    P0001    |           |  4  | 1st day of test |       G000X       |       0IV       |  2  |
-	| 1st day of test |        003         |  G000Y   |    P0001    |           |  4  | 1st day of test |       G000X       |       00V       |  2  |
-	| 1st day of test |        004         |  G000Y   |    P0001    |           |  2  | 1st day of test |       G000X       |       0VI       |  5  |
-	| 1st day of test |        005         |  G000Y   |    P0001    |           |  3  | 1st day of test |       G000X       |       0VI       |  5  |
-	| 1st day of test |        006         |  G000Y   |    P0001    |           | 10  | 1st day of test |       G000X       |       VII       |  8  |
-	| 1st day of test |        006         |  G000Y   |    P0001    |           | 10  | 2nd day of test |       G000X       |       VII       |  2  |
+	|       Datum       | Bestell-Nr. | Geschäftspartner | Produkt-Nr. | Menge |  Lieferdatum   | Lieferort | Auftrags-Nr. | Menge |
+	| :--------------: | :----------------: | :------: | :---------: | :-: | :--------------: | :---------------: | :-------------: | :-: |
+	| 1st day of test |        001         |  G000Y   |    P0001    |  5  | 1st day of test |       G000X       |       00I       |  5  |
+	| 1st day of test |        002         |  G000Y   |    P0001    | 10  | 1st day of test |       G000X       |       0II       |  5  |
+	| 1st day of test |        002         |  G000Y   |    P0001    | 10  | 1st day of test |       G000X       |       III       |  5  |
+	| 1st day of test |        003         |  G000Y   |    P0001    |  4  | 1st day of test |       G000X       |       0IV       |  2  |
+	| 1st day of test |        003         |  G000Y   |    P0001    |  4  | 1st day of test |       G000X       |       00V       |  2  |
+	| 1st day of test |        004         |  G000Y   |    P0001    |  2  | 1st day of test |       G000X       |       0VI       |  5  |
+	| 1st day of test |        005         |  G000Y   |    P0001    |  3  | 1st day of test |       G000X       |       0VI       |  5  |
+	| 1st day of test |        006         |  G000Y   |    P0001    | 10  | 1st day of test |       G000X       |       VII       |  8  |
+	| 1st day of test |        006         |  G000Y   |    P0001    | 10  | 2nd day of test |       G000X       |       VII       |  2  |
 
 	
 	=> Lieferdatum in the purchase tracking = the delivery date of inout of the sales order, NOT of the material receipt of the purchase order ! therefore there is an additional line here!
