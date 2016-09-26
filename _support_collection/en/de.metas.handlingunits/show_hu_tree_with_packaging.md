@@ -2,7 +2,7 @@
 title: Show a HUs with their packaging, quantity and consumer products
 component: de.metas.handlingunits
 tags: 
-  - support
+  - Support
   - handling units
   - sql
 lang: en

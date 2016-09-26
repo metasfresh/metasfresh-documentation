@@ -2,7 +2,7 @@
 title: Turn Waschproben (Quality Inspections) into normal PP_Orders (also works the other way round)
 component: de.metas.materialtracking
 tags: 
-  - support
+  - Support
   - sql
 lang: en
 layout: default

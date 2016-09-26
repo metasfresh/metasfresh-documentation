@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Kurzanleitungen
+title: Short Howtos and Tutorials
 lang: en
 ---
 
