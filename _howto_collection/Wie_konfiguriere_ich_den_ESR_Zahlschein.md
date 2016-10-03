@@ -23,5 +23,6 @@ Der Geschäftspartner der Organisation muss eine Schweizer Adresse haben damit d
 ## Einrichtung Bankkonto
 
 Damit der ESR Zahlschein-String erstellt werden kann braucht es ein ESR Konto beim Geschäftspartner der Organisation:
+
 1. Feld **ESR-Konto** aktivieren
 1. Feld **ESR-Teilnehmer Nummer** füllen. z.B. 1-23456-7
