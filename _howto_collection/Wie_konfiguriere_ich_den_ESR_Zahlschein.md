@@ -1,8 +1,8 @@
 ---
-title: Wie kann ich bestehende Produktzuordnungen für die Gegenbelegerstellung einsehen ?
+title: Wie konfiguriere ich den ESR Zahlschein ?
 layout: default
 tags:
-  - Stammdaten
+  - Systemadministration
   - ESR
 lang: de
 ---
