@@ -15,7 +15,9 @@ lang: de
 
 Option 1 - SQL Script verwenden
 
-``` update ad_sysconfig  set value = 'Y' where name ='de.metas.payment.esr.Enabled';
+```
+update ad_sysconfig  set value = 'Y' where name ='de.metas.payment.esr.Enabled';
+```
 
 Option 2 - manuell
 
