@@ -8,9 +8,12 @@ lang: de
 ---
 ## Vorbereitung
 1. [Es existiert ein Produkt namens "Ergebnis" das hergestellt werden soll](Wie_lege_ich_ein_neues_Produkt_an)
-1. [Stückliste anlegen](Wie_erstelle_ich_eine_Rezeptur_Stückliste)
-1. [Produktionsressource existiert](Wie_erstelle_ich_eine_Produktionsressource)
-1. [Ein Arbeitsablauf wurde eingestellt](Wie_erstelle_ich_einen_Arbeitsablauf)
+1. [Stückliste erstellen](Wie_erstelle_ich_eine_Rezeptur_Stückliste)
+1. [Produktionsressource erstellen](Wie_erstelle_ich_eine_Produktionsressource)
+1. [Arbeitsablauf erstellen](Wie_erstelle_ich_einen_Arbeitsablauf)
+1. [Gebindelager einrichten](Wie_richte_ich_ein_Gebindelager_ein)
+1. [Warenverteilung für Gebindelager konfigurieren](Wie_richte_ich_eine_automatische_warenverteilung_fuer_Leergebinde_ein)
+
 
 ## Schritte
 1. [Fenster "Produkt Plandaten" öffnen](Wie_finde_und_öffne_ich_ein_Fenster)
