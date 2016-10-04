@@ -15,8 +15,7 @@ lang: de
 
 Option 1 - SQL Script verwenden
 
-```
-update ad_sysconfig  set value = 'Y' where name ='de.metas.payment.esr.Enabled';
+``` update ad_sysconfig  set value = 'Y' where name ='de.metas.payment.esr.Enabled';
 
 Option 2 - manuell
 
@@ -44,7 +43,7 @@ Option 2 - manuell
 1. setzen den Haken ebenfalls im unteren Register "assigned tables"
 1. [Speichern](Wie_lege_ich_einen_neuen_datensatz_an)
 
-![img](...\images\de_reference_number_type.png)
+![img](..\images\de_reference_number_type.png)
 
 ### Server Neustart
 1. starte den Anwendungsserver einmal neu
