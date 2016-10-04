@@ -6,8 +6,9 @@ layout: default
 tags:
   - UI
 ---
-## #395 Add Description in Jasper Invoice Vendor
+## #423 Dropdown List shows wrong records on rare cases
 
+> Testcase to check if dropdown list shows correct records.
 
 1. Open window Preise
 
