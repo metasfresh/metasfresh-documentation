@@ -1,5 +1,5 @@
 ---
-title: IT FRESH-689
+title: IT FRESH-708
 required data:
    pricelists: customer pricelist CP or vendor pricelist VP   
 layout: default
