@@ -3,7 +3,7 @@ layout: default
 title: Troubleshooting
 tags: developers_troubleshooting
 sequence: 10 
-summary: Solving problems that might arise when traing to run metasfresh from eclipse
+summary: Solving problems that might arise when trying to run metasfresh from eclipse
 lang: en
 ref: developers_troubleshooting
 ---
