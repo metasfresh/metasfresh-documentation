@@ -22,7 +22,7 @@
 	|										|Prices									|From BL							|From BL								|de.metas.invoice			|																	|	
 	|C_UOM_ID								|PriceEntered							|From BL							|From BL								|de.metas.invoice			|																	|	
 	|										|QtyInvoiced							|From BL							|From BL								|de.metas.invoice			|																	|	
-	|Discount								|Prices									|From BL							|From BL								|de.metas.invoice			|If IsManual=Y then the pricing engine won't change the discount 	|
+	|Discount								|Prices									|From BL							|From BL								|de.metas.invoice			|IfÂ IsManual=YÂ then the pricing engine won't change the discount 	|
 	|M_AttributeSetInstance_ID				|Prices									|From BL							|From BL								|de.metas.invoice			|																	|	
 	|Price_UOM_ID							|QtyInvoicedInPriceUOM					|From BL							|From BL								|de.metas.invoice			|																	|	
 	|										|LineNetAmt								|From BL							|From BL								|de.metas.invoice			|																	|	
