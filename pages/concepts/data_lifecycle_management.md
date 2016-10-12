@@ -341,7 +341,7 @@ Further reading:
 * `DLM_Partion_Config`
   * contains "header" data
 
-* DLM_Partion_Config_Version
+* `DLM_Partion_Config_Version`
   * `DLM_Partion_Config_ID`: link to parent table
   * `Processed` (see below)
   
