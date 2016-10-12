@@ -24,6 +24,9 @@ Note: the "Eclipse IDE for Java Developers" will probably do. We found that at l
  - choosing the location of your working copies 
  - and let eclipse do the rest
 
+* Note that if often happens that an eclipse project needs to be refreshed from its respective maven `pom.xml`. This can be done with the shortcut `Alt-F5` or via right-click on the project in question, and then:
+![developers_getting_started_ide_maven_update_project]({{ site.github.url }}/images/developers/developers_getting_started_ide_maven_update_project.png)
+ 
 * Starting the server and client:
  - Start the server: use de.metas.ServerBoot_mf15 launcher (or de.metas.ServerBoot_mf15_jrebel)
  - Start the client: use de.metas.SwingUIApplication_mf15 launcher (or de.metas.SwingUIApplication_mf15_jrebel)
