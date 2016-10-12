@@ -1,5 +1,8 @@
+﻿
+1. Invoice callout behaviour
 
-1. Invoice callout behaviour 
+The following table contains the info about imediate changes that some column setting and unsetting interfere with other column values:
+
 	|	Modified column						|	What changes						|	How it changes on removal		|	How it changes on set				|	Implementation          |	Notes										 					|
 	| --------------------------------------|:-------------------------------------:|:---------------------------------:|:-------------------------------------:|:-------------------------:|:-----------------------------------------------------------------:|
 	|C_OrderLine							|IsPackagingMaterial					|False								|Value from orderLine					| de.metas.invoice 			|																	|
@@ -17,7 +20,7 @@
 	|C_Charge_ID							|M_Product_ID							|nothing							|-1										|de.metas.invoice			|																	|
 	|										|C_OrderLine_ID							|nothing							|-1										|de.metas.invoice			|																	|
 	|										|M_AttributeSetIntnce_ID				|nothing							|-1										|de.metas.invoice			|																	|
-	|Tax_ID									|TaxAmt									|From BL							|From BL								|de.metas.invoice			|we calculate the tax at document level, so this is just for info.	|
+	|Tax_ID									|TaxAmt									|From BL							|From BL								|de.metas.invoice			|We calculate the tax at document level, so this is just for info.	|
 	|										|LineNetAmt								|From BL							|From BL								|de.metas.invoice			|																	|
 	|										|Prices									|From BL							|From BL								|de.metas.invoice			|																	|	
 	|C_UOM_ID								|PriceEntered							|From BL							|From BL								|de.metas.invoice			|																	|	
@@ -35,7 +38,7 @@
 	|QtyEntered								|Prices									|From BL							|From BL								|de.metas.invoice			|																	|	
 	|										|LineNetAmt								|From BL							|From BL								|de.metas.invoice			|																	|	
 	|QtyEnteredTU							|Prices									|From BL							|From BL								|de.metas.handlingunits		|																	|	
-	|QtyEnteredTU							|LineNetAmt								|From BL							|From BL								|de.metas.handlingunits		|																	|	
+	|										|LineNetAmt								|From BL							|From BL								|de.metas.handlingunits		|																	|	
 
 2. Pricing relevant properties
     * PriceActual
