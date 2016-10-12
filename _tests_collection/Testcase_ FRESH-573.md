@@ -40,7 +40,7 @@ layout: default
 
 9. go to sales order, filter the ones which were done today
 	* => new sales order created, in progress, for G000Y (org2), organisation org1, product P0001 (org1)
-	* => in orderline, the packing instruction is TU B 
+	* => in orderline, the packing instruction is TU A
 	
 **Sales order to purchase order**
 
@@ -72,4 +72,4 @@ layout: default
 
 9. go to purchase order, filter the ones which were done today
 	* => new purchase order created, in progress, for G000Y (org2), organisation org1, product P0001 (org1)
-	* => in orderline, the packing instruction is TU B 
+	* => in orderline, the packing instruction is TU A
