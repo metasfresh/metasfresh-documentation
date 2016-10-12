@@ -1,8 +1,11 @@
 
 1. Invoice callout behaviour 
+
+Callout interdependencies in invoice line:
+
 	|	Modified column						|	What changes						|	How it changes on removal		|	How it changes on set				|	Implementation          |	Notes										 					|
 	| --------------------------------------|:-------------------------------------:|:---------------------------------:|:-------------------------------------:|:-------------------------:|:-----------------------------------------------------------------:|
-	|C_OrderLine							|IsPackagingMaterial					|False								|Value from orderLine					| de.metas.invoice 			|																	|
+	|C_OrderLine							|IsPackagingMaterial					|False								|Value from orderLine					|de.metas.invoice 			|																	|
 	|										|M_AttributeSetInstance_ID				| -1								|Value from orderLine					|de.metas.invoice			|																	|
 	|										|M_Product_ID							|-1									|Value from orderLine					|de.metas.invoice			|																	|
 	|										|QtyEntered								|0									|Value from orderLine					|de.metas.invoice			|																	|
@@ -22,7 +25,7 @@
 	|										|Prices									|From BL							|From BL								|de.metas.invoice			|																	|	
 	|C_UOM_ID								|PriceEntered							|From BL							|From BL								|de.metas.invoice			|																	|	
 	|										|QtyInvoiced							|From BL							|From BL								|de.metas.invoice			|																	|	
-	|Discount								|Prices									|From BL							|From BL								|de.metas.invoice			|If IsManual=Y then the pricing engine won't change the discount 	|
+	|Discount								|Prices									|From BL							|From BL								|de.metas.invoice			|If IsManual=Y then the pricing engine won't change the discount 	  |
 	|M_AttributeSetInstance_ID				|Prices									|From BL							|From BL								|de.metas.invoice			|																	|	
 	|Price_UOM_ID							|QtyInvoicedInPriceUOM					|From BL							|From BL								|de.metas.invoice			|																	|	
 	|										|LineNetAmt								|From BL							|From BL								|de.metas.invoice			|																	|	
