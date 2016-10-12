@@ -1,6 +1,6 @@
 
 1. Invoice callout behaviour 
-|	Modified column						|	What changes						|	How it changes on removal		|	How it changes on set				|	Implementation          |	Notes										 					|
+	|	Modified column						|	What changes						|	How it changes on removal		|	How it changes on set				|	Implementation          |	Notes										 					|
 	| --------------------------------------|:-------------------------------------:|:---------------------------------:|:-------------------------------------:|:-------------------------:|:-----------------------------------------------------------------:|
 	|C_OrderLine							|IsPackagingMaterial					|False								|Value from orderLine					| de.metas.invoice 			|																	|
 	|										|M_AttributeSetInstance_ID				| -1								|Value from orderLine					|de.metas.invoice			|																	|
