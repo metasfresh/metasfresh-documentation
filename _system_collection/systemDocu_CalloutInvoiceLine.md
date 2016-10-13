@@ -5,7 +5,6 @@ The following table contains the info about imediate changes that some column se
 
 <table style="height: 275px;" width="678">
 <tbody>
-
 <tr>
 <td>Modified column</td>
 <td>What changes</td>
