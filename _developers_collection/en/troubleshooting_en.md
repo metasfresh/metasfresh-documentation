@@ -8,7 +8,7 @@ lang: en
 ref: developers_troubleshooting
 ---
 
-This article assumes that you more or less followed the "Getting Started" documentation, but ran into problems.
+This article assumes that you more or less followed the "Getting Started" documentation, and ran into problems.
 
 ## Eclipse doesn't properly show java packages and classes
 

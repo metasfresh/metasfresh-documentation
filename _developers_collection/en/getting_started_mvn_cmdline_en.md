@@ -20,11 +20,12 @@ and of course we would be gratefull for any contributor which are good with mave
 # Install the build system
 
 In order to locally build metasfresh, you need to install maven. 
-Go to https://maven.apache.org/ and get the latest version (currently this is version 3.3.9)
+Go to [https://maven.apache.org/](https://maven.apache.org/) and get the latest version (currently this is version 3.3.9)
+
 * Please install maven, following this documentation.
 In this example, I'm extracting it into ```C:\development\maven\```.
 
-*Set the following environment variables:
+* Set the following environment variables:
 ```
 MAVEN_HOME=C:\development\maven\apache-maven-3.3.9
 MAVEN_OPTS=-Xmx1024m -XX:MaxPermSize=256M
@@ -33,7 +34,7 @@ MAVEN_OPTS=-Xmx1024m -XX:MaxPermSize=256M
 # Build the main part
 
 This section is about building the biggest part of metasfresh. 
-If you just get through this section, you can aready be sure that there are no missing dependencies.
+If you just get through this section, you can already be sure that there are no missing dependencies.
 
 Once maven is installed, open a command line window, `cd` into your working copy of the metasfresh-parent repo and run
 ```
