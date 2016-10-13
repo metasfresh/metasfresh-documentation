@@ -27,18 +27,18 @@ Note: the "Eclipse IDE for Java Developers" will probably do. We found that at l
 * Make sure that you java the ***Java*** perspective open, not the Java EE perspective.
 * If you intend to contribute changes, we recomment that you check out the [metasfresh-eclipse-config](https://github.com/metasfresh/metasfresh-eclipse-config) repository.
 * Now you can import the code by 
- - switching to the workbench, right-clicking into the Package Explorer (on the left of the eclipse window) and choosing "Import..."
+  - switching to the workbench, right-clicking into the Package Explorer (on the left of the eclipse window) and choosing "Import..."
 ![developers_getting_started_ide_eclipse_neon_import_code_10]({{ site.github.url }}/images/developers/developers_getting_started_ide_eclipse_neon_import_code_10.png)
- - selecting "Existing Maven Projects"
- - choosing the location of your working copies 
- - and let eclipse do the rest
+  - selecting "Existing Maven Projects"
+  - choosing the location of your working copies 
+  - and let eclipse do the rest
 
 * Note that if often happens that an eclipse project needs to be refreshed from its respective maven `pom.xml`. This can be done with the shortcut `Alt-F5` or via right-click on the project in question, and then:
 ![developers_getting_started_ide_maven_update_project]({{ site.github.url }}/images/developers/developers_getting_started_ide_maven_update_project.png)
  
 * Starting the server and client:
- - Start the server: use de.metas.ServerBoot_mf15 launcher (or de.metas.ServerBoot_mf15_jrebel)
- - Start the client: use de.metas.SwingUIApplication_mf15 launcher (or de.metas.SwingUIApplication_mf15_jrebel)
+  - Start the server: use de.metas.ServerBoot_mf15 launcher (or de.metas.ServerBoot_mf15_jrebel)
+  - Start the client: use de.metas.SwingUIApplication_mf15 launcher (or de.metas.SwingUIApplication_mf15_jrebel)
 
 # Other IDEs
 
