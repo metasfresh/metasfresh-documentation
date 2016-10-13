@@ -3,42 +3,339 @@
 
 The following table contains the info about imediate changes that some column setting and unsetting interfere with other column values:
 
-	|	Modified column						|	What changes						|	How it changes on removal		|	How it changes on set				|	Implementation          |	Notes										 					|
-	| --------------------------------------|:-------------------------------------:|:---------------------------------:|:-------------------------------------:|:-------------------------:|:-----------------------------------------------------------------:|
-	|C_OrderLine							|IsPackagingMaterial					|False								|Value from orderLine					| de.metas.invoice 			|																	|
-	|										|M_AttributeSetInstance_ID				| -1								|Value from orderLine					|de.metas.invoice			|																	|
-	|										|M_Product_ID							|-1									|Value from orderLine					|de.metas.invoice			|																	|
-	|										|QtyEntered								|0									|Value from orderLine					|de.metas.invoice			|																	|
-	|										|QtyEnteredTU							|0									|Value from orderLine					|de.metas.handlingunits		|																	|
-	|										|M_HU_PI_Item_Product_ID				|0									|Value from orderLine					|de.metas.handlingunits		|																	|
-	|										|Prices									|From BL							|From BL								|de.metas.invoice			|																	|																												|
-	|M_Product_ID (mandatory)				|C_Order_ID								|-1									|-1										|de.metas.invoice			|																	|
-	|										|C_OrderLine_ID							|-1									|-1										|de.metas.invoice			|																	|
-	|										|M_HU_PI_Item_Product_ID				|-1									|-1 if it doesn't fit any more			|de.metas.handlingunits		|																	|
-	|										|C_UOM_ID								|-1									|The one from the product				|de.metas.invoice			|																	|
-	|										|C_Charge_ID							|nothing							|-1										|de.metas.invoice			|																	|
-	|C_Charge_ID							|M_Product_ID							|nothing							|-1										|de.metas.invoice			|																	|
-	|										|C_OrderLine_ID							|nothing							|-1										|de.metas.invoice			|																	|
-	|										|M_AttributeSetIntnce_ID				|nothing							|-1										|de.metas.invoice			|																	|
-	|Tax_ID									|TaxAmt									|From BL							|From BL								|de.metas.invoice			|We calculate the tax at document level, so this is just for info.	|
-	|										|LineNetAmt								|From BL							|From BL								|de.metas.invoice			|																	|
-	|										|Prices									|From BL							|From BL								|de.metas.invoice			|																	|	
-	|C_UOM_ID								|PriceEntered							|From BL							|From BL								|de.metas.invoice			|																	|	
-	|										|QtyInvoiced							|From BL							|From BL								|de.metas.invoice			|																	|	
-	|Discount								|Prices									|From BL							|From BL								|de.metas.invoice			|If IsManual=Y then the pricing engine won't change the discount 	|
-	|M_AttributeSetInstance_ID				|Prices									|From BL							|From BL								|de.metas.invoice			|																	|	
-	|Price_UOM_ID							|QtyInvoicedInPriceUOM					|From BL							|From BL								|de.metas.invoice			|																	|	
-	|										|LineNetAmt								|From BL							|From BL								|de.metas.invoice			|																	|	
-	|PriceActual							|Prices									|From BL							|From BL								|de.metas.invoice			|																	|	
-	|										|LineNetAmt								|From BL							|From BL								|de.metas.invoice			|																	|	
-	|PriceEntered							|QtyInvoicedInPriceUOM					|From BL							|From BL								|de.metas.invoice			|																	|	
-	|										|LineNetAmt								|From BL							|From BL								|de.metas.invoice			|																	|	
-	|										|Prices									|From BL							|From BL								|de.metas.invoice			|																	|	
-	|PriceList								|Prices									|From BL							|From BL								|de.metas.invoice			|																	|	
-	|QtyEntered								|Prices									|From BL							|From BL								|de.metas.invoice			|																	|	
-	|										|LineNetAmt								|From BL							|From BL								|de.metas.invoice			|																	|	
-	|QtyEnteredTU							|Prices									|From BL							|From BL								|de.metas.handlingunits		|																	|	
-	|										|LineNetAmt								|From BL							|From BL								|de.metas.handlingunits		|																	|	
+<table style="height: 275px;" width="678">
+<tbody>
+
+<tr>
+<td>Modified column</td>
+<td>What changes</td>
+<td>How it changes on removal</td>
+<td>How it changes on set</td>
+<td>Implementation</td>
+<td>Notes</td>
+</tr>
+
+<tr>
+<td>C_OrderLine</td>
+<td>IsPackagingMaterial</td>
+<td>False</td>
+<td>Value from orderLine</td>
+<td>de.metas.invoice</td>
+<td>&nbsp;</td>
+</tr>
+
+
+
+<tr>		
+<td>&nbsp;</td>
+<td>M_AttributeSetInstance_ID</td>
+<td> -1</td>			
+<td>Value from orderLine</td>	
+<td>de.metas.invoice</td>													
+<td>&nbsp;</td>
+</tr>
+
+<tr>
+<td>&nbsp;</td>
+<td>M_Product_ID</td>		
+<td>-1</td>			
+<td>Value from orderLine</td>
+<td>de.metas.invoice</td>															
+<td>&nbsp;</td>
+</tr>
+
+<tr>		
+<td>&nbsp;</td>		
+<td>QtyEntered</td>			
+<td>0</td>			
+<td>Value from orderLine</td>
+<td>de.metas.invoice</td>														
+<td>&nbsp;</td>
+</tr>
+
+<tr>		
+<td>&nbsp;</td>			
+<td>QtyEnteredTU</td>		
+<td>0</td>		
+<td>Value from orderLine</td>
+<td>de.metas.handlingunits</td>												
+<td>&nbsp;</td>
+</tr>
+
+<tr>	
+<td>&nbsp;</td>				
+<td>M_HU_PI_Item_Product_ID</td>
+<td>0</td>		
+<td>Value from orderLine</td>
+<td>de.metas.handlingunits</td>													
+<td>&nbsp;</td>
+</tr>
+
+<tr>	
+<td>&nbsp;</td>				
+<td>Prices</td>			
+<td>From BL</td>	
+<td>From BL</td>	
+<td>de.metas.invoice</td>											
+<td>&nbsp;</td>																								
+<td>
+</tr>
+
+<tr>
+<td>C_Order</td>
+<td>C_OrderLine_ID</td>
+<td>-1</td>
+<td>-1</td>
+<td>de.metas.invoice</td>
+<td>The orderline will remain empty, but mandatory. The user must set it manually from the orderlines of the set order</td>
+</tr>
+
+<tr>
+<td>M_Product_ID (mandatory)</td>
+<td>C_Order_ID</td>		
+<td>-1</td>	
+<td>-1</td>		
+<td>de.metas.invoice</td>		|													
+<td>&nbsp;</td>
+</tr>
+
+<tr>			
+<td>&nbsp;</td>			
+<td>C_OrderLine_ID</td>	
+<td>-1</td>	
+<td>-1</td>		
+<td>de.metas.invoice</td>		|													
+<td>&nbsp;</td>
+</tr>
+
+<tr>		
+<td>&nbsp;</td>				
+<td>M_HU_PI_Item_Product_ID</td>
+<td>-1</td>
+<td>-1 if it doesn't fit any more</td>
+<td>de.metas.handlingunits</td>													
+<td>&nbsp;</td>
+</tr>
+
+<tr>		
+<td>&nbsp;</td>				
+<td>C_UOM_ID</td>			
+<td>-1</td>			
+<td>The one from the product</td>
+<td>de.metas.invoice</td>	|													
+<td>&nbsp;</td>
+</tr>
+
+<tr>	
+<td>&nbsp;</td>					
+<td>C_Charge_ID</td>
+<td>nothing</td>
+<td>-1</td>		
+<td>de.metas.invoice</td>													
+<td>&nbsp;</td>
+</tr>
+
+<tr>
+<td>C_Charge_ID</td>
+<td>M_Product_ID</td>	
+<td>nothing</td>
+<td>-1</td>	
+<td>de.metas.invoice</td>		|													
+<td>&nbsp;</td>
+</tr>
+
+<tr>	
+<td>&nbsp;</td>				
+<td>C_OrderLine_ID</td>		
+<td>nothing</td>
+<td>-1</td>		
+<td>de.metas.invoice</td>		|													
+<td>&nbsp;</td>
+</tr>
+
+<tr>	
+<td>&nbsp;</td>				
+<td>M_AttributeSetIntnce_ID</td>
+<td>nothing</td>
+<td>-1</td>
+<td>de.metas.invoice</td>												
+<td>&nbsp;</td>
+</tr>
+
+<tr>
+<td>Tax_ID</td>	
+<td>TaxAmt</td>	
+<td>From BL</td>
+<td>From BL</td>
+<td>de.metas.invoice</td>
+<td>We calculate the tax at document level, so this is just for info.</td>
+</tr>
+
+<tr>		
+<td>&nbsp;</td>				
+<td>LineNetAmt</td>		
+<td>From BL</td>
+<td>From BL</td>	
+<td>de.metas.invoice</td>												
+<td>&nbsp;</td>
+</tr>
+
+<tr>	
+<td>&nbsp;</td>					
+<td>Prices</td>		
+<td>From BL</td>
+<td>From BL</td>	
+<td>de.metas.invoice</td>													
+<td>&nbsp;</td>	
+</tr>
+
+<tr>
+<td>C_UOM_ID</td>		
+<td>PriceEntered</td>		
+<td>From BL</td>
+<td>From BL</td>
+<td>de.metas.invoice</td>											
+<td>&nbsp;</td>
+</tr>
+
+<tr>		
+<td>&nbsp;</td>			
+<td>QtyInvoiced</td>
+<td>From BL</td>
+<td>From BL</td>	
+<td>de.metas.invoice</td>												
+<td>&nbsp;</td>
+</tr>
+
+<tr>
+<td>Discount</td>		
+<td>Prices</td>		
+<td>From BL</td>
+<td>From BL</td>
+<td>de.metas.invoice</td>
+<td> If IsManual=Y then the pricing engine won't change the discount </td>
+</tr>
+
+<tr>
+<td>M_AttributeSetInstance_ID</td>
+<td>Prices</td>
+<td>From BL</td>
+<td>From BL</td>
+<td>de.metas.invoice</td>|													
+<td>&nbsp;</td>	
+</tr>
+
+<tr>
+<td>Price_UOM_ID</td>
+<td>QtyInvoicedInPriceUOM</td>
+<td>From BL</td>
+<td>From BL</td>
+<td>de.metas.invoice</td>												
+<td>&nbsp;</td>	
+</tr>
+
+<tr>	
+<td>&nbsp;</td>					
+<td>LineNetAmt</td>
+<td>From BL</td>
+<td>From BL</td>
+<td>de.metas.invoice</td>												
+<td>&nbsp;</td>	
+</tr>
+
+<tr>
+<td>PriceActual</td>
+<td>Prices</td>
+<td>From BL</td>
+<td>From BL</td>
+<td>de.metas.invoice</td>												
+<td>&nbsp;</td>	
+</tr>
+
+<tr>	
+<td>&nbsp;</td>			
+<td>LineNetAmt</td>
+<td>From BL</td>
+<td>From BL</td>	
+<td>de.metas.invoice</td>												
+<td>&nbsp;</td>	
+</tr>
+
+<tr>
+<td>PriceEntered</td>		
+<td>QtyInvoicedInPriceUOM</td>
+<td>From BL</td>
+<td>From BL</td>
+<td>de.metas.invoice</td>												
+<td>&nbsp;</td>	
+</tr>
+
+<tr>	
+<td>&nbsp;</td>				
+<td>LineNetAmt</td>
+<td>From BL</td>
+<td>From BL</td>
+<td>de.metas.invoice</td>													
+<td>&nbsp;</td>	
+</tr>
+
+<tr>	
+<td>&nbsp;</td>				
+<td>Prices</td>
+<td>From BL</td>
+<td>From BL</td>
+<td>de.metas.invoice</td>												
+<td>&nbsp;</td>	
+</tr>
+
+<tr>
+<td>PriceList</td>	
+<td>Prices</td>	
+<td>From BL</td>
+<td>From BL</td>
+<td>de.metas.invoice</td>												
+<td>&nbsp;</td>	
+</tr>
+
+<tr>
+<td>QtyEntered</td>
+<td>Prices</td>
+<td>From BL</td>
+<td>From BL</td>
+<td>de.metas.invoice</td>												
+<td>&nbsp;</td>	
+</tr>
+
+<tr>	
+<td>&nbsp;</td>					
+<td>LineNetAmt</td>
+<td>From BL</td>
+<td>From BL</td>
+<td>de.metas.invoice</td>													
+<td>&nbsp;</td>	
+</tr>
+
+<tr>
+<td>QtyEnteredTU</td>
+<td>Prices</td>
+<td>From BL</td>
+<td>From BL</td>
+<td>de.metas.handlingunits</td>													
+<td>&nbsp;</td>	
+</tr>
+
+<tr>	
+<td>&nbsp;</td>			
+<td>LineNetAmt</td>		
+<td>From BL</td>
+<td>From BL</td>
+<td>de.metas.handlingunits</td>			
+<td>&nbsp;</td>	
+</tr>
+
+</tbody>
+</table>
+<h1 style="color: #5e9ca0;">&nbsp;</h1>
 
 2. Pricing relevant properties
     * PriceActual
