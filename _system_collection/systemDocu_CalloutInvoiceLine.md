@@ -89,6 +89,15 @@ The following table contains the info about imediate changes that some column se
 </tr>
 
 <tr>
+<td>C_Order</td>
+<td>M_Product_ID</td>
+<td>-1</td>
+<td>-1</td>
+<td>de.metas.invoice</td>
+<td>The product will remain empty, but mandatory. The user must set an orderlines of the set order and then the product will be automatically set from there</td>
+</tr>
+
+<tr>
 <td>M_Product_ID (mandatory)</td>
 <td>C_Order_ID</td>		
 <td>-1</td>	
@@ -342,4 +351,7 @@ The following table contains the info about imediate changes that some column se
     * PriceList
     * Discount
 
-
+Updating prices after manual modicications
+* The user sets a new PriceEntered and/or a new Discount value
+* The presicion used for calculating the PriceActual is taken from, the currecy of the invoice. In case the currecy has precision 0, the precission is taken from the pricelist that was set for the header invoice.
+* The discount is subtracted from the PriceEntered. This is the value that gets in the PriceActual.
