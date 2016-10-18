@@ -7,6 +7,8 @@ required data:
 layout: default
 tags:
   - DocOutbound
+  - UI
+  - Mail
 ---
 ## #443 Add is to be sent as email to doc outbound log
 
