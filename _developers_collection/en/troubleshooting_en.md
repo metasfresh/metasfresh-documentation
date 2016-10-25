@@ -3,12 +3,12 @@ layout: default
 title: Troubleshooting
 tags: developers_troubleshooting
 sequence: 10 
-summary: Solving problems that might arise when traing to run metasfresh from eclipse
+summary: Solving problems that might arise when trying to run metasfresh from eclipse
 lang: en
 ref: developers_troubleshooting
 ---
 
-This article assumes that you more or less followed the "Getting Started" documentation, but ran into problems.
+This article assumes that you more or less followed the "Getting Started" documentation, and ran into problems.
 
 ## Eclipse doesn't properly show java packages and classes
 

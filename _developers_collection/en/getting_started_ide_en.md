@@ -12,21 +12,33 @@ Even if you just want to study the code, it probably makes a lot of sense to do 
 
 # Eclipse
 
-* Download the latest eclipse version (currently this is eclipse Mars) from [http://www.eclipse.org/](http://www.eclipse.org/)
+* Download the latest eclipse version (currently this is eclipse Neon) from [http://www.eclipse.org/](http://www.eclipse.org/)
 Note: the "Eclipse IDE for Java Developers" will probably do. We found that at least for us, the "Eclipse IDE for Java EE Develeopers" has too much unneeded overhead.
 
 * Start Eclipse. You will be asked for a workspace location. In my example, i'm using `C:\development\repos`, because it's where all my working copies are located.
+* In order for eclipse to get all the source folders right, it needs the m2e connector for the build-helper-maven-plugin. To install it, you can go like this:
+  - Open the "Install New Software..." Dialog:
+![developers_getting_started_ide_eclipse_neon_install_helper_plugin_10]({{ site.github.url }}/images/developers/developers_getting_started_ide_eclipse_neon_install_helper_plugin_10.png)
+  - Enter the following URL into the "Work with:" field: URL [https://repository.sonatype.org/content/repositories/forge-sites/m2e-extras/0.15.0/N/0.15.0.201206251206/]( https://repository.sonatype.org/content/repositories/forge-sites/m2e-extras/0.15.0/N/0.15.0.201206251206/)
+![developers_getting_started_ide_eclipse_neon_install_helper_plugin_20]({{ site.github.url }}/images/developers/developers_getting_started_ide_eclipse_neon_install_helper_plugin_20.png)
+  - Now eclipse should present the connector plugin for instalation:
+![developers_getting_started_ide_eclipse_neon_install_helper_plugin_30]({{ site.github.url }}/images/developers/developers_getting_started_ide_eclipse_neon_install_helper_plugin_30.png)
+  - Note that you can also auto-discover and install this plugin later, after having imported the code. However at this point, you spend already quite some time for eclipse trying to build and finding 100000s of compile errors, due to the missing source folders.
 * Make sure that you java the ***Java*** perspective open, not the Java EE perspective.
 * If you intend to contribute changes, we recomment that you check out the [metasfresh-eclipse-config](https://github.com/metasfresh/metasfresh-eclipse-config) repository.
 * Now you can import the code by 
- - switching to the workbench, right-clicking into the Package Explorer (on the left of the eclipse window) and choosing "Import..."
- - selecting "Existing Maven Projects"
- - choosing the location of your working copies 
- - and let eclipse do the rest
+  - switching to the workbench, right-clicking into the Package Explorer (on the left of the eclipse window) and choosing "Import..."
+![developers_getting_started_ide_eclipse_neon_import_code_10]({{ site.github.url }}/images/developers/developers_getting_started_ide_eclipse_neon_import_code_10.png)
+  - selecting "Existing Maven Projects"
+  - choosing the location of your working copies 
+  - and let eclipse do the rest
 
+* Note that if often happens that an eclipse project needs to be refreshed from its respective maven `pom.xml`. This can be done with the shortcut `Alt-F5` or via right-click on the project in question, and then:
+![developers_getting_started_ide_maven_update_project]({{ site.github.url }}/images/developers/developers_getting_started_ide_maven_update_project.png)
+ 
 * Starting the server and client:
- - Start the server: use de.metas.ServerBoot_mf15 launcher (or de.metas.ServerBoot_mf15_jrebel)
- - Start the client: use de.metas.SwingUIApplication_mf15 launcher (or de.metas.SwingUIApplication_mf15_jrebel)
+  - Start the server: use de.metas.ServerBoot_mf15 launcher (or de.metas.ServerBoot_mf15_jrebel)
+  - Start the client: use de.metas.SwingUIApplication_mf15 launcher (or de.metas.SwingUIApplication_mf15_jrebel)
 
 # Other IDEs
 

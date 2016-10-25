@@ -33,3 +33,18 @@ lang: de
 
    
 ---
+**Meldung:**   
+```
+HasChanges
+```
+
+**Erklärung:** Die Stammdaten zu dem Datensatz, den Du gerade bearbeitest, wurden in der Zwischenzeit von einem anderen Benutzer oder dem System geändert. 
+
+Bsp.: Die in einem Rechnungskandidaten verwendete Preisliste wurde nach Erstellen des Rechnungskandidaten verändert, weshalb die Rechnung jetzt nicht erstellt werden kann.
+ 
+**Lösung:** Überprüfe die Stammdaten zu Deinem Datensatz auf Vollständigkeit und Fehler.
+
+Im vorliegenden Beispiel: Überprüfe die verwendete Preisliste und die Preislistenversion! Wenn die verwendete Preisliste z.B. nicht mehr als Verkaufspreisliste gekennzeichnet ist, kann die Verkaufsrechnung nicht erstellt werden.
+   
+
+---
