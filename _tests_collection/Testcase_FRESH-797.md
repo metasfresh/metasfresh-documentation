@@ -15,7 +15,9 @@ tags:
 1. Enter first name, last name, and name for the User, then save
 	* => no exception, new user is saved without setting G000X
 
-Regression:	
+
+Regression:
+
 1. Add G000X in bpartner field, save
 	* => works fine
 	
