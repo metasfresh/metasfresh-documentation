@@ -348,13 +348,13 @@ Further reading:
 * `DLM_PartionLine_Config`
   * one line per table that is subject to DLM
   * `DLM_Partion_Config_Version_ID`: link to parent table
-  * `AD_Table_ID`: a table that shall be subject to DLM, e.g. M_Invoice
+  * `AD_Table_ID`: a table that shall be subject to DLM, e.g. `C_Invoice`
   * `Description` etc
 
 * `DLM_PartionReference_Config`
   * `DLM_PartionLine_Config_ID`: link to parent table
-  * `DLM_Referencing_Column_ID`: a column of the table DLM_Partion_Config.AD_Table_ID that references a another record, e.g. M_Invoice.C_Order_ID
-  * `DLM_Referenced_Table_ID`: the table that is referenced by DLM_Referencing_Column_ID, e.g. C_Order
+  * `DLM_Referencing_Column_ID`: a column of the table DLM_Partion_Config.AD_Table_ID that references a another record, e.g. `M_Invoice.C_Order_ID`
+  * `DLM_Referenced_Table_ID`: the table that *is* referenced by `DLM_Referencing_Column_ID`, e.g. `C_Order`
   * `DLM_Referencing_PartionLine_Config_ID`: FK-reference to `DLM_PartionLine_Config_ID`, if the referenced table is also part of DLM according to this config-version, then this column references the respective line.
     * Note that if the referenced table is not part of the same DLM config, then there isn't a point to this whole DLM_PartionReference_Config record.
 
@@ -373,6 +373,7 @@ I think that's much more performant.
 #### How to store partitions
 
 About using `document-refid`:
+
 * pro: we can use this to add each record to many partitions
 * con: we need one `C_ReferenceNo_Doc` record for "every" DLM'ed database record. This is a no-go. 
 * Note: we could still use `document-refid` for special cases, e.g. if we want to group a few records and export them for a test case, but not for the actual DLM-ish partitioning. We can later add such a feature on-top, if we want to.
