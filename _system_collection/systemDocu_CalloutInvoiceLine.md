@@ -209,7 +209,7 @@ The following table contains the info about imediate changes that some column se
 <td>&nbsp;</td>			
 <td>QtyInvoiced</td>
 <td>From BL</td>
-<td>From BL</td>	
+<td>It is calculated based on the QtyEntered. It is converted from the product's UOM to the UOM of the invoice line</td>	
 <td>de.metas.invoice</td>												
 <td>&nbsp;</td>
 </tr>
@@ -318,6 +318,15 @@ The following table contains the info about imediate changes that some column se
 <td>LineNetAmt</td>
 <td>From BL</td>
 <td>From BL</td>
+<td>de.metas.invoice</td>													
+<td>&nbsp;</td>	
+</tr>
+
+<tr>	
+<td>&nbsp;</td>					
+<td>QtyInvoiced</td>
+<td>From BL</td>
+<td>It is calculated based on the QtyEntered. It is converted from the product's UOM to the UOM of the invoice line</td>
 <td>de.metas.invoice</td>													
 <td>&nbsp;</td>	
 </tr>
