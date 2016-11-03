@@ -232,12 +232,13 @@ The following table contains the info about imediate changes that some column se
 <td>&nbsp;</td>	
 </tr>
 
+
 <tr>	
-<td>&nbsp;</td>			
+<td>&nbsp;</td>				
 <td>LineNetAmt</td>
-<td>From BL</td>
-<td>From BL</td>	
-<td>de.metas.invoice</td>												
+<td>QtyInvoicedInPriceUOM multiplied by the PriceActual. In case the scale of this amount is higher than the standard precision provided by the pricelist, the LineNetAmt will receive the standard scale.</td>
+<td>Same logic as for removal. See above how QtyInvoicedInPriceUOM changes. </td>
+<td>de.metas.invoice</td>													
 <td>&nbsp;</td>	
 </tr>
 
