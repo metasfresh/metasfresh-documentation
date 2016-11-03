@@ -28,7 +28,7 @@ The following table contains the info about imediate changes that some column se
 <td>&nbsp;</td>
 <td>M_AttributeSetInstance_ID</td>
 <td> -1</td>			
-<td>Value from orderLine</td>	
+<td>Value from orderLine. Attribute Set Instance shall remain read_only</td>	
 <td>de.metas.invoice</td>													
 <td>&nbsp;</td>
 </tr>
@@ -37,7 +37,7 @@ The following table contains the info about imediate changes that some column se
 <td>&nbsp;</td>
 <td>M_Product_ID</td>		
 <td>-1</td>			
-<td>Value from orderLine</td>
+<td>Value from orderLine. Afterwards, the product shall remain read-only</td>
 <td>de.metas.invoice</td>															
 <td>&nbsp;</td>
 </tr>
@@ -72,8 +72,8 @@ The following table contains the info about imediate changes that some column se
 <tr>	
 <td>&nbsp;</td>				
 <td>Prices</td>			
-<td>From BL</td>	
-<td>From BL</td>	
+<td>All prices turn 0</td>	
+<td>All prices are taken from the order line</td>	
 <td>de.metas.invoice</td>											
 <td>&nbsp;</td>																								
 <td>
@@ -89,22 +89,17 @@ The following table contains the info about imediate changes that some column se
 </tr>
 
 <tr>
-<td>C_Order</td>
+<td>&nbsp;</td>
 <td>M_Product_ID</td>
 <td>-1</td>
 <td>-1</td>
 <td>de.metas.invoice</td>
-<td>The product will remain empty, but mandatory. The user must set an orderlines of the set order and then the product will be automatically set from there</td>
+<td>The product will remain empty, but mandatory. The user must set an orderlines of the set order and then the product will be automatically set from there. After the orderLine is set, the product shall remain read-only.</td>
 </tr>
 
 <tr>
 <td>M_Product_ID (mandatory)</td>
-<td>C_Order_ID</td>		
-<td>-1</td>	
-<td>-1</td>		
-<td>de.metas.invoice</td>		|													
-<td>&nbsp;</td>
-</tr>
+
 
 <tr>			
 <td>&nbsp;</td>			
