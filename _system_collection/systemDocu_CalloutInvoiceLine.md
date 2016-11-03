@@ -98,20 +98,7 @@ The following table contains the info about imediate changes that some column se
 </tr>
 
 <tr>
-<td>M_Product_ID (mandatory)</td>
-
-
-<tr>			
-<td>&nbsp;</td>			
-<td>C_OrderLine_ID</td>	
-<td>-1</td>	
-<td>-1</td>		
-<td>de.metas.invoice</td>		|													
-<td>&nbsp;</td>
-</tr>
-
-<tr>		
-<td>&nbsp;</td>				
+<td>M_Product_ID (mandatory)</td>				
 <td>M_HU_PI_Item_Product_ID</td>
 <td>-1</td>
 <td>-1 if it doesn't fit any more</td>
