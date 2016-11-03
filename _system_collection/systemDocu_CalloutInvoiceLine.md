@@ -225,9 +225,9 @@ The following table contains the info about imediate changes that some column se
 
 <tr>
 <td>PriceActual</td>
-<td>Prices</td>
-<td>From BL</td>
-<td>From BL</td>
+<td>Price Entered</td>
+<td>0</td>
+<td>PriceActual converted to the invoice's Price UOM</td>
 <td>de.metas.invoice</td>												
 <td>&nbsp;</td>	
 </tr>
@@ -253,8 +253,8 @@ The following table contains the info about imediate changes that some column se
 <tr>	
 <td>&nbsp;</td>				
 <td>LineNetAmt</td>
-<td>From BL</td>
-<td>From BL</td>
+<td>QtyInvoicedInPriceUOM multiplied by the PriceActual. In case the scale of this amount is higher than the standard precision provided by the pricelist, the LineNetAmt will receive the standard scale.</td>
+<td>Same logic as for removal. See above how QtyInvoicedInPriceUOM changes. </td>
 <td>de.metas.invoice</td>													
 <td>&nbsp;</td>	
 </tr>
