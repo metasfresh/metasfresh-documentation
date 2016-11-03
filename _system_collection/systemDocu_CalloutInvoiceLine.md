@@ -299,7 +299,7 @@ The following table contains the info about imediate changes that some column se
 
 <tr>
 <td>&nbsp;</td>
-<td>All that is changed by QtyENtered change</td>
+<td>All that is changed by QtyEntered change</td>
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>&nbsp;</td>													
