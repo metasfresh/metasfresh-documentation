@@ -191,9 +191,9 @@ The following table contains the info about imediate changes that some column se
 <td>Discount</td>		
 <td>PriceActual</td>		
 <td>PriceEntered</td>
-<td>PriceEntered with subtracted discount</td>
+<td>PriceEntered with subtracted discount, in invoice line's precision</td>
 <td>de.metas.invoice</td>
-<td>Logic only applies to manual siscount </td>
+<td>Logic only applies to manual discount </td>
 </tr>
 
 <tr>
@@ -242,11 +242,12 @@ The following table contains the info about imediate changes that some column se
 <td>&nbsp;</td>	
 </tr>
 
+
 <tr>
 <td>PriceEntered</td>		
-<td>QtyInvoicedInPriceUOM</td>
-<td>From BL</td>
-<td>From BL</td>
+<td>PriceActual</td>
+<td>0</td>
+<td>PriceEntered with subtracted discount, in invoice line's precision</td>
 <td>de.metas.invoice</td>												
 <td>&nbsp;</td>	
 </tr>
@@ -260,39 +261,12 @@ The following table contains the info about imediate changes that some column se
 <td>&nbsp;</td>	
 </tr>
 
-<tr>	
-<td>&nbsp;</td>				
-<td>Prices</td>
-<td>From BL</td>
-<td>From BL</td>
-<td>de.metas.invoice</td>												
-<td>&nbsp;</td>	
-</tr>
-
-<tr>
-<td>PriceList</td>	
-<td>Prices</td>	
-<td>From BL</td>
-<td>From BL</td>
-<td>de.metas.invoice</td>												
-<td>&nbsp;</td>	
-</tr>
-
 <tr>
 <td>QtyEntered</td>
 <td>Prices</td>
-<td>From BL</td>
-<td>From BL</td>
+<td>Prices update based on the Pricing Rules that are applied</td>
+<td>Prices update based on the Pricing Rules that are applied</td>
 <td>de.metas.invoice</td>												
-<td>&nbsp;</td>	
-</tr>
-
-<tr>	
-<td>&nbsp;</td>					
-<td>LineNetAmt</td>
-<td>From BL</td>
-<td>From BL</td>
-<td>de.metas.invoice</td>													
 <td>&nbsp;</td>	
 </tr>
 
@@ -301,6 +275,15 @@ The following table contains the info about imediate changes that some column se
 <td>QtyInvoiced</td>
 <td>From BL</td>
 <td>It is calculated based on the QtyEntered. It is converted from the product's UOM to the UOM of the invoice line</td>
+<td>de.metas.invoice</td>													
+<td>&nbsp;</td>	
+</tr>
+
+<tr>	
+<td>&nbsp;</td>					
+<td>LineNetAmt</td>
+<td>QtyInvoicedInPriceUOM multiplied by the PriceActual. In case the scale of this amount is higher than the standard precision provided by the pricelist, the LineNetAmt will receive the standard scale.</td>
+<td>Same logic as for removal. See above how QtyInvoicedInPriceUOM changes. </td>
 <td>de.metas.invoice</td>													
 <td>&nbsp;</td>	
 </tr>
