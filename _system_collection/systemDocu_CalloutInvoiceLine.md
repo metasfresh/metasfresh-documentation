@@ -154,19 +154,19 @@ The following table contains the info about imediate changes that some column se
 <tr>
 <td>Tax_ID</td>	
 <td>TaxAmt</td>	
-<td>From BL</td>
-<td>From BL</td>
+<td>Nothing</td>
+<td>If the tax is WholeTax, TaxAmt will have the value of the LineNetAmt. If the tax is not included, TaxAmt will be the correct procent from LineNetAmt, as required in the Tax's rate. In case the tax is included, the TaxAmt will what it's left from LineNetAmt after subtracting the correct percent </td>
 <td>de.metas.invoice</td>
-<td>We calculate the tax at document level, so this is just for info.</td>
+<td>We calculate the tax at document level, so this is just for info. Logic only used for Purchase side</td>
 </tr>
 
 <tr>		
 <td>&nbsp;</td>				
 <td>LineNetAmt</td>		
-<td>From BL</td>
-<td>From BL</td>	
+<td>Nothing</td>
+<td>TaxAmt (see avobe) added to the LineNetAmt</td>	
 <td>de.metas.invoice</td>												
-<td>&nbsp;</td>
+<td>Logic only used for Purchase side</td>
 </tr>
 
 <tr>	
