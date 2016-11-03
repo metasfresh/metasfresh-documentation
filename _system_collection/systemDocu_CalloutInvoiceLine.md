@@ -181,7 +181,7 @@ The following table contains the info about imediate changes that some column se
 <tr>		
 <td>&nbsp;</td>			
 <td>QtyInvoiced</td>
-<td>From BL</td>
+<td>Nothing</td>
 <td>It is calculated based on the QtyEntered. It is converted from the product's UOM to the UOM of the invoice line</td>	
 <td>de.metas.invoice</td>												
 <td>&nbsp;</td>
@@ -199,17 +199,17 @@ The following table contains the info about imediate changes that some column se
 <tr>
 <td>M_AttributeSetInstance_ID</td>
 <td>Prices</td>
-<td>From BL</td>
-<td>From BL</td>
+<td>Prices update based on the Pricing Rules that are applied</td>
+<td>Prices update based on the Pricing Rules that are applied</td>
 <td>de.metas.invoice</td>|													
-<td>&nbsp;</td>	
+<td>No changes in case of manual prices</td>	
 </tr>
 
 <tr>
 <td>Price_UOM_ID</td>
 <td>QtyInvoicedInPriceUOM</td>
-<td>From BL</td>
-<td>From BL</td>
+<td>QtyInvoiced</td>
+<td>QtyInvoiced converted to the new Price UOM</td>
 <td>de.metas.invoice</td>												
 <td>&nbsp;</td>	
 </tr>
@@ -217,8 +217,8 @@ The following table contains the info about imediate changes that some column se
 <tr>	
 <td>&nbsp;</td>					
 <td>LineNetAmt</td>
-<td>From BL</td>
-<td>From BL</td>
+<td>QtyInvoicedInPriceUOM multiplied by the PriceActual. In case the scale of this amount is higher than the standard precision provided by the pricelist, the LineNetAmt will receive the standard scale.</td>
+<td>Same logic as for removal. See above how QtyInvoicedInPriceUOM changes. </td>
 <td>de.metas.invoice</td>												
 <td>&nbsp;</td>	
 </tr>
