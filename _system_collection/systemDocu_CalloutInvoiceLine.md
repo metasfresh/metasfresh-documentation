@@ -169,22 +169,13 @@ The following table contains the info about imediate changes that some column se
 <td>Logic only used for Purchase side</td>
 </tr>
 
-<tr>	
-<td>&nbsp;</td>					
-<td>Prices</td>		
-<td>From BL</td>
-<td>From BL</td>	
-<td>de.metas.invoice</td>													
-<td>&nbsp;</td>	
-</tr>
-
 <tr>
 <td>C_UOM_ID</td>		
 <td>PriceEntered</td>		
-<td>From BL</td>
-<td>From BL</td>
+<td>Nothing</td>
+<td>PriceEntered is converted from the product's UOM to the UOM of the invoice line</td>
 <td>de.metas.invoice</td>											
-<td>&nbsp;</td>
+<td>PriceEntered ONLY changes when it was not manually set (manualPrice)</td>
 </tr>
 
 <tr>		
@@ -198,11 +189,11 @@ The following table contains the info about imediate changes that some column se
 
 <tr>
 <td>Discount</td>		
-<td>Prices</td>		
-<td>From BL</td>
-<td>From BL</td>
+<td>PriceActual</td>		
+<td>PriceEntered</td>
+<td>PriceEntered with subtracted discount</td>
 <td>de.metas.invoice</td>
-<td> If IsManual=Y then the pricing engine won't change the discount </td>
+<td>Logic only applies to manual siscount </td>
 </tr>
 
 <tr>
