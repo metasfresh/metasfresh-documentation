@@ -10,7 +10,7 @@ lang: de
 ## Schritte zur Einrichtung
 
 1. An metasfresh mit Rolle "System Administrator" anmelden
-1. [Fenster "Fenster, Register, Feld" öffnen](Wie_finde_und_öffne_ich_ein_Fenster) 
+1. [Fenster "Fenster Verwaltung" öffnen](Wie_finde_und_öffne_ich_ein_Fenster) 
 1. nach Name "Produkt" suchen
 1. mit OK bestätigen
 1. Aufgrund von vielen Treffern den mit Name "Produkt" anklicken
