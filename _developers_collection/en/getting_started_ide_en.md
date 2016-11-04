@@ -15,7 +15,13 @@ Even if you just want to study the code, it probably makes a lot of sense to do 
 * Download the latest eclipse version (currently this is eclipse Neon) from [http://www.eclipse.org/](http://www.eclipse.org/)
 Note: the "Eclipse IDE for Java Developers" will probably do. We found that at least for us, the "Eclipse IDE for Java EE Develeopers" has too much unneeded overhead.
 
-* Start Eclipse. You will be asked for a workspace location. In my example, i'm using `C:\development\repos`, because it's where all my working copies are located.
+* Open the `eclipse.ini` file in the eclipse instalation directory and add the following line somewhere below the `-vmargs` line:
+```
+-Djavax.xml.accessExternalSchema=all
+```
+  * For details about this requirement see [issue#492](https://github.com/metasfresh/metasfresh/issues/492) and this [stackoverflow question](http://stackoverflow.com/questions/34340115/is-there-a-generic-way-to-set-d-arguments-from-within-a-pom-xml).
+* While you are in the `eclipse.ini` file, please check the `-vm` value. This is the java version Eclipse will run with. Please make sure that it is a recent version. For example, with java-1.8.0_65, Eclipse is unable to retrieve maven artifacts from our repository (some missing root certificate).
+* Start Eclipse. You will be asked for a workspace location. In my example, I'm using `C:\development\repos`, because it's where all my working copies are located.
 * In order for eclipse to get all the source folders right, it needs the m2e connector for the build-helper-maven-plugin. To install it, you can go like this:
   - Open the "Install New Software..." Dialog:
 ![developers_getting_started_ide_eclipse_neon_install_helper_plugin_10]({{ site.github.url }}/images/developers/developers_getting_started_ide_eclipse_neon_install_helper_plugin_10.png)
