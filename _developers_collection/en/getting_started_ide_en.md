@@ -41,11 +41,17 @@ Note: the "Eclipse IDE for Java Developers" will probably do. We found that at l
 
 * Note that if often happens that an eclipse project needs to be refreshed from its respective maven `pom.xml`. This can be done with the shortcut `Alt-F5` or via right-click on the project in question, and then:
 ![developers_getting_started_ide_maven_update_project]({{ site.github.url }}/images/developers/developers_getting_started_ide_maven_update_project.png)
- 
-* Starting the server and client:
-  - Start the server: use de.metas.ServerBoot_mf15 launcher (or de.metas.ServerBoot_mf15_jrebel)
-  - Start the client: use de.metas.SwingUIApplication_mf15 launcher (or de.metas.SwingUIApplication_mf15_jrebel)
 
+* Starting a client with embedded server
+  - The launcher file `/de.metas.endcustomer.mf15.swingui/de.metas.SwingUIApplication_mf15_with_embedded_server.launch` starts the client with an embedded server.<br>When developing, this is often the most practical way to run metasfresh from eclipse.
+  
+* Starting the server and client individually:
+  - Start the server: use the launcher file `/de.metas.endcustomer.mf15.serverRoot/de.metas.ServerBoot_mf15.launch`
+    * Note that the server needs a preexisting metasfresh-properties file. In case it does not find such a file, it will fail. It is recommended to first run the client with embedded server.
+  - Start the client: use the launcher file `/de.metas.endcustomer.mf15.swingui/de.metas.SwingUIApplication_mf15.launch`
+  - there is also an alternative  `..._jrebel.launch` for both client and server. You can them in case you have the [JRebel](http://zeroturnaround.com/software/jrebel/) eclipse plugin.
+  
+  
 # Other IDEs
 
 We don't yet have experince with code contributions that were created with e.g. Netbeans or IntelliJ.
