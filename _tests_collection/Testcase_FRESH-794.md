@@ -50,7 +50,7 @@ tags:
 	* => washing test (Waschprobe) 1 / 2 is not displayed as attribute in the receiptline, and not in the receipt
 	
 1. Check the material tracking you created:
-	* => 1st tab: qty of TUs for washing test (Waschprobe):
+	* => 1st tab: qty of TUs for washing test (Waschprobe): 2
 	* => 6th tab, HUs: column for washing test (Waschprobe): 1 / 2 displayed for the resp. HU you received, old washing test (Waschprobe) attribute still displayed
 	
 1. Create a PP_Order, doctype washing test (Waschprobe), for your material tracking 
