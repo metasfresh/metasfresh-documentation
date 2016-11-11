@@ -6,13 +6,14 @@ layout: default
 * Benutzer / Users
   - [Kurzanleitungen (Deutsch)](pages/howto/index_de)
   - [How-Tos (English)](pages/howto/index_en)
+  - [Forum](http://forum.metasfresh.org)
 * Developers:
   - [The metasfresh source code at github](https://github.com/metasfresh/metasfresh)
-  - [Informations for developers](pages/developers/index_en)
+  - [Information for developers](pages/developers/index_en)
   - [buildsystem overview](pages/infrastructure/ci_en): how the maven-based buildsystem works locally as well a on our CI-server
   - Javadocs [for the "main" body of code](http://metasfresh.com/javadoc/metasfresh-master/) 
   - Javadocs [for the esb bundles](http://metasfresh.com/javadoc/metasfresh-esb-master/)
-  - [The meatasfresh gitter chat](https://gitter.im/metasfresh/metasfresh)
+  - [The metasfresh gitter chat](https://gitter.im/metasfresh/metasfresh)
 * Admins and release managers:
   - [how to create your own metasfresh-installer](pages/admins/installer_scripts/build_new_release_en)
   - [Support & Troubleshooting](pages/support/index_en)

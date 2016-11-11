@@ -27,6 +27,12 @@ lang: de
 1. in **Produkt** "teil2" eintragen
 1. Haken setzen bei **Ist Menge in %**
 1. In Feld **Menge %**_ 60% eintragen
+1. [Speichern](Wie_lege_ich_einen_neuen_datensatz_an)
+1. Fenster schließen
+
+### Stückliste verifizieren 
 1. Im Menü den Prozess "Stückliste verifizieren" öffnen
 1. Die Produktgruppe des Stücklistenprodukts auswählen
 1. OK klicken
+
+   Hinweis: Ohne Verifikation der Stückliste wird die Produktion des Produkts nicht funktionieren!
