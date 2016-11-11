@@ -16,7 +16,7 @@ tags:
 1. Run the costprice report, leave it open for comparison:
 	* make sure there are no lines & qties yet for your products and TUs
 
-1. Make sure TU A and TU B have a price set in the PLV used in costprice report:
+1. Make sure TU A and TU B have a price set in the PLV used in costprice report (Lagerwert):
 	* TU A: 5.00
 	* TU B: 2.00
 
