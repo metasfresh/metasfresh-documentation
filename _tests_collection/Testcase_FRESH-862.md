@@ -27,5 +27,12 @@ tags:
 1. Open the other request window (Vorgang), select another entry and repeat (attach another picture):
 	* => works the same
 	
+1. Click attachment again in one of the windows, and add a PDF to the request as well 
+
+1. Open the attachment for this request once more:
+	* => picture is displayed first
+	* => dropdown at the top, where you can select the pic / the PDF
+	* => if the PDF is displayed rather small, you can zoom in with the resp. buttons
+	
 
 **Note:** You can change the attached image, in both Vorgang and Vorgang (alle), for the same request; but: if you attach a picture for the first time in one window, and try to attach another picture in the other window without refreshing first, you will get an exception!
