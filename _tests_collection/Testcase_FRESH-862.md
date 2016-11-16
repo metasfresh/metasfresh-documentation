@@ -27,3 +27,5 @@ tags:
 1. Open the other request window (Vorgang), select another entry and repeat (attach another picture):
 	* => works the same
 	
+
+**Note:** You can change the attached image, in both Vorgang and Vorgang (alle), for the same request; but: if you attach a picture for the first time in one window, and try to attach another picture in the other window without refreshing first, you will get an exception!
