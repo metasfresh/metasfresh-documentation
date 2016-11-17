@@ -31,3 +31,13 @@ tags:
 	* => no combined columns (=> where there is the same info in 2 columns, they remain separated!)
 	* => you can change the columns, they are not read only!
 	* => the account and account no. are normal columns!
+	
+1. Run the report Account-Info for a high number of accounts, and export it into an Excel file:
+	* => no errors or exceptions
+
+1. Check the Excel file:
+	* => all info from the jasper repport is displayed properly, no cut-offs etc.
+	* => no combined columns (=> where there is the same info in 2 columns, they remain separated!)
+	* => you can change the columns, they are not read only!
+	* => the account and account no. are normal columns
+ 
