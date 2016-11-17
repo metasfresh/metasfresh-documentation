@@ -2,6 +2,7 @@
 title: IT FRESH-703
 
 required data:
+
     AD_BoilerPlate for ESR
     Async Batch Type for ESR
     Async Batch for ESR
