@@ -42,7 +42,7 @@ tags:
 1. Create a Manufacturing Order for washing:
 	* warehouse: II
 	* product: P0002
-	* qty: e.g. 250kg
+	* qty: e.g. 750kg
 	* bpartner: G000X
 	
 1. Open Produktion Fertigstellung POS, select warehouse II, and the PP_Order you just created
@@ -71,3 +71,7 @@ tags:
 		* => the 2 HUs from the 3rd material receipt, where you set destination warehouse: II,  without attribute Waswchprobe 1 / 2
 		* => the HU from the 2nd material receipt, with attribute Waswchprobe 2, which you moved with DD_Order
 		* => the 2 HUs from the 3rd material receipt, where you set destination warehouse: III,  without attribute Waswchprobe 1 / 2, which you moved with DD_Order
+		
+1. Select HU from 1st material receipt, and 2 HUs from 3rd material receipt without attribute Waschprobe 1 / 2, OK
+	* => issuing works fine
+	* => qty for P0001 in resp. button is raised accordingly
