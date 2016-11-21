@@ -47,5 +47,5 @@ tags:
 	
 1. Create a sales invoice for G000X, P0002: qty:  10, price: 100 (overall), post it
 
-1. 1. Run the reports again, for P0002, with sales transaction checked:
+1. Run the reports again, for P0002, with sales transaction checked:
 	* qty for P0002 is increased for the current week / period accordingly (+ qty: 10, + cost: 100) in all reports
