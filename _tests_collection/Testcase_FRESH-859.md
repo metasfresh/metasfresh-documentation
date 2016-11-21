@@ -24,6 +24,7 @@ tags:
 
 1. Run Report Reklamationen:
 	* => header Lieferung / Wareneingang is displayed in 2 lines
+	* => header: Performance: PF, Rücklieferung: RL
 	* => quality note from receipt is displayed correctly in Beanstandung
 	* => the text from Ergebnis is fully displayed (maximum i had was 14 lines in the report, after that the text is cut off)
 	
@@ -41,11 +42,13 @@ tags:
 
 1. Run Report Reklamationen:
 	* => header Lieferung / Wareneingang is displayed in 2 lines
+	* => header: Performance: PF, Rücklieferung: RL
 	* => quality note from inout: empty, since it wasn't set
 	* => the text from Ergebnis is fully displayed (maximum i had was 14 lines in the report, after that the text is cut off)
 	* => Notiz is not included in the report
 	
 1. Run Report Reklamationen for a longer time period, so you get more requests displayed:
 	* => header Lieferung / Wareneingang is displayed in 2 lines
+	* => header: Performance: PF, Rücklieferung: RL
 	* => quality note: empty, if it wasn't set (e.g. for sales inouts), always displayed if set (for material receipts with quality note set in Wareneingang POS)
 	* => the text from Ergebnis is fully displayed (maximum i had was 14 lines in the report, after that the text is cut off)
