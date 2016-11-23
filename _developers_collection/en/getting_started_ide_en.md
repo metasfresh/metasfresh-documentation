@@ -15,7 +15,13 @@ Even if you just want to study the code, it probably makes a lot of sense to do 
 * Download the latest eclipse version (currently this is eclipse Neon) from [http://www.eclipse.org/](http://www.eclipse.org/)
 Note: the "Eclipse IDE for Java Developers" will probably do. We found that at least for us, the "Eclipse IDE for Java EE Develeopers" has too much unneeded overhead.
 
-* Start Eclipse. You will be asked for a workspace location. In my example, i'm using `C:\development\repos`, because it's where all my working copies are located.
+* Open the `eclipse.ini` file in the eclipse instalation directory and add the following line somewhere below the `-vmargs` line:
+```
+-Djavax.xml.accessExternalSchema=all
+```
+  * For details about this requirement see [issue#492](https://github.com/metasfresh/metasfresh/issues/492) and this [stackoverflow question](http://stackoverflow.com/questions/34340115/is-there-a-generic-way-to-set-d-arguments-from-within-a-pom-xml).
+* While you are in the `eclipse.ini` file, please check the `-vm` value. This is the java version Eclipse will run with. Please make sure that it is a recent version. For example, with java-1.8.0_65, Eclipse is unable to retrieve maven artifacts from our repository (some missing root certificate).
+* Start Eclipse. You will be asked for a workspace location. In my example, I'm using `C:\development\repos`, because it's where all my working copies are located.
 * In order for eclipse to get all the source folders right, it needs the m2e connector for the build-helper-maven-plugin. To install it, you can go like this:
   - Open the "Install New Software..." Dialog:
 ![developers_getting_started_ide_eclipse_neon_install_helper_plugin_10]({{ site.github.url }}/images/developers/developers_getting_started_ide_eclipse_neon_install_helper_plugin_10.png)
@@ -35,11 +41,17 @@ Note: the "Eclipse IDE for Java Developers" will probably do. We found that at l
 
 * Note that if often happens that an eclipse project needs to be refreshed from its respective maven `pom.xml`. This can be done with the shortcut `Alt-F5` or via right-click on the project in question, and then:
 ![developers_getting_started_ide_maven_update_project]({{ site.github.url }}/images/developers/developers_getting_started_ide_maven_update_project.png)
- 
-* Starting the server and client:
-  - Start the server: use de.metas.ServerBoot_mf15 launcher (or de.metas.ServerBoot_mf15_jrebel)
-  - Start the client: use de.metas.SwingUIApplication_mf15 launcher (or de.metas.SwingUIApplication_mf15_jrebel)
 
+* Starting a client with embedded server
+  - The launcher file `/de.metas.endcustomer.mf15.swingui/de.metas.SwingUIApplication_mf15_with_embedded_server.launch` starts the client with an embedded server.<br>When developing, this is often the most practical way to run metasfresh from eclipse.
+  
+* Starting the server and client individually:
+  - Start the server: use the launcher file `/de.metas.endcustomer.mf15.serverRoot/de.metas.ServerBoot_mf15.launch`
+    * Note that the server needs a preexisting metasfresh-properties file. In case it does not find such a file, it will fail. It is recommended to first run the client with embedded server.
+  - Start the client: use the launcher file `/de.metas.endcustomer.mf15.swingui/de.metas.SwingUIApplication_mf15.launch`
+  - there is also an alternative  `..._jrebel.launch` for both client and server. You can them in case you have the [JRebel](http://zeroturnaround.com/software/jrebel/) eclipse plugin.
+  
+  
 # Other IDEs
 
 We don't yet have experince with code contributions that were created with e.g. Netbeans or IntelliJ.
