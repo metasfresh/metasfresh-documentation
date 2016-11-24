@@ -13,8 +13,8 @@ tags:
 
 1. Make sure all the roles you will test with have a Supervisor set:
 	* for testing, set:
-		** TestUser as supervisor for role: Einkauf (=> Vorgesetzter, in Rolle - Verwaltung)
-		** TestUser2 as supervisor for role: Admin
+		* TestUser as supervisor for role: Einkauf (=> Vorgesetzter, in Rolle - Verwaltung)
+		* TestUser2 as supervisor for role: Admin
 
 1. Log in as SuperUser (Role: Admin), check the request button (Aufgabe) down at the bottom on the right, note the number
 
