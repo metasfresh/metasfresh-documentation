@@ -1,0 +1,48 @@
+Setup jaspersoft studio:
+
+1. Repository Explorer tab
+1.1 New Data adapter -> Database JDBC connection
+1.2 add a name
+1.3 add a driver: org.postgresql.Driver
+1.4 JDBC Url: jdbc:postgresql://localhost:5432/database .Edit this with the database you want to use
+1.5 username and password from your db
+
+2. Project explorer tab
+2.1 create a new project (JasperReports Project), add a name (e.g. mf), finish
+2.2 right click on your project: build path -> configure build path
+2.3 Source tab: "Link Source..."
+2.4 add a name (e.g. fresh) and on location put the entire path to your reports, until and including "jasperreports" folder
+2.5 (e.g. c:\Workspaces\fresh_it\metasfresh\de.metas.fresh\de.metas.fresh.base\src\main\jasperreports) 
+2.6 add a new link source, for endcustomer (same as above)
+2.7 on order and export tab i have all selected, fresh first and endcustomer second
+
+Adding new fonts: - OPTIONAL only for ESR Invoices
+
+1. window -> preferences -> Jaspersoft Studio -> fonts -> add
+2. family name: write a name (e.g. OCRB)
+3. TrueType: add your .ttf file 
+4. PDF Encoding: select "Embed this font in PDF document"
+5. you should now be able to see it in fonts (if not be patient. After restarts and attempts in adding it again it will work)
+
+Compiling and running a report
+
+1. open the report you want to run (double click - seems it cannot be opened with drag and drop)
+2. you are on design tab. Right under the report you can see the tabs: Design, Source, Preview
+3. Press on preview
+4. select the format (Java) and your database
+5. Input parameters: if you look here, there are 2 small icons: 
+6. Show input parameters = the parameters of your report (like record id, date etc)
+7. Report parameter = report locale to add the language (use this to test your properties files), report timezone and pagination thingies 
+8. so select a language for report locale and go to input parameters and add the data you need to run the report 
+9. you will probably get an error about a subreport or a ressource bundle not being found, even if you know it's there: just close the application and open it again - might solve the issue
+10. the issue shall be solved when you have the .jasper files created (i think they are created when the project is being build)
+11. issues like that can also happen if you change the path of some subreport. Just save all, delete all your .jasper files (discard all .jasper changes on github) and restart (until we find a better way to solve this)
+12. might also work if you go to Project -> Build project
+
+Being able to use "Open Subreport" when you write click on subreport
+
+1. select your project
+2. right click, import -> file system
+3. from directory: select your path (e.g. C:\Workspaces\fresh_it\metasfresh\de.metas.fresh\de.metas.fresh.base\src\main\jasperreports)
+4. a new folder "jasperreports" will appear lower, select it, finish
+5. hint: if you create a new jasper, it won't be added here by default. Just add it
