@@ -65,8 +65,10 @@ tags:
 	* => your purchase order is not referenced in the empties inout 
 	* => HUs and their qties are as set before
 
-	
+
+
 **Regression:**	
+
 1. Create an empties inout without selecting a bpartner in Wareneingang POS:
 	* => no type is set
 	* => window for creating empties inout opens with no bpartner or address already set
