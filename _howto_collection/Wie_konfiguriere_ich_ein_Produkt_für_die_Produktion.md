@@ -13,8 +13,7 @@ lang: de
 1. [Arbeitsablauf erstellen](Wie_erstelle_ich_einen_Arbeitsablauf)
 1. [Gebindelager einrichten](Wie_richte_ich_ein_Gebindelager_ein)
 1. [Warenverteilung für Gebindelager konfigurieren](Wie_richte_ich_eine_automatische_warenverteilung_fuer_Leergebinde_ein)
-1. [Lager für die Produktion vorbereiten](Wie_lege_ich_ein_neues_Lager_an)
- 1. Sicherstellen, dass die Lagerzuordnung für "Physischer Warenbestand" und "Manufacturing Order" besteht
+1. [Lager für die Produktion vorbereiten](Wie_lege_ich_ein_neues_Lager_an): Sicherstellen, dass die Lagerzuordnung für "Physischer Warenbestand" und "Manufacturing Order" besteht
 
 ## Schritte
 1. [Fenster "Produkt Plandaten" öffnen](Wie_finde_und_öffne_ich_ein_Fenster)
