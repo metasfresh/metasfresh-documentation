@@ -26,6 +26,9 @@ Daher empfehlen wir Dir hier mal reinzuschauen:
 
 ## Beispiel
 
+Beispiel zum Download: [Excel File](../files/Partner_Import_Vorlage.xlsx)
+Beispiel zum Download: [ODS File](../files/Partner_Import_Vorlage.ods)
+
 
 ![img](../images/de_excel_spalten.png)
 

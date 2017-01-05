@@ -6,8 +6,6 @@ tags:
 lang: de
 ---
 
-Beispiel zum Download: [Excel File](../files/Partner_Import_Vorlage.xlsx)
-
 Erstelle eine CSV Datei und achte dabei besonders auf Folgendes:
 
 - Die Felder müssen dem [Importformat entsprechen](Wie_definiere_ich_ein_Importformat)

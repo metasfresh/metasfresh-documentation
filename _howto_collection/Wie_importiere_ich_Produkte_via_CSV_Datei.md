@@ -17,6 +17,9 @@ sequence: 20
 
 ## Beispiel
 
+Beispiel zum Download: [Excel File](../files/Produkt_Import_Vorlage.xlsx)
+Beispiel zum Download: [ODS File](../files/Produkt_Import_Vorlage.ods)
+
 CSV Datei mit Tab:
 
 ```
