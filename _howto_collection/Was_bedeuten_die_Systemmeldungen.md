@@ -31,7 +31,16 @@ lang: de
   
 **Lösung:** Füge die Berechtigung Deiner Rolle zu oder kontaktiere den Admin der das für Dich tun kann.
 
-   
+---
+
+**Meldung:**   
+
+    Periode geschlossen
+
+**Erklärung:** Für das Belegdatum gibt es keine offene Periode. Dies ist vor allem nach einem Jahreswechsel der Fall wenn für das neue Jahr noch keine Perioden angelegt wurden.
+ 
+**Lösung:** [Wie erstelle ich die Perioden für ein neues Jahr?](Wie_erstelle_ich_die_Perioden_fuer_ein_neues_Jahr)
+
 ---
 **Meldung:**   
 ```
