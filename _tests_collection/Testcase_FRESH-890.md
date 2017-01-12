@@ -17,7 +17,8 @@ tags:
 
 1. Make sure G000X has procurement flatrate terms for:
 	* P0001, TU A, price set for the next 3 months
-	* P0002, TU B, price set for the next year, ASI: Bio
+	* P0002, TU B, price set for the next year, ASI: Bio (lower Seq. No.)
+	* P0002, TU B, prices set for the next year, ASI: AdR (higher Seq. No.)
 	* P0003, TU A, no prices set (with / without qty)
 	
 1. Make sure pricelist VP in the newest version and has prices set for:
@@ -47,10 +48,12 @@ tags:
 	
 1. Check the prices again:
 	* => P0001, TU A: both orderlines have price taken from procurement flatrate 
-	* => P0002, TU B, CH, Bio, AdR: price taken from procurement flatrate
+	* => P0002, TU B, CH, Bio, AdR: price taken from procurement flatrate, P0002, TU B, price for ASI: Bio, because of lower Seq. No.!
 	
 1. Change the price in VP for P0002:
 	* P0002, TU B, Bio: take out the ASI
+	
+1. In flatrate term for P0003, TU A, set the price 0.00 for in 4 months
 	
 1. Create another purchase order, for G000X, with date promised in 4 months:
 	* P0001, TU A
@@ -60,7 +63,7 @@ tags:
 1. Check the prices in the orderlines:
 	* => P0001, TU A: price taken from pricelist, since there is no price in procurement flatrate for that month!
 	* => P0002, TU B, Bio: price taken from procurement flatrate	
-	* => P0003, TU A: price taken from pricelist
+	* => P0003, TU A: price taken from procurement flatrate (0.00)
 	
 1. Create a new pricelist version of VP, starting next month with new prices for:
 	* P0001, TU A
@@ -79,13 +82,13 @@ tags:
 	* => P0001, TU A: new price taken from pricelist's latest version, since there is no price in procurement flatrate for that month!
 	* => P0002, TU B, Bio: price taken from procurement flatrate	
 	* => P0002, TU B, CH: new price taken from pricelist's latest version	
-	* => P0003, TU A: new price taken from pricelist's latest version	
+	* => P0003, TU A: price taken from procurement flatrate (0.00)	
 	
 1. Change the orderline accordingly, save, refresh:
-	* P0002, TU B, CH: add ASI Bio
+	* P0002, TU B, CH: add ASI AdR
 	
 1. Check the price again:
-	* => P0002, TU B, CH, Bio: price now taken from procurement flatrate
+	* => P0002, TU B, CH,  AdR: price now taken from procurement flatrate
 
 
 **Note:** You can have different attribute prices in vendor pricelist (for certain TUs or attributes), but the one taken for purchase order is usually the standard one! Therefore, make sure you not only set a
