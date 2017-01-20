@@ -38,7 +38,7 @@ tags:
 	* => Handling Unit Assignment shows the LU and TU with HU no., BUT the tab is empty for the reversed inout!
 	
 1. Gear, run Zolldokument drucken (customes report):
-	* => doc name: Huasverzollung, with correct date, G000X info, etc.
+	* => doc name: Hausverzollung, with correct date, G000X info, etc.
 	* => no Watermark is displayed in the Jasper
 	* => report shows the product name, the palette no. (=> LU no.), and weight gross
 	* => only the active inouts are displayed, the LUs from the reversed inouts are not included
