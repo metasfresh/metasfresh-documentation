@@ -91,6 +91,6 @@ tags:
 	* => MHD is propagated, without spaces
 	
 	
-**Note:* Remaining problem is that the attribute is only propagated on the highest HU-Level, so if you receive TUs and CUs on an LU, only the LU will have the attributes set, the TUs and VPIs not. If you receive
+**Note:** Remaining problem is that the attribute is only propagated on the highest HU-Level, so if you receive TUs and CUs on an LU, only the LU will have the attributes set, the TUs and VPIs not. If you receive
 VPIs on a TU, then the TU will have the attributes set, but the VPIs not. For the attributes being set on VPIs, you need to choose these in TU, and No Handling Unit as LU. This will be fixed in a future task.
 	
