@@ -19,8 +19,8 @@ Diese Installation ist für die Demonstration des WebUI gedacht.
 git clone https://github.com/metasfresh/metasfresh-docker.git
 vi ./metasfresh-docker/webui/sources/configs/config.js    #Replace "MYDOCKERHOST" with FQDN of the Dockerhost
 cd metasfresh-docker
-ddocker-compose build
-docker-compose up   #or "docker-compose up -d " to run the stack in the background.
+docker-compose build
+docker-compose up -d  #to run the stack in the background.
 ```
  
 Nach erfolgreicher Installation auf die WebUI so zugreifen:
