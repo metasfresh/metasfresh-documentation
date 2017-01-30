@@ -2,16 +2,17 @@
 title: How do I setup the metasfresh stack using Docker ?
 layout: default
 tags:
-  - Systemadministration
   - Installation
 lang: en
 ---
 
 ## Installation using Docker
 
-*Systemrequirements:* > 3 GB RAM
+**System Requirements:** Linux Host
 
-*Purpose:* This installation is meant for evaluating the new WebUI of metasfresh.
+**Hardware Requirements:** 3 GB free RAM or more
+
+**Purpose:** This installation is meant for evaluating the new WebUI of metasfresh.
 
 1. [Install Docker](https://docs.docker.com/engine/installation/linux/ubuntu/)
 1. [Install Docker Compose](https://docs.docker.com/compose/install/)
