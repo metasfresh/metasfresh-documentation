@@ -69,7 +69,7 @@ tags:
 	
 
 
-**Note:* Attribute Propagation in Receive in production should work as before, see IT for #810.
+**Note:** Attribute Propagation in Receive in production should work as before, see IT for #810.
 	
 
 	
