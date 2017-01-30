@@ -9,7 +9,9 @@ lang: de
 
 ## Installation mit Docker
 
-Diese Installation ist für die Demonstration des WebUI gedacht.
+*Systemvoraussetzung:* min. 3 GB RAM
+
+*Einsatzzweck:* Diese Installation ist zum Testen des neuen WebUI gedacht.
 
 1. [Docker installieren](https://docs.docker.com/engine/installation/linux/ubuntu/)
 1. [Docker Compose installieren](https://docs.docker.com/compose/install/)
