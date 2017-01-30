@@ -11,8 +11,8 @@ lang: de
 
 Diese Installation ist für die Demonstration des WebUI gedacht.
 
-1. Docker installieren
-1. Docker Compose installieren
+1. [Docker installieren](https://docs.docker.com/engine/installation/linux/ubuntu/)
+1. [Docker Compose installieren](https://docs.docker.com/compose/install/)
 1. metasfresh installieren:
 
 ```
