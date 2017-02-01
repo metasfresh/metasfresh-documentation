@@ -14,7 +14,7 @@ As an example a product can be represented as e.g. 10 pieces in a box where as t
 To map a product (customer unit = CU) with its packaging (Transport Unit = TU) and its aids used in loading is called **Handling Unit System**.
 Therefore a CU in a TU in an LU is a **Handling Unit**.
 
-![Handling Unit](../images/en_drawing_Handling_Unit_System.png)
+![Handling Unit](../../images/en_drawing_Handling_Unit_System.png)
 
 ## Beispiele
 HU|type|example
