@@ -23,7 +23,7 @@ Beispiel zum Download: [ODS File](../files/Produkt_Import_Vorlage.ods)
 CSV Datei mit Tab:
 
 ```
-4000	artikelname	I	Standard	PCE	Testpreise Kunden (Deutschland)	123	Normaler Steuersatz 19% (Deutschland)
+1234567	4000	artikelname	123	
 ```
 
 

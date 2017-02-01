@@ -19,4 +19,4 @@ X|Produktkategorie-Schlüssel |Standard | Suchschlüssel der Produktkategorie. *
 X|Kodierung der Mengeneinheit |PCE | PCE = Stück. Mögliche Werte kannst Du dem Fenster "Maßeinheit" entnehmen
 |MwSt-Kategorie||Normaler Steuersatz 19% (Deutschland)
 |Version Preisliste||Testpreise Kunden (Deutschland)
-|Standardpreis||123.20
+|Standardpreis||123.20 |**Achtung:** Darf nicht 0 sein!
