@@ -12,7 +12,7 @@ lang: de
 
 1. Als SuperUser und Rolle Admin anmelden
 
- **Hinweis:** Nicht als System Administrator anmelden
+   **Hinweis:** Nicht als System Administrator anmelden
  
 1. Fenster "Kalender und Periode" öffnen
 1. Kalender Buchführung öffnen
