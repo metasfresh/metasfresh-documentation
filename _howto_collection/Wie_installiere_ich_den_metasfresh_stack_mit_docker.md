@@ -34,7 +34,7 @@ http://MYDOCKERHOST
 
 ## Feedback
 
-Wenn Du Fragen oder Probleme hast, frag einfach nach Hilfe im offiziellen Forum Support: [forum.metasfresh.org](http://forum.metasfresh.org)
+Wenn Du Fragen oder Probleme hast, frag einfach nach Support im offiziellen Forum: [forum.metasfresh.org](http://forum.metasfresh.org)
 
 
 
