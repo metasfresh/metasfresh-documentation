@@ -25,7 +25,16 @@ docker-compose build
 docker-compose up -d  #to run the stack in the background.
 ```
  
+## Zugriff
+
 Nach erfolgreicher Installation auf die WebUI so zugreifen:
 
 http://MYDOCKERHOST 
+
+
+## Feedback
+
+Wenn Du Fragen oder Probleme hast, frag einfach nach Support im offiziellen Forum: [forum.metasfresh.org](http://forum.metasfresh.org)
+
+
 
