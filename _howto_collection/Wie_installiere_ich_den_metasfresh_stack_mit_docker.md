@@ -9,7 +9,8 @@ lang: de
 
 ## Installation mit Docker
 
-*Systemvoraussetzung:* min. 3 GB RAM
+*Systemvoraussetzung:* min. 3 GB RAM, min. 10 GB freien Festplattenspeicher
+
 
 *Einsatzzweck:* Diese Installation ist zum Testen des neuen WebUI gedacht.
 
