@@ -17,8 +17,7 @@ Um einen erfolgreichen Import rückgängig zu machen bleibt nur die erstellten D
 
 Löscht **ALLE** produktiven Partnerdaten und Importdaten des heutigen Tages:
 
-   ```
-
+```
 delete from aD_user where created::date = now()::date; --löscht Kontakte
 delete from c_bpartner_location  where created::date = now()::date; --löscht Adressenzuordnungen
 delete from c_location where created::date = now()::date; --löscht Adressdaten
@@ -31,7 +30,7 @@ delete from I_BPartner where created::date = now()::date;  --löscht Partnerimpo
 
 Löscht **ALLE** produktiven Produktdaten und Importdaten des heutigen Tages:
 
-   ```
+```
 delete from m_product aD_user where created::date = now()::date; --löscht Produkte
 delete from I_product where created::date = now()::date;  --löscht Produktimportdaten
 ```
