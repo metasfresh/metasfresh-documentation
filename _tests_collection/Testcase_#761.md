@@ -1,5 +1,5 @@
 ---
-title: IT #761
+title: IT gh#761
 required data:
    bpartner: bpartner G000X (customer)
    products: P0001, P0002
