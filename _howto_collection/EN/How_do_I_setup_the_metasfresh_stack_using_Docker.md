@@ -10,7 +10,7 @@ lang: en
 
 **System Requirements:** Linux Host
 
-**Hardware Requirements:** 3 GB free RAM or more
+**Hardware Requirements:** 3 GB free RAM or more, 10 GB free disk space
 
 **Purpose:** This installation is meant for evaluating the new WebUI of metasfresh.
 
@@ -25,8 +25,14 @@ cd metasfresh-docker
 docker-compose build
 docker-compose up -d  #to run the stack in the background.
 ```
- 
+
+## Access
+
 After successful installation you may access the WebUI via:
 
 http://MYDOCKERHOST 
 
+
+## Feedback
+
+If you got questions or problems just ask for support in the public forum: [forum.metasfresh.org](http://forum.metasfresh.org)

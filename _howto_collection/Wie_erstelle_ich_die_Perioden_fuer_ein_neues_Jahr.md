@@ -10,7 +10,12 @@ lang: de
 
 ## Schritte
 
+1. Als SuperUser und Rolle Admin anmelden
+
+   **Hinweis:** Nicht als System Administrator anmelden
+ 
 1. Fenster "Kalender und Periode" öffnen
+1. Kalender Buchführung öffnen
 1. Register "Jahr" öffnen 
 1. [Neuen Datensatz anlegen](Wie_lege_ich_einen_neuen_datensatz_an)
 1. In Feld **Jahr** die gewünschte Jahreszahl z.b. 2017 eintragen

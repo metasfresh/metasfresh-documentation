@@ -37,7 +37,7 @@ sequence: 10
 
 1. Feld **Lagerhaltig** bestimmt ob der Artikel (insofern Artikelart auf Option "Artikel" steht) bestandsgeführt wird
 1. Feld **eingekauft** bestimmt ob der Artikel im Einkauf zu Verfügung steht
-1. Feld **verkauft** bestimmt ob der Artikel im Einkauf zu Verfügung steht
+1. Feld **verkauft** bestimmt ob der Artikel im Verkauf zu Verfügung steht
 1. [Speichern](Wie_lege_ich_einen_neuen_datensatz_an)
 		
 ## Wie geht es weiter?

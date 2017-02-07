@@ -29,4 +29,8 @@ CSV Datei mit Tab:
 
 Import Format:
 
+
+   Wichtiger Hinweis: Die Felder mit Typ Konstante müssen nicht in der CSV Datei enthalten sein, da beim Import die Konstante aus der Formatdefinition genommen wird. 
+   
+
 ![img](../images/de_importformat_produkt.png)
