@@ -1,5 +1,5 @@
 ---
-title: IT #757
+title: IT gh#757
 required data:
    bpartner: several bpartners (customer & vendor)
    products: P0001, P0002
