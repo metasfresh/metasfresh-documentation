@@ -1,5 +1,5 @@
 ---
-title: IT #XXX
+title: IT #527
 required data:
    bpartner: bpartner G000X (customer & vendor)
    products: P0001, P0002
