@@ -1,5 +1,5 @@
 ---
-title: IT #806
+title: IT gh#806
 required data:
    bpartner: bpartner G000X (vendor)
    products: P0001, P0002
