@@ -1,5 +1,5 @@
 ---
-title: IT #785
+title: IT gh#785
 required data:
    bpartner: bpartner G000X (customer & vendor)
    HUs: TU A, TU B, LU C
