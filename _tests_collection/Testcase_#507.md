@@ -1,5 +1,5 @@
 ---
-title: IT #507
+title: IT gh#507
 required data:
    products: P0001
    BOM: product BOM for P0001  
