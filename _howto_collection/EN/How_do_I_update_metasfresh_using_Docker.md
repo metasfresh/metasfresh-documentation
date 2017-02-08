@@ -10,7 +10,7 @@ lang: en
 
 1. stop all docker containers
 1. backup of the docker-workspace
-1. Löschen der images app webui und webapi vom host
+1. deleting the images of app, webui and webapi
 1. retrieve new docker files from github 
 1. change hostname in config.js
 1. rebuild images 
