@@ -9,7 +9,7 @@ lang: de
 
 ## Voraussetzung
 
-[Laufendes metasfresh System auf Docker basis](10001)
+[Laufendes metasfresh System auf Docker basis](Wie_installiere_ich_den_metasfresh_Stack_mit_Docker)
 
 ## Schritte für Versionsupdate
 
