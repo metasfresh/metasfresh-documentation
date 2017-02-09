@@ -37,3 +37,32 @@ tags:
 	* => bpartner G000X is set, NOT G000Y!
 	* => G000X's account no. is set
 	* => the sum is set
+	
+
+
+**Regression:**
+
+1. Set the ESR bank account for G000X inactive
+
+1. Create another purchase invoice for G000X
+
+1. Create an ESR payment string for this invoice, to use for scan (including the sum of the new invoice, and the ESR no. of G000X)
+
+1. In purchase invoice, click Gear, Zahlung einlesen:
+	* => window for ESR scan opens
+	
+1. Copy paste your ESR payment string into field Payment String, then click Tab:
+	* => window pops up informing you there is no ESR account for this bpartner, but you can create one on-the-fly
+	
+1. In the field for bpartner, enter G000X, tab:
+	* => field for bank account is filled, with an ESR account now created for usage
+	
+1. Click OK, them check bpartner, bank account tab for G000X:
+	* => window for ESR payment string closes
+	* => new ESR account was created: same ESR account no., but this acct is active
+	
+1. Check window Zahlung-Zuordnung, for G000X:
+	* => Summe Zahlschein is updated correctly, from your ESR payment string
+	
+1. Check the on-the-fly creation in Zahlung-Zuordnung as well:
+	* => should work the same
