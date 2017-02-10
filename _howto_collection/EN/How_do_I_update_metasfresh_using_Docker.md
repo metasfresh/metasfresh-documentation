@@ -22,10 +22,10 @@ lang: en
 ```
 docker-compose stop
 tar cvzf ../backup.tar.gz ./<mydocker fir>/* --BACKUP
-docker-compose rm app webui webapi 
+docker-compose rm 
 git pull
 vi ./webui/sources/configs/config.js
-docker-compuse build app webui webapi
+docker-compose build
 docker-compose up -d
 ```
 
