@@ -1,7 +1,10 @@
 ---
 title: SQL Data Cleanup
 layout: default
-tags:
+tags: 
+  - Systemadministration
+  - für Experten
+
 lang: de
 ---
 ## Übersicht
