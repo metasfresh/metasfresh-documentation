@@ -4,7 +4,17 @@ layout: default
 tags:
 lang: de
 ---
+## Übersicht
+Das untenstehende Beispiel deaktiviert alle Constraints in der Datenbank um das einfache Löschen von Daten ohne Berücksichtigung von Abhängigkeiten zu ermöglichen.
+Klassischer Anwendungsfall ist zum Beispiel die Bereinigung einer Datenbank von Testdaten.
 
+## Warnung
+
+**ACHTUNG !!!** Dieses Skript löscht **ALLE** Daten aus metasfresh!
+
+Nur benutzen wenn Du weißt was Du tust!
+
+## Beispiel
 
 ```
 
