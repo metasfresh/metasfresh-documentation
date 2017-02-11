@@ -25,12 +25,12 @@ cd metasfresh-docker
 docker-compose build
 docker-compose up -d  #to run the stack in the background.
 ```
- 
+
 ## Zugriff
 
 Nach erfolgreicher Installation auf die WebUI so zugreifen:
 
-http://MYDOCKERHOST 
+http://MYDOCKERHOST
 
 
 ## Feedback
