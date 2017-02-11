@@ -13,6 +13,7 @@ lang: en
 ## adapt Docker-Compose.yml
 
 expose these ports additionally:
+
 1. db: 5432
 1. app: 8282 and 61616 
 
