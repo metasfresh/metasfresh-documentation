@@ -41,7 +41,6 @@ app:
     - db:db
   ports:
     - "8282:8282"
-  ports:
     - "61616:61616"
   restart: always
   volumes:
