@@ -23,7 +23,7 @@ tags:
 	* => new draft document was created, with bpartner, address, warehouse, order and document type set
 	
 5. add a new HU via Batch entry
-		* => works fine
+	* => works fine
 
 6. add a new HU via Add new
 	* => panel for adding a new product opens
@@ -34,7 +34,7 @@ tags:
 	* => new draft document was created, with bpartner, address, warehouse, order and document type set
 	
 8. add a new HU via Batch entry
-		* => works fine
+	* => works fine
 
 9. add a new HU via Add new
 	* => panel for adding a new product opens
