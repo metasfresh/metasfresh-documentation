@@ -17,7 +17,7 @@ tags:
 
 1. Create a purchase order for G000X
 
-2. Create an orderLine for this order:
+2. Create an orderLine for this order, using batch entry:
     * Select product P0001
     * => OK: The default TU is automatically selected, but you can also select the other TU
     
@@ -26,14 +26,35 @@ tags:
     
 4. Create a Sales order for G000Y
 
-2. Create an orderLine for this order:
+5. Create an orderLine for this order, using batch entry:
     * Select product P0001
     * => OK: The default TU is automatically selected, but you can also select the other TU
     
-3. Go to the TU column from the order line, double click on it
+6. Go to the TU column from the order line, double click on it
     * => OK: You can select the other TU or NO TU
     
+7. Create a purchase order for G000X
 
+8. Create an orderLine for this order, using add new :
+    * Select product P0001
+    * HU set as default on Virtual PI
+    * You can select any of the 2 HUs if you click on the TU column
+    
+9. Go to the TU column from the order line, double click on it
+    * => OK: You can select the other TU or NO TU
+
+10. Create a Sales order for G000Y
+
+11. Create an orderLine for this order, using add new:
+    * Select product P0001
+    * HU set as default on Virtual PI
+    * You can select any of the 2 HUs if you click on the TU column
+    
+12. Go to the TU column from the order line, double click on it
+    * => OK: You can select the other TU or NO TU
+    
+    
+    
 > How to determine which is the default TU
 * The M_HU_PI_Item_Product for a CLient different from 0 has priority
 * If the M_HU_PI_Item_Product config was created for the order partner, it has priority. Otherwise, it has to be created for no partner
