@@ -10,5 +10,5 @@ lang: en
 
 You can reset the server cache with this simple request that you need to copy into the address line of your browser:
 
-http://<yourhostname>/rest/api/debug/cacheReset
+`http://<yourhostname>/rest/api/debug/cacheReset`
 
