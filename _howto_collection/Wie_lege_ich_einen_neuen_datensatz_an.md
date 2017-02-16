@@ -21,3 +21,5 @@ lang: de
 ## Web Client
 
 1. Auf ![Neu Icon](../images/en_webui_addnew.png) klicken
+1. Felder mit Daten füllen 
+1. Auf ![Neu Icon](../images/en_webui_done.png) klicken
