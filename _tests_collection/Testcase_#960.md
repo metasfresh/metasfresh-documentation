@@ -1,7 +1,7 @@
 ---
-title: IT gh#960 - metasfresh
+title: IT gh#282 - metasfresh
 required data:
-   bpartner: bpartner G000X (vendor), G000Y (customer)
+   bpartner: G000Y (customer)
    products: P0001, P0002 (with no CU-TU config)
    HUs: TU A
    CU-TU: P0001-TU A
@@ -59,20 +59,38 @@ tags:
     * => OK: You can select the TU or "none"
     * => OK: "No Handling Unit" is not an option
     
-13.Create a purchase order for G000X
+13. Create a purchase order for G000X
 
-14.Create an orderLine for this order, using add new :
+14. Create an orderLine for this order, using add new:
     * Select product P0002
     * HU set as default on Virtual PI
     * You can only select the TU  "none" 
     * => OK: "No Handling Unit" is not an option
     
-15.Create a sales order for G000Y
+15. Create a sales order for G000Y
 
-16.Create an orderLine for this order, using add new :
+16. Create an orderLine for this order, using add new :
     * Select product P0002
     * HU set as default on Virtual PI
     * You can only select the TU  "none" 
+    * => OK: "No Handling Unit" is not an option
+    
+17. Create a purchase order for G000X
+
+18. Create an orderLine for this order, using batch entry:
+    * Select product P0002
+    * => OK: HU not set
+    * Go to the created line
+    * => OK: You can only select the TU  "none" 
+    * => OK: "No Handling Unit" is not an option
+    
+19. Create a sales order for G000Y
+
+20. Create an orderLine for this order, using batch entry:
+    * Select product P0002
+    * => OK: HU not set
+    * Go to the created line
+    * => OK: You can only select the TU  "none" 
     * => OK: "No Handling Unit" is not an option
     
     
