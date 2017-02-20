@@ -1,5 +1,5 @@
 ---
-title: How do I setup the metasfresh stack using Docker ?
+title: How to setup the metasfresh stack using docker ?
 layout: default
 tags:
   - System Administration
