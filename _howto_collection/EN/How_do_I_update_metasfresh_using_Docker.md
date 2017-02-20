@@ -2,7 +2,9 @@
 title: How do I update metasfresh using Docker
 layout: default
 tags:
+  - System Administration
   - Installation
+  - Docker
 lang: en
 ---
 

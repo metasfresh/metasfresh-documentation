@@ -2,7 +2,9 @@
 title: How do I setup the metasfresh stack using Docker ?
 layout: default
 tags:
+  - System Administration
   - Installation
+  - Docker
 lang: en
 ---
 
@@ -28,14 +30,14 @@ git clone https://github.com/metasfresh/metasfresh-docker.git
 
 #Use an editor to replace "MYDOCKERHOST:PORT" with externally reachable hostname
 #and port of the Dockerhost - eg: 'http://myhost.provider.com/rest/api'
-vi ./metasfresh-docker/webui/sources/configs/config.js    
+vi ./metasfresh-docker/webui/sources/configs/config.js
 
 cd metasfresh-docker
 docker-compose build
 
 #Use '-d' to run the stack in the background. On first start it may take
 #a few minutes until the database is populated and the service is available
-docker-compose up -d  
+docker-compose up -d
 ```
 
 ## Access
