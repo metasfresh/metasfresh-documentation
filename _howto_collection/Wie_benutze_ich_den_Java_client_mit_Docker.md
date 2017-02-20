@@ -4,6 +4,7 @@ layout: default
 tags:
   - Systemadministration
   - Installation
+  - Docker
 lang: de
 ---
 
@@ -16,7 +17,7 @@ lang: de
 Diese Ports braucht es zusätzlich für den Java Client:
 
 1. db: 5432
-1. app: 8282 and 61616 
+1. app: 8282 and 61616
 
 ## Beispiel
 
@@ -72,7 +73,7 @@ webui:
 
 füge Deiner lokalen Host Datei den Eintrag "db" mit der IP des Dockerhosts hinzu
 
-Nun installiere und nutze den Java Client wie üblich 
+Nun installiere und nutze den Java Client wie üblich
 
 ## Feedback
 
