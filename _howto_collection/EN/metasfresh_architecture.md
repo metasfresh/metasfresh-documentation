@@ -2,12 +2,9 @@
 title: metasfresh Architecture
 layout: default
 tags:
-  - WebUI
+  - System Administration
 lang: en
 ---
 ## Overview
 
 ![architecture](../../images/metasfresh_architecture.png)
-
-
-
