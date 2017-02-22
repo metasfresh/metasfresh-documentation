@@ -22,15 +22,15 @@ tags:
 
 1. Note the C_Order_ID of this order
 
-1. Close the order, and in pgAdmin, do UPDATE C_Order SET DLM_Level=3 --/archived/ where C_Order_ID=<your order ID>;
+1. Close the order, and in pgAdmin, do UPDATE C_Order SET DLM_Level=3 --(=archived) where C_Order_ID=your order ID;
 
-1. Then check the DLM-Level with SELECT DLM_Level FROM C_ORDER where C_Order_ID=<your order ID>;:
+1. Then check the DLM-Level with SELECT DLM_Level FROM C_ORDER where C_Order_ID=your order ID;:
 	* => still Level 3
 	
 1. Go back to your IC, and zoom into your order again
 	* => the order is displayed without errors or anything
 
-1. In pgAdmin, check the DLM-Level again with SELECT DLM_Level FROM C_ORder where C_Order_ID=<your order ID>;:
+1. In pgAdmin, check the DLM-Level again with SELECT DLM_Level FROM C_Order where C_Order_ID=your order ID;:
 	* => now Level 1
 	* => the System has taken back the order with Level 3, = archived, on-the-fly, without errors
 
