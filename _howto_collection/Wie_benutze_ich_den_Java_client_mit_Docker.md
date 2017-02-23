@@ -19,6 +19,10 @@ Diese Ports braucht es zusätzlich für den Java Client:
 1. db: 5432
 1. app: 8282 and 61616
 
+## Aktivieren der Änderungen
+
+` sudo docker-compose up -d`
+
 ## Beispiel
 
 ```

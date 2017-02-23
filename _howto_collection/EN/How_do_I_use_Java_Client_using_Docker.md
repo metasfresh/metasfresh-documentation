@@ -20,6 +20,11 @@ Expose these ports additionally in section "app:":
 1. app: 8282 and 61616
 
 Note: careful with your indentation in yml-files
+
+## Activate changes
+
+` sudo docker-compose up -d`
+
 ## Example
 
 ```yml
