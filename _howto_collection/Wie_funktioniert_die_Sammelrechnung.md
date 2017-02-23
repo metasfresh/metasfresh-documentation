@@ -16,7 +16,7 @@ lang: de
 ## Sammelrechnung für Kunden aktivieren
 1. Partner suchen
 1. In das Register **Kunde** wechseln
-1. Feld **Aggregationsregel für Ausgangsrechnung** die gewünschte Aggregation einstellen
+1. In Feld **Aggregationsregel für Ausgangsrechnung** die gewünschte Aggregation einstellen
 
 ## Erläuterung der Regeln
 
