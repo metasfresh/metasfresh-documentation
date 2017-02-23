@@ -24,3 +24,4 @@ lang: de
 |Regel|Bezeichnung|Erklärung|
 |---|---|---|
 |invoicing-agg-std|Standardregel|Zusammenfassung erfolgt ohne Einschränkung
+|LEER||Pro Auftrag wird immer eine Rechnung erstellt
