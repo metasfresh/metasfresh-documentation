@@ -13,6 +13,8 @@ Download Atom from [official website](http://atom.io)
 
 ### Markdown Image Helper
 
+This package allows you to easily upload and insert images into markdown pages.
+
 1. press `Ctrl + Shift + P` to open search
 1. search for "install packages and themes"
 1. click on `Settings View: install packages and themes`
@@ -20,6 +22,8 @@ Download Atom from [official website](http://atom.io)
 1. click on "install"
 
 ### Enable Github Style
+
+This setting switches the markdown preview to github style.
 
 1. press `Ctrl + Shift + P` to open search
 1. search for "install packages and themes"
@@ -29,6 +33,16 @@ Download Atom from [official website](http://atom.io)
 1. enable "Use Github.com" style
 
  ![](assets/how_to_setup_atom_for_contributing_docs-6110c.png)
+
+### Make Markdown Preview scroll with the text
+
+This Packages automatically scrolls the markdown preview to the position of your cursor in the markdown text.
+
+1. press `Ctrl + Shift + P` to open search
+1. search for "install packages and themes"
+1. click on `Settings View: install packages and themes`
+1. search for "markdown-scroll-sync"
+1. click on "install"
 
 ## Markdown Snippets
 
@@ -50,7 +64,7 @@ type the trigger and then press `TAB`
 <br> image will be stored in /assets
 1. Use `img` + `TAB` and then click into `()` and  `Ctrl + V` to paste image link
 
-## General Info
+## General Background Info
 
 ### Other Markdown Editors
 
@@ -60,6 +74,4 @@ Make sure the core package "language-gfm" is enabled (gfm = github flavored mark
 
 ### User settings
 
-atom stores your settings and packages here:
-
-windows: %userprofile%\.atom
+atom stores your settings and packages here: `%userprofile%\.atom`
