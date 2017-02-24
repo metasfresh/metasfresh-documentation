@@ -7,7 +7,7 @@ lang: en
 ---
 ## Install
 
-Download from http://atom.io
+Download Atom from [official website](http://atom.io)
 
 ## Configuring
 
