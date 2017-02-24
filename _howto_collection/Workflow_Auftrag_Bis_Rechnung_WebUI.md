@@ -8,7 +8,7 @@ sequence: 20
 lang: de
 ---
 
-![IMG](../images/de_workflow_Auftrag_bis_Rechnung_simpel.png)
+![IMG](../images/de_auftrag_bis_rechnung.png)
 
 
 ## Schritte
