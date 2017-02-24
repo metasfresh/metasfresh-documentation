@@ -34,8 +34,8 @@ Download Atom from [official website](http://atom.io)
 
 type the trigger and then press `TAB`
 
-| Trigger     | Body    |
-| :------------- | :------------- |
+| Trigger     | function    |
+| --- | --- |---|
 | b       | bold text       |
 |code|code|
 |i|italic|
