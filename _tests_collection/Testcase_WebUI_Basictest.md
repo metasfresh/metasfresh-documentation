@@ -16,7 +16,9 @@ tags:
 1. Fertigstellen
 1. Hamburger Menu => Print
  * Erwartung: Auftragsbestätigung wird angezeigt
+ * Hintergrund: Tested ob der Jasper Server korrekt eingerichtet und erreichbar ist.
 1. Hamburger Menu => Lieferdisposition
 1. zeile markieren
 1. Hamburger Menu => Auswahl liefern
  * Erwartung: Notifikation
+ * Hintergrund: Tested ob Websockets, ActiveMQ und der Appserver korrekt funktionieren.
