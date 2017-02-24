@@ -30,11 +30,25 @@ Download Atom from [official website](http://atom.io)
 
  ![](assets/how_to_setup_atom_for_contributing_docs-6110c.png)
 
-## Hints and Tips
+## Markdown Snippets
+
+type the trigger and then press `TAB`
+
+| Trigger     | Body    |
+| :------------- | :------------- |
+| b       | bold text       |
+|code|code|
+|i|italic|
+|img|embedded image|
+|l|	link|
+|table|	table|
+
+## Shortcuts
 
 1. Use `Ctrl + Shift + M` for markdown preview
 1. Use `Ctrl + V` to paste image from clipboard
 <br> image will be stored in /assets
+1. Use `img` + `TAB` and then click into `()` and  `Ctrl + V` to paste image link
 
 ## General Info
 
