@@ -6,19 +6,19 @@ tags:
 ---
 
 
-1. SuperUser System
-1. Rolle Admin
-1. Menü => New Auftrag
-1. Auftraggeber: "Testkunde"
+1. Logon with User SuperUser and Pw System
+1. Select Role Admin
+1. Menu => New Sales Order 
+1. Partner: "Testkunde"
 1. Add New
-1. Produkt "Convenience Salat"
-1. Done
-1. Fertigstellen
+1. Product "Convenience Salat"
+1. click Done
+1. Complete Document
 1. Hamburger Menu => Print
- * Erwartung: Auftragsbestätigung wird angezeigt
- * Hintergrund: Tested ob der Jasper Server korrekt eingerichtet und erreichbar ist.
+ * Expectation: Sales Order Confirmation is opened
+ * Background: Verifies if the Jasper Server works fine
 1. Hamburger Menu => Lieferdisposition
-1. zeile markieren
-1. Hamburger Menu => Auswahl liefern
- * Erwartung: Notifikation
- * Hintergrund: Tested ob Websockets, ActiveMQ und der Appserver korrekt funktionieren.
+1. highlight line 
+1. Hamburger Menu => Generate Inout
+ * Expectation: Notification is displayed after 1-2 secs
+ * Background: Verifies if Websockets, ActiveMQ and App Server are working fine
