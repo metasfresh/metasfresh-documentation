@@ -27,7 +27,7 @@ lang: de
 
 ### Auftrag erfassen
 
-{% include_relative Neuer_Datensatz_Fenster_Webui.html %}
+1. [Neuen Auftrag anlegen](Neuer_Datensatz_Fenster_Webui)
 
 1. Gib "test" ein und klicke auf "Testkunde"
 ![](assets/Workflow_Auftrag_Bis_Rechnung_WebUI-e8470.png)
