@@ -27,11 +27,7 @@ lang: de
 
 ### Auftrag erfassen
 
-1. Drücke die Tastenkombination `Strg+2` um das Menü zu öffnen <br>
-![](assets/Workflow_Auftrag_Bis_Rechnung_WebUI-19ab1.png)
-
-1. Suche im Menü nach "Neuer Auftrag" und klicke auf den Link <br>
-![](assets/Workflow_Auftrag_Bis_Rechnung_WebUI-d9abb.png)
+{% include_relative Neuer_Datensatz_Fenster_Webui.html %}
 
 1. Gib "test" ein und klicke auf "Testkunde"
 ![](assets/Workflow_Auftrag_Bis_Rechnung_WebUI-e8470.png)
