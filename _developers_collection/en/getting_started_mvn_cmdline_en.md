@@ -2,7 +2,7 @@
 layout: default
 title: Build metasfresh from command line
 tags: developers_getting_started
-sequence: 100 
+sequence: 100
 summary: how to create a districbutable using maven from your command line
 lang: en
 ref: developers_getting_started_mvn_cmdline
@@ -12,14 +12,13 @@ ref: developers_getting_started_mvn_cmdline
 
 
 This article is about locally building a metasfresh distributable.
-You will need to jump through a few loops though. We hope to make it easier in future, 
-and of course we would be gratefull for any contributor which are good with maven to come along and improve this
-(But note that after the simplification, versions-maven-plugin:set will still need to work).
+You will need to jump through a few loops though. We hope to make it easier in future,
+and of course we would be gratefull for any contributor who is good with maven to come along and improve this.
 
 
 # Install the build system
 
-In order to locally build metasfresh, you need to install maven. 
+In order to locally build metasfresh, you need to install maven.
 Go to [https://maven.apache.org/](https://maven.apache.org/) and get the latest version (currently this is version 3.3.9)
 
 * Please install maven, following this documentation.
@@ -28,52 +27,63 @@ In this example, I'm extracting it into ```C:\development\maven\```.
 * Set the following environment variables:
 ```
 MAVEN_HOME=C:\development\maven\apache-maven-3.3.9
-MAVEN_OPTS=-Xmx1024m -XX:MaxPermSize=256M
+MAVEN_OPTS=-Xmx1024m
 ```
 
 # Build the main part
 
-This section is about building the biggest part of metasfresh. 
-If you just get through this section, you can already be sure that there are no missing dependencies.
+This section is about building the biggest part of metasfresh.
 
 Once maven is installed, open a command line window, `cd` into your working copy of the metasfresh-parent repo and run
-```
+```bash
 mvn install
 ```
 to install the "main" parent pom in your local maven artifact repository.
 
 When this is done, please `cd` to your working copy of the metasfresh repo, and then `cd` to `de.metas.parent`.
 
-There, please do 
-```
+There, please do
+```bash
 mvn --non-recursive install
 ```
-After there two poms are installed in your local maven repository, you can build the "main" metasfresh 
+After these two poms are installed in your local maven repository, you can build the "main" metasfresh
 by once again `cd`ing into the your working copy of the metasfresh repo, then further going into the `de.metas.reactor` directory and from there once again running `mvn install`.
 
-This builds _allmost_ all of metasfresh, but does not yet create the actual distributable.
+This builds the biggest part of metasfresh, but does not yet create the actual distributable.
 
 # Build additional components and the actual distributable
 
-To finally get that distributable, you first need to build some additional components that are supposed to be distributed along with the main components.
+At this point we already build _most_ of the metasfresh code, but to get the
+distributable, we need to build some additional components.
 
-One of these is a little spring-boot-admin application that is very handy to monitor metasfresh's health status and change log levels.
-to build it, clone https://github.com/metasfresh/metasfresh-admin, `cd` into that repo's working copy and run `mvn install`
+## ESB bundles
 
-The other group of these components are some servicemix OSGI bundles for advanced usage scenarios.
+metasfresh comes with anumber of servicemix OSGI bundles for advanced usage scenarios.
 
-To build those, go back to your metasfresh working copy, cd into de.metas.esb and run 
-```
-mvn install -DskipTests
-```
-Note that we use `-DskipTests` to avoid this build from running unit tests.
+To build those, go back to your metasfresh working copy, cd into `de.metas.esb`
+and run `mvn install`.
 
-The reason is, that certain tests are quite sensitive about encoding and are likely to fail on some windows machines.
+## metasfresh webui API
 
-Again, we would be happy about any contributor who is good with maven to improve this.
+The API service of the metasfresh webui is in the `metasfresh-webui` repository.
+To build it, enter the  `metasfresh-webui` folder and run `mvn install`.
 
-Now, finally cd into de.metas.endcustomer.mf15 and run mvn install one last time.
+## metasfresh procurement webui
 
-Now you have the main distributable in `de.metas.endcustomer.mf15\de.metas.endcustomer.mf15.dist\target`
+The API service of the metasfresh webui is in the `metasfresh-procurement-webui` repository.
+To build it, enter the  `metasfresh-procurement-webui` folder and run `mvn install`.
+
+## metasfresh-dist
+
+The maven projects that build the actual distributable is in metasfresh-dist.
+To create the districbutable, enter the `metasfresh-dist` folder and run `mvn install`
+
+Now you have the main distributable in `metasfresh-dist\de.metas.endcustomer.mf15.dist\target`
 
 Congrats! (if you got this far ;-) )
+
+## A note about metasfresh-webui-frontend
+
+The metasfresh-webui-frontend repo contains the javascript code of our frontend.
+I don't know how it's build locally, but if you want to know how it is build,
+I recommend to check out the repository's [Jenkinsfile](https://github.com/metasfresh/metasfresh-webui-frontend/blob/master/Jenkinsfile).
