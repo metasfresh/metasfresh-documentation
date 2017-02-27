@@ -1,5 +1,5 @@
 ---
-title: IT #774
+title: IT gh#774
 required data:
    bpartner: bpartner G000X (customer & vendor?)
    addresses: have 2 different ones for G000X

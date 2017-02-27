@@ -1,5 +1,5 @@
 ---
-title: IT #877
+title: IT gh#877
 required data:
    bpartner: bpartner G000X (cendor)
    products: P0001, P0002, P0003
