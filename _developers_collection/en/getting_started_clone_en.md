@@ -18,7 +18,7 @@ The projects to clone are
 * [https://github.com/metasfresh/metasfresh-parent](https://github.com/metasfresh/metasfresh-parent)
 * [https://github.com/metasfresh/metasfresh](https://github.com/metasfresh/metasfresh)
 * [https://github.com/metasfresh/metasfresh-webui](https://github.com/metasfresh/metasfresh-webui)
-* [https://github.com/metasfresh/metasfresh-procurementwebui](https://github.com/metasfresh/metasfresh-procurementwebui)
+* [https://github.com/metasfresh/metasfresh-procurement-webui](https://github.com/metasfresh/metasfresh-procurement-webui)
 * [https://github.com/metasfresh/metasfresh-webui-frontend](https://github.com/metasfresh/metasfresh-webui-frontend)
 * [https://github.com/metasfresh/metasfresh-dist](https://github.com/metasfresh/metasfresh-dist)
 
