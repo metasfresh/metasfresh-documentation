@@ -12,7 +12,7 @@ lang: de
 1. Gib einen Teil des Kundennamens oder der Kundennummer ein. z.B. "test" ein und klicke auf "Testkunde"
 ![](assets/Workflow_Auftrag_Bis_Rechnung_WebUI-e8470.png)
 
-1. Drücke die Tastenkombination `Strg+Q` um eine Auftrgszeile zu erfassen
+1. Klicke auf "Batch Entry" oder drücke die Tastenkombination `Strg+Q` um eine Auftrgszeile zu erfassen
 ![](assets/Workflow_Auftrag_Bis_Rechnung_WebUI-07bd4.png)
 
 1. Gib einen Teil des Produktnamens oder der Produktnummer ein (z.B. "conv") und klicke auf den Vorschlag "Convenience Salat" oder drücke die Pfeiltaste ![](assets/Workflow_Auftrag_Bis_Rechnung_WebUI-73797.png) und dann `Enter`
