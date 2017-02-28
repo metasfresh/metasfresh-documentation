@@ -2,7 +2,7 @@
 layout: default
 title: Get the code into your IDE
 tags: developers_getting_started
-sequence: 30 
+sequence: 30
 summary: how to import the source code into your IDE (eclipse)
 lang: en
 ref: developers_getting_started_ide
@@ -19,7 +19,7 @@ Note: the "Eclipse IDE for Java Developers" will probably do. We found that at l
 ```
 -Djavax.xml.accessExternalSchema=all
 ```
-  * For details about this requirement see [issue#492](https://github.com/metasfresh/metasfresh/issues/492) and this [stackoverflow question](http://stackoverflow.com/questions/34340115/is-there-a-generic-way-to-set-d-arguments-from-within-a-pom-xml).
+  * For details about this requirement see [issue#492](https://github.com/metasfresh/metasfresh/issues/492) and [this stackoverflow question](http://stackoverflow.com/questions/34340115/is-there-a-generic-way-to-set-d-arguments-from-within-a-pom-xml).
 * While you are in the `eclipse.ini` file, please check the `-vm` value. This is the java version Eclipse will run with. Please make sure that it is a recent version. For example, with java-1.8.0_65, Eclipse is unable to retrieve maven artifacts from our repository (some missing root certificate).
 * Start Eclipse. You will be asked for a workspace location. In my example, I'm using `C:\development\repos`, because it's where all my working copies are located.
 * In order for eclipse to get all the source folders right, it needs the m2e connector for the build-helper-maven-plugin. To install it, you can go like this:
@@ -32,11 +32,11 @@ Note: the "Eclipse IDE for Java Developers" will probably do. We found that at l
   - Note that you can also auto-discover and install this plugin later, after having imported the code. However at this point, you spend already quite some time for eclipse trying to build and finding 100000s of compile errors, due to the missing source folders.
 * Make sure that you java the ***Java*** perspective open, not the Java EE perspective.
 * If you intend to contribute changes, we recomment that you check out the [metasfresh-eclipse-config](https://github.com/metasfresh/metasfresh-eclipse-config) repository.
-* Now you can import the code by 
+* Now you can import the code by
   - switching to the workbench, right-clicking into the Package Explorer (on the left of the eclipse window) and choosing "Import..."
 ![developers_getting_started_ide_eclipse_neon_import_code_10]({{ site.github.url }}/images/developers/developers_getting_started_ide_eclipse_neon_import_code_10.png)
   - selecting "Existing Maven Projects"
-  - choosing the location of your working copies 
+  - choosing the location of your working copies
   - and let eclipse do the rest
 
 * Note that if often happens that an eclipse project needs to be refreshed from its respective maven `pom.xml`. This can be done with the shortcut `Alt-F5` or via right-click on the project in question, and then:
@@ -44,19 +44,19 @@ Note: the "Eclipse IDE for Java Developers" will probably do. We found that at l
 
 * Starting a client with embedded server
   - The launcher file `/de.metas.endcustomer.mf15.swingui/de.metas.SwingUIApplication_mf15_with_embedded_server.launch` starts the client with an embedded server.<br>When developing, this is often the most practical way to run metasfresh from eclipse.
-  
+
 * Starting the server and client individually:
   - Start the server: use the launcher file `/de.metas.endcustomer.mf15.serverRoot/de.metas.ServerBoot_mf15.launch`
     * Note that the server needs a preexisting metasfresh-properties file. In case it does not find such a file, it will fail. It is recommended to first run the client with embedded server.
   - Start the client: use the launcher file `/de.metas.endcustomer.mf15.swingui/de.metas.SwingUIApplication_mf15.launch`
   - there is also an alternative  `..._jrebel.launch` for both client and server. You can them in case you have the [JRebel](http://zeroturnaround.com/software/jrebel/) eclipse plugin.
-  
-  
+
+
 # Other IDEs
 
 We don't yet have experince with code contributions that were created with e.g. Netbeans or IntelliJ.
 
 We don't think there is a need to dictate a particular IDE,
 
-however, when contributing, please make sure to text-format your contribution in a way that allows us to get a meaningfull diff. 
+however, when contributing, please make sure to text-format your contribution in a way that allows us to get a meaningfull diff.
 to that end, note that your IDE might be able to import our [eclipse formatting spec](https://github.com/metasfresh/metasfresh-eclipse-config/blob/master/eclipse_metas_formatter.xml).
