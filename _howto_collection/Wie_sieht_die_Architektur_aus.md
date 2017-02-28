@@ -10,5 +10,6 @@ lang: de
 
 ![Preise](../images/metasfresh_architecture.png)
 
+## Service Details
 
-
+weitere Details sind [hier](/EN/metasfresh Architecture) zu finden.
