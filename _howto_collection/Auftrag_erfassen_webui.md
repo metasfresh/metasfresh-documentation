@@ -1,11 +1,22 @@
 ---
-title: Wie lege ich einen Auftrag an (WebUI)
+title: Wie erfasse ich einen Auftrag (WebUI) ?
 layout: default
 tags:
   - WebUI
 lang: de
 sequence: 20
 ---
+
+## Schritte
+
+1. Gehe ins Menü und öffne den Link "Neuer Auftrag"
+1. [Lege einen neuen Auftrag an](Neuer_Datensatz_Fenster_Webui)
+1. Gib einen Teil des Kundennamens oder der Kundennummer ein
+1. Klicke auf "Batch Entry" oder drücke die Tastenkombination `Strg+Q` um die Schnellerfassung zu öffnen
+1. Gib einen Teil des Produktnamens oder der Produktnummer ein und klicke auf den Treffer
+1. Gib eine Menge ein und drücker 'ENTER' um die Auftragszeile zu erstellen
+1. Drücke `Strg+U` um den Beleg fertigzustellen
+
 
 ## Video
 
@@ -17,7 +28,7 @@ sequence: 20
 1. Gib einen Teil des Kundennamens oder der Kundennummer ein. z.B. "test" ein und klicke auf "Testkunde"
 ![](assets/Workflow_Auftrag_Bis_Rechnung_WebUI-e8470.png)
 
-1. Klicke auf "Batch Entry" oder drücke die Tastenkombination `Strg+Q` um eine Auftrgszeile zu erfassen
+1. Klicke auf "Batch Entry" oder drücke die Tastenkombination `Strg+Q` um eine Auftragszeile zu erfassen
 ![](assets/Workflow_Auftrag_Bis_Rechnung_WebUI-07bd4.png)
 
 1. Gib einen Teil des Produktnamens oder der Produktnummer ein (z.B. "conv") und klicke auf den Vorschlag "Convenience Salat" oder drücke die Pfeiltaste ![](assets/Workflow_Auftrag_Bis_Rechnung_WebUI-73797.png) und dann `Enter`
