@@ -3,8 +3,8 @@ title: Wie lege ich einen Auftrag an (WebUI)
 layout: default
 tags:
   - WebUI
-
 lang: de
+sequence: 20
 ---
 
 ## Video
