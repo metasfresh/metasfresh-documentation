@@ -1,18 +1,12 @@
 ---
-title: Workflow Auftrag bis Rechnung - WebUI
+title: Workflow Auftrag bis Rechnung
 layout: default
 tags:
-  - Workflow
   - WebUI
-sequence: 20
 lang: de
 ---
 
 ![IMG](../images/de_auftrag_bis_rechnung.png)
-
-## Übersicht
-
-[Auftrag erfassen](Auftrag_erfassen_webui) => liefern => abrechnen
 
 ## Schritte
 

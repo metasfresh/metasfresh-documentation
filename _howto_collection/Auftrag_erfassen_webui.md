@@ -2,11 +2,16 @@
 title: Wie lege ich einen Auftrag an (WebUI)
 layout: default
 tags:
-  - Workflow
   - WebUI
+
 lang: de
 ---
 
+## Video
+
+<iframe src="https://player.vimeo.com/video/206308809" width="640" height="325" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+## Detailbeschreibung
 1. [Neuen Datensatz anlegen](Neuer_Datensatz_Fenster_Webui)
 
 1. Gib einen Teil des Kundennamens oder der Kundennummer ein. z.B. "test" ein und klicke auf "Testkunde"
