@@ -10,7 +10,7 @@ sequence: 30
 ## Schritte
 
 1. [Starte von einem fertigen Auftrag](Auftrag_erfassen_webui)
-1. Springe zur Rechnungsdispo
+1. Springe zur Lieferdisposition
 1. Wähle die Auftragszeilen aus, die Du liefern möchtest
 1. Starte die Aktion "Auswahl liefern"
 1. Bestätige mit OK
