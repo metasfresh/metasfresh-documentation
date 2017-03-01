@@ -2,8 +2,6 @@
 title: Workflow Auftrag bis Rechnung - WebUI - (Tabstyle)
 layout: default
 tags:
-  - Workflow
-  - WebUI
 sequence: 20
 lang: de
 ---
