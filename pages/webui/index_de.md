@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Kurzanleitungen
+title: WebUI Kurzanleitungen
 lang: de
 ---
 
