@@ -6,6 +6,8 @@ layout: default
 * Benutzer / Users
   - [Kurzanleitungen (Deutsch)](pages/howto/index_de)
   - [How-Tos (English)](pages/howto/index_en)
+  - [WebUI (Deutsch)](pages/webui/index_de)
+  - [WebUI (Englisch)](pages/webui/index_en)
   - [Forum](http://forum.metasfresh.org)
 * Developers:
   - [The metasfresh source code at github](https://github.com/metasfresh/metasfresh)
