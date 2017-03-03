@@ -2,9 +2,6 @@
 title: metasfresh documentation
 layout: default
 ---
-### General
-
-  - [Forum](http://forum.metasfresh.org)
 
 ### Anleitungen für Admins und Benutzer
 
@@ -28,14 +25,13 @@ layout: default
 ### Testers
   - [Test Documentation](pages/tests/index_en)
 
-### Documentation Contributors
-  - Contact us via [gitter chat](https://gitter.im/metasfresh/metasfresh-documentation).
-  - [StyleGuide](https://github.com/metasfresh/metasfresh-documentation/blob/master/StyleGuide.md)
+### Documentation Contributors  
+- [StyleGuide](https://github.com/metasfresh/metasfresh-documentation/blob/master/StyleGuide.md)
 
 
-### Additional notes
+### How to get in contact
 
-* [Index, grouped by tag](pages/tag_grouped_index_de)
+* via [Forum](http://forum.metasfresh.org)
 * metasfresh website [http://metasfresh.com/en](http://metasfresh.com/en) (english) and [http://metasfresh.com/](http://metasfresh.com/) (german).
 * You can follow us on twitter: @metasfresh (english), @metasfreshDE (german).
 * There also are two gitter chat rooms. One for [metasfresh](https://gitter.im/metasfresh/metasfresh) and one for [metasfresh-documentation](https://gitter.im/metasfresh/metasfresh-documentation).
