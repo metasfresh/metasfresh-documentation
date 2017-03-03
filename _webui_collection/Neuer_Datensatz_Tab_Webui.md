@@ -1,5 +1,5 @@
 ---
-title: Wie lege ich einen neuen Datensatz in einem Tab (WebUI)?
+title: Wie lege ich einen neuen Datensatz in einem Tab?
 layout: default
 tags:
   - WebUI

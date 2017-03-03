@@ -1,5 +1,5 @@
 ---
-title: Wie finde ich eine Funktion im Menü (WebUI)?
+title: Wie finde ich eine Funktion im Menü?
 layout: default
 tags:
   - WebUI

@@ -4,4 +4,4 @@ layout: default
 lang: de
 ---
 
-[Seite ist hier hin umgezogen](../webui/index_de)
+[Seite ist hier hin umgezogen](../pages/webui/index_de)

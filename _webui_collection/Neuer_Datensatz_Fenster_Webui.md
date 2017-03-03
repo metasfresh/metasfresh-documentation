@@ -1,8 +1,7 @@
 ---
-title: Wie lege ich einen neuen Datensatz in einem Fenster an (WebUI) ?
+title: Wie lege ich einen neuen Datensatz in einem Fenster an ?
 layout: default
 tags:
-  - WebUI
   - Benutzung
 lang: de
 ---

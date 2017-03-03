@@ -1,5 +1,5 @@
 ---
-title: Wie erfasse ich einen Auftrag (WebUI) ?
+title: Wie erfasse ich einen Auftrag?
 layout: default
 tags:
   - WebUI
