@@ -2,7 +2,7 @@
 title: Wie erfasse ich einen Auftrag?
 layout: default
 tags:
-  - WebUI
+  - Workflow
 lang: de
 sequence: 20
 ---
