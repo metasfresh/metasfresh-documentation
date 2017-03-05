@@ -3,16 +3,11 @@ title: metasfresh documentation
 layout: default
 ---
 
-### Anleitungen
+### How-Tos
 
-  - [Allgemein](pages/howto/index_de)
-  - [WebUI](pages/webui/index_de)
-  - [Installation](pages/installation/index_de)
-
-### How-Tos (English)
-
-- [General](pages/howto/index_en)
-- [WebUI](pages/webui/index_en)
+- Installation [(EN)](pages/installation/index_de)  [(DE)](pages/installation/index_de)
+- WebUI [(EN)](pages/webui/index_en) [(DE)](pages/webui/index_de)
+- General [(EN)](pages/howto/index_en) [(DE)](pages/howto/index_de)
 - [how to create your own metasfresh-installer](pages/admins/installer_scripts/build_new_release_en)
 - [Support & Troubleshooting](pages/support/index_en)
 

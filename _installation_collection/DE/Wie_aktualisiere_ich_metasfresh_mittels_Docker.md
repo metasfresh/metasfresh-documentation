@@ -2,7 +2,7 @@
 title: Wie aktualisiere ich metasfresh mittels Docker?
 layout: default
 tags:
-  - Installation
+  - Update
 lang: de
 ---
 
