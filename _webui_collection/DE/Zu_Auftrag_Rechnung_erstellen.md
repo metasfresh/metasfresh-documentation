@@ -3,6 +3,7 @@ title: Wie erstelle ich eine Rechnung für einen Auftrag ?
 layout: default
 tags:
   - Workflow
+  - Verkauf
 lang: de
 sequence: 40
 ---

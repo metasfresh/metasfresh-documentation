@@ -3,6 +3,7 @@ title: Wie erfasse ich einen Auftrag?
 layout: default
 tags:
   - Workflow
+  - Verkauf
 lang: de
 sequence: 20
 ---
