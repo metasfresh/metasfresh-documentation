@@ -8,7 +8,7 @@ lang: de
 sequence: 10
 ---
 
-![IMG](../images/de_bestellung_bis_eingangsrechnung.png)
+![IMG](../../images/de_bestellung_bis_eingangsrechnung.png)
 
 ## Schritte
 
