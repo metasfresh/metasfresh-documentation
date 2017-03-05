@@ -10,8 +10,8 @@ sequence: 40
 
 ## Schritte
 
-1. [Starte von einem fertigen Auftrag](Auftrag_erfassen)
-1. Springe zur Rechnungsdispo
+1. [Starte von einem gelieferten Auftrag](Zu_Auftrag_Lieferschein_erstellen)
+1. Springe aus dem Auftrag zur Rechnungsdispo
 1. Wähle die Auftragszeilen aus, die Du abrechnen möchtest
 1. Starte die Aktion "Auswahl fakturieren"
 1. Bestätige mit OK

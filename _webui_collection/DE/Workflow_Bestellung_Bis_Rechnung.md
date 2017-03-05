@@ -15,4 +15,4 @@ sequence: 10
 1. [Melde Dich an](Anmeldung)
 1. [Erfasse eine neue Bestellung](Bestellung_erfassen)
 1. [Erstelle einen Wareneingang zu Deiner Bestellung](Zu_Bestellung_Wareneingang_erstellen)
-1. [Erstelle eine Rechnung zu der Bestellung](Zu_Bestellung_Rechnung_erstellen)
+1. [Erstelle eine Rechnung zu der Bestellung](Zu_Bestellung_Eingangsrechnung_erstellen)
