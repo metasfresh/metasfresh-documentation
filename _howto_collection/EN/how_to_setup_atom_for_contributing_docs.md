@@ -11,6 +11,21 @@ Download Atom from [official website](http://atom.io)
 
 ## Configuring
 
+### Autocomplete Paths
+With this you can easily create links to other markdown files without having them to search.
+
+1. press `Ctrl + Shift + P` to open search
+1. search for "install packages and themes"
+1. click on `Settings View: install packages and themes`
+1. search for "autocomplete-paths"
+1. click on "install"
+
+**Usage:** just put / and then a part of the file you are looking for.
+
+e.g. `/sales` will suggest `SalesOrder_recording`.
+
+*Hint:* Combine with Markdown Snippes using `l + TAB` to get `[]()`
+
 ### Markdown Image Helper
 
 This package allows you to easily upload and insert images into markdown pages.
