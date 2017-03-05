@@ -9,7 +9,7 @@ sequence: 20
 
 ## Steps
 
-1. Go in the menu and open the link "New Sales Order"
+1. [Go in the menu and open the link "New Sales Order"](Menu)
 1. [Create a new sales order](New_Record_Window)
 1. Enter a part of the customers name or number
 1. click "Batch Entry" or press Keys `Ctrl+Q` to open the fast order line input
