@@ -8,7 +8,6 @@ layout: default
 - Installation [(EN)](pages/installation/index_en)  [(DE)](pages/installation/index_de)
 - WebUI [(EN)](pages/webui/index_en) [(DE)](pages/webui/index_de)
 - General [(EN)](pages/howto/index_en) [(DE)](pages/howto/index_de)
-- [how to create your own metasfresh-installer](pages/admins/installer_scripts/build_new_release_en)
 - [Support & Troubleshooting](pages/support/index_en)
 
 ### Developers
@@ -23,7 +22,6 @@ layout: default
 
 ### Documentation Contributors  
 - [StyleGuide](https://github.com/metasfresh/metasfresh-documentation/blob/master/StyleGuide.md)
-
 
 ### How to get in contact
 
