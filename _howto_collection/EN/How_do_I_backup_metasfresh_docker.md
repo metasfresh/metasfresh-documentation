@@ -3,8 +3,6 @@ title: How do I backup metasfresh database using docker?
 layout: default
 tags:
   - System Administration
-  - Installation
-  - Docker
 lang: en
 ---
 
