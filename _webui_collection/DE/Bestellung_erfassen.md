@@ -3,6 +3,7 @@ title: Wie erfasse ich eine Bestellung?
 layout: default
 tags:
   - Workflow
+  - Einkauf
 lang: de
 sequence: 20
 ---
