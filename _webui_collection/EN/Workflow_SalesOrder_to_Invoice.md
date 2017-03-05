@@ -3,6 +3,7 @@ title: Workflow Sales Order to Invoice
 layout: default
 tags:
   - Workflow
+  - Sales
 lang: en
 sequence: 10
 ---

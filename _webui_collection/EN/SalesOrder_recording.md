@@ -3,6 +3,7 @@ title: How do I create  a Sales Order ?
 layout: default
 tags:
   - Workflow
+  - Sales
 lang: en
 sequence: 20
 ---

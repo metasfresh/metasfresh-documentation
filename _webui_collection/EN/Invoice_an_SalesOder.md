@@ -3,6 +3,7 @@ title: How do I create an invoice for a sales order ?
 layout: default
 tags:
   - Workflow
+  - Sales
 lang: en
 sequence: 40
 ---

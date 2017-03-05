@@ -3,6 +3,7 @@ title: How do I manage Opportunities ?
 layout: default
 tags:
   - Workflow
+  - Sales
   - CRM
 lang: en
 ---
