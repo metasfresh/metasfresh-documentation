@@ -3,12 +3,13 @@ title: metasfresh documentation
 layout: default
 ---
 
-### Anleitungen für Admins und Benutzer
+### Anleitungen
 
   - [Allgemein](pages/howto/index_de)
   - [WebUI](pages/webui/index_de)
+  - [Installation](pages/installation/index_de)
 
-### How-Tos for Admins and Users (English)
+### How-Tos (English)
 
 - [General](pages/howto/index_en)
 - [WebUI](pages/webui/index_en)
