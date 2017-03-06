@@ -1,16 +1,17 @@
 ---
-title: Wie erstelle ich eine Rechnung für einen Auftrag ? (WebUI)
+title: Wie erstelle ich eine Rechnung für einen Auftrag ?
 layout: default
 tags:
-  - WebUI
+  - Workflow
+  - Verkauf
 lang: de
 sequence: 40
 ---
 
 ## Schritte
 
-1. [Starte von einem fertigen Auftrag](Auftrag_erfassen_webui)
-1. Springe zur Rechnungsdispo
+1. [Starte von einem gelieferten Auftrag](Zu_Auftrag_Lieferschein_erstellen)
+1. Springe aus dem Auftrag zur Rechnungsdispo
 1. Wähle die Auftragszeilen aus, die Du abrechnen möchtest
 1. Starte die Aktion "Auswahl fakturieren"
 1. Bestätige mit OK

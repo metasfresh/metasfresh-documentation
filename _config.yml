@@ -10,6 +10,10 @@ collections:
     output: true
   developers_collection:
     output: true
+  webui_collection:
+    output: true
+  installation_collection:
+    output: true
  
 defaults:
   - scope:

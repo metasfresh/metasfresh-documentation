@@ -1,15 +1,16 @@
 ---
-title: Wie erstelle ich einen Lieferschein für einen Auftrag ? (WebUI)
+title: Wie erstelle ich einen Lieferschein für einen Auftrag ?
 layout: default
 tags:
-  - WebUI
+  - Workflow
+  - Verkauf
 lang: de
 sequence: 30
 ---
 
 ## Schritte
 
-1. [Starte von einem fertigen Auftrag](Auftrag_erfassen_webui)
+1. [Starte von einem fertigen Auftrag](Auftrag_erfassen)
 1. Springe zur Lieferdisposition
 1. Wähle die Auftragszeilen aus, die Du liefern möchtest
 1. Starte die Aktion "Auswahl liefern"
