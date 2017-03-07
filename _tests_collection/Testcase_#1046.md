@@ -29,7 +29,7 @@ tags:
 	* set another valid from date
 	
 1. Use the Preise erstellen button to create the new PLV, check the product prices:
-	* => PLV ID: * => name of pricelist_country_currency_valid from date (new one!) for every new product price
+	* => PLV ID: name of pricelist_country_currency_valid from date (new one!) for every new product price
 	
 	
 **Note:** The name of the pricelist, currency and valid from date of the PLV are mandatory, but the country is not, so when using an old pricelist the country might not be shown in the pricelist version ID, if it's not set.
