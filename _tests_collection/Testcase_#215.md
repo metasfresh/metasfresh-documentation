@@ -29,7 +29,7 @@ tags:
 1. Complete the order:	
 	* => completion works fine, no error is thrown about Invalid('M_AttributeSetInstance_ID is mandatory.')
 	
-1. Repeat the test with another sales order for G0002, use P0002 on TU B, but add the product using Add new!
+1. Repeat the test with another sales order for G000X, use P0002 on TU B, but add the product using Add new!
 	* => completion works fine, no error is thrown about Invalid('M_AttributeSetInstance_ID is mandatory.')
 
 
