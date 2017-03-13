@@ -14,6 +14,7 @@ lang: de
 	* Feld **Anfrage-Nutzer** ausfüllen: testuser@testfirma.de
 	* Feld **Passwort Anfrage Nutzer** ausfüllen: Test123
 	* Feld **SMTP-Anmeldung**: Haken setzen
+	* Feld **Server EMail**: Auf Ja setzen
 
 1. [Speichern](Wie_lege_ich_einen_neuen_datensatz_an)
 
