@@ -3,7 +3,7 @@ layout: default
 title: Build metasfresh from command line
 tags: developers_getting_started
 sequence: 100
-summary: how to create a districbutable using maven from your command line
+summary: how to create a distributable using maven from your command line
 lang: en
 ref: developers_getting_started_mvn_cmdline
 ---
@@ -76,7 +76,7 @@ To build it, enter the  `metasfresh-procurement-webui` folder and run `mvn insta
 ## metasfresh-dist
 
 The maven projects that build the actual distributable is in metasfresh-dist.
-To create the districbutable, enter the `metasfresh-dist` folder and run `mvn install`
+To create the distributable, enter the `metasfresh-dist` folder and run `mvn install`
 
 Now you have the main distributable in `metasfresh-dist\de.metas.endcustomer.mf15.dist\target`
 
