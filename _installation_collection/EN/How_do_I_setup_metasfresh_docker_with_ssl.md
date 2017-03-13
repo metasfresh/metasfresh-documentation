@@ -1,12 +1,11 @@
 ---
-title: How do I run metasfresh-docker with SSL
+title: How do I run metasfresh-docker with SSL?
 layout: default
-tags:
-  - System Administration
-  - Installation
+tags:  
   - Docker
 lang: en
 ---
+
 ## Installing SSL certificates
 
 1. Stop your metasfresh-docker containers if they are already running
