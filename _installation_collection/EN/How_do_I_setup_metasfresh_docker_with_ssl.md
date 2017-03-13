@@ -7,7 +7,7 @@ lang: en
 ---
 
 ## Installing SSL certificates
-
+1. If you're doing a new installation, follow [this guide](http://docs.metasfresh.org/installation_collection/EN/How_do_I_setup_metasfresh_docker_with_ssl.html) but don't `docker-compose build` yet. Then, proceed with `Step 4` of this guide.
 1. Stop your metasfresh-docker containers if they are already running
 1. Remove your existing docker-images
 1. Generate or aquire your SSL certificates
