@@ -52,6 +52,12 @@ Note: the "Eclipse IDE for Java Developers" will probably do. We found that at l
   - there is also an alternative  `..._jrebel.launch` for both client and server. You can them in case you have the [JRebel](http://zeroturnaround.com/software/jrebel/) eclipse plugin.
 
 
+## Lombok
+
+We recently started using [lombok](https://projectlombok.org/). At the time I'm writing this, we only use it on [metasfresh-webui-api](https://github.com/metasfresh/metasfresh-webui-api) but we will probably also use it elsewhere soon.
+
+To those make those projects work with your local eclipse please go to [https://projectlombok.org/download.html](https://projectlombok.org/download.html) and follow the instructions for eclipse. You might also want to check out our metasfresh-issue [#1125](https://github.com/metasfresh/metasfresh/issues/1125) for further details.
+
 # Other IDEs
 
 We don't yet have experince with code contributions that were created with e.g. Netbeans or IntelliJ.
