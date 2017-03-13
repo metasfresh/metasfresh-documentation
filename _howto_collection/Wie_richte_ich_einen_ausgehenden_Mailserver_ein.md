@@ -15,10 +15,10 @@ lang: de
 	* Feld **Passwort Anfrage Nutzer** ausfüllen: Test123
 	* Feld **SMTP-Anmeldung**: Haken setzen
 	* Feld **Server EMail**: Auf Ja setzen
-
 1. [Speichern](Wie_lege_ich_einen_neuen_datensatz_an)
+1. "Test Mail" anklicken um eine Testmail zu schicken
 
-	*Hinweis:*
+*Hinweise:*
 	
 	1. Anfrage-Email: die Email-Adresse, von der Emails gesendet werden sollen
 	1. Anfrage-Nutzer: der Nutzername, der zur Authentifizierung beim Senden der Email benutzt werden soll
