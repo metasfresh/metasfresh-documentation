@@ -2,7 +2,9 @@
 title: How do I use the Java Client using Docker ?
 layout: default
 tags:
+  - System Administration
   - Installation
+  - Docker
 lang: en
 ---
 
@@ -10,16 +12,22 @@ lang: en
 
 [Install metasfresh on Docker](How_do_I_setup_the_metasfresh_stack_using_Docker)
 
-## adapt Docker-Compose.yml
+## Change docker-compose.yml file
 
-expose these ports additionally in section "app:":
+Expose these ports additionally in section "app:":
 
 1. db: 5432
-1. app: 8282 and 61616 
+1. app: 8282 and 61616
+
+Note: careful with your indentation in yml-files
+
+## Activate changes
+
+` sudo docker-compose up -d`
 
 ## Example
 
-```
+```yml
 db:
   build: db
   ports:
@@ -69,7 +77,7 @@ webui:
 
 ## Access
 
-add "db" as hostname to your local host file and point it to the IP of your dockerhost
+Add the hostname `db` to your local host file and set it to the IP-Adress of your dockerhost
 
 Now install and use the Java client as usual
 

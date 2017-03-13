@@ -4,6 +4,7 @@ layout: default
 tags:
   - Systemadministration
   - Installation
+  - Docker
 lang: de
 ---
 
@@ -27,10 +28,9 @@ lang: de
 ```
 docker-compose stop
 tar cvzf ../backup.tar.gz ./<mydocker fir>/* --BACKUP
-docker-compose rm 
+docker-compose rm
 git pull
 vi ./webui/sources/configs/config.js
 docker-compose build
 docker-compose up -d
 ```
-

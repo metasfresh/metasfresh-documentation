@@ -4,6 +4,7 @@ layout: default
 tags:
   - Systemadministration
   - Installation
+  - Docker
 lang: de
 ---
 
@@ -36,6 +37,3 @@ http://MYDOCKERHOST
 ## Feedback
 
 Wenn Du Fragen oder Probleme hast, frag einfach nach Support im offiziellen Forum: [forum.metasfresh.org](http://forum.metasfresh.org)
-
-
-
