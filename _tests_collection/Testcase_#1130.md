@@ -76,6 +76,7 @@ tags:
 	
 	
 **Note:** 
+
 1. The LUs and TUs marked as "Eigene" are not included in the material receipt (as qty), but are still displayed in Handling Unit tab there (swing). Also, when you check the values of the HUs in Handling Unit window,
 there is no difference between "Eigene" and normal HUs: will be solved in the future, when we get requirements for that.
 
