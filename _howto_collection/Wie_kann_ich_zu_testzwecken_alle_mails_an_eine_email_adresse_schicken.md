@@ -13,5 +13,5 @@ lang: de
 1. Trage in Feld **Suchschlüssel** die Email-Adresse ein an die alle Mails gehen sollen
 
    *Hinweis*: Trage nichts ein um die Emails direkt an die Benutzer zu schicken und somit die Testmailfunktion auszuschalten.  
-1. Starte den Server und Deinen Client neu
+1. Die Änderung ist sofort aktiv
 
