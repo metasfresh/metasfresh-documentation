@@ -1,5 +1,5 @@
 ---
-title: Wie benutze ich Autocomplete?
+title: Wie editiere ich Texte auf dem Lieferschein?
 layout: default
 tags:
   - Weitere Infos
