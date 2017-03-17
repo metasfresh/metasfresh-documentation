@@ -11,12 +11,7 @@ lang: de
 Steuert ob Notifikationen erstellt werden bei der Zuordnung von Vorgängen zu Benutzern.
 Die Notifikationen können per Email oder Statusmeldung erfolgen.
 
-### Systemschalter per SQL setzen
 
-Aktivierung durch:
+## Einrichtung
 
-```
-update ad_sysconfig
-set value = 'Y'
-where name =  'org.compiere.model.MRequest.EnableNotifications';
-```
+Siehe [Einrichtung Systemschalter](Systemschalter)
