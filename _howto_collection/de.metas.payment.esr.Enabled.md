@@ -1,5 +1,5 @@
 ---
-title: org.compiere.model.MRequest.EnableNotifications
+title: de.metas.payment.esr.Enabled
 layout: default
 tags:
   - System
