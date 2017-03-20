@@ -70,4 +70,5 @@ tags:
 1. However, you can put more qty of CUs on a full TU that is already existing, e.g. you can put more CU on the TU A x 10kg in a second transformation!
 1. If you have received all qty ou ordered, then the CUs of this orderline are not available for transformation together with other products, only by itself: e.g. when you have 3 orderlines, and one has the full QtyOrdered already delivered,
 when you mark all 3 and click transform, the product with the full qty delivered does not appear in the HU Editor! However, you can create more receipts for it by itself.
+
 => This is how it works atm, might be changed in the future.
