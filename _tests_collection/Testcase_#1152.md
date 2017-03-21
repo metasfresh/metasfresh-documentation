@@ -27,7 +27,7 @@ tags:
 	
 4. change bpartner's language to Deutsch and try again
 	* documents have the address like in default local sequence, not the one you set (the one from main Country window)
-	8 because the language is not the same
+	* because the language is not the same
 
 5. config a new country FR, in the subtab country sequence
 	* langauge Deutsch and org 1
