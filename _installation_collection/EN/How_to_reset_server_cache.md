@@ -4,6 +4,7 @@ layout: default
 tags:
   - System Administration
 lang: en
+permalink: /mypageurl/
 ---
 
 ## Overview
