@@ -2,7 +2,7 @@
 title: How to create a sales order
 layout: default
 tags:
-  - Workflow
+
 
 sequence: 20
 lang: en 
