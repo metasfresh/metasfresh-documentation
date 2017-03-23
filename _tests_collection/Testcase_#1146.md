@@ -12,7 +12,8 @@ tags:
 
 
 1. Make sure you have the mailing set up correctly done where you are testing! 
-	* => http://docs.metasfresh.org/howto_collection/Wie_richte_ich_einen_ausgehenden_Mailserver_ein.html & http://docs.metasfresh.org/howto_collection/Wie_kann_ich_zu_testzwecken_alle_mails_an_eine_email_adresse_schicken.html
+	* http://docs.metasfresh.org/howto_collection/Wie_richte_ich_einen_ausgehenden_Mailserver_ein.html 
+	* http://docs.metasfresh.org/howto_collection/Wie_kann_ich_zu_testzwecken_alle_mails_an_eine_email_adresse_schicken.html
 	* note that you have to change the info, accordingly to where you test!
 	* set your email address as the default one where all mails are sent to
 	
