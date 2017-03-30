@@ -82,8 +82,14 @@ Now you have the main distributable in `metasfresh-dist\de.metas.endcustomer.mf1
 
 Congrats! (if you got this far ;-) )
 
-## A note about metasfresh-webui-frontend
+## metasfresh-webui-frontend
 
 The metasfresh-webui-frontend repo contains the javascript code of our frontend.
-I don't know how it's build locally, but if you want to know how it is build,
-I recommend to check out the repository's [Jenkinsfile](https://github.com/metasfresh/metasfresh-webui-frontend/blob/master/Jenkinsfile).
+
+In your working copy run `npm install` first, followed by `./node_modules/webpack/bin/webpack.js --config webpack.prod.js`
+
+Copy the content of the `dist` folder to the root of your webserver. Provide a `config.js`, containing the paths to your server, in the root of your webserver.
+
+Note: make sure you have a appropriate npm/node version istalled, as the package manager of your OS may be installed an outdated version of npm/node. Check with `npm --version` and `node --version`. March 2017 Latest node.js LTS Version: v6.10.1 (includes npm 3.10.10).
+
+More info about the build process may be found in the repository's [Jenkinsfile](https://github.com/metasfresh/metasfresh-webui-frontend/blob/master/Jenkinsfile).

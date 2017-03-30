@@ -11,20 +11,9 @@ lang: de
 
 1. melde Dich mit der Rolle "System Administrator" am Mandanten "System" an
 
-### Funktion in Systemkonfig aktivieren
+### Systemschalter aktivieren
 
-Option 1 - SQL Script verwenden
-
-```
-update ad_sysconfig  set value = 'Y' where name ='de.metas.payment.esr.Enabled';
-```
-
-Option 2 - manuell
-
-1. Öffne [Fenster "System-Konfiguration"](Wie_finde_und_öffne_ich_ein_Fenster)
-1. suche im Feld **Name** nach "de.metas.payment.esr.Enabled"
-1. Im Feld **Wert** trage anstelle N den Wert Y ein
-1. [Speichern](Wie_lege_ich_einen_neuen_datensatz_an)
+Systemschalter `de.metas.payment.esr.Enabled` [aktivieren](Systemschalter)
 
 ### Referenzen aktivieren
 Option 1 - SQL Script verwenden
@@ -37,7 +26,7 @@ update c_referenceno_type_table set isactive = 'Y' where c_referenceno_type_id i
 Option 2 - manuell
 
 1. Öffne [Fenster "Reference Number Type"](Wie_finde_und_öffne_ich_ein_Fenster)
-1. setze den Haken im Feld **aktiv** bei den Einträgen mit den Namen "ESRReferenceNumber" 
+1. setze den Haken im Feld **aktiv** bei den Einträgen mit den Namen "ESRReferenceNumber"
 1. [Speichern](Wie_lege_ich_einen_neuen_datensatz_an)
 1. setzen den Haken ebenfalls im unteren Register "assigned tables"
 1. [Speichern](Wie_lege_ich_einen_neuen_datensatz_an)

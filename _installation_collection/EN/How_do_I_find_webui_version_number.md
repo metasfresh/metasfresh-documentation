@@ -2,7 +2,7 @@
 title: How do I find the WebUI version number ?
 layout: default
 tags:
-  - WebUI
+  - System Administration
 lang: en
 ---
 
