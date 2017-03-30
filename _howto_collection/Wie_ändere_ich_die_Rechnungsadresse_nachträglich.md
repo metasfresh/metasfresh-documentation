@@ -1,5 +1,5 @@
 ---
-title: Wie ändere ich die Rechnungssadresse nachträglich ?
+title: Wie ändere ich die Rechnungsadresse nachträglich ?
 layout: default
 tags:
   - Workflow
