@@ -2,8 +2,7 @@
 title: Akronyme
 layout: default
 tags:
-  -
-
+  - Allgemein
 lang: de
 ---
 
