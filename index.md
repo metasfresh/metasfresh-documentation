@@ -9,6 +9,7 @@ layout: default
 - WebUI [(EN)](pages/webui/index_en) [(DE)](pages/webui/index_de)
 - General [(EN)](pages/howto/index_en) [(DE)](pages/howto/index_de)
 - [Support & Troubleshooting](pages/support/index_en)
+- Glossary [(EN)](pages/glossary/index_en) [(DE)](pages/glossary/index_de)
 
 ### Developers
   - [The metasfresh source code at github](https://github.com/metasfresh/metasfresh)

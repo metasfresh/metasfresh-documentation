@@ -14,7 +14,9 @@ collections:
     output: true
   installation_collection:
     output: true
- 
+ glossary_collection:
+  output: true
+
 defaults:
   - scope:
       path: ""
