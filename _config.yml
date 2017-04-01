@@ -16,7 +16,7 @@ collections:
     output: true
   glossary_collection:
     output: true
-  application_dictionary_collection:
+  appdictionary_collection:
     output: true
 
 
