@@ -10,6 +10,7 @@ layout: default
 - General [(EN)](pages/howto/index_en) [(DE)](pages/howto/index_de)
 - [Support & Troubleshooting](pages/support/index_en)
 - Glossary [(DE)](pages/glossary/index_de)
+- Application Dictionary [(EN)](pages/application_dictionary/index_en) [(DE)](pages/application_dictionary/index_de)
 
 ### Developers
   - [The metasfresh source code at github](https://github.com/metasfresh/metasfresh)
