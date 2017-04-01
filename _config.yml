@@ -16,6 +16,9 @@ collections:
     output: true
   glossary_collection:
     output: true
+  application_dictionary_collection:
+    output: true
+
 
 defaults:
   - scope:
