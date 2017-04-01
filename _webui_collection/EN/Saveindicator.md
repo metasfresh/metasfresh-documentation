@@ -6,7 +6,7 @@ tags:
 lang: en
 ---
 
-## Übersicht
+## Overview
 
 metasfresh saves all changes automatically as soon something has changed.
 
@@ -16,6 +16,6 @@ metasfresh saves all changes automatically as soon something has changed.
 | green | successfully saved |
 | red | error while trying to save
 
-## Anzeige
+## Video
 
 ![](../DE/assets/saveindicator2.gif)
