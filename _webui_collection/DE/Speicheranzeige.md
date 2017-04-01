@@ -16,6 +16,6 @@ metasfresh speichert prinzipiell überall vollautomatisch in dem Moment wo sich 
 | grün |  erfolgreich gespeichert|
 | rot | aufgrund eines Fehlers nicht gespeichert
 
-## Anzeige
+## Video
 
 ![](assets/saveindicator2.gif)
