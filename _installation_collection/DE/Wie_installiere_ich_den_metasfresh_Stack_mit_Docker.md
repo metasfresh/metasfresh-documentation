@@ -20,7 +20,8 @@ sequence: 10
 
 ```
 git clone https://github.com/metasfresh/metasfresh-docker.git
-vi ./metasfresh-docker/webui/sources/configs/config.js    #Replace "MYDOCKERHOST" with FQDN of the Dockerhost
+vi ./metasfresh-docker/webui/sources/configs/config.js
+#Replace "MYDOCKERHOST" with FQDN of the Dockerhost
 cd metasfresh-docker
 docker-compose build
 docker-compose up -d  #to run the stack in the background.
