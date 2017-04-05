@@ -14,7 +14,12 @@ collections:
     output: true
   installation_collection:
     output: true
- 
+  glossary_collection:
+    output: true
+  appdictionary_collection:
+    output: true
+
+
 defaults:
   - scope:
       path: ""
