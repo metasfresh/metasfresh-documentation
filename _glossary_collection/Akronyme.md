@@ -9,11 +9,13 @@ lang: de
 Idee wie das Glossar aufgebaut werden könnte:
 * Bedeutung des Akronyms, z.B. mf - MetasFresh
 * Kurze Erklärung mit oder ohne Links zu detaillierten Information, welchen Bezug hat es zu mf
+* bei der Suche nach Bedeutungen kann der [acronymfinder](http://www.acronymfinder.com/) helfen
 
 | Abkürzung      | Bedeutung      | Kommentar      |
 | :------------- | :------------- | :------------- |
 | ADR       | Aus der Region      | [Migros(ch) Label](https://aus-der-region.migros.ch/aus-der-region/de/faq.html), Klasse in mf org.adempiere.mm.attributes.spi.impl ADRAttributeGenerator |
 | AD        | Application Dictionary          | |
+| AIT       | Automated Integration Test      | einige mf Subprojekte haben .ait als suffix, z.B. de.metas.banking.ait |
 | DLM       | Data Life Cycle Mangement        | ? |
 | ESB       | möglicherweise "Enterprise Service Bus" | [wikipedia](https://de.wikipedia.org/wiki/Enterprise_Service_Bus), mf siehe [de.metas.esb](http://docs.metasfresh.org/developers_collection/en/de.metas.esb.html) |
 | ESR       | Einzahlungsschein mit Referenznummer | [PostFinance-Begriff in der Schweiz](https://www.iso-20022.ch/lexikon/esr/), siehe [mf-doku](http://docs.metasfresh.org/howto_collection/Wie_konfiguriere_ich_den_ESR_Zahlschein.html)
