@@ -12,7 +12,7 @@ metasfresh speichert prinzipiell überall vollautomatisch in dem Moment wo sich 
 
 | Farbanzeige     | Aussage    |
 | :------------- | :------------- |
-| grau       | versucht gerade zu speichertn       |
+| grau       | versucht gerade zu speichern       |
 | grün |  erfolgreich gespeichert|
 | rot | aufgrund eines Fehlers nicht gespeichert
 
