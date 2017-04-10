@@ -87,3 +87,9 @@ Congrats! (if you got this far ;-) )
 The metasfresh-webui-frontend repo contains the javascript code of our frontend.
 I don't know how it's build locally, but if you want to know how it is build,
 I recommend to check out the repository's [Jenkinsfile](https://github.com/metasfresh/metasfresh-webui-frontend/blob/master/Jenkinsfile).
+
+# Further reading
+
+There is an issue at github which is about some of the current maven project structure's shortcomings: [metasfresh/metasfresh#1275](https://github.com/metasfresh/metasfresh/issues/1275).
+
+Feel free to weigh in, and we would be happe to check out your pull requests :-).
