@@ -15,20 +15,20 @@ sequence: 10
 * min. 3 GB free RAM
 * min. 10 GB free disk space
 
-
 **Purpose:** This installation is meant for evaluating the new webinterface of metasfresh.
-
 
 **Installation:**
 1. [Install Docker](https://docs.docker.com/engine/installation/)
 1. [Install Docker Compose](https://docs.docker.com/compose/install/)
-1. Install metasfresh :
+1. Install metasfresh:
 
 ```bash
 git clone https://github.com/metasfresh/metasfresh-docker.git
 
 #Use an editor to replace "MYDOCKERHOST:PORT" with externally reachable hostname
-#and port of the Dockerhost - eg: 'http://myhost.provider.com/rest/api'
+#of the Dockerhost which supports access to the WebUI
+#eg: 'http://myhost.provider.com/rest/api'
+#(provide PORT if WebUI does not use the default port 80)
 vi ./metasfresh-docker/webui/sources/configs/config.js
 
 cd metasfresh-docker
@@ -43,39 +43,10 @@ docker-compose up -d
 
 After successful installation you can access the WebUI via:
 
-http://MYDOCKERHOST:PORT/
-(or http://localhost if you've installed on a local dev machine)
+http://MYDOCKERHOST:PORT or
 
-## Note
-
-If you don't know with what to replace MYDOCKERHOST:PORT in the config.js file, just skip this point and run 'docker-compose build' followed by 'docker-compose up -d' first and then do the following:
-
-```
-#list the docker network config in order to find the ip address of the webapi docker container
-docker network inspect bridge
-
-#get the webapi docker container id
-docker ps
-
-#get a terminal to the docker container
-docker exec -it <container id> /bin/bash
-
-#change to the interesting directory
-cd /opt/metasfresh-webui-frontend/dist
-
-#backup the config.js or not, up to you
-cp config.js config.jsBAK
-
-#display the content of the config.js, you must have the same structure in the next step
-cat config.js
-
-#no vi available! use cat to overwrite the file and save the file with CTRL+d:
-cat > config.js
-
-#write your own config with the ip address you got before and use default port 8080
-
-#open metasfresh webui your browser (http://localhost if you did not change anything else) and you should the login screen instead of a blank window and errors in your browser console (you maybe have to clean your browser cache first)
-```
+http://MYDOCKERHOST
+(if the default port 80 is used with the WebUI, which is often the case)
 
 ## Feedback
 
