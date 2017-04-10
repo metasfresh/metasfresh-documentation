@@ -73,7 +73,7 @@ webui:
 
 ## Zugriff
 
-füge Deiner lokalen Host Datei den Eintrag "db" mit der IP des Dockerhosts hinzu
+Stelle sicher, dass Dein PC den Dockerhost mit einem DNS-Namen auflösen kann. Z.B. in dem Du Deiner lokalen Host Datei den Servernamen  mit der IP des Dockerhosts hinzufügst.
 
 Nun installiere und nutze den Java Client wie üblich
 
