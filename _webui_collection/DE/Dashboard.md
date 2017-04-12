@@ -2,7 +2,7 @@
 title: Dashboard
 layout: default
 tags:
-  - Benutzung
+  - Referenz
 lang: de
 sequence: 20
 ---
@@ -13,4 +13,4 @@ Das Dashboard von metasfresh läd automatisch nach der Anmeldung und zeigt dynam
 
 ## Video
 
-[](assets/dynamicdashboard.gif)
+![](assets/dynamicdashboard.gif)
