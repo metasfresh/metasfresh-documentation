@@ -4,12 +4,13 @@ layout: default
 tags:
   - Usage
 lang: en
+sequence: 10
 ---
 
 ## Steps
 
 1. Open the URL of the metasfresh Service in your browser. e.g. http://dockerhost
-1. Use "SuperUser" and "System" to log on
+1. Use "metasfresh" and password "metasfresh" to log on (without "")
 
    **Important**: The username is also Case Sensitive!
 
