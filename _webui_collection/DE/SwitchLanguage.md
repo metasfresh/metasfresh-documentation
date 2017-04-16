@@ -6,7 +6,7 @@ tags:
 lang: de
 ---
 
-## Overview
+## Schritte
 
 1. Geh in die Aktionen
 2. Klick auf Einstellungen / Settings
