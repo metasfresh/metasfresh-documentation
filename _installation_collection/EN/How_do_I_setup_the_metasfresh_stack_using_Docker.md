@@ -18,6 +18,7 @@ sequence: 10
 **Purpose:** This installation is meant for evaluating the new webinterface of metasfresh.
 
 **Installation:**
+1. Have a Hostname (e.g. MYDOCKERHOST) you can resolve both on server and client
 1. [Install Docker](https://docs.docker.com/engine/installation/)
 1. [Install Docker Compose](https://docs.docker.com/compose/install/)
 1. Install metasfresh:
@@ -27,8 +28,8 @@ git clone https://github.com/metasfresh/metasfresh-docker.git
 
 #Use an editor to replace "MYDOCKERHOST:PORT" with externally reachable hostname
 #of the Dockerhost which supports access to the WebUI
-#eg: 'http://myhost.provider.com/rest/api'
 #(provide PORT if WebUI does not use the default port 80)
+
 vi ./metasfresh-docker/webui/sources/configs/config.js
 
 cd metasfresh-docker
