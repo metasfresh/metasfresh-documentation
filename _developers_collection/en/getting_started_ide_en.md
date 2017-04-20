@@ -58,6 +58,8 @@ We recently started using [lombok](https://projectlombok.org/). At the time I'm 
 
 To those make those projects work with your local eclipse please go to [https://projectlombok.org/download.html](https://projectlombok.org/download.html) and follow the instructions for eclipse. You might also want to check out our metasfresh-issue [#1125](https://github.com/metasfresh/metasfresh/issues/1125) for further details.
 
+Note that until eclipse version neon2 the lombok integration is tricky. Recommended eclipse version is neon3, as the lombok integration works out of the box with the lombok gui installer (also across multiple eclipse projects).
+
 # Other IDEs
 
 We don't yet have experince with code contributions that were created with e.g. Netbeans or IntelliJ.
