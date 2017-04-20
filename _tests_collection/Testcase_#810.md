@@ -57,7 +57,7 @@ tags:
 1. In attributes, uncheck IsTransferWhenNull for Lot No., and check it for Herkunft
 	
 1. In Wareneingang POS, create inouts, and set attributes for all products:
-	* P0001: e.g. Bio, MHD, CH, Lot No. 
+	* P0001: e.g. Bio, MHD, Lot No. 
 	* P0002: e.g. CH, MHD (same as P0001), Lot No. (same as P0001)
 	* P0003: e.g. DE, MHD (different from P0001), Lot No. (same from P0001)
 	
