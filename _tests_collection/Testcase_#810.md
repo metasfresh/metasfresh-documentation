@@ -78,7 +78,7 @@ tags:
 
 1. Click Empfang for receiving P0004, check the attributes in HU Editor:
 	* => Lot No. is set, as in all issued products, since it was set (and the same!) for all issued products
-	* => CH is NOT set, since it was set for all issued products, but differently
+	* => CH is NOT set, since it was set for 2 issued products, but differently
 	* => MHD is NOT set anymore, since it was set for all issued products, but differently
 	* => Bio is set, as in P0001, since is IsTransferWhenNull set and it was set in only one of the issued products
 
