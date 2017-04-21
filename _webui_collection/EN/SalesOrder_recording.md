@@ -17,8 +17,9 @@ sequence: 20
 1. Enter a part of the product name or number and click on one of the results
 1. Enter the Quantity and press 'ENTER' to add the line to the order
 1. Press Keys `CTRL+U` to complete the document
+1. Press Keys `CTRL+P` to open print preview
 
 
 ## Video
 
-<iframe src="https://player.vimeo.com/video/206308809" width="640" height="325" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+![](assets/salesorder.gif)
