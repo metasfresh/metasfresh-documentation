@@ -11,7 +11,7 @@ sequence: 30
 ## Steps
 
 1. [Have a completed Sales Order](SalesOrder_recording)
-1. Go to Shipment Schedule
+1. Go to Shipment Schedule using referenced documents
 1. Select the order lines you want to ship
 1. Start the action "Generate Shipments"
 1. Confirm by clicking OK
@@ -21,4 +21,4 @@ sequence: 30
 
 ## Video
 
-<iframe src="https://player.vimeo.com/video/206310601" width="640" height="325" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+![](assets/order_shipment.gif)
