@@ -3,6 +3,7 @@ title: How do I use the Java Client using Docker ?
 layout: default
 tags:
   - Docker
+  - Setup
 lang: en
 ---
 
