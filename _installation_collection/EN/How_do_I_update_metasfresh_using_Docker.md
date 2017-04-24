@@ -7,6 +7,10 @@ tags:
 lang: en
 ---
 
+## Requirements
+
+[Running docker based metasfresh system](How_do_I_setup_the_metasfresh_stack_using_Docker)
+
 ## Updating using docker
 
 1. Stop all docker containers
