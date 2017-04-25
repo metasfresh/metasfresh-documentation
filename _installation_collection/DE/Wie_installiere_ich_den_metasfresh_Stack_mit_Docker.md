@@ -42,6 +42,12 @@ http://MYDOCKERHOST:PORT oder
 http://MYDOCKERHOST
 (falls der Standard Port 80 mit der WebUI benutzt wird, was oft der Fall ist)
 
+## Visualisierung der docker container
+
+Es empfehlen sich folgende GUI Tools zur Visualisierung der docker container:
+* http://portainer.io/
+* https://kitematic.com/
+
 ## Feedback
 
 Wenn Du Fragen oder Probleme hast, frag einfach nach Support im offiziellen Forum: [forum.metasfresh.org](http://forum.metasfresh.org)
