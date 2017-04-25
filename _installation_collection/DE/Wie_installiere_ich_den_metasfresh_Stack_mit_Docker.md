@@ -3,6 +3,7 @@ title: Wie installiere ich den metasfresh Stack mit Docker ?
 layout: default
 tags:
   - Docker
+  - Installation
 lang: de
 sequence: 10
 ---
