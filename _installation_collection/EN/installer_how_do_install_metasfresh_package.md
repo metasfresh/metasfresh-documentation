@@ -58,15 +58,19 @@ The metasfresh-webui uses port `80/TCP` for the browsers' access. Make sure you 
 
 ## Frequently Asked Questions (FAQ)
 Q: `Which software/services will be installed?`
+
 A: Along with the metasfresh-server, the installer will download and setup [PostgreSQL-Server 9.5](https://www.postgresql.org/), [Apache2](https://httpd.apache.org/), [Elasticsearch](https://www.elastic.co/) and [OpenJDK-8 JDK](http://openjdk.java.net/projects/jdk8/).
 
 Q: `Where can I find the binaries and config files for metasfresh?`
+
 A: The binaries as well as their config files will be located in their respective directories under the main folder `/opt/`
 
 Q: `I want to check out the source code. Where am I able to find it?`
+
 A: You can find the source code for all of our applications on Github: https://github.com/metasfresh
 
 Q: `Which ports are used by metasfresh?`
+
 A:
 * Port `80/TCP`(http) - WebUI
 * Port `443/TCP` (https) - WebUI (optional)
@@ -75,6 +79,7 @@ A:
 * Port `5432/TCP` - Connection for the Java Client to the database-server
 
 Q: `When trying to connect to the server I get an error about a non-working "DB Connection". Why does this error appear?`
+
 A: The hostname of the Ubuntu server needs to be resolved by the server itself as well as the client workstations.
 Please note: the hostname resolved in your network needs to be identical to the one set on the server itself.
 If for example the hostname of your Ubuntu server is set to "erpserver", the name needs to be pingable using "ping erpserver" in the command line interface of the server and all client workstations.
