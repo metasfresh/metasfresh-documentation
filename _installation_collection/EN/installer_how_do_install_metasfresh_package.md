@@ -21,8 +21,8 @@ sequence: 10
 This installation is meant installing metasfresh directly on baremetal or a VM.
 If you want a more flexible installation, try [metasfresh-docker](How_do_I_setup_the_metasfresh_stack_using_Docker)
 
-**Installation:**
-1. (Download)[http://metasfresh.com/download/] the latest metasfresh-server installation package to your server.
+##Installation:
+1. [Download](http://metasfresh.com/download/) the latest metasfresh-server installation package to your server.
 1. Update your Ubuntu Server source list
 ```bash
 user@host:~/$ sudo apt update
