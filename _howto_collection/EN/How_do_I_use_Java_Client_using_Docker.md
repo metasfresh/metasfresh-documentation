@@ -5,6 +5,7 @@ tags:
   - System Administration
   - Installation
   - Docker
+  - Setup
 lang: en
 ---
 
