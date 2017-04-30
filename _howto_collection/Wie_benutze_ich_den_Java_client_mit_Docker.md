@@ -10,7 +10,7 @@ lang: de
 
 ## Voraussetzung
 
-[Install metasfresh on Docker](Wie_installiere_ich_den_metasfresh_Stack_mit_Docker)
+[Metasfresh Intstallation mit Docker](Wie_installiere_ich_den_metasfresh_Stack_mit_Docker)
 
 ## anpassen der Docker-Compose.yml
 
