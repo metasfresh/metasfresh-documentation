@@ -12,72 +12,47 @@ lang: de
 
 [Metasfresh Intstallation mit Docker](Wie_installiere_ich_den_metasfresh_Stack_mit_Docker)
 
-## anpassen der Docker-Compose.yml
+## Nutzen der docker-compose_javaclient.yml
 
 Diese Ports braucht es zusätzlich für den Java Client:
 
 1. db: 5432
 1. app: 8282 and 61616
 
-## Aktivieren der Änderungen
+Sie sind in der docker-compose_javaclient.yml zum Docker Host exponiert.
+Dementsprechend dürfen diese Ports auf dem Docker Host nicht von anderen Programmen belegt sein, sonst fährt das docker image nicht hoch.
 
-` sudo docker-compose up -d`
+Via `docker-compose --file` kann mitgeteilt werden, dass ein bestimmtes Konfigurationsfile (z.B. docker-compose_javaclient.yml) benutzt werden soll, statt dem Standardfile namens docker-compose.yml
 
 ## Beispiel
 
-```
-db:
-  build: db
-  ports:
-    - "5432:5432"
-  restart: always
-  volumes:
-    - ./volumes/db/data:/var/lib/postgresql/data
-    - ./volumes/db/log:/var/log/postgresql
-    - /etc/localtime:/etc/localtime:ro
-  environment:
-    - METASFRESH_USERNAME=metasfresh
-    - METASFRESH_PASSWORD=metasfresh
-    - METASFRESH_DBNAME=metasfresh
-    - DB_SYSPASS=System
-app:
-  build: app
-  hostname: app
-  links:
-    - db:db
-  ports:
-    - "8282:8282"
-    - "61616:61616"
-  restart: always
-  volumes:
-    - ./volumes/app/log:/opt/metasfresh/log:rw
-    - /etc/localtime:/etc/localtime:ro
-  environment:
-    - METASFRESH_HOME=/opt/metasfresh
-webapi:
-  build: webapi
-  links:
-    - app:app
-    - db:db
-  restart: always
-  volumes:
-    - ./volumes/webapi/log:/opt/metasfresh-webui-api/log:rw
-    - /etc/localtime:/etc/localtime:ro
-webui:
-  build: webui
-  links:
-    - webapi:webapi
-  ports:
-    - "80:80"
-  restart: always
+```bash
+# ins docker Verzeichnis wechseln
+cd metasfresh-docker
 
+# prüfen, ob metasfresh-docker noch läuft
+docker-compose ps
+
+# falls metasfresh-docker noch läuft, herunterfahren und docker images entfernen
+docker-compose down
+
+# metasfresh-docker mit Java Client Zugriff starten
+docker-compose --file docker-compose_javaclient.yml up -d
+
+# prüfen, ob alle docker images hochgefahren sind
+docker-compose ps
+# alle images müssen den Status "Up" vorweisen
 ```
 
 ## Zugriff
 
-füge Deiner lokalen Host Datei den Eintrag "db" mit der IP des Dockerhosts hinzu
+Stelle sicher, dass Dein PC den Dockerhost mit einem DNS-Namen (z.b. MYDOCKERHOST) auflösen kann. Z.B. indem Du Deiner lokalen Host Datei den Servernamen mit der IP des Dockerhosts hinzufügst.
 
-Nun installiere und nutze den Java Client wie üblich
+Zusätzlich muss dein PC die Datenbank direkt erreichen können. Füge hierfür Deiner lokalen Host Datei den Eintrag `db` mit der IP des Dockerhosts hinzu.
+
+Nun lade den Java Client via
+http://MYDOCKERHOST:8282
+herunter und installiere und nutze ihn wie üblich.
 
 ## Feedback
 
