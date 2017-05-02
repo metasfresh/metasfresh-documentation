@@ -45,7 +45,7 @@ Nach erfolgreicher Installation, startet sowohl der Applikations-Server, als auc
 Sobald die Dienste initialisiert sind, kannst du:
 * die URL `http://XXX.YYY.ZZZ.AAA:8080/` in deinem Browser aufrufen, um den Java Swing Client herunterzuladen und auf den Client-PCs zu installieren
 oder
-* die URL `http://XXX.YYY.ZZZ.AAA/` in deinem Browser aufrufen, um die metasfresh WebUI aufzurufen (Hint: check out this TODO guide for using a hostname instead of an IP address to access the webui)
+* die URL `http://XXX.YYY.ZZZ.AAA/` in deinem Browser aufrufen, um die metasfresh WebUI aufzurufen
 `Hinweis: XXX.YYY.ZZZ.AAA stellt die IP-Adresse deines Servers dar. Wenn du den Server lieber mit einem DNS-Eintrag (z.B. Hostnamen) aufrufen möchtest, richte den Server wie hier beschrieben ein`
 
 Wenn du den status der metasfresh-dienste prüfen möchtest, kannst du das über folgende Befehle erreichen:
