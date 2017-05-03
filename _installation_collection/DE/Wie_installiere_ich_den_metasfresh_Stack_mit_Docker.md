@@ -43,6 +43,10 @@ http://MYDOCKERHOST:PORT oder
 http://MYDOCKERHOST
 (falls der Standard Port 80 mit der WebUI benutzt wird, was oft der Fall ist)
 
+## Visualisierung der docker container
+
+Zur Zeit können wir keinen Support dafür leisten, aber es gibt einen [Post im Forum](https://forum.metasfresh.org/t/docker-gui-recommendation) (in englisch) über dieses Thema, welcher zwei weit verbreitete Tools empfiehlt.
+
 ## Feedback
 
 Wenn Du Fragen oder Probleme hast, frag einfach nach Support im offiziellen Forum: [forum.metasfresh.org](http://forum.metasfresh.org)
