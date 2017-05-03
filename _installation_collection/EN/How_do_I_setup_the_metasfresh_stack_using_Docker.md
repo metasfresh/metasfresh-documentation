@@ -52,9 +52,7 @@ http://MYDOCKERHOST
 
 ## Docker container visualization
 
-Feel free to use one of the following GUI tools to visualize your docker containers:
-* http://portainer.io/
-* https://kitematic.com/
+We currently can't provide support, but here is a [forum post](https://forum.metasfresh.org/t/docker-gui-recommendation) around the topic which recommends two widely used tools.
 
 ## Feedback
 
