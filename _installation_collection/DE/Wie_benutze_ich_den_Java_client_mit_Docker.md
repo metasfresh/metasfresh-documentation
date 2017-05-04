@@ -2,9 +2,8 @@
 title: Wie benutze ich den Java Client mit Docker ?
 layout: default
 tags:
-  - Systemadministration
-  - Installation
   - Docker
+  - Setup  
 lang: de
 ---
 
