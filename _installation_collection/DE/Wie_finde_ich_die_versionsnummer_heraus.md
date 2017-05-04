@@ -1,5 +1,5 @@
 ---
-title: How do I find the WebUI version number?
+title: Wie finde ich die WebUI Versionsnummer?
 layout: default
 tags:
   - System Administration
