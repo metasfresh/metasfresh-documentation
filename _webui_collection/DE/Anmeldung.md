@@ -15,4 +15,4 @@ sequence: 10
 
 ## Video
 
-<iframe src="https://player.vimeo.com/video/206307934" width="640" height="594" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+![](assets/login.gif)

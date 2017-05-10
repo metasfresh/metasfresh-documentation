@@ -3,6 +3,7 @@ title: How do I use the Java Client using Docker ?
 layout: default
 tags:
   - Docker
+  - Setup
 lang: en
 ---
 
@@ -10,74 +11,46 @@ lang: en
 
 [Install metasfresh on Docker](How_do_I_setup_the_metasfresh_stack_using_Docker)
 
-## Change docker-compose.yml file
+## Use the docker-compose_javaclient.yml
 
-Expose these ports additionally in section "app:":
+These ports are used additionally in order to use the java client:
 
 1. db: 5432
 1. app: 8282 and 61616
 
-Note: careful with your indentation in yml-files
+They are exposed to the docker host in the docker-compose_javaclient.yml file.
+Accordingly these ports should not be in use by other programs on the docker host, otherwise the docker image will not boot.
 
-## Activate changes
-
-` sudo docker-compose up -d`
+By using `docker-compose --file` one can control which configuration file should be used (i.e. docker-compose_javaclient.yml).
 
 ## Example
 
-```yml
-db:
-  build: db
-  ports:
-    - "5432:5432"
-  restart: always
-  volumes:
-    - ./volumes/db/data:/var/lib/postgresql/data
-    - ./volumes/db/log:/var/log/postgresql
-    - /etc/localtime:/etc/localtime:ro
-  environment:
-    - METASFRESH_USERNAME=metasfresh
-    - METASFRESH_PASSWORD=metasfresh
-    - METASFRESH_DBNAME=metasfresh
-    - DB_SYSPASS=System
-app:
-  build: app
-  hostname: app
-  links:
-    - db:db
-  ports:
-    - "8282:8282"
-    - "61616:61616"
-  restart: always
-  volumes:
-    - ./volumes/app/log:/opt/metasfresh/log:rw
-    - /etc/localtime:/etc/localtime:ro
-  environment:
-    - METASFRESH_HOME=/opt/metasfresh
-webapi:
-  build: webapi
-  links:
-    - app:app
-    - db:db
-  restart: always
-  volumes:
-    - ./volumes/webapi/log:/opt/metasfresh-webui-api/log:rw
-    - /etc/localtime:/etc/localtime:ro
-webui:
-  build: webui
-  links:
-    - webapi:webapi
-  ports:
-    - "80:80"
-  restart: always
+```bash
+# change to the docker dir
+cd metasfresh-docker
 
+# check if metasfresh-docker still running
+docker-compose ps
+
+# if metasfresh-docker is still running, stop it and remove the images
+docker-compose down
+
+# start metasfresh-docker with access to the java client
+docker-compose --file docker-compose_javaclient.yml up -d
+
+# check if all docker images were booted correctly
+docker-compose ps
+# all images must show the status "Up"
 ```
 
 ## Access
+Assure that your computer can resolve the dockerhost by a DNS name (i.e. MYDOCKERHOST). I.e. by adding the servername with the IP of the dockerhost to your local host file.
 
-Add the hostname `db` to your local host file and set it to the IP-Adress of your dockerhost
+Additionally your computer must be able to reach the database directly. Add the hostname `db` to your local host file and set it to the IP-Adress of your dockerhost
 
-Now install and use the Java client as usual
+Now download the java client via
+http://MYDOCKERHOST:8282
+and install and use it as usual
 
 ## Feedback
 

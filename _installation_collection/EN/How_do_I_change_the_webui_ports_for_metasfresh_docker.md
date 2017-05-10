@@ -3,6 +3,7 @@ title: How do I change the WebUI ports for metasfresh-docker?
 layout: default
 tags:  
   - Docker
+  - Setup
 lang: en
 ---
 

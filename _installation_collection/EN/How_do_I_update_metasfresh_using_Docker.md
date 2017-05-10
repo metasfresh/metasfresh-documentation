@@ -3,8 +3,13 @@ title: How do I update metasfresh using Docker
 layout: default
 tags:
   - Docker
+  - Updating
 lang: en
 ---
+
+## Requirements
+
+[Running docker based metasfresh system](How_do_I_setup_the_metasfresh_stack_using_Docker)
 
 ## Updating using docker
 

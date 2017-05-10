@@ -8,7 +8,7 @@ lang: de
 ---
 ## Vorbereitung
 1. Es existiert ein Produkt namens "Ergebnis" das hergestellt werden soll
-1. Es existiert zwei Produkte namens "teil1" und "teil2" aus denen Produkt "Ergebnis"  hergestellt werden soll
+1. Es existieren zwei Produkte namens "teil1" und "teil2" aus denen Produkt "Ergebnis"  hergestellt werden soll
 
 
 ## Schritte
@@ -30,7 +30,7 @@ lang: de
 1. [Speichern](Wie_lege_ich_einen_neuen_datensatz_an)
 1. Fenster schließen
 
-### Stückliste verifizieren 
+### Stückliste verifizieren
 1. Im Menü den Prozess "Stückliste verifizieren" öffnen
 1. Die Produktgruppe des Stücklistenprodukts auswählen
 1. OK klicken
