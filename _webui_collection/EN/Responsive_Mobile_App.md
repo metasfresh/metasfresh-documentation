@@ -2,7 +2,7 @@
 title: Responsive Mobile App
 layout: default
 tags:
-  - Reference
+  - Features
 lang: en
 sequence: 30
 ---

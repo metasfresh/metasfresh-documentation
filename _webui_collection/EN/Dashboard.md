@@ -2,7 +2,7 @@
 title: Dashboard
 layout: default
 tags:
-  - Reference
+  - Features
 lang: en
 sequence: 20
 ---
