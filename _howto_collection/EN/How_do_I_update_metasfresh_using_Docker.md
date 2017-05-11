@@ -24,7 +24,7 @@ lang: en
 ```bash
 cd metasfresh-docker
 docker-compose stop
-tar cvzf /backup/backup.tar.gz ./*
+tar cvzf /backup/backup.tar.gz .
 docker-compose rm
 git pull
 vi ./webui/sources/configs/config.js
