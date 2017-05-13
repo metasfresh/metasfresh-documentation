@@ -1,5 +1,5 @@
 ---
-title:
+title: Schnelleinstieg
 layout: default
 tags:
   - Anfang
