@@ -17,4 +17,4 @@ sequence: 10
 1. click "Start" to apply the changes
 
 
-![](assets/IntialSetupWizard-5b428.png)
+![](assets/IntialSetupWizard-c7960.png)
