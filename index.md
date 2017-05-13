@@ -3,14 +3,13 @@ title: metasfresh documentation
 layout: default
 ---
 
-### How-Tos
-
-- Installation [(EN)](pages/installation/index_en)  [(DE)](pages/installation/index_de)
-- WebUI [(EN)](pages/webui/index_en) [(DE)](pages/webui/index_de)
+### Users
+- User Manual [(EN)](pages/webui/index_en) [(DE)](pages/webui/index_de)
 - General [(EN)](pages/howto/index_en) [(DE)](pages/howto/index_de)
+
+### Admins
+- Installation [(EN)](pages/installation/index_en)  [(DE)](pages/installation/index_de)
 - [Support & Troubleshooting](pages/support/index_en)
-- Glossary [(DE)](pages/glossary/index_de)
-- App Dictionary [(EN)](pages/appdictionary/index_en) [(DE)](pages/appdictionary/index_de)
 
 ### Developers
   - [The metasfresh source code at github](https://github.com/metasfresh/metasfresh)
@@ -18,6 +17,7 @@ layout: default
   - [buildsystem overview](pages/infrastructure/ci_en): how the maven-based buildsystem works locally as well a on our CI-server
   - Javadocs [for the "main" body of code](http://metasfresh.com/javadoc/metasfresh-master/) and [for the esb bundles](http://metasfresh.com/javadoc/metasfresh-esb-master/)
   - [The metasfresh gitter chat](https://gitter.im/metasfresh/metasfresh)
+  - Customizing App Dictionary [(EN)](pages/appdictionary/index_en) [(DE)](pages/appdictionary/index_de)
 
 ### Testers
   - [Test Documentation](pages/tests/index_en)
