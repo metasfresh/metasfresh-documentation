@@ -27,7 +27,7 @@ lang: de
 
 ```
 docker-compose stop
-tar cvzf ../backup.tar.gz ./<mydocker fir>/* --BACKUP
+tar cvzf ../backup.tar.gz ./<mydocker fir>/* 
 docker-compose rm
 git pull
 vi ./webui/sources/configs/config.js
