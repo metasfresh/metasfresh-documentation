@@ -3,7 +3,7 @@ title: SQL Snippets for Business Partner Model (C_BPartner)  ?
 layout: default
 tags: c_bpartner
 lang: en
-
+---
 
 ## Updates
 
