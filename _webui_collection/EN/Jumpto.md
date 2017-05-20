@@ -3,6 +3,7 @@ title: How can I jump to the content of a field ?
 layout: default
 tags:
   - Usage
+  - Navigation
 lang: en
 ---
 
