@@ -16,6 +16,6 @@ sequence: 30
 1. Starte die Aktion "Auswahl liefern"
 1. Bestätige mit OK
 1. Folge dem Link in der Notifikation, die Du erhälst sobald die Lieferung erstellt ist, um den Lieferschein zu öffnen
-
+1. [Öffne die PDF-Version](PDFVorschau) des Belegs um ihn zu drucken
 
 ![](assets/auftrag_liefern.gif)

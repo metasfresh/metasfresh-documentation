@@ -16,6 +16,6 @@ sequence: 40
 1. Starte die Aktion "Auswahl fakturieren"
 1. Bestätige mit OK
 1. Folge dem Link in der Notifikation, die Du erhälst sobald die Rechnung erstellt ist, um den Rechnungsbeleg zu öffnen
-1. Öffne die PDF-Version des Belegs um ihn zu drucken
+1. [Öffne die PDF-Version](PDFVorschau) des Belegs um ihn zu drucken
 
 ![](assets/auftragzurechnung.gif)
