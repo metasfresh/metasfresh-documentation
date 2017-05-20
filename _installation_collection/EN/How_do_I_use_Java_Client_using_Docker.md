@@ -13,10 +13,11 @@ lang: en
 
 ## Use the docker-compose_javaclient.yml
 
-These ports are used additionally in order to use the java client:
+These ports are needed additionally in order to use the java client:
 
-1. db: 5432
-1. app: 8282 and 61616
+1. db: 5432 (Access to Postgres via JDBC)
+1. app: 8282 (Web for downloading java client)
+1. app: 61616 (activeMQ for Notifications)
 
 They are exposed to the docker host in the docker-compose_javaclient.yml file.
 Accordingly these ports should not be in use by other programs on the docker host, otherwise the docker image will not boot.
