@@ -20,7 +20,17 @@ sequence: 10
 1. put a **login** which is the actual user name
 1. enter a **password** with at least 8 characters
 
+  > Note: Make sure to make the password **at lesat 8 characters** or the new record **will not be saved**
+
+
 ### assign a role to the user to give permission
 1. go to tab Role
 1. [add a record](New_Record_Tab)
 1. pick the role or roles you want to give the user
+
+
+### Example
+
+this shows a user with admin role and the username "mfuser"
+
+![example](assets/NewUser-91b26.png)
