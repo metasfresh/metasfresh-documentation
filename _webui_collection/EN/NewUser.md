@@ -33,4 +33,4 @@ sequence: 10
 
 this shows a user with admin role and the username "mfuser"
 
-![example](assets/NewUser-91b26.png)
+![example](assets/NewUser-1ed82.png)
