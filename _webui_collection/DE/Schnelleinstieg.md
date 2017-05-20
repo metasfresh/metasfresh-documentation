@@ -2,7 +2,7 @@
 title: Schnelleinstieg
 layout: default
 tags:
-  - Anfang
+  - Anfängertips
 
 lang: de
 ---
