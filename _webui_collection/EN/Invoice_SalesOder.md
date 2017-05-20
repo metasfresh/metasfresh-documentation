@@ -10,7 +10,7 @@ sequence: 40
 
 ## Steps
 
-1. [Have a Sales Order which was shipped](Ship_an_SalesOrder)
+1. [Have a Sales Order which was shipped](Ship_SalesOrder)
 1. [Jump to Invoice Disposition](JumptoviaSidebar)
 1. [Select](RecordSelection) the order lines you want to invoice
 1. Start the action "Generate Invoices"
