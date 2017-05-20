@@ -11,7 +11,7 @@ lang: en
 
 You got access to a running metasfresh system.
 
-If do not have a system either install metasfresh on your server using [this](../installation/index_en) manuals or getting a free online account [here](http://metasfresh.com/en/nextgen).
+If do not have a system either install metasfresh on your server using [this](../../installation/EN/index_en) manuals or getting a free online account [here](http://metasfresh.com/en/nextgen).
 
 ## Steps
 
