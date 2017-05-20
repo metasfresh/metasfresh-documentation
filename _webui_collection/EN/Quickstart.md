@@ -2,7 +2,7 @@
 title: Quickstart
 layout: default
 tags:
-  - a Start
+  - _Start_
 
 lang: en
 ---
