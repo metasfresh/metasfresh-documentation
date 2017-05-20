@@ -2,8 +2,9 @@
 title: How do I switch the Interface Language ?
 layout: default
 tags:
-  - Usage
+  - Setup
 lang: en
+sequence: 20
 ---
 
 ## Overview
