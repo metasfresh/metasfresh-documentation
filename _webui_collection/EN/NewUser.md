@@ -14,7 +14,7 @@ Users are basically contacts that have login permission. That is why you find co
 ## Steps
 
 ### Logon and open window
-1. Login with Role **WebUI**
+1. [Logon](Logon) with Role **WebUI**
 1. [Open window](Menu) "User"
 
 ### create a contact
@@ -28,11 +28,11 @@ Users are basically contacts that have login permission. That is why you find co
 1. enter a **password** with at least 8 characters
 
   > Note: Make sure to make the password **at least 8 characters** or the new record **will not be saved**
-  
+
   > Note 2: The user can use either the login or the email address as user name.
-  
+
   > Note 3: The user name and the password are **case sensitive**!
-  
+
 
 ### assign a role to the user to grant permission
 1. go to tab Role
