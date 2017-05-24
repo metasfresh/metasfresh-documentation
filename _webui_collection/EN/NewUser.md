@@ -13,8 +13,11 @@ Users are basically contacts that have login permission. That is why you find co
 
 ## Steps
 
-### create a contact
+### Logon and open window
+1. Login with Role **WebUI**
 1. [Open window](Menu) "User"
+
+### create a contact
 1. Create [new record](New_Record_Window)
 1. fillout the fields **Firstname** and **Lastname**
 1. enter a **Search Key**
