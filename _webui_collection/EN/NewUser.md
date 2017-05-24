@@ -7,6 +7,10 @@ lang: en
 sequence: 10
 ---
 
+## Overview
+
+Users are basically contacts that have login permission. That is why you find contacts of your business partners also in the user window. You can allow them to log on to the system or create new users by following this steps.
+
 ## Steps
 
 ### create a contact
@@ -21,7 +25,9 @@ sequence: 10
 1. enter a **password** with at least 8 characters
 
   > Note: Make sure to make the password **at least 8 characters** or the new record **will not be saved**
+  
   > Note 2: The user can use either the login or the email address as user name.
+  
   > Note 3: The user name and the password are **case sensitive**!
   
 
