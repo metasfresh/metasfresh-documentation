@@ -3,6 +3,7 @@ title: Wie öffne ich die PDF Druckvorschau eines Belegs?
 layout: default
 tags:
   - Benutzung
+  - Navigation
 lang: de
 ---
 
