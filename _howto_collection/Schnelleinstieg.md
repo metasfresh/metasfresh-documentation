@@ -9,8 +9,10 @@ lang: de
 
 ## Neue Weboberfläche
 
-1. [Installiere den Server](../_installation_collection/DE/Wie_aktualisiere_ich_metasfresh_mittels_Docker.md)
-1. [Spiele einen Beispiel-Workflow durch](../_webui_collection/DE/Workflow_Auftrag_Bis_Rechnung.md)
+1. [Installiere den Server](../installation_collection/DE/Wie_installiere_ich_den_metasfresh_Stack_mit_Docker)
+
+   Alternative: Nutze den kostenlosen [Demozugang](http://metasfresh.com/nextgen)
+1. [Spiele einen Beispiel-Workflow durch](../webui_collection/DE/Workflow_Auftrag_Bis_Rechnung)
 
 ## Java Client
 

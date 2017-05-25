@@ -18,6 +18,8 @@ collections:
     output: true
   appdictionary_collection:
     output: true
+  verticals_collection:
+    output: true
 
 
 defaults:

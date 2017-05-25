@@ -3,6 +3,7 @@ title: How to setup the metasfresh stack using docker ?
 layout: default
 tags:
   - Docker
+  - Installing
 lang: en
 sequence: 10
 ---
@@ -15,20 +16,21 @@ sequence: 10
 * min. 3 GB free RAM
 * min. 10 GB free disk space
 
-
 **Purpose:** This installation is meant for evaluating the new webinterface of metasfresh.
 
-
 **Installation:**
+1. Have a Hostname (e.g. MYDOCKERHOST) you can resolve both on server and client
 1. [Install Docker](https://docs.docker.com/engine/installation/)
 1. [Install Docker Compose](https://docs.docker.com/compose/install/)
-1. Install metasfresh :
+1. Install metasfresh:
 
 ```bash
 git clone https://github.com/metasfresh/metasfresh-docker.git
 
 #Use an editor to replace "MYDOCKERHOST:PORT" with externally reachable hostname
-#and port of the Dockerhost - eg: 'http://myhost.provider.com/rest/api'
+#of the Dockerhost which supports access to the WebUI
+#(provide PORT if WebUI does not use the default port 80)
+
 vi ./metasfresh-docker/webui/sources/configs/config.js
 
 cd metasfresh-docker
@@ -43,8 +45,14 @@ docker-compose up -d
 
 After successful installation you can access the WebUI via:
 
-http://MYDOCKERHOST:PORT/
+http://MYDOCKERHOST:PORT or
 
+http://MYDOCKERHOST
+(if the default port 80 is used with the WebUI, which is often the case)
+
+## Docker container visualization
+
+We currently can't provide support, but here is a [forum post](https://forum.metasfresh.org/t/docker-gui-recommendation) around the topic which recommends two widely used tools.
 
 ## Feedback
 

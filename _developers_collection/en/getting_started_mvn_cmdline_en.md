@@ -93,3 +93,9 @@ Copy the content of the `dist` folder to the root of your webserver. Provide a `
 Note: make sure you have a appropriate npm/node version istalled, as the package manager of your OS may be installed an outdated version of npm/node. Check with `npm --version` and `node --version`. March 2017 Latest node.js LTS Version: v6.10.1 (includes npm 3.10.10).
 
 More info about the build process may be found in the repository's [Jenkinsfile](https://github.com/metasfresh/metasfresh-webui-frontend/blob/master/Jenkinsfile).
+
+# Further reading
+
+There is an issue at github which is about some of the current maven project structure's shortcomings: [metasfresh/metasfresh#1275](https://github.com/metasfresh/metasfresh/issues/1275).
+
+Feel free to weigh in, and we would be happy to check out your pull requests :-).

@@ -72,12 +72,36 @@ type the trigger and then press `TAB`
 |l|	link|
 |table|	table|
 
+You can add more snippets by going to **Menu** => **file** => **Snippets...**
+
+add example:
+```
+'.source.gfm':
+  'Logon':
+    'prefix': 'logon'
+    'body': '[Logon](Logon)'
+  'window':
+    'prefix': 'window'
+    'body': '[Open window](Menu)'
+  'New_Record_Window':
+    'prefix': 'New_Record_Window'
+    'body': 'Create [new record](New_Record_Window)'
+  'New_Record_Tab':
+    'prefix': 'New_Record_Tab'
+    'body': '[add a new record](New_Record_Tab)'
+  'note':
+    'prefix': 'note'
+    'body': '> Note:'
+```
+
 ## Shortcuts
 
 1. Use `Ctrl + Shift + M` for markdown preview
 1. Use `Ctrl + V` to paste image from clipboard
 <br> image will be stored in /assets
 1. Use `img` + `TAB` and then click into `()` and  `Ctrl + V` to paste image link
+
+
 
 ## General Background Info
 

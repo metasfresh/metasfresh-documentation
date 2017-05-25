@@ -3,6 +3,7 @@ title: How do I use the menu ?
 layout: default
 tags:
   - Usage
+  - Navigation
 lang: en
 ---
 
