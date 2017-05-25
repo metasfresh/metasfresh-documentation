@@ -19,12 +19,12 @@ In case you want to see the columsn behind the fields - independet from your lan
 1. Refresh the metasfresh Browser Session to make the change active
 
 
-## example
+## Example
 
-### before
+### Before
 
 ![](assets/How_do_I_enable_developer_view_using_Swagger-defcb.png)
 
-### after enabling
+### After enabling Developer View
 
 ![](assets/How_do_I_enable_developer_view_using_Swagger-fbec7.png)
