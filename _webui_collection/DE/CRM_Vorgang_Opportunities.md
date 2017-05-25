@@ -24,8 +24,8 @@ In metasfresh sind Opportunities als eine Vorgangsart abgebildet deren Status wi
 
 ## Schritte
 
-1. [Melde Dich an](Anmeldung)
 1. [Öffne das Fenster "Vorgang"](Menu)
+1. [Lege einen neuen Datensatz an](Neuer_Datensatz_Fenster_Webui)
 1. Wähle die Vorgangsart "Opportunity" aus
 1. Pflege im Feld "Status" die jeweilige Wahrscheinlichkeit
 
