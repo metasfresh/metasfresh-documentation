@@ -1,5 +1,5 @@
 ---
-title: Wie richte ich metasfresh ein ?
+title: Wie stelle ich meine eigenen Firmendaten ein ?
 layout: default
 tags:
   - Einrichtung
