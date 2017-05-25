@@ -7,8 +7,8 @@ tags:
 lang: de
 sequence: 10
 ---
+
 ## Schritte
-### Pflichtfelder
 
 1. [Öffne das Fenster](Menu) "Produkt"
 1. [Lege einen neuen Datensatz an](Neuer_Datensatz_Fenster_Webui)
@@ -24,11 +24,15 @@ sequence: 10
 
  > Hinweis 2: Diese Nummer kann auch automatisch vergeben werden.
 
+### Nächsten Schritte
+- [Einkaufs- oder Verkaufspreis hinterlegen](ProduktPreis])
+- Produkt für die Produktion konfigurieren
+
 #### Beispiel
 
 ![](assets/neuesprodukt.gif)
 
-### Weitere Felder
+### Weitere Wichtige Felder
 
 - Feld **Maßeinheit** bestimmt in welcher Einheit der Artikel bestandsgeführt wird
 
