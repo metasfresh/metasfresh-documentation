@@ -13,11 +13,9 @@ Users are basically contacts that have login permission. That is why you find co
 
 ## Steps
 
-### Logon and open window
-1. [Logon](Logon) with Role **WebUI**
-1. [Open window](Menu) "User"
-
 ### create a contact
+1. [Logon](Logon) with Role "WebUI"
+1. [Open window](Menu) "User"
 1. Create [new record](New_Record_Window)
 1. fillout the fields **Firstname** and **Lastname**
 1. enter a **Search Key**
@@ -35,13 +33,12 @@ Users are basically contacts that have login permission. That is why you find co
 
 
 ### assign a role to the user to grant permission
-1. go to tab Role
-1. [add a record](New_Record_Tab)
+1. [add a record](New_Record_Tab) in tab "User Role"
 1. pick the role or roles you want to give the user
 
 
 ### Example
 
-this shows a user with admin role and the username "mfuser"
+this shows a user with role "webUI" and the username "mf"
 
-![example](assets/NewUser-1ed82.png)
+![](assets/newuser.gif)

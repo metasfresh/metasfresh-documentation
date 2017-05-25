@@ -15,6 +15,7 @@ Benutzer sind eigentlich Kontakte, die auch Anmeldeberechtigung haben. Deshalb f
 ## Schritte
 
 ### Erstelle einen Kontakt
+1. [Melde Dich an](Anmeldung) und verwende die Rolle "WebUI"
 1. [Öffne das Fenster](Menu) "Nutzer"
 1. [Lege einen neuen Datensatz an](Neuer_Datensatz_Fenster_Webui)
 1. fülle die Felder **Vorname** und **Nachname** aus
