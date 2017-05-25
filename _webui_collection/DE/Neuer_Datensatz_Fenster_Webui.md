@@ -10,9 +10,9 @@ sequence: 20
 
 ## Schritte
 
-1. Klicke auf ![](assets/Neuen_Datensatz_Webui-4273e.png)
+Klicke auf ![](assets/Neuen_Datensatz_Webui-4273e.png)
 und dann auf "New"
 
- oder die direkte Tastenkombination: `Strg + M`
+oder die  Tastenkombination: `Strg + M`
 
- ![](assets/Neuen_Datensatz_Webui-00b0d.png)
+ ![](assets/neuerdatensatzfenster.gif)

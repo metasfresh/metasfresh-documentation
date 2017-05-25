@@ -11,4 +11,4 @@ lang: de
 
 1. Klicke auf "Add new"
 
- ![](assets/Neuer_Datensatz_Tab_Webui-dce73.png)
+ ![](assets/neuerdatensatztab.gif)
