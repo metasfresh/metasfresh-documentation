@@ -10,16 +10,31 @@ sequence: 20
 
 ## Schritte
 
-1. Gehe ins Menü und öffne den Link "Neue Bestellung"
+1. Gehe ins Menü und öffne den Link "Bestellungen"
 1. [Lege einen neuen Auftrag an](Neuer_Datensatz_Fenster_Webui)
-1. Gib einen Teil des Lieferantennamens oder der Lieferantennummer ein
-1. Klicke auf "Batch Entry" oder drücke die Tastenkombination `Strg+Q` um die Schnellerfassung zu öffnen
-1. Gib einen Teil des Produktnamens oder der Produktnummer ein und klicke auf den Treffer
-1. Gib eine Menge ein und drücker 'ENTER' um die Auftragszeile zu erstellen
-1. Drücke `Strg+U` um den Beleg fertigzustellen
-1. Öffne die Druckvorschau
+1. Gib einen Teil des Lieferantennamens oder der Partnernummer ein
+> Hinweis: Auswahl des Treffers mit Maus oder ![](assets/Workflow_Auftrag_Bis_Rechnung_WebUI-73797.png)
 
+1. [metasfresh speichert automatisch](Speicheranzeige)
 
-## Video
+### Zeilen hinzufügen
+1. Klicke auf "Batch Entry"
+> Hinweis: Tastenkombination `Strg+Q`
 
-<iframe src="https://player.vimeo.com/video/206997743" width="640" height="325" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+1. Gib einen Teil des Produktnamens oder der Produktnummer ein
+> Hinweis: Auswahl des Treffers mit Maus oder ![](assets/Workflow_Auftrag_Bis_Rechnung_WebUI-73797.png)
+
+1. Wechsel in das Feld **Menge**
+> Hinweis: Mit Maus oder `TAB`-Taste
+
+1. Gib eine Menge ein und drücke `ENTER`
+> Hinweis: Wiederhole die Schritte 2. bis 4. so lange bist Du alle Auftragszeilen erfasst hast.
+
+### Beleg fertigstellen
+
+1. [Stelle den Beleg fertig](BelegverarbeitungFertigstellen)
+1. [Öffne die PDF Vorschau](PDFVorschau)
+
+### Beispiel
+
+![](assets/NeueBestellung.gif)
