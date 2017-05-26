@@ -10,8 +10,7 @@ sequence: 20
 
 ## Schritte
 
-1. Gehe ins Menü und öffne den Link "Aufträge"
-1. [Lege einen neuen Auftrag an](Neuer_Datensatz_Fenster_Webui)
+1. [Gehe ins Menü](Menu) und öffne den Link "Neuer Auftrag"
 1. Gib einen Teil des Kundennamens oder der Kundennummer ein
 > Hinweis: Auswahl des Treffers mit Maus oder ![](assets/Workflow_Auftrag_Bis_Rechnung_WebUI-73797.png)
 
