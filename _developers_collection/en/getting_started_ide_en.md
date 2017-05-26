@@ -31,7 +31,7 @@ Note: the "Eclipse IDE for Java Developers" will probably do. We found that at l
 ![developers_getting_started_ide_eclipse_neon_install_helper_plugin_30]({{ site.github.url }}/images/developers/developers_getting_started_ide_eclipse_neon_install_helper_plugin_30.png)
   - Note that you can also auto-discover and install this plugin later, after having imported the code. However at this point, you spend already quite some time for eclipse trying to build and finding 100000s of compile errors, due to the missing source folders.
 * Make sure that you java the ***Java*** perspective open, not the Java EE perspective.
-* If you intend to contribute changes, we recomment that you check out the `eclipse-config` folder in the [metasfresh-dev](https://github.com/metasfresh/metasfresh-dev) repository.
+* If you intend to contribute changes, we recommend that you check out the `eclipse-config` folder in the [metasfresh-dev](https://github.com/metasfresh/metasfresh-dev) repository.
 * Now you can import the code by
   - switching to the workbench, right-clicking into the Package Explorer (on the left of the eclipse window) and choosing "Import..."
 ![developers_getting_started_ide_eclipse_neon_import_code_10]({{ site.github.url }}/images/developers/developers_getting_started_ide_eclipse_neon_import_code_10.png)
@@ -58,7 +58,7 @@ We recently started using [lombok](https://projectlombok.org/). At the time I'm 
 
 To those make those projects work with your local eclipse please go to [https://projectlombok.org/download.html](https://projectlombok.org/download.html) and follow the instructions for eclipse. You might also want to check out our metasfresh-issue [#1125](https://github.com/metasfresh/metasfresh/issues/1125) for further details.
 
-Note that until eclipse version neon2 the lombok integration is tricky. 
+Note that until eclipse version neon2 the lombok integration is tricky.
 The recommended eclipse version is neon3, as the lombok integration works out of the box with the lombok gui installer (also across multiple eclipse projects). See [here](http://stackoverflow.com/questions/42444457/lombok-does-not-work-for-eclipse-neon) for further infos.
 
 # Other IDEs
