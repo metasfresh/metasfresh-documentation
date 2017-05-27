@@ -36,6 +36,10 @@
   'note':
     'prefix': 'note'
     'body': '> Note:'
+  'Done':
+    'prefix': 'Done'
+    'body': 'Click Done'
+
 # DE
   'Anmeldung':
     'prefix': 'Anmeldung'
@@ -49,7 +53,19 @@
     'body': '[Lege einen neuen Datensatz an](Neuer_Datensatz_Fenster_Webui)'
   'Neuer_Datensatz_Tab':
     'prefix': 'Neuer_Datensatz_Tab'
-    'body': '[Lege einen neuen Datensatz an](Neuer_Datensatz_Tab_Webui)'
+    'body': '[Lege einen neuen Datensatz für Tab <> an](Neuer_Datensatz_Tab_Webui)'
   'Hinweis':
     'prefix': 'Hinweis'
     'body': '> Hinweis:'
+  'Fertig':
+    'prefix': 'Fertig'
+    'body': 'Klicke auf Done'
+  'BelegFertig':
+    'prefix': 'BelegFertig'
+    'body': '[Stelle den Beleg fertig](BelegverarbeitungFertigstellen)'
+  'PDFVorschau':
+    'prefix': 'PDFVorschau'
+    'body': '[Öffne die PDF Vorschau](PDFVorschau)'
+  'Ansichten':
+    'prefix': 'Ansichten'
+    'body': '[Ansichten](Ansichten)'
