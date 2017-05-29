@@ -31,3 +31,8 @@ lang: en
 1. create an english translation manual in markdown language
 1. commit the new file
 1. create a pull request for review
+
+
+## Further Reading
+
+- [StyleGuide](https://github.com/metasfresh/metasfresh-documentation/blob/master/StyleGuide.md)
