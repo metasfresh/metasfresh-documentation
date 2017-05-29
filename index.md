@@ -21,8 +21,9 @@ layout: default
   - Testing
     - [Test Documentation](pages/tests/index_en)
   - writing docs
-    - [setup and configuring Atom for editing docs](howto_collection/EN/how_to_setup_atom_for_contributing_docs)
-    - [StyleGuide](https://github.com/metasfresh/metasfresh-documentation/blob/master/StyleGuide.md)
+    - [How to get started](http://docs.metasfresh.org/howto_collection/EN/how_to_get_started_with_translating_docs.html)
+    
+    
 
 ### How to get in contact
 
