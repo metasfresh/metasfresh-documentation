@@ -1,7 +1,7 @@
 ---
 title: How to get started with translating docs?
 layout: default
-tags:
+tags: metasfresh Community
 lang: en
 ---
 
