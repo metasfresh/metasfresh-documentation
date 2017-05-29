@@ -14,8 +14,8 @@ lang: en
 1. play through the workflow again
 1. report feedback on [github](https://github.com/metasfresh/metasfresh-documentation/issues) if not all fields are translated
 1. check other examples that already have been translated:
-  1. http://docs.metasfresh.org/webui_collection/DE/Auftrag_erfassen.html
-  1. http://docs.metasfresh.org/webui_collection/EN/SalesOrder_recording.html
+   1. http://docs.metasfresh.org/webui_collection/DE/Auftrag_erfassen.html
+   1. http://docs.metasfresh.org/webui_collection/EN/SalesOrder_recording.html
 
 ## 2. Install your tools
 1. [Install github desktop](https://desktop.github.com/)
