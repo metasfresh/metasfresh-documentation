@@ -2,7 +2,7 @@
 layout: default
 title: Get your local DB up and running
 tags: developers_getting_started
-sequence: 40 
+sequence: 40
 summary: how to import the latest metasfresh DB seed into your PostgreSQL database
 lang: en
 ref: developers_getting_started_db
@@ -50,3 +50,7 @@ For development purposes, you can create the role with the role privileges `LOGI
 Make sure that the new database is owned by the metasfresh role.
 
 * Load the database dump into the new database by rightclicking on it and selecting "Restore...", then follow the dialog.
+
+## Update database
+
+In order to apply the migration scripts to the local database, have a look at [this post](https://forum.metasfresh.org/t/how-to-update-database-in-local-dev-env/428) in the forum and follow the instructions [here](https://github.com/metasfresh/metasfresh/issues/690) at github.
