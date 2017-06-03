@@ -21,4 +21,4 @@ sequence: 10
 1. [Complete the order](BelegverarbeitungFertigstellen).
 
 
-![](assets/neueproduktionsauftrag.gif)
+![](assets/pp_order.gif)
