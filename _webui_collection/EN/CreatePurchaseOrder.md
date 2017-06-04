@@ -10,10 +10,10 @@ sequence: 20
 
 ## Steps
 
-1. Open the menu and in the section "PURCHASE" click "Purchase Order"
-1. [Create a new order](New_Record_Window)
-1. Type in parts of the name of the business partner or his registry number
-> Hint: Select one of the shown options with the mouse or ![](assets/Workflow_Auftrag_Bis_Rechnung_WebUI-73797.png)
+1. [Open "Purchase Order" from the menu](Menu)
+1. [Create new record](New_Record_Window)
+1. Enter a part of the business partner name or number
+> Hint: Select one of the shown options with the mouse or ![](../DE/assets/Workflow_Auftrag_Bis_Rechnung_WebUI-73797.png)
 
 1. [metasfresh saves the progress automatically](Saveindicator)
 
@@ -22,7 +22,7 @@ sequence: 20
 > Hint: Use hot key `Strg+Q`
 
 1. In the field **Product**, type in parts of the product name or its product number
-> Hint: Select one of the shown options with the mouse or ![](assets/Workflow_Auftrag_Bis_Rechnung_WebUI-73797.png)
+> Hint: Select one of the shown options with the mouse or ![](../DE/assets/Workflow_Auftrag_Bis_Rechnung_WebUI-73797.png)
 
 1. Go to the field **Quantity**
 > Hint: Use the mouse or `TAB` key
@@ -33,8 +33,4 @@ sequence: 20
 ### Complete invoice
 
 1. [Complete the invoice](BelegverarbeitungFertigstellen)
-1. [Open the PDF preview](PDFVorschau)
-
-### Example
-
-![](assets/NeueBestellung.gif)
+1. [Open the PDF preview](PrintPreview)
