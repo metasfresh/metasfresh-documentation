@@ -76,8 +76,8 @@ type the trigger and then press `TAB`
 ## Text Snippets
 You can edit snippets by going to **Menu** => **file** => **Snippets...**
 
-here you find the latest snippets:
-https://github.com/metasfresh/metasfresh-documentation/blob/gh-pages/ressources/snippets.cson
+here you find the [latest snippets:](
+https://github.com/metasfresh/metasfresh-documentation/blob/gh-pages/ressources/snippets.cson)
 
 ## Shortcuts
 
