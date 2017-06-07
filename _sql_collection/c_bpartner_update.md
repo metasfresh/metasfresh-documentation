@@ -1,11 +1,11 @@
 ---
-title: SQL Snippets for Business Partner Model (C_BPartner)  ?
+title: UPDATE Business Partner
 layout: default
 tags: c_bpartner
 lang: en
 ---
 
-## Updates
+## Examples
 
 ### Set Price System
 
@@ -30,7 +30,7 @@ where c_paymentterm_id is null and iscustomer = 'Y'
 ### Set Bp Location property
 
 ```
-update c_bpartner_location 
+update c_bpartner_location
 set isbillto = 'Y', isshipto = 'Y'
 ,isbilltodefault = 'Y', isshiptodefault = 'Y'
 ```
