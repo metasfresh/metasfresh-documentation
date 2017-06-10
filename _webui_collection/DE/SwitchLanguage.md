@@ -8,8 +8,8 @@ lang: de
 
 ## Schritte
 
-1. Geh in die Aktionen
-2. Klick auf Einstellungen / Settings
+1. klicke auf Dein Profil
+2. Klicke auf Einstellungen / Settings
 3. Wähle eine andere Sprache
 
 ## Video

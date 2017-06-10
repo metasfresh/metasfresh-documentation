@@ -9,7 +9,7 @@ sequence: 20
 
 ## Overview
 
-1. Go to Actions
+1. Go to your profile
 2. Open Settings
 3. Switch to other Language
 
