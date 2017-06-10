@@ -17,4 +17,4 @@ Press `STRG+U` to set the status to "complete".
 Click on the button for the document statuses (`STRG+I`) and select "Complete".
 
 
-![](assets/belegfertig.gif)
+![](../DE/assets/belegfertig.gif)
