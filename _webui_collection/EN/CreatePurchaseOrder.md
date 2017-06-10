@@ -32,5 +32,5 @@ sequence: 20
 
 ### Complete invoice
 
-1. [Complete the invoice](BelegverarbeitungFertigstellen)
+1. [Complete the invoice](DocumentProcessingComplete)
 1. [Open the PDF preview](PrintPreview)
