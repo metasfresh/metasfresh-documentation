@@ -16,7 +16,7 @@ Stell sicher, dass du diejenigen Produkte, die du bei der Produktion verbrauchst
 
 1. [Lege einen Produktionsauftrag an](NeuerProduktionsauftrag)
 1. Wähle den Produktionsauftrag in der [Listenansicht](Ansichten) aus
-1. Wähle die Aktion "Produzieren"
+1. [Wähle die Aktion](AktionStarten) "Produzieren"
 1. Es öffnet sich das Produktionsfenster
 
 ### Produkt herstellen ohne Material zu verbrauchen
