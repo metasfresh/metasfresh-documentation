@@ -18,7 +18,7 @@ sequence: 10
 1. The **Resource/Plant** contains the designated manufacturing facility.
 1. The **Workflow** determines the required manufacturing steps.
 1. Record the **Quantity** of the product you want to manufacture.
-1. [Complete the order](BelegverarbeitungFertigstellen).
+1. [Complete the order](DocumentProcessingComplete).
 
 
 ![](assets/pp_order.gif)
