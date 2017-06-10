@@ -14,7 +14,4 @@ Aktionen sind kontextabhängig und können in jedem Fenster aus gestartet werden
 1. Klicke auf ![](assets/Neuen_Datensatz_Webui-4273e.png)
 1. Klick die gewünschte Aktion an
 
-
-## Video
-
 ![](assets/AktionStarten.gif)
