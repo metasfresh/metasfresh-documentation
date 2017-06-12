@@ -6,6 +6,7 @@ tags:
 lang: en
 
 ---
+## Overview
 Actions are contextual and can be started from every window. Each window therefore provides other actions.
 
 ## Steps
