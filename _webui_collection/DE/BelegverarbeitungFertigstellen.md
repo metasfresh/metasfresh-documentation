@@ -6,7 +6,7 @@ tags:
 lang: de
 
 ---
-## Allgemein
+## Übersicht
 Belege werden von metasfresh zwar automatisch gespeichert, jedoch erst verarbeitet wenn diese fertiggestellt sind.
 
 ### mit der Tastatur

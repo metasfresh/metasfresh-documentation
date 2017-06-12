@@ -6,7 +6,7 @@ tags:
 lang: en
 
 ---
-## General Note
+## Overview
 Documents are saved automatically by metasfresh. However, they will not be processed unless their status is set to "complete".
 
 ### Keyboard shortcut
