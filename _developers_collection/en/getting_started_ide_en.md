@@ -10,7 +10,9 @@ ref: developers_getting_started_ide
 
 Even if you just want to study the code, it probably makes a lot of sense to do so in an IDE.
 
-# Get Eclipse
+# Eclipse
+
+## Get Eclipse
 
 * Download the latest Eclipse version (currently this is Eclipse Neon) from [http://www.eclipse.org/](http://www.eclipse.org/)
 Note: the "Eclipse IDE for Java Developers" will probably do. We found that at least for us, the "Eclipse IDE for Java EE Develeopers" has too much unneeded overhead.
