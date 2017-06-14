@@ -5,6 +5,7 @@ tags:
   - Beginner Guide
 
 lang: en
+ref: quickstart
 ---
 
 ## Prerequisites
