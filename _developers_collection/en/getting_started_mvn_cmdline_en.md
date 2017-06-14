@@ -98,4 +98,4 @@ More info about the build process may be found in the repository's [Jenkinsfile]
 
 There is an issue at github which is about some of the current maven project structure's shortcomings: [metasfresh/metasfresh#1275](https://github.com/metasfresh/metasfresh/issues/1275).
 
-Feel free to weigh in, and we would be happe to check out your pull requests :-).
+Feel free to weigh in, and we would be happy to check out your pull requests :-).

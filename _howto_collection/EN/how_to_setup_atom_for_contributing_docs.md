@@ -59,7 +59,7 @@ This Packages automatically scrolls the markdown preview to the position of your
 1. search for "markdown-scroll-sync"
 1. click on "install"
 
-## Markdown Snippets
+## Format Snippets
 
 type the trigger and then press `TAB`
 
@@ -72,12 +72,21 @@ type the trigger and then press `TAB`
 |l|	link|
 |table|	table|
 
+
+## Text Snippets
+You can edit snippets by going to **Menu** => **file** => **Snippets...**
+
+here you find the [latest snippets:](
+https://github.com/metasfresh/metasfresh-documentation/blob/gh-pages/ressources/snippets.cson)
+
 ## Shortcuts
 
 1. Use `Ctrl + Shift + M` for markdown preview
 1. Use `Ctrl + V` to paste image from clipboard
 <br> image will be stored in /assets
 1. Use `img` + `TAB` and then click into `()` and  `Ctrl + V` to paste image link
+
+
 
 ## General Background Info
 

@@ -3,6 +3,7 @@ title: Wie installiere ich den metasfresh Stack mit Docker ?
 layout: default
 tags:
   - Docker
+  - Installation
 lang: de
 sequence: 10
 ---
@@ -11,27 +12,40 @@ sequence: 10
 
 *Systemvoraussetzung:* min. 3 GB RAM, min. 10 GB freien Festplattenspeicher
 
-
 *Einsatzzweck:* Diese Installation ist zum Testen des neuen WebUI gedacht.
 
 1. [Docker installieren](https://docs.docker.com/engine/installation/linux/ubuntu/)
 1. [Docker Compose installieren](https://docs.docker.com/compose/install/)
 1. metasfresh installieren:
 
-```
+```bash
 git clone https://github.com/metasfresh/metasfresh-docker.git
-vi ./metasfresh-docker/webui/sources/configs/config.js    #Replace "MYDOCKERHOST" with FQDN of the Dockerhost
+
+#"MYDOCKERHOST:PORT" mit einem extern erreichbaren Hostnamen
+#des Dockerhost ersetzen, welcher Zugriff auf die WebUI bietet
+#z.B.: 'http://myhost.provider.com/rest/api'
+#(ggf. PORT verzeichnen, falls die WebUI nicht den Standard Port 80 verwendet)  
+vi ./metasfresh-docker/webui/sources/configs/config.js
+
 cd metasfresh-docker
 docker-compose build
-docker-compose up -d  #to run the stack in the background.
+
+#'-d' um den metasfrash stack im Hintergrund laufen zu lassen. Beim ersten Start kann es ein paar Minuten dauern, bis die Datenbank initialisiert und die Services verfügbar sind
+docker-compose up -d
 ```
 
 ## Zugriff
 
 Nach erfolgreicher Installation auf die WebUI so zugreifen:
 
-http://MYDOCKERHOST
+http://MYDOCKERHOST:PORT oder
 
+http://MYDOCKERHOST
+(falls der Standard Port 80 mit der WebUI benutzt wird, was oft der Fall ist)
+
+## Visualisierung der docker container
+
+Zur Zeit können wir keinen Support dafür leisten, aber es gibt einen [Post im Forum](https://forum.metasfresh.org/t/docker-gui-recommendation) (in englisch) über dieses Thema, welcher zwei weit verbreitete Tools empfiehlt.
 
 ## Feedback
 

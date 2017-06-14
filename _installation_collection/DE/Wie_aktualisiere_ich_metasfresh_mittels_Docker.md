@@ -2,6 +2,7 @@
 title: Wie aktualisiere ich metasfresh mittels Docker?
 layout: default
 tags:
+  - Docker
   - Update
 lang: de
 ---
@@ -12,18 +13,19 @@ lang: de
 
 ## Schritte für Versionsupdate
 
-1. docker-container stoppen
-1. backup des gesamten docker-workspaces
+1. Alle docker-container stoppen
+1. Backup des gesamten docker-workspaces
 1. Löschen der images app webui und webapi vom host
-1. neue dockerfiles und configs von github ziehen
+1. Neue dockerfiles und configs von github ziehen
 1. config.js anpassen
-1. images app webui und webapi auf dem host neu bauen lassen
+1. Images auf dem host neu bauen lassen
 1. docker-container starten
 
 
 ## Beispiel
 
-```
+```bash
+cd metasfresh-docker
 docker-compose stop
 tar cvzf ../backup.tar.gz ./<mydocker fir>/* --BACKUP
 docker-compose rm

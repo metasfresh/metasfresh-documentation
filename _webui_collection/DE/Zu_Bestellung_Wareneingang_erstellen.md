@@ -11,7 +11,7 @@ sequence: 30
 ## Schritte
 
 1. [Starte mit einer fertigen Bestellung](Bestellung_erfassen)
-1. Springe zur Wareneingangsdisposition
+1. [Springe zur Wareneingangsdisposition](SpringezuBelegen)
 1. Wähle die Zeilen aus, die Du als Wareneingang buchen möchtest
 1. Klicke auf den voreingestellten Aktionsbutton z.B. ![](assets/Zu_Bestellung_Wareneingang_erstellen-99aab.png)
 1. Bestätige den Wareneingang mit dem Button ![](assets/Zu_Bestellung_Wareneingang_erstellen-3191c.png)

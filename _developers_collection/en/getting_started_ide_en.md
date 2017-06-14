@@ -35,7 +35,7 @@ To enable your local Eclipse to compile the code, please go to [https://projectl
 ![developers_getting_started_ide_eclipse_neon_install_helper_plugin_30]({{ site.github.url }}/images/developers/developers_getting_started_ide_eclipse_neon_install_helper_plugin_30.png)
   - Note that you can also auto-discover and install this plugin later, after having imported the code. However at this point, you spend already quite some time for Eclipse trying to build and finding 100000s of compile errors, due to the missing source folders.
 * Make sure that you java the ***Java*** perspective open, not the Java EE perspective.
-* If you intend to contribute changes, we recomment that you check out the [metasfresh-eclipse-config](https://github.com/metasfresh/metasfresh-eclipse-config) repository.
+* If you intend to contribute changes, we recommend that you check out the `eclipse-config` folder in the [metasfresh-dev](https://github.com/metasfresh/metasfresh-dev) repository.
 * Now you can import the code by
   - switching to the workbench, right-clicking into the Package Explorer (on the left of the Eclipse window) and choosing "Import..."
 ![developers_getting_started_ide_eclipse_neon_import_code_10]({{ site.github.url }}/images/developers/developers_getting_started_ide_eclipse_neon_import_code_10.png)
@@ -59,6 +59,9 @@ To enable your local Eclipse to compile the code, please go to [https://projectl
   - there is also an alternative  `..._jrebel.launch` for both client and server. You can them in case you have the [JRebel](http://zeroturnaround.com/software/jrebel/) Eclipse plugin.
 
 
+Note that until eclipse version neon2 the lombok integration is tricky.
+The recommended eclipse version is neon3, as the lombok integration works out of the box with the lombok gui installer (also across multiple eclipse projects). See [here](http://stackoverflow.com/questions/42444457/lombok-does-not-work-for-eclipse-neon) for further infos.
+
 # Other IDEs
 
 We don't yet have experince with code contributions that were created with e.g. Netbeans or IntelliJ.
@@ -66,4 +69,4 @@ We don't yet have experince with code contributions that were created with e.g. 
 We don't think there is a need to dictate a particular IDE,
 
 however, when contributing, please make sure to text-format your contribution in a way that allows us to get a meaningfull diff.
-to that end, note that your IDE might be able to import our [Eclipse formatting spec](https://github.com/metasfresh/metasfresh-eclipse-config/blob/master/eclipse_metas_formatter.xml).
+to that end, note that your IDE might be able to import our [Eclipse formatting spec](https://github.com/metasfresh/metasfresh-dev/blob/master/eclipse-config/eclipse_metas_formatter.xml).
