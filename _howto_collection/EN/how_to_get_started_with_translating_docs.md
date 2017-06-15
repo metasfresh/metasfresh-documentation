@@ -18,7 +18,7 @@ lang: en
    1. http://docs.metasfresh.org/webui_collection/EN/SalesOrder_recording.html
 
 ## 2. Install your tools
-1. [Install github desktop](https://desktop.github.com/)
+1. [Install github desktop](https://github-windows.s3.amazonaws.com/GitHubSetup.exe) 
 1. [Install and configure Atom Editor](http://docs.metasfresh.org/howto_collection/EN/how_to_setup_atom_for_contributing_docs.html)
 
 ## 3. Prepare Repository
