@@ -51,7 +51,7 @@ Make sure that the new database is owned by the metasfresh role.
 
 * Load the database dump into the new database by rightclicking on it and selecting "Restore...", then follow the dialog.
 
-## Update database
+## Update database from master
 
 This section describes how to update your local (developer) DB with the latest migration scripts that were just build from the master branch
 
