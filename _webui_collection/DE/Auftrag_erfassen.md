@@ -12,9 +12,9 @@ sequence: 20
 
 1. [Gehe ins Menü](Menu) und öffne den Link "Neuer Auftrag"
 1. Gib einen Teil des Kundennamens oder der Kundennummer ein
-> Hinweis: Drücke die Taste `LEERTASTE` um Dir alle Kunden anzeigen zu lassen
+ > Hinweis: Drücke die Taste `LEERTASTE` um Dir alle Kunden anzeigen zu lassen
 
-> Hinweis #2: Auswahl des Treffers mit Maus oder ![](assets/Workflow_Auftrag_Bis_Rechnung_WebUI-73797.png)
+ > Hinweis #2: Auswahl des Treffers mit Maus oder ![](assets/Workflow_Auftrag_Bis_Rechnung_WebUI-73797.png)
 
 1. [metasfresh speichert automatisch](Speicheranzeige)
 
