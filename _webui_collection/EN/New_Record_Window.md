@@ -4,13 +4,15 @@ layout: default
 tags:
   - Usage
 lang: en
+ref: new_record_window
 ---
 
 
-## Steps
+## Keyboard shortcut
+Press `Ctrl + M`.
 
-1. Click  ![](assets/Neuen_Datensatz_Webui-4273e.png) and then "New
-
- or use the Keys `CTRL + M`
+## With the mouse
+Click ![](assets/Neuen_Datensatz_Webui-4273e.png) and then "New".
+<br>
 
  ![](assets/Neuen_Datensatz_Webui-00b0d.png)

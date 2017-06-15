@@ -1,20 +1,21 @@
 ---
-title: Wie stelle ich einen Beleg fertig ?
+title: Wie stelle ich einen Beleg fertig?
 layout: default
 tags:
   - Benutzung
 lang: de
+ref: documentprocessingcomplete
 
 ---
 ## Übersicht
-Belege werden von metasfresh zwar automatisch gespeichert, jedoch erst verarbeitet wenn diese fertiggestellt sind.
+Belege werden von metasfresh zwar automatisch gespeichert, jedoch erst verarbeitet, wenn diese fertiggestellt sind.
 
-### mit der Tastatur
-Drücke die Tastenkombination `STRG+U`
+### Mit der Tastatur
+Drücke die Tastenkombination `Strg + U`
 
-### mit der Maus
+### Mit der Maus
 
-Klicke entweder auf den Button für die Belegaktionen und wähle dort "Fertigstellen" aus
+Klicke auf den Button für die Belegaktionen (`Ctrl + I`) oben rechts im Fenster und wähle dort "Fertigstellen" aus.<br>
 
 
 ![](assets/belegfertig.gif)
