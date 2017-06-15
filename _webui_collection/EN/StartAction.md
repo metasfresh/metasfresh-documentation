@@ -4,6 +4,7 @@ layout: default
 tags:
   - Usage
 lang: en
+ref: startaction
 
 ---
 ## Overview
@@ -11,7 +12,8 @@ Actions are contextual and can be started from every window. Each window therefo
 
 ## Steps
 
-1. Click on ![](assets/Neuen_Datensatz_Webui-4273e.png)
+1. Click on ![](assets/Neuen_Datensatz_Webui-4273e.png).
 1. Click on the desired action.
+<br>
 
 ![](assets/AktionStarten.gif)

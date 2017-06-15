@@ -1,5 +1,5 @@
 ---
-title: How do I use the menu ?
+title: How do I use the menu?
 layout: default
 tags:
   - Usage

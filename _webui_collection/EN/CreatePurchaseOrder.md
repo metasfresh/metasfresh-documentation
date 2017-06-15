@@ -12,7 +12,7 @@ ref: createpurchaseorder
 ## Steps
 
 1. Open "Purchase Order" from the [menu](Menu).
-1. [Create a new record](New_Record_Window).
+1. [Create a new purchase order](New_Record_Window).
 1. Enter a part of the business partner name or number.
 > Hint: Select one of the shown options with the mouse or ![](../DE/assets/Workflow_Auftrag_Bis_Rechnung_WebUI-73797.png)
 
@@ -28,7 +28,7 @@ ref: createpurchaseorder
 1. Go to the field **Quantity**.
 > Hint: Use the mouse or `TAB` key
 
-1. Insert the quantity and press `ENTER`.
+1. Insert the quantity and press `ENTER` to add the line to the order.
 > Hint: Repeat steps 2. to 4. until you have registered all order items.
 
 ### Complete invoice

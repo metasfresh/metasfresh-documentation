@@ -4,6 +4,7 @@ layout: default
 tags:
   - Benutzung
 lang: de
+ref: startaction
 
 ---
 ## Übersicht
@@ -13,5 +14,6 @@ Aktionen sind kontextabhängig und können von jedem Fenster aus gestartet werde
 
 1. Klicke auf ![](assets/Neuen_Datensatz_Webui-4273e.png)
 1. Klicke die gewünschte Aktion an.
+<br>
 
 ![](assets/AktionStarten.gif)
