@@ -12,9 +12,17 @@ ref: salesorder_recording
 ## Steps
 
 1. Open "Sales Order" from the [menu](Menu).
-1. [Create a new sales order](New_Record_Window).
-1. Enter a part of the customer name or number.
-> Hint: Select one of the shown options with the mouse or ![](../DE/assets/Workflow_Auftrag_Bis_Rechnung_WebUI-73797.png)
+1. [Create a new sales order](New_Record_Window)
+1. Enter a part of the customers name or number
+ > Hint: Press SPACE so see all customers
+ 
+ > Hint: Select one of the shown options with the mouse or ![](../DE/assets/Workflow_Auftrag_Bis_Rechnung_WebUI-73797.png)
+1. click "Batch Entry" or press Keys `Ctrl+Q` to open the fast order line input
+1. Enter a part of the product name or number and click on one of the results
+1. Enter the Quantity and press 'ENTER' to add the line to the order
+1. Press Keys `CTRL+U` to complete the document
+1. Press Keys `CTRL+P` to open print preview
+
 
 1. [metasfresh saves the progress automatically](Saveindicator).
 

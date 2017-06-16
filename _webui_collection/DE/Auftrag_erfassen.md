@@ -11,10 +11,13 @@ ref: salesorder_recording
 
 ## Schritte
 
+
 1. [Gehe ins Menü](Menu) und öffne den Link "Aufträge".
 1. [Lege einen neuen Auftrag an](Neuer_Datensatz_Fenster_Webui).
 1. Gib einen Teil des Kundennamens oder der Kundennummer ein.
-> Hinweis: Auswahl des Treffers mit Maus oder ![](assets/Workflow_Auftrag_Bis_Rechnung_WebUI-73797.png)
+ > Hinweis: Drücke die Taste `LEERTASTE` um Dir alle Kunden anzeigen zu lassen
+
+ > Hinweis: Auswahl des Treffers mit Maus oder ![](assets/Workflow_Auftrag_Bis_Rechnung_WebUI-73797.png)
 
 1. [metasfresh speichert automatisch](Speicheranzeige).
 

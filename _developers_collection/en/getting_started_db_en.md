@@ -51,6 +51,40 @@ Make sure that the new database is owned by the metasfresh role.
 
 * Load the database dump into the new database by rightclicking on it and selecting "Restore...", then follow the dialog.
 
-## Update database
+## Update database from master
 
-In order to apply the migration scripts to the local database, have a look at [this post](https://forum.metasfresh.org/t/how-to-update-database-in-local-dev-env/428) in the forum and follow the instructions [here](https://github.com/metasfresh/metasfresh/issues/690) at github.
+This section describes how to update your local (developer) DB with the latest migration scripts that were just build from the master branch
+
+You can get those migration script by downloading them as a `tar.gz` file from this URL
+
+[https://repo.metasfresh.com/service/local/artifact/maven/redirect?g=de.metas.dist&a=de.metas.endcustomer.mf15.dist&v=LATEST&r=mvn-master&p=tar.gz&c=sql-only](https://repo.metasfresh.com/service/local/artifact/maven/redirect?g=de.metas.dist&a=de.metas.endcustomer.mf15.dist&v=LATEST&r=mvn-master&p=tar.gz&c=sql-only)
+
+That tar.gz contains
+* the SQL migration scripts we acumulated over the years
+* the jar file `de.metas.migration.cli.jar` which applies those scripts that were not yet applied against your metasfresh database
+* a script named `sql_remote.sh` which is just a thin wrapper around the actual tool which is in the jar
+
+What you still need to provide is the following:
+* java, so the jar file can be executed
+* a settings file which might look like this.
+
+```bash
+METASFRESH_DB_SERVER=localhost
+METASFRESH_DB_PORT=5432
+METASFRESH_DB_NAME=metasfresh
+METASFRESH_DB_USER=metasfresh
+METASFRESH_DB_PASSWORD=
+```
+The values written here in this documentation are the defaults which the tool assumes if the respective value is missing.
+
+By default, the tool will assume the settings file to be `~/local_settings.properties` (i.e. usually `/home/metasfresh/local_settings.properties`).
+If you need to specify a different settings file, please run `sql_remote.sh -h` and check out the help message (`-d` and `-s` options).
+
+Note: it might generally be a good idea to first run `sql_remote.sh -h` and take a look at the help message.
+
+When the tool runs, it scans a directory for SQL files and applies those files that were not yet recorded in the `AD_MigrationScript` table of the metasfresh database.
+
+## Further reading and doing:
+
+* [this forum thread](https://forum.metasfresh.org/t/how-to-update-database-in-local-dev-env/428) is about the same issue
+* The github issue [metasfresh/metasfresh#690](https://github.com/metasfresh/metasfresh/issues/690) is about applying the scripts directly out of your local Eclipse. [This comment](https://github.com/metasfresh/metasfresh/issues/690#issuecomment-269940848) from issue 690 outlines what aparently needs to be done to achieve this.
