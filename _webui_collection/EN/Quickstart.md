@@ -8,15 +8,15 @@ lang: en
 ref: quickstart
 ---
 
-## Prerequisites
+## Requirements
 
-You got access to a running metasfresh system.
+Get access to a running metasfresh system.
 
-If do not have a system either install metasfresh on your server using [this](http://docs.metasfresh.org/pages/installation/index_en) manuals or getting a free online account [here](http://metasfresh.com/en/nextgen).
+You can install metasfresh on your server by using this [manual](http://docs.metasfresh.org/pages/installation/index_en) or by creating a free online account via the [metasfresh website](http://metasfresh.com/en/nextgen).
 
 ## Steps
 
-1. [Log on to the system](Logon)
-1. [Set your language](./SwitchLanguage)
-1. [Enter your company data](./InitialSetupWizard)
-1. [Go through a sample workflow ](./Workflow_SalesOrder_to_Invoice)
+1. [Log on to the system](Logon).
+1. [Set your language](./SwitchLanguage).
+1. [Enter your company data](./InitialSetupWizard).
+1. [Go through a sample workflow ](./Workflow_SalesOrder_to_Invoice).

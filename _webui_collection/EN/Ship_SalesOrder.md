@@ -13,7 +13,7 @@ ref: ship_salesorder
 
 1. Have a [completed Sales Order](SalesOrder_recording).
 1. [Jump to](JumptoviaSidebar) Shipment Disposition.
-1. [Select](RecordSelection) the order lines you want to ship.
+1. [Select the order lines](RecordSelection) you want to ship.
 1. [Start the action](StartAction) "Generate Shipments".
 1. Confirm by clicking "Start".
 1. You will receive a notification ![](assets/NotificationBell_WebUI.png) in the upper right corner once the shipment has been generated.

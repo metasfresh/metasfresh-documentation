@@ -1,17 +1,17 @@
 ---
-title: How do I create an invoice for a Sales Order?
+title: How do I create a Purchase Invoice for my order?
 layout: default
 tags:
   - Workflow
-  - Sales
+  - Purchase
 lang: en
 sequence: 40
-ref: invoice_salesorder
+ref: createpurchaseinvoice
 ---
 
 ## Steps
 
-1. Have a [Sales Order which was shipped](Ship_SalesOrder).
+1. Have a [Purchase Order you hold a Goods Receipt for](CreateGoodsReceipt).
 1. [Jump to](JumptoviaSidebar) Invoice Disposition.
 1. [Select the order lines](RecordSelection) you want to invoice.
 1. [Start the action](StartAction) "Generate Invoices".
@@ -21,4 +21,6 @@ ref: invoice_salesorder
 1. [Open the PDF print preview](PrintPreview).
 <br>
 
-![](assets/salesorderinvoice.gif)
+## Video
+
+<iframe src="https://player.vimeo.com/video/207000167" width="640" height="325" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
