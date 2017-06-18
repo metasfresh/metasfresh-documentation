@@ -5,12 +5,13 @@ tags:
   - Features
 lang: en
 sequence: 20
+ref: dashboard
 ---
 
 ## Overview
 
-The dashboard loads directly after logon and shows realtime data.
+The metasfresh dashboard loads directly after logon and shows realtime data.
 
-## Video
+## Example
 
 ![](../DE/assets/dynamicdashboard.gif)

@@ -2,7 +2,7 @@
 title: Wie ändere ich die Sprache der Oberfläche?
 layout: default
 tags:
-  - Benutzung
+  - Einrichtung
 lang: de
 ref: switchlanguage
 ---
