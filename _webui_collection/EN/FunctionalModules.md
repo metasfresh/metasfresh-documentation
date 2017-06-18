@@ -5,25 +5,26 @@ tags:
   - Features
 lang: en
 sequence: 5
+ref: functionalmodules
 ---
 
 ## Overview
 
-metasfresh is a full featured ERP that comes with the following modules:
+metasfresh is a full featured ERP software that comes with the following modules:
 
 | Module     | Entities     |
 | :------------- | :------------- |
 | CRM   | Prospect, Requests (Lead, Opportunity Management), Sales Pipeline, Outbound Email|
 | Sales       |Quotation, Sales Order         |
-| Purchasing        |PO Disposition, Purchase Order, Material Receipt|
-| Manufacturing | MRP 2, Manufacturing Order, Manufacturing Completion, Bill of Material|
-| Warehousing|Shipment Disposition, Shipment, Material Receipt Disposition, Material Receipt, Inventory|
-| SCM | Attributes, Tracability
-| Billing | Invoice Disposition, Customer / Vendor Invoice, Credit Memo |
+| Purchasing        |PO Disposition, Purchase Order, Goods Receipt|
+| Manufacturing | MRP II, Manufacturing Order, Manufacturing Completion, Bill of Materials|
+| Warehousing|Shipment Disposition, Shipment, Goods Receipt Disposition, Goods Receipt, Inventory|
+| SCM | Attributes, Traceability
+| Billing | Invoice Disposition, Customer/ Vendor Invoice, Credit Memo |
 | Logistics | Handling Unit Management, Empties, Distribution Management, Tour Support|
-| Payments | Incoming Outgoing Payment, SEPA, ESR |
+| Payments | Incoming/ Outgoing Payment, SEPA, ESR |
 | Dunning | Dunning Levels, Dunning Disposition, Dunning Documents |
-| Accounting| automatic fact accounts, account schema|
-| Multi-Tenant| Multi-Org, Automatic Counter Documents |
-| Pricing | Pricelists, Versioning, multi-currency, quantity based discounts, Price Units, handling unit pricing, gross/net, manual pricing and discounts|
-|Quality Management| picture taking, quality inspection and automatic discounting
+| Accounting| Automatic FACT Accounts, Account Schema|
+| Multi-Tenancy| Multidimensional Organization, Automatic Countersigning of Documents |
+| Pricing | Price Lists, Versioning, Multi-currency, Quantity Based Discounts, Handling of Price Units and Unit Pricing, Gross/Net, Manual Pricing and Discounts|
+|Quality Management| Picture taking, Quality Inspection and Automatic Discounting
