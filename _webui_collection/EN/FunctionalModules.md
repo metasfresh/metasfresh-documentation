@@ -19,7 +19,7 @@ metasfresh is a full featured ERP that comes with the following modules:
 | Manufacturing | MRP 2, Manufacturing Order, Manufacturing Completion, Bill of Material|
 | Warehousing|Shipment Disposition, Shipment, Material Receipt Disposition, Material Receipt, Inventory|
 | SCM | Attributes, Tracability
-| Billing | Invoice Disposition, Customer / Vendor Invoice, Credit Memo |
+| Billing | Invoice Disposition, Customer / Vendor Invoice, Credit Memo, Aggegation |
 | Logistics | Handling Unit Management, Empties, Distribution Management, Tour Support|
 | Payments | Incoming Outgoing Payment, SEPA, ESR |
 | Dunning | Dunning Levels, Dunning Disposition, Dunning Documents |
@@ -27,3 +27,4 @@ metasfresh is a full featured ERP that comes with the following modules:
 | Multi-Tenant| Multi-Org, Automatic Counter Documents |
 | Pricing | Pricelists, Versioning, multi-currency, quantity based discounts, Price Units, handling unit pricing, gross/net, manual pricing and discounts|
 |Quality Management| picture taking, quality inspection and automatic discounting
+|Contract Management|subscriptions, automatic term management, delivery contracts|
