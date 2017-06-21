@@ -11,11 +11,11 @@ ref: documentprocessingcomplete
 Belege werden von metasfresh zwar automatisch gespeichert, jedoch erst verarbeitet, wenn diese fertiggestellt sind.
 
 ### Mit der Tastatur
-Drücke die Tastenkombination `Strg + U`
+Drücke die Tastenkombination `Strg + U`.
 
 ### Mit der Maus
 
-Klicke auf den Button für die Belegaktionen (`Ctrl + I`) oben rechts im Fenster und wähle dort "Fertigstellen" aus.<br>
+Klicke auf den Button für die Belegverarbeitung (`Ctrl + I`) oben rechts im Fenster und wähle dort "Fertigstellen" aus.<br>
 
 
 ![](assets/belegfertig.gif)

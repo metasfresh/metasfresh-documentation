@@ -15,7 +15,7 @@ Press `Ctrl + U` to set the status to "complete".
 
 ### With the mouse
 
-Click on the button for the document statuses (`Ctrl + I`) in the upper right corner of the window and select "Complete".<br>
+Click on the button for the document processing actions (`Ctrl + I`) in the upper right corner of the window and select "Complete".<br>
 
 
 ![](assets/docprocessing_complete.gif)

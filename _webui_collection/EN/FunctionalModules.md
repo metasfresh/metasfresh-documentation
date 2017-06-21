@@ -5,11 +5,12 @@ tags:
   - Features
 lang: en
 sequence: 5
+ref: functionalmodules
 ---
 
 ## Overview
 
-metasfresh is a full featured ERP that comes with the following modules:
+metasfresh is a full featured ERP software that comes with the following modules:
 
 | Module     | Entities     |
 | :------------- | :------------- |
@@ -21,7 +22,7 @@ metasfresh is a full featured ERP that comes with the following modules:
 | SCM | Attributes, Tracability
 | Billing | Invoice Disposition, Customer / Vendor Invoice, Credit Memo, Aggegation |
 | Logistics | Handling Unit Management, Empties, Distribution Management, Tour Support|
-| Payments | Incoming Outgoing Payment, SEPA, ESR |
+| Payments | Incoming/ Outgoing Payment, SEPA, ESR |
 | Dunning | Dunning Levels, Dunning Disposition, Dunning Documents |
 | Accounting| automatic fact accounts, account schema|
 | Multi-Tenant| Multi-Org, Automatic Counter Documents |
