@@ -8,4 +8,4 @@ tags:
 lang: de
 ---
 
-Die Anleitung ist [hierhin](../_installation_collection/DE/Wie_installiere_ich_den_metasfresh_Stack_mit_Docker) umgezogen.
+Die Anleitung ist [hierhin](../installation_collection/DE/Wie_installiere_ich_den_metasfresh_Stack_mit_Docker) umgezogen.
