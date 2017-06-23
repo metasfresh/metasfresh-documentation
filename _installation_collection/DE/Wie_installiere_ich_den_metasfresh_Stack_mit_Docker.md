@@ -9,7 +9,7 @@ sequence: 10
 ---
 
 ## Übersicht
-Diese Anleitung beschreibt die Installation der folgenden Dienste gemäß [dieser Übersicht](../../_howto_collection/Wie_sieht_die_Architektur_aus):
+Diese Anleitung beschreibt die Installation der folgenden Dienste gemäß [dieser Übersicht](../../howto_collection/Wie_sieht_die_Architektur_aus):
 * DB
 * App
 * API
