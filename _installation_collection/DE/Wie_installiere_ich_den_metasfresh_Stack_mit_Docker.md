@@ -9,7 +9,7 @@ sequence: 10
 ---
 
 ## Übersicht
-Diese Anleitung beschreibt die Installation der folgenden Dienste gemäß [dieser Übersicht](../_howto_collection/Wie_sieht_die_Architektur_aus):
+Diese Anleitung beschreibt die Installation der folgenden Dienste gemäß [dieser Übersicht](../../_howto_collection/Wie_sieht_die_Architektur_aus):
 * DB
 * App
 * API
@@ -35,11 +35,13 @@ Diese Anleitung beschreibt die Installation der folgenden Dienste gemäß [diese
 ### metasfresh installieren
 
 1. docker compose file klonen  
-`git clone https://github.com/metasfresh/metasfresh-docker.git`
-1. "MYDOCKERHOST:PORT" mit einem extern erreichbaren Hostnamen des ockerhost ersetzen <br>
-> Hinweis: PORT ist nur nötig wenn nicht 80 verwendet wird.
+ `git clone https://github.com/metasfresh/metasfresh-docker.git`
 
-  `vi ./metasfresh-docker/webui/sources/configs/config.js`
+1. "MYDOCKERHOST:PORT" mit einem extern erreichbaren Hostnamen des ockerhost ersetzen
+ > Hinweis: PORT ist nur nötig wenn nicht 80 verwendet wird.
+
+ `vi ./metasfresh-docker/webui/sources/configs/config.js`
+
 1. Docker Projekt bauen <br>
 
  `docker-compose build`
