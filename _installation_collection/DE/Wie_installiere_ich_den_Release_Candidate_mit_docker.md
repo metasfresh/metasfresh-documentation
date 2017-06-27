@@ -1,11 +1,11 @@
 ---
-title: Wie aktualisiere ich metasfresh mittels Docker?
+title: Wie installiere ich den Release Candidate mit Docker?
 layout: default
 tags:
   - Docker
   - Update
 lang: de
-sequence: 10
+sequence: 20
 ---
 
 ## Voraussetzung
@@ -16,9 +16,7 @@ sequence: 10
 
 1. Alle docker-container stoppen
 1. Backup des gesamten docker-workspaces
-1. Löschen der images app webui und webapi vom host
-1. Neue dockerfiles und configs von github ziehen
-1. config.js anpassen
+1. Dockerfiles in den Unterverzeichnissen auf die nächste Versionsnummer setzen. z.B. /webapi/Dockerfile
 1. Images auf dem host neu bauen lassen
 1. docker-container starten
 
@@ -30,8 +28,10 @@ cd metasfresh-docker
 docker-compose stop
 tar cvzf ../backup.tar.gz ./<mydocker fir>/* --BACKUP
 docker-compose rm
-git pull
-vi ./webui/sources/configs/config.js
+vi webapi/Dockerfile
+vi db/Dockerfile
+vi app/Dockerfile
+vi webui/Dockerfile
 docker-compose build
 docker-compose up -d
 ```
