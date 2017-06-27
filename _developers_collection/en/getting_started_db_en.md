@@ -8,12 +8,14 @@ lang: en
 ref: developers_getting_started_db
 ---
 
-## Notes
+## Option one:<br/>Import the dump into your local PostgreSQL instalation
 
-* The database dump from the latest metasfresh release is available [here](http://www.metasfresh.com/wp-content/releases/db_seeds/metasfresh_latest.pgdump)
-* This guide assumes that you already have installed a postgres server.
+### Notes
 
-## Import the initial dump from command line
+* The database dump from the latest metasfresh release is available [here](http://www.metasfresh.com/wp-content/releases/db_seeds/metasfresh_latest.pgdump).
+* This guide assumes that you already have installed a PostgreSQL server.
+
+### Import the initial dump from command line
 
 To get the database dump into your local database via command line, do as follows, as user `postgres`:
 
@@ -33,7 +35,7 @@ For convenience and since this is just your local development DB, you might want
 
 Note that metasfresh contains more than 1000 tables. Importing the dump might take a while.
 
-## Import the initial dump using pgAdmin
+### ...or import the initial dump using pgAdmin
 
 To get the database dump into your local database via pgAdmin, do as follows:
 
@@ -51,7 +53,31 @@ Make sure that the new database is owned by the metasfresh role.
 
 * Load the database dump into the new database by rightclicking on it and selecting "Restore...", then follow the dialog.
 
-## Update database from master
+## Option two:<br/>Run the DB in docker
+
+If you have a docker host running locally, you can pull and run the latest metasfresh database in it.
+
+To obtain a docker host, you can for example use our vagrant file.
+
+See https://github.com/metasfresh/metasfresh-dev/tree/master/vagrant to get started.
+
+In order to run the PostgreSQL server inside your local virtual machine and access it,
+you can edit the vagrant file and add a "forwarded port mapping".
+To do this, find the respective section in the vagrant file and add something like
+
+```
+config.vm.network "forwarded_port", id: "metasfresh-db", guest: 5432 , host: 5432 , host_ip: "127.0.0.1"
+```
+
+Once your started your local virtual machine this way and `ssh`ed into it,
+you can run
+```bash
+sudo docker run -p 5432:5432 -t metasfresh/metasfresh-db
+```
+
+To get our latest metasfresh-db and start it up.
+
+## Update the database from the `master` branch
 
 This section describes how to update your local (developer) DB with the latest migration scripts that were just build from the master branch
 
