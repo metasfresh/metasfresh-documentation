@@ -20,4 +20,6 @@ ref: invoice_salesorder
 1. Folge dem Link in der Benachrichtigung, um den Rechnungsbeleg zu öffnen.
 1. [Öffne die PDF-Version](PDFVorschau) des Belegs, um ihn auszudrucken.<br>
 
+## Beispiel
+
 ![](assets/auftragzurechnung.gif)

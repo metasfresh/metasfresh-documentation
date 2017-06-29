@@ -16,4 +16,6 @@ Actions are contextual and can be started from every window. Each window therefo
 1. Click on the desired action.
 <br>
 
+## Example
+
 ![](assets/AktionStarten.gif)

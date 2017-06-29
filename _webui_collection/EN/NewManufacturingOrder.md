@@ -23,4 +23,6 @@ ref: newmanufacturingorder
 1. [Complete the order](DocumentProcessingComplete).
 <br>
 
+## Example
+
 ![](assets/pp_order.gif)

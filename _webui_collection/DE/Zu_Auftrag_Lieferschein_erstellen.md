@@ -20,4 +20,6 @@ ref: ship_salesorder
 1. Folge dem Link in der Benachrichtigung, um den Lieferschein zu öffnen.
 1. [Öffne die PDF-Version](PDFVorschau) des Belegs, um ihn auszudrucken.<br>
 
+## Beispiel
+
 ![](assets/auftrag_liefern.gif)

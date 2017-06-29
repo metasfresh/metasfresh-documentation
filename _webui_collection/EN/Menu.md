@@ -20,10 +20,10 @@ Click on the node you want to open.<br>
 
 In case you do not find what you are looking for you can also use the search field in the menu.
 
-Just type in the feature you are looking for and press `ENTER`.<br>
-![](assets/Workflow_Auftrag_Bis_Rechnung_WebUI-d9abb.png)
+Just type in the feature you are looking for (e.g. "New Sales Order") and hit `ENTER` or click the link to open the window.<br>
+![](assets/SearchBar_WebUI.png)
 
 ## See the full menu
 
-In case you want to see the full menu you can click on "browse whole tree" in the lower right corner.<br>
+To see the full menu, click on **BROWSE WHOLE TREE**.<br>
  ![](assets/Menu_WebUI-b7f58.png)

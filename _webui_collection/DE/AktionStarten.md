@@ -16,4 +16,6 @@ Aktionen sind kontextabhängig und können von jedem Fenster aus gestartet werde
 1. Klicke die gewünschte Aktion an.
 <br>
 
+## Beispiel
+
 ![](assets/AktionStarten.gif)
