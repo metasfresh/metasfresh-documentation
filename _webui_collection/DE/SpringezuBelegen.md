@@ -15,4 +15,6 @@ ref: jumptoviasidebar
 1. Klicke auf eine Verknüpfung, um dorthin zu springen (z.B. Lieferdisposition).
 <br>
 
+## Beispiel
+
 ![](assets/springezusidebar.gif)
