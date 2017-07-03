@@ -4,11 +4,14 @@ layout: default
 tags:
   - Usage
 lang: en
+ref: new_record_tab
 ---
 
 
 ## Steps
 
-1. Klicke auf "Add new"
+1. Simply click "Add new".
 
- ![](assets/Neuer_Datensatz_Tab_Webui-dce73.png)
+## Example
+
+ ![](assets/New_Record_Tab.gif)

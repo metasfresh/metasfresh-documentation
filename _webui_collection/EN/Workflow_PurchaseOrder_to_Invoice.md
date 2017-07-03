@@ -9,7 +9,7 @@ sequence: 10
 ref: workflow_purchaseorder_to_invoice
 ---
 
-![](assets/workflow_PO_to_POinvoice.png)
+![](../../images/en_workflow_PO_to_POinvoice.png)
 
 ## Steps
 
