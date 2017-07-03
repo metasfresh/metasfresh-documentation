@@ -29,9 +29,17 @@ lang: en
 ## 4. Develop translation
 1. open atom and duplicate existing .md file
 1. create an english translation manual in markdown language
-1. commit the new file
-1. create a pull request for review
 
+## 5. Commit your changes
+1. commit the new file using:
+   * **commit title**: #<issuenumber> <title of issue>
+   * **commit description**: desribe your changes and add link to github issue <br> sample:
+   * **commit title**: #1234 translate test page to en_US
+   * **commit description**: changing stuff here and there
+   * **commit description**: https://github.com/metasfresh/metasfresh-documentation/issues/1234
+ 
+1. create a pull request for review
+    * the Pull request will take title and description from your last commit
 
 ## Further Reading
 

@@ -15,7 +15,6 @@ ref: logon
 
  > **Important**: The username is also case-sensitive!
 
-1. Select the role "WebUI".
 
 ## Example
 ![](assets/login.gif)
