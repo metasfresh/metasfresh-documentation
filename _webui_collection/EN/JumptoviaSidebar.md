@@ -16,4 +16,6 @@ ref: jumptoviasidebar
 1. Click on one of the links to open it (e.g. Shipment Disposition).
 <br>
 
+## Example
+
 ![](assets/jumptosidebar.gif)

@@ -14,4 +14,6 @@ ref: recordselection
 - Um alle Zeilen auszuwählen, klicke auf "Select all on this page" in der unteren linken Ecke der Seite.
 <br>
 
+## Beispiel
+
 ![](assets/record selection.gif)

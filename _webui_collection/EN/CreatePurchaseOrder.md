@@ -37,3 +37,7 @@ ref: createpurchaseorder
 
 1. [Complete the invoice](DocumentProcessingComplete).
 1. [Open the PDF preview](PrintPreview).
+
+## Example
+
+![](assets/NewPO_walkthrough.gif)

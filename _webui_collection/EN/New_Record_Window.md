@@ -15,4 +15,6 @@ Press `Ctrl + M`.
 Click ![](assets/Neuen_Datensatz_Webui-4273e.png) and then "New".
 <br>
 
- ![](assets/Neuen_Datensatz_Webui-00b0d.png)
+## Example
+
+ ![](assets/neuerdatensatzfenster.gif)

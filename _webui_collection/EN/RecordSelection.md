@@ -14,4 +14,6 @@ ref: recordselection
 - Select all lines by clicking "Select all on this page" at the bottom left corner of the page.
 <br>
 
+## Example
+
 ![](assets/record selection.gif)

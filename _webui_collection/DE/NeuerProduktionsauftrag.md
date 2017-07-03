@@ -23,4 +23,6 @@ ref: newmanufacturingorder
 1. [Stelle den Beleg fertig](BelegverarbeitungFertigstellen).
 <br>
 
+## Beispiel
+
 ![](assets/neueproduktionsauftrag.gif)

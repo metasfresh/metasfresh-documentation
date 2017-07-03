@@ -38,6 +38,6 @@ ref: createpurchaseorder
 1. [Stelle den Beleg fertig](BelegverarbeitungFertigstellen).
 1. [Öffne die PDF-Vorschau](PDFVorschau).
 
-### Beispiel
+## Beispiel
 
 ![](assets/NeueBestellung.gif)

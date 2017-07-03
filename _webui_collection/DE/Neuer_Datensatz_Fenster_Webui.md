@@ -17,4 +17,6 @@ Klicke auf ![](assets/Neuen_Datensatz_Webui-4273e.png)
 und dann auf "New".
 <br>
 
+## Beispiel
+
  ![](assets/neuerdatensatzfenster.gif)

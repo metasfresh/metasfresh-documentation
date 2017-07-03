@@ -17,5 +17,6 @@ Drücke die Tastenkombination `Strg + U`.
 
 Klicke auf den Button für die Belegverarbeitung (`Ctrl + I`) oben rechts im Fenster und wähle dort "Fertigstellen" aus.<br>
 
+## Beispiel
 
 ![](assets/belegfertig.gif)

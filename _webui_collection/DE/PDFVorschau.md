@@ -3,7 +3,6 @@ title: Wie öffne ich die PDF-Druckvorschau eines Belegs?
 layout: default
 tags:
   - Benutzung
-  - Navigation
 lang: de
 ref: printpreview
 
@@ -17,5 +16,7 @@ Klicke auf ![](assets/Neuen_Datensatz_Webui-4273e.png) und wähle dann "Print" a
 
  > Hinweis: Du benötigst einen PDF-Viewer, damit der Beleg in der Druckvorschau angezeigt wird.
 <br>
+
+## Beispiel
 
  ![](assets/druckvorschau.gif)
