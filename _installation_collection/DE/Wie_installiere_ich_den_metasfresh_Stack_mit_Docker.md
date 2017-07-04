@@ -1,5 +1,5 @@
 ---
-title: Wie installiere ich den metasfresh Stack mit Docker ?
+title: Wie installiere ich den metasfresh Stack mit Docker?
 layout: default
 tags:
   - Docker
@@ -23,7 +23,8 @@ Diese Anleitung beschreibt die Installation der folgenden Dienste gemäß [diese
 | :------------- | :------------- |
 | RAM | 3 GB       | 4 GB
 | CPU | 1 VCPU | 4 VCPU
-|HDD | 10 GB | 20 GB
+| HDD | 10 GB | 20 GB
+
 
 ## Installation mit Docker
 
@@ -35,12 +36,14 @@ Diese Anleitung beschreibt die Installation der folgenden Dienste gemäß [diese
 ### metasfresh installieren
 
 1. docker compose file klonen  
+
  `git clone https://github.com/metasfresh/metasfresh-docker.git`
 
-1. "MYDOCKERHOST:PORT" mit einem extern erreichbaren Hostnamen des ockerhost ersetzen
- > Hinweis: PORT ist nur nötig wenn nicht 80 verwendet wird.
+1. "MYDOCKERHOST:PORT" mit einem extern erreichbaren Hostnamen des Dockerhost ersetzen
 
  `vi ./metasfresh-docker/webui/sources/configs/config.js`
+
+  > Hinweis: PORT ist nur nötig wenn nicht 80 verwendet wird.
 
 1. Docker Projekt bauen <br>
 
