@@ -33,7 +33,7 @@ cd metasfresh-docker
 docker-compose ps
 
 # falls metasfresh-docker noch läuft, herunterfahren und docker images entfernen
-docker-compose down
+docker-compose stop
 
 # metasfresh-docker mit Java Client Zugriff starten
 docker-compose --file docker-compose_javaclient.yml up -d
