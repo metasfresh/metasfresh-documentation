@@ -34,7 +34,7 @@ cd metasfresh-docker
 docker-compose ps
 
 # if metasfresh-docker is still running, stop it and remove the images
-docker-compose down
+docker-compose stop
 
 # start metasfresh-docker with access to the java client
 docker-compose --file docker-compose_javaclient.yml up -d
