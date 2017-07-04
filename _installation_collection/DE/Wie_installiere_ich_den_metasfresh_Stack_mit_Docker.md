@@ -6,6 +6,7 @@ tags:
   - Installation
 lang: de
 sequence: 10
+ref: How_do_I_setup_the_metasfresh_stack_using_Docker
 ---
 
 ## Übersicht
@@ -42,6 +43,7 @@ Diese Anleitung beschreibt die Installation der folgenden Dienste gemäß [diese
 1. "MYDOCKERHOST:PORT" mit einem extern erreichbaren Hostnamen des Dockerhost ersetzen
 
    `vi ./metasfresh-docker/webui/sources/configs/config.js`
+
    > Hinweis: PORT ist nur nötig wenn nicht 80 verwendet wird.
 
 1. Docker Projekt bauen <br>
