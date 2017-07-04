@@ -1,5 +1,5 @@
 ---
-title: How to setup the metasfresh stack using docker ?
+title: How to setup the metasfresh stack using docker?
 layout: default
 tags:
   - Docker
@@ -8,52 +8,70 @@ lang: en
 sequence: 10
 ---
 
-## Installation using Docker
+## Overview
 
-**System Requirements:** Linux Host
+This manual describes the installation of the following services according to this [overview:](howto_collection\EN\metasfresh_architecture.md)
+* DB
+* App
+* API
+* WebUI
+* Search
 
-**Hardware Requirements:**
-* min. 3 GB free RAM
-* min. 10 GB free disk space
 
-**Purpose:** This installation is meant for evaluating the new webinterface of metasfresh.
+## Hardware Requirements
 
-**Installation:**
-1. Have a Hostname (e.g. MYDOCKERHOST) you can resolve both on server and client
-1. [Install Docker](https://docs.docker.com/engine/installation/)
+|     | Minimum      | recommended
+| :------------- | :------------- |
+| RAM | 3 GB       | 4 GB
+| CPU | 1 VCPU | 4 VCPU
+| HDD | 10 GB | 20 GB
+
+
+## Installation with Docker
+
+### Install Docker and Docker Compose
+1. [Install Docker](https://docs.docker.com/engine/installation/linux/ubuntu/)
 1. [Install Docker Compose](https://docs.docker.com/compose/install/)
-1. Install metasfresh:
 
-```bash
-git clone https://github.com/metasfresh/metasfresh-docker.git
 
-#Use an editor to replace "MYDOCKERHOST:PORT" with externally reachable hostname
-#of the Dockerhost which supports access to the WebUI
-#(provide PORT if WebUI does not use the default port 80)
+### Install metasfresh
 
-vi ./metasfresh-docker/webui/sources/configs/config.js
+1. Clone the docker compose file  
 
-cd metasfresh-docker
-docker-compose build
+ `git clone https://github.com/metasfresh/metasfresh-docker.git`
 
-#Use '-d' to run the stack in the background. On first start it may take
-#a few minutes until the database is populated and the service is available
-docker-compose up -d
-```
+1. Replace "MYDOCKERHOST:PORT" with an externally available hostname of Dockerhost
+
+ `vi ./metasfresh-docker/webui/sources/configs/config.js`
+
+ > Hint: PORT is only necessary if 80 is not used.
+
+1. Build Docker project
+
+ `docker-compose build`
+
+1. Start Docker project
+
+ `docker-compose up -d`
+
+ > Hint: On first start it may take a few minutes until the database is populated and the service is available
+
 
 ## Access
 
 After successful installation you can access the WebUI via:
 
-http://MYDOCKERHOST:PORT or
-
 http://MYDOCKERHOST
-(if the default port 80 is used with the WebUI, which is often the case)
+
+or
+
+http://MYDOCKERHOST:PORT (if the default port is not 80)
+
 
 ## Docker container visualization
 
-We currently can't provide support, but here is a [forum post](https://forum.metasfresh.org/t/docker-gui-recommendation) around the topic which recommends two widely used tools.
+See [forum post](https://forum.metasfresh.org/t/docker-gui-recommendation) about the topic which recommends two widely used tools.
 
 ## Feedback
 
-If you got questions or problems just ask for support in the public forum: [forum.metasfresh.org](http://forum.metasfresh.org)
+If you got questions or problems, feel free to ask for support in the public forum: [forum.metasfresh.org](http://forum.metasfresh.org)
