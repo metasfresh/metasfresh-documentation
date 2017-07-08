@@ -1,5 +1,5 @@
 ---
-title: Wie lege ich einen neuen Datensatz in einem Register an?
+title: Wie lege ich einen neuen Datensatz unter einer Registerkarte an?
 layout: default
 tags:
   - Benutzung
@@ -10,7 +10,7 @@ ref: new_record_tab
 
 ## Schritte
 
-1. Klicke einfach auf "Neu hinzufügen".
+Klicke einfach auf "Neu hinzufügen".
 
 ## Beispiel
 

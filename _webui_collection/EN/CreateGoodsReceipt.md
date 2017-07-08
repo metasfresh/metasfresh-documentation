@@ -11,7 +11,7 @@ ref: creategoodsreceipt
 
 ## Steps
 
-1. Have a completed [Purchase Order](CreatePurchaseOrder).
+1. Open a completed [Purchase Order](CreatePurchaseOrder).
 1. [Jump to](JumptoviaSidebar) Goods Receipt Candidates.
 1. [Select the order lines](RecordSelection) you want to list as received goods.
 1. Click on the preset actions button, e.g. ![](assets/CreateGoodsReceipt-99aab.png) and the HU Editor window will pop up.
@@ -19,6 +19,6 @@ ref: creategoodsreceipt
 1. Click "Done" to close the window.
 1. You will receive a notification ![](assets/NotificationBell_WebUI.png) in the upper right corner that the Goods Receipt has been successfully created.
 
-## Video
+## Example
 
-<iframe src="https://player.vimeo.com/video/206999153" width="640" height="325" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+![](assets/CreateGoodsReceipt_walkthrough.gif)
