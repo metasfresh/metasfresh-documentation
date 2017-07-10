@@ -14,7 +14,7 @@ Even if you just want to study the code, it probably makes a lot of sense to do 
 
 ## Get Eclipse
 
-* Download the latest Eclipse version (currently this is Eclipse Neon) from [http://www.eclipse.org/](http://www.eclipse.org/)
+* Download the latest Eclipse version (currently this is Eclipse Oxygen) from [http://www.eclipse.org/](http://www.eclipse.org/)
 Note: the "Eclipse IDE for Java Developers" will probably do. We found that at least for us, the "Eclipse IDE for Java EE Develeopers" has too much unneeded overhead.
 
 * Open the `eclipse.ini` file in the Eclipse instalation directory and check the `-vm` value. This is the java version Eclipse will run with. Please make sure that it is a recent version. For example, with java-1.8.0_65, Eclipse is unable to retrieve maven artifacts from our repository (some missing root certificate).
@@ -63,6 +63,16 @@ To enable your local Eclipse to compile the code, please go to [https://projectl
 
 Note that until eclipse version neon2 the lombok integration is tricky.
 The recommended eclipse version is neon3, as the lombok integration works out of the box with the lombok gui installer (also across multiple eclipse projects). See [here](http://stackoverflow.com/questions/42444457/lombok-does-not-work-for-eclipse-neon) for further infos.
+
+## Optional - Install the "Eclipse Mylyn to GitHub connector"
+
+The Eclipse Mylyn to GitHub connector is a plugin that allows you to connect mylyn to the different metasfresh repos and use mylyns features to focus on the particular issue at hand.
+
+The connector can be installed via Eclipse's "Help -> Install New Software..." Dialog:
+
+![developers_getting_started_ide_eclipse_install_mylyn_to_github_connector]({{ site.github.url }}/images/developers/developers_getting_started_ide_eclipse_install_mylyn_to_github_connector.png)
+
+With this connector installed, you can add GitHub-based mylyn repositories to your Eclipse instalation.
 
 # Other IDEs
 
