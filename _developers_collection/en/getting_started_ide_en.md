@@ -12,18 +12,39 @@ Even if you just want to study the code, it probably makes a lot of sense to do 
 
 # Eclipse
 
-## Get Eclipse
+## Get and install Eclipse
 
-* Download the latest Eclipse version (currently this is Eclipse Oxygen) from [http://www.eclipse.org/](http://www.eclipse.org/)
-Note: the "Eclipse IDE for Java Developers" will probably do. We found that at least for us, the "Eclipse IDE for Java EE Develeopers" has too much unneeded overhead.
-
-* Open the `eclipse.ini` file in the Eclipse instalation directory and check the `-vm` value. This is the java version Eclipse will run with. Please make sure that it is a recent version. For example, with java-1.8.0_65, Eclipse is unable to retrieve maven artifacts from our repository (some missing root certificate).
+Download the installer for the latest Eclipse version (currently this is Eclipse Oxygen) from [http://www.eclipse.org/](http://www.eclipse.org/).<br>
+The installer will give you a choice about which "edition" to install.<br>
+**"Eclipse IDE for Java Developers"** will probably do. We found that at least for us, the "Eclipse IDE for Java EE Develeopers" has too much unneeded overhead.
 
 ## Install Lombok
 
 We recently started using [lombok](https://projectlombok.org/).
 
 To enable your local Eclipse to compile the code, please go to [https://projectlombok.org/download.html](https://projectlombok.org/download.html) and follow the instructions for Eclipse. You might also want to check out our metasfresh-issue [#1125](https://github.com/metasfresh/metasfresh/issues/1125) for further details.
+
+## Edit the `eclipse.ini` file
+
+Open the `eclipse.ini` file in the Eclipse instalation directory and check the `-vm` value.<br>
+This is the java version Eclipse itself will run with. Please make sure that it is a **recent version** and a that it's a **JDK**. Why that?
+* for example, with java-1.8.0_65, Eclipse is unable to retrieve maven artifacts from our repository (some missing root certificate).
+* when eclipse runs with a JRE instead of a JDK, the `jaxb2-maven-plugin` plugin might fail (thank you to [stackoverflow](https://stackoverflow.com/questions/34173363/errorlistener-missing-when-using-maven-jaxb-plugin-with-eclipse-and-m2e) and also to [this blogpost](http://diggingthroughcode.blogspot.de/2016/05/trouble-with-maven-jaxb2-plugin-and.html)).<br>
+So, unless you have only one java version installed, it is recommended to have the `-vm` parameter in your `eclipse.ini` file.<br>
+Here is how the respective setion from my own `eclipse.ini` looks like:
+```
+[...]
+--launcher.appendVmargs
+-vm
+C:\Program Files\Java\jdk1.8.0_131\bin\javaw.exe
+-vmargs
+-Dosgi.requiredJavaVersion=1.8
+-Dosgi.instance.area.default=@user.home/eclipse-workspace
+[...]
+```
+<p>
+Also, we recomment that you make sure to start eclipse with more than the default 1GB of RAM.<br>
+Look for `-Xmx1024M` within the `eclipse.ini` file and change it to e.g. `-Xmx4096M` (the more the better).
 
 ## Import the code
 
