@@ -1,5 +1,5 @@
 ---
-title: How do I add a new record for a tab?
+title: How do I add a new record under a tab?
 layout: default
 tags:
   - Usage
@@ -10,7 +10,7 @@ ref: new_record_tab
 
 ## Steps
 
-1. Simply click "Add new".
+Simply click "Add new".
 
 ## Example
 

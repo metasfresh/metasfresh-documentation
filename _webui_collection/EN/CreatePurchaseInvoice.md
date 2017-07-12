@@ -11,7 +11,7 @@ ref: createpurchaseinvoice
 
 ## Steps
 
-1. Have a [Purchase Order you hold a Goods Receipt for](CreateGoodsReceipt).
+1. Open a [Purchase Order you hold a Goods Receipt for](CreateGoodsReceipt).
 1. [Jump to](JumptoviaSidebar) Invoice Disposition.
 1. [Select the order lines](RecordSelection) you want to invoice.
 1. [Start the action](StartAction) "Generate Invoices".

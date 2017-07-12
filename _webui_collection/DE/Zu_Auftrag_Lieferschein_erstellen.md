@@ -11,7 +11,7 @@ ref: ship_salesorder
 
 ## Schritte
 
-1. Starte von einem [fertigen Auftrag](Auftrag_erfassen).
+1. Öffne einen [fertigen Auftrag](Auftrag_erfassen).
 1. [Springe zur](SpringezuBelegen) Lieferdisposition.
 1. [Wähle die Auftragszeilen](AuswahlBelege) aus, die Du liefern möchtest.
 1. [Starte die Aktion](AktionStarten) "Auswahl liefern".

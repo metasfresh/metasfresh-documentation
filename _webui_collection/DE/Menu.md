@@ -19,7 +19,7 @@ Klicke auf den gewünschten Menüpunkt.<br>
 
 Wenn Du nicht genau weißt, wo die gesuchte Funktion im Menü ist, kannst Du auch einfach die Suchfunktion verwenden.
 
-Gib hierzu den gewünschten Begriff (z.B. "Neuer Auftrag") in die Suchleiste ein und drücke dann `ENTER` oder klicke auf den Link, um das Fenster zu öffnen.<br>
+Gib hierzu den gewünschten Begriff (z.B. "Neuer Auftrag") in die Suchleiste ein und klicke dann auf den Link, um das Fenster zu öffnen.<br>
 ![](assets/Workflow_Auftrag_Bis_Rechnung_WebUI-d9abb.png)
 
 ## Sitemap anschauen

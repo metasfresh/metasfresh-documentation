@@ -20,7 +20,7 @@ Click on the node you want to open.<br>
 
 In case you do not find what you are looking for you can also use the search field in the menu.
 
-Just type in the feature you are looking for (e.g. "New Sales Order") and hit `ENTER` or click the link to open the window.<br>
+Just type in the feature you are looking for (e.g. "New Sales Order") and click the link to open the window.<br>
 ![](assets/SearchBar_WebUI.png)
 
 ## See the full menu
