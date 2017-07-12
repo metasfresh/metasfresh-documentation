@@ -1,5 +1,5 @@
 ---
-title: How to start an action?
+title: How do I start an action?
 layout: default
 tags:
   - Usage

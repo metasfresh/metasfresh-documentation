@@ -1,5 +1,5 @@
 ---
-title: How can I jump to related documents?
+title: How do I jump to related documents?
 layout: default
 tags:
   - Usage

@@ -20,7 +20,6 @@ ref: newproduct
  > Note: The **Product Category** can be used to control discounts, account assignments and attribute sets of products.
 
 1. In the field **Search Key** enter a product number.
-
  > Note 1: This number will appear on documents such as Sales Order confirmations etc.
 
  > Note 2: This number can also be assigned automatically.
@@ -36,10 +35,9 @@ ref: newproduct
 ## Further Relevant Fields
 
 - The field **UOM** (unit of measurement) determines in which unit the product is managed in stock.
-
  > Note 1: Once the first receipt is issued with the product, the UOM cannot be easily changed.
 
- > Note 2: You can define a different price unit in the tab **Price** isolated from the UOM.
+ > Note 2: You can define a different price unit under the tab **Price** isolated from the UOM.
 
 - The field **Product Type** determines the type of product.
 
