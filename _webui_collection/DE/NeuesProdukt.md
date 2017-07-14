@@ -37,7 +37,7 @@ ref: newproduct
 - Das Feld **Maßeinheit** bestimmt, in welcher Einheit der Artikel im Bestand geführt wird.
  > Hinweis 1: Sobald der erste Beleg existiert, in dem der Artikel verwendet wird, kann die Maßeinheit nicht mehr ohne weiteres geändert werden.
 
- > Hinweis 2: Eine abweichende Preiseinheit kann unter der Registerkarte **Preis** losgelöst von der Maßeinheit definiert werden.
+ > Hinweis 2: Eine abweichende Preiseinheit kann unter der Registerkarte "Preis" losgelöst von der Maßeinheit definiert werden.
 
 - Das Feld **Artikelart** bestimmt, um welche Art von Artikel es sich handelt.
 

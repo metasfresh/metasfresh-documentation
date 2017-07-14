@@ -4,23 +4,27 @@ layout: default
 tags:
   - Workflow-Manipulation
   - Fakturierung
-ref: aggregatedinvoiceenable
 lang: de
+ref: enable_collectivebill
 ---
 
 
-## Sammelrechnung für Kunden aktivieren
-1. [Öffne das Fenster](Menu) Geschäftspartner
-1. Partner auswählen
-1. In das Register **Kunde** wechseln
-1. Advanced Edit für das Register Kunden öffnen
-1. In Feld **Aggregationsregel für Ausgangsrechnung** die gewünschte Aggregation einstellen.
- > Hinweis: Im Normalfall "invoicing-agg-std" nehmen.
+## Schritte
+1. [Gehe ins Menü](Menu) und öffne den Link "Geschäftspartner".
+1. Wähle den Geschäftspartner in der [Listenansicht](Ansichten) aus.
+1. Gehe zur Registerkarte "Kunde" unten auf der Seite.
+1. Öffne das ["Advanced Edit"-Menü](AdvancedEditTab_Öffnen).
+1. Stelle im Feld **Aggregationsregel für Ausgangsrechnung** die gewünschte Aggregation ein.
+ > Hinweis: Im Normalfall "invoicing-agg-std" wählen.
+
+1. Klicke auf "Bestätigen", um das Fenster zu schließen.
 
 ## Erläuterung der Regeln
 
-
-|Regel|Bezeichnung|Erklärung|
+| Regel | Bezeichnung | Erklärung |
 |---|---|---|
-|invoicing-agg-std|Standardregel|Zusammenfassung erfolgt ohne Einschränkung
-|LEER||Pro Auftrag wird immer eine Rechnung erstellt
+| invoicing-agg-std | Standardregel | Zusammenfassung erfolgt ohne Einschränkungen
+| leer | | Pro Auftrag wird immer eine Rechnung erstellt
+
+## Beispiel
+![](assets/Sammelrechnung_aktivieren.gif)
