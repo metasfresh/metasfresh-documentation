@@ -6,6 +6,7 @@ tags:
   - Produktion
 lang: de
 sequence: 20
+ref: productioncompletion
 ---
 
 ## Vorbereitung
@@ -27,7 +28,7 @@ Dies ist die einfachste Möglichkeit in metasfresh zu produzieren. Hierbei wird 
 
 1. Wähle über den Aktionsbutton "empfangen" aus.
  ![](assets/ProduktionFertigstellung_empfangen_1.png)<br>
- >Hinweis: Wurde dem Produkt eine Packvorschrift ("PackingInfo") zugewiesen, erscheint diese auf dem Aktionsbutton anstelle von "empfangen".
+ >Hinweis: Wurde dem Produkt eine Gebindekonfiguration zugewiesen, erscheint diese auf dem Aktionsbutton anstelle von "empfangen".
   ![](assets/ProduktionFertigstellung_empfangen_2.png)
 
 1. Es öffnet sich ein neues Fenster.
