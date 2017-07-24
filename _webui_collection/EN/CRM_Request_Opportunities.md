@@ -1,35 +1,39 @@
 ---
-title: How do I manage Opportunities ?
+title: How do I manage Opportunities?
 layout: default
 tags:
   - Workflow
   - Sales
   - CRM
 lang: en
+ref: crm_request_opportunities
 ---
 
 ## Overview
-Opportunities are potential sales orders and are maintained with a percentage of their probability.
+Opportunities are potential sales possibilities that are indicated by a percentage of their probability.
 
-In metasfresh you will find Opportunities as a request type having various different states:
+In metasfresh, Opportunities are managed as *request types* with different status possibilities:
 
 | Status     | Description     |
 | :------------- | :------------- |
 | 10%        |  Starting Point
-| 25%,50%,75%| probability raises
-| 100% | won
-| 0% | lost
-
+| 25%,50%,75%| Increasing Probability
+| 100% | Acquired
+| 0% | Lost
 
 
 ## Steps
 
-1. [Logon](Logon)
-1. [Open the window "Request"](Menu)
-1. Select the request type "Opportunity"
-1. Maintain the "Status"
+1. Open "Request" from the [menu](Menu).
+1. [Create a new request](New_Record_Window).
+1. Enter a part of the business partner name or number.
+ > Note 1: Hit `SPACE` to see all available partners.
 
+ > Note 2: Select one of the shown options with the mouse or ![](../DE/assets/Workflow_Auftrag_Bis_Rechnung_WebUI-73797.png)
 
-## Screenshot
+1. Select the **Request Type** "Opportunity".
+1. Under **Status** select the relevant probability and, if necessary, update it according to current changes.
 
-![](assets/CRM_Vorgang_Opportunities-9bb57.png)
+## Example
+
+![](assets/CRM_Request_Opportunities.gif)

@@ -36,7 +36,7 @@ Du kannst also neue Kontakte erstellen oder bestehenden Kontakten die Anmeldung 
 
 
 ### Weise dem Nutzer eine Rolle zu
-1. Gehe zum Register "Nutzer-Rollen" unten auf der Seite.
+1. Gehe zur Registerkarte "Nutzer-Rollen" unten auf der Seite.
 1. [Lege einen neue Rolle an](Neuer_Datensatz_Tab_Webui).
 1. Wähle die Rolle aus, die der Nutzer haben soll.
 1. Klicke auf "Done", um die Rolle zur Liste hinzuzufügen.
