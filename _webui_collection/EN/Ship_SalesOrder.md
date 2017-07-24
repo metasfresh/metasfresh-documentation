@@ -11,7 +11,7 @@ ref: ship_salesorder
 
 ## Steps
 
-1. Have a [completed Sales Order](SalesOrder_recording).
+1. Open a [completed Sales Order](SalesOrder_recording).
 1. [Jump to](JumptoviaSidebar) Shipment Disposition.
 1. [Select the order lines](RecordSelection) you want to ship.
 1. [Start the action](StartAction) "Generate Shipments".
