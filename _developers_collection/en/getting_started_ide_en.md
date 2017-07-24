@@ -32,6 +32,7 @@ This is the java version Eclipse itself will run with. Please make sure that it 
 * when eclipse runs with a JRE instead of a JDK, the `jaxb2-maven-plugin` plugin might fail (thank you to [stackoverflow](https://stackoverflow.com/questions/34173363/errorlistener-missing-when-using-maven-jaxb-plugin-with-eclipse-and-m2e) and also to [this blogpost](http://diggingthroughcode.blogspot.de/2016/05/trouble-with-maven-jaxb2-plugin-and.html)).<br>
 So, unless you have only one java version installed, it is recommended to have the `-vm` parameter in your `eclipse.ini` file.<br>
 Here is how the respective setion from my own `eclipse.ini` looks like:
+
 ```
 [...]
 --launcher.appendVmargs
@@ -42,9 +43,10 @@ C:\Program Files\Java\jdk1.8.0_131\bin\javaw.exe
 -Dosgi.instance.area.default=@user.home/eclipse-workspace
 [...]
 ```
-<p>
+
 Also, we recomment that you make sure to start eclipse with more than the default 1GB of RAM.<br>
 Look for `-Xmx1024M` within the `eclipse.ini` file and change it to e.g. `-Xmx4096M` (the more the better).
+
 
 ## Import the code
 
