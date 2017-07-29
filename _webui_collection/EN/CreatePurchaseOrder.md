@@ -33,7 +33,7 @@ ref: createpurchaseorder
 > Note: Use the mouse or `TAB` key
 
 1. Enter the quantity and hit `ENTER` to add the line to the order.
-> Note: Repeat steps 2. to 4. until you have registered all order items.
+> Note: Repeat steps 2 to 4 until you have registered all order items.
 
 ### Complete invoice
 
