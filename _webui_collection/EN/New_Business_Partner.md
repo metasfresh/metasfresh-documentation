@@ -2,7 +2,7 @@
 title: How do I add a new Business Partner?
 layout: default
 tags:
-  - Setup
+  - Master Data
 lang: en
 sequence: 10
 ref: new_business_partner
