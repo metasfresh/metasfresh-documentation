@@ -33,7 +33,7 @@ ref: createpurchaseorder
 > Hinweis: Mit Maus oder `TAB`-Taste
 
 1. Gib eine Menge ein und drücke `ENTER`, um die Zeile hinzuzufügen.
-> Hinweis: Wiederhole die Schritte 2. bis 4. so oft, bis Du alle Auftragszeilen erfasst hast.
+> Hinweis: Wiederhole die Schritte 2 bis 4 so oft, bis Du alle Auftragszeilen erfasst hast.
 
 ### Beleg fertigstellen
 
