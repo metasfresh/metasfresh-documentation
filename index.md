@@ -4,8 +4,8 @@ layout: default
 ---
 
 ### Users
-- User Manual [(EN)](pages/webui/index_en) [(DE)](pages/webui/index_de)
-- General [(EN)](pages/howto/index_en) [(DE)](pages/howto/index_de)
+- Web UI User Manual [(EN)](pages/webui/index_en) [(DE)](pages/webui/index_de)
+- Legacy Java Client [(EN)](pages/howto/index_en) [(DE)](pages/howto/index_de)
 
 ### Admins
 - Installation [(EN)](pages/installation/index_en)  [(DE)](pages/installation/index_de)
