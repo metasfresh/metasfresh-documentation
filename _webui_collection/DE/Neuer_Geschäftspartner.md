@@ -2,7 +2,7 @@
 title: Wie lege ich einen neuen Geschäftspartner an?
 layout: default
 tags:
-  - Einrichtung
+  - Stammdaten
 lang: de
 sequence: 10
 ref: new_business_partner
