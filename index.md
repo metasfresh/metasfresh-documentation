@@ -4,7 +4,7 @@ layout: default
 ---
 
 ### Users
-- Web UI User Manual [(EN)](pages/webui/index_en) [(DE)](pages/webui/index_de)
+- User Manual (WebUI) [(EN)](pages/webui/index_en) [(DE)](pages/webui/index_de)
 - Legacy Java Client [(EN)](pages/howto/index_en) [(DE)](pages/howto/index_de)
 
 ### Admins
