@@ -21,3 +21,9 @@ Beispiel:
 1. [Öffne das Fenster](Menu) Währungskurs
 1. Stelle einen Kurs von EUR nach USD mit Art "Spot" ein
 1. Stelle einen Kurs von USD nach EUR mit Art "Spot" ein
+
+## Fehlermeldung
+
+Wenn die Umrechnung nicht korrekt eingestellt ist gibt es bei Wareneingang oder Abrechnung eine Fehlermeldung in dieser Art:
+
+` ... Unable to convert from currenct $ ... to currency € ... `
