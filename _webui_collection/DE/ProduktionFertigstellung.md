@@ -70,6 +70,7 @@ Hierbei werden die für die Produktion benötigten Produkte aus der Stückliste 
  ![](assets/ProduktionFertigstellung_hinzufügen.png)
 
 1. Es öffnet sich eine Übersicht mit den passenden Produkten vom Lager.
+ ![](assets/ProduktionFertigstellung_Lagerübersicht.png)
  
 1. Wähle die Handhabungseinheit (Handling Unit – HU) aus, welche für die Produktion verbraucht werden soll.
 
