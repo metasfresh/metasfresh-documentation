@@ -69,16 +69,15 @@ Hierbei werden die für die Produktion benötigten Produkte aus der Stückliste 
 1. Wähle über den Aktionsbutton "hinzufügen" aus.<br>
  ![](assets/ProduktionFertigstellung_hinzufügen.png)
 
-1. Es öffnet sich eine Übersicht mit den passenden Produkten vom Lager.
+1. Es öffnet sich eine Übersicht mit den passenden Handhabungseinheiten (Handling Unit - HU) vom Lager.
  ![](assets/ProduktionFertigstellung_Lagerübersicht.png)
- 
-1. Wähle die Handhabungseinheit (Handling Unit – HU) aus, welche für die Produktion verbraucht werden soll.
+
+1. Wähle die HU aus, welche für die Produktion verbraucht werden soll.
 
 1. Wähle über den Aktionsbutton nochmals "hinzufügen" aus.
 
 1. Nach erfolgreicher Abbuchung siehst Du die abgebuchten Produkte unterhalb der Komponente.
 ![](assets/ProduktionFertigstellung_Abbuchung.png)
-
  > Hinweis: Möchtest Du die Abbuchung rückgängig machen, wähle einfach die hinzugefügte HU aus, gehe zum Aktionsbutton und klicke auf ![](assets/Actionbutton_Rückgängig.png).
 
 1. Klicke auf "Bestätigen", um das Fenster zu schließen.
