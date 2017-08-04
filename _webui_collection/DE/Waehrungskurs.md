@@ -1,29 +1,38 @@
 ---
-title: Wie richte ich Fremdwährungen ein?
+title: Wie richte ich Währungskurse ein?
 layout: default
 tags:
   - Stammdaten
 lang: de
 sequence: 10
-ref: currency
+ref: currency_rate
 ---
 ## Übersicht
 
-Wenn Du in einer anderen Währung als der Stammwährung arbeiten möchtest, musst Du einen Währungskurs für die Umrechnung einstellen.
+Wenn Du in einer anderen Währung als Deiner Stammwährung arbeiten möchtest, musst Du einen Währungskurs für die Umrechnung einstellen.
 
-Beispiel:
-
-1. Du hast Dein metasfresh mit den Einrichtungsassistenten auf EUR eingestellt.
-1. Du möchtest auch in USD arbeiten.
+**Beispiel:** Du hast Dein metasfresh System mit dem [Einrichtungsassistenten](Ersteinrichtung) auf EUR eingestellt, möchtest aber auch in USD arbeiten.
 
 ## Schritte
 
-1. [Öffne das Fenster](Menu) Währungskurs
-1. Stelle einen Kurs von EUR nach USD mit Art "Spot" ein
-1. Stelle einen Kurs von USD nach EUR mit Art "Spot" ein
+1. [Gehe ins Menü](Menu) und öffne den Link "Währungskurs".
+1. [Lege einen neuen Währungskurs an](Neuer_Datensatz_Fenster_Webui).
+1. Wähle eine Ausgangswährung (**Währung**) und eine **Zielwährung**, z.B. EUR nach USD.
+ > Hinweis: Jeder Währungskurs muss einzeln festgelegt werden, z.B. EUR nach USD, USD nach EUR usw.
+
+1. Gib *entweder* den **Faktor** *oder* den **Divisor** ein, der für die Kursumrechnung verwendet werden soll.
+ > Hinweis: Der jeweils andere Operand wird automatisch berechnet.
+
+1. Wähle die **Kursart** "Spot" aus.
+1. Stelle ein Datum **Gültig ab** ein.
+1. [metasfresh speichert automatisch](Speicheranzeige).
+1. Wiederhole die Schritte 2 bis 6 für weitere Kursumrechnungen, z.B. USD nach EUR.
 
 ## Fehlermeldung
 
-Wenn die Umrechnung nicht korrekt eingestellt ist gibt es bei Wareneingang oder Abrechnung eine Fehlermeldung in dieser Art:
+Wenn die Umrechnung nicht korrekt eingestellt ist, gibt es bei Wareneingang oder Abrechnung eine Fehlermeldung dieser Art:
 
-` ... Unable to convert from currenct $ ... to currency € ... `
+`... Unable to convert from currency $ ... to currency € ...`
+
+## Beispiel
+![](assets/Waehrungskurs_walkthrough.gif)
