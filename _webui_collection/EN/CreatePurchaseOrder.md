@@ -14,7 +14,7 @@ ref: createpurchaseorder
 1. Open "Purchase Order" from the [menu](Menu).
 1. [Create a new purchase order](New_Record_Window).
 1. In the field **Delivery from** enter a part of the business partner name or number.
- > Note 1: Hit `SPACE` to see all available partners.
+ > Note 1: Hit `SPACE` to see all available partners.<br><br>
  > Note 2: Select one of the shown options with the mouse or ![](../DE/assets/Workflow_Auftrag_Bis_Rechnung_WebUI-73797.png)
 
 1. [metasfresh saves the progress automatically](Saveindicator).
@@ -24,7 +24,7 @@ ref: createpurchaseorder
  > Note: Use shortcut `Ctrl + Q`
 
 1. In the field **Product**, enter a part of the product name or number and click on one of the results.
- > Note 1: Hit `SPACE` to see all available products.
+ > Note 1: Hit `SPACE` to see all available products.<br><br>
  > Note 2: Select one of the shown options with the mouse or ![](../DE/assets/Workflow_Auftrag_Bis_Rechnung_WebUI-73797.png)
 
 1. Go to the field **Quantity**.
