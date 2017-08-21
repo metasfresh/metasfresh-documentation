@@ -41,9 +41,9 @@ This manual describes the installation of the following services according to th
 
  `git clone https://github.com/metasfresh/metasfresh-docker.git`
 
-1. Replace "MYDOCKERHOST:PORT" with an externally available hostname of Dockerhost
+1. Uncomment and replace "http://example.com:8080" with an externally available hostname and port of the Dockerhost
 
- `vi ./metasfresh-docker/webui/sources/configs/config.js`
+ `vi ./metasfresh-docker/docker-compose.yml`
 
  > Hint: PORT is only necessary if 80 is not used.
 

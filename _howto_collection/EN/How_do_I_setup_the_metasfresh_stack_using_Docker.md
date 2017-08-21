@@ -28,9 +28,13 @@ lang: en
 ```bash
 git clone https://github.com/metasfresh/metasfresh-docker.git
 
-#Use an editor to replace "MYDOCKERHOST:PORT" with externally reachable hostname
-#and port of the Dockerhost - eg: 'http://myhost.provider.com/rest/api'
-vi ./metasfresh-docker/webui/sources/configs/config.js
+#Use an editor to uncomment and replace "http://example.com:8080" with externally
+#reachable hostname and port of the Dockerhost
+#eg: 'http://myhost.provider.com'
+vi ./metasfresh-docker/docker-compose.yml
+#uncomment following lines and replace URL with your server's reachable URL:
+#  #environment:
+#    #- WEBAPI_URL=http://example.com:8080
 
 cd metasfresh-docker
 docker-compose build

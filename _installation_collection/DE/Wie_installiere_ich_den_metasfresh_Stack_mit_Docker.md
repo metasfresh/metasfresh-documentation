@@ -40,11 +40,18 @@ Diese Anleitung beschreibt die Installation der folgenden Dienste gemäß [diese
 
    `git clone https://github.com/metasfresh/metasfresh-docker.git`
 
-1. "MYDOCKERHOST:PORT" mit einem extern erreichbaren Hostnamen des Dockerhost ersetzen
+1. Die vom Browser erreichbare URL der WebUI einrichten
 
-   `vi ./metasfresh-docker/webui/sources/configs/config.js`
-
-   > Hinweis: PORT ist nur nötig wenn nicht 80 verwendet wird.
+   `vi ./metasfresh-docker/docker-compose.yml`
+   ```
+   ...
+  #environment:
+    #- WEBAPI_URL=http://example.com:8080
+   ...
+   ```
+   Zeilen auskommentieren und `http://example.com:8080` durch eigenen Eintrag
+   ersetzen.
+   > Hinweis: `:8080` ist nur nötig wenn nicht 80 verwendet wird.
 
 1. Docker Projekt bauen <br>
 
