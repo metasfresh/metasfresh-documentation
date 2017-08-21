@@ -13,7 +13,7 @@ lang: en
 1. Remove your existing docker-images
 1. Generate or aquire your SSL certificates
 1. Place your fullchain pem-file and your private key pem-file as `fullchain.pem` and `privkey.pem` in `./metasfresh-docker/webui/sources/certs/`
-1. Modify your `./metasfresh-docker/webui/sources/configs/config.js` to reflect the new port and URL (eg. `https` instead of `http`)
+1. Modify your `./metasfresh-docker/docker-compose.yml` to reflect the new port and URL (eg. `https` instead of `http`)
 1. Rebuild your metasfresh-docker images and start the containers
 1. Access your SSL metasfresh-webui interface on Port `443/TCP` (default)
 
@@ -26,7 +26,7 @@ docker-compose stop
 docker-compose rm -f
 cp /my/cert-storage/myfullchain.pem ./webui/sources/certs/fullchain.pem
 cp /my/cert-storage/myprivatekey.pem ./webui/sources/certs/privkey.pem
-vi ./webui/sources/configs/config.js #change to "https"
+vi ./docker-compose.yml #change to "https"
 docker-compose build
 docker-compose up -d
 ```
