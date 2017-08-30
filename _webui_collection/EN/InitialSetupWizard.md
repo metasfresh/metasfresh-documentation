@@ -13,7 +13,7 @@ Follow these steps to change the existing client "metasfresh" that is provided b
 
 ## Steps
 
-1. Open the "Initial Setup Wizard" from the [menu](Menu.md).
+1. Open the "Initial Setup Wizard" from the [menu](Menu).
 1. Upload an image as your logo via **upload a photo**.
  >Note: The logo should not be bigger than 200x200 pixels to fit nicely on the documents.
 
