@@ -1,7 +1,6 @@
 ---
 layout: default
 title: How to solve duplicate Record IDs using check native sequences
-issue: 
 tags:
   - Support
 lang: en
