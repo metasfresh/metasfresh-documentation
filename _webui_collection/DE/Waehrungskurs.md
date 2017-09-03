@@ -4,7 +4,7 @@ layout: default
 tags:
   - Stammdaten
 lang: de
-sequence: 20
+sequence: 30
 ref: currency_rate
 ---
 ## Übersicht
