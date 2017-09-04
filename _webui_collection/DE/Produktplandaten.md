@@ -28,12 +28,16 @@ Wird ein Auftrag erfasst, überprüft die *Materialdisposition* anhand der Produ
 1. Wähle das Produkt in der [Listenansicht](Ansichten) aus.
 1. Gehe zur Registerkarte "Daten Planung" unten auf der Seite.
 1. [Lege einen neuen Datensatz an](Neuer_Datensatz_Tab_Webui). Es öffnet sich ein neues Fenster.
+
 ---
+
 #### Für den Einkauf
 1. Soll die Planung von der Materialdisposition berücksichtigt werden, setze ein Häkchen bei **Plan erzeugen**.
 1. Setze das Feld **Eingekauft** auf *Ja*.
 1. Klicke auf "Bestätigen", um das Fenster zu schließen und die Plandaten zur Liste hinzuzufügen.
+
 ---
+
 #### Für die Produktion
 1. Wähle eine **Stücklistenkonfiguration** aus.
 1. Wähle einen **Arbeitsablauf** aus.
