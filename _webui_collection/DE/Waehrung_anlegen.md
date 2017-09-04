@@ -3,6 +3,7 @@ title: Wie lege ich eine neue Währung an?
 layout: default
 tags:
   - Stammdaten
+  - Währung
 lang: de
 sequence: 20
 ref: add_currency

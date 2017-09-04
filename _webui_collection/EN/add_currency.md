@@ -3,6 +3,7 @@ title: How do I add a new currency?
 layout: default
 tags:
   - Master Data
+  - Currency
 lang: en
 sequence: 20
 ref: add_currency
