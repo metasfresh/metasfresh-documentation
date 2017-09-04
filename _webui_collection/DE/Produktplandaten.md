@@ -31,7 +31,9 @@ Wird ein Auftrag erfasst, überprüft die *Materialdisposition* anhand der Produ
 
 ---
 
-#### Für den [Einkauf](#einkauf)
+[Einkauf](#einkauf)
+
+#### Für den 
 1. Soll die Planung von der Materialdisposition berücksichtigt werden, setze ein Häkchen bei **Plan erzeugen**.
 1. Setze das Feld **Eingekauft** auf *Ja*.
 1. Klicke auf "Bestätigen", um das Fenster zu schließen und die Plandaten zur Liste hinzuzufügen.
