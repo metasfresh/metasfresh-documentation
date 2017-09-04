@@ -3,6 +3,7 @@ title: How do I configure currency exchange rates?
 layout: default
 tags:
   - Master Data
+  - Currency
 lang: en
 sequence: 1000
 ref: currency_rate

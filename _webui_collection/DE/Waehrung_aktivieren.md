@@ -3,6 +3,7 @@ title: Wie aktiviere ich eine Währung?
 layout: default
 tags:
   - Stammdaten
+  - Währung
 lang: de
 sequence: 40
 ref: activate_currency

@@ -3,6 +3,7 @@ title: How do I activate a currency?
 layout: default
 tags:
   - Master Data
+  - Currency
 lang: en
 sequence: 40
 ref: activate_currency
