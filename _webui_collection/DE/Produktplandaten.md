@@ -54,5 +54,3 @@ Wird ein Auftrag erfasst, überprüft die *Materialdisposition* anhand der Produ
 
 1. Klicke auf "Bestätigen", um das Fenster zu schließen und die Plandaten zur Liste hinzuzufügen.
 
-
-[create an anchor](#anchors-in-markdown)
