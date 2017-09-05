@@ -27,13 +27,13 @@ ref: createpurchaseorder
  > Hinweis 1: Drücke die `LEERTASTE`, um alle Produkte zu sehen.<br><br>
  > Hinweis 2: Auswahl des Treffers mit Maus oder ![](assets/Workflow_Auftrag_Bis_Rechnung_WebUI-73797.png)
 
-1. Wechsle in das Feld **Menge**.
- > Hinweis: Mit Maus oder `TAB`-Taste
+1. Gib eine **Menge** ein.
+ > Hinweis: Wechsle in das Feld mit der Maus oder `TAB`-Taste
 
-1. Gib eine Menge ein und drücke `ENTER`, um die Zeile hinzuzufügen.
- > Hinweis: Wiederhole die Schritte 2 bis 4 so oft, bis Du alle Auftragszeilen erfasst hast.
+1. Drücke `ENTER`, um die Zeile hinzuzufügen.
+ > Hinweis: Wiederhole die Schritte 2 bis 4 so oft, bis Du alle Bestellzeilen erfasst hast.
 
-### Beleg fertigstellen
+## Nächste Schritte
 
 1. [Stelle den Beleg fertig](BelegverarbeitungFertigstellen).
 1. [Öffne die PDF-Vorschau](PDFVorschau).
