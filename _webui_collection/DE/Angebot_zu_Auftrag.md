@@ -12,7 +12,7 @@ ref: quotation_to_salesorder
 
 ## Schritte
 
-1. Öffne ein fertiges [Angebot](angebot_erstellen).
+1. Öffne ein fertiges [Angebot](Angebot_erstellen).
 1. [Starte die Aktion](AktionStarten) "Auftrag aus Angebot". Es öffnet sich ein neues Fenster.
 1. Setze das Feld **Belegart** auf *Standardauftrag*.
 1. Klicke auf "Start", um zu bestätigen und das Fenster zu schließen.
