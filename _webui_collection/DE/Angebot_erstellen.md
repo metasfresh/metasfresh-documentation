@@ -1,5 +1,5 @@
 ---
-title: Wie erstelle ich ein Verkaufsangebot?
+title: Wie erstelle ich ein Angebot?
 layout: default
 tags:
   - Workflow
