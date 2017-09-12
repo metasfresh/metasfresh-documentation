@@ -6,19 +6,20 @@ tags:
   - Update
 lang: de
 sequence: 20
+ref: install_release_candidate_using_docker
 ---
 
 ## Voraussetzung
 
-[Laufendes metasfresh System auf Docker basis](Wie_installiere_ich_den_metasfresh_Stack_mit_Docker)
+Du benötigst ein [laufendes metasfresh System auf Docker-Basis](Wie_installiere_ich_den_metasfresh_Stack_mit_Docker).
 
 ## Schritte für Versionsupdate
 
-1. Alle docker-container stoppen
-1. Backup des gesamten docker-workspaces
-1. Dockerfiles in den Unterverzeichnissen auf die nächste Versionsnummer setzen. z.B. /webapi/Dockerfile
-1. Images auf dem host neu bauen lassen
-1. docker-container starten
+1. Stoppe alle Docker Container.
+1. Erstelle ein Backup des gesamten Docker Workspace.
+1. Setze die Dockerfiles in den Unterverzeichnissen auf die nächste Versionsnummer, z.B. /webapi/Dockerfile.
+1. Lasse die neuen Images auf dem Host bauen.
+1. Starte die Docker Container.
 
 
 ## Beispiel
