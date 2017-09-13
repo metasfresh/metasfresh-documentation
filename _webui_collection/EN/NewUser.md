@@ -28,12 +28,9 @@ You can create new contacts or allow existing contacts to log on to the system b
 1. In the field **Login** enter a username.
 1. Enter a **Password** with at least 8 characters.
 
-  > Note 1: Make sure the password consists of **at least 8 characters** or the new record **will not be saved**.
-
-  > Note 2: The user can log on using either the **login** or the **email address** as username.
-
+  > Note 1: Make sure the password consists of **at least 8 characters** or the new record **will not be saved**!<br><br>
+  > Note 2: The user can log on using either the **login** or the **email address** as username.<br><br>
   > Note 3: The username and password are both **case-sensitive**!
-
 
 ### Assign a role to the user to grant permission
 1. Go to the record tab "User Roles" at the bottom of the page.

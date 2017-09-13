@@ -3,7 +3,7 @@ title: Wie erstelle ich einen neuen Systembenutzer?
 layout: default
 tags:
   - Einrichtung
-  - Benutzer und Rollen
+  - Nutzer und Rollen
 lang: de
 sequence: 10
 ref: newuser
@@ -27,21 +27,17 @@ Du kannst also neue Kontakte erstellen oder bestehenden Kontakten die Anmeldung 
 1. Setze einen Haken bei **Systembenutzer**.
 1. Trage bei **Login** einen Benutzernamen ein.
 1. Vergib ein **Kennwort** mit mindestens 8 Zeichen.
-
-  > Hinweis 1: Stelle sicher, dass das Passwort **mindestens 8 Zeichen** hat, sonst wird der Datensatz **nicht gespeichert**.
-
-  > Hinweis 2: Der Benutzer kann sich wahlweise mit dem **Login** oder der **Email** anmelden.
-
+  > Hinweis 1: Stelle sicher, dass das Passwort **mindestens 8 Zeichen** hat, sonst wird der Datensatz **nicht gespeichert**!<br><br>
+  > Hinweis 2: Der Benutzer kann sich wahlweise mit dem **Login** oder der **Email** anmelden.<br><br>
   > Hinweis 3: Beachte beim Benutzernamen und Kennwort die **Groß- und Kleinschreibung**!
 
 
 ### Weise dem Nutzer eine Rolle zu
-1. Gehe zum Register "Nutzer-Rollen" unten auf der Seite.
-1. [Lege einen neue Rolle an](Neuer_Datensatz_Tab_Webui).
+1. Gehe zur Registerkarte "Nutzer-Rollen" unten auf der Seite.
+1. [Lege eine neue Rolle an](Neuer_Datensatz_Tab_Webui).
 1. Wähle die Rolle aus, die der Nutzer haben soll.
-1. Klicke auf "Done", um die Rolle zur Liste hinzuzufügen.
-
-> Hinweis: Der Nutzer kann auch mehrere Rollen haben. In diesem Fall wird er bei der Anmeldung nach der gewünschten Rolle gefragt.
+1. Klicke auf "Bestätigen", um die Rolle zur Liste hinzuzufügen.
+  > Hinweis: Der Nutzer kann auch mehrere Rollen haben. In diesem Fall wird er bei der Anmeldung nach der gewünschten Rolle gefragt.
 
 
 ## Beispiel
