@@ -30,7 +30,26 @@ vi ./docker-compose.yml
 #of section 'webui'
 #uncomment and change URL "https://myserver.com:8080" to "https://myserver.com:8443" in entry
 #'WEBAPI_URL' if section 'webui'
+#also uncomment the entry `environment:`
 
 docker-compose up -d
 ```
 You should now be able to reach your metasfresh-webui using the new URL `https://myserver.com:8443`
+
+### Example webui-entry in docker-compose.yml
+```yml
+webui:
+  build: webui
+  links:
+    - webapi:webapi
+  ports:
+    - "80:80"
+    - "443:443"
+  restart: always
+  volumes:
+    - /etc/localtime:/etc/localtime:ro
+    - /etc/timezone:/etc/timezone:ro
+  #uncomment and set to URL where metasfresh will be available from browsers
+  environment:
+    - WEBAPI_URL=http://myserver.com:8443
+```
