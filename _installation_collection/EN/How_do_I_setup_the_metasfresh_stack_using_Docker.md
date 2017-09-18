@@ -47,6 +47,7 @@ This manual describes the installation of the following services according to th
 
  > Hint: PORT is only necessary if 80 is not used.
 
+ >IMPORTANT: if you're using a RPM based distribution and/or the file `/etc/timezone` is not available on your dockerhost, comment out or remove the line `- /etc/timezone:/etc/timezone:ro` in your `docker-compose.yml` file!
 1. Build Docker project
 
  `docker-compose build`
