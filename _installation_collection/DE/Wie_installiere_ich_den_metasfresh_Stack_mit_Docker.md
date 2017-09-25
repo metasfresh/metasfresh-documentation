@@ -51,6 +51,8 @@ Diese Anleitung beschreibt die Installation der folgenden Dienste gemäß [diese
    ```
    > Hinweis: PORT `:8080` ist nur nötig, wenn nicht 80 verwendet wird.
 
+   >WICHTIG: solltest du eine RPM basierende Distribution einsetzen und/oder du auf deinem Host die Datei `/etc/timezone` nicht vorfinden, kommentiere die Zeile `- /etc/timezone:/etc/timezone:ro` aus deiner `docker-compose.yml` aus!
+
 1. Baue das Docker Projekt. <br>
 
    `docker-compose build`

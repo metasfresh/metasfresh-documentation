@@ -33,7 +33,8 @@ vi ./docker-compose.yml
 docker-compose up -d
 ```
 
-Du kannst die WebUI von nun an unter `https://myserver.com:8443` erreichen.
+Du kannst die WebUI von nun an unter der neuen URL `https://myserver.com:8443` erreichen.
+
 
 ### Beispiel Sektion webui in docker-compose.yml:
 ```yml
