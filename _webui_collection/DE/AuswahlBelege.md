@@ -1,5 +1,5 @@
 ---
-title: Wie wähle ich Belege aus?
+title: Wie selektiere ich Einträge?
 layout: default
 tags:
   - Benutzung

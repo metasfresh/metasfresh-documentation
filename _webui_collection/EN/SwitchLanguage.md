@@ -10,10 +10,10 @@ ref: switchlanguage
 
 ## Steps
 
-1. Go to your profile by clicking on ![](assets/UserMenu_Rabbit_WebUI.png) in the upper right corner or by using `Ctrl + 4`.
-2. Click on Settings.
-3. Switch to another language.
+1. Go to the User Menu by clicking on ![](assets/UserMenu_Rabbit_WebUI.png) in the upper right corner of the window or by pressing `Ctrl + 4`.
+1. Click on "Settings".
+1. Switch to another **Language**.
 
 ## Example
 
-![](assets/SwitchLanguage.gif)
+![](assets/SwitchLanguage_EN-DE.gif)
