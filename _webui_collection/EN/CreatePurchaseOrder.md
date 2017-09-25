@@ -27,13 +27,13 @@ ref: createpurchaseorder
  > Note 1: Hit `SPACE` to see all available products.<br><br>
  > Note 2: Select one of the shown options with the mouse or ![](../DE/assets/Workflow_Auftrag_Bis_Rechnung_WebUI-73797.png)
 
-1. Go to the field **Quantity**.
- > Note: Use the mouse or `TAB` key
+1. Enter a **Quantity**.
+ > Note: Use the mouse or `TAB` key to go to the field
 
-1. Enter the quantity and hit `ENTER` to add the line to the order.
+1. Hit `ENTER` to add the line to the order.
  > Note: Repeat steps 2 to 4 until you have registered all order items.
 
-### Complete invoice
+## Complete invoice
 
 1. [Complete the invoice](DocumentProcessingComplete).
 1. [Open the PDF preview](PrintPreview).

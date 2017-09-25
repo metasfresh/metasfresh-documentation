@@ -3,8 +3,9 @@ title: Wie richte ich Währungskurse ein?
 layout: default
 tags:
   - Stammdaten
+  - Währung
 lang: de
-sequence: 10
+sequence: 30
 ref: currency_rate
 ---
 ## Übersicht

@@ -27,7 +27,7 @@ Du kannst also neue Kontakte erstellen oder bestehenden Kontakten die Anmeldung 
 1. Setze einen Haken bei **Systembenutzer**.
 1. Trage bei **Login** einen Benutzernamen ein.
 1. Vergib ein **Kennwort** mit mindestens 8 Zeichen.
-  > Hinweis 1: Stelle sicher, dass das Passwort **mindestens 8 Zeichen** hat, sonst wird der Datensatz **nicht gespeichert**.<br><br>
+  > Hinweis 1: Stelle sicher, dass das Passwort **mindestens 8 Zeichen** hat, sonst wird der Datensatz **nicht gespeichert**!<br><br>
   > Hinweis 2: Der Benutzer kann sich wahlweise mit dem **Login** oder der **Email** anmelden.<br><br>
   > Hinweis 3: Beachte beim Benutzernamen und Kennwort die **Groß- und Kleinschreibung**!
 

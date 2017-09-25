@@ -1,5 +1,5 @@
 ---
-title: Wie installiere ich den metasfresh Stack mit Docker?
+title: Wie installiere ich den metasfresh Stack mittels Docker?
 layout: default
 tags:
   - Docker
@@ -20,7 +20,7 @@ Diese Anleitung beschreibt die Installation der folgenden Dienste gemäß [diese
 
 ## Hardware Voraussetzung
 
-|     | Mindestens      | empfohlen
+|     | Mindestens      | Empfohlen
 | :------------- | :------------- |
 | RAM | 3 GB       | 4 GB
 | CPU | 1 VCPU | 4 VCPU
@@ -30,50 +30,50 @@ Diese Anleitung beschreibt die Installation der folgenden Dienste gemäß [diese
 ## Installation mit Docker
 
 ### Docker und Docker Compose installieren
-1. [Docker installieren](https://docs.docker.com/engine/installation/linux/ubuntu/)
-1. [Docker Compose installieren](https://docs.docker.com/compose/install/)
+1. [Docker installieren](https://docs.docker.com/engine/installation/linux/ubuntu/).
+1. [Docker Compose installieren](https://docs.docker.com/compose/install/).
 
 
 ### metasfresh installieren
 
-1. docker compose file klonen  
+1. Klone die Docker-Compose Datei.
 
    `git clone https://github.com/metasfresh/metasfresh-docker.git`
 
-1. Die vom Browser erreichbare URL der WebUI einrichten
+1. Kommentiere `http://beispiel.com:8080` aus und ersetze die Zeile durch einen vom Browser extern erreichbaren Hostnamen und Port.
 
    `vi ./metasfresh-docker/docker-compose.yml`
    ```
    ...
   #environment:
-    #- WEBAPI_URL=http://example.com:8080
+    #- WEBAPI_URL=http://beispiel.com:8080
    ...
    ```
-   Zeilen auskommentieren und `http://example.com:8080` durch eigenen Eintrag
-   ersetzen.
-   > Hinweis: `:8080` ist nur nötig wenn nicht 80 verwendet wird.
+   > Hinweis: PORT `:8080` ist nur nötig, wenn nicht 80 verwendet wird.
 
    >WICHTIG: solltest du eine RPM basierende Distribution einsetzen und/oder du auf deinem Host die Datei `/etc/timezone` nicht vorfinden, kommentiere die Zeile `- /etc/timezone:/etc/timezone:ro` aus deiner `docker-compose.yml` aus!
-1. Docker Projekt bauen <br>
+
+1. Baue das Docker Projekt. <br>
 
    `docker-compose build`
 
-1. Docker Projekt starten <br>
+1. Starte das Docker Projekt. <br>
 
    `docker-compose up -d`
 
-   > Hinweis: Beim ersten Start kann es ein paar Minuten dauern, bis die Datenbank initialisiert und die Services verfügbar sind
+   >Hinweis: Beim ersten Start kann es ein paar Minuten dauern, bis die Datenbank initialisiert und die Services verfügbar sind.
 
 
 ## Zugriff
 
-Nach erfolgreicher Installation auf die WebUI so zugreifen:
+Nach erfolgreicher Installation kannst Du hierüber auf die WebUI zugreifen:
 
 http://MYDOCKERHOST
 
 oder
 
-http://MYDOCKERHOST:PORT  (falls der Port nicht 80 ist )
+http://MYDOCKERHOST:PORT  (falls der Port nicht 80 ist)
+
 
 ## Beispiel docker-compose.yml
 ```yml
@@ -155,10 +155,10 @@ webui:
       restart: always
 ```
 
-## Visualisierung der docker container
+## Visualisierung der Docker Container
 
-Siehe [Post im Forum](https://forum.metasfresh.org/t/docker-gui-recommendation) (in englisch) über dieses Thema, welcher zwei weit verbreitete Tools empfiehlt.
+In diesem [Forumpost](https://forum.metasfresh.org/t/docker-gui-recommendation) (in Englisch) über dieses Thema werden zwei weit verbreitete Tools empfohlen.
 
 ## Feedback
 
-Wenn Du Fragen oder Probleme hast, frag einfach nach Support im offiziellen Forum: [forum.metasfresh.org](http://forum.metasfresh.org)
+Bei Fragen oder Problemen kannst Du uns gerne in unserem offiziellen Forum um Unterstützung bitten: [forum.metasfresh.org](http://forum.metasfresh.org).
