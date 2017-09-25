@@ -74,7 +74,6 @@ oder
 
 http://MYDOCKERHOST:PORT  (falls der Port nicht 80 ist)
 
-
 ## Beispiel docker-compose.yml
 ```yml
 db:

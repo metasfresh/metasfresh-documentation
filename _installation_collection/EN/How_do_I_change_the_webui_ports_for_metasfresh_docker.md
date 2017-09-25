@@ -35,6 +35,7 @@ vi ./docker-compose.yml
 
 docker-compose up -d
 ```
+
 You can now reach your metasfresh-WebUI using the new URL `https://myserver.com:8443`.
 
 ### Example webui-entry in docker-compose.yml
