@@ -1,17 +1,17 @@
 ---
-title: How do I manage partner-related product names?
+title: How do I manage partner-related products?
 layout: default
 tags:
   - Master Data
   - Product
 lang: en
 sequence: 10
-ref: partner_related_product_names
+ref: partner_related_products
 ---
 
 ## Overview
-Sometimes the business partners' product names differ from your own ones even though they refer to the same product. For instance, in your system you hold the product *Carrots*, but the customer prefers calling it *Orange roots* and the vendor *Rabbit food*.<br>
-So, in order to avoid any misunderstandings and ending up with several names for one individual product in your system, you can assign **partner-related product names** without having to modify your own internal data.
+Sometimes the business partners' product names and numbers differ from your own even though they refer to the same product. For instance, in your system you hold the product *Carrots*, but the customer prefers calling it *Orange roots* and the vendor *Rabbit food*.<br>
+So, in order to avoid any misunderstandings and ending up with several names and numbers for one individual product in your system, you can assign **partner-related product names and numbers** without having to modify your own internal data.
 
 ## Steps
 1. Open an existing [product](Menu) or [create a new product](NewProduct).
@@ -27,8 +27,8 @@ So, in order to avoid any misunderstandings and ending up with several names for
 1. Click "Done" to close the window and add the partner-related data to the list.
 1. Repeat steps 2 to 7 for further business partners.
 
-**Note:** For internal processes you keep using your own product names. Externally, the respective partner-related data will appear automatically on documents such as Sales Order confirmations, Shipment notes and Invoices.
+**Note:** For internal purposes you keep using your own product names and numbers. Externally, the respective partner-related product names and numbers will appear automatically on documents such as Sales Order confirmations, Shipment notes and Invoices.
 
 ## Example
 
-![](assets/Partner_related_product_names.gif)
+![](assets/Partner_related_products.gif)
