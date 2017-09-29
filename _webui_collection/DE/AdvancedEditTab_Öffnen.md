@@ -3,8 +3,9 @@ title: Wie öffne ich das "Advanced Edit"-Menü in einer Registerkarte?
 layout: default
 tags:
   - Benutzung
+  - Dateneingabe
 lang: de
-sequence: 10
+sequence: 30
 ref: open_advancededittab
 ---
 

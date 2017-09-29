@@ -5,7 +5,7 @@ tags:
   - Stammdaten
   - Währung
 lang: de
-sequence: 30
+sequence: 20
 ref: currency_rate
 ---
 ## Übersicht

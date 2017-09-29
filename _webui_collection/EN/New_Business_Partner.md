@@ -12,7 +12,7 @@ ref: new_business_partner
 
 ### Create a Business Partner
 1. Open "Business Partner" from the [menu](Menu).
-1. [Create a new record](New_Record_Window).
+1. [Create a new Business Partner](New_Record_Window).
 1. The **Search Key** is an automatically assigned serial number. However, if required, it can also be assigned manually instead.
 1. Fill in the field **Name**, or if the box **Company** is checked, fill in the field **Company Name**.
  > Note: The **(Company) Name** is restricted to 60 characters.

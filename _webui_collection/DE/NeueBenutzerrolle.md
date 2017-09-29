@@ -5,7 +5,7 @@ tags:
   - Einrichtung
   - Nutzer und Rollen
 lang: de
-sequence: 10
+sequence: 20
 ref: newuserroll
 ---
 

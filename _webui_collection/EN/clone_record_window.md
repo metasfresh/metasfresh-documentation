@@ -3,8 +3,9 @@ title: How do I clone the records in a window?
 layout: default
 tags:
   - Usage
+  - Actions
 lang: en
-sequence: 20
+sequence: 40
 ref: clone_record_window
 ---
 

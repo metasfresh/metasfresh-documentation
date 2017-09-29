@@ -6,6 +6,7 @@ tags:
   - Sales
   - CRM
 lang: en
+sequence: 30
 ref: crm_request_opportunities
 ---
 

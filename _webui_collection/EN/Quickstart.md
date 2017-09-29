@@ -2,7 +2,7 @@
 title: Quickstart
 layout: default
 tags:
-  - Beginner Guide
+  - Beginner's Guide
 
 lang: en
 ref: quickstart

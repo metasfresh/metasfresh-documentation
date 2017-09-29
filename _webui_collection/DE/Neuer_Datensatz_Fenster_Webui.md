@@ -3,8 +3,9 @@ title: Wie lege ich einen neuen Datensatz in einem Fenster an?
 layout: default
 tags:
   - Benutzung
+  - Dateneingabe
 lang: de
-sequence: 20
+sequence: 10
 ref: new_record_window
 ---
 

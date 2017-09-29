@@ -3,8 +3,9 @@ title: Wie klone ich die Datensätze in einem Fenster?
 layout: default
 tags:
   - Benutzung
+  - Aktionen
 lang: de
-sequence: 20
+sequence: 40
 ref: clone_record_window
 ---
 

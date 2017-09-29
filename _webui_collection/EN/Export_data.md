@@ -3,7 +3,9 @@ title: How do I export data?
 layout: default
 tags:
   - Usage
+  - Actions
 lang: en
+sequence: 30
 ref: export_data
 ---
 

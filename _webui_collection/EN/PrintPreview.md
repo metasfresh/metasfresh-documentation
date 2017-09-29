@@ -3,7 +3,9 @@ title: How do I open the PDF Print Preview of a document?
 layout: default
 tags:
   - Usage
+  - Actions
 lang: en
+sequence: 20
 ref: printpreview
 
 ---

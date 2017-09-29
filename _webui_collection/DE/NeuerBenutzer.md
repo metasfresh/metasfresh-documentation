@@ -19,7 +19,7 @@ Du kannst also neue Kontakte erstellen oder bestehenden Kontakten die Anmeldung 
 ### Erstelle einen Kontakt
 1. [Melde Dich an](Anmeldung).
 1. [Gehe ins Menü](Menu) und öffne den Link "Nutzer".
-1. [Lege einen neuen Datensatz an](Neuer_Datensatz_Fenster_Webui).
+1. [Lege einen neuen Nutzer an](Neuer_Datensatz_Fenster_Webui).
 1. Fülle die Felder **Vorname** und **Nachname** aus.
 1. Vergib einen **Suchschlüssel**.
 

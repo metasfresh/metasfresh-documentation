@@ -5,6 +5,7 @@ tags:
   - Benutzung
   - Navigation
 lang: de
+sequence: 20
 ref: viewmodes
 ---
 

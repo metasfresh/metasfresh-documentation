@@ -3,8 +3,9 @@ title: How do I open the Advanced Edit Menu in a tab?
 layout: default
 tags:
   - Usage
+  - Data Input
 lang: en
-sequence: 10
+sequence: 30
 ref: open_advancededittab
 ---
 

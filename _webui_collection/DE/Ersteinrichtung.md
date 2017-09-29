@@ -4,6 +4,7 @@ layout: default
 tags:
   - Einrichtung
 lang: de
+sequence: 20
 ref: initialsetupwizard
 
 ---
