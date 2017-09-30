@@ -3,8 +3,9 @@ title: How do I send an email from the system?
 layout: default
 tags:
   - Usage
+  - Actions
 lang: en
-sequence: 10
+sequence: 50
 ref: send_email_from_system
 ---
 

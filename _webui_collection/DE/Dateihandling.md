@@ -3,7 +3,9 @@ title: Wie kann ich Dateien als Anhänge verwalten?
 layout: default
 tags:
   - Benutzung
+  - Dateneingabe
 lang: de
+sequence: 40
 ref: file_handling
 ---
 

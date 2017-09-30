@@ -10,7 +10,7 @@ ref: dashboard
 
 ## Overview
 
-The metasfresh dashboard loads directly after logon and shows realtime data.
+The metasfresh dashboard loads directly after logon and shows real-time data.
 
 ## Example
 

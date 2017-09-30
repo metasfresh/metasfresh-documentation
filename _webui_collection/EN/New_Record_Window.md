@@ -3,7 +3,9 @@ title: How do I add a new record in a window?
 layout: default
 tags:
   - Usage
+  - Data Input
 lang: en
+sequence: 10
 ref: new_record_window
 ---
 

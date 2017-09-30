@@ -5,7 +5,7 @@ tags:
   - Master Data
   - Currency
 lang: en
-sequence: 1000
+sequence: 20
 ref: currency_rate
 ---
 ## Overview

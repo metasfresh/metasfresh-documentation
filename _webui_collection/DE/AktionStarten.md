@@ -3,7 +3,9 @@ title: Wie starte ich eine Aktion?
 layout: default
 tags:
   - Benutzung
+  - Aktionen
 lang: de
+sequence: 10
 ref: startaction
 
 ---

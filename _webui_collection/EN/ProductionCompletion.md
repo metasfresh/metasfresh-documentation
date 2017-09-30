@@ -40,10 +40,12 @@ This is the easiest way to produce in metasfresh. The produced quantity is simpl
 1. In the field **Quantity CU** enter the completed quantity of the product.
 
 1. In the field **Quantity TU** enter the quantity of the packing units.
-  >Note: The Quantity TU must be **at least 1**.
+ > Note 1: The field **Quantity TU** appears only if **Packing Instructions TU** are available.<br><br>
+ > Note 2: The Quantity TU must be **at least 1**.
 
 1. In the field **Quantity LU** enter the quantity of loading equipment.
- > Note: If you do not require any Quantity LU simply click the ![](assets/DeleteButton_X.png) on the Packing Instructions. This will erase the field.
+ > Note 1: The field **Quantity LU** appears only if **Packing Instructions LU** are available.<br><br>
+ > Note 2: The field **Packing Instructions LU** appears only if **Packing Instructions TU** are available.
 
 1. Click "Start" to save the assignment.
 

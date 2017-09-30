@@ -4,6 +4,7 @@ layout: default
 tags:
   - Setup
 lang: en
+sequence: 30
 ref: change_password
 ---
 

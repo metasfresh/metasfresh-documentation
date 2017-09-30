@@ -19,7 +19,7 @@ You can create new contacts or allow existing contacts to log on to the system b
 ### Create a contact
 1. [Log on](Logon) to the system.
 1. Open "User" from the [menu](Menu).
-1. [Create a new record](New_Record_Window).
+1. [Create a new User](New_Record_Window).
 1. Fill in the fields **Firstname** and **Lastname**.
 1. Enter a **Search Key**.
 

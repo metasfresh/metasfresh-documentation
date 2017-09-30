@@ -5,7 +5,7 @@ tags:
   - Stammdaten
   - Währung
 lang: de
-sequence: 40
+sequence: 30
 ref: activate_currency
 ---
 

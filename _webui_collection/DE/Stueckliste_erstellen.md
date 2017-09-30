@@ -5,7 +5,7 @@ tags:
   - Stammdaten
   - Produkt
 lang: de
-sequence: 10
+sequence: 30
 ref: create_bom
 ---
 

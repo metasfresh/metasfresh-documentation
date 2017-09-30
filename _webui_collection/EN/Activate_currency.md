@@ -5,7 +5,7 @@ tags:
   - Master Data
   - Currency
 lang: en
-sequence: 40
+sequence: 30
 ref: activate_currency
 ---
 

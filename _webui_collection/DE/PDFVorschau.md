@@ -3,7 +3,9 @@ title: Wie öffne ich die PDF-Druckvorschau eines Belegs?
 layout: default
 tags:
   - Benutzung
+  - Aktionen
 lang: de
+sequence: 20
 ref: printpreview
 
 ---

@@ -4,7 +4,7 @@ layout: default
 tags:
   - Benutzung
 lang: de
-sequence: 30
+sequence: 20
 ref: saveindicator
 ---
 

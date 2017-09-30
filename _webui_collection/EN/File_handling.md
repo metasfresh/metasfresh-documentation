@@ -3,7 +3,9 @@ title: How do I add files as attachments to my records?
 layout: default
 tags:
   - Usage
+  - Data Input
 lang: en
+sequence: 40
 ref: file_handling
 ---
 

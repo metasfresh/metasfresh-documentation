@@ -6,6 +6,7 @@ tags:
   - Verkauf
   - CRM
 lang: de
+sequence: 30
 ref: crm_request_opportunities
 ---
 

@@ -3,12 +3,14 @@ title: How do I complete a document?
 layout: default
 tags:
   - Usage
+  - Data Input
 lang: en
+sequence: 50
 ref: documentprocessingcomplete
 
 ---
 ## Overview
-Documents are saved automatically by metasfresh. However, they will not be processed unless their status is set to "complete".
+Documents are [saved automatically by metasfresh](Saveindicator). However, they will not be processed unless their status is set to "complete".
 
 ### Keyboard shortcut
 Press `Ctrl + U` to set the status to "complete".

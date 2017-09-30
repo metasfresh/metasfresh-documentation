@@ -5,7 +5,7 @@ tags:
   - Setup
   - User and Roles
 lang: en
-sequence: 10
+sequence: 20
 ref: newuserroll
 ---
 
