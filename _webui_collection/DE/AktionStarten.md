@@ -14,7 +14,7 @@ Aktionen sind kontextabhängig und können von jedem Fenster aus gestartet werde
 
 ## Schritte
 
-1. Klicke auf ![](assets/Neuen_Datensatz_Webui-4273e.png) oder drücke `Strg + 1`, um das Aktionsmenü zu öffnen.
+1. Klicke auf ![](assets/actionsmenu_WebUI.png) oder drücke `Strg + 1`, um das Aktionsmenü zu öffnen.
 1. Klicke die gewünschte Aktion an.
 <br>
 
