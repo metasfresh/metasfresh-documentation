@@ -17,7 +17,7 @@ ref: new_business_partner
 
 1. Select a **Business Partner Group**, e.g. "Machine Supplier".
 1. Select the partner’s preferred language for communication.
-1. [Add one or more addresses](add_address_tab).
+1. [Add one or more addresses](Add_address_tab).
 
 ## Example
 

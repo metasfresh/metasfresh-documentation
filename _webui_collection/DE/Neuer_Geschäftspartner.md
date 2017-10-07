@@ -17,7 +17,7 @@ ref: new_business_partner
 
 1. Wähle eine **Geschäftspartnergruppe** aus, z.B. "Maschinenlieferant".
 1. Wähle die bevorzugte Kommunikationssprache des Partners aus.
-1. [Füge eine oder mehrere Adressen hinzu](Adresse_erfassen).
+1. [Füge eine oder mehrere Adressen hinzu](Adresse_erfassen_Tab).
 
 ## Beispiel
 
