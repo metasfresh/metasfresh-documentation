@@ -14,7 +14,7 @@ Actions are contextual and can be started from every window. Each window therefo
 
 ## Steps
 
-1. Click on ![](assets/Neuen_Datensatz_Webui-4273e.png) or press `Ctrl + 1` to open the action menu.
+1. Click on ![](assets/actionsmenu_WebUI.png) or press `Ctrl + 1` to open the actions menu.
 1. Click on the desired action.
 <br>
 

@@ -14,7 +14,7 @@ ref: printpreview
 Press `Ctrl + P` to open the print preview.
 
 ## With the mouse
-Click ![](assets/Neuen_Datensatz_Webui-4273e.png) and then select "Print".
+Click ![](assets/actionsmenu_WebUI.png) and then select "Print".
 
  > Note: You will need a PDF Viewer to open the file.
 <br>

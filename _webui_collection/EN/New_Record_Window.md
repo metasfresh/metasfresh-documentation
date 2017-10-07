@@ -14,7 +14,7 @@ ref: new_record_window
 Press `Ctrl + M`.
 
 ## With the mouse
-Click ![](assets/Neuen_Datensatz_Webui-4273e.png) and then "New".
+Click ![](assets/actionsmenu_WebUI.png) and then "New".
 <br>
 
 ## Example
