@@ -15,6 +15,9 @@ Erstelle eine CSV Datei und achte dabei besonders auf Folgendes:
    *Hinweis:* metasfresh erwartet keine Spaltennamen in der CSV Datei. Alleine die Position des Feldes muss mit der **startno** übereinstimmmen.
 
 - Das Encoding der Datei muss mit der Auswahl im Fenster "Ladeprogramm für Import-Datei" übereinstimmen. Zum Beispiel "Win-1252".
-- Wenn Du eine Tabellenkalkulationssoftare zum Erstellen der CSV-Datei verwendest, wähle als Speicherformat "Textdatei (Tabstop-getrennt)(*.txt)" aus.
 - Spalten dürfen leer sein insofern es sich nicht um Pflichtfelder (siehe [Liste mit Pflichtfelder](Welche_Felder_kann_ich_importieren)) handelt. 
 
+
+## Tips für Tabellenkalkulation
+- Wenn Du eine Tabellenkalkulationssoftare zum Erstellen der CSV-Datei verwendest, wähle als Speicherformat "Textdatei (Tabstop-getrennt)(*.txt)" aus.
+- Stelle sicher dass es keine Zeilenumbrüche gibt. Dafür einfach mit Taste ALT die Zahlen 010 im Suchfeld eingaben und Alle suchen

@@ -1,17 +1,23 @@
 ---
-title: Wie lege ich einen neuen Datensatz in einem Fenster an ?
+title: Wie lege ich einen neuen Datensatz in einem Fenster an?
 layout: default
 tags:
   - Benutzung
+  - Dateneingabe
 lang: de
+sequence: 10
+ref: new_record_window
 ---
 
 
-## Schritte
+## Mit der Tastatur
+Drücke die Tastenkombination `Strg + M`.
 
-1. Klicke auf ![](assets/Neuen_Datensatz_Webui-4273e.png)
-und dann auf "New"
+## Mit der Maus
+Klicke auf ![](assets/actionsmenu_WebUI.png)
+und dann auf "New".
+<br>
 
- oder die direkte Tastenkombination: `Strg + M`
+## Beispiel
 
- ![](assets/Neuen_Datensatz_Webui-00b0d.png)
+ ![](assets/neuerdatensatzfenster.gif)

@@ -1,16 +1,28 @@
 ---
-title: Wie kann ich Dateien als Anhänge verwalten ?
+title: Wie kann ich Dateien als Anhänge verwalten?
 layout: default
 tags:
   - Benutzung
+  - Dateneingabe
 lang: de
+sequence: 40
+ref: file_handling
 ---
 
-## Upload
+## Schritte
 
-Hier siehst Du wie:
-1. zwei Dateien zuerst hochgeladen werden
-2. eine Datei angeschaut wird
-3. zwei Dateien wieder gelöscht werden
+### Upload
+1. Zum Hochladen, ziehe Deine Dateien per *Drag and Drop* auf die metasfresh-Oberfläche (siehe Beispiel).
+1. Die Dateien werden zusammen mit dem Beleg gespeichert, den Du beim Ablegen der Dateien geöffnet hast.
+1. Um die angehängten Dateien zu sehen, [springe über die Sidebar](SpringezuBelegen) zur Anhangliste ![](assets/Attachment_clip.png).
+1. Du kannst pro Beleg so viele Dateien hochladen wie Du benötigst.
 
-<iframe src="https://player.vimeo.com/video/206217826" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+### Download
+Zum Herunterladen, drücke `Ctrl + 7`, um zur Anhangliste zu [springen](SpringezuBelegen) und klicke einfach auf die Datei, die Du herunterladen möchtest (siehe Beispiel).
+
+### Löschen
+Zum Löschen, drücke `Ctrl + 7`, um zur Anhangliste zu [springen](SpringezuBelegen) und klicke einfach auf das kleine Löschsymbol ![](assets/delete_icon.png) neben der Datei, die Du löschen möchtest (siehe Beispiel).
+
+## Beispiel
+
+![](assets/Dateihandling_walkthrough.gif)

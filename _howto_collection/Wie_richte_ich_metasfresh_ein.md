@@ -18,7 +18,7 @@ Feld|Beschreibung
 ---|---
 Firmenname	| Dieser Name wird für den Namen des Mandanten, der Organisation und zum Andruck auf Belegen verwendet.
 Anschrift|	Erscheint auf Belegen wie Auftragsbestätigung, Rechnung, etc.
-Logo	| Erscheint auf Belegen. Zum Hochladen auf das leere Feld klicken, Datei auswählen klicken, .png oder .jpg-Datei Datei auswählen, mit OK bestätigen
+Logo	| Erscheint auf Belegen. Zum Hochladen auf das leere Feld klicken, Datei auswählen klicken, .png oder .jpg-Datei Datei auswählen, mit OK bestätigen. **Hinweis** Das Logo sollte nicht größer als 200x200 pixel sein.
 Sprache|Bestimmt die Sprache und das Standardland beim hinzufügen von Adressen. Beispiel: Bei "Deutsch (Deutschland)" steht bei einer neuen Adresse standardmäßig Deutschland als Land im Feld.
 Währung | Bestimmt die Systemwährung.
 Umsatzsteuer-ID	| Erscheint auf Belegen wie Auftragsbestätigung, Rechnung, etc.
