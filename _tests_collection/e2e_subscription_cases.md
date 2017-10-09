@@ -1,7 +1,6 @@
 ---
 title: end to end subscription cases
 required data:
-   bpartner: Testkunde
 layout: default
 tags:
   - e2e
