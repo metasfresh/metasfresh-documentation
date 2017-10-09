@@ -1,25 +1,21 @@
 ---
-title: How do I see if my changes were saved?
+title: How do I see if my changes were saved ?
 layout: default
 tags:
   - Usage
 lang: en
-sequence: 20
-ref: saveindicator
 ---
 
 ## Overview
 
-metasfresh always saves automatically every time changes are made.
+metasfresh saves all changes automatically as soon something has changed.
 
-The color of the progress bar below the menu shows the respective status of the save progress.
-
-| Color      | Explanation    |
+| Colour      | Explaination    |
 | :------------- | :------------- |
 | grey       | trying to save        |
 | green | successfully saved |
 | red | error while trying to save
 
-## Example
+## Video
 
 ![](../DE/assets/saveindicator2.gif)

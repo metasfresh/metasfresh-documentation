@@ -1,20 +1,19 @@
 ---
-title: How do I find the WebUI version number?
+title: How do I find the WebUI version number ?
 layout: default
 tags:
   - System Administration
 lang: en
-ref: how_do_I_find_webui_version_number
 ---
 
-Open this URL in your web browser:
+Open this URL in your webbrowser:
 
 `http://<your-server-name>/info`
 
-The server will answer with a JSON String, which looks like this:
+the answer is a JSON String which looks like this:
 
 ```
-{"build":{"name":"metasfresh-webui-api","time":1504872684000,"version":"5.26.1-5415+master","jenkinsJobName":"metasfresh-webui/master","jenkinsBuildNo":"5415","group":"de.metas.ui.web","jenkinsBuildTag":"jenkins-metasfresh-webui-master-5415","artifact":"metasfresh-webui-api","jenkinsBuildUrl":"https://jenkins.metasfresh.com/job/metasfresh-webui/job/master/5415/"}}
+{"build":{"ciBuildNo":"379","ciBuildTag":"jenkins-metasfresh-webui-379","ciBuildUrl":"https://jenkins.metasfresh.com/job/metasfresh-webui/job/379/","ciJobName":"metasfresh-webui/FRESH-112"}}
 ```
 
-You will find the version number after `"version":`. In this case it is the version `5.26.1`.
+You find the version number after `"ciBuildNo":`. In this case its `379`.

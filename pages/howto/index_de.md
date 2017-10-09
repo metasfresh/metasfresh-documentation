@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Java Client Kurzanleitungen
+title: Kurzanleitungen
 lang: de
 ---
 

@@ -1,22 +1,18 @@
 ---
-title: How do I jump to the content of a field?
+title: How can I jump to the content of a field ?
 layout: default
 tags:
   - Usage
   - Navigation
 lang: en
-sequence: 40
-ref: jumpto
 ---
 
 ## Jumping via field
 
-1. Hover with your mouse cursor over the name of the field you want to review or edit the content of, e.g. "Business Partner" in the Sales Order window.
-1. If the field name gets underlined, simply click on it.
-1. A new tab opens up showing you the field's detailed content.
+1. Hover with your mouse over the field name which content you want to review or edit
+1. If the field gets underlinded just simply click on it
+1. a new tab opens showing you the detail content
 
-**Important**: You might need to disable your pop-up blocker to make this feature work.
-
-## Example
+**Important**: You might need to disable your popup blocker to make this feature work.
 
 ![](assets/jumpto.gif)

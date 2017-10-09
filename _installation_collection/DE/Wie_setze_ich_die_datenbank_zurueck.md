@@ -1,19 +1,18 @@
 ---
-title: Wie setze ich mittels Docker die Datenbank in den Ursprungszustand zurück?
+title: Wie versetze ich die Datenbank in den Auslieferungszustand?
 layout: default
 tags:  
   - Docker
   - Wartung
 lang: de
-ref: how_do_I_reset_database_using_docker
 ---
 ## Übersicht
 
-In manchen Fällen hilft es, die Datenbank auf ihren Ursprungszustand zurückzusetzen, wenn Du in deiner Testumgebung nicht mehr weiterkommst. Hier siehst Du, wie dies geht.
+In manchen Fällen möchtest du die Datenbank auf ihren Ursprungszustand zurücksetzen. Die folgenden Schritte zeigen dir wie.
 
->**VORSICHT**: ALLE DATEN WERDEN GELÖSCHT, wenn Du sie nicht vorher [gesichert](Wie_sichere_ich_metasfresh_docker) hast!
+**VORSICHT**: ALLE DATEN WERDEN GELÖSCHT, wenn du sie nicht [gesichert](Wie_sichere_ich_metasfresh_docker) hast!
 
-## Datenbank löschen / zurücksetzen
+## Datenbank löschen / Reset
 
 ```
 docker-compose stop

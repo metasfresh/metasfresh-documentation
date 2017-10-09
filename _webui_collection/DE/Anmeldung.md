@@ -1,21 +1,18 @@
 ---
-title: Wie melde ich mich an?
+title: Wie melde ich mich an ?
 layout: default
 tags:
   - Benutzung
 lang: de
 sequence: 10
-ref: logon
 ---
 
 ## Schritte
 
-1. Öffne in Deinem Internetbrowser die URL von metasfresh, z.B. http://dockerhost.
-1. Melde Dich mit dem Benutzernamen _metasfresh_ und dem Passwort _metasfresh_ an.
+1. Öffne in Deinem Browser die URL von metasfresh. z.B. http://dockerhost
+1. Melde Dich mit "metasfresh" und Passwort "metasfresh" an (ohne die "")
+1. Wähle die Rolle "WebUI" aus
 
+## Video
 
- > **Wichtig**: Beim Benutzernamen die Groß- und Kleinschreibung beachten!
-
-
-## Beispiel
 ![](assets/login.gif)

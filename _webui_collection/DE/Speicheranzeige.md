@@ -1,18 +1,14 @@
 ---
-title: Wie sehe ich, dass gespeichert wurde?
+title: Wie sehe ich das gespeichert wurde ?
 layout: default
 tags:
   - Benutzung
 lang: de
-sequence: 20
-ref: saveindicator
 ---
 
 ## Übersicht
 
-metasfresh speichert prinzipiell überall vollautomatisch in dem Moment, wo sich Daten geändert haben.
-
-An der Farbe des Fortschrittsbalkens unterhalb der Menüleiste erkennst Du den jeweiligen Status des Speichervorgangs.
+metasfresh speichert prinzipiell überall vollautomatisch in dem Moment wo sich Daten geändert haben.
 
 | Farbanzeige     | Aussage    |
 | :------------- | :------------- |
@@ -20,6 +16,6 @@ An der Farbe des Fortschrittsbalkens unterhalb der Menüleiste erkennst Du den j
 | grün |  erfolgreich gespeichert|
 | rot | aufgrund eines Fehlers nicht gespeichert
 
-## Beispiel
+## Video
 
 ![](assets/saveindicator2.gif)

@@ -18,7 +18,7 @@ lang: de
 1. backup des gesamten docker-workspaces
 1. Löschen der images app webui und webapi vom host
 1. neue dockerfiles und configs von github ziehen
-1. `docker-compose.yml` anpassen
+1. config.js anpassen
 1. images app webui und webapi auf dem host neu bauen lassen
 1. docker-container starten
 
@@ -27,10 +27,10 @@ lang: de
 
 ```
 docker-compose stop
-tar cvzf ../backup.tar.gz ./<mydocker fir>/*
+tar cvzf ../backup.tar.gz ./<mydocker fir>/* 
 docker-compose rm
 git pull
-vi ./webui/sources/configs/docker-compose.yml
+vi ./webui/sources/configs/config.js
 docker-compose build
 docker-compose up -d
 ```

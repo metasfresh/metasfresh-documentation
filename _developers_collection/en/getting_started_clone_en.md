@@ -23,5 +23,5 @@ The projects to clone are
 * [https://github.com/metasfresh/metasfresh-dist](https://github.com/metasfresh/metasfresh-dist)
 
 
-As a sidenote: we recommend that you clone all the metasfresh repos to the same location.
+As a sidenote: we recomment that you clone all the metasfresh repos to the same location.
 For this documentation, i'm using `C:\developement\repos`, so the individual repos' working copies are located at be `C:\developement\repos\metasfresh` and `C:\developement\repos\metasfres-parent` etc.

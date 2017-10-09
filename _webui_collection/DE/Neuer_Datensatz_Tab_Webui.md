@@ -1,18 +1,14 @@
 ---
-title: Wie lege ich einen neuen Datensatz unter einer Registerkarte an?
+title: Wie lege ich einen neuen Datensatz in einem Tab?
 layout: default
 tags:
   - Benutzung
-  - Dateneingabe
 lang: de
-sequence: 20
-ref: new_record_tab
 ---
+
 
 ## Schritte
 
-Klicke einfach auf "Neu hinzufügen".
+1. Klicke auf "Add new"
 
-## Beispiel
-
- ![](assets/neuerdatensatztab.gif)
+ ![](assets/Neuer_Datensatz_Tab_Webui-dce73.png)

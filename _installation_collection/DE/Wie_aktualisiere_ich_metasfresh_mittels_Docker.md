@@ -5,23 +5,21 @@ tags:
   - Docker
   - Update
 lang: de
-sequence: 10
-ref: how_do_I_update_metasfresh_using_docker
 ---
 
 ## Voraussetzung
 
-Du benötigst ein [laufendes metasfresh System auf Docker-Basis](Wie_installiere_ich_den_metasfresh_Stack_mit_Docker).
+[Laufendes metasfresh System auf Docker basis](Wie_installiere_ich_den_metasfresh_Stack_mit_Docker)
 
-## Versionsupdate mittels Docker
+## Schritte für Versionsupdate
 
-1. Stoppe alle Docker Container.
-1. Erstelle ein Backup des gesamten Docker Workspace.
-1. Lösche die Images **app**, **webui** und **webapi** des Hosts.
-1. Ziehe dir die neuen Dockerfiles und Configs von github.
-1. Ändere den Hostnamen zu `docker-compose.yml` um.
-1. Lasse die neuen Images auf dem Host bauen.
-1. Starte die Docker Container.
+1. Alle docker-container stoppen
+1. Backup des gesamten docker-workspaces
+1. Löschen der images app webui und webapi vom host
+1. Neue dockerfiles und configs von github ziehen
+1. config.js anpassen
+1. Images auf dem host neu bauen lassen
+1. docker-container starten
 
 
 ## Beispiel
@@ -32,7 +30,7 @@ docker-compose stop
 tar cvzf ../backup.tar.gz ./<mydocker fir>/* --BACKUP
 docker-compose rm
 git pull
-vi ./docker-compose.yml
+vi ./webui/sources/configs/config.js
 docker-compose build
 docker-compose up -d
 ```

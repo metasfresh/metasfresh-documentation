@@ -2,16 +2,15 @@
 title: Dashboard
 layout: default
 tags:
-  - Funktionen
+  - Referenz
 lang: de
 sequence: 20
-ref: dashboard
 ---
 
 ## Übersicht
 
-Das Dashboard von metasfresh ist eine Übersichtsseite, die automatisch nach der Anmeldung lädt und dynamische Daten in Echtzeit zeigt.
+Das Dashboard von metasfresh läd automatisch nach der Anmeldung und zeigt dynamische Daten in Echtzeit.
 
-## Beispiel
+## Video
 
 ![](assets/dynamicdashboard.gif)
