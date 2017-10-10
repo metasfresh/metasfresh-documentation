@@ -1,14 +1,18 @@
 ---
-title: How do I add a new record for a tab?
+title: How do I add a new record under a tab?
 layout: default
 tags:
   - Usage
+  - Data Input
 lang: en
+sequence: 20
+ref: new_record_tab
 ---
-
 
 ## Steps
 
-1. Klicke auf "Add new"
+Simply click "Add new".
 
- ![](assets/Neuer_Datensatz_Tab_Webui-dce73.png)
+## Example
+
+ ![](assets/New_Record_Tab.gif)

@@ -4,8 +4,8 @@ layout: default
 ---
 
 ### Users
-- User Manual [(EN)](pages/webui/index_en) [(DE)](pages/webui/index_de)
-- General [(EN)](pages/howto/index_en) [(DE)](pages/howto/index_de)
+- User Manual (WebUI) [(EN)](pages/webui/index_en) [(DE)](pages/webui/index_de)
+- Legacy Java Client [(EN)](pages/howto/index_en) [(DE)](pages/howto/index_de)
 
 ### Admins
 - Installation [(EN)](pages/installation/index_en)  [(DE)](pages/installation/index_de)
@@ -13,17 +13,17 @@ layout: default
 
 ### Developers
   - [The metasfresh source code at github](https://github.com/metasfresh/metasfresh)
-  - [Information for developers](pages/developers/index_en)
+  - [developing code](pages/developers/index_en)
   - [buildsystem overview](pages/infrastructure/ci_en): how the maven-based buildsystem works locally as well a on our CI-server
   - Javadocs [for the "main" body of code](http://metasfresh.com/javadoc/metasfresh-master/) and [for the esb bundles](http://metasfresh.com/javadoc/metasfresh-esb-master/)
   - [The metasfresh gitter chat](https://gitter.im/metasfresh/metasfresh)
   - Customizing App Dictionary [(EN)](pages/appdictionary/index_en) [(DE)](pages/appdictionary/index_de)
-
-### Testers
-  - [Test Documentation](pages/tests/index_en)
-
-### Documentation Contributors  
-- [StyleGuide](https://github.com/metasfresh/metasfresh-documentation/blob/master/StyleGuide.md)
+  - Testing
+    - [Test Documentation](pages/tests/index_en)
+  - writing docs
+    - [How to get started](http://docs.metasfresh.org/howto_collection/EN/how_to_get_started_with_translating_docs.html)
+    
+    
 
 ### How to get in contact
 

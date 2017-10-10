@@ -59,7 +59,7 @@ This Packages automatically scrolls the markdown preview to the position of your
 1. search for "markdown-scroll-sync"
 1. click on "install"
 
-## Markdown Snippets
+## Format Snippets
 
 type the trigger and then press `TAB`
 
@@ -72,27 +72,12 @@ type the trigger and then press `TAB`
 |l|	link|
 |table|	table|
 
-You can add more snippets by going to **Menu** => **file** => **Snippets...**
 
-add example:
-```
-'.source.gfm':
-  'Logon':
-    'prefix': 'logon'
-    'body': '[Logon](Logon)'
-  'window':
-    'prefix': 'window'
-    'body': '[Open window](Menu)'
-  'New_Record_Window':
-    'prefix': 'New_Record_Window'
-    'body': 'Create [new record](New_Record_Window)'
-  'New_Record_Tab':
-    'prefix': 'New_Record_Tab'
-    'body': '[add a new record](New_Record_Tab)'
-  'note':
-    'prefix': 'note'
-    'body': '> Note:'
-```
+## Text Snippets
+You can edit snippets by going to **Menu** => **file** => **Snippets...**
+
+here you find the [latest snippets:](
+https://github.com/metasfresh/metasfresh-documentation/blob/gh-pages/ressources/snippets.cson)
 
 ## Shortcuts
 
