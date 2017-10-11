@@ -19,10 +19,9 @@ Stelle sicher, dass Du diejenigen Produkte, die Du bei der Produktion verbrauchs
 [Hier](Zu_Bestellung_Wareneingang_erstellen) kannst Du nachlesen, wie Du einen Wareneingang erstellst.
 
 ## Schritte
-1. Lege einen [neuen Produktionsauftrag](NeuerProduktionsauftrag) an.
-1. Wähle den Produktionsauftrag in der [Listenansicht](Ansichten) unter "[Produktionsaufträge](Menu)" aus.
+1. Öffne einen [fertigen Produktionsauftrag](NeuerProduktionsauftrag) an.
 1. [Starte die Aktion](AktionStarten) "Produzieren". Es öffnet sich das Produktionsfenster.
- > Hinweis: Hast Du den Produktionsauftrag in der Listenansicht ausgewählt, kannst du ebenfalls über den Aktionsbutton oben rechts die Aktion ![](assets/Actionbutton_Produzieren.png) starten.
+ > Hinweis: Hast Du den Produktionsauftrag in der Listenansicht ausgewählt, kannst du ebenfalls über den [Quick-Actions](AktionStarten)-Button oben rechts die Aktion ![](assets/Actionbutton_Produzieren.png) starten.
 
 ### 1. Produkt herstellen, ohne Material zu verbrauchen
 Dies ist die einfachste Möglichkeit in metasfresh zu produzieren. Hierbei wird die produzierte Menge einfach zugebucht, ohne die benötigten Produkte aus der Stückliste abzubuchen.
@@ -31,9 +30,9 @@ Dies ist die einfachste Möglichkeit in metasfresh zu produzieren. Hierbei wird 
 1. Klicke im Produktionsfenster das Produkt an, welches Du herstellen möchtest, z.B. "Karotten gestückelt".
  ![](assets/ProduktionFertigstellung_Produktionsfenster.png)
 
-1. Wähle über den Aktionsbutton "empfangen" aus.<br>
+1. Wähle über den Quick-Actions-Button "empfangen" aus.<br>
  ![](assets/ProduktionFertigstellung_empfangen_1.png)<br>
- > Hinweis: Wurde dem Produkt eine Gebindekonfiguration zugewiesen, erscheint diese auf dem Aktionsbutton anstelle von "empfangen".
+ > Hinweis: Wurde dem Produkt eine Gebindekonfiguration zugewiesen, erscheint diese auf dem Quick-Actions-Button anstelle von "empfangen".
   ![](assets/ProduktionFertigstellung_empfangen_2.png)
 
 1. Es öffnet sich ein neues Fenster.
@@ -54,7 +53,7 @@ Dies ist die einfachste Möglichkeit in metasfresh zu produzieren. Hierbei wird 
 1. Nach erfolgreicher Zuordnung siehst Du die zugeordneten Produkte unterhalb des herzustellenden Produktes:
  ![](assets/ProduktionFertigstellung-a5222.png)
 
-1. Wähle über den Aktionsbutton "Status: Planning complete" aus, um die Materialbuchungen vorzunehmen. Dadurch werden die Zeilen schreibgeschützt:
+1. Wähle über den Quick-Actions-Button "Status: Planning complete" aus, um die Materialbuchungen vorzunehmen. Dadurch werden die Zeilen schreibgeschützt:
  ![](assets/ProduktionFertigstellung-ed689.png)
 
 1. Klicke auf "Bestätigen", um das Fenster zu schließen.
@@ -68,7 +67,7 @@ Hierbei werden die für die Produktion benötigten Produkte aus der Stückliste 
 1. Klicke im Produktionsfenster die Komponente (**CO**) an, welche Du aus der Stückliste abbuchen möchtest, z.B. "Karotten ungewaschen".
  ![](assets/ProduktionFertigstellung_Materialverbrauch.png)
 
-1. Wähle über den Aktionsbutton "hinzufügen" aus.<br>
+1. Wähle über den Quick-Actions-Button "hinzufügen" aus.<br>
  ![](assets/ProduktionFertigstellung_hinzufügen.png)
 
 1. Es öffnet sich eine Übersicht mit den passenden Handhabungseinheiten (Handling Unit - HU) vom Lager.
@@ -76,11 +75,11 @@ Hierbei werden die für die Produktion benötigten Produkte aus der Stückliste 
 
 1. Wähle die HU aus, welche für die Produktion verbraucht werden soll.
 
-1. Wähle über den Aktionsbutton nochmals "hinzufügen" aus.
+1. Wähle über den Quick-Actions-Button nochmals "hinzufügen" aus.
 
 1. Nach erfolgreicher Abbuchung siehst Du die abgebuchten Produkte unterhalb der Komponente.
 ![](assets/ProduktionFertigstellung_Abbuchung.png)
- > Hinweis: Möchtest Du die Abbuchung rückgängig machen, wähle einfach die hinzugefügte HU aus, gehe zum Aktionsbutton und klicke auf ![](assets/Actionbutton_Rückgängig.png).
+ > Hinweis: Möchtest Du die Abbuchung rückgängig machen, wähle einfach die hinzugefügte HU aus, gehe zum Quick-Actions-Button und klicke auf ![](assets/Actionbutton_Rückgängig.png).
 
 1. Klicke auf "Bestätigen", um das Fenster zu schließen.
 
