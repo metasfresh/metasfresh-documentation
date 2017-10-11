@@ -5,6 +5,7 @@ tags:
   - Beginner's Guide
 
 lang: en
+sequence: 10
 ref: quickstart
 ---
 

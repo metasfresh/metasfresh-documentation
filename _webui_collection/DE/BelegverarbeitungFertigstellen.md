@@ -17,7 +17,7 @@ Drücke die Tastenkombination `Strg + U`, um auf den Status auf "Fertiggestellt"
 
 ### Mit der Maus
 
-Klicke auf den Button für die Belegverarbeitung (`Ctrl + I`) oben rechts im Fenster und wähle dort "Fertigstellen" aus.<br>
+Klicke auf den Button für die [Belegverarbeitung](AktionStarten) (`Ctrl + I`) oben rechts im Fenster und wähle dort "Fertigstellen" aus.<br>
 
 ## Beispiel
 
