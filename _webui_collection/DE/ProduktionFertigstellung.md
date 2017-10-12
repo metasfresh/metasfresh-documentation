@@ -19,7 +19,7 @@ Stelle sicher, dass Du diejenigen Produkte, die Du bei der Produktion verbrauchs
 [Hier](Zu_Bestellung_Wareneingang_erstellen) kannst Du nachlesen, wie Du einen Wareneingang erstellst.
 
 ## Schritte
-1. Öffne einen [fertigen Produktionsauftrag](NeuerProduktionsauftrag) an.
+1. Öffne einen [fertigen Produktionsauftrag](NeuerProduktionsauftrag).
 1. [Starte die Aktion](AktionStarten) "Produzieren". Es öffnet sich das Produktionsfenster.
  > Hinweis: Hast Du den Produktionsauftrag in der Listenansicht ausgewählt, kannst du ebenfalls über den [Quick-Actions](AktionStarten)-Button oben rechts die Aktion ![](assets/Actionbutton_Produzieren.png) starten.
 
