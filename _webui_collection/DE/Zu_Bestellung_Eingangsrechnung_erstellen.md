@@ -18,8 +18,7 @@ ref: createpurchaseinvoice
 1. Bestätige mit "Start".
 1. Du erhältst oben rechts eine Benachrichtigung ![](assets/NotificationBell_WebUI.png), sobald die Rechnung erstellt ist.
 1. Folge dem Link in der Benachrichtigung, um den Rechnungsbeleg zu öffnen.
-1. [Öffne die PDF-Version](PDFVorschau) des Belegs, um ihn auszudrucken.<br>
+1. [Öffne die PDF-Version](PDFVorschau) des Belegs, um ihn auszudrucken.
 
-## Video
-
-<iframe src="https://player.vimeo.com/video/207000167" width="640" height="325" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+## Beispiel
+![](assets/Zu_Bestellung_Eingangsrechnung_erstellen.gif)
