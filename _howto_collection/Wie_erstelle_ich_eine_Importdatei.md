@@ -15,6 +15,9 @@ Erstelle eine CSV Datei und achte dabei besonders auf Folgendes:
    *Hinweis:* metasfresh erwartet keine Spaltennamen in der CSV Datei. Alleine die Position des Feldes muss mit der **startno** übereinstimmmen.
 
 - Das Encoding der Datei muss mit der Auswahl im Fenster "Ladeprogramm für Import-Datei" übereinstimmen. Zum Beispiel "Win-1252".
+
+*Hinweis:* Wenn Du UTF8 verwenden möchtest, verwende im Texteditor zum encoden "UTF8 without BOM" anstelle von "UTF8"
+
 - Spalten dürfen leer sein insofern es sich nicht um Pflichtfelder (siehe [Liste mit Pflichtfelder](Welche_Felder_kann_ich_importieren)) handelt. 
 
 
