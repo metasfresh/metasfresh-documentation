@@ -16,7 +16,7 @@ Cloning works with all Master Data and documents such as Sales Order, Purchase O
 
 ## Steps
 1. Use the [menu](Menu) to navigate to the record you want to clone (e.g. a Sales Order) and open it.
-1. Go to the [actions menu](StartAction) and click on the feature "Clone".
+1. Go to the actions menu (`Ctrl + 1`) and [start the action](StartAction) "Clone".
 1. The entire cloned record will open up in a new window.
  >Note 1: Except for variable data, such as serial numbers or search keys (product numbers, document numbers, etc.), all records are cloned unchanged.<br><br>
  >Note 2: Completed documents, such as Sales Orders, are cloned as drafts so they can be modified if necessary, and then have to be completed manually again.
