@@ -13,19 +13,19 @@ ref: startaction
 Actions are contextual and can be started from every window. Each window therefore provides other actions.<br>
 In metasfresh there are three different types of actions:
 
-### Common Actions (Actions Menu)
+## Common Actions (Actions Menu)
 You will find these actions in the Actions Menu.
 
-## Steps
+### Steps
 1. Click on ![](assets/actionsmenu_WebUI.png) or press `Ctrl + 1` to open the actions menu.
 1. Click on the desired action.
 
-## Example
+### Example
 ![](assets/StartAction_walkthrough.gif)
 
 ---
 
-### Document Processing Actions
+## Document Processing Actions
 You will find these actions in documents, such as [Sales Orders](SalesOrder_recording), [Purchase Orders](CreatePurchaseOrder) or [Manufacturing Orders](NewManufacturingOrder). You can use them to configure the document statuses.<br>
 ![](assets/Menu_DocumentProcessingActions.png)
 
@@ -35,7 +35,7 @@ You will find these actions in documents, such as [Sales Orders](SalesOrder_reco
 
 ---
 
-### Quick Actions
+## Quick Actions
 You will find Quick Actions for processes, such as [Creating Goods Receipts](CreateGoodsReceipt), [Order Picking](Howto_use_Picking_Terminal), [Product Manufacturing](ProductionCompletion)  etc. You can identify them by the big ![](assets/Quick-Actions-Button.png) at the top right of the window.
 
 ### Steps
