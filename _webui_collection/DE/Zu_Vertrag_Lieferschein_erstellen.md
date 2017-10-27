@@ -5,7 +5,7 @@ tags:
   - Workflow
   - Vertragsverwaltung
 lang: de
-sequence: 30
+sequence: 40
 ref: shipment_contract
 ---
 

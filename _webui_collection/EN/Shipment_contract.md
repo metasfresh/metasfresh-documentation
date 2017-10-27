@@ -5,7 +5,7 @@ tags:
   - Workflow
   - Contract Management
 lang: en
-sequence: 30
+sequence: 40
 ref: shipment_contract
 ---
 

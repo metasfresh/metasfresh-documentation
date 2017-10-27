@@ -5,7 +5,7 @@ tags:
   - Workflow
   - Vertragsverwaltung
 lang: de
-sequence:
+sequence: 30
 ref: contract_pause
 ---
 
