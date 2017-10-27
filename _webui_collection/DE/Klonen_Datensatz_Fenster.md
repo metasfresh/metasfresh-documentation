@@ -15,7 +15,7 @@ Das Klonen funktioniert bei allen Stammdaten und Belegen wie Auftrag, Bestellung
 
 ## Schritte
 1. Gehe über das [Menü](Menu) zu dem Datensatz, den Du klonen möchtest (z.B. einem Auftrag), und öffne ihn.
-1. Gehe in das Aktionsmenü (`Strg + 1`) und [starte die Aktion](AktionStarten) "Clone".
+1. [Starte die Aktion](AktionStarten) "Clone".
 1. Der gesamte geklonte Datensatz wird in einem neuen Fenster geöffnet.
  >Hinweis 1: Bis auf variable Daten, wie z.B. laufende Nummern oder Suchschlüssel (Artikelnummern, Belegnummern usw.), werden alle Datensätze unverändert geklont.<br><br>
  >Hinweis 2: Fertiggestellte Dokumente, wie z.B. Aufträge, werden als Entwurf geklont, um sie ggf. bearbeiten zu können, und müssen anschließend wieder manuell fertiggestellt werden.

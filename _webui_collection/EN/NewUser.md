@@ -30,7 +30,7 @@ You can create new contacts or allow existing contacts to log on to the system b
   > Note 2: The username is **case-sensitive**!
 
 ### Set a Password
-1. Go to the actions menu (`Ctrl + 1`) and [start the action](StartAction) "Change Password". A new window opens up.
+1. [Start the action](StartAction) "Change Password". A new window opens up.
 1. Enter a **New Password** with at least 8 characters.
  >Note 1: An **Old Password** is not required if a new user is created.<br><br>
  > Note 2: Make sure the password consists of **at least 8 characters** or the new record **will not be saved**!<br><br>

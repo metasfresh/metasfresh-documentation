@@ -20,7 +20,7 @@ Prior to production, ensure that all the required products to be consumed are on
 ## Steps
 1. Open a [completed Manufacturing Order](NewManufacturingOrder).
 1. [Start the action](StartAction) "Issue/Receipt". The production window "PP Order Issue/Receipt" opens up.
- > Note: If you have selected the Manufacturing Order from the list view, you can also go to the [quick actions](StartAction) button at the top right to start the action ![](assets/Actionbutton_IssueReceipt.png).
+ > Note: If you have selected the Manufacturing Order in the list view, you can also go to the [quick actions](StartAction) button at the top right to start the action ![](assets/Actionbutton_IssueReceipt.png).
 
 ### 1. Produce a product without consuming material
 This is the easiest way to produce in metasfresh. The produced quantity is simply added to the account without booking the required products from the bill of material (BOM).
