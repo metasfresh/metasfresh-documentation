@@ -28,7 +28,7 @@ This is the easiest way to produce in metasfresh. The produced quantity is simpl
 1. In the production window, click on the product you want to produce, e.g. "Carrots chopped".
  ![](assets/ProductionCompletion_ProductionWindow.png)
 
-1. Select "Receive HUs" via the quick actions button.
+1. Select "Receive HUs" via the quick actions button.<br>
  ![](assets/ProductionCompletion_Receive_1.png)<br>
  >Note: If the product was assigned Packing Instructions, this will appear on the quick actions button instead of "Receive HUs".
    ![](assets/ProductionCompletion_Receive_2.png)
