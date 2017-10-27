@@ -30,7 +30,7 @@ Du kannst also neue Kontakte erstellen oder bestehenden Kontakten die Anmeldung 
  > Hinweis 2: Beachte beim Benutzernamen die **Groß- und Kleinschreibung**!
 
 ### Lege ein Passwort fest
-1. Gehe in das Aktionsmenü (`Strg + 1`) und [starte die Aktion](AktionStarten) "Passwort ändern". Es öffnet sich ein neues Fenster.
+1. [Starte die Aktion](AktionStarten) "Passwort ändern". Es öffnet sich ein neues Fenster.
 1. Vergib ein **Neues Passwort** mit mindestens 8 Zeichen.
 > Hinweis 1: Ein **Altes Passwort** ist nicht erforderlich, wenn der Nutzer neu erstellt wird.<br><br>
 > Hinweis 2: Stelle sicher, dass das Passwort **mindestens 8 Zeichen** hat, sonst wird der Datensatz **nicht gespeichert**!<br><br>

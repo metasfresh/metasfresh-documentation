@@ -11,7 +11,7 @@ ref: contract_termination
 
 ## Schritte
 1. Öffne einen [fertiggestellten Vertrag](Vertrag_erfassen).
-1. Gehe in das Aktionsmenü (`Strg + 1`) und [starte die Aktion](AktionStarten) "Vertrag/Abo ändern". Es öffnet sich ein neues Fenster.
+1. [Starte die Aktion](AktionStarten) "Vertrag/Abo ändern". Es öffnet sich ein neues Fenster.
 1. Wähle ein **Wechsel-Datum** aus.
 1. Wähle die **Aktion** *Kündigen* aus.
 1. Klicke auf "Start", um die Kündigung durchzuführen und das Fenster zu schließen.

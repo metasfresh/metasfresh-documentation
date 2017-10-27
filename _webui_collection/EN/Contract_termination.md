@@ -11,7 +11,7 @@ ref: contract_termination
 
 ## Steps
 1. Open a [completed Contract](Create_contract).
-1. Go to the actions menu (`Ctrl + 1`) and [start the action](StartAction) "Contract Change". A new window opens up.
+1. [Start the action](StartAction) "Contract Change". A new window opens up.
 1. Choose a **Change effective by** date.
 1. Select the **Action** *Terminate*.
 1. Click "Start" to execute the termination and close the window.
