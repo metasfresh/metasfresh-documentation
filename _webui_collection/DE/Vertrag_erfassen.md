@@ -20,5 +20,7 @@ Erfasse den Vertrag wie einen [Auftrag](Auftrag_erfassen). Beachte vor der Ferti
 
 **Hinweis**: Nach der Fertigstellung findest Du den Vertrag unter dem Menüpunkt "[Vertrag](Menu)" wieder.
 
+**Hinweis zum Ändern der Vertragsbedingung**: Nach dem einmaligen Auswählen der Vertragsbedingung kannst Du diese nicht mehr ändern. Um eine andere Vertragsbedingung zu verwenden lösche die Zeile und füge sie neu hinzu.
+
 ## Beispiel
 ![](assets/Vertrag_erfassen.gif)
