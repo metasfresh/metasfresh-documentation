@@ -9,6 +9,7 @@ lang: en
 In case you imported records and get duplicate ID errors when creating new records from metasfresh, you can use this sql to recalculate the sequences:
 
 `select dba_seq_check_native();`
+`select update_sequences();`
 
 
 > Important: MAKE SURE u are logged with db user metasfresh when running that command 
