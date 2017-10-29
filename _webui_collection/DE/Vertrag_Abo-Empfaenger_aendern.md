@@ -5,7 +5,7 @@ tags:
   - Workflow
   - Vertragsverwaltung
 lang: de
-sequence:
+sequence: 50
 ref: contract_change_recipient
 ---
 

@@ -5,7 +5,7 @@ tags:
   - Workflow
   - Vertragsverwaltung
 lang: de
-sequence: 50
+sequence: 70
 ref: define_contract_period
 ---
 

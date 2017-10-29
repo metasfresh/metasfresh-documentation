@@ -5,7 +5,7 @@ tags:
   - Workflow
   - Contract Management
 lang: en
-sequence: 40
+sequence: 60
 ref: define_contractual_terms
 ---
 

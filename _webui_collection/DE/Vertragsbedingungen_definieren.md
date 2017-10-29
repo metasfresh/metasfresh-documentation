@@ -5,7 +5,7 @@ tags:
   - Workflow
   - Vertragsverwaltung
 lang: de
-sequence: 40
+sequence: 60
 ref: define_contractual_terms
 ---
 
