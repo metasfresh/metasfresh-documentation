@@ -21,7 +21,7 @@ ref: create_bom
 1. Scroll down and enter the **Product** you want to add to the BOM, e.g. "Body" or "Strings".
 1. Enter a **Quantity**.
 1. Click on "Done" to add the products and close the window.
- > Note: Repeat steps 5 to 8 to add further BOM components.
+ >**Note:** Repeat steps 5 to 8 to add further BOM components.
 
 ### Verify BOMs
 

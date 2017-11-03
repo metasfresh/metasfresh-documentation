@@ -14,7 +14,7 @@ ref: productprice
 1. Open an [existing product](NewProduct).
 1. [Create a new record](New_Record_Tab) under the tab "Price".
 1. Enter the name of the designated **Price List Version**, e.g. "New Price List Germany".
-  > Note: Hit `SPACE` to see all available price lists.
+ >**Note:** Hit `SPACE` to see all available price lists.
 
 1. In the field **Standard Price** you can determine the effective purchase or retail price (depending on the respective price list).
 1. In the field **Tax Category** you can select the relevant value-added tax (VAT) category, such as normal, reduced, tax-free.

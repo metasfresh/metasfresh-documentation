@@ -21,7 +21,7 @@ ref: create_bom
 1. Scrolle nach unten und gib das **Produkt** ein, welches Du zur Stückliste hinzufügen willst, z.B. "Korpus" oder "Saiten".
 1. Gib eine **Menge** an.
 1. Klicke auf "Bestätigen", um die Produkte hinzuzufügen und das Fenster zu schließen.
- > Hinweis: Wiederhole die Schritte 5 bis 8, um weitere Komponenten zur Stückliste hinzuzufügen.
+ >**Hinweis:** Wiederhole die Schritte 5 bis 8, um weitere Komponenten zur Stückliste hinzuzufügen.
 
 ### Stücklisten verifizieren
 

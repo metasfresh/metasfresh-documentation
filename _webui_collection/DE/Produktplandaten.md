@@ -12,7 +12,7 @@ ref: productplanning
 ## Übersicht
 Mit den Produktplandaten kannst Du einstellen, was passieren soll, wenn ein Produkt verkauft wird.
 Ein Produkt kann ein einzelnes Fertigprodukt sein oder aus mehreren Komponenten bestehen. Unter Umständen hast Du dieses Produkt oder seine Komponenten nicht (mehr) auf Lager, also musst Du es **einkaufen** oder **produzieren**.
- >Hinweis: Im Fenster *Handling Unit Editor* erhältst Du eine Übersicht der Produkte auf Lager.
+ >**Hinweis:** Im Fenster *Handling Unit Editor* erhältst Du eine Übersicht der Produkte auf Lager.
 
 Wird ein Auftrag erfasst, überprüft die *Materialdisposition* anhand der Produktplandaten automatisch, welche Produkte auf Lager sind, eingekauft oder produziert werden müssen.
 
@@ -45,6 +45,6 @@ Wird ein Auftrag erfasst, überprüft die *Materialdisposition* anhand der Produ
 1. Soll der Produktionsauftrag von der Materialdisposition berücksichtigt werden, setze ein Häkchen bei **Plan erzeugen**.
 1. Soll der Produktionsauftrag automatisch fertiggestellt werden, setze ein Häkchen bei **IsDocComplete**.
 1. Setze das Feld **Wird produziert** auf *Ja*.
- >Hinweis: In diesem Fall legt die Materialdisposition automatisch einen Produktionsauftrag an, sobald ein Auftrag erstellt wurde.
+ >**Hinweis:** In diesem Fall legt die Materialdisposition automatisch einen Produktionsauftrag an, sobald ein Auftrag erstellt wurde.
 
 1. Klicke auf "Bestätigen", um das Fenster zu schließen und die Plandaten zur Liste hinzuzufügen.
