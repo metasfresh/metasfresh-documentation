@@ -24,10 +24,10 @@ In metasfresh, time frame conditions of a Contract include the Term Duration, Te
 1. Define a **Subscription Interval** and a **Subscription Unit**, e.g. "2 Weeks".
  >**Note:** This is the frequency of the shipments of a Sales Order during the Contract Period.
 
-1. ***Optional***: Check the box **Auto renew Contract** to make the Contract run in a loop.
+1. ***Optional:*** Check the box **Auto renew Contract** to make the Contract run in a loop.
  >**Note:** In this case, the box **Complete next terms automatically** appears. Check this box, too.
 
-1. ***Optional***: In the field **Next Contract Terms** you can select the follow-up contract for the expired one.
+1. ***Optional:*** In the field **Next Contract Terms** you can select the follow-up contract for the expired one.
 
 ### Define the Transition Conditions
 The Transition Conditions determine at what moment before the end or change of a contract the Contractual Party may perform a Status Change, such as the termination of the Contract.

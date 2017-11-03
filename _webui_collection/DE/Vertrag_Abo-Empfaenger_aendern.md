@@ -20,7 +20,7 @@ ref: contract_change_recipient
  >**Hinweis 2:** Auswahl des Treffers mit Maus oder ![](assets/Workflow_Auftrag_Bis_Rechnung_WebUI-73797.png)
 
 1. Wähle eine **Lieferadresse** aus.
-1. ***Optional***: Wähle einen **Lieferkontakt** aus.
+1. ***Optional:*** Wähle einen **Lieferkontakt** aus.
 1. Klicke auf "Start", um die Änderungen zu übernehmen und das Fenster zu schließen.
 
 **Hinweis:** Die **Lieferadresse** kannst Du in der Registerkarte "Abo Verlauf" unten auf der Seite des jeweiligen Vertrags einsehen.
