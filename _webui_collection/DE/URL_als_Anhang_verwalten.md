@@ -12,7 +12,7 @@ ref: howto_attach_urls
 ## Schritte
 
 ### URL als Anhang speichern
-1. [Öffne](Menu) das Dokument, dem Du ein URL-Lesezeichen anhängen möchtest, z.B. einem "[Geschäftspartner](Neuer_Geschäftspartner)".
+1. [Öffne](Menu) das Dokument, dem Du ein URL-Lesezeichen anhängen möchtest, z.B. einem "[Geschäftspartner](Neuer_Geschaeftspartner)".
 1. Drücke `Strg + 7`, um zur Anhangliste ![](assets/Attachment_clip.png) in der [Sidebar](SpringezuBelegen) ![](assets/Sidebar_Icon_WebUI.png) zu springen.
 1. Klicke auf ![](assets/URL_hinzufügen.png). Es öffnet sich ein kleines Eingabefenster.
 1. Kopiere die gewünschte URL (z.B. http://metasfresh.com/) und füge sie in das Feld **URL** ein.
