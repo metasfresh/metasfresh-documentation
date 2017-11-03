@@ -14,14 +14,14 @@ ref: newproduct
 1. Open "Product" from the [menu](Menu).
 1. [Create a new product](New_Record_Window).
 1. Fill in the field **Name**.
- > Note: This name will appear on documents such as Sales Order confirmations etc.
+ >**Note:** This name will appear on documents such as Sales Order confirmations etc.
 
 1. Next choose a **Product Category**.
- > Note: The **Product Category** can be used to control discounts, account assignments and attribute sets of products.
+ >**Note:** The **Product Category** can be used to control discounts, account assignments and attribute sets of products.
 
 1. In the field **Search Key** enter a product number.
- > Note 1: This number will appear on documents such as Sales Order confirmations etc.<br><br>
- > Note 2: This number can also be assigned automatically.
+ >**Note 1:** This number will appear on documents such as Sales Order confirmations etc.<br><br>
+ >**Note 2:** This number can also be assigned automatically.
 
 ### Next Steps
 - [Record a Purchase or Retail Price](ProductPrice)
@@ -34,8 +34,8 @@ ref: newproduct
 ## Further Relevant Fields
 
 - The field **UOM** (unit of measurement) determines in which unit the product is managed in stock.
- > Note 1: Once the first receipt is issued with the product, the UOM cannot be easily changed.<br><br>
- > Note 2: You can define a different price unit under the tab **Price** isolated from the UOM.
+ >**Note 1:** Once the first receipt is issued with the product, the UOM cannot be easily changed.<br><br>
+ >**Note 2:** You can define a different price unit under the tab **Price** isolated from the UOM.
 
 - The field **Product Type** determines the type of product.
 

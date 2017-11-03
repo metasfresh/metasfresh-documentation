@@ -49,7 +49,7 @@ Sobald die Dienste initialisiert sind, kannst Du:
 **oder**
 
 * Die URL `http://XXX.YYY.ZZZ.AAA/` in Deinem Browser aufrufen, um auf die metasfresh WebUI zuzugreifen
- >Hinweis: XXX.YYY.ZZZ.AAA stellt die IP-Adresse Deines Servers dar. Wenn Du den Server lieber mit einem DNS-Eintrag (z.B. Hostnamen) aufrufen möchtest, richte den Server wie hier beschrieben ein.
+ >**Hinweis:** XXX.YYY.ZZZ.AAA stellt die IP-Adresse Deines Servers dar. Wenn Du den Server lieber mit einem DNS-Eintrag (z.B. Hostnamen) aufrufen möchtest, richte den Server wie hier beschrieben ein.
 
 Wenn Du den Status der metasfresh-Dienste überprüfen möchtest, stoppe bzw. starte sie einfach neu. Hierzu kannst Du folgende Befehle benutzen:
 ```bash
@@ -95,7 +95,7 @@ A:
 Q: `Wenn ich versuche, mich mittels Java Clients mit dem Server zu verbinden, bekomme ich eine Fehlermeldung, dass die "DB Connection" nicht funktioniert. Woran liegt das?`
 
 A: Sehr wahrscheinlich kann Dein Client-PC den Hostnamen des Ubuntu-Servers nicht auflösen. Stelle bitte in Deinem DNS-Server/Router/Host-Datei sicher, dass der Hostname des Servers mitsamt seiner im Netz erreichbaren IP-Adresse eingetragen ist.
-**Hinweis**: Der im Netzwerk aufgelöste Hostname muss identisch mit dem auf dem Server hinterlegten Hostnamen sein. Wenn der Hostname Deines Servers z.B. "erpserver" lautet, muss er von jedem Client als "erpserver" pingbar sein.
+**Hinweis:** Der im Netzwerk aufgelöste Hostname muss identisch mit dem auf dem Server hinterlegten Hostnamen sein. Wenn der Hostname Deines Servers z.B. "erpserver" lautet, muss er von jedem Client als "erpserver" pingbar sein.
 
 
 ## Feedback

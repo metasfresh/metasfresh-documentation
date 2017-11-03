@@ -19,7 +19,7 @@ Bookmarks can be used to structure the menu more clearly according to your perso
 1. Hover with your mouse cursor over the menu item you want to bookmark.
 1. A small blue star ![](assets/Bookmark_Star_blue.png) appears beside the item.
 1. Click on the star to bookmark the item. The star turns green ![](assets/Bookmark_Star_green.png) and will remain beside the item.
- > Note: To remove a bookmark from an item, simply click on the green star. It will turn back to blue and then disappear.
+ >**Note:** To remove a bookmark from an item, simply click on the green star. It will turn back to blue and then disappear.
 
 1. Repeat steps 3 to 5 for all items you want to bookmark.
 1. Open the menu again to see your personalized list of items.
