@@ -21,4 +21,4 @@ ref: new_business_partner
 
 ## Beispiel
 
-![](assets/Neuer_Geschäftspartner.gif)
+![](assets/Neuer_Geschaeftspartner.gif)
