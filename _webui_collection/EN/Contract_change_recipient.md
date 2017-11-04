@@ -20,7 +20,7 @@ ref: contract_change_recipient
  >**Note 2:** Select one of the shown options with the mouse or ![](../DE/assets/Workflow_Auftrag_Bis_Rechnung_WebUI-73797.png)
 
 1. Select a **Shipping Address**.
-1. ***Optional***: Select a **Shipping Partner**.
+1. ***Optional:*** Select a **Shipping Partner**.
 1. Click "Start" to apply the changes and close the window.
 
 **Note:** You can check the **Ship to Location** in the tab "Subscription Progress" at the bottom of the page of the respective Contract.
