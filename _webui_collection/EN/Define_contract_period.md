@@ -32,7 +32,7 @@ In metasfresh, time frame conditions of a Contract include the Term Duration, Te
 ### Define the Transition Conditions
 The Transition Conditions determine at what moment before the end or change of a contract the Contractual Party may perform a Status Change, such as the termination of the Contract.
 
-1. Go to the tab "Transition Conditions" at the bottom of the page and click "Add new". A new window opens up.
+1. Go to the tab "Transition Conditions" at the bottom of the page and click ![](assets/Add_New_Button.png). A new window opens up.
 1. Define a **Deadline** and a **Deadline Unit**, e.g. "1 Month".
 1. Select the **Action** *Status Change*.
 1. Select the **Contract Status** *Terminated*.

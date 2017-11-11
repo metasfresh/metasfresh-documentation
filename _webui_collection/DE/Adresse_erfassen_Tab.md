@@ -10,7 +10,7 @@ ref: add_address_tab
 
 ## Schritte
 1. [Öffne ein Fenster](Menu) "[Geschäftspartner](Neuer_Geschaeftspartner)" in der [Einzelansicht](Ansichten).
-1. Gehe zur Registerkarte "Adresse" unten auf der Seite und klicke auf "Neu hinzufügen", um das Adressfenster zu öffnen.
+1. Gehe zur Registerkarte "Adresse" unten auf der Seite und klicke auf ![](assets/Neu_hinzufuegen_Button.png), um das Adressfenster zu öffnen.
 1. Trage im Feld **Name** den Namen des Geschäftspartners ein.
 1. Klicke auf den "Edit"-Button, um eine **Anschrift** zu erfassen.
 1. Trage die **Straße und Nr.**, die **PLZ**, den **Ort** und das **Land** des Unternehmens ein.

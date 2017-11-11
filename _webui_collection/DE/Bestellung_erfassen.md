@@ -15,12 +15,13 @@ ref: createpurchaseorder
 1. [Lege eine neue Bestellung an](Neuer_Datensatz_Fenster_Webui).
 1. Gib im Feld **Lieferung von** einen Teil des Lieferantennamens oder der Geschäftspartnernummer ein.
  >**Hinweis 1:** Drücke die `LEERTASTE`, um alle Partner zu sehen.<br><br>
- >**Hinweis 2:** Auswahl des Treffers mit Maus oder ![](assets/Workflow_Auftrag_Bis_Rechnung_WebUI-73797.png)
+ >**Hinweis 2:** Auswahl des Treffers mit Maus oder ![](assets/Workflow_Auftrag_Bis_Rechnung_WebUI-73797.png)<br><br>
+ >**Hinweis 3:** Wird der gewünschte Partner nicht angezeigt, kannst Du ihn per [Schnellerfassung](Neuer_Geschaeftspartner_Schnellerfassung) neu anlegen.
 
 1. [metasfresh speichert automatisch](Speicheranzeige).
 
 ### Zeilen hinzufügen
-1. Gehe zur Registerkarte "Bestellposition" unten auf der Seite und klicke auf "Massen Erfassung", um die Bestellzeileneingabe zu öffnen.
+1. Gehe zur Registerkarte "Bestellposition" unten auf der Seite und klicke auf ![](assets/Massen_Erfassung_Button.png), um die Bestellzeileneingabe zu öffnen.
  >**Hinweis:** Tastenkombination `Strg + Q`
 
 1. Gib in das Feld **Produkt** einen Teil des Produktnamens oder der Produktnummer ein und klicke auf eines der Ergebnisse.
