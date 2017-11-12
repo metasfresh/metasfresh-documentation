@@ -13,7 +13,7 @@ ref: createpurchaseinvoice
 
 1. Öffne eine [Bestellung, zu der es einen Wareneingang gibt](Zu_Bestellung_Wareneingang_erstellen).
 1. [Springe zur](SpringezuBelegen) Rechnungsdisposition.
-1. [Wähle die Bestellzeilen](AuswahlBelege) aus, die Du abrechnen möchtest.
+1. [Selektiere die Bestellzeilen](AuswahlBelege), die Du abrechnen möchtest.
 1. [Starte die Aktion](AktionStarten) "Auswahl fakturieren".
 1. Bestätige mit "Start".
 1. Du erhältst oben rechts eine Benachrichtigung ![](assets/NotificationBell_WebUI.png), sobald die Rechnung erstellt ist.
