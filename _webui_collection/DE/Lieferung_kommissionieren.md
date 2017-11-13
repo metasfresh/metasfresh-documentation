@@ -34,7 +34,7 @@ Deinen Lagerbestand kannst Du in dem [*Handling Unit Editor*](Menu) jederzeit ü
 1. [Springe zur](SpringezuBelegen) Lieferdisposition.
  >**Hinweis:** Drücke `Strg + 6`, um die Sidebar mit den verknüpften Belegen zu öffnen.
 
-1. [Wähle die Auftragszeilen](AuswahlBelege) aus, die Du liefern möchtest.
+1. [Selektiere die Auftragszeilen](AuswahlBelege), die Du liefern möchtest.
 1. [Starte die Aktion](AktionStarten) "Auswahl liefern".
 1. Setze ein Häkchen bei **Erstellung mit kommissionierter Menge statt Liefermenge**.
 1. Bestätige mit "Start".
