@@ -1,7 +1,6 @@
 ---
-title: Data Model Flatrate Term / Subscription / Contract 
+title: Flatrate Term / Subscription / Contract 
 layout: default
-tags: c_flatrate_term
 lang: en
 ---
 
