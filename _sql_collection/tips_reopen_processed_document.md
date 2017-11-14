@@ -16,7 +16,7 @@ this shows you how to do it:
 ```
 update c_flatrate_transition 
 set docstatus = 'DR' 
-where c_flatrate_transition_id in (1000004, 1000005);
+where c_flatrate_transition_id in (?);
 ```
 
 ### Flatrate Transition
