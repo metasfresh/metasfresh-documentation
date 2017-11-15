@@ -14,7 +14,7 @@ this shows you how to do it:
 ### Flatrate Term
 
 ```
-update c_flatrate_transition 
+update c_flatrate_condition
 set docstatus = 'DR' 
 where c_flatrate_transition_id in (?);
 ```
