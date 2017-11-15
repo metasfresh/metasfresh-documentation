@@ -15,15 +15,8 @@ this shows you how to do it:
 
 ```
 update c_flatrate_conditions
-set docstatus = 'DR' 
+set docstatus = 'DR' , processed = 'N'
 where c_flatrate_conditions_id in (?);
 ```
 
-### Flatrate Transition
-
-```
-update c_flatrate_transition 
-set processed = 'N' 
-where c_flatrate_transition_id in (?);
-```
 
