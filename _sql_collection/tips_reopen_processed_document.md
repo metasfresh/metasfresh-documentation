@@ -11,12 +11,12 @@ Sometimes you want to open a document that you completed in a test environment.
 
 this shows you how to do it:
 
-### Flatrate Term
+### Flatrate Condition
 
 ```
-update c_flatrate_condition
+update c_flatrate_conditions
 set docstatus = 'DR' 
-where c_flatrate_transition_id in (?);
+where c_flatrate_conditions_id in (?);
 ```
 
 ### Flatrate Transition
