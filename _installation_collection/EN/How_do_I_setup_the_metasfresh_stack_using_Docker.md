@@ -50,7 +50,7 @@ This manual describes the installation of the following services according to th
   #- WEBAPI_URL=http://example.com:8080
  ...
  ```
- >Note: PORT `:8080` is only necessary if 80 is not used.
+ >**Note:** PORT `:8080` is only necessary if 80 is not used.
 
  >IMPORTANT: if you're using a RPM based distribution and/or the file `/etc/timezone` is not available on your dockerhost, comment out or remove the line `- /etc/timezone:/etc/timezone:ro` in your `docker-compose.yml` file!
  
@@ -62,7 +62,7 @@ This manual describes the installation of the following services according to th
 
  `docker-compose up -d`
 
- >Note: At the first start it may take a few minutes until the database is populated and the service is available.
+ >**Note:** At the first start it may take a few minutes until the database is populated and the service is available.
 
 
 ## Access

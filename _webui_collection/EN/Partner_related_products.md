@@ -15,11 +15,11 @@ So, in order to avoid any misunderstandings and ending up with several names and
 
 ## Steps
 1. Open an existing [product](Menu) or [create a new product](NewProduct).
-1. Go to the tab "Business Partner" at the bottom of the page and click "Add new". A new window opens up.
+1. Go to the tab "Business Partner" at the bottom of the page and click ![](assets/Add_New_Button.png). A new window opens up.
 1. Enter the name of the **Business Partner**.
- > Note 1: Business partners can be customers and vendors.<br><br>
- > Note 2: Hit `SPACE` to see all business partners.<br><br>
- > Note 3: Select one of the shown options with the mouse or ![](../DE/assets/Workflow_Auftrag_Bis_Rechnung_WebUI-73797.png)
+ >**Note 1:** Business partners can be customers and vendors.<br><br>
+ >**Note 2:** Hit `SPACE` to see all business partners.<br><br>
+ >**Note 3:** Select one of the shown options with the mouse or ![](../DE/assets/Workflow_Auftrag_Bis_Rechnung_WebUI-73797.png)
 
 1. Check the box **For Vendor** or **For Customer** according to the respective business partner for who the new name should be used.
 1. Enter the partner-related **Product name**.

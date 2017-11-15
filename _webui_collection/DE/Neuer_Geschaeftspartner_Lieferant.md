@@ -14,7 +14,7 @@ In metasfresh kannst Du definieren, ob ein Geschäftspartner ein Kunde, Lieferan
 ## Schritte
 
 ### Geschäftspartner als Lieferant
-1. [Öffne ein Fenster](Menu) "[Geschäftspartner](Neuer_Geschäftspartner)" in der [Einzelansicht](Ansichten).
+1. [Öffne ein Fenster](Menu) "[Geschäftspartner](Neuer_Geschaeftspartner)" in der [Einzelansicht](Ansichten).
 1. Gehe zur Registerkarte "Lieferant" unten auf der Seite.
 1. Öffne das ["Advanced Edit"-Menü](AdvancedEditTab_Öffnen).
 1. Setze ein Häkchen bei **Lieferant**.

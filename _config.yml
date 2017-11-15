@@ -20,7 +20,8 @@ collections:
     output: true
   verticals_collection:
     output: true
-
+  sql_collection:
+    output: true
 
 defaults:
   - scope:

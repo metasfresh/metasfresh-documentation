@@ -70,7 +70,7 @@ tags:
 1. Click actions button, select Advanced Edit:
 	* => a window pops up and you can't select anything from outside of this window
 	* => you can edit several fields, like e.g warehouse, product, ASI, qty, but not e.g. bpartner
-	* => note: no referenced documents for Wareneingangsdispo!
+	* =>**Note:** no referenced documents for Wareneingangsdispo!
 	
 1. Click actions button, select Wareneingangsdispo zu Wareneingang:
 	* => a window pops up and you can't select anything from outside of this window

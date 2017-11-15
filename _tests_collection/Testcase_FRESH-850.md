@@ -44,7 +44,7 @@ tags:
 	* => Umsatzreport Geschäftspartner Woche mit Menge: P0001: qty 10 for columns with Menge, 15 for columns with CHF, Vergleichsperiode has qties from earlier weeks displayed
 	* => Umsatzreport Geschäftspartner Woche: P0001: qty 15 for all columns (CHF), Vergleichsperiode has qties from earlier weeks displayed
 	* => for all lines in all reports: % is calculated like: (qty - qty_compare)/qty_compare x 100 (same for price)
-	* => note: if there is a line with qty in Vergleichsperiode or Differenz = 0, there won't be any qty in % (see calculation)
+	* =>**Note:** if there is a line with qty in Vergleichsperiode or Differenz = 0, there won't be any qty in % (see calculation)
 	
 1. Run the new reports, try different filters in parameters:
 	* set P0001: only results for P0001, no other products

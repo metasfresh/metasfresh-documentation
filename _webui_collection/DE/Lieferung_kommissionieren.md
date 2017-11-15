@@ -16,15 +16,15 @@ Deinen Lagerbestand kannst Du in dem [*Handling Unit Editor*](Menu) jederzeit ü
 ## Schritte
 1. Öffne einen [fertiggestellten Auftrag](Auftrag_erfassen).
 1. [Springe zum](SpringezuBelegen) Kommissionier-Terminal.
- > Hinweis 1: Drücke `Strg + 6`, um die Sidebar mit den verknüpften Belegen zu öffnen.<br><br>
- > Hinweis 2: Bei neu fertiggestellten Aufträgen dauert es ca. 5 Sekunden, bis das Kommissionier-Terminal in der Sidebar erscheint.
+ >**Hinweis 1:** Drücke `Strg + 6`, um die Sidebar mit den verknüpften Belegen zu öffnen.<br><br>
+ >**Hinweis 2:** Bei neu fertiggestellten Aufträgen dauert es ca. 5 Sekunden, bis das Kommissionier-Terminal in der Sidebar erscheint.
 
 1. Wähle den Auftrag, den Du kommissionieren möchtest, in der [Listenansicht](Ansichten) aus.
 1. Starte die [Quick-Action](AktionStarten) "Kommissionieren". Es öffnet sich das Kommissionierfenster.
 1. Wähle einen Kommissionierplatz aus, z.B. "101.0", und starte die [Quick-Action](AktionStarten) "HU-Auswahlfenster öffnen".
 1. Wähle eine HU aus und starte die [Quick-Action](AktionStarten) "HU kommissionieren". Nun befindet sich die HU auf dem Kommissionierplatz 101.0.
 1. Wähle die HU-Zeile aus und starte die [Quick-Action](AktionStarten) "Kommissionierung verarbeiten". Der Kommissionierplatz wird schreibgeschützt.
- > Hinweis: Die HU-Zeile muss ausgewählt sein, damit die Quick-Action funktioniert.
+ >**Hinweis:** Die HU-Zeile muss ausgewählt sein, damit die Quick-Action funktioniert.
  ![](assets/Kommissionierung_HU_auswählen.png)
 
 1. Klicke auf "Bestätigen", um das Kommissionierfenster zu schließen.
@@ -32,9 +32,9 @@ Deinen Lagerbestand kannst Du in dem [*Handling Unit Editor*](Menu) jederzeit ü
 ### Kommissionierte Menge liefern und Lieferschein erstellen
 1. Öffne einen kommissionierten Auftrag.
 1. [Springe zur](SpringezuBelegen) Lieferdisposition.
- > Hinweis: Drücke `Strg + 6`, um die Sidebar mit den verknüpften Belegen zu öffnen.
+ >**Hinweis:** Drücke `Strg + 6`, um die Sidebar mit den verknüpften Belegen zu öffnen.
 
-1. [Wähle die Auftragszeilen](AuswahlBelege) aus, die Du liefern möchtest.
+1. [Selektiere die Auftragszeilen](AuswahlBelege), die Du liefern möchtest.
 1. [Starte die Aktion](AktionStarten) "Auswahl liefern".
 1. Setze ein Häkchen bei **Erstellung mit kommissionierter Menge statt Liefermenge**.
 1. Bestätige mit "Start".
