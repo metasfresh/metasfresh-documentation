@@ -15,7 +15,7 @@ So, in order to avoid any misunderstandings and ending up with several names and
 
 ## Steps
 1. Open an existing [product](Menu) or [create a new product](NewProduct).
-1. Go to the tab "Business Partner" at the bottom of the page and click "Add new". A new window opens up.
+1. Go to the tab "Business Partner" at the bottom of the page and click ![](assets/Add_New_Button.png). A new window opens up.
 1. Enter the name of the **Business Partner**.
  >**Note 1:** Business partners can be customers and vendors.<br><br>
  >**Note 2:** Hit `SPACE` to see all business partners.<br><br>

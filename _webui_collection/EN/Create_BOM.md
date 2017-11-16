@@ -16,7 +16,7 @@ ref: create_bom
 1. [Create a new BOM](New_Record_Window).
 1. Enter the **[Product](NewProduct)** for which you want to create a BOM, e.g. "Guitar".
 1. Enter a **Document No**.
-1. Go to the tab "Components of the BOM & Formula" at the bottom of the page and click "Add new". A new window opens up.
+1. Go to the tab "Components of the BOM & Formula" at the bottom of the page and click ![](assets/Add_New_Button.png). A new window opens up.
 1. Enter the **Product** you want to add to the BOM, e.g. "Body" or "Strings".
 1. Enter a **Quantity**.
 1. Click on "Done" to add the product to the list and close the window.
