@@ -6,7 +6,7 @@ tags:
   - Rabatte
 lang: de
 sequence: 40
-ref: automatic_discount_schemas
+ref: automatic_discount_scheme
 ---
 
 ## Schritte
@@ -15,12 +15,12 @@ ref: automatic_discount_schemas
 1. Benenne das Rabattschema im Feld **Name**.
 1. Wähle die **Rabattart** *Breaks* aus.
 1. Stelle ein Datum **Gültig ab** ein.
-1. Gehe zur Registerkarte "Rabattkonditionen" unten auf der Seite und klicke auf ![](assets/Neu_hinzufügen_Button.png). Es öffnet sich ein neues Fenster.
+1. Gehe zur Registerkarte "Rabattkonditionen" unten auf der Seite und klicke auf ![](assets/Neu_hinzufuegen_Button.png). Es öffnet sich ein neues Fenster.
 1. Wähle ein **Produkt** oder eine **Produktkategorie** aus.
 1. Gib im Feld **Mengenstufe** die Anzahl ein, ab welcher ein Rabatt gewährt werden soll.
 1. Gib im Feld **Mengenrabatt %** einen Prozentbetrag ein.
 1. Klicke auf "Bestätigen", um das Fenster zu schließen und die Rabattkondition zur Liste hinzuzufügen.
- >**Hinweis:** Wiederhole die Schritte 6 bis 10, um weitere Rabattkonditionen hinzuzufügen, wie z.B. eine Rabattstaffel oder Rabatte für weitere Produkte/Produktkategorien.
+ >**Hinweis:** Wiederhole die Schritte 6 bis 10, um weitere Rabattkonditionen hinzuzufügen, wie z.B. für eine Rabattstaffel oder Rabatte für weitere Produkte/Produktkategorien.
 
 ## Rabattschema einem Geschäftspartner zuweisen
 Damit ein Rabattschema automatisch angewendet wird, muss es erst einem Geschäftspartner zugewiesen werden, für den das Rabattschema gelten soll.

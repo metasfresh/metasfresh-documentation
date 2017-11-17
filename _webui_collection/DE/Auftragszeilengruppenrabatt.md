@@ -26,7 +26,7 @@ ref: order_line_group_discount
 1. Folge den restlichen Schritten zur [Auftragserfassung](Auftrag_erfassen), um den Auftrag abzuschließen.
 
 ## Sukzessive Rabattierung
-Möchtest Du auf einen Gruppenrabatt noch weitere Rabatte vergeben, die sich an der rabattierten Summe orientieren, gehe einfach wie folgt vor:
+Möchtest Du auf einen Gruppenrabatt noch weitere Rabatte vergeben, die sich an der jeweils zuvor rabattierten Summe orientieren, gehe einfach wie folgt vor:
 
 1. Selektiere eine Auftragszeile aus der betreffenden Gruppe.
 1. [Starte erneut die Aktion](AktionStarten) "Create Group". Es öffnet sich ein neues Fenster.
