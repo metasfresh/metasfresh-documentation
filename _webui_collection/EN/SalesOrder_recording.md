@@ -12,7 +12,7 @@ ref: salesorder_recording
 ## Steps
 
 1. Open "Sales Order" from the [menu](Menu).
-1. [Create a new sales order](New_Record_Window).
+1. [Create a new Sales Order](New_Record_Window).
 1. In the field **Business Partner** enter a part of the customer name or number.
  >**Note 1:** Hit `SPACE` to see all customers.<br><br>
  >**Note 2:** Select one of the shown options with the mouse or ![](../DE/assets/Workflow_Auftrag_Bis_Rechnung_WebUI-73797.png)<br><br>
@@ -24,7 +24,7 @@ ref: salesorder_recording
 1. Go to the tab "Order Line" at the bottom of the page and click ![](assets/Batch_Entry_Button.png) to open the fast order line input.
  >**Note:** Use shortcut `Ctrl + Q`
 
-1. In the field **Product**, enter a part of the product name or number and click on one of the results.
+1. In the field **Product** enter a part of the product name or number and click on one of the results.
  >**Note 1:** Hit `SPACE` to see all products.<br><br>
  >**Note 2:** Select one of the shown options with the mouse or ![](../DE/assets/Workflow_Auftrag_Bis_Rechnung_WebUI-73797.png)
 

@@ -14,7 +14,7 @@ A user role allows you to define which features the user can access and which da
 
 ## Steps
 1. Open "Role" from the [menu](Menu).
-1. [Create a new role](New_Record_Window).
+1. [Create a new Role](New_Record_Window).
 1. Give the role a **Name**, e.g. "Standard".
 
 ### Assign the role to a user
