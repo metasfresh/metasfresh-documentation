@@ -18,6 +18,8 @@ ref: createpurchaseorder
  >**Note 2:** Select one of the shown options with the mouse or ![](../DE/assets/Workflow_Auftrag_Bis_Rechnung_WebUI-73797.png)<br><br>
  >**Note 3:** If the desired partner does not appear in the list, you can add them through [quick create](Quick_create_new_business_partner).
 
+1. The field **Date** determines the date when the Order *was placed*.
+1. The field **Date Promised** determines the date when the service is to be *performed*, i.e. the shipment is to be expected.
 1. [metasfresh saves the progress automatically](Saveindicator).
 
 ### Add new lines

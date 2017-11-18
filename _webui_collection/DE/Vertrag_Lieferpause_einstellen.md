@@ -12,7 +12,7 @@ ref: contract_pause
 ## Schritte
 1. Öffne einen [laufenden Vertrag](Vertrag_erfassen).
 1. [Starte die Aktion](AktionStarten) "Abo-Lieferpause". Es öffnet sich ein neues Fenster.
- >**Hinweis:** Hast Du den Vertrag in der Listenansicht ausgewählt, kannst du ebenfalls über den [Quick-Actions](AktionStarten)-Button oben rechts die Aktion "Abo-Lieferpause" starten.<br>
+ >**Hinweis:** Hast Du den Vertrag in der Listenansicht selektiert, kannst Du ebenfalls über den [Quick-Actions](AktionStarten)-Button oben rechts die Aktion "Abo-Lieferpause" starten.<br>
  ![](assets/Abo_Lieferpause_button.png)
 
 1. Wähle im Feld **Datum** den Zeitraum aus, wie lange der Vertrag pausiert werden soll.
