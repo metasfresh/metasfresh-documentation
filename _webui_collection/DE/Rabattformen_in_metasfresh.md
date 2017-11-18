@@ -14,7 +14,7 @@ Die Rabattschemata in metasfresh sind sehr flexibel und vielfältig einsetzbar. 
 
 Außerdem lassen sich die verschiedenen Rabattformen intelligent miteinander kombinieren, können manuell gewährt oder auch als automatische Rabattschemata konfiguriert werden.
 
-Rabatte finden ihre Anwendung bei der Auftragszeilenerfassung eines [Auftrags](Auftrag_erfassen) oder auch einer Bestellung.<br>
+Rabatte finden ihre Anwendung bei der Auftragszeilenerfassung eines [Auftrags](Auftrag_erfassen) oder auch einer [Bestellung](Bestellung_erfassen).<br>
 Es gibt folgende Rabattformen:
 
 ## Auftragszeilenrabatte
@@ -26,7 +26,7 @@ Der [Auftragszeilenrabatt](Auftragszeilenrabatt) wird pro Auftragszeile einzeln 
 ---
 
 ## Auftragszeilengruppenrabatte
-Mit dem [Auftragszeilengruppenrabatt](Auftragszeilengruppenrabatt) kannst Du Auftragszeilen zu einer Gruppe zusammenfassen, für die der Rabatt gelten soll. Dieser Gruppenrabatt wird dann als separate Auftragszeile ausgewiesen und erscheint auch als solche auf dem Beleg. Du kannst beliebig viele Gruppen in einem Auftrag bilden, allerdings kann eine Zeile nur einer Gruppe angehören.
+Mit dem [Auftragszeilengruppenrabatt](Auftragszeilengruppenrabatt) kannst Du beliebig viele Auftragszeilen zu einer Gruppe zusammenfassen, für die der Rabatt gelten soll. Dieser Gruppenrabatt wird dann als separate Rabattzeile ausgewiesen und erscheint auch als solche auf dem Beleg. Du kannst beliebig viele Gruppen in einem Auftrag bilden, allerdings kann eine Rabattzeile nur jeweils einer Gruppe angehören.
 
 ### Beispiel
 ![](assets/Auftragszeilengruppenrabatt.png)

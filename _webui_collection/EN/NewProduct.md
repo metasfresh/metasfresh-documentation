@@ -12,7 +12,7 @@ ref: newproduct
 ## Steps
 
 1. Open "Product" from the [menu](Menu).
-1. [Create a new product](New_Record_Window).
+1. [Create a new Product](New_Record_Window).
 1. Fill in the field **Name**.
  >**Note:** This name will appear on documents such as Sales Order confirmations etc.
 
