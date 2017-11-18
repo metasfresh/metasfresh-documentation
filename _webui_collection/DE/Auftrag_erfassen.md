@@ -18,6 +18,8 @@ ref: salesorder_recording
  >**Hinweis 2:** Auswahl des Treffers mit Maus oder ![](assets/Workflow_Auftrag_Bis_Rechnung_WebUI-73797.png)<br><br>
  >**Hinweis 3:** Wird der gewünschte Partner nicht angezeigt, kannst Du ihn per [Schnellerfassung](Neuer_Geschaeftspartner_Schnellerfassung) neu anlegen.
 
+1. Das Feld **Datum** bestimmt den Zeitpunkt, an dem der Auftrag *erteilt* wurde.
+1. Das Feld **Zugesagter Termin** bestimmt, wann die Leistung *erbracht* bzw. die Lieferung ausgeführt werden soll.
 1. [metasfresh speichert automatisch](Speicheranzeige).
 
 ### Zeilen hinzufügen

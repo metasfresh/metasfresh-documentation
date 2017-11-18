@@ -10,8 +10,13 @@ ref: contract_termination
 ---
 
 ## Steps
-1. Open a [completed Contract](Create_contract).
+1. Open "Contract" from the [menu](Menu).
+1. [Select the Contract](RecordSelection) you want to terminate in the [list view](ViewModes).
+>**Note:** You can terminate several Contracts at once. To do so, select all regarding Contracts in the list view and continue with the following steps.
+
 1. [Start the action](StartAction) "Contract Change". A new window opens up.
+ >**Note:** You can also start this action directly from the Contract window.
+
 1. Choose a **Change effective by** date.
 1. Select the **Action** *Terminate*.
 1. Select a **Termination Reason**.
