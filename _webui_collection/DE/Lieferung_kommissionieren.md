@@ -19,7 +19,7 @@ Deinen Lagerbestand kannst Du in dem [*Handling Unit Editor*](Menu) jederzeit ü
  >**Hinweis 1:** Drücke `Strg + 6`, um die Sidebar mit den verknüpften Belegen zu öffnen.<br><br>
  >**Hinweis 2:** Bei neu fertiggestellten Aufträgen dauert es ca. 5 Sekunden, bis das Kommissionier-Terminal in der Sidebar erscheint.
 
-1. Wähle den Auftrag, den Du kommissionieren möchtest, in der [Listenansicht](Ansichten) aus.
+1. [Selektiere den Auftrag](AuswahlBelege), den Du kommissionieren möchtest, in der [Listenansicht](Ansichten).
 1. Starte die [Quick-Action](AktionStarten) "Kommissionieren". Es öffnet sich das Kommissionierfenster.
 1. Wähle einen Kommissionierplatz aus, z.B. "101.0", und starte die [Quick-Action](AktionStarten) "HU-Auswahlfenster öffnen".
 1. Wähle eine HU aus und starte die [Quick-Action](AktionStarten) "HU kommissionieren". Nun befindet sich die HU auf dem Kommissionierplatz 101.0.

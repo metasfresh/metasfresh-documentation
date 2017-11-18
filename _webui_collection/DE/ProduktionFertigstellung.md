@@ -21,7 +21,7 @@ Stelle sicher, dass Du diejenigen Produkte, die Du bei der Produktion verbrauchs
 ## Schritte
 1. Öffne einen [fertigen Produktionsauftrag](NeuerProduktionsauftrag).
 1. [Starte die Aktion](AktionStarten) "Produzieren". Es öffnet sich das Produktionsfenster.
- >**Hinweis:** Hast Du den Produktionsauftrag in der Listenansicht ausgewählt, kannst du ebenfalls über den [Quick-Actions](AktionStarten)-Button oben rechts die Aktion ![](assets/Actionbutton_Produzieren.png) starten.
+ >**Hinweis:** Hast Du den Produktionsauftrag in der Listenansicht selektiert, kannst Du ebenfalls über den [Quick-Actions](AktionStarten)-Button oben rechts die Aktion ![](assets/Actionbutton_Produzieren.png) starten.
 
 ### 1. Produkt herstellen, ohne Material zu verbrauchen
 Dies ist die einfachste Möglichkeit in metasfresh zu produzieren. Hierbei wird die produzierte Menge einfach zugebucht, ohne die benötigten Produkte aus der Stückliste abzubuchen.

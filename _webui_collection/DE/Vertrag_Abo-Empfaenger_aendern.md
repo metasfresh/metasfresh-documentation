@@ -12,7 +12,7 @@ ref: contract_change_recipient
 ## Schritte
 1. Öffne einen [laufenden Vertrag](Vertrag_erfassen).
 1. [Starte die Aktion](AktionStarten) "Abo-Empfänger ändern". Es öffnet sich ein neues Fenster.
- >**Hinweis:** Hast Du den Vertrag in der Listenansicht ausgewählt, kannst du ebenfalls über den [Quick-Actions](AktionStarten)-Button oben rechts die Aktion ![](assets/Abo-Empfaenger_aendern_button.png) starten.
+ >**Hinweis:** Hast Du den Vertrag in der Listenansicht selektiert, kannst Du ebenfalls über den [Quick-Actions](AktionStarten)-Button oben rechts die Aktion ![](assets/Abo-Empfaenger_aendern_button.png) starten.
 
 1. Wähle im Feld **Datum** den Zeitraum aus, in dem der neue Kontakt als Abo-Empfänger registriert werden soll.
 1. Gib einen **Lieferempfänger** ein.

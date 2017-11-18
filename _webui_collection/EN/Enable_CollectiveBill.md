@@ -11,7 +11,7 @@ ref: enable_collectivebill
 
 ## Steps
 1. Open "Business Partner" from the [menu](Menu).
-1. Select the Business Partner from the [list view](ViewModes).
+1. Select the Business Partner in the [list view](ViewModes).
 1. Go to the tab "Customer" at the bottom of the page.
 1. Open the [Advanced Edit Menu](Open_AdvancedEditTab).
 1. Set the field **Aggregationrule Customer Invoices** to the desired aggregation rule.
