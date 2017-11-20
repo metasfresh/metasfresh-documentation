@@ -29,7 +29,7 @@ FROM ad_window w
   JOIN ad_ui_elementgroup uig ON uig.ad_ui_column_id = uic.ad_ui_column_id
   JOIN ad_ui_element uie ON uie.ad_ui_elementgroup_id = uig.ad_ui_elementgroup_id
 
-WHERE w.name = 'Gesch‰ftspartner'
+WHERE w.name = 'Gesch√§ftspartner'
 ORDER BY w.name
 LIMIT 100
 
