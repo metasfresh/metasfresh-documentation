@@ -4,7 +4,7 @@ layout: default
 tags:
   - Setup
 lang: en
-sequence: 10
+sequence: 20
 ref: initialsetupwizard
 
 ---
@@ -15,11 +15,11 @@ Follow these steps to change the existing client "metasfresh" that is provided b
 
 1. Open the "Initial Setup Wizard" from the [menu](Menu).
 1. Upload an image as your logo via **upload a photo**.
- >Note: The logo should not be bigger than 200x200 pixels to fit nicely on the documents.
+ >**Note:** The logo should not be bigger than 200x200 pixels to fit nicely on the documents.
 
 1. Fill in the desired fields.
 1. Click "Start" to apply the changes.
-> Note: You can apply the wizard as often as required to update your company details.
-<br>
+ >**Note:** You can apply the wizard as often as required to update your company details.
 
+## Example
 ![](assets/IntialSetupWizard-c7960.png)

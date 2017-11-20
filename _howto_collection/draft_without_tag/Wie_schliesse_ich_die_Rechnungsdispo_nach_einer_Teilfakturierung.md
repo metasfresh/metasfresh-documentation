@@ -23,4 +23,4 @@ lang: de
 
 1. Falls es keine weiteren offenen Rechnungsdispos gibt, ist der Rechnungsstatus des Auftrags jetzt "Vollständig Fakturiert"
 
-  **Hinweis**: Der Prozess für das Schließen von Rechnungsdispos nach Teillieferung kann auch automatisch erfolgen, wenn es in der System Konfiguration so eingestellt ist!
+  **Hinweis:** Der Prozess für das Schließen von Rechnungsdispos nach Teillieferung kann auch automatisch erfolgen, wenn es in der System Konfiguration so eingestellt ist!

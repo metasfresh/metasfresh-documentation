@@ -6,8 +6,8 @@ tags:
   - Sales
   - CRM
 lang: en
-sequence: 20
-ref: create_quotation
+sequence: 10
+ref: create_salesquotation
 ---
 
 ## Steps

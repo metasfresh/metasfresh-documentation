@@ -5,7 +5,7 @@ tags:
   - Stammdaten
   - Währung
 lang: de
-sequence: 30
+sequence: 20
 ref: currency_rate
 ---
 ## Übersicht
@@ -19,10 +19,10 @@ Wenn Du in einer anderen Währung als Deiner Stammwährung arbeiten möchtest, m
 1. [Gehe ins Menü](Menu) und öffne den Link "Währungskurs".
 1. [Lege einen neuen Währungskurs an](Neuer_Datensatz_Fenster_Webui).
 1. Wähle eine Ausgangswährung (**Währung**) und eine **Zielwährung**, z.B. EUR nach USD.
- > Hinweis: Jeder Währungskurs muss einzeln festgelegt werden, z.B. EUR nach USD, USD nach EUR usw.
+ >**Hinweis:** Jeder Währungskurs muss einzeln festgelegt werden, z.B. EUR nach USD, USD nach EUR usw.
 
 1. Gib *entweder* den **Faktor** *oder* den **Divisor** ein, der für die Kursumrechnung verwendet werden soll.
- > Hinweis: Der jeweils andere Operand wird automatisch berechnet.
+ >**Hinweis:** Der jeweils andere Operand wird automatisch berechnet.
 
 1. Wähle die **Kursart** "Spot" aus.
 1. Stelle ein Datum **Gültig ab** ein.

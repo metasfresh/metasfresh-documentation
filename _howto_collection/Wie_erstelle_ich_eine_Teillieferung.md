@@ -23,4 +23,4 @@ lang: de
 1. [Speichern](Wie_lege_ich_einen_neuen_datensatz_an)
 1. [Beleg fertigstellen](Wie_stelle_ich_einen_Beleg_fertig)
 
-  **Hinweis**: Der Auftrag kann auch nach einer Teillieferung wie gewohnt [fakturiert](Wie_rechne_ich_einen_Auftrag_ab) werden!
+  **Hinweis:** Der Auftrag kann auch nach einer Teillieferung wie gewohnt [fakturiert](Wie_rechne_ich_einen_Auftrag_ab) werden!

@@ -4,7 +4,7 @@ layout: default
 tags:
   - Setup
 lang: en
-sequence: 20
+sequence: 10
 ref: switchlanguage
 ---
 

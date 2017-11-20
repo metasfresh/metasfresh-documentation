@@ -79,22 +79,22 @@ When the printing client starts up, it does the following
 
 # 5. configure the printing client in metasfresh
 
-* Open the "Drucker-Zuordnung" (AD_Printer_Config) window
+* Open the "Drucker-Zuordnung" (`AD_Printer_Config`) window
 * Search the record with the hostkey from the printing client config file
-* Check the "Geteilt" (IsShared) flag
-  * this is important so that *other* "Drucker-Zuordnung" (AD_Printer_Config) records can select the prining client's configuration
-* Go to the "Konfiguration" (AD_Printer_Matching) tab and select the printing client's printers (and trays) to associate with the logical printer(s) of metasfresh
-  * note that the "Konfiguration" (AD_Printer_Matching) tab already contains one record for each logical metasfresh printer, with the client's local default printer being selected.
+* Check the "Geteilt" (`IsShared`) flag
+  * this is important so that *other* "Drucker-Zuordnung" (`AD_Printer_Config`) records can select the prining client's configuration
+* Go to the "Konfiguration" (`AD_Printer_Matching`) tab and select the printing client's printers (and trays) to associate with the logical printer(s) of metasfresh
+  * note that the "Konfiguration" (`AD_Printer_Matching`) tab already contains one record for each logical metasfresh printer, with the client's local default printer being selected.
 
-# 6. associate the  printing client's config with "yourself"
+# 6. associate the  printing client's config with the user(s) that need to print
 
-* Here the important part is to find out your own hostkey.
+Here the important part is to find out that user's hostkey.
 
-The hostkey is stored in the user's session, so if you just logged in as "it", you can select
+The hostkey is stored in the user's session, so if you just logged in as "myLoginName", you can select
 
 ```
 SELECT updated, LoginUserName, hostkey FROM AD_Session
-WHERE LoginUserName='it'
+WHERE LoginUserName='myLoginName'
 ORDER BY AD_Session_ID DESC LIMIT 1
 ```
 
@@ -102,8 +102,8 @@ Notes:
 * when logging in via webui, metasfresh uses your IP address such as `192.168.134.10` as your hostkey
 * the hostkey is currently created on-demand; if you didn't print anything yet, the value is `<not-yet-determined>`
 
-Once you have the host key, create a new record in "Drucker-Zuordnung" (AD_Printer_Config)
-* Host key needs to be the one from AD_Session
-* "Benutze Configuration" needs to be the one of the standalone printing client
+Once you have the host key, create a new record in "Drucker-Zuordnung" (`AD_Printer_Config`)
+* Host key needs to be the one from `AD_Session`
+* "Benutzte Configuration" needs to be the one of the standalone printing client
 
 Now you are done..e.g. go to Wareneingangsdispo and press invoke the "Drucken Produktanlieferung" action.
