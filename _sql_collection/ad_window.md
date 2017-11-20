@@ -1,7 +1,9 @@
 ---
-title: Window Konfiguration
+title: AD_Window 
 layout: default
-tag: datamodel
+tag: 
+  - datamodel
+  - application dictionary
 lang: en
 ---
 
