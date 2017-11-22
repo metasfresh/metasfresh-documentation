@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Use myreport to work with multiple repos from commandline
+title: Use myrepos to work with multiple repos from commandline
 tags: developers_git_myrepos
 sequence: 10
 summary: how to make life easier without github desktop
 lang: en
-ref: developers_myrepo
+ref: developers_myrepos
 ---
 
 ## Motivation
@@ -17,8 +17,8 @@ github desktop has from my point of view the following drawbacks
 ## Installing myreps
 
 * I'm working on a windows machine where I installed [perl](http://strawberryperl.com/) in order to be able to run [myrepos](https://myrepos.branchable.com/).
-* I'm running myrepo from within the `git bash` shell that came together with git.
-  * i have individual `.mrconfig` files for different workspaces and was (on my windows system) unable to register them as trusted. Hence the `-t`
+* I'm running myrepos from within the `git bash` shell that came together with [git](https://git-scm.com/) for windows.
+  * I have individual `.mrconfig` files for different workspaces and was (on my windows system) unable to register them as trusted. Hence the `-t`
 
 ## .mrconfig file
 
