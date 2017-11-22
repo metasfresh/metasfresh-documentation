@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Use myrepos to work with multiple repos from commandline
-tags: developers_git_myrepos
-sequence: 10
+title: Handle multiple repos from commandline
+tags: developers_getting_started
+sequence: 100
 summary: how to make life easier without github desktop
 lang: en
 ref: developers_myrepos
