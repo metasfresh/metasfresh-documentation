@@ -21,7 +21,7 @@ Stelle sicher, dass Du diejenigen Produkte, die Du bei der Produktion verbrauchs
 ## Schritte
 1. Öffne einen [fertigen Produktionsauftrag](NeuerProduktionsauftrag).
 1. [Starte die Aktion](AktionStarten) "Produzieren". Es öffnet sich das Produktionsfenster.
- > Hinweis: Hast Du den Produktionsauftrag in der Listenansicht ausgewählt, kannst du ebenfalls über den [Quick-Actions](AktionStarten)-Button oben rechts die Aktion ![](assets/Actionbutton_Produzieren.png) starten.
+ >**Hinweis:** Hast Du den Produktionsauftrag in der Listenansicht selektiert, kannst Du ebenfalls über den [Quick-Actions](AktionStarten)-Button oben rechts die Aktion ![](assets/Actionbutton_Produzieren.png) starten.
 
 ### 1. Produkt herstellen, ohne Material zu verbrauchen
 Dies ist die einfachste Möglichkeit in metasfresh zu produzieren. Hierbei wird die produzierte Menge einfach zugebucht, ohne die benötigten Produkte aus der Stückliste abzubuchen.
@@ -32,7 +32,7 @@ Dies ist die einfachste Möglichkeit in metasfresh zu produzieren. Hierbei wird 
 
 1. Wähle über den Quick-Actions-Button "empfangen" aus.<br>
  ![](assets/ProduktionFertigstellung_empfangen_1.png)<br>
- > Hinweis: Wurde dem Produkt eine Gebindekonfiguration zugewiesen, erscheint diese auf dem Quick-Actions-Button anstelle von "empfangen".
+ >**Hinweis:** Wurde dem Produkt eine Gebindekonfiguration zugewiesen, erscheint diese auf dem Quick-Actions-Button anstelle von "empfangen".
   ![](assets/ProduktionFertigstellung_empfangen_2.png)
 
 1. Es öffnet sich ein neues Fenster.
@@ -41,12 +41,12 @@ Dies ist die einfachste Möglichkeit in metasfresh zu produzieren. Hierbei wird 
 1. Im Feld **Menge CU** trägst Du die fertiggestellte Menge des Produkts ein.
 
 1. Im Feld **Menge TU** trägst Du die Menge der Verpackungseinheiten ein.
- > Hinweis 1: Das Feld **Menge TU** erscheint nur, wenn auch eine **Packvorschrift TU** vorhanden ist.<br><br>
- > Hinweis 2: Die Menge TU muss **mindestens 1** betragen.
+ >**Hinweis 1:** Das Feld **Menge TU** erscheint nur, wenn auch eine **Packvorschrift TU** vorhanden ist.<br><br>
+ >**Hinweis 2:** Die Menge TU muss **mindestens 1** betragen.
 
 1. Im Feld **Menge LU** trägst Du die Menge der Ladehilfsmittel ein.
- > Hinweis 1: Das Feld **Menge LU** erscheint nur, wenn auch eine **Packvorschrift LU** vorhanden ist.<br><br>
- > Hinweis 2: Das Feld **Packvorschrift LU** erscheint nur, wenn auch eine **Packvorschrift TU** vorhanden ist.
+ >**Hinweis 1:** Das Feld **Menge LU** erscheint nur, wenn auch eine **Packvorschrift LU** vorhanden ist.<br><br>
+ >**Hinweis 2:** Das Feld **Packvorschrift LU** erscheint nur, wenn auch eine **Packvorschrift TU** vorhanden ist.
 
 1. Klicke auf "Start", um die Zuordnung zu speichern.
 
@@ -79,7 +79,7 @@ Hierbei werden die für die Produktion benötigten Produkte aus der Stückliste 
 
 1. Nach erfolgreicher Abbuchung siehst Du die abgebuchten Produkte unterhalb der Komponente.
 ![](assets/ProduktionFertigstellung_Abbuchung.png)
- > Hinweis: Möchtest Du die Abbuchung rückgängig machen, wähle einfach die hinzugefügte HU aus, gehe zum Quick-Actions-Button und klicke auf ![](assets/Actionbutton_Rückgängig.png).
+ >**Hinweis:** Möchtest Du die Abbuchung rückgängig machen, wähle einfach die hinzugefügte HU aus, gehe zum Quick-Actions-Button und klicke auf ![](assets/Actionbutton_Rückgängig.png).
 
 1. Klicke auf "Bestätigen", um das Fenster zu schließen.
 

@@ -13,7 +13,7 @@ ref: ship_salesorder
 
 1. Öffne einen [fertigen Auftrag](Auftrag_erfassen).
 1. [Springe zur](SpringezuBelegen) Lieferdisposition.
-1. [Wähle die Auftragszeilen](AuswahlBelege) aus, die Du liefern möchtest.
+1. [Selektiere die Auftragszeilen](AuswahlBelege), die Du liefern möchtest.
 1. [Starte die Aktion](AktionStarten) "Auswahl liefern".
 1. Bestätige mit "Start".
 1. Du erhältst oben rechts eine Benachrichtigung ![](assets/NotificationBell_WebUI.png), sobald die Lieferung erstellt ist.

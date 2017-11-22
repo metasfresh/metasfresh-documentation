@@ -22,17 +22,17 @@ Zu den zeitlichen Rahmenbedingungen eines Vertrages zählen in metasfresh u.a. V
 1. Lege eine **Vertragslaufzeit** und **Vertragseinheit** fest, z.B. "1 Jahr".
 1. Lege eine **Ablauffrist** und **Ablaufeinheit** fest, z.B. "1 Monat".
 1. Lege ein **Abointervall** und eine **Aboeinheit** fest, z.B. "2 Wochen".
- >Hinweis: Dies ist die Häufigkeit, in der ein Auftrag während der Laufzeit ausgeliefert wird.
+ >**Hinweis:** Dies ist die Häufigkeit, in der ein Auftrag während der Laufzeit ausgeliefert wird.
 
-1. ***Optional***: Setze ein Häkchen bei **Vertrag autom. verlängern**, damit er nach Laufzeitende wieder neu beginnt.
- >Hinweis: In diesem Fall erscheint das Kästchen **Neue Vertragslaufzeit autom. fertigstellen**. Setze auch hier ein Häkchen.
+1. ***Optional:*** Setze ein Häkchen bei **Vertrag autom. verlängern**, damit er nach Laufzeitende wieder neu beginnt.
+ >**Hinweis:** In diesem Fall erscheint das Kästchen **Neue Vertragslaufzeit autom. fertigstellen**. Setze auch hier ein Häkchen.
 
-1. ***Optional***: Im Feld **Nächste Vertragsbedingungen** kannst Du den Anschlussvertrag auswählen, in den der abgelaufene Vertrag übergehen soll.
+1. ***Optional:*** Im Feld **Nächste Vertragsbedingungen** kannst Du den Anschlussvertrag auswählen, in den der abgelaufene Vertrag übergehen soll.
 
 ### Wechselkonditionen festlegen
 Die Wechselkonditionen bestimmen, zu welchem Zeitpunkt vor Vertragsende bzw. Vertragswechsel der Vertragspartner einen Statuswechsel vollziehen darf, wie z.B. den Vertrag kündigen.
 
-1. Gehe zur Registerkarte "Wechselkonditionen" unten auf der Seite und klicke auf "Neu hinzufügen". Es öffnet sich ein neues Fenster.
+1. Gehe zur Registerkarte "Wechselkonditionen" unten auf der Seite und klicke auf ![](assets/Neu_hinzufuegen_Button.png). Es öffnet sich ein neues Fenster.
 1. Lege eine **Gültigkeitsfrist** und eine **Einheit der Frist** fest, z.B. "1 Monat".
 1. Wähle die **Aktion** *Statuswechsel* aus.
 1. Wähle den **Vertrags-Status** *Gekündigt* aus.

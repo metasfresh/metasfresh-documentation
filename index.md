@@ -22,7 +22,7 @@ layout: default
     - [Test Documentation](pages/tests/index_en)
   - writing docs
     - [How to get started](http://docs.metasfresh.org/howto_collection/EN/how_to_get_started_with_translating_docs.html)
-    
+  - [Database Queries](pages/sql/index_en)
     
 
 ### How to get in contact

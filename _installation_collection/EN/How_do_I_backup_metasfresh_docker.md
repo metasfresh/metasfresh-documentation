@@ -14,7 +14,7 @@ Run this command on your **docker host** to export the database from the docker 
 
 `docker exec -u postgres metasfreshdocker_db_1 pg_dump -Fc -d metasfresh > ./metasfresh_backup.pgdump `
 
- >Note: You can check the actual docker name using `docker ps`.
+ >**Note:** You can check the actual docker name using `docker ps`.
 
 
 ## Exclude Big Tables in Export

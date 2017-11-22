@@ -16,7 +16,7 @@ Ein Leergebindelager ist notwendig, wenn leere Gebinde anfallen und diese gelage
 1. Für **Document Base Type**, wähle "Physischer Warenbestand"
 1. [Speichern](Wie_lege_ich_einen_neuen_datensatz_an)
 
-	**Hinweis**: Die leeren Gebinde müssen zur Lagerung ins Gebindelager bewegt werden, dazu ist ein entsprechendes [Distribution Network](Wie_richte_ich_eine_automatische_warenverteilung_fuer_Leergebinde_ein) notwendig!
+	**Hinweis:** Die leeren Gebinde müssen zur Lagerung ins Gebindelager bewegt werden, dazu ist ein entsprechendes [Distribution Network](Wie_richte_ich_eine_automatische_warenverteilung_fuer_Leergebinde_ein) notwendig!
 
 
 

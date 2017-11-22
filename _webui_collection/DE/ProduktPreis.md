@@ -14,7 +14,7 @@ ref: productprice
 1. Öffne ein [bestehendes Produkt](NeuesProdukt).
 1. [Lege einen neuen Datensatz](Neuer_Datensatz_Tab_Webui) unter der Registerkarte "Preis" an.
 1. Gib unter **Version Preisliste** den Namen der vorgesehenen Preislistenversion ein, z.B. "Testpreise Kunden Deutschland (Verkaufspreisliste)".
-  > Hinweis: Drücke die `LEERTASTE`, um alle verfügbaren Preislisten zu sehen.
+ >**Hinweis:** Drücke die `LEERTASTE`, um alle verfügbaren Preislisten zu sehen.
 
 1. Im Feld **Standardpreis** kannst Du den tatsächlichen Einkaufs- bzw. Verkaufspreis bestimmen (je nachdem, ob es sich um eine Einkaufs- oder Verkaufspreisliste handelt).
 1. Im Feld **Steuerkategorie** kannst Du die jeweilige Mehrwertsteuerkategorie wählen, wie z.B. normal, reduziert, steuerfrei.

@@ -11,7 +11,7 @@ ref: new_record_tab
 
 ## Steps
 
-Simply click "Add new".
+Simply click ![](assets/Add_New_Button.png).
 
 ## Example
 

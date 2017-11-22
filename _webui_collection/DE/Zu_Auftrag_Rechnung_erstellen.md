@@ -13,7 +13,7 @@ ref: invoice_salesorder
 
 1. Öffne einen [gelieferten Auftrag](Zu_Auftrag_Lieferschein_erstellen).
 1. [Springe zur](SpringezuBelegen) Rechnungsdisposition.
-1. [Wähle die Auftragszeilen](AuswahlBelege) aus, die Du abrechnen möchtest.
+1. [Selektiere die Auftragszeilen](AuswahlBelege), die Du abrechnen möchtest.
 1. [Starte die Aktion](AktionStarten) "Auswahl fakturieren".
 1. Bestätige mit "Start".
 1. Du erhältst oben rechts eine Benachrichtigung ![](assets/NotificationBell_WebUI.png), sobald die Rechnung erstellt ist.
