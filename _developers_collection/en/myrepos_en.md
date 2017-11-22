@@ -58,17 +58,14 @@ checkout = git clone 'git@github.com:metasfresh/metasfresh-dist.git' 'metasfresh
 
 ## Avoiding the "mr -t run" prefix
 
-If you know that you (almost) always work with myrepos within the git bash shell, you define for example the following aliases:
+Since I (almost) always work with myrepos within the git bash shell, I'm experimenting with the following aliases:
 
 ```bash
 # custom aliases; zap and branch are defined in the .mrconfig file
-alias git='mr -t run git'
-alias branch='mr -t branch'
-alias zap='mr -t zap'
+alias mrgit='mr -t run git'
+alias mrbranch='mr -t branch'
+alias mrzap='mr -t zap'
 ```
 
 If you use git on windows like me, you can add those aliases to the file `C:\Program Files\Git\etc\profile.d\aliases.sh`
 (thanks to [this stackoverflow answer](https://stackoverflow.com/a/46051959/1012103)).
-
-Note that with theses alsiases in place, you can't e.g. do a simple clone.
-To me that doesn't matter this much because I either `unalias git` in such a case, or use tortoise git.
