@@ -15,7 +15,7 @@ In metasfresh you can send an email directly from the system to any partner you 
 ## Steps
 1. Open a document such as a [Sales Order](SalesOrder_recording) (Business Partner/Customer).
 1. [Start the action](StartAction) "Email". The email editor opens up.
- >**Note 1:** Alternatively, press `Ctrl + K` to open the email editor.<br><br>
+ >**Note 1:** Alternatively, press `Alt + K` to open the email editor.<br><br>
  >**Note 2:** The name of the recipient, if provided, will be filled in automatically.
 
 1. Compose your own text or select a template from the template field at the top right of the email editor.

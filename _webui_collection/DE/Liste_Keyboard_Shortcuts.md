@@ -15,51 +15,51 @@ In metasfresh kannst Du in verschiedenen Kontexten einige Prozesse mithilfe best
 
 | Tastenkombination     | Befehl     |
 | :--------------------: | :----------- |
-| `Strg + 1` | Aktionsmenü öffnen ![](assets/actionsmenu_WebUI.png) |
-| `Strg + 2` | Navigationsmenü öffnen ![](assets/Menu_House_WebUI.png) |
-| `Strg + 3` | Benachrichtigungsmenü öffnen ![](assets/NotificationBell_WebUI.png) |
-| `Strg + 4` |  Nutzermenü öffnen ![](assets/UserMenu_Rabbit_WebUI.png) |
-| `Strg + 5` | Dokumentenliste öffnen (Sidebar) ![](assets/Sidebar_Icon_WebUI.png) |
-| `Strg + 6` | Liste der verknüpften Belege öffnen (Sidebar) ![](assets/related_docs_fork.png) |
-| `Strg + 7` | Anhangliste öffnen (Sidebar) ![](assets/Attachment_clip.png) |
+| `Alt + 1` | Aktionsmenü öffnen ![](assets/actionsmenu_WebUI.png) |
+| `Alt + 2` | Navigationsmenü öffnen ![](assets/Menu_House_WebUI.png) |
+| `Alt + 3` | Benachrichtigungsmenü öffnen ![](assets/NotificationBell_WebUI.png) |
+| `Alt + 4` |  Nutzermenü öffnen ![](assets/UserMenu_Rabbit_WebUI.png) |
+| `Alt + 5` | Dokumentenliste öffnen (Sidebar) ![](assets/Sidebar_Icon_WebUI.png) |
+| `Alt + 6` | Liste der verknüpften Belege öffnen (Sidebar) ![](assets/related_docs_fork.png) |
+| `Alt + 7` | Anhangliste öffnen (Sidebar) ![](assets/Attachment_clip.png) |
 
 ### Kontext: Dokument ([Listenansicht](Ansichten))
 
 | Tastenkombination     | Befehl     |
 | :--------------------: | :----------- |
-| `Strg + A` | "Advanced Edit"-Fenster für ausgewähltes Dokument öffnen |
-| `Strg + B` | Ausgewähltes Dokument in neuer Registerkarte öffnen |
-| `Strg + Y` | Ausgewähltes Dokument löschen |
+| `Alt + A` | "Advanced Edit"-Fenster für ausgewähltes Dokument öffnen |
+| `Alt + B` | Ausgewähltes Dokument in neuer Registerkarte öffnen |
+| `Alt + Y` | Ausgewähltes Dokument löschen |
 
 ### Kontext: Dokument ([Einzelansicht](Ansichten))
 
 | Tastenkombination     | Befehl     |
 | :--------------------: | :----------- |
-| `Strg + D` | Dokument löschen |
-| `Strg + E` | "Advanced Edit"-Fenster öffnen |
-| `Strg + I` | Belegverarbeitungsmenü öffnen (Aktionsbutton für Belegstatus) |
-| `Strg + K` | Email-Editor öffnen |
-| `Strg + M` | Neues Dokument anlegen |
-| `Strg + P` | Druckvorschau öffnen |
-| `Strg + U` | Belegstatus auf "Fertiggestellt" setzen |
-| `Strg + ENTER` | Auswahl öffnen / Anwenden ("Bestätigen") |
+| `Alt + D` | Dokument löschen |
+| `Alt + E` | "Advanced Edit"-Fenster öffnen |
+| `Alt + I` | Belegverarbeitungsmenü öffnen (Aktionsbutton für Belegstatus) |
+| `Alt + K` | Email-Editor öffnen |
+| `Alt + M` | Neues Dokument anlegen |
+| `Alt + P` | Druckvorschau öffnen |
+| `Alt + U` | Belegstatus auf "Fertiggestellt" setzen |
+| `Alt + ENTER` | Auswahl öffnen / Anwenden ("Bestätigen") |
 | `ESC` | Abbrechen |
 
 ### Kontext: Registerkarte (im Dokument)
 
 | Tastenkombination     | Befehl     |
 | :--------------------: | :----------- |
-| `Strg + A` | "Advanced Edit"-Fenster für ausgewählten Eintrag öffnen |
-| `Strg + Q` | Auftragszeileneingabe (Massenerfassung) öffnen |
-| `Strg + Y` | Ausgewählten Eintrag löschen |
-| `Strg + LEERTASTE` | Registerkarte komplett darstellen |
+| `Alt + A` | "Advanced Edit"-Fenster für ausgewählten Eintrag öffnen |
+| `Alt + Q` | Auftragszeileneingabe (Massenerfassung) öffnen |
+| `Alt + Y` | Ausgewählten Eintrag löschen |
+| `Alt + LEERTASTE` | Registerkarte komplett darstellen |
 
 ### Kontext: [Quick-Actions](AktionStarten)
 
 | Tastenkombination     | Befehl     |
 | :--------------------: | :----------- |
-| `Strg + U` | Angezeigte Quick-Action ausführen |
-| `Strg + L` | Quick-Actions-Menü öffnen |
+| `Alt + U` | Angezeigte Quick-Action ausführen |
+| `Alt + L` | Quick-Actions-Menü öffnen |
 
 ### Kontext: Listenansicht mit mehreren Seiten
 
@@ -76,7 +76,7 @@ In metasfresh kannst Du in verschiedenen Kontexten einige Prozesse mithilfe best
 | :--------------------: | :----------- |
 | `+` | Einzüge aufklappen |
 | `-` | Einzüge zusammenklappen |
-| `Strg + S` | Alle Zeilen selektieren |
+| `Alt + S` | Alle Zeilen selektieren |
 
 **Beispiel**: Handling Unit Editor<br><br>
 ![](assets/Listenansicht_aus-einklappen_selektieren.gif)
