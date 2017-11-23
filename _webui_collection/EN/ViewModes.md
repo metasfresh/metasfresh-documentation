@@ -23,7 +23,7 @@ See here how to switch between detailed view and list view:
 
 ## Advanced Edit
 The detailed view only shows the main fields. To see and edit all additional fields, go to the [actions menu](StartAction) and click on "Advanced Edit".
- >**Note:** Use shortcut `Ctrl + E` to open the Advanced Edit window.
+ >**Note:** Use shortcut `Alt + E` to open the Advanced Edit window.
 
 See here how to switch from the detailed view into the Advanced Edit view:
 

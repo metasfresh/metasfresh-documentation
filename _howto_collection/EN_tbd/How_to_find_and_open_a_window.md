@@ -9,4 +9,4 @@ lang: en
 	* z.B. "partner"
 1. Taste ENTER drücken
 	* metasfresh sprint zum ersten Fenster dessen Namen "partner" enthält
-1. Das Fenster durch Klicken öffnen (Alternativ: STRG + ENTER)
+1. Das Fenster durch Klicken öffnen (Alternativ: `Alt + ENTER`)

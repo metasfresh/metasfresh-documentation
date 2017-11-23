@@ -29,7 +29,7 @@ The [Order Line Discount](Order_line_discount) is assigned to each Order Line in
 With the [Order Line Group Discount](Order_line_group_discount) you can join any number of Order Lines into a group designated for the discount. This Group Discount will then be displayed as a separate Discount Line and will also appear as such on the invoice. You can create any number of groups in one Order. However, each Discount Line can only be associated with one single group.
 
 ### Example
-![](assets/Order line group discount.png)
+![](assets/Order Line Group Discount.png)
 
 ---
 

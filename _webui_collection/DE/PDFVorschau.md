@@ -11,7 +11,7 @@ ref: printpreview
 ---
 
 ## Mit der Tastatur
-Drücke `Strg + P`, um die Druckvorschau zu öffnen.
+Drücke `Alt + P`, um die Druckvorschau zu öffnen.
 
 ## Mit der Maus
 Klicke auf ![](assets/actionsmenu_WebUI.png) und wähle dann "Print" aus.

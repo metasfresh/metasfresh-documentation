@@ -17,7 +17,7 @@ In metasfresh there are three different types of actions:
 You will find these actions in the Actions Menu.
 
 ### Steps
-1. Click on ![](assets/actionsmenu_WebUI.png) or press `Ctrl + 1` to open the actions menu.
+1. Click on ![](assets/actionsmenu_WebUI.png) or press `Alt + 1` to open the actions menu.
 1. Click on the desired action.
 
 ### Example
@@ -30,7 +30,7 @@ You will find these actions in documents, such as [Sales Orders](SalesOrder_reco
 ![](assets/Menu_DocumentProcessingActions.png)
 
 ### Steps
-1. Click on ![](assets/DocumentProcessingActions_default.png) or press `Ctrl + I` to open the Document Processing Menu.
+1. Click on ![](assets/DocumentProcessingActions_default.png) or press `Alt + I` to open the Document Processing Menu.
 1. Click on the desired action.
 
 ---
@@ -39,5 +39,5 @@ You will find these actions in documents, such as [Sales Orders](SalesOrder_reco
 You will find Quick Actions for processes, such as [Creating Goods Receipts](CreateGoodsReceipt), [Order Picking](Howto_use_Picking_Terminal), [Product Manufacturing](ProductionCompletion)  etc. You can identify them by the big ![](assets/Quick-Actions-Button.png) at the top right of the window.
 
 ### Steps
-- Click on the Quick Actions Button or press `Ctrl + U` to execute the shown quick action.
-- Click on the box next to the Quick Actions Button or press `Ctrl - L` to toggle the Quick Actions Menu and select an action other than the one shown.
+- Click on the Quick Actions Button or press `Alt + U` to execute the shown quick action.
+- Click on the box next to the Quick Actions Button or press `Alt + L` to toggle the Quick Actions Menu and select an action other than the one shown.

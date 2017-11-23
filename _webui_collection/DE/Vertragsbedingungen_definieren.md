@@ -13,7 +13,7 @@ ref: define_contractual_terms
 1. [Gehe ins Menü](Menu) und öffne den Link "Vertragsbedingungen".
 1. [Erstelle einen neuen Eintrag](Neuer_Datensatz_Fenster_Webui).
 1. Benenne die Vertragsbedingungen im Feld **Name**.
-1. Wähle eine **Vertragsart** aus, z.B. "Abonnement".
+1. Wähle eine **Vertragsart** aus, z.B. *Abonnement*.
 1. Wähle ein **Preissystem** aus.
 1. Im Feld **[Vertragsverlängerung/-übergang](Vertragslaufzeit_definieren)** kannst Du die Vertragslaufzeit einstellen.
 1. [Stelle das Dokument fertig](BelegverarbeitungFertigstellen).
