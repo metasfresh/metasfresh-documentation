@@ -17,7 +17,7 @@ ref: productprice
  >**Hinweis:** Drücke die `LEERTASTE`, um alle verfügbaren Preislisten zu sehen.
 
 1. Im Feld **Standardpreis** kannst Du den tatsächlichen Einkaufs- bzw. Verkaufspreis bestimmen (je nachdem, ob es sich um eine Einkaufs- oder Verkaufspreisliste handelt).
-1. Im Feld **Steuerkategorie** kannst Du die jeweilige Mehrwertsteuerkategorie wählen, wie z.B. normal, reduziert, steuerfrei.
+1. Im Feld **Steuerkategorie** kannst Du die jeweilige Mehrwertsteuerkategorie wählen, wie z.B. *normal*, *reduziert*, *steuerfrei*.
 1. Klicke auf "Bestätigen", um das Fenster zu schließen.
 
 ## Beispiel

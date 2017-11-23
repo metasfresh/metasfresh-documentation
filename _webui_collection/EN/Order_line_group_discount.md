@@ -16,7 +16,9 @@ ref: order_line_group_discount
 1. Follow these [instructions for creating a Sales Order](SalesOrder_recording) up to **Step 4 of the Order Line Input**.
 1. [Select the order lines](RecordSelection) you want to join into a group.
 1. [Start the action](StartAction) "Create group". A new window opens up.
-1. Select a **Product** (in the example below, it's *Discount*; but you can select any product from the list in the product field). 
+1. Select a **Product**, e.g. *Discount*.
+ >**Note:** You can select any product from the list in the product field.
+
 1. Select a **Group**.<br>
 ***Alternatively*** you can also enter a **Group name** of your choice.
 1. Click "Start" to close the window and create the group. A new order line with the **Compensation Type** *Discount* will be added to the list.

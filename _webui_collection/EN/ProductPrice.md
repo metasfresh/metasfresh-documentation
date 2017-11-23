@@ -17,7 +17,7 @@ ref: productprice
  >**Note:** Hit `SPACE` to see all available price lists.
 
 1. In the field **Standard Price** you can determine the effective purchase or retail price (depending on the respective price list).
-1. In the field **Tax Category** you can select the relevant value-added tax (VAT) category, such as normal, reduced, tax-free.
+1. In the field **Tax Category** you can select the relevant value-added tax (VAT) category, such as *normal*, *reduced*, *tax-free*.
 1. Click "Done" to close the window.
 
 ## Example
