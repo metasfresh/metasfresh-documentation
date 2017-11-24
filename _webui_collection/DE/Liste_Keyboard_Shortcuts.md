@@ -18,7 +18,7 @@ In metasfresh kannst Du in verschiedenen Kontexten einige Prozesse mithilfe best
 | `Alt + 1` | Aktionsmenü öffnen ![](assets/actionsmenu_WebUI.png) |
 | `Alt + 2` | Navigationsmenü öffnen ![](assets/Menu_House_WebUI.png) |
 | `Alt + 3` | Benachrichtigungsmenü öffnen ![](assets/NotificationBell_WebUI.png) |
-| `Alt + 4` |  Nutzermenü öffnen ![](assets/UserMenu_Rabbit_WebUI.png) |
+| `Alt + 4` | Nutzermenü öffnen ![](assets/UserMenu_Rabbit_WebUI.png) |
 | `Alt + 5` | Dokumentenliste öffnen (Sidebar) ![](assets/Sidebar_Icon_WebUI.png) |
 | `Alt + 6` | Liste der verknüpften Belege öffnen (Sidebar) ![](assets/related_docs_fork.png) |
 | `Alt + 7` | Anhangliste öffnen (Sidebar) ![](assets/Attachment_clip.png) |
@@ -39,9 +39,10 @@ In metasfresh kannst Du in verschiedenen Kontexten einige Prozesse mithilfe best
 | `Alt + E` | "Advanced Edit"-Fenster öffnen |
 | `Alt + I` | Belegverarbeitungsmenü öffnen (Aktionsbutton für Belegstatus) |
 | `Alt + K` | Email-Editor öffnen |
-| `Alt + M` | Neues Dokument anlegen |
+| `Alt + N` | Neues Dokument anlegen |
 | `Alt + P` | Druckvorschau öffnen |
 | `Alt + U` | Belegstatus auf "Fertiggestellt" setzen |
+| `Alt + W` | Dokument klonen |
 | `Alt + ENTER` | Auswahl öffnen / Anwenden ("Bestätigen") |
 | `ESC` | Abbrechen |
 
@@ -52,7 +53,7 @@ In metasfresh kannst Du in verschiedenen Kontexten einige Prozesse mithilfe best
 | `Alt + A` | "Advanced Edit"-Fenster für ausgewählten Eintrag öffnen |
 | `Alt + Q` | Auftragszeileneingabe (Massenerfassung) öffnen |
 | `Alt + Y` | Ausgewählten Eintrag löschen |
-| `Alt + LEERTASTE` | Registerkarte komplett darstellen |
+| `Alt + +` | Registerkarte komplett darstellen |
 
 ### Kontext: [Quick-Actions](AktionStarten)
 
