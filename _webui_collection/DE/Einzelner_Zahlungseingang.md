@@ -6,11 +6,11 @@ tags:
   - Zahlungseingänge
 lang: de
 sequence: 10
-ref: incoming_payments_single_invoice
+ref: single_incoming_payment
 ---
 
 ## Übersicht
-Hast Du eine Zahlung erhalten, kannst Du den Betrag als *Zahlungseingang* im System registrieren, womit die Rechnung den Status *Bezahlt* erhält. Gehe hierzu wie folgt vor:
+Hast Du eine Zahlung erhalten, kannst Du den Betrag als *Zahlungseingang* im System erfassen, womit die Rechnung den Status *Bezahlt* erhält. Gehe hierzu wie folgt vor:
 
 ## Vorbereitung
 Stelle sicher, dass Dir eine nicht bezahlte  [Rechnung](Zu_Auftrag_Rechnung_erstellen) vorliegt.
@@ -28,4 +28,4 @@ Stelle sicher, dass Dir eine nicht bezahlte  [Rechnung](Zu_Auftrag_Rechnung_erst
 1. [Springe in das Feld](Springezu) **Rechnung**, um den Status der Rechnung zu überprüfen, ***oder*** gehe alternativ zur Registerkarte "Zuordnungen" und [zoome](Zoomen_in_Tabellenfeld) in das Feld in der Spalte **Rechnung** der Zuordnungszeile.
 
 ## Beispiel
-![](assets/Zahlungseingaenge_Einzelrechnung.gif)
+![](assets/Einzelner_Zahlungseingang.gif)

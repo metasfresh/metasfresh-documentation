@@ -13,7 +13,7 @@ ref: incoming_payments_manual_allocation
 If a customer pays several invoices in one payment, you have to *manually allocate* the received amount to the respective invoices.
 
 ## Preparation
-Make sure to have [shipped](Ship_SalesOrder) [Sales Orders](SalesOrder_recording) to which you hold unpaid [invoices](Invoice_SalesOrder).
+Make sure to have several unpaid [invoices](Invoice_SalesOrder).
 
 ## Steps
 1. Open "Payment" from the [menu](Menu).

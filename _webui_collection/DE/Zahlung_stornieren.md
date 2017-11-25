@@ -11,7 +11,7 @@ ref: voiding_payment
 
 ## Schritte
 1. [Gehe ins Menü](Menu) und öffne den Link "Zahlungen".
-1. Öffne eine [fertiggestellte Zahlung](Zahlungseingaenge_einzelne_Rechnung).
+1. Öffne eine [fertiggestellte Zahlung](Einzelner_Zahlungseingang).
 1. Öffne das [Belegverarbeitungsmenü](AktionStarten) (`Alt + I`) und klicke auf *Storno*.<br>
  ![](assets/Zahlung_Status_Storno.png)
 
