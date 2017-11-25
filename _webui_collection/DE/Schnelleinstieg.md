@@ -9,7 +9,7 @@ sequence: 10
 ref: quickstart
 ---
 
-## Voraussetzung
+## Voraussetzungen
 
 Erlange Zugang zu einem laufenden metasfresh System.
 
