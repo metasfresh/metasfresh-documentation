@@ -1,5 +1,5 @@
 ---
-title: Wie verwalte ich Zahlungseingänge für einzelne Rechnungen?
+title: Wie erfasse ich eine Zahlung für eine einzelne Rechnung?
 layout: default
 tags:
   - Zahlungsarten
