@@ -10,10 +10,10 @@ ref: incoming_payments_single_invoice
 ---
 
 ## Übersicht
-Wenn ein Auftrag ausgeliefert und in Rechnung gestellt wurde, muss diese Rechnung vom Kunden bezahlt werden. Hast Du die Zahlung erhalten, kannst Du den Betrag als *Zahlungseingang* im System registrieren, womit die Rechnung den Status *Bezahlt* erhält. Gehe hierzu wie folgt vor:
+Hast Du eine Zahlung erhalten, kannst Du den Betrag als *Zahlungseingang* im System registrieren, womit die Rechnung den Status *Bezahlt* erhält. Gehe hierzu wie folgt vor:
 
 ## Vorbereitung
-Stelle sicher, dass Dir ein [ausgelieferter](Zu_Auftrag_Lieferschein_erstellen) [Auftrag](Auftrag_erfassen) mit offener [Rechnung](Zu_Auftrag_Rechnung_erstellen) vorliegt.
+Stelle sicher, dass Dir eine nicht bezahlte  [Rechnung](Zu_Auftrag_Rechnung_erstellen) vorliegt.
 
 ## Schritte
 1. [Gehe ins Menü](Menu) und öffne den Link "Zahlungen".
