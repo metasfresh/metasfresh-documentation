@@ -13,7 +13,7 @@ ref: incoming_payments_manual_allocation
 Zahlt ein Kunde mehrere Rechnungen auf einmal, musst Du den erhaltenen Zahlungsbetrag auf die jeweiligen Rechnungen aufteilen. Hierzu kannst Du die Zahlungseingänge *manuell zuordnen*.
 
 ## Vorbereitung
-Stelle sicher, dass Dir die [ausgelieferten](Zu_Auftrag_Lieferschein_erstellen) [Aufträge](Auftrag_erfassen) mit offenen [Rechnungen](Zu_Auftrag_Rechnung_erstellen) vorliegen.
+Stelle sicher, dass Dir mehrere offene [Rechnungen](Zu_Auftrag_Rechnung_erstellen) vorliegen.
 
 ## Schritte
 1. [Gehe ins Menü](Menu) und öffne den Link "Zahlungen".
