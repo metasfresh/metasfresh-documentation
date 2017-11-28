@@ -14,7 +14,7 @@ ref: open_advancededittab
 1. Go to the tab in question, e.g. "Customer" under "Business Partner".
 1. Hover with your mouse cursor over the regarding line and right-click it to open the context menu.
 1. Click on "Advanced edit" to open the Advanced Edit Menu.<br>
- >**Note:** Alternatively, press `Ctrl + A` when the regarding line is selected.
+ >**Note:** Alternatively, press `Alt + A` when the regarding line is selected.
 
  ![](assets/AdvancedEdit_KontextMenü.png)
 

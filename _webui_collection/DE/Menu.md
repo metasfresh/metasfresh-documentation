@@ -10,7 +10,7 @@ ref: menu
 ---
 
 ## Menü öffnen
-Klicke auf ![](assets/Menu_House_WebUI.png) oder drücke die Tastenkombination `Strg + 2`, um das Menü zu öffnen.
+Klicke auf ![](assets/Menu_House_WebUI.png) oder drücke die Tastenkombination `Alt + 2`, um das Menü zu öffnen.
 
 ## Menüpunkt wählen
 Klicke auf den gewünschten Menüpunkt.<br>

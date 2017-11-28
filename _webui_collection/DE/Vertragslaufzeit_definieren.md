@@ -18,7 +18,7 @@ Zu den zeitlichen Rahmenbedingungen eines Vertrages zählen in metasfresh u.a. V
 1. [Gehe ins Menü](Menu) und öffne den Link "Vertragslaufzeit".
 1. [Erstelle einen neuen Eintrag](Neuer_Datensatz_Fenster_Webui).
 1. Benenne die Vertragslaufzeit im Feld **Name**.
-1. Wähle einen **Abrechnungs-/Lieferkalender** aus, z.B. "Buchführungs-Kalender".
+1. Wähle einen **Abrechnungs-/Lieferkalender** aus, z.B. *Buchführungs-Kalender*.
 1. Lege eine **Vertragslaufzeit** und **Vertragseinheit** fest, z.B. "1 Jahr".
 1. Lege eine **Ablauffrist** und **Ablaufeinheit** fest, z.B. "1 Monat".
 1. Lege ein **Abointervall** und eine **Aboeinheit** fest, z.B. "2 Wochen".

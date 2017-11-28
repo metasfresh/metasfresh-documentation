@@ -11,7 +11,7 @@ ref: printpreview
 ---
 
 ## Keyboard shortcut
-Press `Ctrl + P` to open the print preview.
+Press `Alt + P` to open the print preview.
 
 ## With the mouse
 Click ![](assets/actionsmenu_WebUI.png) and then select "Print".
