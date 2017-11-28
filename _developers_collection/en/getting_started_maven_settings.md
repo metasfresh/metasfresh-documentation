@@ -18,10 +18,10 @@ It makes sure that maven knows about our maven repo
 <settings xmlns="http://maven.apache.org/SETTINGS/1.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 http://maven.apache.org/xsd/settings-1.0.0.xsd">
   <!-- localRepository
-   | The path to the local repository maven will use to store artifacts.
-   |
-   | Default: ~/.m2/repository
-  <localRepository>/path/to/local/repo</localRepository>
+   The path to the local repository maven will use to store artifacts.
+	 Default: ~/.m2/repository
+	 If you have more than one local (eclipse-)workspace, it might make sense to have one local repo per-workspace, to avoid inconsistencies.
+	<localRepository>${user.home}\.m2\mvn-eclipse-ws-1</localRepository>
   -->
 	<profiles>
 		<profile>
