@@ -9,8 +9,7 @@ lang: en
 
 ## SELECT Examples
 ```
-
-select DISTINCT ad_element_id ,ftrl_name from (
+select DISTINCT ad_element_id, window_name, tab_name, field_name, columnname, ftrl_name from (
   SELECT
     wtrl.name AS window_name,
     ttrl.name AS tab_name,
@@ -34,7 +33,7 @@ select DISTINCT ad_element_id ,ftrl_name from (
     JOIN ad_ui_element uie ON uie.ad_field_id = f.ad_field_id
 
   WHERE TRUE
-      and w.name = 'Geschäftspartner'
+      -- and w.name = 'Geschäftspartner'
         AND f.isactive = 'Y'
         AND (uie.isdisplayedgrid = 'Y' OR uie.isdisplayed = 'Y' OR isadvancedfield = 'Y')
         AND w.isactive = 'Y'
@@ -48,9 +47,10 @@ select DISTINCT ad_element_id ,ftrl_name from (
          WHERE m2.ad_window_id IS NOT NULL
                AND w.ad_window_id = m2.ad_window_id
         )
-  ORDER BY wtrl.name, ttrl.name
+  -- ORDER BY wtrl.name, ttrl.name
 )
 as foo
+order by window_name, tab_name, field_name, columnname, ftrl_name
 
 ```
 
