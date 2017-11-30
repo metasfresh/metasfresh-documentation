@@ -11,8 +11,10 @@ ref: developers_myrepos
 ## Motivation
 
 github desktop has from my point of view the following drawbacks
-* sometimes my collegues think they synched, but didn'- [ ]
+* sometimes my collegues think they synched, but didn't..
 * aparently it doesn't support the same repo being checked out multiple times to different locations (=> different eclipse workspaces)
+
+Therefore I recommend to install the "real" [git](https://git-scm.com/) and use it together with myrepos.
 
 ## Installing myreps
 
@@ -63,9 +65,11 @@ Since I (almost) always work with myrepos within the git bash shell, I'm experim
 ```bash
 # custom aliases; zap and branch are defined in the .mrconfig file
 alias mrgit='mr -t run git'
+alias mrpush='mr -t run git push'
+alias mrpull='mr -t run git pull'
 alias mrbranch='mr -t branch'
 alias mrzap='mr -t zap'
 ```
 
-If you use git on windows like me, you can add those aliases to the file `C:\Program Files\Git\etc\profile.d\aliases.sh`
+If you use git on windows like me, you can create a `.bashrc` file in your home directory (usually `C:\users\<yourlogin>` on windows) and add those aliases to it
 (thanks to [this stackoverflow answer](https://stackoverflow.com/a/46051959/1012103)).
