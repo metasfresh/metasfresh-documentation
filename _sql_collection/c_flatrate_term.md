@@ -39,3 +39,21 @@ order by bp_value
 
 
 ```
+## Subscription Progress
+
+```
+SELECT
+  c_flatrate_term_id,
+  contractstatus,
+  eventdate,
+  eventtype
+FROM c_subscriptionprogress sp
+WHERE TRUE
+JOIN c_flatrate_term ft ON ft.c_flatrate_term_id = sp.c_flatrate_term_id
+LEFT JOIN c_bpartner bpd ON ft.dropship_bpartner_id = bpd.c_bpartner_id
+
+AND (ContractStatus = 'Pa' OR eventtype IN ('PB', 'PE'))
+AND eventdate > now()
+ORDER BY c_flatrate_term_id, eventdate
+AND sp.c_flatrate_term_id = ft.c_flatrate_term_id
+```
