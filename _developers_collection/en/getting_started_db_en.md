@@ -87,7 +87,7 @@ You can get those migration script by downloading them as a `tar.gz` file from t
 
 Note: under linux, you might want to run
 ```bash
-wget --trust-server-names "https://repo.metasfresh.com/service/local/artifact/maven/redirect?g=de.metas.dist&a=de.metas.endcustomer.mf15.dist&v=LATEST&r=mvn-master&p=tar.gz&c=sql-only"
+wget --trust-server-names "https://repo.metasfresh.com/service/local/artifact/maven/redirect?g=de.metas.dist&a=metasfresh-dist-dist&v=LATEST&r=mvn-master&p=tar.gz&c=sql-only"
 ```
 
 That tar.gz contains
