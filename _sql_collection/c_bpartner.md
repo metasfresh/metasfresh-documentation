@@ -1,7 +1,9 @@
 ---
 title: Business Partner
 layout: default
-tag: datamodel
+tag: 
+   - datamodel
+   - masterdata
 lang: en
 ---
 
