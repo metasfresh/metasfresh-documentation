@@ -1,5 +1,5 @@
 ---
-title: Flatrate Term / Subscription / Contract 
+title: C_Flatrate_Term (Contract Management / Subscriptions)
 layout: default
 tag: 
    - datamodel
