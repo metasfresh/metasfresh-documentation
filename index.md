@@ -12,9 +12,9 @@ layout: default
 - [Support & Troubleshooting](pages/support/index_en)
 
 ### Developers
-  - [The metasfresh source code at github](https://github.com/metasfresh/metasfresh)
+  - [metasfresh source code at github](https://github.com/metasfresh/metasfresh)
   - [developing code](pages/developers/index_en)
-  - [Architecture Overview](pages/howto_collection/EN/metasfresh_architecture.html)
+  - [architecture overview](pages/howto_collection/EN/metasfresh_architecture.html)
   - [buildsystem overview](pages/infrastructure/ci_en): how the maven-based buildsystem works locally as well a on our CI-server
   - Javadocs [for the "main" body of code](http://metasfresh.com/javadoc/metasfresh-master/) and [for the esb bundles](http://metasfresh.com/javadoc/metasfresh-esb-master/)
   - [The metasfresh gitter chat](https://gitter.im/metasfresh/metasfresh)
