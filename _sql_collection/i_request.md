@@ -6,13 +6,15 @@ tag:
 lang: en
 ---
 
-## Examples
+## Overview
+This query shows which columns you need in order to insert into i_flatrate term to e.g. migrate data from a temp table
 
-### Get already imported Flatrate Term Import Records to apply them again on another system
+## Example
+
 ```
 
 SELECT
-  i_flatrate_term_id,
+  nextval('i_flatrate_term_seq'),
   ad_client_id,
   ad_org_id,
   bpartnervalue,
