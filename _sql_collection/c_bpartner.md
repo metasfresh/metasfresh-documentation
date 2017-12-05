@@ -1,5 +1,5 @@
 ---
-title: Business Partner
+title: C_BPartner (Business Partner)
 layout: default
 tag: 
    - datamodel
