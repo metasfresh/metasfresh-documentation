@@ -1,7 +1,9 @@
 ---
 title: Flatrate Term / Subscription / Contract 
 layout: default
-tag: datamodel
+tag: 
+   - datamodel
+   - documents
 lang: en
 ---
 
