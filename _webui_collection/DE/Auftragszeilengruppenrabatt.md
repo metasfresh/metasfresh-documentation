@@ -16,7 +16,7 @@ ref: order_line_group_discount
 1. Folge der Anleitung zur [Erfassung eines Auftrags](Auftrag_erfassen) bis zum **Schritt 4 der Auftragszeileneingabe**.
 1. [Selektiere die Auftragszeilen](AuswahlBelege), die Du zu einer Gruppe zusammenfassen möchtest.
 1. [Starte die Aktion](AktionStarten) "Create Group". Es öffnet sich ein neues Fenster.
-1. Wähle ein **Produkt** aus, z.B. *Rabatt*.
+1. Wähle ein **Produkt** aus, z.B. [*Rabatt*](Produkt_für_Gruppenrabatt).
  >**Hinweis:** Du kannst auch jedes andere Produkt wählen, das im Produktfeld vorgeschlagen wird.
 
 1. Wähle eine **Gruppe** aus.<br>

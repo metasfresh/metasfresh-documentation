@@ -3,7 +3,7 @@ title: How do I generate a Sales Order-related Purchase Order?
 layout: default
 tags:
   - Workflow
-  - Sales
+  - Purchase
 lang: en
 sequence: 50
 ref: generate_po_from_so
