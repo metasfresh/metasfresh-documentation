@@ -16,6 +16,7 @@ Mit einer Benutzerrolle kannst Du bestimmen, auf welche Funktionen ein Nutzer Zu
 1. [Gehe ins Menü](Menu) und öffne den Link "Rolle - Verwaltung".
 1. [Lege eine neue Rolle an](Neuer_Datensatz_Fenster_Webui).
 1. Benenne die Rolle im Feld **Name**, z.B. "Standard".
+1. Stelle die [**Max. Suchergebnisse**](Max.Suchergebnisse_UserRole) ein.
 
 ### Die Rolle einem Nutzer zuweisen
 1. Gehe zur Registerkarte "Benutzer-Zugriff" unten auf der Seite.

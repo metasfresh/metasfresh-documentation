@@ -16,6 +16,7 @@ A user role allows you to define which features the user can access and which da
 1. Open "Role" from the [menu](Menu).
 1. [Create a new Role](New_Record_Window).
 1. Give the role a **Name**, e.g. "Standard".
+1. Set a [**Max Query Records**](Max_query_records_userrole) limit.
 
 ### Assign the role to a user
 1. Go to the tab "User Assignment" at the bottom of the page.
