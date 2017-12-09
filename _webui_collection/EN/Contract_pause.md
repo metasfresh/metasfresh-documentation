@@ -5,7 +5,7 @@ tags:
   - Workflow
   - Contract Management
 lang: en
-sequence: 30
+sequence: 50
 ref: contract_pause
 ---
 

@@ -5,7 +5,7 @@ tags:
   - Workflow
   - Vertragsverwaltung
 lang: de
-sequence: 20
+sequence: 30
 ref: contract_termination
 ---
 
