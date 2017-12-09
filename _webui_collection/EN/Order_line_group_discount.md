@@ -10,13 +10,13 @@ ref: order_line_group_discount
 ---
 
 ## Overview
-[Order Line Group Discounts](Discount_types_in_metasfresh) can be applied to both single as well as multiple Order Lines (*Compensation Groups*). They also allow for Successive Discounting in which the previous discount is always being taken into account in the calculation. Moreover, you can give several discounts on various *Compensations Groups* in one Order.
+[Order Line Group Discounts](Discount_types_in_metasfresh) can be applied to both single as well as multiple Order Lines (*Compensation Groups*). They also allow for Successive Discounting where the previous discount is always being taken into account in the calculation. Moreover, you can give several discounts on various *Compensations Groups* in one Order.
 
 ## Steps
 1. Follow these [instructions for creating a Sales Order](SalesOrder_recording) up to **Step 4 of the Order Line Input**.
 1. [Select the order lines](RecordSelection) you want to join into a group.
 1. [Start the action](StartAction) "Create group". A new window opens up.
-1. Select a **Product**, e.g. *Discount*.
+1. Select a **Product**, e.g. [*Discount*](Product_for_group_discount).
  >**Note:** You can select any product from the list in the product field.
 
 1. Select a **Group**.<br>
