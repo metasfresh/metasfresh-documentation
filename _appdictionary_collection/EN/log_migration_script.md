@@ -10,7 +10,7 @@ lang: en
 
 This guide shows you how to activate migration script logging.
 
-**** Important: you need to have an id server configured for this to be working!
+**Important:** you need to have an id server configured for this to be working!
 
 ## Steps
 
