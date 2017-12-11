@@ -48,7 +48,7 @@ Dies ist die einfachste Möglichkeit in metasfresh zu produzieren. Hierbei wird 
  >**Hinweis 1:** Das Feld **Menge LU** erscheint nur, wenn auch eine **Packvorschrift LU** vorhanden ist.<br><br>
  >**Hinweis 2:** Das Feld **Packvorschrift LU** erscheint nur, wenn auch eine **Packvorschrift TU** vorhanden ist.
 
-1. Klicke auf "Start", um die Zuordnung zu speichern.
+1. Klicke auf "Start", um die Zuordnung zu speichern und das Fenster zu schließen.
 
 1. Nach erfolgreicher Zuordnung siehst Du die zugeordneten Produkte unterhalb des herzustellenden Produktes:
  ![](assets/ProduktionFertigstellung-a5222.png)

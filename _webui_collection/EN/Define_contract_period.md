@@ -5,7 +5,7 @@ tags:
   - Workflow
   - Contract Management
 lang: en
-sequence: 70
+sequence: 100
 ref: define_contract_period
 ---
 
