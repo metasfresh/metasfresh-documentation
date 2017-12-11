@@ -20,5 +20,5 @@ lang: en
 | Java Client| Java 8 | Java JRE 8+ | Swing | [Github](https://github.com/metasfresh/metasfresh)
 ||
 | Optional: |
-| Material Dispo         | Java 8L       | Spring Boot | realtime calculation of material | [Github](https://github.com/metasfresh/metasfresh)
+| Material Dispo         | Java 8       | Spring Boot | realtime calculation of material | [Github](https://github.com/metasfresh/metasfresh)
 | Jasper Reports         | Java 8       | Spring Boot | render jasper reports | [Github](https://github.com/metasfresh/metasfresh)
