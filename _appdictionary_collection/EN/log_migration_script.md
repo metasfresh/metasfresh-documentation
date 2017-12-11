@@ -10,7 +10,7 @@ lang: en
 
 This guide shows you how to activate migration script logging.
 
-**Important:** you need to have an id server configured for this to be working!
+**Important:** you need to have an id server configured for this to be working! If no ID server is configured in System Config then you will not see the checkbox.
 
 ## Steps
 
