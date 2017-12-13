@@ -46,7 +46,7 @@ This is the easiest way to produce in metasfresh. The produced quantity is simpl
  >**Note 1:** The field **Quantity LU** appears only if **Packing Instructions LU** are available.<br><br>
  >**Note 2:** The field **Packing Instructions LU** appears only if **Packing Instructions TU** are available.
 
-1. Click "Start" to save the assignment.
+1. Click "Start" to save the assignment and close the window.
 
 1. When the assignment was successful you will find the assigned products underneath the product to be produced:
  ![](assets/ProductionCompletion_Assignment.png)

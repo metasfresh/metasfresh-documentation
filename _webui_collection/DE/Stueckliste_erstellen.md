@@ -27,7 +27,7 @@ ref: create_bom
 Damit eine Stückliste gültig wird, muss sie vorher verifiziert werden.
 
 1. [Starte die Aktion](AktionStarten) "Stücklisten verifizieren". Es öffnet sich ein neues Fenster.
-1. Klicke "Start", um zu bestätigen und das Fenster zu schließen.
+1. Klicke auf "Start", um zu bestätigen und das Fenster zu schließen.
 
 ## Beispiel
 ![](assets/Stueckliste_erstellen.gif)

@@ -3,7 +3,7 @@ title: How do I create a Purchase Order for selected products from a Sales Order
 layout: default
 tags:
   - Workflow
-  - Sales
+  - Purchase
 lang: en
 sequence: 60
 ref: create_individual_po_from_so

@@ -18,7 +18,7 @@ Follow these steps to change the existing client "metasfresh" that is provided b
  >**Note:** The logo should not be bigger than 200x200 pixels to fit nicely on the documents.
 
 1. Fill in the desired fields.
-1. Click "Start" to apply the changes.
+1. Click "Start" to apply the changes and close the window.
  >**Note:** You can apply the wizard as often as required to update your company details.
 
 ## Example
