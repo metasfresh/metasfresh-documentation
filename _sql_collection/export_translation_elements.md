@@ -1,5 +1,5 @@
 ---
-title: Export Element Translation (AD_Element)
+title: Export Element Translations (AD_Element)
 layout: default
 tag: 
   - translation
