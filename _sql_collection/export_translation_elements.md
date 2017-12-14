@@ -1,13 +1,13 @@
 ---
-title: AD_Element
+title: Export Element Translation
 layout: default
 tag: 
-  - datamodel
-  - application dictionary
+  - translation
+
 lang: en
 ---
 
-## SELECT Examples
+## SELECT Examples for en_US
 
 ### Shows elements used for translating address / location fields 
 ```

@@ -1,9 +1,9 @@
 ---
-title: AD_Message
+title: Export translations of AD_Message
 layout: default
 tag: 
-  - datamodel
-  - application dictionary
+  - translation
+  
 lang: en
 ---
 
