@@ -1,5 +1,5 @@
 ---
-title: Export translations of AD_Message
+title: Export Message Translations (AD_Message)
 layout: default
 tag: 
   - translation
@@ -7,7 +7,7 @@ tag:
 lang: en
 ---
 
-## SELECT Examples
+## SELECT Examples for en_US
 
 ### Shows messages used for translating labels of actions in webui
 
