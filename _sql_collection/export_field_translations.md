@@ -10,18 +10,19 @@ lang: en
 ## SELECT Examples for en_US
 
 ```
-select DISTINCT ad_element_id, window_name, tab_name,ad_field_id, field_name, columnname, ftrl_name from (
+select DISTINCT * from (
   SELECT
-    wtrl.name AS window_name,
-    ttrl.name AS tab_name,
-    f.name    AS field_name,
-    ftrl.name as ftrl_name,
-    c.columnname,
-	f.ad_field_id,
+    wtrl.name AS window_name_en,
+    w.name AS window_name_de,
+    ttrl.name AS tab_name_en,
+    t.name AS tab_name_de,
+    ftrl.name as field_name_en,
+    f.name    AS field_name_de,
+    c.columnname as db_column,
+	  f.ad_field_id,
     e.ad_element_id,
-    e.name as e_name,
-    etrl.name as  etrl_name
-
+    etrl.name as  element_en,
+    e.name as  element_de
 
   FROM ad_window w
     LEFT JOIN ad_window_trl wtrl ON wtrl.ad_window_id = w.ad_window_id AND wtrl.ad_language = 'en_US'
@@ -49,9 +50,9 @@ select DISTINCT ad_element_id, window_name, tab_name,ad_field_id, field_name, co
          WHERE m2.ad_window_id IS NOT NULL
                AND w.ad_window_id = m2.ad_window_id
         )
-  
+
 )
 as foo
-order by window_name, tab_name, field_name, columnname, ftrl_name
+order by window_name_en, tab_name_en, field_name_en
 ```
 
