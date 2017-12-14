@@ -1,5 +1,5 @@
 ---
-title: Export Fields to be translated
+title: Export Fields (AD_Field)
 layout: default
 tag: 
   - translation
