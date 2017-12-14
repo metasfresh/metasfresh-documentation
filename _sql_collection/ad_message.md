@@ -16,5 +16,5 @@ select m.ad_message_id,ad_language,m.value,m.msgtext,mtrl.msgtext from ad_messag
 join ad_message_trl mtrl on mtrl.ad_message_id = m.ad_message_id
 where value ILIKE '%webui%' 
 	  
-	```
+```
 
