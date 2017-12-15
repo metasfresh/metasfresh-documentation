@@ -17,7 +17,7 @@ In metasfresh you can also use the Zoom Feature to access the content of many ta
 1. Click on ![](assets/zoom_into_context.png).
 1. A new tab opens up showing you the field's detailed content.
 
-**Important**: You might need to disable your pop-up blocker to make this feature work.
+**Important:** You might need to disable your pop-up blocker to make this feature work.
 
 ## Example
 ![](assets/zoom_into_table_field.gif)

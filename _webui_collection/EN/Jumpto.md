@@ -15,7 +15,7 @@ ref: jumpto
 1. If the field name gets underlined, simply click on it.
 1. A new tab opens up showing you the field's detailed content.
 
-**Important**: You might need to disable your pop-up blocker to make this feature work.
+**Important:** You might need to disable your pop-up blocker to make this feature work.
 
 ## Example
 

@@ -13,7 +13,7 @@ ref: documentprocessingcomplete
 Belege werden von metasfresh zwar [automatisch gespeichert](Speicheranzeige), jedoch erst verarbeitet, wenn diese fertiggestellt sind.
 
 ### Mit der Tastatur
-Drücke die Tastenkombination `Alt + U`, um auf den Status auf "Fertiggestellt" zu setzen.
+Drücke `Alt + U`, um den Status auf "Fertiggestellt" zu setzen.
 
 ### Mit der Maus
 
