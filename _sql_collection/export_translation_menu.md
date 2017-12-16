@@ -1,5 +1,5 @@
 ---
-title: Export MEnu Translations (AD_Menu)
+title: Export Menu Folder and Node Translations (AD_Menu)
 layout: default
 tag: 
   - translation
