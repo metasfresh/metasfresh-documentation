@@ -27,8 +27,9 @@ In metasfresh kannst Du in verschiedenen Kontexten einige Prozesse mithilfe best
 
 | Tastenkombination     | Befehl     |
 | :--------------------: | :----------- |
-| `Alt + A` | "Advanced Edit"-Fenster für ausgewähltes Dokument öffnen |
+| `Alt + A` | Alle Zeilen auswählen bzw. zwischen "Alle Zeilen dieser Seite auswählen" und "Wähle alle ## Zeilen" wechseln |
 | `Alt + B` | Ausgewähltes Dokument in neuer Registerkarte öffnen |
+| `Alt + E` | "Advanced Edit"-Fenster für ausgewähltes Dokument öffnen |
 | `Alt + Y` | Ausgewähltes Dokument löschen |
 
 ### Kontext: Dokument ([Einzelansicht](Ansichten))
@@ -50,7 +51,7 @@ In metasfresh kannst Du in verschiedenen Kontexten einige Prozesse mithilfe best
 
 | Tastenkombination     | Befehl     |
 | :--------------------: | :----------- |
-| `Alt + A` | "Advanced Edit"-Fenster für ausgewählten Eintrag öffnen |
+| `Alt + E` | "Advanced Edit"-Fenster für ausgewählten Eintrag öffnen |
 | `Alt + Q` | Auftragszeileneingabe (Massenerfassung) öffnen |
 | `Alt + Y` | Ausgewählten Eintrag löschen |
 | `Alt + +` | Registerkarte komplett darstellen |
@@ -59,8 +60,8 @@ In metasfresh kannst Du in verschiedenen Kontexten einige Prozesse mithilfe best
 
 | Tastenkombination     | Befehl     |
 | :--------------------: | :----------- |
-| `Alt + U` | Angezeigte Quick-Action ausführen |
 | `Alt + L` | Quick-Actions-Menü öffnen |
+| `Alt + U` | Angezeigte Quick-Action ausführen |
 
 ### Kontext: Listenansicht mit mehreren Seiten
 

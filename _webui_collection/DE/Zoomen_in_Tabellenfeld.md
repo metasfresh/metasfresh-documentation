@@ -17,7 +17,7 @@ In metasfresh kann man den Inhalt vieler Tabellenfelder auch über die Zoom-Funk
 1. Klicke auf ![](assets/zoom_into_context.png).
 1. Es öffnet sich eine neue Registerkarte mit den Detaildaten des Feldes.
 
-**Wichtig**: Dieses Feature funktioniert nur bei deaktiviertem Pop-Up-Blocker!
+**Wichtig:** Dieses Feature funktioniert nur bei deaktiviertem Pop-Up-Blocker!
 
 ## Beispiel
 ![](assets/zoomen_in_tabellenfeld.gif)

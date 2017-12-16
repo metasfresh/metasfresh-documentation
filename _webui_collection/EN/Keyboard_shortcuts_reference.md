@@ -27,8 +27,9 @@ In metasfresh you can speed up some processes in several contexts by using certa
 
 | Keyboard Shortcut     | Command     |
 | :--------------------: | :----------- |
-| `Alt + A` | Open Advanced Edit Window for selected document |
+| `Alt + A` | Select all lines, i.e. toggle between "Select all on this page" and "Select all ## items" |
 | `Alt + B` | Open selected document in new tab |
+| `Alt + E` | Open Advanced Edit Window for selected document |
 | `Alt + Y` | Delete selected document |
 
 ### Document Context ([detailed view](ViewModes))
@@ -50,7 +51,7 @@ In metasfresh you can speed up some processes in several contexts by using certa
 
 | Keyboard Shortcut     | Command     |
 | :--------------------: | :----------- |
-| `Alt + A` | Open Advanced Edit Window for selected entry |
+| `Alt + E` | Open Advanced Edit Window for selected entry |
 | `Alt + Q` | Toggle fast order line input (Batch Entry) |
 | `Alt + Y` | Delete selected entry |
 | `Alt + +` | Expand tab |
@@ -59,8 +60,8 @@ In metasfresh you can speed up some processes in several contexts by using certa
 
 | Keyboard Shortcut     | Command     |
 | :--------------------: | :----------- |
-| `Alt + U` | Execute shown Quick Action |
 | `Alt + L` | Toggle Quick Actions Menu |
+| `Alt + U` | Execute shown Quick Action |
 
 ### List View Context with several pages
 

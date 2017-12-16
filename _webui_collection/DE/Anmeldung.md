@@ -14,7 +14,7 @@ ref: logon
 1. Melde Dich mit dem Benutzernamen _metasfresh_ und dem Passwort _metasfresh_ an.
 
 
- > **Wichtig**: Beim Benutzernamen die Groß- und Kleinschreibung beachten!
+ > **Wichtig:** Beim Benutzernamen die Groß- und Kleinschreibung beachten!
 
 
 ## Beispiel
