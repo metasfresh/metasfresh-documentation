@@ -17,6 +17,7 @@ Du kannst die ausgehenden Belege für eine Vielzahl von Tabellen einrichten, dam
 1. Gib den Namen der **DB-Tabelle**, die Du konfigurieren möchtest, ein und wähle die entsprechende Tabelle aus den Vorschlägen aus, z.B. "Mahnung".
 1. Wähle ein **Druck-Format**.
 1. [metasfresh speichert automatisch](Speicheranzeige).
+1. Wichtig: Damit die Änderung auf dem Anwendungsserver aktiv wird, benötigt dieser noch einen Neustart.
 
 ## Beispiel
 ![](assets/Ausgehende_Belege_Konfig+Mahnung.gif)
