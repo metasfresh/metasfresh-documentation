@@ -1,5 +1,5 @@
 ---
-title: Wie verlinke ich eine Mahnart mit einem Partner?
+title: Wie verknüpfe ich eine Mahnart mit einem Partner?
 layout: default
 tags:
   - Workflow
