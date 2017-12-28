@@ -42,8 +42,7 @@ You can create new contacts or allow existing contacts to log on to the system b
 1. [metasfresh saves the progress automatically](Saveindicator).
 
 ### Assign a role to the user to grant permission
-1. Go to the record tab "User Roles" at the bottom of the page.
-1. [Add a new role](New_Record_Tab).
+1. Go to the record tab "User Roles" at the bottom of the page and click ![](assets/Add_New_Button.png). A new window opens up.
 1. Pick the role you want to assign to the user.
 1. Click "Done" to add the role to the list.
  >**Note:** A user can have several roles. In this case they will be asked to choose a role at the login.
