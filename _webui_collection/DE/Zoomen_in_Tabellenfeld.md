@@ -13,7 +13,7 @@ ref: zoom_into_table_field
 In metasfresh kann man den Inhalt vieler Tabellenfelder auch über die Zoom-Funktion erreichen. Damit kannst Du Dir oftmals den Weg über das Navigationsmenü ersparen und schnell zwischen den Fenstern hin- und herspringen.
 
 ## Schritte
-1. Gehe mit dem Mauszeiger über das Tabellenfeld, zu dessen Inhalt Du springen möchtest, und drücke die rechte Maustaste, um das Kontextmenü zu öffnen.
+1. Gehe mit dem Mauszeiger über das Tabellenfeld, zu dessen Inhalt Du springen möchtest, und öffne mit einem Rechtsklick das Kontextmenü.
 1. Klicke auf ![](assets/zoom_into_context.png).
 1. Es öffnet sich eine neue Registerkarte mit den Detaildaten des Feldes.
 
