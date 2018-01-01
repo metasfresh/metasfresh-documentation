@@ -42,8 +42,7 @@ Du kannst also neue Kontakte erstellen oder bestehenden Kontakten die Anmeldung 
 1. [metasfresh speichert automatisch](Speicheranzeige).
 
 ### Weise dem Nutzer eine Rolle zu
-1. Gehe zur Registerkarte "Nutzer-Rollen" unten auf der Seite.
-1. [Lege eine neue Rolle an](Neuer_Datensatz_Tab_Webui).
+1. Gehe zur Registerkarte "Nutzer-Rollen" unten auf der Seite und klicke auf ![](assets/Neu_hinzufuegen_Button.png). Es öffnet sich ein neues Fenster.
 1. Wähle die Rolle aus, die der Nutzer haben soll.
 1. Klicke auf "Bestätigen", um die Rolle zur Liste hinzuzufügen.
  >**Hinweis:** Der Nutzer kann auch mehrere Rollen haben. In diesem Fall wird er bei der Anmeldung nach der gewünschten Rolle gefragt.
