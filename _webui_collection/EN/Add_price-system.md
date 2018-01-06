@@ -23,7 +23,7 @@ You can find further details on the difference between *Price System* and *Price
 1. [metasfresh saves the progress automatically](Saveindicator).
 
 ## Next Steps
-[Add a Price List](Add_price-list).
+- [Add a Price List](Add_price-list).
 
 ## Example
 ![](assets/Add_Price System.gif)

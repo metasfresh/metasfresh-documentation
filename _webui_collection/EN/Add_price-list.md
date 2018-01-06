@@ -29,7 +29,7 @@ Price Lists can be country and currency-specific, so they can be assigned to a p
 1. [metasfresh saves the progress automatically](Saveindicator).
 
 ## Next Steps
-[Add a Price List Version](Add_price-list-version).
+- [Add a Price List Version](Add_price-list-version).
 
 ## Example
 ![](assets/Add_Price List.gif)

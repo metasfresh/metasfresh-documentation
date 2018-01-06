@@ -23,7 +23,7 @@ ref: add_price-list-version
 1. Repeat steps 2 to 5 to add further price list versions.
 
 ## Next Steps
-[Add a Price](Add_price).
+- [Add a Price](Add_price).
 
 ## Example
 ![](assets/Add_Price List Version.gif)
