@@ -11,6 +11,8 @@ lang: en
 ## Example
 
 
+### Insert
+
 ```
 INSERT INTO PUBLIC.m_product_category
 select
