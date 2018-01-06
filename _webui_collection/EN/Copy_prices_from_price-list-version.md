@@ -26,8 +26,7 @@ However, instead you can also take an existing price list version along with its
  >**Note:** Make sure that the line of the newly created price list version is selected before you start the action.
 
 1. [metasfresh saves the progress automatically](Saveindicator). The prices and products were copied.
-1. Hover with your mouse cursor over the newly created price list version from before and right-click it to open the context menu.
-1. Click ![](assets/Product Prices Contextmenu.png) to switch into the window "Product Prices" where you will now see a list of all the products that were taken over from the basic price list version.
+1. Use the [context menu](Jumpto_via_context_menu) ![](assets/Product Prices Contextmenu.png) of the newly created price list version from before to switch into the window "Product Prices" where you will now see a list of all the products that were taken over from the basic price list version.
 
 ## Example
 ![](assets/Copy_prices_from_price-list-version.gif)

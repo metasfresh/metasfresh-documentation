@@ -5,7 +5,7 @@ tags:
   - Benutzung
   - Navigation
 lang: de
-sequence: 50
+sequence: 60
 ref: zoom_into_table_field
 ---
 
