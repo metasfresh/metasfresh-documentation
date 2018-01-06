@@ -23,7 +23,7 @@ ref: add_price-list-version
 1. Wiederhole die Schritte 2 bis 5, um weitere Preislistenversionen zu erstellen.
 
 ## Nächste Schritte
-[Lege einen Preis an](Preis_anlegen).
+- [Lege einen Preis an](Preis_anlegen).
 
 ## Beispiel
 ![](assets/Preislistenversion_anlegen.gif)

@@ -26,8 +26,7 @@ Du kannst stattdessen jedoch auch eine bestehende Preislistenversion samt Preise
  >**Hinweis:** Stelle sicher, dass die Zeile der neu erstellten Preislistenversion ausgewählt ist, bevor Du die Aktion startest.
 
 1. [metasfresh speichert automatisch](Speicheranzeige). Die Preise und Produkte wurden kopiert.
-1. Gehe mit dem Mauszeiger über die zuvor neu erstellte Preislistenversion und öffne mit einem Rechtsklick das Kontextmenü.
-1. Klicke auf ![](assets/Produkt Preise Kontextmenü.png), um in das Fenster "Produktpreise" zu wechseln. Hier siehst Du nun eine Liste aller aus der Basispreislistenversion übernommenen Produkte.
+1. [Springe über das Kontextmenü](Springezu_Kontextmenue) ![](assets/Produkt Preise Kontextmenü.png) der zuvor neu erstellten Preislistenversion in das Fenster "Produktpreise". Hier siehst Du nun eine Liste aller aus der Basispreislistenversion übernommenen Produkte.
 
 ## Beispiel
 ![](assets/Preise von Preislistenversion kopieren.gif)

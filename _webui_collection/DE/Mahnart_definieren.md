@@ -30,7 +30,7 @@ Mit der Mahnart bestimmst Du den Zeitpunkt, ab dem ein [Mahnlauf](Mahnlauf) begi
 1. Wiederhole die Schritte 1 bis 6, um weitere Mahnstufen hinzuzufügen.
 
 ### Nächste Schritte
-- [Verknüpfe]() die Mahnart mit einem einzelnen [Kunden](Neuer_Geschaeftspartner_Kunde) oder einer [Geschäftspartnergruppe](Neue_Geschaeftspartnergruppe).
+- [Verknüpfe](Mahnart_mit_Partner_verknuepfen) die Mahnart mit einem einzelnen [Kunden](Neuer_Geschaeftspartner_Kunde) oder einer [Geschäftspartnergruppe](Neue_Geschaeftspartnergruppe).
 
 ## Beispiel
 ![](assets/Mahnart_definieren.gif)

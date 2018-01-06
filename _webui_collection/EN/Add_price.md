@@ -27,7 +27,7 @@ ref: add_price
 1. [metasfresh saves the progress automatically](Saveindicator).
 
 ## Next Steps
-[Assign the Prices to a Partner](Assign_prices_to_partner).
+- [Assign the Prices to a Partner](Assign_prices_to_partner).
 
 ## Example
 ![](assets/Add_Price.gif)

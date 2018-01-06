@@ -27,7 +27,7 @@ ref: add_price
 1. [metasfresh speichert automatisch](Speicheranzeige).
 
 ## Nächste Schritte
-[Ordne die Preise einem Partner zu](Zuordnung_Preise_Partner).
+- [Ordne die Preise einem Partner zu](Zuordnung_Preise_Partner).
 
 ## Beispiel
 ![](assets/Preis_anlegen.gif)

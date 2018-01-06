@@ -1,5 +1,5 @@
 ---
-title: Wie verlinke ich eine Mahnart mit einem Partner?
+title: Wie verknüpfe ich eine Mahnart mit einem Partner?
 layout: default
 tags:
   - Workflow
@@ -15,7 +15,7 @@ Damit eine Mahnart in Verbindung mit einem Partner wirksam wird, musst Du sie er
 ## Mahnart mit einzelnem Kunden verknüpfen
 
 ### Schritte
-1. Öffne einen bestehenden Kundeneintrag aus deinen [Geschäftspartnern](Menu) bzw. [lege einen neuen Kunden an](Neuer_Geschaeftspartner_Kunde).
+1. Öffne einen bestehenden Kundeneintrag aus Deinen [Geschäftspartnern](Menu) bzw. [lege einen neuen Kunden an](Neuer_Geschaeftspartner_Kunde).
 1. Gehe zur Registerkarte "Kunde" unten auf der Seite und öffne das ["Advanced Edit"-Menü](AdvancedEditTab_Öffnen).
  >**Hinweis:** Der Geschäftspartner muss als Kunde registriert sein, damit die Mahnfunktion verfügbar wird.
 

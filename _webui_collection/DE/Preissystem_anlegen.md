@@ -23,7 +23,7 @@ Weitere Details zum Unterschied zwischen *Preissystem* und *Preisliste* findest 
 1. [metasfresh speichert automatisch](Speicheranzeige).
 
 ## Nächste Schritte
-[Lege eine Preisliste an](Preisliste_anlegen).
+- [Lege eine Preisliste an](Preisliste_anlegen).
 
 ## Beispiel
 ![](assets/Preissystem_anlegen.gif)

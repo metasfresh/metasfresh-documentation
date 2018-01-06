@@ -19,8 +19,7 @@ Ebenso gibt es zwei Wege, um zu überprüfen, welche Produkte auf einer Preislis
 ## Via Preislistenversion
 1. Öffne eine bestehende [Preisliste](Menu).
 1. Gehe zur Registerkarte "[Preislistenversion](Preislistenversion_anlegen)" unten auf der Seite.
-1. Gehe mit dem Mauszeiger über die betreffende Zeile und öffne mit einem Rechtsklick das Kontextmenü.
-1. Klicke auf ![](assets/Produkt Preise Kontextmenü.png), um in das Fenster "Produktpreise" zu wechseln. Hier siehst Du nun eine Liste aller Produkte auf der Preisliste.
+1. [Springe über das Kontextmenü](Springezu_Kontextmenue) ![](assets/Produkt Preise Kontextmenü.png) der betreffenden Zeile in das Fenster "Produktpreise". Hier siehst Du nun eine Liste aller Produkte auf der Preisliste.
  >**Hinweis:** Erscheint die Verknüpfung "Produkt Preise" nicht im Kontextmenü, sind auf der Preisliste noch keine Produkte hinterlegt.
 
 ---

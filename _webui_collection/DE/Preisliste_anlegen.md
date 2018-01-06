@@ -29,7 +29,7 @@ Preislisten können länder- und währungsspezifisch sein und somit einem bestim
 1. [metasfresh speichert automatisch](Speicheranzeige).
 
 ## Nächste Schritte
-[Lege eine Preislistenversion an](Preislistenversion_anlegen).
+- [Lege eine Preislistenversion an](Preislistenversion_anlegen).
 
 ## Beispiel
 ![](assets/Preisliste_anlegen.gif)
