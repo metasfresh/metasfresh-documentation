@@ -18,7 +18,9 @@ SELECT DISTINCT
   m2.name as node_name_de,
   m2trl.name as node_name_en,
   m.ad_menu_id as folder_ad_menu_id,
-  m2.ad_menu_id as node_ad_menu_id
+  m2.ad_menu_id as node_ad_menu_id,
+  m2.webui_namenew as node_new --each node as a special label for new. its optional.
+  
 FROM ad_treenodemm mm
   JOIN ad_menu M ON mm.node_id = M.ad_menu_id AND mm.parent_id = 1000007
   LEFT JOIN ad_menu_trl mtrl ON mtrl.ad_menu_id = m.ad_menu_id AND mtrl.ad_language = 'en_US'
