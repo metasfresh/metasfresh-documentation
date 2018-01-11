@@ -11,6 +11,7 @@ If you want to use server-based mass printing either for real printers or PDF pr
 
 By default its off (N).
 
+This change requires a restart of the APP Server to become effective.
 
 ## Example
 
