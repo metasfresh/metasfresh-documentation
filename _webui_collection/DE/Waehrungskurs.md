@@ -16,7 +16,7 @@ Wenn Du in einer anderen Währung als Deiner Stammwährung arbeiten möchtest, m
 
 ## Schritte
 
-1. [Gehe ins Menü](Menu) und öffne den Link "Währungskurs".
+1. [Gehe ins Menü](Menu) und öffne das Fenster "Währungskurs".
 1. [Lege einen neuen Währungskurs an](Neuer_Datensatz_Fenster_Webui).
 1. Wähle eine Ausgangswährung (**Währung**) und eine **Zielwährung**, z.B. EUR nach USD.
  >**Hinweis:** Jeder Währungskurs muss einzeln festgelegt werden, z.B. EUR nach USD, USD nach EUR usw.

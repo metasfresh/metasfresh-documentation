@@ -15,7 +15,7 @@ ref: add_price-list
 Preislisten können länder- und währungsspezifisch sein und somit einem bestimmten Partner (Kunden/Lieferanten) oder einer bestimmten Partnergruppe zugewiesen werden.
 
 ## Schritte
-1. [Gehe ins Menü](Menu) und öffne den Link "Preisliste".
+1. [Gehe ins Menü](Menu) und öffne das Fenster "Preisliste".
 1. [Lege eine neue Preisliste an](Neuer_Datensatz_Fenster_Webui).
 1. Benenne die Preisliste im Feld **Name**.
 1. Wähle das **Land** aus, für das die Preisliste gelten soll.

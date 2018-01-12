@@ -13,7 +13,7 @@ ref: newuserroll
 Mit einer Benutzerrolle kannst Du bestimmen, auf welche Funktionen ein Nutzer Zugriff hat und welche Daten er einsehen kann.
 
 ## Schritte
-1. [Gehe ins Menü](Menu) und öffne den Link "Rolle - Verwaltung".
+1. [Gehe ins Menü](Menu) und öffne das Fenster "Rolle - Verwaltung".
 1. [Lege eine neue Rolle an](Neuer_Datensatz_Fenster_Webui).
 1. Benenne die Rolle im Feld **Name**, z.B. "Standard".
 1. Stelle die [**Max. Suchergebnisse**](Max.Suchergebnisse_UserRole) ein.

@@ -15,7 +15,7 @@ Zu den zeitlichen Rahmenbedingungen eines Vertrages zählen in metasfresh u.a. V
 ## Schritte
 
 ### Laufzeitbedingungen festlegen
-1. [Gehe ins Menü](Menu) und öffne den Link "Vertragslaufzeit".
+1. [Gehe ins Menü](Menu) und öffne das Fenster "Vertragslaufzeit".
 1. [Erstelle einen neuen Eintrag](Neuer_Datensatz_Fenster_Webui).
 1. Benenne die Vertragslaufzeit im Feld **Name**.
 1. Wähle einen **Abrechnungs-/Lieferkalender** aus, z.B. *Buchführungs-Kalender*.

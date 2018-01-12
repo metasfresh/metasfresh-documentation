@@ -25,7 +25,7 @@ In metasfresh werden Opportunities als eine *Vorgangsart* abgebildet, deren Stat
 
 ## Schritte
 
-1. [Gehe ins Menü](Menu) und öffne den Link "Vorgänge".
+1. [Gehe ins Menü](Menu) und öffne das Fenster "Vorgänge".
 1. [Lege einen neuen Vorgang an](Neuer_Datensatz_Fenster_Webui).
 1. Gib unter **Geschäftspartner** einen Teil des Kundennamens oder der Kundennummer ein.
  >**Hinweis 1:** Drücke die `LEERTASTE`, um alle Kunden zu sehen.<br><br>

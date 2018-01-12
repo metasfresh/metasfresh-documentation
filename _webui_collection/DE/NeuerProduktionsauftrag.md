@@ -12,7 +12,7 @@ ref: newmanufacturingorder
 
 ## Schritte
 
-1. [Gehe ins Menü](Menu) und öffne den Link "Produktionsaufträge".
+1. [Gehe ins Menü](Menu) und öffne das Fenster "Produktionsaufträge".
 1. [Lege einen neuen Produktionsauftrag an](Neuer_Datensatz_Fenster_Webui).
 1. Trage das [**Produkt**](NeuesProdukt) ein, das Du herstellen möchtest.
 1. Wähle die [**Stückliste**](Stueckliste_erstellen) aus, nach der die Produktion erfolgen soll.
