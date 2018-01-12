@@ -1,8 +1,9 @@
 ---
-title: M_DiscountSchemaBreak
+title: M_DiscountSchemaBreak (Discount Breaks)
 layout: default
 tag: 
-   - datamigration
+   - datamodel
+   - masterdata
 lang: en
 ---
 
