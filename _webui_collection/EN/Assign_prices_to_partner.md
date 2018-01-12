@@ -1,5 +1,5 @@
 ---
-title: How do I assign Prices to a Partner (Customer/Vendor)?
+title: How do I assign Prices to a Partner (Customer/Vendor) or Partner Group?
 layout: default
 tags:
   - Pricing
@@ -12,7 +12,7 @@ ref: assign_prices_to_partner
 ## Overview
 ![](assets/price system_assign prices to partner.png)
 
-In metasfresh there are [Sales Price Lists and Purchase Price Lists](Add_price-list). The sales price lists can be assigned to customers and the purchase price lists to vendors.
+In metasfresh there are [Sales Price Lists and Purchase Price Lists](Add_price-list). The sales price lists can be assigned to customers and the purchase price lists to vendors. These two types of price lists can also be assigned to partner groups.
 
 ## Assign Sales Price List to Customer
 
@@ -38,3 +38,14 @@ In order to obtain a Purchase Price List you have to uncheck the box **Sales Pri
 
 ## Example
 ![](assets/Assign_Prices_to_Partner.gif)
+
+---
+
+## Assign Price List to Partner Group
+1. Open an existing [business partner](Menu) entry or [create a new business partner](New_Business_Partner).
+1. [Jump to the content of the field](Jumpto) "[Business Partner Group](New_Business_Partner_Group)". The respective business partner group entry opens up in a new window.
+1. In this window now select the desired **Price System**.
+1. [metasfresh saves the progress automatically](Saveindicator).
+
+## Example
+![](assets/Assign_Prices_to_Partner_Group.gif)
