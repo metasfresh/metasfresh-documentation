@@ -10,7 +10,7 @@ lang: en
 
 ### Get already imported Flatrate Term Import Records to apply them again on another system
 ```
-
+INSERT INTO i_flatrate_term 
 SELECT
   i_flatrate_term_id,
   ad_client_id,
@@ -31,7 +31,7 @@ SELECT
   masterstartdate,
   masterenddate,
   qty
-FROM i_flatrate_term;
+FROM other_table
 
 
 ```
