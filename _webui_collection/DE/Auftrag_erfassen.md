@@ -11,7 +11,7 @@ ref: salesorder_recording
 
 ## Schritte
 
-1. [Gehe ins Menü](Menu) und öffne den Link "Aufträge".
+1. [Gehe ins Menü](Menu) und öffne das Fenster "Aufträge".
 1. [Lege einen neuen Auftrag an](Neuer_Datensatz_Fenster_Webui).
 1. Gib im Feld **Auftraggeber** einen Teil des Kundennamens oder der Kundennummer ein.
  >**Hinweis 1:** Drücke die `LEERTASTE`, um alle Kunden zu sehen.<br><br>

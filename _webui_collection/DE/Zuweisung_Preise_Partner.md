@@ -1,5 +1,5 @@
 ---
-title: Wie weise ich Preise einem Partner (Kunden/Lieferanten) zu?
+title: Wie weise ich Preise einem Partner (Kunden/Lieferanten) oder einer Partnergruppe zu?
 layout: default
 tags:
   - Preisgestaltung
@@ -12,7 +12,7 @@ ref: assign_prices_to_partner
 ## Übersicht
 ![](assets/Preissystem_Zuweisung Preise und Partner.png)
 
-In metasfresh gibt es [Verkaufspreislisten und Einkaufspreislisten](Preisliste_anlegen). Die Verkaufspreislisten können den Kunden zugewiesen werden und die Einkaufspreislisten den Lieferanten.
+In metasfresh gibt es [Verkaufspreislisten und Einkaufspreislisten](Preisliste_anlegen). Die Verkaufspreislisten können den Kunden zugewiesen werden und die Einkaufspreislisten den Lieferanten. Diese beiden Preislistenarten können ebenfalls Partnergruppen zugewiesen werden.
 
 ## Verkaufspreisliste einem Kunden zuweisen
 
@@ -38,3 +38,14 @@ Um eine Einkaufspreisliste zu erhalten, musst Du in dem betreffenden Preislisten
 
 ## Beispiel
 ![](assets/Zuweisung_Preise_Partner.gif)
+
+---
+
+## Preisliste einer Partnergruppe zuweisen
+1. Öffne einen bestehenden [Geschäftspartner](Menu)eintrag bzw. [lege einen neuen Geschäftspartner an](Neuer_Geschaeftspartner).
+1. [Springe zum Inhalt des Feldes](Springezu) "[Geschäftspartnergruppe](Neue_Geschaeftspartnergruppe)". Es öffnet sich der jeweilige Geschäftspartnergruppeneintrag in einem neuen Fenster.
+1. Wähle in diesem Fenster nun das gewünschte **Preissystem** aus.
+1. [metasfresh speichert automatisch](Speicheranzeige).
+
+## Beispiel
+![](assets/Zuweisung_Preise_Partnergruppe.gif)

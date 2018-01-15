@@ -11,7 +11,7 @@ ref: add_currency
 
 ## Schritte
 
-1. [Gehe ins Menü](Menu) und öffne den Link "Währung".
+1. [Gehe ins Menü](Menu) und öffne das Fenster "Währung".
 1. [Lege eine neue Währung an](Neuer_Datensatz_Fenster_Webui).
 1. Gib den **ISO Währungscode** ein, z.B. EUR.
 1. Gib eine **Beschreibung** der Währung an, z.B. "Euro (100 Cent)".

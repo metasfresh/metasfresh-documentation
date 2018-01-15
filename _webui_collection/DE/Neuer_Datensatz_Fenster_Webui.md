@@ -11,7 +11,7 @@ ref: new_record_window
 
 
 ## Mit der Tastatur
-Drücke die Tastenkombination `Alt + M`.
+Drücke die Tastenkombination `Alt + N`.
 
 ## Mit der Maus
 Klicke auf ![](assets/actionsmenu_WebUI.png)

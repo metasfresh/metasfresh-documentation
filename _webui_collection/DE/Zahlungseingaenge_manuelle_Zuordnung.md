@@ -16,7 +16,7 @@ Zahlt ein Kunde mehrere Rechnungen auf einmal, musst Du den erhaltenen Zahlungsb
 Stelle sicher, dass Dir mehrere offene [Rechnungen](Zu_Auftrag_Rechnung_erstellen) vorliegen.
 
 ## Schritte
-1. [Gehe ins Menü](Menu) und öffne den Link "Zahlungen".
+1. [Gehe ins Menü](Menu) und öffne das Fenster "Zahlungen".
 1. [Lege eine neue Zahlung an](Neuer_Datensatz_Fenster_Webui).
 1. Wähle den **Geschäftspartner** aus.
 1. Wähle die **Belegart** *Zahlungseingang* aus.

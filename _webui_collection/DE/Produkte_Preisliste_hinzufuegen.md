@@ -25,7 +25,7 @@ Ebenso gibt es zwei Wege, um zu überprüfen, welche Produkte auf einer Preislis
 ---
 
 ## Per Filterfunktion
-1. [Gehe ins Menü](Menu) und öffne den Link "Produkt Preise".
+1. [Gehe ins Menü](Menu) und öffne das Fenster "Produkt Preise".
 1. [Filtere](Filterfunktion) die Tabelle nach der gewünschten Preislistenversion.
 1. Es werden Dir nur noch die Produkte angezeigt, die auf der ausgewählten Preisliste stehen.
 

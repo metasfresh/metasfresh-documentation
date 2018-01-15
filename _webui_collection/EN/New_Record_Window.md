@@ -11,7 +11,7 @@ ref: new_record_window
 
 
 ## Keyboard shortcut
-Press `Alt + M`.
+Press `Alt + N`.
 
 ## With the mouse
 Click ![](assets/actionsmenu_WebUI.png) and then "New".

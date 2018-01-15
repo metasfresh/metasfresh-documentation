@@ -10,7 +10,7 @@ ref: add_new_calendar
 ---
 
 ## Schritte
-1. [Gehe ins Menü](Menu) und öffne den Link "Kalender und Jahr".
+1. [Gehe ins Menü](Menu) und öffne das Fenster "Kalender und Jahr".
 1. [Lege einen neuen Kalender an](Neuer_Datensatz_Fenster_Webui).
 1. Benenne den Kalender im Feld **Name**.
 1. [metasfresh speichert automatisch](Speicheranzeige).

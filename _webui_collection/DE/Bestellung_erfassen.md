@@ -11,7 +11,7 @@ ref: createpurchaseorder
 
 ## Schritte
 
-1. [Gehe ins Menü](Menu) und öffne den Link "Bestellungen".
+1. [Gehe ins Menü](Menu) und öffne das Fenster "Bestellungen".
 1. [Lege eine neue Bestellung an](Neuer_Datensatz_Fenster_Webui).
 1. Gib im Feld **Lieferung von** einen Teil des Lieferantennamens oder der Geschäftspartnernummer ein.
  >**Hinweis 1:** Drücke die `LEERTASTE`, um alle Partner zu sehen.<br><br>

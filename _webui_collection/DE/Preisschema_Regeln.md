@@ -13,7 +13,7 @@ ref: price_list_scheme_rules
 Du kannst in einem Preisschema Regeln festlegen, die beim Kopieren von Preislisten berücksichtigt werden sollen, wie z.B. Preisaufschläge o.ä.
 
 ## Schritte
-1. [Gehe ins Menü](Menu) und öffne den Link "Preis Schema".
+1. [Gehe ins Menü](Menu) und öffne das Fenster "Preis Schema".
 1. Öffne das Preisschema mit dem Namen "Preislisten kopieren".
 1. Gehe zur Registerkarte "Schema Position" unten auf der Seite und klicke auf ![](assets/Neu_hinzufuegen_Button.png). Es öffnet sich ein neues Fenster.
 1. Trage einen **Aufschlag auf Standardpreis** ein.
