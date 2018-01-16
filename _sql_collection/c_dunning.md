@@ -12,6 +12,8 @@ lang: en
 ```
   SELECT
     bp.value as partnernumber,
+	i.documentno as invoice,
+	i.dateinvoiced::date as dateinvoiced,
     dl.name as dunninglevel,
     pq.processed as printed,
     pq.created
@@ -19,6 +21,7 @@ lang: en
   FROM
     c_bpartner bp
     LEFT JOIN c_dunning_candidate dc ON bp.c_bpartner_id = dc.c_bpartner_id
+	LEFT JOIN c_invoice i on dc.record_id=i.c_invoice_id and dc.ad_table_id = 318
     LEFT JOIN c_dunningdoc_line_source dls ON dls.c_dunning_candidate_id = dc.c_dunning_candidate_id
     LEFT JOIN c_dunningdoc_line ddl ON ddl.c_dunningdoc_line_id = dls.c_dunningdoc_line_id
     LEFT JOIN c_dunningdoc dd ON dd.c_dunningdoc_id = ddl.c_dunningdoc_id
