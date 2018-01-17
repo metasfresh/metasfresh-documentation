@@ -17,4 +17,4 @@ ref: define_prices
 1. [Lege eine Preisliste an](Preisliste_anlegen).
 1. [Lege eine Preislistenversion an](Preislistenversion_anlegen).
 1. [Lege einen Preis an](Preis_anlegen).
-1. [Ordne die Preise einem Partner zu](Zuordnung_Preise_Partner).
+1. [Weise die Preise einem Partner zu](Zuweisung_Preise_Partner).
