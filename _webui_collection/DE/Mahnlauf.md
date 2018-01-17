@@ -14,7 +14,7 @@ ref: dunning_run
 1. Habe eine nicht bezahlte [Rechnung](Zu_Aufrag_Rechnung_erstellen) vorliegen.
 
 ## Schritte
-1. [Gehe ins Menü](Menu) und öffne den Link "Mahndisposition".
+1. [Gehe ins Menü](Menu) und öffne das Fenster "Mahndisposition".
 1. [Starte die Aktion](AktionStarten) "Mahnkandidaten erstellen/aktualisieren". Es öffnet sich ein neues Fenster.
 1. Klicke auf "Start", um die Kandidaten zu aktualisieren und das Fenster zu schließen.
 1. Drücke `F5`, um das Mahndispositionsfenster neuzuladen und die aktualisierten Kandidaten zu sehen.

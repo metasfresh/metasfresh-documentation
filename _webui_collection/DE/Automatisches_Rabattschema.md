@@ -10,7 +10,7 @@ ref: automatic_discount_scheme
 ---
 
 ## Schritte
-1. [Gehe ins Menü](Menu) und öffne den Link "Rabatte".
+1. [Gehe ins Menü](Menu) und öffne das Fenster "Rabatte".
 1. [Lege ein neues Rabattschema an](Neuer_Datensatz_Fenster_Webui).
 1. Benenne das Rabattschema im Feld **Name**.
 1. Wähle die **Rabattart** *Breaks* aus.

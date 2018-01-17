@@ -33,7 +33,7 @@ Möchtest Du auf einen Gruppenrabatt noch weitere Rabatte vergeben, die sich an 
 1. Selektiere eine Auftragszeile aus der betreffenden Gruppe.
 1. [Starte erneut die Aktion](AktionStarten) "Create Group". Es öffnet sich ein neues Fenster.
 1. Wähle das **Produkt** *Rabatt* aus und die betreffende **Gruppe**.
- >**Hinweis:** Hast du eine eigene Gruppe erstellt, gib diese unter **Gruppenname** erneut ein.
+ >**Hinweis:** Hast Du eine eigene Gruppe erstellt, gib diese unter **Gruppenname** erneut ein.
 
 1. Klicke auf "Bestätigen", um das Fenster zu schließen und die Gruppe zu erstellen. Es wird eine weitere Rabattzeile zur Liste hinzugefügt.
 1. Klicke doppelt auf das Feld **Gruppen Preisminderung** dieser Rabattzeile und gib dort einen Prozentbetrag ein.

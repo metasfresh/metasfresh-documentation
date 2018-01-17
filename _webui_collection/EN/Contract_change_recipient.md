@@ -10,7 +10,7 @@ ref: contract_change_recipient
 ---
 
 ## Steps
-1. Open a [current Contract](Create_contract).
+1. Open an [existing contract](Create_contract).
 1. [Start the action](StartAction) "Change Recipient". A new window opens up.
  >**Note:** If you have selected the Contract in the list view, you can also go to the [quick actions](StartAction) button at the top right to start the action ![](assets/Change_recipient_button.png).
 

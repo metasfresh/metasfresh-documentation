@@ -15,7 +15,7 @@ Bei der [Gruppenrabattierung](Auftragszeilengruppenrabatt) benötigst Du ein Pro
 -	Es muss mit **derselben Preisliste** verknüpft sein wie der Auftrag, in dem der Rabatt gewährt werden soll.
 
 ## Schritte
-1. [Gehe ins Menü](Menu) und öffne den Link "Produkt".
+1. [Gehe ins Menü](Menu) und öffne das Fenster "Produkt".
 1. [Lege ein neues Produkt an](Neuer_Datensatz_Fenster_Webui).
 1. Trage in das Feld **Artikelname** einen beliebigen Namen ein, z.B. "Rabatt".
 1. Wähle die **Artikelkategorie** *Diverse* aus.

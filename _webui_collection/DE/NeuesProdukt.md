@@ -11,7 +11,7 @@ ref: newproduct
 
 ## Schritte
 
-1. [Gehe ins Menü](Menu) und öffne den Link "Produkt".
+1. [Gehe ins Menü](Menu) und öffne das Fenster "Produkt".
 1. [Lege ein neues Produkt an](Neuer_Datensatz_Fenster_Webui).
 1. Fülle das Feld **Artikelname** aus.
  >**Hinweis:** Dieser Name erscheint auf den Belegen wie Auftragsbestätigung usw.
