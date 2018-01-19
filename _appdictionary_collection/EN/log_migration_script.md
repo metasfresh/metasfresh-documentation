@@ -14,8 +14,22 @@ This guide shows you how to activate migration script logging.
 
 ## Steps
 
-1. login to the java backend
-1. go to settings via menu
+1. login to the java backend with Role "System Administrator"
+1. go to settings
 1. make sure "Log migration script" is ticked
-![](assets/log_migration_script-cb71a.png)
-1. you find the logged migration scripts by hovering over the checkbox
+1. make sure "Cache Windows" is NOT ticked ![](assets/log_migration_script-fe6ee.png)
+1. open [Open window "System Config"](Menu)
+1. search for the name DICTIONARY_ID_COMMENTS
+1. put in the field "value" the label you want to log together with your changes later in the migration script. e.g. "Github Issue 123"
+1. Change something like for example the name of a window
+1. go back to the settings
+1. hover over the "logged migration scripts" checkbox to see the path where the scripts are stored. should be something like `<your metasfresh client folder>/migration_scripts`
+1. go to the path and open the script folder
+1. you see your change in the form of a sql statement together with your custom label e.g. "Github issue 123"
+
+```
+-- 2018-01-19T16:51:23.062
+-- Github Issue 123
+UPDATE AD_Window SET Name='Auftrag test',Updated=TO_TIMESTAMP('2018-01-19 16:51:23','YYYY-MM-DD HH24:MI:SS'),UpdatedBy=100 WHERE AD_Window_ID=143
+;
+```
