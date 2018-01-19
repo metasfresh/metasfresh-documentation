@@ -20,4 +20,4 @@ psql:/opt/metasfresh/dist/sql/datamigration/0080_partner_group.sql:1: ERROR:  du
 In case you applied the script already manually and added it to the release afterwards, you need to manually add the script to the ad_migrationscript table.
 Here is an example how to do it:
 
-[SQL for inserting ad_migrationscript](../../sql/ad_migrationscript)
+[SQL for inserting ad_migrationscript](/sql/ad_migrationscript)
