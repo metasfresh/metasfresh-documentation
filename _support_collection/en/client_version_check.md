@@ -3,7 +3,6 @@ layout: default
 title: When and how to use "-Dde.metas.clientcheck.Enabled=false"
 issue: https://github.com/metasfresh/metasfresh-documentation/issues/30
 tags:
-  - Support
   - client
 lang: en
 ---

@@ -2,9 +2,8 @@
 title: Match receipts and shipments via their common HUs
 component: de.metas.handlingunits
 tags: 
-  - Support
-  - handling units
   - sql
+  - handling units
 lang: en
 layout: default
 sequence: 10
