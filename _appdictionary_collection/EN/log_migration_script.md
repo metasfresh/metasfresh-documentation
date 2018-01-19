@@ -18,7 +18,7 @@ This guide shows you how to activate migration script logging.
 1. go to settings
 1. make sure "Log migration script" is ticked
 1. make sure "Cache Windows" is NOT ticked ![](assets/log_migration_script-fe6ee.png)
-1. open [Open window "System Config"](Menu)
+1. open window "System Config"
 1. search for the name DICTIONARY_ID_COMMENTS
 1. put in the field "value" the label you want to log together with your changes later in the migration script. e.g. "Github Issue 123"
 1. Change something like for example the name of a window
