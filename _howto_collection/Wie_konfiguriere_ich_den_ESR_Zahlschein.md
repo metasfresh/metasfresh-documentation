@@ -11,7 +11,7 @@ lang: de
 
 ## via SQL
 
-1. SQL Script ausführen https://github.com/metasfresh/metasfresh-dist-orgs/blob/master/misc/sql/configuration/5475402_cli_ESR_enable.sql
+1. [SQL Script ausführen](https://github.com/metasfresh/metasfresh-dist-orgs/blob/master/misc/sql/configuration/5475402_cli_ESR_enable.sql)
 1. Anwendungsserver neustarten
 
 ## ESR-Aktivierung manuell
