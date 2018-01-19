@@ -22,5 +22,5 @@ Tables contains all migration scripts that have been applied to the db so on an 
         'datamigration', NULL, '1', NULL, 'CO', NULL, now(), 100, 'N',
      '0080_partner_group.sql', NULL);
 	  
-	```
+```
 
