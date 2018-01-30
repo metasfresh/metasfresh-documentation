@@ -10,9 +10,8 @@ lang: en
 ```
 Exception in thread "main" de.metas.migration.exception.ScriptExecutionException: Error: Script execution failed
 ...
-psql:/opt/metasfresh/dist/sql/datamigration/0080_partner_group.sql:1: ERROR:  duplicate key value violates unique constraint "c_bp_group_pkey"
-       DETAIL:  Key (c_bp_group_id)=(540005) already exists.
-...
+ psql:/opt/metasfresh/dist/sql/10-de.metas.adempiere/5480915_sys_gh3233_RoleAccess_indexes.sql:9: ERROR:  could not create unique index "ad_window_access_uq"
+        DETAIL:  Key (ad_role_id, ad_window_id)=(540026, 540165) is duplicated.
 ```
 
 ## Option 1 - Script was already manually applied
