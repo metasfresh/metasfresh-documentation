@@ -52,7 +52,7 @@ Problem: webui is not reachable
 
   `docker exec -it -u postgres instance_db_1 psql -d metasfresh`
   
-- [create add_migrationscript function](/sql_collection/ad_migrationscript)
+- if your version is before 5.43 then also [create the add_migrationscript function](/sql_collection/ad_migrationscript) 
 
 - add script to db via
 
