@@ -35,6 +35,8 @@ CREATE FUNCTION add_migrationscript(varchar)
 select add_migrationscript('<foldername>/<filename.sql>');
 ```
 
-e.g.
+Example
 
+```
 select add_migrationscript('configuration/changingpartnerwindow.sql');
+```
