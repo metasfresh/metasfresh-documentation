@@ -16,6 +16,9 @@ Tables contains all migration scripts that have been applied to the db so on an 
 
 ### Create function
 
+**Important: only needed BEFORE 5.43**
+
+
 ```
 CREATE FUNCTION add_migrationscript(varchar)
   returns void as $$
