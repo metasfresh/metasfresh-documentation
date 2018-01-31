@@ -28,5 +28,5 @@ $$;
 
 In this example you can see how the sql makes sure the year 2018 is not existing to prevent the migration script from hitting the unique constraint on fiscalyear (there can be only one year "2018" per calendar)
 
-https://github.com/metasfresh/metasfresh/blob/9cf986b4c7a138dfca96a42e2d560b923ea33f9c/de.metas.adempiere.adempiere/migration/src/main/sql/postgresql/system/10-de.metas.adempiere/5481470_cli_gh3272_add_year_2018_and_periods.sql
+[5481470_cli_gh3272_add_year_2018_and_periods.sql](https://github.com/metasfresh/metasfresh/blob/9cf986b4c7a138dfca96a42e2d560b923ea33f9c/de.metas.adempiere.adempiere/migration/src/main/sql/postgresql/system/10-de.metas.adempiere/5481470_cli_gh3272_add_year_2018_and_periods.sql)
 
