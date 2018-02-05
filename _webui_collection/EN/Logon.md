@@ -11,7 +11,7 @@ ref: logon
 ## Steps
 
 1. Open the URL of the metasfresh Service in your web browser, e.g. http://dockerhost.
-1. Log on with the username _it_ and the password _demostart_.
+1. Log on with the username _it_ and the password _demostart_
 
  > **Important:** The username is also case-sensitive!
 
