@@ -11,17 +11,17 @@ ref: newproduct
 
 ## Schritte
 
-1. [Gehe ins Menü](Menu) und öffne den Link "Produkt".
-1. [Lege einen neues Produkt an](Neuer_Datensatz_Fenster_Webui).
+1. [Gehe ins Menü](Menu) und öffne das Fenster "Produkt".
+1. [Lege ein neues Produkt an](Neuer_Datensatz_Fenster_Webui).
 1. Fülle das Feld **Artikelname** aus.
- > Hinweis: Dieser Name erscheint auf den Belegen wie Auftragsbestätigung usw.
+ >**Hinweis:** Dieser Name erscheint auf den Belegen wie Auftragsbestätigung usw.
 
 1. Wähle als nächstes eine **Artikelkategorie** aus.
- > Hinweis: Die **Artikelkategorie** kann verwendet werden, um die Rabattierung, Kontierung und den Merkmalsatz eines Artikels zu steuern.
+ >**Hinweis:** Die **Artikelkategorie** kann verwendet werden, um die Rabattierung, Kontierung und den Merkmalsatz eines Artikels zu steuern.
 
 1. Fülle das Feld **Artikelnummer** aus.
- > Hinweis 1: Diese Nummer erscheint auf den Belegen wie Auftragsbestätigung usw.<br><br>
- > Hinweis 2: Diese Nummer kann auch automatisch vergeben werden.
+ >**Hinweis 1:** Diese Nummer erscheint auf den Belegen wie Auftragsbestätigung usw.<br><br>
+ >**Hinweis 2:** Diese Nummer kann auch automatisch vergeben werden.
 
 ### Nächste Schritte
 - [Einkaufs- oder Verkaufspreis hinterlegen](ProduktPreis)
@@ -34,8 +34,8 @@ ref: newproduct
 ## Weitere wichtige Felder
 
 - Das Feld **Maßeinheit** bestimmt, in welcher Einheit der Artikel im Bestand geführt wird.
- > Hinweis 1: Sobald der erste Beleg existiert, in dem der Artikel verwendet wird, kann die Maßeinheit nicht mehr ohne weiteres geändert werden.<br><br>
- > Hinweis 2: Eine abweichende Preiseinheit kann unter der Registerkarte "Preis" losgelöst von der Maßeinheit definiert werden.
+ >**Hinweis 1:** Sobald der erste Beleg existiert, in dem der Artikel verwendet wird, kann die Maßeinheit nicht mehr ohne weiteres geändert werden.<br><br>
+ >**Hinweis 2:** Eine abweichende Preiseinheit kann unter der Registerkarte "Preis" losgelöst von der Maßeinheit definiert werden.
 
 - Das Feld **Artikelart** bestimmt, um welche Art von Artikel es sich handelt.
 

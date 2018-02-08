@@ -5,6 +5,7 @@ tags:
   - Benutzung
   - Navigation
 lang: de
+sequence: 20
 ref: viewmodes
 ---
 
@@ -23,7 +24,7 @@ Hier siehst Du, wie Du zwischen Einzel- und Listenansicht hin und her wechseln k
 
 ## Erweiterte Erfassung
 Die Einzelansicht zeigt nur die wichtigsten Felder. Um alle weiteren Felder zu sehen und zu bearbeiten, kannst Du über das [Aktionsmenü](AktionStarten) in die "Erweiterte Erfassung" wechseln.
- > Hinweis: Tastenkombination `Strg + E` verwenden, um in das Fenster "Erweiterte Erfassung" zu wechseln.
+ >**Hinweis:** Drücke `Alt + E`, um in das Fenster "Erweiterte Erfassung" zu wechseln.
 
 Hier siehst Du, wie Du von der Einzelansicht in die Erweiterte Erfassung wechselst:
 

@@ -1,6 +1,8 @@
 ---
 title: Welche Produkt Felder kann ich importieren ?
 layout: default
+  - Datenimport 
+  - Produktdaten
 lang: de
 ---
 

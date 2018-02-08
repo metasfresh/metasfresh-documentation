@@ -5,6 +5,7 @@ tags:
   - Benutzung
   - Navigation
 lang: de
+sequence: 40
 ref: jumpto
 ---
 
@@ -14,7 +15,7 @@ ref: jumpto
 1. Wird der Feldname unterstrichen angezeigt, klicke ihn einfach an.
 1. Es öffnet sich eine neue Registerkarte mit den Detaildaten des Feldes.
 
-**Wichtig**: Dieses Feature funktioniert nur bei deaktiviertem Pop-Up-Blocker!
+**Wichtig:** Dieses Feature funktioniert nur bei deaktiviertem Pop-Up-Blocker!
 
 ## Beispiel
 

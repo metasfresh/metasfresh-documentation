@@ -5,11 +5,12 @@ tags:
   - Usage
   - Navigation
 lang: en
+sequence: 10
 ref: menu
 ---
 
 ## Open the menu
-Click ![](assets/Menu_House_WebUI.png) or use shortcut `Ctrl + 2` to open the menu.
+Click ![](assets/Menu_House_WebUI.png) or use shortcut `Alt + 2` to open the menu.
 
 ## Click a node
 Click on the node you want to open.<br>

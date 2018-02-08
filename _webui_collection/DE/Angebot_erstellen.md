@@ -6,8 +6,8 @@ tags:
   - Verkauf
   - CRM
 lang: de
-sequence: 20
-ref: create_quotation
+sequence: 10
+ref: create_salesquotation
 ---
 
 ## Schritte

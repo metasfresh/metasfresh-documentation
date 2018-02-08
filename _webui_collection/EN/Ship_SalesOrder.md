@@ -15,11 +15,10 @@ ref: ship_salesorder
 1. [Jump to](JumptoviaSidebar) Shipment Disposition.
 1. [Select the order lines](RecordSelection) you want to ship.
 1. [Start the action](StartAction) "Generate Shipments".
-1. Confirm by clicking "Start".
-1. You will receive a notification ![](assets/NotificationBell_WebUI.png) in the upper right corner once the shipment has been generated.
+1. Click "Start" to confirm and close the window.
+1. You will receive a notification ![](assets/NotificationBell_WebUI.png) in the upper right corner once the shipment is generated.
 1. Follow the link in the notification to open the delivery note document.
 1. [Open the PDF print preview](PrintPreview).
-<br>
 
 ## Example
 

@@ -4,7 +4,7 @@ layout: default
 tags:
   - Usage
 lang: en
-sequence: 40
+sequence: 50
 ref: activate_record
 ---
 

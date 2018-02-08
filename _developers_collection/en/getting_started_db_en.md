@@ -83,11 +83,11 @@ This section describes how to update your local (developer) DB with the latest m
 
 You can get those migration script by downloading them as a `tar.gz` file from this URL
 
-[https://repo.metasfresh.com/service/local/artifact/maven/redirect?g=de.metas.dist&a=de.metas.endcustomer.mf15.dist&v=LATEST&r=mvn-master&p=tar.gz&c=sql-only](https://repo.metasfresh.com/service/local/artifact/maven/redirect?g=de.metas.dist&a=de.metas.endcustomer.mf15.dist&v=LATEST&r=mvn-master&p=tar.gz&c=sql-only)
+[https://repo.metasfresh.com/service/local/artifact/maven/redirect?g=de.metas.dist&a=metasfresh-dist-dist&v=LATEST&r=mvn-master&p=tar.gz&c=sql-only](https://repo.metasfresh.com/service/local/artifact/maven/redirect?g=de.metas.dist&a=metasfresh-dist-dist&v=LATEST&r=mvn-master&p=tar.gz&c=sql-only)
 
 Note: under linux, you might want to run
 ```bash
-wget --trust-server-names "https://repo.metasfresh.com/service/local/artifact/maven/redirect?g=de.metas.dist&a=de.metas.endcustomer.mf15.dist&v=LATEST&r=mvn-master&p=tar.gz&c=sql-only"
+wget --trust-server-names "https://repo.metasfresh.com/service/local/artifact/maven/redirect?g=de.metas.dist&a=metasfresh-dist-dist&v=LATEST&r=mvn-master&p=tar.gz&c=sql-only"
 ```
 
 That tar.gz contains
@@ -137,5 +137,3 @@ Then, when you insertfor example a new record into `AD_Column`, the system will 
 
 * [this forum thread](https://forum.metasfresh.org/t/how-to-update-database-in-local-dev-env/428) is about the same issue
 * The github issue [metasfresh/metasfresh#690](https://github.com/metasfresh/metasfresh/issues/690) is about applying the scripts directly out of your local Eclipse. [This comment](https://github.com/metasfresh/metasfresh/issues/690#issuecomment-269940848) from issue 690 outlines what aparently needs to be done to achieve this.
-
-

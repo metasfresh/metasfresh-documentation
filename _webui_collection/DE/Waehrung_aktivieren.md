@@ -5,13 +5,13 @@ tags:
   - Stammdaten
   - Währung
 lang: de
-sequence: 40
+sequence: 30
 ref: activate_currency
 ---
 
 ## Schritte
 
-1. [Gehe ins Menü](Menu) und öffne den Link "Währung".
+1. [Gehe ins Menü](Menu) und öffne das Fenster "Währung".
 1. Wähle die Währung, welche Du aktivieren möchtest, in der [Listenansicht](Ansichten) aus.
 1. [Aktiviere](Datensatz_aktivieren) die Währung.
 

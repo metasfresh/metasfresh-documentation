@@ -4,13 +4,13 @@ layout: default
 tags:
   - Setup
 lang: en
-sequence: 20
+sequence: 10
 ref: switchlanguage
 ---
 
 ## Steps
 
-1. Go to the User Menu by clicking on ![](assets/UserMenu_Rabbit_WebUI.png) in the upper right corner of the window or by pressing `Ctrl + 4`.
+1. Go to the User Menu by clicking on ![](assets/UserMenu_Rabbit_WebUI.png) in the upper right corner of the window or by pressing `Alt + 4`.
 1. Click on "Settings".
 1. Switch to another **Language**.
 

@@ -2,9 +2,10 @@
 title: Quickstart
 layout: default
 tags:
-  - Beginner Guide
+  - Beginner's Guide
 
 lang: en
+sequence: 10
 ref: quickstart
 ---
 

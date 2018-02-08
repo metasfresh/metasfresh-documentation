@@ -12,7 +12,7 @@ ref: productplanning
 ## Übersicht
 Mit den Produktplandaten kannst Du einstellen, was passieren soll, wenn ein Produkt verkauft wird.
 Ein Produkt kann ein einzelnes Fertigprodukt sein oder aus mehreren Komponenten bestehen. Unter Umständen hast Du dieses Produkt oder seine Komponenten nicht (mehr) auf Lager, also musst Du es **einkaufen** oder **produzieren**.
- >Hinweis: Im Fenster *Handling Unit Editor* erhältst Du eine Übersicht der Produkte auf Lager.
+ >**Hinweis:** Im Fenster *Handling Unit Editor* erhältst Du eine Übersicht der Produkte auf Lager.
 
 Wird ein Auftrag erfasst, überprüft die *Materialdisposition* anhand der Produktplandaten automatisch, welche Produkte auf Lager sind, eingekauft oder produziert werden müssen.
 
@@ -24,10 +24,9 @@ Wird ein Auftrag erfasst, überprüft die *Materialdisposition* anhand der Produ
 ## Schritte
 
 ### Plandaten konfigurieren
-1. [Gehe ins Menü](Menu) und öffne den Link "Produkt Plandaten".
+1. [Gehe ins Menü](Menu) und öffne das Fenster "Produkt Plandaten".
 1. Wähle das Produkt in der [Listenansicht](Ansichten) aus.
-1. Gehe zur Registerkarte "Daten Planung" unten auf der Seite.
-1. [Lege einen neuen Datensatz an](Neuer_Datensatz_Tab_Webui). Es öffnet sich ein neues Fenster.
+1. Gehe zur Registerkarte "Daten Planung" unten auf der Seite und klicke auf ![](assets/Neu_hinzufuegen_Button.png). Es öffnet sich ein neues Fenster.
 
 ---
 
@@ -45,6 +44,6 @@ Wird ein Auftrag erfasst, überprüft die *Materialdisposition* anhand der Produ
 1. Soll der Produktionsauftrag von der Materialdisposition berücksichtigt werden, setze ein Häkchen bei **Plan erzeugen**.
 1. Soll der Produktionsauftrag automatisch fertiggestellt werden, setze ein Häkchen bei **IsDocComplete**.
 1. Setze das Feld **Wird produziert** auf *Ja*.
- >Hinweis: In diesem Fall legt die Materialdisposition automatisch einen Produktionsauftrag an, sobald ein Auftrag erstellt wurde.
+ >**Hinweis:** In diesem Fall legt die Materialdisposition automatisch einen Produktionsauftrag an, sobald ein Auftrag erstellt wurde.
 
 1. Klicke auf "Bestätigen", um das Fenster zu schließen und die Plandaten zur Liste hinzuzufügen.
