@@ -11,7 +11,7 @@ ref: developers_getting_started_clone
 
 To check out the metasfresh source code, go to the different metasfreshs repositories at [https://github.com/metasfresh/](https://github.com/metasfresh/) and create your initial clones.
 
-Particularly if you are new to git, we recommend installing _GitHub Desktop_ from [https://desktop.github.com/](https://desktop.github.com/) and then use the "Open in Desktop"
+Particularly if you are new to git, you might want to use _GitHub Desktop_ from [https://desktop.github.com/](https://desktop.github.com/) and then use the "Open in Desktop"
 option. Also note that we basically follow the "GitHub Flow" which is documented at [https://guides.github.com/introduction/flow/](https://guides.github.com/introduction/flow/).
 
 The projects to clone are
