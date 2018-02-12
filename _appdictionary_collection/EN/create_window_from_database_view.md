@@ -25,6 +25,13 @@ In this guide you see how the window feature is used to retrieve data that you t
   100 as updatedby, --or any other ad_user_id
   'Y' as isactive,
   ```
+
+1. add more columns
+  If you want to add more columns like a partner name, you want to use the name of the partner ID instead and let metasfresh resolve to a value and name later in the window:
+  ```
+	  c_bpartner_id, --instead of partner_name, etc.
+  ```
+
 1. add unique id to each row
 
   `SELECT row_number() OVER () AS <viewname>+"_id" --or any other id`
