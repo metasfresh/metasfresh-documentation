@@ -12,15 +12,17 @@ lang: en
 ### Business Partner with address and contact
 ```
 select
-	o.name as Org,
+	o.name as orgname,
 	bp.name,
 	bp.iscompany,
 	bp.iscustomer,
 	bp.isvendor,
 	bp.value,
+  	bpg.name,
 	l.address1,
 	l.postal,
 	l.city,
+	r.name as region,
 	u.firstname,
 	u.lastname,
 	''
@@ -29,6 +31,8 @@ select
 	left join c_location l on l.c_location_id = bpl.c_location_id -- address
 	left join ad_user u on u.c_bpartner_id = bp.c_bpartner_id -- contacts
 	left join ad_org o on bp.ad_org_id = o.ad_org_id
+  	left join c_region r on r.c_region_id = l.c_region_id
+  	left join c_bp_group bpg on bpg.c_bp_group_id = bp.c_bp_group_id
 ```
 
 

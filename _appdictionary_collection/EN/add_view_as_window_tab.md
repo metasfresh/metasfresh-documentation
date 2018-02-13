@@ -1,5 +1,5 @@
 ---
-title: How do I add a window tab and have a view as data source ?
+title: Link a Window tab to a view instead of table
 layout: default
 tags:  
   - Window
@@ -8,54 +8,15 @@ lang: en
 
 ## Overview
 
-This guide shows you how to configure a tab in a window that uses a view (not table) as data source
-In general this is how its done:
+This guide shows you how to configure a tab in a window that uses a view (not table) as data source.
 
-1. create view in postgres
-1. create ad_table from that in metasfresh using the backend
+In general you create the view and table as described here:
+[Create Window from database View](create_window_from_database_view)
 
-Please notice that if you want to use a table as record source and not a view it is the other way around.
+But instead of a window you create a tab in an existing window.
 
+In order to do that you need a link column between your view and the parent tab of the window you want to add your view to.
 
-## Steps
-
-### create the view on postgres
-
-make sure you have the columns:
-* ad_client_id,
-* ad_org_id,
-* created,
-* createdby,
-* updated
-* updatedby
-
-example:
-``` 
- CREATE OR REPLACE VIEW yourview AS 
- SELECT 
-	r.c_bpartner_id,
-    r.datetrx,
-    r.documentno,
-    r.summary AS description,
-    rt.name AS typ,
-    r.ad_client_id,
-    r.ad_org_id,
-    r.created,
-    r.createdby,
-    r.updated,
-    r.updatedby,
-    '417'::text AS ad_table_id,
-    r.r_request_id AS record_id,
-    (((417 * 1000000))::numeric + r.r_request_id) AS x_bpartner_history_id
-   FROM (r_request r
-     LEFT JOIN r_requesttype rt ON ((rt.r_requesttype_id = r.r_requesttype_id)))
-```
-
-### create ad_table in metasfresh
-
-important:
-1. you need a unique key column which has the checkbox is "key column"
-1. you need to link the tab and the window using a key column
-
-... to be continued
-
+1. Make sure you got a column in your view that you can use to link. e.g. c_bpartner_id in business partner window
+1. Make your tab on tab level lower than the main tab. So when the main tab is 0 make it 1
+1. Fill in your link column in the field with the same name on tab
