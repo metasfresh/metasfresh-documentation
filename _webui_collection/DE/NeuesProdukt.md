@@ -10,14 +10,16 @@ ref: newproduct
 ---
 
 ## Schritte
-
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Produkt".
 1. [Lege ein neues Produkt an](Neuer_Datensatz_Fenster_Webui).
 1. Fülle das Feld **Artikelname** aus.
  >**Hinweis:** Dieser Name erscheint auf den Belegen wie Auftragsbestätigung usw.
 
-1. Wähle als nächstes eine **Artikelkategorie** aus.
- >**Hinweis:** Die **Artikelkategorie** kann verwendet werden, um die Rabattierung, Kontierung und den Merkmalsatz eines Artikels zu steuern.
+1. Wähle eine **Artikelkategorie** aus.
+ >**Hinweis:** Die Artikelkategorie kann verwendet werden, um die Rabattierung, Kontierung und den Merkmalsatz eines Artikels zu steuern.
+
+1. Wähle eine **Maßeinheit** für den Artikel aus.
+ >**Hinweis:** Dies ist die Maßeinheit für die Bestandsführung und ist ***nicht zu verwechseln*** mit der Preiseinheit!
 
 1. Fülle das Feld **Artikelnummer** aus.
  >**Hinweis 1:** Diese Nummer erscheint auf den Belegen wie Auftragsbestätigung usw.<br><br>
