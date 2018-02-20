@@ -3,8 +3,9 @@ title: How do I add a new Customer?
 layout: default
 tags:
   - Master Data
+  - Business Partner
 lang: en
-sequence: 30
+sequence: 40
 ref: new_business_partner_customer
 ---
 
@@ -14,7 +15,7 @@ In metasfresh you can define whether a business partner is a customer, vendor or
 ## Steps
 
 ### Business Partner as Customer
-1. [Open a window](Menu) "[Business Partner](New_Business_Partner)" in the [detailed view](ViewModes).
+1. Open a [business partner](New_Business_Partner) entry in the [detailed view](ViewModes).
 1. Go to the record tab "Customer" at the bottom of the page.
 1. Open the [Advanced Edit Menu](Open_AdvancedEditTab).
 1. Check the box **Customer**.

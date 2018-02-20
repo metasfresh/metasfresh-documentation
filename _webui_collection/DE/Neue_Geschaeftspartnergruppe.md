@@ -3,8 +3,9 @@ title: Wie lege ich eine neue Geschäftspartnergruppe an?
 layout: default
 tags:
   - Stammdaten
+  - Geschäftspartner
 lang: de
-sequence: 60
+sequence: 70
 ref: new_business_partner_group
 ---
 
