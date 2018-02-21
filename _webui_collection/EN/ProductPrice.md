@@ -16,8 +16,8 @@ ref: productprice
  >**Note:** Hit `SPACE` to see all available price lists.
 
 1. The field **Standard Price** determines the effectively valid purchase or sales price (depending on the respective price list).
-1. The field **UOM** determines the price unit and ***must not be confused*** with the product's UOM used for inventory management! The price unit defines the price per quantity of items.
- >**Note:** If price unit ≠ product UOM, you have to define a [UOM conversion](Convert_UOMs).
+1. The field **UOM** determines the sales UOM and ***must not be confused*** with the product's stock UOM (inventory management)!
+ >**Note:** If sales UOM ≠ stock UOM, you have to define a [UOM conversion](Convert_UOMs).
 
 1. In the field **Tax Category** you can select the respective value-added tax (VAT) category, such as *normal*, *reduced*, *tax-free*.
 1. Click "Done" to close the window and add the price list version to the list.
@@ -29,4 +29,4 @@ ref: productprice
 ## Further Relevant Fields
 1. The field **List Price** determines the list price that will later appear on the documents.
 1. **Limit Price**: Manual price changes made by the user, e.g. in the order line, must not fall below this amount!
-1. The field **UOM** determines the unit of measurement for which the price applies and must not be confused with the product's UOM used for Inventory Management!
+1. The field **UOM** determines the unit of measurement for which the price applies (sales UOM) and must not be confused with the product's UOM used for inventory management (stock UOM)!
