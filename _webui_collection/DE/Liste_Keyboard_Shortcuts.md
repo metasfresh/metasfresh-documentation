@@ -22,6 +22,8 @@ In metasfresh kannst Du in verschiedenen Kontexten einige Prozesse mithilfe best
 | `Alt + 5` | Dokumentenliste öffnen (Sidebar) ![](assets/Sidebar_Icon_WebUI.png) |
 | `Alt + 6` | Liste der verknüpften Belege öffnen (Sidebar) ![](assets/related_docs_fork.png) |
 | `Alt + 7` | Anhangliste öffnen (Sidebar) ![](assets/Attachment_clip.png) |
+| `Alt + ENTER` | Auswahl öffnen / Anwenden ("Bestätigen") / Filter anwenden |
+| `ESC` | Abbrechen |
 
 ### Kontext: Dokument ([Listenansicht](Ansichten))
 
@@ -44,8 +46,6 @@ In metasfresh kannst Du in verschiedenen Kontexten einige Prozesse mithilfe best
 | `Alt + P` | Druckvorschau öffnen |
 | `Alt + U` | Belegstatus auf "Fertiggestellt" setzen |
 | `Alt + W` | Dokument klonen |
-| `Alt + ENTER` | Auswahl öffnen / Anwenden ("Bestätigen") |
-| `ESC` | Abbrechen |
 
 ### Kontext: Registerkarte (im Dokument)
 

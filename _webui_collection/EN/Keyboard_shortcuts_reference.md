@@ -22,6 +22,8 @@ In metasfresh you can speed up some processes in several contexts by using certa
 | `Alt + 5` | Toggle list of documents (Sidebar) ![](assets/Sidebar_Icon_WebUI.png) |
 | `Alt + 6` | Toggle list of referenced documents (Sidebar) ![](assets/related_docs_fork.png) |
 | `Alt + 7` | Toggle list of attachments (Sidebar) ![](assets/Attachment_clip.png) |
+| `Alt + ENTER` | Open selected / Apply ("Done") / Apply filter |
+| `ESC` | Cancel |
 
 ### Document Context ([list view](ViewModes))
 
@@ -44,8 +46,6 @@ In metasfresh you can speed up some processes in several contexts by using certa
 | `Alt + P` | Open Print Preview |
 | `Alt + U` | Set document status to "Complete" |
 | `Alt + W` | Clone document |
-| `Alt + ENTER` | Open selected / Apply ("Done") |
-| `ESC` | Cancel |
 
 ### Tab Context (in document)
 
