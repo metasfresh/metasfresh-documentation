@@ -12,8 +12,8 @@ ref: voiding_payment
 ## Schritte
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Zahlungen".
 1. Öffne eine [fertiggestellte Zahlung](Einzelner_Zahlungseingang).
-1. Öffne das [Belegverarbeitungsmenü](AktionStarten) (`Alt + I`) und klicke auf *Storno*.<br>
- ![](assets/Zahlung_Status_Storno.png)
+1. Öffne das [Belegverarbeitungsmenü](AktionStarten) (`Alt` + `I` / `⌥ alt` + `I`) und klicke auf *Storno*.<br>
+![](assets/Zahlung_Status_Storno.png)
 
 1. [metasfresh speichert automatisch](Speicheranzeige).
 

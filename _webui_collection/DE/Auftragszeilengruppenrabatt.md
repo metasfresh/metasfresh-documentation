@@ -24,7 +24,7 @@ ref: order_line_group_discount
 1. Klicke auf "Bestätigen", um das Fenster zu schließen und die Gruppe zu erstellen. Es wird eine neue Auftragszeile mit der **Gruppenart** *Rabatt* zur Liste hinzugefügt.
 1. Bewege die horizontale Bildlaufleiste der Auftragszeilentabelle nach rechts, bis Du die Spalte **Gruppen Preisminderung** findest.
 1. Klicke doppelt auf das Feld **Gruppen Preisminderung** der Rabattzeile und gib dort einen Prozentbetrag ein.
-1. Bestätige mit `ENTER`.
+1. Bestätige mit `↵ Enter`.
 1. Folge den restlichen Schritten zur [Auftragserfassung](Auftrag_erfassen), um den Auftrag abzuschließen.
 
 ## Sukzessive Rabattierung
@@ -37,7 +37,7 @@ Möchtest Du auf einen Gruppenrabatt noch weitere Rabatte vergeben, die sich an 
 
 1. Klicke auf "Bestätigen", um das Fenster zu schließen und die Gruppe zu erstellen. Es wird eine weitere Rabattzeile zur Liste hinzugefügt.
 1. Klicke doppelt auf das Feld **Gruppen Preisminderung** dieser Rabattzeile und gib dort einen Prozentbetrag ein.
-1. Bestätige mit `ENTER`.
+1. Bestätige mit `↵ Enter`.
 
 ## Kompensationsgruppe löschen
 Möchtest Du eine Kompensationsgruppe löschen und den Rabatt rückgängig machen, lösche einfach die jeweilige Rabattzeile.

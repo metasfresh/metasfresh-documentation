@@ -7,18 +7,14 @@ tags:
 lang: de
 sequence: 20
 ref: printpreview
-
 ---
 
 ## Mit der Tastatur
-Drücke `Alt + P`, um die Druckvorschau zu öffnen.
+Drücke `Alt` + `P` / `⌥ alt` + `P`, um die Druckvorschau zu öffnen.
 
 ## Mit der Maus
 Klicke auf ![](assets/actionsmenu_WebUI.png) und wähle dann "Print" aus.
-
  >**Hinweis:** Du benötigst einen PDF-Viewer, damit der Beleg in der Druckvorschau angezeigt wird.
-<br>
 
 ## Beispiel
-
- ![](assets/druckvorschau.gif)
+![](assets/druckvorschau.gif)
