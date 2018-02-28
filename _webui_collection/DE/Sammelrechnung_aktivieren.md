@@ -10,7 +10,7 @@ ref: enable_collectivebill
 
 
 ## Schritte
-1. [Gehe ins Menü](Menu) und öffne den Link "Geschäftspartner".
+1. [Gehe ins Menü](Menu) und öffne das Fenster "Geschäftspartner".
 1. Wähle den Geschäftspartner in der [Listenansicht](Ansichten) aus.
 1. Gehe zur Registerkarte "Kunde" unten auf der Seite.
 1. Öffne das ["Advanced Edit"-Menü](AdvancedEditTab_Öffnen).

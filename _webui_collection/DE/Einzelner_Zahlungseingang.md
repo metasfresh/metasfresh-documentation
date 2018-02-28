@@ -16,7 +16,7 @@ Hast Du eine Zahlung erhalten, kannst Du den Betrag als *Zahlungseingang* im Sys
 Stelle sicher, dass Dir eine nicht bezahlte  [Rechnung](Zu_Auftrag_Rechnung_erstellen) vorliegt.
 
 ## Schritte
-1. [Gehe ins Menü](Menu) und öffne den Link "Zahlungen".
+1. [Gehe ins Menü](Menu) und öffne das Fenster "Zahlungen".
 1. [Lege eine neue Zahlung an](Neuer_Datensatz_Fenster_Webui).
 1. Wähle den **Geschäftspartner** aus.
 1. Wähle die **Belegart** *Zahlungseingang* aus.

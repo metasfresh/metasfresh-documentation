@@ -18,9 +18,9 @@ lang: de
 1. Kalender Buchführung öffnen
 1. Register "Jahr" öffnen 
 1. [Neuen Datensatz anlegen](Wie_lege_ich_einen_neuen_datensatz_an)
-1. In Feld **Jahr** die gewünschte Jahreszahl z.b. 2017 eintragen
+1. In Feld **Jahr** die gewünschte Jahreszahl z.b. 2018 eintragen
 1. [Speichern](Wie_lege_ich_einen_neuen_datensatz_an)
 1. Button **Periode anlegen** anklicken
-1. als **Anfangsdatum** den 1. des Folgejahres eingeben. z.B. 01.01.2017
+1. als **Anfangsdatum** den 1. des Folgejahres eingeben. z.B. 01.01.2018
 1. mit OK bestätigen
 1. Die Perioden sind nun im Register "Periode" einsehbar

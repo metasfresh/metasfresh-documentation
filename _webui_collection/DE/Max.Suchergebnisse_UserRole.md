@@ -13,7 +13,7 @@ ref: max_query_records_userrole
 Du kannst die Suchergebnisse, die einem Nutzer in der Listenansicht angezeigt werden, auf ein Maximum beschränken. Gehe hierzu wie folgt vor:
 
 ## Schritte
-1. [Gehe ins Menü](Menu) und öffne den Link "Rolle - Verwaltung".
+1. [Gehe ins Menü](Menu) und öffne das Fenster "Rolle - Verwaltung".
 1. Öffne eine bestehende [Nutzerrolle](Menu) bzw. [lege eine neue Rolle an](NeueBenutzerrolle).
 1. Trage bei **Max. Suchergebnisse** eine Zahl ein, z.B. "50".<br>
 ![](assets/Max.Suchergebnisse_Screenshot.png)

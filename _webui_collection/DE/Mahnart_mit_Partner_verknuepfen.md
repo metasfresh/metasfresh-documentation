@@ -15,7 +15,7 @@ Damit eine Mahnart in Verbindung mit einem Partner wirksam wird, musst Du sie er
 ## Mahnart mit einzelnem Kunden verknüpfen
 
 ### Schritte
-1. Öffne einen bestehenden Kundeneintrag aus deinen [Geschäftspartnern](Menu) bzw. [lege einen neuen Kunden an](Neuer_Geschaeftspartner_Kunde).
+1. Öffne einen bestehenden Kundeneintrag aus Deinen [Geschäftspartnern](Menu) bzw. [lege einen neuen Kunden an](Neuer_Geschaeftspartner_Kunde).
 1. Gehe zur Registerkarte "Kunde" unten auf der Seite und öffne das ["Advanced Edit"-Menü](AdvancedEditTab_Öffnen).
  >**Hinweis:** Der Geschäftspartner muss als Kunde registriert sein, damit die Mahnfunktion verfügbar wird.
 
@@ -33,7 +33,7 @@ Damit eine Mahnart in Verbindung mit einem Partner wirksam wird, musst Du sie er
 ### Schritte
 1. Öffne eine bestehende [Geschäftspartnergruppe](Menu) bzw. [lege eine neue an](Neue_Geschaeftspartnergruppe).
 1. Öffne das "Advanced Edit"-Menü aus dem [Aktionsmenü](AktionStarten).
- >**Hinweis:** Drücke `Alt + E`
+ >**Hinweis:** Drücke `Alt` + `E` / `⌥ alt` + `E`
 
 1. Scrolle runter bis zum Feld **Mahnung** und wähle die gewünschte Mahnart aus.
 1. Klicke auf "Bestätigen", um das Fenster zu schließen und die Änderungen zu übernehmen.

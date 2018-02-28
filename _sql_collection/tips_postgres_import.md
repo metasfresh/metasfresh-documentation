@@ -2,7 +2,6 @@
 title: Import CSV directly via Postgres
 layout: default
 tag:
-  - Datamigration
   - Tips
 
 lang: en

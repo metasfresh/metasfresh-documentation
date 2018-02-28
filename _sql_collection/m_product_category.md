@@ -3,12 +3,15 @@ title: M_Product_Category
 layout: default
 tag: 
    - datamodel
+   - masterdata
 lang: en
 ---
 
 
 ## Example
 
+
+### Insert
 
 ```
 INSERT INTO PUBLIC.m_product_category

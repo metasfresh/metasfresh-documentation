@@ -3,8 +3,9 @@ title: Wie lege ich einen neuen Kunden an?
 layout: default
 tags:
   - Stammdaten
+  - Geschäftspartner
 lang: de
-sequence: 30
+sequence: 40
 ref: new_business_partner_customer
 ---
 
@@ -14,7 +15,7 @@ In metasfresh kannst Du definieren, ob ein Geschäftspartner ein Kunde, Lieferan
 ## Schritte
 
 ### Geschäftspartner als Kunde
-1. [Öffne ein Fenster](Menu) "[Geschäftspartner](Neuer_Geschaeftspartner)" in der [Einzelansicht](Ansichten).
+1. Öffne einen [Geschäftspartner](Neuer_Geschaeftspartner)eintrag in der [Einzelansicht](Ansichten).
 1. Gehe zur Registerkarte "Kunde" unten auf der Seite.
 1. Öffne das ["Advanced Edit"-Menü](AdvancedEditTab_Öffnen).
 1. Setze ein Häkchen bei **Kunde**.

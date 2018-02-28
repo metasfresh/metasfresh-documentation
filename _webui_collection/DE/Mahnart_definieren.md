@@ -13,7 +13,7 @@ ref: define_dunning_type
 Mit der Mahnart bestimmst Du den Zeitpunkt, ab dem ein [Mahnlauf](Mahnlauf) beginnt und wie viele Stufen er durchläuft.
 
 ## Schritte
-1. [Gehe ins Menü](Menu) und öffne den Link "Mahnart".
+1. [Gehe ins Menü](Menu) und öffne das Fenster "Mahnart".
 1. [Erstelle einen neuen Eintrag](Neuer_Datensatz_Fenster_Webui).
 1. Benenne die Mahnart im Feld **Name**.
 1. Wähle einen **Mahnauslöser** aus, z.B. *Standard Zahlungsbedingung*.
@@ -30,7 +30,7 @@ Mit der Mahnart bestimmst Du den Zeitpunkt, ab dem ein [Mahnlauf](Mahnlauf) begi
 1. Wiederhole die Schritte 1 bis 6, um weitere Mahnstufen hinzuzufügen.
 
 ### Nächste Schritte
-- [Verknüpfe]() die Mahnart mit einem einzelnen [Kunden](Neuer_Geschaeftspartner_Kunde) oder einer [Geschäftspartnergruppe](Neue_Geschaeftspartnergruppe).
+- [Verknüpfe](Mahnart_mit_Partner_verknuepfen) die Mahnart mit einem einzelnen [Kunden](Neuer_Geschaeftspartner_Kunde) oder einer [Geschäftspartnergruppe](Neue_Geschaeftspartnergruppe).
 
 ## Beispiel
 ![](assets/Mahnart_definieren.gif)

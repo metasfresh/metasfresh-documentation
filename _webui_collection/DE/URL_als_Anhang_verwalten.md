@@ -13,7 +13,7 @@ ref: howto_attach_urls
 
 ### URL als Anhang speichern
 1. [Öffne](Menu) das Dokument, dem Du ein URL-Lesezeichen anhängen möchtest, z.B. einem "[Geschäftspartner](Neuer_Geschaeftspartner)".
-1. Drücke `Alt + 7`, um zur Anhangliste ![](assets/Attachment_clip.png) in der [Sidebar](SpringezuBelegen) ![](assets/Sidebar_Icon_WebUI.png) zu springen.
+1. Drücke `Alt` + `7` / `⌥ alt` + `7`, um zur Anhangliste ![](assets/Attachment_clip.png) in der [Sidebar](SpringezuBelegen) ![](assets/Sidebar_Icon_WebUI.png) zu springen.
 1. Klicke auf ![](assets/URL_hinzufügen.png). Es öffnet sich ein kleines Eingabefenster.
 1. Kopiere die gewünschte URL (z.B. http://metasfresh.com/) und füge sie in das Feld **URL** ein.
 1. Im Feld **Name** kannst Du das URL-Lesezeichen benennen, z.B. "metasfresh Homepage". Möchtest Du dies nicht tun, wird die URL übernommen.
@@ -21,11 +21,10 @@ ref: howto_attach_urls
 1. Du kannst pro Dokument so viele URLs anhängen, wie Du benötigst.
 
 ### URL öffnen
-Zum Öffnen, drücke `Alt + 7`, um zur Anhangliste zu [springen](SpringezuBelegen) und klicke einfach auf das URL-Lesezeichen (siehe Beispiel).
+Zum Öffnen, drücke `Alt` + `7` / `⌥ alt` + `7`, um zur Anhangliste zu [springen](SpringezuBelegen) und klicke einfach auf das URL-Lesezeichen (siehe Beispiel).
 
 ### URL löschen
-Zum Löschen, drücke `Alt + 7`, um zur Anhangliste zu [springen](SpringezuBelegen) und klicke einfach auf das kleine Löschsymbol ![](assets/delete_icon.png) neben dem URL-Lesezeichen, welches Du löschen möchtest (siehe Beispiel).
+Zum Löschen, drücke `Alt` + `7` / `⌥ alt` + `7`, um zur Anhangliste zu [springen](SpringezuBelegen) und klicke einfach auf das kleine Löschsymbol ![](assets/delete_icon.png) neben dem URL-Lesezeichen, welches Du löschen möchtest (siehe Beispiel).
 
 ## Beispiel
-
 ![](assets/URL_als_Anhang_verwalten.gif)

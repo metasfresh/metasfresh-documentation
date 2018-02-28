@@ -12,7 +12,7 @@ ref: outbound_documents_config
 Du kannst die ausgehenden Belege für eine Vielzahl von Tabellen einrichten, damit die erstellten Belege, wie Rechnungen, Lieferscheine, Mahnbriefe usw., unter dem Menüpunkt "Ausgehende Belege" aufgelistet werden, wo Du dann entweder einzelne Belege der Reihe nach oder im Dutzend weiterverarbeiten kannst.
 
 ## Schritte
-1. [Gehe ins Menü](Menu) und öffne den Link "Ausgehende Belege Konfig".
+1. [Gehe ins Menü](Menu) und öffne das Fenster "Ausgehende Belege Konfig".
 1. [Erstelle einen neuen Konfigurationseintrag](Neuer_Datensatz_Fenster_Webui).
 1. Gib den Namen der **DB-Tabelle**, die Du konfigurieren möchtest, ein und wähle die entsprechende Tabelle aus den Vorschlägen aus, z.B. "Mahnung".
 1. Wähle ein **Druck-Format**.

@@ -22,7 +22,7 @@ Lesezeichen können helfen, das Menü dem persönlichen Bedarf entsprechend übe
  >**Hinweis:** Um ein Lesezeichen zu entfernen, klicke einfach auf das grüne Sternchen. Es wird wieder blau und verschwindet dann.
 
 1. Wiederhole die Schritte 3 bis 5 für alle Menüpunkte, die Du mit einem Lesezeichen markieren möchtest.
-1. Öffne das Menü erneut, um deine personalisierte Menüpunktliste zu sehen.
+1. Öffne das Menü erneut, um Deine personalisierte Menüpunktliste zu sehen.
 
 ## Beispiel
 

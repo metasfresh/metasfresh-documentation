@@ -10,7 +10,7 @@ ref: contract_termination
 ---
 
 ## Schritte
-1. [Gehe ins Menü](Menu) und öffne den Link "Vertrag".
+1. [Gehe ins Menü](Menu) und öffne das Fenster "Vertrag".
 1. [Selektiere den Vertrag](AuswahlBelege), den Du kündigen möchtest, in der [Listenansicht](Ansichten).
  >**Hinweis:** Du kannst auch mehrere Verträge auf einmal kündigen. Selektiere hierzu alle betreffenden Verträge in der Listenansicht und fahre mit den folgenden Schritten fort.
 

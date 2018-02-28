@@ -3,7 +3,7 @@ title: Diagnose and update invoice candidates' doctypes
 component: de.metas.invoicecandidate
 tags: 
   - Support
-  - sql
+  - de.metas.invoicecandidate
 lang: en
 layout: default
 issue: https://github.com/metasfresh/metasfresh/issues/353

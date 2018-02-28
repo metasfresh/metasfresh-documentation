@@ -12,7 +12,7 @@ lang: en
 ```
 
 insert into i_product (i_product_id,ad_client_id,ad_org_id,isactive,created,createdby,updated, updatedby, i_isimported, value,name,
-                       description,documentnote,productcategory_value,x12de355,package_uom_name, c_taxcategory_name,m_pricelist_version_name, pricestd )
+                       description,documentnote,productcategory_value,x12de355, c_taxcategory_name,m_pricelist_version_name, pricestd )
      (
 	select
         nextval('i_product_seq'),
@@ -28,10 +28,9 @@ insert into i_product (i_product_id,ad_client_id,ad_org_id,isactive,created,crea
 		'name of product',
 		'description',
 		'text for documentnote',
-		'value of product category',
-        'x12 name of UOM for package',
+		'value of product category',        
         'x12 name of UOM',
-        'Normalsatz Waren/ DL',
+        'name of tax category',
         'name of pricelistversion',
         123 --pricestd
   FROM migration_data.<yourtablename> 

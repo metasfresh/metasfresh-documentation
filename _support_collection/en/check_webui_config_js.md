@@ -2,7 +2,6 @@
 layout: default
 title: How to find out config.js settings on client
 tags:
-  - Support
   - client
 lang: en
 ---

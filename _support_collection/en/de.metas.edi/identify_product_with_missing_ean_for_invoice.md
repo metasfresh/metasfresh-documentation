@@ -2,9 +2,7 @@
 title: Identify InvoiceLines whose product has a missing UPC/EAN
 component: de.metas.edi
 tags: 
-  - Support
   - EDI
-  - sql
 lang: en
 layout: default
 sequence: 10
