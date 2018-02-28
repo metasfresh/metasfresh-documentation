@@ -11,8 +11,8 @@ ref: productioncompletion
 
 ## Übersicht
 metasfresh bietet zwei Möglichkeiten, den Materialverbrauch bei der Produktion zu protokollieren:
-1. Produkt herstellen, ohne Material zu verbrauchen.
-1. Produkt herstellen und Materialverbrauch protokollieren.
+1. Ein Produkt herstellen, ohne Material zu verbrauchen.
+1. Ein Produkt herstellen und Materialverbrauch protokollieren.
 
 ## Vorbereitung
 Stelle sicher, dass Du diejenigen Produkte, die Du bei der Produktion verbrauchst, vorher auch auf Lager hast.
@@ -24,36 +24,37 @@ Stelle sicher, dass Du diejenigen Produkte, die Du bei der Produktion verbrauchs
  >**Hinweis:** Hast Du den Produktionsauftrag in der Listenansicht selektiert, kannst Du ebenfalls über den [Quick-Actions](AktionStarten)-Button oben rechts die Aktion ![](assets/Actionbutton_Produzieren.png) starten.
 
 ### 1. Produkt herstellen, ohne Material zu verbrauchen
-Dies ist die einfachste Möglichkeit in metasfresh zu produzieren. Hierbei wird die produzierte Menge einfach zugebucht, ohne die benötigten Produkte aus der Stückliste abzubuchen.
+Dies ist die einfachste Möglichkeit in metasfresh zu produzieren. Hierbei wird die produzierte Menge einfach zugebucht, ohne die benötigten Produkte von der Stückliste abzubuchen.
 
-
-1. Klicke im Produktionsfenster das Produkt an, welches Du herstellen möchtest, z.B. "Karotten gestückelt".
+1. Selektiere im Produktionsfenster das Produkt (**MP**), welches Du herstellen möchtest, z.B. "Karotten gestückelt".
  ![](assets/ProduktionFertigstellung_Produktionsfenster.png)
 
-1. Wähle über den Quick-Actions-Button "empfangen" aus.<br>
+1. Wähle über den Quick-Actions-Button "Empfangen" aus.<br>
  ![](assets/ProduktionFertigstellung_empfangen_1.png)<br>
- >**Hinweis:** Wurde dem Produkt eine Gebindekonfiguration zugewiesen, erscheint diese auf dem Quick-Actions-Button anstelle von "empfangen".
+ >**Hinweis:** Wurde dem Produkt eine Packvorschrift zugewiesen, erscheint diese auf dem Quick-Actions-Button anstelle von "Empfangen".
   ![](assets/ProduktionFertigstellung_empfangen_2.png)
 
 1. Es öffnet sich ein neues Fenster.
  ![](assets/ProduktionFertigstellung-ea202.png)
 
-1. Im Feld **Menge CU** trägst Du die fertiggestellte Menge des Produkts ein.
-
-1. Im Feld **Menge TU** trägst Du die Menge der Verpackungseinheiten ein.
- >**Hinweis 1:** Das Feld **Menge TU** erscheint nur, wenn auch eine **Packvorschrift TU** vorhanden ist.<br><br>
+1. ***Optional:*** Wähle eine **Packvorschrift TU** aus.
+1. ***Optional:*** Wähle eine **Packvorschrift LU** aus.
+1. Trage im Feld **Menge CU** die empfangene Menge des Produkts ein.
+1. Trage im Feld **Menge TU** die Anzahl der Transporteinheiten ein.
+ >**Hinweis 1:** Das Feld **Menge TU** erscheint nur, wenn auch eine **Packvorschrift TU** ausgewählt wurde.<br><br>
  >**Hinweis 2:** Die Menge TU muss **mindestens 1** betragen.
 
-1. Im Feld **Menge LU** trägst Du die Menge der Ladehilfsmittel ein.
- >**Hinweis 1:** Das Feld **Menge LU** erscheint nur, wenn auch eine **Packvorschrift LU** vorhanden ist.<br><br>
- >**Hinweis 2:** Das Feld **Packvorschrift LU** erscheint nur, wenn auch eine **Packvorschrift TU** vorhanden ist.
+1. Trage im Feld **Menge LU** die Anzahl der Ladehilfsmittel ein.
+ >**Hinweis 1:** Das Feld **Menge LU** erscheint nur, wenn auch eine **Packvorschrift LU** ausgewählt wurde.<br><br>
+ >**Hinweis 2:** Das Feld **Packvorschrift LU** erscheint nur, wenn auch eine **Packvorschrift TU** ausgewählt wurde.<br><br>
+ >**Hinweis 3:** Die Menge LU muss **mindestens 1** betragen.
 
-1. Klicke auf "Start", um die Zuordnung zu speichern und das Fenster zu schließen.
-
-1. Nach erfolgreicher Zuordnung siehst Du die zugeordneten Produkte unterhalb des herzustellenden Produktes:
+1. Klicke auf "Start", um die empfangenen HUs zu erfassen und das Fenster zu schließen.
+1. Nach erfolgreicher Zuordnung werden die empfangenen HUs unterhalb des herzustellenden Produkts aufgelistet:
  ![](assets/ProduktionFertigstellung-a5222.png)
+  >**Hinweis:** Möchtest Du die Zuordnung rückgängig machen, wähle einfach die hinzugefügte HU aus, gehe zum Quick-Actions-Button und klicke auf "HU entfernen".
 
-1. Wähle über den Quick-Actions-Button "Status: Planning complete" aus, um die Materialbuchungen vorzunehmen. Dadurch werden die Zeilen schreibgeschützt:
+1. Wähle über den Quick-Actions-Button "Verarbeiten" aus, um die Materialbuchung vorzunehmen. Dadurch werden die Zeilen schreibgeschützt:
  ![](assets/ProduktionFertigstellung-ed689.png)
 
 1. Klicke auf "Bestätigen", um das Fenster zu schließen.
@@ -61,25 +62,28 @@ Dies ist die einfachste Möglichkeit in metasfresh zu produzieren. Hierbei wird 
 ## Beispiel 1
 ![](assets/ProduktionFertigstellung_walkthrough.gif)
 
-### 2. Produkt herstellen und Materialverbrauch protokollieren
-Hierbei werden die für die Produktion benötigten Produkte aus der Stückliste abgebucht. Die Zubuchung der produzierten Menge erfolgt wie oben beschrieben.
+---
 
-1. Klicke im Produktionsfenster die Komponente (**CO**) an, welche Du aus der Stückliste abbuchen möchtest, z.B. "Karotten ungewaschen".
+### 2. Produkt herstellen und Materialverbrauch protokollieren
+Hierbei werden die für die Produktion benötigten Produkte von der Stückliste abgebucht. Die Zubuchung der produzierten Menge erfolgt wie oben beschrieben.
+
+1. Selektiere im Produktionsfenster die Komponente (**CO**), welche Du von der Stückliste abbuchen möchtest, z.B. "Karotten ungewaschen".
  ![](assets/ProduktionFertigstellung_Materialverbrauch.png)
 
-1. Wähle über den Quick-Actions-Button "hinzufügen" aus.<br>
- ![](assets/ProduktionFertigstellung_hinzufügen.png)
+1. Wähle über den Quick-Actions-Button "HU-Auswahlfenster öffnen" aus.<br>
+ ![](assets/HU-Auswahlfenster_oeffnen.png)
 
-1. Es öffnet sich eine Übersicht mit den passenden Handhabungseinheiten (Handling Unit - HU) vom Lager.
+1. Es öffnet sich eine Übersicht mit den passenden Handling Units (HU) vom Lager.
  ![](assets/ProduktionFertigstellung_Lagerübersicht.png)
 
-1. Wähle die HU aus, welche für die Produktion verbraucht werden soll.
-
-1. Wähle über den Quick-Actions-Button nochmals "hinzufügen" aus.
-
-1. Nach erfolgreicher Abbuchung siehst Du die abgebuchten Produkte unterhalb der Komponente.
+1. Selektiere die HU, welche für die Produktion verbraucht werden soll.
+1. Wähle über den Quick-Actions-Button "Komplette HUs hinzufügen" aus.
+1. Nach erfolgreicher Zuordnung siehst Du die hinzugefügte HU unterhalb der Komponente.
 ![](assets/ProduktionFertigstellung_Abbuchung.png)
- >**Hinweis:** Möchtest Du die Abbuchung rückgängig machen, wähle einfach die hinzugefügte HU aus, gehe zum Quick-Actions-Button und klicke auf ![](assets/Actionbutton_Rückgängig.png).
+ >**Hinweis:** Möchtest Du die Abbuchung rückgängig machen, wähle einfach die hinzugefügte HU aus, gehe zum Quick-Actions-Button und klicke auf "HU entfernen".
+
+1. Wähle über den Quick-Actions-Button "Verarbeiten" aus, um die Abbuchung vorzunehmen. Dadurch werden die Zeilen schreibgeschützt:
+ ![](assets/HU_booking_readonly.png)
 
 1. Klicke auf "Bestätigen", um das Fenster zu schließen.
 
