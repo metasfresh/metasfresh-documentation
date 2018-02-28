@@ -11,7 +11,7 @@ ref: dunning_run
 
 ## Vorbereitung
 1. [Richte das Mahnverfahren ein](Einrichtung_Mahnung).
-1. Habe eine nicht bezahlte [Rechnung](Zu_Aufrag_Rechnung_erstellen) vorliegen.
+1. Habe eine nicht bezahlte [Rechnung](Zu_Auftrag_Rechnung_erstellen) vorliegen.
 
 ## Schritte
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Mahndisposition".
@@ -25,7 +25,6 @@ ref: dunning_run
  >**Hinweis:** Diese Aktion kannst Du auch direkt aus dem Fenster des Mahnkandidaten starten.
 
 1. Klicke auf "Start", um die Kandidaten zu verarbeiten und das Fenster zu schließen.
-
 
 **Hinweis 1:** Die erstellten Mahnunterlagen findest Du unter dem Menüpunkt "[Mahnungen](Menu)" wieder. Über die [verknüpften Belege](SpringezuBelegen) kannst Du aus dem Fenster des Mahnkandidaten auch **direkt** zum jeweiligen Mahnbrief springen.
 

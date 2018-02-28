@@ -10,14 +10,14 @@ ref: dunning_run
 ---
 
 ## Preparation
-1. [Set up Dunning](Setup_Dunning).
+1. [Set up dunning](Setup_Dunning).
 1. Have an [invoice](Invoice_SalesOrder) which is due.
 
 ## Steps
 1. Open "Dunning Candidates" from the [menu](Menu).
 1. [Start the action](StartAction) "Create/Update Dunning Candidates". A new window opens up.
 1. Click "Start" to update the candidates and close the window.
-1. Hit `F5` to refresh the Dunning Candidates window and see the updated candidates.
+1. Hit `F5` to refresh the dunning candidates window and see the updated candidates.
 1. [Select the dunning candidates](RecordSelection) you want to dun.
  >**Note:** You can process several candidates at once.
 
@@ -25,7 +25,6 @@ ref: dunning_run
  >**Note:** You can also start this action directly from the dunning candidate's window.
 
 1. Click "Start" to process the candidates and close the window.
-
 
 **Note 1:** You will find the created dunning documents under "[Dunning](Menu)" in the menu. You can also jump **directly** to the respective dunning letter from the dunning candidate's window via the [related documents](JumptoviaSidebar).
 
