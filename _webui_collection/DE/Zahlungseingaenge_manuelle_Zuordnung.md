@@ -17,7 +17,7 @@ Stelle sicher, dass Dir mehrere offene [Rechnungen](Zu_Auftrag_Rechnung_erstelle
 
 ## Schritte
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Zahlungen".
-1. [Lege eine neue Zahlung an](Neuer_Datensatz_Fenster_Webui).
+1. [Lege einen neuen Zahlungseintrag an](Neuer_Datensatz_Fenster_Webui).
 1. Wähle den **Geschäftspartner** aus.
 1. Wähle die **Belegart** *Zahlungseingang* aus.
 1. Wähle die zur Rechnung passende **Währung** aus.
@@ -27,7 +27,8 @@ Stelle sicher, dass Dir mehrere offene [Rechnungen](Zu_Auftrag_Rechnung_erstelle
  >**Hinweis 2:** Der **Betrag** wird automatisch aus der Rechnung übernommen.
 
 1. Klicke auf "Bestätigen", um das Fenster zu schließen und die Rechnung zur Liste hinzuzufügen.
-1. Wiederhole die Schritte 6 bis 8 für alle Rechnungen, die mit der erhaltenen Zahlung bezahlt wurden.
+ >**Note:** Wiederhole die Schritte 6 bis 8 für alle Rechnungen, die mit der erhaltenen Zahlung bezahlt wurden.
+
 1. [Stelle den Beleg fertig](BelegverarbeitungFertigstellen).
 1. Um den Status der Rechnungen zu überprüfen, gehe zur Registerkarte "Zuordnungen" und [zoome](Zoomen_in_Tabellenfeld) in das Feld in der Spalte **Rechnung** der jeweiligen Zuordnungszeile.
 
