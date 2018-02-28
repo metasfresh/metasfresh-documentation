@@ -19,7 +19,7 @@ ref: newproduct
  >**Note:** The product category can be used to control discounts, account assignments and attribute sets of products.
 
 1. Choose a **UOM** for the product.
- >**Note:** This UOM is used for inventory management and ***must not be confused*** with the price unit!
+ >**Note:** This UOM is used for inventory management and ***must not be confused*** with the sales UOM!
 
 1. In the field **Search Key** enter a product number.
  >**Note 1:** This number will appear on documents such as sales order confirmations etc.<br><br>
@@ -35,9 +35,9 @@ ref: newproduct
 
 ## Further Relevant Fields
 
-- The field **UOM** (unit of measurement) determines in which unit the product is managed in stock.
- >**Note 1:** Once the first receipt is issued with the product, the UOM cannot be easily changed.<br><br>
- >**Note 2:** You can define a different price unit under the tab **Price** isolated from the UOM.
+- The field **UOM** (unit of measurement) determines in which unit the product is managed in stock (stock UOM).
+ >**Note 1:** Once the first receipt is issued with this product, the stock UOM cannot be easily changed.<br><br>
+ >**Note 2:** You can define a different sales UOM under the tab **Price** isolated from the stock UOM. In this case you also have to define a [UOM conversion](Convert_UOMs).
 
 - The field **Product Type** determines the type of product.
 

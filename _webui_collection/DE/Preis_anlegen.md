@@ -22,8 +22,8 @@ ref: add_price
 1. Das Feld **Auszeichnungspreis** bestimmt den Listenpreis, welcher später auf den Belegen aufgeführt wird.
 1. Das Feld **Standardpreis** bestimmt den tatsächlich geltenden Einkaufs- bzw. Verkaufspreis (je nachdem, ob es sich um eine Einkaufs- oder Verkaufspreisliste handelt).
 1. Der **Mindestpreis** darf von einer manuellen Preisänderung durch den Benutzer, z.B. in der Auftragszeile, nicht unterschritten werden!
-1. Das Feld **Maßeinheit** bestimmt die Preiseinheit und ist ***nicht zu verwechseln*** mit der Maßeinheit des Artikels für die Bestandsführung! Die Preiseinheit legt fest, für welche Artikelmenge der hinterlegte Preis gilt.
- >**Hinweis:** Ist die Preiseinheit ≠ Artikelmaßeinheit, muss eine [Maßeinheitenumrechnung](Masseinheiten_umrechnen) angelegt werden.
+1. Das Feld **Maßeinheit** bestimmt die Verkaufsmengeneinheit und ist ***nicht zu verwechseln*** mit der Bestandsmengeneinheit des Artikels (Bestandsführung)!
+ >**Hinweis:** Ist die Verkaufsmengeneinheit ≠ Bestandsmengeneinheit, muss eine [Maßeinheitenumrechnung](Masseinheiten_umrechnen) angelegt werden.
 
 1. Im Feld **Steuerkategorie** kannst Du die jeweilige Mehrwertsteuerkategorie wählen, wie z.B. *normal*, *reduziert*, *steuerfrei*.
 1. [metasfresh speichert automatisch](Speicheranzeige).
