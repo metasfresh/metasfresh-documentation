@@ -18,11 +18,10 @@ ref: file_handling
 1. Du kannst pro Beleg so viele Dateien hochladen, wie Du benötigst.
 
 ### Download
-Zum Herunterladen, drücke `Alt + 7`, um zur Anhangliste zu [springen](SpringezuBelegen) und klicke einfach auf die Datei, die Du herunterladen möchtest (siehe Beispiel).
+Zum Herunterladen, drücke `Alt` + `7` / `⌥ alt` + `7`, um zur Anhangliste zu [springen](SpringezuBelegen) und klicke einfach auf die Datei, die Du herunterladen möchtest (siehe Beispiel).
 
 ### Löschen
-Zum Löschen, drücke `Alt + 7`, um zur Anhangliste zu [springen](SpringezuBelegen) und klicke einfach auf das kleine Löschsymbol ![](assets/delete_icon.png) neben der Datei, die Du löschen möchtest (siehe Beispiel).
+Zum Löschen, drücke `Alt` + `7` / `⌥ alt` + `7`, um zur Anhangliste zu [springen](SpringezuBelegen) und klicke einfach auf das kleine Löschsymbol ![](assets/delete_icon.png) neben der Datei, die Du löschen möchtest (siehe Beispiel).
 
 ## Beispiel
-
 ![](assets/Dateihandling_walkthrough.gif)
