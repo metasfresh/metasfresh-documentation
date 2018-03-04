@@ -10,8 +10,8 @@ lang: en
 ## SELECT Examples
 
 ### Shows a subset of the change log records
-```
 
+```
 SELECT
   t.tablename,
   c.columnname,
@@ -28,5 +28,5 @@ WHERE columnname NOT ILIKE '%ID%'
       AND u.name != 'System'
       AND cl.oldvalue != 'NULL'
 	  
-	```
+```
 
