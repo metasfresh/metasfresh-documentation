@@ -9,8 +9,6 @@ ref: developers_getting_started_mvn_cmdline
 ---
 
 
-
-
 This article is about locally building a metasfresh distributable.
 You will need to jump through a few loops though. We hope to make it easier in future,
 and of course we would be gratefull for any contributor who is good with maven to come along and improve this.
@@ -40,14 +38,12 @@ mvn install
 ```
 to install the "main" parent pom in your local maven artifact repository.
 
-When this is done, please `cd` to your working copy of the metasfresh repo, and then `cd` to `de.metas.parent`.
+When this is done, please `cd` to your working copy of the metasfresh repo.
 
 There, please do
 ```bash
-mvn --non-recursive install
+mvn install
 ```
-After these two poms are installed in your local maven repository, you can build the "main" metasfresh
-by once again `cd`ing into the your working copy of the metasfresh repo, then further going into the `de.metas.reactor` directory and from there once again running `mvn install`.
 
 This builds the biggest part of metasfresh, but does not yet create the actual distributable.
 
@@ -55,13 +51,6 @@ This builds the biggest part of metasfresh, but does not yet create the actual d
 
 At this point we already build _most_ of the metasfresh code, but to get the
 distributable, we need to build some additional components.
-
-## ESB bundles
-
-metasfresh comes with anumber of servicemix OSGI bundles for advanced usage scenarios.
-
-To build those, go back to your metasfresh working copy, cd into `de.metas.esb`
-and run `mvn install`.
 
 ## metasfresh webui API
 

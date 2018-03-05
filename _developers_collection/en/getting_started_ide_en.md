@@ -20,7 +20,7 @@ The installer will give you a choice about which "edition" to install.<br>
 
 ## Install Lombok
 
-We recently started using [lombok](https://projectlombok.org/).
+We use [lombok](https://projectlombok.org/) to reduce boiler plate code.
 
 To enable your local Eclipse to compile the code, please go to [https://projectlombok.org/download.html](https://projectlombok.org/download.html) and follow the instructions for Eclipse. You might also want to check out our metasfresh-issue [#1125](https://github.com/metasfresh/metasfresh/issues/1125) for further details.
 
