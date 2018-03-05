@@ -3,6 +3,7 @@ title: Wie lege ich einen neuen Geschäftspartner an?
 layout: default
 tags:
   - Stammdaten
+  - Geschäftspartner
 lang: de
 sequence: 10
 ref: new_business_partner
@@ -18,7 +19,7 @@ ref: new_business_partner
 1. Wähle eine **Geschäftspartnergruppe** aus, z.B. *Maschinenlieferant*.
 1. Wähle die bevorzugte Kommunikationssprache des Partners aus.
 1. [Füge eine oder mehrere Adressen hinzu](Adresse_erfassen_Tab).
+1. ***Optional:*** [Füge passende Attribute hinzu](Attribute_GP_hinzufuegen), die sich für die [Filterfunktion](Filterfunktion) als nützlich erweisen könnten.
 
 ## Beispiel
-
 ![](assets/Neuer_Geschaeftspartner.gif)

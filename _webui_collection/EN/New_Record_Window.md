@@ -9,14 +9,11 @@ sequence: 10
 ref: new_record_window
 ---
 
-
 ## Keyboard shortcut
-Press `Alt + N`.
+Press `Alt` + `N` / `⌥ alt` + `N`.
 
 ## With the mouse
 Click ![](assets/actionsmenu_WebUI.png) and then "New".
-<br>
 
 ## Example
-
- ![](assets/neuerdatensatzfenster.gif)
+![](assets/neuerdatensatzfenster.gif)

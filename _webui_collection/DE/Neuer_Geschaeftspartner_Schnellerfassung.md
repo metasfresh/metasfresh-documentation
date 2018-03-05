@@ -3,8 +3,9 @@ title: Wie lege ich einen neuen Geschäftspartner per Schnellerfassung an?
 layout: default
 tags:
   - Stammdaten
+  - Geschäftspartner
 lang: de
-sequence: 50
+sequence: 60
 ref: quick_create_new_business_partner
 ---
 

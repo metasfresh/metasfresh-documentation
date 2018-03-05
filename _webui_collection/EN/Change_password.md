@@ -9,8 +9,7 @@ ref: change_password
 ---
 
 ## Steps
-
-1. Go to the User Menu by clicking on ![](assets/UserMenu_Rabbit_WebUI.png) in the upper right corner of the window or by pressing `Alt + 4`.
+1. Go to the user menu by clicking on ![](assets/UserMenu_Rabbit_WebUI.png) in the upper right corner of the window or by pressing `Alt` + `4` / `⌥ alt` + `4`.
 1. Click on "Settings".
 1. [Start the action](StartAction) "Change my password". A new window opens up.
 1. Enter your **Old Password**.

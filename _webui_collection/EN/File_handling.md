@@ -18,11 +18,10 @@ ref: file_handling
 1. You can upload as many files per document as you require.
 
 ### Download
-[Jump to](JumptoviaSidebar) the list of attachments by pressing `Alt + 7` and download the file simply by clicking it (see example).
+[Jump to](JumptoviaSidebar) the list of attachments by pressing `Alt` + `7` / `⌥ alt` + `7` and download the file simply by clicking it (see example).
 
 ### Delete
-[Jump to](JumptoviaSidebar) the list of attachments by pressing `Alt + 7` and simply click on the small delete icon ![](assets/delete_icon.png) next to the file to delete it (see example).
+[Jump to](JumptoviaSidebar) the list of attachments by pressing `Alt` + `7` / `⌥ alt` + `7` and simply click on the small delete icon ![](assets/delete_icon.png) next to the file to delete it (see example).
 
 ## Example
-
 ![](assets/File_handling_walkthrough.gif)

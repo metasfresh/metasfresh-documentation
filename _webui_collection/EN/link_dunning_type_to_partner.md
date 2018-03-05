@@ -10,9 +10,9 @@ ref: link_dunning_type_to_partner
 ---
 
 ## Overview
-For a Dunning Type to be effective in connection with a partner, you first need to link it to the corresponding partner. You can link it to both a single customer and a business partner group.
+For a dunning type to be effective in connection with a partner, you first need to link it to the corresponding partner. You can link it to both a single customer and a business partner group.
 
-## Link Dunning Type to a single Customer
+## Link dunning type to a single customer
 
 ### Steps
 1. Open an existing customer entry from your [business partners](Menu) or [create a new customer](New_business_partner_customer).
@@ -28,12 +28,12 @@ For a Dunning Type to be effective in connection with a partner, you first need 
 
 ---
 
-## Link Dunning Type to a Business Partner Group
+## Link dunning type to a business partner group
 
 ### Steps
-1. Open an existing [Business Partner Group](Menu) or [create a new one](New_Business_Partner_Group).
-1. Open the Advanced Edit Menu from the [Actions Menu](StartAction).
- >**Note:** Use shortcut `Alt + E`
+1. Open an existing [business partner group](Menu) or [create a new one](New_Business_Partner_Group).
+1. Open the Advanced Edit Menu from the [actions menu](StartAction).
+ >**Note:** Use shortcut `Alt` + `E` / `⌥ alt` + `E`
 
 1. Scroll down to the field **Dunning** and select the desired dunning type.
 1. Click "Done" to close the window and apply the changes.
