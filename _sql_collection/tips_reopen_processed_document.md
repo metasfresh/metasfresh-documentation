@@ -20,3 +20,11 @@ where c_flatrate_conditions_id in (?);
 ```
 
 
+### Production Order 
+
+```
+update pp_order
+set planningstatus = 'R'
+where documentno = 'XYZ'
+;
+```

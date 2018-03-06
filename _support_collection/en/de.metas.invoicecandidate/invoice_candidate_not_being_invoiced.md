@@ -63,4 +63,23 @@ select c_invoice_candidate_id,NULL,'3'
 ...
 ```
 
- 
+# Error Messages
+
+## Has Changes
+
+Cause: Something which is basic to the invoice candidate has changed. Most common is a price change after the candidate was created.
+
+Troubleshoot: Using https://github.com/metasfresh/metasfresh-documentation/issues/223
+
+Sample:
+```
+ 1000002: @LineNetAmt@: 0.00->700.00
+1000003: @LineNetAmt@: 0.00->2800.00
+1000005: @LineNetAmt@: 0.00->-175.00
+1000006: @LineNetAmt@: 0.00->-232.75
+Update invalid result: Updated 7 invoice candidates, 0 errors
+```
+
+Solution: Delete affected invoice candidates via the webui. They will be created automatically again.
+
+Alternative: delete via sql but then you need to run the process to recreate the ICS.
