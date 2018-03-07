@@ -18,7 +18,7 @@ ref: link_product_to_business_partner
  >**Hinweis 3:** Auswahl des Treffers mit Maus oder ![](assets/Workflow_Auftrag_Bis_Rechnung_WebUI-73797.png)
 
 1. Klicke auf "Bestätigen", um das Fenster zu schließen und den Geschäftspartner zur Liste hinzuzufügen.
-1. Wiederhole die Schritte 2 bis 4 für weitere Geschäftspartner.
+ >**Hinweis:** Wiederhole die Schritte 2 bis 4, um weitere Geschäftspartner hinzuzufügen.
 
 ## Beispiel
 ![](assets/Produkt mit Geschaeftspartner verknuepfen.gif)

@@ -17,8 +17,8 @@ ref: link_product_to_business_partner
  >**Note 2:** Hit `SPACE` to see all business partners.<br><br>
  >**Note 3:** Select one of the shown options with the mouse or ![](../DE/assets/Workflow_Auftrag_Bis_Rechnung_WebUI-73797.png)
 
-1. Click "Done" to close the window and add the Business Partner to the list.
-1. Repeat steps 2 to 4 for further Business Partners.
+1. Click "Done" to close the window and add the business partner to the list.
+ >**Note:** Repeat steps 2 to 4 to add further business partners.
 
 ## Example
 ![](assets/Link product to business partner.gif)
