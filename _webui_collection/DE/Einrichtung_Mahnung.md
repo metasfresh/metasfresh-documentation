@@ -10,7 +10,7 @@ ref: setup_dunning
 ---
 
 ## Übersicht
-Bevor Du einen [Mahnlauf](Mahnlauf) durchführen kannst, musst Du zuerst das Mahnverfahren einrichten. In metasfresh kannst Du dieses Verfahren außerdem für einzelne Kunden und Geschäftspartnergruppen individualisieren.
+Bevor Du einen [Mahnlauf](Mahnlauf) durchführen kannst, musst Du zuerst das Mahnverfahren einrichten. In metasfresh kannst Du dieses Verfahren außerdem für einzelne Kunden und Geschäftspartnergruppen individuell einrichten.
 
 ## Schritte
 1. [Richte die ausgehenden Belege](Ausgehende_Belege_Konfig_Mahnung) für das Mahnverfahren ein.
