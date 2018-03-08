@@ -1,5 +1,5 @@
 ---
-title: How do I allocate a Product to a Transport Unit?
+title: How do I allocate a product to a transport unit?
 layout: default
 tags:
   - Master Data
@@ -27,7 +27,7 @@ A product is a customer unit (CU) which in bigger amounts can be consolidated in
  >**Note:** Repeat steps 2 to 7 to add further allocations with different packing instructions to the list.
 
 ## Next Steps
-- Add the packing instructions to a price
+- [Add the packing instructions to a price](Add_packing-instructions_to_price).
 
 ## Example
 ![](assets/CU-TU_Allocation.gif)

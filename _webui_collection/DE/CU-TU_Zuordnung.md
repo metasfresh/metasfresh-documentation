@@ -27,7 +27,7 @@ Ein Produkt ist eine Verkaufseinheit (engl.: *Customer Unit - CU*), welche in gr
  >**Hinweis:** Wiederhole die Schritte 2 bis 7, um weitere Zuordnungen mit anderen Packvorschriften zur Liste hinzuzufügen.
 
 ## Nächste Schritte
-- Hänge die Packvorschrift an einen Preis
+- [Hänge die Packvorschrift an einen Preis](Packvorschrift_Preis_anhaengen).
 
 ## Beispiel
 ![](assets/CU-TU_Zuordnung.gif)
