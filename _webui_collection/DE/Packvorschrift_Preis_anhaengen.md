@@ -11,7 +11,9 @@ ref: add_packing-instructions_to_price
 ---
 
 ## Übersicht
-Wenn Du ein Produkt in einem Gebinde verkaufen möchtest, kannst Du dies unter "Produkt Preise" einstellen.
+Wenn Du ein Produkt verkaufst, tust Du dies nicht unbedingt immer nach der Bestandsmengeneinheit, sondern legst eine abweichende Verkaufsmengeneinheit fest, die je nachdem auch in Gebinden zusammengefasst wird.
+
+Unter "Produkt Preise" kannst Du daher Packvorschriften festlegen sowie einstellen, ob der Preis von der Bestandsmengeneinheit oder der Verkaufsmengeneinheit abhängig ist.
 
 ## Schritte
 1. Öffne einen bestehenden [Preis](Menu) bzw. [lege einen neuen an](Preis_anlegen).
@@ -22,6 +24,32 @@ Wenn Du ein Produkt in einem Gebinde verkaufen möchtest, kannst Du dies unter "
  >**Hinweis:** Ist die Verkaufsmengeneinheit ≠ Bestandsmengeneinheit, muss eine [Maßeinheitenumrechnung](Masseinheiten_umrechnen) angelegt werden.
 
 1. [metasfresh speichert automatisch](Speicheranzeige).
+
+<br>
+#### Wie funktioniert die "Attributabhängigkeit"?
+**Fall 1:** Der Preis ist *NICHT* attributabhängig.
+
+Das Kästchen **Preis ist attributabhängig** ist nicht abgehakt:<br>
+![](assets/Preis_nicht_attributabhaengig.png)
+
+***Folgen:*** metasfresh berechnet die Auftragszeilensumme im Auftrag auf Grundlage der Bestandsmengeneinheit des Produkts.
+
+Auftrag:<br>
+![](assets/Auftrag_pro_BME.png)<br>
+
+Bestandsmengeneinheit:<br>
+![](assets/BME_Preistab.png)
+
+<br>
+**Fall 2:** Der Preis *IST* attributabhängig.
+
+Das Kästchen **Preis ist attributabhängig** ist abgehakt:<br>
+![](assets/Preis_attributabhaengig.png)
+
+***Folgen:*** metasfresh berechnet die Auftragszeilensumme im Auftrag auf Grundlage der Verkaufsmengeneinheit des Produkts (siehe oben).
+
+Auftrag:<br>
+![](assets/Auftrag_pro_VME.png)
 
 ## Beispiel
 ![](assets/Packvorschrift_Preis_anhaengen.gif)
