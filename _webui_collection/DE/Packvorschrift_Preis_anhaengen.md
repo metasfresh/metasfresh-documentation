@@ -13,7 +13,7 @@ ref: add_packing-instructions_to_price
 ## Übersicht
 Wenn Du ein Produkt verkaufst, tust Du dies nicht unbedingt immer nach der Bestandsmengeneinheit, sondern legst eine abweichende Verkaufsmengeneinheit fest, die je nachdem auch in Gebinden zusammengefasst wird.
 
-Unter "Produkt Preise" kannst Du daher Packvorschriften festlegen sowie einstellen, ob der Preis von der Bestandsmengeneinheit oder der Verkaufsmengeneinheit abhängig ist.
+Unter "Produkt Preise" kannst Du daher sowohl Packvorschriften festlegen als auch einstellen, ob der Preis von der Bestandsmengeneinheit oder der Verkaufsmengeneinheit abhängig ist.
 
 ## Schritte
 1. Öffne einen bestehenden [Preis](Menu) bzw. [lege einen neuen an](Preis_anlegen).
