@@ -20,7 +20,7 @@ However, instead you can also take an existing price list version along with its
 1. Go to the tab "Price List Version" at the bottom of the page.
 1. Double-click the field **Basic Price List Version** of the newly created price list version and from the drop-down list select the basic version from where the prices and products shall be taken over.
 1. Double-click the field **Discount Schema** of the newly created price list version and select *Copy Price Lists* from the drop-down list.
- >**Note:** You can also add some rules to the price list scheme that are to be applied during the copy process, such as surcharges or similar. Click [here](Price_list_scheme_rules) to learn more about this.
+ >**Note:** You can also [add rules to the price list scheme](Price_list_scheme_rules) that are to be applied during the copy process, such as surcharge amounts or similar.
 
 1. [Start the action](StartAction) "Create Price List".
  >**Note:** Make sure that the line of the newly created price list version is selected before you start the action.
