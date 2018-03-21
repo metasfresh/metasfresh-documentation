@@ -25,15 +25,15 @@ Der [Auftragszeilenrabatt](Auftragszeilenrabatt) wird pro Auftragszeile einzeln 
 
 ---
 
-## Auftragszeilengruppenrabatte
-Mit dem [Auftragszeilengruppenrabatt](Auftragszeilengruppenrabatt) kannst Du beliebig viele Auftragszeilen zu einer Gruppe zusammenfassen, für die der Rabatt gelten soll. Dieser Gruppenrabatt wird dann als separate Rabattzeile ausgewiesen und erscheint auch als solche auf dem Beleg. Du kannst beliebig viele Gruppen in einem Auftrag bilden, allerdings kann eine Rabattzeile nur jeweils einer Gruppe angehören.
+## Auftragszeilengruppenrabatte (*Kompensationsgruppen*)
+Mit dem [Auftragszeilengruppenrabatt](Auftragszeilengruppenrabatt) kannst Du beliebig viele Auftragszeilen zu einer *Kompensationsgruppe* zusammenfassen, für die der Rabatt gelten soll. Dieser Gruppenrabatt wird dann als separate Rabattzeile ausgewiesen und erscheint auch als solche auf dem Beleg. Du kannst beliebig viele Kompensationsgruppen in einem Auftrag bilden, allerdings kann eine Rabattzeile nur jeweils einer Kompensationsgruppe angehören.
 
 ### Beispiel
 ![](assets/Auftragszeilengruppenrabatt.png)
 
 ---
 
-## Automatisches Rabattschema (Staffelrabatt)
-Mittels des [automatischen Rabattschemas](Automatisches_Rabattschema) kannst Du bestimmte Rabattkonditionen, wie z.B. **Staffelrabatte (Mengennachlässe)** für einzelne Produkte oder ganze Produktkategorien vorkonfigurieren und einem Geschäftspartner oder einer Gruppe zuweisen.
+## Automatisches Mengenrabattschema (Staffelrabatt)
+Mittels des [automatischen Mengenrabattschemas](Automatischer_Mengenrabatt) kannst Du bestimmte Rabattkonditionen, wie z.B. **Staffelrabatte (Mengennachlässe)** für einzelne Produkte oder ganze Produktkategorien vorkonfigurieren und einem Geschäftspartner oder einer Gruppe zuweisen.
 
 Werden diese Rabattkonditionen in einer von diesem Geschäftspartner beauftragten Bestellung erfüllt, werden die Rabatte automatisch angewendet.
