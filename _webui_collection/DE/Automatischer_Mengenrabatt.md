@@ -6,7 +6,7 @@ tags:
   - Rabatte
 lang: de
 sequence: 40
-ref: automatic_discount_scheme
+ref: automatic_volume_discount
 ---
 
 ## Schritte
@@ -26,9 +26,9 @@ ref: automatic_discount_scheme
 Damit ein Rabattschema automatisch angewendet wird, muss es erst einem Geschäftspartner zugewiesen werden, für den das Rabattschema gelten soll.
 
 1. Navigiere über das [Menü](Menu) zu dem betreffenden [Geschäftspartner](Neuer_Geschaeftspartner).
-1. Gehe zur Registerkarte "Kunde" unten auf der Seite und bewege die horizontale Bildlaufleiste nach rechts, bis Du die Spalte **Rabattschema** findest.
+1. Gehe zur Registerkarte "Kunde" unten auf der Seite und bewege die horizontale Bildlaufleiste nach rechts, bis Du die Spalte **Rabattschema** erreichst.
 1. Klicke doppelt auf das Feld **Rabattschema** der Kundenzeile und wähle aus der Dropdown-Liste das gewünschte Rabattschema aus.
 1. [metasfresh speichert automatisch](Speicheranzeige).
 
 ### Beispiel
-![](assets/Automatisches_Rabattschema.gif)
+![](assets/Automatischer_Mengenrabatt.gif)
