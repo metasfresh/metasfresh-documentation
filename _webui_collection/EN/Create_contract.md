@@ -15,7 +15,7 @@ A Contract in metasfresh is a Sales Order in kind of a subscription to a regular
 ## Steps
 To create a Contract, simply follow the same steps as for a [Sales Order](SalesOrder_recording). However, before completing the document, make sure to complete these steps first:
 
-1. Move the horizontal scrollbar of the order line table to the right until you find the column **Terms & Conditions**.
+1. Move the horizontal scrollbar of the order line table to the right until you reach the column **Terms & Conditions**.
 1. Double-click the field **Terms & Conditions** of the order lines and select the desired [Contractual Terms](Define_contractual_terms) from the drop-down list.
  >**Note on changing the Contractual Terms:** After the one-time selection of the Contractual Terms you cannot change them anymore. To use other Contractual Terms, simply delete the order line and add it again.
 
