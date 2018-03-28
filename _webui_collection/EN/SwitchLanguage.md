@@ -1,5 +1,5 @@
 ---
-title: How do I change the Interface Language?
+title: How do I change the interface language?
 layout: default
 tags:
   - Setup

@@ -1,5 +1,5 @@
 ---
-title: How do I quick create a new Business Partner?
+title: How do I quick create a new business partner?
 layout: default
 tags:
   - Master Data
@@ -16,7 +16,7 @@ If in the course of creating a [sales order](SalesOrder_recording) or a [purchas
 1. In the field **Business Partner** ([Sales Order](SalesOrder_recording)) or **Delivery from** ([Purchase Order](CreatePurchaseOrder)), enter a part of the unavailable partner's name. A drop-down list opens up.<br>
 ![](assets/New_Businesspartner_quickcreate.png)
 
-1. Click on the option *New Business Partner*. The Quick Create Window opens up.
+1. Click on the option *New Business Partner*. The quick create window opens up.
 1. Select a **Greeting**.
 1. Fill in the fields **Firstname** and **Lastname**.
 1. ***Optional:*** Fill in the fields **Email** and **Phone**.

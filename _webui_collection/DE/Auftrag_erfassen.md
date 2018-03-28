@@ -12,9 +12,9 @@ ref: salesorder_recording
 ## Schritte
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Aufträge".
 1. [Lege einen neuen Auftrag an](Neuer_Datensatz_Fenster_Webui).
-1. Gib im Feld **Auftraggeber** einen Teil des Kundennamens oder der Kundennummer ein.
+1. Gib im Feld **Auftraggeber** einen Teil des Kundennamens oder der Kundennummer ein und klicke auf eines der Ergebnisse.
  >**Hinweis 1:** Drücke die `LEERTASTE`, um alle Kunden zu sehen.<br><br>
- >**Hinweis 2:** Auswahl des Treffers mit Maus oder ![](assets/Workflow_Auftrag_Bis_Rechnung_WebUI-73797.png)<br><br>
+ >**Hinweis 2:** Auswahl des Treffers mit Maus oder ![](assets/Workflow_Auftrag_Bis_Rechnung_WebUI-73797.png).<br><br>
  >**Hinweis 3:** Wird der gewünschte Partner nicht angezeigt, kannst Du ihn per [Schnellerfassung](Neuer_Geschaeftspartner_Schnellerfassung) neu anlegen.
 
 1. Das Feld **Datum** bestimmt den Zeitpunkt, an dem der Auftrag *erteilt* wurde.
@@ -27,7 +27,7 @@ ref: salesorder_recording
 
 1. Gib in das Feld **Produkt** einen Teil des Produktnamens oder der Produktnummer ein und klicke auf eines der Ergebnisse.
  >**Hinweis 1:** Drücke die `LEERTASTE`, um alle Produkte zu sehen.<br><br>
- >**Hinweis 2:** Auswahl des Treffers mit Maus oder ![](assets/Workflow_Auftrag_Bis_Rechnung_WebUI-73797.png)
+ >**Hinweis 2:** Auswahl des Treffers mit Maus oder ![](assets/Workflow_Auftrag_Bis_Rechnung_WebUI-73797.png).
 
 1. Gib eine **Menge** ein.
  >**Hinweis:** Wechsle in das Feld mit der Maus oder `Tab ↹`-Taste

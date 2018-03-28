@@ -22,7 +22,7 @@ Out of 1 kilogram you obtain 4 clamshells of strawberries of 250g each.<br>
 
 ## Steps
 1. Open an [existing product](NewProduct).
-1. Go to the tab "UOM Conversion" at the bottom of the page and click ![](assets/Add_New_Button.png). A new window opens up.
+1. Go to the record tab "UOM Conversion" at the bottom of the page and click ![](assets/Add_New_Button.png). A new window opens up.
 1. The field **UOM** determines the source UOM and must be identical with the product's stock UOM, e.g. here "kilograms".
 1. The field **UOM to** determines the target UOM to convert into, e.g. here "each".
 1. The field **Multiply Rate** determines the value by which to multiply the amount in the source UOM to obtain the corresponding amount in the target UOM.<br>

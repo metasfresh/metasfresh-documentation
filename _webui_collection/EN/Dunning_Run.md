@@ -1,5 +1,5 @@
 ---
-title: How do I perform a Dunning Run?
+title: How do I perform a dunning run?
 layout: default
 tags:
   - Workflow
@@ -26,7 +26,7 @@ ref: dunning_run
 
 1. Click "Start" to process the candidates and close the window.
 
-**Note 1:** You will find the created dunning documents under "[Dunning](Menu)" in the menu. You can also jump **directly** to the respective dunning letter from the dunning candidate's window via the [related documents](JumptoviaSidebar).
+**Note 1:** You will find the created dunning documents under "[Dunning](Menu)" in the menu. You can also jump ***directly*** to the respective dunning letter from the dunning candidate's window via the [related documents](JumptoviaSidebar).
 
 **Note 2:** To view the dunning letter, simply open the dunning document and [start the action](StartAction) "Mahnbrief (Jasper)".
 

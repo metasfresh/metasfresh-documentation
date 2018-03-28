@@ -30,7 +30,7 @@ In metasfresh kannst Du in verschiedenen Kontexten einige Prozesse mithilfe best
 | Tastenkombination <br> (Windows) | Tastenkombination <br> (MacOS) | Befehl |
 | :---: | :---: | :--- |
 | `Alt` + `A` | `⌥ alt` + `A` | Alle Zeilen auswählen bzw. zwischen "Alle Zeilen dieser Seite auswählen" und "Wähle alle ## Zeilen" wechseln |
-| `Alt` + `B` | `⌥ alt` + `B` | Ausgewähltes Dokument in neuer Registerkarte öffnen |
+| `Alt` + `B` | `⌥ alt` + `B` | Ausgewähltes Dokument in neuem Fenster öffnen |
 | `Alt` + `E` | `⌥ alt` + `E` | "Advanced Edit"-Fenster für ausgewähltes Dokument öffnen |
 | `Alt` + `Y` | `⌥ alt` + `Y` | Ausgewähltes Dokument löschen |
 

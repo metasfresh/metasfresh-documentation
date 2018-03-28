@@ -21,7 +21,7 @@ Erfasse den Vertrag wie einen [Auftrag](Auftrag_erfassen). Beachte vor der Ferti
 
 **Hinweis 1:** Das Feld **Zugesagter Termin** bestimmt nunmehr den ***Vertragsbeginn***.
 
-**Hinweis 2:** Nach der Fertigstellung des Auftrags findest Du den Vertrag unter dem Menüpunkt "[Vertrag](Menu)" wieder. Über die [verknüpften Belege](SpringezuBelegen) kannst Du aus dem Auftrag auch **direkt** zum Vertrag springen.
+**Hinweis 2:** Nach der Fertigstellung des Auftrags findest Du den Vertrag unter dem Menüpunkt "[Vertrag](Menu)" wieder. Über die [verknüpften Belege](SpringezuBelegen) kannst Du aus dem Auftrag auch ***direkt*** zum Vertrag springen.
 
 ## Beispiel
 ![](assets/Vertrag_erfassen.gif)

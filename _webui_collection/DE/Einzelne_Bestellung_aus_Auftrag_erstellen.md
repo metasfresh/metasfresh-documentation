@@ -36,7 +36,7 @@ Wenn Du den Auftrag [fertigstellst](BelegverarbeitungFertigstellen) oder die Bes
 
 1. Du erhältst oben rechts eine Benachrichtigung ![](assets/NotificationBell_WebUI.png), sobald die Bestellung erstellt ist.
 1. Folge dem Link in der Benachrichtigung, um die Bestellung zu öffnen.
- >**Hinweis 1:** Über die [verknüpften Belege](SpringezuBelegen) kannst Du aus dem Auftrag auch **direkt** zur Bestellung springen.<br><br>
+ >**Hinweis 1:** Über die [verknüpften Belege](SpringezuBelegen) kannst Du aus dem Auftrag auch ***direkt*** zur Bestellung springen.<br><br>
  >**Hinweis 2:** Die Bestellung ist bereits fertiggestellt.
 
 ## Beispiel

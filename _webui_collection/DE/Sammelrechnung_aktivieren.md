@@ -8,7 +8,6 @@ lang: de
 ref: enable_collectivebill
 ---
 
-
 ## Schritte
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Geschäftspartner".
 1. Wähle den Geschäftspartner in der [Listenansicht](Ansichten) aus.
@@ -20,8 +19,7 @@ ref: enable_collectivebill
 1. Klicke auf "Bestätigen", um das Fenster zu schließen.
 
 ## Erläuterung der Regeln
-
-| Regel | Bezeichnung | Erklärung |
+| Regel | Bezeichnung | Erläuterung |
 |---|---|---|
 | invoicing-agg-std | Standardregel | Zusammenfassung erfolgt ohne Einschränkungen
 | leer | | Pro Auftrag wird immer eine Rechnung erstellt

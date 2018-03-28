@@ -6,20 +6,20 @@ tags:
 lang: de
 sequence: 20
 ref: initialsetupwizard
-
 ---
+
 ## Übersicht
-Mit den folgenden Schritten kannst Du den bestehenden Mandanten "metasfresh", der standardmäßig enthalten ist, auf Deinen eigenen Firmennamen umändern.
+Mit den folgenden Schritten kannst Du die Daten des bestehenden Mandanten "metasfresh", der standardmäßig enthalten ist, mit Deinen eigenen Firmendaten ersetzen.
 
 ## Schritte
-
-1. Öffne "Ersteinrichtung Assistent" im [Menü](Menu).
-1. Lade ein Logo über **upload a photo** hoch.
- >**Hinweis:** Das Logo sollte nicht größer als 200x200 Pixel sein, um eine optimale Passform für die Belege zu haben.
+1. [Gehe ins Menü](Menu) und öffne das Fenster "Ersteinrichtung Assistent".
+1. Lade ein Logo über ![](assets/Foto hochladen Button.png) oder ![](assets/Foto Webcam Button.png) hoch.
+ >**Hinweis 1:** Das Logo sollte nicht größer als 200x200 Pixel sein, um eine optimale Passform für die Belege zu haben.<br><br>
+ >**Hinweis 2:** Um das Foto wieder zu entfernen, klicke einfach auf ![](assets/Foto entfernen Button.png).
 
 1. Fülle die gewünschten Felder aus.
 1. Klicke auf "Start", um die Änderungen zu übernehmen und das Fenster zu schließen.
  >**Hinweis:** Du kannst den Assistenten beliebig oft verwenden, um die Firmendaten anzupassen.
 
 ## Beispiel
-![](assets/Ersteinrichtung-de26a.png)
+![](assets/Ersteinrichtungsassistent.png)

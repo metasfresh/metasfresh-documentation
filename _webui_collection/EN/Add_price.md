@@ -1,5 +1,5 @@
 ---
-title: How do I add a Price?
+title: How do I add a price?
 layout: default
 tags:
   - Pricing
@@ -14,9 +14,9 @@ ref: add_price
 
 ## Steps
 1. Open "Product Prices" from the [menu](Menu).
-1. [Create a new Price](New_Record_Window).
-1. Enter the **[Product](NewProduct)** to which the price shall apply and select the corresponding one from the suggestions.
-1. Enter the name of the designated **[Price List Version](Add_price-list-version)**.
+1. [Create a new price entry](New_Record_Window).
+1. Enter the [**Product**](NewProduct) to which the price shall apply and select the corresponding one from the suggestions.
+1. Enter the name of the designated [**Price List Version**](Add_price-list-version).
  >**Note:** Hit `SPACE` to see all available price list versions.
 
 1. The field **List Price** determines the list price that will later appear on the documents.
@@ -29,7 +29,7 @@ ref: add_price
 1. [metasfresh saves the progress automatically](Saveindicator).
 
 ## Next Steps
-- [Assign the Prices to a Partner](Assign_prices_to_partner).
+- [Assign the prices to a partner](Assign_prices_to_partner).
 
 ## Example
 ![](assets/Add_Price.gif)

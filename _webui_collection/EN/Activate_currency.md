@@ -10,7 +10,6 @@ ref: activate_currency
 ---
 
 ## Steps
-
 1. Open "Currency" from the [menu](Menu).
 1. Select the currency you want to activate in the [list view](ViewModes).
 1. [Activate](Activate_record) the currency.

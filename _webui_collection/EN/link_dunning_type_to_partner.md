@@ -1,5 +1,5 @@
 ---
-title: How do I link a Dunning Type to a partner?
+title: How do I link a dunning type to a partner?
 layout: default
 tags:
   - Workflow
@@ -15,8 +15,8 @@ For a dunning type to be effective in connection with a partner, you first need 
 ## Link dunning type to a single customer
 
 ### Steps
-1. Open an existing customer entry from your [business partners](Menu) or [create a new customer](New_business_partner_customer).
-1. Go to the tab "Customer" at the bottom of the page and open the [advanced edit menu](Open_AdvancedEditTab).
+1. Open the entry of an existing customer from your [business partners](Menu) or [add a new one](New_business_partner_customer).
+1. Go to the record tab "Customer" at the bottom of the page and open the [advanced edit menu](Open_AdvancedEditTab).
  >**Note:** The business partner must be registered as a customer for dunning to become available.
 
 1. In the field **Dunning** select the desired dunning type.
@@ -31,7 +31,7 @@ For a dunning type to be effective in connection with a partner, you first need 
 ## Link dunning type to a business partner group
 
 ### Steps
-1. Open an existing [business partner group](Menu) or [create a new one](New_Business_Partner_Group).
+1. Open the entry of an existing [business partner group](Menu) or [add a new one](New_Business_Partner_Group).
 1. Open the advanced edit menu from the [actions menu](StartAction).
  >**Note:** Use shortcut `Alt` + `E` / `⌥ alt` + `E`
 

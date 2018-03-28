@@ -12,10 +12,9 @@ ref: create_bom
 ## Schritte
 
 ### Stückliste erstellen
-
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Stückliste".
 1. [Lege eine neue Stückliste an](Neuer_Datensatz_Fenster_Webui).
-1. Gib das **[Produkt](NeuesProdukt)** ein, für das Du eine Stückliste erstellen möchtest, z.B. "Gitarre".
+1. Gib das [**Produkt**](NeuesProdukt) ein, für das Du eine Stückliste erstellen möchtest, z.B. "Gitarre".
 1. Vergib eine **Beleg Nr.**
 1. Gehe zur Registerkarte "Stücklistenbestandteile" unten auf der Seite und klicke auf ![](assets/Neu_hinzufuegen_Button.png). Es öffnet sich ein neues Fenster.
 1. Gib das **Produkt** ein, welches Du zur Stückliste hinzufügen möchtest, z.B. "Korpus" oder "Saiten".

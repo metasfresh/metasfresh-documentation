@@ -24,7 +24,7 @@ For copying a price list you require a valid price list scheme where you can det
 ### Add rules to the price list scheme
 **Note:** In order for a price list to be copied, the selected price list scheme must include at least one schema line. However, it is not strictly necessary to define specific rules, such as a product, business partner or surcharge amount.
 
-1. Go to the tab "Schema Line" at the bottom of the page and click ![](assets/Add_New_Button.png). A new window opens up.
+1. Go to the record tab "Schema Line" at the bottom of the page and click ![](assets/Add_New_Button.png). A new window opens up.
 1. Enter a **Standard Price Surcharge Amount** or leave it at *0.00*.
 1. Click "Done" to close the window and add the rule to the list.
 
