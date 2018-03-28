@@ -1,5 +1,5 @@
 ---
-title: How do I open the Advanced Edit Menu in a tab?
+title: How do I open the advanced edit menu in a record tab?
 layout: default
 tags:
   - Usage
@@ -10,9 +10,9 @@ ref: open_advancededittab
 ---
 
 ## Steps
-1. Go to the tab in question, e.g. "Customer" under "Business Partner".
+1. Go to the record tab in question, e.g. "Customer" under "Business Partner".
 1. Hover with your mouse cursor over the regarding line and right-click it to open the context menu.
-1. Click on "Advanced edit" to open the Advanced Edit Menu.
+1. Click on "Advanced edit" to open the advanced edit menu.
  >**Note:** Alternatively, press `Alt` + `E` / `⌥ alt` + `E` when the regarding line is selected.
 
  ![](assets/AdvancedEdit_KontextMenü.png)

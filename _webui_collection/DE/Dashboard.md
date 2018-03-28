@@ -9,9 +9,7 @@ ref: dashboard
 ---
 
 ## Übersicht
-
-Das Dashboard von metasfresh ist eine Übersichtsseite, die automatisch nach der Anmeldung lädt und dynamische Daten in Echtzeit zeigt.
+Das Dashboard von metasfresh ist eine Übersichtsseite, die automatisch nach der Anmeldung lädt und auf der dynamische Daten in Echtzeit angezeigt werden.
 
 ## Beispiel
-
 ![](assets/dynamicdashboard.gif)

@@ -17,7 +17,7 @@ ref: contract_change_recipient
 1. Wähle im Feld **Datum** den Zeitraum aus, in dem der neue Kontakt als Abo-Empfänger registriert werden soll.
 1. Gib einen **Lieferempfänger** ein.
  >**Hinweis 1:** Drücke die `LEERTASTE`, um alle Kontakte zu sehen.<br><br>
- >**Hinweis 2:** Auswahl des Treffers mit Maus oder ![](assets/Workflow_Auftrag_Bis_Rechnung_WebUI-73797.png)
+ >**Hinweis 2:** Auswahl des Treffers mit Maus oder ![](assets/Workflow_Auftrag_Bis_Rechnung_WebUI-73797.png).
 
 1. Wähle eine **Lieferadresse** aus.
 1. ***Optional:*** Wähle einen **Lieferkontakt** aus.

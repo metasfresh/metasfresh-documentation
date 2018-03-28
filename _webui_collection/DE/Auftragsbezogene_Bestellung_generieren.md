@@ -25,7 +25,7 @@ Möchtest Du gezielt alle Produkte in beauftragter Menge aus einem bestimmten Au
 1. Wähle den gewünschten **Lieferanten** aus.
 1. Klicke auf "Start", um die Bestellung zu erzeugen und das Fenster zu schließen.
  >**Hinweis 1:** Die auftragsbezogene Bestellung mit der Auftragsnr. als **Referenz** findest Du unter dem Menüpunkt "[Bestellungen](Menu)" als Entwurf wieder.<br><br>
- >**Hinweis 2:** Über die [verknüpften Belege](SpringezuBelegen) kannst Du aus dem Auftrag **direkt** zur Bestellung springen.
+ >**Hinweis 2:** Über die [verknüpften Belege](SpringezuBelegen) kannst Du aus dem Auftrag ***direkt*** zur Bestellung springen.
 
 ## Beispiel
 ![](assets/Bestellung aus Auftrag generieren.gif)

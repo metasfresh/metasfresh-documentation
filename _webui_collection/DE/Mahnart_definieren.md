@@ -14,7 +14,7 @@ Mit der Mahnart bestimmst Du den Zeitpunkt, ab dem ein [Mahnlauf](Mahnlauf) begi
 
 ## Schritte
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Mahnart".
-1. [Erstelle einen neuen Eintrag](Neuer_Datensatz_Fenster_Webui).
+1. [Lege eine neue Mahnart an](Neuer_Datensatz_Fenster_Webui).
 1. Benenne die Mahnart im Feld **Name**.
 1. Wähle einen **Mahnauslöser** aus, z.B. *Standard Zahlungsbedingung*.
 

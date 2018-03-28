@@ -12,6 +12,8 @@ ref: viewmodes
 ## Listenansicht
 Sämtliche Fenster (z.B. "Aufträge") öffnen prinzipiell in der Listenansicht. Dort sind Bearbeitungen nicht möglich, sondern nur das Filtern und Sortieren von Datensätzen.
 
+---
+
 ## Einzelansicht
 Bei einem Doppelklick auf einen Datensatz oder beim [Neuanlegen eines Datensatzes ](Neuer_Datensatz_Fenster_Webui) wechselt metasfresh automatisch in die Einzelansicht.
 Dort können Datenänderungen vorgenommen werden.
@@ -22,6 +24,7 @@ Hier siehst Du, wie Du zwischen Einzel- und Listenansicht hin und her wechseln k
 
 ![](assets/einzelundlistenansicht.gif)
 
+---
 
 ## Erweiterte Erfassung
 Die Einzelansicht zeigt nur die wichtigsten Felder. Um alle weiteren Felder zu sehen und zu bearbeiten, kannst Du über das [Aktionsmenü](AktionStarten) in die "Erweiterte Erfassung" wechseln.

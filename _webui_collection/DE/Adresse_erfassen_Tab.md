@@ -24,5 +24,4 @@ ref: add_address_tab
 1. [metasfresh speichert automatisch](Speicheranzeige).
 
 ## Beispiel
-
 ![](assets/Adresse_erfassen_Tab.gif)

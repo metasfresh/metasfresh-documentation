@@ -1,5 +1,5 @@
 ---
-title: How do I add attributes to a Business Partner?
+title: How do I add attributes to a business partner?
 layout: default
 tags:
   - Master Data

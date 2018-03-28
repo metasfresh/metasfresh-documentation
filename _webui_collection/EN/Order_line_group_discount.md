@@ -1,5 +1,5 @@
 ---
-title: How do I give discounts on manually created compensation groups (order line group discounts)?
+title: How do I give discounts on manually created compensation groups (Order Line Group Discounts)?
 layout: default
 tags:
   - Pricing

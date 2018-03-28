@@ -14,7 +14,7 @@ Drücke die Tastenkombination `Alt` + `N` / `⌥ alt` + `N`.
 
 ## Mit der Maus
 Klicke auf ![](assets/actionsmenu_WebUI.png)
-und dann auf "New".
+und dann auf "Neu".
 
 ## Beispiel
 ![](assets/neuerdatensatzfenster.gif)

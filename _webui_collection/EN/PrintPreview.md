@@ -1,5 +1,5 @@
 ---
-title: How do I open the PDF Print Preview of a document?
+title: How do I open the PDF print preview of a document?
 layout: default
 tags:
   - Usage
@@ -14,7 +14,7 @@ Press `Alt` + `P` / `⌥ alt` + `P` to open the print preview.
 
 ## With the mouse
 Click ![](assets/actionsmenu_WebUI.png) and then select "Print".
- >**Note:** You will need a PDF Viewer to open the file.
+ >**Note:** You will need a PDF viewer to open the file.
 
 ## Example
 ![](../DE/assets/druckvorschau.gif)

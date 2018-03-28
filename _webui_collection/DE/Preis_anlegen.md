@@ -14,8 +14,8 @@ ref: add_price
 
 ## Schritte
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Produkt Preise".
-1. [Lege einen neuen Preis an](Neuer_Datensatz_Fenster_Webui).
-1. Gib das **[Produkt](NeuesProdukt)** ein, für das der Preis gelten soll, und wähle das entsprechende Produkt aus den Vorschlägen aus.
+1. [Lege einen neuen Preiseintrag an](Neuer_Datensatz_Fenster_Webui).
+1. Gib das [**Produkt**](NeuesProdukt) ein, für das der Preis gelten soll, und wähle das entsprechende Produkt aus den Vorschlägen aus.
 1. Gib unter **Version Preisliste** den Namen der vorgesehenen [Preislistenversion](Preislistenversion_anlegen) ein.
  >**Hinweis:** Drücke die `LEERTASTE`, um alle verfügbaren Preislistenversionen zu sehen.
 

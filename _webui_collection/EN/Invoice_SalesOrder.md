@@ -1,5 +1,5 @@
 ---
-title: How do I create an invoice for a Sales Order?
+title: How do I create an invoice for a sales order?
 layout: default
 tags:
   - Workflow
@@ -10,9 +10,8 @@ ref: invoice_salesorder
 ---
 
 ## Steps
-
-1. Open a [Sales Order which was shipped](Ship_SalesOrder).
-1. [Jump to](JumptoviaSidebar) Invoice Disposition.
+1. Open a [sales order which was shipped](Ship_SalesOrder).
+1. [Jump to](JumptoviaSidebar) "Invoice Disposition".
 1. [Select the order lines](RecordSelection) you want to invoice.
 1. [Start the action](StartAction) "Generate Invoices".
 1. Click "Start" to confirm and close the window.
@@ -21,5 +20,4 @@ ref: invoice_salesorder
 1. [Open the PDF print preview](PrintPreview).
 
 ## Example
-
 ![](assets/salesorderinvoice.gif)

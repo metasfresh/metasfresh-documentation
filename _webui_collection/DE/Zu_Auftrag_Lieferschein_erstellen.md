@@ -10,7 +10,6 @@ ref: ship_salesorder
 ---
 
 ## Schritte
-
 1. Öffne einen [fertigen Auftrag](Auftrag_erfassen).
 1. [Springe zur](SpringezuBelegen) Lieferdisposition.
 1. [Selektiere die Auftragszeilen](AuswahlBelege), die Du liefern möchtest.
@@ -21,5 +20,4 @@ ref: ship_salesorder
 1. [Öffne die PDF-Version](PDFVorschau) des Belegs, um ihn auszudrucken.<br>
 
 ## Beispiel
-
 ![](assets/auftrag_liefern.gif)

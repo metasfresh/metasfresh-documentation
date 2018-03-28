@@ -1,5 +1,5 @@
 ---
-title: How do I set up Dunning?
+title: How do I set up dunning?
 layout: default
 tags:
   - Workflow

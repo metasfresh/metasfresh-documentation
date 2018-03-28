@@ -16,7 +16,7 @@ For [group discounting](Order_line_group_discount) you need to select a special 
 
 ## Steps
 1. Open "Product" from the [menu](Menu).
-1. [Create a new product](New_Record_Window).
+1. [Add a new product](New_Record_Window).
 1. Enter a **Name**  of your choice, e.g. "Discount".
 1. Select a suitable **Product Category**, e.g. *Diverse*.
 1. Uncheck the box **Stocked**.

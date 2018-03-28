@@ -13,7 +13,7 @@ ref: startaction
 Actions are contextual and can be started from every window. Each window therefore provides other actions.<br>
 In metasfresh there are three different types of actions:
 
-## Common Actions (Actions Menu)
+## General Actions (Actions Menu)
 You will find these actions in the actions menu.
 
 ### Steps
@@ -30,7 +30,7 @@ You will find these actions in documents, such as [sales orders](SalesOrder_reco
 ![](assets/Menu_DocumentProcessingActions.png)
 
 ### Steps
-1. Click on ![](assets/DocumentProcessingActions_default.png) or press `Alt` + `I` / `⌥ alt` + `I` to open the Document Processing Menu.
+1. Click on ![](assets/DocumentProcessingActions_default.png) or press `Alt` + `I` / `⌥ alt` + `I` to open the document processing menu.
 1. Click on the desired action.
 
 ---

@@ -1,5 +1,5 @@
 ---
-title: How do I add a new Business Partner?
+title: How do I add a new business partner?
 layout: default
 tags:
   - Master Data
@@ -11,7 +11,7 @@ ref: new_business_partner
 
 ## Steps
 1. Open "Business Partner" from the [menu](Menu).
-1. [Create a new business partner](New_Record_Window).
+1. [Add a new business partner](New_Record_Window).
 1. The **Search Key** is an automatically assigned serial number. However, if required, it can also be assigned manually instead.
 1. Fill in the field **Name**, or if the box **Company** is checked, fill in the field **Company Name**.
  >**Note:** The **(Company) Name** is restricted to 60 characters.

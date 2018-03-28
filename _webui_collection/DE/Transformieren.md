@@ -1,5 +1,5 @@
 ---
-title: Wie entnehme ich eine CU ?
+title: Wie entnehme ich eine Verkaufseinheit (CU)?
 layout: default
 tags:
   - Workflow-Setup
@@ -9,14 +9,15 @@ ref: transform_cu
 ---
 
 ## Schritte
-
-1. gehe ins Fenster Handling Unit
-1. Wähle die CU-Ebene einer Handling Unit und starte die Quick-Action "transformieren"
+1. [Gehe ins Menü](Menu) und öffne das Fenster "Handling Unit Editor".
+1. [Selektiere](AuswahlBelege) die CU-Ebene einer Handling Unit und starte die [Quick-Action](AktionStarten) "Transformieren".<br>
 ![](assets/Transformieren-3dbf1.png)
-1. Wähle Aktion "CU entnehmen"
-1. Bestätige mit CU
+
+1. Wähle die **Aktion** *CU entnehmen* aus.
+1. Gib eine **Menge CU** ein.<br>
 ![](assets/Transformieren-5d22f.png)
 
-## Erklärung
+1. Klicke auf "Start", um die Transformation durchzuführen und das Fenster zu schließen.
 
-Nun wird die CU aus der Handling Unit genommen und die übriggebliebene LU und TU zerstört.
+## Erläuterung
+Nun wird die CU aus der Handling Unit genommen und die übriggebliebene Verpackung (LU und TU) zerstört.

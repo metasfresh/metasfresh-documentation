@@ -14,7 +14,7 @@ ref: cu-tu_allocation
 Ein Produkt ist eine Verkaufseinheit (engl.: *Customer Unit - CU*), welche in größeren Mengen zu einem Gebinde (engl.: *Transport Unit - TU*) zusammengefasst werden kann. Die Art des Gebindes ist abhängig von der Packvorschrift.
 
 ## Schritte
-1. Öffne ein bestehendes [Produkt](Menu) bzw. [lege ein neues an](NeuesProdukt).
+1. Öffne den Eintrag eines bestehenden [Produkts](Menu) bzw. [lege ein neues an](NeuesProdukt).
 1. Gehe zur Registerkarte "CU-TU Zuordnung" unten auf der Seite und klicke auf ![](assets/Neu_hinzufuegen_Button.png). Es öffnet sich ein neues Fenster.
 1. Wähle eine **Packvorschrift Position** aus, z.B. *IFCO*.
 1. ***Option 1:*** Trage eine bestimmte, immer gleichbleibende **Menge** ein, die in das Gebinde gepackt werden soll. Die **Maßeinheit** ist immer die Bestandsmengeneinheit des Produktes.<br>

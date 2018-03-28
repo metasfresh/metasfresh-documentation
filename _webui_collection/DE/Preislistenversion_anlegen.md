@@ -13,7 +13,7 @@ ref: add_price-list-version
 ![](assets/Preissystem Hierarchie - Preislistenversion.png)
 
 ## Schritte
-1. Öffne eine bestehende [Preisliste](Menu) bzw. [lege eine neue an](Preisliste_anlegen).
+1. Öffne den Eintrag einer bestehenden [Preisliste](Menu) bzw. [lege eine neue an](Preisliste_anlegen).
 1. Gehe zur Registerkarte "Preislistenversion" unten auf der Seite und klicke auf ![](assets/Neu_hinzufuegen_Button.png). Es öffnet sich ein neues Fenster.
 1. Benenne die Preislistenversion im Feld **Name** oder übernimm stattdessen das vorgegebene Erstellungsdatum.
 1. Stelle ein **Gültig ab** Datum für diese Version ein.

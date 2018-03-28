@@ -30,7 +30,7 @@ In metasfresh you can speed up some processes in several contexts by using certa
 | Keyboard Shortcut <br> (Windows) | Keyboard Shortcut <br> (MacOS) | Command |
 | :---: | :---: | :--- |
 | `Alt` + `A` | `⌥ alt` + `A` | Select all lines, i.e. toggle between "Select all on this page" and "Select all ## items" |
-| `Alt` + `B` | `⌥ alt` + `B` | Open selected document in new tab |
+| `Alt` + `B` | `⌥ alt` + `B` | Open selected document in new tab window |
 | `Alt` + `E` | `⌥ alt` + `E` | Open Advanced Edit Window for selected document |
 | `Alt` + `Y` | `⌥ alt` + `Y` | Delete selected document |
 
@@ -47,14 +47,14 @@ In metasfresh you can speed up some processes in several contexts by using certa
 | `Alt` + `U` | `⌥ alt` + `U` | Set document status to "Complete" |
 | `Alt` + `W` | `⌥ alt` + `W` | Clone document |
 
-### Tab Context (in document)
+### Record Tab Context (in document)
 
 | Keyboard Shortcut <br> (Windows) | Keyboard Shortcut <br> (MacOS) | Command |
 | :---: | :---: | :--- |
 | `Alt` + `E` | `⌥ alt` + `E` | Open Advanced Edit Window for selected entry |
 | `Alt` + `Q` | `⌥ alt` + `Q` | Toggle fast order line input (Batch Entry) |
 | `Alt` + `Y` | `⌥ alt` + `Y` | Delete selected entry |
-| `Alt`+`+` | `⌥ alt` + `+` | Expand tab |
+| `Alt`+`+` | `⌥ alt` + `+` | Expand record tab |
 
 ### [Quick Actions](StartAction) Context
 

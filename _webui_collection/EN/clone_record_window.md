@@ -1,5 +1,5 @@
 ---
-title: How do I clone the records in a window?
+title: How do I clone document data?
 layout: default
 tags:
   - Usage
@@ -10,17 +10,15 @@ ref: clone_record_window
 ---
 
 ## Overview
-When creating a document with data that was already recorded in previous documents, you do not want to lose time by recording the same data again. To make things easier, you can use the *Clone Feature* to duplicate the entire existing records of a window with all associated subtabs.<br>
-Cloning works with all Master Data and documents such as Sales Order, Purchase Order, etc.
-
+When creating a document with similar or identical data as in an existing document, you do not want to lose time by recording it all over again. To make things easier, you can use the *clone feature* to duplicate the entire existing document data of a window with all associated subtabs.<br>
+Cloning works with all master data and documents such as sales order, purchase order etc.
 
 ## Steps
-1. Use the [menu](Menu) to navigate to the record you want to clone (e.g. a [Sales Order](SalesOrder_recording)) and open it.
+1. Use the [menu](Menu) to navigate to the document you want to clone (e.g. a [sales order](SalesOrder_recording)) and open it.
 1. [Start the action](StartAction) "Clone".
-1. The entire cloned record will open up in a new window.
- >**Note 1:** Except for variable data, such as serial numbers or search keys (product numbers, document numbers, etc.), all records are cloned unchanged.<br><br>
- >**Note 2:** Completed documents, such as Sales Orders, are cloned as drafts so they can be modified if necessary, and then have to be completed manually again.
-
+1. The entire cloned document will open up in a new window.
+ >**Note 1:** Except for variable data, such as serial numbers or search keys (product numbers, document numbers, etc.), all data are cloned unchanged.<br><br>
+ >**Note 2:** Completed documents, such as sales orders, are cloned as drafts so they can be modified if necessary, and then have to be [completed manually](DocumentProcessingComplete) again.
 
 ## Example
  ![](assets/clone_record_window.gif)

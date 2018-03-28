@@ -25,7 +25,7 @@ Der [Auftragszeilenrabatt](Auftragszeilenrabatt) wird pro Auftragszeile einzeln 
 
 ---
 
-## Auftragszeilengruppenrabatte (*Kompensationsgruppen*)
+## Auftragszeilengruppenrabatte (Kompensationsgruppen)
 Mit dem [Auftragszeilengruppenrabatt](Auftragszeilengruppenrabatt) kannst Du beliebig viele Auftragszeilen zu einer *Kompensationsgruppe* zusammenfassen, für die der Rabatt gelten soll. Dieser Gruppenrabatt wird dann als separate Rabattzeile ausgewiesen und erscheint auch als solche auf dem Beleg. Du kannst beliebig viele Kompensationsgruppen in einem Auftrag bilden, allerdings kann eine Rabattzeile nur jeweils einer Kompensationsgruppe angehören.
 
 ### Beispiel

@@ -14,7 +14,7 @@ ref: automatic_group_discounts
 [Compensation groups](Discount_types_in_metasfresh) are order lines combined into groups that can receive joint discounts or surcharges in a single as well as successive manner where the previous discount or surcharge is always included in the calculation. Moreover, you can give several discounts/surcharges on various compensation groups in one order.
 
 ## Preparation
-[Set up the automatic compensation grouping](Automatic_compensation_groups_setup) for the regarding product categories.
+- [Set up the automatic compensation grouping](Automatic_compensation_groups_setup) for the regarding product categories.
 
 ## Steps
 1. Follow these [instructions for creating a sales order](SalesOrder_recording) up to **step 4 of the order line input**.

@@ -1,5 +1,5 @@
 ---
-title: How do I add a new Business Partner Group?
+title: How do I add a new business partner group?
 layout: default
 tags:
   - Master Data
@@ -11,7 +11,7 @@ ref: new_business_partner_group
 
 ## Steps
 1. Open "Business Partner Group" from the [menu](Menu).
-1. [Create a new business partner group](New_Record_Window).
+1. [Add a new business partner group](New_Record_Window).
 1. Fill in the field **Name**.
 1. [metasfresh saves the progress automatically](Saveindicator).
 

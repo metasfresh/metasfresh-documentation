@@ -25,7 +25,6 @@ ref: productprice
 ## Beispiel
 ![](assets/neuerproduktpreis.gif)
 
-
 ## Weitere wichtige Felder
 1. Das Feld **Auszeichnungspreis** bestimmt den Listenpreis, welcher später auf den Belegen aufgeführt wird.
 1. Der **Mindestpreis** darf von einer manuellen Preisänderung durch den Benutzer, z.B. in der Auftragszeile, nicht unterschritten werden!
