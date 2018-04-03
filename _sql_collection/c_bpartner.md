@@ -30,7 +30,7 @@ select
 	from c_bpartner bp
 	left join c_bpartner_location bpl on bp.c_bpartner_id = bpl.c_bpartner_id -- address properties
 	left join c_location l on l.c_location_id = bpl.c_location_id -- address
-	left join c_country c on c.c_country = bpl.c_country_id  -- country
+	left join c_country c on c.c_country_id = l.c_country_id  -- country
 	left join ad_user u on u.c_bpartner_id = bp.c_bpartner_id -- contacts
 	left join ad_org o on bp.ad_org_id = o.ad_org_id
   	left join c_region r on r.c_region_id = l.c_region_id
