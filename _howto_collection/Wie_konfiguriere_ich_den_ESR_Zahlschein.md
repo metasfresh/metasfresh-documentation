@@ -43,7 +43,10 @@ Nach der Aktivierung des ESR braucht es dann noch die Fachliche Einrichtung.
 
 ## Einrichtung Organisation
 
-Der Geschäftspartner der Organisation muss eine Schweizer Adresse haben damit der ESR Zahlschein überhaupt in der Rechnung angezeigt wird.
+Damit der ESR für eine Organisation erzeugt wird müssen die folgenden Kriterien erfüllt sein:
+- Der Geschäftspartner der Organisation muss eine Schweizer Adresse und ein ESR Konto haben
+- Der Suchschlüssel der Organisation muss numerisch und nicht länger als 3 Zeichen lang sein, da er Teil der ESR Nummer wird. z.B. 001
+
 
 ## Einrichtung Bankkonto
 
