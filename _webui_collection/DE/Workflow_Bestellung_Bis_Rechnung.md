@@ -1,5 +1,5 @@
 ---
-title: Workflow Bestellung bis Eingangsrechnung
+title: Workflow - Bestellung bis Eingangsrechnung
 layout: default
 tags:
   - Workflow

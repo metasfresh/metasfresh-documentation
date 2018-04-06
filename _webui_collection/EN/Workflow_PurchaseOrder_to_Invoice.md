@@ -1,5 +1,5 @@
 ---
-title: Workflow Purchase Order to Invoice
+title: Workflow - Purchase Order to Invoice
 layout: default
 tags:
   - Workflow

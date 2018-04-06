@@ -1,5 +1,5 @@
 ---
-title: Workflow Sales Order to Invoice
+title: Workflow - Sales Order to Invoice
 layout: default
 tags:
   - Workflow

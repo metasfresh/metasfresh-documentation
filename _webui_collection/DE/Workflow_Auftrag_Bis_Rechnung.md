@@ -1,5 +1,5 @@
 ---
-title: Workflow Auftrag bis Rechnung
+title: Workflow - Auftrag bis Rechnung
 layout: default
 tags:
   - Workflow
