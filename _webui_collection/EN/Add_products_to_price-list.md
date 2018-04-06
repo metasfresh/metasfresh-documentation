@@ -26,7 +26,7 @@ There are also two ways to review which products are on a price list.
 
 ## Via Filtering Function
 1. Open "Product Prices" from the [menu](Menu).
-1. Use the [filter](Filtering_function) to find the desired price list version.
+1. [Use the filter](Filtering_function) to find the desired price list version.
 1. You will now only see the products that are on the selected price list.
 
 ## Example
