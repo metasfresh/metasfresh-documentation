@@ -12,10 +12,10 @@ ref: assign_prices_to_partner
 ## Übersicht
 ![](assets/Preissystem_Zuweisung Preise und Partner.png)
 
-In metasfresh gibt es [Verkaufspreislisten und Einkaufspreislisten](Preisliste_anlegen). Die Verkaufspreislisten können den Kunden zugewiesen werden und die Einkaufspreislisten den Lieferanten. Diese beiden Preislistenarten können ebenfalls Partnergruppen zugewiesen werden.
+In metasfresh gibt es *Verkaufspreislisten* und *Einkaufspreislisten*. Die Verkaufspreislisten können den Kunden zugewiesen werden und die Einkaufspreislisten den Lieferanten. Diese beiden Preislistenarten können ebenfalls Partnergruppen zugewiesen werden.
 
 ## Verkaufspreisliste einem Kunden zuweisen
-Um eine *Verkaufspreisliste* zu erhalten, musst Du in dem betreffenden Preislisteneintrag das Häkchen bei **Verkaufspreisliste** setzen. Hast Du dies getan, kannst Du wie folgt fortfahren:
+Um eine *Verkaufspreisliste* zu erhalten, musst Du in dem betreffenden Preislisteneintrag das Häkchen bei **Verkaufspreisliste** setzen (siehe **Schritt 8** von "[*Wie lege ich eine Preisliste an?*](Preisliste_anlegen)"). Hast Du dies getan, kannst Du wie folgt fortfahren:
 
 ### Schritte
 1. Öffne den Eintrag eines bestehenden Kunden aus Deinen [Geschäftspartnern](Menu) bzw. [lege einen neuen an](Neuer_Geschaeftspartner_Kunde).
@@ -26,7 +26,7 @@ Um eine *Verkaufspreisliste* zu erhalten, musst Du in dem betreffenden Preislist
 ---
 
 ## Einkaufspreisliste einem Lieferanten zuweisen
-Um eine *Einkaufspreisliste* zu erhalten, musst Du in dem betreffenden Preislisteneintrag das Häkchen bei **Verkaufspreisliste** entfernen. Hast Du dies getan, kannst Du wie folgt fortfahren:
+Um eine *Einkaufspreisliste* zu erhalten, musst Du in dem betreffenden Preislisteneintrag das Häkchen bei **Verkaufspreisliste** entfernen (siehe **Schritt 8** von "[*Wie lege ich eine Preisliste an?*](Preisliste_anlegen)"). Hast Du dies getan, kannst Du wie folgt fortfahren:
 
 ### Schritte
 1. Öffne den Eintrag eines bestehenden Lieferanten aus Deinen [Geschäftspartnern](Menu) bzw. [lege einen neuen an](Neuer_Geschaeftspartner_Lieferant).
