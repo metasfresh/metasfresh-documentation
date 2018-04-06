@@ -1,5 +1,5 @@
 ---
-title: How do I add an address for a Business Partner?
+title: How do I add an address for a business partner?
 layout: default
 tags:
   - Master Data
@@ -24,5 +24,4 @@ ref: add_address_tab
 1. [metasfresh saves the progress automatically](Saveindicator).
 
 ## Example
-
 ![](assets/Add_address_tab.gif)

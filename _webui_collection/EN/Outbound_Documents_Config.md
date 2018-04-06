@@ -1,5 +1,5 @@
 ---
-title: How do I configure the Outbound Documents?
+title: How do I configure the outbound documents?
 layout: default
 tags:
   - Setup

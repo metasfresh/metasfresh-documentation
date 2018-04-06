@@ -14,19 +14,22 @@ When you create a new price list version, it will be empty at first, i.e. there 
 
 However, instead you can also take an existing price list version along with its prices and products and copy it into your new version in case you only want to modify it in a few parts, for example. To do so, take the following steps:
 
+## Requirements
+- [Create a price list scheme](Price_list_scheme_rules), e.g. with the name *Copy Price Lists*.
+
 ## Steps
 1. Open an existing [price list](Menu).
 1. [Add a new price list version](Add_price-list-version).
-1. Go to the tab "Price List Version" at the bottom of the page.
-1. Double-click the field **Basic Price List Version** of the newly created price list version and from the drop-down list select the basic version from where the prices and products shall be taken over.
-1. Double-click the field **Discount Schema** of the newly created price list version and select *Copy Price Lists* from the drop-down list.
- >**Note:** You can also add some rules to the price list scheme that are to be applied during the copy process, such as surcharges or similar. Click [here](Price_list_scheme_rules) to learn more about this.
+1. Go to the record tab "Price List Version" at the bottom of the page.
+1. Double-click the field **Base Price List Version** of the newly created price list version and from the drop-down list select the base version from where the prices and products shall be taken over.
+1. Double-click the field **Discount Schema** of the newly created price list version and select a price list scheme from the drop-down list, e.g. *Copy Price Lists*.
+ >**Note:** You can also [add rules to the price list scheme](Price_list_scheme_rules) that are to be applied during the copy process, such as surcharge amounts or similar.
 
 1. [Start the action](StartAction) "Create Price List".
  >**Note:** Make sure that the line of the newly created price list version is selected before you start the action.
 
 1. [metasfresh saves the progress automatically](Saveindicator). The prices and products were copied.
-1. Use the [context menu](Jumpto_via_context_menu) ![](assets/Product Prices Contextmenu.png) of the newly created price list version from before to switch into the window "Product Prices" where you will now see a list of all the products that were taken over from the basic price list version.
+1. Use the [context menu](Jumpto_via_context_menu) ![](assets/Product Prices Contextmenu.png) of the newly created price list version from before to switch into the window "Product Prices" where you will now see a list of all the products that were taken over from the base price list version.
 
 ## Example
 ![](assets/Copy_prices_from_price-list-version.gif)

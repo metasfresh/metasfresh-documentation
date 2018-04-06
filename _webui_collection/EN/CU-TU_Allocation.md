@@ -14,8 +14,8 @@ ref: cu-tu_allocation
 A product is a customer unit (CU) which in bigger amounts can be consolidated into a transport unit (TU). What kind of TU to use depends on the packing instructions.
 
 ## Steps
-1. Open an existing [product](Menu) or [create a new one](NewProduct).
-1. Go to the tab "CU-TU Allocation" at the bottom of the page and click ![](assets/Add_New_Button.png). A new window opens up.
+1. Open the entry of an existing [product](Menu) or [add a new one](NewProduct).
+1. Go to the record tab "CU-TU Allocation" at the bottom of the page and click ![](assets/Add_New_Button.png). A new window opens up.
 1. Select some **Packing Instructions**, e.g. *IFCO*.
 1. ***Option 1:*** Enter a specific fixed **Quantity** to put into the TU. The **UOM** is always the product's stock UOM.<br>
 ***Option 2:*** If the quantity is unknown or variable, check the box **Unspecified Capacity**.

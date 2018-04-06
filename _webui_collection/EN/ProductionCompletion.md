@@ -15,7 +15,8 @@ metasfresh offers two possibilities to record the consumption of materials for p
 1. Produce a product and record the consumption of materials.
 
 ## Preparation
-Prior to production, ensure that all the required products to be consumed are on stock. For information on how to create a goods receipt, see [here](CreateGoodsReceipt).
+- Prior to production, ensure that all the required products to be consumed are on stock.<br>
+For information on how to create a goods receipt, [click here](CreateGoodsReceipt).
 
 ## Steps
 1. Open a [completed manufacturing order](NewManufacturingOrder).
@@ -41,12 +42,12 @@ This is the easiest way to produce in metasfresh. The produced quantity is simpl
 1. In the field **CU Quantity** enter the received quantity of the product.
 1. In the field **TU Quantity** enter the number of transport units.
  >**Note 1:** The field **TU Quantity** appears only if **TU Packing Instructions** are available.<br><br>
- >**Note 2:** The TU Quantity must be **at least 1**.
+ >**Note 2:** The TU Quantity must be ***at least 1***.
 
 1. In the field **LU Quantity** enter the number of loading units.
  >**Note 1:** The field **LU Quantity** appears only if **LU Packing Instructions** are available.<br><br>
  >**Note 2:** The field **LU Packing Instructions** appears only if **TU Packing Instructions** are available.<br><br>
- >**Note 3:** The LU Quantity must be **at least 1**.
+ >**Note 3:** The LU Quantity must be ***at least 1***.
 
 1. Click "Start" to record the received HUs and close the window.
 1. When the allocation was successful, the received HUs will be listed below the product to be produced:

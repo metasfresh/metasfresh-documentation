@@ -16,7 +16,7 @@ When you sell a product you don't always sell it by the stock UOM. Instead you m
 Therefore, under "Product Prices", you can both determine packing instructions and set up whether the price shall depend on the stock UOM or the sales UOM.
 
 ## Steps
-1. Open an existing [price](Menu) or [add a new one](Add_price).
+1. Open the entry of an existing [price](Menu) or [add a new one](Add_price).
 1. Select a **Packing Item**.
  >**Note:** Packing items will only be suggested if they have been [allocated to the product](CU-TU_Allocation) beforehand.
 

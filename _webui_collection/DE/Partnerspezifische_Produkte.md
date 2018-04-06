@@ -14,12 +14,12 @@ Manchmal weichen die Produktnamen und -nummern der Geschäftspartner von Deinen 
 Um also Missverständnisse zu vermeiden und Dein eigenes System nicht mit mehreren Bezeichnungen für ein und dasselbe Produkt zu überfüllen, kannst Du **partnerspezifische Produktnamen und -nummern** vergeben, ohne Deine internen Daten verändern zu müssen.
 
 ## Schritte
-1. Öffne ein bestehendes [Produkt](Menu) bzw. [lege ein neues Produkt an](NeuesProdukt).
+1. Öffne den Eintrag eines bestehenden [Produktes](Menu) bzw. [lege ein neues an](NeuesProdukt).
 1. Gehe zur Registerkarte "Geschäftspartner" unten auf der Seite und klicke auf ![](assets/Neu_hinzufuegen_Button.png). Es öffnet sich ein neues Fenster.
 1. Gib den Namen des **Geschäftspartners** ein.
  >**Hinweis 1:** Geschäftspartner können Kunden und Lieferanten sein.<br><br>
  >**Hinweis 2:** Drücke die `LEERTASTE`, um alle Geschäftspartner zu sehen.<br><br>
- >**Hinweis 3:** Auswahl des Treffers mit Maus oder ![](assets/Workflow_Auftrag_Bis_Rechnung_WebUI-73797.png)
+ >**Hinweis 3:** Auswahl des Treffers mit Maus oder ![](assets/Workflow_Auftrag_Bis_Rechnung_WebUI-73797.png).
 
 1. Setze ein Häkchen bei **Verwendet für Lieferant** oder **Verwendet für Kunden**, je nachdem für welchen Geschäftspartner die neue Bezeichnung verwendet werden soll.
 1. Gib den partnerspezifischen **Produktnamen** ein.

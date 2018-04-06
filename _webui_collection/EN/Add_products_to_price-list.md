@@ -1,5 +1,5 @@
 ---
-title: How do I add products to a Price List?
+title: How do I add products to a price list?
 layout: default
 tags:
   - Pricing
@@ -18,9 +18,9 @@ There are also two ways to review which products are on a price list.
 
 ## Via Price List Version
 1. Open an existing [price list](Menu).
-1. Go to the tab "[Price List Version](Add_price-list-version)" at the bottom of the page.
+1. Go to the record tab "[Price List Version](Add_price-list-version)" at the bottom of the page.
 1. Use the [context menu](Jumpto_via_context_menu) ![](assets/Product Prices Contextmenu.png) of the regarding line to switch into the window "Product Prices" where you will now see a list of all products on the price list.
- >**Note:** If the link "Product Prices" does not appear in the context menu, then no products have been added to the price list.
+ >**Note:** If the link "Product Prices" does not appear in the context menu, then no products have been added to the price list yet.
 
 ---
 

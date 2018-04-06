@@ -1,5 +1,5 @@
 ---
-title: How do I allocate an Incoming Payment against several invoices?
+title: How do I allocate an incoming payment against several invoices?
 layout: default
 tags:
 - Payments
@@ -13,11 +13,11 @@ ref: incoming_payments_manual_allocation
 If a customer pays several invoices with one payment, you have to *manually allocate* the received amount to the respective invoices.
 
 ## Preparation
-Make sure to have several unpaid [invoices](Invoice_SalesOrder).
+- Make sure to have several unpaid [invoices](Invoice_SalesOrder).
 
 ## Steps
 1. Open "Payment" from the [menu](Menu).
-1. [Create a new payment entry](New_Record_Window).
+1. [Add a new payment](New_Record_Window).
 1. Select the **Business Partner**.
 1. Select the **Document Type** *Incoming Payment*.
 1. Select the **Currency** according to the invoice.

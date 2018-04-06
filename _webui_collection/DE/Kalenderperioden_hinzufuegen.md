@@ -10,9 +10,9 @@ ref: add_new_calendar_periods
 ---
 
 ## Schritte
-1. Öffne einen bestehenden [Kalender](Menu) bzw. [lege einen neuen an](Neuen_Kalender_anlegen).
+1. Öffne den Eintrag eines bestehenden [Kalenders](Menu) bzw. [lege einen neuen an](Neuen_Kalender_anlegen).
 1. Gehe zur Registerkarte "Jahr" unten auf der Seite und klicke auf ![](assets/Neu_hinzufuegen_Button.png). Es öffnet sich ein neues Fenster.
-1. Trage das **Jahr** ein, für das Du eine neue Periode erstellen willst, z.B. "2019".
+1. Trage das **Jahr** ein, für das Du eine neue Periode anlegen möchtest, z.B. "2019".
 1. Klicke auf "Bestätigen", um das Fenster zu schließen und das Jahr zur Liste hinzuzufügen.
 1. Markiere den neu erstellten Registerkarteneintrag und [starte die Aktion](AktionStarten) "Perioden anlegen". Es öffnet sich ein neues Fenster.
 1. Trage ein **Anfangsdatum** ein, z.B. "01.01.2019".

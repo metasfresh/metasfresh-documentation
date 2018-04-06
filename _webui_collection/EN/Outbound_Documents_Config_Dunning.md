@@ -1,5 +1,5 @@
 ---
-title: How do I configure the Outbound Documents for Dunning?
+title: How do I configure the outbound documents for dunning?
 layout: default
 tags:
   - Workflow

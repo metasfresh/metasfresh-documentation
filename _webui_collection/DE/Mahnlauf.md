@@ -26,7 +26,7 @@ ref: dunning_run
 
 1. Klicke auf "Start", um die Kandidaten zu verarbeiten und das Fenster zu schließen.
 
-**Hinweis 1:** Die erstellten Mahnunterlagen findest Du unter dem Menüpunkt "[Mahnungen](Menu)" wieder. Über die [verknüpften Belege](SpringezuBelegen) kannst Du aus dem Fenster des Mahnkandidaten auch **direkt** zum jeweiligen Mahnbrief springen.
+**Hinweis 1:** Die erstellten Mahnunterlagen findest Du unter dem Menüpunkt "[Mahnungen](Menu)" wieder. Über die [verknüpften Belege](SpringezuBelegen) kannst Du aus dem Fenster des Mahnkandidaten auch ***direkt*** zum jeweiligen Mahnbrief springen.
 
 **Hinweis 2:** Um den Mahnbrief zu sehen, öffne einfach das Mahndokument und [starte die Aktion](AktionStarten) "Mahnbrief (Jasper)".
 

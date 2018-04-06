@@ -9,9 +9,7 @@ ref: dashboard
 ---
 
 ## Overview
-
 The metasfresh dashboard loads right after logon and shows real-time data.
 
 ## Example
-
 ![](../DE/assets/dynamicdashboard.gif)

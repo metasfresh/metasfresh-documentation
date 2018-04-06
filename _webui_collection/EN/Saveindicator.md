@@ -9,7 +9,6 @@ ref: saveindicator
 ---
 
 ## Overview
-
 metasfresh always saves automatically every time changes are made.
 
 The color of the progress bar below the menu shows the respective status of the save progress.
@@ -17,9 +16,8 @@ The color of the progress bar below the menu shows the respective status of the 
 | Color      | Explanation    |
 | :------------- | :------------- |
 | grey       | trying to save        |
-| green | successfully saved |
+| green | saved successfully |
 | red | error while trying to save
 
 ## Example
-
 ![](../DE/assets/saveindicator2.gif)

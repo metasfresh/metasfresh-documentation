@@ -19,22 +19,20 @@ ref: newproduct
  >**Hinweis:** Die Artikelkategorie kann verwendet werden, um die Rabattierung, Kontierung und den Merkmalsatz eines Artikels zu steuern.
 
 1. Wähle eine **Maßeinheit** für den Artikel aus.
- >**Hinweis:** Dies ist die Maßeinheit für die Bestandsführung und ist ***nicht zu verwechseln*** mit der Verkaufsmengeneinheit!
+ >**Hinweis:** Dies ist die Maßeinheit für die Bestandsführung und ist ***nicht zu verwechseln*** mit der Verkaufsmengeneinheit, die bei der Preisvergabe festgelegt wird!
 
 1. Fülle das Feld **Artikelnummer** aus.
  >**Hinweis 1:** Diese Nummer erscheint auf den Belegen wie Auftragsbestätigung usw.<br><br>
  >**Hinweis 2:** Diese Nummer kann auch automatisch vergeben werden.
 
 ### Nächste Schritte
-- [Einkaufs- oder Verkaufspreis hinterlegen](ProduktPreis)
-- Produkt für die Produktion konfigurieren
+- [Einkaufs- oder Verkaufspreis hinterlegen](ProduktPreis).
+- Produkt für die Produktion konfigurieren.
 
 ## Beispiel
-
 ![](assets/neuesprodukt.gif)
 
 ## Weitere wichtige Felder
-
 - Das Feld **Maßeinheit** bestimmt, in welcher Einheit der Artikel im Bestand geführt wird (Bestandsmengeneinheit).
  >**Hinweis 1:** Sobald der erste Beleg existiert, in dem dieser Artikel verwendet wird, kann die Bestandsmengeneinheit nicht mehr ohne weiteres geändert werden.<br><br>
  >**Hinweis 2:** Eine abweichende Verkaufsmengeneinheit kann unter der Registerkarte "Preis" losgelöst von der Bestandsmengeneinheit definiert werden. In diesem Fall muss eine [Maßeinheitenumrechnung](Masseinheiten_umrechnen) angelegt werden.

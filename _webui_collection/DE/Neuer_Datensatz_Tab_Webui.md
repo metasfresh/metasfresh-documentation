@@ -10,9 +10,7 @@ ref: new_record_tab
 ---
 
 ## Schritte
-
 Klicke einfach auf ![](assets/Neu_hinzufuegen_Button.png).
 
 ## Beispiel
-
- ![](assets/neuerdatensatztab.gif)
+![](assets/neuerdatensatztab.gif)

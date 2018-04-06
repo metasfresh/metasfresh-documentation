@@ -16,7 +16,7 @@ Belege werden von metasfresh zwar [automatisch gespeichert](Speicheranzeige), je
 Drücke `Alt` + `U` / `⌥ alt` + `U`, um den Status auf "Fertiggestellt" zu setzen.
 
 ### Mit der Maus
-Klicke auf den Button für die [Belegverarbeitung](AktionStarten) (`Alt` + `I` / `⌥ alt` + `I`) oben rechts im Fenster und wähle dort "Fertigstellen" aus.<br>
+Klicke auf den Button für die [Belegverarbeitung](AktionStarten) (`Alt` + `I` / `⌥ alt` + `I`) oben rechts im Fenster und wähle dort "Fertigstellen" aus.
 
 ## Beispiel
 ![](assets/belegfertig.gif)

@@ -1,5 +1,5 @@
 ---
-title: How do I create a Purchase Invoice for my order?
+title: How do I create a purchase invoice for my order?
 layout: default
 tags:
   - Workflow
@@ -10,9 +10,8 @@ ref: createpurchaseinvoice
 ---
 
 ## Steps
-
-1. Open a [Purchase Order for which you hold a Goods Receipt](CreateGoodsReceipt).
-1. [Jump to](JumptoviaSidebar) Invoice Disposition.
+1. Open a [purchase order for which you hold a goods receipt](CreateGoodsReceipt).
+1. [Jump to](JumptoviaSidebar) "Invoice Disposition".
 1. [Select the order lines](RecordSelection) you want to invoice.
 1. [Start the action](StartAction) "Generate Invoices".
 1. Click "Start" to confirm and close the window.

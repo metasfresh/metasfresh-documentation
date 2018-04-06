@@ -1,5 +1,5 @@
 ---
-title: How do I define Prices?
+title: How do I define prices?
 layout: default
 tags:
   - Pricing
@@ -13,8 +13,8 @@ ref: define_prices
 ![](assets/price system_hierachy.png)
 
 ## Steps
-1. [Add a Price System](Add_price-system).
-1. [Add a Price List](Add_price-list).
-1. [Add a Price List Version](Add_price-list-version).
-1. [Add a Price](Add_price).
-1. [Assign the Prices to a Partner](Assign_prices_to_partner).
+1. [Add a price system](Add_price-system).
+1. [Add a price list](Add_price-list).
+1. [Add a price list version](Add_price-list-version).
+1. [Add a price](Add_price).
+1. [Assign the prices to a partner](Assign_prices_to_partner).

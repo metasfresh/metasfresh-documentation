@@ -22,6 +22,8 @@ collections:
     output: true
   sql_collection:
     output: true
+  setup:
+    output: true
 
 defaults:
   - scope:

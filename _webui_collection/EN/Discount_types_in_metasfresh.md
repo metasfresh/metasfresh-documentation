@@ -25,7 +25,7 @@ The [order line discount](Order_line_discount) is assigned to each order line in
 
 ---
 
-## Order Line Group Discounts (*Compensation Groups*)
+## Order Line Group Discounts (Compensation Groups)
 With the [order line group discount](Order_line_group_discount) you can combine any number of order lines into a *compensation group* designated for the discount. This group discount will then be displayed as a separate discount line and will also appear as such on the invoice. You can create any number of compensation groups in one order. However, each discount line can only be associated with one single compensation group.
 
 ### Example

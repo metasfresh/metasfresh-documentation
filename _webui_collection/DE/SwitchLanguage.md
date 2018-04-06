@@ -1,5 +1,5 @@
 ---
-title: Wie ändere ich die Sprache der Oberfläche?
+title: Wie ändere ich die Sprache der Benutzeroberfläche?
 layout: default
 tags:
   - Einrichtung

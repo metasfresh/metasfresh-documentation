@@ -14,7 +14,7 @@ Du kannst die Suchergebnisse, die einem Nutzer in der Listenansicht angezeigt we
 
 ## Schritte
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Rolle - Verwaltung".
-1. Öffne eine bestehende [Nutzerrolle](Menu) bzw. [lege eine neue Rolle an](NeueBenutzerrolle).
+1. Öffne den Eintrag einer bestehenden [Nutzerrolle](Menu) bzw. [lege eine neue an](NeueBenutzerrolle).
 1. Trage bei **Max. Suchergebnisse** eine Zahl ein, z.B. "50".<br>
 ![](assets/Max.Suchergebnisse_Screenshot.png)
 

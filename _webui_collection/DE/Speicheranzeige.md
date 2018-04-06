@@ -9,8 +9,7 @@ ref: saveindicator
 ---
 
 ## Übersicht
-
-metasfresh speichert prinzipiell überall vollautomatisch in dem Moment, wo sich Daten geändert haben.
+metasfresh speichert prinzipiell überall vollautomatisch in dem Moment, wo Daten geändert wurden.
 
 An der Farbe des Fortschrittsbalkens unterhalb der Menüleiste erkennst Du den jeweiligen Status des Speichervorgangs.
 
@@ -21,5 +20,4 @@ An der Farbe des Fortschrittsbalkens unterhalb der Menüleiste erkennst Du den j
 | rot | aufgrund eines Fehlers nicht gespeichert
 
 ## Beispiel
-
 ![](assets/saveindicator2.gif)

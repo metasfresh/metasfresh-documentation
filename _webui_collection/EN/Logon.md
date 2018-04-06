@@ -9,20 +9,16 @@ ref: logon
 ---
 
 ## Steps
-
-1. Open the URL of the metasfresh Service in your web browser, e.g. http://dockerhost.
-1. Log on with the username _it_ and the password _demostart_
-
- > **Important:** The username is also case-sensitive!
-
-
-## Example
-![](assets/login.gif)
-
+1. Open the URL of the metasfresh service in your web browser, e.g. http://dockerhost.
+1. Log on with the username *it* and the password *demostart*.
+ >**Important:** Mind that the username and password are ***case-sensitive***!
 
 ## Steps to log on as System Adminstrator
+**Note:** This user cannot change the interface language in WebUI as it is possible on the Java client back end.
 
-> **Important:** This user can not change the interface language in webui as its meant to be used on the java client backend.
+1. Open the URL of the metasfresh service in your web browser, e.g. http://dockerhost.
+1. Log on with the username *metasfresh* and the password *metasfresh*.
+ >**Important:** Mind that the username and password are ***case-sensitive***!
 
-1. Open the URL of the metasfresh Service in your web browser, e.g. http://dockerhost.
-1. Log on with the username _metasfresh_ and the password _metasfresh_.
+## Example
+![](assets/login_en.gif)

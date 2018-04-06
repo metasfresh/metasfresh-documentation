@@ -23,5 +23,4 @@ In metasfresh kannst Du definieren, ob ein Geschäftspartner ein Kunde, Lieferan
 1. Klicke auf "Bestätigen", um das Fenster zu schließen und die Konditionen zur Registerkarte hinzuzufügen.
 
 ## Beispiel
-
 ![](assets/Neuer_Geschaeftspartner_Kunde.gif)

@@ -1,5 +1,5 @@
 ---
-title: What is the difference between Price System and Price List?
+title: What is the difference between price system and price list?
 layout: default
 tags:
   - Pricing
@@ -11,6 +11,6 @@ ref: price-system_versus_price-list
 ---
 
 ## Overview
-The Price System combines various Price Lists. These Price Lists can be country and currency-specific, so that they can be [assigned](Assign_prices_to_partner) to a particular partner (customer/vendor) or partner group.
+The price system combines various price lists. These price lists can be country and currency-specific, so that they can be [assigned](Assign_prices_to_partner) to a particular partner (customer/vendor) or partner group.
 
 ![](assets/price system_versus_price list.png)

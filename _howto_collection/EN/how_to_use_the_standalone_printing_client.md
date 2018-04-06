@@ -6,10 +6,19 @@ tags:
 lang: en
 ---
 
-# 1. Prerequisites:
-* As of now, to use the standalone printing client, you need to have the ESB set up.
-* More specifically, you need to have the "Printing ESB bundle" (which is a camel OSGI bunde intended to run in servicemix) installend.
-* (Currently we have no documentation for this)
+# 0. Get the printing client binary
+
+* the current version of the printing client binary is the file `de.metas.printing.client-jar-with-dependencies.jar`, located in your metasfresh server's `/opt/metasfresh/download` folder.
+* it needs to run on a local system of yours which needs to have access to your printer(s). The client will use java's [Print Service API](https://docs.oracle.com/javase/8/docs/technotes/guides/jps/spec/jpsOverview.fm4.html) to access those printers.
+
+# 1. Set up a dedicated printing-client-user in metasfresh
+
+* choose something like StandAlonePrintingClient-Test for the first name
+* as a convention the *last name* of non-person users is "TU" (technical user), but that's not a must
+* generate an API-token for the new user; it will be used to authenticate the client.
+* also:
+  * remember to check the "is a systremuser" flag, otherwise the login and password fields are not shown
+  * remember that in order to log in, the user also needs to have a role
 
 # 2. Prepare the printing client config file
 * the printing client is configured via a settings file that can look like this
@@ -18,14 +27,13 @@ lang: en
 # the enpoint component to use for the connection. Can be changed e.e for testing
 de.metas.printing.client.IPrintConnectionEndpoint=de.metas.printing.client.endpoint.RestHttpPrintConnectionEndpoint
 
-# the URL where the printing ESB is listening for requests
-de.metas.printing.client.endpoint.RestHttpPrintConnectionEndpoint.ServerUrl=http://your-esb-server:8182/printing
+# the URL where the printing endpoint is listening for requests
+de.metas.printing.client.endpoint.RestHttpPrintConnectionEndpoint.ServerUrl=http://<your-metasfresh-server>:8282/printing
 
 # the adempiere AD_User and password name of which the client shall use for the login
-de.metas.printing.client.login.username=metasfresh-printing-client-test
-de.metas.printing.client.login.password=metasfresh-printing-client-test
+de.metas.printing.client.login.apiToken=<the token you generated further up>
 
-#The hostKey which the client will register itself with on ADempiere
+#The hostKey under which the client will register it's local printers etc on metasfresh
 de.metas.printing.client.login.hostkey=PrintingHostService-TU-metas-printing-client-test
 
 #the poll interval in milliseconds. Default: 1000ms
@@ -36,26 +44,18 @@ Notes
 
 * The property `de.metas.printing.client.endpoint.RestHttpPrintConnectionEndpoint.ServerUrl` contains the URL to which the printing client shall connect.
 
-* The two properties `de.metas.printing.client.login.username` and `de.metas.printing.client.login.password`
-password are the credentials of an actual metasfrersh user. It makes sense to have that user be a dedicated user
+* The two properties `de.metas.printing.client.login..apiToken` is basically the credential of an actual metasfrersh user (i.e. the one we created in step 1). 
+It makes sense to have that user be a dedicated user
 which has no other purpose than to log on, transmit the printers it has local access to (and their trays) and receive print packages.
 
 * The property `de.metas.printing.client.login.hostkey` sets the hostkey with which the printers are associated.
-Also associated with the hostkye can be a mapping between locical printers (like "invoice-printer")
+Also associated with the hostkey can be a mapping between logical printers (like "invoice-printer")
 and actual printers the information of which is transmitted by a printing client.
 
 * The property `de.metas.printing.client.PrintingClientDaemon.PollIntervalMs` sets at which intervals the printing client shall query metasfresh for new print jobs.
-(yes, we know that polling sucks..we were there wasn't any fancy websockets at the time and we sortof needed the money... )
+(yes, we know that polling sucks..)
 
-# 3. Set up a dedicated printing client user
-
-* choose something like StandAlonePrintingClient-Test for the first name
-* as a convention the *last name* of non-person users is "TU" (technical user)
-* remember to check the "is a systremuser" flag, otherwise the login and password fields are not shown
-* choose the username and password from the printing client config file
-* remember that in order to log in the user also needs to have a role
-
-# 4. Start the printing client
+# 3. Start the printing client
 
 Start the printing client using
 
@@ -73,11 +73,11 @@ INFO: Successfully logged in as user metasfresh-printing-client-test-IT. Receive
 ```
 
 When the printing client starts up, it does the following
-* attempt to log in and get a session-ID
-* use the java printing API to look up the printers it has avaialbe and sed that list to metasfresh
+* attempt to log in to metasfresh and get a session-ID
+* use the local java printing API to find its local printers and send that list to metasfresh
 * poll for print jobs at regular intervals
 
-# 5. configure the printing client in metasfresh
+# 4. configure the printing client in metasfresh
 
 * Open the "Drucker-Zuordnung" (`AD_Printer_Config`) window
 * Search the record with the hostkey from the printing client config file
@@ -86,7 +86,7 @@ When the printing client starts up, it does the following
 * Go to the "Konfiguration" (`AD_Printer_Matching`) tab and select the printing client's printers (and trays) to associate with the logical printer(s) of metasfresh
   * note that the "Konfiguration" (`AD_Printer_Matching`) tab already contains one record for each logical metasfresh printer, with the client's local default printer being selected.
 
-# 6. associate the  printing client's config with the user(s) that need to print
+# 5. associate the  printing client's config with the user(s) that need to print
 
 Here the important part is to find out that user's hostkey.
 
