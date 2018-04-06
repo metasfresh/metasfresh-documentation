@@ -10,7 +10,7 @@ ref: product_for_group_discount
 ---
 
 ## Overview
-For [group discounting](Order_line_group_discount) you need to select a special product in order to create a discount line in which the selected order lines are combined. This special product must be configured as follows:
+For [group discounting](Order_line_group_discount) you need to select a special product in order for a discount line to be created where the selected order lines are combined. This special product must be configured as follows:
 - It must **not be stocked**.
 - It must be linked to the very **same price list** as in the sales order where you want to give the discount.
 
