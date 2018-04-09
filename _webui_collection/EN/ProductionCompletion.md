@@ -23,7 +23,7 @@ For information on how to create a goods receipt, [click here](CreateGoodsReceip
 1. [Start the action](StartAction) "Issue/Receipt". The production window "PP Order Issue/Receipt" opens up.
  >**Note:** If you have selected the manufacturing order in the list view, you can also go to the [quick actions](StartAction) button at the top right to start the action ![](assets/Actionbutton_IssueReceipt.png).
 
-### 1. Produce a product without consuming material
+### a) Produce a product without consuming material
 This is the easiest way to produce in metasfresh. The produced quantity is simply added to the account without booking the required products from the bill of materials (BOM).
 
 1. In the production window, select the product (**MP**) you want to produce, e.g. "Carrots chopped".
@@ -64,7 +64,7 @@ This is the easiest way to produce in metasfresh. The produced quantity is simpl
 
 ---
 
-### 2. Produce a product and record the consumption of materials
+### b) Produce a product and record the consumption of materials
 The products required for the production are booked from the BOM. Adding the produced quantity works as described above.
 
 1. In the production window, select the component (**CO**) you want to book from the BOM, e.g. "Carrots unwashed".

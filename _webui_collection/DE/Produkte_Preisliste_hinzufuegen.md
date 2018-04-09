@@ -26,8 +26,8 @@ Ebenso gibt es zwei Wege, um zu überprüfen, welche Produkte auf einer Preislis
 
 ## Per Filterfunktion
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Produkt Preise".
-1. [Filtere](Filterfunktion) die Tabelle nach der gewünschten Preislistenversion.
-1. Es werden Dir nur noch die Produkte angezeigt, die auf der ausgewählten Preisliste stehen.
+1. [Verwende die Filterfunktion](Filterfunktion), um die gewünschte Preislistenversion zu finden.
+1. Es werden Dir nun nur noch die Produkte angezeigt, die auf der ausgewählten Preisliste stehen.
 
 ## Beispiel
 ![](assets/Produkte auf Preisliste setzen.gif)
