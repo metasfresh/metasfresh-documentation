@@ -10,7 +10,7 @@ ref: product_for_group_discount
 ---
 
 ## Übersicht
-Bei der [Gruppenrabattierung](Auftragszeilengruppenrabatt) benötigst Du ein Sonderprodukt, um eine Rabattzeile zu erstellen, in der die ausgewählten Auftragszeilen zusammengefasst sind. Dieses Sonderprodukt muss folgendermaßen konfiguriert sein:
+Bei der [Gruppenrabattierung](Auftragszeilengruppenrabatt) musst Du ein Sonderprodukt auswählen, damit eine Rabattzeile erstellt werden kann, in der die ausgewählten Auftragszeilen zusammengefasst werden. Dieses Sonderprodukt muss folgendermaßen konfiguriert sein:
 -	Es darf **nicht lagerhaltig** sein.
 -	Es muss mit **derselben Preisliste** verknüpft sein wie der Auftrag, in dem der Rabatt gewährt werden soll.
 
