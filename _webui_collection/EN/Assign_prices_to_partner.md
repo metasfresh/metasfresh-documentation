@@ -12,10 +12,10 @@ ref: assign_prices_to_partner
 ## Overview
 ![](assets/price system_assign prices to partner.png)
 
-In metasfresh there are [sales price lists and purchase price lists](Add_price-list). The sales price lists can be assigned to customers and the purchase price lists to vendors. These two types of price lists can also be assigned to partner groups.
+In metasfresh there are *sales price lists* and *purchase price lists*. The sales price lists can be assigned to customers and the purchase price lists to vendors. These two types of price lists can also be assigned to partner groups.
 
 ## Assign Sales Price List to Customer
-In order to obtain a *sales price list* you have to check the box **Sales Price List** in the corresponding [price list](Add_price-list) entry. Once this is done, you can continue with these steps:
+In order to obtain a *sales price list* you have to check the box **Sales Price List** in the corresponding price list entry (see **step 8** of "[*How do I add a price list?*](Add_price-list)"). Once this is done, you can continue with these steps:
 
 ### Steps
 1. Open the entry of an existing customer from your [business partners](Menu) or [add a new one](New_business_partner_customer).
@@ -26,7 +26,7 @@ In order to obtain a *sales price list* you have to check the box **Sales Price 
 ---
 
 ## Assign Purchase Price List to Vendor
-In order to obtain a *purchase price list* you have to uncheck the box **Sales Price List** in the corresponding [price list](Add_price-list) entry. Once this is done, you can continue with these steps:
+In order to obtain a *purchase price list* you have to uncheck the box **Sales Price List** in the corresponding price list entry (see **step 8** of "[*How do I add a price list?*](Add_price-list)"). Once this is done, you can continue with these steps:
 
 ### Steps
 1. Open the entry of an existing vendor from your [business partners](Menu) or [add a new one](New_business_partner_vendor).
