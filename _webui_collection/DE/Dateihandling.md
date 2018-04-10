@@ -1,5 +1,5 @@
 ---
-title: Wie kann ich Dateien als Anhänge verwalten?
+title: Wie kann ich Dateien hochladen und meinen Dokumenten anhängen?
 layout: default
 tags:
   - Benutzung
@@ -9,7 +9,11 @@ sequence: 40
 ref: file_handling
 ---
 
+## Übersicht
+In metasfresh kannst Du fast überall Dateianhänge hochladen. Du kannst sowohl einzelne als auch mehrere Dateien auf einmal hochladen.
+
 ## Schritte
+Öffne das Dokument, dem Du Deine Dateien anhängen willst, z.B. Geschäftspartner, Auftrag, Bestellung, Produkt usw.
 
 ### Upload
 1. Zum Hochladen, ziehe Deine Dateien per *Drag and Drop* auf die metasfresh-Oberfläche (siehe Beispiel).
