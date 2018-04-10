@@ -1,5 +1,5 @@
 ---
-title: How do I add files as attachments to my documents?
+title: How do I upload file attachments to my documents?
 layout: default
 tags:
   - Usage
@@ -9,7 +9,11 @@ sequence: 40
 ref: file_handling
 ---
 
+## Overview
+In metasfresh you can upload file attachments almost everywhere. You can upload single files one by one or multiple files all at once.
+
 ## Steps
+Open the document where you want to attach your files, e.g. business partner, sales/purchase order, product, etc.
 
 ### Upload
 1. Upload your files by dragging and dropping them onto the metasfresh interface (see example).

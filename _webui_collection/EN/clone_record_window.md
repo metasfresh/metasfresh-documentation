@@ -11,7 +11,7 @@ ref: clone_record_window
 
 ## Overview
 When creating a document with similar or identical data as in an existing document, you do not want to lose time by recording it all over again. To make things easier, you can use the *clone feature* to duplicate the entire existing document data of a window with all associated subtabs.<br>
-Cloning works with all master data and documents such as sales order, purchase order etc.
+Cloning works with all master data and documents such as sales order, purchase order, etc.
 
 ## Steps
 1. Use the [menu](Menu) to navigate to the document you want to clone (e.g. a [sales order](SalesOrder_recording)) and open it.

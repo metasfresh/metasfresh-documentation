@@ -10,7 +10,7 @@ ref: define_contract_period
 ---
 
 ## Overview
-In metasfresh, time frame conditions of a contract include the term duration, term of notice, contract renewals etc. All these conditions can be defined in the window "Contract Period".
+In metasfresh, time frame conditions of a contract include the term duration, term of notice, contract renewals, etc. All these conditions can be defined in the window "Contract Period".
 
 ## Steps
 
