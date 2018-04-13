@@ -34,6 +34,7 @@ If you are already looking at the entry of the product you want to translate, yo
 ## Add translations
 1. Open the entry of the language into which you want to translate, e.g. "Deutsch (CH)".
 1. Replace the existing **Name** with your translation.
+1. Check the box **Translated**.
 1. [metasfresh saves the progress automatically](Saveindicator).
 
 ## Example

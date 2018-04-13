@@ -34,6 +34,7 @@ Hast Du den Eintrag des zu übersetzenden Produkts bereits geöffnet, dann gehe 
 ## Übersetzungen anlegen
 1. Öffne den Eintrag der Sprache, in die Du übersetzen möchtest, z.B. "English (US)".
 1. Ersetze im Feld **Name** die vorhandene Benennung mit Deiner Übersetzung.
+1. Setze das Häkchen bei **Übersetzt**.
 1. [metasfresh speichert automatisch](Speicheranzeige).
 
 ## Beispiel
