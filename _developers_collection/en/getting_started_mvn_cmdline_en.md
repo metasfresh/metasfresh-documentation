@@ -33,7 +33,7 @@ MAVEN_OPTS=-Xmx1024m
 The dependency tree of metasfresh contains a few artifacts that are not part of the default maven repository.
 Therefore we recommend that you add our public repository to your maven `settings.xml` file.
 
-Please take a look [here]({{ site.github.url }}/developers_collection/en/getting_started_maven_settings.html) for details.
+Please take a look [here](getting_started_maven_settings) for details.
 
 # Build the main part
 

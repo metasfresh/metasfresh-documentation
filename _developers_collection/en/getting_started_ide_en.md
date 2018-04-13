@@ -53,7 +53,7 @@ Look for `-Xmx1024M` within the `eclipse.ini` file and change it to e.g. `-Xmx40
 The dependency tree of metasfresh contains a few artifacts that are not part of the default maven repository.
 Therefore we recommend that you add our public repository to your maven `settings.xml` file.
 
-Please take a look [here]({{ site.github.url }}/developers_collection/en/getting_started_maven_settings.html) for details.
+Please take a look [here](getting_started_maven_settings) for details.
 
 ## Import the code
 
