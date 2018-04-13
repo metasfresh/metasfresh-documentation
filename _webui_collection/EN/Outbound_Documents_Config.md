@@ -9,7 +9,7 @@ ref: outbound_documents_config
 ---
 
 ## Overview
-You can set up the outbound documents for a variety of tables so the documents that are created, such as invoices, shipment notes, dunning letters etc., get listed under "Outbound Documents" in the menu where you can then continue to process them either one by one or collectively.
+You can set up the outbound documents for a variety of tables so the documents that are created, such as invoices, shipment notes, dunning letters, etc., get listed under "Outbound Documents" in the menu where you can then continue to process them either one by one or collectively.
 
 ## Steps
 1. Open "Outbound Documents Config" from the [menu](Menu).

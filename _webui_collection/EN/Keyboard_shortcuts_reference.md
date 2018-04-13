@@ -54,7 +54,7 @@ In metasfresh you can speed up some processes in several contexts by using certa
 | `Alt` + `E` | `⌥ alt` + `E` | Open Advanced Edit Window for selected entry |
 | `Alt` + `Q` | `⌥ alt` + `Q` | Toggle fast order line input (Batch Entry) |
 | `Alt` + `Y` | `⌥ alt` + `Y` | Delete selected entry |
-| `Alt`+`+` | `⌥ alt` + `+` | Expand record tab |
+| `Alt` + `+` | `⌥ alt` + `+` | Expand record tab |
 
 ### [Quick Actions](StartAction) Context
 

@@ -9,7 +9,7 @@ ref: filtering_function
 ---
 
 ## Overview
-If you are searching for specific documents (such as business partners, sales orders, products etc.) you can display them separately by using the filtering function.
+If you are searching for specific documents (such as business partners, sales orders, products, etc.) you can display them separately by using the filtering function.
 
 ## Steps
 1. Open the corresponding window in [list view](ViewModes), e.g. "[Sales Order](Menu)".

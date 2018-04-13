@@ -1,5 +1,5 @@
 ---
-title: How do I give discount on individual products (Order Line Discounts)?
+title: How do I give discounts on individual products (order line discounts)?
 layout: default
 tags:
   - Pricing

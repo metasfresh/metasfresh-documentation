@@ -18,7 +18,7 @@ If you want to work with currencies other than your default currency, you have t
 1. Open "Currency Rate" from the [menu](Menu).
 1. [Add a new currency rate](New_Record_Window).
 1. Select a base currency (**Currency**) and a counter currency (**Currency To**), e.g. USD to EUR.
- >**Note:** Each exchange rate must be configured separately, e.g. USD to EUR, EUR to USD etc.
+ >**Note:** Each exchange rate must be configured separately, e.g. USD to EUR, EUR to USD, etc.
 
 1. Enter *either* the factor to **Multiply Rate** by *or* the divisor to **Divide Rate** by.
  >**Note:** The other operand will be automatically calculated, respectively.
