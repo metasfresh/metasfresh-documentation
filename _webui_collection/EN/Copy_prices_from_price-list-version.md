@@ -18,7 +18,7 @@ However, instead you can also take an existing price list version along with its
 - [Create a price list scheme](Price_list_scheme_rules), e.g. with the name *Copy Price Lists*.
 
 ## Steps
-1. Open an existing [price list](Menu).
+1. Open the entry of an existing [price list](Menu) or [create a new one](Add_price-list).
 1. [Add a new price list version](Add_price-list-version).
 1. Go to the record tab "Price List Version" at the bottom of the page.
 1. Double-click the field **Base Price List Version** of the newly created price list version and from the drop-down list select the base version from where the prices and products shall be taken over.

@@ -10,7 +10,7 @@ ref: productprice
 ---
 
 ## Steps
-1. Open an [existing product](NewProduct).
+1. Open the entry of an existing [product](Menu) or [add a new one](NewProduct).
 1. Go to the record tab "Price" at the bottom of the page and click ![](assets/Add_New_Button.png). A new window opens up.
 1. Enter the name of the designated **Price List Version**, e.g. "New Price List Germany".
  >**Note:** Hit `SPACE` to see all available price lists.
