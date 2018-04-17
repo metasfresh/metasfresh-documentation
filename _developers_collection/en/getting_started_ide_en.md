@@ -48,6 +48,13 @@ Also, we recomment that you make sure to start eclipse with more than the defaul
 Look for `-Xmx1024M` within the `eclipse.ini` file and change it to e.g. `-Xmx4096M` (the more the better).
 
 
+# Edit your maven settings.xml file
+
+The dependency tree of metasfresh contains a few artifacts that are not part of the default maven repository.
+Therefore we recommend that you add our public repository to your maven `settings.xml` file.
+
+Please take a look [here](getting_started_maven_settings) for details.
+
 ## Import the code
 
 * Start Eclipse. You will be asked for a workspace location. In my example, I'm using `C:\development\repos`, because it's where all my working copies are located.

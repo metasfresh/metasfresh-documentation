@@ -28,6 +28,13 @@ MAVEN_HOME=C:\development\maven\apache-maven-3.5.2
 MAVEN_OPTS=-Xmx1024m
 ```
 
+# Edit your maven settings.xml file
+
+The dependency tree of metasfresh contains a few artifacts that are not part of the default maven repository.
+Therefore we recommend that you add our public repository to your maven `settings.xml` file.
+
+Please take a look [here](getting_started_maven_settings) for details.
+
 # Build the main part
 
 This section is about building the biggest part of metasfresh.
