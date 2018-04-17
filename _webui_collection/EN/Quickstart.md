@@ -14,6 +14,7 @@ ref: quickstart
 
 ## Steps
 1. [Log on to the system](Logon).
+1. [Change your password](Change_password).
 1. [Set your language](SwitchLanguage).
 1. [Enter your company data](InitialSetupWizard).
 1. [Go through a sample workflow ](Workflow_SalesOrder_to_Invoice).
