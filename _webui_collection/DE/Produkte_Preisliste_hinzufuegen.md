@@ -17,7 +17,7 @@ Es gibt zwei Wege, Produkte einer [Preisliste](Preisliste_anlegen) hinzuzufügen
 Ebenso gibt es zwei Wege, um zu überprüfen, welche Produkte auf einer Preisliste stehen.
 
 ## Via Preislistenversion
-1. Öffne eine bestehende [Preisliste](Menu).
+1. Öffne den Eintrag einer bestehenden [Preisliste](Menu).
 1. Gehe zur Registerkarte "[Preislistenversion](Preislistenversion_anlegen)" unten auf der Seite.
 1. [Springe über das Kontextmenü](Springezu_Kontextmenue) ![](assets/Produkt Preise Kontextmenü.png) der betreffenden Zeile in das Fenster "Produktpreise". Hier siehst Du nun eine Liste aller Produkte auf der Preisliste.
  >**Hinweis:** Erscheint die Verknüpfung "Produkt Preise" nicht im Kontextmenü, sind auf der Preisliste noch keine Produkte hinterlegt.

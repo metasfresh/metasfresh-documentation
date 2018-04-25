@@ -39,7 +39,7 @@ In metasfresh kannst Du in verschiedenen Kontexten einige Prozesse mithilfe best
 | Tastenkombination <br> (Windows) | Tastenkombination <br> (MacOS) | Befehl |
 | :---: | :---: | :--- |
 | `Alt` + `D` | `⌥ alt` + `D` | Dokument löschen |
-| `Alt` + `E` | `⌥ alt` + `E` | "Advanced Edit"-Fenster öffnen |
+| `Alt` + `E` | `⌥ alt` + `E` | Fenster "Erweiterte Erfassung" öffnen |
 | `Alt` + `I` | `⌥ alt` + `I` | Belegverarbeitungsmenü öffnen (Aktionsbutton für Belegstatus) |
 | `Alt` + `K` | `⌥ alt` + `K` | Email-Editor öffnen |
 | `Alt` + `N` | `⌥ alt` + `N` | Neues Dokument anlegen |

@@ -10,7 +10,7 @@ ref: productprice
 ---
 
 ## Schritte
-1. Öffne ein [bestehendes Produkt](NeuesProdukt).
+1. Öffne den Eintrag eines bestehenden [Produkts](Menu) bzw. [lege ein neues an](NeuesProdukt).
 1. Gehe zur Registerkarte "Preis" unten auf der Seite und klicke auf ![](assets/Neu_hinzufuegen_Button.png). Es öffnet sich ein neues Fenster.
 1. Gib unter **Version Preisliste** den Namen der vorgesehenen Preislistenversion ein, z.B. "Testpreise Kunden Deutschland (Verkaufspreisliste)".
  >**Hinweis:** Drücke die `LEERTASTE`, um alle verfügbaren Preislisten zu sehen.
