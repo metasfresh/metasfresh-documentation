@@ -14,7 +14,7 @@ ref: quickstart
 
 ## Schritte
 1. [Melde Dich an](Anmeldung).
-1. [Ändere Dein Passwort](Passwort_%C3%A4ndern)
+1. [Ändere Dein Passwort](Passwort_aendern)
 1. [Wähle Deine Sprache](SwitchLanguage).
 1. [Stelle Deine Firmendaten ein](Ersteinrichtung).
 1. [Spiele einen Beispiel-Workflow durch](Workflow_Auftrag_Bis_Rechnung).
