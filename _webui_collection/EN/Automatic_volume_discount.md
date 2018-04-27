@@ -15,7 +15,7 @@ ref: automatic_volume_discount
 1. Give the discount scheme a **Name**.
 1. Select the **Discount Type** *Breaks*.
 1. Set a **Valid from** date.
- >**Note:** If this date lies in the *past* the discount scheme is effective *immediately*. If it lies in the *future* the scheme will only apply *from that date*.
+ >**Note:** If this date lies in the *past*, the discount scheme is effective *immediately*. If it lies in the *future*, the scheme will only apply *from that date*.
 
 1. Go to the record tab "Discount Break" at the bottom of the page and click ![](assets/Add_New_Button.png). A new window opens up.
 1. Select a **Product** or a **Product Category**.

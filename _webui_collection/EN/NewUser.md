@@ -44,7 +44,7 @@ You can create new contacts or allow existing contacts to log on to the system b
 1. Go to the record tab "[User Roles](NewUserRole)" at the bottom of the page and click ![](assets/Add_New_Button.png). A new window opens up.
 1. Select the role you want to assign to the user.
 1. Click "Done" to add the role to the list.
- >**Note:** A user can have several roles. In this case they will be asked to choose a role at the login.
+ >**Note:** A user can have several roles. In this case, they will be asked to choose a role at the login.
 
 ## Example
 This example shows the creation of a user "mf" with the role "WebUI":
