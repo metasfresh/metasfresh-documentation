@@ -15,6 +15,8 @@ ref: automatic_volume_discount
 1. Benenne das Rabattschema im Feld **Name**.
 1. Wähle die **Rabattart** *Breaks* aus.
 1. Stelle ein **Gültig ab** Datum ein.
+ >**Hinweis:** Liegt das Datum in der *Vergangenheit*, gilt das Rabattschema *ab sofort*. Liegt es in der *Zukunft*, gilt es *erst ab diesem Datum*.
+
 1. Gehe zur Registerkarte "Rabattkonditionen" unten auf der Seite und klicke auf ![](assets/Neu_hinzufuegen_Button.png). Es öffnet sich ein neues Fenster.
 1. Wähle ein **Produkt** oder eine **Produktkategorie** aus.
 1. Gib im Feld **Mengenstufe** die Anzahl ein, ab welcher ein Rabatt gewährt werden soll.

@@ -16,7 +16,7 @@ ref: new_business_partner
 1. Fill in the field **Name**, or if the box **Company** is checked, fill in the field **Company Name**.
  >**Note:** The **(Company) Name** is restricted to 60 characters.
 
-1. Select a **Business Partner Group**, e.g. *Machine Supplier*.
+1. Select a [**Business Partner Group**](New_Business_Partner_Group), e.g. *Machine Supplier*.
 1. Select the partner’s preferred language for communication.
 1. [Add one or more addresses](Add_address_tab).
 1. ***Optional:*** [Add suitable attributes](Add_attributes_to_BP) which might come in handy for the [filtering function](Filtering_function).
