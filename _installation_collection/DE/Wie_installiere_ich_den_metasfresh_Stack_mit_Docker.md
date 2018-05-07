@@ -36,13 +36,15 @@ Diese Anleitung beschreibt die Installation der folgenden Dienste gemäß [diese
 
 ### metasfresh installieren
 
-1. Klone die Docker-Compose Datei.
+1. Klone die Docker-Compose Datei und wechsel in das neu erstelle Directory
 
    `git clone https://github.com/metasfresh/metasfresh-docker.git`
+   `cd metasfresh-docker/`
+   
 
 1. Kommentiere `http://beispiel.com:8080` aus und ersetze die Zeile durch einen vom Browser extern erreichbaren Hostnamen und Port.
 
-   `vi ./metasfresh-docker/docker-compose.yml`
+   `vi ./docker-compose.yml`
    ```
    ...
   #environment:
