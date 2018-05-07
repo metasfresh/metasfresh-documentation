@@ -66,6 +66,9 @@ Diese Anleitung beschreibt die Installation der folgenden Dienste gemäß [diese
 
    >**Hinweis:** Beim ersten Start kann es ein paar Minuten dauern, bis die Datenbank initialisiert und die Services verfügbar sind.
 
+1. (Optional) Das Docker Project wieder stoppen. <br>
+
+   `docker-compose down`
 
 ## Zugriff
 
