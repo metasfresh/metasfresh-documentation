@@ -38,7 +38,7 @@ Diese Anleitung beschreibt die Installation der folgenden Dienste gemäß [diese
 
 1. Klone die Docker-Compose Datei und wechsel in das neu erstelle Directory
 
-   `git clone https://github.com/metasfresh/metasfresh-docker.git`
+   `git clone https://github.com/metasfresh/metasfresh-docker.git` 
    `cd metasfresh-docker/`
    
 
