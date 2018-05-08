@@ -52,7 +52,7 @@ Diese Anleitung beschreibt die Installation der folgenden Dienste gemäß [diese
     #- WEBAPI_URL=http://beispiel.com:8080
    ...
    ```
-   >**Hinweis:** PORT `:8080` ist nur nötig, wenn ein anderer als port 80 verwendet werden soll. Siehe auch [Wie ändere ich die WebUI Ports für metasfresh-docker?](Wie_aendere_ich_die_ports_fuer_webui_in_docker.html)
+   >**Hinweis:** PORT `:8080` ist nur nötig, wenn ein anderer als port 80 verwendet werden soll. Siehe auch [Wie ändere ich die WebUI Ports für metasfresh-docker?](Wie_aendere_ich_die_ports_fuer_webui_in_docker)
 
    >WICHTIG: solltest du eine RPM basierende Distribution einsetzen und/oder du auf deinem Host die Datei `/etc/timezone` nicht vorfinden, kommentiere die Zeile `- /etc/timezone:/etc/timezone:ro` aus deiner `docker-compose.yml` aus!
 
