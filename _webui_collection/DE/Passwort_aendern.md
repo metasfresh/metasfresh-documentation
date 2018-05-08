@@ -23,4 +23,4 @@ ref: change_password
 1. Klicke auf "Start", um die Änderungen zu übernehmen und das Fenster zu schließen.
 
 ## Beispiel
-![](assets/Passwort_ändern.gif)
+![](assets/Passwort_aendern.gif)

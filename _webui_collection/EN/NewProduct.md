@@ -12,7 +12,7 @@ ref: newproduct
 ## Steps
 1. Open "Product" from the [menu](Menu).
 1. [Add a new product](New_Record_Window).
-1. Fill in the field **Name**.
+1. Give the product a **Name**.
  >**Note:** This name will appear on documents such as sales order confirmations etc.
 
 1. Choose a **Product Category**.
@@ -35,7 +35,7 @@ ref: newproduct
 ## Further Relevant Fields
 - The field **UOM** (unit of measurement) determines in which unit the product is managed in stock (stock UOM).
  >**Note 1:** Once the first receipt is issued with this product, the stock UOM cannot be easily changed.<br><br>
- >**Note 2:** You can define a different sales UOM under the record tab **Price** isolated from the stock UOM. In this case you also have to define a [UOM conversion](Convert_UOMs).
+ >**Note 2:** You can define a different sales UOM under the record tab **Price** isolated from the stock UOM. In this case, you also have to define a [UOM conversion](Convert_UOMs).
 
 - The field **Product Type** determines the type of product.
 

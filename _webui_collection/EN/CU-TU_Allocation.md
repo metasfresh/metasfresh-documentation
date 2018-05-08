@@ -20,7 +20,7 @@ A product is a customer unit (CU) which in bigger amounts can be consolidated in
 1. ***Option 1:*** Enter a specific fixed **Quantity** to put into the TU. The **UOM** is always the product's stock UOM.<br>
 ***Option 2:*** If the quantity is unknown or variable, check the box **Unspecified Capacity**.
 1. Set a **Valid from** date.
- >**Note:** If this date lies in the *past* the packing instructions are effective *immediately*. If it lies in the *future* they will only apply *from that date*. metasfresh takes the date promised of sales orders or purchase orders as reference and then suggests the respective packing instructions valid at that time.
+ >**Note:** If this date lies in the *past*, the packing instructions are effective *immediately*. If it lies in the *future*, they will only apply *from that date*. metasfresh takes the date promised of sales orders or purchase orders as reference and then suggests the respective packing instructions valid at that time.
 
 1. Optionally, you can add a **Business Partner** if you want to activate these packing instructions for this partner only.
 1. Click "Done" to close the window and add the allocation to the list.

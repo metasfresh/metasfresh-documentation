@@ -17,7 +17,7 @@ For copying a price list you require a valid price list scheme where you can det
 1. [Create a new price list scheme](New_Record_Window).
 1. Give the price list scheme a **Name**, e.g. "Copy Price List".
 1. Set a **Valid from** date.
- >**Note:** If this date lies in the *past* the price list scheme is effective *immediately*. If it lies in the *future* the scheme will only apply *from that date*.
+ >**Note:** If this date lies in the *past*, the price list scheme is effective *immediately*. If it lies in the *future*, the scheme will only apply *from that date*.
 
 1. Select the **Discount Type** *Price List*.
 

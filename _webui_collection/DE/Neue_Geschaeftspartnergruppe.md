@@ -12,7 +12,7 @@ ref: new_business_partner_group
 ## Schritte
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Geschäftspartnergruppe".
 1. [Lege eine neue Geschäftspartnergruppe an](Neuer_Datensatz_Fenster_Webui).
-1. Fülle das Feld **Name** aus.
+1. Benenne die Geschäftspartnergruppe im Feld **Name**.
 1. [metasfresh speichert automatisch](Speicheranzeige).
 
 ## Beispiel
