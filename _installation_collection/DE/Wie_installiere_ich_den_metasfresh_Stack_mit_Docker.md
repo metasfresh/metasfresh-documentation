@@ -36,20 +36,23 @@ Diese Anleitung beschreibt die Installation der folgenden Dienste gemäß [diese
 
 ### metasfresh installieren
 
-1. Klone die Docker-Compose Datei.
+1. Klone die Docker-Compose Datei und wechsel in das neu erstelle Directory
 
-   `git clone https://github.com/metasfresh/metasfresh-docker.git`
+   ```
+   git clone https://github.com/metasfresh/metasfresh-docker.git
+   cd metasfresh-docker/
+   ```
 
 1. Kommentiere `http://beispiel.com:8080` aus und ersetze die Zeile durch einen vom Browser extern erreichbaren Hostnamen und Port.
 
-   `vi ./metasfresh-docker/docker-compose.yml`
+   `vi ./docker-compose.yml`
    ```
    ...
-  #environment:
+   #environment:
     #- WEBAPI_URL=http://beispiel.com:8080
    ...
    ```
-   >**Hinweis:** PORT `:8080` ist nur nötig, wenn nicht 80 verwendet wird.
+   >**Hinweis:** PORT `:8080` ist nur nötig, wenn ein anderer als port 80 verwendet werden soll. Siehe auch [Wie ändere ich die WebUI Ports für metasfresh-docker?](Wie_aendere_ich_die_ports_fuer_webui_in_docker)
 
    >WICHTIG: solltest du eine RPM basierende Distribution einsetzen und/oder du auf deinem Host die Datei `/etc/timezone` nicht vorfinden, kommentiere die Zeile `- /etc/timezone:/etc/timezone:ro` aus deiner `docker-compose.yml` aus!
 
@@ -63,6 +66,9 @@ Diese Anleitung beschreibt die Installation der folgenden Dienste gemäß [diese
 
    >**Hinweis:** Beim ersten Start kann es ein paar Minuten dauern, bis die Datenbank initialisiert und die Services verfügbar sind.
 
+1. (Optional) Das Docker Project wieder stoppen. <br>
+
+   `docker-compose down`
 
 ## Zugriff
 
