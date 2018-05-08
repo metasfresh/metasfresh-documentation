@@ -15,7 +15,7 @@ ref: open_advancededittab
 1. Click on "Advanced edit" to open the advanced edit menu.
  >**Note:** Alternatively, press `Alt` + `E` / `⌥ alt` + `E` when the regarding line is selected.
 
- ![](assets/AdvancedEdit_KontextMenü.png)
+ ![](assets/AdvancedEdit_ContextMenu.png)
 
 ## Example
 ![](assets/AdvancedEditTab_Open.gif)

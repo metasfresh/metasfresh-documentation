@@ -17,7 +17,7 @@ In metasfresh kannst Du definieren, ob ein Geschäftspartner ein Kunde, Lieferan
 ### Geschäftspartner als Kunde
 1. Öffne einen [Geschäftspartner](Neuer_Geschaeftspartner)eintrag in der [Einzelansicht](Ansichten).
 1. Gehe zur Registerkarte "Kunde" unten auf der Seite.
-1. Öffne das ["Advanced Edit"-Menü](AdvancedEditTab_Öffnen) der Kundenzeile.
+1. Öffne die ["Erweiterte Erfassung"](AdvancedEditTab_Öffnen) der Kundenzeile.
 1. Setze ein Häkchen bei **Kunde**.
 1. Optional kannst Du weitere Bedingungen hinzufügen, wie z.B. **Zahlungsweise**, **Kreditlimit**, **Zahlungsbedingung**, **Preissystem** usw.
 1. Klicke auf "Bestätigen", um das Fenster zu schließen und die Konditionen zur Registerkarte hinzuzufügen.
