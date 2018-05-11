@@ -21,7 +21,7 @@ Um also Missverständnisse zu vermeiden und Dein eigenes System nicht mit mehrer
  >**Hinweis 2:** Drücke die `LEERTASTE`, um alle Geschäftspartner zu sehen.<br><br>
  >**Hinweis 3:** Auswahl des Treffers mit Maus oder ![](assets/Workflow_Auftrag_Bis_Rechnung_WebUI-73797.png).
 
-1. Setze ein Häkchen bei **Verwendet für Lieferant** oder **Verwendet für Kunden**, je nachdem für welchen Geschäftspartner die neue Bezeichnung verwendet werden soll.
+1. Setze ein Häkchen bei **Verwendet für Lieferant** oder **Verwendet für Kunden**, je nachdem für welche Geschäftsbeziehung die neue Bezeichnung verwendet werden soll.
 1. Gib den partnerspezifischen **Produktnamen** ein.
 1. Gib die partnerspezifische **Produktnummer** ein.
 1. Klicke auf "Bestätigen", um das Fenster zu schließen und die partnerspezifischen Daten zur Liste hinzuzufügen.

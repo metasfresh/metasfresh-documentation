@@ -21,7 +21,7 @@ So, in order to avoid any misunderstandings and ending up with several names and
  >**Note 2:** Hit `SPACE` to see all business partners.<br><br>
  >**Note 3:** Select one of the shown options with the mouse or ![](../DE/assets/Workflow_Auftrag_Bis_Rechnung_WebUI-73797.png).
 
-1. Check the box **For Vendor** or **For Customer** according to the respective business partner for whom the new name should be used.
+1. Check the box **For Vendor** or **For Customer** according to the respective business relation the new name should be used.
 1. Enter the partner-related **Product name**.
 1. Enter the partner-related **Product number**.
 1. Click "Done" to close the window and add the partner-related data to the list.
