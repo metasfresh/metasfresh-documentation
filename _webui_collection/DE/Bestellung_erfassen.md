@@ -35,7 +35,7 @@ ref: createpurchaseorder
 1. Drücke `↵ Enter`, um die Zeile hinzuzufügen.
  >**Hinweis:** Wiederhole die Schritte 2 bis 4 so oft, bis Du alle Bestellzeilen erfasst hast.
 
-## Nächste Schritte
+### Nächste Schritte
 1. [Stelle den Beleg fertig](BelegverarbeitungFertigstellen).
 1. [Öffne die PDF-Vorschau](PDFVorschau).
 

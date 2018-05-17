@@ -35,7 +35,7 @@ ref: createpurchaseorder
 1. Hit `↵ Enter` to add the line to the order.
  >**Note:** Repeat steps 2 to 4 until you have registered all order items.
 
-## Next Steps
+### Next Steps
 1. [Complete the invoice](DocumentProcessingComplete).
 1. [Open the PDF preview](PrintPreview).
 
