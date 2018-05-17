@@ -33,9 +33,10 @@ ref: salesorder_recording
  >**Hinweis:** Wechsle in das Feld mit der Maus oder `Tab ↹`-Taste
 
 1. Drücke `↵ Enter`, um die Zeile hinzuzufügen.
- >**Hinweis:** Wiederhole die Schritte 2 bis 4 so oft, bis Du alle Auftragszeilen erfasst hast.
+ >**Hinweis 1:** Wiederhole die Schritte 2 bis 4 so oft, bis Du alle Auftragszeilen erfasst hast.<br><br>
+ >**Hinweis 2:** Zeigt der **No Price Conditions Indicator** am Ende einer Auftragszeile einen <span style="color:red">roten</span> Punkt, musst Du ein [Preiskonditionsschema anlegen](Preiskonditionen_in_metasfresh) und dieses dann [mit dem Kunden verknüpfen](Rabattschema_mit_GP_verknuepfen).
 
-## Nächste Schritte
+### Nächste Schritte
 1. [Stelle den Beleg fertig](BelegverarbeitungFertigstellen).
 1. [Öffne die PDF-Vorschau](PDFVorschau).
 

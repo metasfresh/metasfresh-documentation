@@ -33,9 +33,10 @@ ref: salesorder_recording
  >**Note:** Use the mouse or `Tab ↹` key to go to the field
 
 1. Hit `↵ Enter` to add the line to the order.
- >**Note:** Repeat steps 2 to 4 until you have registered all order items.
+ >**Note 1:** Repeat steps 2 to 4 until you have registered all order items.<br><br>
+ >**Note 2:** If the **No Price Conditions Indicator** at the end of an order line shows a <span style="color:red">red</span> dot, you have to add a [pricing conditions scheme](Pricing_conditions_in_metasfresh) and then [link it to the customer](Link_discount_scheme_to_BP).
 
-## Next Steps
+### Next Steps
 1. [Complete the order](DocumentProcessingComplete).
 1. [Open the PDF preview](PrintPreview).
 
