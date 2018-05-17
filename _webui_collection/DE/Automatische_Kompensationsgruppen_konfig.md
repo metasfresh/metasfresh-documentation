@@ -3,6 +3,7 @@ title: Wie richte ich die automatische Kompensationsgruppierung für Produktkate
 layout: default
 tags:
   - Preisgestaltung
+  - Preiskonditionen
   - Rabatte
   - Kompensationsgruppen
 lang: de

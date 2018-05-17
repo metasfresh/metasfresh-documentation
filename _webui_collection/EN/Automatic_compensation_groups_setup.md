@@ -3,6 +3,7 @@ title: How do I set up the automatic compensation grouping for product categorie
 layout: default
 tags:
   - Pricing
+  - Pricing Conditions
   - Discounts
   - Compensation Groups
 lang: en

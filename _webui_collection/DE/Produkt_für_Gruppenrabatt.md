@@ -3,9 +3,10 @@ title: Wie konfiguriere ich ein "Rabattprodukt" für den Gruppenrabattierungspro
 layout: default
 tags:
   - Preisgestaltung
+  - Preiskonditionen
   - Rabatte
 lang: de
-sequence: 50
+sequence: 60
 ref: product_for_group_discount
 ---
 
@@ -25,5 +26,5 @@ Bei der [Gruppenrabattierung](Auftragszeilengruppenrabatt) musst Du ein Sonderpr
 
 1. [metasfresh speichert automatisch](Speicheranzeige).
 
-### Beispiel
+## Beispiel
 ![](assets/Produkt für Gruppenrabatt.gif)

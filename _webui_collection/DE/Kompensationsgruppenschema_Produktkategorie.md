@@ -3,6 +3,7 @@ title: Wie verknüpfe ich ein Kompensationsgruppenschema mit einer Produktkatego
 layout: default
 tags:
   - Preisgestaltung
+  - Preiskonditionen
   - Rabatte
   - Kompensationsgruppen
 lang: de

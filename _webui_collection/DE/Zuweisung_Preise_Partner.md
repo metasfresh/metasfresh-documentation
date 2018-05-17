@@ -4,6 +4,7 @@ layout: default
 tags:
   - Preisgestaltung
   - Preise
+  - Preisdefinition
 lang: de
 sequence: 60
 ref: assign_prices_to_partner

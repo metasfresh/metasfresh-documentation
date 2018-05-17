@@ -3,6 +3,7 @@ title: How do I create a compensation group scheme?
 layout: default
 tags:
   - Pricing
+  - Pricing Conditions
   - Discounts
   - Compensation Groups
 lang: en
@@ -21,7 +22,7 @@ A compensation group scheme allows you to determine which products will be autom
 1. Select a **Product**, e.g. [*Group discount*](Product_for_group_discount).
  >**Note:** You can select any product from the list in the product field.
 
-1. Optionally, you can enter a **Discount %** right here which will then be applied directly when creating the compensation group. However, you can also leave it at 0 and manually enter the discount amount later in the sales order.
+1. ***Optional:*** Enter a **Discount %** right here which will then be applied automatically when creating the compensation group. However, you can also leave it at 0 and manually enter the discount amount later in the sales order.
 1. Click "Done" to close the window and add the discount product to the list.
 1. [metasfresh saves the progress automatically](Saveindicator).
 

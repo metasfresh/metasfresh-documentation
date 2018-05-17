@@ -3,6 +3,7 @@ title: Wie vergebe ich Rabatte auf einzelne Produkte (Auftragszeilenrabatte)?
 layout: default
 tags:
   - Preisgestaltung
+  - Preiskonditionen
   - Rabatte
 lang: de
 sequence: 20
@@ -16,5 +17,5 @@ ref: order_line_discount
 1. Bestätige mit `↵ Enter`.
 1. Folge den restlichen Schritten zur [Auftragserfassung](Auftrag_erfassen), um den Auftrag abzuschließen.
 
-### Beispiel
+## Beispiel
 ![](assets/Auftragszeilenrabatt.gif)

@@ -3,6 +3,7 @@ title: How do I set a parent product category?
 layout: default
 tags:
   - Pricing
+  - Pricing Conditions
   - Discounts
   - Compensation Groups
 lang: en

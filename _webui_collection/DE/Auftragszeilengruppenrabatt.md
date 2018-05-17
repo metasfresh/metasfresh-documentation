@@ -3,6 +3,7 @@ title: Wie vergebe ich Rabatte auf manuell erstellte Kompensationsgruppen (Auftr
 layout: default
 tags:
   - Preisgestaltung
+  - Preiskonditionen
   - Rabatte
   - Kompensationsgruppen
 lang: de
@@ -43,5 +44,5 @@ Möchtest Du auf einen Gruppenrabatt noch weitere Rabatte vergeben, die sich an 
 ## Kompensationsgruppe löschen
 Möchtest Du eine Kompensationsgruppe löschen und den Rabatt rückgängig machen, lösche einfach die jeweilige Rabattzeile.
 
-### Beispiel
+## Beispiel
 ![](assets/Auftragszeilengruppenrabatt.gif)

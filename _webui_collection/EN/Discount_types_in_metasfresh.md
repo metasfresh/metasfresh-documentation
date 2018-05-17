@@ -3,6 +3,7 @@ title: Discount types in metasfresh
 layout: default
 tags:
   - Pricing
+  - Pricing Conditions
   - Discounts
 lang: en
 sequence: 10

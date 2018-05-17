@@ -4,6 +4,7 @@ layout: default
 tags:
   - Pricing
   - Prices
+  - Price Definition
 lang: en
 sequence: 70
 ref: add_products_to_price-list

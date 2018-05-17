@@ -3,6 +3,7 @@ title: Wie lege ich ein Kompensationsgruppenschema an?
 layout: default
 tags:
   - Preisgestaltung
+  - Preiskonditionen
   - Rabatte
   - Kompensationsgruppen
 lang: de
@@ -21,7 +22,7 @@ Mithilfe des Kompensationsgruppenschemas kannst Du einstellen, welche Produkte i
 1. Wähle ein **Produkt** aus, z.B. [*Gruppenrabatt*](Produkt_für_Gruppenrabatt).
  >**Hinweis:** Du kannst auch jedes andere Produkt auswählen, das im Produktfeld vorgeschlagen wird.
 
-1. Optional kannst Du hier bereits einen **Gesamtauftragsrabatt %** eingeben, der bei der Kompensationsgruppenerstellung sofort berechnet wird. Du kannst ihn jedoch auch bei 0 belassen und erst später im Auftrag manuell vergeben.
+1. ***Optional:*** Gib bereits hier einen **Gesamtauftragsrabatt %** ein, der dann bei der Kompensationsgruppenerstellung automatisch angerechnet wird. Du kannst ihn jedoch auch bei 0 belassen und erst später im Auftrag manuell vergeben.
 1. Klicke auf "Bestätigen", um das Fenster zu schließen und das Rabattprodukt zur Liste hinzuzufügen.
 1. [metasfresh speichert automatisch](Speicheranzeige).
 

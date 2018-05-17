@@ -3,6 +3,7 @@ title: How do I link a compensation group scheme to a product category?
 layout: default
 tags:
   - Pricing
+  - Pricing Conditions
   - Discounts
   - Compensation Groups
 lang: en

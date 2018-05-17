@@ -3,6 +3,7 @@ title: How do I give discounts on automatically created compensation groups?
 layout: default
 tags:
   - Pricing
+  - Pricing Conditions
   - Discounts
   - Compensation Groups
 lang: en
@@ -40,5 +41,5 @@ If you want to give further discounts on a group discount that always consider t
 ## Delete Compensation Group
 If you want to delete a compensation group and revoke the discount, simply delete the respective discount line.
 
-### Example
+## Example
 ![](assets/AutomaticGroupDiscounts.gif)

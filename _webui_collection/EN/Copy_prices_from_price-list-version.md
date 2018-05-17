@@ -4,8 +4,9 @@ layout: default
 tags:
   - Pricing
   - Prices
+  - Price List Schemes (Copy Price Lists)
 lang: en
-sequence: 80
+sequence: 10
 ref: copy_prices_from_price-list-version
 ---
 

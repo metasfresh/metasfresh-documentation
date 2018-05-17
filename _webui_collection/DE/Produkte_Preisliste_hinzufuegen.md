@@ -4,6 +4,7 @@ layout: default
 tags:
   - Preisgestaltung
   - Preise
+  - Preisdefinition
 lang: de
 sequence: 70
 ref: add_products_to_price-list
