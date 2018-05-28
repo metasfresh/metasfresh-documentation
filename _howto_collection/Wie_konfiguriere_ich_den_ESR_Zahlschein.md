@@ -44,8 +44,8 @@ Nach der Aktivierung des ESR braucht es dann noch die Fachliche Einrichtung.
 ## Einrichtung Organisation
 
 Damit der ESR für eine Organisation erzeugt wird müssen die folgenden Kriterien erfüllt sein:
-- Der Geschäftspartner der Organisation muss eine Schweizer Adresse und ein ESR Konto haben
 - Der Suchschlüssel der Organisation muss numerisch und nicht länger als 3 Zeichen lang sein, da er Teil der ESR Nummer wird. z.B. 001
+- Der Geschäftspartner der Organisation muss eine Schweizer Adresse,  ein ESR Konto und die gleiche Nummer wie die Sektion haben (z.B. 001).
 
 
 ## Einrichtung Bankkonto
