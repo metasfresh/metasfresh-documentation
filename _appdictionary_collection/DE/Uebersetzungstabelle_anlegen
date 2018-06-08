@@ -1,0 +1,26 @@
+## Üersetzungstabelle anlegen 
+In dieser Anleitung bwird beschrieben, wie Uebersetzungstabellen für bestehende Tabellen angelegt werden. 
+
+1. Oeffne das Fenster "Tabellen und Spalten" und suche die Tabelle, zu welcher eine Uebersetzung angelegt werden soll
+1. Lege eine neue Tabelle an und trage folgende Werte ein:
+    * Tabellenname, immer den den Namen der zu übersetzenden Tabelle nehmen und _TRL anhängen
+    * Mandant = System
+    * Berechtigunsstufe = Mandant + Organisation
+1. Kopiere die Spalten einer bestehenden Uebersetzungstabelle
+    * Klicke den Button "Copy Columns deom Table"
+    * Wähle eine Uebersetzungstabelle aus, zum Beispiel "Zahlungskonditionen **"
+    * Starte den Porzess zum Kopieren der Spalten
+1. Ersetze bei den kopierten Spalten die ID, im obigen Beispiel c_payment_id mit der ID der neuen Tabelle
+1. Entferne Spalten, welche kopiert wurden, in der neuen Tabelle jedoch nicht vorhanden sind
+1. Klicke den Button "Spalten synchronisieren" 
+1. Oeffne die zu übersetzende Tabelle (ohne EndunG "_TRL") und wechsle ins Register "Spalten". Setzen bei den Spalten, welche Übersetzt werden sollen (z.B. Name) und setze den Haken bei "übersetzt".
+1. Lege das Übersetzungsregister an
+    * Öffne das Fenster "Fenster Verwaltung"
+    * Wechsle ins Tab "Register"
+    * Lege ein neues Register an und bennen dieses entsprechen "Name  - Übersetzung"
+    * Setze das Tab-Level ein Level tiefer als das zu übersetzende Tab (zu übersetzendes Tab Level = 0 => Übersetzungstab Level = 1) und passe die Reiehnfolge so an, dass das Übersetzungstab unter dem zu übersetzenden Tab liegt. 
+    * Trage in "Parent Column" und "Link Colum" die Datensatz ID (z.B. C_BP_Group_ID) ein
+    * Setzen den Haken bei "Übersetzungsregister"
+    * Klicke auf den Button "Feld anlegen" um die benötigen Felder anzulegen
+1. Wechsle in das Fenster, in welchem die zu übersetzenden Daten gespeicher sind (z.B. Geschäftspartnergruppen) und trage im neu angelegten Register die Sprache und die Übersetzung ein.
+  
