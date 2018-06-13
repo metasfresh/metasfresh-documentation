@@ -13,10 +13,11 @@ ref: createpurchaseorder
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Bestellungen".
 1. [Lege eine neue Bestellung an](Neuer_Datensatz_Fenster_Webui).
 1. Gib im Feld **Lieferung von** einen Teil des Lieferantennamens oder der Geschäftspartnernummer ein und klicke auf eines der Ergebnisse.
- >**Hinweis 1:** Drücke die `LEERTASTE`, um alle Partner zu sehen.<br><br>
+ >**Hinweis 1:** Drücke die `LEERTASTE`, um alle [Lieferanten](Neuer_Geschaeftspartner_Lieferant) zu sehen.<br><br>
  >**Hinweis 2:** Auswahl des Treffers mit Maus oder ![](assets/Workflow_Auftrag_Bis_Rechnung_WebUI-73797.png).<br><br>
  >**Hinweis 3:** Wird der gewünschte Partner nicht angezeigt, kannst Du ihn per [Schnellerfassung](Neuer_Geschaeftspartner_Schnellerfassung) neu anlegen.
 
+1. Wähle ein **Preissystem** aus, sofern der Lieferant noch mit keinem [Preissystem verknüpft](Zuweisung_Preise_Partner) ist.
 1. Das Feld **Datum** bestimmt den Zeitpunkt, an dem die Bestellung *aufgegeben* wurde.
 1. Das Feld **Zugesagter Liefertermin** bestimmt, wann die Leistung *erbracht* werden soll bzw. die Bestellung zu erwarten ist.
 1. [metasfresh speichert automatisch](Speicheranzeige).

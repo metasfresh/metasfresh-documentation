@@ -13,10 +13,11 @@ ref: createpurchaseorder
 1. Open "Purchase Order" from the [menu](Menu).
 1. [Create a new purchase order](New_Record_Window).
 1. In the field **Delivery from** enter a part of the business partner name or number and click on one of the results.
- >**Note 1:** Hit `SPACE` to see all available partners.<br><br>
+ >**Note 1:** Hit `SPACE` to see all available [vendors](New_business_partner_vendors).<br><br>
  >**Note 2:** Select one of the shown options with the mouse or ![](../DE/assets/Workflow_Auftrag_Bis_Rechnung_WebUI-73797.png).<br><br>
  >**Note 3:** If the desired partner does not appear in the list, you can add them through [quick create](Quick_create_new_business_partner).
 
+1. Select a **Price System**, if the vendor is not yet [linked to a price system](Assign_prices_to_partner).
 1. The field **Date** determines the date when the order *was placed*.
 1. The field **Date Promised** determines the date when the service is to be *performed*, i.e. the shipment is to be expected.
 1. [metasfresh saves the progress automatically](Saveindicator).

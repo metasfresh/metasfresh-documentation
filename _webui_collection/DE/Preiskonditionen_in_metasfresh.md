@@ -13,7 +13,6 @@ ref: pricing_conditions_in_metasfresh
 Damit Produkte in metasfresh in Aufträgen und Bestellungen verarbeitet werden können, müssen folgende Bedingungen erfüllt sein:
 
 - Die Produkte *müssen* auf einer gültigen [Preisliste](Produkte_Preisliste_hinzufuegen) stehen.
-- Der Geschäftspartner *muss* mit derselben [Preisliste verknüpft](Zuweisung_Preise_Partner) sein, in der die Produkte enthalten sind.
 - Der Geschäftspartner *muss* mit einem ***Schema*** verknüpft sein, in dem die ***Preiskonditionen*** für alle Produkte im Allgemeinen und/oder im Einzelnen festgelegt wurden.
 
 In diesem Schema kannst Du folgende Preiskonditionen einzeln oder in Kombination miteinander bestimmen:
@@ -25,4 +24,4 @@ In diesem Schema kannst Du folgende Preiskonditionen einzeln oder in Kombination
 
 | **Wichtiger Hinweis:** |
 | :- |
-| Wenn Du keine bestimmten Konditionen für Produkte aufstellen möchtest, sondern nur ein gültiges und funktionierendes Preiskonditionsschema erlangen möchtest, das Du im Verkauf verwenden kannst, musst Du dem Schema lediglich eine einzelne Preiskondition hinzufügen, in der Du die **Mengenstufe 0** einstellst und ansonsten alle Standardeinstellungen beibehältst (*siehe Anleitung [hier](Rabattschema_anlegen)*). <br> Auf diese Weise kannst Du alle Produkte, die auf der Preisliste stehen, zu dem darin festgelegten Preis und in jeder beliebigen Menge verkaufen. |
+| Wenn Du keine bestimmten Konditionen für Produkte aufstellen möchtest, sondern nur ein gültiges und funktionierendes Preiskonditionsschema erlangen möchtest, das Du im Einkauf und Verkauf verwenden kannst, musst Du dem Schema lediglich eine einzelne Preiskondition hinzufügen, in der Du die **Mengenstufe 0** einstellst und ansonsten alle Standardeinstellungen beibehältst (*siehe Anleitung [hier](Rabattschema_anlegen)*). <br> Auf diese Weise kannst Du alle Produkte, die auf der Preisliste stehen, zu dem darin festgelegten Preis und in jeder beliebigen Menge verkaufen. |
