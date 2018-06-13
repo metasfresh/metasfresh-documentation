@@ -4,7 +4,7 @@ layout: default
 tags:
   - Master Data
   - Product
-  - Sales & purchasing block on products
+  - Sales & Purchasing Block on Products
 lang: en
 sequence: 10
 ref: sales_purchasing_block_on_products
@@ -25,6 +25,8 @@ In this case, you can simply create partner-related exclusion lists with those p
  >**Note:** This reason will appear in an error message to the user when they want to add the blocked product to a sales or purchase order.
 
 1. Check the box **Exclusion from sales documents**.
+ > **Note:** This setting affects ***both sales and purchase orders***, depending on whether the business partner is a [customer](New_business_partner_customer) or [vendor](New_business_partner_vendor).
+
 1. Click "Done" to close the window and add the blocked product to the list.
  >**Note:** Repeat steps 2 to 6 to add further sales/purchasing blocks for more products to the list.
 
@@ -44,6 +46,8 @@ In this case, you can simply create partner-related exclusion lists with those p
  >**Note 3:** Select one of the shown options with the mouse or ![](../DE/assets/Workflow_Auftrag_Bis_Rechnung_WebUI-73797.png).
 
 1. Scroll down to the field **Exclusion from sales documents** and check the box. A new text box **Exclusion From Sale Reason** appears.
+ > **Note:** This setting affects ***both sales and purchase orders***, depending on whether the business partner is a [customer](New_business_partner_customer) or [vendor](New_business_partner_vendor).
+
 1. In the text box **Exclusion From Sale Reason** enter a reason why the product is blocked for the business partner.
  >**Note:** This reason will appear in an error message to the user when they want to add the blocked product to a sales or purchase order.
 
