@@ -8,7 +8,7 @@ tags:
   - Kompensationsgruppen
 lang: de
 sequence: 40
-ref: create_compensation_group_scheme
+ref: create_compensation_group_schema
 ---
 
 ## Übersicht

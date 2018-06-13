@@ -12,7 +12,7 @@ ref: parentproductcategory
 ---
 
 ## Overview
-When you subordinate a product category to another which is [linked to a compensation group scheme](Compensation_group_scheme_product_category), then the scheme of the parent category will be applied to the compensation grouping during the [group discounting process](Automatic_group_discounts). This way you can sort individual products into different categories and still give discounts on them as a group.
+When you subordinate a product category to another which is [linked to a compensation group schema](Compensation_group_schema_product_category), then the schema of the parent category will be applied to the compensation grouping during the [group discounting process](Automatic_group_discounts). This way you can sort individual products into different categories and still give discounts on them as a group.
 
 ## Steps
 1. Open "Product Category" from the [menu](Menu).

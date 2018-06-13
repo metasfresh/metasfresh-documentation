@@ -1,5 +1,5 @@
 ---
-title: How do I create a discount scheme?
+title: How do I create a discount schema?
 layout: default
 tags:
   - Pricing
@@ -7,16 +7,16 @@ tags:
   - Discounts
 lang: en
 sequence: 40
-ref: create_discount_scheme
+ref: create_discount_schema
 ---
 
 ## Steps
 1. Open "Discount Schema" from the [menu](Menu).
-1. [Create a new discount scheme](New_Record_Window).
-1. Give the discount scheme a **Name**.
+1. [Create a new discount schema](New_Record_Window).
+1. Give the discount schema a **Name**.
 1. Select the **Discount Type** *Breaks*.
 1. Set a **Valid from** date.
- >**Note:** If this date lies in the *past*, the discount scheme is effective *immediately*. If it lies in the *future*, the scheme will only apply *from that date*.
+ >**Note:** If this date lies in the *past*, the discount schema is effective *immediately*. If it lies in the *future*, the schema will only apply *from that date*.
 
 1. Go to the record tab "Discount Break" at the bottom of the page and click ![](assets/Add_New_Button.png). A new window opens up.
 1. ***Optional:*** Select a **Product** or a **Product Category**.
@@ -30,7 +30,7 @@ ref: create_discount_scheme
  >**Note:** Repeat steps 6 to 10 to add further pricing conditions, such as for tiered discounts or discounts for additional products/product categories.
 
 ## Next steps
-- [Link the discount scheme to a business partner](Link_discount_scheme_to_BP).
+- [Link the discount schema to a business partner](Link_discount_schema_to_BP).
 
 ## Example
-![](assets/Create_discount_scheme.gif)
+![](assets/Create_discount_schema.gif)

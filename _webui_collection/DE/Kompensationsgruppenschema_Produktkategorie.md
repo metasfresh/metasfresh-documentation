@@ -8,7 +8,7 @@ tags:
   - Kompensationsgruppen
 lang: de
 sequence: 50
-ref: compensation_group_scheme_product_category
+ref: compensation_group_schema_product_category
 ---
 
 ## Übersicht

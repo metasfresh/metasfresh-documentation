@@ -7,7 +7,7 @@ tags:
   - Rabatte
 lang: de
 sequence: 50
-ref: link_discount_scheme_to_bp
+ref: link_discount_schema_to_bp
 ---
 
 ## Übersicht

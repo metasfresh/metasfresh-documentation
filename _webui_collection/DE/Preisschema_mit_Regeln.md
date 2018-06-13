@@ -7,7 +7,7 @@ tags:
   - Preisschemata (Preislisten kopieren)
 lang: de
 sequence: 20
-ref: price_list_scheme_rules
+ref: price_list_schema_rules
 ---
 
 ## Übersicht

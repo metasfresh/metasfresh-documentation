@@ -7,7 +7,7 @@ tags:
   - Rabatte
 lang: de
 sequence: 40
-ref: create_discount_scheme
+ref: create_discount_schema
 ---
 
 ## Schritte

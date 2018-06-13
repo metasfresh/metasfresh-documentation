@@ -1,5 +1,5 @@
 ---
-title: How do I create a compensation group scheme?
+title: How do I create a compensation group schema?
 layout: default
 tags:
   - Pricing
@@ -8,16 +8,16 @@ tags:
   - Compensation Groups
 lang: en
 sequence: 40
-ref: create_compensation_group_scheme
+ref: create_compensation_group_schema
 ---
 
 ## Overview
-A compensation group scheme allows you to determine which products will be automatically combined into a compensation group in a sales order.
+A compensation group schema allows you to determine which products will be automatically combined into a compensation group in a sales order.
 
 ## Steps
 1. Open "Compensation Group Schema" from the [menu](Menu).
-1. [Create a new compensation group scheme](New_Record_Window).
-1. Give the scheme a **Name**, e.g. "Compensation Group I".
+1. [Create a new compensation group schema](New_Record_Window).
+1. Give the schema a **Name**, e.g. "Compensation Group I".
 1. Go to the record tab "Products" at the bottom of the page and click ![](assets/Add_New_Button.png). A new window opens up.
 1. Select a **Product**, e.g. [*Group discount*](Product_for_group_discount).
  >**Note:** You can select any product from the list in the product field.
@@ -27,7 +27,7 @@ A compensation group scheme allows you to determine which products will be autom
 1. [metasfresh saves the progress automatically](Saveindicator).
 
 ## Next Steps
-- [Link the compensation group scheme to a product category](Compensation_group_scheme_product_category).
+- [Link the compensation group schema to a product category](Compensation_group_schema_product_category).
 
 ## Example
-![](assets/Create_compensation_group_scheme.gif)
+![](assets/Create_compensation_group_schema.gif)
