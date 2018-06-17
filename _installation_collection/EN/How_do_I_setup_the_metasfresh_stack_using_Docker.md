@@ -1,5 +1,5 @@
 ---
-title: How to set up the metasfresh stack using docker?
+title: How to set up the metasfresh stack using Docker?
 layout: default
 tags:
   - Docker
@@ -10,14 +10,12 @@ ref: How_do_I_setup_the_metasfresh_stack_using_Docker
 ---
 
 ## Overview
-
-This manual describes the installation of the following services according to this [overview](howto_collection\EN\metasfresh_architecture.md):
+This manual describes the installation of the following services according to [this overview](howto_collection\EN\metasfresh_architecture.md):
 * DB
 * App
 * API
 * WebUI
 * Search
-
 
 ## Hardware Requirements
 
@@ -34,46 +32,49 @@ This manual describes the installation of the following services according to th
 1. [Install Docker](https://docs.docker.com/engine/installation/linux/ubuntu/).
 1. [Install Docker Compose](https://docs.docker.com/compose/install/).
 
-
 ### Install metasfresh
+1. Clone the Docker Compose file and go to the newly created directory.
 
-1. Clone the docker compose file  .
+   ```
+   git clone https://github.com/metasfresh/metasfresh-docker.git
+   cd metasfresh-docker/
+   ```
 
- `git clone https://github.com/metasfresh/metasfresh-docker.git`
+1. Comment out and replace `http://example.com:8080` with an externally available hostname and port of the docker host.
 
-1. Uncomment and replace "http://example.com:8080" with an externally available hostname and port of the docker host.
+   `vi ./metasfresh-docker/docker-compose.yml`
+   ```
+   ...
+   #environment:
+    #- WEBAPI_URL=http://example.com:8080
+   ...
+   ```
+   >**Note:** Port `:8080` is only necessary if another port should be used as port 80. <br> See also: [How do I change the WebUI ports for metasfresh-Docker?](How_do_I_change_the_webui_ports_for_metasfresh_docker)
 
- `vi ./metasfresh-docker/docker-compose.yml`
- ```
- ...
- #environment:
-  #- WEBAPI_URL=http://example.com:8080
- ...
- ```
- >**Note:** PORT `:8080` is only necessary if 80 is not used.
+   >***IMPORTANT:*** If you are using an RPM-based distribution and/or the file `/etc/timezone` is not available on your Docker host, comment out or remove the line `- /etc/timezone:/etc/timezone:ro` from your `docker-compose.yml` file!
 
- >IMPORTANT: if you're using a RPM based distribution and/or the file `/etc/timezone` is not available on your dockerhost, comment out or remove the line `- /etc/timezone:/etc/timezone:ro` in your `docker-compose.yml` file!
- 
-1. Build Docker project
+1. Build the Docker container.
 
  `docker-compose build`
 
-1. Start Docker project.
+1. Start the Docker container.
 
  `docker-compose up -d`
 
- >**Note:** At the first start it may take a few minutes until the database is populated and the service is available.
+ >**Note:** The first time you start the container, it may take a few minutes until the database is populated and the service is available.
 
+1. ***Optional:*** Stop the Docker container.
+
+  `docker-compose down`
 
 ## Access
-
 After the successful installation you can access the WebUI via:
 
 http://MYDOCKERHOST
 
 or
 
-http://MYDOCKERHOST:PORT (if the default port is not 80)
+http://MYDOCKERHOST:PORT (if the default port is not 80).
 
 ## Example docker-compose.yml
 ```yml
@@ -155,10 +156,8 @@ webui:
       restart: always
 ```
 
-## Docker container visualization
-
-See this [forum post](https://forum.metasfresh.org/t/docker-gui-recommendation) about the topic which recommends two widely used tools.
+## Docker Container Visualization
+See this [forum post](https://forum.metasfresh.org/t/docker-gui-recommendation) about this topic for recommendations on two widely used tools.
 
 ## Feedback
-
 If you have any questions or problems, feel free to ask for support in our official public forum: [forum.metasfresh.org](http://forum.metasfresh.org).
