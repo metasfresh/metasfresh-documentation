@@ -31,8 +31,8 @@ Möchtest Du auf einen Gruppenrabatt noch weitere Rabatte vergeben, die sich an 
 
 1. Selektiere eine Auftragszeile aus der betreffenden Kompensationsgruppe.
 1. [Starte die Aktion](AktionStarten) "Neuer Gruppenrabatt". Es öffnet sich ein neues Fenster.
-1. Wähle ein **Produkt** aus, z.B. [*Rabatt*](Produkt_für_Gruppenrabatt).
- >**Hinweis:** Du kannst auch jedes andere Produkt auswählen, das im Produktfeld vorgeschlagen wird.
+1. Wähle ein **Produkt** aus, z.B. *Rabatt*.
+ >**Hinweis:** Du kannst auch jedes andere Produkt auswählen, das im Produktfeld vorgeschlagen wird, solange es ***nicht lagerhaltig*** und mit ***derselben Preisliste*** verknüpft ist wie der Auftrag. <br> [Folge dieser Anleitung](Produkt_für_Gruppenrabatt) zur Konfiguration solcher "Rabattprodukte".
 
 1. Klicke auf "Start", um das Fenster zu schließen und eine weitere Gruppenrabattzeile zur Liste hinzuzufügen.
 1. Klicke doppelt auf das Feld **Gruppen Preisminderung** dieser Rabattzeile und gib dort einen Prozentbetrag ein.

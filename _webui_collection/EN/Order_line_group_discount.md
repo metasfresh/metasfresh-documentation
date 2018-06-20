@@ -18,8 +18,8 @@ ref: order_line_group_discount
 1. Follow these [instructions for creating a sales order](SalesOrder_recording) up to **step 4 of the order line input**.
 1. [Select the order lines](RecordSelection) you want to combine into a group.
 1. [Start the action](StartAction) "Group Lines". A new window opens up.
-1. Select a **Product**, e.g. [*Discount*](Product_for_group_discount).
- >**Note:** You can select any product from the list in the product field.
+1. Select a **Product**, e.g. *Discount*.
+ >**Note:** You can select any other product from the list in the product field, provided that it is ***not stocked*** and linked to the very ***same price list*** as in the sales order. <br> [Follow these instructions](Product_for_group_discount) to configure such a "discount product".
 
 1. Select a **Group**.<br>
 ***Alternatively*** you can also enter a **Group name** of your choice.
@@ -34,8 +34,8 @@ If you want to give further discounts on a group discount that always consider t
 
 1. Select an order line from the regarding compensation group.
 1. [Start the action](StartAction) "Add group compensation line". A new window opens up.
-1. Select a **Product**, e.g. [*Discount*](Product_for_group_discount).
- >**Note:** You can select any product from the list in the product field.
+1. Select a **Product**, e.g. *Discount*.
+ >**Note:** You can select any other product from the list in the product field, provided that it is ***not stocked*** and linked to the very ***same price list*** as in the sales order. <br> [Follow these instructions](Product_for_group_discount) to configure such a "discount product".
 
 1. Click "Start" to close the window and add another group discount line to the list.
 1. Double-click the field **Compensation percentage** of this discount line and enter a percentage there.

@@ -18,7 +18,7 @@ The configuration of the automatic compensation groups is described below:
 
 ## Steps
 1. [Create a discount product](Product_for_group_discount) for the compensation grouping and [add it to a price list](ProductPrice).
- >**Note:** This price list must be identical to the one used in the regarding sales order.
+ >**Note:** The discount product must not be stocked and the price list must be identical to the one used in the regarding sales order.
 
 1. Create a [compensation group schema](Create_compensation_group_schema) with the discount product.
 1. [Link the compensation group schema to a product category](Compensation_group_schema_product_category) ***or*** set a [parent product category](ParentProductCategory) which is linked to a compensation group schema.

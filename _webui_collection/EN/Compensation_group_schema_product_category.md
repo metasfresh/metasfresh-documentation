@@ -22,10 +22,10 @@ In order to link the compensation group schema to a product category, take the f
 1. Go to the field **Compensation Group Schema** and select the desired schema, e.g. *Compensation Group I*.
 1. [metasfresh saves the progress automatically](Saveindicator).
 
-## Alternate Configuration
-Instead of linking a product category to a compensation group schema, you can also subordinate it to another category which in turn is linked to a compensation group schema. Consequently, during the group discounting process the schema of the parent category will be applied to the compensation grouping. This way you can sort individual products into different categories and still give discounts on them as a group.
+## Alternate Configuration - Subcategorization
+Instead of linking a product category to a compensation group schema, you can also subordinate it to another category which in turn is linked to a compensation group schema. Consequently, during the group discounting process the schema of the *parent category* will be applied to the compensation grouping. This way you can sort individual products into different categories and still give discounts on them as a group.
 
-[Follow this link](ParentProductCategory) to the description on how to set a parent product category.
+[Follow these instructions](ParentProductCategory) to set a parent product category.
 
 ## Example
 ![](assets/CompensationGroupSchema_ProductCategory.gif)

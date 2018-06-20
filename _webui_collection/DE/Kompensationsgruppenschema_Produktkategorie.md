@@ -22,10 +22,10 @@ Um das Kompensationsgruppenschema mit einer Produktkategorie zu verknüpfen, geh
 1. Gehe zum Feld **Kompensationsgruppenschema** und wähle das gewünschte Schema aus, z.B. *Kompensationsgruppe I*.
 1. [metasfresh speichert automatisch](Speicheranzeige).
 
-## Alternative Konfiguration
-Anstatt eine Produktkategorie mit einem Kompensationsgruppenschema zu verknüpfen, kannst Du sie auch einer anderen Kategorie unterordnen, welche wiederum mit einem Kompensationsgruppenschema verknüpft ist. Beim Gruppenrabattierungsprozess wird dann das Schema der übergeordneten Kategorie auf die Kompensationsgruppierung angewendet. So lassen sich einzelne Produkte unterschiedlich voneinander kategorisieren und trotzdem als Gruppe rabattieren.
+## Alternative Konfiguration - Subkategorisierung
+Anstatt eine Produktkategorie mit einem Kompensationsgruppenschema zu verknüpfen, kannst Du sie auch einer anderen Kategorie unterordnen, welche wiederum mit einem Kompensationsgruppenschema verknüpft ist. Beim Gruppenrabattierungsprozess wird dann das Schema der *übergeordneten Kategorie* auf die Kompensationsgruppierung angewendet. So lassen sich einzelne Produkte unterschiedlich voneinander kategorisieren und trotzdem als Gruppe rabattieren.
 
-[Folge diesem Link](Uebergeordnete_Produktkategorie) zur Beschreibung, wie Du eine übergeordnete Produktkategorie einstellst.
+[Folge dieser Anleitung](Uebergeordnete_Produktkategorie), um eine übergeordnete Produktkategorie einzustellen.
 
 ## Beispiel
 ![](assets/Kompensationsgruppenschema_Produktkategorie.gif)

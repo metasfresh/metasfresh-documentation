@@ -18,7 +18,7 @@ Im Folgenden wird die Konfiguration der automatischen Kompensationsgruppen besch
 
 ## Schritte
 1. [Erstelle ein Rabattprodukt](Produkt_für_Gruppenrabatt) für die Kompensationsgruppierung und [füge es einer Preisliste hinzu](ProduktPreis).
- >**Hinweis:** Diese Preisliste muss dieselbe sein wie die in dem betreffenden Auftrag.
+ >**Hinweis:** Das Rabattprodukt darf nicht lagerhaltig sein und die Preisliste muss dieselbe sein wie die in dem betreffenden Auftrag.
 
 1. Lege ein [Kompensationsgruppenschema](Kompensationsgruppenschema_anlegen) mit dem Rabattprodukt an.
 1. [Verknüpfe das Kompensationsgruppenschema mit einer Produktkategorie](Kompensationsgruppenschema_Produktkategorie) ***oder*** stelle eine [übergeordnete Produktkategorie](Uebergeordnete_Produktkategorie) ein, welche mit einem Kompensationsgruppenschema verknüpft ist.
