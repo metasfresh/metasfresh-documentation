@@ -22,7 +22,7 @@ select
 	l.address1,
 	l.postal,
 	l.city,
-	r.name as region,
+	reg.name as region,
 	c.name,
 	u.firstname,
 	u.lastname,
@@ -33,7 +33,7 @@ select
 	left join c_country c on c.c_country_id = l.c_country_id  -- country
 	left join ad_user u on u.c_bpartner_id = bp.c_bpartner_id -- contacts
 	left join ad_org o on bp.ad_org_id = o.ad_org_id
-  	left join c_region r on r.c_region_id = l.c_region_id
+  	left join c_region reg on reg.c_region_id = l.c_region_id
   	left join c_bp_group bpg on bpg.c_bp_group_id = bp.c_bp_group_id
 ```
 
