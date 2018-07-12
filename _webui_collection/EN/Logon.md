@@ -1,21 +1,24 @@
 ---
-title: How do I log on ?
+title: How do I log on?
 layout: default
 tags:
   - Usage
 lang: en
 sequence: 10
+ref: logon
 ---
 
 ## Steps
+1. Open the URL of the metasfresh service in your web browser, e.g. http://dockerhost.
+1. Log on with the username *it* and the password *demostart*.
+ >**Important:** Mind that the username and password are ***case-sensitive***!
 
-1. Open the URL of the metasfresh Service in your browser. e.g. http://dockerhost
-1. Use "metasfresh" and password "metasfresh" to log on (without "")
+## Steps to log on as System Adminstrator
+**Note:** This user cannot change the interface language in WebUI as it is possible on the Java client back end.
 
-   **Important**: The username is also Case Sensitive!
+1. Open the URL of the metasfresh service in your web browser, e.g. http://dockerhost.
+1. Log on with the username *metasfresh* and the password *metasfresh*.
+ >**Important:** Mind that the username and password are ***case-sensitive***!
 
-1. Select Role "WebUI"
-
-## Video
-
-![](assets/login.gif)
+## Example
+![](assets/login_en.gif)

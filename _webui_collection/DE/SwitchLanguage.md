@@ -1,17 +1,17 @@
 ---
-title: Wie ändere ich die Sprache der Oberfläche ?
+title: Wie ändere ich die Sprache der Benutzeroberfläche?
 layout: default
 tags:
-  - Benutzung
+  - Einrichtung
 lang: de
+sequence: 10
+ref: switchlanguage
 ---
 
 ## Schritte
+1. Klicke rechts oben im Fenster auf ![](assets/UserMenu_Rabbit_WebUI.png) oder drücke `Alt` + `4` / `⌥ alt` + `4`, um das Benutzermenü zu öffnen.
+1. Klicke auf "Einstellungen".
+1. Wähle eine andere **Sprache** aus.
 
-1. Geh in die Aktionen
-2. Klick auf Einstellungen / Settings
-3. Wähle eine andere Sprache
-
-## Video
-
-![](../EN/assets/SwitchLanguage.gif)
+## Beispiel
+![](../DE/assets/SwitchLanguage_DE-EN.gif)

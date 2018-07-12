@@ -1,47 +1,52 @@
 ---
-title: How do I create a new User?
+title: How do I add a new system user?
 layout: default
 tags:
+  - Setup
   - User and Roles
 lang: en
 sequence: 10
+ref: newuser
 ---
 
 ## Overview
-
-Users are basically contacts that have login permission. That is why you find contacts of your business partners also in the user window. You can allow them to log on to the system or create new users by following this steps.
+Users are basically contacts with login permission. That is why you will also find the contacts of your business partners in the "User" window.<br>
+You can create new contacts or allow existing contacts to log on to the system by following these steps:
 
 ## Steps
 
-### Logon and open window
-1. [Logon](Logon) with Role **WebUI**
-1. [Open window](Menu) "User"
+### Create a contact
+1. [Log on](Logon) to the system.
+1. Open "User" from the [menu](Menu).
+1. [Add a new user](New_Record_Window).
+1. Fill in the fields **Firstname** and **Lastname**.
+1. The **Search Key** is an automatically assigned serial number. However, if required, it can also be assigned manually instead.
 
-### create a contact
-1. Create [new record](New_Record_Window)
-1. fillout the fields **Firstname** and **Lastname**
-1. enter a **Search Key**
+### Turn the contact into a system user
+1. Tick the box **System User** to give the contact user permissions.
+1. In the field **Login** enter a username.
+ >**Note 1:** The user can log on using either the **Login** or the **Email Address** as username.<br><br>
+ >**Note 2:** Mind that the username is ***case-sensitive***!
 
-### Make the contact an user
-1. Tick **Systemuser** to make this contact an actual user
-1. put a **login** which is the actual user name
-1. enter a **password** with at least 8 characters
+### Set a password
+1. [Start the action](StartAction) "Change Password". A new window opens up.
+1. Enter a **New Password** with at least 8 characters.
+ >**Note 1:** An **Old Password** is not required if a new user is created.<br><br>
+ >**Note 2:** Make sure the password consists of ***at least 8 characters*** or the new record ***will not be saved***!<br><br>
+ >**Note 3:** Mind that the password is ***case-sensitive***!<br><br>
+ >**Note 4:** Press and hold ![](assets/ShowPassword_Icon.png) to see the password.
 
-  > Note: Make sure to make the password **at least 8 characters** or the new record **will not be saved**
+1. Repeat the password in the field **New Password (retype)**.
+1. Click "Start" to apply the new password and close the window.
+1. [metasfresh saves the progress automatically](Saveindicator).
 
-  > Note 2: The user can use either the login or the email address as user name.
+### Assign a role to the user to grant permission
+1. Go to the record tab "[User Roles](NewUserRole)" at the bottom of the page and click ![](assets/Add_New_Button.png). A new window opens up.
+1. Select the role you want to assign to the user.
+1. Click "Done" to add the role to the list.
+ >**Note:** A user can have several roles. In this case, they will be asked to choose a role at the login.
 
-  > Note 3: The user name and the password are **case sensitive**!
+## Example
+This example shows the creation of a user "mf" with the role "WebUI":
 
-
-### assign a role to the user to grant permission
-1. go to tab Role
-1. [add a record](New_Record_Tab)
-1. pick the role or roles you want to give the user
-
-
-### Example
-
-this shows a user with admin role and the username "mfuser"
-
-![example](assets/NewUser-1ed82.png)
+![](assets/newuser.gif)

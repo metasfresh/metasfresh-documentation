@@ -2,7 +2,6 @@
 layout: default
 title: How to see error messages in WebUI
 tags:
-  - Support
   - client
 lang: en
 ---

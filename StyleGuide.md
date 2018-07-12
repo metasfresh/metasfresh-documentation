@@ -47,7 +47,7 @@ ref: my_lang_independen_name
 1. dsfsd
 1. sdfds Feld **tralla** 
 
-   **Hinweis**: tesd fsdfsd fds
+   **Hinweis:** tesd fsdfsd fds
 
 1. tesdf
 1. sdfsdf

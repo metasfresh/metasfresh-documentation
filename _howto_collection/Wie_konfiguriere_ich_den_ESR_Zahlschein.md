@@ -7,23 +7,21 @@ tags:
 lang: de
 ---
 
-## Systemweite Aktivierung
+# ESR-Aktivierung im System
+
+## via SQL
+
+1. [SQL Script ausführen](https://github.com/metasfresh/metasfresh-dist-orgs/blob/master/misc/sql/configuration/5475402_cli_ESR_enable.sql)
+1. Anwendungsserver neustarten
+
+## ESR-Aktivierung manuell
+
+Alternativ zu dem oben augeführten Skript kannst Du den ESR auch manuell einrichten:
 
 1. melde Dich mit der Rolle "System Administrator" am Mandanten "System" an
-
-### Systemschalter aktivieren
-
-Systemschalter `de.metas.payment.esr.Enabled` [aktivieren](Systemschalter)
+1. Systemschalter `de.metas.payment.esr.Enabled` [aktivieren](Systemschalter)
 
 ### Referenzen aktivieren
-Option 1 - SQL Script verwenden
-
-```
-update C_ReferenceNo_Type set isactive = 'Y' where name in ('InvoiceReference','ESRReferenceNumber');
-update c_referenceno_type_table set isactive = 'Y' where c_referenceno_type_id in (select c_referenceno_type_id from c_referenceno_type where isactive = 'Y')
-```
-
-Option 2 - manuell
 
 1. Öffne [Fenster "Reference Number Type"](Wie_finde_und_öffne_ich_ein_Fenster)
 1. setze den Haken im Feld **aktiv** bei den Einträgen mit den Namen "ESRReferenceNumber"
@@ -37,11 +35,18 @@ Option 2 - manuell
 ![img](..\images\de_reference_number_type.png)
 
 ### Server Neustart
-1. starte den Anwendungsserver einmal neu
+Starte den Anwendungsserver einmal neu. Falls Du nicht weißt wie das geht, kontaktiere den Serveradmin.
+
+# fachliche ESR-Einrichtung
+
+Nach der Aktivierung des ESR braucht es dann noch die Fachliche Einrichtung.
 
 ## Einrichtung Organisation
 
-Der Geschäftspartner der Organisation muss eine Schweizer Adresse haben damit der ESR Zahlschein überhaupt in der Rechnung angezeigt wird.
+Damit der ESR für eine Organisation erzeugt wird müssen die folgenden Kriterien erfüllt sein:
+- Der Geschäftspartner der Organisation muss eine Schweizer Adresse und ein ESR Konto haben
+- Der Suchschlüssel der Organisation muss numerisch und nicht länger als 3 Zeichen lang sein, da er Teil der ESR Nummer wird. z.B. 001
+
 
 ## Einrichtung Bankkonto
 

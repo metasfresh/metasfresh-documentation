@@ -1,7 +1,7 @@
 ---
 layout: default
 title: de.metas.esb
-tags: 
+tags:
   - developers_overview
   - module-overview
 sequence: 100
@@ -12,11 +12,11 @@ ref: developers_de.metas.esb
 
 
 
-At the time of this writing, the `metasfresh` repository also contains a number of [camel](https://camel.apache.org/) OSGI bundles which are intended to be deployed in [ServiceMix](https://servicemix.apache.org/).
+The [metasfresh-esb-camel](https://github.com/metasfresh/metasfresh-esb-camel) repository also contains two  [camel](https://camel.apache.org/) OSGI bundles which are intended to be deployed in [ServiceMix](https://servicemix.apache.org/).
 
 ## Intermission: the replication interface
 
-Currently, the camel OSGI bundles communicate with metasfresh via the replication interface. 
+Currently, the camel OSGI bundles communicate with metasfresh via the replication interface.
 
 Note for ADempiere-people: the replication interface's idea is still very similar to what we got from ADempiere, but we made a lot of changes and additions to it.
 
@@ -27,9 +27,8 @@ Another example is the [`IReplRequestHandler`](https://github.com/metasfresh/met
 ## Back to the bundles
 
 The folders of our ESB bundles are:
-* [`de.metas.edi.esb.camel`](https://github.com/metasfresh/metasfresh/tree/master/de.metas.edi.esb.camel)
-* [`de.metas.document.archive.esb`](https://github.com/metasfresh/metasfresh/tree/master/de.metas.document.archive.esb)
-* [`de.metas.printing.esb.camel`](https://github.com/metasfresh/metasfresh/tree/master/de.metas.printing.esb.camel)
+* [`de.metas.edi.esb.camel`](https://github.com/metasfresh/metasfresh-esb-camel/tree/master/de.metas.edi.esb.camel)
+* [`de.metas.printing.esb.camel`](https://github.com/metasfresh/metasfresh-esb-camel/tree/master/de.metas.printing.esb.camel)
 
-Note that these OSGI bundles are around for a few years and, with the exception of the "EDI" one, are not considered to be the conceptual state of the art. 
-they turned out to be just overly complicated "dump pipes" and we plan to sooner or later replace the "printing" and "archive" bundles with solutions where the respective client directly makes [JAX-RS](https://jax-rs-spec.java.net/) calls to metasfresh, using [CXF](https://cxf.apache.org/) and our [de.metas.jax.rs](https://github.com/metasfresh/metasfresh/tree/master/de.metas.jax.rs) module.
+Note that these OSGI bundles are around for a few years and are not considered to be the conceptual state of the art.
+Particularly `de.metas.printing.esb.camel` turned out to be just overly complicated "dump pipe" and we plan to sooner or later replace them bundles with solutions where the respective client directly makes calls to metasfresh. Maybe that will be via [JAX-RS](https://jax-rs-spec.java.net/), using [CXF](https://cxf.apache.org/) and our [de.metas.jax.rs](https://github.com/metasfresh/metasfresh/tree/master/de.metas.jax.rs) module.

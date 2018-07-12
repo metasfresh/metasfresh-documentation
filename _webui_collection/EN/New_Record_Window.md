@@ -3,14 +3,17 @@ title: How do I add a new record in a window?
 layout: default
 tags:
   - Usage
+  - Data Input
 lang: en
+sequence: 10
+ref: new_record_window
 ---
 
+## Keyboard shortcut
+Press `Alt` + `N` / `⌥ alt` + `N`.
 
-## Steps
+## With the mouse
+Click ![](assets/actionsmenu_WebUI.png) and then "New".
 
-1. Click  ![](assets/Neuen_Datensatz_Webui-4273e.png) and then "New
-
- or use the Keys `CTRL + M`
-
- ![](assets/Neuen_Datensatz_Webui-00b0d.png)
+## Example
+![](assets/neuerdatensatzfenster.gif)

@@ -1,7 +1,9 @@
 ---
 title: Welche Partner Felder kann ich importieren ?
 layout: default
-tags:
+tags:   
+  - Datenimport 
+  - Partnerdaten
 lang: de
 ---
 
