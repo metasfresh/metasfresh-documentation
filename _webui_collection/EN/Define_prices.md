@@ -4,6 +4,7 @@ layout: default
 tags:
   - Pricing
   - Prices
+  - Price Definition
 lang: en
 sequence: 10
 ref: define_prices

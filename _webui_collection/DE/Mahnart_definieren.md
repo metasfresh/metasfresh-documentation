@@ -29,7 +29,7 @@ Mit der Mahnart bestimmst Du den Zeitpunkt, ab dem ein [Mahnlauf](Mahnlauf) begi
 1. Klicke auf "Bestätigen", um das Fenster zu schließen und die Mahnstufe zur Liste hinzuzufügen.
  >**Hinweis:** Wiederhole die Schritte 1 bis 6, um weitere Mahnstufen hinzuzufügen.
 
-### Nächste Schritte
+## Nächste Schritte
 - [Verknüpfe](Mahnart_mit_Partner_verknuepfen) die Mahnart mit einem einzelnen [Kunden](Neuer_Geschaeftspartner_Kunde) oder einer [Geschäftspartnergruppe](Neue_Geschaeftspartnergruppe).
 
 ## Beispiel

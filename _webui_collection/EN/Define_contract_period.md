@@ -38,7 +38,7 @@ The transition conditions determine at what moment before the end or change of a
 1. Select the **Contract Status** *Terminated*.
 1. Click "Done" to close the window and add the transition conditions to the record tab.
 
-### Next Steps
+### Complete the document
 - [Complete the document](DocumentProcessingComplete).
 
 ## Example

@@ -4,6 +4,7 @@ layout: default
 tags:
   - Pricing
   - Prices
+  - Price Definition
 lang: en
 sequence: 60
 ref: assign_prices_to_partner

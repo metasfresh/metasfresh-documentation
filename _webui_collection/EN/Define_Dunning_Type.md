@@ -29,7 +29,7 @@ The dunning type determines the point when a [dunning run](Dunning_Run) starts a
 1. Click "Done" to close the window and add the dunning level to the list.
  >**Note:** Repeat steps 1 to 6 in order to add further dunning levels.
 
-### Next Steps
+## Next Steps
 - [Link](link_dunning_type_to_partner) the dunning type to a single [customer](New_business_partner_customer) or a [business partner group](New_Business_Partner_Group).
 
 ## Example
