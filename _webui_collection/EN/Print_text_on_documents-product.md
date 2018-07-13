@@ -1,16 +1,17 @@
 ---
-title: How do I record a product description that will also appear on documents?
+title: How do I record a general product description that will appear on all documents?
 layout: default
 tags:
   - Master Data
   - Product
+  - Product Description
 lang: en
-sequence: 80
+sequence: 20
 ref: print_text_on_documents-product
 ---
 
 ## Overview
-This text will appear underneath the product name on the document.
+This text will appear underneath the product name on all documents.
 
 For additional information on how to place manual text on documents, please see [here](Print_text_on_documents-general).
 

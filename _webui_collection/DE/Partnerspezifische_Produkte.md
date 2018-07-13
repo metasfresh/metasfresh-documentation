@@ -4,14 +4,19 @@ layout: default
 tags:
   - Stammdaten
   - Produkt
+  - Produktbeschreibung
 lang: de
-sequence: 40
+sequence: 10
 ref: partner-specific_products
 ---
 
 ## Übersicht
 Manchmal weichen die Produktnamen und -nummern der Geschäftspartner von Deinen eigenen ab, obwohl es sich um dasselbe Produkt handelt. Beispielsweise führst Du in Deinem System das Produkt *Karotten*, der Kunde bevorzugt jedoch die Bezeichnung *Möhren* und der Lieferant die Bezeichnung *Wurzeln*.<br>
 Um also Missverständnisse zu vermeiden und Dein eigenes System nicht mit mehreren Bezeichnungen für ein und dasselbe Produkt zu überfüllen, kannst Du **partnerspezifische Produktnamen und -nummern** vergeben, ohne Deine internen Daten verändern zu müssen.
+
+Diese partnerspezifischen Produktnamen und -nummern erscheinen dann auf den Belegen der jeweiligen Geschäftspartner anstelle der Namen und Nummern, die Du für die interne Produktverwaltung verwendest.
+
+Weitere Informationen darüber, wie Du eigenen Text in Belege einfügen kannst, gibt es [hier](Text_auf_Belege_drucken-allgemein).
 
 ## Schritte
 1. Öffne den Eintrag eines bestehenden [Produktes](Menu) bzw. [lege ein neues an](NeuesProdukt).

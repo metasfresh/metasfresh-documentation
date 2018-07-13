@@ -3,8 +3,9 @@ title: How do I place manual text on documents?
 layout: default
 tags:
   - Setup
+  - Edit Documents
 lang: en
-sequence: 50
+sequence: 20
 ref: print_text_on_documents-general
 ---
 
@@ -30,8 +31,14 @@ Click [here](InitialSetupWizard), if you want to edit these text passages with t
 
 ## Product
 
-#### Add a product description
-Click [here](Print_text_on_documents-product), if you want to add a description to the ordered product on the document.
+#### Partner-specific product management
+Click [here](Partner-specific_products), if you want to record partner-specific product names and numbers that will appear on the documents of the respective business partners instead of the names and numbers you use for internal product management purposes.
+
+#### Add a general product description
+Click [here](Print_text_on_documents-product), if you want to add a general product description that will appear on all documents.
+
+#### Add an order line-specific product description
+Click [here](Order_line-specific_product_description), if you want to add a product description that will appear on the order confirmation only.
 
 ---
 
