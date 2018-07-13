@@ -19,7 +19,7 @@ In diesem Fall kannst Du ganz einfach Preiskonditionen über das Rabattschema er
 - **Aufschlag auf Standardpreis:** Du kannst einen Aufschlag auf den in einem Preissystem vorhandenen Standardpreis festlegen.
 
 ## Schritte
-1. Folge der Anleitung zum [Anlegen eines Rabattschemas](Rabattschema_anlegen) bis zum **Schritt 9**.
+1. Folge der [Anleitung zum Anlegen eines Rabattschemas](Rabattschema_anlegen) bis zum **Schritt 9**.
 1. Setze ein Häkchen bei **IsPriceOverride**. Es erscheint ein neues Feld **PriceBase**.
 
 ### a) Festpreis festlegen
