@@ -3,6 +3,7 @@ title: Rabattformen in metasfresh
 layout: default
 tags:
   - Preisgestaltung
+  - Preiskonditionen
   - Rabatte
 lang: de
 sequence: 10

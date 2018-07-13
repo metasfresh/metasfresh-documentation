@@ -19,7 +19,9 @@ In metasfresh kannst Du definieren, ob ein Geschäftspartner ein Kunde, Lieferan
 1. Gehe zur Registerkarte "Lieferant" unten auf der Seite.
 1. Öffne die ["Erweiterte Erfassung"](AdvancedEditTab_Öffnen) der Lieferantenzeile.
 1. Setze ein Häkchen bei **Lieferant**.
-1. Optional kannst Du weitere Bedingungen hinzufügen, wie z.B. **Zahlungsweise**, **Lieferung** ('*wird abgeholt*' oder '*geliefert*'), **Zahlungsbedingung**, **Einkaufspreissystem** usw.
+1. Wähle ein **Einkaufspreissystem** aus.
+1. Wähle ein [**Einkaufsrabattschema**](Preiskonditionen_in_metasfresh) aus.
+1. ***Optional:*** Füge weitere Bedingungen hinzu, wie z.B. **Zahlungsweise**, **Lieferung** ('*wird abgeholt*' oder '*geliefert*'), **Zahlungsbedingung** usw.
 1. Klicke auf "Bestätigen", um das Fenster zu schließen und die Konditionen zur Registerkarte hinzuzufügen.
 
 ## Beispiel

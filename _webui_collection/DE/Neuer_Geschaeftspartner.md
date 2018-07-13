@@ -19,7 +19,11 @@ ref: new_business_partner
 1. Wähle eine [**Geschäftspartnergruppe**](Neue_Geschaeftspartnergruppe) aus, z.B. *Maschinenlieferant*.
 1. Wähle die bevorzugte Kommunikationssprache des Partners aus.
 1. [Füge eine oder mehrere Adressen hinzu](Adresse_erfassen_Tab).
-1. ***Optional:*** [Füge passende Attribute hinzu](Attribute_GP_hinzufuegen), die sich für die [Filterfunktion](Filterfunktion) als nützlich erweisen könnten.
+
+### Optionale Schritte
+1. [Füge passende **Attribute** hinzu](Attribute_GP_hinzufuegen), die sich für die [Filterfunktion](Filterfunktion) als nützlich erweisen könnten.
+1. Mache aus dem Geschäftspartner einen [Kunden](Neuer_Geschaeftspartner_Kunde) und/oder einen [Lieferanten](Neuer_Geschaeftspartner_Lieferant).
+1. [Verknüpfe den Geschäftspartner mit einem Preissystem](Zuweisung_Preise_Partner).
 
 ## Beispiel
 ![](assets/Neuer_Geschaeftspartner.gif)
