@@ -6,7 +6,7 @@ tags:
   - Produkt
 lang: de
 sequence: 40
-ref: partner_related_products
+ref: partner-specific_products
 ---
 
 ## Übersicht

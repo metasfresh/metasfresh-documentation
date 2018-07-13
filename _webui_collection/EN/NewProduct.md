@@ -25,7 +25,7 @@ ref: newproduct
  >**Note 1:** This number will appear on documents such as sales order confirmations etc.<br><br>
  >**Note 2:** This number can also be assigned automatically.
 
-### Next Steps
+## Next Steps
 - [Record a purchase or sales price](ProductPrice).
 - Configure the product for manufacturing.
 

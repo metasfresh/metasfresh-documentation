@@ -19,7 +19,9 @@ In metasfresh you can define whether a business partner is a customer, vendor or
 1. Go to the record tab "Customer" at the bottom of the page.
 1. Open the [advanced edit menu](Open_AdvancedEditTab) of the customer line.
 1. Check the box **Customer**.
-1. Optionally, you can add further terms and conditions, such as **Payment Rule**, **Credit Limit**, **Payment Term**, **Price System**, etc.
+1. Select a **Price System**.
+1. Select a [**Discount Schema**](Pricing_conditions_in_metasfresh).
+1. ***Optional:*** Add further terms and conditions, such as **Payment Rule**, **Payment Term**, [**Dunning**](Setup_Dunning), etc.
 1. Click "Done" to close the window and add the terms and conditions to the tab.
 
 ## Example

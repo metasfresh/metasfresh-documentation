@@ -32,14 +32,12 @@ lang: en
 
 ## 5. Commit your changes
 1. commit the new file using:
-   * **commit title**: #<issuenumber> <title of issue>
-   * **commit description**: desribe your changes and add link to github issue <br> sample:
-   * **commit title**: #1234 translate test page to en_US
-   * **commit description**: changing stuff here and there
-   * **commit description**: https://github.com/metasfresh/metasfresh-documentation/issues/1234
- 
+   * **commit title**: #`<issuenumber>` `<title of issue>`
+   * **commit description**: #`<issuenumber>` and desribe your changes
+      
 1. create a pull request for review
     * the Pull request will take title and description from your last commit
+    * make sure #`<issuenumber>` is in description to link the PR with the issue
 
 ## Further Reading
 

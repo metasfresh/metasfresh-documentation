@@ -3,6 +3,7 @@ title: Wie stelle ich eine übergeordnete Produktkategorie ein?
 layout: default
 tags:
   - Preisgestaltung
+  - Preiskonditionen
   - Rabatte
   - Kompensationsgruppen
 lang: de

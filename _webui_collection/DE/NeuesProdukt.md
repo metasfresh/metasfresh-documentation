@@ -25,7 +25,7 @@ ref: newproduct
  >**Hinweis 1:** Diese Nummer erscheint auf den Belegen wie Auftragsbestätigung usw.<br><br>
  >**Hinweis 2:** Diese Nummer kann auch automatisch vergeben werden.
 
-### Nächste Schritte
+## Nächste Schritte
 - [Einkaufs- oder Verkaufspreis hinterlegen](ProduktPreis).
 - Produkt für die Produktion konfigurieren.
 
