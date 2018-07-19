@@ -10,10 +10,10 @@ ref: viewmodes
 ---
 
 ## List view
-In general, all windows (e.g. "sales order") open up in list view. No edits can be done here, only filtering and sorting of records.
+In general, all windows (e.g. "sales order") open up in list view. No edits can be done here, only filtering and sorting of data entries.
 
 ## Detailed view
-When you double-click a record or [add a new record](New_Record_Window), metasfresh automatically switches to the detailed view. Here you can edit your record.
+When you double-click an entry or [add a new entry](New_Record_Window), metasfresh automatically switches to the detailed view. Here you can edit your data.
 
 To switch back to the list view, simply go to the navigation menu and click on the previous link. Alternatively, you can also use the back button of your web browser.
 

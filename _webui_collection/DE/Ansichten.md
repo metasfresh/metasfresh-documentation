@@ -10,13 +10,12 @@ ref: viewmodes
 ---
 
 ## Listenansicht
-Sämtliche Fenster (z.B. "Aufträge") öffnen prinzipiell in der Listenansicht. Dort sind Bearbeitungen nicht möglich, sondern nur das Filtern und Sortieren von Datensätzen.
+Sämtliche Fenster (z.B. "Aufträge") öffnen prinzipiell in der Listenansicht. Dort sind Bearbeitungen nicht möglich, sondern nur das Filtern und Sortieren von Dateneinträgen.
 
 ---
 
 ## Einzelansicht
-Bei einem Doppelklick auf einen Datensatz oder beim [Neuanlegen eines Datensatzes ](Neuer_Datensatz_Fenster_Webui) wechselt metasfresh automatisch in die Einzelansicht.
-Dort können Datenänderungen vorgenommen werden.
+Bei einem Doppelklick auf einen Eintrag oder beim [Neuanlegen eines Eintrags](Neuer_Datensatz_Fenster_Webui) wechselt metasfresh automatisch in die Einzelansicht. Dort können Datenänderungen vorgenommen werden.
 
 Um von der Einzelansicht wieder zurück in die Listenansicht zu wechseln, brauchst Du nur in dem Navigationsmenü auf den vorherigen Punkt zu klicken. Alternativ kannst Du auch den Zurück-Button Deines Internetbrowsers verwenden.
 
