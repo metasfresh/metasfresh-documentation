@@ -8,20 +8,24 @@ lang: en
 
 # 0. Get the printing client binary
 
-* the current version of the printing client binary is the file `de.metas.printing.client-jar-with-dependencies.jar`, located in your metasfresh server's `/opt/metasfresh/download` folder.
-* it needs to run on a local system of yours which needs to have access to your printer(s). The client will use java's [Print Service API](https://docs.oracle.com/javase/8/docs/technotes/guides/jps/spec/jpsOverview.fm4.html) to access those printers.
+* The client needs to run on a local system of yours which needs to have access to your printer(s). The client will use java's [Print Service API](https://docs.oracle.com/javase/8/docs/technotes/guides/jps/spec/jpsOverview.fm4.html) to access those printers.
+* Can be obtained in different ways:
+  * If you installed the metasfresh.tar.gz distribution, then the current version of the printing client binary is the file `de.metas.printing.client-jar-with-dependencies.jar`, located in your metasfresh server's `/opt/metasfresh/download` folder.
+  * The client is also available from our artifact repository. The latest release version can be obtained via this URL: [https://repo.metasfresh.com/service/local/artifact/maven/redirect?g=
+de.metas.printing&a=de.metas.printing.client&v=LATEST&r=mvn-release&p=jar&c=jar-with-dependencies](https://repo.metasfresh.com/service/local/artifact/maven/redirect?g=
+de.metas.printing&a=de.metas.printing.client&v=LATEST&r=mvn-release&p=jar&c=jar-with-dependencies)
 
 # 1. Set up a dedicated printing-client-user in metasfresh
 
-* choose something like StandAlonePrintingClient-Test for the first name
-* as a convention the *last name* of non-person users is "TU" (technical user), but that's not a must
-* generate an API-token for the new user; it will be used to authenticate the client.
-* also:
-  * remember to check the "is a systremuser" flag, otherwise the login and password fields are not shown
-  * remember that in order to log in, the user also needs to have a role
+* Choose something like StandAlonePrintingClient-Test for the first name
+* As a convention the *last name* of non-person users is "TU" (technical user), but that's not a must
+* Generate an API-token for the new user; it will be used to authenticate the client.
+* Also:
+  * Remember to check the "is a systremuser" flag, otherwise the login and password fields are not shown
+  * Remember that in order to log in, the user also needs to have a role
 
 # 2. Prepare the printing client config file
-* the printing client is configured via a settings file that can look like this
+* The printing client is configured via a settings file that can look like this
 
 ```
 # the enpoint component to use for the connection. Can be changed e.e for testing
