@@ -25,39 +25,73 @@ de.metas.printing&a=de.metas.printing.client&v=LATEST&r=mvn-release&p=jar&c=jar-
   * Remember that in order to log in, the user also needs to have a role
 
 # 2. Prepare the printing client config file
-* The printing client is configured via a settings file that can look like this
+* The printing client is configured via a settings file that can look as follows.
+* We suggest to name the file e.g. `metasfresh-printing-client-config.properties`
 
 ```
-# the enpoint component to use for the connection. Can be changed e.e for testing
-de.metas.printing.client.IPrintConnectionEndpoint=de.metas.printing.client.endpoint.RestHttpPrintConnectionEndpoint
+#
+# Settings that you certainly need to adapt
+#
+# The URL where the printing endpoint is listening for requests
+de.metas.printing.client.endpoint.RestHttpPrintConnectionEndpoint.ServerUrl=http://<your-metasfresh-server>:<port>/api/printing
 
-# the URL where the printing endpoint is listening for requests
-de.metas.printing.client.endpoint.RestHttpPrintConnectionEndpoint.ServerUrl=http://<your-metasfresh-server>:8282/printing
-
-# the adempiere AD_User and password name of which the client shall use for the login
+# Authorization token, to be used when the printing client connects to metasfresh's rest API
+# The correct token needs to be generated for the respective user in metasfresh
 de.metas.printing.client.login.apiToken=<the token you generated further up>
 
-#The hostKey under which the client will register it's local printers etc on metasfresh
-de.metas.printing.client.login.hostkey=PrintingHostService-TU-metas-printing-client-test
+#The hostKey under which the client will register its local printer(s) etc on metasfresh
+de.metas.printing.client.login.hostkey=<e.g. PrintingHostService-hostname-user-login>
 
-#the poll interval in milliseconds. Default: 1000ms
+#
+# Settings that you might want to tweak
+#
+# The poll interval in milliseconds. Default: 1000ms
+# Sets at which intervals the printing client shall query metasfresh for new print jobs (yes, we know that polling sucks..).
 de.metas.printing.client.PrintingClientDaemon.PollIntervalMs=10000
+
+# If the client receives a printing error from the underlying printer API, 
+# then these two parameters can be used to specify how often the client shall retry and how long it shall wait between each retry. 
+# Two retries mean that the client will attempt the print three times max. 
+# Defaults: retry 3 times and wait 5 seconds between each retry
+de.metas.printing.client.engine.retryCount=3
+de.metas.printing.client.engine.retryIntervalMs=5000
+
+#
+# TESTING: these properties can be used to simulate problems with the printing client
+#
+# Uncomment if the printing client shall return an error status even when the print was successful
+#de.metas.printing.client.testing.alwaysReportError=true
+#
+# Error message to be send by the client *if* allwaysReturnError=true is enabled
+# thx to http://stackoverflow.com/questions/11838674/how-to-read-property-name-with-spaces-in-java
+#de.metas.printing.client.testing.errorMessage="TESTING\:\ The\ client\ returned\ 'ERROR'\ for\ testing\ purposes"
+#
+# Uncomment if the printing client shall *not* return *any* response after printing
+#de.metas.printing.client.testing.dontSendResponse=true
+
+#
+# Settings that you most probably don't want to touch
+#
+# The enpoint component to use for the connection. Can be changed e.e for testing
+de.metas.printing.client.IPrintConnectionEndpoint=de.metas.printing.client.endpoint.RestHttpPrintConnectionEndpoint
+
+# Possible values are base64 (when getting data from the ESB) and binary (when getting data directly from metasfresh)
+# The default is "base64" to ensure that new client binaries still work with the old ESB infrastructure, 
+# without changing the config file
+de.metas.printing.client.endpoint.RestHttpPrintConnectionEndpoint.dataEncoding=binary
 ```
 
-Notes
+Additional notes
 
 * The property `de.metas.printing.client.endpoint.RestHttpPrintConnectionEndpoint.ServerUrl` contains the URL to which the printing client shall connect.
 
-* The two properties `de.metas.printing.client.login..apiToken` is basically the credential of an actual metasfrersh user (i.e. the one we created in step 1). 
+* The two properties `de.metas.printing.client.login.apiToken` is basically the credential of an actual metasfrersh user (i.e. the one we created in step 1). 
 It makes sense to have that user be a dedicated user
 which has no other purpose than to log on, transmit the printers it has local access to (and their trays) and receive print packages.
 
 * The property `de.metas.printing.client.login.hostkey` sets the hostkey with which the printers are associated.
 Also associated with the hostkey can be a mapping between logical printers (like "invoice-printer")
 and actual printers the information of which is transmitted by a printing client.
-
-* The property `de.metas.printing.client.PrintingClientDaemon.PollIntervalMs` sets at which intervals the printing client shall query metasfresh for new print jobs.
-(yes, we know that polling sucks..)
 
 # 3. Start the printing client
 
