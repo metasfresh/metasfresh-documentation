@@ -2,6 +2,7 @@
 title: Wie importiere ich Geschäftspartnerdaten?
 layout: default
 tags:
+  - Datenverwaltung
   - Datenimport
   - Geschäftspartnerdatenimport
 lang: de

@@ -2,6 +2,7 @@
 title: Formatbeispiel für den Import von Produktdaten
 layout: default
 tags:
+  - Datenverwaltung
   - Datenimport
   - Produktdatenimport
 lang: de

@@ -2,6 +2,7 @@
 title: Useful tips for creating an import file (*.csv and *.txt)?
 layout: default
 tags:
+  - Data Management
   - Data Import
 lang: en
 sequence: 30

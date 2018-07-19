@@ -2,10 +2,9 @@
 title: Wie stelle ich einen Beleg fertig?
 layout: default
 tags:
-  - Benutzung
-  - Dateneingabe
+  - Dokumentenverwaltung
 lang: de
-sequence: 60
+sequence: 30
 ref: documentprocessingcomplete
 ---
 

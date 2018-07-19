@@ -2,6 +2,7 @@
 title: Nützliche Hinweise für die Erstellung einer Importdatei (*.csv und *.txt)?
 layout: default
 tags:
+  - Datenverwaltung
   - Datenimport
 lang: de
 sequence: 30

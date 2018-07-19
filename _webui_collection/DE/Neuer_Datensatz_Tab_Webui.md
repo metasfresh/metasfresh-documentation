@@ -1,8 +1,8 @@
 ---
-title: Wie lege ich einen neuen Datensatz unter einer Registerkarte an?
+title: Wie lege ich einen neuen Dateneintrag unter einer Registerkarte an?
 layout: default
 tags:
-  - Benutzung
+  - Datenverwaltung
   - Dateneingabe
 lang: de
 sequence: 20

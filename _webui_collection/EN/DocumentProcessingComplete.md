@@ -2,10 +2,9 @@
 title: How do I complete a document?
 layout: default
 tags:
-  - Usage
-  - Data Input
+  - Document Management
 lang: en
-sequence: 60
+sequence: 30
 ref: documentprocessingcomplete
 ---
 

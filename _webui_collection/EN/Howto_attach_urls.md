@@ -2,10 +2,9 @@
 title: How do I add URLs as attachments to my documents?
 layout: default
 tags:
-  - Usage
-  - Data Input
+  - Document Management
 lang: en
-sequence: 50
+sequence: 20
 ref: howto_attach_urls
 ---
 

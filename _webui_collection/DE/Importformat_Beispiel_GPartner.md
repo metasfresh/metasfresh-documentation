@@ -2,6 +2,7 @@
 title: Formatbeispiel für den Import von Geschäftspartnerdaten
 layout: default
 tags:
+  - Datenverwaltung
   - Datenimport
   - Geschäftspartnerdatenimport
 lang: de

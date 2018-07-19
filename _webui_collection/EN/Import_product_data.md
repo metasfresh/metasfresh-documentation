@@ -2,6 +2,7 @@
 title: How do I import product data?
 layout: default
 tags:
+  - Data Management
   - Data Import
   - Product Data Import
 lang: en

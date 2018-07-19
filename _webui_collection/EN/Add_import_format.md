@@ -2,6 +2,7 @@
 title: How do I add an import format?
 layout: default
 tags:
+  - Data Management
   - Data Import
 lang: en
 sequence: 20

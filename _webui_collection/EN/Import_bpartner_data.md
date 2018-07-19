@@ -2,6 +2,7 @@
 title: How do I import business partner data?
 layout: default
 tags:
+  - Data Management
   - Data Import
   - Business Partner Data Import
 lang: en
