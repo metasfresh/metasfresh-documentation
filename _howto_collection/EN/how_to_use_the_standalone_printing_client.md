@@ -6,7 +6,7 @@ tags:
 lang: en
 ---
 
-# Why?
+# Intro
 
 A standalone printing client is useful in differnt scenarios. 
 For example, if you use a hosted metasfresh instance, that instance which runs on our server has no access to your local printers.
@@ -120,7 +120,7 @@ You can now open a command line and start the printing client like this:
 java -Xmx200m -Dconfig="<printing-client-config-file>" -jar <printing-client.jar>
 ```
 
-Example: `java -Xmx200m -Dconfig="metas-printing-client.properties" -jar my-downloaded-standalone-printing-client.jar`
+Example: `java -Xmx200m -Dconfig="metasfresh-printing-client-config.properties" -jar my-downloaded-standalone-printing-client.jar`
 
 Note: as a windows user, you can open a command line by entering `cmd.exe` into the start menu search field.
 
