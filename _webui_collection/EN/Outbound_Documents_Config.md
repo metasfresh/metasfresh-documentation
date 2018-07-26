@@ -3,8 +3,9 @@ title: How do I configure the outbound documents?
 layout: default
 tags:
   - Setup
+  - Edit Documents
 lang: en
-sequence: 40
+sequence: 10
 ref: outbound_documents_config
 ---
 

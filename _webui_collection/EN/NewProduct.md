@@ -13,7 +13,7 @@ ref: newproduct
 1. Open "Product" from the [menu](Menu).
 1. [Add a new product](New_Record_Window).
 1. Give the product a **Name**.
- >**Note:** This name will appear on documents such as sales order confirmations etc.
+ >**Note:** This name will appear in documents such as sales order confirmations etc.
 
 1. Choose a **Product Category**.
  >**Note:** The product category can be used to control discounts, account assignments and attribute sets of products.
@@ -22,7 +22,7 @@ ref: newproduct
  >**Note:** This UOM is used for inventory management and ***must not be confused*** with the sales UOM defined when adding a price!
 
 1. In the field **Search Key** enter a product number.
- >**Note 1:** This number will appear on documents such as sales order confirmations etc.<br><br>
+ >**Note 1:** This number will appear in documents such as sales order confirmations etc.<br><br>
  >**Note 2:** This number can also be assigned automatically.
 
 ## Next Steps

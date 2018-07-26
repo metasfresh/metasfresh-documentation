@@ -3,8 +3,9 @@ title: How do I place manual text at the top and bottom of documents?
 layout: default
 tags:
   - Setup
+  - Edit Documents
 lang: en
-sequence: 60
+sequence: 30
 ref: print_text_on_documents-doctype
 ---
 

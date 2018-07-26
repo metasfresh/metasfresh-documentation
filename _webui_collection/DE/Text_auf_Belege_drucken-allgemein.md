@@ -3,8 +3,9 @@ title: Wie füge ich eigenen Text in Belege ein?
 layout: default
 tags:
   - Einrichtung
+  - Belege bearbeiten
 lang: de
-sequence: 50
+sequence: 20
 ref: print_text_on_documents-general
 ---
 
@@ -30,8 +31,14 @@ Klicke [hier](Ersteinrichtung), wenn Du die Textstellen mithilfe des Ersteinrich
 
 ## Produkte
 
-#### Produktbeschreibung hinzufügen
-Klicke [hier](Text_auf_Belege_drucken-Produkt), wenn Du dem bestellten Produkt auf dem Beleg eine Beschreibung hinzufügen möchtest.
+#### Partnerspezifische Produkte verwalten
+Klicke [hier](Partnerspezifische_Produkte), wenn Du partnerspezifische Produktnamen und -nummern erfassen möchtest, die anstelle Deiner intern verwendeten Namen und Nummern auf den Belegen der jeweiligen Geschäftspartner erscheinen.
+
+#### Allgemeine Produktbeschreibung hinzufügen
+Klicke [hier](Text_auf_Belege_drucken-Produkt), wenn Du einem Produkt eine allgemeine Beschreibung hinzufügen möchtest, die auf allen Belegen erscheint.
+
+#### Auftragszeilenspezifische Produktbeschreibung hinzufügen
+Klicke [hier](Auftragszeilenspezifische_Produktbeschreibung), wenn Du einem Produkt eine Beschreibung hinzufügen möchtest, die ausschließlich auf der Auftragsbestätigung erscheint.
 
 ---
 

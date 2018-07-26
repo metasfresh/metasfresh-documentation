@@ -3,8 +3,9 @@ title: Wie richte ich die ausgehenden Belege ein?
 layout: default
 tags:
   - Einrichtung
+  - Belege bearbeiten
 lang: de
-sequence: 40
+sequence: 10
 ref: outbound_documents_config
 ---
 
