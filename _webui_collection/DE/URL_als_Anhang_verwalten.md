@@ -2,10 +2,9 @@
 title: Wie kann ich URLs als Anhänge verwalten?
 layout: default
 tags:
-  - Benutzung
-  - Dateneingabe
+  - Dokumentenverwaltung
 lang: de
-sequence: 50
+sequence: 20
 ref: howto_attach_urls
 ---
 

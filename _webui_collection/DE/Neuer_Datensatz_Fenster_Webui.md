@@ -1,8 +1,8 @@
 ---
-title: Wie lege ich einen neuen Datensatz in einem Fenster an?
+title: Wie lege ich einen neuen Dateneintrag in einem Fenster an?
 layout: default
 tags:
-  - Benutzung
+  - Datenverwaltung
   - Dateneingabe
 lang: de
 sequence: 10

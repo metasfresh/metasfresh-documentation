@@ -2,6 +2,7 @@
 title: Format Example for the Import of Business Partner Data
 layout: default
 tags:
+  - Data Management
   - Data Import
   - Business Partner Data Import
 lang: en

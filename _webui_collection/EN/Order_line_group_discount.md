@@ -32,7 +32,7 @@ ref: order_line_group_discount
 ## Successive Discounting
 If you want to give further discounts on a group discount that always consider the previously calculated discount total, simply proceed as follows:
 
-1. Select an order line from the regarding compensation group.
+1. Select an order line from the compensation group in question.
 1. [Start the action](StartAction) "Add group compensation line". A new window opens up.
 1. Select a **Product**, e.g. *Discount*.
  >**Note:** You can select any other product from the list in the product field, provided that it is ***not stocked*** and linked to the very ***same price list*** as in the sales order. <br> [Follow these instructions](Product_for_group_discount) to configure such a "discount product".

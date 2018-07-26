@@ -13,7 +13,7 @@ ref: product_and_partner-specific_prices
 ## Overview
 In metasfresh you can use one price list for several business partners. But what if you want to determine individual prices for specific partners? You do not want to create a new price list for each and every one of them, and end up with duplicated data and additional organizational overhead.
 
-In this case, you can simply set up pricing conditions via the discount schema and link them to the regarding business partner. <br> For this purpose, you can choose between two options:
+In this case, you can simply set up pricing conditions via the discount schema and link them to the business partner concerned. <br> For this purpose, you can choose between two options:
 
 - **Fixed Price:** You can determine a new standard price as a fixed price.
 - **Surcharge on Standard Price:** You can add a surcharge to an existing standard price in a price system.

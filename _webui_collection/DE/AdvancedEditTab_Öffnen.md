@@ -3,9 +3,9 @@ title: Wie öffne ich die "Erweiterte Erfassung" in einer Registerkarte?
 layout: default
 tags:
   - Benutzung
-  - Dateneingabe
+  - Navigation
 lang: de
-sequence: 30
+sequence: 60
 ref: open_advancededittab
 ---
 

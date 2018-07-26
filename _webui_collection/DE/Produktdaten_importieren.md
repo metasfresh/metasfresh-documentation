@@ -2,6 +2,7 @@
 title: Wie importiere ich Produktdaten?
 layout: default
 tags:
+  - Datenverwaltung
   - Datenimport
   - Produktdatenimport
 lang: de

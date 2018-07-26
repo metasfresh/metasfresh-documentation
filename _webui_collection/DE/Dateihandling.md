@@ -2,10 +2,9 @@
 title: Wie kann ich Dateien hochladen und meinen Dokumenten anhängen?
 layout: default
 tags:
-  - Benutzung
-  - Dateneingabe
+  - Dokumentenverwaltung
 lang: de
-sequence: 40
+sequence: 10
 ref: file_handling
 ---
 

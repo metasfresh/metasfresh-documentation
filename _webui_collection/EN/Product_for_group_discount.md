@@ -22,7 +22,7 @@ For [group discounting](Order_line_group_discount) you need to select a special 
 1. Select a suitable **Product Category**, e.g. *Diverse*.
 1. Uncheck the box **Stocked**.
 1. [Add a price list](ProductPrice) to the product.
- >**Note:** This price list must be identical to the one used in the regarding sales order.
+ >**Note:** This price list must be identical to the one used in the sales order concerned.
 
 1. [metasfresh saves the progress automatically](Saveindicator).
 

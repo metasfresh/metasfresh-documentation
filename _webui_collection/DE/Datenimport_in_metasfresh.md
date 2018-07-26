@@ -2,6 +2,7 @@
 title: Datenimport in metasfresh
 layout: default
 tags:
+  - Datenverwaltung
   - Datenimport
 lang: de
 sequence: 10

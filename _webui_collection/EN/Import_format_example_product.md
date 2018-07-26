@@ -2,6 +2,7 @@
 title: Format Example for the Import of Product Data
 layout: default
 tags:
+  - Data Management
   - Data Import
   - Product Data Import
 lang: en

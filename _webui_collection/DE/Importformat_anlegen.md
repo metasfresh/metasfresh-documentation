@@ -2,6 +2,7 @@
 title: Wie lege ich ein Importformat an?
 layout: default
 tags:
+  - Datenverwaltung
   - Datenimport
 lang: de
 sequence: 20

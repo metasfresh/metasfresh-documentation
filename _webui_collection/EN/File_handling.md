@@ -2,10 +2,9 @@
 title: How do I upload file attachments to my documents?
 layout: default
 tags:
-  - Usage
-  - Data Input
+  - Document Management
 lang: en
-sequence: 40
+sequence: 10
 ref: file_handling
 ---
 

@@ -15,7 +15,7 @@ ref: automatic_group_discounts
 [Compensation groups](Discount_types_in_metasfresh) are order lines combined into groups that can receive joint discounts or surcharges in a single as well as successive manner where the previous discount or surcharge is always included in the calculation. Moreover, you can give several discounts/surcharges on various compensation groups in one order.
 
 ## Preparation
-- [Set up the automatic compensation grouping](Automatic_compensation_groups_setup) for the regarding product categories.
+- [Set up the automatic compensation grouping](Automatic_compensation_groups_setup) for the product categories in question.
 
 ## Steps
 1. Follow these [instructions for creating a sales order](SalesOrder_recording) up to **step 4 of the order line input**.
@@ -29,7 +29,7 @@ ref: automatic_group_discounts
 ## Successive Discounting
 If you want to give further discounts on a group discount that always consider the previously calculated discount total, simply proceed as follows:
 
-1. Select an order line from the regarding compensation group.
+1. Select an order line from the compensation group in question.
 1. [Start the action](StartAction) "Add group compensation line". A new window opens up.
 1. Select a **Product**, e.g. *Discount*.
  >**Note:** You can select any other product from the list in the product field, provided that it is ***not stocked*** and linked to the very ***same price list*** as in the sales order. <br> [Follow these instructions](Product_for_group_discount) to configure such a "discount product".

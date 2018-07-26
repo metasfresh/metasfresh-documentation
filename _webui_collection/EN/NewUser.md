@@ -32,7 +32,7 @@ You can create new contacts or allow existing contacts to log on to the system b
 1. [Start the action](StartAction) "Change Password". A new window opens up.
 1. Enter a **New Password** with at least 8 characters.
  >**Note 1:** An **Old Password** is not required if a new user is created.<br><br>
- >**Note 2:** Make sure the password consists of ***at least 8 characters*** or the new record ***will not be saved***!<br><br>
+ >**Note 2:** Make sure the password consists of ***at least 8 characters*** or the new data entry ***will not be saved***!<br><br>
  >**Note 3:** Mind that the password is ***case-sensitive***!<br><br>
  >**Note 4:** Press and hold ![](assets/ShowPassword_Icon.png) to see the password.
 
