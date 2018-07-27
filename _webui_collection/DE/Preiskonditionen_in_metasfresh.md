@@ -19,8 +19,7 @@ In diesem Schema kannst Du folgende Preiskonditionen einzeln oder in Kombination
 
 - [Rabatte und Zuschläge](Rabattformen_in_metasfresh)
 - [Produkt- und partnerspezifische Preise](Produkt_und_partnerspezifische_Preise)
-
-<br>
+<br><br>
 
 | **Wichtiger Hinweis:** |
 | :- |

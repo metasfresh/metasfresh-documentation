@@ -16,7 +16,8 @@ Wenn Du ein Produkt verkaufst, tust Du dies nicht unbedingt immer nach der Besta
 Unter "Produkt Preise" kannst Du daher sowohl Packvorschriften festlegen als auch einstellen, ob der Preis von der Bestandsmengeneinheit oder der Verkaufsmengeneinheit abhängig ist.
 
 ## Schritte
-1. Öffne den Eintrag eines bestehenden [Preises](Menu) bzw. [lege einen neuen an](Preis_anlegen).
+1. [Gehe ins Menü](Menu) und öffne das Fenster "Produkt Preise".
+1. Öffne den Eintrag eines bestehenden Preises bzw. [lege einen neuen an](Preis_anlegen).
 1. Wähle eine **Packvorschrift** aus.
  >**Hinweis:** Packvorschriften werden erst angezeigt, wenn sie vorher dem [Produkt zugeordnet](CU-TU_Zuordnung) wurden.
 

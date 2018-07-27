@@ -13,7 +13,7 @@ ref: createpurchaseorder
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Bestellungen".
 1. [Lege eine neue Bestellung an](Neuer_Datensatz_Fenster_Webui).
 1. Gib im Feld **Lieferung von** einen Teil des Lieferantennamens oder der Geschäftspartnernummer ein und klicke auf eines der Ergebnisse.
- >**Hinweis 1:** Drücke die `LEERTASTE`, um alle [Lieferanten](Neuer_Geschaeftspartner_Lieferant) zu sehen.<br><br>
+ >**Hinweis 1:** Drücke die `LEERTASTE`, um alle verfügbaren [Lieferanten](Neuer_Geschaeftspartner_Lieferant) zu sehen.<br><br>
  >**Hinweis 2:** Auswahl des Treffers mit Maus oder ![](assets/Workflow_Auftrag_Bis_Rechnung_WebUI-73797.png).<br><br>
  >**Hinweis 3:** Wird der gewünschte Partner nicht angezeigt, kannst Du ihn per [Schnellerfassung](Neuer_Geschaeftspartner_Schnellerfassung) neu anlegen.
 
@@ -27,7 +27,7 @@ ref: createpurchaseorder
  >**Hinweis:** Drücke `Alt` + `Q` / `⌥ alt` + `Q`
 
 1. Gib in das Feld **Produkt** einen Teil des Produktnamens oder der Produktnummer ein und klicke auf eines der Ergebnisse.
- >**Hinweis 1:** Drücke die `LEERTASTE`, um alle Produkte zu sehen.<br><br>
+ >**Hinweis 1:** Drücke die `LEERTASTE`, um alle verfügbaren [Produkte](NeuesProdukt) zu sehen.<br><br>
  >**Hinweis 2:** Auswahl des Treffers mit Maus oder ![](assets/Workflow_Auftrag_Bis_Rechnung_WebUI-73797.png).
 
 1. Gib eine **Menge** ein.

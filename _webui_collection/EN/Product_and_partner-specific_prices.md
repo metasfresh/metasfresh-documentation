@@ -29,7 +29,7 @@ In this case, you can simply set up pricing conditions via the discount schema a
 ### b) Determine a surcharge on a standard price
 1. In the field **PriceBase** select *Pricing System*. A new field **Base_PricingSystem_ID** appears.
 1. In the field **Base_PricingSystem_ID** enter the desired base price system and select it from the suggestions.
- >**Note 1:** Hit `SPACE` to see all price systems.<br><br>
+ >**Note 1:** Hit `SPACE` to see all available [price systems](Add_price-system).<br><br>
  >**Note 2:** Select one of the shown options with the mouse or ![](../DE/assets/Workflow_Auftrag_Bis_Rechnung_WebUI-73797.png).
 
 1. Enter a **Aufschlag auf Standardpreis** that will be added to the defined standard price in the base price system when fulfilling the pricing conditions.

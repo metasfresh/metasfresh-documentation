@@ -21,7 +21,7 @@ ref: new_business_partner
 1. [Add one or more addresses](Add_address_tab).
 
 ### Optional Steps
-1. [Add suitable **attributes**](Add_attributes_to_BP) which might come in handy for the [filtering function](Filtering_function).
+1. [Add some appropriate **attributes**](Add_attributes_to_BP) which might come in handy for the [filtering function](Filtering_function).
 1. Turn the business partner into a [customer](New_business_partner_customer) and/or a [vendor](New_business_partner_vendor).
 1. [Link the business partner to a price system](Assign_prices_to_partner).
 

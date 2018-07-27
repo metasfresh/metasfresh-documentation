@@ -12,7 +12,7 @@ ref: activate_currency
 ## Schritte
 
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Währung".
-1. Wähle die Währung, welche Du aktivieren möchtest, in der [Listenansicht](Ansichten) aus.
+1. Öffne den Eintrag der Währung, welche Du aktivieren möchtest, aus der [Listenansicht](Ansichten).
 1. [Aktiviere](Datensatz_aktivieren) die Währung.
 
 ## Beispiel

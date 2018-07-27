@@ -21,12 +21,12 @@ For information on how to create a goods receipt, [click here](CreateGoodsReceip
 ## Steps
 1. Open a [completed manufacturing order](NewManufacturingOrder).
 1. [Start the action](StartAction) "Issue/Receipt". The production window "PP Order Issue/Receipt" opens up.
- >**Note:** If you have selected the manufacturing order in the list view, you can also go to the [quick actions](StartAction) button at the top right to start the action ![](assets/Actionbutton_IssueReceipt.png).
+ >**Note:** If you have selected the manufacturing order while in [list view](ViewModes), you can also go to the [quick actions](StartAction) button at the top right to start the action ![](assets/Actionbutton_IssueReceipt.png).
 
 ### a) Produce a product without consuming material
-This is the easiest way to produce in metasfresh. The produced quantity is simply added to the account without booking the required products from the bill of materials (BOM).
+This is the easiest way to produce in metasfresh. The produced quantity is simply added to the account without deleting the required products from the bill of materials (BOM).
 
-1. In the production window, select the product (**MP**) you want to produce, e.g. "Carrots chopped".
+1. In the production window, [select](RecordSelection) the product (**MP**) you want to produce, e.g. "Carrots chopped".
  ![](assets/ProductionCompletion_ProductionWindow.png)
 
 1. Select "Receive HUs" via the quick actions button.<br>
@@ -65,9 +65,9 @@ This is the easiest way to produce in metasfresh. The produced quantity is simpl
 ---
 
 ### b) Produce a product and record the consumption of materials
-The products required for the production are booked from the BOM. Adding the produced quantity works as described above.
+The products required for the production are deleted from the BOM. Adding the produced quantity works as described above.
 
-1. In the production window, select the component (**CO**) you want to book from the BOM, e.g. "Carrots unwashed".
+1. In the production window, [select](RecordSelection) the component (**CO**) you want to book from the BOM, e.g. "Carrots unwashed".
  ![](assets/ProductionCompletion_MaterialConsumption.png)
 
 1. Select "Open HU Selection Window" via the quick actions button.<br>
@@ -76,7 +76,7 @@ The products required for the production are booked from the BOM. Adding the pro
 1. An overview of the matching handling units (HU) from stock opens up.
  ![](assets/ProductionCompletion_StockOverview.png)
 
-1. Select the HU to be consumed for production.
+1. [Select](RecordSelection) the HU to be consumed for production.
 1. Select "Issue complete HUs" via the actions button.
 1. When the allocation was successful, you will find the issued HU below the component.
 ![](assets/ProductionCompletion_Booked.png)

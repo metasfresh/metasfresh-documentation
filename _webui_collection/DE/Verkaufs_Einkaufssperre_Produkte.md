@@ -42,7 +42,7 @@ Für diesen Fall kannst Du ganz einfach partnerbezogene Ausschlusslisten mit den
 1. Gehe zur Registerkarte "Geschäftspartner" unten auf der Seite und klicke auf ![](assets/Neu_hinzufuegen_Button.png). Es öffnet sich ein neues Fenster.
 1. Trage den Namen des **Geschäftspartners** ein, für den das Produkt gesperrt werden soll.
  >**Hinweis 1:** Geschäftspartner können Kunden und Lieferanten sein.<br><br>
- >**Hinweis 2:** Drücke die `LEERTASTE`, um alle Geschäftspartner zu sehen.<br><br>
+ >**Hinweis 2:** Drücke die `LEERTASTE`, um alle verfügbaren [Geschäftspartner](Neuer_Geschaeftspartner) zu sehen.<br><br>
  >**Hinweis 3:** Auswahl des Treffers mit Maus oder ![](assets/Workflow_Auftrag_Bis_Rechnung_WebUI-73797.png).
 
 1. Scrolle runter bis zum Feld **Exclusion from sales documents** und setze hier ein Häkchen. Es erscheint ein neues Textfeld **Exclusion From Sale Reason**.

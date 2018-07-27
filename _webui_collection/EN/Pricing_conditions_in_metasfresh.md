@@ -19,8 +19,7 @@ In this schema you can determine the following pricing conditions individually o
 
 - [Discounts and surcharges](Discount_types_in_metasfresh)
 - [Product and partner-specific prices](Product_and_partner-specific_prices)
-
-<br>
+<br><br>
 
 | **Important Note:** |
 | :- |
