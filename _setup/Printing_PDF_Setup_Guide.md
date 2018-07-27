@@ -2,7 +2,7 @@
 title: Setup a PDF Printer
 layout: default
 tags:
-  - Allgemein 
+  - System
 lang: en
 ref: printpdfsetup
 

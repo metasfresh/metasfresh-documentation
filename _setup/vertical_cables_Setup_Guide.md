@@ -2,7 +2,7 @@
 title: Setup Vertical Cabling
 layout: default
 tags:
-  - Guides
+  - Vertical
 lang: en
 ref: de.metas.vertical.setup
 
