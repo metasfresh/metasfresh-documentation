@@ -15,7 +15,7 @@ ref: order_line_group_discount
 [Auftragszeilengruppenrabatte](Rabattformen_in_metasfresh) können sowohl auf einzelne als auch auf mehrere Auftragszeilen (*Kompensationsgruppen*) vergeben werden. Darüber hinaus erlauben sie ebenfalls eine sukzessive Rabattierung, wobei die vorherige Rabattierung jedes Mal bei der Berechnung miteinbezogen wird. Außerdem können in einem Auftrag auch mehrere Rabatte auf verschiedene *Kompensationsgruppen* vergeben werden.
 
 ## Schritte
-1. Folge der Anleitung zur [Erfassung eines Auftrags](Auftrag_erfassen) bis zum **Schritt 4 der Auftragszeileneingabe**.
+1. Folge dieser [Anleitung zur Erfassung eines Auftrags](Auftrag_erfassen) bis zum **Schritt 4 der Auftragszeileneingabe**.
 1. [Selektiere die Auftragszeilen](AuswahlBelege), die Du zu einer Gruppe zusammenfassen möchtest.
 1. [Starte die Aktion](AktionStarten) "Zeilen gruppieren". Es öffnet sich ein neues Fenster.
 1. Wähle ein **Produkt** aus, z.B. *Rabatt*.
