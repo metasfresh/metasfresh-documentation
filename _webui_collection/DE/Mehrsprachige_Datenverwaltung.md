@@ -54,7 +54,7 @@ Möchtest Du Registerkarteneinträge übersetzen, wie z.B. im Falle der Mahnstuf
 ## Übersetzungen anlegen
 1. Öffne den Eintrag der Sprache, in die Du übersetzen möchtest, z.B. "English (US)".
 1. Ersetze im Feld **Name** die vorhandene Benennung mit Deiner Übersetzung.
- >** *Hinweis zu Mahnstufe:** Ersetze im Feld **Drucktext** die vorhandene Benennung mit Deiner Übersetzung.
+ >**Hinweis zu Mahnstufe*:** Ersetze im Feld **Drucktext** die vorhandene Benennung mit Deiner Übersetzung.
 
 1. Setze ein Häkchen bei **Übersetzt**.
 1. [metasfresh speichert automatisch](Speicheranzeige).
