@@ -1,8 +1,8 @@
 ---
-title: How do I add a new record in a window?
+title: How do I add a new data entry in a window?
 layout: default
 tags:
-  - Usage
+  - Data Management
   - Data Input
 lang: en
 sequence: 10

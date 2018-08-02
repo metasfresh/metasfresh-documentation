@@ -4,9 +4,10 @@ layout: default
 tags:
   - Preisgestaltung
   - Preise
+  - Preisschemata (Preislisten kopieren)
 lang: de
-sequence: 90
-ref: price_list_scheme_rules
+sequence: 20
+ref: price_list_schema_rules
 ---
 
 ## Übersicht

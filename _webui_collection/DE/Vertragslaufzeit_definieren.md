@@ -38,7 +38,7 @@ Die Wechselkonditionen bestimmen, zu welchem Zeitpunkt vor Vertragsende bzw. Ver
 1. Wähle den **Vertrags-Status** *Gekündigt* aus.
 1. Klicke auf "Bestätigen", um das Fenster zu schließen und die Wechselkonditionen zur Registerkarte hinzuzufügen.
 
-### Nächste Schritte
+### Dokument fertigstellen
 - [Stelle das Dokument fertig](BelegverarbeitungFertigstellen).
 
 ## Beispiel

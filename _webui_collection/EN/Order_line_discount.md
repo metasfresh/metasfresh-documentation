@@ -3,6 +3,7 @@ title: How do I give discounts on individual products (order line discounts)?
 layout: default
 tags:
   - Pricing
+  - Pricing Conditions
   - Discounts
 lang: en
 sequence: 20
@@ -16,5 +17,5 @@ ref: order_line_discount
 1. Hit `↵ Enter` to apply.
 1. Follow the remaining steps for [creating a sales order](SalesOrder_recording) to complete the order.
 
-### Example
+## Example
 ![](assets/Order line discount.gif)

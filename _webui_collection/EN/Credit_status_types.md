@@ -13,7 +13,7 @@ ref: credit_status_types
 ## Overview
 In metasfresh you can limit the total amount from all unpaid invoices of a partner to a maximum. This is called the [*credit limit*](Set_credit_limit).
 
-If a partner has reached their credit limit, any new orders placed by them cannot be processed for as long as their debts remain unpaid.
+If a partner has reached their credit limit, any new orders placed by them cannot be processed for as long as their debts remain unpaid. How much of the partner's credit has been used is shown in the field **Credit Limit Usage** in the respective partner entry.
 
 There are several different types of credit statuses, the meanings of which are described below:
 

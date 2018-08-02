@@ -22,7 +22,7 @@ Ein Produkt ist eine Verkaufseinheit (engl.: *Customer Unit - CU*), welche in gr
 1. Stelle ein **Gültig ab** Datum ein.
  >**Hinweis:** Liegt das Datum in der *Vergangenheit*, gilt die Packvorschrift *ab sofort*. Liegt es in der *Zukunft*, gilt sie *erst ab diesem Datum*. metasfresh orientiert sich am zugesagten Termin in Auftrag oder Bestellung und schlägt dementsprechend die jeweilig gültige Packvorschrift vor.
 
-1. Optional kannst Du einen **Geschäftspartner** angeben, wenn diese Packvorschrift nur für diesen einen Partner aktiviert werden soll.
+1. ***Optional:*** Gib einen **Geschäftspartner** an, wenn diese Packvorschrift nur für diesen einen Partner aktiviert werden soll.
 1. Klicke auf "Bestätigen", um das Fenster zu schließen und die Zuordnung zur Liste hinzuzufügen.
  >**Hinweis:** Wiederhole die Schritte 2 bis 7, um weitere Zuordnungen mit anderen Packvorschriften zur Liste hinzuzufügen.
 

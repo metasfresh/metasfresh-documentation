@@ -24,7 +24,7 @@ layout: default
   - writing docs
     - [How to get started](http://docs.metasfresh.org/howto_collection/EN/how_to_get_started_with_translating_docs.html)
   - [Database Queries](pages/sql/index_en)
-    
+  - [Setup Guides](pages/setup/index_en)
 
 ### How to get in contact
 

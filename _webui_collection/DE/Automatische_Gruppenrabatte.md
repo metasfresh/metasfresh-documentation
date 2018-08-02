@@ -3,6 +3,7 @@ title: Wie vergebe ich Rabatte auf automatisch erstellte Kompensationsgruppen?
 layout: default
 tags:
   - Preisgestaltung
+  - Preiskonditionen
   - Rabatte
   - Kompensationsgruppen
 lang: de
@@ -17,7 +18,7 @@ ref: automatic_group_discounts
 - [Richte die automatische Kompensationsgruppierung](Automatische_Kompensationsgruppen_konfig) für die betreffenden Produktkategorien ein.
 
 ## Schritte
-1. Folge der Anleitung zur [Erfassung eines Auftrags](Auftrag_erfassen) bis zum **Schritt 4 der Auftragszeileneingabe**.
+1. Folge der [Anleitung zur Erfassung eines Auftrags](Auftrag_erfassen) bis zum **Schritt 4 der Auftragszeileneingabe**.
 1. [Selektiere die Auftragszeilen](AuswahlBelege), die Du zu einer Gruppe zusammenfassen möchtest.
 1. [Starte die Aktion](AktionStarten) "Multigroup lines". Die Kompensationsgruppen werden automatisch erstellt und als zusätzliche Rabattzeilen mit der **Gruppenart** *Rabatt* ausgewiesen.
 1. Bewege die horizontale Bildlaufleiste der Auftragszeilentabelle nach rechts, bis Du die Spalte **Gruppen Preisminderung** erreichst.
@@ -30,8 +31,8 @@ Möchtest Du auf einen Gruppenrabatt noch weitere Rabatte vergeben, die sich an 
 
 1. Selektiere eine Auftragszeile aus der betreffenden Kompensationsgruppe.
 1. [Starte die Aktion](AktionStarten) "Neuer Gruppenrabatt". Es öffnet sich ein neues Fenster.
-1. Wähle ein **Produkt** aus, z.B. [*Rabatt*](Produkt_für_Gruppenrabatt).
- >**Hinweis:** Du kannst auch jedes andere Produkt auswählen, das im Produktfeld vorgeschlagen wird.
+1. Wähle ein **Produkt** aus, z.B. *Rabatt*.
+ >**Hinweis:** Du kannst auch jedes andere Produkt auswählen, das im Produktfeld vorgeschlagen wird, solange es ***nicht lagerhaltig*** und mit ***derselben Preisliste*** verknüpft ist wie der Auftrag. <br> [Folge dieser Anleitung](Produkt_für_Gruppenrabatt) zur Konfiguration solcher "Rabattprodukte".
 
 1. Klicke auf "Start", um das Fenster zu schließen und eine weitere Gruppenrabattzeile zur Liste hinzuzufügen.
 1. Klicke doppelt auf das Feld **Gruppen Preisminderung** dieser Rabattzeile und gib dort einen Prozentbetrag ein.
@@ -40,5 +41,5 @@ Möchtest Du auf einen Gruppenrabatt noch weitere Rabatte vergeben, die sich an 
 ## Kompensationsgruppe löschen
 Möchtest Du eine Kompensationsgruppe löschen und den Rabatt rückgängig machen, lösche einfach die jeweilige Rabattzeile.
 
-### Beispiel
+## Beispiel
 ![](assets/Automatische_Gruppenrabatte.gif)

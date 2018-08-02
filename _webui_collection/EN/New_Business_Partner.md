@@ -19,7 +19,11 @@ ref: new_business_partner
 1. Select a [**Business Partner Group**](New_Business_Partner_Group), e.g. *Machine Supplier*.
 1. Select the partner’s preferred language for communication.
 1. [Add one or more addresses](Add_address_tab).
-1. ***Optional:*** [Add suitable attributes](Add_attributes_to_BP) which might come in handy for the [filtering function](Filtering_function).
+
+### Optional Steps
+1. [Add suitable **attributes**](Add_attributes_to_BP) which might come in handy for the [filtering function](Filtering_function).
+1. Turn the business partner into a [customer](New_business_partner_customer) and/or a [vendor](New_business_partner_vendor).
+1. [Link the business partner to a price system](Assign_prices_to_partner).
 
 ## Example
 ![](assets/New_Business_Partner.gif)

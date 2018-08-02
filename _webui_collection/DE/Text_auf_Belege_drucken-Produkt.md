@@ -1,16 +1,17 @@
 ---
-title: Wie erfasse ich eine Produktbeschreibung, die auch auf Belegen erscheint?
+title: Wie erfasse ich eine allgemeine Produktbeschreibung, die auf allen Belegen erscheint?
 layout: default
 tags:
   - Stammdaten
   - Produkt
+  - Produktbeschreibung
 lang: de
-sequence: 80
+sequence: 20
 ref: print_text_on_documents-product
 ---
 
 ## Übersicht
-Dieser Text erscheint unter dem Produktnamen auf dem Beleg.
+Dieser Text erscheint unterhalb des Produktnamens auf allen Belegen.
 
 Weitere Informationen darüber, wie Du eigenen Text in Belege einfügen kannst, gibt es [hier](Text_auf_Belege_drucken-allgemein).
 

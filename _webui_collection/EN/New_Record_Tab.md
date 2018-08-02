@@ -1,8 +1,8 @@
 ---
-title: How do I add a new record under a tab?
+title: How do I add a new data entry under a tab?
 layout: default
 tags:
-  - Usage
+  - Data Management
   - Data Input
 lang: en
 sequence: 20
