@@ -1,4 +1,4 @@
----
+﻿---
 title: Sample Function
 layout: default
 tag: 
@@ -26,7 +26,7 @@ select case when max(m_product_id) is null
      from c_orderline
      where c_order_id = $1 and c_orderline.m_product_id in (select m_product_id
                                                           from m_product
-                                                          where name ilike '%Einmalgeb�hr%');
+                                                          where name ilike '%Einmalgebühr%');
 $$;
 
 
