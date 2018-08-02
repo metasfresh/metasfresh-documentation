@@ -1,4 +1,5 @@
 ---
+title: How to set up and test with cypress
 layout: default
 tags:
   - automatic testing
@@ -38,6 +39,10 @@ lang: en
 ## Updated / new tests:
 1. sync metasfresh webui frontend folder in github desktop
 1. config for your testing instance shall remain the same, is not set back by syncing!
+
+
+## More info:
+=> README file in the webui-frontend repo
 
 
   >if problems, maybe bc of kaspersky: delete Cypress from user-xy-AppData-Local, and re-install via GitBash
