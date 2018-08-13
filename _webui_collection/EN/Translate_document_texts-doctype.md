@@ -18,9 +18,7 @@ In metasfresh you can [record manual texts](Print_text_on_documents-doctype) for
 
 #### a) Via the navigation menu
 1. Open "Document Type Translation" from the [menu](Menu).
-1. [Use the filter](Filtering_function) to find the entry for which you want to add a foreign language text version. There is one entry for each available language (see column **Language**).
-
- ![](assets/Doctype_translation_languages.png)
+1. [Use the filter](Filtering_function) to find the entry for which you want to add a foreign language text version. There is one entry for each available language (see column **Language**).<br><br>![](assets/Doctype_translation_languages.png)
 
 #### b) Jumping from the entry via the sidebar
 If you are already looking at the document type for which you want to add a foreign language text version, you can take the following steps:
@@ -30,8 +28,8 @@ If you are already looking at the document type for which you want to add a fore
 
 ### Add text versions in foreign languages
 1. Open the entry of the language in which you want to write the text, e.g. "Deutsch (CH)".
-1. In the text box **Document Note** enter the foreign language text version that you want to appear at the bottom of the document.
-1. In the text box **Description** enter the foreign language text version that you want to appear at the top of the document.
+1. In the text box **Document Note** enter the foreign language text version that shall appear at the bottom of the document.
+1. In the text box **Description** enter the foreign language text version that shall appear at the top of the document.
 1. [metasfresh saves the progress automatically](Saveindicator).
 
 ## Example

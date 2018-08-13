@@ -18,9 +18,7 @@ In metasfresh kannst Du für jede Belegart (z.B. Angebot, Bestellung, Eingangsre
 
 #### a) Über das Navigationsmenü
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Belegart Übersetzung".
-1. [Verwende die Filterfunktion](Filterfunktion), um denjenigen Eintrag zu finden, für den Du eine fremdsprachige Textversion anlegen möchtest. Für jede verfügbare Sprache gibt es einen eigenen Eintrag (siehe Tabellenspalte **Sprache**).
-
- ![](assets/Belegart_Uebersetzung_Sprachen.png)
+1. [Verwende die Filterfunktion](Filterfunktion), um denjenigen Eintrag zu finden, für den Du eine fremdsprachige Textversion anlegen möchtest. Für jede verfügbare Sprache gibt es einen eigenen Eintrag (siehe Tabellenspalte **Sprache**).<br><br>![](assets/Belegart_Uebersetzung_Sprachen.png)
 
 #### b) Aus dem Eintrag über die Sidebar springen
 Hast Du die Belegart, für die Du eine fremdsprachige Textversion anlegen möchtest, bereits geöffnet, dann gehe wie folgt vor:
