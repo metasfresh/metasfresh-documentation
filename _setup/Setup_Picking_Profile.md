@@ -1,5 +1,5 @@
 ---
-title: Switch picking terminal between product and order grouping
+title: Setup picking profile to switch picking between product and order grouping
 layout: default
 tags:
   - System
