@@ -8,7 +8,7 @@ ref: inventory_takeout
 ---
 
 ## Einrichtung
-1. Lege ein Lager "Materialentnahme" mit Lagerort "Materialentnahme" an.
+1. [Lege ein Lager "Materialentnahme" mit Lagerort "Materialentnahme" an](Neues_Lager_anlegen).
 1. Setze die ad_sysconfig mit dem Namen `de.metas.handlingunits.client.terminal.inventory.model.InventoryHUEditorModel#DirectMove_Warehouse_ID` auf die Datensatz ID des Lagers.
 
 ## Schritte
