@@ -24,14 +24,14 @@ For information on how to create a goods receipt, [click here](CreateGoodsReceip
  >**Note:** If you have selected the manufacturing order while in [list view](ViewModes), you can also go to the [quick actions](StartAction) button at the top right to start the action ![](assets/Actionbutton_IssueReceipt.png).
 
 ### a) Produce a product without consuming material
-This is the easiest way to produce in metasfresh. The produced quantity is simply added to the account without deleting the required products from the bill of materials (BOM).
+This is the easiest way to produce in metasfresh. The produced quantity is simply added to the account without deducting the required products from the bill of materials (BOM).
 
 1. In the production window, [select](RecordSelection) the product (**MP**) you want to produce, e.g. "Carrots chopped".
  ![](assets/ProductionCompletion_ProductionWindow.png)
 
-1. Select "Receive HUs" via the quick actions button.<br>
+1. [Start the quick action](StartAction) "Receive HUs".<br>
  ![](assets/ProductionCompletion_Receive_1.png)<br>
- >**Note:** If the product has packing instructions, this will appear on the quick actions button instead of "Receive HUs".
+ >**Note:** If the product has packing instructions, these will appear on the quick actions button instead of "Receive HUs".
    ![](assets/ProductionCompletion_Receive_2.png)
 
 1. A new window opens up.
@@ -54,7 +54,7 @@ This is the easiest way to produce in metasfresh. The produced quantity is simpl
  ![](assets/ProductionCompletion_Assignment.png)
  >**Note:** If you want to reverse the allocation, simply select the added HU, go to the quick actions button and click "Remove HU".
 
-1. Select "Process" via the quick actions button to make the material posting. This makes the lines read-only:
+1. [Start the quick action](StartAction) "Process" to make the material posting. This makes the lines read-only:
  ![](assets/ProductionCompletion_PlanningComplete.png)
 
 1. Click "Done" to close the window.
@@ -65,12 +65,12 @@ This is the easiest way to produce in metasfresh. The produced quantity is simpl
 ---
 
 ### b) Produce a product and record the consumption of materials
-The products required for the production are deleted from the BOM. Adding the produced quantity works as described above.
+The products required for the production are deducted from the BOM. Adding the produced quantity works as described above.
 
-1. In the production window, [select](RecordSelection) the component (**CO**) you want to book from the BOM, e.g. "Carrots unwashed".
+1. In the production window, [select](RecordSelection) the component (**CO**) you want to deduct from the BOM, e.g. "Carrots unwashed".
  ![](assets/ProductionCompletion_MaterialConsumption.png)
 
-1. Select "Open HU Selection Window" via the quick actions button.<br>
+1. [Start the quick action](StartAction) "Open HU Selection Window".<br>
  ![](assets/Open_HU-Selection-Window.png)
 
 1. An overview of the matching handling units (HU) from stock opens up.
@@ -80,9 +80,9 @@ The products required for the production are deleted from the BOM. Adding the pr
 1. Select "Issue complete HUs" via the actions button.
 1. When the allocation was successful, you will find the issued HU below the component.
 ![](assets/ProductionCompletion_Booked.png)
- >**Note:** If you want to reverse the booking, simply select the added HU, go to the quick actions button and click "Remove HU".
+ >**Note:** If you want to reverse the deduction, simply select the added HU, go to the quick actions button and click "Remove HU".
 
-1. Select "Process" via the quick actions button to book the HUs. This makes the lines read-only:
+1. [Start the quick action](StartAction) "Process" to deduct the HUs. This makes the lines read-only:
  ![](assets/HU_booking_readonly.png)
 
 1. Click "Done" to close the window.

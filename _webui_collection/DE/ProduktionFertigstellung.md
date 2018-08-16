@@ -29,7 +29,7 @@ Dies ist die einfachste Möglichkeit in metasfresh zu produzieren. Hierbei wird 
 1. [Selektiere](AuswahlBelege) im Produktionsfenster das Produkt (**MP**), welches Du herstellen möchtest, z.B. "Karotten gestückelt".
  ![](assets/ProduktionFertigstellung_Produktionsfenster.png)
 
-1. Wähle über den Quick-Actions-Button "Empfangen" aus.<br>
+1. [Starte die Quick-Action](AktionStarten) "Empfangen".<br>
  ![](assets/ProduktionFertigstellung_empfangen_1.png)<br>
  >**Hinweis:** Wurde dem Produkt eine Packvorschrift zugewiesen, erscheint diese auf dem Quick-Actions-Button anstelle von "Empfangen".
   ![](assets/ProduktionFertigstellung_empfangen_2.png)
@@ -54,7 +54,7 @@ Dies ist die einfachste Möglichkeit in metasfresh zu produzieren. Hierbei wird 
  ![](assets/ProduktionFertigstellung-a5222.png)
   >**Hinweis:** Möchtest Du die Zuordnung rückgängig machen, wähle einfach die hinzugefügte HU aus, gehe zum Quick-Actions-Button und klicke auf "HU entfernen".
 
-1. Wähle über den Quick-Actions-Button "Verarbeiten" aus, um die Materialbuchung vorzunehmen. Dadurch werden die Zeilen schreibgeschützt:
+1. [Starte die Quick-Action](AktionStarten) "Verarbeiten", um die Materialbuchung vorzunehmen. Dadurch werden die Zeilen schreibgeschützt:
  ![](assets/ProduktionFertigstellung-ed689.png)
 
 1. Klicke auf "Bestätigen", um das Fenster zu schließen.
@@ -70,19 +70,19 @@ Hierbei werden die für die Produktion benötigten Produkte von der Stückliste 
 1. [Selektiere](AuswahlBelege) im Produktionsfenster die Komponente (**CO**), welche Du von der Stückliste abbuchen möchtest, z.B. "Karotten ungewaschen".
  ![](assets/ProduktionFertigstellung_Materialverbrauch.png)
 
-1. Wähle über den Quick-Actions-Button "HU-Auswahlfenster öffnen" aus.<br>
+1. [Starte die Quick-Action](AktionStarten) "HU-Auswahlfenster öffnen".<br>
  ![](assets/HU-Auswahlfenster_oeffnen.png)
 
 1. Es öffnet sich eine Übersicht mit den passenden Handling Units (HU) vom Lager.
  ![](assets/ProduktionFertigstellung_Lagerübersicht.png)
 
 1. [Selektiere](AuswahlBelege) die HU, welche für die Produktion verbraucht werden soll.
-1. Wähle über den Quick-Actions-Button "Komplette HUs hinzufügen" aus.
+1. [Starte die Quick-Action](AktionStarten) "Komplette HUs hinzufügen".
 1. Nach erfolgreicher Zuordnung siehst Du die hinzugefügte HU unterhalb der Komponente.
 ![](assets/ProduktionFertigstellung_Abbuchung.png)
  >**Hinweis:** Möchtest Du die Abbuchung rückgängig machen, wähle einfach die hinzugefügte HU aus, gehe zum Quick-Actions-Button und klicke auf "HU entfernen".
 
-1. Wähle über den Quick-Actions-Button "Verarbeiten" aus, um die Abbuchung vorzunehmen. Dadurch werden die Zeilen schreibgeschützt:
+1. [Starte die Quick-Action](AktionStarten) "Verarbeiten", um die Abbuchung vorzunehmen. Dadurch werden die Zeilen schreibgeschützt:
  ![](assets/HU_booking_readonly.png)
 
 1. Klicke auf "Bestätigen", um das Fenster zu schließen.
