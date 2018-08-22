@@ -38,3 +38,15 @@ metasfresh uses several schemata. This example grants select on the tables of th
    GRANT SELECT ON TABLES TO <your username>;
 
 ```
+
+
+## Find Table NAme by file name
+
+- you will find files in /base/12345
+- the number in the filename is the relation id
+- you can use that id to find the tablename using:
+
+`SELECT pg_filenode_relation(0, 3720450);`
+
+
+source: https://blog.2ndquadrant.com/postgresql-filename-to-table/
