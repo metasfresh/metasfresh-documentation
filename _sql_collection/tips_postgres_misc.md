@@ -40,7 +40,7 @@ metasfresh uses several schemata. This example grants select on the tables of th
 ```
 
 
-## Find Table NAme by file name
+## Find Table Name by file name
 
 - you will find files in /base/12345
 - the number in the filename is the relation id
