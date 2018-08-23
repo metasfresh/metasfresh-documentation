@@ -46,7 +46,7 @@ Nach der Aktivierung des ESR braucht es dann noch die Fachliche Einrichtung.
 Damit der ESR für eine Organisation erzeugt wird müssen die folgenden Kriterien erfüllt sein:
 - Der Suchschlüssel der Organisation muss numerisch und nicht länger als 3 Zeichen lang sein, da er Teil der ESR Nummer wird. z.B. 001
 - Der Geschäftspartner der Organisation muss eine Schweizer Adresse,  ein ESR Konto und die gleiche Nummer wie die Sektion haben (z.B. 001).
-
+- Die ESR Teilnehmer Nummer darf nicht länger als 7 Stellen haben ("-" und 0 nicht mitgezählt)
 
 ## Einrichtung Bankkonto
 
@@ -55,3 +55,12 @@ Damit der ESR Zahlschein-String erstellt werden kann braucht es ein ESR Konto be
 1. Feld **ESR-Konto** aktivieren
 1. Feld **ESR-Teilnehmer Nummer** füllen. z.B. 1-23456-7
 1. Feld **Rendered ESR Receiver** eintragen
+
+
+# Überprüfung System Konfig via SQL
+
+```
+select * from ad_sysconfig where name = 'de.metas.payment.esr.Enabled';
+select name,isactive from c_referenceno_type where name in ('InvoiceReference','ESRReferenceNumber');
+select * from c_referenceno_type_table where c_referenceno_type_id in (select c_referenceno_type_id from c_referenceno_type where isactive = 'Y');
+```
