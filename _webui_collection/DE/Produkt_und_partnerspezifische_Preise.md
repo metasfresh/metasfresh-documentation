@@ -19,7 +19,7 @@ In diesem Fall kannst Du ganz einfach Preiskonditionen über das Rabattschema er
 - **Aufschlag auf Standardpreis:** Du kannst einen Aufschlag auf den in einem Preissystem vorhandenen Standardpreis festlegen.
 
 ## Schritte
-1. Folge der [Anleitung zum Anlegen eines Rabattschemas](Rabattschema_anlegen) bis zum **Schritt 9**.
+1. Folge dieser [Anleitung zum Anlegen eines Rabattschemas](Rabattschema_anlegen) bis zum **Schritt 9**.
 1. Setze ein Häkchen bei **IsPriceOverride**. Es erscheint ein neues Feld **PriceBase**.
 
 ### a) Festpreis festlegen
@@ -29,7 +29,7 @@ In diesem Fall kannst Du ganz einfach Preiskonditionen über das Rabattschema er
 ### b) Aufschlag auf einen Standardpreis festlegen
 1. Wähle im Feld **PriceBase** *Pricing System* aus. Es erscheint ein neues Feld **Base_PricingSystem_ID**.
 1. Gib im Feld **Base_PricingSystem_ID** das gewünschte Basis-Preissystem ein und wähle es aus den Ergebnissen aus.
- >**Hinweis 1:** Drücke die `LEERTASTE`, um alle Preissysteme zu sehen.<br><br>
+ >**Hinweis 1:** Drücke die `LEERTASTE`, um alle verfügbaren [Preissysteme](Preissystem_anlegen) zu sehen.<br><br>
  >**Hinweis 2:** Auswahl des Treffers mit Maus oder ![](assets/Workflow_Auftrag_Bis_Rechnung_WebUI-73797.png).
 
 1. Trage einen **Aufschlag auf Standardpreis** ein, der bei Erfüllung der Preiskonditionen auf den im Basis-Preissystem festgelegten Standardpreis draufgerechnet werden soll.

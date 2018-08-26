@@ -10,7 +10,7 @@ ref: translate_document_texts-doctype
 ---
 
 ## Übersicht
-In metasfresh kannst Du für jede Belegart (z.B. Angebot, Bestellung, Eingangsrechnung, Lieferschein, Standardauftrag usw.) [eigene Texte erfassen](Text_auf_Belege_drucken-Belegart) und diese eigenständig in die Sprachen Deiner Geschäftspartner übertragen, damit beim [Drucken von Belegen](PDFVorschau) für fremdsprachige Geschäftspartner die in deren Sprache entsprechend verfassten Texte auf den Belegen aufgeführt werden.
+In metasfresh kannst Du für jede Belegart (z.B. Angebot, Bestellung, Eingangsrechnung, Lieferschein, Standardauftrag usw.) [eigene Texte erfassen](Text_auf_Belege_drucken-Belegart) und diese eigenständig in die Sprachen Deiner Geschäftspartner übertragen, damit beim [Drucken von Belegen](PDFVorschau) für fremdsprachige Geschäftspartner die in deren Sprachen entsprechend verfassten Texte auf den Belegen aufgeführt werden.
 
 ## Schritte
 
