@@ -16,7 +16,7 @@ Probably the most frequently used class from this project/folder is [`Services`]
 
 Other frequently used classes are
 
-* the [`Chached`](https://github.com/metasfresh/metasfresh/blob/master/de.metas.util/src/main/java/org/adempiere/util/proxy/Cached.java) annotation 
+* the [`Cached`](https://github.com/metasfresh/metasfresh/blob/master/de.metas.util/src/main/java/org/adempiere/util/proxy/Cached.java) annotation 
 (javadocs [here](http://metasfresh.com/javadoc/metasfresh-master/org/adempiere/util/proxy/Cached.html)) which we use to enable caching on a number of DAO services and 
 * the [`Check`](https://github.com/metasfresh/metasfresh/blob/master/de.metas.util/src/main/java/org/adempiere/util/Check.java) class 
 (javadoc [here](http://metasfresh.com/javadoc/metasfresh-master/org/adempiere/util/Check.html)) which we use to make certain assumptions much more clear ("development by contract").
