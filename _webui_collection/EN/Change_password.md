@@ -17,7 +17,7 @@ ref: change_password
 
 1. Enter your **New Password** with at least 8 characters.
  >**Note 1:** Make sure the password consists of ***at least 8 characters*** or it ***will not be saved***!<br><br>
- >**Note 2:** Mind that the password is ***case-sensitive***!
+ >**Note 2:** Please bear in mind that the password is ***case-sensitive***!
 
 1. Repeat your **New Password (retype)**.
 1. Click "Start" to apply the changes and close the window.

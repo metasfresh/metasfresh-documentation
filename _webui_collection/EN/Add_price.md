@@ -17,8 +17,9 @@ ref: add_price
 1. Open "Product Prices" from the [menu](Menu).
 1. [Create a new price entry](New_Record_Window).
 1. Enter the [**Product**](NewProduct) to which the price shall apply and select the corresponding one from the suggestions.
-1. Enter the name of the designated [**Price List Version**](Add_price-list-version).
- >**Note:** Hit `SPACE` to see all available price list versions.
+1. In the field **Price List Version** enter a part of the name of the envisaged price list version and click on one of the results.
+ >**Note 1:** Hit `SPACE` to see all available [price list versions](Add_price-list-version).<br><br>
+ >**Note 2:** Select one of the shown options with the mouse or ![](../DE/assets/Workflow_Auftrag_Bis_Rechnung_WebUI-73797.png).
 
 1. The field **List Price** determines the list price that will later appear on the documents.
 1. The field **Standard Price** determines the effectively valid purchase or sales price (depending on the respective price list).
