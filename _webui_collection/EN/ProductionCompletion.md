@@ -14,7 +14,7 @@ metasfresh offers two possibilities to record the consumption of materials for p
 1. Produce a product without consuming material.
 1. Produce a product and record the consumption of materials.
 
-## Preparation
+## Requirements
 - Prior to production, ensure that all the required products to be consumed are on stock.<br>
 For information on how to create a goods receipt, [click here](CreateGoodsReceipt).
 

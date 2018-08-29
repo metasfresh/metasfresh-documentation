@@ -14,7 +14,7 @@ metasfresh bietet zwei Möglichkeiten, den Materialverbrauch bei der Produktion 
 1. Ein Produkt herstellen, ohne Material zu verbrauchen.
 1. Ein Produkt herstellen und Materialverbrauch protokollieren.
 
-## Vorbereitung
+## Voraussetzungen
 - Stelle sicher, dass Du diejenigen Produkte, die Du bei der Produktion verbrauchst, vorher auch auf Lager hast.<br>
 [Hier](Zu_Bestellung_Wareneingang_erstellen) kannst Du nachlesen, wie Du einen Wareneingang erstellst.
 

@@ -12,7 +12,7 @@ ref: single_incoming_payment
 ## Overview
 After you have received a payment, you can enter the amount as an *Incoming Payment* into the system, thereby setting the invoice status to *Paid*. To do so, take the following steps:
 
-## Preparation
+## Requirements
 - Make sure to have an unpaid [invoice](Invoice_SalesOrder).
 
 ## Steps

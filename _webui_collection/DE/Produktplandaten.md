@@ -16,7 +16,7 @@ Ein Produkt kann ein einzelnes Fertigprodukt sein oder aus mehreren Komponenten 
 
 Wird ein Auftrag erfasst, überprüft die *Materialdisposition* anhand der Produktplandaten automatisch, welche Produkte auf Lager sind, eingekauft oder produziert werden müssen.
 
-## Vorbereitung
+## Voraussetzungen
 - [Lege ein Produkt an](NeuesProdukt), für das Du die Plandaten konfigurieren möchtest.
 
 ## Schritte

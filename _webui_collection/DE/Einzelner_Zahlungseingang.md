@@ -12,7 +12,7 @@ ref: single_incoming_payment
 ## Übersicht
 Hast Du eine Zahlung erhalten, kannst Du den Betrag als *Zahlungseingang* im System erfassen, womit die Rechnung den Status *Bezahlt* erhält. Gehe hierzu wie folgt vor:
 
-## Vorbereitung
+## Voraussetzungen
 - Stelle sicher, dass Dir eine nicht bezahlte [Rechnung](Zu_Auftrag_Rechnung_erstellen) vorliegt.
 
 ## Schritte
