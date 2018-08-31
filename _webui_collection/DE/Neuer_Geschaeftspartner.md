@@ -21,7 +21,7 @@ ref: new_business_partner
 1. [Füge eine oder mehrere Adressen hinzu](Adresse_erfassen_Tab).
 
 ### Optionale Schritte
-1. [Füge passende **Attribute** hinzu](Attribute_GP_hinzufuegen), die sich für die [Filterfunktion](Filterfunktion) als nützlich erweisen könnten.
+1. [Füge geeignete **Attribute** hinzu](Attribute_GP_hinzufuegen), die sich für die [Filterfunktion](Filterfunktion) als nützlich erweisen könnten.
 1. Mache aus dem Geschäftspartner einen [Kunden](Neuer_Geschaeftspartner_Kunde) und/oder einen [Lieferanten](Neuer_Geschaeftspartner_Lieferant).
 1. [Verknüpfe den Geschäftspartner mit einem Preissystem](Zuweisung_Preise_Partner).
 

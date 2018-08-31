@@ -11,8 +11,8 @@ ref: contract_termination
 
 ## Schritte
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Vertrag".
-1. [Selektiere den Vertrag](AuswahlBelege), den Du kündigen möchtest, in der [Listenansicht](Ansichten).
- >**Hinweis:** Du kannst auch mehrere Verträge auf einmal kündigen. Selektiere hierzu alle betreffenden Verträge in der Listenansicht und fahre mit den folgenden Schritten fort.
+1. [Selektiere](AuswahlBelege) in der [Listenansicht](Ansichten) den Vertrag, den Du kündigen möchtest.
+ >**Hinweis:** Du kannst auch mehrere Verträge auf einmal kündigen. Selektiere hierzu in der Listenansicht alle betreffenden Verträge und fahre mit den folgenden Schritten fort.
 
 1. [Starte die Aktion](AktionStarten) "Vertrag/Abo ändern". Es öffnet sich ein neues Fenster.
  >**Hinweis:** Diese Aktion kannst Du auch direkt aus dem Vertragsfenster starten.

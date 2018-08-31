@@ -27,7 +27,7 @@ ref: salesorder_recording
  >**Note:** Use shortcut `Alt` + `Q` / `⌥ alt` + `Q`
 
 1. In the field **Product** enter a part of the product name or number and click on one of the results.
- >**Note 1:** Hit `SPACE` to see all products.<br><br>
+ >**Note 1:** Hit `SPACE` to see all available [products](NewProduct).<br><br>
  >**Note 2:** Select one of the shown options with the mouse or ![](../DE/assets/Workflow_Auftrag_Bis_Rechnung_WebUI-73797.png).
 
 1. Enter a **Quantity**.

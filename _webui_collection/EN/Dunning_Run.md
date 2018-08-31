@@ -9,7 +9,7 @@ sequence: 50
 ref: dunning_run
 ---
 
-## Preparation
+## Requirements
 1. [Set up dunning](Setup_Dunning).
 1. Have an [invoice](Invoice_SalesOrder) which is due.
 

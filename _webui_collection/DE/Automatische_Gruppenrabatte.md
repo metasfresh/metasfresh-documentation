@@ -14,7 +14,7 @@ ref: automatic_group_discounts
 ## Übersicht
 [Kompensationsgruppen](Rabattformen_in_metasfresh) sind Auftragszeilen, die zu Gruppen zusammengefasst werden, auf die gemeinsame Rabatte oder Aufschläge sowohl einzeln als auch sukzessiv gegeben werden können, wobei der vorherige Rabatt oder Aufschlag bei jeder Berechnung miteinbezogen wird. Außerdem können in einem Auftrag auch mehrere Rabatte/Aufschläge auf verschiedene Kompensationsgruppen gegeben werden.
 
-## Vorbereitung
+## Voraussetzungen
 - [Richte die automatische Kompensationsgruppierung](Automatische_Kompensationsgruppen_konfig) für die betreffenden Produktkategorien ein.
 
 ## Schritte

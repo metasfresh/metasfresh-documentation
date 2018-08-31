@@ -19,9 +19,8 @@ In diesem Schema kannst Du folgende Preiskonditionen einzeln oder in Kombination
 
 - [Rabatte und Zuschläge](Rabattformen_in_metasfresh)
 - [Produkt- und partnerspezifische Preise](Produkt_und_partnerspezifische_Preise)
-
-<br>
+<br><br>
 
 | **Wichtiger Hinweis:** |
 | :- |
-| Wenn Du keine bestimmten Konditionen für Produkte aufstellen möchtest, sondern nur ein gültiges und funktionierendes Preiskonditionsschema erlangen möchtest, das Du im Einkauf und Verkauf verwenden kannst, musst Du dem Schema lediglich eine einzelne Preiskondition hinzufügen, in der Du die **Mengenstufe 0** einstellst und ansonsten alle Standardeinstellungen beibehältst (*siehe Anleitung [hier](Rabattschema_anlegen)*). <br> Auf diese Weise kannst Du alle Produkte, die auf der Preisliste stehen, zu dem darin festgelegten Preis und in jeder beliebigen Menge verkaufen. |
+| Wenn Du keine bestimmten Konditionen für Produkte aufstellen möchtest, sondern nur ein gültiges und funktionierendes Preiskonditionsschema erlangen möchtest, das Du im Einkauf und Verkauf verwenden kannst, musst Du dem Schema lediglich eine einzelne Preiskondition hinzufügen, in der Du die **Mengenstufe 0** einstellst und ansonsten alle Standardeinstellungen beibehältst (*siehe Anleitung [hier](Rabattschema_anlegen)*).<br> Auf diese Weise kannst Du alle Produkte, die auf der Preisliste stehen, zu dem darin festgelegten Preis und in jeder beliebigen Menge verkaufen. |

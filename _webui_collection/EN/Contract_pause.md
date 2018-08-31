@@ -12,7 +12,7 @@ ref: contract_pause
 ## Steps
 1. Open an [existing contract](Create_contract).
 1. [Start the action](StartAction) "Pause Contract". A new window opens up.
- >**Note:** If you have selected the contract in the list view, you can also go to the [quick actions](StartAction) button at the top right to start the action.<br>
+ >**Note:** If you have selected the contract while in [list view](ViewModes), you can also go to the [quick actions](StartAction) button at the top right to start the action.<br>
  ![](assets/Pause_contract_button.png)
 
 1. In the field **Date** choose the time period during which you want to pause the contract.

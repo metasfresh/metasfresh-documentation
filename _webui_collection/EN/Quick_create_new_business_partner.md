@@ -27,9 +27,9 @@ If in the course of creating a [sales order](SalesOrder_recording) or a [purchas
 1. Enter the **Address**, **ZIP** code, **City** and **Country** of the partner.
  >**Note:** If you choose "United States" as country, you can also enter the **Region**. Simply close and re-open the address editing window by clicking the edit-button twice and the field will appear above **Country**.
 
-1. Click on "Done" to save the new business partner, close the window and continue editing your sales order or purchase order.
+1. Click "Done" to save the new business partner, close the window and continue editing your sales order or purchase order.
 
-**Note:** You will find the newly created business partner under "[Business Partner](Menu)" in the menu.
+**Note:** You will find the newly created business partner entry under "[Business Partner](Menu)" in the menu.
 
 ## Example
 ![](assets/Quick_create_new_business_partner.gif)

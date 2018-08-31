@@ -14,7 +14,7 @@ Attribute helfen beim Verwenden der [Filterfunktion](Filterfunktion), den entspr
 
 ## Schritte
 1. Öffne einen [Geschäftspartner](Neuer_Geschaeftspartner)eintrag in der [Einzelansicht](Ansichten).
-1. Gehe zum Feld **Attributes** und wähle zum Geschäftpartner passende Attribute aus, z.B. *Partner* oder *Sponsor*.
+1. Gehe zum Feld **Attributes** und wähle für den Geschäftpartner geeignete Attribute aus, z.B. *Partner* oder *Sponsor*.
 1. [metasfresh speichert automatisch](Speicheranzeige).
 
 ## Beispiel
