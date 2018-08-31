@@ -24,7 +24,7 @@ ref: createpurchaseorder
 
 ### Add new lines
 1. Go to the record tab "PO Line" at the bottom of the page and click ![](assets/Batch_Entry_Button.png) to open the fast order line input.
- >**Note:** Use shortcut `Alt` + `Q` / `⌥ alt` + `Q`
+ >**Note:** Use shortcut `Alt` + `Q` / `⌥ alt` + `Q`.
 
 1. In the field **Product** enter a part of the product name or number and click on one of the results.
  >**Note 1:** Hit `SPACE` to see all available [products](NewProduct).<br><br>

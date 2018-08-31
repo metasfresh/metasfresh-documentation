@@ -18,7 +18,7 @@ For additional information on how to place manual text on documents, please see 
 ## Steps
 1. Open the entry of an existing [product](Menu) or [add a new one](NewProduct).
 1. Open the [advanced edit menu](ViewModes) from the [actions menu](StartAction).
- >**Note:** Use shortcut `Alt` + `E` / `⌥ alt` + `E`
+ >**Note:** Use shortcut `Alt` + `E` / `⌥ alt` + `E`.
 
 1. Scroll down to the text box **Document Note** and enter your text here.
 1. Click "Done" to apply the changes and close the window.
