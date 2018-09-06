@@ -29,7 +29,17 @@ This example shows how to create a sales order using the token.
 - qty - quantity of the product
 - price - override price calculated by metasfresh with your own
 
+### Test
+
+create a file `test.json` with your json string:
+
 ```
-curl -X POST "http://app:8282/api/sales/order" -H "accept: */*" -H "Authorization: 3e39f8c36f5545de89f858e8fe928e7f" -H "Content-Type: application/json" -d "{ \"shipBPartnerCode\": \"1000000\", \"datePromised\": \"2018-08-16T00:00:00.000Z\",\"docTypeName\": \"Angebot\",  \"lines\": [ { \"productCode\": \"1000003\", \"qty\": 4, \"price\": 2 },{ \"productCode\": \"1000003\", \"qty\": 4 } ]}"
+{ "shipBPartnerCode":"1000106","datePromised": "2018-08-16T00:00:00.000Z","docTypeName": "Angebot","lines": [{"productCode":"A001","qty":111}]}
+```
+
+run the test:
+
+```
+cat test.json | curl -X POST -d @- "http://app:8282/api/sales/order" -H "accept: */*" -H "Authorization: fa51643c4e2849ed8db64c70baf578dc" -H "Content-Type: application/json"   > response.log
 ```
 
