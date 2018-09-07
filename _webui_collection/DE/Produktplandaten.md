@@ -16,14 +16,14 @@ Ein Produkt kann ein einzelnes Fertigprodukt sein oder aus mehreren Komponenten 
 
 Wird ein Auftrag erfasst, überprüft die *Materialdisposition* anhand der Produktplandaten automatisch, welche Produkte auf Lager sind, eingekauft oder produziert werden müssen.
 
-## Vorbereitung
+## Voraussetzungen
 - [Lege ein Produkt an](NeuesProdukt), für das Du die Plandaten konfigurieren möchtest.
 
 ## Schritte
 
 ### Plandaten konfigurieren
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Produkt Plandaten".
-1. Wähle das Produkt in der [Listenansicht](Ansichten) aus.
+1. Öffne den Eintrag des gewünschten Produktes aus der [Listenansicht](Ansichten).
 1. Gehe zur Registerkarte "Daten Planung" unten auf der Seite und klicke auf ![](assets/Neu_hinzufuegen_Button.png). Es öffnet sich ein neues Fenster.
 
 ---

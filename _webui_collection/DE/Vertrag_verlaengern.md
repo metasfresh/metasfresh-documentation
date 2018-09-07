@@ -11,7 +11,7 @@ ref: extend_contract
 
 ## Schritte
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Vertrag".
-1. [Selektiere den Vertrag](AuswahlBelege), den Du verlängern möchtest, in der [Listenansicht](Ansichten).
+1. [Selektiere](AuswahlBelege) in der [Listenansicht](Ansichten) den Vertrag, den Du verlängern möchtest.
 1. [Starte die Aktion](AktionStarten) "Vertrag verlängern". Es öffnet sich ein neues Fenster.
  >**Hinweis:** Diese Aktion kannst Du auch direkt aus dem Vertragsfenster starten.
 

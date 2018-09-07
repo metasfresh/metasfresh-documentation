@@ -11,7 +11,7 @@ ref: extend_contract
 
 ## Steps
 1. Open "Contract" from the [menu](Menu).
-1. [Select the contract](RecordSelection) you want to extend in the [list view](ViewModes).
+1. From the [list view](ViewModes), [select the contract](RecordSelection) you want to extend.
 1. [Start the action](StartAction) "Extend Contract". A new window opens up.
  >**Note:** You can also start this action directly from the contract window.
 

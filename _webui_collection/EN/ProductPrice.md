@@ -13,7 +13,7 @@ ref: productprice
 1. Open the entry of an existing [product](Menu) or [add a new one](NewProduct).
 1. Go to the record tab "Price" at the bottom of the page and click ![](assets/Add_New_Button.png). A new window opens up.
 1. Enter the name of the designated **Price List Version**, e.g. "New Price List Germany".
- >**Note:** Hit `SPACE` to see all available price lists.
+ >**Note:** Hit `SPACE` to see all available [price lists](Add_price-list).
 
 1. The field **Standard Price** determines the effectively valid purchase or sales price (depending on the respective price list).
 1. The field **UOM** determines the sales UOM and ***must not be confused*** with the product's stock UOM (inventory management)!
@@ -24,7 +24,6 @@ ref: productprice
 
 ## Example
 ![](assets/NewProductPrice.gif)
-
 
 ## Further Relevant Fields
 1. The field **List Price** determines the list price that will later appear on the documents.

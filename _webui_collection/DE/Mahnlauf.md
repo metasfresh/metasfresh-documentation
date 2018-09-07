@@ -9,7 +9,7 @@ sequence: 50
 ref: dunning_run
 ---
 
-## Vorbereitung
+## Voraussetzungen
 1. [Richte das Mahnverfahren ein](Einrichtung_Mahnung).
 1. Habe eine nicht bezahlte [Rechnung](Zu_Auftrag_Rechnung_erstellen) vorliegen.
 

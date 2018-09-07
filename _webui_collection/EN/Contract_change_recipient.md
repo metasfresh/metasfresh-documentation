@@ -12,11 +12,11 @@ ref: contract_change_recipient
 ## Steps
 1. Open an [existing contract](Create_contract).
 1. [Start the action](StartAction) "Change Recipient". A new window opens up.
- >**Note:** If you have selected the contract in the list view, you can also go to the [quick actions](StartAction) button at the top right to start the action ![](assets/Change_recipient_button.png).
+ >**Note:** If you have selected the contract while in [list view](ViewModes), you can also go to the [quick actions](StartAction) button at the top right to start the action ![](assets/Change_recipient_button.png).
 
 1. In the field **Date** choose the time period during which the new contact shall be registered as the recipient.
 1. Enter a **Recipient**.
- >**Note 1:** Hit `SPACE` to see all contacts.<br><br>
+ >**Note 1:** Hit `SPACE` to see all available contacts.<br><br>
  >**Note 2:** Select one of the shown options with the mouse or ![](../DE/assets/Workflow_Auftrag_Bis_Rechnung_WebUI-73797.png).
 
 1. Select a **Shipping Address**.
