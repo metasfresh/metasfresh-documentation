@@ -10,7 +10,7 @@ ref: add_user
 ---
 
 ## Overview
-Generally speaking, users are contacts with permission to access your system. You can register your business partners as users as well, e.g. if you want to send out [serial letters](Send_out_serial_letters) as part of a [marketing campaign](Create_marketing_campaign).
+Generally speaking, users are contacts with permission to access your system. You can register your business partners as users as well, e.g. for sending [serial letters](Create_serial_letters) to them as part of a [marketing campaign](Create_MKTG_campaign).
 
 In order to add new users, take the following steps:
 

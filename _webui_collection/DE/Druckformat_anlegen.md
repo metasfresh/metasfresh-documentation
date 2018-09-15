@@ -18,7 +18,7 @@ Mit dem Druckformat kannst Du u.a. das Papierformat sowie das Seitenlayout, wie 
 1. Wähle eine **DB-Tabelle** aus, für die das Druckformat verwendet werden soll, z.B. *Letter*.
 1. Wähle ein **Druck-Papier** aus, z.B. *A4 Portrait*.
 1. Öffne die "[Erweiterte Erfassung](Ansichten)" aus dem [Aktionsmenü](AktionStarten).
- >**Hinweis:** Drücke `Alt` + `E` / `⌥ alt` + `E`
+ >**Hinweis:** Drücke `Alt` + `E` / `⌥ alt` + `E`.
 
 1. Scrolle runter bis zum Feld **Jasper Process** und wähle einen geeigneten Prozess aus, z.B. *Serial Letter*.
  >**Hinweis:** Mittels Jasper werden die Belege bei ihrer Erstellung den Einstellungen entsprechend gestaltet.

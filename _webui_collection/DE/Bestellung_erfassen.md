@@ -24,7 +24,7 @@ ref: createpurchaseorder
 
 ### Zeilen hinzufügen
 1. Gehe zur Registerkarte "Bestellposition" unten auf der Seite und klicke auf ![](assets/Massen_Erfassung_Button.png), um die Bestellzeileneingabe zu öffnen.
- >**Hinweis:** Drücke `Alt` + `Q` / `⌥ alt` + `Q`
+ >**Hinweis:** Drücke `Alt` + `Q` / `⌥ alt` + `Q`.
 
 1. Gib in das Feld **Produkt** einen Teil des Produktnamens oder der Produktnummer ein und klicke auf eines der Ergebnisse.
  >**Hinweis 1:** Drücke die `LEERTASTE`, um alle verfügbaren [Produkte](NeuesProdukt) zu sehen.<br><br>
