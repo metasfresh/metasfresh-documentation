@@ -22,8 +22,8 @@ Darüber hinaus kannst Du diese Texte auch eigenständig in die Sprachen Deiner 
 1. Stelle sicher, dass bei dem Kästchen **Copy description to document** ein Häkchen gesetzt ist, damit die Texte auch auf die Belege gedruckt werden.
 1. [metasfresh speichert automatisch](Speicheranzeige).
 
-## Nächste Schritte
-- ***Optional:*** [Übertrage die Belegtexte in die Sprachen Deiner Geschäftspartner](Belegtexte_uebersetzen-Belegart).
+## Nächste Schritte (optional)
+- [Übertrage die Belegtexte in die Sprachen Deiner Geschäftspartner](Belegtexte_uebersetzen-Belegart).
 
 ## Beispiel
 ![](assets/Text auf Belege drucken - Belegart.gif)
