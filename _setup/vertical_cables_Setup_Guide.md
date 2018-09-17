@@ -23,6 +23,11 @@ just add this to the file:
 
 `spring.profiles.active=de.metas.vertical.cables`
 
+
+Alternatively you can set a sysconfig as described here : https://github.com/metasfresh/metasfresh/issues/4601
+
+
+
 ## Functional Setup
 
 ### Create attribute / label
