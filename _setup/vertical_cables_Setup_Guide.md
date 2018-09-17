@@ -16,7 +16,10 @@ ref: de.metas.vertical.setup
 By enabling the de.metas.vertical.cables spring profile following changes will be applied:
 - cables/pipes specific quick/batch entry will be used in sales order line
 
-The profile shall be enabled for metasfresh-webui-api service, e.g. add following to your application.properties
+The profile shall be enabled for metasfresh-webui-api service, e.g. add following to your application.properties.
+In case you are using docker its here: `<yourdockerfolder>/webapi/sources/configs/application.properties`
+
+just add this to the file:
 
 `spring.profiles.active=de.metas.vertical.cables`
 
