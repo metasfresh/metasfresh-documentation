@@ -11,16 +11,16 @@ ref: contract_termination
 
 ## Schritte
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Vertrag".
-1. [Selektiere](AuswahlBelege) in der [Listenansicht](Ansichten) den Vertrag, den Du kündigen möchtest.
+1. [Selektiere](AuswahlBelege) in der [Listenansicht](Ansichten) den [Vertrag](Vertrag_erfassen), den Du kündigen möchtest.
  >**Hinweis:** Du kannst auch mehrere Verträge auf einmal kündigen. Selektiere hierzu in der Listenansicht alle betreffenden Verträge und fahre mit den folgenden Schritten fort.
 
-1. [Starte die Aktion](AktionStarten) "Vertrag/Abo ändern". Es öffnet sich ein neues Fenster.
- >**Hinweis:** Diese Aktion kannst Du auch direkt aus dem Vertragsfenster starten.
+1. [Starte die Aktion](AktionStarten) "Vertrag/Abo ändern". Es öffnet sich ein Overlay-Fenster.
+ >**Hinweis:** Diese Aktion kannst Du auch direkt aus dem Eintrag des jeweiligen Vertrags starten.
 
 1. Wähle ein **Wechsel-Datum** aus.
 1. Wähle die **Aktion** *Kündigen* aus.
 1. Wähle einen **Kündigungsgrund** aus.
-1. Klicke auf "Start", um die Kündigung durchzuführen und das Fenster zu schließen.
+1. Klicke auf "Start", um die Kündigung durchzuführen und das Overlay-Fenster zu schließen.
  >**Hinweis:** Die [Vertragsbedingungen](Vertragsbedingungen_definieren) bestimmen, zu welchem Termin ein Vertrag kündbar ist. Tritt bei der Kündigung ein Fehler auf, ist sie zu dem gewählten Zeitpunkt höchstwahrscheinlich nicht zugelassen.
 
 1. In der [Listenansicht](Ansichten) der Verträge kannst Du den **Vertragsstatus** einsehen.
