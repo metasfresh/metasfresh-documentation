@@ -22,8 +22,8 @@ Furthermore, you can autonomously transfer these texts into your business partne
 1. Make sure the box **Copy description to document** is checked to ensure that the texts are printed on the documents.
 1. [metasfresh saves the progress automatically](Saveindicator).
 
-## Nest Steps
-- ***Optional:*** [Transfer the document texts into your business partners’ languages](Translate_document_texts-doctype).
+## Next Steps (optional)
+- [Transfer the document texts into your business partners’ languages](Translate_document_texts-doctype).
 
 ## Example
 ![](assets/Text on documents - doctype.gif)

@@ -9,6 +9,9 @@ sequence: 30
 ref: assign_user_role
 ---
 
+## Übersicht
+Mit der Nutzerrolle kannst Du den Berechtigungsumfang eines Nutzers bestimmen.
+
 ## Schritte
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Nutzer".
 1. Öffne den Eintrag eines bestehenden Systembenutzers bzw. [lege einen neuen an](Neuer_Systembenutzer).
@@ -17,8 +20,8 @@ ref: assign_user_role
 1. Klicke auf "Bestätigen", um die Rolle zur Liste hinzuzufügen.
  >**Hinweis:** Einem Systembenutzer können auch mehrere Rollen zugewiesen werden. In einem solchen Fall wird er bei der [Anmeldung](Anmeldung) nach der gewünschten Rolle gefragt.
 
-## Nächste Schritte
-- ***Optional:*** [Weise dem Nutzer einen Geschäftspartner zu](Nutzer_GPartner_zuweisen).
+## Nächste Schritte (optional)
+- [Weise dem Nutzer einen Geschäftspartner zu](Nutzer_GPartner_zuweisen).
 
 ## Beispiel
 ![](assets/Nutzerrolle_zuweisen.gif)

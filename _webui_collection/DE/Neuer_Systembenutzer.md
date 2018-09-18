@@ -9,6 +9,9 @@ sequence: 20
 ref: new_system_user
 ---
 
+## Übersicht
+Systembenutzer sind Kontakte (Nutzer) mit Anmeldeberechtigung zu Deinem System.
+
 ## Schritte
 1. Öffne den Eintrag eines bestehenden [Nutzers](Menu) bzw. [lege einen neuen an](Nutzer_anlegen).
 

@@ -10,7 +10,9 @@ ref: add_user
 ---
 
 ## Übersicht
-Nutzer sind im Allgemeinen Kontakte mit Anmeldeberechtigung zu Deinem System. Deine Geschäftspartner kannst Du ebenfalls als Nutzer registrieren, z.B. um sie als Empfänger für [Serienbriefe](Serienbriefe_erstellen) im Rahmen einer [Marketingkampagne](MKTG-Kampagne_erstellen) zu verwalten.
+Nutzer sind im Allgemeinen Kontakte, die Du zusätzlich zu Deinen bestehenden Geschäftspartnern im System registrieren kannst.
+
+Deine Geschäftspartner kannst Du ebenfalls als Nutzer registrieren, z.B. um sie als Empfänger für [Serienbriefe](Serienbriefe_erstellen) im Rahmen einer [Marketingkampagne](MKTG-Kampagne_erstellen) zu verwalten.
 
 Um neue Nutzer anzulegen, gehe wie folgt vor:
 
@@ -21,9 +23,9 @@ Um neue Nutzer anzulegen, gehe wie folgt vor:
 1. Fülle die Felder **Vorname** und **Nachname** aus.
 1. Der **Suchschlüssel** ist eine automatisch zugewiesene laufende Nummer. Unter Umständen kann man stattdessen jedoch auch einen eigenen Suchschlüssel manuell vergeben.
 
-## Nächste Schritte
+## Nächste Schritte (optional)
 - [Mache aus dem Nutzer einen Systembenutzer](Neuer_Systembenutzer) und [weise ihm eine Rolle zu](Nutzerrolle_zuweisen), um ihm die Anmeldung zum System zu ermöglichen.
-- ***Optional:*** [Weise dem Nutzer einen Geschäftspartner zu](Nutzer_GPartner_zuweisen).
+- [Weise dem Nutzer einen Geschäftspartner zu](Nutzer_GPartner_zuweisen).
 
 ## Beispiel
 ![](assets/Nutzer_anlegen.gif)

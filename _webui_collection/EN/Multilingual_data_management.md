@@ -19,6 +19,8 @@ You can translate the data entries of the following menu items:
 - Nutrition
 - Payment Term
 - [Product](NewProduct)
+- [Product Category](NewProductCategory)
+- Request Type
 - Tax Category
 - Tax Rate
 - Unit of Measure

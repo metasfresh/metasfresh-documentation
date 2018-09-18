@@ -9,6 +9,9 @@ sequence: 20
 ref: new_system_user
 ---
 
+## Overview
+System users are contacts (users) with access permissions to your system.
+
 ## Steps
 1. Open the entry of an existing [user](Menu) or [add a new one](Add_user).
 
