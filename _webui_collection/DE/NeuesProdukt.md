@@ -44,7 +44,7 @@ ref: newproduct
 |	Artikel | Materieller Artikel, z.B. Stückgut, Verpackung usw. (Standard)|
 |	Dienstleistung | Immaterieller Artikel, z.B. Serviceleistung|
 |	Erfolgskonto | Steuert Kontierung|
-|	Ressource | Artikel, der zeitlich nur einmal belegt werden kann, z.B. Maschine|
+|	Ressource | Artikel, der zeitlich nur einmal belegt werden kann, z.B. eine Maschine|
 
 - Das Feld **Lagerhaltig** bestimmt, ob der Artikel (insofern die Artikelart auf der Option "Artikel" steht) im Bestand geführt wird.
 - Das Feld **Eingekauft** bestimmt, ob der Artikel im Einkauf zur Verfügung steht.

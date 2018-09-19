@@ -41,10 +41,10 @@ ref: newproduct
 
 |	Option | Effect |
 |:	------------ | ------------- |
-|	Item | Material product, e.g. general cargo, packing unit, etc. (standard)|
+|	Item | Material product, e.g., general cargo, packing unit, etc. (standard)|
 |	Service | Immaterial product|
 |	Expense type | Controls the account assignment|
-|	Resource | Product that can temporally only be accounted for once, e.g. machine|
+|	Resource | Product that can temporally only be accounted for once, e.g., a machine|
 
 - The field **Stocked** determines whether the product is in stock (provided the product type is set on "Item").
 - The field **Purchased** determines whether the product is available in purchase.

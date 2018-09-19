@@ -23,7 +23,7 @@ ref: add_price
 
 1. The field **List Price** determines the list price that will later appear on the documents.
 1. The field **Standard Price** determines the effectively valid purchase or sales price (depending on the respective price list).
-1. **Limit Price**: Manual price changes made by the user, e.g. in the order line, must not fall below this amount!
+1. **Limit Price**: Manual price changes made by the user, e.g., in the order line, must not fall below this amount!
 1. The field **UOM** determines the sales UOM and ***must not be confused*** with the product's stock UOM (inventory management)!
  >**Note:** If sales UOM ≠ stock UOM, you have to define a [UOM conversion](Convert_UOMs).
 

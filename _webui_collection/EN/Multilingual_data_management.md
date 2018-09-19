@@ -10,7 +10,7 @@ ref: multilingual_data_management
 ---
 
 ## Overview
-In metasfresh you can autonomously translate a lot of your data into your business partners' languages, for both *internal* and *external* data management.
+In metasfresh, you can autonomously translate a lot of your data into your business partners' languages, for both *internal* and *external* data management.
 
 You can translate the data entries of the following menu items:
 - [Bill of Material](Create_BOM)
@@ -38,23 +38,23 @@ Or when you [print commercial documents](PrintPreview) for business partners who
 ### Open the translation entry
 
 #### a) Via the navigation menu
-1. Open the translation window of the entry in question from the [menu](Menu), e.g. "Product Translation".
+1. Open the translation window of the entry in question from the [menu](Menu), e.g., "Product Translation".
 1. [Use the filter](Filtering_function) to find the entry for which you want to add a translation. There is one entry for each available language (see column **Language**).<br><br>![](assets/Product_translation_languages.png)
 
 #### b) Jumping from the entry via the sidebar
-If you are already looking at the entry you want to translate, e.g. a product entry, you can take the following steps:
+If you are already looking at the entry you want to translate, e.g., a product entry, you can take the following steps:
 
-1. Use the entry's [related documents to jump](JumptoviaSidebar) into the corresponding translation window, e.g. "Product Translation" under PRODUCT MANAGEMENT in the sidebar.
+1. Use the entry's [related documents to jump](JumptoviaSidebar) into the corresponding translation window, e.g., "Product Translation" under PRODUCT MANAGEMENT in the sidebar.
 1. In this window you will see all translation entries for the selected entry.
 
 #### c) Jumping from the record tab via the context menu*
 If you want to translate record tab entries, as in the case of dunning levels*, you can take the following steps:
 
-1. Go to the record tab at the bottom of the page, e.g. "Level" for the dunning levels in the window of the respective [dunning type](Menu), and select the line you want to translate.
-1. Use the [context menu](Jumpto_via_context_menu) to switch into the corresponding translation window, e.g. ![](assets/Dunning_level_translation_context.png). Here you will now see a list of all translation entries for the selected entry.
+1. Go to the record tab at the bottom of the page, e.g., "Level" for the dunning levels in the window of the respective [dunning type](Menu), and select the line you want to translate.
+1. Use the [context menu](Jumpto_via_context_menu) to switch into the corresponding translation window, e.g., ![](assets/Dunning_level_translation_context.png). Here you will now see a list of all translation entries for the selected entry.
 
 ### Add translations
-1. Open the entry of the language into which you want to translate, e.g. "Deutsch (CH)".
+1. Open the entry of the language into which you want to translate, e.g., "Deutsch (CH)".
 1. Replace the existing **Name** with your translation.
  >**Note:** This step does not apply to "Dunning Level".
 

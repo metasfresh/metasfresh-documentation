@@ -22,7 +22,8 @@ When creating an import file, please keep in mind the following:
 - The **separator** in the import file must coincide with the one set in the [import format](Add_import_format) (comma, semicolon, tab, etc.).
 - If you want to create a **comma delimited** import file using a spreadsheet software, such as *Microsoft Excel*, simply select the file format `CSV (Comma delimited)(*.csv)` when saving the file.
 - If you want to create a **tab delimited** import file using a spreadsheet software, such as *Microsoft Excel*, simply select the file format `Text (Tab delimited)(*.txt)` when saving the file.
-- The positions of the columns in the import file must correspond to the values of the format fields' **start numbers** of the import format.<br> ***Example:*** **Column C** of the Excel table is in the third place, ergo the corresponding format field receives the **Start No 3**.
+- The positions of the columns in the import file must correspond to the values of the format fields' **start numbers** of the import format.<br>
+***Example:*** **Column C** of the Excel table is in the third place, ergo the corresponding format field receives the **Start No 3**.
  >**Note:** metasfresh does ***not expect any column names*** in the import file. Simply the ***position*** of the column must correspond to the start number.
 
 ## Next Steps

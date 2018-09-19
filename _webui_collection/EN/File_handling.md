@@ -9,10 +9,10 @@ ref: file_handling
 ---
 
 ## Overview
-In metasfresh you can upload file attachments almost everywhere. You can upload single files one by one or multiple files all at one go.
+In metasfresh, you can upload file attachments almost everywhere. You can upload single files one by one or multiple files all at one go.
 
 ## Steps
-Open the document where you want to attach your files, e.g. business partner, sales/purchase order, product, etc.
+Open the document where you want to attach your files, e.g., business partner, sales/purchase order, product, etc.
 
 ### Upload
 1. Upload your files by dragging and dropping them onto the metasfresh interface (see example).

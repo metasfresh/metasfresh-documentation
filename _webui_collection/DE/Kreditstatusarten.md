@@ -21,9 +21,9 @@ Es gibt mehrere verschiedene Kreditstatusarten, deren Bedeutungen hier im Folgen
 | :--- | :--- |
 | Keine Kreditprüfung | Kredit wird nicht geprüft. |
 | Kredit beobachten | Hinweis an den Nutzer, dass er bald sein Kreditlimit erreicht hat. |
-| Kredit Halt | Keine Aufträge, Lieferungen, Zahlungen usw. möglich! <br> **Hinweis:** Halt-Status kann durch Erhöhen des Kreditlimits entfernt werden. |
+| Kredit Halt | Keine Aufträge, Lieferungen, Zahlungen usw. möglich!<br> **Hinweis:** Halt-Status kann durch Erhöhen des Kreditlimits entfernt werden. |
 | Kredit OK | Verkauf uneingeschränkt möglich. |
-| Kredit Stop | Keine Aufträge, Lieferungen, Zahlungen usw. möglich! <br> **Hinweis:** Stop-Status kann durch Erhöhen des Kreditlimits ***nicht*** entfernt werden. |
+| Kredit Stop | Keine Aufträge, Lieferungen, Zahlungen usw. möglich!<br> **Hinweis:** Stop-Status kann durch Erhöhen des Kreditlimits ***nicht*** entfernt werden. |
 
 ## Kreditstatus und -limits einstellen
 - [Wie verwalte ich den Kreditstatus eines Geschäftspartners?](Kreditstatus_einstellen_GP)

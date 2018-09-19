@@ -24,9 +24,9 @@ Weitere Informationen darüber, wie Du eigenen Text in Belege einfügen kannst, 
 1. Bestätige mit `↵ Enter` oder klicke irgendwo im Auftrag auf eine freie Fläche.
 
 ### Variante 2: Umweg über die "Erweiterte Erfassung"
-1. Öffne die ["Erweiterte Erfassung"](AdvancedEditTab_Öffnen) der Auftragszeile, für die Du eine Beschreibung erfassen möchtest.
+1. Öffne die "[Erweiterte Erfassung](AdvancedEditTab_Öffnen)" der Auftragszeile, für die Du eine Beschreibung erfassen möchtest.
 1. Scrolle runter bis zum Textfeld **Beschreibung** und gib hier Deinen Text ein.
-1. Klicke auf "Bestätigen", um die Änderungen zu übernehmen und das Fenster zu schließen.
+1. Klicke auf "Bestätigen", um die Änderungen zu übernehmen und die "Erweiterte Erfassung" zu schließen.
 
 ## Nächste Schritte
 - Folge den restlichen Schritten zur [Auftragserfassung](Auftrag_erfassen), um den Auftrag abzuschließen.

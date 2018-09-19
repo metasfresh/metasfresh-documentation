@@ -10,7 +10,7 @@ ref: print_text_on_documents-general
 ---
 
 ## Overview
-In metasfresh you can add manual text to your documents and thereby modify them to meet the needs and requirements of your business.
+In metasfresh, you can add manual text to your documents and thereby modify them to meet the needs and requirements of your business.
 
 For instance, you can put a description at the top of a quotation and leave a note for your customer at the bottom or you can add a text that describes the ordered product in more detail.
 
