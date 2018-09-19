@@ -25,12 +25,19 @@ ref: dunning_run
  >**Note:** You can also start this action directly from the respective dunning candidate's entry.
 
 1. Click "Start" to process the candidates and close the overlay window.
+<br><br>
 
-**Note 1:** You will find the created dunning documents under "[Dunning](Menu)" in the menu. You can also jump ***directly*** to the respective dunning letter from the dunning candidate's entry via the [related documents](JumptoviaSidebar).
+| **Note 1:** |
+| :- |
+| You will find the created dunning documents under "[Dunning](Menu)" in the menu. You can also jump ***directly*** to the respective dunning letter from the dunning candidate's entry via the [related documents](JumptoviaSidebar). |
 
-**Note 2:** To view the dunning letter, simply open the dunning document and [start the action](StartAction) "Mahnbrief (Jasper)".
+| **Note 2:** |
+| :- |
+| To view the dunning letter, simply open the dunning document and [start the action](StartAction) "Mahnbrief (Jasper)". |
 
-**Note 3:** You will find the PDFs of the created dunning documents under "[Outbound Documents](Menu)" in the menu.
+| **Note 3:** |
+| :- |
+| You will find the PDFs of the created dunning documents under "[Outbound Documents](Menu)" in the menu. |
 
 ## Example
 ![](assets/Dunning_Run.gif)

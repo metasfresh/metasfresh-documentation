@@ -25,12 +25,19 @@ ref: dunning_run
  >**Hinweis:** Diese Aktion kannst Du auch direkt aus dem Eintrag des jeweiligen Mahnkandidaten starten.
 
 1. Klicke auf "Start", um die Kandidaten zu verarbeiten und das Overlay-Fenster zu schließen.
+<br><br>
 
-**Hinweis 1:** Die erstellten Mahnunterlagen findest Du unter dem Menüpunkt "[Mahnungen](Menu)" wieder. Über die [verknüpften Belege](SpringezuBelegen) kannst Du aus dem Eintrag des Mahnkandidaten auch ***direkt*** zum jeweiligen Mahnbrief springen.
+| **Hinweis 1:** |
+| :- |
+| Die erstellten Mahnunterlagen findest Du unter dem Menüpunkt "[Mahnungen](Menu)" wieder. Über die [verknüpften Belege](SpringezuBelegen) kannst Du aus dem Eintrag des Mahnkandidaten auch ***direkt*** zum jeweiligen Mahnbrief springen. |
 
-**Hinweis 2:** Um den Mahnbrief zu sehen, öffne einfach das Mahndokument und [starte die Aktion](AktionStarten) "Mahnbrief (Jasper)".
+| **Hinweis 2:** |
+| :- |
+| Um den Mahnbrief zu sehen, öffne einfach das Mahndokument und [starte die Aktion](AktionStarten) "Mahnbrief (Jasper)". |
 
-**Hinweis 3:** Die erstellten Mahnunterlagen im PDF-Format findest Du unter dem Menüpunkt "[Ausgehende Belege](Menu)" wieder.
+| **Hinweis 3:** |
+| :- |
+| Die erstellten Mahnunterlagen im PDF-Format findest Du unter dem Menüpunkt "[Ausgehende Belege](Menu)" wieder. |
 
 ## Beispiel
 ![](assets/Mahnlauf.gif)
