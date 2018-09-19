@@ -20,7 +20,7 @@ For additional information on how to place manual text on documents, please see 
 
 ## Steps
 1. Open the entry of an existing [product](Menu) or [add a new one](NewProduct).
-1. Go to the record tab "Business Partner" at the bottom of the page and click ![](assets/Add_New_Button.png). A new window opens up.
+1. Go to the record tab "Business Partner" at the bottom of the page and click ![](assets/Add_New_Button.png). An overlay window opens up.
 1. Enter the name of the **Business Partner**.
  >**Note 1:** Business partners can be customers and vendors.<br><br>
  >**Note 2:** Hit `SPACE` to see all available [business partners](New_Business_Partner).<br><br>
@@ -29,10 +29,14 @@ For additional information on how to place manual text on documents, please see 
 1. Check the box **For Vendor** or **For Customer** according to the respective business relation for which the new name should be used.
 1. Enter the partner-specific **Product name**.
 1. Enter the partner-specific **Product number**.
-1. Click "Done" to close the window and add the partner-specific data to the list.
+1. Click "Done" to close the overlay window and add the partner-specific data to the list.
  >**Note:** Repeat steps 2 to 7 to add further partner-specific data.
 
-**Note:** For internal purposes you keep using your own product names and numbers. Externally, the respective partner-specific product names and numbers will automatically appear in documents such as sales order confirmations, shipment notes and invoices.
+<br>
+
+| **Note:** |
+| :- |
+| For internal purposes you keep using your own product names and numbers. Externally, the respective partner-specific product names and numbers will automatically appear in documents such as sales order confirmations, shipment notes and invoices. |
 
 ## Example
 ![](assets/Partner-specific_products.gif)

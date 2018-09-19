@@ -9,7 +9,7 @@ ref: keyboard_shortcuts_reference
 ---
 
 ## Overview
-In metasfresh you can speed up some processes in several contexts by using certain key combinations. Here you will find a list of the keyboard commands.
+In metasfresh, you can speed up some processes in several contexts by using certain key combinations. Here you will find a list of the keyboard commands.
 
 ### Global Context
 
@@ -30,8 +30,8 @@ In metasfresh you can speed up some processes in several contexts by using certa
 | Keyboard Shortcut <br> (Windows) | Keyboard Shortcut <br> (MacOS) | Command |
 | :---: | :---: | :--- |
 | `Alt` + `A` | `⌥ alt` + `A` | Select all lines, i.e. toggle between "Select all on this page" and "Select all ## items" |
-| `Alt` + `B` | `⌥ alt` + `B` | Open selected document in new tab window |
-| `Alt` + `E` | `⌥ alt` + `E` | Open Advanced Edit Window for selected document |
+| `Alt` + `B` | `⌥ alt` + `B` | Open selected document in a new tab |
+| `Alt` + `E` | `⌥ alt` + `E` | Open Advanced Edit Menu for selected document |
 | `Alt` + `Y` | `⌥ alt` + `Y` | Delete selected document |
 
 ### Document Context ([detailed view](ViewModes))
@@ -39,7 +39,7 @@ In metasfresh you can speed up some processes in several contexts by using certa
 | Keyboard Shortcut <br> (Windows) | Keyboard Shortcut <br> (MacOS) | Command |
 | :---: | :---: | :--- |
 | `Alt` + `D` | `⌥ alt` + `D` | Delete document |
-| `Alt` + `E` | `⌥ alt` + `E` | Open Advanced Edit Window |
+| `Alt` + `E` | `⌥ alt` + `E` | Open Advanced Edit Menu |
 | `Alt` + `I` | `⌥ alt` + `I` | Toggle Document Processing Actions (action button for document status) |
 | `Alt` + `K` | `⌥ alt` + `K` | Open Email Editor |
 | `Alt` + `N` | `⌥ alt` + `N` | Create New Document |
@@ -51,10 +51,10 @@ In metasfresh you can speed up some processes in several contexts by using certa
 
 | Keyboard Shortcut <br> (Windows) | Keyboard Shortcut <br> (MacOS) | Command |
 | :---: | :---: | :--- |
-| `Alt` + `E` | `⌥ alt` + `E` | Open Advanced Edit Window for selected entry |
+| `Alt` + `E` | `⌥ alt` + `E` | Open Advanced Edit Menu for selected line |
 | `Alt` + `Q` | `⌥ alt` + `Q` | Toggle fast order line input (Batch Entry) |
-| `Alt` + `Y` | `⌥ alt` + `Y` | Delete selected entry |
-| `Alt` + `+` | `⌥ alt` + `+` | Expand record tab |
+| `Alt` + `Y` | `⌥ alt` + `Y` | Delete selected line |
+| `Alt` + `+` | `⌥ alt` + `+` | Expand / collapse record tab |
 
 ### [Quick Actions](StartAction) Context
 

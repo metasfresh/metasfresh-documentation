@@ -21,10 +21,10 @@ Möchtest Du gezielt alle Produkte in beauftragter Menge aus einem bestimmten Au
 
 ## Schritte
 1. [Erfasse einen Auftrag](Auftrag_erfassen) und [stelle ihn fertig](BelegverarbeitungFertigstellen).
-1. [Starte die Aktion](AktionStarten) "Bestellung aus Auftrag generieren". Es öffnet sich ein neues Fenster.
+1. [Starte die Aktion](AktionStarten) "Bestellung aus Auftrag generieren". Es öffnet sich ein Overlay-Fenster.
 1. Wähle den gewünschten **Lieferanten** aus.
-1. Klicke auf "Start", um die Bestellung zu erzeugen und das Fenster zu schließen.
- >**Hinweis 1:** Die auftragsbezogene Bestellung mit der Auftragsnr. als **Referenz** findest Du unter dem Menüpunkt "[Bestellungen](Menu)" als Entwurf wieder.<br><br>
+1. Klicke auf "Start", um die Bestellung zu erzeugen und das Overlay-Fenster zu schließen.
+ >**Hinweis 1:** Die auftragsbezogene Bestellung mit der Auftragsnummer als **Referenz** findest Du unter dem Menüpunkt "[Bestellungen](Menu)" als Entwurf wieder.<br><br>
  >**Hinweis 2:** Über die [verknüpften Belege](SpringezuBelegen) kannst Du aus dem Auftrag ***direkt*** zur Bestellung springen.
 
 ## Beispiel

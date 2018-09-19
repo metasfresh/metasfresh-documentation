@@ -21,7 +21,7 @@ For additional information on how to place manual text on documents, please see 
  >**Note:** Use shortcut `Alt` + `E` / `⌥ alt` + `E`.
 
 1. Scroll down to the text box **Document Note** and enter your text here.
-1. Click "Done" to apply the changes and close the window.
+1. Click "Done" to apply the changes and close the advanced edit menu.
 
 ## Example
 ![](assets/Text on documents - product.gif)

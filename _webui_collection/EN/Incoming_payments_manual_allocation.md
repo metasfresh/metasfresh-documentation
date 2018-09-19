@@ -21,12 +21,12 @@ If a customer pays several invoices with one payment, you have to *manually allo
 1. Select the **Business Partner**.
 1. Select the **Document Type** *Incoming Payment*.
 1. Select the **Currency** according to the invoice.
-1. Go to the record tab "Allocate" at the bottom of the page and click ![](assets/Add_New_Button.png). A new window opens up.
+1. Go to the record tab "Allocate" at the bottom of the page and click ![](assets/Add_New_Button.png). An overlay window opens up.
 1. Enter the **Invoice** for which you have received the payment.
  >**Note 1:** Hit `SPACE` to see all unpaid invoices of the business partner.<br><br>
  >**Note 2:** The **Amount** is taken over automatically from the invoice.
 
-1. Click "Done" to close the window and add the invoice to the list.
+1. Click "Done" to close the overlay window and add the invoice to the list.
  >**Note:** Repeat steps 6 to 8 for all invoices that were paid with the received payment.
 
 1. [Complete the invoice](DocumentProcessingComplete).

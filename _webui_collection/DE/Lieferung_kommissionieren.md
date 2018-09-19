@@ -21,7 +21,7 @@ Deinen Lagerbestand kannst Du in dem [*Handling Unit Editor*](Menu) jederzeit ü
  >**Hinweis 1:** Drücke `Alt` + `6` / `⌥ alt` + `6`, um die Sidebar mit den verknüpften Belegen zu öffnen.<br><br>
  >**Hinweis 2:** Bei neu fertiggestellten Aufträgen dauert es ein paar Sekunden, bis das Kommissionier-Terminal in der Sidebar erscheint.
 
-1. [Selektiere](AuswahlBelege) in der [Listenansicht](Ansichten) den Auftrag, den Du kommissionieren möchtest.
+1. [Selektiere](AuswahlBelege) in der [Listenansicht](Ansichten) den [Auftrag](Auftrag_erfassen), den Du kommissionieren möchtest.
 1. [Starte die Quick-Action](AktionStarten) "Kommissionieren". Es öffnet sich das Kommissionierfenster.
 1. Wähle einen Kommissionierplatz aus, z.B. "101.0", und [starte die Quick-Action](AktionStarten) "HU-Auswahlfenster öffnen".
 1. Wähle eine HU aus und [starte die Quick-Action](AktionStarten) "HU kommissionieren". Nun befindet sich die HU auf dem Kommissionierplatz 101.0.
@@ -37,9 +37,9 @@ Deinen Lagerbestand kannst Du in dem [*Handling Unit Editor*](Menu) jederzeit ü
  >**Hinweis:** Drücke `Alt` + `6` / `⌥ alt` + `6`, um die Sidebar mit den verknüpften Belegen zu öffnen.
 
 1. [Selektiere die Auftragszeilen](AuswahlBelege), die Du liefern möchtest.
-1. [Starte die Aktion](AktionStarten) "Auswahl liefern". Es öffnet sich ein neues Fenster.
+1. [Starte die Aktion](AktionStarten) "Auswahl liefern". Es öffnet sich ein Overlay-Fenster.
 1. Setze ein Häkchen bei **Erstellung mit kommissionierter Menge statt Liefermenge**.
-1. Klicke auf "Start", um zu bestätigen und das Fenster zu schließen.
+1. Klicke auf "Start", um zu bestätigen und das Overlay-Fenster zu schließen.
 1. Du erhältst oben rechts eine Benachrichtigung ![](assets/NotificationBell_WebUI.png), sobald die Lieferung erstellt ist.
 1. Klicke auf die Benachrichtigung, um den Lieferschein zu öffnen.
 1. [Öffne die PDF-Version](PDFVorschau) des Belegs, um ihn auszudrucken.

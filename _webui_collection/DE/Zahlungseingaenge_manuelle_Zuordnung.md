@@ -21,12 +21,12 @@ Zahlt ein Kunde mehrere Rechnungen auf einmal, musst Du den erhaltenen Zahlungsb
 1. Wähle den **Geschäftspartner** aus.
 1. Wähle die **Belegart** *Zahlungseingang* aus.
 1. Wähle die zur Rechnung passende **Währung** aus.
-1. Gehe zur Registerkarte "Manuelle Zuordnung" unten auf der Seite und klicke auf ![](assets/Neu_hinzufuegen_Button.png). Es öffnet sich ein neues Fenster.
+1. Gehe zur Registerkarte "Manuelle Zuordnung" unten auf der Seite und klicke auf ![](assets/Neu_hinzufuegen_Button.png). Es öffnet sich ein Overlay-Fenster.
 1. Trage die **Rechnung** ein, für die Du die Zahlung erhalten hast.
  >**Hinweis 1:** Drücke die `LEERTASTE`, um alle offenen Rechnungen des Geschäftspartners zu sehen.<br><br>
  >**Hinweis 2:** Der **Betrag** wird automatisch aus der Rechnung übernommen.
 
-1. Klicke auf "Bestätigen", um das Fenster zu schließen und die Rechnung zur Liste hinzuzufügen.
+1. Klicke auf "Bestätigen", um das Overlay-Fenster zu schließen und die Rechnung zur Liste hinzuzufügen.
  >**Hinweis:** Wiederhole die Schritte 6 bis 8 für alle Rechnungen, die mit der erhaltenen Zahlung bezahlt wurden.
 
 1. [Stelle den Beleg fertig](BelegverarbeitungFertigstellen).

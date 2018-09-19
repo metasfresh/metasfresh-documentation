@@ -19,15 +19,15 @@ Für diesen Fall kannst Du ganz einfach partnerbezogene Ausschlusslisten mit den
 
 ### Via Geschäftspartner
 1. Öffne den Eintrag eines bestehenden [Geschäftspartners](Menu) bzw. [lege einen neuen an](Neuer_Geschaeftspartner).
-1. Gehe zur Registerkarte "Produkt" unten auf der Seite und klicke auf ![](assets/Neu_hinzufuegen_Button.png). Es öffnet sich ein neues Fenster.
+1. Gehe zur Registerkarte "Produkt" unten auf der Seite und klicke auf ![](assets/Neu_hinzufuegen_Button.png). Es öffnet sich ein Overlay-Fenster.
 1. Trage das **Produkt** ein, das Du für den Verkauf/Einkauf sperren möchtest.
 1. Trage im Textfeld **Produkt Sperre Grund** einen Grund ein, weshalb das Produkt für den Geschäftspartner gesperrt ist.
  >**Hinweis:** Dieser Grund erscheint dann in einer Fehlermeldung an den Nutzer, wenn dieser das gesperrte Produkt in einem Auftrag oder einer Bestellung hinzufügen möchte.
 
 1. Setze ein Häkchen bei **Produkt Sperre Verkauf**.
- > **Hinweis:** Diese Einstellung betrifft ***Aufträge und Bestellungen gleichermaßen***, je nachdem ob es sich bei dem Geschäftspartner um einen [Kunden](Neuer_Geschaeftspartner_Kunde) oder einen [Lieferanten](Neuer_Geschaeftspartner_Lieferant) handelt.
+ >**Hinweis:** Diese Einstellung betrifft ***Aufträge und Bestellungen gleichermaßen***, je nachdem ob es sich bei dem Geschäftspartner um einen [Kunden](Neuer_Geschaeftspartner_Kunde) oder einen [Lieferanten](Neuer_Geschaeftspartner_Lieferant) handelt.
 
-1. Klicke auf "Bestätigen", um das Fenster zu schließen und das gesperrte Produkt zur Liste hinzuzufügen.
+1. Klicke auf "Bestätigen", um das Overlay-Fenster zu schließen und das gesperrte Produkt zur Liste hinzuzufügen.
  >**Hinweis:** Wiederhole die Schritte 2 bis 6, um weitere Verkaufs-/Einkaufssperren für weitere Produkte zur Liste hinzuzufügen.
 
 ### Beispiel
@@ -37,19 +37,19 @@ Für diesen Fall kannst Du ganz einfach partnerbezogene Ausschlusslisten mit den
 
 ### Via Produkte
 1. Öffne den Eintrag eines bestehenden [Produktes](Menu) bzw. [lege ein neues an](NeuesProdukt).
-1. Gehe zur Registerkarte "Geschäftspartner" unten auf der Seite und klicke auf ![](assets/Neu_hinzufuegen_Button.png). Es öffnet sich ein neues Fenster.
+1. Gehe zur Registerkarte "Geschäftspartner" unten auf der Seite und klicke auf ![](assets/Neu_hinzufuegen_Button.png). Es öffnet sich ein Overlay-Fenster.
 1. Trage den Namen des **Geschäftspartners** ein, für den das Produkt gesperrt werden soll.
  >**Hinweis 1:** Geschäftspartner können Kunden und Lieferanten sein.<br><br>
  >**Hinweis 2:** Drücke die `LEERTASTE`, um alle verfügbaren [Geschäftspartner](Neuer_Geschaeftspartner) zu sehen.<br><br>
  >**Hinweis 3:** Auswahl des Treffers mit Maus oder ![](assets/Workflow_Auftrag_Bis_Rechnung_WebUI-73797.png).
 
 1. Scrolle runter bis zum Feld **Exclusion from sales documents** und setze hier ein Häkchen. Es erscheint ein neues Textfeld **Exclusion From Sale Reason**.
- > **Hinweis:** Diese Einstellung betrifft ***Aufträge und Bestellungen gleichermaßen***, je nachdem ob es sich bei dem Geschäftspartner um einen [Kunden](Neuer_Geschaeftspartner_Kunde) oder einen [Lieferanten](Neuer_Geschaeftspartner_Lieferant) handelt.
+ >**Hinweis:** Diese Einstellung betrifft ***Aufträge und Bestellungen gleichermaßen***, je nachdem ob es sich bei dem Geschäftspartner um einen [Kunden](Neuer_Geschaeftspartner_Kunde) oder einen [Lieferanten](Neuer_Geschaeftspartner_Lieferant) handelt.
 
 1. Trage im Textfeld **Exclusion From Sale Reason** einen Grund ein, weshalb das Produkt für den Geschäftspartner gesperrt ist.
  >**Hinweis:** Dieser Grund erscheint dann in einer Fehlermeldung an den Nutzer, wenn dieser das gesperrte Produkt in einem Auftrag oder einer Bestellung hinzufügen möchte.
 
-1. Klicke auf "Bestätigen", um das Fenster zu schließen und die Verkaufs-/Einkaufssperre zur Liste hinzuzufügen.
+1. Klicke auf "Bestätigen", um das Overlay-Fenster zu schließen und die Verkaufs-/Einkaufssperre zur Liste hinzuzufügen.
  >**Hinweis:** Wiederhole die Schritte 2 bis 6, um weitere Verkaufs-/Einkaufssperren für weitere Geschäftspartner zur Liste hinzuzufügen.
 
 ### Beispiel

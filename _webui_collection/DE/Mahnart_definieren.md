@@ -19,14 +19,16 @@ Mit der Mahnart bestimmst Du den Zeitpunkt, ab dem ein [Mahnlauf](Mahnlauf) begi
 1. Wähle einen **Mahnauslöser** aus, z.B. *Standard Zahlungsbedingung*.
 
 ### Mahnstufen hinzufügen
-**Wichtig:** Damit eine Mahnart wirksam wird, benötigt sie mindestens **eine Stufe**!
+| **Wichtig!** |
+| :- |
+| Damit eine Mahnart wirksam wird, benötigt sie mindestens **eine Stufe**! |
 
-1. Gehe zur Registerkarte "Stufen" unten auf der Seite und klicke auf ![](assets/Neu_hinzufuegen_Button.png). Es öffnet sich ein neues Fenster.
+1. Gehe zur Registerkarte "Stufen" unten auf der Seite und klicke auf ![](assets/Neu_hinzufuegen_Button.png). Es öffnet sich ein Overlay-Fenster.
 1. Benenne die Stufe im Feld **Name**.
 1. Trage einen **Drucktext** ein, welcher später auf dem Mahnbrief erscheinen wird.
 1. Trage die Anzahl der **Tage nach Fälligkeit** einer Rechnung ein, bis das Mahnverfahren eingeleitet wird.
 1. Trage die Anzahl der **Tage zwischen Mahnungen** ein.
-1. Klicke auf "Bestätigen", um das Fenster zu schließen und die Mahnstufe zur Liste hinzuzufügen.
+1. Klicke auf "Bestätigen", um das Overlay-Fenster zu schließen und die Mahnstufe zur Liste hinzuzufügen.
  >**Hinweis:** Wiederhole die Schritte 1 bis 6, um weitere Mahnstufen hinzuzufügen.
 
 ## Nächste Schritte

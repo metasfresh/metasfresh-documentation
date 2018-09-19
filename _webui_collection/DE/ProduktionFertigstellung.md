@@ -20,7 +20,7 @@ metasfresh bietet zwei Möglichkeiten, den Materialverbrauch bei der Produktion 
 
 ## Schritte
 1. Öffne einen [fertigen Produktionsauftrag](NeuerProduktionsauftrag).
-1. [Starte die Aktion](AktionStarten) "Produzieren". Es öffnet sich das Produktionsfenster.
+1. [Starte die Aktion](AktionStarten) "Produzieren". Es öffnet sich ein Overlay-Fenster, das Produktionsfenster.
  >**Hinweis:** Hast Du den Produktionsauftrag in der [Listenansicht](Ansichten) selektiert, kannst Du ebenfalls über den [Quick-Actions](AktionStarten)-Button oben rechts die Aktion ![](assets/Actionbutton_Produzieren.png) starten.
 
 ### a) Produkt herstellen, ohne Material zu verbrauchen
@@ -34,7 +34,7 @@ Dies ist die einfachste Möglichkeit in metasfresh zu produzieren. Hierbei wird 
  >**Hinweis:** Wurde dem Produkt eine Packvorschrift zugewiesen, erscheint diese auf dem Quick-Actions-Button anstelle von "Empfangen".
   ![](assets/ProduktionFertigstellung_empfangen_2.png)
 
-1. Es öffnet sich ein neues Fenster.
+1. Es öffnet sich ein weiteres Overlay-Fenster.
  ![](assets/ProduktionFertigstellung-ea202.png)
 
 1. ***Optional:*** Wähle eine **Packvorschrift TU** aus.
@@ -49,7 +49,7 @@ Dies ist die einfachste Möglichkeit in metasfresh zu produzieren. Hierbei wird 
  >**Hinweis 2:** Das Feld **Packvorschrift LU** erscheint nur, wenn auch eine **Packvorschrift TU** ausgewählt wurde.<br><br>
  >**Hinweis 3:** Die Menge LU muss ***mindestens 1*** betragen.
 
-1. Klicke auf "Start", um die empfangenen HUs zu erfassen und das Fenster zu schließen.
+1. Klicke auf "Start", um die empfangenen HUs zu erfassen und das Overlay-Fenster zu schließen.
 1. Nach erfolgreicher Zuordnung werden die empfangenen HUs unterhalb des herzustellenden Produkts aufgelistet:
  ![](assets/ProduktionFertigstellung-a5222.png)
   >**Hinweis:** Möchtest Du die Zuordnung rückgängig machen, wähle einfach die hinzugefügte HU aus, gehe zum Quick-Actions-Button und klicke auf "HU entfernen".
@@ -57,7 +57,7 @@ Dies ist die einfachste Möglichkeit in metasfresh zu produzieren. Hierbei wird 
 1. [Starte die Quick-Action](AktionStarten) "Verarbeiten", um die Materialbuchung vorzunehmen. Dadurch werden die Zeilen schreibgeschützt:
  ![](assets/ProduktionFertigstellung-ed689.png)
 
-1. Klicke auf "Bestätigen", um das Fenster zu schließen.
+1. Klicke auf "Bestätigen", um das Produktionsfenster zu schließen.
 
 ## Beispiel 1
 ![](assets/ProduktionFertigstellung_walkthrough.gif)
@@ -73,7 +73,7 @@ Hierbei werden die für die Produktion benötigten Stücklistenkomponenten vom B
 1. [Starte die Quick-Action](AktionStarten) "HU-Auswahlfenster öffnen".<br>
  ![](assets/HU-Auswahlfenster_oeffnen.png)
 
-1. Es öffnet sich eine Übersicht mit den passenden Handling Units (HU) vom Lager.
+1. Es öffnet sich eine Übersicht auf der rechten Seite mit den passenden Handling Units (HU) vom Lager.
  ![](assets/ProduktionFertigstellung_Lagerübersicht.png)
 
 1. [Selektiere](AuswahlBelege) die HU, welche für die Produktion verbraucht werden soll.
@@ -85,7 +85,7 @@ Hierbei werden die für die Produktion benötigten Stücklistenkomponenten vom B
 1. [Starte die Quick-Action](AktionStarten) "Verarbeiten", um die Abbuchung vorzunehmen. Dadurch werden die Zeilen schreibgeschützt:
  ![](assets/HU_booking_readonly.png)
 
-1. Klicke auf "Bestätigen", um das Fenster zu schließen.
+1. Klicke auf "Bestätigen", um das Produktionsfenster zu schließen.
 
 ## Beispiel 2
 ![](assets/ProduktionFertigstellung_Verbrauch.gif)
