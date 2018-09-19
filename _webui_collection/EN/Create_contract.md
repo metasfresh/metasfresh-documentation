@@ -19,9 +19,15 @@ To create a contract, simply follow the same steps as for a [sales order](SalesO
 1. Double-click the field **Terms & Conditions** of the order lines and select the desired [contractual terms](Define_contractual_terms) from the drop-down list.
  >**Note on changing the contractual terms:** After the one-time selection of the contractual terms you cannot change them anymore. To apply other contractual terms, simply delete the order line and add it again.
 
-**Note 1:** The field **Date Promised** now determines the ***Contract Start*** date.
+<br>
 
-**Note 2:** After completing the sales order you will find the contract under "[Contract](Menu)" in the menu. You can also jump ***directly*** to the contract from the sales order via the [related documents](JumptoviaSidebar).
+| **Note 1:** |
+| :- |
+| The field **Date Promised** now determines the ***Contract Start*** date. |
+
+| **Note 2:** |
+| :- |
+| After completing the sales order you will find the contract under "[Contract](Menu)" in the menu. You can also jump ***directly*** to the contract from the sales order via the [related documents](JumptoviaSidebar). |
 
 ## Example
 ![](assets/Create_contract.gif)

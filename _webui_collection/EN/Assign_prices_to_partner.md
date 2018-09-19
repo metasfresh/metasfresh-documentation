@@ -42,8 +42,8 @@ In order to obtain a *purchase price list* you have to uncheck the box **Sales P
 
 ## Assign Price List to Partner Group
 1. Open the entry of an existing [business partner](Menu) or [add a new one](New_Business_Partner).
-1. [Jump to the content of the field](Jumpto) [**Business Partner Group**](New_Business_Partner_Group). The respective business partner group entry opens up in a new window.
-1. Now, in this window, select the desired **Price System**.
+1. [Jump to the content of the field](Jumpto) **Business Partner Group**.
+1. In the window of this [**Business Partner Group**](New_Business_Partner_Group), select the desired **Price System**.
 1. [metasfresh saves the progress automatically](Saveindicator).
 
 ## Example

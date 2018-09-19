@@ -15,7 +15,11 @@ ref: contract_pause_remove
  >**Hinweis:** Hast Du den Vertrag in der [Listenansicht](Ansichten) selektiert, kannst Du ebenfalls über den [Quick-Actions](AktionStarten)-Button oben rechts die Aktion "Abo-Lieferpause entfernen" starten.<br>
  ![](assets/Abo_Lieferpause_entfernen_button.png)
 
-**Hinweis:** Den **Vertrags-Status** der einzelnen Lieferung kannst Du in der Registerkarte "Abo Verlauf" bzw. "Abo Prognose" unten auf der Seite des jeweiligen Vertrags einsehen.
+<br>
+
+| **Hinweis:** |
+| :- |
+| Den **Vertrags-Status** der einzelnen Lieferung kannst Du in der Registerkarte "Abo Verlauf" bzw. "Abo Prognose" unten auf der Seite des jeweiligen Vertrags einsehen. |
 
 ## Beispiel
 ![](assets/Vertrag_Lieferpause_entfernen.gif)
