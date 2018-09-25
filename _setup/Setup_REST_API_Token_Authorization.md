@@ -48,8 +48,6 @@ cat test.json | curl -X POST -d @- "http://app:8282/api/sales/order" -H "accept:
 
 ### sales/order/candidates
 
-### Usage examples
-
 #### Post a new sales order candidate
 ```bash
 curl -X POST "http://localhost:8181/api/sales/order/candidates" -H "accept: */*" -H "Authorization: 64390d2e7f8341c685ef1b982a652134" -H "Content-Type: application/json" -d "{ \"org\": { \"code\": \"test-org-03\", \"name\": \"test-org-03-name\" }, \"bpartner\": { \"bpartner\": { \"code\": \"test-create-03\", \"name\": \"test-create-03-name\" }, \"location\": { \"externalId\":\"addr1\", \"countryCode\":\"DE\" }, \"contact\": { \"name\":\"teo\", \"externalId\": \"contact1\" } }, \"dateRequired\": \"2018-10-01\", \"productCode\": \"9002737\", \"qty\": 1, \"price\": 321, \"discount\": 13, \"poReference\": \"external-po-ref\", \"externalId\": \"123456\"}"
