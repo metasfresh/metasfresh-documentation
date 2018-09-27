@@ -43,6 +43,16 @@ truncate t_lock,t_webui_viewselection,t_webui_viewselectionline
 ### Misc Tables
 ```
 truncate ad_issue,ad_processablepo,c_advcommissionfactcand, c_advcommissionfact, c_incidentlinefact,c_advcomfact_salesrepfact
+```
+
+optional constraints that can be dropped:
 
 ```
+alter table msv3_bestellung_transaction
+drop constraint adissue_msv3bestellungtransaction
+;
+alter table msv3_verfuegbarkeit_transaction
+    drop constraint adissue_msv3verfuegbarkeittransaction;
+```
+
 
