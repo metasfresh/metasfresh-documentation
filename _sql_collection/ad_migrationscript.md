@@ -10,4 +10,8 @@ lang: en
 
 This table contains all migration scripts that have been applied to the db so on an update only new scripts are applied.
 
-Also see migrationscript_helper_functions.md
+
+Also see the documentation for
+* [related helper DB-functions](/support_collection/migrationscript_helper_functions)
+* [trouble-shooting](/support_collection/manually_apply_migration_script)
+
