@@ -65,6 +65,6 @@ Problem: webui is not reachable
 
 In this case case, you have a record in `AD_MigrationScript` but the record's SQL file has the wrong folder (also called "project name" in the context of `AD_MigrationScript`).
 
-To fix this, you can follow the example from option 1, bus instead of using `migrationscript_ignore`,
+To fix this, you can follow the example from option 1, but instead of using `migrationscript_ignore`,
 invoke
 `select migrationscript_ignoreNewProjectName('10-de.metas.adempire_with_typo', '10-de.metas.adempiere');`
