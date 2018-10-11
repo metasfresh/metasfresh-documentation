@@ -10,7 +10,7 @@ ref: viewmodes
 ---
 
 ## List view
-In general, all windows (e.g. "sales order") open up in list view. No edits can be done here, only filtering and sorting of data entries.
+In general, all windows (e.g., "sales order") open up in list view. No edits can be done here, only filtering and sorting of data entries.
 
 ## Detailed view
 When you double-click an entry or [add a new entry](New_Record_Window), metasfresh automatically switches to the detailed view. Here you can edit your data.
@@ -23,8 +23,8 @@ See here how to switch between detailed view and list view:
 
 ## Advanced Edit
 The detailed view only shows the main fields. To see and edit all additional fields, go to the [actions menu](StartAction) and click on "Advanced Edit".
- >**Note:** Use shortcut `Alt` + `E` / `⌥ alt` + `E` to open the advanced edit window.
+ >**Note:** Use shortcut `Alt` + `E` / `⌥ alt` + `E` to open the advanced edit menu.
 
-See here how to switch from the detailed view into the advanced edit view:
+See here how to switch from the detailed view into the advanced edit menu:
 
 ![](assets/AdvancedEditView.gif)

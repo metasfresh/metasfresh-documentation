@@ -10,7 +10,7 @@ ref: setup_dunning
 ---
 
 ## Overview
-Before you can start a [dunning run](Dunning_Run), you need to set up the dunning procedure first. In metasfresh you can also customize this procedure for single customers and business partner groups.
+Before you can start a [dunning run](Dunning_Run), you need to set up the dunning procedure first. In metasfresh, you can also customize this procedure for single customers and business partner groups.
 
 ## Steps
 1. [Configure the outbound documents for the dunning procedure](Outbound_Documents_Config_Dunning).

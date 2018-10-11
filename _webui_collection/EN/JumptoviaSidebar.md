@@ -10,10 +10,9 @@ ref: jumptoviasidebar
 ---
 
 ## Jumping via Sidebar
-1. Open a [completed order](SalesOrder_recording).
-1. Press `Alt` + `6` / `⌥ alt` + `6` to open the sidebar ![](assets/Sidebar_Icon_WebUI.png).
-1. A tab opens up showing the related documents.
-1. Click on one of the links to open it (e.g. Shipment Disposition).
+1. Open a document of your choice, e.g., a completed [sales order](SalesOrder_recording).
+1. Press `Alt` + `6` / `⌥ alt` + `6` to open the list of referenced documents ![](assets/related_docs_fork.png) from the sidebar ![](assets/Sidebar_Icon_WebUI.png).
+1. Click on one of the links to jump to the respective document (e.g., Invoice).
 
 ## Example
 ![](assets/jumptosidebar.gif)

@@ -30,8 +30,8 @@ In metasfresh kannst Du in verschiedenen Kontexten einige Prozesse mithilfe best
 | Tastenkombination <br> (Windows) | Tastenkombination <br> (MacOS) | Befehl |
 | :---: | :---: | :--- |
 | `Alt` + `A` | `⌥ alt` + `A` | Alle Zeilen auswählen bzw. zwischen "Alle Zeilen dieser Seite auswählen" und "Wähle alle ## Zeilen" wechseln |
-| `Alt` + `B` | `⌥ alt` + `B` | Ausgewähltes Dokument in neuem Fenster öffnen |
-| `Alt` + `E` | `⌥ alt` + `E` | Fenster "Erweiterte Erfassung" für ausgewähltes Dokument öffnen |
+| `Alt` + `B` | `⌥ alt` + `B` | Ausgewähltes Dokument in neuem Tab öffnen |
+| `Alt` + `E` | `⌥ alt` + `E` | "Erweiterte Erfassung" für ausgewähltes Dokument öffnen |
 | `Alt` + `Y` | `⌥ alt` + `Y` | Ausgewähltes Dokument löschen |
 
 ### Kontext: Dokument ([Einzelansicht](Ansichten))
@@ -39,7 +39,7 @@ In metasfresh kannst Du in verschiedenen Kontexten einige Prozesse mithilfe best
 | Tastenkombination <br> (Windows) | Tastenkombination <br> (MacOS) | Befehl |
 | :---: | :---: | :--- |
 | `Alt` + `D` | `⌥ alt` + `D` | Dokument löschen |
-| `Alt` + `E` | `⌥ alt` + `E` | Fenster "Erweiterte Erfassung" öffnen |
+| `Alt` + `E` | `⌥ alt` + `E` | "Erweiterte Erfassung" öffnen |
 | `Alt` + `I` | `⌥ alt` + `I` | Belegverarbeitungsmenü öffnen (Aktionsbutton für Belegstatus) |
 | `Alt` + `K` | `⌥ alt` + `K` | Email-Editor öffnen |
 | `Alt` + `N` | `⌥ alt` + `N` | Neues Dokument anlegen |
@@ -51,10 +51,10 @@ In metasfresh kannst Du in verschiedenen Kontexten einige Prozesse mithilfe best
 
 | Tastenkombination <br> (Windows) | Tastenkombination <br> (MacOS) | Befehl |
 | :---: | :---: | :--- |
-| `Alt` + `E` | `⌥ alt` + `E` | Fenster "Erweiterte Erfassung" für ausgewählten Eintrag öffnen |
+| `Alt` + `E` | `⌥ alt` + `E` | "Erweiterte Erfassung" für ausgewählte Zeile öffnen |
 | `Alt` + `Q` | `⌥ alt` + `Q` | Auftragszeileneingabe (Massenerfassung) öffnen |
-| `Alt` + `Y` | `⌥ alt` + `Y` | Ausgewählten Eintrag löschen |
-| `Alt` + `+` | `⌥ alt` + `+` | Registerkarte komplett darstellen |
+| `Alt` + `Y` | `⌥ alt` + `Y` | Ausgewählte Zeile löschen |
+| `Alt` + `+` | `⌥ alt` + `+` | Registerkarte erweitern / reduzieren |
 
 ### Kontext: [Quick-Actions](AktionStarten)
 

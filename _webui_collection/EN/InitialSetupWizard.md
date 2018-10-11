@@ -22,7 +22,7 @@ For additional information on how to place manual text on documents, please see 
 1. Fill in the desired fields.
  >**Note:** The text box **Description** is restricted to 90 characters.
 
-1. Click "Start" to apply the changes and close the window.
+1. Click "Start" to apply the changes and close the setup wizard.
  >**Note:** You can apply the wizard as often as required to update your company details.
 
 ## Example

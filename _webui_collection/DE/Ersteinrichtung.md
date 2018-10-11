@@ -22,7 +22,7 @@ Weitere Informationen darüber, wie Du eigenen Text in Belege einfügen kannst, 
 1. Fülle die gewünschten Felder aus.
  >**Hinweis:** Das Textfeld "Beschreibung" ist auf 90 Zeichen beschränkt.
 
-1. Klicke auf "Start", um die Änderungen zu übernehmen und das Fenster zu schließen.
+1. Klicke auf "Start", um die Änderungen zu übernehmen und den Einrichtungsassistenten zu schließen.
  >**Hinweis:** Du kannst den Assistenten beliebig oft verwenden, um die Firmendaten anzupassen.
 
 ## Beispiel

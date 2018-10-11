@@ -22,7 +22,7 @@ Aus 1 Kilogramm erhältst Du 4 Stück 250g Schalen Erdbeeren.<br>
 
 ## Schritte
 1. Öffne den Eintrag eines bestehenden [Produkts](Menu) bzw. [lege ein neues an](NeuesProdukt).
-1. Gehe zur Registerkarte "Maßeinheit Umrechnung" unten auf der Seite und klicke auf ![](assets/Neu_hinzufuegen_Button.png). Es öffnet sich ein neues Fenster.
+1. Gehe zur Registerkarte "Maßeinheit Umrechnung" unten auf der Seite und klicke auf ![](assets/Neu_hinzufuegen_Button.png). Es öffnet sich ein Overlay-Fenster.
 1. Das Feld **Maßeinheit Quelle** muss mit der Bestandsmengeneinheit des Artikels übereinstimmen, z.B. hier "Kilogramm".
 1. Das Feld **Maßeinheit Ziel** bestimmt die Maßeinheit, in die umgerechnet werden soll, z.B. hier "Stück".
 1. Das Feld **Quelle-Ziel Faktor** bestimmt den Faktor, mit dem die Menge in der Quellmaßeinheit multipliziert werden soll, um die entsprechende Menge in der Zielmaßeinheit zu erhalten.<br>
@@ -31,7 +31,7 @@ Aus 1 Kilogramm erhältst Du 4 Stück 250g Schalen Erdbeeren.<br>
 ***Beispiel:*** `1 Stk. × 0,25 = 0,25 kg`.
  >**Hinweis:** Bei der Eingabe des einen Faktors wird der jeweils andere automatisch berechnet.
 
-1. Klicke auf "Bestätigen", um das Fenster zu schließen und die Umrechnung zur Liste hinzuzufügen.
+1. Klicke auf "Bestätigen", um das Overlay-Fenster zu schließen und die Umrechnung zur Liste hinzuzufügen.
  >**Hinweis:** Wiederhole die Schritte 2 bis 7, um weitere Umrechnungen anzulegen.
 
 ## Beispiel

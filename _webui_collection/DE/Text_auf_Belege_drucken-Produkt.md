@@ -21,7 +21,7 @@ Weitere Informationen darüber, wie Du eigenen Text in Belege einfügen kannst, 
  >**Hinweis:** Drücke `Alt` + `E` / `⌥ alt` + `E`.
 
 1. Scrolle runter bis zum Textfeld **Notiz / Zeilentext** und gib hier Deinen Text ein.
-1. Klicke auf "Bestätigen", um die Änderungen zu übernehmen und das Fenster zu schließen.
+1. Klicke auf "Bestätigen", um die Änderungen zu übernehmen und die "Erweiterte Erfassung" zu schließen.
 
 ## Beispiel
 ![](assets/Text auf Belege drucken - Produkt.gif)

@@ -42,8 +42,8 @@ Um eine *Einkaufspreisliste* zu erhalten, musst Du in dem entsprechenden Preisli
 
 ## Preisliste einer Partnergruppe zuweisen
 1. Öffne den Eintrag eines bestehenden [Geschäftspartners](Menu) bzw. [lege einen neuen an](Neuer_Geschaeftspartner).
-1. [Springe zum Inhalt des Feldes](Springezu) [**Geschäftspartnergruppe**](Neue_Geschaeftspartnergruppe). Es öffnet sich der jeweilige Geschäftspartnergruppeneintrag in einem neuen Fenster.
-1. Wähle in diesem Fenster nun das gewünschte **Preissystem** aus.
+1. [Springe zum Inhalt des Feldes](Springezu) **Geschäftspartnergruppe**.
+1. Wähle im Fenster dieser [Geschäftspartnergruppe](Neue_Geschaeftspartnergruppe) nun das gewünschte **Preissystem** aus.
 1. [metasfresh speichert automatisch](Speicheranzeige).
 
 ## Beispiel

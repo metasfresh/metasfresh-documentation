@@ -11,7 +11,7 @@ ref: change_password
 ## Schritte
 1. Klicke rechts oben im Fenster auf ![](assets/UserMenu_Rabbit_WebUI.png) oder drücke `Alt` + `4` / `⌥ alt` + `4`, um das Benutzermenü zu öffnen.
 1. Klicke auf "Einstellungen".
-1. [Starte die Aktion](AktionStarten) "Mein Passwort ändern". Es öffnet sich ein neues Fenster.
+1. [Starte die Aktion](AktionStarten) "Mein Passwort ändern". Es öffnet sich ein Overlay-Fenster.
 1. Gib Dein **Altes Passwort** ein.
  >**Hinweis:** Halte ![](assets/ShowPassword_Icon.png) gedrückt, um das Password anzuzeigen.
 
@@ -20,7 +20,7 @@ ref: change_password
  >**Hinweis 2:** Beachte beim Passwort die ***Groß- und Kleinschreibung***!
 
 1. Wiederhole Dein **Neues Passwort (retype)**.
-1. Klicke auf "Start", um die Änderungen zu übernehmen und das Fenster zu schließen.
+1. Klicke auf "Start", um die Änderungen zu übernehmen und das Overlay-Fenster zu schließen.
 
 ## Beispiel
 ![](assets/Passwort_aendern.gif)

@@ -22,7 +22,7 @@ System users are contacts (users) with access permissions to your system.
  >**Note 2:** Please bear in mind that the username is ***case-sensitive***!
 
 ### Set a password
-1. [Start the action](StartAction) "Change Password". A new window opens up.
+1. [Start the action](StartAction) "Change Password". An overlay window opens up.
 1. Enter a **New Password** with at least 8 characters.
  >**Note 1:** An **Old Password** is not required if a new user is created.<br><br>
  >**Note 2:** Make sure the password consists of ***at least 8 characters*** or the entry ***will not be saved***!<br><br>
@@ -30,7 +30,7 @@ System users are contacts (users) with access permissions to your system.
  >**Note 4:** Press and hold ![](assets/ShowPassword_Icon.png) to see the password.
 
 1. Re-enter the password in the field **New Password (retype)**.
-1. Click "Start" to accept the new password and close the window.
+1. Click "Start" to accept the new password and close the overlay window.
 1. [metasfresh saves the progress automatically](Saveindicator).
 
 ## Next Steps

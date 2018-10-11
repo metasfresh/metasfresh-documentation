@@ -23,14 +23,14 @@ Möchtest Du [Geschäftspartner](Neuer_Geschaeftspartner) in die Verteilerliste 
 
 #### a) Kontakte aus Geschäftspartnern
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Geschäftspartner".
-1. [Selektiere](AuswahlBelege) in der [Listenansicht](Ansichten) die Geschäftspartner, die Du Deiner Marketingkampagne als Kontakte hinzufügen möchtest.
-1. [Starte die Quick-Action](AktionStarten) "Kontakte der gefilterten Geschäftspartner in Kampagne". Es öffnet sich ein neues Fenster.
+1. [Selektiere](AuswahlBelege) in der [Listenansicht](Ansichten) die [Geschäftspartner](Neuer_Geschaeftspartner), die Du Deiner Marketingkampagne als Kontakte hinzufügen möchtest.
+1. [Starte die Quick-Action](AktionStarten) "Export in E-Mail-Kampagne". Es öffnet sich ein Overlay-Fenster.
  >**Hinweis:** Diese Aktion findest Du ebenfalls im Aktionsmenü sowohl in der Listenansicht als auch in der Einzelansicht eines Eintrags.
 
 #### b) Kontakte aus Nutzern
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Nutzer".
-1. [Selektiere](AuswahlBelege) in der [Listenansicht](Ansichten) die Nutzer, die Du Deiner Marketingkampagne als Kontakte hinzufügen möchtest.
-1. [Starte die Quick-Action](AktionStarten) "Gefilterte Kontakte in Kampagne". Es öffnet sich ein neues Fenster.
+1. [Selektiere](AuswahlBelege) in der [Listenansicht](Ansichten) die [Nutzer](Nutzer_anlegen), die Du Deiner Marketingkampagne als Kontakte hinzufügen möchtest.
+1. [Starte die Quick-Action](AktionStarten) "Gefilterte Kontakte in Kampagne". Es öffnet sich ein Overlay-Fenster.
  >**Hinweis:** Diese Aktion findest Du ebenfalls im Aktionsmenü sowohl in der Listenansicht als auch in der Einzelansicht eines Eintrags.
 
 ### Marketingkampagne auswählen
@@ -38,9 +38,12 @@ Möchtest Du [Geschäftspartner](Neuer_Geschaeftspartner) in die Verteilerliste 
  >**Hinweis 1:** Drücke die `LEERTASTE`, um alle verfügbaren [Marketingkampagnen](MKTG-Kampagne_erstellen) zu sehen.<br><br>
  >**Hinweis 2:** Auswahl des Treffers mit Maus oder ![](assets/Workflow_Auftrag_Bis_Rechnung_WebUI-73797.png).
 
-1. Klicke auf "Start", um das Fenster zu schließen und die Kontakte zur Marketingkampagne hinzufügen.
+1. Klicke auf "Start", um das Overlay-Fenster zu schließen und die Kontakte zur Marketingkampagne hinzufügen.
+<br>
 
-**Hinweis:** Die Kontakte findest Du nun unter dem Menüpunkt "[Marketing Kampagne](Menu)" in der Registerkarte "Kontaktperson" unten auf der Seite des Eintrags der jeweiligen Marketingkampagne wieder.
+| **Hinweis:** |
+| :- |
+| Die Kontakte findest Du nun unter dem Menüpunkt "[Marketing Kampagne](Menu)" in der Registerkarte "Kontaktperson" unten auf der Seite des Eintrags der jeweiligen Marketingkampagne wieder. |
 
 ## Beispiel
 ![](assets/MKTG-Kampagne_Kontakte_hinzufuegen.gif)

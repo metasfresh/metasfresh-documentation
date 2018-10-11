@@ -10,7 +10,7 @@ ref: link_dunning_type_to_partner
 ---
 
 ## Overview
-For a dunning type to be effective in connection with a partner, you first need to link it to the corresponding partner. You can link it to both a single customer and a business partner group.
+For a dunning type to take effect in connection with a partner, you first need to link it to the corresponding partner. You can link it to both a single customer and a business partner group.
 
 ## Link dunning type to a single customer
 
@@ -20,7 +20,7 @@ For a dunning type to be effective in connection with a partner, you first need 
  >**Note:** The business partner must be registered as a customer for dunning to become available.
 
 1. In the field **Dunning** select the desired dunning type.
-1. Click "Done" to close the window and apply the changes.
+1. Click "Done" to close the advanced edit menu and apply the changes.
  >**Note:** Alternatively you can also double-click the field in the column **Dunning** of the customer line and select a dunning type from the drop-down list.
 
 ### Example
@@ -36,7 +36,7 @@ For a dunning type to be effective in connection with a partner, you first need 
  >**Note:** Use shortcut `Alt` + `E` / `⌥ alt` + `E`.
 
 1. Scroll down to the field **Dunning** and select the desired dunning type.
-1. Click "Done" to close the window and apply the changes.
+1. Click "Done" to close the advanced edit menu and apply the changes.
 
 ### Example
 ![](assets/Link dunning type to BPgroup.gif)

@@ -19,17 +19,17 @@ ref: create_bom
 1. Vergib eine **Beleg Nr.**
 
 ### Stücklistenbestandteile hinzufügen
-1. Gehe zur Registerkarte "Stücklistenbestandteile" unten auf der Seite und klicke auf ![](assets/Neu_hinzufuegen_Button.png). Es öffnet sich ein neues Fenster.
+1. Gehe zur Registerkarte "Stücklistenbestandteile" unten auf der Seite und klicke auf ![](assets/Neu_hinzufuegen_Button.png). Es öffnet sich ein Overlay-Fenster.
 1. Gib das **Produkt** ein, welches Du als Komponente zur Stückliste hinzufügen möchtest, z.B. "Korpus" oder "Saiten".
 1. Gib eine **Menge** an.
-1. Klicke auf "Bestätigen", um das Produkt zur Liste hinzuzufügen und das Fenster zu schließen.
+1. Klicke auf "Bestätigen", um das Produkt zur Liste hinzuzufügen und das Overlay-Fenster zu schließen.
  >**Hinweis:** Du kannst beliebig viele Komponenten zur Stückliste hinzuzufügen.
 
 ### Stückliste verifizieren
 Damit eine Stückliste gültig wird, muss sie vorher verifiziert werden.
 
-1. [Starte die Aktion](AktionStarten) "Stücklisten verifizieren". Es öffnet sich ein neues Fenster.
-1. Klicke auf "Start", um zu bestätigen und das Fenster zu schließen.
+1. [Starte die Aktion](AktionStarten) "Stücklisten verifizieren". Es öffnet sich ein Overlay-Fenster.
+1. Klicke auf "Start", um zu bestätigen und das Overlay-Fenster zu schließen.
 
 ## Beispiel
 ![](assets/Stueckliste_erstellen.gif)

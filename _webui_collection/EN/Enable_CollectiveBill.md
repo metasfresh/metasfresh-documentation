@@ -15,13 +15,13 @@ ref: enable_collectivebill
 1. Set the field **Aggregationrule Customer Invoices** to the desired aggregation rule.
  >**Note:** For the standard case select "invoicing-agg-std".
 
-1. Click "Done" to close the window.
+1. Click "Done" to close the advanced edit menu.
 
 ## Explanation of the Rules
 | Rule | Description | Explanation |
 |---|---|---|
-| invoicing-agg-std | Standard Rule | Aggregation is done without restrictions
-| none | | An invoice is always created for each order
+| invoicing-agg-std | Standard Rule | Aggregation is done without restrictions |
+| none | | An invoice is always created for each order |
 
 ## Example
 ![](assets/Enable_CollectiveBill.gif)

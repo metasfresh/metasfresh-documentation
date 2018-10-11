@@ -26,7 +26,7 @@ For additional information on how to place manual text on documents, please see 
 ### Option 2: Alternative way via the advanced edit menu
 1. Open the [advanced edit menu](Open_AdvancedEditTab) of the order line for which you want to record a description.
 1. Scroll down to the text box **Description** and enter your text here.
-1. Click "Done" to apply the changes and close the window.
+1. Click "Done" to apply the changes and close the advanced edit menu.
 
 ## Next Steps
 - Follow the remaining steps for [creating a sales order](SalesOrder_recording) to complete the order.
