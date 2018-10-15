@@ -20,8 +20,8 @@ In order to set up the serial letter feature, take the following steps:
 
 ## Steps
 1. [Configure the outbound documents for the serial letter feature](Outbound_documents_config_serial_letters).
-1. [Create a new marketing platform](Create_MKTG_platform).
+1. [Create a new marketing platform](Create_MKTG_platform) and check the box **Requires Location**.
 1. [Create a new boiler plate](Create_boiler_plate) where you draft the text for the serial letters.
-1. [Create a new marketing campaign](Create_MKTG_campaign) and add the previously created boiler plate to it.
+1. [Create a new marketing campaign](Create_MKTG_campaign), applying the previously created marketing platform and boiler plate.
 1. [Add some contacts to the marketing campaign](Add_contacts_to_MKTG_campaign).
 1. [Create the serial letters](Create_serial_letters).

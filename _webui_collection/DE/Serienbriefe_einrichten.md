@@ -20,8 +20,8 @@ Um die Serienbrief-Funktion einzurichten, gehe wie folgt vor:
 
 ## Schritte
 1. [Richte die ausgehenden Belege für die Serienbrief-Funktion ein](Ausgehende_Belege_Konfig_Serienbriefe).
-1. [Erstelle eine neue Marketing-Plattform](MKTG-Plattform_erstellen).
+1. [Erstelle eine neue Marketing-Plattform](MKTG-Plattform_erstellen) und setze ein Häkchen bei **Requires Location**.
 1. [Erstelle einen neuen Textbaustein](Textbaustein_erstellen), in dem Du den Inhalt für die Serienbriefe verfasst.
-1. [Erstelle eine neue Marketingkampagne](MKTG-Kampagne_erstellen) und füge ihr den zuvor erstellten Textbaustein hinzu.
+1. [Erstelle eine neue Marketingkampagne](MKTG-Kampagne_erstellen), in der Du die zuvor erstellte Marketing-Plattform und den Textbaustein anwendest.
 1. [Füge der Marketingkampagne Kontakte hinzu](MKTG-Kampagne_Kontakte_hinzufuegen).
 1. [Erstelle die Serienbriefe](Serienbriefe_erstellen).

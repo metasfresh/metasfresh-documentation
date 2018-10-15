@@ -4,12 +4,12 @@ layout: default
 tags:
   - Marketing
 lang: en
-sequence: 20
+sequence: 30
 ref: create_boiler_plate
 ---
 
 ## Overview
-With boiler plates you can create text templates for letters and use them in marketing campaigns, e.g., for [serial letters](Create_serial_letters).
+With boiler plates you can create text templates for letters and use them in marketing campaigns, e.g., in [serial letter campaigns](Create_serial_letters).
 
 ## Steps
 1. Open "Boiler Plate" from the [menu](Menu).

@@ -21,6 +21,7 @@ In order to add new users, take the following steps:
 1. Open "User" from the [menu](Menu).
 1. [Add a new user](New_Record_Window).
 1. Fill in the fields **Firstname** and **Lastname**.
+1. Enter the user's **Email Address**.
 1. The **Search Key** is an automatically assigned serial number. However, if required, you can also assign your own search key manually instead.
 
 ## Next Steps (optional)
