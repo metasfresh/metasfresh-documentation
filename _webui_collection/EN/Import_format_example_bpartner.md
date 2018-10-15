@@ -29,7 +29,7 @@ The example below compares the data content of a file from a spreadsheet softwar
 
 | Information | Example | Note |
 | :---: | :--- | :--- |
-| Region | • NRW<br> • AZ | NRW = **N**orth **R**hine-**W**estphalia<br> AZ = **A**ri**z**ona<br> (*You can look up the acronym (**Name**) of a region in the record tab "Region" of the respective country entry under "[Country, Region](Menu)" in the menu.*) |
+| Region | • NRW<br> • AZ | NRW = **N**orth **R**hine-**W**estphalia<br> AZ = **A**ri**z**ona<br> (*You can look up the acronym (**Name**) of a region under the record tab "Region" of the respective country entry under "[Country, Region](Menu)" in the menu.*) |
 | ISO Country Code | DE | DE = Germany (German: _**De**utschland_)<br> Two-letter country code (in acc. with ISO 3166-1 alpha-2).<br> (*You can look up the ISO country code under "[Country, Region](Menu)" in the menu.*) |
 | Group Value	| • Standard<br> • 1000001 | **Search Key** of the business partner group. ***Attention:*** Not the name!<br> First add the business partner group and then use the search key here.<br> (*You can look up the search key in the respective entry under "[Business Partner Group](Menu)" in the menu.*) |
 | OrgValue | metasfresh AG | **Search Key** of the organization. ***Attention:*** Not the name!<br> (*You can look up the search key under "[Organization](Menu)" in the menu.*) |

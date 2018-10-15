@@ -10,7 +10,7 @@ ref: assign_user_role
 ---
 
 ## Overview
-By means of a user role you can determine the extent of the user permissions.
+By means of a user role, you can determine the extent of the user permissions.
 
 ## Steps
 1. Open "User" from the [menu](Menu).

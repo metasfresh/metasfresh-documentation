@@ -16,7 +16,7 @@ ref: add_user_to_bpartner
 1. Fill in the fields **Firstname** and **Lastname**.
 1. ***Optional:*** Fill in the fields **Email** and **Phone**.
 1. Click "Done" to add the user to the list and close the overlay window.
-<br>
+<br><br>
 
 | **Note:** |
 | :- |

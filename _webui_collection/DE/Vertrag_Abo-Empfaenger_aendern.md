@@ -22,11 +22,11 @@ ref: contract_change_recipient
 1. Wähle eine **Lieferadresse** aus.
 1. ***Optional:*** Wähle einen **Lieferkontakt** aus.
 1. Klicke auf "Start", um die Änderungen zu übernehmen und das Overlay-Fenster zu schließen.
-<br>
+<br><br>
 
 | **Hinweis:** |
 | :- |
-| Die **Lieferadresse** kannst Du in der Registerkarte "Abo Verlauf" unten auf der Seite des jeweiligen Vertrags einsehen. |
+| Die **Lieferadresse** kannst Du unter der Registerkarte "Abo Verlauf" unten auf der Seite des jeweiligen Vertrags einsehen. |
 
 ## Beispiel
 ![](assets/Vertrag_Abo-Empfaenger_aendern.gif)

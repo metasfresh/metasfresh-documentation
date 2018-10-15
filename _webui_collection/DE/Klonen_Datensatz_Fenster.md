@@ -15,7 +15,7 @@ Das Klonen funktioniert bei allen Stammdaten und Belegen wie Auftrag, Bestellung
 
 ## Schritte
 1. Gehe über das [Menü](Menu) zu dem Dokument, das Du klonen möchtest (z.B. einem [Auftrag](Auftrag_erfassen)), und öffne es.
-1. [Starte die Aktion](AktionStarten) "Clone".
+1. Öffne das [Aktionsmenü](AktionStarten) ![](assets/actionsmenu_WebUI.png) und klicke auf "Clone".
 1. Das gesamte geklonte Dokument wird in einem neuen Tab geöffnet.
  >**Hinweis 1:** Bis auf variable Daten, wie z.B. laufende Nummern oder Suchschlüssel (Artikelnummern, Belegnummern usw.), werden alle Daten unverändert geklont.<br><br>
  >**Hinweis 2:** Fertiggestellte Dokumente, wie z.B. Aufträge, werden als Entwurf geklont, um sie ggf. bearbeiten zu können, und müssen anschließend wieder [manuell fertiggestellt](BelegverarbeitungFertigstellen) werden.

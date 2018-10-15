@@ -21,6 +21,7 @@ Um neue Nutzer anzulegen, gehe wie folgt vor:
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Nutzer".
 1. [Lege einen neuen Nutzer an](Neuer_Datensatz_Fenster_Webui).
 1. Fülle die Felder **Vorname** und **Nachname** aus.
+1. Trage die **E-Mail**-Adresse des Nutzers ein.
 1. Der **Suchschlüssel** ist eine automatisch zugewiesene laufende Nummer. Unter Umständen kann man stattdessen jedoch auch einen eigenen Suchschlüssel manuell vergeben.
 
 ## Nächste Schritte (optional)

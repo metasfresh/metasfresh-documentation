@@ -17,7 +17,7 @@ If you want to review and perhaps edit the content of a field, you do not need t
 1. Hover with your mouse cursor over the label of the field whose content you want to review or edit, e.g., **Business Partner**.
 1. If the field label is underlined, click on it to switch into the respective window.
 1. The window opens in a new tab.
-<br>
+<br><br>
 
 | **Important!** |
 | :- |

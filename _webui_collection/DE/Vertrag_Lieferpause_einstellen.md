@@ -17,11 +17,11 @@ ref: contract_pause
 
 1. Wähle im Feld **Datum** den Zeitraum aus, wie lange der Vertrag pausiert werden soll.
 1. Klicke auf "Start", um die Änderungen zu übernehmen und das Overlay-Fenster zu schließen.
-<br>
+<br><br>
 
 | **Hinweis:** |
 | :- |
-| Den **Vertrags-Status** kannst Du in der Registerkarte "Abo Verlauf" unten auf der Seite des jeweiligen Vertrags einsehen. |
+| Den **Vertrags-Status** kannst Du unter der Registerkarte "Abo Verlauf" unten auf der Seite des jeweiligen Vertrags einsehen. |
 
 ## Beispiel
 ![](assets/Vertrag_Lieferpause_einstellen.gif)

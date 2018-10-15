@@ -13,7 +13,7 @@ ref: printpreview
 Press `Alt` + `P` / `⌥ alt` + `P` to open the print preview.
 
 ## With the mouse
-Click ![](assets/actionsmenu_WebUI.png) and then select "Print".
+Open the [actions menu](StartAction) ![](assets/actionsmenu_WebUI.png) and click "Print".
  >**Note:** You will need a PDF viewer to open the file.
 
 ## Example

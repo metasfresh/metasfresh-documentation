@@ -16,11 +16,11 @@ ref: assign_bpartner_to_user
  >**Note 2:** Select one of the shown options with the mouse or ![](../DE/assets/Workflow_Auftrag_Bis_Rechnung_WebUI-73797.png).
 
 1. [metasfresh saves the progress automatically](Saveindicator).
-<br>
+<br><br>
 
 | **Note:** |
 | :- |
-| The user entry will now also appear in the record tab "Contact" at the bottom of the page of the respective business partner entry under "[Business Partner](Menu)" in the menu. |
+| The user entry will now also appear under the record tab "Contact" at the bottom of the page of the respective business partner entry under "[Business Partner](Menu)" in the menu. |
 
 ## Example
 ![](assets/Assign_BPartner_to_user.gif)

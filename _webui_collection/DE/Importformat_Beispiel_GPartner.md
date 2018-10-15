@@ -29,7 +29,7 @@ In dem folgenden Beispiel wird der Dateninhalt aus einer Datei einer Tabellenkal
 
 | Information | Beispiel | Hinweis |
 | :---: | :--- | :--- |
-| Region | • NRW<br> • AZ | NRW = **N**ord**r**hein-**W**estfalen<br> AZ = **A**ri**z**ona<br> (*Das Akronym bzw. den **Namen** einer Region kannst Du unter dem Menüpunkt "[Land, Region](Menu)" in der Registerkarte "Region" des jeweiligen Ländereintrags nachschauen.*) |
+| Region | • NRW<br> • AZ | NRW = **N**ord**r**hein-**W**estfalen<br> AZ = **A**ri**z**ona<br> (*Das Akronym bzw. den **Namen** einer Region kannst Du unter dem Menüpunkt "[Land, Region](Menu)" unter der Registerkarte "Region" des jeweiligen Ländereintrags nachschauen.*) |
 | ISO-Ländercode | DE | DE = **De**utschland<br> Zweistelliger Buchstabencode (gem. ISO 3166-1 Alpha-2).<br> (*Den ISO-Ländercode kannst Du unter dem Menüpunkt "[Land, Region](Menu)" nachschauen.*) |
 | Gruppen-Schlüssel	| • Standard<br> • 1000001 | **Suchschlüssel** der Geschäftspartnergruppe. ***Achtung:*** Nicht der Name!<br> Lege die Geschäftspartnergruppe erst in metasfresh an und verwende dann hier ihren Suchschlüssel.<br> (*Den Suchschlüssel kannst Du unter dem Menüpunkt "[Geschäftspartnergruppen](Menu)" im jeweiligen Eintrag nachschauen.*) |
 | OrgValue | metasfresh AG | **Suchschlüssel** der Organisation. ***Achtung:*** Nicht der Name!<br> (*Den Suchschlüssel kannst Du unter dem Menüpunkt "[Organisation](Menu)" nachschauen.*) |

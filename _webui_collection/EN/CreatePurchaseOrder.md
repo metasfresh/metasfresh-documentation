@@ -12,7 +12,7 @@ ref: createpurchaseorder
 ## Steps
 1. Open "Purchase Order" from the [menu](Menu).
 1. [Create a new purchase order](New_Record_Window).
-1. In the field **Delivery from** enter a part of the business partner name or number and click on one of the results.
+1. In the field **Delivery from**, enter a part of the business partner name or number and click on one of the results.
  >**Note 1:** Hit `SPACE` to see all available [vendors](New_business_partner_vendors).<br><br>
  >**Note 2:** Select one of the shown options with the mouse or ![](../DE/assets/Workflow_Auftrag_Bis_Rechnung_WebUI-73797.png).<br><br>
  >**Note 3:** If the desired partner does not appear in the list, you can add them through [quick create](Quick_create_new_business_partner).
@@ -26,7 +26,7 @@ ref: createpurchaseorder
 1. Go to the record tab "PO Line" at the bottom of the page and click ![](assets/Batch_Entry_Button.png) to open the fast order line input.
  >**Note:** Use shortcut `Alt` + `Q` / `⌥ alt` + `Q`.
 
-1. In the field **Product** enter a part of the product name or number and click on one of the results.
+1. In the field **Product**, enter a part of the product name or number and click on one of the results.
  >**Note 1:** Hit `SPACE` to see all available [products](NewProduct).<br><br>
  >**Note 2:** Select one of the shown options with the mouse or ![](../DE/assets/Workflow_Auftrag_Bis_Rechnung_WebUI-73797.png).
 
