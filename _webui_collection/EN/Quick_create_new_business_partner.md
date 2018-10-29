@@ -28,7 +28,7 @@ If in the course of creating a [sales order](SalesOrder_recording) or a [purchas
  >**Note:** If you choose "United States" as country, you can also enter the **Region**. Simply close and re-open the address editing window by clicking the edit-button twice and the field will appear above **Country**.
 
 1. Click "Done" to save the new business partner, close the overlay window and continue editing your sales order or purchase order.
-<br>
+<br><br>
 
 | **Note:** |
 | :- |

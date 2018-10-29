@@ -23,12 +23,12 @@ For this purpose, you can choose between two options:
 1. Follow these [instructions for creating a discount schema](Create_discount_schema) up to **step 9**.
 
 ### a) Determine a fixed price
-1. In the field **PriceBase** select *Fixed*.
+1. In the field **PriceBase**, select *Fixed*.
 1. Enter a **Standard Price** that will be taken as fixed price for the product(s) when fulfilling the pricing conditions.
 
 ### b) Determine a surcharge on a standard price
-1. In the field **PriceBase** select *Pricing System*. A new field **Base_PricingSystem_ID** appears.
-1. In the field **Base_PricingSystem_ID** enter the desired base price system and select it from the suggestions.
+1. In the field **PriceBase**, select *Pricing System*. A new field **Base_PricingSystem_ID** appears.
+1. In the field **Base_PricingSystem_ID**, enter the desired base price system and select it from the suggestions.
  >**Note 1:** Hit `SPACE` to see all available [price systems](Add_price-system).<br><br>
  >**Note 2:** Select one of the shown options with the mouse or ![](../DE/assets/Workflow_Auftrag_Bis_Rechnung_WebUI-73797.png).
 

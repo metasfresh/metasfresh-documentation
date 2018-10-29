@@ -28,7 +28,7 @@ Falls Dir während der Erfassung eines [Auftrags](Auftrag_erfassen) oder einer [
  >**Hinweis:** Wenn Du "Vereinigte Staaten von Amerika" als **Land** auswählst, kannst Du auch die **Region** eingeben. Klicke dazu einfach zweimal auf den Edit-Button, um das kleine Adressbearbeitungsfenster zu schließen und wieder zu öffnen. Das Feld erscheint dann über **Land**.
 
 1. Klicke auf "Bestätigen", um den neuen Geschäftspartner zu speichern, das Overlay-Fenster zu schließen und mit der Erfassung des Auftrags bzw. der Bestellung fortzufahren.
-<br>
+<br><br>
 
 | **Hinweis:** |
 | :- |

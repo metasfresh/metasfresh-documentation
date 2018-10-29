@@ -24,7 +24,7 @@ Make sure to comply with all requirements for the [data import in metasfresh](Da
 ### Upload and import the file
 1. [Upload your import file containing the product data](File_handling).
 1. [Start the action](StartAction) "Import attachment". An overlay window opens up.
-1. In the field **Attachment entry** select the uploaded [import file](Import_file_useful_tips).
+1. In the field **Attachment entry**, select the uploaded [import file](Import_file_useful_tips).
 1. Click "Start" to import the product data and close the overlay window.
 
 ### Review Product Data

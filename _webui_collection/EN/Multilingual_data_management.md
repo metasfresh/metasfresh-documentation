@@ -61,7 +61,7 @@ If you want to translate record tab entries, as in the case of dunning levels*, 
 1. ***If applicable:*** Replace the existing **Print Name** with your translation.
  >**Note:** This step applies to "Document Type" and "Dunning Level".
 
-1. ***If applicable:*** In the field **Name on Invoice** enter the name that shall appear on the invoice.
+1. ***If applicable:*** In the field **Name on Invoice**, enter the name that shall appear on the invoice.
  >**Note:** This step only applies to "Payment Term".
 
 1. Check the box **Translated**.

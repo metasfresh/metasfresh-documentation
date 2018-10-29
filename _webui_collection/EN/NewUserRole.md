@@ -20,7 +20,7 @@ A user role allows you to define which features the user can access and which da
 
 ### Assign the role to a system user
 1. Go to the record tab "User Assignment" at the bottom of the page and click ![](assets/Add_New_Button.png). An overlay window opens up.
-1. In the field **User/Contact** enter a part of the system user name.
+1. In the field **User/Contact**, enter a part of the system user name.
  >**Note 1:** Hit `SPACE` to see all available [system users](New_system_user).<br><br>
  >**Note 2:** Select one of the shown options with the mouse or ![](../DE/assets/Workflow_Auftrag_Bis_Rechnung_WebUI-73797.png).
 

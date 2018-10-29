@@ -21,7 +21,7 @@ ref: newproduct
 1. Choose a **UOM** for the product.
  >**Note:** This UOM is used for inventory management and ***must not be confused*** with the sales UOM defined when adding a price!
 
-1. In the field **Search Key** enter a product number.
+1. In the field **Search Key**, enter a product number.
  >**Note 1:** This number will appear in documents such as sales order confirmations etc.<br><br>
  >**Note 2:** This number can also be assigned automatically.
 
@@ -35,7 +35,7 @@ ref: newproduct
 ## Further Relevant Fields
 - The field **UOM** (unit of measurement) determines in which unit the product is managed in stock (stock UOM).
  >**Note 1:** Once the first receipt is issued with this product, the stock UOM cannot be easily changed.<br><br>
- >**Note 2:** You can define a different sales UOM isolated from the stock UOM in the record tab **Price**. In this case, you also have to define a [UOM conversion](Convert_UOMs).
+ >**Note 2:** You can define a different sales UOM isolated from the stock UOM under the record tab "Price". In this case, you also have to define a [UOM conversion](Convert_UOMs).
 
 - The field **Product Type** determines the type of product.
 

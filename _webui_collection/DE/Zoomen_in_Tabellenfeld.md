@@ -18,7 +18,7 @@ Diese Funktion steht für Tabellen sowohl in der [Listenansicht](Ansichten) als 
 1. Gehe mit dem Mauszeiger über das Tabellenfeld, zu dessen Inhalt Du springen möchtest, und öffne mit einem Rechtsklick das Kontextmenü.
 1. Klicke auf ![](assets/zoom_into_context.png), um in das jeweilige Fenster zu wechseln.
 1. Das Fenster wird in einem neuen Tab geöffnet.
-<br>
+<br><br>
 
 | **Wichtig!** |
 | :- |

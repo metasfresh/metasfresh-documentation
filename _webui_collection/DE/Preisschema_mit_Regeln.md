@@ -23,13 +23,14 @@ Möchtest Du eine Preisliste kopieren, benötigst Du hierzu ein gültiges Preiss
 1. Wähle die **Preis Art** *Preisliste* aus.
 
 ### Dem Preisschema Regeln hinzufügen
-**Hinweis:**<br>
-Damit eine Preisliste kopiert werden kann, muss das verwendete Preisschema mindestens eine Schemaposition enthalten. Es ist jedoch nicht unbedingt nötig, dass bestimmte Regeln, wie z.B. Produkt, Geschäftspartner oder Aufschlag, definiert werden.
+| **Hinweis:** |
+| :- |
+| Damit eine Preisliste kopiert werden kann, muss das verwendete Preisschema mindestens eine Schemaposition enthalten. Es ist jedoch nicht unbedingt nötig, dass bestimmte Regeln, wie z.B. Produkt, Geschäftspartner oder Aufschlag, definiert werden. |
 
 1. Gehe zur Registerkarte "Schema Position" unten auf der Seite und klicke auf ![](assets/Neu_hinzufuegen_Button.png). Es öffnet sich ein Overlay-Fenster.
 1. Trage einen **Aufschlag auf Standardpreis** ein oder belasse ihn bei *0,00*.
 1. Klicke auf "Bestätigen", um das Overlay-Fenster zu schließen und die Regel zur Liste hinzuzufügen.
-<br>
+<br><br>
 
 | **Hinweis:** |
 | :- |

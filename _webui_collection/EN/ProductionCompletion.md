@@ -39,12 +39,12 @@ This is the easiest way to produce in metasfresh. The produced quantity is simpl
 
 1. ***Optional:*** Select **TU Packing Instructions**.
 1. ***Optional:*** Select **LU Packing Instructions**.
-1. In the field **CU Quantity** enter the received quantity of the product.
-1. In the field **TU Quantity** enter the number of transport units.
+1. In the field **CU Quantity**, enter the received quantity of the product.
+1. In the field **TU Quantity**, enter the number of transport units.
  >**Note 1:** The field **TU Quantity** appears only if **TU Packing Instructions** are available.<br><br>
  >**Note 2:** The TU Quantity must be ***at least 1***.
 
-1. In the field **LU Quantity** enter the number of loading units.
+1. In the field **LU Quantity**, enter the number of loading units.
  >**Note 1:** The field **LU Quantity** appears only if **LU Packing Instructions** are available.<br><br>
  >**Note 2:** The field **LU Packing Instructions** appears only if **TU Packing Instructions** are available.<br><br>
  >**Note 3:** The LU Quantity must be ***at least 1***.

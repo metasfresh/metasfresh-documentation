@@ -26,21 +26,17 @@ Wird ein Auftrag erfasst, überprüft die *Materialdisposition* anhand der Produ
 1. Öffne den Eintrag des gewünschten Produktes aus der [Listenansicht](Ansichten).
 1. Gehe zur Registerkarte "Daten Planung" unten auf der Seite und klicke auf ![](assets/Neu_hinzufuegen_Button.png). Es öffnet sich ein Overlay-Fenster.
 
----
-
-#### Für den Einkauf
-1. Soll die Planung von der Materialdisposition berücksichtigt werden, setze ein Häkchen bei **Plan erzeugen**.
-1. Setze das Feld **Eingekauft** auf *Ja*.
+#### a) Für den Einkauf
+1. Soll die Planung von der Materialdisposition berücksichtigt werden, setze ein Häkchen bei **Beleg erstellen**.
+1. Setze das Feld **Wird eingekauft** auf *Ja*.
 1. Klicke auf "Bestätigen", um das Overlay-Fenster zu schließen und die Plandaten zur Liste hinzuzufügen.
 
----
-
-#### Für die Produktion
+#### b) Für die Produktion
 1. Wähle eine **Stücklistenkonfiguration** aus.
 1. Wähle einen **Arbeitsablauf** aus.
 1. Wähle eine **Produktionsressource** aus.
-1. Soll der Produktionsauftrag von der Materialdisposition berücksichtigt werden, setze ein Häkchen bei **Plan erzeugen**.
-1. Soll der Produktionsauftrag automatisch fertiggestellt werden, setze ein Häkchen bei **IsDocComplete**.
+1. Soll der Produktionsauftrag von der Materialdisposition berücksichtigt werden, setze ein Häkchen bei **Beleg erstellen**.
+1. Soll der Produktionsauftrag automatisch fertiggestellt werden, setze ein Häkchen bei **Beleg fertigstellen**.
 1. Setze das Feld **Wird produziert** auf *Ja*.
  >**Hinweis:** In diesem Fall legt die Materialdisposition automatisch einen Produktionsauftrag an, sobald ein Auftrag erstellt wurde.
 

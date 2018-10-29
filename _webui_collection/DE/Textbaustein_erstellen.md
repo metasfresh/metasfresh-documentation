@@ -4,12 +4,12 @@ layout: default
 tags:
   - Marketing
 lang: de
-sequence: 20
+sequence: 30
 ref: create_boiler_plate
 ---
 
 ## Übersicht
-Mithilfe von Textbausteinen kannst Du Textvorlagen für Briefe erstellen, welche Du in Marketingkampagnen einsetzen kannst, z.B. bei [Serienbriefen](Serienbriefe_erstellen).
+Mithilfe von Textbausteinen kannst Du Textvorlagen für Briefe erstellen, welche Du in Marketingkampagnen einsetzen kannst, z.B. in [Serienbrief-Kampagnen](Serienbriefe_erstellen).
 
 ## Schritte
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Textbausteine".

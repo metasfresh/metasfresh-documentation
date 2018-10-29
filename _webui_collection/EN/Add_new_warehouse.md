@@ -15,7 +15,7 @@ ref: add_new_warehouse
 1. Open "Warehouse" from the [menu](Menu).
 1. [Add a new warehouse](New_Record_Window).
 1. Give the warehouse a **Name**, e.g., "[Empty Container Depot](Add_empty_container_depot)".
-1. In the field **Partner Location** enter a part of the location name and click on one of the results.
+1. In the field **Partner Location**, enter a part of the location name and click on one of the results.
  >**Note 1:** Hit `SPACE` to see all available partner locations.<br><br>
  >**Note 2:** Select one of the shown options with the mouse or ![](../DE/assets/Workflow_Auftrag_Bis_Rechnung_WebUI-73797.png).
 

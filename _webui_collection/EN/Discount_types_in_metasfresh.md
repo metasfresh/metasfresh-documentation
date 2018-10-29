@@ -35,6 +35,6 @@ With the [order line group discount](Order_line_group_discount) you can combine 
 ---
 
 ## Automatic Volume Discount Schema (Tiered Discount)
-By means of the [automatic volume discount schema](Automatic_volume_discount) you can preset specific discount conditions, such as **Tiered Discounts (Volume Discounts)** for individual products or entire product categories, and assign them to a business partner or group.
+By means of the [automatic volume discount schema](Automatic_volume_discount), you can preset specific discount conditions, such as **Tiered Discounts (Volume Discounts)** for individual products or entire product categories, and assign them to a business partner or group.
 
 Upon fulfillment of these conditions in an order request by this business partner, the discounts will be applied automatically.

@@ -27,7 +27,7 @@ In metasfresh, time frame conditions of a contract include the term duration, te
 1. ***Optional:*** Check the box **Auto renew Contract** to make the contract run in a loop.
  >**Note:** In this case, the box **Complete next terms automatically** appears. Check this box, too.
 
-1. ***Optional:*** In the field **Next Contract Terms** you can select the follow-up contract for the expired one.
+1. ***Optional:*** In the field **Next Contract Terms**, you can select the follow-up contract for the expired one.
 
 ### Define the Transition Conditions
 The transition conditions determine at what moment before the end or change of a contract the contractual party may perform a status change, such as the termination of the contract.

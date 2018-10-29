@@ -15,13 +15,13 @@ Das Dashboard kannst Du auch nach eigenem Bedarf anpassen und Widgets hinzufüge
 
 ## Dashboard anpassen
 1. [Melde Dich an](Anmeldung) oder [gehe ins Menü](Menu) und öffne das Fenster "DASHBOARD".
-1. Öffne das [Aktionsmenü](AktionStarten) und klicke auf "Fenster anpassen". Es öffnet sich am rechten Seitenrand ein kleines Modulfenster mit den verfügbaren Widgets.
+1. Öffne das [Aktionsmenü](AktionStarten) ![](assets/actionsmenu_WebUI.png) und klicke auf "Fenster anpassen". Es öffnet sich am rechten Seitenrand ein kleines Auswahlfenster mit den verfügbaren Widgets.
  >**Hinweis:** Drücke `Alt` + `O` / `⌥ alt` + `O`.
 
-1. Um das Modulfenster wieder zu schließen und die Anpassung zu beenden, öffne erneut das [Aktionsmenü](AktionStarten) und klicke auf "Fenster speichern".
+1. Um das Auswahlfenster wieder zu schließen und die Anpassung zu beenden, öffne erneut das [Aktionsmenü](AktionStarten) und klicke auf "Fenster speichern".
 
 ### Widgets hinzufügen
-- Wähle aus dem Modulfenster ein Widget durch anklicken aus und ziehe es per *Drag and Drop* ![](assets/Cursor_MoveWidget_YES.png) an die gewünschte Stelle auf dem Dashboard.
+- Wähle aus dem Auswahlfenster ein Widget durch anklicken aus und ziehe es per *Drag and Drop* ![](assets/Cursor_MoveWidget_YES.png) an die gewünschte Stelle auf dem Dashboard.
  >**Hinweis:** Wenn ein Widget an einer bestimmten Stelle nicht abgelegt werden kann, verwandelt sich der Mauszeiger in dieses Symbol ![](assets/Cursor_MoveWidget_NO.png).
 
 ### Widgets entfernen

@@ -14,8 +14,9 @@ ref: login
  >**Important:** Please bear in mind that the username and password are ***case-sensitive***!
 
 ## Steps to log in as System Adminstrator
-**Note:**<br>
-This user cannot change the interface language in WebUI as it is possible on the Java client back end.
+| **Note:** |
+| :- |
+| This user cannot change the interface language in WebUI as it is possible on the Java client back end. |
 
 1. Open the URL of the metasfresh service in your web browser, e.g., http://dockerhost.
 1. Log in with the username *metasfresh* and the password *metasfresh*.

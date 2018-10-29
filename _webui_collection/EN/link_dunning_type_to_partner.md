@@ -19,7 +19,7 @@ For a dunning type to take effect in connection with a partner, you first need t
 1. Go to the record tab "Customer" at the bottom of the page and open the [advanced edit menu](Open_AdvancedEditTab) of the customer line.
  >**Note:** The business partner must be registered as a customer for dunning to become available.
 
-1. In the field **Dunning** select the desired dunning type.
+1. In the field **Dunning**, select the desired dunning type.
 1. Click "Done" to close the advanced edit menu and apply the changes.
  >**Note:** Alternatively you can also double-click the field in the column **Dunning** of the customer line and select a dunning type from the drop-down list.
 

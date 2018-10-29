@@ -10,7 +10,7 @@ ref: add_import_format
 ---
 
 ## Overview
-By means of the import format you can determine which data, or rather columns, from the import file are to be transferred, how these columns are named and delimited (separators), and into which database tables the import data are to be taken over.
+By means of the import format, you can determine which data, or rather columns, from the import file are to be transferred, how these columns are named and delimited (separators), and into which database tables the import data are to be taken over.
 
 ## Steps
 

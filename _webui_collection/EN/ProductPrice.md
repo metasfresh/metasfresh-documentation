@@ -19,7 +19,7 @@ ref: productprice
 1. The field **UOM** determines the sales UOM and ***must not be confused*** with the product's stock UOM (inventory management)!
  >**Note:** If sales UOM ≠ stock UOM, you have to define a [UOM conversion](Convert_UOMs).
 
-1. In the field **Tax Category** you can select the respective value-added tax (VAT) category, such as *normal*, *reduced*, *tax-free*.
+1. In the field **Tax Category**, you can select the respective value-added tax (VAT) category, such as *normal*, *reduced*, *tax-free*.
 1. Click "Done" to close the overlay window and add the price list version to the list.
 
 ## Further Relevant Fields
