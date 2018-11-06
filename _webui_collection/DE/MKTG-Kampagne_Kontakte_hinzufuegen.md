@@ -23,7 +23,7 @@ Damit Kontakte (Nutzer bzw. Geschäftspartner) in die Verteilerliste einer [*Ser
 
 ### Kontakte aus Geschäftspartnern
 
-#### a) in E-Mail-Kampagne
+#### a) in E-Mail-Kampagne exportieren
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Geschäftspartner".
 1. [Selektiere](AuswahlBelege) in der [Listenansicht](Ansichten) die [Geschäftspartner](Neuer_Geschaeftspartner), die Du Deiner E-Mail-Kampagne als Kontakte hinzufügen möchtest.
 1. [Starte die Quick-Action](AktionStarten) "Export in E-Mail-Kampagne". Es öffnet sich ein Overlay-Fenster.
@@ -35,7 +35,7 @@ Damit Kontakte (Nutzer bzw. Geschäftspartner) in die Verteilerliste einer [*Ser
 
 1. Klicke auf "Start", um das Overlay-Fenster zu schließen und die Kontakte zur E-Mail-Kampagne hinzuzufügen.
 
-#### b) in Serienbrief-Kampagne
+#### b) in Serienbrief-Kampagne exportieren
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Geschäftspartner".
 1. [Selektiere](AuswahlBelege) in der [Listenansicht](Ansichten) die [Geschäftspartner](Neuer_Geschaeftspartner), die Du Deiner Serienbrief-Kampagne als Kontakte hinzufügen möchtest.
 1. [Starte die Aktion](AktionStarten) "Export in Serienbrief-Kampagne". Es öffnet sich ein Overlay-Fenster.
@@ -53,9 +53,10 @@ Damit Kontakte (Nutzer bzw. Geschäftspartner) in die Verteilerliste einer [*Ser
 ---
 
 ### Kontakte aus Nutzern
+
 | **Besonderer Hinweis:** |
 | :- |
-| Bei Nutzern kann man nicht gesondert zwischen den Aktionen *Export in E-Mail-* oder *Serienbrief-Kampagne* wählen. Ob also eine E-Mail- oder Standardadresse benötigt wird, hängt daher von der Art der Marketingkampagne bzw. den Einstellungen der [Marketing-Plattform](MKTG-Plattform_erstellen) ab.<br> Für eine *E-Mail-Kampagne* muss im Nutzereintrag eine **E-Mail-Adresse** angegeben sein! Eine Verknüpfung mit einem Geschäftspartner ist in diesem Fall nicht erforderlich.<br> Bei einer *Serienbrief-Kampagne* muss der Nutzer jedoch [mit einem Geschäftspartner verknüpft](Nutzer_GPartner_zuweisen) sein, der seinerseits wiederum über eine Adresse als **Rechnungsstandard** verfügen muss! |
+| Bei Nutzern kann man nicht unabhängig voneinander zwischen den Aktionen *Export in E-Mail-* oder *Serienbrief-Kampagne* wählen. Ob also eine E-Mail- oder Standardadresse benötigt wird, hängt daher von der Art der Marketingkampagne bzw. den Einstellungen der [Marketing-Plattform](MKTG-Plattform_erstellen) ab.<br> Für eine *E-Mail-Kampagne* muss im Nutzereintrag eine **E-Mail-Adresse** angegeben sein! Eine Verknüpfung mit einem Geschäftspartner ist in diesem Fall nicht erforderlich.<br> Bei einer *Serienbrief-Kampagne* muss der Nutzer jedoch [mit einem Geschäftspartner verknüpft](Nutzer_GPartner_zuweisen) sein, der seinerseits wiederum über eine Adresse als **Rechnungsstandard** verfügen muss! |
 
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Nutzer".
 1. [Selektiere](AuswahlBelege) in der [Listenansicht](Ansichten) die [Nutzer](Nutzer_anlegen), die Du Deiner Marketingkampagne als Kontakte hinzufügen möchtest.

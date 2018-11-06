@@ -16,7 +16,7 @@ Mithilfe von Serienbriefen kannst Du mit wenig Aufwand eine Vielzahl Deiner Kont
 - [Richte die Serienbriefe für eine Marketingkampagne ein](Serienbriefe_einrichten).
 
 ## Schritte
-1. Öffne den Eintrag einer bestehenden [Marketingkampagne](Menu).
+1. Öffne den Eintrag einer bestehenden [Marketingkampagne](Menu) bzw. [lege eine neue an](MKTG-Kampagne_erstellen).
 1. [Füge der Kampagne Kontakte hinzu](MKTG-Kampagne_Kontakte_hinzufuegen), falls nötig.
 1. [Starte die Aktion](AktionStarten) "Create letters".
 1. Du erhältst oben rechts eine Benachrichtigung ![](assets/NotificationBell_WebUI.png), sobald die Serienbriefe erstellt sind. Dies kann ein paar Sekunden dauern.
