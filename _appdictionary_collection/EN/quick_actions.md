@@ -1,8 +1,8 @@
 ---
-title: How do I configure a process to be shown as quick action ?
+title: Configure a process to be shown as quick action ?
 layout: default
 tags:  
-  - Window
+  - Process
 lang: en
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: How to identify application dictionary objects in web UI
+title: Identify application dictionary objects in web UI
 layout: default
 tags:  
   - Window
