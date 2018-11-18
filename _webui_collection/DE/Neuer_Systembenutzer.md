@@ -27,7 +27,7 @@ Systembenutzer sind Kontakte (Nutzer) mit Anmeldeberechtigung zu Deinem System.
  >**Hinweis 1:** Ein **Altes Passwort** ist nicht erforderlich, wenn der Nutzer neu erstellt wird.<br><br>
  >**Hinweis 2:** Stelle sicher, dass das Passwort ***mindestens 8 Zeichen*** hat, sonst wird der Eintrag ***nicht gespeichert***!<br><br>
  >**Hinweis 3:** Beachte beim Passwort die ***Groß- und Kleinschreibung***!<br><br>
- >**Hinweis 4:** Halte ![](assets/ShowPassword_Icon.png) gedrückt, um das Password anzuzeigen.
+ >**Hinweis 4:** Halte ![](assets/ShowPassword_Icon.png) gedrückt, um das Passwort anzuzeigen.
 
 1. Gib das Passwort im Feld **Neues Passwort (retype)** erneut ein.
 1. Klicke auf "Start", um das neue Passwort zu übernehmen und das Overlay-Fenster zu schließen.

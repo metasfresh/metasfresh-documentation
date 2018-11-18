@@ -9,9 +9,11 @@ ref: switchlanguage
 ---
 
 ## Schritte
-1. Klicke rechts oben im Fenster auf ![](assets/UserMenu_Rabbit_WebUI.png) oder drücke `Alt` + `4` / `⌥ alt` + `4`, um das Benutzermenü zu öffnen.
+1. Öffne rechts oben in der Menüleiste das Nutzermenü ![](assets/UserMenu_Rabbit_WebUI.png).
+ >**Hinweis:** Drücke `Alt` + `4` / `⌥ alt` + `4`.
+
 1. Klicke auf "Einstellungen".
-1. Wähle eine andere **Sprache** aus.
+1. Wähle auf der linken Seite eine andere **Sprache** aus.
 
 ## Beispiel
-![](../DE/assets/SwitchLanguage_DE-EN.gif)
+![](assets/SwitchLanguage_DE-EN.gif)
