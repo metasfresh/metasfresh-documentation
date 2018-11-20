@@ -1,5 +1,5 @@
 ---
-title: Schnelleinstieg
+title: Schnelleinstieg (Grundlegende WebUI-Benutzung)
 layout: default
 tags:
   - Anfängertips
@@ -14,7 +14,10 @@ ref: quickstart
 
 ## Schritte
 1. [Melde Dich an](Anmeldung).
-1. [Ändere Dein Passwort](Passwort_aendern)
+1. [Ändere Dein Passwort](Passwort_aendern).
 1. [Wähle Deine Sprache](SwitchLanguage).
 1. [Stelle Deine Firmendaten ein](Ersteinrichtung).
 1. [Spiele einen Beispiel-Workflow durch](Workflow_Auftrag_Bis_Rechnung).
+
+## Tutorial
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9ny2Cp9e99s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
