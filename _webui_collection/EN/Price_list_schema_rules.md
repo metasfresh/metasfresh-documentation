@@ -23,6 +23,7 @@ For copying a price list you require a valid price list schema where you can det
 1. Select the **Discount Type** *Price List*.
 
 ### Add rules to the price list schema
+
 | **Note:** |
 | :- |
 | In order for a price list to be copied, the selected price list schema must include at least one schema line. However, it is not strictly necessary to define specific rules, such as a product, business partner or surcharge amount. |

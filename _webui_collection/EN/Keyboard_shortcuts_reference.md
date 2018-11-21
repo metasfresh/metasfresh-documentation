@@ -17,7 +17,7 @@ In metasfresh, you can speed up some processes in several contexts by using cert
 | :---: | :---: | :--- |
 | `Alt` + `1` | `⌥ alt` + `1` | Toggle Actions Menu ![](assets/actionsmenu_WebUI.png) |
 | `Alt` + `2` | `⌥ alt` + `2` | Toggle Navigation Menu ![](assets/Menu_House_WebUI.png) |
-| `Alt` + `3` | `⌥ alt` + `3` | Toggle Inbox Menu ![](assets/NotificationBell_WebUI.png) |
+| `Alt` + `3` | `⌥ alt` + `3` | Toggle Notifications Inbox ![](assets/NotificationBell_WebUI.png) |
 | `Alt` + `4` | `⌥ alt` + `4` | Toggle User Menu ![](assets/UserMenu_Rabbit_WebUI.png) |
 | `Alt` + `5` | `⌥ alt` + `5` | Toggle list of documents (Sidebar) ![](assets/Sidebar_Icon_WebUI.png) |
 | `Alt` + `6` | `⌥ alt` + `6` | Toggle list of referenced documents (Sidebar) ![](assets/related_docs_fork.png) |

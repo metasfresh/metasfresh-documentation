@@ -19,7 +19,7 @@ Stattdessen kannst Du jedoch auch eine bestehende Preislistenversion samt Preise
 - [Lege ein Preisschema an](Preisschema_mit_Regeln), z.B. mit der Benennung *Preislisten kopieren*.
 
 ## Schritte
-1. Öffne den Eintrag einer bestehenden [Preisliste](Menu).
+1. Öffne den Eintrag einer bestehenden [Preisliste](Menu) bzw. [lege eine neue an](Preisliste_anlegen).
 1. [Lege eine neue Preislistenversion an](Preislistenversion_anlegen).
 1. Gehe zur Registerkarte "Preislistenversion" unten auf der Seite.
 1. Klicke doppelt auf das Feld **Basis-Preislistenversion** der neu erstellten Preislistenversion und wähle aus der Dropdown-Liste die Basisversion aus, von der die Preise und Produkte übernommen werden sollen.
