@@ -17,7 +17,7 @@ lang: en
 | WebAPI        | Java 8      | Spring Boot |REST, JSON, Swagger, Spring, hazelcast, websocket| [Github](https://github.com/metasfresh/metasfresh-webui)
 | App         | Java 8, SQL       | Spring Boot | Jasper Reports, Application Dictionary| [Github](https://github.com/metasfresh/metasfresh)
 | DB         | SQL, PgSQL       | Postgres (9.5+) | Application Dictionary | [Github](https://github.com/metasfresh/metasfresh)
-| Reporting | JRXML | Jasperserver  | Jasper Reports 6.5.1 | [Github](https://github.com/metasfresh/metasfresh/tree/master/de.metas.fresh/de.metas.fresh.base/src/main/jasperreports/de/metas)
+| Reporting | JRXML | Jasperserver  | Jasper Reports 6.5.1 [Client](https://community.jaspersoft.com/project/jaspersoft-studio/releases#project_releases-old-1)| [Github](https://github.com/metasfresh/metasfresh/tree/master/de.metas.fresh/de.metas.fresh.base/src/main/jasperreports/de/metas)
 | Java Client| Java 8 | Java JRE 8+ | Swing | [Github](https://github.com/metasfresh/metasfresh)
 ||
 | Optional: |
