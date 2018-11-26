@@ -56,6 +56,9 @@ checkout = git clone 'git@github.com:metasfresh/metasfresh-procurement-webui.git
 
 [/c/workspaces/mf/metasfresh-dist]
 checkout = git clone 'git@github.com:metasfresh/metasfresh-dist.git' 'metasfresh-dist'
+
+[/c/workspaces/mf_vanilla/metasfresh-release-info]
+checkout = git clone 'git@github.com:metasfresh/metasfresh-release-info.git' 'metasfresh-release-info'
 ```
 
 ## Avoiding the "mr -t run" prefix
