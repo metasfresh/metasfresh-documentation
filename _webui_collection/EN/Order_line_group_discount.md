@@ -23,7 +23,7 @@ ref: order_line_group_discount
  [Follow these instructions](Product_for_group_discount) to configure such a "discount product".
 
 1. Select a **Group**.<br>
-***Alternatively*** you can also enter a **Group name** of your choice.
+***Alternatively***, you can also enter a **Group name** of your choice.
 1. Click "Start" to close the overlay window and create the group. A new order line with the **Compensation Type** *Discount* will be added to the list.
 1. Move the horizontal scrollbar of the order line table to the right until you reach the column **Compensation percentage**.
 1. Double-click the field **Compensation percentage** of the discount line and enter a percentage there.

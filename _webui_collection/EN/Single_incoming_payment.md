@@ -25,7 +25,7 @@ After you have received a payment, you can enter the amount as an *Incoming Paym
  >**Note 2:** The **Payment amount** and the **Currency** are taken over automatically from the invoice.
 
 1. [Complete the invoice](DocumentProcessingComplete).
-1. [Jump into the field](Jumpto) **Invoice** to review the invoice status, ***or alternatively*** you can go to the record tab "Allocations" and [zoom into](Zoom_into_table_field) the field in the column **Invoice** of the respective allocation line.
+1. [Jump into the field](Jumpto) **Invoice** to review the invoice status, ***or alternatively***, you can go to the record tab "Allocations" and [zoom into](Zoom_into_table_field) the field in the column **Invoice** of the respective allocation line.
 
 ## Example
 ![](assets/single_incoming_payment.gif)

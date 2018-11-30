@@ -2,15 +2,15 @@
 title: How do I define a dunning type?
 layout: default
 tags:
-  - Workflow
   - Dunning
+  - Setup
 lang: en
 sequence: 30
 ref: define_dunning_type
 ---
 
 ## Overview
-The dunning type determines the point when a [dunning run](Dunning_Run) starts and how many levels it goes through.
+The dunning type determines the moment when a [dunning run](Dunning_Run) starts and how many levels it goes through.
 
 ## Steps
 1. Open "Dunning Type" from the [menu](Menu).
@@ -19,9 +19,10 @@ The dunning type determines the point when a [dunning run](Dunning_Run) starts a
 1. Select a **Dunning Trigger**, e.g., *Default Payment Term*.
 
 ### Add Dunning Levels
+
 | **Important!** |
 | :- |
-| For a dunning type to take effect, it needs at least **one level**! |
+| For a dunning type to take effect, it requires at least **one level**! |
 
 1. Go to the record tab "Level" at the bottom of the page and click ![](assets/Add_New_Button.png). An overlay window opens up.
 1. Give the level a **Name**.

@@ -17,7 +17,7 @@ ref: ship_salesorder
 1. Klicke auf "Start", um zu bestätigen und das Overlay-Fenster zu schließen.
 1. Du erhältst oben rechts eine Benachrichtigung ![](assets/NotificationBell_WebUI.png), sobald die Lieferung erstellt ist.
 1. Klicke auf die Benachrichtigung, um den Lieferschein zu öffnen.
-1. [Öffne die PDF-Version](PDFVorschau) des Belegs, um ihn auszudrucken.<br>
+1. [Öffne die PDF-Vorschau](PDFVorschau) des Belegs, um ihn auszudrucken.<br>
 
 ## Beispiel
 ![](assets/auftrag_liefern.gif)

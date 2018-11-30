@@ -2,8 +2,8 @@
 title: How do I link a dunning type to a partner?
 layout: default
 tags:
-  - Workflow
   - Dunning
+  - Setup
 lang: en
 sequence: 40
 ref: link_dunning_type_to_partner
@@ -21,7 +21,7 @@ For a dunning type to take effect in connection with a partner, you first need t
 
 1. In the field **Dunning**, select the desired dunning type.
 1. Click "Done" to close the advanced edit menu and apply the changes.
- >**Note:** Alternatively you can also double-click the field in the column **Dunning** of the customer line and select a dunning type from the drop-down list.
+ >**Note:** Alternatively, you can also double-click the field in the column **Dunning** of the customer line and select a dunning type from the drop-down list.
 
 ### Example
 ![](assets/Link dunning type to customer.gif)

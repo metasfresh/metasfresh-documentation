@@ -2,8 +2,8 @@
 title: Wie richte ich das Mahnverfahren ein?
 layout: default
 tags:
-  - Workflow
   - Mahnwesen
+  - Einrichtung
 lang: de
 sequence: 10
 ref: setup_dunning

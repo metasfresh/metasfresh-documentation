@@ -2,8 +2,8 @@
 title: Wie richte ich eine Mahnart ein?
 layout: default
 tags:
-  - Workflow
   - Mahnwesen
+  - Einrichtung
 lang: de
 sequence: 30
 ref: define_dunning_type
@@ -19,6 +19,7 @@ Mit der Mahnart bestimmst Du den Zeitpunkt, ab dem ein [Mahnlauf](Mahnlauf) begi
 1. Wähle einen **Mahnauslöser** aus, z.B. *Standard Zahlungsbedingung*.
 
 ### Mahnstufen hinzufügen
+
 | **Wichtig!** |
 | :- |
 | Damit eine Mahnart wirksam wird, benötigt sie mindestens **eine Stufe**! |

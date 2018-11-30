@@ -2,8 +2,8 @@
 title: Wie richte ich die ausgehenden Belege für das Mahnverfahren ein?
 layout: default
 tags:
-  - Workflow
   - Mahnwesen
+  - Einrichtung
 lang: de
 sequence: 20
 ref: outbound_documents_config_dunning

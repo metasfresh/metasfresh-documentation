@@ -2,8 +2,8 @@
 title: Wie verknüpfe ich eine Mahnart mit einem Partner?
 layout: default
 tags:
-  - Workflow
   - Mahnwesen
+  - Einrichtung
 lang: de
 sequence: 40
 ref: link_dunning_type_to_partner

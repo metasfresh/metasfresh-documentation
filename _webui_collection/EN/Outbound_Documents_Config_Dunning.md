@@ -2,8 +2,8 @@
 title: How do I configure the outbound documents for dunning?
 layout: default
 tags:
-  - Workflow
   - Dunning
+  - Setup
 lang: en
 sequence: 20
 ref: outbound_documents_config_dunning
