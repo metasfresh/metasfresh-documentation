@@ -19,6 +19,8 @@ ref: add_new_warehouse
  >**Note 1:** Hit `SPACE` to see all available partner locations.<br><br>
  >**Note 2:** Select one of the shown options with the mouse or ![](../DE/assets/Workflow_Auftrag_Bis_Rechnung_WebUI-73797.png).
 
+1. ***Optional:*** Select a [**Warehouse Type**](Add_new_warehouse_type).
+
 ### Add a Place of Storage
 1. Go to the record tab "Locator" at the bottom of the page and click ![](assets/Add_New_Button.png). An overlay window opens up.
 1. In each of the fields **Aisle**, **Rack**, **Level** and **Tray** enter the value *0*.

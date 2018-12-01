@@ -5,7 +5,7 @@ tags:
   - Master Data
   - Warehouse
 lang: en
-sequence: 30
+sequence: 40
 ref: automatic_distribution_network
 ---
 

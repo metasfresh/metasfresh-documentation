@@ -19,6 +19,8 @@ ref: add_new_warehouse
  >**Hinweis 1:** Drücke die `LEERTASTE`, um alle Standorte zu sehen.<br><br>
  >**Hinweis 2:** Auswahl des Treffers mit Maus oder ![](assets/Workflow_Auftrag_Bis_Rechnung_WebUI-73797.png).
 
+1. ***Optional:*** Wähle einen [**Warehouse Type**](Lagerhaustyp_hinzufuegen) (*Lagerhaustyp*) aus.
+
 ### Lagerort hinzufügen
 1. Gehe zur Registerkarte "Lagerort" unten auf der Seite und klicke auf ![](assets/Neu_hinzufuegen_Button.png). Es öffnet sich ein Overlay-Fenster.
 1. Trage in die Felder **Gang**, **Regal**, **Ebene** und **Fach** jeweils den Wert *0* ein.
