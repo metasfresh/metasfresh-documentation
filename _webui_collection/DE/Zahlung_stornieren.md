@@ -2,8 +2,9 @@
 title: Wie storniere ich eine Zahlung?
 layout: default
 tags:
-  - Zahlungsarten
-  - Zahlungseingänge
+  - Rechnungswesen
+  - Forderungen und Verbindlichkeiten
+  - Zahlungseingänge (Forderungen)
 lang: de
 sequence: 30
 ref: voiding_payment

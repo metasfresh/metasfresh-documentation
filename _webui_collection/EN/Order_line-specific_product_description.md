@@ -11,7 +11,7 @@ ref: order_line-specific_product_description
 ---
 
 ## Overview
-An order line-specific product description can only be recorded in a sales order and will thus also only appear on the sales order confirmation underneath the product name.
+An order line-specific product description can only be recorded in a sales order and will subsequently only appear on the corresponding sales order confirmation, underneath the product name.
 
 For additional information on how to place manual text on documents, please see [here](Print_text_on_documents-general).
 

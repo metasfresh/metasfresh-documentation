@@ -1,10 +1,11 @@
 ---
-title: Sammelrechnung für Kunden aktivieren
+title: Wie aktiviere ich Sammelrechnungen für Kunden?
 layout: default
 tags:
-  - Workflow-Manipulation
+  - Rechnungswesen
   - Fakturierung
 lang: de
+sequence: 10
 ref: enable_collectivebill
 ---
 
@@ -18,6 +19,7 @@ ref: enable_collectivebill
 1. Klicke auf "Bestätigen", um die "Erweiterte Erfassung" zu schließen.
 
 ## Erläuterung der Regeln
+
 | Regel | Bezeichnung | Erläuterung |
 |---|---|---|
 | invoicing-agg-std | Standardregel | Zusammenfassung erfolgt ohne Einschränkungen |

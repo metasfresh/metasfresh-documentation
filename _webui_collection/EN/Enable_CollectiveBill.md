@@ -1,10 +1,11 @@
 ---
-title: Enable collective bills for customers
+title: How do I enable collective bills for customers?
 layout: default
 tags:
-  - Workflow-Manipulation
+  - Accounting
   - Billing
 lang: en
+sequence: 10
 ref: enable_collectivebill
 ---
 
@@ -18,6 +19,7 @@ ref: enable_collectivebill
 1. Click "Done" to close the advanced edit menu.
 
 ## Explanation of the Rules
+
 | Rule | Description | Explanation |
 |---|---|---|
 | invoicing-agg-std | Standard Rule | Aggregation is done without restrictions |

@@ -2,8 +2,9 @@
 title: How do I void a payment?
 layout: default
 tags:
-- Payments
-- Incoming Payments
+  - Accounting
+  - Receivables and Payables
+  - Incoming Payments (Accounts Receivable)
 lang: en
 sequence: 30
 ref: voiding_payment
