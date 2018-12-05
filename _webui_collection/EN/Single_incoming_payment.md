@@ -2,9 +2,8 @@
 title: How do I record a payment against a single invoice?
 layout: default
 tags:
-  - Accounting
-  - Receivables and Payables
-  - Incoming Payments (Accounts Receivable)
+  - Payments
+  - Incoming Payments
 lang: en
 sequence: 10
 ref: single_incoming_payment
