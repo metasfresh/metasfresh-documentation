@@ -23,7 +23,7 @@ The print format allows you, among other things, to set paper size and page layo
 1. Scroll down to the field **Jasper Process** and select an appropriate process, e.g., *Serial Letter*.
  >**Note:** Jasper creates the layouts for the documents according to the settings.
 
-1. Click "Done" to close the advanced edit menu and apply the changes.
+1. Click "Done" to apply the changes and close the advanced edit menu.
 1. [metasfresh saves the progress automatically](Saveindicator).
 <br><br>
 

@@ -2,6 +2,7 @@
 title: How do I perform a dunning run? (Create Dunning Documents)
 layout: default
 tags:
+  - Accounting
   - Dunning
 lang: en
 sequence: 10

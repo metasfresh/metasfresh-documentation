@@ -2,6 +2,7 @@
 title: Wie erfasse ich eine Zahlung für eine einzelne Rechnung?
 layout: default
 tags:
+  - Rechnungswesen
   - Zahlungsarten
   - Zahlungseingänge
 lang: de

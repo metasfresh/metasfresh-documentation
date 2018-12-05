@@ -2,6 +2,7 @@
 title: How do I configure the outbound documents for dunning?
 layout: default
 tags:
+  - Accounting
   - Dunning
   - Setup
 lang: en

@@ -2,6 +2,7 @@
 title: How do I attach invoice documents to a dunning letter?
 layout: default
 tags:
+  - Accounting
   - Dunning
 lang: en
 sequence: 20

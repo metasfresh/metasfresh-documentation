@@ -2,6 +2,7 @@
 title: How do I define a dunning type?
 layout: default
 tags:
+  - Accounting
   - Dunning
   - Setup
 lang: en

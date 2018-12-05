@@ -2,6 +2,7 @@
 title: How do I set up dunning?
 layout: default
 tags:
+  - Accounting
   - Dunning
   - Setup
 lang: en

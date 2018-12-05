@@ -2,6 +2,7 @@
 title: Wie füge ich einem Mahnbrief Rechnungsbelege bei?
 layout: default
 tags:
+  - Rechnungswesen
   - Mahnwesen
 lang: de
 sequence: 20

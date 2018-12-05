@@ -2,6 +2,7 @@
 title: How do I record a payment against a single invoice?
 layout: default
 tags:
+  - Accounting
   - Payments
   - Incoming Payments
 lang: en
