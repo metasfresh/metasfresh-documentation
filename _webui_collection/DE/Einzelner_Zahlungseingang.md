@@ -3,8 +3,8 @@ title: Wie erfasse ich eine Zahlung für eine einzelne Rechnung?
 layout: default
 tags:
   - Rechnungswesen
-  - Zahlungsarten
-  - Zahlungseingänge
+  - Forderungen und Verbindlichkeiten
+  - Zahlungseingänge (Forderungen)
 lang: de
 sequence: 10
 ref: single_incoming_payment
