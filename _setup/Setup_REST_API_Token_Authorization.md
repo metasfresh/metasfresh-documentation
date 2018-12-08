@@ -107,4 +107,14 @@ curl -X POST "http://localhost:8181/api/sales/order/candidates/123456/attachment
 
 
 
-source: https://github.com/metasfresh/metasfresh/issues/4549#issuecomment-420188488
+source: (https://github.com/metasfresh/metasfresh/issues/4549#issuecomment-420188488)
+
+#### error messages
+
+```
+"{\"status\":400,\"body\":\"Could not read JSON document: Can not construct instance of de.metas.order.rest.model.JsonSalesOrderLine, problem: Ihr Test hat einen bisher unentdeckten Fehler offengelegt.\\r\\nBitte leiten Sie diese Meldung an metas weiter:\\n\\nAssumption failure: qty > 0 but it was 0\\n at [Source: java.io.PushbackInputStream@1cf29f9e; line: 1, column: 303] (through reference chain: de.metas.order.rest.model.JsonSalesOrderCreateRequest[\\\"lines\\\"]->java.util.ArrayList[3]); nested exception is com.fasterxml.jackson.databind.JsonMappingException: Can not construct instance of de.metas.order.rest.model.JsonSalesOrderLine, problem: Ihr Test hat einen bisher unentdeckten Fehler offengelegt.\\r\\nBitte leiten Sie diese Meldung an metas weiter:\\n\\nAssumption failure: qty > 0 but it was 0\\n at [Source: java.io.PushbackInputStream@1cf29f9e; line: 1, column: 303] (through reference chain: de.metas.order.rest.model.JsonSalesOrderCreateRequest[\\\"lines\\\"]->java.util.ArrayList[3])\"}"
+```
+
+**Reason**: You tried to add an order line with qty = 0 which is not allowed
+
+**Solution**: Put qty > 0
