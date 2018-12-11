@@ -2,8 +2,9 @@
 title: Wie verknüpfe ich eine Mahnart mit einem Partner?
 layout: default
 tags:
-  - Workflow
+  - Rechnungswesen
   - Mahnwesen
+  - Einrichtung
 lang: de
 sequence: 40
 ref: link_dunning_type_to_partner
@@ -20,7 +21,7 @@ Damit eine Mahnart in Verbindung mit einem Partner wirksam wird, musst Du sie er
  >**Hinweis:** Der Geschäftspartner muss als Kunde registriert sein, damit die Mahnfunktion verfügbar wird.
 
 1. Im Feld **Mahnung** kannst Du die gewünschte Mahnart einstellen.
-1. Klicke auf "Bestätigen", um die "Erweiterte Erfassung" zu schließen und die Änderungen zu übernehmen.
+1. Klicke auf "Bestätigen", um die Änderungen zu übernehmen und die "Erweiterte Erfassung" zu schließen.
  >**Hinweis:** Alternativ kannst Du auch doppelt auf das Feld in der Spalte **Mahnung** der Kundenzeile klicken und aus der Dropdown-Liste eine Mahnart auswählen.
 
 ### Beispiel
@@ -36,7 +37,7 @@ Damit eine Mahnart in Verbindung mit einem Partner wirksam wird, musst Du sie er
  >**Hinweis:** Drücke `Alt` + `E` / `⌥ alt` + `E`.
 
 1. Scrolle runter bis zum Feld **Mahnung** und wähle die gewünschte Mahnart aus.
-1. Klicke auf "Bestätigen", um die "Erweiterte Erfassung" zu schließen und die Änderungen zu übernehmen.
+1. Klicke auf "Bestätigen", um die Änderungen zu übernehmen und die "Erweiterte Erfassung" zu schließen.
 
 ### Beispiel
 ![](assets/Mahnart mit GPgruppe verknüpfen.gif)

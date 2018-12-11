@@ -2,8 +2,9 @@
 title: How do I set up dunning?
 layout: default
 tags:
-  - Workflow
+  - Accounting
   - Dunning
+  - Setup
 lang: en
 sequence: 10
 ref: setup_dunning

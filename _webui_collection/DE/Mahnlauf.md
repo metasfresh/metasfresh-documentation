@@ -1,11 +1,11 @@
 ---
-title: Wie führe ich einen Mahnlauf durch?
+title: Wie führe ich einen Mahnlauf durch? (Mahnbrief erstellen)
 layout: default
 tags:
-  - Workflow
+  - Rechnungswesen
   - Mahnwesen
 lang: de
-sequence: 50
+sequence: 10
 ref: dunning_run
 ---
 
@@ -14,30 +14,48 @@ ref: dunning_run
 1. Habe eine nicht bezahlte [Rechnung](Zu_Auftrag_Rechnung_erstellen) vorliegen.
 
 ## Schritte
+
+### Mahnkandidaten aktualisieren
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Mahndisposition".
 1. [Starte die Aktion](AktionStarten) "Mahnkandidaten erstellen/aktualisieren". Es öffnet sich ein Overlay-Fenster.
 1. Klicke auf "Start", um die Kandidaten zu aktualisieren und das Overlay-Fenster zu schließen.
 1. Drücke `F5`, um das Mahndispositionsfenster neuzuladen und die aktualisierten Kandidaten zu sehen.
-1. [Selektiere die Mahnkandidaten](AuswahlBelege), die Du mahnen möchtest.
- >**Hinweis:** Du kannst mehrere Kandidaten auf einmal verarbeiten.
+
+### Mahnungen erstellen
+1. [Selektiere den Mahnkandidaten](AuswahlBelege), den Du mahnen möchtest.
+ >**Hinweis:** Du kannst auch Mahnungen für mehrere Kandidaten auf einmal verarbeiten.
 
 1. [Starte die Aktion](AktionStarten) "Mahnkandidaten verarbeiten". Es öffnet sich ein Overlay-Fenster.
  >**Hinweis:** Diese Aktion kannst Du auch direkt aus dem Eintrag des jeweiligen Mahnkandidaten starten.
 
-1. Klicke auf "Start", um die Kandidaten zu verarbeiten und das Overlay-Fenster zu schließen.
+1. Klicke auf "Start", um die Mahnungen zu erstellen und das Overlay-Fenster zu schließen.
+
+### Mahnunterlagen drucken
+1. Öffne den Eintrag des Mahnkandidaten, dessen Mahnunterlagen Du drucken möchtest.
+1. [Springe über die verknüpften Belege](SpringezuBelegen) direkt in das Fenster "Mahnungen" (unter FINANZEN) und öffne dort das bereits [herausgefilterte](Filterfunktion) Mahndokument.
+ >**Hinweis:** Unter dem Menüpunkt "[Mahnungen](Menu)" findest Du alle erstellten Mahnunterlagen wieder.
+
+1. [Öffne die PDF-Vorschau](PDFVorschau) des Mahnbriefs, um ihn auszudrucken.
 <br><br>
 
-| **Hinweis 1:** |
+| **Hinweis:** |
 | :- |
-| Die erstellten Mahnunterlagen findest Du unter dem Menüpunkt "[Mahnungen](Menu)" wieder. Über die [verknüpften Belege](SpringezuBelegen) kannst Du aus dem Eintrag des Mahnkandidaten auch ***direkt*** zum jeweiligen Mahnbrief springen. |
+| Die erstellten Mahnunterlagen im PDF-Format findest Du ebenfalls unter dem Menüpunkt "[Ausgehende Belege](Menu)" wieder. Öffne dort das jeweilige Mahndokument (*verwende die [Filterfunktion](Filterfunktion), um es schnell zu finden*), selektiere unter der Registerkarte "Verlauf" unten auf der Seite die Zeile "PDF-Export" und [starte die Aktion](AktionStarten) "PDF öffnen". |
 
-| **Hinweis 2:** |
-| :- |
-| Um den Mahnbrief zu sehen, öffne einfach das Mahndokument und [starte die Aktion](AktionStarten) "Mahnbrief (Jasper)". |
+### Mahnbrief per E-Mail versenden
+1. [Gehe ins Menü](Menu) und öffne das Fenster "Ausgehende Belege".
+1. [Verwende die Filterfunktion](Filterfunktion), um denjenigen Mahnbrief zu finden, den Du per E-Mail versenden möchtest und öffne den Eintrag.
+1. Überprüfe, ob **Mailempfänger** sowie **Mailadresse** in den jeweiligen Feldern korrekt angegeben sind.
+1. [Starte die Aktion](AktionStarten) "PDF als Email an Geschäftspartner senden". Es öffnet sich ein Overlay-Fenster.
+1. Klicke auf "Start", um den Mahnbrief zu versenden und das Overlay-Fenster zu schließen.
+<br><br>
 
-| **Hinweis 3:** |
+| **Hinweis:** |
 | :- |
-| Die erstellten Mahnunterlagen im PDF-Format findest Du unter dem Menüpunkt "[Ausgehende Belege](Menu)" wieder. |
+| In dem Fenster "Ausgehende Belege" kannst Du auch mehrere Mahnbriefe an verschiedene Mahnkandidaten auf einmal per E-Mail versenden. [Selektiere](AuswahlBelege) hierzu in der [Listenansicht](Ansichten) die betreffenden Einträge und folge den **Schritten 4 und 5** wie oben beschrieben. Möchtest Du bereits versandte Mahnbriefe erneut e-mailen, dann entferne einfach, bevor Du auf "Start" klickst, im Overlay-Fenster das Häkchen bei **Nur bisher nicht gemailte**. |
+
+## Nächste Schritte (optional)
+- [Füge dem Mahnbrief Rechnungsbelege bei](Mahnbrief_mit_Rechnung).
 
 ## Beispiel
 ![](assets/Mahnlauf.gif)

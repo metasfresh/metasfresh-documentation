@@ -23,7 +23,7 @@ Mit dem Druckformat kannst Du u.a. das Papierformat sowie das Seitenlayout, wie 
 1. Scrolle runter bis zum Feld **Jasper Process** und wähle einen geeigneten Prozess aus, z.B. *Serial Letter*.
  >**Hinweis:** Mittels Jasper werden die Belege bei ihrer Erstellung den Einstellungen entsprechend gestaltet.
 
-1. Klicke auf "Bestätigen", um die "Erweiterte Erfassung" zu schließen und die Änderungen zu übernehmen.
+1. Klicke auf "Bestätigen", um die Änderungen zu übernehmen und die "Erweiterte Erfassung" zu schließen.
 1. [metasfresh speichert automatisch](Speicheranzeige).
 <br><br>
 
