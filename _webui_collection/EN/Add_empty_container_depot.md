@@ -5,7 +5,7 @@ tags:
   - Master Data
   - Warehouse
 lang: en
-sequence: 20
+sequence: 30
 ref: add_empty_container_depot
 ---
 

@@ -5,7 +5,7 @@ tags:
   - Stammdaten
   - Lager
 lang: de
-sequence: 30
+sequence: 40
 ref: automatic_distribution_network
 ---
 
