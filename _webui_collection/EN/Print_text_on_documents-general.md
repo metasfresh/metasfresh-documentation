@@ -29,6 +29,13 @@ Click [here](InitialSetupWizard), if you want to edit these text passages with t
 
 ---
 
+## Document type
+
+#### Add a text at the top and the bottom of a document
+Click [here](Print_text_on_documents-doctype), if you want to add a text at the top and bottom of a document.
+
+---
+
 ## Product
 
 #### Partner-specific product management
@@ -38,11 +45,11 @@ Click [here](Partner-specific_products), if you want to record partner-specific 
 Click [here](Print_text_on_documents-product), if you want to add a general product description that will appear on all documents.
 
 #### Add an order line-specific product description
-Click [here](Order_line-specific_product_description), if you want to add a product description that will appear on the order confirmation only.
+Click [here](Order_line-specific_product_description), if you want to add a product description that will appear on the respective order confirmation only.
 
 ---
 
-## Document type
+## Invoices
 
-#### Add a text at the top and the bottom of a document
-Click [here](Print_text_on_documents-doctype), if you want to add a text at the top and bottom of a document.
+### Invoice-specific document texts
+Click [here](Invoice-specific_document_texts), if you want to record invoice-specific document texts that will appear on the respective invoice document only.

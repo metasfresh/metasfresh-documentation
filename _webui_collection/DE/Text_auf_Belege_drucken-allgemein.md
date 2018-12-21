@@ -29,6 +29,13 @@ Klicke [hier](Ersteinrichtung), wenn Du die Textstellen mithilfe des Ersteinrich
 
 ---
 
+## Belegart
+
+#### Text am Beleganfang und -ende hinzufügen
+Klicke [hier](Text_auf_Belege_drucken-Belegart), wenn Du am Anfang und Ende des Belegs einen Text einfügen möchtest.
+
+---
+
 ## Produkte
 
 #### Partnerspezifische Produkte verwalten
@@ -38,11 +45,11 @@ Klicke [hier](Partnerspezifische_Produkte), wenn Du partnerspezifische Produktna
 Klicke [hier](Text_auf_Belege_drucken-Produkt), wenn Du einem Produkt eine allgemeine Beschreibung hinzufügen möchtest, die auf allen Belegen erscheint.
 
 #### Auftragszeilenspezifische Produktbeschreibung hinzufügen
-Klicke [hier](Auftragszeilenspezifische_Produktbeschreibung), wenn Du einem Produkt eine Beschreibung hinzufügen möchtest, die ausschließlich auf der Auftragsbestätigung erscheint.
+Klicke [hier](Auftragszeilenspezifische_Produktbeschreibung), wenn Du einem Produkt eine Beschreibung hinzufügen möchtest, die ausschließlich auf der jeweiligen Auftragsbestätigung erscheint.
 
 ---
 
-## Belegart
+## Rechnungen
 
-#### Text am Beleganfang und -ende hinzufügen
-Klicke [hier](Text_auf_Belege_drucken-Belegart), wenn Du am Anfang und Ende des Belegs einen Text einfügen möchtest.
+### Rechnungsspezifische Belegtexte
+Klicke [hier](Rechnungsspezifische_Belegtexte), wenn Du rechnungsspezifische Belegtexte erfassen möchtest, die ausschließlich auf dem jeweiligen Rechnungsbeleg erscheinen.

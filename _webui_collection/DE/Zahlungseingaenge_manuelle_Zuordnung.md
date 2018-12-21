@@ -2,8 +2,9 @@
 title: Wie ordne ich einen Zahlungseingang mehreren Rechnungen zu?
 layout: default
 tags:
-  - Zahlungsarten
-  - Zahlungseingänge
+  - Rechnungswesen
+  - Forderungen und Verbindlichkeiten
+  - Zahlungseingänge (Forderungen)
 lang: de
 sequence: 20
 ref: incoming_payments_manual_allocation

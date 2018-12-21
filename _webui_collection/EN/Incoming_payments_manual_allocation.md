@@ -2,8 +2,9 @@
 title: How do I allocate an incoming payment against several invoices?
 layout: default
 tags:
-- Payments
-- Incoming Payments
+  - Accounting
+  - Receivables and Payables
+  - Incoming Payments (Accounts Receivable)
 lang: en
 sequence: 20
 ref: incoming_payments_manual_allocation
