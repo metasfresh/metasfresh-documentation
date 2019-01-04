@@ -1,5 +1,5 @@
 ---
-title: C_UOM_CONVERSION (UOM,Product)
+title: C_UOM_Conversion (UOM,Product)
 layout: default
 tag: 
    - datamodel
