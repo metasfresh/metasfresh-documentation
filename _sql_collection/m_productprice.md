@@ -1,4 +1,4 @@
-﻿---
+---
 title: M_ProductPrice (Pricing,Product)
 layout: default
 tag: 
