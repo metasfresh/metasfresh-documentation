@@ -50,4 +50,12 @@ INSERT INTO public.m_productprice
          JOIN m_product ON value = oldsystem.value -- you need to join so we can provide data.m_product_id in the lines above
         ) AS data
   );  
-  ```
+  
+```
+
+
+<details>
+
+test
+
+</details>
