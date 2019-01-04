@@ -9,7 +9,8 @@ lang: en
 
 ## INSERT Example Creating Pricing Records
 
-```
+``` sql
+
 INSERT INTO public.m_productprice
 (m_pricelist_version_id, m_product_id, ad_client_id, ad_org_id, isactive, created, createdby, updated, updatedby,
  pricelist, pricestd, pricelimit, usescaleprice, m_productprice_id, c_taxcategory_id,
@@ -52,10 +53,3 @@ INSERT INTO public.m_productprice
   );  
   
 ```
-
-
-<details>
-
-test
-
-</details>
