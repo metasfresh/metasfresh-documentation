@@ -1,5 +1,5 @@
 ---
-title: Configure a process to be shown as quick action ?
+title: Configure a process to be shown as quick action
 layout: default
 tags:  
   - Process
