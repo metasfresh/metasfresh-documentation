@@ -15,7 +15,8 @@ In metasfresh, you can autonomously translate a lot of your data into your busin
 You can translate the data entries of the following menu items:
 - [Bill of Material](Create_BOM)
 - Document Type
-- [Dunning Level](Define_Dunning_Type)*
+- [Dunning Level](Define_Dunning_Type)\*
+- Greeting
 - Nutrition
 - Payment Term
 - [Product](NewProduct)
@@ -29,7 +30,7 @@ The moment you [add a new data entry](New_Record_Window), multilingual entries w
 
 If, for example, you [add a new product](NewProduct), you can edit its translation entries under "Product Translation" in the menu.
 
-When you [change your interface language](SwitchLanguage) and [create a sales order](SalesOrder_recording), for example, you will see the product name appear in the respective language set when adding the products.
+When you [change your interface language](SwitchLanguage) and [create a sales order](SalesOrder_recording), for example, the product name will be displayed in the respective language when adding the products.
 
 Or when you [print commercial documents](PrintPreview) for business partners who speak another language, the product name will then appear in their respective languages on these documents.
 
@@ -47,8 +48,8 @@ If you are already looking at the entry you want to translate, e.g., a product e
 1. Use the entry's [related documents to jump](JumptoviaSidebar) into the corresponding translation window, e.g., "Product Translation" under PRODUCT MANAGEMENT in the sidebar.
 1. In this window you will see all translation entries for the selected entry.
 
-#### c) Jumping from the record tab via the context menu*
-If you want to translate record tab entries, as in the case of dunning levels*, you can take the following steps:
+#### c) Jumping from the record tab via the context menu\*
+If you want to translate record tab entries, as in the case of dunning levels, you can take the following steps:
 
 1. Go to the record tab at the bottom of the page, e.g., "Level" for the dunning levels in the window of the respective [dunning type](Menu), and select the line you want to translate.
 1. Use the [context menu](Jumpto_via_context_menu) to switch into the corresponding translation window, e.g., ![](assets/Dunning_level_translation_context.png). Here you will now see a list of all translation entries for the selected entry.
@@ -70,7 +71,7 @@ If you want to translate record tab entries, as in the case of dunning levels*, 
 
 | **General Note:** |
 | :- |
-| In principle, the changes in the field **Name** affect both the *internal* and the *external* data. This means, depending on the [language setting of the user interface](SwitchLanguage) or the [business partner's](New_Business_Partner) language, the **Name** will be displayed or printed on the documents in the respective language. Exceptions are, however, the data entries of the menu items "Document Type" and "Dunning Level".<br>Regarding "Document Type", the field **Name** merely determines the *internal* representation of the data entry. The *external* representation can be managed through the additional field **Print Name**, as is also the case with "Dunning Level". The *internally* used name of the dunning level, however, can only be managed in the respective [dunning type](Define_Dunning_Type) entry. |
+| In principle, the changes in the field **Name** affect both *internal* and *external* data. This means, depending on the [language setting of the user interface](SwitchLanguage) or the [business partner's](New_Business_Partner) language, the **Name** will be displayed or printed on the documents in the respective language. Exceptions are, however, the data entries of the menu items "Document Type" and "Dunning Level".<br> Regarding "Document Type", the field **Name** merely determines the *internal* representation of the data entry. The *external* representation can be maintained through the additional field **Print Name**, as is also the case with "Dunning Level". The *internally* used name of the dunning level, however, can only be maintained in the respective [dunning type](Define_Dunning_Type) entry. |
 
 ## Example
 ![](assets/Product_translation.gif)
