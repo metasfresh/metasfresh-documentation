@@ -10,7 +10,7 @@ ref: export_data
 ---
 
 ## Overview
-In metasfresh, you can export data from any list view into an Excel table and save it to your computer.
+In metasfresh, you can export data from any list view into an Excel spreadsheet and save it to your computer.
 
 ## Steps
 1. [Open a window](Menu) in the [list view](ViewModes), e.g., "Business Partner".
