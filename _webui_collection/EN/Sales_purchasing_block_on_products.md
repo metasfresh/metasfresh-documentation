@@ -21,8 +21,8 @@ In this case, you can simply create partner-related exclusion lists with those p
 1. Open the entry of an existing [business partner](Menu) or [add a new one](New_Business_Partner).
 1. Go to the record tab "Product" at the bottom of the page and click ![](assets/Add_New_Button.png). An overlay window opens up.
 1. Enter the **Product** you want to block for sales/purchasing.
-1. In the text box **Exclusion From Sale Reason** enter a reason why the product is blocked for the business partner.
- >**Note:** This reason will appear in an error message to the user when they want to add the blocked product to a sales or purchase order.
+1. In the text box **Exclusion From Sale Reason**, enter a reason why the product is blocked for the business partner.
+ >**Note:** This reason will be displayed in an error message to the user when they want to add the blocked product to a sales or purchase order.
 
 1. Check the box **Exclusion from sales documents**.
  >**Note:** This setting affects ***both sales and purchase orders***, depending on whether the business partner is a [customer](New_business_partner_customer) or [vendor](New_business_partner_vendor).
@@ -46,8 +46,8 @@ In this case, you can simply create partner-related exclusion lists with those p
 1. Scroll down to the field **Exclusion from sales documents** and check the box. A new text box **Exclusion From Sale Reason** appears.
  >**Note:** This setting affects ***both sales and purchase orders***, depending on whether the business partner is a [customer](New_business_partner_customer) or [vendor](New_business_partner_vendor).
 
-1. In the text box **Exclusion From Sale Reason** enter a reason why the product is blocked for the business partner.
- >**Note:** This reason will appear in an error message to the user when they want to add the blocked product to a sales or purchase order.
+1. In the text box **Exclusion From Sale Reason**, enter a reason why the product is blocked for the business partner.
+ >**Note:** This reason will be displayed in an error message to the user when they want to add the blocked product to a sales or purchase order.
 
 1. Click "Done" to close the overlay window and add the sales/purchasing block to the list.
  >**Note:** Repeat steps 2 to 6 to add further sales/purchasing blocks for further business partners to the list.

@@ -17,8 +17,8 @@ Furthermore, you can autonomously transfer these texts into your business partne
 ## Steps
 1. Open "Document Type" from the [menu](Menu).
 1. Open the entry of an existing document type, e.g., "Quotation (Angebot)".
-1. In the text box **Description** enter a text that shall appear at the top of the document.
-1. In the text box **Document Note** enter a text that shall appear at the bottom of the document.
+1. In the text box **Description**, enter a text that shall appear at the top of the document.
+1. In the text box **Document Note**, enter a text that shall appear at the bottom of the document.
 1. Make sure the box **Copy description to document** is checked to ensure that the texts are printed on the documents.
 1. [metasfresh saves the progress automatically](Saveindicator).
 

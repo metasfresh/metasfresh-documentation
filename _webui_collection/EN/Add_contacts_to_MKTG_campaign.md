@@ -13,10 +13,10 @@ Any contacts you want to add to a mailing list of a [marketing campaign](Create_
 If you want to add [business partners](New_Business_Partner) to the mailing list of a marketing campaign, you first have to [add a user](Add_user_to_BPartner) to their entry.
 
 ### Requirements for Email Campaigns
-For contacts (users or business partners) to be added to the mailing list of an *email campaign*, an [email address must be indicated in the user entry](Add_user).
+For contacts (users or business partners) to be added to the mailing list of an *email campaign*, an [email address must be provided in the user entry](Add_user).
 
 ### Requirements for Serial Letter Campaigns
-For contacts (users or business partners) to be added to the mailing list of a *serial letter campaign*, a [default address must be indicated in the business partner entry](Add_address_tab), e.g., *Default Shipping Address* or *Default Invoice Address*. This might require the user to be [linked to a business partner](Assign_BPartner_to_user) first.<br> ![](assets/Default_Address.png)
+For contacts (users or business partners) to be added to the mailing list of a *serial letter campaign*, a [default address must be provided in the business partner entry](Add_address_tab), e.g., *Default Shipping Address* or *Default Invoice Address*. This might require the user to be [linked to a business partner](Assign_BPartner_to_user) first.<br> ![](assets/Default_Address.png)
 
 ## Steps
 
@@ -55,7 +55,7 @@ For contacts (users or business partners) to be added to the mailing list of a *
 
 | **Special Note:** |
 | :- |
-| For users, you cannot choose separately between the actions *Export in E-Mail* or *Serial Letter Campaign* separately. Whether you require an email address or a default address therefore depends on the type of marketing campaign, or rather the [marketing platform](Create_MKTG_platform) configurations.<br> For an *email campaign*, an **email address** must be indicated in the user entry! In this case, the user does not have to be linked to a business partner.<br> In a *serial letter campaign*, however, the user does have to be [linked to a business partner](Assign_BPartner_to_user) who, in turn, must possess a **default invoice address**! |
+| For users, you cannot choose separately between the actions *Export in E-Mail* or *Serial Letter Campaign* separately. Whether you require an email address or a default address therefore depends on the type of marketing campaign, or rather the [marketing platform](Create_MKTG_platform) configurations.<br> For an *email campaign*, an **email address** must be provided in the user entry! In this case, the user does not have to be linked to a business partner.<br> In a *serial letter campaign*, however, the user does have to be [linked to a business partner](Assign_BPartner_to_user) who, in turn, must possess a **default invoice address**! |
 
 1. Open "User" from the [menu](Menu).
 1. From the [list view](ViewModes), [select](RecordSelection) the [users](Add_user) you want to add as contacts to your marketing campaign.

@@ -15,7 +15,7 @@ ref: add_user_to_bpartner
 1. Wähle eine **Anrede** aus.
 1. Fülle die Felder **Vorname** und **Nachname** aus.
 1. ***Optional:*** Fülle die Felder **Email** und **Telefon** aus.
-1. Klicke auf "Bestätigen", um den Nutzer zur Liste hinzuzufügen und das Overlay-Fenster zu schließen.
+1. Klicke auf "Bestätigen", um das Overlay-Fenster zu schließen und den Nutzer zur Liste hinzuzufügen.
 <br>
 
 | **Hinweis:** |
