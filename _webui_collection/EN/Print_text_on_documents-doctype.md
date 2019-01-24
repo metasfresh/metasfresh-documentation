@@ -12,7 +12,7 @@ ref: print_text_on_documents-doctype
 ## Overview
 In metasfresh, you can record manual texts for every document type (e.g., bill of lading, incoming invoice, purchase order, sales order, quotation, etc.). Upon document creation, these texts will then be automatically placed in the spaces provided on the document. They can be placed both at the top and at the bottom of the document (see example [here](Print_text_on_documents-general)).
 
-Furthermore, you can autonomously transfer these texts into your business partners’ languages so that when you [print commercial documents](PrintPreview) for foreign business partners, the texts will automatically appear in their respective languages on these documents.
+Furthermore, you can autonomously transfer these texts into the languages of your business partners, so that when you [print commercial documents](PrintPreview) for foreign business partners, the texts will automatically appear on these documents in their respective languages. For additional information on how to manage data entries in multiple languages, please see [here](Multilingual_data_management).
 
 ## Steps
 1. Open "Document Type" from the [menu](Menu).
