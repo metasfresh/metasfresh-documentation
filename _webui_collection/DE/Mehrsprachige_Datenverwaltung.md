@@ -19,7 +19,7 @@ Die Dateneinträge der folgenden Menüpunkte können übersetzt werden:
 - [Mahnstufe](Mahnart_definieren)\*
 - Maßeinheit
 - Nährwert
-- [Produkt](NeuesProdukt)
+- [Produkt](NeuesProdukt) (inkl. [Produktbeschreibung](Text_auf_Belege_drucken-Produkt))
 - [Produktkategorie](NeueProduktkategorie)
 - Steuerkategorie
 - Steuersatz

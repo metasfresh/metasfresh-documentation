@@ -10,7 +10,7 @@ ref: multilingual_data_management
 ---
 
 ## Overview
-In metasfresh, you can autonomously translate a lot of your data into your business partners' languages, for both *internal* and *external* data management.
+In metasfresh, you can autonomously translate a lot of your data into the languages of your business partners, for both *internal* and *external* data management.
 
 You can translate the data entries of the following menu items:
 - [Bill of Material](Create_BOM)
@@ -19,7 +19,7 @@ You can translate the data entries of the following menu items:
 - Greeting
 - Nutrition
 - Payment Term
-- [Product](NewProduct)
+- [Product](NewProduct) (incl. [Product Description](Print_text_on_documents-product))
 - [Product Category](NewProductCategory)
 - Request Type
 - Tax Category
@@ -55,7 +55,7 @@ If you want to translate record tab entries, as in the case of dunning levels, y
 1. Use the [context menu](Jumpto_via_context_menu) to switch into the corresponding translation window, e.g., ![](assets/Dunning_level_translation_context.png). Here you will now see a list of all translation entries for the selected entry.
 
 ### Add translations
-1. Open the entry of the language into which you want to translate, e.g., "Deutsch (CH)".
+1. Open the entry of the language into which you want to translate, e.g., "Deutsch (DE)".
 1. Replace the existing **Name** with your translation.
  >**Note:** This step does not apply to "Dunning Level".
 
