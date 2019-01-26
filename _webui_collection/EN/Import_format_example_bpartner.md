@@ -33,8 +33,9 @@ The example below compares the data content of a file from a spreadsheet softwar
 | ISO Country Code | DE | DE = Germany (German: _**De**utschland_)<br> Two-letter country code (in acc. with ISO 3166-1 alpha-2).<br> (*You can look up the ISO country code under "[Country, Region](Menu)" in the menu.*) |
 | Group Value	| • Standard<br> • 1000001 | **Search Key** of the business partner group. _**Attention:** Not the name!_<br> First add the business partner group and then use the search key here.<br> (*You can look up the search key in the respective entry under "[Business Partner Group](Menu)" in the menu.*) |
 | OrgValue | metasfresh AG | **Search Key** of the organization. _**Attention:** Not the name!_<br> (*You can look up the search key under "[Organization](Menu)" in the menu.*) |
-| Location Data | • Street & House No.<br> • ZIP<br> • City<br> • Region<br> • ISO Country Code | For location data to be imported, at least **City** and **ISO Country Code** must be provided.<br><br> Location data, such as **Street & House No.**, **ZIP** or **Region**, will not be imported unless both **City** and **ISO Country Code** are provided. |
+| Location Data | • Street & House No.<br> • ZIP<br> • City<br> • Region<br> • ISO Country Code | For [location data](Add_address_tab) to be imported, at least **City** and **ISO Country Code** must be provided.<br><br> Location data, such as **Street & House No.**, **ZIP** or **Region**, will not be imported unless both **City** and **ISO Country Code** are provided. |
 | Global Location Number (GLN) | 1234567890128 | In order to import a **GLN**, both **City** and **ISO Country Code** are required. |
+| Web address (URL) | https://metasfresh.com/en/ | For a **URL** to be valid after import, make sure it begins with the Internet protocol acronym (e.g., `https://`). |
 
 ## Next Steps
 - [Import business partner data](Import_bpartner_data).
