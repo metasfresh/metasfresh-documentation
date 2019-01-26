@@ -1,11 +1,12 @@
 ---
-title: Wie lege ich einen neuen Kunden an?
+title: Wie erfasse ich einen neuen Kunden?
 layout: default
 tags:
   - Stammdaten
   - Geschäftspartner
+  - Geschäftsbeziehungen
 lang: de
-sequence: 40
+sequence: 10
 ref: new_business_partner_customer
 ---
 

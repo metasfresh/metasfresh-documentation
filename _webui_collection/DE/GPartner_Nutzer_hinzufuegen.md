@@ -1,11 +1,11 @@
 ---
-title: Wie füge ich einem Geschäftspartnereintrag einen Nutzer hinzu?
+title: Wie verknüpfe ich einen Geschäftspartner mit einem Nutzer? (Kontaktinformationen erfassen)
 layout: default
 tags:
   - Stammdaten
   - Geschäftspartner
 lang: de
-sequence: 80
+sequence: 40
 ref: add_user_to_bpartner
 ---
 

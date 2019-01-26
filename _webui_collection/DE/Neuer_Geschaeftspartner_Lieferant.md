@@ -1,11 +1,12 @@
 ---
-title: Wie lege ich einen neuen Lieferanten an?
+title: Wie erfasse ich einen neuen Lieferanten?
 layout: default
 tags:
   - Stammdaten
   - Geschäftspartner
+  - Geschäftsbeziehungen
 lang: de
-sequence: 50
+sequence: 20
 ref: new_business_partner_vendor
 ---
 

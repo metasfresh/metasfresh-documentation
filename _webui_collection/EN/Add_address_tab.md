@@ -5,7 +5,7 @@ tags:
   - Master Data
   - Business Partner
 lang: en
-sequence: 20
+sequence: 30
 ref: add_address_tab
 ---
 

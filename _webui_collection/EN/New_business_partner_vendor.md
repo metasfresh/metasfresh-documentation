@@ -4,8 +4,9 @@ layout: default
 tags:
   - Master Data
   - Business Partner
+  - Business Relations
 lang: en
-sequence: 50
+sequence: 20
 ref: new_business_partner_vendor
 ---
 

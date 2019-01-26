@@ -5,7 +5,7 @@ tags:
   - Stammdaten
   - Geschäftspartner
 lang: de
-sequence: 20
+sequence: 30
 ref: add_address_tab
 ---
 
