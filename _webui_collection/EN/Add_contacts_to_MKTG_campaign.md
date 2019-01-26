@@ -9,7 +9,7 @@ ref: add_contacts_to_mktg_campaign
 ---
 
 ## Overview
-Any contacts you want to add to a mailing list of a [marketing campaign](Create_MKTG_campaign) must be registered as [users](Add_user) in your system.<br>
+Any contacts you want to add to a mailing list of a [marketing campaign](Create_MKTG_campaign) must be registered as [users](Add_user) in metasfresh.<br>
 If you want to add [business partners](New_Business_Partner) to the mailing list of a marketing campaign, you first have to [add a user](Add_user_to_BPartner) to their entry.
 
 ### Requirements for Email Campaigns

@@ -22,7 +22,7 @@ ref: salesorder_recording
 1. Das Feld **Zugesagter Termin** bestimmt, wann die Leistung *erbracht* bzw. die Lieferung ausgeführt werden soll.
 1. [metasfresh speichert automatisch](Speicheranzeige).
 
-### Zeilen hinzufügen
+### Auftragszeilen hinzufügen
 1. Gehe zur Registerkarte "Auftragsposition" unten auf der Seite und klicke auf ![](assets/Massen_Erfassung_Button.png), um die Auftragszeileneingabe zu öffnen.
  >**Hinweis:** Drücke `Alt` + `Q` / `⌥ alt` + `Q`.
 
@@ -37,7 +37,7 @@ ref: salesorder_recording
  >**Hinweis 1:** Wiederhole die Schritte 2 bis 4 so oft, bis Du alle Auftragszeilen erfasst hast.<br><br>
  >**Hinweis 2:** Zeigt der **No Price Conditions Indicator** am Ende einer Auftragszeile einen <span style="color:red">roten</span> Punkt, musst Du ein [Preiskonditionsschema anlegen](Preiskonditionen_in_metasfresh) und dieses dann [mit dem Kunden verknüpfen](Rabattschema_mit_GP_verknuepfen).
 
-### Nächste Schritte
+### Auftrag fertigstellen
 1. [Stelle den Beleg fertig](BelegverarbeitungFertigstellen).
 1. [Öffne die PDF-Vorschau](PDFVorschau).
 

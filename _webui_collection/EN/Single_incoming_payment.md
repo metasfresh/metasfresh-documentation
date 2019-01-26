@@ -11,7 +11,7 @@ ref: single_incoming_payment
 ---
 
 ## Overview
-After you have received a payment, you can enter the amount as an *Incoming Payment* into the system, thereby setting the invoice status to *Paid*. To do so, take the following steps:
+After you have received a payment, you can enter the amount as an *Incoming Payment* into metasfresh, thereby setting the invoice status to *Paid*. To do so, take the following steps:
 
 ## Requirements
 - Make sure to have an unpaid [invoice](Invoice_SalesOrder).

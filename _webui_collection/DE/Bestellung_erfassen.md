@@ -22,7 +22,7 @@ ref: createpurchaseorder
 1. Das Feld **Zugesagter Liefertermin** bestimmt, wann die Leistung *erbracht* werden soll bzw. die Bestellung zu erwarten ist.
 1. [metasfresh speichert automatisch](Speicheranzeige).
 
-### Zeilen hinzufügen
+### Bestellzeilen hinzufügen
 1. Gehe zur Registerkarte "Bestellposition" unten auf der Seite und klicke auf ![](assets/Massen_Erfassung_Button.png), um die Bestellzeileneingabe zu öffnen.
  >**Hinweis:** Drücke `Alt` + `Q` / `⌥ alt` + `Q`.
 
@@ -36,7 +36,7 @@ ref: createpurchaseorder
 1. Drücke `↵ Enter`, um die Zeile hinzuzufügen.
  >**Hinweis:** Wiederhole die Schritte 2 bis 4 so oft, bis Du alle Bestellzeilen erfasst hast.
 
-### Nächste Schritte
+### Bestellung fertigstellen
 1. [Stelle den Beleg fertig](BelegverarbeitungFertigstellen).
 1. [Öffne die PDF-Vorschau](PDFVorschau).
 

@@ -1,5 +1,5 @@
 ---
-title: How do I send an email from the system?
+title: How do I send an email from metasfresh?
 layout: default
 tags:
   - Usage
