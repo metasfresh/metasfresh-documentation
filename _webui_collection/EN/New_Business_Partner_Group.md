@@ -4,8 +4,9 @@ layout: default
 tags:
   - Master Data
   - Business Partner
+  - Business Partner Group
 lang: en
-sequence: 70
+sequence: 10
 ref: new_business_partner_group
 ---
 

@@ -5,12 +5,12 @@ tags:
   - Master Data
   - Business Partner
 lang: en
-sequence: 30
+sequence: 50
 ref: add_attributes_to_bp
 ---
 
 ## Overview
-Attributes help you find the corresponding business partner when using the [filtering function](Filtering_function).
+Attributes make it easier for you to find a specific business partner when using the [filtering function](Filtering_function).
 
 ## Steps
 1. Open a [business partner](New_Business_Partner) entry in the [detailed view](ViewModes).
