@@ -5,7 +5,7 @@ tags:
   - Rechnungswesen
   - Fakturierung
 lang: de
-sequence: 30
+sequence: 40
 ref: invoice-specific_document_texts
 ---
 

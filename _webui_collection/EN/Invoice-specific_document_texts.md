@@ -5,7 +5,7 @@ tags:
   - Accounting
   - Billing
 lang: en
-sequence: 30
+sequence: 40
 ref: invoice-specific_document_texts
 ---
 
