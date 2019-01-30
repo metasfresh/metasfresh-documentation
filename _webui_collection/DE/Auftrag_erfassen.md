@@ -41,5 +41,8 @@ ref: salesorder_recording
 1. [Stelle den Beleg fertig](BelegverarbeitungFertigstellen).
 1. [Öffne die PDF-Vorschau](PDFVorschau).
 
+## Nächste Schritte
+- [Erstelle einen Lieferschein](Zu_Auftrag_Lieferschein_erstellen) zu dem Auftrag.
+
 ## Beispiel
 ![](assets/auftrag.gif)

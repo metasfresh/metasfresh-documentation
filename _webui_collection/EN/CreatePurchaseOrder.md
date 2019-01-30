@@ -40,5 +40,8 @@ ref: createpurchaseorder
 1. [Complete the order](DocumentProcessingComplete).
 1. [Open the PDF preview](PrintPreview).
 
+## Next Steps
+- [Create a goods receipt](CreateGoodsReceipt) for the purchase order.
+
 ## Example
 ![](assets/NewPO_walkthrough.gif)

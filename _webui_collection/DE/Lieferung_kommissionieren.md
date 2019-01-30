@@ -17,7 +17,7 @@ Deinen Lagerbestand kannst Du in dem [*Handling Unit Editor*](Menu) jederzeit ü
 
 ### Auftrag kommissionieren
 1. Öffne einen [fertiggestellten Auftrag](Auftrag_erfassen).
-1. [Springe zum](SpringezuBelegen) Kommissionier-Terminal.
+1. [Springe zum](SpringezuBelegen) "Kommissionier-Terminal".
  >**Hinweis 1:** Drücke `Alt` + `6` / `⌥ alt` + `6`, um die Sidebar mit den verknüpften Belegen zu öffnen.<br><br>
  >**Hinweis 2:** Bei neu fertiggestellten Aufträgen dauert es ein paar Sekunden, bis das Kommissionier-Terminal in der Sidebar erscheint.
 
@@ -33,7 +33,7 @@ Deinen Lagerbestand kannst Du in dem [*Handling Unit Editor*](Menu) jederzeit ü
 
 ### Kommissionierte Menge liefern und Lieferschein erstellen
 1. Öffne einen kommissionierten Auftrag.
-1. [Springe zur](SpringezuBelegen) Lieferdisposition.
+1. [Springe zur](SpringezuBelegen) "Lieferdisposition".
  >**Hinweis:** Drücke `Alt` + `6` / `⌥ alt` + `6`, um die Sidebar mit den verknüpften Belegen zu öffnen.
 
 1. [Selektiere die Auftragszeilen](AuswahlBelege), die Du liefern möchtest.

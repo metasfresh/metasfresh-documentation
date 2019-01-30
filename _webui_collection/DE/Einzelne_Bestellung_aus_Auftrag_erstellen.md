@@ -29,7 +29,7 @@ Möchtest Du ausgewählte Produkte aus einem Auftrag in selbst bestimmter Menge 
 1. Klicke auf "Bestätigen", um das Overlay-Fenster zu schließen und die Bestellung zu erstellen.
 
 ### Fall 1: Auftrag als Entwurf
-Hast Du nur einen Entwurf des Auftrags erstellt, wird die Bestellung an die Bestelldisposition weitergeleitet und erst dann generiert, wenn der Auftrag [fertiggestellt](BelegverarbeitungFertigstellen) wird. Um die disponierte Bestellung einzusehen, [springe zur](SpringezuBelegen) Bestelldisposition.
+Hast Du nur einen Entwurf des Auftrags erstellt, wird die Bestellung an die Bestelldisposition weitergeleitet und erst dann generiert, wenn der Auftrag [fertiggestellt](BelegverarbeitungFertigstellen) wird. Um die disponierte Bestellung einzusehen, [springe zur](SpringezuBelegen) "Bestelldisposition".
 
 ### Fall 2: Fertiggestellter Auftrag
 Wenn Du den Auftrag [fertigstellst](BelegverarbeitungFertigstellen) oder die Bestellung aus einem fertiggestellten Auftrag erstellst, dann wird sie sofort generiert:

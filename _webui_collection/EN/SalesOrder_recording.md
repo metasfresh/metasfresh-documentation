@@ -41,5 +41,8 @@ ref: salesorder_recording
 1. [Complete the order](DocumentProcessingComplete).
 1. [Open the PDF preview](PrintPreview).
 
+## Next Steps
+- [Create a shipment](Ship_SalesOrder) for the sales order.
+
 ## Example
 ![](assets/salesorder.gif)
