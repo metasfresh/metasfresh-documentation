@@ -1,5 +1,5 @@
 ---
-title: Format Example for the Import of Product Data
+title: Format example for importing product data
 layout: default
 tags:
   - Data Management
@@ -13,12 +13,12 @@ ref: import_format_example_product
 ## Overview
 For importing product data, you require an import format that is configured with the **database table** *Import Product*.
 
-The example below compares the data content of a file from a spreadsheet software (here, e.g., an *Excel* file before the [conversion to a CSV or TXT file](Import_file_useful_tips)) with the import format for product data:
+The example below compares the data content of a file from a spreadsheet software (here, e.g., an *Excel* file prior to its [conversion to a CSV or TXT file](Import_file_useful_tips)) with the import format for product data:
 
 ![](assets/Product_import_Excel_table_Format.png)
 
 ### Explanatory Notes to the Example
-- **Column A** of the Excel table (*Item Search Key*) is in the first place, ergo the corresponding format field is given the **Start No 1**. Consequently, the format field for **Column B** receives the **Start No 2** etc.<br> The order (**SeqNo**) of the format fields is therefore irrelevant.
+- **Column A** of the Excel spreadsheet (*Item Search Key*) is in the first place, ergo the corresponding format field is given the **Start No. 1**. Consequently, the format field for **Column B** receives the **Start No. 2** etc.<br> The order (**SeqNo**) of the format fields is therefore irrelevant.
  >**Note:** metasfresh does ***not expect any column names*** in the import file. Simply the ***position*** of the column must correspond to the start number.
 
 - The **Name** of the format field may be chosen freely and does not have to coincide with the column name in the import file.
