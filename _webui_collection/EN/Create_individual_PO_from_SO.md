@@ -26,7 +26,7 @@ If you want to carry over selected products in a self-determined quantity from a
  >**Note:** This action will only become available when at least one order line is selected.
 
 1. Enter the desired **QtyToPurchase** of the products in the respective fields.
-1. Click "Done" to create the purchase order and close the overlay window.
+1. Click "Done" to close the overlay window and create the purchase order.
 
 ### Case 1: Drafted Sales Order
 If you have only created a draft of the sales order, the purchase order will first be forwarded to the PO candidates and won't be generated until the sales order is [completed](DocumentProcessingComplete). To view the planned purchase orders [jump to](JumptoviaSidebar) "Bestelldisposition Neu" (PO candidates).

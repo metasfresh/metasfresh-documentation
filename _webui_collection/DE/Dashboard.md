@@ -14,7 +14,7 @@ Das Dashboard von metasfresh ist eine Übersichtsseite, die automatisch nach der
 Das Dashboard kannst Du auch nach eigenem Bedarf anpassen und Widgets hinzufügen, entfernen, verschieben und bearbeiten. Gehe hierzu wie folgt vor:
 
 ## Dashboard anpassen
-1. [Melde Dich an](Anmeldung) oder [gehe ins Menü](Menu) und öffne das Fenster "DASHBOARD".
+1. [Melde Dich bei metasfresh an](Anmeldung) oder [gehe ins Menü](Menu) und öffne das Fenster "DASHBOARD".
 1. Öffne das [Aktionsmenü](AktionStarten) ![](assets/actionsmenu_WebUI.png) und klicke auf "Fenster anpassen". Es öffnet sich am rechten Seitenrand ein kleines Auswahlfenster mit den verfügbaren Widgets.
  >**Hinweis:** Drücke `Alt` + `O` / `⌥ alt` + `O`.
 

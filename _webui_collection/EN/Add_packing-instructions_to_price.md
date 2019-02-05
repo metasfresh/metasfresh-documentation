@@ -13,7 +13,7 @@ ref: add_packing-instructions_to_price
 ## Overview
 When you sell a product you don't always sell it by the stock UOM. Instead you might determine a different sales UOM which can also be consolidated in a transport unit (TU).
 
-Therefore, under "Product Prices", you can both determine packing instructions and set up whether the price shall depend on the stock UOM or the sales UOM.
+Therefore, under "Product Prices", you can both define packing instructions and configure whether the price shall depend on the stock UOM or the sales UOM.
 
 ## Steps
 1. Open "Product Prices" from the [menu](Menu).

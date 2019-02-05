@@ -16,7 +16,7 @@ ref: enable_collectivebill
 1. Stelle im Feld **Aggregationsregel für Ausgangsrechnung** die gewünschte Aggregation ein.
  >**Hinweis:** Im Normalfall "invoicing-agg-std" wählen.
 
-1. Klicke auf "Bestätigen", um die "Erweiterte Erfassung" zu schließen.
+1. Klicke auf "Bestätigen", um die Änderungen zu übernehmen und die "Erweiterte Erfassung" zu schließen.
 
 ## Erläuterung der Regeln
 

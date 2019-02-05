@@ -13,9 +13,9 @@ ref: add_price-system
 ## Overview
 ![](assets/price system hierarchy - price system.png)
 
-A price system comprises one or more country price lists that can be [assigned](Assign_prices_to_partners) to a customer/vendor or a partner group.
+A price system comprises one or more country price lists that can be [assigned](Assign_prices_to_partner) to a customer/vendor or a partner group.
 
-You can find further details on the difference between *price system* and *price list* [here](Price-system_versus_price_list).
+You can find further details on the difference between *price system* and *price list* [here](Price-system_versus_price-list).
 
 ## Steps
 1. Open "Price System" from the [menu](Menu).
