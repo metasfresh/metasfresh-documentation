@@ -5,7 +5,7 @@ tags:
   - Workflow
   - Verkauf
 lang: de
-sequence: 70
+sequence: 80
 ref: void_so_incl_related_docs
 ---
 
