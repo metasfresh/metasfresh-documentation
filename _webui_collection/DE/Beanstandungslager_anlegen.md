@@ -19,4 +19,4 @@ Ein Beanstandungslager dient zur Lagerung von zurückgesendeter Ware, die erst a
 1. [metasfresh speichert automatisch](Speicheranzeige).
 
 ## Beispiel
-![](assets/Beanstandungslager_anlegen.gif)
+![Beanstandungslager](assets/Beanstandungslager_anlegen.gif)
