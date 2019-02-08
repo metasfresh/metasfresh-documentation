@@ -4,8 +4,9 @@ layout: default
 tags:
   - Master Data
   - Warehouse
+  - Inventory Movement
 lang: en
-sequence: 40
+sequence: 10
 ref: automatic_distribution_network
 ---
 
