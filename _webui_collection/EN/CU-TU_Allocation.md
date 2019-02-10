@@ -11,7 +11,7 @@ ref: cu-tu_allocation
 ---
 
 ## Overview
-A product is a customer unit (CU) which in bigger amounts can be consolidated into a transport unit (TU). What kind of TU to use depends on the packing instructions.
+A product is a [consumer unit (CU)](Handling_Unit_System) which in bigger amounts can be packed into a [transport unit (TU)](Handling_Unit_System). The type of TU to be used is specified by packing instructions.
 
 ## Steps
 1. Open the entry of an existing [product](Menu) or [add a new one](NewProduct).
