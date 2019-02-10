@@ -1,5 +1,5 @@
 ---
-title: How does the	Packaging and Container Management as part of the Handling Unit System work?
+title: How does the Packaging and Container Management as part of the Handling Unit System work?
 layout: default
 tags:
   - A Beginner's Guide to metasfresh
