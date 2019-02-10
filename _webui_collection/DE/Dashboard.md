@@ -2,7 +2,8 @@
 title: Dashboard
 layout: default
 tags:
-  - Funktionen
+  - Anfängertips für metasfresh
+  - Eigenschaften
 lang: de
 sequence: 20
 ref: dashboard

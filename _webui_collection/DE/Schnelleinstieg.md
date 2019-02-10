@@ -2,7 +2,7 @@
 title: Schnelleinstieg (Grundlegende WebUI-Benutzung)
 layout: default
 tags:
-  - Anfängertips
+  - Anfängertips für metasfresh
 lang: de
 sequence: 10
 ref: quickstart

@@ -2,31 +2,31 @@
 title: Funktionsmodule
 layout: default
 tags:
-  - Funktionen
+  - Anfängertips für metasfresh
+  - Eigenschaften
 lang: de
 sequence: 10
 ref: functionalmodules
 ---
 
 ## Übersicht
+metasfresh ist eine vollwertige ERP-Software und verfügt über folgende Module:
 
-metasfresh ist eine vollwertige Warenwirtschaftssystems-Software (ERP) und verfügt über folgende Module:
-
-| Modul     | Instanzen     |
-| :------------- | :------------- |
-| CRM   | Potenzielle Kunden, Anfragen (Akquise, Opportunity Management), Vertriebsprozess, Email-Akquise|
-| Verkauf       |Angebotserstellung, Auftragserfassung         |
-| Einkauf        |Bestelldisposition, Erfassung von Bestellungen, Wareneingang|
-| Produktion | MRP II, Erfassung von Produktionsaufträgen, Produktionsfertigstellung, Stückliste|
-| Lagerhaltung |Lieferdisposition, Lieferung, Wareneingangsdisposition, Wareneingang, Inventur|
-| SCM | Attribute, Rückverfolgbarkeit |
-| Fakturierung | Rechnungsdisposition, Kunden-/ Lieferantenrechnung, Stornierung |
-| Logistik | Handling Unit Management, Leergut, Distributionsmanagement, Tourenplanung |
-| Zahlungsarten | Zahlungsein-/ ausgänge, SEPA, ESR |
-| Mahnwesen | Mahnstufen, Verwaltung von Mahnungen, Mahnbescheide |
+| Modul | Instanzen |
+| :--- | :--- |
+| Customer-Relationship-Management (CRM) | Potenzielle Kunden, Anfragen (Akquise, [Opportunity Management](CRM_Vorgang_Opportunities)), Vertriebsprozess, E-Mail-Akquise |
+| [Verkauf](Workflow_Auftrag_Bis_Rechnung) | [Angebotserstellung](Angebot_erstellen), [Auftragserfassung](Auftrag_erfassen) |
+| [Einkauf](Workflow_Bestellung_Bis_Rechnung) | Bestelldisposition, [Erfassung von Bestellungen](Bestellung_erfassen), [Wareneingang](Zu_Bestellung_Wareneingang_erstellen) |
+| Produktion | MRP II, [Erfassung von Produktionsaufträgen](NeuerProduktionsauftrag), Produktionsfertigstellung, [Stückliste](Stueckliste_erstellen) |
+| [Lagerhaltung](Neues_Lager_anlegen) | Lieferdisposition, [Lieferung](Zu_Auftrag_Lieferschein_erstellen), Wareneingangsdisposition, Wareneingang, Inventur |
+| Supply-Chain-Management (SCM) | Attribute, Rückverfolgbarkeit |
+| Fakturierung | Rechnungsdisposition, [Kunden-](Zu_Auftrag_Rechnung_erstellen)/[Lieferantenrechnung](Zu_Bestellung_Eingangsrechnung_erstellen), Gutschrift, Aggregation, Stornierung |
+| Logistik | [Handling Unit Management](Handling_Unit_System), Leergut, Distributionsmanagement, Tourenplanung |
+| Zahlungsarten | [Zahlungsein-](Einzelner_Zahlungseingang)/ausgänge, SEPA, ESR |
+| [Mahnwesen](Mahnlauf) | [Mahnstufen](Mahnart_definieren), Verwaltung von Mahnungen, Mahnbescheide |
 | Rechnungswesen | Automatische FACT-Berechnungen, Abrechnungsschema |
 | Mandantenfähigkeit | Mehrdimensionale Organisationsstruktur, automatische Gegenzeichnung von Belegen |
-| Preismanagement | Preisliste, Versionierung, Mehrwährungsfähigkeit, mengenbezogene Abschläge, Handhabung von Preis- und Gebindeeinheiten, brutto/netto, Handauszeichnung und Ermäßigungen |
+| [Preismanagement](Preissystem_versus_Preisliste) | [Preisliste](Preisliste_anlegen), Versionierung, Mehrwährungsfähigkeit, [mengenbezogene Abschläge](Rabattformen_in_metasfresh), Preiseinheiten, [Handhabung von Preis- und Gebindeeinheiten](Packvorschrift_Preis_anhaengen), brutto/netto, Handauszeichnung und Ermäßigungen |
 | Qualitätsmanagement | Bildaufnahme, Qualitätskontrolle und automatische Abzinsung |
-| Vertragsverwaltung | Abonnements, automatische Verlängerung, konfigurierbare Vertragsbedingungen, Integration in Auftragserfassung |
-| Gebindeverwaltung | [Konfigurierbare Gebinde](http://docs.metasfresh.org/howto_collection/Wie_funktioniert_die_Gebindeverwaltung_als_Teil_des_Handling_Unit_Systems.html), Leergutannahme und Gebindesaldo mitsamt Abrechnung |
+| Vertragsverwaltung | [Abonnements](Vertrag_erfassen), [automatische Verlängerung](Vertrag_verlaengern), [konfigurierbare Vertragsbedingungen](Vertragsbedingungen_definieren), Integration in Auftragserfassung, Lieferverträge |
+| [Gebindeverwaltung](Handling_Unit_System) | [Konfigurierbare Gebinde](CU-TU_Zuordnung), Leergutannahme und Gebindesaldo mitsamt Abrechnung |

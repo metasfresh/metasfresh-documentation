@@ -2,7 +2,7 @@
 title: Liste der Tastenkombinationen
 layout: default
 tags:
-  - Anfängertips
+  - Anfängertips für metasfresh
 lang: de
 sequence: 20
 ref: keyboard_shortcuts_reference
