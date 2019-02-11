@@ -4,8 +4,9 @@ layout: default
 tags:
   - Stammdaten
   - Lager
+  - Lagerbewegung
 lang: de
-sequence: 40
+sequence: 10
 ref: automatic_distribution_network
 ---
 

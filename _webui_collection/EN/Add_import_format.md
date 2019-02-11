@@ -36,7 +36,7 @@ By means of the import format, you can determine which data, or rather columns, 
 ### b) Copy Format Fields
 If you want to add a new import format with the same format fields as an existing format, you can very easily copy the format fields from the existing import format into the new one via the [actions menu](StartAction). To do so, take the following steps:
 
-1. Add a new import format as described above in the **steps 1 to 5**.
+1. Add a new import format as described above in **steps 1 to 5**.
 1. [Start the action](StartAction) "Copy Lines". An overlay window opens up.
 1. Select the appropriate **Import Format** from which you want to copy the format fields.
  >**Note:** In order to successfully copy the format fields from an existing import format, the new format must be configured with the **_exact same_ DB table** as the existing one.

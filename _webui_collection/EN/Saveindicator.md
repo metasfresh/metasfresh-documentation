@@ -9,15 +9,15 @@ ref: saveindicator
 ---
 
 ## Overview
-metasfresh always saves automatically every time changes are made.
+metasfresh always saves automatically each time changes are made.
 
-The color of the progress bar below the menu shows the respective status of the save progress.
+The color of the progress bar below the menu bar indicates the respective status of the save process.
 
-| Color      | Explanation    |
-| :------------- | :------------- |
-| grey       | trying to save        |
-| green | saved successfully |
-| red | error while trying to save
+| Color | Meaning |
+| :--- | :--- |
+| <span style="color:grey">grey</span> | Saving... |
+| <span style="color:green">green</span> | Saving was successful. |
+| <span style="color:red">red</span> | Failed to save changes due to an error. |
 
 ## Example
 ![](../DE/assets/saveindicator2.gif)

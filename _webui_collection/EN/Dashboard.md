@@ -14,7 +14,7 @@ The metasfresh dashboard loads automatically right after login and shows real-ti
 You may also customize the dashboard according to your own requirements by adding, removing, repositioning and editing widgets. To do so, take the following steps:
 
 ## Customize the Dashboard
-1. [Log in to the system](Login) or open "DASHBOARD" from the [menu](Menu).
+1. [Log in to metasfresh](Login) or open "DASHBOARD" from the [menu](Menu).
 1. Open the [actions menu](StartAction) ![](assets/actionsmenu_WebUI.png) and click "Open edit mode". A small selection pane opens up on the right-hand side of the page showing the available widgets.
  >**Note:** Use shortcut `Alt` + `O` / `⌥ alt` + `O`.
 

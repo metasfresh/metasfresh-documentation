@@ -28,3 +28,5 @@ metasfresh ist eine vollwertige Warenwirtschaftssystems-Software (ERP) und verf�
 | Mandantenfähigkeit | Mehrdimensionale Organisationsstruktur, automatische Gegenzeichnung von Belegen |
 | Preismanagement | Preisliste, Versionierung, Mehrwährungsfähigkeit, mengenbezogene Abschläge, Handhabung von Preis- und Gebindeeinheiten, brutto/netto, Handauszeichnung und Ermäßigungen |
 | Qualitätsmanagement | Bildaufnahme, Qualitätskontrolle und automatische Abzinsung |
+| Vertragsverwaltung | Abonnements, automatische Verlängerung, konfigurierbare Vertragsbedingungen, Integration in Auftragserfassung |
+| Gebindeverwaltung | [Konfigurierbare Gebinde](http://docs.metasfresh.org/howto_collection/Wie_funktioniert_die_Gebindeverwaltung_als_Teil_des_Handling_Unit_Systems.html), Leergutannahme und Gebindesaldo mitsamt Abrechnung |

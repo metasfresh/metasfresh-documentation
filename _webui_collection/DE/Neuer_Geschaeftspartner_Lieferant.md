@@ -1,16 +1,17 @@
 ---
-title: Wie lege ich einen neuen Lieferanten an?
+title: Wie erfasse ich einen neuen Lieferanten?
 layout: default
 tags:
   - Stammdaten
   - Geschäftspartner
+  - Geschäftsbeziehungen
 lang: de
-sequence: 50
+sequence: 20
 ref: new_business_partner_vendor
 ---
 
 ## Übersicht
-In metasfresh kannst Du definieren, ob ein Geschäftspartner ein Kunde, Lieferant oder beides ist. Zusätzlich kannst Du die kaufmännischen Konditionen einstellen, welche bei der späteren Belegerstellung dann automatisch vorgegeben werden.
+In metasfresh kannst Du festlegen, ob ein Geschäftspartner ein Kunde, Lieferant oder beides ist. Zusätzlich kannst Du die kaufmännischen Konditionen voreinstellen, welche bei der späteren Belegerstellung dann automatisch angewandt werden.
 
 ## Schritte
 
@@ -22,7 +23,7 @@ In metasfresh kannst Du definieren, ob ein Geschäftspartner ein Kunde, Lieferan
 1. Wähle ein **Einkaufspreissystem** aus.
 1. Wähle ein [**Einkaufsrabattschema**](Preiskonditionen_in_metasfresh) aus.
 1. ***Optional:*** Füge weitere Bedingungen hinzu, wie z.B. **Zahlungsweise**, **Lieferung** ('*wird abgeholt*' oder '*geliefert*'), **Zahlungsbedingung** usw.
-1. Klicke auf "Bestätigen", um die "Erweiterte Erfassung" zu schließen und die Konditionen zur Registerkarte hinzuzufügen.
+1. Klicke auf "Bestätigen", um die Änderungen zu übernehmen und die "Erweiterte Erfassung" zu schließen.
 
 ## Beispiel
 ![](assets/Neuer_Geschaeftspartner_Lieferant.gif)

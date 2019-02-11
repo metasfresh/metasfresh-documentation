@@ -4,13 +4,14 @@ layout: default
 tags:
   - Master Data
   - Business Partner
+  - Business Relations
 lang: en
-sequence: 40
+sequence: 10
 ref: new_business_partner_customer
 ---
 
 ## Overview
-In metasfresh, you can define whether a business partner is a customer, vendor or both. Additionally, you can preconfigure the commercial terms and conditions that will then be set as default for all future business documents.
+In metasfresh, you can determine whether a business partner is a customer, vendor or both. Additionally, you can set default commercial terms and conditions that will then be automatically applied to all future business documents.
 
 ## Steps
 
@@ -22,7 +23,7 @@ In metasfresh, you can define whether a business partner is a customer, vendor o
 1. Select a **Price System**.
 1. Select a [**Discount Schema**](Pricing_conditions_in_metasfresh).
 1. ***Optional:*** Add further terms and conditions, such as **Payment Rule**, **Payment Term**, [**Dunning**](Setup_Dunning), etc.
-1. Click "Done" to close the advanced edit menu and add the terms and conditions to the tab.
+1. Click "Done" to apply the changes and close the advanced edit menu.
 
 ## Example
 ![](assets/New_Business_Partner_customer.gif)

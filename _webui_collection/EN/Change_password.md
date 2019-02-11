@@ -29,7 +29,7 @@ If you are having a hard time remembering your login password or simply want to 
 ---
 
 ## Change password (at whim)
-1. Open the user menu ![](assets/UserMenu_Rabbit_WebUI.png) in the upper right corner of the menu ribbon.
+1. Open the user menu ![](assets/UserMenu_Rabbit_WebUI.png) in the upper right corner of the menu bar.
  >**Note:** Use shortcut `Alt` + `4` / `⌥ alt` + `4`.
 
 1. Click on "Settings".

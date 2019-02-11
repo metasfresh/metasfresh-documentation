@@ -15,12 +15,12 @@ Opportunities sind potenzielle Verkaufsmöglichkeiten im Vertrieb, die mit einer
 
 In metasfresh werden Opportunities als eine *Vorgangsart* abgebildet, deren Status wie folgt sein kann:
 
-| Status     | Beschreibung     |
-| :------------- | :------------- |
-| 10%        |  Ausgangspunkt
-| 25%, 50%, 75%| Steigende Wahrscheinlichkeit
-| 100% | Gewonnen
-| 0% | Verloren
+| Status | Beschreibung |
+| :--- | :--- |
+| 10% | Ausgangspunkt |
+| 25%, 50%, 75% | Steigende Wahrscheinlichkeit |
+| 100% | Gewonnen |
+| 0% | Verloren |
 
 ## Schritte
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Vorgänge".

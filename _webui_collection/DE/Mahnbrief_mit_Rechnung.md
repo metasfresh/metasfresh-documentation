@@ -10,7 +10,7 @@ ref: dunning_letter_with_attached_invoice
 ---
 
 ## Übersicht
-In metasfresh kannst Du Mahnbriefe schnell und einfach mit den dazugehörigen Rechnungsbelegen in einer PDF-Datei zusammenführen, um die Unterlagen dann gemeinsam auszudrucken bzw. an den jeweiligen Mahnkandidaten weiterzuleiten.
+In metasfresh kannst Du Mahnbriefe schnell und einfach mit den dazugehörigen Rechnungsbelegen in einer PDF-Datei zusammenfügen, um die Unterlagen dann gemeinsam auszudrucken bzw. an den jeweiligen Mahnkandidaten weiterzuleiten.
 
 ## Voraussetzungen
 - [Erstelle die Mahnunterlagen für einen Mahnkandidaten](Mahnlauf).

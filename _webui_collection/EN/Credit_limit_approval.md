@@ -23,7 +23,7 @@ Only authorized users can confirm requests for approval of credit limits. They r
 
 1. [Start the action](StartAction) "Credit Limit Approve".
 1. [metasfresh saves the progress automatically](Saveindicator).
- >**Note:** The message "Process completed successfully" appears in the upper right corner of the window, the box in the column **Approved** is checked and the field **Approved by** is filled in with the name of the authorized user.
+ >**Note:** The message "Process completed successfully" is displayed in the upper right corner of the window, the box in the column **Approved** is checked and the field **Approved by** is filled in with the name of the authorized user.
 
 <br>
 

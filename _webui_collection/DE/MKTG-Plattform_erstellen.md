@@ -11,9 +11,9 @@ ref: create_mktg_platform
 ## Übersicht
 Mittels der Marketing-Plattform kannst Du festlegen, welche Adressart beim [Hinzufügen von Kontakten in eine Marketingkampagne](MKTG-Kampagne_Kontakte_hinzufuegen) verwendet werden soll. Du hast die Wahl zwischen der [*Standardadresse des Geschäftspartners*](Adresse_erfassen_Tab) (**Requires Location**) und der [*E-Mail-Adresse des Nutzers*](Nutzer_anlegen) (**Requires Mail Address**). Selbstverständlich kannst Du auch beide Adressarten miteinander kombinieren.
 
-Wählst Du **Requires Location** aus, dann handelt es sich anschließend bei der Kampagne um eine [*Serienbrief-Kampagne*](Serienbriefe_erstellen), in die nur diejenigen Kontakte aufgenommen werden, für die im System eine Standardadresse hinterlegt ist (Geschäftspartner).
+Wählst Du **Requires Location** aus, dann handelt es sich anschließend bei der Kampagne um eine [*Serienbrief-Kampagne*](Serienbriefe_erstellen), in die nur diejenigen Kontakte aufgenommen werden, für die in metasfresh eine Standardadresse hinterlegt ist (Geschäftspartner).
 
-Wählst Du **Requires Mail Address** aus, dann handelt es sich anschließend bei der Kampagne um eine *E-Mail-Kampagne*, in die nur diejenigen Kontakte aufgenommen werden, für die im System eine E-Mail-Adresse hinterlegt ist (Nutzer).
+Wählst Du **Requires Mail Address** aus, dann handelt es sich anschließend bei der Kampagne um eine *E-Mail-Kampagne*, in die nur diejenigen Kontakte aufgenommen werden, für die in metasfresh eine E-Mail-Adresse hinterlegt ist (Nutzer).
 
 ## Schritte
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Marketing Platform".

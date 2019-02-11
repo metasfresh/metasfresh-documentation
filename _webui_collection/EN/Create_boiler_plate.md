@@ -16,7 +16,7 @@ With boiler plates you can create text templates for letters and use them in mar
 1. [Create a new boiler plate](New_Record_Window).
 1. Give the boiler plate a **Name**.
 1. Enter a **Subject**.
-1. In the text box **Text Snippet** enter a text.
+1. In the text box **Text Snippet**, enter a text.
 1. [metasfresh saves the progress automatically](Saveindicator).
 
 ## Example
