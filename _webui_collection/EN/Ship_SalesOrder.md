@@ -19,5 +19,8 @@ ref: ship_salesorder
 1. Click on the notification to open the delivery note.
 1. [Open the PDF print preview](PrintPreview).
 
+## Next Steps
+- [Create an invoice](Invoice_SalesOrder) for the sales order.
+
 ## Example
 ![](assets/order_shipment.gif)

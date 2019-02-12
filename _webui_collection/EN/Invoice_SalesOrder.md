@@ -19,5 +19,11 @@ ref: invoice_salesorder
 1. Click on the notification to open the invoice document.
 1. [Open the PDF print preview](PrintPreview).
 
+## Next Steps (optional)
+Did you make a mistake when creating the invoice or would you like to subsequently change its recipient? Not a problem! Simply
+- [cancel the invoice](Invoice_reverse_correct) and correct it, and/or
+- [change the bill-to information](Bill-to_info_subsequent_change) as required.
+
+
 ## Example
 ![](assets/salesorderinvoice.gif)
