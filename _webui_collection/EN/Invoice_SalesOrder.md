@@ -10,7 +10,7 @@ ref: invoice_salesorder
 ---
 
 ## Steps
-1. Open a [sales order which was shipped](Ship_SalesOrder).
+1. Open a [sales order which has been shipped](Ship_SalesOrder).
 1. [Jump to](JumptoviaSidebar) "Invoice Disposition".
 1. [Select the order lines](RecordSelection) you want to invoice.
 1. [Start the action](StartAction) "Generate Invoices". An overlay window opens up.

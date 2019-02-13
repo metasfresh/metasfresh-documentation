@@ -33,7 +33,7 @@ In metasfresh kannst Du sowohl nach Fertigstellung eines Auftrags (und vor der R
 
 ### b) Nach der Rechnungserstellung
 1. [Storniere die Rechnung](Rechnung_stornieren), deren Empfängerdaten Du ändern möchtest.
-1. Fahre fort mit der obigen Anleitung a) ab dem **Schritt 3**.
+1. Fahre fort mit der obigen **Anleitung a)** ab dem **Schritt 3**.
 
 ## Beispiel
 ![](assets/Rechnungsadresse_nachtraeglich_aendern.gif)

@@ -13,7 +13,7 @@ ref: export_product_data
 ## Overview
 In metasfresh, you can easily export all product specifications in one go.
 
-Weitere Informationen über den Export einzelner Dateneinträge gibt es [hier](Datenexport_in_metasfresh).
+For more information on how to export selected data entries, please see [here](Data_export_metasfresh).
 
 ## Steps
 1. Open "Product" from the [menu](Menu) in the [list view](ViewModes).

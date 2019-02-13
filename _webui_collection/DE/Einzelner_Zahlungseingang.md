@@ -11,7 +11,7 @@ ref: single_incoming_payment
 ---
 
 ## Übersicht
-Hast Du eine Zahlung erhalten, kannst Du den Betrag als *Zahlungseingang* in metasfresh verbuchen, wodurch die dazugehörige Rechnung automatisch den Status *Bezahlt* erhält. Gehe hierzu wie folgt vor:
+Wenn Du eine Zahlung erhalten hast, kannst Du den Betrag als *Zahlungseingang* in metasfresh verbuchen, wodurch die dazugehörige Rechnung automatisch den Status *Bezahlt* erhält. Gehe hierzu wie folgt vor:
 
 ## Voraussetzungen
 - Stelle sicher, dass Dir eine unbeglichene [Rechnung](Zu_Auftrag_Rechnung_erstellen) vorliegt.
@@ -27,6 +27,9 @@ Hast Du eine Zahlung erhalten, kannst Du den Betrag als *Zahlungseingang* in met
 1. Der **Zahlungsbetrag** und die **Währung** werden automatisch aus der Rechnung übernommen, können bei Bedarf jedoch auch manuell geändert werden.
 1. [Stelle den Beleg fertig](BelegverarbeitungFertigstellen).
 1. [Springe in das Feld](Springezu) **Rechnung**, um den Status der Rechnung zu überprüfen, ***oder*** gehe alternativ zur Registerkarte "Zuordnungen" und [zoome](Zoomen_in_Tabellenfeld) in das Feld in der Spalte **Rechnung** der Zuordnungszeile.
+
+## Nächste Schritte (optional)
+- [Ordne eine Einmalzahlung für mehrere Rechnungen entsprechend zu](Zahlungseingaenge_manuelle_Zuordnung).
 
 ## Beispiel
 ![](assets/Einzelner_Zahlungseingang.gif)

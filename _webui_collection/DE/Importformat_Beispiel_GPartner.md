@@ -35,7 +35,7 @@ In dem folgenden Beispiel wird der Dateninhalt aus einer Datei einer Tabellenkal
 | OrgValue | metasfresh AG | **Suchschlüssel** der Organisation. _**Achtung:** Nicht der Name!_<br> (*Den Suchschlüssel kannst Du unter dem Menüpunkt "[Organisation](Menu)" nachschauen.*) |
 | Standortdaten | • Straße und Nr.<br> • PLZ<br> • Ort<br> • Region<br> • ISO Ländercode | Damit [Standortdaten](Adresse_erfassen_Tab) importiert werden können, müssen mindestens **Ort** und **ISO Ländercode** angegeben sein.<br><br> Standortdaten wie **Straße und Nr.**, **PLZ** oder **Region** werden nur importiert, wenn sowohl **Ort** als auch **ISO Ländercode** vorhanden sind. |
 | Global Location Number (GLN) | 1234567890128 | Zum Import einer **GLN** müssen sowohl **Ort** als auch **ISO Ländercode** vorhanden sein. |
-| Webadresse (URL) | https://metasfresh.com/ | Damit eine **URL** nach dem Import gültig wird, muss diese mit dem Internetprotokollakronym beginnen (z.B. `https://`). |
+| Webadresse (URL) | [**https://**metasfresh.com/](https://metasfresh.com/ "metasfresh Homepage") | Damit eine **URL** nach dem Import gültig wird, muss diese mit dem Internetprotokollakronym beginnen (z.B. `https://`). |
 
 ## Nächste Schritte
 - [Geschäftspartnerdaten importieren](GPartnerdaten_importieren).

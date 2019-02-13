@@ -11,7 +11,7 @@ ref: incoming_payments_manual_allocation
 ---
 
 ## Übersicht
-Wenn ein Kunde eine einzelne Zahlung leistet, um mehrere Rechnungen auf einmal zu begleichen, muss der erhaltene Betrag den jeweiligen Rechnungen *manuell zugeordnet* werden.
+Wenn ein Kunde eine einzelne Zahlung leistet, um mehrere Rechnungen auf einmal zu begleichen, muss der erhaltene Betrag den jeweiligen Rechnungen *manuell zugeordnet* werden. Gehe hierzu wie folgt vor:
 
 ## Voraussetzungen
 - Stelle sicher, dass Dir mehrere offene [Rechnungen](Zu_Auftrag_Rechnung_erstellen) vorliegen.
