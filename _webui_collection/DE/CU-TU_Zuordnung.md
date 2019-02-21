@@ -1,5 +1,5 @@
 ---
-title: Wie ordne ich ein Produkt einem Gebinde zu?
+title: Wie konfiguriere ich ein Produkt für die Nutzung im Gebinde?
 layout: default
 tags:
   - Stammdaten
@@ -11,7 +11,7 @@ ref: cu-tu_allocation
 ---
 
 ## Übersicht
-Ein Produkt ist eine Verkaufseinheit (engl.: *Customer Unit - CU*), welche in größeren Mengen zu einem Gebinde (engl.: *Transport Unit - TU*) zusammengefasst werden kann. Die Art des Gebindes ist abhängig von der Packvorschrift.
+Ein Produkt ist eine Verkaufseinheit (engl.: [*Consumer Unit = CU*](Handling_Unit_System)), welche in größeren Mengen in einem Gebinde (engl.: [*Transport Unit = TU*](Handling_Unit_System)) verpackt werden kann. Die Art des zu verwendenden Gebindes wird in der Packvorschrift bestimmt.
 
 ## Schritte
 1. Öffne den Eintrag eines bestehenden [Produkts](Menu) bzw. [lege ein neues an](NeuesProdukt).

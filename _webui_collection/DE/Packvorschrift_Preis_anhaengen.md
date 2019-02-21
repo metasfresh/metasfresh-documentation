@@ -1,5 +1,5 @@
 ---
-title: Wie hänge ich eine Packvorschrift an einen Preis?
+title: Wie knüpfe ich eine Packvorschrift an einen Preis?
 layout: default
 tags:
   - Stammdaten
@@ -11,9 +11,9 @@ ref: add_packing-instructions_to_price
 ---
 
 ## Übersicht
-Wenn Du ein Produkt verkaufst, tust Du dies nicht unbedingt immer nach der Bestandsmengeneinheit, sondern legst eine abweichende Verkaufsmengeneinheit fest, die je nachdem auch in Gebinden zusammengefasst wird.
+Wenn Du ein Produkt verkaufst, tust Du dies nicht unbedingt immer nach der Bestandsmengeneinheit, sondern legst eine abweichende Verkaufsmengeneinheit fest, die je nachdem auch in [Gebinden](Handling_Unit_System) verpackt wird.
 
-Unter "Produkt Preise" kannst Du daher sowohl Packvorschriften festlegen als auch einstellen, ob der Preis von der Bestandsmengeneinheit oder der Verkaufsmengeneinheit abhängig ist.
+Unter "Produkt Preise" kannst Du daher sowohl Packvorschriften festlegen als auch einstellen, ob der Preis entweder von der Bestandsmengeneinheit oder von der Verkaufsmengeneinheit abhängig ist.
 
 ## Schritte
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Produkt Preise".
@@ -30,7 +30,7 @@ Unter "Produkt Preise" kannst Du daher sowohl Packvorschriften festlegen als auc
 #### Wie funktioniert die "Attributabhängigkeit"?
 **Fall 1:** Der Preis ist *NICHT* attributabhängig.
 
-Das Kästchen **Preis ist attributabhängig** ist nicht abgehakt:<br>
+Das Kästchen **Preis ist attributabhängig** ist nicht angehakt:<br>
 ![](assets/Preis_nicht_attributabhaengig.png)
 
 ***Folgen:*** metasfresh berechnet die Auftragszeilensumme im Auftrag auf Grundlage der Bestandsmengeneinheit des Produkts.
@@ -44,7 +44,7 @@ Bestandsmengeneinheit:<br>
 <br>
 **Fall 2:** Der Preis *IST* attributabhängig.
 
-Das Kästchen **Preis ist attributabhängig** ist abgehakt:<br>
+Das Kästchen **Preis ist attributabhängig** ist angehakt:<br>
 ![](assets/Preis_attributabhaengig.png)
 
 ***Folgen:*** metasfresh berechnet die Auftragszeilensumme im Auftrag auf Grundlage der Verkaufsmengeneinheit des Produkts (siehe oben).
