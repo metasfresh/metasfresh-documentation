@@ -25,7 +25,7 @@ ref: new_business_partner
 1. [metasfresh saves the progress automatically](Saveindicator).
 
 ### Optional Steps
-1. [Add some appropriate **attributes**](Add_attributes_to_BP) that will help you find the business partner quicker when using the [filtering function](Filtering_function).
+1. [Add some appropriate **attributes**](Add_attributes_to_BP) that will help you find the business partner more quickly when using the [filtering function](Filtering_function).
 1. Turn the business partner into a [customer](New_business_partner_customer) and/or [vendor](New_business_partner_vendor).
 1. [Link the business partner to a price system](Assign_prices_to_partner).
 1. Add contact information, i.e. [link the business partner to a user](Add_user_to_BPartner).

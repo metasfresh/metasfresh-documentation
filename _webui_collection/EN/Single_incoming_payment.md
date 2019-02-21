@@ -28,5 +28,8 @@ After receiving a payment, you can enter the amount as an *Incoming Payment* in 
 1. [Complete the document](DocumentProcessingComplete).
 1. [Jump into the field](Jumpto) **Invoice** to review the invoice status, ***or alternatively***, go to the record tab "Allocations" and [zoom into](Zoom_into_table_field) the field in the column **Invoice** of the allocation line.
 
+## Next Steps (optional)
+- [Manually allocate a single payment to multiple invoices](Incoming_payments_manual_allocation).
+
 ## Example
 ![](assets/single_incoming_payment.gif)

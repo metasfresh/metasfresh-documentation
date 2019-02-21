@@ -33,7 +33,7 @@ In metasfresh, you can easily change the name and/or address of the invoice reci
 
 ### b) After invoicing
 1. [Cancel the invoice](Invoice_reverse_correct) whose bill-to information you want to change.
-1. Proceed with the above instructions a) from **step 3**.
+1. Proceed with the above **instructions a)** from **step 3**.
 
 ## Example
 ![](assets/Bill-to_info_subsequent_change.gif)

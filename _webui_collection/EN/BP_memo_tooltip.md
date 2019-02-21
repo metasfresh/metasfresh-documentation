@@ -10,7 +10,7 @@ ref: bp_memo_tooltip
 ---
 
 ## Overview
-You can record special memos with information of potential importance about a business partner that will be displayed in a tooltip in [sales orders](SalesOrder_recording) or [purchase orders](CreatePurchaseOrder) when clicking on the tooltip icon ![](assets/Tooltip_icon.png) to the right of the partner's name.
+In metasfresh, you can record special memos with information of potential importance about a business partner that will be displayed in a tooltip in [sales orders](SalesOrder_recording) or [purchase orders](CreatePurchaseOrder) when clicking on the tooltip icon ![](assets/Tooltip_icon.png) to the right of the partner's name.
 
 ## Steps
 1. Open the entry of an existing [business partner](Menu) or [add a new one](New_Business_Partner).
