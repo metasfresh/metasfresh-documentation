@@ -2,6 +2,7 @@
 title: Dashboard
 layout: default
 tags:
+  - A Beginner's Guide to metasfresh
   - Features
 lang: en
 sequence: 20

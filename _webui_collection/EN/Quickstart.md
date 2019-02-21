@@ -2,7 +2,7 @@
 title: Quick Start (Basic WebUI Features)
 layout: default
 tags:
-  - Beginner's Guide
+  - A Beginner's Guide to metasfresh
 lang: en
 sequence: 10
 ref: quickstart

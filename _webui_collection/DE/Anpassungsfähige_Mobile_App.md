@@ -2,7 +2,8 @@
 title: Anpassungsfähige mobile App
 layout: default
 tags:
-  - Funktionen
+  - Anfängertips für metasfresh
+  - Eigenschaften
 lang: de
 sequence: 30
 ref: responsive_mobile_app
