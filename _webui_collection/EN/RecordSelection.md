@@ -1,5 +1,5 @@
 ---
-title: How do I select records?
+title: How do I select entries/lines?
 layout: default
 tags:
   - Usage

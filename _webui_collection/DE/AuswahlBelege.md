@@ -1,5 +1,5 @@
 ---
-title: Wie selektiere ich Einträge?
+title: Wie selektiere ich Einträge/Zeilen?
 layout: default
 tags:
   - Benutzung
