@@ -21,7 +21,7 @@ Diese Anleitung beschreibt die Installation der folgenden Dienste gemäß [diese
 
 |     | Mindestens      | Empfohlen
 | :------------- | :------------- |
-| RAM | 3 GB       | 4 GB
+| RAM | 4 GB       | 8 GB (steigt mit größe der Datenbank)
 | CPU | 1 VCPU | 4 VCPU
 | HDD | 10 GB | 20 GB
 
