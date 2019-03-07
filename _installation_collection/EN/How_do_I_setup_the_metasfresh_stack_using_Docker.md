@@ -21,7 +21,7 @@ This manual describes the installation of the following services according to [t
 
 |     | Minimum      | Recommended
 | :------------- | :------------- |
-| RAM | 3 GB       | 4 GB
+| RAM | 4 GB       | 8 GB (increases with db size)
 | CPU | 1 VCPU | 4 VCPU
 | HDD | 10 GB | 20 GB
 
