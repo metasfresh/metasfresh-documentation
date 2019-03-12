@@ -14,7 +14,7 @@ Even if you just want to study the code, it probably makes a lot of sense to do 
 
 ## Get and install Eclipse
 
-Download the installer for the latest Eclipse version (currently this is Eclipse Oxygen) from [http://www.eclipse.org/](http://www.eclipse.org/).<br>
+Download the installer for the latest Eclipse version (currently this is Eclipse 2018-12) from [http://www.eclipse.org/](http://www.eclipse.org/).<br>
 The installer will give you a choice about which "edition" to install.<br>
 **"Eclipse IDE for Java Developers"** will probably do. We found that at least for us, the "Eclipse IDE for Java EE Develeopers" has too much unneeded overhead.
 
@@ -81,18 +81,21 @@ Please take a look [here](getting_started_maven_settings) for details.
 
 ## Start metasfresh from within Eclipse
 
-* Starting a client with embedded server
-  - The launcher file `/de.metas.endcustomer.mf15.swingui/de.metas.SwingUIApplication_mf15_with_embedded_server.launch` starts the client with an embedded server.<br>When developing, this is often the most practical way to run metasfresh from Eclipse.
+* Starting a client
+  - The launcher file `/metasfresh-dist/metasfresh-dist-swingui.launch` starts the sing client,<br>When developing, this is often the most practical way to run metasfresh from Eclipse.<br>Note that in order to do dev-work the swing client only needs to connect to the DB, but not neccesarily to the app server
 
 * Starting the server and client individually:
-  - Start the server: use the launcher file `/de.metas.endcustomer.mf15.serverRoot/de.metas.ServerBoot_mf15.launch`
-    * Note that the server needs a preexisting metasfresh-properties file. In case it does not find such a file, it will fail. It is recommended to first run the client with embedded server.
-  - Start the client: use the launcher file `/de.metas.endcustomer.mf15.swingui/de.metas.SwingUIApplication_mf15.launch`
-  - there is also an alternative  `..._jrebel.launch` for both client and server. You can them in case you have the [JRebel](http://zeroturnaround.com/software/jrebel/) Eclipse plugin.
+  - Start the backend/app server: use the launcher file `/metasfresh-dist/metasfresh-dist-serverRoot.launch`
+  - Start the webui-api: use the launcher file `metasfresh-webui-api/metasfresh-webui-api.launch`
+    - Note that this start the webui's rest API. To actually interact with metasfresh using your web-browser, you also need to start the javascript webui-frontend as well. See the respective [README.md](https://github.com/metasfresh/metasfresh-webui-frontend/blob/master/README.md) for further details.
+  - If you are going to work with material-dispo, the print service, the MSV3-server etc: there are also `.launch` config files for those
+  - Start the client: use the launcher file `/metasfresh-dist/metasfresh-dist-swingui.launch`
+    - to connect to the app server (as opposed to just the DB), enter the app-server settings `localhost` and port `61616` in the swing client's connection dialog
+  - there are also an alternative  `..._jrebel.launch` configs. You can them in case you have the [JRebel](http://zeroturnaround.com/software/jrebel/) Eclipse plugin.
 
 
 Note that until eclipse version neon2 the lombok integration is tricky.
-The recommended eclipse version is neon3, as the lombok integration works out of the box with the lombok gui installer (also across multiple eclipse projects). See [here](http://stackoverflow.com/questions/42444457/lombok-does-not-work-for-eclipse-neon) for further infos.
+The recommended eclipse version is at least neon3, as the lombok integration works out of the box with the lombok gui installer (also across multiple eclipse projects). See [here](http://stackoverflow.com/questions/42444457/lombok-does-not-work-for-eclipse-neon) for further infos.
 
 ## Optional - Install the "Eclipse Mylyn to GitHub connector"
 
@@ -106,9 +109,9 @@ With this connector installed, you can add GitHub-based mylyn repositories to yo
 
 # Other IDEs
 
-We don't yet have experince with code contributions that were created with e.g. Netbeans or IntelliJ.
+We don't yet have experince with code contributions that were created with Netbeans and are only getting started to [gain experience with IntelliJ](https://forum.metasfresh.org/t/development-environment-guide-with-intellij-and-kubernetes/1531).
 
 We don't think there is a need to dictate a particular IDE,
 
-however, when contributing, please make sure to text-format your contribution in a way that allows us to get a meaningfull diff.
+but when contributing, please make sure to text-format your contribution in a way that allows us to get a meaningfull diff.
 to that end, note that your IDE might be able to import our [Eclipse formatting spec](https://github.com/metasfresh/metasfresh-dev/blob/master/eclipse-config/eclipse_metas_formatter.xml).
