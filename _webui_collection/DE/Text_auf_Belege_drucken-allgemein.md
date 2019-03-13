@@ -53,3 +53,12 @@ Klicke [hier](Auftragszeilenspezifische_Produktbeschreibung), wenn Du einem Prod
 
 ### Rechnungsspezifische Belegtexte
 Klicke [hier](Rechnungsspezifische_Belegtexte), wenn Du rechnungsspezifische Belegtexte erfassen möchtest, die ausschließlich auf dem jeweiligen Rechnungsbeleg erscheinen.
+
+
+---
+
+## Einkaufsbestätigung
+
+### Abladeort
+Um einen anderen Abladeort als die Standardadresse der jeweiligen Organisation in der Einkaufsbestätigung anzuzeigen, lege zuerst die [Adresse](Adresse_erfassen_Tab) für diesen Abladeort im Geschäftspartnerfenster für die jeweilige Organisation an. Dann wähle im [Lager](Neues_Lager_anlegen), das du für den Wareneingang benutzen möchtest, diese Adresse als Standort aus.  
+
