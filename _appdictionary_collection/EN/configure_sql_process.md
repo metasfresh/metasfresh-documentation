@@ -17,6 +17,10 @@ Was developed by this issue: https://github.com/metasfresh/metasfresh/issues/463
 ## In General
 
 * Classname (will be automatically set and made readonly): `de.metas.impexp.excel.process.ExportToExcelProcess`
+
+> In version 5.91 is a bug which prevents the class from being set automatically. workaround: `update ad_process set classname='de.metas.impexp.excel.process.ExportToExcelProcess'
+where ad_process_id= <your ad_process id>`
+
 * Your select, e.g.
 ```sql
 select
