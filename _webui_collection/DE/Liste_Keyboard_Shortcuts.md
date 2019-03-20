@@ -1,5 +1,5 @@
 ---
-title: Liste der Tastenkombinationen
+title: Liste der Keyboard Shortcuts
 layout: default
 tags:
   - Anfängertips für metasfresh
