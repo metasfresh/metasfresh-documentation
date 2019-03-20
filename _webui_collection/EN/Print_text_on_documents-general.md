@@ -2,7 +2,7 @@
 title: How do I place manual text on documents?
 layout: default
 tags:
-  - Setup
+  - Document Management
   - Edit Documents
 lang: en
 sequence: 20
