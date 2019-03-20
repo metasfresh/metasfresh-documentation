@@ -19,7 +19,7 @@ Falls Dir bei der Erfassung eines [Auftrags](Auftrag_erfassen) oder einer [Beste
 1. Klicke auf die Option *Neuer Geschäftspartner*. Es öffnet sich ein Overlay-Fenster für die Schnellerfassung.
 1. Wähle eine **Anrede** aus.
 1. Fülle die Felder **Vorname** und **Nachname** aus.
-1. ***Optional:*** Fülle die Felder **Email** und **Telefon** aus.
+1. ***Optional:*** Fülle die Felder **E-Mail** und **Telefon** aus.
 1. Handelt es sich um eine **Firma**, setze bei dem entsprechenden Kästchen ein Häkchen und fülle das Feld **Firmenname** aus. Ist dies nicht der Fall, entferne das Häkchen und benenne den Geschäftspartner im Feld **Name**.
 1. Wähle eine [**Geschäftspartnergruppe**](Neue_Geschaeftspartnergruppe) aus.
 1. Wähle die bevorzugte Kommunikations**sprache** des Partners aus.

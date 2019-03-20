@@ -46,7 +46,7 @@ ref: dunning_run
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Ausgehende Belege".
 1. [Verwende die Filterfunktion](Filterfunktion), um denjenigen Mahnbrief zu finden, den Du per E-Mail versenden möchtest und öffne den Eintrag.
 1. Überprüfe, ob **Mailempfänger** sowie **Mailadresse** in den jeweiligen Feldern korrekt angegeben sind.
-1. [Starte die Aktion](AktionStarten) "PDF als Email an Geschäftspartner senden". Es öffnet sich ein Overlay-Fenster.
+1. [Starte die Aktion](AktionStarten) "PDF als E-Mail an Geschäftspartner senden". Es öffnet sich ein Overlay-Fenster.
 1. Klicke auf "Start", um den Mahnbrief zu versenden und das Overlay-Fenster zu schließen.
 <br><br>
 
