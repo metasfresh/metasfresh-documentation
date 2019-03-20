@@ -16,7 +16,7 @@ ref: creategoodsreceipt
 1. Klicke auf den voreingestellten [Quick-Actions](AktionStarten)-Button, z.B. ![](assets/Zu_Bestellung_Wareneingang_erstellen-99aab.png). Es öffnet sich ein Overlay-Fenster, der "HU Editor".
 1. Bestätige den Wareneingang mit dem Button ![](assets/Zu_Bestellung_Wareneingang_erstellen-3191c.png).
 1. Klicke auf "Bestätigen", um den "HU Editor" zu schließen.
-1. Du erhältst oben rechts eine Benachrichtigung ![](assets/NotificationBell_WebUI.png) über die erfolgreiche Erstellung des Wareneingangs.
+1. Du erhältst oben rechts eine [Benachrichtigung](Benachrichtigungsarten) ![](assets/NotificationBell_WebUI.png) über die erfolgreiche Erstellung des Wareneingangs.
 
 ## Nächste Schritte
 - [Erstelle eine Rechnung](Zu_Bestellung_Eingangsrechnung_erstellen) zu der Bestellung.
