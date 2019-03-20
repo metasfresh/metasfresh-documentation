@@ -22,8 +22,8 @@ The example below compares the data content of a file from a spreadsheet softwar
  >**Note:** metasfresh does ***not expect any column names*** in the import file. Simply the ***position*** of the column must correspond to the start number.
 
 - The **Name** of the format field may be chosen freely and does not have to coincide with the column name in the import file.
-- The **Column** of the format field determines where metasfresh shall transfer the content of the column from the import file.
-- The **Data Type** determines whether the type of the import data is, e.g., a *String* or a *Number*.
+- The **Column** of the format field specifies where metasfresh shall transfer the content of the column from the import file.
+- The **Data Type** specifies whether the type of the import data is, e.g., a *String* or a *Number*.
 
 ### Some useful notes
 

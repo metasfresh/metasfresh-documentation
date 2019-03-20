@@ -2,6 +2,7 @@
 title: How do I clone document data?
 layout: default
 tags:
+  - A Beginner's Guide to metasfresh
   - Usage
   - Actions
 lang: en

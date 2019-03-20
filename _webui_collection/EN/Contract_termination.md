@@ -21,7 +21,7 @@ ref: contract_termination
 1. Select the **Action** *Terminate*.
 1. Select a **Termination Reason**.
 1. Click "Start" to execute the termination and close the overlay window.
- >**Note:** The [contractual terms](Define_contractual_terms) determine the date by which a contract can be terminated. If an error occurs, the termination may most likely not be permitted upon the date chosen.
+ >**Note:** The [contractual terms](Define_contractual_terms) specify the date by which a contract can be terminated. If an error occurs, the termination may most likely not be permitted upon the date chosen.
 
 1. In the [list view](ViewModes) of the contracts you can review the **Contract Status**.
 

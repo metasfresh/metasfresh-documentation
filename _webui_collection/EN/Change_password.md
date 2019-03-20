@@ -2,6 +2,7 @@
 title: How do I change my login password? (Forgot password)
 layout: default
 tags:
+  - A Beginner's Guide to metasfresh
   - Setup
 lang: en
 sequence: 30

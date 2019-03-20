@@ -12,7 +12,7 @@ ref: create_compensation_group_schema
 ---
 
 ## Overview
-A compensation group schema allows you to determine which products will be automatically combined into a compensation group in a sales order.
+A compensation group schema enables you to specify which products will be automatically combined into a compensation group in a sales order.
 
 ## Steps
 1. Open "Compensation Group Schema" from the [menu](Menu).

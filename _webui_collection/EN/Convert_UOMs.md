@@ -23,11 +23,11 @@ Out of 1 kilogram you obtain 4 clamshells of strawberries of 250g each.<br>
 ## Steps
 1. Open the entry of an existing [product](Menu) or [add a new one](NewProduct).
 1. Go to the record tab "UOM Conversion" at the bottom of the page and click ![](assets/Add_New_Button.png). An overlay window opens up.
-1. The field **UOM** determines the source UOM and must be identical to the product's stock UOM, e.g., here "kilograms".
-1. The field **UOM to** determines the target UOM to convert into, e.g., here "each".
-1. The field **Multiply Rate** determines the value by which to multiply the amount in the source UOM to obtain the corresponding amount in the target UOM.<br>
+1. The field **UOM** specifies the source UOM and must be identical to the product's stock UOM, e.g., here "kilograms".
+1. The field **UOM to** specifies the target UOM to convert into, e.g., here "each".
+1. The field **Multiply Rate** specifies the value by which to multiply the amount in the source UOM to obtain the corresponding amount in the target UOM.<br>
 ***Example:*** `1 kg × 4 = 4 each`.
-1. The field **Divide Rate** determines the value by which to divide the amount in the source UOM to obtain the corresponding amount in the target UOM.<br>
+1. The field **Divide Rate** specifies the value by which to divide the amount in the source UOM to obtain the corresponding amount in the target UOM.<br>
 ***Example:*** `1 kg ÷ 0.25 = 4 each`.
  >**Note:** Upon entering one of the values, the other will be calculated automatically.
 

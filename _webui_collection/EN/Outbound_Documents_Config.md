@@ -2,7 +2,7 @@
 title: How do I configure the outbound documents?
 layout: default
 tags:
-  - Setup
+  - Document Management
   - Edit Documents
 lang: en
 sequence: 10
