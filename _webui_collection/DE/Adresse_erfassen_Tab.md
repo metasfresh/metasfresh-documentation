@@ -17,7 +17,7 @@ ref: add_address_tab
 1. Trage die **Straße und Nr.**, die **PLZ**, den **Ort** und das **Land** des Unternehmens ein.
  >**Hinweis:** Wenn Du "Vereinigte Staaten von Amerika" als **Land** auswählst, kannst Du auch die **Region** eingeben. Klicke dazu einfach zweimal auf den Edit-Button, um das kleine Adressbearbeitungsfenster zu schließen und wieder zu öffnen. Das Feld erscheint dann über **Land**.
 
-1. Trage die **GLN** (Globale Lokationsnummer) des Unternehmens ein, soweit vorhanden.
+1. Trage die **GLN** (Globale Lokationsnummer) des Unternehmens ein, sofern vorhanden.
 1. Klicke auf "Bestätigen", um das Overlay-Fenster zu schließen und die Adresse zur Liste hinzuzufügen.
  >**Hinweis:** Auf diese Weise kannst Du auch mehrere Adressen erfassen, wenn nötig.
 
