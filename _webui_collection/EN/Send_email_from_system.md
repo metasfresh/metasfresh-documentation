@@ -14,15 +14,15 @@ ref: send_email_from_system
 In metasfresh, you can send an e-mail directly from the system to any partner you are communicating with (e.g., in sales orders or purchase orders).
 
 ## Steps
-1. Open a document such as a [sales order](SalesOrder_recording) (business partner/customer).
-1. [Start the action](StartAction) "E-mail". The e-mail editor opens up.
+1. Open an entry, e.g., a [sales order](SalesOrder_recording).
+1. Open the [actions menu](StartAction) ![](assets/actionsmenu_WebUI.png) and click on "E-mail". The e-mail editor opens up.
  >**Note 1:** Alternatively, press `Alt` + `K` / `⌥ alt` + `K` to open the e-mail editor.<br><br>
- >**Note 2:** The name of the recipient, if provided, will be filled in automatically.
+ >**Note 2:** The name of the recipient, if available, will be filled in automatically.
 
 1. Compose your own text or select a template from the template field at the top right of the e-mail editor.
- >**Note:** The template field is only displayed if at least one template is defined in the text snippet window.
+ >**Note:** The template field will appear only if at least one template has been recorded under "[Boilerplate](Create_boiler_plate)" in the menu.
 
-1. The referenced document (e.g., the sales order) will be automatically attached to the e-mail. You can add additional documents by clicking on ![](assets/add_attachment.png).
+1. The referenced document (e.g., the sales order) will be automatically attached to the e-mail. You can add additional documents by clicking on ![](assets/add_attachment.png) at the bottom left of the e-mail editor.
 1. Click ![](assets/send_email_button.png) to send the e-mail.
 
 ## Example
