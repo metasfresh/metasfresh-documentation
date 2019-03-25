@@ -2,7 +2,7 @@
 title: Identify application dictionary objects in web UI
 layout: default
 tags:  
-  - Window
+  - General
 lang: en
 ---
 

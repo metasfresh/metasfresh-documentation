@@ -1,5 +1,5 @@
 ---
-title: Wie ordne ich einen Zahlungseingang mehreren Rechnungen zu?
+title: Wie ordne ich eine einzelne Zahlung mehreren Rechnungen zu?
 layout: default
 tags:
   - Rechnungswesen
@@ -11,7 +11,7 @@ ref: incoming_payments_manual_allocation
 ---
 
 ## Übersicht
-Zahlt ein Kunde mehrere Rechnungen auf einmal, musst Du den erhaltenen Zahlungsbetrag auf die jeweiligen Rechnungen aufteilen. Hierzu kannst Du die Zahlungseingänge *manuell zuordnen*.
+Wenn ein Kunde eine einzelne Zahlung leistet, um mehrere Rechnungen auf einmal zu begleichen, muss der erhaltene Betrag den jeweiligen Rechnungen *manuell zugeordnet* werden. Gehe hierzu wie folgt vor:
 
 ## Voraussetzungen
 - Stelle sicher, dass Dir mehrere offene [Rechnungen](Zu_Auftrag_Rechnung_erstellen) vorliegen.
@@ -28,7 +28,7 @@ Zahlt ein Kunde mehrere Rechnungen auf einmal, musst Du den erhaltenen Zahlungsb
  >**Hinweis 2:** Der **Betrag** wird automatisch aus der Rechnung übernommen.
 
 1. Klicke auf "Bestätigen", um das Overlay-Fenster zu schließen und die Rechnung zur Liste hinzuzufügen.
- >**Hinweis:** Wiederhole die Schritte 6 bis 8 für alle Rechnungen, die mit der erhaltenen Zahlung bezahlt wurden.
+ >**Hinweis:** Wiederhole die Schritte 6 bis 8 für alle Rechnungen, die mit der erhaltenen Zahlung beglichen wurden.
 
 1. [Stelle den Beleg fertig](BelegverarbeitungFertigstellen).
 1. Um den Status der Rechnungen zu überprüfen, gehe zur Registerkarte "Zuordnungen" und [zoome](Zoomen_in_Tabellenfeld) in das Feld in der Spalte **Rechnung** der jeweiligen Zuordnungszeile.

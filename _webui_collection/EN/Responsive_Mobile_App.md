@@ -2,6 +2,7 @@
 title: Responsive Mobile App
 layout: default
 tags:
+  - A Beginner's Guide to metasfresh
   - Features
 lang: en
 sequence: 30

@@ -5,7 +5,7 @@ tags:
   - Stammdaten
   - Geschäftspartner
 lang: de
-sequence: 20
+sequence: 30
 ref: add_address_tab
 ---
 
@@ -13,7 +13,7 @@ ref: add_address_tab
 1. Öffne einen [Geschäftspartner](Neuer_Geschaeftspartner)eintrag in der [Einzelansicht](Ansichten).
 1. Gehe zur Registerkarte "Adresse" unten auf der Seite und klicke auf ![](assets/Neu_hinzufuegen_Button.png). Es öffnet sich ein Overlay-Fenster.
 1. Trage im Feld **Name** den Namen des Geschäftspartners ein.
-1. Klicke auf den "Edit"-Button, um eine **Anschrift** zu erfassen.
+1. Klicke auf den ![](assets/Edit_address_button.png)-Button, um eine **Anschrift** zu erfassen.
 1. Trage die **Straße und Nr.**, die **PLZ**, den **Ort** und das **Land** des Unternehmens ein.
  >**Hinweis:** Wenn Du "Vereinigte Staaten von Amerika" als **Land** auswählst, kannst Du auch die **Region** eingeben. Klicke dazu einfach zweimal auf den Edit-Button, um das kleine Adressbearbeitungsfenster zu schließen und wieder zu öffnen. Das Feld erscheint dann über **Land**.
 

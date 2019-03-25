@@ -1,5 +1,5 @@
 ---
-title: How do I add packing items to a price?
+title: How do I tie packing instructions to a price?
 layout: default
 tags:
   - Master Data
@@ -11,9 +11,9 @@ ref: add_packing-instructions_to_price
 ---
 
 ## Overview
-When you sell a product you don't always sell it by the stock UOM. Instead you might determine a different sales UOM which can also be consolidated in a transport unit (TU).
+When you sell a product you don't always sell it by the stock UOM. Instead you might determine a different sales UOM which may also be packed into a [transport unit (TU)](Handling_Unit_System).
 
-Therefore, under "Product Prices", you can both determine packing instructions and set up whether the price shall depend on the stock UOM or the sales UOM.
+Therefore, under "Product Prices", you can both define packing instructions as well as configure whether the price shall depend on either the stock UOM or the sales UOM.
 
 ## Steps
 1. Open "Product Prices" from the [menu](Menu).

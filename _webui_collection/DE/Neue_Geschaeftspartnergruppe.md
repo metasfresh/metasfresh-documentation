@@ -1,11 +1,12 @@
 ---
-title: Wie lege ich eine neue Geschäftspartnergruppe an?
+title: Wie erfasse ich eine neue Geschäftspartnergruppe?
 layout: default
 tags:
   - Stammdaten
   - Geschäftspartner
+  - Geschäftspartnergruppe
 lang: de
-sequence: 70
+sequence: 10
 ref: new_business_partner_group
 ---
 

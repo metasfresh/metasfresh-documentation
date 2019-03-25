@@ -10,17 +10,17 @@ ref: data_import_metasfresh
 ---
 
 ## Überblick
-Mithilfe der Importfunktion kannst Du extern gespeicherte Daten (wie z.B. Excel-Tabellen mit Daten zu Geschäftspartnern oder Produkten) ganz schnell in metasfresh importieren. Hierzu musst Du die Daten erst entsprechend formatiert als CSV- oder TXT-Datei hochladen und kannst sie dann einfach über das [Aktionsmenü](AktionStarten) importieren.
+Mithilfe der Importfunktion kannst Du extern gespeicherte Daten (wie z.B. Excel-Tabellen mit Daten zu Geschäftspartnern oder Produkten) ganz schnell in metasfresh importieren und so ebenfalls bestehende Einträge aktualiseren. Hierzu musst Du die Daten erst entsprechend formatiert als CSV- oder TXT-Datei hochladen und kannst sie dann einfach über das [Aktionsmenü](AktionStarten) importieren.
 
 ## Voraussetzungen
-1. [Lege ein Importformat mit entsprechender Datenbanktabelle an](Importformat_anlegen), in dem Du die Daten bzw. Spalten sowie deren Datentypen festlegst, welche aus der Importdatei in metasfresh übertragen werden sollen.
 
 | Zu importierende Daten | Entsprechende DB-Tabelle |
 | :---: | :---: |
 | Geschäftspartnerdaten | Import - Geschäftspartner |
 | Produktdaten | Import - Produkt |
 
-2. Halte eine [Importdatei](Importdatei_nuetzliche_Hinweise) mit dem Importformat entsprechend formatierten Daten bereit.<br> ***Formatbeispiele:***
+1. [Lege ein Importformat mit entsprechender Datenbanktabelle an](Importformat_anlegen) (siehe oben), in dem Du die Daten bzw. Spalten sowie deren Datentypen festlegst, welche aus der Importdatei in metasfresh übertragen werden sollen.
+1. Halte eine [Importdatei](Importdatei_nuetzliche_Hinweise) mit dem Importformat entsprechend formatierten Daten bereit.<br> ***Formatbeispiele:***
  - [Geschäftspartnerdatenimport](Importformat_Beispiel_GPartner)
  - [Produktdatenimport](Importformat_Beispiel_Produkt)
 

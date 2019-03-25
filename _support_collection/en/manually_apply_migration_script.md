@@ -15,7 +15,7 @@ Exception in thread "main" de.metas.migration.exception.ScriptExecutionException
 ```
 
 ## Important Note
-If your version is below 5.78, please take a look [here](/support_collection/migrationscript_helper_functions) to learn how to get the described helper DB-functions.
+If your version is below 5.78, please take a look [here](/support_collection/en/migrationscript_helper_functions) to learn how to get the described helper DB-functions.
 
 ## Option 1 - Script was already manually applied
 

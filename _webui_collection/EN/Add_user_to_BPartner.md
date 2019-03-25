@@ -1,11 +1,11 @@
 ---
-title: How do I add a user to a business partner entry?
+title: How do I link a business partner to a user? (Add contact information)
 layout: default
 tags:
   - Master Data
   - Business Partner
 lang: en
-sequence: 80
+sequence: 40
 ref: add_user_to_bpartner
 ---
 
@@ -14,8 +14,8 @@ ref: add_user_to_bpartner
 1. Go to the record tab "Contact" at the bottom of the page and click ![](assets/Add_New_Button.png). An overlay window opens up.
 1. Select a **Greeting**.
 1. Fill in the fields **Firstname** and **Lastname**.
-1. ***Optional:*** Fill in the fields **Email** and **Phone**.
-1. Click "Done" to add the user to the list and close the overlay window.
+1. ***Optional:*** Fill in the fields **Email Address** and **Phone**.
+1. Click "Done" to close the overlay window and add the user to the list.
 <br><br>
 
 | **Note:** |

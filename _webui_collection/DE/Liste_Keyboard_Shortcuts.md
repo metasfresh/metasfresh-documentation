@@ -2,7 +2,7 @@
 title: Liste der Tastenkombinationen
 layout: default
 tags:
-  - Anfängertips
+  - Anfängertips für metasfresh
 lang: de
 sequence: 20
 ref: keyboard_shortcuts_reference
@@ -17,7 +17,7 @@ In metasfresh kannst Du in verschiedenen Kontexten einige Prozesse mithilfe best
 | :---: | :---: | :--- |
 | `Alt` + `1` | `⌥ alt` + `1` | Aktionsmenü öffnen ![](assets/actionsmenu_WebUI.png) |
 | `Alt` + `2` | `⌥ alt` + `2` | Navigationsmenü öffnen ![](assets/Menu_House_WebUI.png) |
-| `Alt` + `3` | `⌥ alt` + `3` | Benachrichtigungsmenü öffnen ![](assets/NotificationBell_WebUI.png) |
+| `Alt` + `3` | `⌥ alt` + `3` | Nachrichtenbox öffnen ![](assets/NotificationBell_WebUI.png) |
 | `Alt` + `4` | `⌥ alt` + `4` | Nutzermenü öffnen ![](assets/UserMenu_Rabbit_WebUI.png) |
 | `Alt` + `5` | `⌥ alt` + `5` | Dokumentenliste öffnen (Sidebar) ![](assets/Sidebar_Icon_WebUI.png) |
 | `Alt` + `6` | `⌥ alt` + `6` | Liste der verknüpften Belege öffnen (Sidebar) ![](assets/related_docs_fork.png) |

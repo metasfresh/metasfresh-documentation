@@ -6,7 +6,7 @@ tags:
   - Warehouse
   - Inventory Movement
 lang: en
-sequence: 10
+sequence: 20
 ref: inventory_movement
 ---
 

@@ -15,12 +15,12 @@ Opportunities are potential sales possibilities that are indicated by a percenta
 
 In metasfresh, opportunities are managed as *request types* with different status possibilities:
 
-| Status     | Description     |
-| :------------- | :------------- |
-| 10%         | Starting Point
-| 25%,50%,75% | Increasing probability
-| 100% | Acquired
-| 0% | Lost
+| Status | Description |
+| :--- | :--- |
+| 10% | Starting Point |
+| 25%, 50%, 75% | Increasing probability |
+| 100% | Acquired |
+| 0% | Lost |
 
 ## Steps
 1. Open "Request" from the [menu](Menu).

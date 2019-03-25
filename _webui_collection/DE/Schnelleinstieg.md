@@ -2,7 +2,7 @@
 title: Schnelleinstieg (Grundlegende WebUI-Benutzung)
 layout: default
 tags:
-  - Anfängertips
+  - Anfängertips für metasfresh
 lang: de
 sequence: 10
 ref: quickstart
@@ -13,7 +13,7 @@ ref: quickstart
 - Installiere metasfresh auf Deinem Server mithilfe dieser [Anleitung](http://docs.metasfresh.org/pages/installation/index_de) oder erstelle ein kostenloses Konto über die [metasfresh Homepage](http://metasfresh.com/nextgen/).
 
 ## Schritte
-1. [Melde Dich an](Anmeldung).
+1. [Melde Dich bei metasfresh an](Anmeldung).
 1. [Ändere Dein Passwort](Passwort_aendern).
 1. [Wähle Deine Sprache](SwitchLanguage).
 1. [Stelle Deine Firmendaten ein](Ersteinrichtung).

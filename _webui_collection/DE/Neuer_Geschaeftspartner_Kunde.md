@@ -1,16 +1,17 @@
 ---
-title: Wie lege ich einen neuen Kunden an?
+title: Wie erfasse ich einen neuen Kunden?
 layout: default
 tags:
   - Stammdaten
   - Geschäftspartner
+  - Geschäftsbeziehungen
 lang: de
-sequence: 40
+sequence: 10
 ref: new_business_partner_customer
 ---
 
 ## Übersicht
-In metasfresh kannst Du definieren, ob ein Geschäftspartner ein Kunde, Lieferant oder beides ist. Zusätzlich kannst Du die kaufmännischen Konditionen einstellen, welche bei der späteren Belegerstellung dann automatisch vorgegeben werden.
+In metasfresh kannst Du festlegen, ob ein Geschäftspartner ein Kunde, Lieferant oder beides ist. Zusätzlich kannst Du die kaufmännischen Konditionen voreinstellen, welche bei der späteren Belegerstellung dann automatisch angewandt werden.
 
 ## Schritte
 
@@ -22,7 +23,7 @@ In metasfresh kannst Du definieren, ob ein Geschäftspartner ein Kunde, Lieferan
 1. Wähle ein **Preissystem** aus.
 1. Wähle ein [**Rabattschema**](Preiskonditionen_in_metasfresh) aus.
 1. ***Optional:*** Füge weitere Bedingungen hinzu, wie z.B. **Zahlungsweise**, **Zahlungsbedingung**, [**Mahnung**](Einrichtung_Mahnung) usw.
-1. Klicke auf "Bestätigen", um die "Erweiterte Erfassung" zu schließen und die Konditionen zur Registerkarte hinzuzufügen.
+1. Klicke auf "Bestätigen", um die Änderungen zu übernehmen und die "Erweiterte Erfassung" zu schließen.
 
 ## Beispiel
 ![](assets/Neuer_Geschaeftspartner_Kunde.gif)

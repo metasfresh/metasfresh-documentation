@@ -11,6 +11,6 @@ ref: price-system_versus_price-list
 ---
 
 ## Übersicht
-Das Preissystem fasst verschiedene Preislisten zusammen. Diese Preislisten können länder- und währungsspezifisch sein, damit man sie einem bestimmten Partner (Kunden/Lieferanten) oder einer bestimmten Partnergruppe [zuweisen](Zuweisung_Preise_Partner) kann.
+Ein [Preissystem](Preissystem_anlegen) umfasst mehrere verschiedene [Preislisten](Preisliste_anlegen). Diese Preislisten können länder- und währungsspezifisch sein, damit man sie einem bestimmten [Partner](Neuer_Geschaeftspartner) ([Kunden](Neuer_Geschaeftspartner_Kunde)/[Lieferanten](Neuer_Geschaeftspartner_Lieferant)) oder einer bestimmten [Partnergruppe](Neue_Geschaeftspartnergruppe) [zuweisen](Zuweisung_Preise_Partner) kann.
 
 ![](assets/preissystem_versus_preisliste.png)

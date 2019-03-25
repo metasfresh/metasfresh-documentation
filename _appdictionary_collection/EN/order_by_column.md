@@ -1,5 +1,5 @@
 ---
-title: Order a list view by a column ?
+title: Order a list view by a column
 layout: default
 tags:  
   - Window

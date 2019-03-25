@@ -2,7 +2,7 @@
 title: Keyboard Shortcuts Reference
 layout: default
 tags:
-  - Beginner's Guide
+  - A Beginner's Guide to metasfresh
 lang: en
 sequence: 20
 ref: keyboard_shortcuts_reference

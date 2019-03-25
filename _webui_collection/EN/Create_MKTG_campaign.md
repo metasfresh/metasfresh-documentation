@@ -13,7 +13,7 @@ A marketing campaign makes it extremely easy for you to provide a great number o
 
 In metasfresh, there are two types of marketing campaigns: *email campaigns* and *serial letter campaigns*.
 
-In the *email campaigns*, newsletters are sent out to the selected contacts via email. In the *serial letter campaigns*, [serial letters](Create_serial_letters) are created and labelled automatically with the respective contacts' default address stored in the system, where they can then be sent by post.
+In the *email campaigns*, newsletters are sent out to the selected contacts via email. In the *serial letter campaigns*, [serial letters](Create_serial_letters) are created and labelled automatically with the respective contacts' default address stored in metasfresh, where they can then be sent by post.
 
 ## Requirements
 The following components are required for a marketing campaign:

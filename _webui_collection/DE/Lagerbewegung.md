@@ -6,7 +6,7 @@ tags:
   - Lager
   - Lagerbewegung
 lang: de
-sequence: 10
+sequence: 20
 ref: inventory_movement
 ---
 

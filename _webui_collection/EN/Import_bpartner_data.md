@@ -7,7 +7,7 @@ tags:
   - Business Partner Data Import
 lang: en
 sequence: 20
-ref: import_bpartner_dat
+ref: import_bpartner_data
 ---
 
 ## Requirements
