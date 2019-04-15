@@ -2,10 +2,11 @@
 title: How do I zoom into a table field?
 layout: default
 tags:
+  - A Beginner's Guide to metasfresh
   - Usage
   - Navigation
 lang: en
-sequence: 60
+sequence: 70
 ref: zoom_into_table_field
 ---
 

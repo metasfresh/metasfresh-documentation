@@ -2,6 +2,7 @@
 title: Wie wechsle ich zwischen den Ansichten hin und her?
 layout: default
 tags:
+  - Anfängertips für metasfresh
   - Benutzung
   - Navigation
 lang: de

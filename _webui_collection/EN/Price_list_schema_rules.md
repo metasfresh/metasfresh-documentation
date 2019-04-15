@@ -11,7 +11,7 @@ ref: price_list_schema_rules
 ---
 
 ## Overview
-For copying a price list you require a valid price list schema where you can determine which products shall be copied, to which product category and/or business partner the schema shall apply, and whether the standard prices shall be increased by a surcharge amount during copying.
+For copying a price list you require a valid price list schema where you can specify which products shall be copied, to which product category and/or business partner the schema shall apply, and whether the standard prices shall be increased by a surcharge amount during copying.
 
 ## Steps
 1. Open "Price List Schema" from the [menu](Menu).

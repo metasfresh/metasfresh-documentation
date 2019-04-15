@@ -2,6 +2,7 @@
 title: Wie sehe ich, dass metasfresh gespeichert hat?
 layout: default
 tags:
+  - Anfängertips für metasfresh
   - Benutzung
 lang: de
 sequence: 20

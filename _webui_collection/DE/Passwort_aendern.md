@@ -2,6 +2,7 @@
 title: Wie ändere ich mein Login-Passwort? (Passwort vergessen)
 layout: default
 tags:
+  - Anfängertips für metasfresh
   - Einrichtung
 lang: de
 sequence: 30

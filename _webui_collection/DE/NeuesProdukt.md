@@ -40,12 +40,12 @@ ref: newproduct
 - Das Feld **Artikelart** bestimmt, um welche Art von Artikel es sich handelt.
 
 |	Option | Effekt |
-|:	------------ | ------------- |
-|	Artikel | Materieller Artikel, z.B. Stückgut, Verpackung usw. (Standard)|
-|	Dienstleistung | Immaterieller Artikel, z.B. Serviceleistung|
-|	Erfolgskonto | Steuert Kontierung|
-|	Ressource | Artikel, der zeitlich nur einmal belegt werden kann, z.B. eine Maschine|
+| :--- | :--- |
+|	Artikel | Materieller Artikel, z.B. Stückgut, Verpackung usw. (Standard) |
+|	Dienstleistung | Immaterieller Artikel, z.B. Serviceleistung |
+|	Erfolgskonto | Steuert Kontierung |
+|	Ressource | Artikel, der zeitlich nur einmal belegt werden kann, z.B. eine Maschine |
 
-- Das Feld **Lagerhaltig** bestimmt, ob der Artikel (insofern die Artikelart auf der Option "Artikel" steht) im Bestand geführt wird.
-- Das Feld **Eingekauft** bestimmt, ob der Artikel im Einkauf zur Verfügung steht.
-- Das Feld **Verkauft** bestimmt, ob der Artikel im Verkauf zur Verfügung steht.
+- Das Feld **Lagerhaltig** gibt Auskunft darüber, ob der Artikel (sofern die Artikelart auf der Option "Artikel" steht) im Bestand geführt wird.
+- Das Feld **Eingekauft** gibt Auskunft darüber, ob der Artikel im Einkauf zur Verfügung steht.
+- Das Feld **Verkauft** gibt Auskunft darüber, ob der Artikel im Verkauf zur Verfügung steht.

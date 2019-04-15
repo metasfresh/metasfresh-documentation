@@ -2,6 +2,7 @@
 title: Wie springe ich zu verknüpften Belegen?
 layout: default
 tags:
+  - Anfängertips für metasfresh
   - Benutzung
   - Navigation
 lang: de

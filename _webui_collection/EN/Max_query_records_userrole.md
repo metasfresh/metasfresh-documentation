@@ -2,6 +2,7 @@
 title: How do I set a maximum limit on the search results of a user?
 layout: default
 tags:
+  - A Beginner's Guide to metasfresh
   - Setup
   - User and Roles
 lang: en

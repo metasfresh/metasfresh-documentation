@@ -2,6 +2,7 @@
 title: Wie lege ich ein neues Druckformat an?
 layout: default
 tags:
+  - Anfängertips für metasfresh
   - Einrichtung
 lang: de
 sequence: 50

@@ -2,6 +2,7 @@
 title: How do I use the menu?
 layout: default
 tags:
+  - A Beginner's Guide to metasfresh
   - Usage
   - Navigation
 lang: en

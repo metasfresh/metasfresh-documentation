@@ -2,6 +2,7 @@
 title: How do I see if my changes were saved?
 layout: default
 tags:
+  - A Beginner's Guide to metasfresh
   - Usage
 lang: en
 sequence: 20

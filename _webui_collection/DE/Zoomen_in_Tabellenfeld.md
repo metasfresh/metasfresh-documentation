@@ -2,6 +2,7 @@
 title: Wie zoome ich in ein Tabellenfeld?
 layout: default
 tags:
+  - Anfängertips für metasfresh
   - Benutzung
   - Navigation
 lang: de

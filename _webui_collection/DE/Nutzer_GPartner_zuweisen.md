@@ -2,6 +2,7 @@
 title: Wie weise ich einem Nutzer einen Geschäftspartner zu?
 layout: default
 tags:
+  - Anfängertips für metasfresh
   - Einrichtung
   - Nutzer und Rollen
 lang: de
