@@ -17,7 +17,7 @@ Nur autorisierte Nutzer können Kreditlimits freigeben. Sie erhalten eine Benach
 - [Die Freigabe eines Kreditlimits muss angefordert werden](Kreditlimit_Freigabe_anfordern).
 
 ## Schritte
-1. Öffne den Eintrag des [Geschäftspartners](Menu), für den ein Kreditlimit zur Freigabe angefordert wurde bzw. klicke auf die Benachrichtigung ![](assets/NotificationBell_WebUI.png), um den Eintrag zu öffnen.
+1. Öffne den Eintrag des [Geschäftspartners](Menu), für den ein Kreditlimit zur Freigabe angefordert wurde bzw. klicke auf die [Benachrichtigung](Benachrichtigungsarten) ![](assets/NotificationBell_WebUI.png), um den Eintrag zu öffnen.
 1. Gehe zur Registerkarte "Kreditlimit" unten auf der Seite und [selektiere die Zeile des Kreditlimits](AuswahlBelege), welches freigegeben werden soll.
  >**Hinweis:** In dem Kästchen der Spalte **Freigegeben** dieser Zeile ist kein Häkchen gesetzt.
 

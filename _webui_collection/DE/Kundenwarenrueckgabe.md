@@ -30,7 +30,7 @@ ref: customer_returns
 1. [Selektiere](AuswahlBelege) die zurückgegangene HU.
 1. [Starte die Quick-Action](AktionStarten) "Kundenrücklieferung". Die HU wird nun in das Beanstandungslager verschoben.
 1. Klicke auf "Bestätigen", um den "HU Editor" zu schließen.
-1. Du erhältst oben rechts eine Benachrichtigung ![](assets/NotificationBell_WebUI.png), sobald die Kundenrücklieferung erstellt ist.
+1. Du erhältst oben rechts eine [Benachrichtigung](Benachrichtigungsarten) ![](assets/NotificationBell_WebUI.png), sobald die Kundenrücklieferung erstellt ist.
 1. Klicke auf die Benachrichtigung, um den Kundenrücklieferungsbeleg zu öffnen.
  >**Hinweis:** Öffne alternativ den Eintrag des Auftrags, für den Du eine Kundenrücklieferung erhalten hast, [springe zur](SpringezuBelegen) "Kundenrücklieferung" und öffne den entsprechenden Eintrag der Kundenwarenrückgabe.
 
