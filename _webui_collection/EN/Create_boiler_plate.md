@@ -2,14 +2,15 @@
 title: How do I create a boiler plate?
 layout: default
 tags:
-  - Marketing
+  - A Beginner's Guide to metasfresh
+  - Setup
 lang: en
-sequence: 30
+sequence: 60
 ref: create_boiler_plate
 ---
 
 ## Overview
-With boiler plates you can create text templates for letters and use them in marketing campaigns, e.g., in [serial letter campaigns](Create_serial_letters).
+You can use boiler plates to create text templates for letters and e-mails, which you can also use in marketing campaigns, such as [serial letter campaigns](Create_serial_letters).
 
 ## Steps
 1. Open "Boiler Plate" from the [menu](Menu).
