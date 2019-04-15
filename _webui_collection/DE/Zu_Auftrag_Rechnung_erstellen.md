@@ -10,7 +10,7 @@ ref: invoice_salesorder
 ---
 
 ## Schritte
-1. Öffne einen [gelieferten Auftrag](Zu_Auftrag_Lieferschein_erstellen).
+1. Öffne den Eintrag eines [gelieferten Auftrags](Zu_Auftrag_Lieferschein_erstellen).
 1. [Springe zur](SpringezuBelegen) "Rechnungsdisposition".
 1. [Selektiere die Auftragszeilen](AuswahlBelege), die Du abrechnen möchtest.
 1. [Starte die Aktion](AktionStarten) "Auswahl fakturieren". Es öffnet sich ein Overlay-Fenster.

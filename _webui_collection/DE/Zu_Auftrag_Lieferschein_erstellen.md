@@ -10,7 +10,7 @@ ref: ship_salesorder
 ---
 
 ## Schritte
-1. Öffne einen [fertigen Auftrag](Auftrag_erfassen).
+1. Öffne den Eintrag eines [fertigen Auftrags](Auftrag_erfassen).
 1. [Springe zur](SpringezuBelegen) "Lieferdisposition".
 1. [Selektiere die Auftragszeilen](AuswahlBelege), die Du liefern möchtest.
 1. [Starte die Quick-Action](AktionStarten) "Auswahl liefern". Es öffnet sich ein Overlay-Fenster.

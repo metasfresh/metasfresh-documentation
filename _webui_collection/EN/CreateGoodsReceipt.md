@@ -10,7 +10,7 @@ ref: creategoodsreceipt
 ---
 
 ## Steps
-1. Open a completed [purchase order](CreatePurchaseOrder).
+1. Open the entry of a completed [purchase order](CreatePurchaseOrder).
 1. [Jump to](JumptoviaSidebar) "Material Receipt Candidates".
 1. [Select the order lines](RecordSelection) you want to list as received goods.
 1. Click on the preset [quick actions](StartAction) button, e.g., ![](assets/CreateGoodsReceipt-99aab.png). An overlay window, the "HU Editor", opens up.

@@ -10,7 +10,7 @@ ref: contract_change_recipient
 ---
 
 ## Schritte
-1. Öffne einen [laufenden Vertrag](Vertrag_erfassen).
+1. Öffne den Eintrag eines [laufenden Vertrags](Vertrag_erfassen).
 1. [Starte die Aktion](AktionStarten) "Abo-Empfänger ändern". Es öffnet sich ein Overlay-Fenster.
  >**Hinweis:** Hast Du den Vertrag in der [Listenansicht](Ansichten) [selektiert](AuswahlBelege), kannst Du ebenfalls über den [Quick-Actions](AktionStarten)-Button oben rechts die Aktion ![](assets/Abo-Empfaenger_aendern_button.png) starten.
 

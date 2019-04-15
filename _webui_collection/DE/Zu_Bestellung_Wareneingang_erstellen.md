@@ -10,7 +10,7 @@ ref: creategoodsreceipt
 ---
 
 ## Schritte
-1. Öffne eine [fertige Bestellung](Bestellung_erfassen).
+1. Öffne den Eintrag einer [fertigen Bestellung](Bestellung_erfassen).
 1. [Springe zur](SpringezuBelegen) "Wareneingangsdisposition".
 1. [Selektiere die Zeilen](AuswahlBelege), die Du als Wareneingang buchen möchtest.
 1. Klicke auf den voreingestellten [Quick-Actions](AktionStarten)-Button, z.B. ![](assets/Zu_Bestellung_Wareneingang_erstellen-99aab.png). Es öffnet sich ein Overlay-Fenster, der "HU Editor".

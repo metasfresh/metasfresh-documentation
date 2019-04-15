@@ -16,7 +16,7 @@ In metasfresh kannst Du festlegen, ob ein Geschäftspartner ein Kunde, Lieferant
 ## Schritte
 
 ### Geschäftspartner als Kunde
-1. Öffne einen [Geschäftspartner](Neuer_Geschaeftspartner)eintrag in der [Einzelansicht](Ansichten).
+1. Öffne den Eintrag eines [Geschäftspartners](Neuer_Geschaeftspartner) in der [Einzelansicht](Ansichten).
 1. Gehe zur Registerkarte "Kunde" unten auf der Seite.
 1. Öffne die "[Erweiterte Erfassung](AdvancedEditTab_Öffnen)" der Kundenzeile.
 1. Setze ein Häkchen bei **Kunde**.
