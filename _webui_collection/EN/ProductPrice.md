@@ -12,9 +12,7 @@ ref: productprice
 ## Steps
 1. Open the entry of an existing [product](Menu) or [add a new one](NewProduct).
 1. Go to the record tab "Price" at the bottom of the page and click ![](assets/Add_New_Button.png). An overlay window opens up.
-1. Enter the name of the designated **Price List Version**, e.g., "New Price List Germany".
- >**Note:** Hit `SPACE` to see all available [price lists](Add_price-list).
-
+1. Enter the name of the designated [**Price List Version**](Add_price-list-version) and click on the matching result in the [drop-down list](Keyboard_shortcuts_reference), e.g., "New Price List Germany".
 1. The field **Standard Price** specifies the effectively valid purchase or sales price (depending on the respective price list).
 1. The field **UOM** specifies the sales UOM and ***must not be confused*** with the product's stock UOM (inventory management)!
  >**Note:** If sales UOM ≠ stock UOM, you have to define a [UOM conversion](Convert_UOMs).

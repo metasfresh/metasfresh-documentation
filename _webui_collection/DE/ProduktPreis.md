@@ -10,11 +10,9 @@ ref: productprice
 ---
 
 ## Schritte
-1. Öffne den Eintrag eines bestehenden [Produkts](Menu) bzw. [lege ein neues an](NeuesProdukt).
+1. Öffne den Eintrag eines bestehenden [Produktes](Menu) bzw. [lege ein neues an](NeuesProdukt).
 1. Gehe zur Registerkarte "Preis" unten auf der Seite und klicke auf ![](assets/Neu_hinzufuegen_Button.png). Es öffnet sich ein Overlay-Fenster.
-1. Gib unter **Version Preisliste** den Namen der vorgesehenen Preislistenversion ein, z.B. "Testpreise Kunden Deutschland (Verkaufspreisliste)".
- >**Hinweis:** Drücke die `LEERTASTE`, um alle verfügbaren [Preislisten](Preisliste_anlegen) zu sehen.
-
+1. Gib unter **Version Preisliste** den Namen der vorgesehenen [Preislistenversion](Preislistenversion_anlegen) ein und klicke auf den passenden Treffer in der [Dropdown-Liste](Liste_Keyboard_Shortcuts), z.B. "Testpreise Kunden Deutschland (Verkaufspreisliste)".
 1. Das Feld **Standardpreis** bestimmt den tatsächlich geltenden Einkaufs- bzw. Verkaufspreis (je nachdem, ob es sich um eine Einkaufs- oder Verkaufspreisliste handelt).
 1. Das Feld **Maßeinheit** bestimmt die Verkaufsmengeneinheit und ist ***nicht zu verwechseln*** mit der Bestandsmengeneinheit des Artikels (Bestandsführung)!
  >**Hinweis:** Ist die Verkaufsmengeneinheit ≠ Bestandsmengeneinheit, muss eine [Maßeinheitenumrechnung](Masseinheiten_umrechnen) angelegt werden.

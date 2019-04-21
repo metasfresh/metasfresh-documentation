@@ -12,10 +12,7 @@ ref: assign_bpartner_to_user
 
 ## Schritte
 1. Öffne den Eintrag eines bestehenden [Nutzers](Menu) bzw. [lege einen neuen an](Nutzer_anlegen).
-1. Gehe zum Feld **Geschäftspartner**, gib dort einen Teil des Namens des gewünschten Geschäftspartners ein und klicke auf eines der Ergebnisse.
- >**Hinweis 1:** Drücke die `LEERTASTE`, um alle verfügbaren [Geschäftspartner](Neuer_Geschaeftspartner) zu sehen.<br><br>
- >**Hinweis 2:** Auswahl des Treffers mit Maus oder ![](assets/Workflow_Auftrag_Bis_Rechnung_WebUI-73797.png).
-
+1. Gehe zum Feld **Geschäftspartner**, gib dort einen Teil des Namens oder der Nummer des gewünschten [Geschäftspartners](Neuer_Geschaeftspartner) ein und klicke auf den passenden Treffer in der [Dropdown-Liste](Liste_Keyboard_Shortcuts).
 1. [metasfresh speichert automatisch](Speicheranzeige).
 <br><br>
 

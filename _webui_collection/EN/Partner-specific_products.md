@@ -22,9 +22,8 @@ For additional information on how to place manual text on documents, please see 
 1. Open the entry of an existing [product](Menu) or [add a new one](NewProduct).
 1. Go to the record tab "Business Partner" at the bottom of the page and click ![](assets/Add_New_Button.png). An overlay window opens up.
 1. Enter the name of the **Business Partner**.
- >**Note 1:** Business partners can be customers and vendors.<br><br>
- >**Note 2:** Hit `SPACE` to see all available [business partners](New_Business_Partner).<br><br>
- >**Note 3:** Select one of the shown options with the mouse or ![](../DE/assets/Workflow_Auftrag_Bis_Rechnung_WebUI-73797.png).
+ >**Note 1:** Business partners can be [customers](New_business_partner_customer) and [vendors](New_business_partner_vendor).<br><br>
+ >**Note 2:** Hit [`SPACE`](Keyboard_shortcuts_reference) to see a selection of available [business partners](New_Business_Partner).
 
 1. Check the box **For Vendor** or **For Customer** according to the respective business relation for which the new name should be used.
 1. Enter the partner-specific **Product name**.

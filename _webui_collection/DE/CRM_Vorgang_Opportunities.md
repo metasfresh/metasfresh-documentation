@@ -25,12 +25,10 @@ In metasfresh werden Opportunities als eine *Vorgangsart* abgebildet, deren Stat
 ## Schritte
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Vorgänge".
 1. [Lege einen neuen Vorgang an](Neuer_Datensatz_Fenster_Webui).
-1. Gib unter **Geschäftspartner** einen Teil des Kundennamens oder der Kundennummer ein.
- >**Hinweis 1:** Drücke die `LEERTASTE`, um alle verfügbaren [Kunden](Neuer_Geschaeftspartner_Kunde) zu sehen.<br><br>
- >**Hinweis 2:** Auswahl des Treffers mit Maus oder ![](assets/Workflow_Auftrag_Bis_Rechnung_WebUI-73797.png).
-
+1. Gib unter **Geschäftspartner** einen Teil des Namens oder der Nummer des [Kunden](Neuer_Geschaeftspartner_Kunde) ein und klicke auf den passenden Treffer in der [Dropdown-Liste](Liste_Keyboard_Shortcuts).
 1. Wähle die **Vorgangsart** *Opportunity* aus.
 1. Wähle unter **Status** die jeweilige Wahrscheinlichkeit aus und passe sie ggf. aktuellen Änderungen an.
+1. [metasfresh speichert automatisch](Speicheranzeige).
 
 ## Beispiel
 ![](assets/CRM_Vorgang_Opportunities.gif)
