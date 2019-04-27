@@ -9,11 +9,11 @@ ref: create_mktg_platform
 ---
 
 ## Overview
-By means of the marketing platform, you can determine which address type shall be used when [adding contacts to a marketing campaign](Add_contacts_to_MKTG_campaign). You may choose between the [*business partner's default address*](Add_address_tab) (**Requires Location**) and the [*user's email address*](Add_user) (**Requires Mail Address**). Of course, you may also combine the two address types.
+By means of the marketing platform, you can determine which address type shall be used when [adding contacts to a marketing campaign](Add_contacts_to_MKTG_campaign). You may choose between the [*business partner's default address*](Add_address_tab) (**Requires Location**) and the [*user's e-mail address*](Add_user) (**Requires Mail Address**). Of course, you may also combine the two address types.
 
 If you choose **Requires Location**, the subsequent campaign will be a [*serial letter campaign*](Create_serial_letters) where only those contacts will be included that are stored in metasfresh with a default address (business partners).
 
-If you choose **Requires Mail Address**, the subsequent campaign will be an *email campaign* where only those contacts will be included that are stored in metasfresh with an email address (users).
+If you choose **Requires Mail Address**, the subsequent campaign will be an *e-mail campaign* where only those contacts will be included that are stored in metasfresh with an e-mail address (users).
 
 ## Steps
 1. Open "Marketing Platform" from the [menu](Menu).

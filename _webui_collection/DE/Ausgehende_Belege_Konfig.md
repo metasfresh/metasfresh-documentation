@@ -2,7 +2,7 @@
 title: Wie richte ich die ausgehenden Belege ein?
 layout: default
 tags:
-  - Einrichtung
+  - Dokumentenverwaltung
   - Belege bearbeiten
 lang: de
 sequence: 10

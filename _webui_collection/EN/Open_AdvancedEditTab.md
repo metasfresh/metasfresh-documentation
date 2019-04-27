@@ -2,10 +2,11 @@
 title: How do I open the advanced edit menu in a record tab?
 layout: default
 tags:
+  - A Beginner's Guide to metasfresh
   - Usage
-  - Data Input
+  - Navigation
 lang: en
-sequence: 30
+sequence: 60
 ref: open_advancededittab
 ---
 

@@ -2,7 +2,7 @@
 title: Wie füge ich eigenen Text an Anfang und Ende von Belegen ein?
 layout: default
 tags:
-  - Einrichtung
+  - Dokumentenverwaltung
   - Belege bearbeiten
 lang: de
 sequence: 30

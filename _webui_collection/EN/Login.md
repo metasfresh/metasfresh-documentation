@@ -2,6 +2,7 @@
 title: How do I log in?
 layout: default
 tags:
+  - A Beginner's Guide to metasfresh
   - Usage
 lang: en
 sequence: 10

@@ -15,7 +15,7 @@ By means of the credit limit types, it is possible to name and organize the cred
 
 For instance, you are using a credit limit type called "Insurance" in order to indicate that this limit was placed for insurance reasons. The manager wants to increase the limit amount, however, and so they choose the limit type "Management" to set a new credit limit. <br> Regarding this, metasfresh decides depending on the start date of the credit limit, whether or not it takes effect. This may also provide a way to override expired limits with new ones.
 
-However, if there are several different credit limit types with the same start date, metasfresh will decide depending on the determined order under "Credit Limit Type" in the menu, which credit limit will have top priority. <br> The following applies: *The higher the sequence number of the credit limit type, the higher its priority*.
+However, if there are several different credit limit types with the same start date, metasfresh will decide depending on the specified sequence under "Credit Limit Type" in the menu, which credit limit will have top priority. <br> The following applies: *The higher the sequence number of the credit limit type, the higher its priority*.
 
 Furthermore, with the credit limit type it is possible to configure that a credit limit is approved automatically, meaning no authorized user's approval is required.
 

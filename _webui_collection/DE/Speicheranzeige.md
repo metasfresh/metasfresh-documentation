@@ -2,6 +2,7 @@
 title: Wie sehe ich, dass metasfresh gespeichert hat?
 layout: default
 tags:
+  - Anfängertips für metasfresh
   - Benutzung
 lang: de
 sequence: 20
@@ -20,4 +21,4 @@ An der Farbe des Fortschrittsbalkens unterhalb der Menüleiste erkennst Du den j
 | <span style="color:red">rot</span> | Speichervorgang ist aufgrund eines Fehlers fehlgeschlagen. |
 
 ## Beispiel
-![](assets/saveindicator2.gif)
+![Speicheranzeige](assets/Saveindicator_DE.gif)

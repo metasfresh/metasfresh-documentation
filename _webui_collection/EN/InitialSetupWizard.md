@@ -2,6 +2,7 @@
 title: How do I configure my company data (Initial Setup Wizard)?
 layout: default
 tags:
+  - A Beginner's Guide to metasfresh
   - Setup
 lang: en
 sequence: 20
@@ -9,7 +10,7 @@ ref: initialsetupwizard
 ---
 
 ## Overview
-Follow these steps to replace the information of the existing client "metasfresh", which is provided by default, with your own company information. All contact information (address, email, bank account details, etc.) will also appear on all documents in the address line and the document footer.
+Follow these steps to replace the information of the existing client "metasfresh", which is provided by default, with your own company information. All contact information (address, e-mail, bank account details, etc.) will also appear on all documents in the address line and the document footer.
 
 For additional information on how to place manual text on documents, please see [here](Print_text_on_documents-general).
 

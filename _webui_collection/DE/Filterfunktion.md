@@ -2,6 +2,7 @@
 title: Wie verwende ich die Filterfunktion in metasfresh?
 layout: default
 tags:
+  - Anfängertips für metasfresh
   - Benutzung
 lang: de
 sequence: 60

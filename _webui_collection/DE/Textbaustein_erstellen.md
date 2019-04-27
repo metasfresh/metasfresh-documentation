@@ -2,14 +2,15 @@
 title: Wie erstelle ich einen Textbaustein?
 layout: default
 tags:
-  - Marketing
+  - Anfängertips für metasfresh
+  - Einrichtung
 lang: de
-sequence: 30
+sequence: 60
 ref: create_boiler_plate
 ---
 
 ## Übersicht
-Mithilfe von Textbausteinen kannst Du Textvorlagen für Briefe erstellen, welche Du in Marketingkampagnen einsetzen kannst, z.B. in [Serienbrief-Kampagnen](Serienbriefe_erstellen).
+Mithilfe von Textbausteinen kannst Du Textvorlagen für Briefe und E-Mails erstellen, welche Du u.a. auch in Marketingkampagnen einsetzen kannst, z.B. in [Serienbrief-Kampagnen](Serienbriefe_erstellen).
 
 ## Schritte
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Textbausteine".

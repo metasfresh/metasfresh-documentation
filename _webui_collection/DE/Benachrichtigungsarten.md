@@ -2,6 +2,7 @@
 title: Wie ändere ich die Art der Benachrichtigungen in metasfresh?
 layout: default
 tags:
+  - Anfängertips für metasfresh
   - Einrichtung
 lang: de
 sequence: 40

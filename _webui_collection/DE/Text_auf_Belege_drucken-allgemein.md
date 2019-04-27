@@ -2,7 +2,7 @@
 title: Wie füge ich eigenen Text in Belege ein?
 layout: default
 tags:
-  - Einrichtung
+  - Dokumentenverwaltung
   - Belege bearbeiten
 lang: de
 sequence: 20
@@ -12,13 +12,13 @@ ref: print_text_on_documents-general
 ## Übersicht
 In metasfresh kannst Du Deine Belege um eigenen Text erweitern und sie so Deinen geschäftlichen Bedürfnissen und Bedingungen entsprechend modifizieren.
 
-Zum Beispiel kannst Du an den Anfang eines Angebots eine Beschreibung desselben setzen und am Ende eine Notiz für den Kunden hinterlassen oder das bestellte Produkt näher beschreiben.
+Zum Beispiel kannst Du an den Anfang eines Angebotes eine Beschreibung desselben setzen und am Ende eine Notiz für den Kunden hinterlassen oder das bestellte Produkt näher beschreiben.
 
-Diese Texte kannst Du auf verschiedene Art und Weise in metasfresh erfassen. Bei der Belegerstellung werden sie dann automatisch an den dafür vorgesehenen Stellen auf dem Beleg eingefügt.
+Diese Texte kannst Du auf verschiedene Art und Weise in metasfresh erfassen. Bei der Belegerstellung werden sie dann automatisch an den dafür vorgesehenen Stellen auf den Belegen eingefügt.
 
-Auf dem folgenden Bild eines Angebots siehst Du die modifizierbaren Textstellen und wo Du sie in metasfresh bearbeiten kannst:
+Auf der folgenden Abbildung eines Angebotes werden die modifizierbaren Textstellen hervorgehoben sowie die jeweiligen Menüpunkte aufgezeigt, wo sie in metasfresh bearbeitet werden können:
 
-![](assets/Text auf Belege drucken.png)
+![Modifizierbare Belegtexte mit den jeweiligen Menüpunkten](assets/Text auf Belege drucken.png)
 
 ---
 
@@ -32,7 +32,7 @@ Klicke [hier](Ersteinrichtung), wenn Du die Textstellen mithilfe des Ersteinrich
 ## Belegart
 
 #### Text am Beleganfang und -ende hinzufügen
-Klicke [hier](Text_auf_Belege_drucken-Belegart), wenn Du am Anfang und Ende des Belegs einen Text einfügen möchtest.
+Klicke [hier](Text_auf_Belege_drucken-Belegart), wenn Du am Anfang und Ende des Belegs Texte einfügen möchtest.
 
 ---
 
@@ -51,14 +51,12 @@ Klicke [hier](Auftragszeilenspezifische_Produktbeschreibung), wenn Du einem Prod
 
 ## Rechnungen
 
-### Rechnungsspezifische Belegtexte
+#### Rechnungsspezifische Belegtexte
 Klicke [hier](Rechnungsspezifische_Belegtexte), wenn Du rechnungsspezifische Belegtexte erfassen möchtest, die ausschließlich auf dem jeweiligen Rechnungsbeleg erscheinen.
-
 
 ---
 
 ## Einkaufsbestätigung
 
-### Abladeort
-Um einen anderen Abladeort als die Standardadresse der jeweiligen Organisation in der Einkaufsbestätigung anzuzeigen, lege zuerst die [Adresse](Adresse_erfassen_Tab) für diesen Abladeort im Geschäftspartnerfenster für die jeweilige Organisation an. Dann wähle im [Lager](Neues_Lager_anlegen), das du für den Wareneingang benutzen möchtest, diese Adresse als Standort aus.  
-
+#### Abladeort ändern
+Klicke [hier](Abladeort_aendern), wenn Du die Adresse des Abladeortes für Wareneingänge auf der Einkaufsbestätigung ändern möchtest.

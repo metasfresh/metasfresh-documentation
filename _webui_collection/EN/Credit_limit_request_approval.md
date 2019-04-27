@@ -19,7 +19,7 @@ Before a credit limit can take effect, it first has to be approved by an authori
 1. [Start the action](StartAction) "Credit Limit Request Approval". An overlay window opens up.
 1. In the field **Approved by**, select the authorized user who shall approve your request.
 1. Click "Start" to request the approval and close the overlay window.
- >**Note:** The authorized user will now receive a notification ![](assets/NotificationBell_WebUI.png) in the upper right corner with the request to approve the credit limit.
+ >**Note:** The authorized user will now receive a [notification](Notification_types) ![](assets/NotificationBell_WebUI.png) in the upper right corner with the request to approve the credit limit.
 
 ## Next Steps
 - [Approve credit limit (only authorized users)](Credit_limit_approval).

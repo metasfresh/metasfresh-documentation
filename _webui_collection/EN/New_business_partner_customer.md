@@ -16,7 +16,7 @@ In metasfresh, you can determine whether a business partner is a customer, vendo
 ## Steps
 
 ### Business Partner as Customer
-1. Open a [business partner](New_Business_Partner) entry in the [detailed view](ViewModes).
+1. Open the entry of a [business partner](New_Business_Partner) in the [detailed view](ViewModes).
 1. Go to the record tab "Customer" at the bottom of the page.
 1. Open the [advanced edit menu](Open_AdvancedEditTab) of the customer line.
 1. Check the box **Customer**.

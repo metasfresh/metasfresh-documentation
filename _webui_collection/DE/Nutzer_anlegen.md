@@ -2,6 +2,7 @@
 title: Wie lege ich einen neuen Nutzer an?
 layout: default
 tags:
+  - Anfängertips für metasfresh
   - Einrichtung
   - Nutzer und Rollen
 lang: de

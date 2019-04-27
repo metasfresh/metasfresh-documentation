@@ -21,10 +21,10 @@ ref: add_price
  >**Note 1:** Hit `SPACE` to see all available [price list versions](Add_price-list-version).<br><br>
  >**Note 2:** Select one of the shown options with the mouse or ![](../DE/assets/Workflow_Auftrag_Bis_Rechnung_WebUI-73797.png).
 
-1. The field **List Price** determines the list price that will later appear on the documents.
-1. The field **Standard Price** determines the effectively valid purchase or sales price (depending on the respective price list).
+1. The field **List Price** specifies the list price that will later appear on the documents.
+1. The field **Standard Price** specifies the effectively valid purchase or sales price (depending on the respective price list).
 1. **Limit Price**: Manual price changes made by the user, e.g., in the order line, must not fall below this amount!
-1. The field **UOM** determines the sales UOM and ***must not be confused*** with the product's stock UOM (inventory management)!
+1. The field **UOM** specifies the sales UOM and ***must not be confused*** with the product's stock UOM (inventory management)!
  >**Note:** If sales UOM ≠ stock UOM, you have to define a [UOM conversion](Convert_UOMs).
 
 1. In the field **Tax Category**, you can select the respective value-added tax (VAT) category, such as *normal*, *reduced*, *tax-free*.

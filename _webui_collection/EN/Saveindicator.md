@@ -2,6 +2,7 @@
 title: How do I see if my changes were saved?
 layout: default
 tags:
+  - A Beginner's Guide to metasfresh
   - Usage
 lang: en
 sequence: 20
@@ -20,4 +21,4 @@ The color of the progress bar below the menu bar indicates the respective status
 | <span style="color:red">red</span> | Failed to save changes due to an error. |
 
 ## Example
-![](../DE/assets/saveindicator2.gif)
+![Saving indicator](assets/Saveindicator_EN.gif)

@@ -1,5 +1,5 @@
 ---
-title: Liste der Tastenkombinationen
+title: Liste der Keyboard Shortcuts
 layout: default
 tags:
   - Anfängertips für metasfresh
@@ -41,7 +41,7 @@ In metasfresh kannst Du in verschiedenen Kontexten einige Prozesse mithilfe best
 | `Alt` + `D` | `⌥ alt` + `D` | Dokument löschen |
 | `Alt` + `E` | `⌥ alt` + `E` | "Erweiterte Erfassung" öffnen |
 | `Alt` + `I` | `⌥ alt` + `I` | Belegverarbeitungsmenü öffnen (Aktionsbutton für Belegstatus) |
-| `Alt` + `K` | `⌥ alt` + `K` | Email-Editor öffnen |
+| `Alt` + `K` | `⌥ alt` + `K` | E-Mail-Editor öffnen |
 | `Alt` + `N` | `⌥ alt` + `N` | Neues Dokument anlegen |
 | `Alt` + `P` | `⌥ alt` + `P` | Druckvorschau öffnen |
 | `Alt` + `U` | `⌥ alt` + `U` | Belegstatus auf "Fertiggestellt" setzen |

@@ -2,6 +2,7 @@
 title: How do I assign a business partner to a user?
 layout: default
 tags:
+  - A Beginner's Guide to metasfresh
   - Setup
   - User and Roles
 lang: en

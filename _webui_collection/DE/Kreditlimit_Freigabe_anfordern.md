@@ -19,7 +19,7 @@ Bevor ein Kreditlimit wirksam werden kann, muss es von einem autorisierten Nutze
 1. [Starte die Aktion](AktionStarten) "Kreditlimit Freigabe anfordern". Es öffnet sich ein Overlay-Fenster.
 1. Wähle im Feld **Approved By** den autorisierten Nutzer aus, der die Freigabe genehmigen soll.
 1. Klicke auf "Start", um die Freigabe anzufordern und das Overlay-Fenster zu schließen.
- >**Hinweis:** Der autorisierte Nutzer erhält oben rechts nun eine Benachrichtigung ![](assets/NotificationBell_WebUI.png), in der er gebeten wird, das Kreditlimit freizugeben.
+ >**Hinweis:** Der autorisierte Nutzer erhält oben rechts nun eine [Benachrichtigung](Benachrichtigungsarten) ![](assets/NotificationBell_WebUI.png), in der er gebeten wird, das Kreditlimit freizugeben.
 
 ## Nächste Schritte
 - [Kreditlimit freigeben (nur autorisierte Nutzer)](Kreditlimit_Freigabe).

@@ -2,6 +2,7 @@
 title: How do I create a new user role?
 layout: default
 tags:
+  - A Beginner's Guide to metasfresh
   - Setup
   - User and Roles
 lang: en
@@ -10,7 +11,7 @@ ref: newuserrole
 ---
 
 ## Overview
-A user role allows you to define which features the user can access and which data they can view.
+A user role enables you to specify which features the user can access and which data they can view.
 
 ## Steps
 1. Open "Role" from the [menu](Menu).

@@ -2,6 +2,7 @@
 title: How do I change the notification type in metasfresh?
 layout: default
 tags:
+  - A Beginner's Guide to metasfresh
   - Setup
 lang: en
 sequence: 40

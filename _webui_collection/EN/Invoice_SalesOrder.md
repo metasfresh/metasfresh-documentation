@@ -10,12 +10,12 @@ ref: invoice_salesorder
 ---
 
 ## Steps
-1. Open a [sales order which has been shipped](Ship_SalesOrder).
+1. Open the entry of a [sales order which has been shipped](Ship_SalesOrder).
 1. [Jump to](JumptoviaSidebar) "Invoice Disposition".
 1. [Select the order lines](RecordSelection) you want to invoice.
 1. [Start the action](StartAction) "Generate Invoices". An overlay window opens up.
 1. Click "Start" to confirm and close the overlay window.
-1. You will receive a notification ![](assets/NotificationBell_WebUI.png) in the upper right corner once the invoice is generated.
+1. You will receive a [notification](Notification_types) ![](assets/NotificationBell_WebUI.png) in the upper right corner once the invoice is generated.
 1. Click on the notification to open the invoice document.
 1. [Open the PDF print preview](PrintPreview).
 

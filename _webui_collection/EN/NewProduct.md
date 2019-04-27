@@ -33,19 +33,19 @@ ref: newproduct
 ![](assets/NewProduct.gif)
 
 ## Further Relevant Fields
-- The field **UOM** (unit of measurement) determines in which unit the product is managed in stock (stock UOM).
+- The field **UOM** (unit of measurement) specifies the unit in which the product is managed in stock (stock UOM).
  >**Note 1:** Once the first receipt is issued with this product, the stock UOM cannot be easily changed.<br><br>
  >**Note 2:** You can define a different sales UOM isolated from the stock UOM under the record tab "Price". In this case, you also have to define a [UOM conversion](Convert_UOMs).
 
-- The field **Product Type** determines the type of product.
+- The field **Product Type** specifies the type of product.
 
 |	Option | Effect |
-|:	------------ | ------------- |
-|	Item | Material product, e.g., general cargo, packing unit, etc. (standard)|
-|	Service | Immaterial product|
-|	Expense type | Controls the account assignment|
-|	Resource | Product that can temporally only be accounted for once, e.g., a machine|
+| :--- | :--- |
+|	Item | Material product, e.g., piece goods, packaging, etc. (default) |
+|	Service | Immaterial product |
+|	Expense type | Controls the account assignment |
+|	Resource | Product that can temporally only be accounted for once, e.g., a machine |
 
-- The field **Stocked** determines whether the product is in stock (provided the product type is set on "Item").
-- The field **Purchased** determines whether the product is available in purchase.
-- The field **Sold** determines whether the product is available in sales.
+- The field **Stocked** provides information about whether the product is in stock (provided the product type is set on "Item").
+- The field **Purchased** provides information about whether the product is available in purchasing.
+- The field **Sold** provides information about whether the product is available in sales.

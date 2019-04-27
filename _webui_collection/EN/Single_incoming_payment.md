@@ -1,5 +1,5 @@
 ---
-title: How do I record a payment against a single invoice?
+title: How do I post a payment against a single invoice?
 layout: default
 tags:
   - Accounting

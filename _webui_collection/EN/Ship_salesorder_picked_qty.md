@@ -23,7 +23,7 @@ ref: ship_salesorder_picked_qty
 
 1. In the field **QuantityType**, select *Picked Qty*.
 1. Click "Start" to confirm and close the overlay window.
-1. You will receive a notification ![](assets/NotificationBell_WebUI.png) in the upper right corner once the shipment is generated.
+1. You will receive a [notification](Notification_types) ![](assets/NotificationBell_WebUI.png) in the upper right corner once the shipment is generated.
 1. Click on the notification to open the delivery note.
 1. [Open the PDF print preview](PrintPreview).
 

@@ -2,6 +2,7 @@
 title: Wie selektiere ich Einträge/Zeilen?
 layout: default
 tags:
+  - Anfängertips für metasfresh
   - Benutzung
 lang: de
 sequence: 30

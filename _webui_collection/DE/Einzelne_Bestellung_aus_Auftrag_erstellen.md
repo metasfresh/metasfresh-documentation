@@ -34,7 +34,7 @@ Hast Du nur einen Entwurf des Auftrags erstellt, wird die Bestellung an die Best
 ### Fall 2: Fertiggestellter Auftrag
 Wenn Du den Auftrag [fertigstellst](BelegverarbeitungFertigstellen) oder die Bestellung aus einem fertiggestellten Auftrag erstellst, dann wird sie sofort generiert:
 
-1. Du erhältst oben rechts eine Benachrichtigung ![](assets/NotificationBell_WebUI.png), sobald die Bestellung erstellt ist.
+1. Du erhältst oben rechts eine [Benachrichtigung](Benachrichtigungsarten) ![](assets/NotificationBell_WebUI.png), sobald die Bestellung erstellt ist.
 1. Klicke auf die Benachrichtigung, um die Bestellung zu öffnen.
  >**Hinweis 1:** Über die [verknüpften Belege](SpringezuBelegen) kannst Du aus dem Auftrag auch ***direkt*** zur Bestellung springen.<br><br>
  >**Hinweis 2:** Die Bestellung ist bereits fertiggestellt.
