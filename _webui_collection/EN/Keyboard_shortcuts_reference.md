@@ -25,6 +25,16 @@ In metasfresh, you can speed up some processes in several contexts by using cert
 | `Alt` + `↵ Enter` | `⌥ alt` + `↵ Enter` | Open selected / Apply ("Done") / Apply filter |
 | `Esc` | `esc` | Cancel |
 
+### Dynamic Search Box Context (Autocompletion)
+A dynamic search box is a searchable drop-down list, which updates with each letter typed into the text box, providing autocomplete suggestions to select by clicking on them.
+
+| Keyboard Shortcut <br> (Windows/MacOS) | Command |
+| :---: | :--- |
+| `SPACE` | Show a selection of available data entries.<br> (Select one of the provided options with the mouse or ![](../DE/assets/Workflow_Auftrag_Bis_Rechnung_WebUI-73797.png).) |
+
+**Example**: Dynamic drop-down list<br><br>
+![](assets/Dynamic_Drop-down_list.gif)
+
 ### Document Context ([list view](ViewModes))
 
 | Keyboard Shortcut <br> (Windows) | Keyboard Shortcut <br> (MacOS) | Command |

@@ -28,10 +28,7 @@ For contacts (users or business partners) to be added to the mailing list of a *
 1. [Start the quick action](StartAction) "Export in E-Mail Campaign". An overlay window opens up.
  >**Note:** You will also find this action in the actions menu in both the list view and the detailed view of an entry.
 
-1. In the field **MKTG_Campaign**, enter a part of the e-mail campaign and click on one of the results.
- >**Note 1:** Hit `SPACE` to see all available [marketing campaigns](Create_MKTG_campaign).<br><br>
- >**Note 2:** Select one of the shown options with the mouse or ![](../DE/assets/Workflow_Auftrag_Bis_Rechnung_WebUI-73797.png).
-
+1. In the field [**Marketing Campaign**](Create_MKTG_campaign), enter a part of the e-mail campaign and click on the matching result in the [drop-down list](Keyboard_shortcuts_reference).
 1. Click "Start" to close the overlay window and add the contacts to the e-mail campaign.
 
 #### b) to a Serial Letter Campaign
@@ -40,10 +37,7 @@ For contacts (users or business partners) to be added to the mailing list of a *
 1. [Start the action](StartAction) "Export in Serial Letter Campaign". An overlay window opens up.
  >**Note:** You will also find this action in the actions menu in the detailed view of an entry.
 
-1. In the field **MKTG_Campaign**, enter a part of the serial letter campaign and click on one of the results.
- >**Note 1:** Hit `SPACE` to see all available [marketing campaigns](Create_MKTG_campaign).<br><br>
- >**Note 2:** Select one of the shown options with the mouse or ![](../DE/assets/Workflow_Auftrag_Bis_Rechnung_WebUI-73797.png).
-
+1. In the field [**Marketing Campaign**](Create_MKTG_campaign), enter a part of the serial letter campaign and click on the matching result in the [drop-down list](Keyboard_shortcuts_reference).
 1. In the field **DefaultAddressType**, select the type of default address where the serial letters shall later be sent to, e.g., *BillToDefault* or *ShipToDefault*.
  >**Note:** Make sure the corresponding fields in the corresponding line under the record tab "Location" of the respective business partner entry are activated.
 
@@ -62,10 +56,7 @@ For contacts (users or business partners) to be added to the mailing list of a *
 1. [Start the quick action](StartAction) "Kontaktperson aus Nutzer" (*Add contact from user*). An overlay window opens up.
  >**Note:** You will also find this action in the actions menu in both the list view and the detailed view of an entry.
 
-1. In the field **MKTG_Campaign**, enter a part of the marketing campaign and click on one of the results.
- >**Note 1:** Hit `SPACE` to see all available [marketing campaigns](Create_MKTG_campaign).<br><br>
- >**Note 2:** Select one of the shown options with the mouse or ![](../DE/assets/Workflow_Auftrag_Bis_Rechnung_WebUI-73797.png).
-
+1. In the field [**Marketing Campaign**](Create_MKTG_campaign), enter a part of the marketing campaign and click on the matching result in the [drop-down list](Keyboard_shortcuts_reference).
 1. Click "Start" to close the overlay window and add the contacts to the marketing campaign.
 <br><br>
 

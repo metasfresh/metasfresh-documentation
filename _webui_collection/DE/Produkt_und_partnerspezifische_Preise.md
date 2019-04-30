@@ -23,15 +23,12 @@ Hierzu stehen Dir zwei Möglichkeiten zur Auswahl:
 1. Folge dieser [Anleitung zum Anlegen eines Rabattschemas](Rabattschema_anlegen) bis zum **Schritt 9**.
 
 ### a) Festpreis festlegen
-1. Wähle im Feld **PriceBase** *Fixed* aus.
-1. Trage einen **Standardpreis** ein, der bei Erfüllung der Preiskonditionen als Festpreis für das/die Produkt/e genommen werden soll.
+1. Wähle im Feld **Preisgrundlage** *Festpreis* aus.
+1. Trage einen **Festpreis** ein, der bei Erfüllung der Preiskonditionen für das/die Produkt/e verwendet werden soll.
 
 ### b) Aufschlag auf einen Standardpreis festlegen
-1. Wähle im Feld **PriceBase** *Pricing System* aus. Es erscheint ein neues Feld **Base_PricingSystem_ID**.
-1. Gib im Feld **Base_PricingSystem_ID** das gewünschte Basis-Preissystem ein und wähle es aus den Ergebnissen aus.
- >**Hinweis 1:** Drücke die `LEERTASTE`, um alle verfügbaren [Preissysteme](Preissystem_anlegen) zu sehen.<br><br>
- >**Hinweis 2:** Auswahl des Treffers mit Maus oder ![](assets/Workflow_Auftrag_Bis_Rechnung_WebUI-73797.png).
-
+1. Wähle im Feld **Preisgrundlage** *Preissystem* aus. Es erscheint ein neues Feld **Preissystem**.
+1. Gib im Feld **Preissystem** einen Teil des gewünschten Basis-[Preissystems](Preissystem_anlegen) ein und klicke auf den passenden Treffer in der [Dropdown-Liste](Liste_Keyboard_Shortcuts).
 1. Trage einen **Aufschlag auf Standardpreis** ein, der bei Erfüllung der Preiskonditionen auf den im Basis-Preissystem festgelegten Standardpreis draufgerechnet werden soll.
 
 ### Nächste Schritte

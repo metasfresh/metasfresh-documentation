@@ -25,6 +25,16 @@ In metasfresh kannst Du in verschiedenen Kontexten einige Prozesse mithilfe best
 | `Alt` + `↵ Enter` | `⌥ alt` + `↵ Enter` | Auswahl öffnen / Anwenden ("Bestätigen") / Filter anwenden |
 | `Esc` | `esc` | Abbrechen |
 
+### Kontext: Dynamisches Suchfeld (Autocomplete)
+Dynamische Suchfelder sind durchsuchbare Dropdown-Listen, die sich mit jeder Eingabe eines Buchstaben in das Textfeld aktualisieren und eine Auswahl möglicher Treffer anzeigen, welche dann zwecks Autovervollständigung durch Anklicken ausgewählt werden können.
+
+| Tastenkombination <br> (Windows/MacOS) | Befehl |
+| :---: | :--- |
+| `LEERTASTE` | Auswahl verfügbarer Dateneinträge anzeigen.<br> (Treffer mit Maus oder ![](assets/Workflow_Auftrag_Bis_Rechnung_WebUI-73797.png) auswählen.) |
+
+**Beispiel**: Dynamische Dropdown-Liste<br><br>
+![](assets/Dynamische_Dropdown-Liste.gif)
+
 ### Kontext: Dokument ([Listenansicht](Ansichten))
 
 | Tastenkombination <br> (Windows) | Tastenkombination <br> (MacOS) | Befehl |
