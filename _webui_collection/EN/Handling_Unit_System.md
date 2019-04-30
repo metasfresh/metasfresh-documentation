@@ -24,7 +24,7 @@ Hence, the combination of a CU inside a TU in/on an LU is called a **Handling Un
 
 | HU component | Type | Example |
 | :---: | :---: | :--- |
-| CU | Product | Individual pieces (e.g., lettuce), dry bulk material (e.g., sand) or liquid goods (e.g., milk) |
+| CU | Product | Piece goods (e.g., lettuce), dry bulk goods (e.g., sand) or liquid bulk goods (e.g., milk) |
 | TU | Packaging | One-way containers, reusable containers (e.g., Euro containers, IFCO trays), stand-up displays, beverage crates, etc. |
 | LU | Load carriers | Pallets, containers, PALOXE pallet boxes, etc. |
 
@@ -33,18 +33,18 @@ Hence, the combination of a CU inside a TU in/on an LU is called a **Handling Un
 | HU component | Configuration |
 | :---: | :--- |
 | CU | [How do I allocate a product to a transport unit?](CU-TU_Allocation) |
-| TU | [How do I create packing instructions?](..howto_collection\Wie_erstelle_ich_eine_Packvorschrift) |
+| TU | [How do I create packing instructions?](Create_packing_instructions) |
 | LU | How do I allocate an LU to packing instructions? |
 
 ## Clarification of Terms
 
 | Term | Answers this question |
 | :--- | :--- |
-| CU (Consumer Unit) | What is my product? |
+| CU (Consumer Unit) | What is my [product](NewProduct)? |
 | TU (Transport Unit) | What type of packaging is used for my product? |
 | LU (Loading Unit) | Which load carrier is used? |
-| Packing instructions | Which requirements apply to a packaging? |
-| Packing material | What type of packing material does the packaging consist of? |
+| [Packing instructions](Create_packing_instructions) | Which requirements apply to a packaging? |
+| [Packing material](Set_up_packing_material) | What type of packing material is the packaging made of? |
 | Packaged good | Am I allowed to put a product into this packaging? |
 | VirtualPI | Is the HU a physical packaging or a virtual one? |
 | Handling Unit Type | Is it a VirtualPI, TU or LU? |

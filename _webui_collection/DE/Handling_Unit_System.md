@@ -33,18 +33,18 @@ Demzufolge bezeichnen wir das Gefüge aus einer CU in einer TU in/auf einer LU a
 | HU-Komponente | Konfiguration |
 | :---: | :--- |
 | CU | [Wie konfiguriere ich ein Produkt für die Nutzung im Gebinde?](CU-TU_Zuordnung) |
-| TU | [Wie erstelle ich eine Packvorschrift?](..howto_collection\Wie_erstelle_ich_eine_Packvorschrift) |
+| TU | [Wie erstelle ich eine Packvorschrift?](Packvorschrift_erstellen) |
 | LU | Wie weise ich eine LU einer Packvorschrift zu? |
 
 ## Begriffsklärung
 
 | Begriff | Beantwortet diese Fragen |
 | :--- | :--- |
-| CU (Consumer Unit) | Was ist mein Produkt? |
-| TU (Transport Unit) | In welcher Verpackung ist mein Produkt? |
+| CU (Consumer Unit) | Was ist mein [Produkt](NeuesProdukt)? |
+| TU (Transport Unit) | In welcher Verpackung befindet sich mein Produkt? |
 | LU (Loading Unit) | Welches Ladehilfsmittel wird verwendet? |
-| Packvorschrift | Welche Anforderungen gelten für eine Verpackung? |
-| Packmittel | Aus welchem Packmittel besteht die Verpackung? |
+| [Packvorschrift](Packvorschrift_erstellen) | Welche Anforderungen gelten für eine Verpackung? |
+| [Packmittel](Packmittel_einrichten) | Aus welchem Packmittel besteht die Verpackung? |
 | Packgut | Darf ich in diese Verpackung auch ein Produkt tun? |
 | VirtualPI | Ist die HU eine physische Verpackung oder eine virtuelle? |
 | Handling Unit Typ | Handelt es sich um eine VirtualPI, TU oder LU? |
