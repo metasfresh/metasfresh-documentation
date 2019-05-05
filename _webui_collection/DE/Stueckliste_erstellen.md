@@ -3,9 +3,9 @@ title: Wie erstelle ich eine Stückliste?
 layout: default
 tags:
   - Stammdaten
-  - Produkt
+  - Stückliste
 lang: de
-sequence: 30
+sequence: 10
 ref: create_bom
 ---
 
