@@ -3,9 +3,9 @@ title: How do I create a bill of materials (BOM)?
 layout: default
 tags:
   - Master Data
-  - Product
+  - Bill of Materials
 lang: en
-sequence: 30
+sequence: 10
 ref: create_bom
 ---
 
