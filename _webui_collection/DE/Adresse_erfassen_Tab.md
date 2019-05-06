@@ -15,7 +15,7 @@ ref: add_address_tab
 1. Trage im Feld **Name** den Namen des Geschäftspartners ein.
 1. Klicke auf den ![](assets/Edit_address_button.png)-Button, um eine **Anschrift** zu erfassen.
 1. Trage die **Straße und Nr.**, die **PLZ**, den **Ort** und das **Land** des Unternehmens ein.
- >**Hinweis:** Wenn Du "Vereinigte Staaten von Amerika" als **Land** auswählst, kannst Du auch die **Region** eingeben. Klicke dazu einfach zweimal auf den Edit-Button, um das kleine Adressbearbeitungsfenster zu schließen und wieder zu öffnen. Das Feld erscheint dann über **Land**.
+ >**Hinweis:** Wenn Du "Vereinigte Staaten von Amerika" als **Land** auswählst, kannst Du auch die **Region** eingeben. Klicke dazu einfach zweimal auf den Edit-Button, um das kleine Adressbearbeitungsfenster zu schließen und wieder zu öffnen. Das Feld erscheint dann oberhalb von **Land**.
 
 1. Trage die **GLN** (Globale Lokationsnummer) des Unternehmens ein, sofern vorhanden.
 1. Klicke auf "Bestätigen", um das Overlay-Fenster zu schließen und die Adresse zur Liste hinzuzufügen.

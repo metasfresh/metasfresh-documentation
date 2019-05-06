@@ -20,13 +20,14 @@ Falls Dir bei der Erfassung eines [Auftrags](Auftrag_erfassen) oder einer [Beste
 1. Wähle eine **Anrede** aus.
 1. Fülle die Felder **Vorname** und **Nachname** aus.
 1. ***Optional:*** Fülle die Felder **E-Mail** und **Telefon** aus.
-1. Handelt es sich um eine **Firma**, setze bei dem entsprechenden Kästchen ein Häkchen und fülle das Feld **Firmenname** aus. Ist dies nicht der Fall, entferne das Häkchen und benenne den Geschäftspartner im Feld **Name**.
+1. Handelt es sich um eine **Firma**, setze in dem entsprechenden Kontrollkästchen ein Häkchen und fülle das Feld **Firmenname** aus. Ist dies nicht der Fall, entferne das Häkchen und benenne den Geschäftspartner im Feld **Name**.
 1. Wähle eine [**Geschäftspartnergruppe**](Neue_Geschaeftspartnergruppe) aus.
-1. Wähle die bevorzugte Kommunikations**sprache** des Partners aus.
+1. Wähle die vom Partner bevorzugte **Sprache** zur Kommunikation aus.
 1. Klicke auf den ![](assets/Edit_address_button.png)-Button, um eine **Anschrift** zu erfassen.
 1. Trage die **Straße und Nr.**, die **PLZ**, den **Ort** und das **Land** des Partners ein.
- >**Hinweis:** Wenn Du "Vereinigte Staaten von Amerika" als **Land** auswählst, kannst Du auch die **Region** eingeben. Klicke dazu einfach zweimal auf den Edit-Button, um das kleine Adressbearbeitungsfenster zu schließen und wieder zu öffnen. Das Feld erscheint dann über **Land**.
+ >**Hinweis:** Wenn Du "Vereinigte Staaten von Amerika" als **Land** auswählst, kannst Du auch die **Region** eingeben. Klicke dazu einfach zweimal auf den Edit-Button, um das kleine Adressbearbeitungsfenster zu schließen und wieder zu öffnen. Das Feld erscheint dann oberhalb von **Land**.
 
+1. ***Optional:*** Setze je nach Art der Geschäftsbeziehung ein Häkchen bei **Kunde** und/oder **Lieferant**. Wähle anschließend eine **Zahlungsbedingung** und ein **(Einkaufs)Preissystem** aus.
 1. Klicke auf "Bestätigen", um den neuen Geschäftspartner zu speichern, das Overlay-Fenster zu schließen und mit der Erfassung des Auftrags bzw. der Bestellung fortzufahren.
 <br><br>
 
