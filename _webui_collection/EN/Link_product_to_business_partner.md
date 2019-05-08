@@ -5,7 +5,7 @@ tags:
   - Master Data
   - Product
 lang: en
-sequence: 50
+sequence: 30
 ref: link_product_to_business_partner
 ---
 

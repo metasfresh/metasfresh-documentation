@@ -4,8 +4,9 @@ layout: default
 tags:
   - Stammdaten
   - Produkt
+  - Produktkategorie
 lang: de
-sequence: 70
+sequence: 10
 ref: newproductcategory
 ---
 
@@ -14,6 +15,10 @@ ref: newproductcategory
 1. [Lege eine neue Produktkategorie an](Neuer_Datensatz_Fenster_Webui).
 1. Benenne die Kategorie im Feld **Name**.
 1. [metasfresh speichert automatisch](Speicheranzeige).
+
+## Nächste Schritte (optional)
+- [Stelle eine **übergeordnete Produktkategorie** ein](Uebergeordnete_Produktkategorie).
+- Wähle im Feld **Produktnummernfolge** eine [Belegnummerierung](Belegnummern_definieren) aus.
 
 ## Beispiel
 ![](assets/NeueProduktkategorie.gif)

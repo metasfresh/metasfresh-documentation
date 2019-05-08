@@ -5,7 +5,7 @@ tags:
   - Stammdaten
   - Produkt
 lang: de
-sequence: 60
+sequence: 40
 ref: set_default_vendor
 ---
 
