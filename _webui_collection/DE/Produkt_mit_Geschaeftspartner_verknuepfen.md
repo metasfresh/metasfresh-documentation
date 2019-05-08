@@ -5,7 +5,7 @@ tags:
   - Stammdaten
   - Produkt
 lang: de
-sequence: 50
+sequence: 30
 ref: link_product_to_business_partner
 ---
 

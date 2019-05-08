@@ -27,7 +27,7 @@ The dunning type determines the moment when a [dunning run](Dunning_Run) starts 
 
 1. Go to the record tab "Level" at the bottom of the page and click ![](assets/Add_New_Button.png). An overlay window opens up.
 1. Give the level a **Name**.
-1. Enter a **Print Text** which will later appear on the dunning letter.
+1. Enter a **Print Text** which will appear on the dunning letter later on.
 1. Enter the number of **Days after due date** of an invoice until the dunning procedure is initiated.
 1. Enter the number of **Days between dunning**.
 1. Click "Done" to close the overlay window and add the dunning level to the list.

@@ -12,11 +12,11 @@ ref: print_text_on_documents-general
 ## Übersicht
 In metasfresh kannst Du Deine Belege um eigenen Text erweitern und sie so Deinen geschäftlichen Bedürfnissen und Bedingungen entsprechend modifizieren.
 
-Zum Beispiel kannst Du an den Anfang eines Angebotes eine Beschreibung desselben setzen und am Ende eine Notiz für den Kunden hinterlassen oder das bestellte Produkt näher beschreiben.
+Zum Beispiel kannst Du an den Anfang eines Angebots eine Beschreibung desselben setzen und am Ende eine Notiz für den Kunden hinterlassen oder das bestellte Produkt näher beschreiben.
 
 Diese Texte kannst Du auf verschiedene Art und Weise in metasfresh erfassen. Bei der Belegerstellung werden sie dann automatisch an den dafür vorgesehenen Stellen auf den Belegen eingefügt.
 
-Auf der folgenden Abbildung eines Angebotes werden die modifizierbaren Textstellen hervorgehoben sowie die jeweiligen Menüpunkte aufgezeigt, wo sie in metasfresh bearbeitet werden können:
+Auf der folgenden Abbildung eines Angebots werden die modifizierbaren Textstellen hervorgehoben sowie die jeweiligen Menüpunkte aufgezeigt, wo sie in metasfresh bearbeitet werden können:
 
 ![Modifizierbare Belegtexte mit den jeweiligen Menüpunkten](assets/Text auf Belege drucken.png)
 

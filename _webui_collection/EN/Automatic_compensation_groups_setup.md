@@ -1,25 +1,27 @@
 ---
-title: How do I set up the automatic compensation grouping for product categories?
+title: How do I set up automatic compensation grouping for product categories?
 layout: default
 tags:
-  - Pricing
-  - Pricing Conditions
-  - Discounts
+  - Workflow
+  - Sales
   - Compensation Groups
+  - Setup
 lang: en
-sequence: 30
+sequence: 10
 ref: automatic_compensation_groups_setup
 ---
 
 ## Overview
-[Compensation groups](Discount_types_in_metasfresh) are order lines combined into groups that can receive joint discounts or surcharges. These compensation groups can be created manually, as described with the [order line group discounts](Order_line_group_discount), or automatically, if preconfigured accordingly.
+[Compensation groups](Discount_types_in_metasfresh) consist of multiple order lines that have been combined into groups for joint discounting or surcharging ([order line group discounts](Order_line_group_discount)). They can be created both [manually](Create_manual_compensation_groups) and [automatically](Create_automatic_compensation_groups) as well, if preconfigured accordingly.
 
-The configuration of the automatic compensation groups is described below:
+Automatic compensation groups are also useful for [creating bills of materials from a quotation](Create_BOM_upon_SO_generation) where they help to join manufacturing parts into quotation groups that then serve as the basis for the creation of the bill of materials and the sales product.
+
+In order to set up automatic compensation grouping, please proceed as follows:
 
 ## Steps
-1. [Create a discount product](Product_for_group_discount) for the compensation grouping and [add it to a price list](ProductPrice).
- >**Note:** The discount product must not be stocked and the price list must be identical to the one used in the sales order concerned.
+1. [Create an aggregation product](Aggregation_product_for_compensation_groups) for compensation grouping.
+ >**Note:** The aggregation product must ***not be stocked*** and it must be linked to the very ***same price list*** as in the sales order where it shall be used.
 
-1. Create a [compensation group schema](Create_compensation_group_schema) with the discount product.
+1. Add a [compensation group schema](Create_compensation_group_schema) with the aggregation product.
 1. [Link the compensation group schema to a product category](Compensation_group_schema_product_category) ***or*** set a [parent product category](ParentProductCategory) which is linked to a compensation group schema.
- >**Note:** Products from the same product category are combined into a compensation group with the same schema during the [automatic group discounting process](Automatic_group_discounts).
+ >**Note:** Products from the same product category are combined into a compensation group with the same schema during [automatic compensation grouping](Create_automatic_compensation_groups).

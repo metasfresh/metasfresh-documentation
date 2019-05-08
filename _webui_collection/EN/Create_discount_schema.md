@@ -5,8 +5,9 @@ tags:
   - Pricing
   - Pricing Conditions
   - Discounts
+  - Configuration (Discount Schema)
 lang: en
-sequence: 40
+sequence: 20
 ref: create_discount_schema
 ---
 

@@ -21,7 +21,7 @@ ref: productprice
 1. Click "Done" to close the overlay window and add the price list version to the list.
 
 ## Further Relevant Fields
-1. The field **List Price** specifies the list price that will later appear on the documents.
+1. The field **List Price** specifies the list price that will appear on the documents later on.
 1. **Limit Price**: Manual price changes made by the user, e.g., in the order line, must not fall below this amount!
 1. The field **UOM** specifies the unit of measurement for which the price applies (sales UOM) and must not be confused with the product's UOM used for inventory management (stock UOM)!
 
