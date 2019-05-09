@@ -16,7 +16,7 @@ To this end, among other things, you have to configure the outbound documents fo
 
 As part of a marketing campaign you can create text templates that will later on be printed on the serial letters. Each serial letter is addressed personally to a contact.
 
-In order to set up the serial letter feature, take the following steps:
+In order to set up the serial letter feature, please proceed as follows:
 
 ## Steps
 1. [Configure the outbound documents for the serial letter feature](Outbound_documents_config_serial_letters).

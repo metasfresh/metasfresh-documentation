@@ -11,7 +11,7 @@ ref: create_manual_compensation_groups
 ---
 
 ## Overview
-A manually created compensation group comprises multiple order lines to enable joint discounting or surcharging during [group discounting](Order_line_group_discount).
+A manually created compensation group comprises multiple order lines, making [joint discounting or surcharging](Order_line_group_discount) possible.
 
 In order to create manual compensation groups, please proceed as follows:
 

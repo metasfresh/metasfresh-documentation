@@ -10,7 +10,7 @@ ref: generate_po_from_so
 ---
 
 ## Overview
-If you specifically want to carry over all products in the ordered quantity from a particular sales order to a purchase order, you can simply generate this order-related purchase order directly from the completed sales order. To do so, take the following steps:
+If you specifically want to carry over all products in the ordered quantity from a particular sales order to a purchase order, you can simply generate this order-related purchase order directly from the completed sales order. To do so, please proceed as follows:
 
 ## Requirements
 **The following requirements must be fulfilled:**

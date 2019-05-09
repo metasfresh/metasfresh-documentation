@@ -12,7 +12,7 @@ ref: aggregation_product_for_compensation_groups
 ## Übersicht
 Ein Kombinierungsprodukt ist ein Sonderprodukt, welches in [Aufträgen](Auftrag_erfassen) und [Angeboten](Angebot_erstellen) dazu dient, mehrere Auftragszeilen zu Kompensationsgruppen zusammenzufassen, um sie anschließend gemeinsam weiterzuverarbeiten.
 
-Bei der [Gruppenrabattierung](Auftragszeilengruppenrabatt) zum Beispiel kommt ein [*Rabattprodukt*](Kompensationsgruppenschema_anlegen) zur Anwendung, um die selektierten Auftragszeilen zu gruppieren und dann gemeinsam zu rabattieren oder aufzuschlagen.
+Bei der [Gruppenrabattierung](Auftragszeilengruppenrabatt) zum Beispiel kommt ein [*Rabattprodukt*](Kompensationsgruppen_manuell_erstellen) zur Anwendung, um die selektierten Auftragszeilen zu gruppieren und dann gemeinsam zu rabattieren oder aufzuschlagen.
 
 Bei der [Erstellung von Stücklisten aufgrund eines Angebots](Stueckliste_bei_Auftragsgenerierung) dient das Kombinierungsprodukt dazu, Produktionsbestandteile zu einer Angebotsgruppe zu vereinen, auf deren Grundlage später die Stückliste und das Verkaufsprodukt erstellt werden.
 

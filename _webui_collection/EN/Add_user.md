@@ -15,7 +15,7 @@ Generally speaking, users are contacts who you can register in metasfresh in add
 
 You can also register your business partners as users, e.g., for sending [serial letters](Create_serial_letters) to them as part of a [marketing campaign](Create_MKTG_campaign).
 
-In order to add new users, take the following steps:
+In order to add new users, please proceed as follows:
 
 ## Steps
 1. [Log in to metasfresh](Login).
