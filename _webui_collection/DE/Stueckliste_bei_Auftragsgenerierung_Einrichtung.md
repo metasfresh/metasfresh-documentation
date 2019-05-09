@@ -1,5 +1,5 @@
 ---
-title: Wie richte ich eine automatische Stücklistenerstellung bei Auftragsgenerierung ein?
+title: Wie richte ich eine automatische Stücklistenerstellung bei Auftragsgenerierung aus einem Angebot ein?
 layout: default
 tags:
   - Stammdaten

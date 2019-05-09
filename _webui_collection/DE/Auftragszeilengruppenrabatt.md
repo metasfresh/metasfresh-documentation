@@ -1,5 +1,5 @@
 ---
-title: Wie gebe ich Rabatte/Zuschläge auf Kompensationsgruppen (Auftragszeilengruppenrabatte)?
+title: Wie vergebe ich Rabatte/Zuschläge auf Kompensationsgruppen (Auftragszeilengruppenrabatte)?
 layout: default
 tags:
   - Preisgestaltung
@@ -29,7 +29,7 @@ Kompensationsgruppen lassen sich sowohl [manuell](Kompensationsgruppen_manuell_e
 1. Folge den restlichen Schritten zur [Auftragserfassung](Auftrag_erfassen), um den Auftrag abzuschließen.
 
 ## Sukzessive Rabattierung
-Möchtest Du auf einen Gruppenrabatt noch weitere Rabatte geben, die sich an der jeweils zuvor rabattierten Summe orientieren, gehe einfach wie folgt vor:
+Möchtest Du auf einen Gruppenrabatt noch weitere Rabatte vergeben, die sich an der jeweils zuvor rabattierten Summe orientieren, gehe einfach wie folgt vor:
 
 1. [Selektiere](AuswahlBelege) eine Auftragszeile aus der betreffenden Kompensationsgruppe.
 1. [Starte die Aktion](AktionStarten) "Neuer Gruppenrabatt". Es öffnet sich ein Overlay-Fenster.

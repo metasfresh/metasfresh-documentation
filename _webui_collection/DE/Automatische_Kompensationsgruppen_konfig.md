@@ -14,7 +14,7 @@ ref: automatic_compensation_groups_setup
 ## Übersicht
 [Kompensationsgruppen](Rabattformen_in_metasfresh) bestehen aus mehreren Auftragszeilen, die zu Gruppen zusammengefasst wurden, auf die gemeinsame Rabatte oder Aufschläge gegeben werden können ([Auftragszeilengruppenrabatte](Auftragszeilengruppenrabatt)). Sie können sowohl [manuell](Kompensationsgruppen_manuell_erstellen) erstellt werden als auch [automatisch](Kompensationsgruppen_automatisch_erstellen) bei entsprechender Vorkonfiguration.
 
-Automatische Kompensationsgruppen sind ebenfalls bei der [Erstellung von Stücklisten aufgrund eines Angebots](Stueckliste_bei_Auftragsgenerierung) nützlich, da sie dabei helfen, Produktionsbestandteile zu einer Angebotsgruppe zu vereinen, auf deren Grundlage später die Stückliste und das Verkaufsprodukt erstellt werden.
+Automatische Kompensationsgruppen sind ebenfalls bei der [Erstellung von Stücklisten aufgrund eines Angebots](Stueckliste_bei_Auftragsgenerierung) nützlich, wo sie dabei helfen, Produktionsbestandteile zu einer Angebotsgruppe zu vereinen, auf deren Grundlage später die Stückliste und das Verkaufsprodukt erstellt werden.
 
 Um die automatische Erstellung von Kompensationsgruppen zu konfigurieren, gehe wie folgt vor:
 

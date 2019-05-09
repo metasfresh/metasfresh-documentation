@@ -1,5 +1,5 @@
 ---
-title: Wie erstelle ich bei Auftragsgenerierung automatisch eine Stückliste aufgrund eines Angebots?
+title: How do I automatically create a bill of materials upon sales order generation from a quotation?
 layout: default
 tags:
   - Master Data
@@ -10,7 +10,7 @@ ref: create_bom_upon_so_generation
 ---
 
 ## Overview
-If you combine multiple products intended for the manufacturing of a new sales product into a compensation group in a quotation and then convert it into a sales order, metasfresh automatically transforms the grouped products into a verified bill of materials, immediately making the newly assembled sales product available for future orders without any extra work.
+If you combine multiple products intended for the manufacturing of a new sales product into a compensation group in a quotation and then convert it into a sales order, metasfresh will automatically transform the grouped products into a verified bill of materials and immediately make the newly assembled sales product available for future orders without any extra work.
 
 ## Requirements
 - [Set up the automatic BOM creation upon sales order generation](Create_BOM_upon_SO_generation_setup).
@@ -22,7 +22,7 @@ If you combine multiple products intended for the manufacturing of a new sales p
 1. During order line input, first of all add the [grouping product](Add_grouping_product) (Quantity = 1).
  >**Note:** It is essential that the grouping product is added first so that metasfresh knows that the succeeding products are a quotation group.
 
-1. After that, add the individual products (manufacturing parts) on by one in the desired quantity.
+1. After that, add the individual products (manufacturing parts) one by one in the desired quantity.
 1. [Select the order lines](RecordSelection) you want to combine into a quotation group.
 1. [Start the action](StartAction) "Multigroup lines". All selected order lines are automatically combined into a quotation group with the help of an [aggregation product](Aggregation_product_for_compensation_groups) which is added in a separate line.
  >**Note:** The aggregation product does not appear on subsequent documents.

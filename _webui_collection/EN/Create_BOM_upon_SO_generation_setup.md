@@ -1,5 +1,5 @@
 ---
-title: How do I set up automatic BOM creation upon sales order generation?
+title: How do I set up automatic BOM creation upon sales order generation from a quotation?
 layout: default
 tags:
   - Master Data
@@ -17,12 +17,12 @@ During the conversion, metasfresh will automatically create a bill of materials 
 ## Steps
 
 ### 1) Review manufacturing parts and product categories
-1. Make sure the products intended for grouping (manufacturing parts) are [associated to the exact same **Product Category**](NewProduct).
+1. Make sure the products intended for grouping (manufacturing parts) are [linked to the exact same **Product Category**](NewProduct).
 1. Make sure the product category of the manufacturing parts is [subordinated to another](ParentProductCategory).
  >**Note:** The **parent product category** is required for categorizing the assembled sales product.
 
 1. Make sure the parent product category has an individual [document sequence](Define_new_doc_sequence).
- >**Note:** This sequence is required for the document numbers of the bill of materials and the associated sales product.
+ >**Note:** This sequence is required for sequencing the bill of materials and the associated sales product.
 
 ### 2) Add a grouping product
 1. [Add a grouping product](Add_grouping_product) that serves to identify products as quotation groups.
@@ -30,7 +30,7 @@ During the conversion, metasfresh will automatically create a bill of materials 
 
 ### 3) Add a compensation group schema
 1. [Add a **compensation group schema**](Create_compensation_group_schema) along with an [aggregation product](Aggregation_product_for_compensation_groups) in order to combine multiple order lines into a compensation group later on in the quotation.
- >**Note:** The compensation group's name will be used for naming the bill of materials and the associated sales product.
+ >**Note:** The name of the compensation group schema will be used for naming the bill of materials and the associated sales product.
 
 1. [Link the **compensation group schema** to the **product category**](Compensation_group_schema_product_category) of the manufacturing parts (see 1.1 above).
 

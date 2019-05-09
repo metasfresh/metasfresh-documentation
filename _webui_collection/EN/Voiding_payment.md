@@ -11,7 +11,7 @@ ref: voiding_payment
 ---
 
 ## Overview
-In metasfresh, you can quickly cancel incorrectly booked payments and at the same time reverse the *Paid* status of the assigned invoices. To do so, take the following steps:
+In metasfresh, you can quickly cancel incorrectly booked payments and at the same time reverse the *Paid* status of the assigned invoices. To do so, please proceed as follows:
 
 ## Steps
 1. Open "Payment" from the [menu](Menu).

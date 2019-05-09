@@ -11,7 +11,7 @@ ref: parentproductcategory
 ---
 
 ## Overview
-When you subordinate a product category to another which is [linked to a compensation group schema](Compensation_group_schema_product_category), then the schema of the parent category will be applied during [group discounting](Order_line_group_discount) of [automatically created compensation groups](Create_automatic_compensation_groups). This way you can sort individual products into different categories and still give discounts on them as a group.
+When you subordinate a product category to another which is [linked to a compensation group schema](Compensation_group_schema_product_category), then the schema of the parent category will be applied during [joint discounting](Order_line_group_discount) of [automatically created compensation groups](Create_automatic_compensation_groups). This way you can sort individual products into different categories and still give discounts on them as a group.
 
 When [creating bills of materials from quotations](Create_BOM_upon_SO_generation), the parent category will be used to categorize the assembled sales product.
 

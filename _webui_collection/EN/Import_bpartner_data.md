@@ -31,7 +31,7 @@ Make sure to comply with all requirements for the [data import in metasfresh](Da
 1. Open "Import Business Partner" from the [menu](Menu). Here you will find all imported business partner entries.
 1. Open the entry of the business partner whose data you want to review and correct, if necessary.
  - If all data are transferred properly and without errors, this business partner entry will be read-only and you can find the imported data under "[Business Partner](Menu)" in the menu. All further changes can be made there.
- - Should some data be transferred incorrectly or be missing after the import, you can review and edit each business partner entry under "[Import Business Partner](Menu)". After you have rectified all inaccuracies, you can now manually import the business partner data. To do so, take the following steps:
+ - Should some data be transferred incorrectly or be missing after the import, you can review and edit each business partner entry under "[Import Business Partner](Menu)". After you have rectified all inaccuracies, you can now manually import the business partner data. To do so, please proceed as follows:
 
 #### Manual Business Partner Data Import
 1. [Start the action](StartAction) "Import Business Partners". An overlay window opens up.

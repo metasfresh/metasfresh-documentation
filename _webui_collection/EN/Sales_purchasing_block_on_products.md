@@ -13,7 +13,7 @@ ref: sales_purchasing_block_on_products
 ## Overview
 In metasfresh, you can sell or purchase all products on a price list to or from all the business partners, respectively, that are linked to this very same price list. But what if you only want to make a specific selection of products available to individual partners without having to create a new price list for each one of them, which as such would be identical to the original one except for the excluded products and otherwise would only result in duplicated data and additional organizational overhead?
 
-In this case, you can simply create partner-related exclusion lists with those products you want to block for sales or purchasing. This will subsequently prevent you from adding the blocked products to any sales or purchase orders. You can create these lists in the product entry as well as in the business partner entry. To do so, take the following steps:
+In this case, you can simply create partner-related exclusion lists with those products you want to block for sales or purchasing. This will subsequently prevent you from adding the blocked products to any sales or purchase orders. You can create these lists in the product entry as well as in the business partner entry. To do so, please proceed as follows:
 
 ## Steps
 

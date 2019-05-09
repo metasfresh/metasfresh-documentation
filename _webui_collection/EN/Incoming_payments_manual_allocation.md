@@ -11,7 +11,7 @@ ref: incoming_payments_manual_allocation
 ---
 
 ## Overview
-If a customer makes a single payment to settle multiple invoices, you have to *manually allocate* the received amount to the respective invoices. To do so, take the following steps:
+If a customer makes a single payment to settle multiple invoices, you have to *manually allocate* the received amount to the respective invoices. To do so, please proceed as follows:
 
 ## Requirements
 - Make sure to have several unpaid [invoices](Invoice_SalesOrder).

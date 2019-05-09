@@ -13,7 +13,7 @@ ref: copy_prices_from_price-list-version
 ## Overview
 When you create a new price list version, it will be empty at first, i.e. there are no prices or products in it. You can now manually [add them to the price list](Add_products_to_price-list) one by one.
 
-However, instead you can also take an existing price list version along with its prices and products and copy it into your new version in case you only want to modify it in a few parts, for example. To do so, take the following steps:
+However, instead you can also take an existing price list version along with its prices and products and copy it into your new version in case you only want to modify it in a few parts, for example. To do so, please proceed as follows:
 
 ## Requirements
 - [Create a price list schema](Price_list_schema_rules), e.g., with the name *Copy Price Lists*.

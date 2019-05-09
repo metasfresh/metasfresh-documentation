@@ -11,7 +11,7 @@ ref: single_incoming_payment
 ---
 
 ## Overview
-After receiving a payment, you can enter the amount as an *Incoming Payment* in metasfresh, whereby the associated invoice will automatically receive the status *Paid*. To do so, take the following steps:
+After receiving a payment, you can enter the amount as an *Incoming Payment* in metasfresh, whereby the associated invoice will automatically receive the status *Paid*. To do so, please proceed as follows:
 
 ## Requirements
 - Make sure to have an outstanding [invoice](Invoice_SalesOrder).

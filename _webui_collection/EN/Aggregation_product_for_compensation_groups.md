@@ -12,7 +12,7 @@ ref: aggregation_product_for_compensation_groups
 ## Overview
 An aggregation product is a special product used in [sales orders](SalesOrder_recording) and [quotations](Create_SalesQuotation) to combine multiple order lines into compensation groups for further joint processing.
 
-During [group discounting](Order_line_group_discount), for instance, a [*discount product*](Create_compensation_group_schema) is applied to combine the selected order lines into a group and then apply joint discounts or surcharges.
+During [group discounting](Order_line_group_discount), for instance, a [*discount product*](Create_manual_compensation_groups) is applied to combine the selected order lines into a group and then apply joint discounts or surcharges.
 
 When [creating bills of materials from a quotation](Create_BOM_upon_SO_generation), the aggregation product helps to join manufacturing parts into quotation groups that then serve as the basis for the creation of the bill of materials and the sales product.
 

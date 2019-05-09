@@ -11,7 +11,7 @@ ref: create_automatic_compensation_groups
 ---
 
 ## Übersicht
-Eine automatisch erstellte Kompensationsgruppe fasst mehrere Auftragszeilen anhand gemeinsamer Produktkategorien zusammen.
+Eine automatisch erstellte Kompensationsgruppe fasst mehrere Auftragszeilen anhand gemeinsamer [Produktkategorien](NeueProduktkategorie) zusammen.
 
 Bei der [Gruppenrabattierung](Auftragszeilengruppenrabatt) können so Auftragszeilen mit der gleichen Produktkategorie schnell gruppiert und anschließend gemeinsam rabattiert oder aufgeschlagen werden.
 

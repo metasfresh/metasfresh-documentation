@@ -11,9 +11,9 @@ ref: create_automatic_compensation_groups
 ---
 
 ## Overview
-An automatically created compensation group comprises multiple order lines based on shared product categories.
+An automatically created compensation group comprises multiple order lines based on shared [product categories](NewProductCategory).
 
-This way, during [group discounting](Order_line_group_discount) order lines can be quickly combined into a group and then jointly be discounted or surcharged.
+This way, during [group discounting](Order_line_group_discount) order lines can be quickly combined into a group and then jointly discounted or surcharged.
 
 When [creating bills of materials from a quotation](Create_BOM_upon_SO_generation), automatic compensation groups help to create quotation groups that serve as the basis for the creation of the bill of materials and the sales product later on.
 

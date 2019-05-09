@@ -12,7 +12,7 @@ ref: create_compensation_group_schema
 ---
 
 ## Übersicht
-Mithilfe eines Kompensationsgruppenschemas kannst Du kontrollieren, welche Produkte in einem [Auftrag](Autrag_erfassen) [automatisch zu Kompensationsgruppen zusammengefasst](Kompensationsgruppen_automatisch_erstellen) werden.
+Mithilfe eines Kompensationsgruppenschemas kannst Du kontrollieren, welche Produkte in einem [Auftrag](Auftrag_erfassen) [automatisch zu Kompensationsgruppen zusammengefasst](Kompensationsgruppen_automatisch_erstellen) werden.
 
 ## Schritte
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Kompensationsgruppe Schema".

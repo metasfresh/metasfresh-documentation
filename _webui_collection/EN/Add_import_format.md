@@ -34,7 +34,7 @@ By means of the import format, you can specify which data, or rather columns, fr
  >**Note:** Repeat steps 1 to 6 to add further format fields.
 
 ### b) Copy Format Fields
-If you want to add a new import format with the same format fields as an existing format, you can very easily copy the format fields from the existing import format into the new one via the [actions menu](StartAction). To do so, take the following steps:
+If you want to add a new import format with the same format fields as an existing format, you can very easily copy the format fields from the existing import format into the new one via the [actions menu](StartAction). To do so, please proceed as follows:
 
 1. Add a new import format as described above in **steps 1 to 5**.
 1. [Start the action](StartAction) "Copy Lines". An overlay window opens up.
