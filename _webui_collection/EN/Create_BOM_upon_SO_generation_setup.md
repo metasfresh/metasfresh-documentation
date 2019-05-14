@@ -16,32 +16,24 @@ During the conversion, metasfresh will automatically create a bill of materials 
 
 ## Steps
 
-### 1) Review manufacturing parts and product categories
-1. Make sure the products intended for grouping (manufacturing parts) are [linked to the exact same **Product Category**](NewProduct).
-1. Make sure the product category of the manufacturing parts is [subordinated to another](ParentProductCategory).
+### Add grouping product with a parent product category
+1. [Add a grouping product](Add_grouping_product) that serves to identify products as quotation groups.
+ >**Note:** Make sure the grouping product is activated for quotation grouping.
+
+1. Set a [parent product category](ParentProductCategory) for the grouping product's product category.
  >**Note:** The **parent product category** is required for categorizing the assembled sales product.
 
 1. Make sure the parent product category has an individual [document sequence](Define_new_doc_sequence).
  >**Note:** This sequence is required for sequencing the bill of materials and the associated sales product.
 
-### 2) Add a grouping product
-1. [Add a grouping product](Add_grouping_product) that serves to identify products as quotation groups.
-1. Make sure the grouping product belongs to the same **product category** as the manufacturing parts (see 1.1 above).
-
-### 3) Add a compensation group schema
-1. [Add a **compensation group schema**](Create_compensation_group_schema) along with an [aggregation product](Aggregation_product_for_compensation_groups) in order to combine multiple order lines into a compensation group later on in the quotation.
- >**Note:** The name of the compensation group schema will be used for naming the bill of materials and the associated sales product.
-
-1. [Link the **compensation group schema** to the **product category**](Compensation_group_schema_product_category) of the manufacturing parts (see 1.1 above).
-
-### 4) Check for availability of a product planning schema
+### Check for availability of a product planning schema
 1. Open "Product Planning Schema" from the [menu](Menu).
 1. Open the entry provided there by default.
 1. Make sure the field **M_ProductPlanningSchema_Selector** is set on *Angebotsprodukt Plandaten Schema Selektor* (*Quotation product planning schema selector*).
 1. Don't make any other changes!
 
 ## Next Steps
-- [Automatically create a bill of materials consisting of the compensation group from a quotation by converting it into a sales order](Create_BOM_upon_SO_generation).
+ - [Automatically create a bill of materials consisting of the compensation group from a quotation by converting it into a sales order](Create_BOM_upon_SO_generation).
 
 ## Example
 ![](assets/Create_BOM_upon_SO_generation_setup.gif)

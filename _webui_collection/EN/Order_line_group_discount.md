@@ -35,7 +35,7 @@ If you want to give further discounts on a group discount that always consider t
 1. [Start the action](StartAction) "Add group compensation line". An overlay window opens up.
 1. Select a **Product**, e.g., *Discount*.
  >**Note:** You can select any other product from the list in the product field, provided that it is ***not stocked*** and linked to the very ***same price list*** as in the sales order.<br>
- [Follow these instructions](Aggregation_product_for_compensation_groups) to configure such a *discount product*.
+ [Follow these instructions](Add_grouping_product) to configure such a *discount product*.
 
 1. Click "Start" to close the overlay window and add another group discount line to the list.
 1. Double-click the field **Compensation percentage** of this discount line and enter a percentage there.

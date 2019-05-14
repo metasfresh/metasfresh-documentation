@@ -10,22 +10,18 @@ ref: create_bom_upon_so_generation
 ---
 
 ## Übersicht
-Hast Du mehrere Produkte, die für die Herstellung eines neuartigen Verkaufsproduktes vorgesehen sind, in einem Angebot zu einer Kompensationsgruppe zusammengefasst und erstellst anschließend daraus einen Auftrag, dann verwandelt metasfresh die Produktgruppierung automatisch in eine verifizierte Stückliste, woraufhin das neu zusammengestellte Verkaufsprodukt sofort und ohne zusätzlichen Mehraufwand für zukünftige Aufträge zur Verfügung steht.
+Hast Du mehrere Produkte, die für die Herstellung eines neuartigen Verkaufsproduktes vorgesehen sind, in einem Angebot zu einer Kompensationsgruppe zusammengefasst und erstellst anschließend daraus einen Auftrag, dann verwandelt metasfresh die Angebotsgruppe automatisch in eine verifizierte Stückliste, woraufhin das neu zusammengestellte Verkaufsprodukt sofort und ohne zusätzlichen Mehraufwand für zukünftige Aufträge zur Verfügung steht.
 
 ## Voraussetzungen
 - [Richte die automatische Stücklistenerstellung bei Auftragsgenerierung ein](Stueckliste_bei_Auftragsgenerierung_Einrichtung).
 
 ## Schritte
 
-### Angebot erstellen
-1. [Erstelle ein Angebot](Angebot_erstellen) mit den gewünschten Produkten. Beachte dabei folgende Vorgehensweise:
-1. Füge bei der Auftragszeileneingabe zuerst das [Gruppierungsprodukt](Gruppierungsprodukt_anlegen) hinzu (Menge = 1).
- >**Hinweis:** Das Gruppierungsprodukt muss aus technischen Gründen unbedingt als erstes hinzugefügt werden, damit metasfresh weiß, dass es sich bei den folgenden Produkten um eine Angebotsgruppe handelt.
-
-1. Füge daraufhin nacheinander die einzelnen Produkte (Produktionsbestandteile) in der gewünschten Menge hinzu.
-1. [Selektiere die Auftragszeilen](AuswahlBelege), die Du zu einer Angebotsgruppe zusammenfassen möchtest.
-1. [Starte die Aktion](AktionStarten) "Multigroup lines". Alle selektierten Auftragszeilen werden automatisch mithilfe eines [Kombinierungsproduktes](Kombinierungsprodukt_Kompensationsgruppen), welches als zusätzliche Zeile hinzugefügt wird, zu einer Angebotsgruppe vereint.
- >**Hinweis:** Das Kombinierungsprodukt wird auf den Folgebelegen nicht aufgeführt.
+### Angebot mit Angebotsgruppe erstellen
+1. [Erstelle ein Angebot](Angebot_erstellen) mit den gewünschten Produkten, aber stelle es ***noch nicht fertig***.
+1. [Erstelle eine manuelle Kompensationsgruppe (ab **Schritt 2**)](Kompensationsgruppen_manuell_erstellen) mithilfe eines [für die Angebotsgruppierung aktivierten Gruppierungsproduktes](Gruppierungsprodukt_anlegen).
+ >**Hinweis 1:** Der Name der Kompensationsgruppe wird später für die Benennung der Stückliste und des dazugehörigen Verkaufsproduktes verwendet.<br><br>
+ >**Hinweis 2:** Das Gruppierungsprodukt wird als zusätzliche Zeile hinzugefügt und erscheint nicht auf den Folgebelegen.
 
 1. [Stelle das Angebot fertig](BelegverarbeitungFertigstellen).
 
@@ -34,7 +30,7 @@ Hast Du mehrere Produkte, die für die Herstellung eines neuartigen Verkaufsprod
 1. Wähle die **Belegart** *Standardauftrag* aus.
 1. Klicke auf "Start", um das Overlay-Fenster zu schließen und den Auftrag zu erstellen.
 
-### Neues Verkaufsprodukt und Stückliste überprüfen
+### Neues Verkaufsprodukt und Stückliste ansehen
 1. Gehe zur Registerkarte "Auftragsposition" unten auf der Seite des fertiggestellten Auftrags und [zoome](Zoomen_in_Tabellenfeld) in das Feld in der Spalte **Produkt** der Auftragszeile. Es öffnet sich das Fenster des neuen Produktes in einem neuen Tab.
 1. [Springe über die verknüpften Belege](SpringezuBelegen) des neuen Produktes zur "Stücklistenkonfiguration" (unter PRODUKTVERWALTUNG in der Sidebar) und öffne dort die dazugehörige, bereits [herausgefilterte](Filterfunktion) Stückliste.
 
