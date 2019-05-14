@@ -15,8 +15,6 @@ Eine automatisch erstellte Kompensationsgruppe fasst mehrere Auftragszeilen anha
 
 Bei der [Gruppenrabattierung](Auftragszeilengruppenrabatt) können so Auftragszeilen mit der gleichen Produktkategorie schnell gruppiert und anschließend gemeinsam rabattiert oder aufgeschlagen werden.
 
-Bei der [Erstellung von Stücklisten aufgrund eines Angebots](Stueckliste_bei_Auftragsgenerierung) dienen automatische Kompensationsgruppen dazu, Angebotsgruppen zu erstellen, auf deren Grundlage später die Stückliste und das Verkaufsprodukt erstellt werden.
-
 Um automatische Kompensationsgruppen zu erstellen, gehe wie folgt vor:
 
 ## Voraussetzungen
@@ -32,7 +30,6 @@ Möchtest Du eine Kompensationsgruppe rückgängig machen, lösche einfach die j
 
 ## Nächste Schritte
 - [Gib einen Rabatt oder Zuschlag auf die automatisch erstellte Kompensationsgruppe](Auftragszeilengruppenrabatt).
-- [Einsatz von automatischen Kompensationsgruppen bei der Stücklistenerstellung bei Umwandlung eines Angebots in einen Auftrag](Stueckliste_bei_Auftragsgenerierung).
 
 ## Beispiel
 ![](assets/Automatische_Gruppenrabatte.gif)

@@ -15,8 +15,6 @@ An automatically created compensation group comprises multiple order lines based
 
 This way, during [group discounting](Order_line_group_discount) order lines can be quickly combined into a group and then jointly discounted or surcharged.
 
-When [creating bills of materials from a quotation](Create_BOM_upon_SO_generation), automatic compensation groups help to create quotation groups that serve as the basis for the creation of the bill of materials and the sales product later on.
-
 In order to create automatic compensation groups, please proceed as follows:
 
 ## Requirements
@@ -32,7 +30,6 @@ If you want to undo a compensation group, simply delete the respective discount 
 
 ## Next Steps
 - [Give a discount or surcharge on the automatically created compensation group](Order_line_group_discount).
-- [Use automatic compensation groups for creating bills of materials after converting a quotation into a sales order](Create_BOM_upon_SO_generation).
 
 ## Example
 ![](assets/AutomaticGroupDiscounts.gif)
