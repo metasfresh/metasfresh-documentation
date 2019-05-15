@@ -16,5 +16,8 @@ ref: new_business_partner_group
 1. Benenne die Geschäftspartnergruppe im Feld **Name**.
 1. [metasfresh speichert automatisch](Speicheranzeige).
 
+## Nächste Schritte (optional)
+- [Weise der Geschäftspartnergruppe eine Preisliste zu](Zuweisung_Preise_Partnergruppe).
+
 ## Beispiel
 ![](assets/Neue_Geschäftspartnergruppe.gif)
