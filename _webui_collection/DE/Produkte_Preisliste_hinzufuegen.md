@@ -6,7 +6,7 @@ tags:
   - Preise
   - Preisdefinition
 lang: de
-sequence: 70
+sequence: 80
 ref: add_products_to_price-list
 ---
 
