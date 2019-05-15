@@ -56,6 +56,7 @@ A dynamic search box is a searchable drop-down list, which updates with each let
 | `Alt` + `P` | `⌥ alt` + `P` | Open Print Preview |
 | `Alt` + `U` | `⌥ alt` + `U` | Set document status to "Complete" |
 | `Alt` + `W` | `⌥ alt` + `W` | Clone document |
+| `Alt` + `Z` | `⌥ alt` + `Z` | *Only in sales orders:*<br> Open product proposal overlay window |
 
 ### Record Tab Context (in document)
 
