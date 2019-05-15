@@ -12,6 +12,8 @@ ref: create_bom_upon_so_generation
 ## Overview
 If you combine multiple products intended for the manufacturing of a new sales product into a compensation group in a quotation and then convert it into a sales order, metasfresh will automatically transform the quotation group into a verified bill of materials and immediately make the newly assembled sales product available for future orders without any extra work. In the process, the respective quantities of the quotation group components are added to the bill of materials in the exact same amount.
 
+![](assets/BOM creation upon SO generation from quotation.png)
+
 ## Requirements
 - [Set up the automatic BOM creation upon sales order generation](Create_BOM_upon_SO_generation_setup).
 
