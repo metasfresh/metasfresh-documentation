@@ -56,6 +56,7 @@ Dynamische Suchfelder sind durchsuchbare Dropdown-Listen, die sich mit jeder Ein
 | `Alt` + `P` | `⌥ alt` + `P` | Druckvorschau öffnen |
 | `Alt` + `U` | `⌥ alt` + `U` | Belegstatus auf "Fertiggestellt" setzen |
 | `Alt` + `W` | `⌥ alt` + `W` | Dokument klonen |
+| `Alt` + `Z` | `⌥ alt` + `Z` | *Nur in Aufträgen:*<br> Overlay-Fenster für Produktvorschläge öffnen |
 
 ### Kontext: Registerkarte (im Dokument)
 
