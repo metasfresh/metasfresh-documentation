@@ -1,4 +1,4 @@
-﻿---
+---
 title: Setup Authorization Token for accessing REST API 
 layout: default
 tags:
@@ -55,51 +55,30 @@ curl -X POST "http://localhost:8181/api/sales/order/candidates" -H "accept: */*"
 
 the JSON is:
 ```json
- 
 {
-    "dataSourceInternalName": "SOURCE.de.metas.ordercandidate.rest.OrderCandidatesRestControllerImpl",
-    "dataDestInternalName": "DEST.de.metas.ordercandidate",
-    "invoiceDocType": {
-        "docBaseType": "ARI"
-    },
-    "org": {
-        "code": "001",
-        "name": "M"
-    },
+  "org": {
+    "code": "test-org-03",
+    "name": "test-org-03-name"
+  },
+
+  "bpartner": {
     "bpartner": {
-        "bpartner": {
-            "code": "Customer01",
-            "name": "Demo Company GmbH"
-        },
-        "location": {
-            "externalId": "addr1",
-            "countryCode": "DE"
-        },
-        "contact": {
-            "name": "teo",
-            "externalId": "contact1"
-        },
-        "syncAdvise": {
-            "ifNotExists": "CREATE",
-            "ifExists": "UPDATE"
-        }
+      "code": "test-create-03",
+      "name": "test-create-03-name"
     },
-    "dateRequired": "2018-10-01",
-    "poReference": "external-po-ref",
-    "externalHeaderId": "1",
-    "externalLineId": "1",
-    "product": {
-        "code": "1002513",
-        "name": "additional test name",
-        "uomCode": "PCE",
-        "type": "ITEM",
-        "syncAdvise": {
-            "ifNotExists": "CREATE",
-            "ifExists": "UPDATE"
-        }
+    "location": {
+      "externalId":"addr1", "countryCode":"DE"
     },
-    "qty": 1,
-    "currencyCode": "EUR"
+    "contact": { "name":"teo", "externalId": "contact1" }
+  },
+
+  "dateRequired": "2018-10-01",
+  "productCode": "9002737",
+  "qty": 1,
+  "price": 321,
+  "discount": 13,
+  "poReference": "external-po-ref",
+  "externalId": "123456"
 }
 ```
 
@@ -139,14 +118,3 @@ source: (https://github.com/metasfresh/metasfresh/issues/4549#issuecomment-42018
 **Reason**: You tried to add an order line with qty = 0 which is not allowed
 
 **Solution**: Put qty > 0
-
-
-```
-Java nullpointer Exception
-```
-
-
-**Reason**: You tried to create another order candidate with the same external IDs
-
-**Solution**: Put unique values for externalHeaderId and externalLineId
-
