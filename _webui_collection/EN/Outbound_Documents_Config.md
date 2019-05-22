@@ -21,7 +21,7 @@ You can set up the outbound documents for a variety of tables so the documents t
 1. [metasfresh saves the progress automatically](Saveindicator).
 <br><br>
 
-| **Important Note:** |
+| **Important note:** |
 | :- |
 | For the configurations to take effect on the application server, it first has to be restarted by the admin. |
 

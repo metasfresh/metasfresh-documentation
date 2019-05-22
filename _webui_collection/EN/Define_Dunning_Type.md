@@ -21,7 +21,7 @@ The dunning type determines the moment when a [dunning run](Dunning_Run) starts 
 
 ### Add Dunning Levels
 
-| **Important!** |
+| **Important note!** |
 | :- |
 | For a dunning type to take effect, it requires at least **one level**! |
 

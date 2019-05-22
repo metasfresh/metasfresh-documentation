@@ -20,7 +20,7 @@ If you want to review and perhaps edit the content of a field, you do not need t
 1. The window opens in a new tab.
 <br><br>
 
-| **Important!** |
+| **Important note!** |
 | :- |
 | You might need to disable your pop-up blocker to make this feature work. |
 
