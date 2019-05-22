@@ -30,9 +30,9 @@ Mithilfe der [Filterfunktion](Filterfunktion) kannst Du dir schnell einen Überb
 
 | Option | Kontrollkästchen |
 | :--- | :---: |
-| Klicke ein Mal auf das Kontrollkästchen, um es zu aktivieren und nach erteilten/getätigten Aufträgen/Anrufen zu suchen. | ![](../en/assets/Checkbox_activated_tick.png) |
-| Klicke ein zweites Mal darauf, um nach ***nicht*** erteilten/getätigten Aufträgen/Anrufen zu suchen. | ![](../en/assets/Checkbox_activated_empty.png) |
-| Klicke auf `(clear)` rechts neben dem aktivierten Kontrollkästchen, um es wieder zu deaktivieren. | ![](../en/assets/Checkbox_clear_tick.png)<br><br> ![](../en/assets/Checkbox_clear.png) |
+| Klicke ein Mal auf das Kontrollkästchen, um es zu aktivieren und nach erteilten/getätigten Aufträgen/Anrufen zu suchen. | ![](assets/Checkbox_activated_tick.png) |
+| Klicke ein zweites Mal darauf, um nach ***nicht*** erteilten/getätigten Aufträgen/Anrufen zu suchen. | ![](assets/Checkbox_activated_empty.png) |
+| Klicke auf `(clear)` rechts neben dem aktivierten Kontrollkästchen, um es wieder zu deaktivieren. | ![](assets/Checkbox_clear_tick.png)<br><br> ![](assets/Checkbox_clear.png) |
 
 ## Beispiel
 ![](assets/Anrufplanung_Anrufe_filtern.gif)
