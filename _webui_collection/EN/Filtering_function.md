@@ -4,8 +4,9 @@ layout: default
 tags:
   - A Beginner's Guide to metasfresh
   - Usage
+  - Filtering
 lang: en
-sequence: 60
+sequence: 10
 ref: filtering_function
 ---
 
@@ -13,7 +14,7 @@ ref: filtering_function
 If you are searching for specific documents (such as business partners, sales orders, products, etc.) you can display them separately by using the filtering function.
 
 ## Steps
-1. Open the window in question in [list view](ViewModes), e.g., "[Sales Order](Menu)".
+1. Open the window of your choice in [list view](ViewModes), e.g., "[Sales Order](Menu)".
 1. Click ![](assets/Filter button.png) at the top left of the window and then click ![](assets/Filter button_Default.png).
 1. Enter the desired keywords and/or select the desired [attributes](Add_attributes_to_BP) by which you want to filter the table and click ![](assets/Apply button.png).
  >**Note:** Press `Alt` + `↵ Enter` / `⌥ alt` + `↵ Enter` to apply the filter criteria.

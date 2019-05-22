@@ -10,7 +10,7 @@ ref: add_address_tab
 ---
 
 ## Steps
-1. Open the entry of a [business partner](New_Business_Partner) in the [detailed view](ViewModes).
+1. Open the entry of an existing [business partner](Menu) in the [detailed view](ViewModes) or [add a new one](New_Business_Partner).
 1. Go to the record tab "Location" at the bottom of the page and click ![](assets/Add_New_Button.png). An overlay window opens up.
 1. Enter the **Name** of the location or a contact.
 1. To add an **Address**, click on the ![](assets/Edit_address_button.png) button.
