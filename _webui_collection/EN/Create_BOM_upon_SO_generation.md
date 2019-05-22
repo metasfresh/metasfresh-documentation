@@ -35,7 +35,7 @@ If you combine multiple products intended for the manufacturing of a new sales p
 1. Click "Start" to close the overlay window and create the sales order.
 
 ### View the new sales product and BOM
-1. Go to the record tab "Order Line" at the bottom of the page of the completed sales order and [zoom into](Zoom_into_table_field) the field in the column **Product** of the order line. The new product's window opens in a new tab.
+1. Go to the record tab "Order Line" at the bottom of the page of the completed sales order and [zoom into](Zoom_into_table_field) the field in the column **Product** of the order line. The new product's entry opens in a new tab.
 1. Use the product entry's [related documents to jump](JumptoviaSidebar) into "Bill of Materials & Formula" (under PRODUCT MANAGEMENT in the sidebar) and then open the associated bill of materials which has already been [found by the filter](Filtering_function).
 
 ## Example
