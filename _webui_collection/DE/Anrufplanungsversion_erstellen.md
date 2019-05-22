@@ -44,10 +44,10 @@ Du kannst folgende Parameter je nach Bedarf beliebig miteinander kombinieren:
 
 1. Wähle ebenfalls im Feld **Geschäftspartner** einen Kontakt aus, sofern dem Geschäftspartner mehr als einer zugeordnet wurde.
 1. Gib im Feld **Erreichbar von** die früheste Uhrzeit an, ab der der Partner zu erreichen ist.
- >**Hinweis:** Klicke hierzu in das Eingabefeld, dann auf die Zeitanzeige in dem kleinen Overlay und benutze anschließend die Pfeile ![](../en/assets/Time selection overlay.png), um die gewünschte Uhrzeit einzustellen, oder tippe sie manuell ein.
+ >**Hinweis:** Klicke hierzu in das Eingabefeld, dann auf die Zeitanzeige in dem kleinen Overlay und benutze anschließend die Pfeile ![](assets/Time selection overlay.png), um die gewünschte Uhrzeit einzustellen, oder tippe sie manuell ein.
 
 1. Gib im Feld **Erreichbar bis** die späteste Uhrzeit an, bis zu der der Partner zu erreichen ist.
- >**Hinweis:** Klicke hierzu in das Eingabefeld, dann auf die Zeitanzeige in dem kleinen Overlay und benutze anschließend die Pfeile ![](../en/assets/Time selection overlay.png), um die gewünschte Uhrzeit einzustellen, oder tippe sie manuell ein.
+ >**Hinweis:** Klicke hierzu in das Eingabefeld, dann auf die Zeitanzeige in dem kleinen Overlay und benutze anschließend die Pfeile ![](assets/Time selection overlay.png), um die gewünschte Uhrzeit einzustellen, oder tippe sie manuell ein.
 
 1. Klicke auf "Bestätigen", um das Overlay-Fenster zu schließen und den Geschäftspartner zur Liste hinzuzufügen.
  >**Hinweis:** Wiederhole die Schritte 1 bis 6, um weitere Geschäftspartner hinzuzufügen.
