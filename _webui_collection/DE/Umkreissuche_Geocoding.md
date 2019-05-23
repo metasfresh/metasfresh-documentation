@@ -11,14 +11,14 @@ ref: area_search_geocoding
 ---
 
 ## Übersicht
-In vielen Fenstern, in denen es Einträge gibt, die mit [Geschäftspartnern](Neuer_Geschaeftspartner) verknüpft sind (z.B. unter [Aufträge](Auftrag_erfassen), [Bestellungen](Bestellung_erfassen), [Geschäftspartner](Neuer_Geschaeftspartner), [Anrufliste](Anrufplanung_mittels_Anruflisten) usw.) kannst Du die Umkreissuche verwenden, um Dir nur die Einträge anzeigen zu lassen, die sich geografisch ähneln.
+In vielen Fenstern, in denen es Einträge gibt, die mit [Geschäftspartnern](Neuer_Geschaeftspartner) verknüpft sind (z.B. unter [Aufträge](Auftrag_erfassen), [Bestellungen](Bestellung_erfassen), [Geschäftspartner](Neuer_Geschaeftspartner), [Anrufliste](Anrufplanung_mittels_Anruflisten) usw.) kannst Du die Umkreissuche verwenden, um die Suchergebnisse auf einen bestimmten geografischen Bereich zu beschränken.
 
 ## Voraussetzungen
 - [Lege einen Geschäftspartnereintrag samt Adresse an](Adresse_erfassen_Tab).
 
 | Wichtig! |
 | :--- |
-| Damit die Umkreissuche einwandfrei funktioniert, muss die Adresse ***mindestens*** aus einer Postleitzahl (**PLZ**) und dem **Land** bestehen. |
+| Damit die Umkreissuche einwandfrei funktioniert, muss die Adresse ***mindestens*** aus einer Postleitzahl (**PLZ**), dem **Ort** und dem **Land** bestehen. |
 
 ## Schritte
 1. Öffne ein Fenster Deiner Wahl, in dem die Umkreissuche als Filter zur Verfügung steht, in der [Listenansicht](Ansichten), z.B. "[Geschäftspartner](Menu)".
