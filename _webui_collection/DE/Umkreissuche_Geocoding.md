@@ -26,3 +26,6 @@ In vielen Fenstern, in denen es Einträge gibt, die mit [Geschäftspartnern](Neu
 1. Trage je nach Bedarf **Straße und Nr.**, **PLZ**, **Ort** und/oder **Land** ein.
 1. Gib eine **Entfernung** ein und klicke auf ![](assets/Anwenden Button.png).
  >**Hinweis:** Drücke `Alt` + `↵ Enter` / `⌥ alt` + `↵ Enter`, um die Filterkriterien anzuwenden.
+
+## Beispiel
+![](assets/Umkreissuche_Geocoding.gif)
