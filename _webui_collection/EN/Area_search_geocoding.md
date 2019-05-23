@@ -26,3 +26,6 @@ In many windows that include entries associated with [business partners](New_Bus
 1. As required, enter **Street & House No.**, **ZIP**, **City** and/or **Country**.
 1. Enter a **Distance** and click ![](assets/Apply button.png).
  >**Note:** Press `Alt` + `↵ Enter` / `⌥ alt` + `↵ Enter` to apply the filter criteria.
+
+## Example
+![](assets/Area_search_geocoding.gif)
