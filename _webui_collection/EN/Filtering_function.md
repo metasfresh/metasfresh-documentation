@@ -19,7 +19,7 @@ If you are searching for specific entries in a window (such as [business partner
 1. Enter the desired keywords into the search fields and/or pick the desired [attributes](Add_attributes_to_BP) by which you want to filter the table and click ![](assets/Apply button.png).
  >**Note:** Press `Alt` + `↵ Enter` / `⌥ alt` + `↵ Enter` to apply the filter criteria.
 
-1. To empty the search fields, click ![](assets/Filter_by_X.png) and then click ![](assets/Clear_filter.png) in in the top right-hand corner of the filter mask.
+1. To empty the search fields, click ![](assets/Filter_by_X.png) and then click ![](assets/Clear_filter.png) in the top right-hand corner of the filter mask.
 
 ## Next Steps (optional)
 - [Use the area search to limit the filter results to a specific geographical area](Area_search_geocoding).
