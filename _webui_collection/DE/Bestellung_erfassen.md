@@ -25,6 +25,8 @@ ref: createpurchaseorder
  >**Hinweis:** Drücke `Alt` + `Q` / `⌥ alt` + `Q`.
 
 1. Gib in das Feld **Produkt** einen Teil des Namens oder der Nummer des [Produktes](NeuesProdukt) ein und klicke auf den passenden Treffer in der [Dropdown-Liste](Liste_Keyboard_Shortcuts).
+ >**Hinweis:** Verwende die [Liste der Produktvorschläge](Produktvorschlaege_Auftrag_Bestellung), um alle verfügbaren Produkte auf der aktuellen Preisliste zu sehen und ggf. eine Auswahl davon zur Bestellung hinzuzufügen.
+
 1. Gib eine **Menge** ein.
  >**Hinweis:** Wechsle in das Feld mit der Maus oder `Tab ↹`-Taste.
 

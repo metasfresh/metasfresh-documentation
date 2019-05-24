@@ -25,6 +25,8 @@ ref: salesorder_recording
  >**Note:** Use shortcut `Alt` + `Q` / `⌥ alt` + `Q`.
 
 1. In the field **Product**, enter a part of the [product](NewProduct) name or number and click on the matching result in the [drop-down list](Keyboard_shortcuts_reference).
+ >**Note:** Use the [product proposals list](Product_proposals_sales_purchase_order) to view all products available on the current price list and, if necessary, add a selection of them to the sales order.
+
 1. Enter a **Quantity**.
  >**Note:** Use the mouse or `Tab ↹` key to go to the field.
 
