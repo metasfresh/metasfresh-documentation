@@ -19,19 +19,19 @@ Um mithilfe der Liste der Produktvorschläge einen Auftrag oder eine Bestellung 
 
 ### Auftrag erfassen
 1. [Rufe die Liste der Produktvorschläge im Auftrag auf](Produktvorschlaege_aufrufen).
-1. Suche Dir aus den Produktvorschlägen das Produkt Deiner Wahl heraus und gib in das Feld in der Spalte **Menge** eine Produktmenge ein. Bestätige mit `↵ Enter`.
+1. Suche Dir aus den Produktvorschlägen das Produkt Deiner Wahl heraus und gib in das Feld in der Spalte **Menge** eine Produktmenge ein.<br> Bestätige mit `↵ Enter`.
  >**Hinweis:** Wiederhole diese Vorgehensweise für weitere Produkte, die Du zum Auftrag hinzufügen möchtest.
 
-1. ***Optional:*** Passe den Produktpreis an, indem Du doppelt auf das Feld in der Spalte **Preis** klickst und einen anderen Wert eingibst. Bestätige mit `↵ Enter`.
+1. ***Optional:*** Passe den Produktpreis an, indem Du doppelt auf das Feld in der Spalte **Preis** klickst und einen anderen Wert eingibst.<br> Bestätige mit `↵ Enter`.
 1. Klicke auf "Bestätigen", um die Liste der Produktvorschläge zu schließen und die ausgewählten Produkte mit der angegebenen Menge zur Auftragsposition hinzuzufügen.
 1. Fahre fort mit den restlichen Schritten der [Auftragserfassung](Auftrag_erfassen).
 
 ### Bestellung erfassen
 1. [Rufe die Liste der Produktvorschläge in der Bestellung auf](Produktvorschlaege_aufrufen).
-1. Suche Dir aus den Produktvorschlägen das Produkt Deiner Wahl heraus und gib in das Feld in der Spalte **Menge** eine Produktmenge ein. Bestätige mit `↵ Enter`.
+1. Suche Dir aus den Produktvorschlägen das Produkt Deiner Wahl heraus und gib in das Feld in der Spalte **Menge** eine Produktmenge ein.<br> Bestätige mit `↵ Enter`.
  >**Hinweis:** Wiederhole diese Vorgehensweise für weitere Produkte, die Du zur Bestellung hinzufügen möchtest.
 
-1. ***Optional:*** Passe den Produktpreis an, indem Du doppelt auf das Feld in der Spalte **Preis** klickst und einen anderen Wert eingibst. Bestätige mit `↵ Enter`.
+1. ***Optional:*** Passe den Produktpreis an, indem Du doppelt auf das Feld in der Spalte **Preis** klickst und einen anderen Wert eingibst.<br> Bestätige mit `↵ Enter`.
 1. Klicke auf "Bestätigen", um die Liste der Produktvorschläge zu schließen und die ausgewählten Produkte mit der angegebenen Menge zur Bestellposition hinzuzufügen.
 1. Fahre fort mit den restlichen Schritten der [Bestellerfassung](Bestellung_erfassen).
 

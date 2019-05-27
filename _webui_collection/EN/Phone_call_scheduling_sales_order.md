@@ -31,7 +31,7 @@ By means of the [filtering function](Phone_call_scheduling_filtering) you can qu
 
 1. Continue with **step 4** of these [instructions for creating a sales order](SalesOrder_recording).
 
-| Note: |
+| **Note:** |
 | :--- |
 | As soon as you start the action "Create Sales Order" from the phone call schedule, the checkboxes **IsCalled** and **Verarbeitet** (*Processed*) of the respective entry are ticked automatically. |
 
