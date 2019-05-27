@@ -18,7 +18,7 @@ You can open the product proposals list under [sales orders](SalesOrder_recordin
 ### Edit prices and update price list
 1. [Open the product proposals list](Product_proposals_open_list).
 1. From the product proposals, pick out the product whose price you want to edit.
-1. Double-click the field **Price** of the product line and enter a new value there. Hit `↵ Enter` to apply.
+1. Double-click the field **Price** of the product line and enter a new value there.<br> Hit `↵ Enter` to apply.
  >**Note:** Repeat the steps 2 to 3 for further products whose prices you want to change.
 
 1. [Select](RecordSelection) the lines of the products whose prices you have edited.

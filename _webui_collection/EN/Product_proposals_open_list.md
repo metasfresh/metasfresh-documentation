@@ -11,7 +11,7 @@ ref: product_proposals_open_list
 ---
 
 ## Overview
-The product proposals list serves to gain an overview of all products on a currently valid price list. Likewise it can be used to quickly and easily compare the prices at which a specific product from the price list is traded with other business partners. Moreover, it is possible to add new products to or remove deprecated ones from a price list, even during entering a sales order or purchase order.
+The product proposals list serves to gain an overview of all products on a currently valid price list. Likewise it can be used to quickly and easily compare the prices at which a specific product from the price list is traded with other business partners. Moreover, it is possible to add new products to or remove deprecated ones from a price list, even while entering a sales order or purchase order.
 
 You can open the product proposals list under [sales orders](SalesOrder_recording), [purchase orders](CreatePurchaseOrder) and [business partners](New_Business_Partner) in the menu. To do so, please proceed as follows:
 
@@ -19,12 +19,12 @@ You can open the product proposals list under [sales orders](SalesOrder_recordin
 
 ### In sales orders
 1. Follow these [instructions for creating a sales order](SalesOrder_recording) up to the **order line input**.
-1. Go to the record tab "Order Line" at the bottom of the page and click ![](assets/Product_Proposals_Button.png) to open the product proposals list.
+1. Go to the record tab "Order Line" at the bottom of the page and click ![](assets/Product_Proposals_button.png) to open the product proposals list.
  >**Note:** Use shortcut `Alt` + `Z` / `⌥ alt` + `Z`.
 
 ### In purchase orders
 1. Follow these [instructions for creating a purchase order](CreatePurchaseOrder) up to the **order line input**.
-1. Go to the record tab "PO Line" at the bottom of the page and click ![](assets/Product_Proposals_Button.png) to open the product proposals list.
+1. Go to the record tab "PO Line" at the bottom of the page and click ![](assets/Product_Proposals_button.png) to open the product proposals list.
  >**Note:** Use shortcut `Alt` + `Z` / `⌥ alt` + `Z`.
 
 ### In business partner entries

@@ -31,7 +31,7 @@ Mithilfe der [Filterfunktion](Anrufplanung_Anrufe_filtern) kannst Du dir schnell
 
 1. Fahre fort mit dieser [Anleitung zur Auftragserfassung](Auftrag_erfassen) ab **Schritt 4**.
 
-| Hinweis: |
+| **Hinweis:** |
 | :--- |
 | Sobald die Aktion "Auftrag erstellen" aus der Anrufliste gestartet wird, erhalten die Kontrollkästchen **Anruf getätigt** und **Auftrag erteilt** des jeweiligen Eintrags automatisch ein Häkchen. |
 

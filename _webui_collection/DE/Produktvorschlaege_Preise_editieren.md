@@ -18,7 +18,7 @@ Die Liste der Produktvorschläge kannst Du unter [Aufträge](Auftrag_erfassen), 
 ### Preise editieren und Preisliste aktualisieren
 1. [Rufe die Liste der Produktvorschläge auf](Produktvorschlaege_aufrufen).
 1. Suche Dir aus den Produktvorschlägen das Produkt heraus, dessen Preis Du bearbeiten möchtest.
-1. Klicke doppelt auf das Feld **Preis** der Produktzeile und gib dort einen neuen Wert ein. Bestätige mit `↵ Enter`.
+1. Klicke doppelt auf das Feld **Preis** der Produktzeile und gib dort einen neuen Wert ein.<br> Bestätige mit `↵ Enter`.
  >**Hinweis:** Wiederhole die Schritte 2 bis 3 für weitere Produkte, deren Preise Du ändern möchtest.
 
 1. [Selektiere](AuswahlBelege) die Zeilen der Produkte, deren Preise Du bearbeitet hast.

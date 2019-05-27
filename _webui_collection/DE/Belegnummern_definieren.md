@@ -10,7 +10,7 @@ ref: define_new_doc_sequence
 ---
 
 ## Übersicht
-In metasfresh kannst Du eigene Laufnummern für Belege definieren, die Du anschließend dann auch anderen Einträgen, wie z.B. [Produktkategorien](NeueProduktkategorie), zuordnen kannst, damit diese automatisch mit den individuellen Einstellungen fortlaufend nummeriert werden.
+In metasfresh kannst Du eigene Laufnummern für Belege definieren, die Du anschließend auch anderen Einträgen, wie z.B. [Produktkategorien](NeueProduktkategorie), zuordnen kannst, damit diese automatisch mit den individuellen Einstellungen fortlaufend nummeriert werden.
 
 ## Schritte
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Belegnummern".
