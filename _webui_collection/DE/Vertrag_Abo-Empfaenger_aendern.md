@@ -23,7 +23,7 @@ ref: contract_change_recipient
 
 | **Hinweis:** |
 | :- |
-| Die **Lieferadresse** kannst Du unter der Registerkarte "Abo Verlauf" unten auf der Seite des jeweiligen Vertrags einsehen. |
+| Die **Lieferadresse** kannst Du unter der Registerkarte "Abo Verlauf" unten auf der Seite des jeweiligen Vertrages einsehen. |
 
 ## Beispiel
 ![](assets/Vertrag_Abo-Empfaenger_aendern.gif)

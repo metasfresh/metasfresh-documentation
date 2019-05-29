@@ -4,8 +4,9 @@ layout: default
 tags:
   - Workflow
   - Vertragsverwaltung
+  - Einrichtung
 lang: de
-sequence: 100
+sequence: 20
 ref: define_contract_period
 ---
 

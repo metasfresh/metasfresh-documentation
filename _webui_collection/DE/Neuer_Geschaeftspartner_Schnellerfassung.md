@@ -28,7 +28,7 @@ Falls Dir bei der Erfassung eines [Auftrags](Auftrag_erfassen) oder einer [Beste
  >**Hinweis:** Wenn Du "Vereinigte Staaten von Amerika" als **Land** auswählst, kannst Du auch die **Region** eingeben. Klicke dazu einfach zweimal auf den Edit-Button, um das kleine Adressbearbeitungsfenster zu schließen und wieder zu öffnen. Das Feld erscheint dann oberhalb von **Land**.
 
 1. ***Optional:*** Setze je nach Art der Geschäftsbeziehung ein Häkchen bei **Kunde** und/oder **Lieferant**. Wähle anschließend eine **Zahlungsbedingung** und ein **(Einkaufs)Preissystem** aus.
-1. Klicke auf "Bestätigen", um den neuen Geschäftspartner zu speichern, das Overlay-Fenster zu schließen und mit der Erfassung des Auftrags bzw. der Bestellung fortzufahren.
+1. Klicke auf "Bestätigen", um den neuen Geschäftspartner zu speichern, das Overlay-Fenster zu schließen und mit der Erfassung des [Auftrags](Auftrag_erfassen) bzw. der [Bestellung](Bestellung_erfassen) fortzufahren.
 <br><br>
 
 | **Hinweis:** |

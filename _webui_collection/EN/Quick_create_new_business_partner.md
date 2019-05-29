@@ -28,7 +28,7 @@ If in the course of creating a [sales order](SalesOrder_recording) or a [purchas
  >**Note:** If you choose "United States" as country, you can also enter the **Region**. Simply close and re-open the address editing window by clicking the edit button twice and the field will appear above **Country**.
 
 1. ***Optional:*** Depending on the type of business relationship, tick the checkbox **Customer** and/or **Vendor**. Then pick a **(PO) Payment Term** and a **(Purchase) Pricing System**.
-1. Click "Done" to save the new business partner, close the overlay window and continue editing your sales order or purchase order.
+1. Click "Done" to save the new business partner, close the overlay window and continue editing your [sales order](SalesOrder_recording) or [purchase order](CreatePurchaseOrder).
 <br><br>
 
 | **Note:** |

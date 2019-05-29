@@ -4,8 +4,9 @@ layout: default
 tags:
   - Workflow
   - Contract Management
+  - Setup
 lang: en
-sequence: 100
+sequence: 20
 ref: define_contract_period
 ---
 
