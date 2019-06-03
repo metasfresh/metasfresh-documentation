@@ -30,5 +30,5 @@ Mithilfe der Importfunktion kannst Du extern gespeicherte Daten (wie z.B. Excel-
  >**Hinweis:** Beachte dabei, dass das Trennzeichen aus der Importdatei mit dem aus dem Importformat übereinstimmt (Komma, Tabulatorzeichen, Semikolon usw.).
 
  - [Folge dieser Anleitung](GPartnerdaten_importieren), um externe Daten zu **Geschäftspartnern** in metasfresh zu importieren.
- - [Folge dieser Anleitung](GPartnerdaten_importieren), um externe Daten zu **Nachbestellungen** in metasfresh zu importieren.
+ - [Folge dieser Anleitung](Nachbestelldaten_importieren), um externe Daten zu **Nachbestellungen** in metasfresh zu importieren.
  - [Folge dieser Anleitung](Produktdaten_importieren), um externe Daten zu **Produkten** in metasfresh zu importieren.
