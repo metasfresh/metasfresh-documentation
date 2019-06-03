@@ -5,7 +5,7 @@ tags:
   - Datenverwaltung
   - Datenimport
 lang: de
-sequence: 30
+sequence: 40
 ref: import_file_useful_tips
 ---
 
@@ -14,6 +14,7 @@ Damit Du extern gespeicherte Daten in metasfresh importieren kannst, musst Du si
 
 Hier sind ein paar Formatbeispiele für den Import von:
 - [Geschäftspartnerdaten](Importformat_Beispiel_GPartner)
+- [Nachbestelldaten](Importformat_Beispiel_Nachbestellung)
 - [Produktdaten](Importformat_Beispiel_Produkt)
 
 ## Nützliche Hinweise
@@ -28,6 +29,7 @@ Bitte achte bei der Erstellung einer Importdatei auf Folgendes:
 
 ## Nächste Schritte
 - [Geschäftspartnerdaten importieren](GPartnerdaten_importieren).
+- [Nachbestelldaten importieren](Nachbestelldaten_importieren).
 - [Produktdaten importieren](Produktdaten_importieren).
 
 ## Beispiel: Excel-Tabelle (Produktdaten)

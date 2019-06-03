@@ -12,6 +12,11 @@ ref: add_import_format
 ## Überblick
 Mithilfe des Importformats kannst Du festlegen, welche Daten bzw. Spalten aus der Importdatei übernommen werden sollen, wie diese Spalten benannt und voneinander getrennt sind (Trennzeichen) und in welche Datenbanktabellen die Importdaten übertragen werden sollen.
 
+Folgende Daten können in metasfresh importiert werden:
+- [Geschäftspartnerdaten](GPartnerdaten_importieren)
+- [Nachbestelldaten](Nachbestelldaten_importieren)
+- [Produktdaten](Produktdaten_importieren)
+
 ## Schritte
 
 ### Importformat anlegen
@@ -25,7 +30,7 @@ Mithilfe des Importformats kannst Du festlegen, welche Daten bzw. Spalten aus de
 ### a) Formatfelder hinzufügen
 1. Gehe zur Registerkarte "Format-Feld" unten auf der Seite und klicke auf ![](assets/Neu_hinzufuegen_Button.png). Es öffnet sich ein Overlay-Fenster.
 1. Benenne das Formatfeld im Feld **Name**, z.B. "Suchschlüssel".
-1. Wähle eine **Spalte** aus, in die der Inhalt der Importdatei übertragen werden soll, z.B. *Value_Suchschlüssel*.
+1. Wähle eine **Spalte** aus, in die der Inhalt der Importdatei später übertragen werden soll, z.B. *Value_Suchschlüssel*.
 1. Wähle einen **Datentyp** aus, z.B. *Zeichenfolge* oder *Zahl*, je nach Art der Importdaten.
 1. Vergib eine **Start-Nr.**
  >**Hinweis:** Die **Startnummer** bestimmt die Position, an der in der Importdatei eine Spalte von metasfresh beim Import erwartet wird, und hat nichts mit der **Reihenfolge**, in der die Formatfelder zum Importformat hinzugefügt wurden, zu tun. Es ist daher nicht nötig, dass die Felder in einer festen und aufsteigenden Reihenfolge sind, solange die Startnummern mit den Spaltenpositionen in der Importdatei übereinstimmen.
@@ -45,6 +50,7 @@ Möchtest Du ein neues Importformat anlegen mit den gleichen Formatfeldern wie e
 
 ## Nächste Schritte
 - [Geschäftspartnerdaten importieren](GPartnerdaten_importieren).
+- [Nachbestelldaten importieren](Nachbestelldaten_importieren).
 - [Produktdaten importieren](Produktdaten_importieren).
 
 ## Beispiel

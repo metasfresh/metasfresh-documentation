@@ -5,7 +5,7 @@ tags:
   - Data Management
   - Data Import
 lang: en
-sequence: 30
+sequence: 40
 ref: import_file_useful_tips
 ---
 
@@ -15,6 +15,7 @@ In order to import externally stored data into metasfresh, you first have to for
 Here are some format examples for the import of:
 - [Business partner data](Import_format_example_bpartner)
 - [Product data](Import_format_example_product)
+- [Replenishment data](Import_replenishment_data)
 
 ## Useful Tips
 When creating an import file, please keep in mind the following:
@@ -29,6 +30,7 @@ When creating an import file, please keep in mind the following:
 ## Next Steps
 - [Import business partner data](Import_bpartner_data).
 - [Import product data](Import_product_data).
+- [Import replenishment data](Import_replenishment_data).
 
 ## Example: Excel Spreadsheet (Product Data)
 ![](assets/Excel_table_product_data.png)

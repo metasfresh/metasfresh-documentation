@@ -12,6 +12,11 @@ ref: add_import_format
 ## Overview
 By means of the import format, you can specify which data, or rather columns, from the import file are to be transferred, how these columns are named and delimited (separators), and into which database tables the import data are to be taken over.
 
+In metasfresh, the following data can be imported:
+- [Business partner data](Import_bpartner_data)
+- [Product data](Import_product_data)
+- [Replenishment data](Import_replenishment_data)
+
 ## Steps
 
 ### Add Import Format
@@ -25,7 +30,7 @@ By means of the import format, you can specify which data, or rather columns, fr
 ### a) Add Format Fields
 1. Go to the record tab "Format Field" at the bottom of the page and click ![](assets/Add_New_Button.png). An overlay window opens up.
 1. Give the format field a **Name**, e.g., "Search Key".
-1. Select a **Column** where the content of the import file is to be transferred, e.g., *Value_Suchschlüssel*.
+1. Pick a **Column** where the content of the import file is to be transferred later on, e.g., *Value_Suchschlüssel*.
 1. Select a **Data Type**, e.g., *String* or *Number*, depending on the import data type.
 1. Enter a **Start No**.
  >**Note:** The **start number** determines the position where a column is expected by metasfresh in the import file during import. It has nothing to do with the order (**SeqNo**) in which the format fields were added to the import format. It is therefore not necessary that the fields are placed in a fixed and ascending order, as long as the start numbers coincide with the column positions in the import file.
@@ -46,6 +51,7 @@ If you want to add a new import format with the same format fields as an existin
 ## Next Steps
 - [Import business partner data](Import_bpartner_data).
 - [Import product data](Import_product_data).
+- [Import replenishment data](Import_replenishment_data).
 
 ## Example
 ![](assets/Add_import_format.gif)
