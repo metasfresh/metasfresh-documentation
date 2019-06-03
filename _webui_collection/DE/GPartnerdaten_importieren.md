@@ -16,15 +16,12 @@ Stelle sicher, dass alle Voraussetzungen für den [Datenimport in metasfresh](Da
 
 ## Schritte
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Daten Import".
-1. [Lege einen neuen Datenimporteintrag für Geschäftspartnerdaten an](Neuer_Datensatz_Fenster_Webui).
- >**Hinweis:** Nach der Erstellung kannst Du diesen Datenimporteintrag zukünftig jederzeit für weitere entsprechende Datenimporte wiederverwenden.
-
-1. Wähle das [**Importformat**](Importformat_anlegen) aus, welches Du zuvor für den Geschäftspartnerdatenimport angelegt hast.
+1. Öffne einen geeigneten Datenimporteintrag oder [lege einen neuen an](Datenimporteintrag_anlegen).
 
 ### Importdatei hochladen und importieren
 1. [Lade Deine Importdatei mit den Geschäftspartnerdaten hoch](Dateihandling).
 1. [Starte die Aktion](AktionStarten) "Import attachment". Es öffnet sich ein Overlay-Fenster.
-1. Wähle im Feld **Attachment entry** die hochgeladene [Importdatei](Importdatei_nuetzliche_Hinweise) aus.
+1. Wähle im Feld **Anhang** die hochgeladene [Importdatei](Importdatei_nuetzliche_Hinweise) aus.
 1. Klicke auf "Start", um die Geschäftspartnerdaten zu importieren und das Overlay-Fenster zu schließen.
 
 ### Geschäftspartnerdaten überprüfen
