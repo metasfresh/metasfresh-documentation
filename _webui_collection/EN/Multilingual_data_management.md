@@ -12,7 +12,7 @@ ref: multilingual_data_management
 ## Overview
 In metasfresh, you can autonomously translate a lot of your data into the languages of your business partners, for both *internal* and *external* data management.
 
-You can translate the data entries of the following menu items:
+Currently, you can translate the data entries of the following menu items:
 - [Bill of Material](Create_BOM)
 - Document Type
 - [Dunning Level](Define_Dunning_Type)\*

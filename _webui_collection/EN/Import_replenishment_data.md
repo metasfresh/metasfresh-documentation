@@ -4,7 +4,7 @@ layout: default
 tags:
   - Data Management
   - Data Import
-  - Business Partner Data Import
+  - Replenishment Data Import
 lang: en
 sequence: 20
 ref: import_replenishment_data
