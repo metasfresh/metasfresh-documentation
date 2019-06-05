@@ -35,7 +35,7 @@ ref: dunning_run
 1. [Springe über die verknüpften Belege](SpringezuBelegen) direkt in das Fenster "Mahnungen" (unter FINANZEN) und öffne dort das bereits [herausgefilterte](Filterfunktion) Mahndokument.
  >**Hinweis:** Unter dem Menüpunkt "[Mahnungen](Menu)" findest Du alle erstellten Mahnunterlagen wieder.
 
-1. [Öffne die PDF-Vorschau](PDFVorschau) des Mahnbriefs, um ihn auszudrucken.
+1. [Öffne die PDF-Vorschau](PDFVorschau) des Mahnbriefs.
 <br><br>
 
 | **Hinweis:** |

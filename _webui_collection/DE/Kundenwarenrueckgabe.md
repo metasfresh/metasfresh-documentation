@@ -34,7 +34,7 @@ ref: customer_returns
 1. Klicke auf die Benachrichtigung, um den Kundenrücklieferungsbeleg zu öffnen.
  >**Hinweis:** Öffne alternativ den Eintrag des Auftrags, für den Du eine Kundenrücklieferung erhalten hast, [springe zur](SpringezuBelegen) "Kundenrücklieferung" und öffne den entsprechenden Eintrag der Kundenwarenrückgabe.
 
-1. [Öffne die PDF-Vorschau](PDFVorschau) des Belegs, um ihn auszudrucken.
+1. [Öffne die PDF-Vorschau](PDFVorschau) des Belegs.
 
 ## Beispiel
 ![](assets/Kundenwarenrueckgabe.gif)
