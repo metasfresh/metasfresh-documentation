@@ -14,7 +14,7 @@ metasfresh ermöglicht es Dir, Produkte nicht nur ohne Weiteres mit ihrer Gesamt
 
 So kann Fertigsalat in Tüten zu 10 Stück in einer Kiste verpackt sein, von der wiederum 20 Stück auf einer Palette stehen.
 
-Dieses System, Produkte (sog. Konsumenteneinheiten, engl.: *Consumer Units = CU*) mitsamt ihren Gebinden bzw. Verpackungen (engl.: *Transport Units = TU*) sowie deren Ladehilfsmitteln (engl.: *Loading Units = LU*) abzubilden, nennen wir **Handling Unit-System**.
+Dieses System, Produkte (sog. Konsumenteneinheiten, engl.: *Consumer Units* = CU) mitsamt ihren Gebinden bzw. Verpackungen (engl.: *Transport Units* = TU) sowie deren Ladehilfsmitteln (engl.: *Loading Units* = LU) abzubilden, nennen wir **Handling Unit-System**.
 
 Demzufolge bezeichnen wir das Gefüge aus einer CU in einer TU in/auf einer LU also als **Handling Unit (HU)**.
 

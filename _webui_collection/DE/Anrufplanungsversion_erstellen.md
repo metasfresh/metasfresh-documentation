@@ -5,7 +5,7 @@ tags:
   - Workflow
   - Verkauf
   - CRM
-  - Anruflisten und –planung
+  - Anruflisten und -planung
   - Einrichtung
 lang: de
 sequence: 20
