@@ -32,7 +32,7 @@ ref: salesorder_recording
 
 1. Drücke `↵ Enter`, um die Zeile hinzuzufügen.
  >**Hinweis 1:** Wiederhole die Schritte 2 bis 4 so oft, bis Du alle Auftragszeilen erfasst hast.<br><br>
- >**Hinweis 2:** Zeigt der **No Price Conditions Indicator** am Ende einer Auftragszeile einen <span style="color:red">roten</span> Punkt, musst Du ein [Preiskonditionsschema anlegen](Preiskonditionen_in_metasfresh) und dieses dann [mit dem Kunden verknüpfen](Rabattschema_mit_GP_verknuepfen).
+ >**Hinweis 2:** Zeigt der **No Price Conditions Indicator** am Ende einer Auftragszeile einen **<span style="color:red">roten</span>** Punkt, musst Du ein [Preiskonditionsschema anlegen](Preiskonditionen_in_metasfresh) und dieses dann [mit dem Kunden verknüpfen](Rabattschema_mit_GP_verknuepfen).
 
 ### Auftrag fertigstellen
 1. [Stelle den Beleg fertig](BelegverarbeitungFertigstellen).

@@ -5,7 +5,7 @@ tags:
   - Workflow
   - Verkauf
   - CRM
-  - Anruflisten und –planung
+  - Anruflisten und -planung
 lang: de
 sequence: 20
 ref: create_automatic_phone_call_schedules

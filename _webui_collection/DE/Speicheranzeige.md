@@ -16,9 +16,9 @@ An der Farbe des Fortschrittsbalkens unterhalb der Menüleiste erkennst Du den j
 
 | Farbanzeige | Aussage |
 | :--- | :--- |
-| <span style="color:grey">grau</span> | Änderungen werden gespeichert... |
-| <span style="color:green">grün</span> | Speichervorgang erfolgreich. |
-| <span style="color:red">rot</span> | Speichervorgang ist aufgrund eines Fehlers fehlgeschlagen. |
+| **<span style="color:grey">grau</span>** | Änderungen werden gespeichert... |
+| **<span style="color:green">grün</span>** | Speichervorgang erfolgreich. |
+| **<span style="color:red">rot</span>** | Speichervorgang ist aufgrund eines Fehlers fehlgeschlagen. |
 
 ## Beispiel
 ![Speicheranzeige](assets/Saveindicator_DE.gif)
