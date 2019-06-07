@@ -10,9 +10,9 @@ ref: short-term_availability_in_sales_order
 ---
 
 ## Übersicht
-Bei der [Erfassung von Auftragspositionen](Auftrag_erfassen) behält metasfresh nicht nur den zusicherbaren Bestand im Auge (engl.: *available-to-promise* = ATP), welcher sich aus dem aktuell verfügbaren Bestand sowie zukünftigen [Warenein-](Zu_Bestellung_Wareneingang_erstellen) und [-ausgängen](Zu_Auftrag_Lieferschein_erstellen) zusammensetzt (siehe [Materialdisposition](Menu)), sondern auch den _kurzfristig verfügbaren Bestand_, welcher alle bisher erfassten Auftragspositionen aus offenen und fertiggestellten Aufträgen innerhalb einer festgelegten Zeitspanne mitberücksichtigt. Diese Eigenschaft ist von besonderer Bedeutung, wenn mehrere Aufträge für verschiedene Kunden mit demselben Produkt zur gleichen Zeit bzw. in kurzen Zeitabständen erfasst werden, wodurch es zu eventuellen Komplikationen bei der Bereitstellung von Waren käme – würde metasfresh dies nicht überprüfen.
+Bei der [Erfassung von Auftragspositionen](Auftrag_erfassen) behält metasfresh nicht nur den zusicherbaren Bestand im Auge (engl.: *available-to-promise* = ATP), welcher sich aus dem aktuell verfügbaren Bestand sowie zukünftigen [Warenein-](Zu_Bestellung_Wareneingang_erstellen) und [-ausgängen](Zu_Auftrag_Lieferschein_erstellen) zusammensetzt (siehe [Materialdisposition](Menu)), sondern auch den _kurzfristig verfügbaren Bestand_, welcher alle bisher erfassten Auftragspositionen aus offenen und fertiggestellten Aufträgen innerhalb einer festgelegten Zeitspanne mitberücksichtigt. Diese Eigenschaft ist von besonderer Bedeutung, wenn mehrere Aufträge für verschiedene Kunden mit demselben Produkt zur gleichen Zeit bzw. in kurzen Zeitabständen erfasst werden, wodurch es zu eventuellen Komplikationen bei der Bereitstellung von Waren kommen könnte – würde metasfresh dies nicht überprüfen.
 
-Die kurzfristige Verfügbarkeit eines Produktes kannst Du während der Auftragserfassung in den jeweiligen Auftragszeilen einsehen. Ist ein Produkt ***nicht*** kurzfristig verfügbar, wird Dir in der Spalte **Nicht kurzfr. verfügbar** ein **<span style="color:red">roter</span>** Punkt angezeigt, anderenfalls bleibt die Spalte leer. Die kurzfristig verfügbare Menge eines Produktes auf Lager siehst Du in der Spalte **kurzfr. verfügbar**.
+Die kurzfristige Verfügbarkeit eines Produktes kannst Du während der Auftragserfassung in den jeweiligen Auftragszeilen einsehen. Ist ein Produkt ***nicht*** kurzfristig verfügbar, wird Dir in der Spalte **Nicht kurzfr. verfügbar** ein **<span style="color:#ff3200">roter</span>** Punkt angezeigt, anderenfalls bleibt die Spalte leer. Die kurzfristig verfügbare Menge eines Produktes auf Lager siehst Du in der Spalte **kurzfr. verfügbar**.
 
 ![](assets/Kurzfristige_Verfuegbarkeit_in_Auftrag.png)
 
@@ -21,7 +21,7 @@ Wird ein Auftrag mit Produkten, die als kurzfristig nicht verfügbar erkannt wur
 ## Für den Systemadministrator
 Als Systemadministrator kannst Du unter dem Menüpunkt „Einstellungen zur verfügbaren Menge für den Verkauf“ die Parameter konfigurieren, mit denen metasfresh die kurzfristige Verfügbarkeit überprüft, sowie unterschiedliche Einstellungen für verschiedene Organisationseinheiten treffen. Es können u.a. die folgenden Parameter gesetzt werden:
 
-| Parameter | Beschreibung |
+| Parameter / Feld | Beschreibung |
 | :--- | :--- |
 | Rückschauintervall zu Auftragspositionen in Bearbeitung | Intervall in Stunden bis zum aktuellen Zeitpunkt, innerhalb dessen andere noch nicht fertiggestellte Auftragspositionen berücksichtigt werden sollen. Sollte abhängig von der üblichen Auftragsbearbeitungsdauer gesetzt werden. |
 | Vorausschauintervall zu geplanten Lieferungen | Intervall in Stunden ab Bereitstellungsdatum des aktuellen Auftrags, innerhalb dessen geplante Lieferungen berücksichtigt werden sollen. Sollte abhängig vom üblichen Zulieferungsintervall gesetzt werden. |
@@ -39,7 +39,7 @@ Um die kurzfristige Verfügbarkeitsprüfung zu konfigurieren, gehe wie folgt vor
 1. Trage den **Vorausschauintervall zu geplanten Lieferungen (Std)** ein.
 1. Wähle eine **Farbe für kurzfristiges Verfügbarkeitsproblem** aus.
 1. ***Optional:*** Trage eine **Beschreibung** in das dafür vorgesehene Textfeld ein.
-1. **a)** Setze ein Häkchen bei **Asynchrone Abfrage**, wenn Du möchtest, dass die Verfügbarkeitsabfrage im Hintergrund erfolgen soll. Es erscheint ein neues Feld **Maximale Wartezeit auf asynchrone Antwort (ms)**.<br><br> **b)** Gib eine **Maximale Wartezeit auf asynchrone Antwort (ms)** ein.
+1. 1) Setze ein Häkchen bei **Asynchrone Abfrage**, wenn Du möchtest, dass die Verfügbarkeitsabfrage im Hintergrund erfolgen soll. Es erscheint ein neues Feld **Maximale Wartezeit auf asynchrone Antwort (ms)**.<br><br> 2) Gib eine **Maximale Wartezeit auf asynchrone Antwort (ms)** ein.
 
 1. Wähle die **Sektion** aus, für die diese Einstellungen gelten sollen.
 1. [metasfresh speichert automatisch](Speicheranzeige).
