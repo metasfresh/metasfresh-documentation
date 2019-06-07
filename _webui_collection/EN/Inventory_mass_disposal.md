@@ -14,7 +14,9 @@ Some products from your inventory are intended for internal use and are therefor
 ## Steps
 1. Open "Handling Unit Editor" from the [menu](Menu).
 1. From the list, [select](RecordSelection) one or more [handling units](Handling_Unit_System) you want to post as internal use.
-1. [Start the action](StartAction) "Mass Disposal". An overlay window opens up.
+1. [Start the quick action](StartAction) "Mass Disposal". An overlay window opens up.
+ >**Note:** You will also find this action in the actions menu.
+
 1. In the field **Activity**, enter a part of the cost center and click on the matching result in the [drop-down list](Keyboard_shortcuts_reference), e.g., *Management*.
 1. ***Optional:*** Enter a **Description** into the text field provided.
 1. Click "Start" to close the overlay window and post the selected HUs as internal use.
