@@ -29,7 +29,7 @@ Du benötigst ein [laufendes metasfresh System auf Docker-Basis](Wie_installiere
 ```bash
 cd metasfresh-docker
 docker-compose stop
-tar cvzf ../backup.tar.gz ./<mydocker fir>/* --BACKUP
+tar cvzf ../backup.tar.gz ./<mydocker dir>/* --BACKUP
 docker-compose rm
 git pull
 vi ./docker-compose.yml
