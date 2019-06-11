@@ -2,8 +2,8 @@
 title: Wie richte ich die ausgehenden Belege ein?
 layout: default
 tags:
-  - Dokumentenverwaltung
-  - Belege bearbeiten
+  - E-Mails und ausgehende Belege
+  - Einrichtung
 lang: de
 sequence: 10
 ref: outbound_documents_config
@@ -24,6 +24,10 @@ Du kannst die ausgehenden Belege für eine Vielzahl von Tabellen einrichten, dam
 | **Wichtiger Hinweis:** |
 | :- |
 | Damit die Einstellungen auf dem Anwendungsserver aktiv werden, muss dieser erst vom Admin neugestartet werden. |
+
+## Nächste Schritte (optional)
+- [Richte die ausgehenden Belege für](Ausgehende_Belege_Konfig_Mahnung) [das Mahnverfahren ein](Mahnlauf).
+- [Richte die ausgehenden Belege für](Ausgehende_Belege_Konfig_Serienbriefe) [die Serienbrief-Funktion ein](Serienbriefe_erstellen).
 
 ## Beispiel
 ![](assets/Ausgehende_Belege_Konfig+Mahnung.gif)

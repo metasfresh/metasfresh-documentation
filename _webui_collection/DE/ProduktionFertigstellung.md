@@ -39,12 +39,12 @@ Dies ist die einfachste Möglichkeit in metasfresh zu produzieren. Hierbei wird 
 
 1. ***Optional:*** Wähle eine **Packvorschrift TU** aus.
 1. ***Optional:*** Wähle eine **Packvorschrift LU** aus.
-1. Trage im Feld **Menge CU** die empfangene Menge des Produkts ein.
-1. Trage im Feld **Menge TU** die Anzahl der Transporteinheiten ein.
+1. Trage in das Feld **Menge CU** die empfangene Menge des Produkts ein.
+1. Trage in das Feld **Menge TU** die Anzahl der Transporteinheiten ein.
  >**Hinweis 1:** Das Feld **Menge TU** erscheint nur, wenn auch eine **Packvorschrift TU** ausgewählt wurde.<br><br>
  >**Hinweis 2:** Die Menge TU muss ***mindestens 1*** betragen.
 
-1. Trage im Feld **Menge LU** die Anzahl der Ladehilfsmittel ein.
+1. Trage in das Feld **Menge LU** die Anzahl der Ladehilfsmittel ein.
  >**Hinweis 1:** Das Feld **Menge LU** erscheint nur, wenn auch eine **Packvorschrift LU** ausgewählt wurde.<br><br>
  >**Hinweis 2:** Das Feld **Packvorschrift LU** erscheint nur, wenn auch eine **Packvorschrift TU** ausgewählt wurde.<br><br>
  >**Hinweis 3:** Die Menge LU muss ***mindestens 1*** betragen.

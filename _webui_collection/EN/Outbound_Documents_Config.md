@@ -2,8 +2,8 @@
 title: How do I configure the outbound documents?
 layout: default
 tags:
-  - Document Management
-  - Edit Documents
+  - Emails and Outbound Documents
+  - Setup
 lang: en
 sequence: 10
 ref: outbound_documents_config
@@ -24,6 +24,10 @@ You can set up the outbound documents for a variety of tables so the documents t
 | **Important note:** |
 | :- |
 | For the configurations to take effect on the application server, it first has to be restarted by the admin. |
+
+## Next Steps (optional)
+- [Set up outbound documents for](Outbound_Documents_Config_Dunning) [dunning](Dunning_Run).
+- [Set up outbound documents for the](Outbound_documents_config_serial_letters) [serial letter feature](Create_serial_letters).
 
 ## Example
 ![](assets/Outbound_documents_config+dunning.gif)

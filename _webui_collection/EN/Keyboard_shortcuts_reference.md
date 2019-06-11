@@ -51,7 +51,7 @@ A dynamic search box is a searchable drop-down list, which updates with each let
 | `Alt` + `D` | `⌥ alt` + `D` | Delete document |
 | `Alt` + `E` | `⌥ alt` + `E` | Open Advanced Edit Menu |
 | `Alt` + `I` | `⌥ alt` + `I` | Toggle Document Processing Actions (action button for document status) |
-| `Alt` + `K` | `⌥ alt` + `K` | Open E-mail Editor |
+| `Alt` + `K` | `⌥ alt` + `K` | Open Email Editor |
 | `Alt` + `N` | `⌥ alt` + `N` | Create New Document |
 | `Alt` + `P` | `⌥ alt` + `P` | Open Print Preview |
 | `Alt` + `U` | `⌥ alt` + `U` | Set document status to "Complete" |

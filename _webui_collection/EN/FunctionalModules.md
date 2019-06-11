@@ -14,7 +14,7 @@ metasfresh is a full-featured ERP software that comes with the following modules
 
 | Module | Entities |
 | :--- | :--- |
-| Customer Relationship Management (CRM) | Prospect, Requests (Lead, [Opportunity Management](CRM_Request_Opportunities)), Sales Pipeline, Outbound E-mail |
+| Customer Relationship Management (CRM) | Prospect, Requests (Lead, [Opportunity Management](CRM_Request_Opportunities)), Sales Pipeline, Outbound Email |
 | [Sales](Workflow_SalesOrder_to_Invoice) | [Quotation](Create_SalesQuotation), [Sales Order](SalesOrder_recording) |
 | [Purchasing](Workflow_PurchaseOrder_to_Invoice) | Procurement Management, [Purchase Order](CreatePurchaseOrder), [Material Receipt](CreateGoodsReceipt) |
 | Manufacturing | MRP II, [Manufacturing Order](NewManufacturingOrder), Manufacturing Completion, [Bill of Material](Create_BOM) |

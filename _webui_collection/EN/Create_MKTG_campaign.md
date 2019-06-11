@@ -11,14 +11,14 @@ ref: create_mktg_campaign
 ## Overview
 A marketing campaign makes it extremely easy for you to provide a great number of your contacts with information of interest to them in just one go.
 
-In metasfresh, there are two types of marketing campaigns: *e-mail campaigns* and *serial letter campaigns*.
+In metasfresh, there are two types of marketing campaigns: *email campaigns* and *serial letter campaigns*.
 
-In the *e-mail campaigns*, newsletters are sent out to the selected contacts via e-mail. In the *serial letter campaigns*, [serial letters](Create_serial_letters) are created and labelled automatically with the respective contacts' default address stored in metasfresh, where they can then be sent by post.
+In the *email campaigns*, newsletters are sent out to the selected contacts via email. In the *serial letter campaigns*, [serial letters](Create_serial_letters) are created and labelled automatically with the respective contacts' default address stored in metasfresh, where they can then be sent by post.
 
 ## Requirements
 The following components are required for a marketing campaign:
 - A [marketing platform](Create_MKTG_platform) determining the address type of the marketing contacts.
-- A [boiler plate](Create_boiler_plate) with a text template for the e-mails or serial letters.
+- A [boiler plate](Create_boiler_plate) with a text template for the emails or serial letters.
 
 ## Steps
 1. Open "Marketing Campaign" from the [menu](Menu).
