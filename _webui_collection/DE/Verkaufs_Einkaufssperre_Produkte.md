@@ -21,7 +21,7 @@ Für diesen Fall kannst Du ganz einfach partnerbezogene Ausschlusslisten mit den
 1. Öffne den Eintrag eines bestehenden [Geschäftspartners](Menu) bzw. [lege einen neuen an](Neuer_Geschaeftspartner).
 1. Gehe zur Registerkarte "Produkt" unten auf der Seite und klicke auf ![](assets/Neu_hinzufuegen_Button.png). Es öffnet sich ein Overlay-Fenster.
 1. Gib das [**Produkt**](NeuesProdukt) ein, das Du für den Verkauf/Einkauf sperren möchtest, und wähle es aus den Treffern der [Dropdown-Liste](Liste_Keyboard_Shortcuts) aus.
-1. Trage im Textfeld **Produkt Sperre Grund** einen Grund ein, weshalb das Produkt für den Geschäftspartner gesperrt ist.
+1. Trage in das Textfeld **Produkt Sperre Grund** einen Grund ein, weshalb das Produkt für den Geschäftspartner gesperrt ist.
  >**Hinweis:** Dieser Grund erscheint dann in einer Fehlermeldung an den Nutzer, wenn dieser das gesperrte Produkt in einem Auftrag oder einer Bestellung hinzufügen möchte.
 
 1. Setze ein Häkchen bei **Produkt Sperre Verkauf**.
@@ -45,7 +45,7 @@ Für diesen Fall kannst Du ganz einfach partnerbezogene Ausschlusslisten mit den
 1. Scrolle runter bis zum Kontrollkästchen **Exclusion from sales documents** und setze hier ein Häkchen. Es erscheint ein neues Textfeld **Sperre Verkauf Grund**.
  >**Hinweis:** Diese Einstellung betrifft ***Aufträge und Bestellungen gleichermaßen***, je nachdem ob es sich bei dem Geschäftspartner um einen [Kunden](Neuer_Geschaeftspartner_Kunde) oder einen [Lieferanten](Neuer_Geschaeftspartner_Lieferant) handelt.
 
-1. Trage im Textfeld **Sperre Verkauf Grund** einen Grund ein, weshalb das Produkt für den Geschäftspartner gesperrt ist.
+1. Trage in das Textfeld **Sperre Verkauf Grund** einen Grund ein, weshalb das Produkt für den Geschäftspartner gesperrt ist.
  >**Hinweis:** Dieser Grund erscheint dann in einer Fehlermeldung an den Nutzer, wenn dieser das gesperrte Produkt in einem Auftrag oder einer Bestellung hinzufügen möchte.
 
 1. Klicke auf "Bestätigen", um das Overlay-Fenster zu schließen und die Verkaufs-/Einkaufssperre zur Liste hinzuzufügen.

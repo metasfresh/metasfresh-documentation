@@ -1,12 +1,10 @@
 ---
-title: Wie sende ich eine E-Mail aus metasfresh?
+title: Wie versende ich eine E-Mail aus metasfresh?
 layout: default
 tags:
-  - Anfängertips für metasfresh
-  - Benutzung
-  - Aktionen
+  - E-Mails und ausgehende Belege
 lang: de
-sequence: 50
+sequence: 10
 ref: send_email_from_system
 ---
 

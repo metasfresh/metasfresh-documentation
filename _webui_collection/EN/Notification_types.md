@@ -16,9 +16,9 @@ metasfresh offers the following types of notification:
 | Notification Type | Meaning |
 | :--- | :--- |
 | Notify supervisor<br> ("*Betreuer benachrichtigen*") | A notification will be sent to the supervisor. |
-| E-mail | A notification will be sent to the user via e-mail only. |
+| Email | A notification will be sent to the user via email only. |
 | Notice | A notification will be sent to the user's notifications inbox ![](assets/NotificationBell_WebUI.png) only. |
-| E-mail + Notice | Notifications will be sent both via e-mail as well as to the users notifications inbox ![](assets/NotificationBell_WebUI.png). |
+| Email + Notice | Notifications will be sent both via email as well as to the users notifications inbox ![](assets/NotificationBell_WebUI.png). |
 | None | No notifications will be sent. |
 
 ## Steps

@@ -42,17 +42,17 @@ ref: dunning_run
 | :- |
 | You will also find the PDFs of the created dunning documents under "[Outbound Documents](Menu)" in the menu. Go there and open the respective dunning document (*[use the filter](Filtering_function) to quickly find it*). Under the record tab "Log" at the bottom of the page, select the line "PDF export" and [start the action](StartAction) "Open PDF". |
 
-### Send Dunning Letter via E-Mail
+### Send Dunning Letter via Email
 1. Open "Outbound Documents" from the [menu](Menu).
-1. [Use the filter](Filtering_function) to find the dunning letter you want to send via e-mail.
-1. Check that the **E-Mail Recipient** and the **E-Mail** are entered correctly in the respective fields.
-1. [Start the action](StartAction) "Auswahl als Email an Geschäftspartner senden" (*Send selection via e-mail to business partner*). An overlay window opens up.
-1. Click "Start" to e-mail the dunning letters and close the overlay window.
+1. [Use the filter](Filtering_function) to find the dunning letter you want to send via email.
+1. Check that the **Email Recipient** and the **Email** are entered correctly in the respective fields.
+1. [Start the action](StartAction) "Auswahl als Email an Geschäftspartner senden" (*Send selection via email to business partner*). An overlay window opens up.
+1. Click "Start" to email the dunning letters and close the overlay window.
 <br><br>
 
 | **Note:** |
 | :- |
-| Under "[Outbound Documents](Menu)" in the menu, you may also e-mail several dunning letters to various dunning candidates at once. To do so, from the [list view](ViewModes), [select](RecordSelection) the respective entries and continue with **steps 4 and 5** as described above. If you want to resend dunning letters, simply uncheck the box **Nur bisher nicht gemailte** (*Only e-mail previously unsent docs*) in the overlay window before clicking "Start". |
+| Under "[Outbound Documents](Menu)" in the menu, you may also email several dunning letters to various dunning candidates at once. To do so, from the [list view](ViewModes), [select](RecordSelection) the respective entries and continue with **steps 4 and 5** as described above. If you want to resend dunning letters, simply uncheck the box **Nur bisher nicht gemailte** (*Only email previously unsent docs*) in the overlay window before clicking "Start". |
 
 ## Next Steps (optional)
 - [Attach invoice documents to the dunning letter](Dunning_letter_with_attached_invoice).
