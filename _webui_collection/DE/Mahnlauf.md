@@ -52,7 +52,7 @@ ref: dunning_run
 
 | **Hinweis:** |
 | :- |
-| In dem Fenster "Ausgehende Belege" kannst Du auch mehrere Mahnbriefe an verschiedene Mahnkandidaten auf einmal per E-Mail versenden. [Selektiere](AuswahlBelege) hierzu in der [Listenansicht](Ansichten) die betreffenden Einträge und folge den **Schritten 4 und 5** wie oben beschrieben. Möchtest Du bereits versandte Mahnbriefe erneut e-mailen, dann entferne einfach, bevor Du auf "Start" klickst, im Overlay-Fenster das Häkchen bei **Nur bisher nicht gemailte**. |
+| In dem Fenster "Ausgehende Belege" kannst Du auch mehrere Mahnbriefe an verschiedene Mahnkandidaten auf einmal per E-Mail versenden. [Selektiere](AuswahlBelege) hierzu in der [Listenansicht](Ansichten) die betreffenden Einträge und folge den **Schritten 4 und 5** wie oben beschrieben. Möchtest Du bereits versendete Mahnbriefe erneut e-mailen, dann entferne einfach, bevor Du auf "Start" klickst, im Overlay-Fenster das Häkchen bei **Nur bisher nicht gemailte**. |
 
 ## Nächste Schritte (optional)
 - [Füge dem Mahnbrief Rechnungsbelege bei](Mahnbrief_mit_Rechnung).

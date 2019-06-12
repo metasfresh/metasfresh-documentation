@@ -25,7 +25,7 @@ Für diesen Fall kannst Du ganz einfach partnerbezogene Ausschlusslisten mit den
  >**Hinweis:** Dieser Grund erscheint dann in einer Fehlermeldung an den Nutzer, wenn dieser das gesperrte Produkt in einem Auftrag oder einer Bestellung hinzufügen möchte.
 
 1. Setze ein Häkchen bei **Produkt Sperre Verkauf**.
- >**Hinweis:** Diese Einstellung betrifft ***Aufträge und Bestellungen gleichermaßen***, je nachdem ob es sich bei dem Geschäftspartner um einen [Kunden](Neuer_Geschaeftspartner_Kunde) oder einen [Lieferanten](Neuer_Geschaeftspartner_Lieferant) handelt.
+ >**Hinweis:** Diese Einstellung betrifft ***Aufträge und Bestellungen gleichermaßen***, je nachdem, ob es sich bei dem Geschäftspartner um einen [Kunden](Neuer_Geschaeftspartner_Kunde) oder einen [Lieferanten](Neuer_Geschaeftspartner_Lieferant) handelt.
 
 1. Klicke auf "Bestätigen", um das Overlay-Fenster zu schließen und das gesperrte Produkt zur Liste hinzuzufügen.
  >**Hinweis:** Wiederhole die Schritte 2 bis 6, um weitere Verkaufs-/Einkaufssperren für weitere Produkte zur Liste hinzuzufügen.
@@ -43,7 +43,7 @@ Für diesen Fall kannst Du ganz einfach partnerbezogene Ausschlusslisten mit den
  >**Hinweis 2:** Drücke die [`LEERTASTE`](Liste_Keyboard_Shortcuts), um eine Auswahl verfügbarer [Geschäftspartner](Neuer_Geschaeftspartner) zu sehen.
 
 1. Scrolle runter bis zum Kontrollkästchen **Exclusion from sales documents** und setze hier ein Häkchen. Es erscheint ein neues Textfeld **Sperre Verkauf Grund**.
- >**Hinweis:** Diese Einstellung betrifft ***Aufträge und Bestellungen gleichermaßen***, je nachdem ob es sich bei dem Geschäftspartner um einen [Kunden](Neuer_Geschaeftspartner_Kunde) oder einen [Lieferanten](Neuer_Geschaeftspartner_Lieferant) handelt.
+ >**Hinweis:** Diese Einstellung betrifft ***Aufträge und Bestellungen gleichermaßen***, je nachdem, ob es sich bei dem Geschäftspartner um einen [Kunden](Neuer_Geschaeftspartner_Kunde) oder einen [Lieferanten](Neuer_Geschaeftspartner_Lieferant) handelt.
 
 1. Trage in das Textfeld **Sperre Verkauf Grund** einen Grund ein, weshalb das Produkt für den Geschäftspartner gesperrt ist.
  >**Hinweis:** Dieser Grund erscheint dann in einer Fehlermeldung an den Nutzer, wenn dieser das gesperrte Produkt in einem Auftrag oder einer Bestellung hinzufügen möchte.

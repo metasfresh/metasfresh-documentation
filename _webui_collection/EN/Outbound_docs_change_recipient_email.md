@@ -28,3 +28,6 @@ In order to be able to [send documents via email from "Outbound Documents"](Send
 
 ## Next Steps
 - [Send the email to the new recipient from "Outbound Documents"](Send_email_from_outbound_docs).
+
+## Example
+![](assets/Outbound_docs_change_recipient_email.gif)

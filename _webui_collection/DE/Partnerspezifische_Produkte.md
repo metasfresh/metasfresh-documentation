@@ -25,7 +25,7 @@ Weitere Informationen darüber, wie Du eigenen Text in Belege einfügen kannst, 
  >**Hinweis 1:** Geschäftspartner können [Kunden](Neuer_Geschaeftspartner_Kunde) und [Lieferanten](Neuer_Geschaeftspartner_Lieferant) sein.<br><br>
  >**Hinweis 2:** Drücke die [`LEERTASTE`](Liste_Keyboard_Shortcuts), um eine Auswahl verfügbarer [Geschäftspartner](Neuer_Geschaeftspartner) zu sehen.
 
-1. Setze ein Häkchen bei **Verwendet für Lieferant** oder **Verwendet für Kunden**, je nachdem für welche Geschäftsbeziehung die neue Bezeichnung verwendet werden soll.
+1. Setze ein Häkchen bei **Verwendet für Lieferant** oder **Verwendet für Kunden**, je nachdem, für welche Geschäftsbeziehung die neue Bezeichnung verwendet werden soll.
 1. Gib den partnerspezifischen **Produktnamen** ein.
 1. Gib die partnerspezifische **Produktnummer** ein.
 1. Klicke auf "Bestätigen", um das Overlay-Fenster zu schließen und die partnerspezifischen Daten zur Liste hinzuzufügen.
