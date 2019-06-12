@@ -27,7 +27,10 @@ Um mehrere versandfertige Belege per E-Mail zu versenden, gehe wie folgt vor:
 
 1. Klicke auf "Start", um die Belege zu versenden und das Overlay-Fenster zu schließen.
 1. Sobald die Belege erfolgreich versendet wurden, werden die jeweiligen Felder in der Spalte **Zuletzt gemailt** mit dem tatsächlichen Versandzeitpunkt aktualisiert. Dies kann ein paar Sekunden dauern.
-1. Bei erfolgreichem Versand eines Belegs, findest Du in dem jeweiligen Eintrag unter "Ausgehende Belege" unter der Registerkarte "Verlauf" ebenfalls eine Zeile mit dem **Log Status** *Mitteilung versendet*.
+1. Bei erfolgreichem Versand eines Beleges, findest Du in dem jeweiligen Eintrag unter "Ausgehende Belege" unter der Registerkarte "Verlauf" ebenfalls eine Zeile mit dem **Log Status** *Mitteilung versendet*.
 
 ## Nächste Schritte (optional)
 - [Ändere den E-Mail-Empfänger von ausgehenden Belegen manuell unter "Ausgehende Belege"](Ausgehende_Belege_Empfaenger_aendern).
+
+## Beispiel
+![](assets/Email_senden_ausgehende_Belege.gif)

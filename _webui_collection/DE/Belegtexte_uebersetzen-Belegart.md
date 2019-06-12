@@ -28,8 +28,8 @@ Hast Du die Belegart, für die Du eine fremdsprachige Textversion anlegen möcht
 
 ### Fremdsprachige Textversionen anlegen
 1. Öffne den Eintrag der Sprache, in der Du einen Text verfassen möchtest, z.B. "English (US)".
-1. Gib in das Textfeld **Notiz / Zeilentext** die fremdsprachige Textversion ein, die am Ende des Belegs erscheinen soll.
-1. Gib in das Textfeld **Beschreibung** die fremdsprachige Textversion ein, die am Anfang des Belegs erscheinen soll.
+1. Gib in das Textfeld **Notiz / Zeilentext** die fremdsprachige Textversion ein, die am Ende des Beleges erscheinen soll.
+1. Gib in das Textfeld **Beschreibung** die fremdsprachige Textversion ein, die am Anfang des Beleges erscheinen soll.
 1. [metasfresh speichert automatisch](Speicheranzeige).
 
 ## Beispiel

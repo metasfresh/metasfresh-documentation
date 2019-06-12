@@ -32,7 +32,7 @@ Klicke [hier](Ersteinrichtung), wenn Du die Textstellen mithilfe des Ersteinrich
 ## Belegart
 
 #### Text am Beleganfang und -ende hinzufügen
-Klicke [hier](Text_auf_Belege_drucken-Belegart), wenn Du am Anfang und Ende des Belegs Texte einfügen möchtest.
+Klicke [hier](Text_auf_Belege_drucken-Belegart), wenn Du am Anfang und Ende des Beleges Texte einfügen möchtest.
 
 ---
 

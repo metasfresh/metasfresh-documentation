@@ -22,8 +22,8 @@ Weitere Informationen darüber, wie Du eigenen Text in Belege einfügen kannst, 
 1. Öffne die "[Erweiterte Erfassung](Ansichten)" aus dem [Aktionsmenü](AktionStarten).
  >**Hinweis:** Drücke `Alt` + `E` / `⌥ alt` + `E`.
 
-1. Scrolle runter bis zum Textfeld **Beschreibung** und gib hier einen Text ein, der am Anfang des Belegs erscheinen soll.
-1. Gib in das Textfeld **Schlusstext** einen Text ein, der am Ende des Belegs erscheinen soll.
+1. Scrolle runter bis zum Textfeld **Beschreibung** und gib hier einen Text ein, der am Anfang des Beleges erscheinen soll.
+1. Gib in das Textfeld **Schlusstext** einen Text ein, der am Ende des Beleges erscheinen soll.
 1. Klicke auf "Bestätigen", um die Änderungen zu übernehmen und die "Erweiterte Erfassung" zu schließen.
 1. [Öffne die PDF-Vorschau](PDFVorschau).
 

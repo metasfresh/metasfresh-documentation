@@ -28,3 +28,6 @@ Damit Du [Belege per E-Mail aus "Ausgehende Belege" versenden](Email_senden_ausg
 
 ## Nächste Schritte
 - [Versende die E-Mail an den neuen Empfänger aus "Ausgehende Belege"](Email_senden_ausgehende_Belege).
+
+## Beispiel
+![](assets/Ausgehende_Belege_Empfaenger_aendern.gif)
