@@ -24,5 +24,8 @@ Some products from your inventory are intended for internal use and are therefor
 1. Click on the notification to open the internal use entry.
 1. [Open the PDF print preview](PrintPreview) of the inventory document.
 
+## Next Steps (optional)
+- [Reverse the internal use posting](Inventory_mass_disposal_void).
+
 ## Example
 ![](assets/Inventory_mass_disposal.gif)

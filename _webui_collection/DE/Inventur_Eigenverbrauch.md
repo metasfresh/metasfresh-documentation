@@ -24,5 +24,8 @@ Manche Produkte, die Du im Lagerbestand führst, sind für den Eigenverbrauch be
 1. Klicke auf die Benachrichtigung, um den Eigenverbrauchseintrag zu öffnen.
 1. [Öffne die PDF-Vorschau](PDFVorschau) des Inventurbelegs.
 
+## Nächste Schritte (optional)
+- [Mache den verbuchten Eigenverbrauch rückgängig](Inventur_Eigenverbrauch_stornieren).
+
 ## Beispiel
 ![](assets/Inventur_Eigenverbrauch.gif)
