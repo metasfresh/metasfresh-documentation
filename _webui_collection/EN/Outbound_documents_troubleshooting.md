@@ -10,7 +10,7 @@ ref: outbound_documents_troubleshooting
 ---
 
 ## Overview
-For every process that is launched in metasfresh, a work package is created under "Workpackage Queue" in the menu where you can review information such as processing status, log status or error messages. This means that failed processes have work packages as well and can be resolved in the work package queue.
+For every process that is launched in metasfresh, a work package is created under "Workpackage Queue" in the menu where you can review information such as processing status, log status or error messages. This means that failed processes have work packages too and can be resolved in the work package queue.
 
 In case the email transmission of a document fails, e.g., due to incorrect email account access data or an inaccessible email server, the work package cannot be fully processed and an error message is logged.
 
