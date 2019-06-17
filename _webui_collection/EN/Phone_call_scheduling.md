@@ -12,7 +12,7 @@ ref: phone_call_scheduling
 ---
 
 ## Overview
-In metasfresh you can automatically create individual phone call schedules that are based on phone call schemas comprising various versions of partner-specific call times when they can be reached. This enables you to schedule phone calls far in advance while staying up to date and keeping track of pending calls, call times and contacts at all times.
+In metasfresh, you can automatically create individual phone call schedules that are based on phone call schemas comprising various versions of partner-specific call times when they can be reached. This enables you to schedule phone calls far in advance while staying up to date and keeping track of pending calls, call times and contacts at all times.
 
 Moreover, while working off your phone call schedule, you can keep it tidy simply by checking off each call you finished. And if a call results in a customer order, you can also note this down and jump directly from the entry into [sales order recording](SalesOrder_recording).
 

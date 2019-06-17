@@ -10,7 +10,7 @@ ref: setup_email_server_routing
 ---
 
 ## Overview
-In metasfresh you can use email server routing to specify the [contact/user](Add_user_to_BPartner) whose email address shall be added automatically to a specific document upon its creation in order to make sending emails from "Outbound Documents" even easier and more efficient.
+In metasfresh, you can use email server routing to specify the [contact/user](Add_user_to_BPartner) whose email address shall be added automatically to a specific document upon its creation in order to make sending emails from "Outbound Documents" even easier and more efficient.
 
 ## Steps
 1. Open "Outbound Email Server (SMTP)" from the [menu](Menu).

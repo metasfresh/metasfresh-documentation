@@ -13,7 +13,7 @@ ref: assign_prices_to_partner_group
 ## Overview
 ![](assets/price system_assign prices to partner.png)
 
-In metasfresh there are *sales price lists* and *purchase price lists*. The sales price lists can be assigned to [customers](Assign_prices_to_partner) and the purchase price lists to [vendors](Assign_prices_to_partner). These two types of price lists can also be assigned to [partner groups](New_Business_Partner_Group).
+In metasfresh, there are *sales price lists* and *purchase price lists*. The sales price lists can be assigned to [customers](Assign_prices_to_partner) and the purchase price lists to [vendors](Assign_prices_to_partner). These two types of price lists can also be assigned to [partner groups](New_Business_Partner_Group).
 
 ## Steps
 
