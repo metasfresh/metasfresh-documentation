@@ -1,5 +1,5 @@
 ---
-title: Wie behebe ich einen fehlgeschlagenen Versand eines Beleges ohne E-Mail-Adresse?
+title: Wie behebe ich einen fehlgeschlagenen E-Mail-Versand eines ausgehenden Beleges?
 layout: default
 tags:
   - E-Mails und ausgehende Belege
@@ -10,11 +10,13 @@ ref: outbound_documents_troubleshooting
 ---
 
 ## Übersicht
-Hast Du versehentlich einen Beleg ohne Empfänger per E-Mail versendet, dann kann der Vorgang verständlicherweise nicht abgeschlossen werden. Der Log-Status des Beleges bleibt unverändert und es wird gegebenenfalls ein Arbeitspaket (engl.: *work package*) unter „Asynchrone Verarbeitungswarteschlage“ angelegt, in dem man u.a. die Fehlermeldung einsehen kann.
+In metasfresh wird für jeden Prozess, der gestartet wird, ein Arbeitspaket (engl.: *work package*) unter „Asynchrone Verarbeitungswarteschlage“ angelegt, in dem Informationen wie Verarbeitungsstatus, Statusprotokoll oder Fehlermeldungen eingesehen werden können. Auch fehlgeschlagene Prozesse verfügen somit über Arbeitspakete und können in der asynchronen Verarbeitungswarteschlage behoben werden.
 
-Wenn Du nun nachträglich eine E-Mail-Adresse ergänzt und den Beleg erneut versuchst zu versenden, kann es unter Umständen sein, dass der Versand trotz allem nicht stattfindet. Das liegt daran, dass bereits ein Arbeitspaket für diesen Vorgang existiert, welches allerdings als „fehlgeschlagen“ gekennzeichnet ist, und kein zweites erstellt wird, um unnötigen Datenmüll zu vermeiden.
+Schlägt die Übermittlung eines per E-Mail versendeten Beleges fehl, z.B. weil die Zugangsdaten des E-Mail-Kontos nicht stimmen oder der E-Mail-Server nicht erreichbar ist, dann kann das Arbeitspaket nicht verarbeitet werden und es wird mit einer Fehlermeldung versehen.
 
-Um den Beleg dennoch nach Korrektur der E-Mail-Adresse versenden zu können, muss erst die Fehlermeldung aus dem Arbeitspaket entfernt werden, damit es für einen neuen Versandversuch zur Verfügung steht. Gehe hierzu wie folgt vor:
+Wenn Du nun nach Beseitigung der Fehlerursachen den Beleg erneut versuchst zu versenden, kann es unter Umständen sein, dass der Versand trotz allem nicht stattfindet. Das liegt daran, dass bereits ein Arbeitspaket für diesen Vorgang existiert, welches allerdings als „fehlgeschlagen“ gekennzeichnet ist und kein zweites Mal erstellt wird, um zu verhindern, dass der Beleg doppelt an den Empfänger übermittelt wird.
+
+Um den Beleg dennoch versenden zu können, muss zuerst die Fehlermeldung aus dem Arbeitspaket entfernt werden, damit es für einen neuen Versandversuch zur Verfügung steht. Gehe hierzu wie folgt vor:
 
 ## Schritte
 
@@ -26,6 +28,7 @@ Um den Beleg dennoch nach Korrektur der E-Mail-Adresse versenden zu können, mus
 1. Öffne den Eintrag des Arbeitspaketes.
 1. Entferne das Häkchen bei **Fehler**.
 
-### E-Mail-Adresse ergänzen und Beleg erneut versenden
-1. [Ergänze die fehlende E-Mail-Adresse](Ausgehende_Belege_Empfaenger_aendern).
+## Nächste Schritte (optional)
+1. [Überprüfe die Zugangsdaten des E-Mail-Servers auf Richtigkeit](Ausgehende_Belege_Mail_Server_einrichten).
+1. [Ergänze fehlende E-Mail-Adressen in den ausgehenden Belegen](Ausgehende_Belege_Empfaenger_aendern).
 1. [Versende den Beleg erneut aus "Ausgehende Belege"](Email_senden_ausgehende_Belege).

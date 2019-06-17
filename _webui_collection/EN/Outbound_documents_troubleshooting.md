@@ -1,5 +1,5 @@
 ---
-title: How do I troubleshoot a failed transmission of a document without an email address?
+title: How do I troubleshoot a failed email transmission of an outbound document?
 layout: default
 tags:
   - Emails and Outbound Documents
@@ -10,11 +10,13 @@ ref: outbound_documents_troubleshooting
 ---
 
 ## Overview
-If you accidentally emailed a document without an assigned recipient, it is understandable that the process cannot be completed. The log status of the document remains unchanged and, as the case may be, a work package is created under "Workpackage Queue" in the menu where you can review error messages and more.
+For every process that is launched in metasfresh, a work package is created under "Workpackage Queue" in the menu where you can review information such as processing status, log status or error messages. This means that failed processes have work packages as well and can be resolved in the work package queue.
 
-After adding an email address and trying to resend the document, it may happen that the transmission still does not take place. This is due to an existing work package for this (albeit "failed") process which is not created a second time in order to prevent generating unnecessary data garbage.
+In case the email transmission of a document fails, e.g., due to incorrect email account access data or an inaccessible email server, the work package cannot be fully processed and an error message is logged.
 
-To resend the document anyway after correcting the email address, you first have to clear the work package from the error so it becomes available for a new transmission attempt. To do so, please proceed as follows:
+After removing the cause of the error and trying to resend the document, it may happen that the transmission still does not take place. This is due to an existing work package for this (albeit failed) process which is not created a second time in order to prevent the document from being sent to the recipient twice.
+
+To resend the document anyway, you first have to remove the error from the work package to make it available for a new transmission attempt. To do so, please proceed as follows:
 
 ## Steps
 
@@ -26,6 +28,7 @@ To resend the document anyway after correcting the email address, you first have
 1. Open the work package's entry.
 1. Uncheck the box **Fehler** (= error).
 
-### Add email address and resend document
-1. [Add the missing email address](Outbound_docs_change_recipient_email).
+## Next Steps (optional)
+1. [Verify the access data of the email server](Outbound_documents_setup_email_server).
+1. [Add missing email addresses to outbound documents](Outbound_docs_change_recipient_email).
 1. [Resend the document from "Outbound Documents"](Send_email_from_outbound_docs).

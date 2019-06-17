@@ -12,7 +12,7 @@ ref: startaction
 
 ## Overview
 Actions are contextual and can be started from every window. Each window therefore provides other actions.<br>
-In metasfresh there are three different types of actions:
+In metasfresh, there are three different types of actions:
 
 ## General Actions (Actions Menu)
 You will find these actions in the actions menu.

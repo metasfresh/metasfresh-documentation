@@ -11,7 +11,7 @@ ref: salesorder_sysconfig_promised_date
 ---
 
 ## Overview
-In metasfresh the date promised of a sales order by default coincides with the order date. Should the dates diverge, they can be changed accordingly by hand. If, however, the date promised generally lies a minimum number of days after the order date, a system administrator can go ahead and adjust the default settings accordingly. To do so, please proceed as follows:
+In metasfresh, the date promised of a sales order by default coincides with the order date. Should the dates diverge, they can be changed accordingly by hand. If, however, the date promised generally lies a minimum number of days after the order date, a system administrator can go ahead and adjust the default settings accordingly. To do so, please proceed as follows:
 
 ## Steps
 1. [Log in to metasfresh](Login) with the [user role](NewUserRole) "System Administrator".
