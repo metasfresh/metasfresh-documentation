@@ -1,5 +1,5 @@
 ---
-title: Wie stelle ich ein, dass der zugesagte Termin in einem Auftrag automatisch auf eine bestimmte Anzahl Tage nach dem Auftragsdatum gelegt wird?
+title: Wie lege ich den zugesagten Termin in einem Auftrag automatisch auf eine bestimmte Anzahl Tage nach dem Auftragsdatum?
 layout: default
 tags:
   - Workflow
