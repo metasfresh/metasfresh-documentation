@@ -11,7 +11,7 @@ ref: import_bpartner_data
 ---
 
 ## Requirements
-Make sure to comply with all requirements for the [data import in metasfresh](Data_import_metasfresh). [Here you can find a format example](Import_format_example_bpartner) for importing business partner data.
+Make sure to comply with all requirements for the [data import in metasfresh](Data_import_metasfresh). [Here you can find a format example for importing business partner data](Import_format_example_bpartner).
  >**Note:** For importing business partner data, you require an import format that is configured with the **database table** *Import Business Partner*.
 
 ## Steps

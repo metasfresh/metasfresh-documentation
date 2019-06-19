@@ -12,7 +12,7 @@ ref: add_import_format
 ## Overview
 By means of the import format, you can specify which data, or rather columns, from the import file are to be transferred, how these columns are named and delimited (separators), and into which database tables the import data are to be taken over.
 
-In metasfresh, the following data can be imported:
+The following data can be imported to metasfresh:
 - [Business partner data](Import_bpartner_data)
 - [Product data](Import_product_data)
 - [Replenishment data](Import_replenishment_data)
@@ -23,7 +23,7 @@ In metasfresh, the following data can be imported:
 1. Open "Import Format" from the [menu](Menu).
 1. [Add a new import format](New_Record_Window).
 1. Give the import format a **Name**.
-1. Select the appropriate **Table** where the data are to be imported, e.g., *Import Business Partner* for business partners and *Import Product* for products.
+1. Select the appropriate **Table** where the data are to be imported, e.g., *Import Business Partner* for business partners, *Import Product* for products, etc.
 1. Select a **Format** (separator), e.g., *Tab Separated*.
  >**Note:** In order to successfully import data, the separator in the import file must coincide with the one set in the import format (comma, semicolon, tab, etc.).
 

@@ -11,7 +11,7 @@ ref: import_product_data
 ---
 
 ## Requirements
-Make sure to comply with all requirements for the [data import in metasfresh](Data_import_metasfresh). [Here you can find a format example](Import_format_example_product) for importing product data.
+Make sure to comply with all requirements for the [data import in metasfresh](Data_import_metasfresh). [Here you can find a format example for importing product data](Import_format_example_product).
  >**Note:** For importing product data, you require an import format that is configured with the **database table** *Import Product*.
 
 ## Steps
