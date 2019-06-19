@@ -11,7 +11,7 @@ ref: import_replenishment_data
 ---
 
 ## Requirements
-Make sure to comply with all requirements for the [data import in metasfresh](Data_import_metasfresh). [Here you can find a format example](Import_format_example_replenishments) for importing replenishment data.
+Make sure to comply with all requirements for the [data import in metasfresh](Data_import_metasfresh). [Here you can find a format example for importing replenishment data](Import_format_example_replenishments).
  >**Note:** For importing replenishment data, you require an import format that is configured with the **database table** *Import Replenishment*.
 
 ## Steps
