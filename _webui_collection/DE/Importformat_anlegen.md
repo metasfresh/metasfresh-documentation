@@ -16,6 +16,7 @@ Folgende Daten können nach metasfresh importiert werden:
 - [Geschäftspartnerdaten](GPartnerdaten_importieren)
 - [Nachbestelldaten](Nachbestelldaten_importieren)
 - [Produktdaten](Produktdaten_importieren)
+- [Rabattschemadaten](Rabattschema_importieren)
 
 ## Schritte
 
@@ -52,6 +53,7 @@ Möchtest Du ein neues Importformat anlegen mit den gleichen Formatfeldern wie e
 - [Geschäftspartnerdaten importieren](GPartnerdaten_importieren).
 - [Nachbestelldaten importieren](Nachbestelldaten_importieren).
 - [Produktdaten importieren](Produktdaten_importieren).
+- [Rabattschemadaten importieren](Rabattschema_importieren).
 
 ## Beispiel
 ![](assets/Importformat_anlegen.gif)

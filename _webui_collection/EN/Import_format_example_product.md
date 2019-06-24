@@ -28,9 +28,9 @@ The example below compares the data content of a file from a spreadsheet softwar
 ### Some useful notes
 The mandatory fields are essential for a successful data import!
 
-| Mandatory Field | Information | Example | Note |
+| Mandatory Field | Field Name | Example | Note |
 | :---: | :---: | :--- | :--- |
-| X | Item Search Key | FF_12345 | Alphanumeric string |
+| X | Item Search Key | FF_12345 | **Search Key** of the product (alphanumeric string) |
 | X | Product Type | I | I = **I**tem<br> E = **E**xpense Type<br> R = **R**esource |
 | X | Product Category Search Key | • Standard<br> • 16 | **Search Key** of the product category. ***Attention:*** Not the name!<br> (*You can look up the search key under "[Product Category](Menu)" in the menu.*) |
 |  | UOM Code | PCE | PCE = Each (_**P**ie**ce**_)<br> (*You can look up the UOM code under "[Unit of Measure](Menu)" in the menu.*) |

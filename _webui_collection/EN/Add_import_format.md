@@ -14,6 +14,7 @@ By means of the import format, you can specify which data, or rather columns, fr
 
 The following data can be imported to metasfresh:
 - [Business partner data](Import_bpartner_data)
+- [Discount schema data](Import_discount_schema)
 - [Product data](Import_product_data)
 - [Replenishment data](Import_replenishment_data)
 
@@ -50,6 +51,7 @@ If you want to add a new import format with the same format fields as an existin
 
 ## Next Steps
 - [Import business partner data](Import_bpartner_data).
+- [Import discount schema data](Import_discount_schema).
 - [Import product data](Import_product_data).
 - [Import replenishment data](Import_replenishment_data).
 

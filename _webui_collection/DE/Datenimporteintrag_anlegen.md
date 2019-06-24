@@ -24,3 +24,4 @@ ref: add_new_data_import_entry
 - [Geschäftspartnerdaten importieren](GPartnerdaten_importieren).
 - [Nachbestelldaten importieren](Nachbestelldaten_importieren).
 - [Produktdaten importieren](Produktdaten_importieren).
+- [Rabattschemadaten importieren](Rabattschema_importieren).

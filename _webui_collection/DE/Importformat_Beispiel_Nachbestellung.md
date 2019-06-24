@@ -27,10 +27,15 @@ In dem folgenden Beispiel wird der Dateninhalt aus einer Datei einer Tabellenkal
 
 ### Einige nützliche Hinweise
 
-| Information | Beispiel |  Hinweis |
-| :---: | :--- | :--- |
-| Source Warehouse Value | Lager_01 | **Suchschlüssel** des Ausgangslagers. |
-| Organisation Key<br> (=OrgValue) | metasfresh AG | **Suchschlüssel** der Organisation. _**Achtung:** Nicht der Name!_<br> (*Den Suchschlüssel kannst Du unter dem Menüpunkt "[Organisation](Menu)" nachschauen.*) |
+| Pflichtfeld | Feldname | Beispiel | Hinweis |
+| :---: | :---: | :--- | :--- |
+| X | Produktschlüssel | P002737 | **Suchschlüssel** des Produktes für die Nachbestellung (alphanumerische Zeichenfolge) |
+| X | Lager-Schlüssel | Lager_01 | **Suchschlüssel** des Lagers (alphanumerische Zeichenfolge) |
+| X | ReplenishType | *Bei Unterschreitung Minimalbestand* | Art der Wiederauffüllung |
+| X | Mindestmenge | 100 | Minimaler Bestand für das Produkt |
+| X | Maximalmenge | 500 | Maximaler Bestand für das Produkt |
+|  | Source Warehouse Value | HptLager | **Suchschlüssel** des Ausgangslagers |
+|  | Organisation Key<br> (=OrgValue) | metasfresh AG | **Suchschlüssel** der Organisation.<br> ***Achtung:*** Nicht der Name!<br> (*Den Suchschlüssel kannst Du unter dem Menüpunkt "[Organisation](Menu)" nachschauen.*) |
 
 ## Nächste Schritte
 - [Nachbestelldaten importieren](Nachbestelldaten_importieren).

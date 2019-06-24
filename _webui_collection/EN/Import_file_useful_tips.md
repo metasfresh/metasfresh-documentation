@@ -14,6 +14,7 @@ In order to import externally stored data into metasfresh, you first have to for
 
 Here are some format examples for the import of:
 - [Business partner data](Import_format_example_bpartner)
+- [Discount schema data](Import_format_example_discount_schema)
 - [Product data](Import_format_example_product)
 - [Replenishment data](Import_replenishment_data)
 
@@ -29,6 +30,7 @@ When creating an import file, please keep in mind the following:
 
 ## Next Steps
 - [Import business partner data](Import_bpartner_data).
+- [Import discount schema data](Import_discount_schema).
 - [Import product data](Import_product_data).
 - [Import replenishment data](Import_replenishment_data).
 

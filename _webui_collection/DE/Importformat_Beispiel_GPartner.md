@@ -28,18 +28,18 @@ In dem folgenden Beispiel wird der Dateninhalt aus einer Datei einer Tabellenkal
 ### Einige nützliche Hinweise
 Die Angabe der Pflichtfelder ist unerlässlich für einen erfolgreichen Datenimport!
 
-| Pflichtfeld | Information | Beispiel | Hinweis |
+| Pflichtfeld | Feldname | Beispiel | Hinweis |
 | :---: | :---: | :--- | :--- |
 | X | Suchschlüssel | I_GP_001 | Geschäftspartnernummer (eindeutige alphanumerische Zeichenfolge) |
-| X | Name | • Import AG<br> • Geschäfts Partner | Firmenname oder Geschäftspartnername (bei Einzelpersonen) |
-| (X) | Kontaktname | Johann Schmidt | Die Angabe ist nur im Zusammenhang mit zu importierenden Kontakten erforderlich. |
+| X | Name | • Import AG<br> • Geschäfts Partner | **Firmenname** oder **Geschäftspartnername** (bei Einzelpersonen) |
+| (X) | Kontaktname | Johann Schmidt | Die Angabe ist nur im Zusammenhang mit zu importierenden **Kontakten** erforderlich. |
 | (X) | ISO-Ländercode | DE | DE = **De**utschland<br> Zweistelliger Buchstabencode (gem. ISO 3166-1 Alpha-2).<br> Die Angabe ist nur im Zusammenhang mit zu importierenden Adressen erforderlich.<br> (*Den ISO-Ländercode kannst Du unter dem Menüpunkt "[Land, Region](Menu)" nachschauen.*) |
-| X | Gruppen-Schlüssel	| • Standard<br> • 1000001 | **Suchschlüssel** der Geschäftspartnergruppe. _**Achtung:** Nicht der Name!_<br> Lege die Geschäftspartnergruppe erst in metasfresh an und verwende dann hier ihren Suchschlüssel.<br> (*Den Suchschlüssel kannst Du unter dem Menüpunkt "[Geschäftspartnergruppen](Menu)" im jeweiligen Eintrag nachschauen.*) |
+| X | Gruppen-Schlüssel	| • Standard<br> • 1000001 | **Suchschlüssel** der Geschäftspartnergruppe.<br> ***Achtung:*** Nicht der Name!<br> Lege die Geschäftspartnergruppe erst in metasfresh an und verwende dann hier ihren Suchschlüssel.<br> (*Den Suchschlüssel kannst Du unter dem Menüpunkt "[Geschäftspartnergruppen](Menu)" im jeweiligen Eintrag nachschauen.*) |
 |  | Region | • NRW<br> • AZ | NRW = **N**ord**r**hein-**W**estfalen<br> AZ = **A**ri**z**ona<br> (*Das Akronym bzw. den **Namen** einer Region kannst Du unter dem Menüpunkt "[Land, Region](Menu)" unter der Registerkarte "Region" des jeweiligen Ländereintrags nachschauen.*) |
-|  | OrgValue | metasfresh AG | **Suchschlüssel** der Organisation. _**Achtung:** Nicht der Name!_<br> (*Den Suchschlüssel kannst Du unter dem Menüpunkt "[Organisation](Menu)" nachschauen.*) |
+|  | OrgValue | metasfresh AG | **Suchschlüssel** der Organisation.<br> ***Achtung:*** Nicht der Name!<br> (*Den Suchschlüssel kannst Du unter dem Menüpunkt "[Organisation](Menu)" nachschauen.*) |
 |  | Standortdaten | • Straße und Nr.<br> • PLZ<br> • Ort<br> • Region<br> • ISO Ländercode | Damit [Standortdaten](Adresse_erfassen_Tab) importiert werden können, müssen mindestens **Ort** und **ISO Ländercode** angegeben sein.<br><br> Standortdaten wie **Straße und Nr.**, **PLZ** oder **Region** werden nur importiert, wenn sowohl **Ort** als auch **ISO Ländercode** vorhanden sind. |
 |  | Global Location Number (GLN) | 1234567890128 | Zum Import einer **GLN** müssen sowohl **Ort** als auch **ISO Ländercode** vorhanden sein. |
-|  | Webadresse (URL) | [**https://**metasfresh.com/](https://metasfresh.com/ "metasfresh Homepage") | Damit eine **URL** nach dem Import gültig wird, muss diese mit dem Internetprotokollakronym beginnen (z.B. `https://`). |
+|  | Webadresse (URL) | [**https://**metasfresh.com/](https://metasfresh.com/ "metasfresh Homepage") | Damit eine **URL** nach dem Import funktioniert, muss diese mit dem Internetprotokollakronym beginnen (z.B. `https://`). |
 
 ## Nächste Schritte
 - [Geschäftspartnerdaten importieren](GPartnerdaten_importieren).
