@@ -27,10 +27,15 @@ The example below compares the data content of a file from a spreadsheet softwar
 
 ### Some useful notes
 
-| Information | Example | Note |
-| :---: | :--- | :--- |
-| Source Warehouse Value | Warehouse_01 | **Search Key** of the source warehouse. |
-| Organisation Key<br> (=OrgValue) | metasfresh AG | **Search Key** of the organization. _**Attention:** Not the name!_<br> (*You can look up the search key under "[Organization](Menu)" in the menu.*) |
+| Mandatory Field | Field Name | Example | Note |
+| :---: | :---: | :--- | :--- |
+| X | Product Value | P002737 | **Search Key** of the product for replenishment (alphanumeric string) |
+| X | Warehouse Value | Warehouse_01 | **Search Key** of the warehouse (alphanumeric string) |
+| X | ReplenishType | *Reorder below minimum level* | Method for re-ordering a product |
+| X | Level_Min | 100 | Minimum inventory level for the product |
+| X | Level_Max | 500 | Maximum inventory level for the product |
+|  | Source Warehouse Value | MainWH | **Search Key** of the source warehouse |
+|  | Organisation Key<br> (=OrgValue) | metasfresh AG | **Search Key** of the organization.<br> ***Attention:*** Not the name!<br> (*You can look up the search key under "[Organization](Menu)" in the menu.*) |
 
 ## Next Steps
 - [Import replenishment data](Import_replenishment_data).

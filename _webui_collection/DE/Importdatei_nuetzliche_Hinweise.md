@@ -16,6 +16,7 @@ Hier sind ein paar Formatbeispiele für den Import von:
 - [Geschäftspartnerdaten](Importformat_Beispiel_GPartner)
 - [Nachbestelldaten](Importformat_Beispiel_Nachbestellung)
 - [Produktdaten](Importformat_Beispiel_Produkt)
+- [Rabattschemadaten](Importformat_Beispiel_Rabattschema)
 
 ## Nützliche Hinweise
 Bitte achte bei der Erstellung einer Importdatei auf Folgendes:
@@ -31,6 +32,7 @@ Bitte achte bei der Erstellung einer Importdatei auf Folgendes:
 - [Geschäftspartnerdaten importieren](GPartnerdaten_importieren).
 - [Nachbestelldaten importieren](Nachbestelldaten_importieren).
 - [Produktdaten importieren](Produktdaten_importieren).
+- [Rabattschemadaten importieren](Rabattschema_importieren).
 
 ## Beispiel: Excel-Tabelle (Produktdaten)
 ![](assets/Excel-Tabelle_Produktdaten.png)

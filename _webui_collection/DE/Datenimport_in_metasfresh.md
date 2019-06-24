@@ -19,16 +19,19 @@ Mithilfe der Importfunktion kannst Du extern gespeicherte Daten (wie z.B. Excel-
 | Geschäftspartnerdaten | Import - Geschäftspartner |
 | Nachbestelldaten | Import Replenishment |
 | Produktdaten | Import - Produkt |
+| Rabattschemadaten | I_DiscountSchema |
 
 1. [Lege ein Importformat mit entsprechender Datenbanktabelle an](Importformat_anlegen) (siehe oben), in dem Du die Daten bzw. Spalten sowie deren Datentypen festlegst, welche aus der Importdatei in metasfresh übertragen werden sollen.
 1. Halte eine [Importdatei](Importdatei_nuetzliche_Hinweise) mit den dem Importformat entsprechend formatierten Daten bereit.<br> ***Formatbeispiele:***
  - [Geschäftspartnerdatenimport](Importformat_Beispiel_GPartner)
  - [Nachbestelldatenimport](Importformat_Beispiel_Nachbestellung)
  - [Produktdatenimport](Importformat_Beispiel_Produkt)
+ - [Rabattschemadatenimport](Importformat_Beispiel_Rabattschema)
 
 1. Importiere Deine Daten unter Verwendung des entsprechenden Importformats.
  >**Hinweis:** Beachte dabei, dass das Trennzeichen aus der Importdatei mit dem aus dem Importformat übereinstimmt (Komma, Tabulatorzeichen, Semikolon usw.).
 
- - [Folge dieser Anleitung](GPartnerdaten_importieren), um externe Daten zu **Geschäftspartnern** in metasfresh zu importieren.
- - [Folge dieser Anleitung](Nachbestelldaten_importieren), um externe Daten zu **Nachbestellungen** in metasfresh zu importieren.
- - [Folge dieser Anleitung](Produktdaten_importieren), um externe Daten zu **Produkten** in metasfresh zu importieren.
+ - [Folge dieser Anleitung](GPartnerdaten_importieren), um externe Daten zu **Geschäftspartnern** nach metasfresh zu importieren.
+ - [Folge dieser Anleitung](Nachbestelldaten_importieren), um externe Daten zu **Nachbestellungen** nach metasfresh zu importieren.
+ - [Folge dieser Anleitung](Produktdaten_importieren), um externe Daten zu **Produkten** nach metasfresh zu importieren.
+ - [Folge dieser Anleitung](Rabattschema_importieren), um externe Daten zu **Rabattschemata** nach metasfresh zu importieren.
