@@ -4,7 +4,7 @@ layout: default
 tags:
   - Datenverwaltung
   - Datenimport
-  - Rabattschemata
+  - Rabattschemadatenimport
 lang: de
 sequence: 20
 ref: import_discount_schema

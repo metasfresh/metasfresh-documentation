@@ -1,5 +1,5 @@
 ---
-title: How do I set up one single email address for all outbound documents for testing purposes?
+title: How do I set up one single email address for all outbound documents for testing purposes (System Administrator)?
 layout: default
 tags:
   - Emails and Outbound Documents
