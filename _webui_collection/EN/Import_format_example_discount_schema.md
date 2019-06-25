@@ -4,7 +4,7 @@ layout: default
 tags:
   - Data Management
   - Data Import
-  - Discount Schema
+  - Discount Schema Data Import
 lang: en
 sequence: 10
 ref: import_format_example_discount_schema
