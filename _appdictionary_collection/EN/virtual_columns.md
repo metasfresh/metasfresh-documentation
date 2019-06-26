@@ -7,10 +7,9 @@ lang: en
 ---
 
 ## Overview
+Virtual columns are columns that retrieve data via SQL and are not persistet in the database.
 
-Virtual Columns are columns that retrieve data via sql and are not persistet to the database.
-
-They are executed together with the select of the datasource.
+They are executed together with the select of the data source.
 
 For example:
 
@@ -24,7 +23,7 @@ select
 from c_invoice
 ```
 
-Now we are adding a virtual column to that window and its embedded like this:
+Now we are adding a virtual column to that window and it is embedded like this:
 
 ```
 select
@@ -38,9 +37,6 @@ from c_invoice
 
 So in order to make your SQL code work in the virtual column it needs to be runnable as a column in a select statement.
 
-
-
 ## Don't Dos
-
-1. If you do selects add () around it. e.g. `(select value from other table where...)`
-1. never have "/" in column name even though its virtual
+1. If you do selects add () around it, e.g., `(select value from other table where...)`.
+1. Never have "/" in column name even though its virtual.
