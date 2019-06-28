@@ -1,5 +1,5 @@
 ---
-title: How do I grant/withdraw deletion rights for file attachments??
+title: How do I grant/withdraw deletion rights for file attachments?
 layout: default
 tags:
   - Document Management
