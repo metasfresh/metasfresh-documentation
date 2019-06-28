@@ -18,7 +18,7 @@ In metasfresh, there are *sales price lists* and *purchase price lists*. The sal
 ## Steps
 
 ### Assign sales price list to customer
-In order to obtain a *sales price list* you have to check the box **Sales Price List** in the corresponding price list entry (see **step 8** of "[How do I add a price list?](Add_price-list)"). Once this is done, you can continue with these steps:
+In order to obtain a *sales price list* you have to tick the checkbox **Sales Price List** in the corresponding price list entry (see **step 8** of "[How do I add a price list?](Add_price-list)"). Once this is done, you can continue with these steps:
 
 1. Open the entry of an existing customer from your [business partners](Menu) or [add a new one](New_business_partner_customer).
 1. Go to the record tab "Customer" at the bottom of the page.

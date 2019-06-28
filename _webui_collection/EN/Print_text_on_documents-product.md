@@ -31,7 +31,7 @@ You can also autonomously transfer the product description into the languages of
 1. In this window you will see all translation entries for the selected product entry.
 1. Open the entry of the language in which you want to write the text, e.g., "Deutsch (DE)".
 1. In the text box **Note**, enter the foreign language text version of the product description.
-1. Check the box **Translated** if this has not yet been done.
+1. Tick the checkbox **Translated** if this has not yet been done.
 1. [metasfresh saves the progress automatically](Saveindicator).
 
 ## Example

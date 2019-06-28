@@ -25,7 +25,7 @@ For additional information on how to place manual text on documents, please see 
  >**Note 1:** Business partners can be [customers](New_business_partner_customer) and [vendors](New_business_partner_vendor).<br><br>
  >**Note 2:** Hit [`SPACE`](Keyboard_shortcuts_reference) to see a selection of available [business partners](New_Business_Partner).
 
-1. Check the box **For Vendor** or **For Customer** according to the respective business relation for which the new name should be used.
+1. Tick the checkbox **For Vendor** or **For Customer** according to the respective business relation for which the new name should be used.
 1. Enter the partner-specific **Product name**.
 1. Enter the partner-specific **Product number**.
 1. Click "Done" to close the overlay window and add the partner-specific data to the list.

@@ -25,7 +25,7 @@ In metasfresh, time frame conditions of a contract include the term duration, te
 1. Define a **Subscription Interval** and a **Subscription Unit**, e.g., "2 Weeks".
  >**Note:** This is the frequency of the shipments of a sales order during the contract period.
 
-1. ***Optional:*** Check the box **Auto renew Contract** to make the contract run in a loop.
+1. ***Optional:*** Tick the checkbox **Auto renew Contract** to make the contract run in a loop.
  >**Note:** In this case, the box **Complete next terms automatically** appears. Check this box, too.
 
 1. ***Optional:*** In the field **Next Contract Terms**, you can select the follow-up contract for the expired one.

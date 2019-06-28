@@ -3,6 +3,7 @@ title: How do I add URLs as attachments to my documents?
 layout: default
 tags:
   - Document Management
+  - File Attachments
 lang: en
 sequence: 20
 ref: howto_attach_urls
@@ -24,6 +25,7 @@ ref: howto_attach_urls
 
 ### Delete URL
 [Jump to](JumptoviaSidebar) the list of attachments by pressing `Alt` + `7` / `⌥ alt` + `7` and simply click on the small delete icon ![](assets/delete_icon.png) next to the URL bookmark to delete it (see example).
+ >**Note:** If the delete icon does not appear, your user role may not be permitted to delete file attachments. [Follow these instructions](File_handling_delete_permission) to change the delete permissions for user roles.
 
 ## Example
 ![](assets/Howto_attach_urls.gif)

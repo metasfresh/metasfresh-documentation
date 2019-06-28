@@ -17,7 +17,7 @@ System users are contacts (users) with access permissions to your system.
 1. Open the entry of an existing [user](Menu) or [add a new one](Add_user).
 
 ### Turn the contact into a system user
-1. Check the box **System User** to grant user permissions to the contact.
+1. Tick the checkbox **System User** to grant user permissions to the contact.
 1. In the field **Login**, enter a username.
  >**Note 1:** The system user can log in using either the **Login** or the **Email Address** as username.<br><br>
  >**Note 2:** Please bear in mind that the username is ***case-sensitive***!

@@ -28,7 +28,7 @@ By means of the [filtering function](Phone_call_scheduling_filtering) you can qu
 
 #### Alternative A
 1. Open the entry of the partner you have called.
-1. Check the box **IsCalled**.
+1. Tick the checkbox **IsCalled**.
 1. [metasfresh saves the progress automatically](Saveindicator).
 
 #### Alternative B

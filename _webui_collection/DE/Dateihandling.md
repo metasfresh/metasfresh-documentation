@@ -3,6 +3,7 @@ title: Wie kann ich Dateien hochladen und meinen Dokumenten anhängen?
 layout: default
 tags:
   - Dokumentenverwaltung
+  - Dateianhänge
 lang: de
 sequence: 10
 ref: file_handling
@@ -25,6 +26,7 @@ Zum Herunterladen, drücke `Alt` + `7` / `⌥ alt` + `7`, um zur Anhangliste zu 
 
 ### Löschen
 Zum Löschen, drücke `Alt` + `7` / `⌥ alt` + `7`, um zur Anhangliste zu [springen](SpringezuBelegen) und klicke dann einfach auf das kleine Löschsymbol ![](assets/delete_icon.png) neben der Datei, die Du löschen möchtest (siehe Beispiel).
+ >**Hinweis:** Sollte das Löschsymbol nicht erscheinen, verfügt Deine Benutzerrolle möglicherweise nicht über eine Löschberechtigung. [Folge dieser Anleitung](Dateihandling_Loeschberechtigung), um die Löschberechtigungen für Benutzerrollen einzustellen.
 
 ## Beispiel
 ![](assets/Dateihandling_walkthrough.gif)

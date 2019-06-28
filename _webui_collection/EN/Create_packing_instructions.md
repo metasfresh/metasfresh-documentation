@@ -27,7 +27,7 @@ By means of packing instructions, you can specify the type of [packing material]
 1. Select the desired **Packing Instruction**.
 1. Give the version a **Name**.
 1. Select a **Handling Unit Type**, e.g., *Transport Unit*.
-1. Check the box **Currently valid version**.
+1. Tick the checkbox **Currently valid version**.
 1. [metasfresh saves the progress automatically](Saveindicator).
 
 ### Determine a packing material

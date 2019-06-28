@@ -19,7 +19,7 @@ In metasfresh, you can determine whether a business partner is a customer, vendo
 1. Open the entry of a [business partner](New_Business_Partner) in the [detailed view](ViewModes).
 1. Go to the record tab "Vendor" at the bottom of the page.
 1. Open the [advanced edit menu](Open_AdvancedEditTab) of the vendor line.
-1. Check the box **Vendor**.
+1. Tick the checkbox **Vendor**.
 1. Select a **Purchase Price System**.
 1. Select a [**PO Discount Schema**](Pricing_conditions_in_metasfresh).
 1. ***Optional:*** Add further terms and conditions, such as **Payment Rule**, **Shipment** ('*Pickup*' or '*Shipper*'), **Payment Term**, etc.

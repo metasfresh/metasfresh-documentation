@@ -65,7 +65,7 @@ If you want to translate record tab entries, as in the case of dunning levels, y
 1. ***If applicable:*** In the field **Name on Invoice**, enter the name that shall appear on the invoice.
  >**Note:** This step only applies to "Payment Term".
 
-1. Check the box **Translated**.
+1. Tick the checkbox **Translated**.
 1. [metasfresh saves the progress automatically](Saveindicator).
 <br><br>
 

@@ -13,7 +13,7 @@ ref: new_business_partner
 1. Open "Business Partner" from the [menu](Menu).
 1. [Add a new business partner](New_Record_Window).
 1. The **Search Key** is an automatically assigned serial number. However, if required, it can also be assigned manually instead.
-1. If the business partner is a company, check the box **Company** and fill in the field **Company Name**. Otherwise, uncheck the box and enter the partner's **Name**.
+1. If the business partner is a company, tick the checkbox **Company** and fill in the field **Company Name**. Otherwise, uncheck the box and enter the partner's **Name**.
  >**Note:** The **(Company) Name** is restricted to 60 characters.
 
 1. Select a [**Business Partner Group**](New_Business_Partner_Group), e.g., *Machine Supplier*.
