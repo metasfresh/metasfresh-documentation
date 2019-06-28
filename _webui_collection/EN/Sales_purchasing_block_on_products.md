@@ -24,7 +24,7 @@ In this case, you can simply create partner-related exclusion lists with those p
 1. In the text box **Exclusion From Sale Reason**, enter a reason why the product is blocked for the business partner.
  >**Note:** This reason will be displayed in an error message to the user when they want to add the blocked product to a sales or purchase order.
 
-1. Check the box **Exclusion from sales documents**.
+1. Tick the checkbox **Exclusion from sales documents**.
  >**Note:** This setting affects ***both sales and purchase orders***, depending on whether the business partner is a [customer](New_business_partner_customer) or [vendor](New_business_partner_vendor).
 
 1. Click "Done" to close the overlay window and add the blocked product to the list.

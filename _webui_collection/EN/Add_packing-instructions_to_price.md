@@ -21,7 +21,7 @@ Therefore, under "Product Prices", you can both select [packing instructions](Cr
 1. Select a **Packing Item**.
  >**Note:** Packing items will only be suggested if they have been [allocated to the product](CU-TU_Allocation) beforehand.
 
-1. If the price should be calculated based on the sales UOM defined in the price entry, check the box **isAttributeDependent**. Otherwise the product's stock UOM will be used.
+1. If the price should be calculated based on the sales UOM defined in the price entry, tick the checkbox **isAttributeDependent**. Otherwise the product's stock UOM will be used.
  >**Note:** If sales UOM ≠ stock UOM, you have to define a [UOM conversion](Convert_UOMs).
 
 1. [metasfresh saves the progress automatically](Saveindicator).

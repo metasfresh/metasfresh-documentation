@@ -14,7 +14,7 @@ If you, for instance, made a mistake with [extending a contract](Extend_contract
 
 ## Steps
 1. Follow these [instructions for terminating a contract](Contract_termination) up to **step 6**.
-1. Check the box **Only Terminate Current Term**.
+1. Tick the checkbox **Only Terminate Current Term**.
 1. Click "Start" to execute the termination and close the overlay window.
  >**Note:** The [contractual terms](Define_contractual_terms) specify the date by which a contract can be terminated. If an error occurs, the termination may most likely not be permitted upon the date chosen.
 

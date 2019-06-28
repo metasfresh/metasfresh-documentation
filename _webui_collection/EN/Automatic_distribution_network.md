@@ -25,7 +25,7 @@ For the setup of the automatic distribution network for empty containers, the fo
 1. [Add a new distribution configuration entry](New_Record_Window).
 1. Give the distribution configuration entry a **Name**, e.g., "Auto Distribution Network".
 1. Enter a **No.**
-1. Check the box **IsHUDestroyed**.
+1. Tick the checkbox **IsHUDestroyed**.
 1. Go to the record tab "Network Line" at the bottom of the page and click ![](assets/Add_New_Button.png). An overlay window opens up.
 1. Select a **Source Warehouse**, e.g., *Main Warehouse*.
 1. In the field **Warehouse**, select a target warehouse, e.g., *Empty Container Depot*.
