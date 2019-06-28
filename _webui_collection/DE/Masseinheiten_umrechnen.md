@@ -11,7 +11,7 @@ ref: convert_uoms
 ---
 
 ## Übersicht
-Stimmt die Bestandsmengeneinheit eines Produkts nicht mit seiner Verkaufsmengeneinheit überein, muss eine Umrechnung angelegt werden.
+Stimmt die Bestandsmengeneinheit eines Produktes nicht mit seiner Verkaufsmengeneinheit überein, muss eine Umrechnung angelegt werden.
 
 #### Zum Beispiel:
 Du führst Erdbeeren mit der Bestandsmengeneinheit (BME) "Kilogramm" im Bestand. Du verkaufst sie allerdings in 250g Schalen, also in der Verkaufsmengeneinheit (VME) "Stück".

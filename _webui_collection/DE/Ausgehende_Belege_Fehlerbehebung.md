@@ -10,11 +10,11 @@ ref: outbound_documents_troubleshooting
 ---
 
 ## Übersicht
-In metasfresh wird für jeden gestarteten Prozess ein Arbeitspaket (engl.: *work package*) unter „Asynchrone Verarbeitungswarteschlage“ angelegt, in dem Informationen wie Verarbeitungsstatus, Protokollstatus oder Fehlermeldungen eingesehen werden können. Auch fehlgeschlagene Prozesse verfügen somit über Arbeitspakete und können in der asynchronen Verarbeitungswarteschlage behoben werden.
+In metasfresh wird für jeden gestarteten Prozess ein Arbeitspaket (engl.: *work package*) unter "Asynchrone Verarbeitungswarteschlage" angelegt, in dem Informationen wie Verarbeitungsstatus, Protokollstatus oder Fehlermeldungen eingesehen werden können. Auch fehlgeschlagene Prozesse verfügen somit über Arbeitspakete und können in der asynchronen Verarbeitungswarteschlage behoben werden.
 
 Schlägt die Übermittlung eines per E-Mail versendeten Beleges fehl, z.B. weil die Zugangsdaten des E-Mail-Kontos nicht stimmen oder der E-Mail-Server nicht erreichbar ist, dann kann das Arbeitspaket nicht verarbeitet werden und es wird mit einer Fehlermeldung versehen.
 
-Wenn Du nun nach Beseitigung der Fehlerursachen den Beleg erneut versuchst zu versenden, kann es unter Umständen sein, dass der Versand trotz allem nicht stattfindet. Das liegt daran, dass bereits ein Arbeitspaket für diesen Vorgang existiert, welches allerdings als „fehlgeschlagen“ gekennzeichnet ist und kein zweites Mal erstellt wird, um zu verhindern, dass der Beleg doppelt an den Empfänger übermittelt wird.
+Wenn Du nun nach Beseitigung der Fehlerursachen den Beleg erneut versuchst zu versenden, kann es unter Umständen sein, dass der Versand trotz allem nicht stattfindet. Das liegt daran, dass bereits ein Arbeitspaket für diesen Vorgang existiert, welches allerdings als "fehlgeschlagen" gekennzeichnet ist und kein zweites Mal erstellt wird, um zu verhindern, dass der Beleg doppelt an den Empfänger übermittelt wird.
 
 Um den Beleg dennoch versenden zu können, muss zuerst die Fehlermeldung aus dem Arbeitspaket entfernt werden, damit es für einen neuen Versandversuch zur Verfügung steht. Gehe hierzu wie folgt vor:
 

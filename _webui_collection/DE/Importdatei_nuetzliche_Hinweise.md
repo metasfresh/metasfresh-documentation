@@ -14,6 +14,8 @@ Damit Du extern gespeicherte Daten in metasfresh importieren kannst, musst Du si
 
 Hier sind ein paar Formatbeispiele für den Import von:
 - [Geschäftspartnerdaten](Importformat_Beispiel_GPartner)
+- [IFA-Herstellerdaten](Importformat_Beispiel_GPartner_Pharma)
+- [IFA-Produktdaten](Importformat_Beispiel_Produkt_Pharma)
 - [Nachbestelldaten](Importformat_Beispiel_Nachbestellung)
 - [Produktdaten](Importformat_Beispiel_Produkt)
 - [Rabattschemadaten](Importformat_Beispiel_Rabattschema)
@@ -30,6 +32,8 @@ Bitte achte bei der Erstellung einer Importdatei auf Folgendes:
 
 ## Nächste Schritte
 - [Geschäftspartnerdaten importieren](GPartnerdaten_importieren).
+- [IFA-Herstellerdaten importieren](GPartnerdaten_importieren_Pharma).
+- [IFA-Produktdaten importieren](Produktdaten_importieren_Pharma).
 - [Nachbestelldaten importieren](Nachbestelldaten_importieren).
 - [Produktdaten importieren](Produktdaten_importieren).
 - [Rabattschemadaten importieren](Rabattschema_importieren).

@@ -19,7 +19,7 @@ Die kurzfristige Verfügbarkeit eines Produktes kannst Du während der Auftragse
 Wird ein Auftrag mit Produkten, die als kurzfristig nicht verfügbar erkannt wurden, fertiggestellt und wurden entsprechende Produktplandaten hinterlegt, dann werden anschließend je nach [Konfiguration der Plandaten](Produktplandaten) automatisch Bestellungen oder Produktionsaufträge erstellt, um die Bestände der aufgebrauchten Produkte wieder aufzufüllen.
 
 ## Für den Systemadministrator
-Als Systemadministrator kannst Du unter dem Menüpunkt „Einstellungen zur verfügbaren Menge für den Verkauf“ die Parameter konfigurieren, mit denen metasfresh die kurzfristige Verfügbarkeit überprüft, sowie unterschiedliche Einstellungen für verschiedene Organisationseinheiten treffen. Es können u.a. die folgenden Parameter gesetzt werden:
+Als Systemadministrator kannst Du unter dem Menüpunkt "Einstellungen zur verfügbaren Menge für den Verkauf" die Parameter konfigurieren, mit denen metasfresh die kurzfristige Verfügbarkeit überprüft, sowie unterschiedliche Einstellungen für verschiedene Organisationseinheiten treffen. Es können u.a. die folgenden Parameter gesetzt werden:
 
 | Parameter / Feld | Beschreibung |
 | :--- | :--- |
