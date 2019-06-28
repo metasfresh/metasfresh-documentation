@@ -39,7 +39,7 @@ Dies ist die einfachste Möglichkeit in metasfresh zu produzieren. Hierbei wird 
 
 1. ***Optional:*** Wähle eine **Packvorschrift TU** aus.
 1. ***Optional:*** Wähle eine **Packvorschrift LU** aus.
-1. Trage in das Feld **Menge CU** die empfangene Menge des Produkts ein.
+1. Trage in das Feld **Menge CU** die empfangene Menge des Produktes ein.
 1. Trage in das Feld **Menge TU** die Anzahl der Transporteinheiten ein.
  >**Hinweis 1:** Das Feld **Menge TU** erscheint nur, wenn auch eine **Packvorschrift TU** ausgewählt wurde.<br><br>
  >**Hinweis 2:** Die Menge TU muss ***mindestens 1*** betragen.
@@ -50,7 +50,7 @@ Dies ist die einfachste Möglichkeit in metasfresh zu produzieren. Hierbei wird 
  >**Hinweis 3:** Die Menge LU muss ***mindestens 1*** betragen.
 
 1. Klicke auf "Start", um die empfangenen HUs zu erfassen und das Overlay-Fenster zu schließen.
-1. Nach erfolgreicher Zuordnung werden die empfangenen HUs unterhalb des herzustellenden Produkts aufgelistet:
+1. Nach erfolgreicher Zuordnung werden die empfangenen HUs unterhalb des herzustellenden Produktes aufgelistet:
  ![](assets/ProduktionFertigstellung-a5222.png)
   >**Hinweis:** Möchtest Du die Zuordnung rückgängig machen, wähle einfach die hinzugefügte HU aus, gehe zum Quick-Actions-Button und klicke auf "HU entfernen".
 

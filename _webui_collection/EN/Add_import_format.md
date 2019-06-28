@@ -26,7 +26,7 @@ The following data can be imported to metasfresh:
 1. Open "Import Format" from the [menu](Menu).
 1. [Add a new import format](New_Record_Window).
 1. Give the import format a **Name**.
-1. Select the appropriate **Table** where the data are to be imported, e.g., *Import Business Partner* for business partners, *Import Product* for products, etc.
+1. Select the appropriate **Table** where the data are to be imported, e.g., *Import Business Partner* for business partners, *Import Product* for products, etc. ([see overview table here](Data_import_metasfresh)).
 1. Select a **Format** (separator), e.g., *Tab Separated*.
  >**Note:** In order to successfully import data, the separator in the import file must coincide with the one set in the import format (comma, semicolon, tab, etc.).
 

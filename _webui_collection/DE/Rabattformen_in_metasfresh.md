@@ -19,7 +19,7 @@ Rabatte finden ihre Anwendung bei der Auftragszeilenerfassung eines [Auftrags](A
 Es gibt folgende Rabattformen:
 
 ## Auftragszeilenrabatte
-Der [Auftragszeilenrabatt](Auftragszeilenrabatt) wird pro Auftragszeile einzeln vergeben und nicht separat als Rabatt ausgewiesen. Er reduziert lediglich den Preis des Produkts und ist somit auf dem Beleg nur im verringerten Rechnungsbetrag erkennbar.
+Der [Auftragszeilenrabatt](Auftragszeilenrabatt) wird pro Auftragszeile einzeln vergeben und nicht separat als Rabatt ausgewiesen. Er reduziert lediglich den Preis des Produktes und ist somit auf dem Beleg nur im verringerten Rechnungsbetrag erkennbar.
 
 ### Beispiel
 ![](assets/Auftragszeilenrabatt.png)

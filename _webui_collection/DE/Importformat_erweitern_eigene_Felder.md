@@ -15,15 +15,15 @@ Mithilfe eines [Importformats](Importformat_anlegen) kannst Du festlegen, welche
 Welche Spalten Dir beim Anlegen eines Importformats zur Auswahl stehen, ist abhängig von der **DB-Tabelle**, die mit dem Format verknüpft ist. Als Systemadministrator kannst Du diese Datenbanktabelle anpassen, verändern und erweitern, um so in dem Importformat eigene Felder hinzuzufügen. Gehe hierzu wie folgt vor:
 
 ## Schritte
-1. [Melde Dich bei metasfresh an](Anmeldung) mit der [Benutzerrolle](NeueBenutzerrolle) „Systemadministrator“.
-1. [Gehe ins Menü](Menu) und öffne das Fenster „Tabelle und Spalte“.
-1. [Verwende die Filterfunktion](Filterfunktion) und suche nach der **DB-Tabelle**, die Du anpassen möchtest, z.B. die Importtabelle „I_Product“ für Produktdaten.
+1. [Melde Dich bei metasfresh an](Anmeldung) mit der [Benutzerrolle](NeueBenutzerrolle) "Systemadministrator".
+1. [Gehe ins Menü](Menu) und öffne das Fenster "Tabelle und Spalte".
+1. [Verwende die Filterfunktion](Filterfunktion) und suche nach der **DB-Tabelle**, die Du anpassen möchtest, z.B. die Importtabelle "I_Product" für Produktdaten.
 1. Öffne den Datenbanktabelleneintrag.
-1. Gehe zur Registerkarte „Spalte“ unten auf der Seite und klicke auf ![](assets/Neu_hinzufuegen_Button.png). Es öffnet sich ein Overlay-Fenster.
+1. Gehe zur Registerkarte "Spalte" unten auf der Seite und klicke auf ![](assets/Neu_hinzufuegen_Button.png). Es öffnet sich ein Overlay-Fenster.
 1. Scrolle runter bis zum Feld **System-Element**, gib dort einen Teil des Namens der neuen Spalte ein und klicke auf den passenden Treffer in der [Dropdown-Liste](Liste_Keyboard_Shortcuts).
 1. Trage in das darüberliegende Feld die **Länge** ein, die die neue Spalte in der Datenbank haben soll.
-1. Klicke auf „Bestätigen“, um das Overlay-Fenster zu schließen und die Spalte zur Liste hinzuzufügen.
-1. [Starte die Aktion](AktionStarten) „Spalte synchronisieren“, um die Spalte in der Datenbank zu persistieren.
+1. Klicke auf "Bestätigen", um das Overlay-Fenster zu schließen und die Spalte zur Liste hinzuzufügen.
+1. [Starte die Aktion](AktionStarten) "Spalte synchronisieren", um die Spalte in der Datenbank zu persistieren.
 1. [metasfresh speichert automatisch](Speicheranzeige).
 
 | **Wichtiger Hinweis:** |
@@ -33,6 +33,8 @@ Welche Spalten Dir beim Anlegen eines Importformats zur Auswahl stehen, ist abh�
 
 ## Nächste Schritte (optional)
 - [Geschäftspartnerdaten importieren](GPartnerdaten_importieren).
+- [IFA-Herstellerdaten importieren](GPartnerdaten_importieren_Pharma).
+- [IFA-Produktdaten importieren](Produktdaten_importieren_Pharma).
 - [Nachbestelldaten importieren](Nachbestelldaten_importieren).
 - [Produktdaten importieren](Produktdaten_importieren).
 - [Rabattschemadaten importieren](Rabattschema_importieren).

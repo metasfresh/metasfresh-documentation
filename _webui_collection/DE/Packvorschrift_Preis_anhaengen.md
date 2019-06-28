@@ -54,7 +54,7 @@ Das Kästchen **Preis ist attributabhängig** ist angehakt:
 
 | *Folgen:* |
 | :--- |
-| metasfresh berechnet die Auftragszeilensumme im Auftrag auf Grundlage der Verkaufsmengeneinheit des Produkts (siehe oben). |
+| metasfresh berechnet die Auftragszeilensumme im Auftrag auf Grundlage der Verkaufsmengeneinheit des Produktes (siehe oben). |
 
 <br>
 Auftrag:<br>

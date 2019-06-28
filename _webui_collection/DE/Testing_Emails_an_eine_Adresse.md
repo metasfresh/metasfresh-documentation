@@ -10,8 +10,8 @@ ref: testing_send_emails_to_single_address
 ---
 
 ## Schritte
-1. [Melde Dich bei metasfresh an](Anmeldung) mit der [Benutzerrolle](NeueBenutzerrolle) „Systemadministrator“.
-1. [Gehe ins Menü](Menu) und öffne das Fenster „Systemkonfigurator“.
+1. [Melde Dich bei metasfresh an](Anmeldung) mit der [Benutzerrolle](NeueBenutzerrolle) "Systemadministrator".
+1. [Gehe ins Menü](Menu) und öffne das Fenster "Systemkonfigurator".
 1. [Verwende die Filterfunktion](Filterfunktion) und suche nach der Systemkonfiguration mit dem **Namen** `org.adempiere.user.api.IUserBL.DebugMailTo`.
 1. Öffne den Systemkonfigurationseintrag.
 1. Trage in das Feld **Suchschlüssel** die E-Mail-Adresse ein, an die alle Belege versendet werden sollen.

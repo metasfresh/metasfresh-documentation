@@ -28,7 +28,7 @@ Derzeit können die Dateneinträge der folgenden Menüpunkte übersetzt werden:
 
 Sobald Du einen [neuen Dateneintrag angelegt](Neuer_Datensatz_Fenster_Webui) hast, werden in den entsprechenden Übersetzungsfenstern im Menü mehrsprachige Einträge erstellt, in denen Du anschließend Deine Übersetzungen bearbeiten kannst.
 
-Legst Du z.B. [ein neues Produkt an](NeuesProdukt), kannst Du unter dem Menüpunkt “Produkt Übersetzung” dessen Übersetzungseinträge bearbeiten.
+Legst Du z.B. [ein neues Produkt an](NeuesProdukt), kannst Du unter dem Menüpunkt "Produkt Übersetzung" dessen Übersetzungseinträge bearbeiten.
 
 Wenn Du nun die [Sprache Deiner Benutzeroberfläche änderst](SwitchLanguage) und z.B. einen [Auftrag erstellst](Auftrag_erfassen), wird Dir bei der Massenerfassung der Produktname in der jeweilig eingestellten Sprache angezeigt.
 

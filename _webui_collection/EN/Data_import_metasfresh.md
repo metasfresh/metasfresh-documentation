@@ -15,7 +15,7 @@ You can quickly import externally stored data (such as Excel spreadsheets with d
 ## Requirements
 
 | Import Data | Corresponding DB Table |
-| :---: | :---: |
+| :--- | :---: |
 | Business Partner Data | Import Business Partner |
 | Discount Schema Data | Discount Schema Import |
 | Product Data | Import Product |
