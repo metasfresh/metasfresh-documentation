@@ -39,7 +39,7 @@ Die Angabe der Pflichtfelder ist unerlässlich für einen erfolgreichen Datenimp
 |  | A00PGMENG | Die Mengenangabe zur Verbrauchereinheit, die durch die PZN identifiziert wird (Packungsgröße Menge). |
 |  | A00PGEINH | Die Maßeinheit der Mengenangabe zur Verbrauchereinheit (Packungsgröße Einheit). |
 |  | A00DARFO | Darreichungsform |
-|  | A00ANBNR4 | Anbieter-Nr. (Ident-Nr., die den Anbieter des Artikels identifiziert) |
+|  | A00ANBNR4 | Anbieter-Nr. (Ident-Nr., die den **Anbieter** des Artikels identifiziert) |
 |  | A00ATYP | Kennzeichen Artikeltyp |
 |  | A00LKZ | Löschkennzeichen Artikel |
 |  | A00GTIN | Global Trade Item Number (GTIN) / Universal Product Code (UPC) |
@@ -47,7 +47,7 @@ Die Angabe der Pflichtfelder ist unerlässlich für einen erfolgreichen Datenimp
 |  | A00ARTNR | Artikelnummer des Anbieters |
 |  | A00HMNR | Hilfsmittelpositionsnummer |
 |  | A00PNAM | Produktname (Handelsname bzw. die Bezeichnung des Artikels) |
-|  | A00WGA | Kennzeichen Warengruppe A |
+| (X) | A00WGA | Kennzeichen Warengruppe A (**Produktkategorie**). Die Angabe ist nur bei IFA-Produkten erforderlich, die ***neu*** nach metasfresh importiert werden (Statusindikator 1=neu). |
 |  | A00PPN | Pharmacy Product Number (Die Produktnummer ist eine weltweit eindeutige Nummer, die aus der PZN erzeugt wird.) |
 |  | A05GDAT | Gültigkeit Lagerungsinfos |
 |  | A05VFDAT | Kennzeichen Verfalldatum |
