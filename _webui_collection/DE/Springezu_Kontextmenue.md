@@ -18,7 +18,7 @@ Diese Funktion steht für Registerkarteneinträge zur Verfügung und bietet eine
 1. Gehe zu einer Registerkarte unten auf der Seite, z.B. "Auftragsposition".
 1. Gehe mit dem Mauszeiger über eine Zeile und öffne mit einem Rechtsklick das Kontextmenü.
 1. Klicke auf die gewünschte Verknüpfung mit dem Zeichen ![](assets/related_docs_fork.png), um in das jeweilige Fenster zu wechseln.
-1. Das Fenster wird in einem neuen Tab geöffnet.
+1. Das Fenster wird in einem neuen Browser-Tab geöffnet.
 
 ## Beispiel
 ![](assets/Springezu_Kontexmenu.gif)

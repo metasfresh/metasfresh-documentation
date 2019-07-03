@@ -12,7 +12,7 @@ ref: salesorder_recording
 ## Schritte
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Aufträge".
 1. [Lege einen neuen Auftrag an](Neuer_Datensatz_Fenster_Webui).
-1. Gib im Feld **Auftraggeber** einen Teil des Namens oder der Nummer des [Kunden](Neuer_Geschaeftspartner_Kunde) ein und klicke auf den passenden Treffer in der [Dropdown-Liste](Liste_Keyboard_Shortcuts).
+1. Gib im Feld **Auftraggeber** einen Teil des Namens oder der Nummer des [Kunden](Neuer_Geschaeftspartner_Kunde) ein und klicke auf den passenden Treffer in der [Dropdown-Liste](Keyboard_Shortcuts_Liste).
  >**Hinweis:** Wird der gewünschte Partner nicht angezeigt, kannst Du ihn per [Schnellerfassung](Neuer_Geschaeftspartner_Schnellerfassung) neu anlegen.
 
 1. Wähle ein [**Preissystem**](Preissystem_anlegen) aus, sofern der Kunde noch mit keinem [Preissystem verknüpft](Zuweisung_Preise_Partner) ist.
@@ -24,7 +24,7 @@ ref: salesorder_recording
 1. Gehe zur Registerkarte "Auftragsposition" unten auf der Seite und klicke auf ![](assets/Massen_Erfassung_Button.png), um die Auftragszeileneingabe zu öffnen.
  >**Hinweis:** Drücke `Alt` + `Q` / `⌥ alt` + `Q`.
 
-1. Gib in das Feld **Produkt** einen Teil des Namens oder der Nummer des [Produktes](NeuesProdukt) ein und klicke auf den passenden Treffer in der [Dropdown-Liste](Liste_Keyboard_Shortcuts).
+1. Gib in das Feld **Produkt** einen Teil des Namens oder der Nummer des [Produktes](NeuesProdukt) ein und klicke auf den passenden Treffer in der [Dropdown-Liste](Keyboard_Shortcuts_Liste).
  >**Hinweis:** Verwende die [Liste der Produktvorschläge](Produktvorschlaege_Auftrag_Bestellung), um alle verfügbaren Produkte auf der aktuellen Preisliste zu sehen und ggf. eine Auswahl davon zum Auftrag hinzuzufügen.
 
 1. Gib eine **Menge** ein.

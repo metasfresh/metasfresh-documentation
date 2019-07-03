@@ -40,7 +40,7 @@ Dynamische Suchfelder sind durchsuchbare Dropdown-Listen, die sich mit jeder Ein
 | Tastenkombination <br> (Windows) | Tastenkombination <br> (MacOS) | Befehl |
 | :---: | :---: | :--- |
 | `Alt` + `A` | `⌥ alt` + `A` | Alle Zeilen auswählen bzw. zwischen "Alle Zeilen dieser Seite auswählen" und "Wähle alle ## Zeilen" wechseln |
-| `Alt` + `B` | `⌥ alt` + `B` | Ausgewähltes Dokument in neuem Tab öffnen |
+| `Alt` + `B` | `⌥ alt` + `B` | Ausgewähltes Dokument in neuem Browser-Tab öffnen |
 | `Alt` + `E` | `⌥ alt` + `E` | "Erweiterte Erfassung" für ausgewähltes Dokument öffnen |
 | `Alt` + `Y` | `⌥ alt` + `Y` | Ausgewähltes Dokument löschen |
 

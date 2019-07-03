@@ -23,7 +23,7 @@ Weitere Informationen darüber, wie Du eigenen Text in Belege einfügen kannst, 
 1. Gehe zur Registerkarte "Geschäftspartner" unten auf der Seite und klicke auf ![](assets/Neu_hinzufuegen_Button.png). Es öffnet sich ein Overlay-Fenster.
 1. Gib den Namen des **Geschäftspartners** ein.
  >**Hinweis 1:** Geschäftspartner können [Kunden](Neuer_Geschaeftspartner_Kunde) und [Lieferanten](Neuer_Geschaeftspartner_Lieferant) sein.<br><br>
- >**Hinweis 2:** Drücke die [`LEERTASTE`](Liste_Keyboard_Shortcuts), um eine Auswahl verfügbarer [Geschäftspartner](Neuer_Geschaeftspartner) zu sehen.
+ >**Hinweis 2:** Drücke die [`LEERTASTE`](Keyboard_Shortcuts_Liste), um eine Auswahl verfügbarer [Geschäftspartner](Neuer_Geschaeftspartner) zu sehen.
 
 1. Setze ein Häkchen bei **Verwendet für Lieferant** oder **Verwendet für Kunden**, je nachdem, für welche Geschäftsbeziehung die neue Bezeichnung verwendet werden soll.
 1. Gib den partnerspezifischen **Produktnamen** ein.

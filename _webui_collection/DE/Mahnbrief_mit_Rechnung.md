@@ -22,7 +22,7 @@ In metasfresh kannst Du Mahnbriefe schnell und einfach mit den dazugehörigen Re
 1. [Starte die Quick-Action](AktionStarten) "Mahnbrief mit angehängten Rechnungsbelegen".
  >**Hinweis:** Diese Aktion findest Du ebenfalls im Aktionsmenü sowohl in der Listenansicht als auch in der Einzelansicht eines Eintrags.
 
-1. Es öffnet sich ein neuer Tab mit der PDF-Vorschau des Mahnbriefes und den angehängten Rechnungsbelegen.
+1. Es öffnet sich ein neuer Browser-Tab mit der PDF-Vorschau des Mahnbriefes und den angehängten Rechnungsbelegen.
 
 ## Beispiel
 ![](assets/Mahnbrief_mit_Rechnung.gif)

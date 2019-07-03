@@ -40,7 +40,7 @@ A dynamic search box is a searchable drop-down list, which updates with each let
 | Keyboard Shortcut <br> (Windows) | Keyboard Shortcut <br> (MacOS) | Command |
 | :---: | :---: | :--- |
 | `Alt` + `A` | `⌥ alt` + `A` | Select all lines, i.e. toggle between "Select all on this page" and "Select all ## items" |
-| `Alt` + `B` | `⌥ alt` + `B` | Open selected document in a new tab |
+| `Alt` + `B` | `⌥ alt` + `B` | Open selected document in a new browser tab |
 | `Alt` + `E` | `⌥ alt` + `E` | Open Advanced Edit Menu for selected document |
 | `Alt` + `Y` | `⌥ alt` + `Y` | Delete selected document |
 
