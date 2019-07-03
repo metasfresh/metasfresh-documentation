@@ -16,7 +16,7 @@ Ist Dir Dein Login-Passwort entfallen oder möchtest Du es ändern, dann folge b
 1. Klicke auf der Anmeldeseite unterhalb des Login-Buttons auf den Link "Passwort vergessen". Es öffnet sich ein neues Fenster.
 1. Gib in das Eingabefeld Deine in metasfresh gespeicherte Nutzer-E-Mail-Adresse ein und klicke auf ![](../EN/assets/SendResetCodeButton.png).
 1. Du erhältst nun von metasfresh eine E-Mail mit den Anweisungen zur Einrichtung eines neuen Passworts.
-1. Öffne die E-Mail in Deinem Postfach und klicke auf den darin enthaltenen Link. Es öffnet sich ein neuer Tab.
+1. Öffne die E-Mail in Deinem Postfach und klicke auf den darin enthaltenen Link. Es öffnet sich ein neuer Browser-Tab.
 1. Gib Dein **Neues Passwort** mit mindestens 8 Zeichen ein.
  >**Hinweis 1:** Stelle sicher, dass das Passwort ***mindestens 8 Zeichen*** hat, sonst wird es ***nicht gespeichert***!<br><br>
  >**Hinweis 2:** Beachte beim Passwort die ***Groß- und Kleinschreibung***!

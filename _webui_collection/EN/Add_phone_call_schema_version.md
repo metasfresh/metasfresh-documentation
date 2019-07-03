@@ -44,10 +44,10 @@ The following parameters can be combined with each other as desired and needed:
 
 1. Also in the field **Business Partner**, pick a contact, if the partner has more than one contact associated with their entry.
 1. In the field **Minimun Call Time**, enter the earliest time when the partner can be reached.
- >**Note:** To do so, click into the input field and on the time display in the small overlay and then use the arrows ![](assets/Time selection overlay.png) to set the desired time, or enter it manually.
+ >**Note:** To do so, click into the input field and on the time display in the small overlay and then use the arrows ![](assets/Time selection overlay.png) to set the time of your choice, or enter it manually.
 
 1. In the field **Maximum Call Time**, enter the latest time when the partner can be reached.
- >**Note:** To do so, click into the input field and on the time display in the small overlay and then use the arrows ![](assets/Time selection overlay.png) to set the desired time, or enter it manually.
+ >**Note:** To do so, click into the input field and on the time display in the small overlay and then use the arrows ![](assets/Time selection overlay.png) to set the time of your choice, or enter it manually.
 
 1. Click "Done" to close the overlay window and add the business partner to the list.
  >**Note:** Repeat steps 1 to 6 to add further business partners.

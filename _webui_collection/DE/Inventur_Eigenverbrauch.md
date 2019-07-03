@@ -17,7 +17,7 @@ Manche Produkte, die Du im Lagerbestand führst, sind für den Eigenverbrauch be
 1. [Starte die Quick-Action](AktionStarten) "Mass Disposal". Es öffnet sich ein Overlay-Fenster.
  >**Hinweis:** Diese Aktion findest Du ebenfalls im Aktionsmenü.
 
-1. Gib im Feld **Kostenstelle** einen Teil des Ortes der Kostenentstehung ein und klicke auf den passenden Treffer in der [Dropdown-Liste](Liste_Keyboard_Shortcuts), z.B. *Verwaltung*.
+1. Gib im Feld **Kostenstelle** einen Teil des Ortes der Kostenentstehung ein und klicke auf den passenden Treffer in der [Dropdown-Liste](Keyboard_Shortcuts_Liste), z.B. *Verwaltung*.
 1. ***Optional:*** Trage eine **Beschreibung** in das dafür vorgesehene Textfeld ein.
 1. Klicke auf "Start", um das Overlay-Fenster zu schließen und die ausgewählten HUs als Eigenverbrauch zu verbuchen.
 1. Du erhältst oben rechts eine [Benachrichtigung](Benachrichtigungsarten) ![](assets/NotificationBell_WebUI.png), sobald der Eigenverbrauch verbucht wurde.
