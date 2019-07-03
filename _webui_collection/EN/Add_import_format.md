@@ -12,7 +12,7 @@ ref: add_import_format
 ## Overview
 By means of an import format, you can specify which data, or rather columns, from an import file are to be transferred, how these columns are named and delimited (separators), and into which database tables the import data are to be taken over.
 
-Which columns you can choose from when adding an import format depends on the **DB table** that is linked to the format. As a system administrator, you can adapt, modify and extend this database table to [add custom fields to the import format](Import_format_add_custom_fields).
+Which columns you can choose from when adding an import format depends on the **DB table** that is linked to the format. As a system administrator, you can adapt, modify and extend this database table by [adding custom fields to the import format](Import_format_add_custom_fields).
 
 The following data can be imported to metasfresh:
 - [Business partner data](Import_bpartner_data)

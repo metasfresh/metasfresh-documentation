@@ -13,7 +13,7 @@ ref: export_product_data
 ## Übersicht
 In metasfresh kannst Du ganz einfach alle Produktspezifikationen auf einmal exportieren.
 
-Weitere Informationen über den Export einzelner Dateneinträge gibt es [hier](Datenexport_in_metasfresh).
+Weitere Informationen über den Export einzelner Dateneinträge gibt es [hier](Datenexport_aus_metasfresh).
 
 ## Schritte
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Produkte" in der [Listenansicht](Ansichten).

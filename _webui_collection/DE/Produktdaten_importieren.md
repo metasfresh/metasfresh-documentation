@@ -11,7 +11,7 @@ ref: import_product_data
 ---
 
 ## Voraussetzungen
-Stelle sicher, dass alle Voraussetzungen für den [Datenimport in metasfresh](Datenimport_in_metasfresh) erfüllt sind. [Hier findest Du ein Formatbeispiel für den Import von Produktdaten](Importformat_Beispiel_Produkt).
+Stelle sicher, dass alle Voraussetzungen für den [Datenimport in metasfresh](Datenimport_nach_metasfresh) erfüllt sind. [Hier findest Du ein Formatbeispiel für den Import von Produktdaten](Importformat_Beispiel_Produkt).
  >**Hinweis:** Für den Produktdatenimport benötigst Du ein Importformat, in dem die **DB-Tabelle** *Import - Produkt* eingestellt ist.
 
 ## Schritte

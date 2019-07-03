@@ -11,7 +11,7 @@ ref: import_discount_schema
 ---
 
 ## Voraussetzungen
-Stelle sicher, dass alle Voraussetzungen für den [Datenimport in metasfresh](Datenimport_in_metasfresh) erfüllt sind. [Hier findest Du ein Formatbeispiel für den Import von Rabattschemata](Importformat_Beispiel_Rabattschema).
+Stelle sicher, dass alle Voraussetzungen für den [Datenimport in metasfresh](Datenimport_nach_metasfresh) erfüllt sind. [Hier findest Du ein Formatbeispiel für den Import von Rabattschemata](Importformat_Beispiel_Rabattschema).
  >**Hinweis:** Für den Import von Rabattschemata benötigst Du ein Importformat, in dem die **DB-Tabelle** *I_DiscountSchema* eingestellt ist.
 
 ## Schritte
