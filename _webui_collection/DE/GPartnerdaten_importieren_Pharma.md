@@ -12,7 +12,7 @@ ref: import_bpartner_data_pharma
 ---
 
 ## Voraussetzungen
-Stelle sicher, dass alle Voraussetzungen für den [Datenimport in metasfresh](Datenimport_in_metasfresh) erfüllt sind. [Hier findest Du ein Formatbeispiel für den Import von IFA-Herstellerdaten](Importformat_Beispiel_GPartner_Pharma).
+Stelle sicher, dass alle Voraussetzungen für den [Datenimport in metasfresh](Datenimport_nach_metasfresh) erfüllt sind. [Hier findest Du ein Formatbeispiel für den Import von IFA-Herstellerdaten](Importformat_Beispiel_GPartner_Pharma).
  >**Hinweis:** Für den IFA-Herstellerdatenimport benötigst Du ein Importformat, in dem die **DB-Tabelle** *Import Pharma BPartners* eingestellt ist.
 
 ## Schritte

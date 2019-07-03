@@ -12,7 +12,7 @@ ref: import_product_data_pharma
 ---
 
 ## Voraussetzungen
-1. Stelle sicher, dass alle Voraussetzungen für den [Datenimport in metasfresh](Datenimport_in_metasfresh) erfüllt sind. [Hier findest Du ein Formatbeispiel für den Import von IFA-Produktdaten](Importformat_Beispiel_Produkt_Pharma).
+1. Stelle sicher, dass alle Voraussetzungen für den [Datenimport in metasfresh](Datenimport_nach_metasfresh) erfüllt sind. [Hier findest Du ein Formatbeispiel für den Import von IFA-Produktdaten](Importformat_Beispiel_Produkt_Pharma).
  >**Hinweis:** Für den IFA-Produktdatenimport benötigst Du ein Importformat, in dem die **DB-Tabelle** *Import Pharma Product* eingestellt ist.
 
 1. Stelle sicher, dass der jeweilige Anbieter eines IFA-Produktes unter "[Geschäftspartner Pharma](Menu)" vorhanden ist. Ist dies nicht der Fall, erstelle zuerst entweder [einen neuen Eintrag für den jeweiligen Geschäftspartner](Neuer_Geschaeftspartner) oder [importiere die IFA-Herstellerdaten](GPartnerdaten_importieren_Pharma).

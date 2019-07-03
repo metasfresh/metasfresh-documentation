@@ -11,7 +11,7 @@ ref: import_bpartner_data
 ---
 
 ## Voraussetzungen
-Stelle sicher, dass alle Voraussetzungen für den [Datenimport in metasfresh](Datenimport_in_metasfresh) erfüllt sind. [Hier findest Du ein Formatbeispiel für den Import von Geschäftspartnerdaten](Importformat_Beispiel_GPartner).
+Stelle sicher, dass alle Voraussetzungen für den [Datenimport in metasfresh](Datenimport_nach_metasfresh) erfüllt sind. [Hier findest Du ein Formatbeispiel für den Import von Geschäftspartnerdaten](Importformat_Beispiel_GPartner).
  >**Hinweis:** Für den Geschäftspartnerdatenimport benötigst Du ein Importformat, in dem die **DB-Tabelle** *Import - Geschäftspartner* eingestellt ist.
 
 ## Schritte

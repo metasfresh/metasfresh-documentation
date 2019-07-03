@@ -12,7 +12,7 @@ ref: add_import_format
 ## Überblick
 Mithilfe eines Importformats kannst Du festlegen, welche Daten bzw. Spalten aus einer Importdatei übernommen werden sollen, wie diese Spalten benannt und voneinander getrennt sind (Trennzeichen) und in welche Datenbanktabellen die Importdaten übertragen werden sollen.
 
-Welche Spalten Dir beim Anlegen eines Importformats zur Auswahl stehen, ist abhängig von der **DB-Tabelle**, die mit dem Format verknüpft ist. Als Systemadministrator kannst Du diese Datenbanktabelle anpassen, verändern und erweitern, um so in dem [Importformat eigene Felder hinzuzufügen](Importformat_erweitern_eigene_Felder).
+Welche Spalten Dir beim Anlegen eines Importformats zur Auswahl stehen, ist abhängig von der **DB-Tabelle**, die mit dem Format verknüpft ist. Als Systemadministrator kannst Du diese Datenbanktabelle anpassen, verändern und erweitern, um so dem [Importformat eigene Felder hinzuzufügen](Importformat_erweitern_eigene_Felder).
 
 Folgende Daten können nach metasfresh importiert werden:
 - [Geschäftspartnerdaten](GPartnerdaten_importieren)
@@ -28,7 +28,7 @@ Folgende Daten können nach metasfresh importiert werden:
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Import Formate".
 1. [Lege ein neues Importformat an](Neuer_Datensatz_Fenster_Webui).
 1. Benenne das Importformat im Feld **Name**.
-1. Wähle die entsprechende **DB-Tabelle** aus, in die die Daten importiert werden sollen, z.B. für Geschäftspartner *Import - Geschäftspartner*, für Produkte *Import - Produkt* usw. ([siehe Übersichtstabelle hier](Datenimport_in_metasfresh))
+1. Wähle die entsprechende **DB-Tabelle** aus, in die die Daten importiert werden sollen, z.B. für Geschäftspartner *Import - Geschäftspartner*, für Produkte *Import - Produkt* usw. ([siehe Übersichtstabelle hier](Datenimport_nach_metasfresh))
 1. Wähle ein **Format** (Trennzeichen) aus, z.B. *Tabulator-separiert*.
  >**Hinweis:** Für einen erfolgreichen Datenimport muss das Trennzeichen der Importdatei mit dem aus dem Importformat übereinstimmen (Komma, Tabulatorzeichen, Semikolon usw.).
 
