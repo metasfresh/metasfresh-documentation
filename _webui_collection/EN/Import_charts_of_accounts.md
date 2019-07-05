@@ -11,7 +11,7 @@ ref: import_charts_of_accounts
 ---
 
 ## Requirements
-Make sure to comply with all requirements for the [data import in metasfresh](Data_import_metasfresh). [Here you can find a format example for importing chart of accounts data](Import_format_example_bpartner).
+Make sure to comply with all requirements for the [data import in metasfresh](Data_import_metasfresh). [Here you can find a format example for importing chart of accounts data](Import_format_example_charts_of_accounts).
  >**Note:** For importing chart of accounts data, you require an import format that is configured with the **database table** *Import Account*.
 
 ## Steps

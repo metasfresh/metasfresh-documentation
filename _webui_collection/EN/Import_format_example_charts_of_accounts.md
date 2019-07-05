@@ -40,7 +40,7 @@ The mandatory fields are essential for a successful data import!
 |  | Post Actual | • Y = Yes<br> • N = No | Indicates whether actual values can be posted to an element. |
 |  | Post Budget | • Y = Yes<br> • N = No | Indicates whether budget values can be posted to an element. |
 |  | Post Statistical | • Y = Yes<br> • N = No | Indicates whether statistical values can be posted to an element. |
-|  | Document Controlled | • Y = Yes<br> • N = No | If an account is controlled by a document, you cannot post manually to it. |
+|  | Document Controlled | • Y = Yes<br> • N = No | If an account is controlled by a document, you cannot post to it manually. |
 
 ## Next Steps
 - [Import chart of accounts data](Import_charts_of_accounts).
