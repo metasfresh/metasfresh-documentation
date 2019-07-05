@@ -27,8 +27,8 @@ Make sure to comply with all requirements for the [data import in metasfresh](Da
 ### Review Discount Schema Data
 1. Open "Import Discount Schema" from the [menu](Menu). Here you will find all imported discount schema entries.
 1. Open the entry of the discount schema whose data you want to review and correct, if necessary.
- - If all data are transferred properly and without errors, this discount schema entry will be read-only and you can find the imported data under "[Discount Schema](Menu)" in the menu. All further changes can be made there.
- - Should data be transferred incorrectly or be missing after the import, you can review and edit each discount schema entry under "[Import Discount Schema](Menu)". After you have rectified all inaccuracies, you can now manually import the discount schema data. To do so, please proceed as follows:
+ - If all data were transferred properly and without errors, this discount schema entry will be read-only and you can find the imported data under "[Discount Schema](Menu)" in the menu. All further changes can be made there.
+ - In case data were transferred incorrectly or are missing after the import, you can review and edit each discount schema entry under "[Import Discount Schema](Menu)". After having rectified all inaccuracies, you can now manually import the discount schema data. To do so, please proceed as follows:
 
 #### Manual Discount Schema Data Import
 1. [Start the action](StartAction) "Import Discount Schema". An overlay window opens up.

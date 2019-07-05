@@ -27,8 +27,8 @@ Make sure to comply with all requirements for the [data import in metasfresh](Da
 ### Review Replenishment Data
 1. Open "Import Replenishment" from the [menu](Menu). Here you will find all imported replenishment entries.
 1. Open the replenishment entry whose data you want to review and correct, if necessary.
- - If all data are transferred properly and without errors, this replenishment entry will be read-only and you can find the imported data in the respective [warehouse](Menu) and [product](Menu) entry under the record tab "Replenish". All further changes can be made there.
- - Should data be transferred incorrectly or be missing after the import, you can review and edit each replenishment entry under "[Import Replenishment](Menu)". After you have rectified all inaccuracies, you can now manually import the replenishment data. To do so, please proceed as follows:
+ - If all data were transferred properly and without errors, this replenishment entry will be read-only and you can find the imported data in the respective [warehouse](Menu) and [product](Menu) entry under the record tab "Replenish". All further changes can be made there.
+ - In case data were transferred incorrectly or are missing after the import, you can review and edit each replenishment entry under "[Import Replenishment](Menu)". After having rectified all inaccuracies, you can now manually import the replenishment data. To do so, please proceed as follows:
 
 #### Manual Replenishment Data Import
 1. [Start the action](StartAction) "Import Replenishments". An overlay window opens up.

@@ -35,6 +35,7 @@ Welche Spalten Dir beim Anlegen eines Importformats zur Auswahl stehen, ist abh√
 - [Gesch√§ftspartnerdaten importieren](GPartnerdaten_importieren).
 - [IFA-Herstellerdaten importieren](GPartnerdaten_importieren_Pharma).
 - [IFA-Produktdaten importieren](Produktdaten_importieren_Pharma).
+- [Kontenrahmendaten importieren](Kontenrahmendaten_importieren).
 - [Nachbestelldaten importieren](Nachbestelldaten_importieren).
 - [Produktdaten importieren](Produktdaten_importieren).
 - [Rabattschemadaten importieren](Rabattschema_importieren).
