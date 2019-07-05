@@ -16,6 +16,7 @@ Hier sind ein paar Formatbeispiele für den Import von:
 - [Geschäftspartnerdaten](Importformat_Beispiel_GPartner)
 - [IFA-Herstellerdaten](Importformat_Beispiel_GPartner_Pharma)
 - [IFA-Produktdaten](Importformat_Beispiel_Produkt_Pharma)
+- [Kontenrahmendaten](Importformat_Beispiel_Kontenrahmen)
 - [Nachbestelldaten](Importformat_Beispiel_Nachbestellung)
 - [Produktdaten](Importformat_Beispiel_Produkt)
 - [Rabattschemadaten](Importformat_Beispiel_Rabattschema)
@@ -34,6 +35,7 @@ Bitte achte bei der Erstellung einer Importdatei auf Folgendes:
 - [Geschäftspartnerdaten importieren](GPartnerdaten_importieren).
 - [IFA-Herstellerdaten importieren](GPartnerdaten_importieren_Pharma).
 - [IFA-Produktdaten importieren](Produktdaten_importieren_Pharma).
+- [Kontenrahmendaten importieren](Kontenrahmendaten_importieren).
 - [Nachbestelldaten importieren](Nachbestelldaten_importieren).
 - [Produktdaten importieren](Produktdaten_importieren).
 - [Rabattschemadaten importieren](Rabattschema_importieren).

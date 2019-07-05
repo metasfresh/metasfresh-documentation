@@ -33,6 +33,7 @@ Which columns you can choose from when adding an import format depends on the **
 
 ## Next Steps (optional)
 - [Import business partner data](Import_bpartner_data).
+- [Import chart of accounts data](Import_charts_of_accounts).
 - [Import discount schema data](Import_discount_schema).
 - [Import product data](Import_product_data).
 - [Import replenishment data](Import_replenishment_data).
