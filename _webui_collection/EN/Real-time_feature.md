@@ -1,21 +1,16 @@
 ---
-title: Unique window IDs and real-time window update
+title: Real-time window update
 layout: default
 tags:
   - A Beginner's Guide to metasfresh
   - Features
 lang: en
-sequence: 40
+sequence: 50
 ref: real-time_feature
 ---
 
 ## Overview
-In metasfresh, each window and document has its own unique ID or hyperlink that you can share with colleagues in other locations so they can see exactly the same content as you, provided they have the same [user rights](NewUserRole).
-
-For example, in a window in [list view](ViewModes) you can [filter](Filtering_function) a table by date, copy the resulting hyperlink from your browser's address bar and email it to a specific person who can then open that link in their browser to view your filter result.
-
-In addition, two or more users with the same link can simultaneously work in the same window and follow each other's input in real time.
-In this way, metasfresh enables global, simultaneous team collaboration, ensuring that everyone can view the same data and that no unwanted duplicates are created.
+In addition to [unique window URLs](Unique_window_URLs), metasfresh also allows two or more users with the same hyperlink to simultaneously work in the same window and follow each other's input in real time. In this way, metasfresh enables global, simultaneous team collaboration, ensuring that everyone can view the same data and that no unwanted duplicates are created.
 
 ### Hyperlink exchange & real-time window update
 ![](assets/Real-time_feature.gif)
