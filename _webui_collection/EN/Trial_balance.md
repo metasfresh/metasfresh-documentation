@@ -12,7 +12,7 @@ ref: trial_balance
 1. Open "Balance" from the [menu](Menu). An overlay window opens up.
 1. Choose a **Date** for which you want to create a trial balance.
 1. Click "Start" to create the balance and close the overlay window.
-1. A PDF file opens up showing the trial balance and you can save it to your device.
+1. A PDF file opens up showing the trial balance that you can save to your device.
 
 ## Example
 ![](assets/Trial_balance.gif)
