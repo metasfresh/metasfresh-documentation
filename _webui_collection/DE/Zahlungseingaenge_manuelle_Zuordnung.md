@@ -2,7 +2,7 @@
 title: Wie ordne ich eine einzelne Zahlung mehreren Rechnungen zu?
 layout: default
 tags:
-  - Rechnungswesen
+  - Buchhaltung
   - Forderungen und Verbindlichkeiten
   - Zahlungseingänge (Forderungen)
 lang: de

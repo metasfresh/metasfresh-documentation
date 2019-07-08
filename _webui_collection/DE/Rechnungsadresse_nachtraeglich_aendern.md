@@ -2,7 +2,7 @@
 title: Wie ändere ich nachträglich die Rechnungsempfängerdaten?
 layout: default
 tags:
-  - Rechnungswesen
+  - Buchhaltung
   - Fakturierung
 lang: de
 sequence: 20

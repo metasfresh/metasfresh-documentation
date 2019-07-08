@@ -2,7 +2,7 @@
 title: Wie richte ich eine Mahnart ein?
 layout: default
 tags:
-  - Rechnungswesen
+  - Buchhaltung
   - Mahnwesen
   - Einrichtung
 lang: de
