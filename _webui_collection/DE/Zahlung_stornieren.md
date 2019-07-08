@@ -2,7 +2,7 @@
 title: Wie mache ich verbuchte Zahlungseingänge rückgängig?
 layout: default
 tags:
-  - Rechnungswesen
+  - Buchhaltung
   - Forderungen und Verbindlichkeiten
   - Zahlungseingänge (Forderungen)
 lang: de

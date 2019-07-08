@@ -2,7 +2,7 @@
 title: Wie aktiviere ich Sammelrechnungen für Kunden?
 layout: default
 tags:
-  - Rechnungswesen
+  - Buchhaltung
   - Fakturierung
 lang: de
 sequence: 10

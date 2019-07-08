@@ -2,7 +2,7 @@
 title: Wie verknüpfe ich eine Mahnart mit einem Partner?
 layout: default
 tags:
-  - Rechnungswesen
+  - Buchhaltung
   - Mahnwesen
   - Einrichtung
 lang: de

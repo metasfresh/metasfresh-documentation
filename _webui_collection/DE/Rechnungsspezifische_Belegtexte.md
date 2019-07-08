@@ -2,7 +2,7 @@
 title: Wie erfasse ich rechnungsspezifische Belegtexte?
 layout: default
 tags:
-  - Rechnungswesen
+  - Buchhaltung
   - Fakturierung
 lang: de
 sequence: 40

@@ -2,7 +2,7 @@
 title: Wie storniere ich eine Rechnung?
 layout: default
 tags:
-  - Rechnungswesen
+  - Buchhaltung
   - Fakturierung
 lang: de
 sequence: 30

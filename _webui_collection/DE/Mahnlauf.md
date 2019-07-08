@@ -2,7 +2,7 @@
 title: Wie führe ich einen Mahnlauf durch? (Mahnbrief erstellen)
 layout: default
 tags:
-  - Rechnungswesen
+  - Buchhaltung
   - Mahnwesen
 lang: de
 sequence: 10

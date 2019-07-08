@@ -2,7 +2,7 @@
 title: Wie verbuche ich Zahlungseingänge für einzelne Rechnungen?
 layout: default
 tags:
-  - Rechnungswesen
+  - Buchhaltung
   - Forderungen und Verbindlichkeiten
   - Zahlungseingänge (Forderungen)
 lang: de
