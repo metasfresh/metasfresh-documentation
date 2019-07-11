@@ -21,7 +21,7 @@ In metasfresh, you can easily change the name and/or address of the invoice reci
 ### a) Before invoicing
 1. Open "Sales Order" from the [menu](Menu).
 1. Open the entry of a [completed sales order](SalesOrder_recording) for which you want to change the bill-to information.
-1. [Jump to](JumptoviaSidebar) "Invoice Disposition" and open the entry of the corresponding billing candidate.
+1. [Jump to](JumptoviaSidebar) "Billing Candidates" and open the entry of the corresponding billing candidate.
 1. Open the [advanced edit menu](ViewModes) from the [actions menu](StartAction).
  >**Note:** Use shortcut `Alt` + `E` / `⌥ alt` + `E`.
 
