@@ -13,7 +13,7 @@ ref: change_password
 Ist Dir Dein Login-Passwort entfallen oder möchtest Du es ändern, dann folge bei Deiner nächsten Anmeldung einfach der "Passwort vergessen"-Funktion und richte Dein neues Passwort ein.
 
 ## Passwort ändern (Passwort vergessen)
-1. Klicke auf der Anmeldeseite unterhalb des Login-Buttons auf den Link "Passwort vergessen". Es öffnet sich ein neues Fenster.
+1. Klicke auf der Anmeldeseite unterhalb des Login-Buttons auf den Link "Forgot Password". Es öffnet sich ein neues Fenster.
 1. Gib in das Eingabefeld Deine in metasfresh gespeicherte Nutzer-E-Mail-Adresse ein und klicke auf ![](../EN/assets/SendResetCodeButton.png).
 1. Du erhältst nun von metasfresh eine E-Mail mit den Anweisungen zur Einrichtung eines neuen Passworts.
 1. Öffne die E-Mail in Deinem Postfach und klicke auf den darin enthaltenen Link. Es öffnet sich ein neuer Browser-Tab.
