@@ -9,6 +9,5 @@ lang: en
 ## Symptoms
 Possible symptoms may be that no data are shown in the material schedule.
 
-
 ## Analysis
 Go to the window "[Event Log](..\..\webui_collection/EN/Menu.html)" (`/window/540394`) and check there for messages helping to analyze the problem.
