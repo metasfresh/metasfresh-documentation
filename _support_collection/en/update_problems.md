@@ -9,7 +9,7 @@ lang: en
 ## Issue
 When trying to update to a new version, errors on the app server may occur similar to the following:
 
-### Error No. 1
+## Error No. 1
 ```
 app_1             |     CONTEXT:  SQL statement "SELECT update_Menu_Translation_From_AD_Element(p_AD_Element_ID, p_AD_Language)"
 app_1             |     PL/pgSQL function update_trl_tables_on_ad_element_trl_update(numeric,character varying) line 113 at PERFORM
@@ -38,7 +38,7 @@ INSERT INTO public.ad_element (ad_element_id, ad_client_id, ad_org_id, isactive,
 
 ---
 
-### Error No. 2
+## Error No. 2
 ```
 app_1             |     psql:/opt/metasfresh/dist/sql/76-de.metas.vertical.creditscore.creditpass/5518780_sys_gh5016_add_missing_AD_Element_Link_records.sql:1: NOTICE:  2172 records added for missing AD_Fields
 app_1             |     CONTEXT:  SQL statement "SELECT AD_Element_Link_Create_Missing_Field()"
@@ -55,7 +55,7 @@ select migrationscript_ignore('76-de.metas.vertical.creditscore.creditpass/55187
 
 ---
 
-### Error No. 3
+## Error No. 3
 ```
    psql:/opt/metasfresh/dist/sql/10-de.metas.adempiere/5518990_sys_gh5121_AddSeparateColumnsForCompanyValueAndNameAndCompanyNameFilter.sql:4: ERROR:  duplicate key value violates unique constraint "ad_column_name"
 app_1             |     DETAIL:  Key (ad_table_id, columnname)=(114, Companyname) already exists.
@@ -69,7 +69,7 @@ update ad_column set columnname = 'Companyname_2' where columnname='Companyname'
 
 ---
 
-### Error No. 4
+## Error No. 4
 ```
 app_1             |     psql:/opt/metasfresh/dist/sql/10-de.metas.adempiere/5521480_sys_gh5192_C_Postal_UniqueIndex.sql:19: ERROR:  could not create unique index "c_postal_unique"
 app_1             |     DETAIL:  Key (c_country_id, postal, (COALESCE(city, ''::character varying)), (COALESCE(township, ''::character varying)))=(107, 7556, Ramosch, ) is duplicated.
