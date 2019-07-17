@@ -31,6 +31,7 @@ app_1             |     DETAIL:  Key (ad_name_id)=(1003093) is not present in ta
 
 ### Workaround for Error No. 1
 Add the missing element that was referenced by `ad_name_id` by getting the record from another database:
+
 ```sql
 INSERT INTO public.ad_element (ad_element_id, ad_client_id, ad_org_id, isactive, created, createdby, updated, updatedby, columnname, entitytype, name, printname, description, help, po_name, po_printname, po_description, po_help, widgetsize, commitwarning, webui_namebrowse, webui_namenewbreadcrumb, webui_namenew) VALUES (1003093, 0, 0, 'Y', '2018-10-15 15:04:04.943585 +02:00', 99, '2018-10-15 15:04:04.943585 +02:00', 99, null, 'D', 'Kommentar/Hilfe', 'Kommentar/Hilfe', 'Comment or Hint', 'The Help field contains a hint, comment or help about the use of this item.', null, null, null, null, null, null, null, null, null);
 
@@ -78,4 +79,19 @@ app_1             |     DETAIL:  Key (c_country_id, postal, (COALESCE(city, ''::
 ### Workaround for Error No. 4
 ```sql
 select migrationscript_ignore('10-de.metas.adempiere/5521480_sys_gh5192_C_Postal_UniqueIndex.sql');
+```
+
+---
+
+## Error No. 5
+Occurring after SQL migration is done:
+
+```
+psql:/tmp/after_migration.1528556815613020924.sql:1: ERROR:  duplicate key value violates unique constraint "ad_element_link_uniquetab"
+app_1             |     DETAIL:  Key (ad_tab_id)=(540877) already exists.
+```
+
+### Workaround for Error No. 5
+```sql
+delete from ad_element_link where ad_tab_id = 540877;
 ```
