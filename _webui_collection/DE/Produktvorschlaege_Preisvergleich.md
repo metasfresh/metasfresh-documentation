@@ -24,7 +24,7 @@ ref: product_proposals_compare_prices
 
 ### Speichern und fortfahren
 1. Klicke auf "Bestätigen", um die Änderungen zu übernehmen und die Liste der Produktvorschläge zu schließen.
-1. Fahre fort mit den restlichen Schritten der [Auftragserfassung](Auftrag_erfassen) oder [Bestellerfassung](Bestellung_erfassen), sofern nötig.
+1. Fahre fort mit den restlichen Schritten der [Auftragserfassung](Auftrag_erfassen) oder [Bestellerfassung](Bestellung_erfassen), falls erforderlich.
 
 ## Nächste Schritte (optional)
 - [Verwende die Liste der Produktvorschläge bei der Auftrags- oder Bestellerfassung](Produktvorschlaege_Auftrag_Bestellung).

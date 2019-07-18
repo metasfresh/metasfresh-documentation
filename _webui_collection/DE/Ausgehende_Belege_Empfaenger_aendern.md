@@ -22,7 +22,7 @@ Damit Du [Belege per E-Mail aus "Ausgehende Belege" versenden](Email_senden_ausg
 1. Das Feld **Mailadresse** wird in diesem Fall automatisch ausgefüllt, sofern eine E-Mail-Adresse vorhanden ist.
 
 ### b) Abweichenden E-Mail-Empfänger angeben
-1. Entferne den Inhalt aus den Feldern **Mailempfänger** und **Mailadresse**, sofern nötig.
+1. Entferne den Inhalt aus den Feldern **Mailempfänger** und **Mailadresse**, falls erforderlich.
 1. Trage eine abweichende **Mailadresse** ein.
 1. [metasfresh speichert automatisch](Speicheranzeige).
 

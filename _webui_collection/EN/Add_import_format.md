@@ -15,6 +15,7 @@ By means of an import format, you can specify which data, or rather columns, fro
 Which columns you can choose from when adding an import format depends on the **DB table** that is linked to the format. As a system administrator, you can adapt, modify and extend this database table by [adding custom fields to the import format](Import_format_add_custom_fields).
 
 The following data can be imported to metasfresh:
+- [Bank statement data](Import_bank_statement_data)
 - [Business partner data](Import_bpartner_data)
 - [Chart of accounts data](Import_charts_of_accounts)
 - [Discount schema data](Import_discount_schema)
@@ -53,6 +54,7 @@ If you want to add a new import format with the same format fields as an existin
 1. Click "Start" to copy the format fields and close the overlay window.
 
 ## Next Steps
+- [Import bank statement data](Import_bank_statement_data).
 - [Import business partner data](Import_bpartner_data).
 - [Import chart of accounts](Import_charts_of_accounts).
 - [Import discount schema data](Import_discount_schema).

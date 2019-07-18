@@ -21,6 +21,7 @@ ref: add_new_data_import_entry
 1. [metasfresh speichert automatisch](Speicheranzeige).
 
 ## Nächste Schritte
+- [Bankauszugsdaten importieren](Bankauszugsdaten_importieren).
 - [Geschäftspartnerdaten importieren](GPartnerdaten_importieren).
 - [IFA-Herstellerdaten importieren](GPartnerdaten_importieren_Pharma).
 - [IFA-Produktdaten importieren](Produktdaten_importieren_Pharma).

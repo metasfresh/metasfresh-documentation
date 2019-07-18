@@ -16,6 +16,7 @@ You can quickly import externally stored data (such as Excel spreadsheets with d
 
 | Import Data | Corresponding DB Table |
 | :--- | :---: |
+| Bank Statement Data | Import Bank Statement |
 | Business Partner Data | Import Business Partner |
 | Chart of Accounts Data | Import Account |
 | Discount Schema Data | Discount Schema Import |
@@ -24,6 +25,7 @@ You can quickly import externally stored data (such as Excel spreadsheets with d
 
 1. [Add an import format using the appropriate database table](Add_import_format) (see above) where you define the data, or rather the columns, as well as their data types that are to be transferred from the import file into metasfresh.
 1. Have an [import file](Import_file_useful_tips) ready containing data formatted according to the import format.<br> ***Format examples:***
+ - [Bank statement data import](Import_format_example_bank_statement)
  - [Business partner data import](Import_format_example_bpartner)
  - [Chart of accounts data import](Import_format_example_charts_of_accounts)
  - [Discount schema data import](Import_format_example_discount_schema)
@@ -31,6 +33,7 @@ You can quickly import externally stored data (such as Excel spreadsheets with d
  - [Replenishment data import](Import_format_example_replenishments)
 
 1. Import your data using the appropriate import format.
+ - [Follow these instructions](Import_bank_statement_data) to import external data on **bank statements** into metasfresh.
  - [Follow these instructions](Import_bpartner_data) to import external data on **business partners** into metasfresh.
  - [Follow these instructions](Import_charts_of_accounts) to import external data on **charts of accounts** into metasfresh.
  - [Follow these instructions](Import_discount_schema) to import external data on **discount schemas** into metasfresh.

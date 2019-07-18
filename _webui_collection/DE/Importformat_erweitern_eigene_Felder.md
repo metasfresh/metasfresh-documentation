@@ -32,6 +32,7 @@ Welche Spalten Dir beim Anlegen eines Importformats zur Auswahl stehen, ist abh�
 | **Die Aktivierung neuer Spalten wird von unseren Entwicklern übernommen. Setze Dich bei Bedarf einfach mit uns in Kontakt und wir kümmern uns darum!** |
 
 ## Nächste Schritte (optional)
+- [Bankauszugsdaten importieren](Bankauszugsdaten_importieren).
 - [Geschäftspartnerdaten importieren](GPartnerdaten_importieren).
 - [IFA-Herstellerdaten importieren](GPartnerdaten_importieren_Pharma).
 - [IFA-Produktdaten importieren](Produktdaten_importieren_Pharma).

@@ -13,6 +13,7 @@ ref: import_file_useful_tips
 Damit Du extern gespeicherte Daten in metasfresh importieren kannst, musst Du sie erst entsprechend formatiert als CSV- oder TXT-Datei hochladen und kannst sie dann einfach über das [Aktionsmenü](AktionStarten) importieren.
 
 Hier sind ein paar Formatbeispiele für den Import von:
+- [Bankauszugsdaten](Importformat_Beispiel_Bankauszug)
 - [Geschäftspartnerdaten](Importformat_Beispiel_GPartner)
 - [IFA-Herstellerdaten](Importformat_Beispiel_GPartner_Pharma)
 - [IFA-Produktdaten](Importformat_Beispiel_Produkt_Pharma)
@@ -32,6 +33,7 @@ Bitte achte bei der Erstellung einer Importdatei auf Folgendes:
  >**Hinweis:** metasfresh erwartet ***keine Spaltennamen*** in der Importdatei. Alleine die ***Position*** der Spalte muss mit der Startnummer übereinstimmmen.
 
 ## Nächste Schritte
+- [Bankauszugsdaten importieren](Bankauszugsdaten_importieren).
 - [Geschäftspartnerdaten importieren](GPartnerdaten_importieren).
 - [IFA-Herstellerdaten importieren](GPartnerdaten_importieren_Pharma).
 - [IFA-Produktdaten importieren](Produktdaten_importieren_Pharma).
