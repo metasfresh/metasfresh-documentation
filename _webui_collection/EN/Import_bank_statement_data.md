@@ -11,7 +11,7 @@ ref: import_bank_statement_data
 ---
 
 ## Requirements
-Make sure to comply with all requirements for the [data import in metasfresh](Data_import_metasfresh). [Here you can find a format example for importing bank statement data](Import_format_example_bpartner).
+Make sure to comply with all requirements for the [data import in metasfresh](Data_import_metasfresh). [Here you can find a format example for importing bank statement data](Import_format_example_bank_statement).
  >**Note:** For importing business partner data, you require an import format that is configured with the **database table** *Import Bank Statement*.
 
 ## Steps
