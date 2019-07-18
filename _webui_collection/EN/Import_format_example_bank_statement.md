@@ -31,7 +31,7 @@ The mandatory fields as well as the requirement that the IBANs belong to existin
 
 | Mandatory Field | Field Name | Example | Note |
 | :---: | :---: | :--- | :--- |
-| X | Header IBAN | DE00 1234 5678 9876 5432 10 | The IBAN of the account that is used for incoming and outgoing payments (usually, e.g., the company account), stated here as a constant value. Therefore, it does not have to be included in the import file. |
+| X | Header IBAN | DE00 1234 5678 9876 5432 10 | The IBAN of the account that is used for incoming and outgoing payments (usually, e.g., the company account) is stated here as a constant value. Therefore, it does not have to be included in the import file. |
 |  | Effective Date | 14.05.2018 | The date from when the money is effectively available. |
 |  | Statement Line Date | 15.05.2018 | Value date |
 |  | Bill-to Partner | Sequoia Inc. | The name of the invoice recipient |

@@ -24,14 +24,14 @@ In dem folgenden Beispiel wird der Dateninhalt aus einer Datei einer Tabellenkal
 - Der **Name** des Formatfeldes ist frei wählbar und muss nicht mit der Benennung der Spalte aus der Importdatei übereinstimmen.
 - Die **Spalte** des Formatfeldes bestimmt, wohin metasfresh den Inhalt der Spalte aus der Importdatei übertragen soll.
 - Der **Datentyp** bestimmt, ob es sich bei den Importdaten z.B. um eine *Zeichenfolge* oder *Zahl* handelt.
-- Das erste Formatfeld "Kopfzeile IBAN" in der Liste mit dem Datentyp *Konstant* verfügt über keine Startnummer und muss daher nicht in der Importdatei enthalten sein. Die im Feld in der Spalte **Konstante** eingetragene IBAN wird immer als Transaktionskonto des Unternehmens für Zahlungsein- und -ausgänge angegeben.
+- Das erste Formatfeld "Kopfzeile IBAN" in der Liste mit dem Datentyp *Konstant* verfügt über keine Startnummer und muss daher nicht in der Importdatei enthalten sein. Die im Feld in der Spalte **Konstante** eingetragene IBAN wird immer als Transaktionskonto des Unternehmens für Zahlungsein- und -ausgänge verwendet.
 
 ### Einige nützliche Hinweise
-Die Angabe der Pflichtfelder sowie die vorausgesetzte Zugehörigkeit der IBANs zu existierenden Bankkonten sind unerlässlich für einen erfolgreichen Datenimport!
+Die Angabe der Pflichtfelder sowie die vorausgesetzte Zuordnung der IBANs zu existierenden Bankkonten sind unerlässlich für einen erfolgreichen Datenimport!
 
 | Pflichtfeld | Feldname | Beispiel | Hinweis |
 | :---: | :---: | :--- | :--- |
-| X | Kopfzeile IBAN | DE00 1234 5678 9876 5432 10 | Die IBAN des Kontos, auf das Zahlungsein- und -ausgänge gebucht werden (üblicherweise z.B. das Unternehmenskonto), welches hier als Konstante angegeben wird. Es muss daher nicht in der Importdatei enthalten sein. |
+| X | Kopfzeile IBAN | DE00 1234 5678 9876 5432 10 | Die IBAN des Kontos, auf das Zahlungsein- und -ausgänge gebucht werden (üblicherweise z.B. das Unternehmenskonto), wird hier als Konstante angegeben. Sie muss daher nicht in der Importdatei enthalten sein. |
 |  | Effektives Datum | 14.05.2018 | Das Datum, ab dem der Geldbetrag effektiv zur Verfügung steht. |
 |  | Valutadatum | 15.05.2018 | Wertstellungsdatum |
 |  | Rechnungspartner | Sequoia GmbH | Der Name des Rechnungspartners |
