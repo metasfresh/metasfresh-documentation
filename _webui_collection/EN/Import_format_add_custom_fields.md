@@ -32,6 +32,7 @@ Which columns you can choose from when adding an import format depends on the **
 | **The activation of new columns is done by our developers. Just contact us and we will take care of it!** |
 
 ## Next Steps (optional)
+- [Import bank statement data](Import_bank_statement_data).
 - [Import business partner data](Import_bpartner_data).
 - [Import chart of accounts data](Import_charts_of_accounts).
 - [Import discount schema data](Import_discount_schema).

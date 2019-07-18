@@ -13,6 +13,7 @@ ref: import_file_useful_tips
 In order to import externally stored data into metasfresh, you first have to format the data appropriately, upload them as a CSV or a TXT file and then simply import them via the [actions menu](StartAction).
 
 Here are some format examples for the import of:
+- [Bank statement data](Import_format_example_bank_statement)
 - [Business partner data](Import_format_example_bpartner)
 - [Chart of accounts data](Import_format_example_charts_of_accounts)
 - [Discount schema data](Import_format_example_discount_schema)
@@ -30,6 +31,7 @@ When creating an import file, please keep in mind the following:
  >**Note:** metasfresh does ***not expect any column names*** in the import file. Simply the ***position*** of the column must correspond to the start number.
 
 ## Next Steps
+- [Import bank statement data](Import_bank_statement_data).
 - [Import business partner data](Import_bpartner_data).
 - [Import chart of accounts data](Import_charts_of_accounts).
 - [Import discount schema data](Import_discount_schema).

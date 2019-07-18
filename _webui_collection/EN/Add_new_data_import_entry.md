@@ -21,6 +21,7 @@ ref: add_new_data_import_entry
 1. [metasfresh saves the progress automatically](Saveindicator).
 
 ## Next Steps
+- [Import bank statement data](Import_bank_statement_data).
 - [Import business partner data](Import_bpartner_data).
 - [Import chart of accounts data](Import_charts_of_accounts).
 - [Import discount schema data](Import_discount_schema).

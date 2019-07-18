@@ -15,6 +15,7 @@ Mithilfe eines Importformats kannst Du festlegen, welche Daten bzw. Spalten aus 
 Welche Spalten Dir beim Anlegen eines Importformats zur Auswahl stehen, ist abhängig von der **DB-Tabelle**, die mit dem Format verknüpft ist. Als Systemadministrator kannst Du diese Datenbanktabelle anpassen, verändern und erweitern, um so dem [Importformat eigene Felder hinzuzufügen](Importformat_erweitern_eigene_Felder).
 
 Folgende Daten können nach metasfresh importiert werden:
+- [Bankauszugsdaten](Bankauszugsdaten_importieren)
 - [Geschäftspartnerdaten](GPartnerdaten_importieren)
 - [IFA-Herstellerdaten](GPartnerdaten_importieren_Pharma)
 - [IFA-Produktdaten](Produktdaten_importieren_Pharma)
@@ -55,6 +56,7 @@ Möchtest Du ein neues Importformat anlegen mit den gleichen Formatfeldern wie e
 1. Klicke auf "Start", um die Formatfelder zu übertragen und das Overlay-Fenster zu schließen.
 
 ## Nächste Schritte
+- [Bankauszugsdaten importieren](Bankauszugsdaten_importieren).
 - [Geschäftspartnerdaten importieren](GPartnerdaten_importieren).
 - [IFA-Herstellerdaten importieren](GPartnerdaten_importieren_Pharma).
 - [IFA-Produktdaten importieren](Produktdaten_importieren_Pharma).

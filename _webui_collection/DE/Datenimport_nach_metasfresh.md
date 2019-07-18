@@ -16,6 +16,7 @@ Mithilfe der Importfunktion kannst Du extern gespeicherte Daten (wie z.B. Excel-
 
 | Zu importierende Daten | Entsprechende DB-Tabelle |
 | :--- | :---: |
+| Bankauszugsdaten | Import - Bankauszug |
 | Geschäftspartnerdaten | Import - Geschäftspartner |
 | IFA-Herstellerdatenimport | Import Pharma BPartners |
 | IFA-Produktdaten | Import Pharma Product |
@@ -26,6 +27,7 @@ Mithilfe der Importfunktion kannst Du extern gespeicherte Daten (wie z.B. Excel-
 
 1. [Lege ein Importformat mit entsprechender Datenbanktabelle an](Importformat_anlegen) (siehe oben), in dem Du die Daten bzw. Spalten sowie deren Datentypen festlegst, welche aus der Importdatei in metasfresh übertragen werden sollen.
 1. Halte eine [Importdatei](Importdatei_nuetzliche_Hinweise) mit den dem Importformat entsprechend formatierten Daten bereit.<br> ***Formatbeispiele:***
+ - [Bankauszugsdatenimport](Importformat_Beispiel_Bankauszug)
  - [Geschäftspartnerdatenimport](Importformat_Beispiel_GPartner)
  - [IFA-Herstellerdatenimport](Importformat_Beispiel_GPartner_Pharma)
  - [IFA-Produktdatenimport](Importformat_Beispiel_Produkt_Pharma)
@@ -35,6 +37,7 @@ Mithilfe der Importfunktion kannst Du extern gespeicherte Daten (wie z.B. Excel-
  - [Rabattschemadatenimport](Importformat_Beispiel_Rabattschema)
 
 1. Importiere Deine Daten unter Verwendung des entsprechenden Importformats.
+ - [Folge dieser Anleitung](Bankauszugsdaten_importieren), um externe Daten zu **Bankauszügen** nach metasfresh zu importieren.
  - [Folge dieser Anleitung](GPartnerdaten_importieren), um externe Daten zu **Geschäftspartnern** nach metasfresh zu importieren.
  - [Folge dieser Anleitung](GPartnerdaten_importieren_Pharma), um externe Daten zu **IFA-Herstellern** nach metasfresh zu importieren.
  - [Folge dieser Anleitung](Produktdaten_importieren_Pharma), um externe Daten zu **IFA-Produkten** nach metasfresh zu importieren.
