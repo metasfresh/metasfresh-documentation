@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Troubleshooting issues arising in connection with server updates
+title: Troubleshooting SQL Update Process (sqlmigrate) 
 tags:
-  - Troubleshooting Server Update Issues
+  - Troubleshooting Server Update
 lang: en
 ---
 
