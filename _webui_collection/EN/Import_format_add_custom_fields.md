@@ -1,5 +1,5 @@
 ---
-title: How do I add custom format fields to an import format (System Administrator)?
+title: How do I add custom format fields to an import format? (System Administrator)
 layout: default
 tags:
   - Data Management
@@ -36,5 +36,6 @@ Which columns you can choose from when adding an import format depends on the **
 - [Import business partner data](Import_bpartner_data).
 - [Import chart of accounts data](Import_charts_of_accounts).
 - [Import discount schema data](Import_discount_schema).
+- [Import postal data](Import_postal_data).
 - [Import product data](Import_product_data).
 - [Import replenishment data](Import_replenishment_data).

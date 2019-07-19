@@ -21,6 +21,7 @@ Folgende Daten können nach metasfresh importiert werden:
 - [IFA-Produktdaten](Produktdaten_importieren_Pharma)
 - [Kontenrahmendaten](Kontenrahmendaten_importieren)
 - [Nachbestelldaten](Nachbestelldaten_importieren)
+- [Postalische Daten](Postalische_Daten_importieren)
 - [Produktdaten](Produktdaten_importieren)
 - [Rabattschemadaten](Rabattschema_importieren)
 
@@ -62,6 +63,7 @@ Möchtest Du ein neues Importformat anlegen mit den gleichen Formatfeldern wie e
 - [IFA-Produktdaten importieren](Produktdaten_importieren_Pharma).
 - [Kontenrahmendaten importieren](Kontenrahmendaten_importieren).
 - [Nachbestelldaten importieren](Nachbestelldaten_importieren).
+- [Postalische Daten importieren](Postalische_Daten_importieren).
 - [Produktdaten importieren](Produktdaten_importieren).
 - [Rabattschemadaten importieren](Rabattschema_importieren).
 

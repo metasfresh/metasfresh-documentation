@@ -31,15 +31,15 @@ The mandatory fields as well as the requirement that the IBANs belong to existin
 
 | Mandatory Field | Field Name | Example | Note |
 | :---: | :---: | :--- | :--- |
-| X | Header IBAN | DE00 1234 5678 9876 5432 10 | The IBAN of the account that is used for incoming and outgoing payments (usually, e.g., the company account) is stated here as a constant value. Therefore, it does not have to be included in the import file. |
-|  | Effective Date | 14.05.2018 | The date from when the money is effectively available. |
+| X | Header IBAN | DE00 1234 5678 9876 5432 10 | IBAN of the account that is used for incoming and outgoing payments (usually, e.g., the company account) is stated here as a constant value. Therefore, it does not have to be included in the import file. |
+|  | Effective Date | 14.05.2018 | Date from when the money is effectively available. |
 |  | Statement Line Date | 15.05.2018 | Value date |
-|  | Bill-to Partner | Sequoia Inc. | The name of the invoice recipient |
-| X |IBAN from/to  | CH10 9876 5432 1234 5678 90 | The IBAN of the recipient or payment account |
+|  | Bill-to Partner | Sequoia Inc. | Name of the invoice recipient |
+| X | IBAN from/to | CH10 9876 5432 1234 5678 90 | IBAN of the recipient or payment account |
 |  | Transaction Type | SEPA credit transfer | Transaction type of the statement line |
 |  | Line Description | Share Capital | Description of the statement line |
 | X | Statement Amount | 12,500.00 | Amount of the statement line |
-| X | ISO Currency Code | USD | Three-letter currency code (in acc. with ISO 4217). |
+| X | ISO Currency Code | USD | Three-letter currency code (in acc. with ISO 4217).<br> (*You can look up the ISO currency code under "[Currency](Menu)" in the menu.*) |
 
 ## Next Steps
 - [Import bank statement data](Import_bank_statement_data).

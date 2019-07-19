@@ -11,10 +11,10 @@ ref: convert_uoms
 ---
 
 ## Overview
-If a product's stock UOM does not match its sales UOM, you have to define a UOM conversion.
+If a product's stock-keeping UOM does not match its sales UOM, you have to define a UOM conversion.
 
 #### For instance:
-You keep strawberries with the stock UOM "kilograms" in your inventory but you sell them in clamshells of 250g, so with the sales UOM "each".
+You keep strawberries with the stock-keeping UOM "kilograms" in your inventory but you sell them in clamshells of 250g, so with the sales UOM "each".
 
 Ergo:<br>
 Out of 1 kilogram you obtain 4 clamshells of strawberries of 250g each.<br>
@@ -23,7 +23,7 @@ Out of 1 kilogram you obtain 4 clamshells of strawberries of 250g each.<br>
 ## Steps
 1. Open the entry of an existing [product](Menu) or [add a new one](NewProduct).
 1. Go to the record tab "UOM Conversion" at the bottom of the page and click ![](assets/Add_New_Button.png). An overlay window opens up.
-1. The field **UOM** specifies the source UOM and must be identical to the product's stock UOM, e.g., here "kilograms".
+1. The field **UOM** specifies the source UOM and must be identical to the product's stock-keeping UOM, e.g., here "kilograms".
 1. The field **UOM to** specifies the target UOM to convert into, e.g., here "each".
 1. The field **Multiply Rate** specifies the value by which to multiply the amount in the source UOM to obtain the corresponding amount in the target UOM.<br>
 ***Example:*** `1 kg × 4 = 4 each`.

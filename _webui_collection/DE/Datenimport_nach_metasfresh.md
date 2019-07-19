@@ -22,6 +22,7 @@ Mithilfe der Importfunktion kannst Du extern gespeicherte Daten (wie z.B. Excel-
 | IFA-Produktdaten | Import Pharma Product |
 | Kontenrahmendaten | Import - Kontendefinition |
 | Nachbestelldaten | Import Replenishment |
+| Postalische Daten | Import Postal Code Data |
 | Produktdaten | Import - Produkt |
 | Rabattschemadaten | I_DiscountSchema |
 
@@ -33,6 +34,7 @@ Mithilfe der Importfunktion kannst Du extern gespeicherte Daten (wie z.B. Excel-
  - [IFA-Produktdatenimport](Importformat_Beispiel_Produkt_Pharma)
  - [Kontenrahmendatenimport](Importformat_Beispiel_Kontenrahmen)
  - [Nachbestelldatenimport](Importformat_Beispiel_Nachbestellung)
+ - [Postalische Daten (Import)](Importformat_Beispiel_postalische_Daten)
  - [Produktdatenimport](Importformat_Beispiel_Produkt)
  - [Rabattschemadatenimport](Importformat_Beispiel_Rabattschema)
 
@@ -43,6 +45,7 @@ Mithilfe der Importfunktion kannst Du extern gespeicherte Daten (wie z.B. Excel-
  - [Folge dieser Anleitung](Produktdaten_importieren_Pharma), um externe Daten zu **IFA-Produkten** nach metasfresh zu importieren.
  - [Folge dieser Anleitung](Kontenrahmendaten_importieren), um externe Daten zu **Kontenrahmen** nach metasfresh zu importieren.
  - [Folge dieser Anleitung](Nachbestelldaten_importieren), um externe Daten zu **Nachbestellungen** nach metasfresh zu importieren.
+ - [Folge dieser Anleitung](Postalische_Daten_importieren), um externe **postalische Daten** nach metasfresh zu importieren.
  - [Folge dieser Anleitung](Produktdaten_importieren), um externe Daten zu **Produkten** nach metasfresh zu importieren.
  - [Folge dieser Anleitung](Rabattschema_importieren), um externe Daten zu **Rabattschemata** nach metasfresh zu importieren.
 

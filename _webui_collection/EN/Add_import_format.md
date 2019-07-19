@@ -19,6 +19,7 @@ The following data can be imported to metasfresh:
 - [Business partner data](Import_bpartner_data)
 - [Chart of accounts data](Import_charts_of_accounts)
 - [Discount schema data](Import_discount_schema)
+- [Postal data](Import_postal_data)
 - [Product data](Import_product_data)
 - [Replenishment data](Import_replenishment_data)
 
@@ -58,6 +59,7 @@ If you want to add a new import format with the same format fields as an existin
 - [Import business partner data](Import_bpartner_data).
 - [Import chart of accounts](Import_charts_of_accounts).
 - [Import discount schema data](Import_discount_schema).
+- [Import postal data](Import_postal_data).
 - [Import product data](Import_product_data).
 - [Import replenishment data](Import_replenishment_data).
 
