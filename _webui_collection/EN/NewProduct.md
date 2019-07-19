@@ -33,9 +33,9 @@ ref: newproduct
 ![](assets/NewProduct.gif)
 
 ## Further Relevant Fields
-- The field **UOM** (unit of measurement) specifies the unit in which the product is managed in stock (stock UOM).
- >**Note 1:** Once the first receipt is issued with this product, the stock UOM cannot be easily changed.<br><br>
- >**Note 2:** You can define a different sales UOM isolated from the stock UOM under the record tab "Price". In this case, you also have to define a [UOM conversion](Convert_UOMs).
+- The field **UOM** (unit of measurement) specifies the unit in which the product is managed in stock (stock-keeping UOM).
+ >**Note 1:** Once the first receipt is issued with this product, the stock-keeping UOM cannot be easily changed.<br><br>
+ >**Note 2:** You can define a different sales UOM isolated from the stock-keeping UOM under the record tab "Price". In this case, you also have to define a [UOM conversion](Convert_UOMs).
 
 - The field **Product Type** specifies the type of product.
 

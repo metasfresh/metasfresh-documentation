@@ -1,5 +1,5 @@
 ---
-title: Wie richte ich zu Testzwecken eine einzige E-Mail-Adresse für alle ausgehenden Belege ein (Systemadministrator)?
+title: Wie richte ich zu Testzwecken eine einzige E-Mail-Adresse für alle ausgehenden Belege ein? (Systemadministrator)
 layout: default
 tags:
   - E-Mails und ausgehende Belege

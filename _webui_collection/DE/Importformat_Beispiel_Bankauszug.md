@@ -31,15 +31,15 @@ Die Angabe der Pflichtfelder sowie die vorausgesetzte Zuordnung der IBANs zu exi
 
 | Pflichtfeld | Feldname | Beispiel | Hinweis |
 | :---: | :---: | :--- | :--- |
-| X | Kopfzeile IBAN | DE00 1234 5678 9876 5432 10 | Die IBAN des Kontos, auf das Zahlungsein- und -ausgänge gebucht werden (üblicherweise z.B. das Unternehmenskonto), wird hier als Konstante angegeben. Sie muss daher nicht in der Importdatei enthalten sein. |
-|  | Effektives Datum | 14.05.2018 | Das Datum, ab dem der Geldbetrag effektiv zur Verfügung steht. |
+| X | Kopfzeile IBAN | DE00 1234 5678 9876 5432 10 | IBAN des Kontos, auf das Zahlungsein- und -ausgänge gebucht werden (üblicherweise z.B. das Unternehmenskonto), wird hier als Konstante angegeben. Sie muss daher nicht in der Importdatei enthalten sein. |
+|  | Effektives Datum | 14.05.2018 | Datum, ab dem der Geldbetrag effektiv zur Verfügung steht. |
 |  | Valutadatum | 15.05.2018 | Wertstellungsdatum |
-|  | Rechnungspartner | Sequoia GmbH | Der Name des Rechnungspartners |
-| X | IBAN von/zu | CH10 9876 5432 1234 5678 90 | Die IBAN des Empfänger- oder Zahlungskontos |
+|  | Rechnungspartner | Sequoia GmbH | Name des Rechnungspartners |
+| X | IBAN von/zu | CH10 9876 5432 1234 5678 90 | IBAN des Empfänger- oder Zahlungskontos |
 |  | Buchungsart | SEPA Überweisung | Buchungsart der Auszugsposition |
 |  | Positionsbeschreibung | Stammkapital | Beschreibung der Auszugsposition |
 | X | Summe Auszug | 12.500,00 | Betrag der Auszugsposition |
-| X | ISO Währungscode | EUR | Dreistelliger Buchstabencode (gem. ISO 4217) |
+| X | ISO-Währungscode | EUR | Dreistelliger Buchstabencode (gem. ISO 4217).<br> (*Den ISO-Währungscode kannst Du unter dem Menüpunkt "[Währung](Menu)" nachschauen.*) |
 
 ## Nächste Schritte
 - [Bankauszugsdaten importieren](Bankauszugsdaten_importieren).

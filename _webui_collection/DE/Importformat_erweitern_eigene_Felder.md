@@ -1,5 +1,5 @@
 ---
-title: Wie erweitere ich ein Importformat um neue Formatfelder (Systemadministrator)?
+title: Wie erweitere ich ein Importformat um neue Formatfelder? (Systemadministrator)
 layout: default
 tags:
   - Datenverwaltung
@@ -38,5 +38,6 @@ Welche Spalten Dir beim Anlegen eines Importformats zur Auswahl stehen, ist abh√
 - [IFA-Produktdaten importieren](Produktdaten_importieren_Pharma).
 - [Kontenrahmendaten importieren](Kontenrahmendaten_importieren).
 - [Nachbestelldaten importieren](Nachbestelldaten_importieren).
+- [Postalische Daten importieren](Postalische_Daten_importieren).
 - [Produktdaten importieren](Produktdaten_importieren).
 - [Rabattschemadaten importieren](Rabattschema_importieren).

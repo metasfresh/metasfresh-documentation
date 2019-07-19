@@ -20,6 +20,7 @@ You can quickly import externally stored data (such as Excel spreadsheets with d
 | Business Partner Data | Import Business Partner |
 | Chart of Accounts Data | Import Account |
 | Discount Schema Data | Discount Schema Import |
+| Postal Data | Import Postal Code Data |
 | Product Data | Import Product |
 | Replenishment Data | Import Replenishment |
 
@@ -29,6 +30,7 @@ You can quickly import externally stored data (such as Excel spreadsheets with d
  - [Business partner data import](Import_format_example_bpartner)
  - [Chart of accounts data import](Import_format_example_charts_of_accounts)
  - [Discount schema data import](Import_format_example_discount_schema)
+ - [Postal data import](Import_format_example_postal_data)
  - [Product data import](Import_format_example_product)
  - [Replenishment data import](Import_format_example_replenishments)
 
@@ -37,6 +39,7 @@ You can quickly import externally stored data (such as Excel spreadsheets with d
  - [Follow these instructions](Import_bpartner_data) to import external data on **business partners** into metasfresh.
  - [Follow these instructions](Import_charts_of_accounts) to import external data on **charts of accounts** into metasfresh.
  - [Follow these instructions](Import_discount_schema) to import external data on **discount schemas** into metasfresh.
+ - [Follow these instructions](Import_product_data) to import external **postal data** into metasfresh.
  - [Follow these instructions](Import_product_data) to import external data on **products** into metasfresh.
  - [Follow these instructions](Import_replenishment_data) to import external data on **replenishments** into metasfresh.
 
