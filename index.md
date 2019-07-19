@@ -19,10 +19,7 @@ layout: default
   - Javadocs [for the "main" body of code](http://metasfresh.com/javadoc/metasfresh-master/) and [for the esb bundles](http://metasfresh.com/javadoc/metasfresh-esb-master/)
   - [The metasfresh gitter chat](https://gitter.im/metasfresh/metasfresh)
   - [Customizing App Dictionary](pages/appdictionary/index_en)
-  - Testing
-    - [Test Documentation](pages/tests/index_en)
-  - writing docs
-    - [How to get started](http://docs.metasfresh.org/howto_collection/EN/how_to_get_started_with_translating_docs.html)
+  - [Creating Documentation](http://docs.metasfresh.org/howto_collection/EN/how_to_get_started_with_translating_docs.html)
   - [Database Queries](pages/sql/index_en)
   - [Setup Guides](pages/setup/index_en)
 
