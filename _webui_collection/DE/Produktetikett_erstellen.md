@@ -32,8 +32,9 @@ In metasfresh kannst Du in verschiedenen Eingabefenstern benutzerdefinierte Regi
 1. Das Produktetikett wird in einem neuen Browser-Tab als PDF-Vorschau geöffnet.
 
 ## Beispiel
-| Produktetikett |
-| :---: |
-| ![](assets/Produktetikett_Typenschild.png) |
-| **Eingabefenster** |
-| ![](assets/Produktetikett_Registerkarte.png) |
+
+### Produktetikett
+![](assets/Produktetikett_Typenschild.png)
+
+### Eingabefenster
+![](assets/Produktetikett_Registerkarte.png)
