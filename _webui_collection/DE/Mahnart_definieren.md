@@ -22,7 +22,7 @@ Mit der Mahnart bestimmst Du den Zeitpunkt, ab dem ein [Mahnlauf](Mahnlauf) begi
 ### Mahnstufen hinzufügen
 
 | **Wichtig!** |
-| :- |
+| :--- |
 | Damit eine Mahnart wirksam wird, benötigt sie mindestens **eine Stufe**! |
 
 1. Gehe zur Registerkarte "Stufen" unten auf der Seite und klicke auf ![](assets/Neu_hinzufuegen_Button.png). Es öffnet sich ein Overlay-Fenster.

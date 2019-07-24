@@ -49,7 +49,7 @@ Damit Kontakte (Nutzer bzw. Geschäftspartner) in die Verteilerliste einer [*Ser
 ### Kontakte aus Nutzern
 
 | **Besonderer Hinweis:** |
-| :- |
+| :--- |
 | Bei Nutzern kann man nicht unabhängig voneinander zwischen den Aktionen *Export in E-Mail-* oder *Serienbrief-Kampagne* wählen. Ob also eine E-Mail- oder Standardadresse benötigt wird, hängt daher von der Art der Marketingkampagne bzw. den Einstellungen der [Marketing-Plattform](MKTG-Plattform_erstellen) ab.<br> Für eine *E-Mail-Kampagne* muss im Nutzereintrag eine **E-Mail-Adresse** angegeben sein! Eine Verknüpfung mit einem Geschäftspartner ist in diesem Fall nicht erforderlich.<br> Bei einer *Serienbrief-Kampagne* muss der Nutzer jedoch [mit einem Geschäftspartner verknüpft](Nutzer_GPartner_zuweisen) sein, der seinerseits wiederum über eine Adresse als **Rechnungsstandard** verfügen muss! |
 
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Nutzer".
@@ -62,7 +62,7 @@ Damit Kontakte (Nutzer bzw. Geschäftspartner) in die Verteilerliste einer [*Ser
 <br><br>
 
 | **Allgemeiner Hinweis:** |
-| :- |
+| :--- |
 | Die hinzugefügten Kontakte findest Du nun unter dem Menüpunkt "[Marketing Kampagne](Menu)" unter der Registerkarte "Kontaktperson" unten auf der Seite des Eintrags der jeweiligen Marketingkampagne wieder. |
 
 ## Beispiel

@@ -18,7 +18,7 @@ ref: contract_pause_remove
 <br>
 
 | **Hinweis:** |
-| :- |
+| :--- |
 | Den **Vertrags-Status** der einzelnen Lieferung kannst Du unter der Registerkarte "Abo Verlauf" bzw. "Abo Prognose" unten auf der Seite des jeweiligen Vertrages einsehen. |
 
 ## Beispiel

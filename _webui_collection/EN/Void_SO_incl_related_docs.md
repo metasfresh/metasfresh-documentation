@@ -25,7 +25,7 @@ For example, if mistakes were carried over from a sales order into the subsequen
 <br><br>
 
 | **Note:** |
-| :- |
+| :--- |
 | The number of the voided sales order is now preceded by an "S-" (e.g., "S-0864"; S = Reversal, Ger.: _**S**torno_) and the status of the related documents is changed to *reversed*. The newly created draft is given the original sales order number (e.g., "0864") which cross-references the voided order and may be used to look up the drafted order under "[Sales Order](Menu)" in the menu using the [filtering function](Filtering_function). |
 
 ## Next Steps

@@ -32,7 +32,7 @@ If in the course of creating a [sales order](SalesOrder_recording) or a [purchas
 <br><br>
 
 | **Note:** |
-| :- |
+| :--- |
 | You will find the newly created business partner entry under "[Business Partner](Menu)" in the menu. |
 
 ## Example

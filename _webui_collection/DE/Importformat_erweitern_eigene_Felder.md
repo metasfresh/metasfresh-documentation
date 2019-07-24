@@ -27,7 +27,7 @@ Welche Spalten Dir beim Anlegen eines Importformats zur Auswahl stehen, ist abh�
 1. [metasfresh speichert automatisch](Speicheranzeige).
 
 | **Wichtiger Hinweis:** |
-| :- |
+| :--- |
 | Damit die importierten Daten aus einer neu hinzugefügten Spalte auch an die richtige Stelle im System übertragen werden, wird pro Spalte eine eigene SQL-Funktion nach dem Muster `<ImportTableName>_<IMPORT_AFTER_ROW>_<somedesc>` benötigt, z.B. `I_Product_Import_After_Row_InterCheese(IN p_C_DataImport_ID numeric, IN p_recordId numeric,)` für neue Spalten im [Importformat für Produktdaten](Importformat_Beispiel_Produkt). |
 | **Die Aktivierung neuer Spalten wird von unseren Entwicklern übernommen. Setze Dich bei Bedarf einfach mit uns in Kontakt und wir kümmern uns darum!** |
 

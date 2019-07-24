@@ -29,7 +29,7 @@ Mit dem Druckformat kannst Du u.a. das Papierformat sowie das Seitenlayout, wie 
 <br><br>
 
 | **Wichtiger Hinweis:** |
-| :- |
+| :--- |
 | Damit die Einstellungen auf dem Anwendungsserver aktiv werden, muss dieser erst vom Admin neugestartet werden. |
 
 ## Beispiel

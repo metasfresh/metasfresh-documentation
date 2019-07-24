@@ -70,7 +70,7 @@ If you want to translate record tab entries, as in the case of dunning levels, y
 <br><br>
 
 | **General Note:** |
-| :- |
+| :--- |
 | In principle, the changes in the field **Name** affect both *internal* and *external* data. This means, depending on the [language setting of the user interface](SwitchLanguage) or the [business partner's](New_Business_Partner) language, the **Name** will be displayed or printed on the documents in the respective language. Exceptions are, however, the data entries of the menu items "Document Type" and "Dunning Level".<br> Regarding "Document Type", the field **Name** merely determines the *internal* representation of the data entry. The *external* representation can be maintained through the additional field **Print Name**, as is also the case with "Dunning Level". The *internally* used name of the dunning level, however, can only be maintained in the respective [dunning type](Define_Dunning_Type) entry. |
 
 ## Example

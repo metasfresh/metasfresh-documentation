@@ -21,7 +21,7 @@ Möchtest Du den Inhalt eines Feldes einsehen und gegebenenfalls bearbeiten, bra
 <br><br>
 
 | **Wichtig!** |
-| :- |
+| :--- |
 | Dieses Feature funktioniert nur bei deaktiviertem Pop-Up-Blocker! |
 
 ## Beispiel

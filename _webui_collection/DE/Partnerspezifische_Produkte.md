@@ -34,7 +34,7 @@ Weitere Informationen darüber, wie Du eigenen Text in Belege einfügen kannst, 
 <br>
 
 | **Hinweis:** |
-| :- |
+| :--- |
 | Intern verwendest Du weiterhin Deine eigenen Produktnamen und -nummern. Extern erscheinen die jeweiligen partnerspezifischen Produktnamen und -nummern dann automatisch auf Belegen wie Auftragsbestätigung, Lieferschein und Rechnung. |
 
 ## Beispiel

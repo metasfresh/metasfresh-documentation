@@ -38,7 +38,7 @@ In order to configure the short-term availability check, please proceed as follo
 1. Enter the **Look-behind interval for uncompleted sales order lines (hrs)**.
 1. Enter the **Look-ahead interval for planned shipments (hrs)**.
 1. Pick a **Color for short-term availability problem**.
-1. ***Optional:*** Enter a **Description** into the text field provided.
+1. ***Optional:*** Enter a **Description** into the text box provided.
 1. 1) Tick the checkbox **Asynchronous request** if you want the availability requests to be done in the background. A new field **Async timeout (ms)** appears.<br><br> 2) Enter a value for the **Async timeout (ms)**.
 
 1. Pick an **Organization** that these settings shall apply to.

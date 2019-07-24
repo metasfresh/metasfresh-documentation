@@ -22,7 +22,7 @@ Diese Funktion steht für Tabellen sowohl in der [Listenansicht](Ansichten) als 
 <br><br>
 
 | **Wichtig!** |
-| :- |
+| :--- |
 | Dieses Feature funktioniert nur bei deaktiviertem Pop-Up-Blocker! |
 
 ## Beispiel

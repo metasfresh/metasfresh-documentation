@@ -17,7 +17,7 @@ ref: login
 ## Steps to log in as System Adminstrator
 
 | **Note:** |
-| :- |
+| :--- |
 | This user cannot change the interface language in WebUI as it is possible on the Java client back end. |
 
 1. Open the URL of the metasfresh service in your web browser, e.g., http://dockerhost.

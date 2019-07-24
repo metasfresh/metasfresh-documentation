@@ -22,5 +22,5 @@ In this schema you can define the following pricing conditions individually or i
 <br><br>
 
 | **Important note:** |
-| :- |
+| :--- |
 | If you do not want to define any specific conditions for products but rather just want to create a valid and functioning pricing conditions schema that you can use for your sales and purchases, all you need to do is add a single pricing condition to the schema where you set the **Break Value** to **0** and otherwise leave everything else at default (*see instructions [here](Create_discount_schema)*).<br> In this way, you can sell all products on the price list at the price defined therein and in any quantity desired. |

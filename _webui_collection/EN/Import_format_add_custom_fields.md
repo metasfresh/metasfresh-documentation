@@ -27,7 +27,7 @@ Which columns you can choose from when adding an import format depends on the **
 1. [metasfresh saves the progress automatically](Saveindicator).
 
 | **Important note:** |
-| :- |
+| :--- |
 | To transfer the imported data from a newly added column to the correct place within the system, a separate SQL function is required for each column following the pattern `<ImportTableName>_<IMPORT_AFTER_ROW>_<somedesc>`, e.g., `I_Product_Import_After_Row_InterCheese(IN p_C_DataImport_ID numeric, IN p_recordId numeric,)` for new columns in the [import format for product data](Import_format_example_product). |
 | **The activation of new columns is done by our developers. Just contact us and we will take care of it!** |
 

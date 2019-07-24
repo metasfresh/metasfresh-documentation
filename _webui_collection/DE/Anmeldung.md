@@ -17,7 +17,7 @@ ref: login
 ## Schritte als Systemadministrator
 
 | **Hinweis:** |
-| :- |
+| :--- |
 | Dieser Nutzer kann die Sprache der Benutzeroberfläche im WebUI nicht so ändern, wie es im Back-end des Java Clients möglich ist. |
 
 1. Öffne in Deinem Internetbrowser die URL von metasfresh, z.B. http://dockerhost.

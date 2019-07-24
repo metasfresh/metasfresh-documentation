@@ -22,7 +22,7 @@ You can set up the outbound documents for a variety of tables so the documents t
 <br><br>
 
 | **Important note:** |
-| :- |
+| :--- |
 | For the configurations to take effect on the application server, it first has to be restarted by the admin. |
 
 ## Next Steps (optional)

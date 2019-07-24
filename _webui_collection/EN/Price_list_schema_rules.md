@@ -25,7 +25,7 @@ For copying a price list you require a valid price list schema where you can spe
 ### Add rules to the price list schema
 
 | **Note:** |
-| :- |
+| :--- |
 | In order for a price list to be copied, the selected price list schema must include at least one schema line. However, it is not strictly necessary to define specific rules, such as a product, business partner or surcharge amount. |
 
 1. Go to the record tab "Schema Line" at the bottom of the page and click ![](assets/Add_New_Button.png). An overlay window opens up.
@@ -34,7 +34,7 @@ For copying a price list you require a valid price list schema where you can spe
 <br><br>
 
 | **Note:** |
-| :- |
+| :--- |
 | The next time you are using this price list schema when [copying a price list](Copy_prices_from_price-list-version), all affected products will receive the defined surcharge amount on their standard price. |
 
 ## Example

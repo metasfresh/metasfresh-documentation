@@ -22,7 +22,7 @@ ref: contract_change_recipient
 <br><br>
 
 | **Hinweis:** |
-| :- |
+| :--- |
 | Die **Lieferadresse** kannst Du unter der Registerkarte "Abo Verlauf" unten auf der Seite des jeweiligen Vertrages einsehen. |
 
 ## Beispiel

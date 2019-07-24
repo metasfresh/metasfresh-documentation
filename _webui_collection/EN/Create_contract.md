@@ -22,11 +22,11 @@ To create a contract, simply follow the same steps as for a [sales order](SalesO
 <br>
 
 | **Note 1:** |
-| :- |
+| :--- |
 | The field **Date Promised** now determines the ***Contract Start*** date. |
 
 | **Note 2:** |
-| :- |
+| :--- |
 | After completing the sales order you will find the contract under "[Contract](Menu)" in the menu. You can also jump ***directly*** to the contract from the sales order via the [related documents](JumptoviaSidebar). |
 
 ## Example
