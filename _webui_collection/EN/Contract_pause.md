@@ -20,7 +20,7 @@ ref: contract_pause
 <br><br>
 
 | **Note:** |
-| :- |
+| :--- |
 | You can check the **Contract Status** under the record tab "Subscription Progress" at the bottom of the page of the respective contract. |
 
 ## Example

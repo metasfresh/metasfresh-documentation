@@ -70,7 +70,7 @@ Möchtest Du Registerkarteneinträge übersetzen, wie z.B. im Falle der Mahnstuf
 <br><br>
 
 | **Allgemeiner Hinweis:** |
-| :- |
+| :--- |
 | Die Änderungen im Feld **Name** wirken sich grundsätzlich sowohl auf die *internen* als auch auf die *externen* Daten aus. Das heißt, je nach [Spracheinstellung der Benutzeroberfläche](SwitchLanguage) bzw. Sprache des [Geschäftspartners](Neuer_Geschaeftspartner) wird dann der **Name** in der jeweiligen Sprache dargestellt bzw. auf die Belege gedruckt. Ausnahmen bilden hierbei die Dateneinträge der Menüpunkte "Belegart" und "Mahnstufe".<br> Für "Belegart" bestimmt das Feld **Name** lediglich die *interne* Benennung des Dateneintrags. Die *externe* Benennung wird über das zusätzliche Feld **Drucktext** verwaltet, wie es auch für "Mahnstufe" der Fall ist. Allerdings wird der *interne* Name der Mahnstufe im Eintrag der jeweiligen [Mahnart](Mahnart_definieren) verwaltet. |
 
 ## Beispiel

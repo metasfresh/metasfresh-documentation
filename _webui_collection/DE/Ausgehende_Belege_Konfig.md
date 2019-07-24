@@ -22,7 +22,7 @@ Du kannst die ausgehenden Belege für eine Vielzahl von Tabellen einrichten, dam
 <br><br>
 
 | **Wichtiger Hinweis:** |
-| :- |
+| :--- |
 | Damit die Einstellungen auf dem Anwendungsserver aktiv werden, muss dieser erst vom Admin neugestartet werden. |
 
 ## Nächste Schritte (optional)

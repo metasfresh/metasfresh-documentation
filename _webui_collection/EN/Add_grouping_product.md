@@ -27,7 +27,7 @@ A grouping product is basically added like any other normal [product](NewProduct
 1. [Add the product to a price list](ProductPrice).
 
 | **Important note!** |
-| :- |
+| :--- |
 | The grouping product must ***not be stocked*** and it must be linked to the very ***same price list*** as in the sales order where it shall be used! |
 
 ### Activate grouping product for quotation grouping

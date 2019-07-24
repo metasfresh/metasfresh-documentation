@@ -20,7 +20,7 @@ ref: contract_pause
 <br><br>
 
 | **Hinweis:** |
-| :- |
+| :--- |
 | Den **Vertrags-Status** kannst Du unter der Registerkarte "Abo Verlauf" unten auf der Seite des jeweiligen Vertrages einsehen. |
 
 ## Beispiel

@@ -19,7 +19,7 @@ ref: add_user_to_bpartner
 <br><br>
 
 | **Note:** |
-| :- |
+| :--- |
 | You will find the newly created user entry under "[User](Menu)" in the menu. |
 
 ## Example

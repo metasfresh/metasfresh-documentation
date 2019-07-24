@@ -25,7 +25,7 @@ So können beispielsweise Fehler, die vom Auftrag in die Folgebelege übertragen
 <br><br>
 
 | **Hinweis:** |
-| :- |
+| :--- |
 | Der Nummer des stornierten Auftrags wird ein "S-" vorangestellt (z.B. "S-0864") und der Status der Folgebelege auf *rückgängig* geändert. Der neu erstellte Entwurf erhält die ursprüngliche Auftragsnummer (z.B. "0864") und kann so dem stornierten Auftrag zugeordnet werden und mithilfe der [Filterfunktion](Filterfunktion) unter dem Menüpunkt "[Aufträge](Menu)" wiedergefunden werden. |
 
 ## Nächste Schritte

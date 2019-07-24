@@ -29,7 +29,7 @@ The print format enables you, among other things, to set paper size and page lay
 <br><br>
 
 | **Important note:** |
-| :- |
+| :--- |
 | For the configurations to take effect on the application server, it first has to be restarted by the admin. |
 
 ## Example

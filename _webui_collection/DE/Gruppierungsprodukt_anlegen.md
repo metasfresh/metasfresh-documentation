@@ -27,7 +27,7 @@ Grundsätzlich wird ein Gruppierungsprodukt wie jedes andere normale [Produkt](N
 1. [Füge das Produkt einer Preisliste hinzu](ProduktPreis).
 
 | **Wichtig!** |
-| :- |
+| :--- |
 | Das Gruppierungsprodukt darf ***nicht lagerhaltig*** sein und muss mit ***derselben Preisliste*** verknüpft sein wie der Auftrag, in dem es zum Einsatz kommen soll! |
 
 ### Aktivierung für Angebotsgruppierung

@@ -34,7 +34,7 @@ For additional information on how to place manual text on documents, please see 
 <br>
 
 | **Note:** |
-| :- |
+| :--- |
 | For internal purposes you keep using your own product names and numbers. Externally, the respective partner-specific product names and numbers will automatically appear in documents such as sales order confirmations, shipment notes and invoices. |
 
 ## Example

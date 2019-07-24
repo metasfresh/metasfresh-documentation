@@ -38,7 +38,7 @@ Um die kurzfristige Verfügbarkeitsprüfung zu konfigurieren, gehe wie folgt vor
 1. Trage den **Rückschauintervall zu Auftragspositionen in Bearbeitung (Std)** ein.
 1. Trage den **Vorausschauintervall zu geplanten Lieferungen (Std)** ein.
 1. Wähle eine **Farbe für kurzfristiges Verfügbarkeitsproblem** aus.
-1. ***Optional:*** Trage eine **Beschreibung** in das dafür vorgesehene Textfeld ein.
+1. ***Optional:*** Erfasse eine **Beschreibung** in dem dafür vorgesehenen Textfeld.
 1. 1) Setze ein Häkchen bei **Asynchrone Abfrage**, wenn Du möchtest, dass die Verfügbarkeitsabfrage im Hintergrund erfolgen soll. Es erscheint ein neues Feld **Maximale Wartezeit auf asynchrone Antwort (ms)**.<br><br> 2) Gib eine **Maximale Wartezeit auf asynchrone Antwort (ms)** ein.
 
 1. Wähle die **Sektion** aus, für die diese Einstellungen gelten sollen.

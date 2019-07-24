@@ -21,7 +21,7 @@ If you want to review and perhaps edit the content of a field, you do not need t
 <br><br>
 
 | **Important note!** |
-| :- |
+| :--- |
 | You might need to disable your pop-up blocker to make this feature work. |
 
 ## Example

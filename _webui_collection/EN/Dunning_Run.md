@@ -39,7 +39,7 @@ ref: dunning_run
 <br><br>
 
 | **Note:** |
-| :- |
+| :--- |
 | You will also find the PDFs of the created dunning documents under "[Outbound Documents](Menu)" in the menu. Go there and open the respective dunning document (*[use the filter](Filtering_function) to quickly find it*). Under the record tab "Log" at the bottom of the page, select the line "PDF export" and [start the action](StartAction) "Open PDF". |
 
 ### Send Dunning Letter via Email
@@ -51,7 +51,7 @@ ref: dunning_run
 <br><br>
 
 | **Note:** |
-| :- |
+| :--- |
 | Under "[Outbound Documents](Menu)" in the menu, you may also email several dunning letters to various dunning candidates at once. To do so, from the [list view](ViewModes), [select](RecordSelection) the respective entries and continue with **steps 4 and 5** as described above. If you want to resend dunning letters, simply uncheck the box **Nur bisher nicht gemailte** (*Only email previously unsent docs*) in the overlay window before clicking "Start". |
 
 ## Next Steps (optional)

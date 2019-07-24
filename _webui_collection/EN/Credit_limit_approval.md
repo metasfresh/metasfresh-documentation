@@ -28,7 +28,7 @@ Only authorized users can confirm requests for approval of credit limits. They r
 <br>
 
 | **General Note:** |
-| :- |
+| :--- |
 | You can also [add credit limit types](Add_credit_limit_type) where the credit limit is approved automatically, i.e. no authorized user's approval is required. In this case, the field **Approved by** of the credit limit line remains empty. |
 
 ## Example

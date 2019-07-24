@@ -17,7 +17,7 @@ ref: assign_bpartner_to_user
 <br><br>
 
 | **Note:** |
-| :- |
+| :--- |
 | The user entry will now also appear under the record tab "Contact" at the bottom of the page of the respective business partner entry under "[Business Partner](Menu)" in the menu. |
 
 ## Example

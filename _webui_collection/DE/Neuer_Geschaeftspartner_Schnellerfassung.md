@@ -32,7 +32,7 @@ Falls Dir bei der Erfassung eines [Auftrags](Auftrag_erfassen) oder einer [Beste
 <br><br>
 
 | **Hinweis:** |
-| :- |
+| :--- |
 | Den neu erstellten Geschäftsparnter findest Du unter dem Menüpunkt "[Geschäftspartner](Menu)" wieder. |
 
 ## Beispiel

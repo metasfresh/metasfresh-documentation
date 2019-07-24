@@ -13,7 +13,7 @@ ref: bill-to_info_subsequent_change
 In metasfresh, you can easily change the name and/or address of the invoice recipient either after completing a sales order (i.e. before invoicing) or even after the invoice documents have been created. In the latter case, however, the existing invoice must first be canceled and then generated again after the changes have been made.
 
 | **Important note:** |
-| :- |
+| :--- |
 | The different [billing addresses](Add_address_tab) and [contacts](Add_user_to_BPartner) must be recorded in the respective [business partner](New_Business_Partner)'s entry beforehand so that metasfresh can then make them available to you for selection for subsequent changes. |
 
 ## Steps

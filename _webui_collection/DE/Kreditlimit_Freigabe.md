@@ -28,7 +28,7 @@ Nur autorisierte Nutzer können Kreditlimits freigeben. Sie erhalten eine Benach
 <br>
 
 | **Allgemeiner Hinweis:** |
-| :- |
+| :--- |
 | Du kannst auch [Kreditlimitarten anlegen](Kreditlimitart_anlegen), bei denen das Kreditlimit automatisch freigegeben wird, also keine Bestätigung eines autorisierten Nutzers benötigt. In diesem Fall bleibt das Feld **Freigegeben von** der Kreditlimitzeile leer. |
 
 ## Beispiel

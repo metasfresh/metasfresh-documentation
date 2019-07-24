@@ -13,7 +13,7 @@ ref: bill-to_info_subsequent_change
 In metasfresh kannst Du sowohl nach Fertigstellung eines Auftrags (und vor der Rechnungserstellung) als auch noch nach Rechnungserstellung die Rechnungsempfängerdaten bequem ändern. Im letzteren Fall muss hierzu jedoch die bisherige Rechnung erst storniert und nach den Änderungen erneut generiert werden.
 
 | **Wichtiger Hinweis:** |
-| :- |
+| :--- |
 | Die abweichenden [Rechnungsadressen](Adresse_erfassen_Tab) und [-kontakte](GPartner_Nutzer_hinzufuegen) müssen vorher im jeweiligen [Geschäftspartner](Neuer_Geschaeftspartner)eintrag erfasst werden, damit sie Dir anschließend von metasfresh für die nachträgliche Änderung zur Auswahl gestellt werden können. |
 
 ## Schritte

@@ -22,7 +22,7 @@ ref: contract_change_recipient
 <br><br>
 
 | **Note:** |
-| :- |
+| :--- |
 | You can check the **Ship to Location** under the record tab "Subscription Progress" at the bottom of the page of the respective contract. |
 
 ## Example

@@ -22,7 +22,7 @@ This feature is available for tables in [list view](ViewModes) as well as in the
 <br><br>
 
 | **Important note!** |
-| :- |
+| :--- |
 | You might need to disable your pop-up blocker to make this feature work. |
 
 ## Example
