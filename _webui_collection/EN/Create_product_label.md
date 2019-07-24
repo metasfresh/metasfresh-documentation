@@ -20,7 +20,7 @@ In metasfresh you can create custom record tabs in several input windows where y
 
 ### Enter product label data
 1. Open the entry of an existing [product](Menu) or [add a new one](NewProduct).
-1. Go to the custom record tab at the bottom of the page and enter the label data there.
+1. Go to the custom record tab at the bottom of the page and enter the label data here.
 
 | **Note:** |
 | :--- |
@@ -32,8 +32,9 @@ In metasfresh you can create custom record tabs in several input windows where y
 1. The PDF print preview of the product label opens up in a new browser tab.
 
 ## Example
-| Product Label |
-| :---: |
-| ![](assets/Product_label_Nameplate.png) |
-| **Input Window** |
-| ![](assets/Product_label_Record_tab.png) |
+
+### Product label
+![](assets/Product_label_Nameplate.png)
+
+### Input window
+![](assets/Product_label_Record_tab.png)
