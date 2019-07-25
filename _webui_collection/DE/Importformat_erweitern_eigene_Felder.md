@@ -33,6 +33,7 @@ Welche Spalten Dir beim Anlegen eines Importformats zur Auswahl stehen, ist abh�
 
 ## Nächste Schritte (optional)
 - [Bankauszugsdaten importieren](Bankauszugsdaten_importieren).
+- [Benutzerdefinierte Dateneingaben importieren](Dateneingaben_importieren).
 - [Geschäftspartnerdaten importieren](GPartnerdaten_importieren).
 - [IFA-Herstellerdaten importieren](GPartnerdaten_importieren_Pharma).
 - [IFA-Produktdaten importieren](Produktdaten_importieren_Pharma).

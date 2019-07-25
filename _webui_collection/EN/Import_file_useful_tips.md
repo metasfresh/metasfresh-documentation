@@ -16,6 +16,7 @@ Here are some format examples for the import of:
 - [Bank statement data](Import_format_example_bank_statement)
 - [Business partner data](Import_format_example_bpartner)
 - [Chart of accounts data](Import_format_example_charts_of_accounts)
+- [Custom data entries](Import_format_example_data_entry)
 - [Discount schema data](Import_format_example_discount_schema)
 - [Postal data](Import_format_example_postal_data)
 - [Product data](Import_format_example_product)
@@ -35,6 +36,7 @@ When creating an import file, please keep in mind the following:
 - [Import bank statement data](Import_bank_statement_data).
 - [Import business partner data](Import_bpartner_data).
 - [Import chart of accounts data](Import_charts_of_accounts).
+- [Import custom data entries](Import_custom_data_entries).
 - [Import discount schema data](Import_discount_schema).
 - [Import postal data](Import_postal_data).
 - [Import product data](Import_product_data).

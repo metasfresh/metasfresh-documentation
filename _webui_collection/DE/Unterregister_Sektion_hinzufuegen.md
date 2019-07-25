@@ -24,7 +24,7 @@ ref: add_section_to_sub_tab
 1. Benenne die Sektion im Feld **Sektionsname**.
  >**Hinweis:** Dieser Name wird an entsprechender Stelle in dem Unterregister zu lesen sein.
 
-1. Gib im Feld **Unterregister** einen Teil des Namens des [Unterregisters](Benutzerdefinierte_Registerkarte_anlegen) ein, in dem die Sektion erscheinen soll, und klicke auf den passenden Treffer in der [Dropdown-Liste](Keyboard_Shortcuts_Liste).
+1. Gib im Feld **Unterregister** einen Teil des (systeminternen) Namens des [Unterregisters](Benutzerdefinierte_Registerkarte_anlegen) ein, in dem die Sektion erscheinen soll, und klicke auf den passenden Treffer in der [Dropdown-Liste](Keyboard_Shortcuts_Liste).
  >**Hinweis:** Bei mehreren Sektionen für dasselbe Unterregister kannst Du deren **Reihenfolge** bestimmen.
 
 1. ***Optional:*** Erfasse eine **Beschreibung** in dem dafür vorgesehenen Textfeld.
