@@ -37,7 +37,7 @@ The mandatory fields are essential for a successful data import!
 |  | Line Name | • 10<br> • 20<br> • ... | Sequence number of the line |
 | X | External ID | Petrol_engine | Search key of the data entry |
 | X | Field Name | Date | Name of the field<br> (**Important note:** If several fields have the same name, the section name and/or line sequence number ***must*** be specified!) |
-|  | Field Value | 20.02.2020 | Value or content of the field.<br> The following values can be specified for the following field data types (see [Custom data entry - field](Add_fields_to_section_lines)):<br> • Date: `DD.MM.YYYY`<br> • Checkbox: Y (`= activated`), N (`= deactivated`)<br> • List: `Name of the list item`<br> • Text box: `Text (multi-line)`<br> • Text field: `Text (single-line)`<br> • Number: `Numeric value`<br><br> If no field value is specified, any existing field contents in the input tab will be deleted. |
+|  | Field Value | 2020-02-20 | Value or content of the field.<br> The following values can be specified for the following field data types (see [Custom data entry - field](Add_fields_to_section_lines)):<br> • Date: `YYYY-MM-DD` (in acc. with ISO 8601)<br> • Checkbox: Y (`= activated`), N (`= deactivated`)<br> • List: `Name of the list item`<br> • Text box: `Text (multi-line)`<br> • Text field: `Text (single-line)`<br> • Number: `Numeric value`<br><br> If no field value is specified, any existing field contents in the input tab will be deleted. |
 
 ## Next Steps
 - [Import custom data entries](Import_custom_data_entries).
