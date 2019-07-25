@@ -18,6 +18,7 @@ The following data can be imported to metasfresh:
 - [Bank statement data](Import_bank_statement_data)
 - [Business partner data](Import_bpartner_data)
 - [Chart of accounts data](Import_charts_of_accounts)
+- [Custom data entries](Import_custom_data_entries)
 - [Discount schema data](Import_discount_schema)
 - [Postal data](Import_postal_data)
 - [Product data](Import_product_data)
@@ -58,6 +59,7 @@ If you want to add a new import format with the same format fields as an existin
 - [Import bank statement data](Import_bank_statement_data).
 - [Import business partner data](Import_bpartner_data).
 - [Import chart of accounts](Import_charts_of_accounts).
+- [Import custom data entries](Import_custom_data_entries).
 - [Import discount schema data](Import_discount_schema).
 - [Import postal data](Import_postal_data).
 - [Import product data](Import_product_data).

@@ -14,6 +14,7 @@ Damit Du extern gespeicherte Daten in metasfresh importieren kannst, musst Du si
 
 Hier sind ein paar Formatbeispiele für den Import von:
 - [Bankauszugsdaten](Importformat_Beispiel_Bankauszug)
+- [Benutzerdefinierten Dateneingaben](Importformat_Beispiel_Dateneingabe)
 - [Geschäftspartnerdaten](Importformat_Beispiel_GPartner)
 - [IFA-Herstellerdaten](Importformat_Beispiel_GPartner_Pharma)
 - [IFA-Produktdaten](Importformat_Beispiel_Produkt_Pharma)
@@ -35,6 +36,7 @@ Bitte achte bei der Erstellung einer Importdatei auf Folgendes:
 
 ## Nächste Schritte
 - [Bankauszugsdaten importieren](Bankauszugsdaten_importieren).
+- [Benutzerdefinierte Dateneingaben importieren](Dateneingaben_importieren).
 - [Geschäftspartnerdaten importieren](GPartnerdaten_importieren).
 - [IFA-Herstellerdaten importieren](GPartnerdaten_importieren_Pharma).
 - [IFA-Produktdaten importieren](Produktdaten_importieren_Pharma).

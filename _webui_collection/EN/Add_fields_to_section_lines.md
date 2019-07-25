@@ -4,7 +4,7 @@ layout: default
 tags:
   - Data Management
   - Data Input
-  - Custom Data Entry
+  - Custom Data Input
 lang: en
 sequence: 30
 ref: add_fields_to_section_lines
@@ -21,8 +21,9 @@ ref: add_fields_to_section_lines
 1. Give the field a **Name**.
  >**Note:** The field name will be displayed in the appropriate place in the section line.
 
-1. In the field **Line**, enter a part of the name of the [section](Add_section_to_sub_tab) containing the line where you want the field to appear and click on the matching result in the [drop-down list](Keyboard_shortcuts_reference).
- >**Note:** In case of multiple fields for the same section line you can specify their order via the field **SeqNo**.
+1. In the field **Line**, enter a part of the (system internal) name of the [section](Add_section_to_sub_tab) containing the line where you want the field to appear and click on the matching result in the [drop-down list](Keyboard_shortcuts_reference).
+ >**Note 1:** The line sequence number is found at the end of the result.<br><br>
+ >**Note 2:** In case of multiple fields for the same section line you can specify their order via the field **SeqNo**.
 
 1. Pick a **Datentyp** (*Data type*), e.g., *Date*, *List*, *Long text*, *Number*, *Text* or *Yes-No*.
  >**Note:** When choosing the data type *List* you also have to add list items that can be suggested and selected in the list later on (see below).

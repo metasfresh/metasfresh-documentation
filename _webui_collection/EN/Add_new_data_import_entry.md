@@ -24,6 +24,7 @@ ref: add_new_data_import_entry
 - [Import bank statement data](Import_bank_statement_data).
 - [Import business partner data](Import_bpartner_data).
 - [Import chart of accounts data](Import_charts_of_accounts).
+- [Import custom data entries](Import_custom_data_entries).
 - [Import discount schema data](Import_discount_schema).
 - [Import postal data](Import_postal_data).
 - [Import product data](Import_product_data).

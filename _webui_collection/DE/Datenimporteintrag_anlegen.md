@@ -22,6 +22,7 @@ ref: add_new_data_import_entry
 
 ## Nächste Schritte
 - [Bankauszugsdaten importieren](Bankauszugsdaten_importieren).
+- [Benutzerdefinierte Dateneingaben importieren](Dateneingaben_importieren).
 - [Geschäftspartnerdaten importieren](GPartnerdaten_importieren).
 - [IFA-Herstellerdaten importieren](GPartnerdaten_importieren_Pharma).
 - [IFA-Produktdaten importieren](Produktdaten_importieren_Pharma).

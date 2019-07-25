@@ -4,7 +4,7 @@ layout: default
 tags:
   - Data Management
   - Data Input
-  - Custom Data Entry
+  - Custom Data Input
 lang: en
 sequence: 10
 ref: add_custom_record_tab

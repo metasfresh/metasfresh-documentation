@@ -21,8 +21,9 @@ ref: add_fields_to_section_lines
 1. Benenne das Feld im Feld **Name**.
  >**Hinweis:** Der Feldname wird an entsprechender Stelle in der Sektionszeile zu lesen sein.
 
-1. Gib im Feld **Zeile** einen Teil des Namens der [Sektion](Unterregister_Sektion_hinzufuegen) ein, in der sich die Zeile befindet, in der das Feld erscheinen soll, und klicke auf den passenden Treffer in der [Dropdown-Liste](Keyboard_Shortcuts_Liste).
- >**Hinweis:** Bei mehreren Feldern für dieselbe Sektionszeile kannst Du deren **Reihenfolge** bestimmen.
+1. Gib im Feld **Zeile** einen Teil des (systeminternen) Namens der [Sektion](Unterregister_Sektion_hinzufuegen) ein, in der sich die Zeile befindet, in der das Feld erscheinen soll, und klicke auf den passenden Treffer in der [Dropdown-Liste](Keyboard_Shortcuts_Liste).
+ >**Hinweis 1:** Die Reihenfolge der Zeile steht am Ende der Trefferbezeichnung.<br><br>
+ >**Hinweis 2:** Bei mehreren Feldern für dieselbe Sektionszeile kannst Du deren **Reihenfolge** bestimmen.
 
 1. Wähle einen **Datentyp** aus, z.B. *Datum*, *Ja-Nein*, *Langtext*, *Liste*, *Text* oder *Zahl*.
  >**Hinweis:** Bei Auswahl des Datentyps *Liste* müssen zusätzlich Listenelemente erfasst werden, die anschließend in der Liste vorgeschlagen und ausgewählt werden können (siehe unten).

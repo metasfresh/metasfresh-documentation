@@ -16,6 +16,7 @@ Welche Spalten Dir beim Anlegen eines Importformats zur Auswahl stehen, ist abh�
 
 Folgende Daten können nach metasfresh importiert werden:
 - [Bankauszugsdaten](Bankauszugsdaten_importieren)
+- [Benutzerdefinierte Dateneingaben](Dateneingaben_importieren)
 - [Geschäftspartnerdaten](GPartnerdaten_importieren)
 - [IFA-Herstellerdaten](GPartnerdaten_importieren_Pharma)
 - [IFA-Produktdaten](Produktdaten_importieren_Pharma)
@@ -58,6 +59,7 @@ Möchtest Du ein neues Importformat anlegen mit den gleichen Formatfeldern wie e
 
 ## Nächste Schritte
 - [Bankauszugsdaten importieren](Bankauszugsdaten_importieren).
+- [Benutzerdefinierte Dateneingaben importieren](Dateneingaben_importieren).
 - [Geschäftspartnerdaten importieren](GPartnerdaten_importieren).
 - [IFA-Herstellerdaten importieren](GPartnerdaten_importieren_Pharma).
 - [IFA-Produktdaten importieren](Produktdaten_importieren_Pharma).
