@@ -32,7 +32,7 @@ ref: dunning_run
 
 ### Print Dunning Documents
 1. Open the entry of a dunning candidate whose dunning documents you want to print out.
-1. Use the entry's [related documents to jump](JumptoviaSidebar) directly into the "Dunning" window (under FINANCE) and then open the dunning document in question which has already been [found by the filter](Filtering_function).
+1. Use the entry's [related documents to jump](JumptoviaSidebar) directly into the "Dunning" window (under FINANCE in the sidebar) and then open the dunning document in question which has already been [found by the filter](Filtering_function).
  >**Note:** You will find all created dunning documents under "[Dunning](Menu)" in the menu.
 
 1. [Open the PDF print preview](PrintPreview).
