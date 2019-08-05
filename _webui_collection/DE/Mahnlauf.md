@@ -32,7 +32,7 @@ ref: dunning_run
 
 ### Mahnunterlagen drucken
 1. Öffne den Eintrag des Mahnkandidaten, dessen Mahnunterlagen Du drucken möchtest.
-1. [Springe über die verknüpften Belege](SpringezuBelegen) direkt in das Fenster "Mahnungen" (unter FINANZEN) und öffne dort das bereits [herausgefilterte](Filterfunktion) Mahndokument.
+1. [Springe über die verknüpften Belege](SpringezuBelegen) direkt in das Fenster "Mahnungen" (unter FINANZEN in der Sidebar) und öffne dort das bereits [herausgefilterte](Filterfunktion) Mahndokument.
  >**Hinweis:** Unter dem Menüpunkt "[Mahnungen](Menu)" findest Du alle erstellten Mahnunterlagen wieder.
 
 1. [Öffne die PDF-Vorschau](PDFVorschau) des Mahnbriefs.
