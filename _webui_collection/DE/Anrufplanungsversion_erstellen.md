@@ -13,7 +13,7 @@ ref: add_phone_call_schema_version
 ---
 
 ## Überblick
-In einer Anrufplanungsversion lässt sich festlegen, an welchen Tagen und in welchem zeitlichen Abstand bestimmte Geschäftspartner kontaktiert werden sollen. Hierzu können je nach Bedarf verschiedene Parameter (Wochentage, Wiederholungen, Zeiträume) sowohl miteinander als auch in Verbindung mit den Geschäftspartnern und ihren individuellen Anrufzeiten kombiniert werden. Durch Verknüpfung mit einem Anrufplanungsschema können anschließend prospektive Anruflisten erzeugt werden, mit denen sich Telefonate weit im Voraus planen lassen, wodurch Du stets auf dem aktuellen Stand bist und immer einen Überblick über die zu tätigenden Anrufe, Anrufzeiten und Ansprechpartner behältst.
+In einer Anrufplanungsversion lässt sich festlegen, an welchen Tagen und in welchem zeitlichen Abstand bestimmte Geschäftspartner kontaktiert werden sollen. Hierzu können je nach Bedarf verschiedene Parameter (Wochentage, Wiederholungen, Zeiträume) sowohl miteinander als auch in Verbindung mit den Geschäftspartnern und ihren individuellen Anrufzeiten kombiniert werden. Durch Verknüpfung mit einem Anrufplanungsschema können anschließend prospektive Anruflisten erzeugt werden, mit denen sich Telefonate weit im Voraus planen lassen, wodurch Du stets auf aktuellem Stand bist und immer einen Überblick über die zu tätigenden Anrufe, Anrufzeiten und Ansprechpartner behältst.
 
 ## Voraussetzungen
 - [Lege ein Anrufplanungsschema an](Anrufplanungsschema_anlegen).
@@ -29,7 +29,7 @@ In einer Anrufplanungsversion lässt sich festlegen, an welchen Tagen und in wel
  >**Hinweis:** Liegt das Datum in der *Vergangenheit*, gilt die Version *ab sofort*. Liegt es in der *Zukunft*, gilt sie *erst ab diesem Datum*. Ältere Versionen werden von der jeweils neueren automatisch überschrieben.
 
 ### Wochentage, Wiederholungen und Zeiträume festlegen
-Du kannst folgende Parameter je nach Bedarf beliebig miteinander kombinieren:
+Du kannst folgende Parameter je nach Bedarf miteinander kombinieren:
 
 | Parameter | Beschreibung |
 | :--- | :--- |
