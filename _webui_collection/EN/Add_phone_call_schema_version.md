@@ -29,7 +29,7 @@ A phone call schema version enables you to specify the days on which certain bus
  >**Note:** If this date lies in the *past*, the schema version will be effective *immediately*. If it lies in the *future*, it will only apply *from that date*. Older versions are automatically overridden by the more recent version.
 
 ### Specify weekdays, repetitions and time intervals
-The following parameters can be combined with each other as desired and needed:
+The following parameters can be combined with each other as needed:
 
 | Parameter | Description |
 | :--- | :--- |

@@ -21,7 +21,7 @@ Phone call schedules are created based on the settings of the phone call schema 
 ## Steps
 1. Open "Phone Call Schema" from the [menu](Menu).
 1. From the [list view](ViewModes), [select](RecordSelection) the [phone call schema](Add_phone_call_schema) you want to use for creating a phone call schedule.
-1. [Start the action](StartAction) "Create Phone Call Schedules ". An overlay window opens up.
+1. [Start the action](StartAction) "Create Phone Call Schedules". An overlay window opens up.
  >**Note:** You will also find this action in the actions menu in the detailed view of an entry.
 
 1. Set a **Date from** and a **Date To** in order to specify the period for which the schedules shall be created.

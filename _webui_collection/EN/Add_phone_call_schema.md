@@ -13,7 +13,7 @@ ref: add_phone_call_schema
 ---
 
 ## Overview
-A phone call schema may comprise several phone call schema versions that successively replace each other automatically due to their respective validity periods. This way you can create prospective call lists that enable you to schedule phone calls far in advance while staying up to date and keeping track of pending calls, call times and contacts at all times.
+A phone call schema may comprise several phone call schema versions that successively replace each other automatically based on their respective validity periods. This way you can create prospective call lists that enable you to schedule phone calls far in advance while staying up to date and keeping track of pending calls, call times and contacts at all times.
 
 ## Steps
 1. Open "Phone Call Schema" from the [menu](Menu).
