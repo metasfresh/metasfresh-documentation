@@ -27,7 +27,7 @@ In metasfresh, you can create subsequent debit notes with adjustment charges if,
 ### Record the quantity difference
 1. Use the completed invoice's [related documents to jump](JumptoviaSidebar) into the window "Sales Invoice" again (under BILLING and then "Invoice (Customer)" in the sidebar) and then open the associated invoice entry with the **Target Document Type** *Nachbelastung - Mengendifferenz* which has already been [found by the filter](Filtering_function).
 1. Go to the record tab "Invoice Line" at the bottom of the page and enter the amount of the quantity difference into the field in the column **Quantity TU** and/or **Quantity** of the relevant line.
-1. [Select](RecordSelection) and delete all lines delete all lines irrelevant for the subsequent debit note.
+1. [Select](RecordSelection) and delete all lines irrelevant for the subsequent debit note.
 1. ***Optional:*** Click ![](assets/Batch_Entry_Button.png) to add lines.
  >**Note:** Use shortcut `Alt` + `Q` / `⌥ alt` + `Q`.
 
