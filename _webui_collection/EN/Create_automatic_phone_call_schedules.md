@@ -12,7 +12,7 @@ ref: create_automatic_phone_call_schedules
 ---
 
 ## Overview
-Phone call schedules are created based on the settings of the phone call schema versions. Depending on these settings, i.e. on which days, with what frequency (weekly/monthly) and at which call times can the contact be reached, the phone call schedules are created automatically for the time period selected in the phone call schema.
+Phone call schedules are created based on the settings of the phone call schema versions. Depending on these settings, e.g., on which days, with what frequency (weekly/monthly) and at which call times can the contact be reached, the phone call schedules are created automatically for the time period selected in the phone call schema.
 
 ## Requirements
 1. [Add a phone call schema](Add_phone_call_schema).

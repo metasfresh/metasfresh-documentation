@@ -12,7 +12,7 @@ ref: create_automatic_phone_call_schedules
 ---
 
 ## Überblick
-Anruflisten basieren auf den Einstellungen der Anrufplanungsversionen. Je nach Einstellung, d.h. an welchen Wochentagen, mit welcher Häufigkeit (wöchentlich/monatlich) und zu welchen Anrufzeiten des Ansprechpartners, werden die Anruflisten für den im Anrufplanungsschema ausgewählten Zeitraum automatisch erzeugt.
+Anruflisten basieren auf den Einstellungen der Anrufplanungsversionen. Je nach Einstellung, z.B. an welchen Wochentagen, mit welcher Häufigkeit (wöchentlich/monatlich) und zu welchen Anrufzeiten des Ansprechpartners, werden die Anruflisten für den im Anrufplanungsschema ausgewählten Zeitraum automatisch erzeugt.
 
 ## Voraussetzungen
 1. [Lege ein Anrufplanungsschema an](Anrufplanungsschema_anlegen).
