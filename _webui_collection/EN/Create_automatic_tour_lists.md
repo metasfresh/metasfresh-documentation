@@ -26,3 +26,6 @@ Tour lists are created based on the settings of the tour versions. Depending on 
 1. Click "Start" to create the tour list and close the overlay window.
 1. Open the entry of the tour scheduling schema and use the [related documents to jump](JumptoviaSidebar) into the window "Delivery Days" (under LOGISTICS in the sidebar).
 1. In this window you can view the newly created tour list and keep it updated.
+
+## Example
+![](assets/Create_automatic_tour_lists.gif)

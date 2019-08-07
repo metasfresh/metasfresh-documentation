@@ -57,3 +57,6 @@ Du kannst folgende Parameter je nach Bedarf miteinander kombinieren:
 
 ## Nächste Schritte
 - [Erzeuge automatische Tourenlisten](Tourenlisten_automatisch_generieren).
+
+## Beispiel
+![](assets/Tourversion_erstellen.gif)
