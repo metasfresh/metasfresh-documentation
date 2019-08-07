@@ -28,8 +28,8 @@ If you are already looking at the document type for which you want to add a fore
 
 ### Add text versions in foreign languages
 1. Open the entry of the language in which you want to write the text, e.g., "Deutsch (DE)".
-1. In the text box **Document Note**, enter the foreign language text version that shall appear at the bottom of the document.
-1. In the text box **Description**, enter the foreign language text version that shall appear at the top of the document.
+1. In the text box **Document Note**, enter the foreign language text version that shall appear at the end of the document.
+1. In the text box **Description**, enter the foreign language text version that shall appear at the beginning of the document.
 1. [metasfresh saves the progress automatically](Saveindicator).
 
 ## Example

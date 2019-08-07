@@ -14,7 +14,7 @@ With serial letters, it takes very little effort to provide a great number of yo
 
 To this end, among other things, you have to configure the outbound documents for the serial letter feature in order to review and process the serial letters under "Outbound Documents" in the menu.
 
-As part of a marketing campaign you can create text templates that will later on be printed on the serial letters. Each serial letter is addressed personally to a contact.
+As part of a marketing campaign you can create text templates that will be printed on the serial letters. Each serial letter is addressed personally to a contact.
 
 In order to set up the serial letter feature, please proceed as follows:
 
