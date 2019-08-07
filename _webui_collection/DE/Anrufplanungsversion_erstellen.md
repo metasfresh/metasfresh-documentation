@@ -37,6 +37,12 @@ Du kannst folgende Parameter je nach Bedarf miteinander kombinieren:
 | Zeitraum | wöchentlich / monatlich |
 | Frequenz | • jede *n*-te Woche<br> • jeden *n*-ten Monat<br> • *n*-ter Tag des Monats |
 
+<br>
+
+| **Wichtiger Hinweis:** |
+| :--- |
+| Die Angabe von mindestens einem Zeitraum und/oder einer Frequenz ist notwendig, damit Anruflisten erfolgreich generiert werden können. |
+
 ### Geschäftspartner hinzufügen
 1. Gehe zur Registerkarte "Anruf Planung Version Position" unten auf der Seite und klicke auf ![](assets/Neu_hinzufuegen_Button.png). Es öffnet sich ein Overlay-Fenster.
 1. Gib im Feld **Geschäftspartner** einen Teil des Namens oder der Nummer des [Geschäftspartners](Neuer_Geschaeftspartner) ein und klicke auf den passenden Treffer in der [Dropdown-Liste](Keyboard_Shortcuts_Liste).

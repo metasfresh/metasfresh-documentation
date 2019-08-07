@@ -22,7 +22,7 @@ In einer Tourversion lässt sich festlegen, an welchen Tagen und in welchem zeit
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Tourversion".
 1. [Lege eine neue Tourversion an](Neuer_Datensatz_Fenster_Webui).
 1. Benenne die Tourversion im Feld **Name**.
-1. Wähle im Feld **Tour** ein Tourenplanungsschema aus.
+1. Wähle im Feld **Tour** ein [Tourenplanungsschema](Tourenplanungsschema_anlegen) aus.
 1. Stelle ein **Gültig ab** Datum ein.
  >**Hinweis:** Liegt das Datum in der *Vergangenheit*, gilt die Version *ab sofort*. Liegt es in der *Zukunft*, gilt sie *erst ab diesem Datum*. Ältere Versionen werden von der jeweils neueren automatisch überschrieben.
 
@@ -31,19 +31,25 @@ Du kannst folgende Parameter je nach Bedarf miteinander kombinieren:
 
 | Parameter | Beschreibung |
 | :--- | :--- |
-| Feiertage ausfallen | Liefertage, die nicht auf einen Werktag fallen, werden verworfen. |
-| Lieferung verschieben | Liefertage, die nicht auf einen Werktag fallen, werden auf den nächsten Werktag verschoben. |
+| Feiertage ausfallen | Lieferungen, die nicht auf einen Werktag fallen, werden verworfen. |
+| Lieferung verschieben | Lieferungen, die nicht auf einen Werktag fallen, werden auf den nächsten Werktag verschoben. |
 | Wochentage | Montag, Dienstag, Mittwoch, Donnerstag, Freitag, Samstag, Sonntag |
 | Bereitstellungszeit | Der Zeitpunkt, an dem die Lieferung versandfertig ist. |
 | Zeitraum | wöchentlich / monatlich |
 | Frequenz | • jede *n*-te Woche<br> • jeden *n*-ten Monat (Monatsintervall)<br> • *n*-ter Tag des Monats |
 
+<br>
+
+| **Wichtiger Hinweis:** |
+| :--- |
+| Die Angabe von mindestens einem Zeitraum und/oder einer Frequenz ist notwendig, damit Tourenlisten erfolgreich generiert werden können. |
+
 ### Geschäftspartner hinzufügen
 1. Gehe zur Registerkarte "Tour Version Line" unten auf der Seite und klicke auf ![](assets/Neu_hinzufuegen_Button.png). Es öffnet sich ein Overlay-Fenster.
 1. Gib im Feld **Geschäftspartner** einen Teil des Namens oder der Nummer des [Geschäftspartners](Neuer_Geschaeftspartner) ein und klicke auf den passenden Treffer in der [Dropdown-Liste](Keyboard_Shortcuts_Liste).
-1. Wähle ebenfalls im Feld **Geschäftspartner** einen Standort aus, sofern dem Geschäftspartner mehr als einer zugeordnet wurde.
-1. ***Optional:*** Gib einen **Puffer (Std)** ein. Dieser definiert, wie viel Zeit zwischen Versand und tatsächlicher Übergabe der Lieferung liegt.
-1. Setze ein Häkchen bei **Abholung**, sofern die Lieferung abgeholt wird.
+1. Wähle ebenfalls im Feld **Geschäftspartner** einen Standort aus, sofern dem Geschäftspartner mehr als eine [Adresse](Adresse_erfassen_Tab) zugeordnet wurde.
+1. ***Optional:*** Gib einen **Puffer (Std)** ein. Dieser definiert, wie viel Zeit zwischen Versand und tatsächlicher Übergabe der Lieferware liegt.
+1. Setze ein Häkchen bei **Abholung**, sofern die Lieferware abgeholt wird.
 1. Klicke auf "Bestätigen", um das Overlay-Fenster zu schließen und den Geschäftspartner zur Liste hinzuzufügen.
  >**Hinweis:** Wiederhole die Schritte 1 bis 6, um weitere Geschäftspartner hinzuzufügen.
 

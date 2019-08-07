@@ -37,6 +37,12 @@ The following parameters can be combined with each other as needed:
 | Time interval | weekly / monthly |
 | Repetitions | • every *n* weeks<br> • every *n* months<br> • *n*<sup>th</sup> day of the month |
 
+<br>
+
+| **Important note:** |
+| :--- |
+| It is necessary to specify at least a time interval and/or a repetition so that phone call schedules can be generated successfully. |
+
 ### Add a business partner
 1. Go to the record tab "Phone Call Schema Version Line" at the bottom of the page and click ![](assets/Add_New_Button.png). An overlay window opens up.
 1. In the field **Business Partner**, enter a part of the [business partner](New_Business_Partner) name or number and click on the matching result in the [drop-down list](Keyboard_shortcuts_reference).
