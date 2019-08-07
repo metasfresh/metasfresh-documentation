@@ -57,3 +57,6 @@ The following parameters can be combined with each other as needed:
 
 ## Next Steps
 - [Create automatic tour lists](Create_automatic_tour_lists).
+
+## Example
+![](assets/Add_tour_version.gif)

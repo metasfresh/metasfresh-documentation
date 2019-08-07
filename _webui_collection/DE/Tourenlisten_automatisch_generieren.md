@@ -26,3 +26,6 @@ Tourenlisten basieren auf den Einstellungen der Tourversionen. Je nach Einstellu
 1. Klicke auf "Start", um die Tourenliste zu erzeugen und das Overlay-Fenster zu schließen.
 1. Öffne den Eintrag des Tourenplanungsschemas und [springe über die verknüpften Belege](SpringezuBelegen) in das Fenster "Liefertage" (unter LOGISTIK in der Sidebar).
 1. In diesem Fenster kannst Du die neu erzeugte Tourenliste einsehen und verwalten.
+
+## Beispiel
+![](assets/Tourenlisten_automatisch_generieren.gif)
