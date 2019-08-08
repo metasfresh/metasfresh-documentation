@@ -30,6 +30,7 @@ In metasfresh, you can launch special price actions for a limited period of time
 1. Enter a **Standard Price** that shall be used as the promotional price for the selected product during the promotion period.
 1. Select a **Tax Category**.
 1. [metasfresh saves the progress automatically](Saveindicator).
+ >**Note:** The promotional price can also be viewed [in the respective product's entry](Product_promotional_price).
 
 ## Example
 ![](../DE/assets/Preiskampagne_Aktionspreis_anlegen.gif)
