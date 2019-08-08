@@ -12,7 +12,7 @@ ref: product_promotional_price
 ## Overview
 In metasfresh, you can trade a specific product for a limited period of time at a specific promotional price, which will then apply to either single business partners (customers as well as vendors) or to entire business partner groups. Consequently, all previously defined price conditions will be overridden during the promotion period and remain ineffective until the end of the promotion.
 
-You can also quickly record special price actions in general for different products under "[Campaign Price](Price_campaign_add_promotional_price)" in the menu.
+You can also quickly record [special price actions](Price_campaign_add_promotional_price) in general for different products under "[Campaign Price](Menu)" in the menu.
 
 ## Steps
 1. Open the entry of an existing [product](Menu) or [add a new one](NewProduct).

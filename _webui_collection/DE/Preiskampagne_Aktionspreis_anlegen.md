@@ -3,6 +3,7 @@ title: Wie erstelle ich eine Sonderpreisaktion?
 layout: default
 tags:
   - Preisgestaltung
+  - Preise
   - Preiskampagne
 lang: de
 sequence: 10
