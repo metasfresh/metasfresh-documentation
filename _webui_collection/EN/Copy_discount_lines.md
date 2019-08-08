@@ -11,7 +11,7 @@ ref: copy_discount_lines
 ---
 
 ## Requirements
-- [Create a discount schema](Create_discount_schema) where discount lines from other discount schemas can be copied.
+- [Create a discount schema](Create_discount_schema) where discount lines from other existing discount schemas can be copied.
 
 ## Steps
 1. Open "Rabatte Zeilen" (*Discount Lines*) from the [menu](Menu). This is where all discount lines from all existing discount schemas are listed.
