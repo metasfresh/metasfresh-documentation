@@ -3,6 +3,7 @@ title: How do I run a special price promotion?
 layout: default
 tags:
   - Pricing
+  - Prices
   - Price Campaign
 lang: en
 sequence: 10

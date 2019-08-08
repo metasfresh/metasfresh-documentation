@@ -12,7 +12,7 @@ ref: product_promotional_price
 ## Übersicht
 In metasfresh kannst Du ein bestimmtes Produkt während eines begrenzten Zeitraumes zu einem speziell festgelegten Aktionspreis handeln, welcher dann entweder für einzelne Geschäftspartner (sowohl Kunden als auch Lieferanten) oder für ganze Geschäftspartnergruppen gilt. Alle bisher definierten Preiskonditionen werden folglich während des Aktionszeitraumes überschrieben und treten erst nach Ablauf der Sonderpreisaktion wieder in Kraft.
 
-Allgemeine Sonderpreisaktionen für verschiedene Produkte kannst Du ebenfalls schnell unter "[Aktionspreise](Preiskampagne_Aktionspreis_anlegen)" erfassen.
+Allgemeine [Sonderpreisaktionen](Preiskampagne_Aktionspreis_anlegen) für verschiedene Produkte kannst Du ebenfalls schnell unter "[Aktionspreise](Menu)" erfassen.
 
 ## Schritte
 1. Öffne den Eintrag eines bestehenden [Produktes](Menu) bzw. [lege ein neues an](NeuesProdukt).
