@@ -21,7 +21,7 @@ Unter "Produkt Preise" kannst Du daher sowohl [Packvorschriften](Packvorschrift_
 1. Wähle eine **Packvorschrift** aus.
  >**Hinweis:** Packvorschriften werden erst angezeigt, wenn sie vorher dem [Produkt zugeordnet](CU-TU_Zuordnung) wurden.
 
-1. Soll der Preis auf Grundlage der im Eintrag festgelegten Verkaufsmengeneinheit berechnet werden, dann setze ein Häkchen bei **Preis ist attributabhängig**. Ansonsten gilt die Bestandsmengeneinheit des Produkts.
+1. Soll der Preis auf Grundlage der im Eintrag festgelegten Verkaufsmengeneinheit berechnet werden, dann setze ein Häkchen bei **Preis ist attributabhängig**. Ansonsten gilt die Bestandsmengeneinheit des Produktes.
  >**Hinweis:** Ist die Verkaufsmengeneinheit ≠ Bestandsmengeneinheit, muss eine [Maßeinheitenumrechnung](Masseinheiten_umrechnen) angelegt werden.
 
 1. [metasfresh speichert automatisch](Speicheranzeige).
@@ -36,7 +36,7 @@ Das Kästchen **Preis ist attributabhängig** ist nicht angehakt:
 
 | *Folgen:* |
 | :--- |
-| metasfresh berechnet die Auftragszeilensumme im Auftrag auf Grundlage der Bestandsmengeneinheit des Produkts. |
+| metasfresh berechnet die Auftragszeilensumme im Auftrag auf Grundlage der Bestandsmengeneinheit des Produktes. |
 
 <br>
 Auftrag:<br>

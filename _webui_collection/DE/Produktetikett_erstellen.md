@@ -19,7 +19,7 @@ In metasfresh kannst Du in verschiedenen Eingabefenstern benutzerdefinierte Regi
 ## Schritte
 
 ### Daten für das Produktetikett erfassen
-1. Öffne den Eintrag eines bestehenden [Produkts](Menu) bzw. [lege ein neues an](NeuesProdukt).
+1. Öffne den Eintrag eines bestehenden [Produktes](Menu) bzw. [lege ein neues an](NeuesProdukt).
 1. Gehe zur benutzerdefinierten Registerkarte unten auf der Seite und erfasse dort die Etikettdaten.
 
 | **Hinweis:** |
