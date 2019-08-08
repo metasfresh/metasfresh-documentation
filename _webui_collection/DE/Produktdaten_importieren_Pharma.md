@@ -29,7 +29,7 @@ ref: import_product_data_pharma
 
 ### IFA-Produktdaten überprüfen
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Import Pharma Product". Hier findest Du alle importierten IFA-Produkteinträge.
-1. Öffne den Eintrag des IFA-Produkts, dessen Daten Du überprüfen und ggf. korrigieren möchtest.
+1. Öffne den Eintrag des IFA-Produktes, dessen Daten Du überprüfen und ggf. korrigieren möchtest.
  - Konnten beim Import alle Daten fehlerfrei übertragen werden, dann ist der IFA-Produkteintrag hier schreibgeschützt und Du findest die importierten Daten unter dem Menüpunkt "[Produkt Pharma](Menu)" wieder, wo Du nun Änderungen vornehmen kannst.
  - Sollten einige Daten beim Import nicht oder fehlerhaft übertragen worden sein, kannst Du diese Fehler im jeweiligen IFA-Produkteintrag unter "[Import Pharma Product](Menu)" korrigieren. Hast Du alle Fehler behoben, kannst Du die IFA-Produktdaten nun manuell importieren. Gehe hierzu wie folgt vor:
 

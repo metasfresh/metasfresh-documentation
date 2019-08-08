@@ -43,7 +43,7 @@ Oder wenn Du [Belege druckst](PDFVorschau) für anderssprachige Geschäftspartne
 1. [Verwende die Filterfunktion](Filterfunktion), um denjenigen Eintrag zu finden, für den Du eine Übersetzung anlegen möchtest. Für jede verfügbare Sprache gibt es einen eigenen Eintrag (siehe Tabellenspalte **Sprache**).<br><br>![](assets/Produkt_Uebersetzung_Sprachen.png)
 
 #### b) Aus dem Eintrag über die Sidebar springen
-Hast Du den zu übersetzenden Eintrag bereits geöffnet, z.B. den eines Produkts, dann gehe wie folgt vor:
+Hast Du den zu übersetzenden Eintrag bereits geöffnet, z.B. den eines Produktes, dann gehe wie folgt vor:
 
 1. [Springe über die verknüpften Belege](SpringezuBelegen) des Eintrags in das jeweilige Übersetzungsfenster, z.B. "Produkt Übersetzung" unter PRODUKTVERWALTUNG in der Sidebar.
 1. In diesem Fenster werden Dir alle Übersetzungseinträge für den ausgewählten Eintrag angezeigt.

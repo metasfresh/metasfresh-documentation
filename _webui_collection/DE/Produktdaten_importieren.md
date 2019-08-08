@@ -26,7 +26,7 @@ Stelle sicher, dass alle Voraussetzungen für den [Datenimport in metasfresh](Da
 
 ### Produktdaten überprüfen
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Import Produkt". Hier findest Du alle importierten Produkteinträge.
-1. Öffne den Eintrag des Produkts, dessen Daten Du überprüfen und ggf. korrigieren möchtest.
+1. Öffne den Eintrag des Produktes, dessen Daten Du überprüfen und ggf. korrigieren möchtest.
  - Konnten beim Import alle Daten fehlerfrei übertragen werden, dann ist der Produkteintrag hier schreibgeschützt und Du findest die importierten Daten unter dem Menüpunkt "[Produkte](Menu)" wieder, wo Du nun Änderungen vornehmen kannst.
  - Sollten einige Daten beim Import nicht oder fehlerhaft übertragen worden sein, kannst Du diese Fehler im jeweiligen Produkteintrag unter "[Import Produkt](Menu)" korrigieren. Hast Du alle Fehler behoben, kannst Du die Produktdaten nun manuell importieren. Gehe hierzu wie folgt vor:
 

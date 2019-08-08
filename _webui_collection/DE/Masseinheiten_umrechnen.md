@@ -21,7 +21,7 @@ Aus 1 Kilogramm erhältst Du 4 Stück 250g Schalen Erdbeeren.<br>
 1 Schale enthält 0,25 kg Erdbeeren.
 
 ## Schritte
-1. Öffne den Eintrag eines bestehenden [Produkts](Menu) bzw. [lege ein neues an](NeuesProdukt).
+1. Öffne den Eintrag eines bestehenden [Produktes](Menu) bzw. [lege ein neues an](NeuesProdukt).
 1. Gehe zur Registerkarte "Maßeinheit Umrechnung" unten auf der Seite und klicke auf ![](assets/Neu_hinzufuegen_Button.png). Es öffnet sich ein Overlay-Fenster.
 1. Das Feld **Maßeinheit Quelle** muss mit der Bestandsmengeneinheit des Artikels übereinstimmen, z.B. hier "Kilogramm".
 1. Das Feld **Maßeinheit Ziel** bestimmt die Maßeinheit, in die umgerechnet werden soll, z.B. hier "Stück".
