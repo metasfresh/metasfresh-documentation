@@ -20,6 +20,8 @@ ref: create_discount_schema
  >**Note:** If this date lies in the *past*, the discount schema is effective *immediately*. If it lies in the *future*, the schema will only apply *from that date*.
 
 1. Go to the record tab "Discount Break" at the bottom of the page and click ![](assets/Add_New_Button.png). An overlay window opens up.
+ >**Note:** Alternatively, you can also [copy discount lines from existing discount schemas](Copy_discount_lines).
+
 1. ***Optional:*** Select a **Product** or a **Product Category**.
  >**Note:** In this case, the pricing conditions apply ***only*** to the selected product or category. If the fields remain empty, the pricing conditions apply to all the products on the price list.
 
