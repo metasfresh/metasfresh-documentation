@@ -30,6 +30,7 @@ In metasfresh kannst Du zeitlich begrenzte Sonderpreisaktionen starten, bei dene
 1. Trage einen **Standardpreis** ein, der in dem festgelegten Zeitraum als Aktionspreis für das ausgewählte Produkt verwendet werden soll.
 1. Wähle eine **Steuerkategorie** aus.
 1. [metasfresh speichert automatisch](Speicheranzeige).
+ >**Hinweis:** Der Aktionspreis kann ebenfalls [im Eintrag des jeweiligen Produktes](Produkt_Sonderpreis) eingesehen werden.
 
 ## Beispiel
 ![](assets/Preiskampagne_Aktionspreis_anlegen.gif)
