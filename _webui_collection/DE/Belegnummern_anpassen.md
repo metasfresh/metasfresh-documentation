@@ -23,7 +23,7 @@ Um die Belegnummern anzupassen, gehe wie folgt vor:
 1. [metasfresh speichert automatisch](Speicheranzeige).
 
 ## Nächste Schritte (optional)
-- [Richte die Referenzzeile eines Auftrags als Belegnummer für Folgebelege ein](Referenz_als_Belegnummer).
+- [Richte die Referenzzeile eines Auftrages als Belegnummer für Folgebelege ein](Referenz_als_Belegnummer).
 
 ## Beispiel
 ![](assets/Belegnummern_anpassen.gif)
