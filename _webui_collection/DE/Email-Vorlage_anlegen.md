@@ -8,9 +8,6 @@ sequence: 40
 ref: create_email_template
 ---
 
-## Übersicht
-
-
 ## Schritte
 1. [Gehe ins Menü](Menu) und öffne das Fenster "EMail-Vorlage".
 1. [Lege eine neue E-Mail-Vorlage an](Neuer_Datensatz_Fenster_Webui).
