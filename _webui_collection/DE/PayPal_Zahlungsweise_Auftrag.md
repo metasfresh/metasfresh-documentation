@@ -18,7 +18,7 @@ ref: paypal_payment_rule_salesorder
 1. [Erfasse einen Auftrag](Auftrag_erfassen) unter Beachtung der folgenden Einstellungen:
   - Wähle im Feld **Auftraggeber** einen Kontakt aus, der über eine E-Mail-Adresse verfügt und über die Zahlungsaufforderung benachrichtigt werden soll.
   - Wähle als **Zahlungsweise** *PayPal* aus.
-2. Bei [Fertigstellung des Auftrages](BelegverarbeitungFertigstellen) erhält dieser den Belegstatus "*Waiting for payment*" und es wird eine E-Mail mit den Details zur Zahlungsfreigabe an den Geschäftspartnerkontakt versendet.
+2. Bei [Fertigstellung des Auftrages](BelegverarbeitungFertigstellen) erhält dieser vorerst den Belegstatus "*Waiting for payment*" und es wird eine E-Mail mit den Details zur Zahlungsfreigabe an den Geschäftspartnerkontakt versendet.
 3. Es werden Einträge in den folgenden [Fenstern im Menü](Menu) erstellt:
   - *Payment Reservation:* Informationen zum Auftrag, Geschäftspartnerkontakt und Bearbeitungsstatus.
   - *PayPal Order:* Informationen zur Zahlungsreservierung, URL zur Zahlungsfreigabe und Bearbeitungsstatus.

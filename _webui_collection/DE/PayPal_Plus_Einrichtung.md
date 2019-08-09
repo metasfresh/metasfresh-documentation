@@ -16,7 +16,7 @@ ref: paypal_plus_setup
 1. Setze ein Häkchen bei **Sandbox**.
 1. Trage die **Client ID** ein, die Du von PayPal für die Einrichtung erhalten hast.
 1. Trage das **Client Secret** ein, das Du von PayPal für die Einrichtung erhalten hast.
-1. Wähle im Feld **Payer Approval Request Mail Template** eine [E-Mail-Vorlage](E-Mail-Vorlage_anlegen) aus, die für die Zahlungsbestätigungs-E-Mail verwendet werden soll.
+1. Wähle im Feld **Payer Approval Request Mail Template** eine [E-Mail-Vorlage](Email-Vorlage_anlegen) aus, die für die Zahlungsbestätigungs-E-Mail verwendet werden soll.
 1. [metasfresh speichert automatisch](Speicheranzeige).
 
 ## Nächste Schritte
