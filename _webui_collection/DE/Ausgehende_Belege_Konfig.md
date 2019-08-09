@@ -14,7 +14,7 @@ Du kannst die ausgehenden Belege für eine Vielzahl von Tabellen einrichten, dam
 
 ## Schritte
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Ausgehende Belege Konfig".
-1. [Erstelle einen neuen Konfigurationseintrag](Neuer_Datensatz_Fenster_Webui).
+1. [Lege einen neuen Konfigurationseintrag an](Neuer_Datensatz_Fenster_Webui).
 1. Gib den Namen der **DB-Tabelle**, für die Du die ausgehenden Belege konfigurieren möchtest, ein und wähle die entsprechende Tabelle aus den Vorschlägen aus, z.B. "Mahnart".
 1. Wähle ein [**Druck-Format**](Druckformat_anlegen), z.B. *Mahnbrief (swat)*.
 1. Stelle sicher, dass bei dem Kästchen **In Druck-Warteschlange** ein Häkchen gesetzt ist, wenn Du die fertigen Belege ebenfalls an die Druckwarteschlange senden möchtest.

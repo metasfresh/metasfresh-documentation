@@ -35,7 +35,7 @@ Hast Du mehrere Produkte, die für die Herstellung eines neuartigen Verkaufsprod
 1. Klicke auf "Start", um das Overlay-Fenster zu schließen und den Auftrag zu erstellen.
 
 ### Neues Verkaufsprodukt und Stückliste ansehen
-1. Gehe zur Registerkarte "Auftragsposition" unten auf der Seite des fertiggestellten Auftrags und [zoome](Zoomen_in_Tabellenfeld) in das Feld in der Spalte **Produkt** der Auftragszeile. Es öffnet sich der Eintrag des neuen Produktes in einem neuen Browser-Tab.
+1. Gehe zur Registerkarte "Auftragsposition" unten auf der Seite des fertiggestellten Auftrages und [zoome](Zoomen_in_Tabellenfeld) in das Feld in der Spalte **Produkt** der Auftragszeile. Es öffnet sich der Eintrag des neuen Produktes in einem neuen Browser-Tab.
 1. [Springe über die verknüpften Belege](SpringezuBelegen) des neuen Produktes zur "Stücklistenkonfiguration" (unter PRODUKTVERWALTUNG in der Sidebar) und öffne dort die dazugehörige, bereits [herausgefilterte](Filterfunktion) Stückliste.
 
 ## Beispiel

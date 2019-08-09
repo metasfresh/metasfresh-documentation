@@ -27,7 +27,7 @@ Erfasse den Vertrag wie einen [Auftrag](Auftrag_erfassen). Beachte ***vor Fertig
 
 | **Hinweis 2:** |
 | :--- |
-| Nach der Fertigstellung des Auftrags findest Du den Vertrag unter dem Menüpunkt "[Vertrag](Menu)" wieder. Über die [verknüpften Belege](SpringezuBelegen) kannst Du aus dem Auftrag auch ***direkt*** zum Vertrag springen. |
+| Nach der Fertigstellung des Auftrages findest Du den Vertrag unter dem Menüpunkt "[Vertrag](Menu)" wieder. Über die [verknüpften Belege](SpringezuBelegen) kannst Du aus dem Auftrag auch ***direkt*** zum Vertrag springen. |
 
 ## Beispiel
 ![](assets/Vertrag_erfassen.gif)
