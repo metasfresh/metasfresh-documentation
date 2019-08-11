@@ -56,30 +56,57 @@ curl -X POST "http://localhost:8181/api/sales/order/candidates" -H "accept: */*"
 the JSON is:
 ```json
 {
-  "org": {
-    "code": "test-org-03",
-    "name": "test-org-03-name"
-  },
-
-  "bpartner": {
+ "dataDestInternalName": "DEST.de.metas.ordercandidate",
+"dataSourceInternalName": "SOURCE.de.metas.ordercandidate.rest.OrderCandidatesRestControllerImpl",
+"externalHeaderId": "2156425",
+"externalLineId": "2156425",
+"poReference": "test",
     "bpartner": {
-      "code": "test-create-03",
-      "name": "test-create-03-name"
-    },
-    "location": {
-      "externalId":"addr1", "countryCode":"DE"
-    },
-    "contact": { "name":"teo", "externalId": "contact1" }
-  },
+    "bpartner": {
+     "code": "G0001",
+"externalId": "2156425"
+}, 
 
-  "dateRequired": "2018-10-01",
-  "productCode": "9002737",
-  "qty": 1,
-  "price": 321,
-  "discount": 13,
-  "poReference": "external-po-ref",
-  "externalId": "123456"
+"location": {
+"externalId": "2156425"
+,
+      "syncAdvise": {
+        "ifExists": "DONT_UPDATE",
+        "ifNotExists": "FAIL"
+      }
+          }
+
+
+},
+  "currencyCode": "EUR", 
+ 
+  "dateRequired": "2019-08-11",
+    "poReference": "external-po-ref",
+   "product": {
+    "code": "P002737",
+     "syncAdvise": {
+        "ifExists": "DONT_UPDATE",
+        "ifNotExists": "FAIL"
 }
+        },
+ 
+   "invoiceDocType": {
+        "docBaseType": "ARI" 
+  },
+ 
+  "org": {
+           "code": "001",
+      "syncAdvise": {
+        "ifExists": "DONT_UPDATE",
+        "ifNotExists": "FAIL"
+      
+}
+    }, 
+  
+ "price": 2,
+  "uomCode": "PCE",
+  "qty": 1
+  }
 ```
 
 #### Post an array of new sales order candidates
