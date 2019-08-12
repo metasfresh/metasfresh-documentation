@@ -28,6 +28,7 @@ In metasfresh kannst Du eigene Laufnummern für Belege definieren, die Du anschl
 ## Nächste Schritte (optional)
 - [Richte eine individuelle Belegnummerierung mit Affixen ein](Belegnummern_anpassen).
 - [Richte die Referenzzeile eines Auftrages als Belegnummer für Folgebelege ein](Referenz_als_Belegnummer).
+- [Weise bestimmten Belegarten bestimmte Belegnummerierungen zu](Belegart_Belegnummer_zuweisen).
 
 ## Beispiel
 ![](assets/Belegnummern_definieren.gif)
