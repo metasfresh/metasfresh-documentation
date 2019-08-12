@@ -28,6 +28,7 @@ In metasfresh, you can define individual sequence numbers for documents that can
 ## Next Steps (optional)
 - [Customize document sequence numbers using affixes](Customizing_doc_seq_numbers).
 - [Set the reference line of a sales order as document number for subsequent documents](Reference_as_doc_seq_number).
+- [Assign specific document sequences to specific document types](Doc_type_assign_sequence_number).
 
 ## Example
 ![](assets/Define_new_doc_sequence.gif)

@@ -5,6 +5,7 @@ tags:
   - Buchhaltung
   - Fakturierung
   - Gutschriften und Nachbelastungen
+  - Kunden
 lang: de
 sequence: 20
 ref: credit_memo_quantity_difference

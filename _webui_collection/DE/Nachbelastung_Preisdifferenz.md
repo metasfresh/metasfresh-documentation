@@ -5,6 +5,7 @@ tags:
   - Buchhaltung
   - Fakturierung
   - Gutschriften und Nachbelastungen
+  - Kunden
 lang: de
 sequence: 30
 ref: adjustment_charge_price_difference

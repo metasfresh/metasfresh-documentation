@@ -31,7 +31,7 @@ ref: createpurchaseorder
  >**Note:** Use the mouse or `Tab ↹` key to go to the field.
 
 1. Hit `↵ Enter` to add the line to the order.
- >**Note:** Repeat steps 2 to 4 until you have registered all order items.
+ >**Note:** Repeat steps 2 to 4 until you have recorded all order items.
 
 ### Complete the Order
 1. [Complete the order](DocumentProcessingComplete).

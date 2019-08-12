@@ -5,6 +5,7 @@ tags:
   - Accounting
   - Billing
   - Credit Notes and Adjustment Charges
+  - Customers
 lang: en
 sequence: 30
 ref: adjustment_charge_price_difference

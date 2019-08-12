@@ -17,7 +17,7 @@ In order to carry over the order reference automatically onto the delivery note 
 ## Steps
 1. Open "Document Sequence" from the [menu](Menu).
 1. [Use the filter](Filtering_function) to find the entry of the document whose sequence number shall be replaced by the order reference and open it, e.g., *MM Shipment* (= delivery note) or *AR Invoice*.
-1. In the field **Abw. Sequenznummer-Implementierung** (alternate sequence number implementation), pick *POReferenceAsSequenceNoProvider*.
+1. In the field **Abw. Sequenznummer-Implementierung** (*alternate sequence number implementation*), pick *POReferenceAsSequenceNoProvider*.
  >**Note:** The order reference will take the sequence number's place on the delivery note and invoice, respectively. The internal sequential numbering will stay intact and continue running.
 
 1. ***Optional:*** [Append affixes to the document sequence (reference)](Customizing_doc_seq_numbers).
