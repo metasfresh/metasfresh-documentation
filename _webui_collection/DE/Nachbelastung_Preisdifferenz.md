@@ -19,7 +19,7 @@ In metasfresh können Nachbelastungen erstellt werden, wenn sich nach Rechnungss
 ### Nachbelastung erstellen
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Debitoren Rechnungen".
 1. [Verwende die Filterfunktion](Filterfunktion), um den Eintrag der fertiggestellten Rechnung zu finden, für die Du eine Nachbelastung erstellen möchtest und öffne ihn.
- >**Hinweis:** [Springe alternativ über die verknüpften Belege](SpringezuBelegen) eines [Auftrags](Auftrag_erfassen) in den dazugehörigen [Rechnungseintrag](Zu_Auftrag_Rechnung_erstellen).
+ >**Hinweis:** [Springe alternativ über die verknüpften Belege](SpringezuBelegen) eines [Auftrages](Auftrag_erfassen) in den dazugehörigen [Rechnungseintrag](Zu_Auftrag_Rechnung_erstellen).
 
 1. [Starte die Aktion](AktionStarten) "Nachbelastung". Es öffnet sich ein Overlay-Fenster.
 1. Wähle die **Belegart** *Nachbelastung - Preisdifferenz* aus.

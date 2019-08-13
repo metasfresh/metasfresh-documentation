@@ -15,7 +15,7 @@ Die Rabattschemata in metasfresh sind sehr flexibel und vielfältig einsetzbar. 
 
 Außerdem lassen sich die verschiedenen Rabattformen intelligent miteinander kombinieren, können manuell gewährt oder auch als automatische Rabattschemata konfiguriert werden.
 
-Rabatte finden ihre Anwendung bei der Auftragszeilenerfassung eines [Auftrags](Auftrag_erfassen) oder auch einer [Bestellung](Bestellung_erfassen).<br>
+Rabatte finden ihre Anwendung bei der Auftragszeilenerfassung eines [Auftrages](Auftrag_erfassen) oder auch einer [Bestellung](Bestellung_erfassen).<br>
 Es gibt folgende Rabattformen:
 
 ## Auftragszeilenrabatte

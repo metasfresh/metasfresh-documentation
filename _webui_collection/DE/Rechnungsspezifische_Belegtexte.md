@@ -17,7 +17,7 @@ Weitere Informationen darüber, wie Du eigenen Text in Belege einfügen kannst, 
 ## Schritte
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Debitoren Rechnungen".
 1. Öffne den Eintrag einer [fertiggestellten Ausgangsrechnung](Zu_Auftrag_Rechnung_erstellen). [Verwende die Filterfunktion](Filterfunktion), um Dir bei der Suche nach einer ganz bestimmten Rechnung zu helfen.
- >**Hinweis:** Du kannst auch über die [verknüpften Belege](SpringezuBelegen) eines [fertiggestellten](BelegverarbeitungFertigstellen) [Auftrags](Auftrag_erfassen) ***direkt*** zum dazugehörigen Rechnungsbeleg springen, den Du bearbeiten möchtest.
+ >**Hinweis:** Du kannst auch über die [verknüpften Belege](SpringezuBelegen) eines [fertiggestellten](BelegverarbeitungFertigstellen) [Auftrages](Auftrag_erfassen) ***direkt*** zum dazugehörigen Rechnungsbeleg springen, den Du bearbeiten möchtest.
 
 1. Öffne die "[Erweiterte Erfassung](Ansichten)" aus dem [Aktionsmenü](AktionStarten).
  >**Hinweis:** Drücke `Alt` + `E` / `⌥ alt` + `E`.

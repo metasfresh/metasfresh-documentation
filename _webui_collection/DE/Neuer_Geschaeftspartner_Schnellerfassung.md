@@ -10,7 +10,7 @@ ref: quick_create_new_business_partner
 ---
 
 ## Übersicht
-Falls Dir bei der Erfassung eines [Auftrags](Auftrag_erfassen) oder einer [Bestellung](Bestellung_erfassen) auffällt, dass Du den betreffenden Geschäftspartner noch gar nicht in metasfresh registriert hast, kannst Du dies ganz einfach noch aus demselben Fenster per Schnellerfassung nachholen.
+Falls Dir bei der Erfassung eines [Auftrages](Auftrag_erfassen) oder einer [Bestellung](Bestellung_erfassen) auffällt, dass Du den betreffenden Geschäftspartner noch gar nicht in metasfresh registriert hast, kannst Du dies ganz einfach noch aus demselben Fenster per Schnellerfassung nachholen.
 
 ## Schritte
 1. Gib im Feld **Auftraggeber** ([Auftrag](Auftrag_erfassen)) bzw. **Lieferung von** ([Bestellung](Bestellung_erfassen)) einen Teil des Namens des fehlenden Geschäftspartners ein. Es öffnet sich eine Dropdown-Liste.<br>
@@ -28,7 +28,7 @@ Falls Dir bei der Erfassung eines [Auftrags](Auftrag_erfassen) oder einer [Beste
  >**Hinweis:** Wenn Du "Vereinigte Staaten von Amerika" als **Land** auswählst, kannst Du auch die **Region** eingeben. Klicke dazu einfach zweimal auf den Edit-Button, um das kleine Adressbearbeitungsfenster zu schließen und wieder zu öffnen. Das Feld erscheint dann oberhalb von **Land**.
 
 1. ***Optional:*** Setze je nach Art der Geschäftsbeziehung ein Häkchen bei **Kunde** und/oder **Lieferant**. Wähle anschließend eine **Zahlungsbedingung** und ein **(Einkaufs)Preissystem** aus.
-1. Klicke auf "Bestätigen", um den neuen Geschäftspartner zu speichern, das Overlay-Fenster zu schließen und mit der Erfassung des [Auftrags](Auftrag_erfassen) bzw. der [Bestellung](Bestellung_erfassen) fortzufahren.
+1. Klicke auf "Bestätigen", um den neuen Geschäftspartner zu speichern, das Overlay-Fenster zu schließen und mit der Erfassung des [Auftrages](Auftrag_erfassen) bzw. der [Bestellung](Bestellung_erfassen) fortzufahren.
 <br><br>
 
 | **Hinweis:** |
