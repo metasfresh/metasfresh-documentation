@@ -53,5 +53,8 @@ Die Rückgabe dieses Leergutes kann sowohl mit Bezug zu einer bestimmten Bestell
 1. [Stelle den Beleg fertig](BelegverarbeitungFertigstellen).
 1. [Öffne die PDF-Vorschau](PDFVorschau).
 
+## Nächste Schritte (optional)
+- [Storniere die Leergutausgabe](Leergutausgabe_stornieren).
+
 ## Beispiel
 ![](assets/Leergutausgabe_erfassen.gif)

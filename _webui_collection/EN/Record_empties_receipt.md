@@ -53,5 +53,8 @@ The receipt of empties is processed via the material receipt candidates and can 
 1. [Complete the document](DocumentProcessingComplete).
 1. [Open the PDF preview](PrintPreview).
 
+## Next Steps (optional)
+- [Reverse the empties receipt](Reverse_empties_receipt).
+
 ## Example
 ![](assets/Record_empties_receipt.gif)

@@ -53,5 +53,8 @@ Die Rücknahme dieses Leergutes wird über die Wareneingangsdisposition abgewick
 1. [Stelle den Beleg fertig](BelegverarbeitungFertigstellen).
 1. [Öffne die PDF-Vorschau](PDFVorschau).
 
+## Nächste Schritte (optional)
+- [Storniere die Leergutrücknahme](Leergutruecknahme_stornieren).
+
 ## Beispiel
 ![](assets/Leergutruecknahme_erfassen.gif)
