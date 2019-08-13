@@ -19,6 +19,7 @@ layout: default
   - [Creating Documentation](http://docs.metasfresh.org/howto_collection/EN/how_to_get_started_with_translating_docs.html)
   - [Database Queries](pages/sql/index_en)
   - [Setup Guides](pages/setup/index_en)
+  - [Talend Guides](pages/talend/index_en)
 
 ### How to get in contact
 
