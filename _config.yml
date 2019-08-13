@@ -24,8 +24,6 @@ collections:
     output: true
   setup:
     output: true
-  talend_collection:
-    output: true
 
 defaults:
   - scope:
