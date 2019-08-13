@@ -15,7 +15,6 @@ layout: default
   - [developing code](pages/developers/index_en)
   - [architecture overview](howto_collection/EN/metasfresh_architecture.html)
   - [buildsystem overview](pages/infrastructure/ci_en): how the maven-based buildsystem works locally as well a on our CI-server
-  - Javadocs [for the "main" body of code](http://metasfresh.com/javadoc/metasfresh-master/) and [for the esb bundles](http://metasfresh.com/javadoc/metasfresh-esb-master/)
   - [Customizing App Dictionary](pages/appdictionary/index_en)
   - [Creating Documentation](http://docs.metasfresh.org/howto_collection/EN/how_to_get_started_with_translating_docs.html)
   - [Database Queries](pages/sql/index_en)
