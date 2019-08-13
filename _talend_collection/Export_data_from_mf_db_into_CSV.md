@@ -9,4 +9,4 @@ ref: export_data_from_mf_db_into_CSV
 ---
 
 ## Example
-![](assets/Export Data from metasfresh db into CSV File.mp4)
+![Video](assets/Export Data from metasfresh db into CSV File.mp4)
