@@ -53,5 +53,8 @@ The empties return can be carried out either with reference to a particular purc
 1. [Complete the document](DocumentProcessingComplete).
 1. [Open the PDF preview](PrintPreview).
 
+## Next Steps (optional)
+- [Reverse the empties return](Reverse_empties_return).
+
 ## Example
 ![](assets/Record_empties_return.gif)
