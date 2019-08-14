@@ -21,7 +21,7 @@ select
        pol.pricestd       
 from c_order po
     join c_orderline pol on po.c_order_id = pol.c_order_id
-    join c_purchasecandidate_alloc pca on po.c_order_id = pca.c_orderpo_id
+    join c_purchasecandidate_alloc pca on pol.c_orderline_id = pca.c_orderlinepo_id
     join c_purchasecandidate cp on pca.c_purchasecandidate_id=cp.c_purchasecandidate_id
     join m_product mp on pol.m_product_id = mp.m_product_id
 
