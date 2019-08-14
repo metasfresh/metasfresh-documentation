@@ -13,8 +13,11 @@ ref: export_data_from_mf_db_into_CSV
 
 ### HTML
 <video width="480" height="320" controls="controls">
-  <source src="Talend_guide_data_export.mp4" type="video/mp4">
+  <source src="assets/Talend_guide_data_export.mp4" type="video/mp4">
 </video>
 
 ### iFrame
-<iframe width="560" height="315" src="Talend_guide_data_export.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="assets/Talend_guide_data_export.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### GIF
+![GIF video](assets/Talend_guide_data_export.gif)
