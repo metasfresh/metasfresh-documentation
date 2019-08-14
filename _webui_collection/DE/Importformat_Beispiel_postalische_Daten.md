@@ -33,7 +33,7 @@ Die Angabe der Pflichtfelder ist unerlässlich für einen erfolgreichen Datenimp
 |  | PLZ | 34049 | Postleitzahl |
 |  | Ort | Konstantinopel | Ort bzw. Stadt |
 | X | ISO-Ländercode | TR | TR = **T**ü**r**kei<br> Zweistelliger Buchstabencode (gem. ISO 3166-1 Alpha-2).<br> (*Den ISO-Ländercode kannst Du unter dem Menüpunkt "[Land, Region](Menu)" nachschauen.*) |
-|  | Region | IST | IST = **Ist**anbul<br> (*Das Akronym bzw. den **Namen** einer Region kannst Du unter dem Menüpunkt "[Land, Region](Menu)" unter der Registerkarte "Region" des jeweiligen Ländereintrags nachschauen.*) |
+|  | Region | IST | IST = **Ist**anbul<br> (*Das Akronym bzw. den **Namen** einer Region kannst Du unter dem Menüpunkt "[Land, Region](Menu)" unter der Registerkarte "Region" des jeweiligen Ländereintrages nachschauen.*) |
 |  | Gültig ab | 11.03.330 | Datum, ab dem die postalischen Daten gültig sind. |
 |  | Gültig bis | 01.01.1453 | Datum, bis zu dem die postalischen Daten gültig sind. |
 

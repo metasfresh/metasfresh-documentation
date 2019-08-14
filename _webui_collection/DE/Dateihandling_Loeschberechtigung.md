@@ -23,7 +23,7 @@ Beim Löschen eines Dateianhangs durch einen autorisierten Benutzer wird ein Ein
 1. [metasfresh speichert automatisch](Speicheranzeige).
 
 ### Änderungslog einsehen
-1. [Springe über die verknüpften Belege](SpringezuBelegen) des Dateneintrags, aus dem Du einen Dateianhang gelöscht hast, in das Fenster "Anhang Änderungslog" (unter SYSTEM in der Sidebar).
+1. [Springe über die verknüpften Belege](SpringezuBelegen) des Dateneintrages, aus dem Du einen Dateianhang gelöscht hast, in das Fenster "Anhang Änderungslog" (unter SYSTEM in der Sidebar).
 1. Hier findest Du für jeden Löschvorgang einen Log-Eintrag.
 
 ## Beispiel

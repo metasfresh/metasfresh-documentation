@@ -11,7 +11,7 @@ ref: record_empties_receipt
 ---
 
 ## Overview
-Returning empties becomes necessary after you have received your ordered goods and want to return the packing material which was used to transport the delivered products (e.g., [packaging such as crates or loading equipment such as pallets](Handling_Unit_System)) to the vendor.
+Returning empties becomes necessary when you have received your ordered goods and want to return the packing material which was used to transport the delivered products (e.g., [packaging such as crates or loading equipment such as pallets](Handling_Unit_System)) to the vendor.
 
 The empties return can be carried out either with reference to a particular purchase order or separately.
 
@@ -30,7 +30,7 @@ The empties return can be carried out either with reference to a particular purc
 1. [Start the quick action](StartAction) "Empties Return". The window "[Empties Return](Menu)" opens up in the same tab.
  >**Note:** You will also find this action in the actions menu in both the list view and the detailed view of an entry.
 
-1. In this entry, all order-relevant data have already been entered (see also the [advanced edit menu](ViewModes) in the [actions menu](StartAction)).
+1. In this entry, all order-relevant data have already been entered (see also the [advanced edit menu](ViewModes) from the [actions menu](StartAction)).
 
 ### Record empties
 1. Go to the record tab "Positionen" (*Shipment Line*) at the bottom of the page and click ![](assets/Batch_Entry_Button.png) to enter the empties.

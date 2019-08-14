@@ -27,13 +27,13 @@ Mithilfe der [Filterfunktion](Anrufplanung_Anrufe_filtern) kannst Du dir schnell
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Anrufliste".
 1. [Selektiere](AuswahlBelege) in der [Listenansicht](Ansichten) den Eintrag des Partners, mit dem Du ein Gespräch geführt hast, woraus sich ein Kundenauftrag ergeben hat.
 1. [Starte die Quick-Action](AktionStarten) "Auftrag erstellen". Es öffnet sich in demselben Tab ein neuer Auftrag, der bereits mit den Daten des Geschäftspartners ausgefüllt ist.
- >**Hinweis:** Diese Aktion findest Du ebenfalls im Aktionsmenü sowohl in der Listenansicht als auch in der Einzelansicht eines Eintrags.
+ >**Hinweis:** Diese Aktion findest Du ebenfalls im Aktionsmenü sowohl in der Listenansicht als auch in der Einzelansicht eines Eintrages.
 
 1. Fahre fort mit dieser [Anleitung zur Auftragserfassung](Auftrag_erfassen) ab **Schritt 4**.
 
 | **Hinweis:** |
 | :--- |
-| Sobald die Aktion "Auftrag erstellen" aus der Anrufliste gestartet wird, erhalten die Kontrollkästchen **Anruf getätigt** und **Auftrag erteilt** des jeweiligen Eintrags automatisch ein Häkchen. |
+| Sobald die Aktion "Auftrag erstellen" aus der Anrufliste gestartet wird, erhalten die Kontrollkästchen **Anruf getätigt** und **Auftrag erteilt** des jeweiligen Eintrages automatisch ein Häkchen. |
 
 ## Beispiel
 ![](assets/Anrufplanung_Auftrag_erteilen.gif)

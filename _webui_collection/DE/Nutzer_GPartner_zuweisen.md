@@ -18,7 +18,7 @@ ref: assign_bpartner_to_user
 
 | **Hinweis:** |
 | :--- |
-| Der Nutzereintrag erscheint nun ebenfalls unter dem Menüpunkt "[Geschäftspartner](Menu)" unter der Registerkarte "Nutzer / Kontakte" unten auf der Seite des jeweiligen Geschäftspartnereintrags. |
+| Der Nutzereintrag erscheint nun ebenfalls unter dem Menüpunkt "[Geschäftspartner](Menu)" unter der Registerkarte "Nutzer / Kontakte" unten auf der Seite des jeweiligen Geschäftspartnereintrages. |
 
 ## Beispiel
 ![](assets/Nutzer_GPartner_zuweisen.gif)

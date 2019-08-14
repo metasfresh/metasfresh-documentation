@@ -18,7 +18,7 @@ ref: add_new_calendar_periods
 1. [Selektiere](AuswahlBelege) den neu erstellten Registerkarteneintrag und [starte die Aktion](AktionStarten) "Perioden anlegen". Es öffnet sich ein Overlay-Fenster.
 1. Trage ein **Anfangsdatum** ein, z.B. "01.01.2019".
 1. Klicke auf "Start", um die Perioden anzulegen und das Overlay-Fenster zu schließen.
-1. [Springe über das Kontextmenü](Springezu_Kontextmenue) ![](assets/Kalenderperiode Kontextmenue.png) des zuvor neu erstellten Jahreseintrags in das Fenster "Periode". Hier siehst Du nun eine Auflistung der einzelnen Monate aus der Periode.
+1. [Springe über das Kontextmenü](Springezu_Kontextmenue) ![](assets/Kalenderperiode Kontextmenue.png) des zuvor neu erstellten Jahreseintrages in das Fenster "Periode". Hier siehst Du nun eine Auflistung der einzelnen Monate aus der Periode.
 
 ## Beispiel
 ![](assets/Kalenderperioden_hinzufuegen.gif)

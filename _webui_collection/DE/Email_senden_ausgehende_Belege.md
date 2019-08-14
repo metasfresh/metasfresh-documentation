@@ -23,7 +23,7 @@ Um mehrere versandfertige Belege per E-Mail zu versenden, gehe wie folgt vor:
  >**Hinweis:** Stelle sicher, dass jeder Beleg [mit einer E-Mail-Adresse versehen](Ausgehende_Belege_Empfaenger_aendern) ist (siehe Feld in Spalte **Mailadresse**).
 
 1. [Starte die Aktion](AktionStarten) "PDF als E-Mail an Geschäftspartner senden". Es öffnet sich ein Overlay-Fenster.
- >**Hinweis:** Diese Aktion findest Du ebenfalls im Aktionsmenü in der Einzelansicht eines Eintrags.
+ >**Hinweis:** Diese Aktion findest Du ebenfalls im Aktionsmenü in der Einzelansicht eines Eintrages.
 
 1. Klicke auf "Start", um die Belege zu versenden und das Overlay-Fenster zu schließen.
 1. Sobald die Belege erfolgreich versendet wurden, werden die jeweiligen Felder in der Spalte **Zuletzt gemailt** mit dem tatsächlichen Versandzeitpunkt aktualisiert. Dies kann ein paar Sekunden dauern.

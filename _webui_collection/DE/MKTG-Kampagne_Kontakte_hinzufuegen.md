@@ -27,7 +27,7 @@ Damit Kontakte (Nutzer bzw. Geschäftspartner) in die Verteilerliste einer [*Ser
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Geschäftspartner".
 1. [Selektiere](AuswahlBelege) in der [Listenansicht](Ansichten) die [Geschäftspartner](Neuer_Geschaeftspartner), die Du Deiner E-Mail-Kampagne als Kontakte hinzufügen möchtest.
 1. [Starte die Quick-Action](AktionStarten) "Export in E-Mail-Kampagne". Es öffnet sich ein Overlay-Fenster.
- >**Hinweis:** Diese Aktion findest Du ebenfalls im Aktionsmenü sowohl in der Listenansicht als auch in der Einzelansicht eines Eintrags.
+ >**Hinweis:** Diese Aktion findest Du ebenfalls im Aktionsmenü sowohl in der Listenansicht als auch in der Einzelansicht eines Eintrages.
 
 1. Gib im Feld [**MKTG_Campaign**](MKTG-Kampagne_erstellen) einen Teil der E-Mail-Kampagne ein und klicke auf den passenden Treffer in der [Dropdown-Liste](Keyboard_Shortcuts_Liste).
 1. Klicke auf "Start", um das Overlay-Fenster zu schließen und die Kontakte zur E-Mail-Kampagne hinzuzufügen.
@@ -36,11 +36,11 @@ Damit Kontakte (Nutzer bzw. Geschäftspartner) in die Verteilerliste einer [*Ser
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Geschäftspartner".
 1. [Selektiere](AuswahlBelege) in der [Listenansicht](Ansichten) die [Geschäftspartner](Neuer_Geschaeftspartner), die Du Deiner Serienbrief-Kampagne als Kontakte hinzufügen möchtest.
 1. [Starte die Aktion](AktionStarten) "Export in Serienbrief-Kampagne". Es öffnet sich ein Overlay-Fenster.
- >**Hinweis:** Diese Aktion findest Du ebenfalls im Aktionsmenü in der Einzelansicht eines Eintrags.
+ >**Hinweis:** Diese Aktion findest Du ebenfalls im Aktionsmenü in der Einzelansicht eines Eintrages.
 
 1. Gib im Feld [**MKTG_Campaign**](MKTG-Kampagne_erstellen) einen Teil der Serienbrief-Kampagne ein und klicke auf den passenden Treffer in der [Dropdown-Liste](Keyboard_Shortcuts_Liste).
 1. Wähle im Feld **DefaultAddressType** die Art der Standardadresse aus, an die die Serienbriefe später gesendet werden sollen, z.B. *BillToDefault* (Rechnungsstandard) oder *ShipToDefault* (Lieferstandard).
- >**Hinweis:** Stelle sicher, dass unter der Registerkarte "Adresse" des jeweiligen Geschäftspartnereintrags die entsprechenden Felder in der entsprechenden Zeile aktiviert sind.
+ >**Hinweis:** Stelle sicher, dass unter der Registerkarte "Adresse" des jeweiligen Geschäftspartnereintrages die entsprechenden Felder in der entsprechenden Zeile aktiviert sind.
 
 1. Klicke auf "Start", um das Overlay-Fenster zu schließen und die Kontakte zur Serienbrief-Kampagne hinzuzufügen.
 
@@ -55,7 +55,7 @@ Damit Kontakte (Nutzer bzw. Geschäftspartner) in die Verteilerliste einer [*Ser
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Nutzer".
 1. [Selektiere](AuswahlBelege) in der [Listenansicht](Ansichten) die [Nutzer](Nutzer_anlegen), die Du Deiner Marketingkampagne als Kontakte hinzufügen möchtest.
 1. [Starte die Quick-Action](AktionStarten) "Gefilterte Kontakte in Kampagne". Es öffnet sich ein Overlay-Fenster.
- >**Hinweis:** Diese Aktion findest Du ebenfalls im Aktionsmenü sowohl in der Listenansicht als auch in der Einzelansicht eines Eintrags.
+ >**Hinweis:** Diese Aktion findest Du ebenfalls im Aktionsmenü sowohl in der Listenansicht als auch in der Einzelansicht eines Eintrages.
 
 1. Gib im Feld [**MKTG_Campaign**](MKTG-Kampagne_erstellen) einen Teil der Marketingkampagne ein und klicke auf den passenden Treffer in der [Dropdown-Liste](Keyboard_Shortcuts_Liste).
 1. Klicke auf "Start", um das Overlay-Fenster zu schließen und die Kontakte zur Marketingkampagne hinzuzufügen.
@@ -63,7 +63,7 @@ Damit Kontakte (Nutzer bzw. Geschäftspartner) in die Verteilerliste einer [*Ser
 
 | **Allgemeiner Hinweis:** |
 | :--- |
-| Die hinzugefügten Kontakte findest Du nun unter dem Menüpunkt "[Marketing Kampagne](Menu)" unter der Registerkarte "Kontaktperson" unten auf der Seite des Eintrags der jeweiligen Marketingkampagne wieder. |
+| Die hinzugefügten Kontakte findest Du nun unter dem Menüpunkt "[Marketing Kampagne](Menu)" unter der Registerkarte "Kontaktperson" unten auf der Seite des Eintrages der jeweiligen Marketingkampagne wieder. |
 
 ## Beispiel
 ![](assets/MKTG-Kampagne_Kontakte_hinzufuegen.gif)

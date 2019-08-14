@@ -11,7 +11,7 @@ ref: record_empties_receipt
 ---
 
 ## Overview
-Taking back empties becomes necessary after a customer has received their ordered goods and wants to return the packing material which was used to transport the delivered products (e.g., [packaging such as crates or loading equipment such as pallets](Handling_Unit_System)).
+Taking back empties becomes necessary when a customer has received their ordered goods and wants to return the packing material which was used to transport the delivered products (e.g., [packaging such as crates or loading equipment such as pallets](Handling_Unit_System)).
 
 The receipt of empties is processed via the material receipt candidates and can be carried out either with reference to a particular purchase order or separately.
 
@@ -30,7 +30,7 @@ The receipt of empties is processed via the material receipt candidates and can 
 1. [Start the quick action](StartAction) "Empties Receive". The window "[Empties Receive](Menu)" opens up in the same tab.
  >**Note:** You will also find this action in the actions menu in both the list view and the detailed view of an entry.
 
-1. In this entry, all order-relevant data have already been entered (see also the [advanced edit menu](ViewModes) in the [actions menu](StartAction)).
+1. In this entry, all order-relevant data have already been entered (see also the [advanced edit menu](ViewModes) from the [actions menu](StartAction)).
 
 ### Record empties
 1. Go to the record tab "Position" (*Shipment Line*) at the bottom of the page and click ![](assets/Batch_Entry_Button.png) to enter the empties.
