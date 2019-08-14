@@ -23,7 +23,7 @@ ref: reverse_empties_return
 
 | **Hinweis:** |
 | :--- |
-| Den neu erstellten Stornobeleg findest Du unter dem Menüpunkt "[Leergut Ausgabe](Menu)" anhand seiner Belegnummer wieder. |
+| Den neu erstellten Stornobeleg findest Du unter dem Menüpunkt "[Leergut Ausgabe](Menu)" [anhand seiner Belegnummer](Filterfunktion) wieder. |
 
 ## Beispiel
-![](assets/.gif)
+![](assets/Leergutausgabe_stornieren.gif)
