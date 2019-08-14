@@ -9,4 +9,10 @@ ref: export_data_from_mf_db_into_CSV
 ---
 
 ## Example
-![Video](assets/Export Data from metasfresh db into CSV File.mp4)
+![Video](assets/Talend_guide_data_export.mp4)
+
+![Test video](assets/Talend_Guide_test1.mp4)
+
+![](assets/logo_metasfresh.png)
+
+![](assets/logo_metasfresh2.jpg)
