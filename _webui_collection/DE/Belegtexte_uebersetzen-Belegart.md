@@ -23,7 +23,7 @@ In metasfresh kannst Du für jede Belegart (z.B. Angebot, Bestellung, Eingangsre
 #### b) Aus dem Eintrag über die Sidebar springen
 Hast Du die Belegart, für die Du eine fremdsprachige Textversion anlegen möchtest, bereits geöffnet, dann gehe wie folgt vor:
 
-1. [Springe über die verknüpften Belege](SpringezuBelegen) des Eintrags in das Fenster "Belegart Übersetzung" (unter SYSTEM in der Sidebar).
+1. [Springe über die verknüpften Belege](SpringezuBelegen) des Eintrages in das Fenster "Belegart Übersetzung" (unter SYSTEM in der Sidebar).
 1. In diesem Fenster werden Dir alle Übersetzungseinträge für den ausgewählten Eintrag angezeigt.
 
 ### Fremdsprachige Textversionen anlegen

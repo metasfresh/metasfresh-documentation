@@ -35,7 +35,7 @@ Die Angabe der Pflichtfelder ist unerlässlich für einen erfolgreichen Datenimp
 | X | Unterregister Name | Datenerfassung | Name des Unterregisters |
 |  | Sektion Name | Technische Daten | Name der Sektion |
 |  | Zeile Name | • 10<br> • 20<br> • ... | Reihenfolge der Zeile |
-| X | Datensatz-Key | 0815_Ottomotor | Suchschlüssel des Dateneintrags |
+| X | Datensatz-Key | 0815_Ottomotor | Suchschlüssel des Dateneintrages |
 | X | Feld Name | Datum | Name des Feldes<br> (**Wichtiger Hinweis:** Bei mehreren Feldern mit demselben Namen ***müssen*** der Sektionsname und/oder die Reihenfolge der Zeile angegeben werden!) |
 |  | Feld Wert | 2020-02-20 | Wert bzw. Inhalt des Feldes.<br> Für folgende Felddatentypen (siehe [Erweiterte Dateneingabe - Feld](Sektionszeilen_Felder_hinzufuegen)) können folgende Werte angegeben werden:<br> • Datum: `JJJJ-MM-TT` (gem. ISO 8601)<br> • Kontrollkästchen: Y (`= aktiviert`), N (`= deaktiviert`)<br> • Liste: `Name des Listenelementes`<br> • Textbox: `Text (mehrzeilig)`<br> • Textfeld: `Text (einzeilig)`<br> • Zahl: `Zahlenwert`<br><br> Wird kein Feldwert angegeben, wird der ggf. vorhandene Feldinhalt in dem Eingaberegister gelöscht. |
 

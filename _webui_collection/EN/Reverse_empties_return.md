@@ -23,7 +23,7 @@ ref: reverse_empties_receipt
 
 | **Note:** |
 | :--- |
-| You will find the newly created reversal document by reference to the document number under "[Empties Return](Menu)" in the menu. |
+| You will find the newly created reversal document by reference to its document number under "[Empties Return](Menu)" in the menu. |
 
 ## Example
 ![](assets/.gif)

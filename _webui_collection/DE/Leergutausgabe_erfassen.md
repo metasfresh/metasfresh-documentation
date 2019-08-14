@@ -11,7 +11,7 @@ ref: record_empties_return
 ---
 
 ## Überblick
-Leergutausgaben spielen dann eine Rolle, nachdem Du Deine bestellte Lieferware erhalten hast und die Packmittel, mit dem die gelieferten Produkte transportiert wurden (z.B. [Verpackungen wie Kisten oder Ladehilfsmittel wie Paletten](Handling_Unit_System)), an den Lieferanten zurückgeben möchtest.
+Leergutausgaben spielen dann eine Rolle, wenn Du Deine bestellte Lieferware erhalten hast und die Packmittel, mit dem die gelieferten Produkte transportiert wurden (z.B. [Verpackungen wie Kisten oder Ladehilfsmittel wie Paletten](Handling_Unit_System)), an den Lieferanten zurückgeben möchtest.
 
 Die Rückgabe dieses Leergutes kann sowohl mit Bezug zu einer bestimmten Bestellung als auch gesondert geschehen.
 
@@ -28,9 +28,9 @@ Die Rückgabe dieses Leergutes kann sowohl mit Bezug zu einer bestimmten Bestell
 ### b) Bestellbezogene Leergutausgabe
 1. [Selektiere](AuswahlBelege) in der [Listenansicht](Ansichten) den Eintrag der [Bestellung](Bestellung_erfassen), zu der Du eine Leergutausgabe erfassen möchtest.
 1. [Starte die Quick-Action](AktionStarten) "Leergutausgabe". Es öffnet sich in demselben Tab das Fenster "[Leergutausgabe](Menu)".
- >**Hinweis:** Diese Aktion findest Du ebenfalls im Aktionsmenü sowohl in der Listenansicht als auch in der Einzelansicht eines Eintrags.
+ >**Hinweis:** Diese Aktion findest Du ebenfalls im Aktionsmenü sowohl in der Listenansicht als auch in der Einzelansicht eines Eintrages.
 
-1. In diesem Eintrag sind bereits alle auftragsrelevanten Daten erfasst (siehe auch in der "[Erweiterten Erfassung](Ansichten)" des [Aktionsmenüs](AktionStarten)).
+1. In diesem Eintrag sind bereits alle auftragsrelevanten Daten erfasst (siehe auch in der "[Erweiterten Erfassung](Ansichten)" aus dem [Aktionsmenü](AktionStarten)).
 
 ### Leergüter erfassen
 1. Gehe zur Registerkarte "Positionen" unten auf der Seite und klicke auf ![](assets/Massen_Erfassung_Button.png), um die Leergüter zu erfassen.
