@@ -26,7 +26,7 @@ Zu den zeitlichen Rahmenbedingungen eines Vertrages zählen in metasfresh u.a. V
  >**Hinweis:** Dies ist die Häufigkeit, in der ein Auftrag während der Laufzeit ausgeliefert wird.
 
 1. ***Optional:*** Setze ein Häkchen bei **Vertrag autom. verlängern**, damit er nach Laufzeitende wieder neu beginnt.
- >**Hinweis:** In diesem Fall erscheint das Kästchen **Neue Vertragslaufzeit autom. fertigstellen**. Setze auch hier ein Häkchen.
+ >**Hinweis:** In diesem Fall erscheint das Kontrollkästchen **Neue Vertragslaufzeit autom. fertigstellen**. Setze auch hier ein Häkchen.
 
 1. ***Optional:*** Im Feld **Nächste Vertragsbedingungen** kannst Du den Anschlussvertrag auswählen, in den der abgelaufene Vertrag übergehen soll.
 

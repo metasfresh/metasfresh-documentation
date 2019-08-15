@@ -30,7 +30,7 @@ Unter "Produkt Preise" kannst Du daher sowohl [Packvorschriften](Packvorschrift_
 ## Wie funktioniert die "Attributabhängigkeit"?
 
 #### Fall 1: Der Preis ist *NICHT* attributabhängig.
-Das Kästchen **Preis ist attributabhängig** ist nicht angehakt:
+Das Kontrollkästchen **Preis ist attributabhängig** ist nicht angehakt:
 
 ![](assets/Preis_nicht_attributabhaengig.png)
 
@@ -48,7 +48,7 @@ Bestandsmengeneinheit:<br>
 ---
 
 #### Fall 2: Der Preis *IST* attributabhängig.
-Das Kästchen **Preis ist attributabhängig** ist angehakt:
+Das Kontrollkästchen **Preis ist attributabhängig** ist angehakt:
 
 ![](assets/Preis_attributabhaengig.png)
 
