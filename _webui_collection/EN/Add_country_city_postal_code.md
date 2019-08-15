@@ -10,7 +10,7 @@ ref: add_country_city_postal_code
 ---
 
 ## Overview
-When [recording a location](Add_address_tab), entering just the city and postal code may at times be a little to vague. For a more accurate determination, it may be helpful to indicate the respective districts as well, so that locations that have the same postal code due to their geographical proximity can still be differentiated.
+When [recording a location](Add_address_tab), entering just the city and postal code may at times be a little too vague. For a more accurate determination, it may be helpful to indicate the respective districts as well, so that locations that have the same postal code due to their geographical proximity can still be differentiated.
 
 This is why metasfresh allows you to manually add as many city entries as you require and specify the postal code, township, district, region and country in more detail. To do so, please proceed as follows:
 
@@ -19,7 +19,7 @@ This is why metasfresh allows you to manually add as many city entries as you re
 1. [Add a new city entry](New_Record_Window).
 1. Enter the **City Name**, e.g., "Bonn".
 1. In the field **Postal**, enter the postal code, e.g., "53179".
-1. In the field **Region**, enter the (federal) state/province, e.g., "NRW".
+1. In the field **Region**, enter the (federal) state/province or equivalent, e.g., "NRW".
 1. Pick the **Country**, e.g., *Germany*.
 1. Enter the **Township**, e.g., "Mehlem".
 1. Enter the **District**, e.g., "Bad Godesberg".
