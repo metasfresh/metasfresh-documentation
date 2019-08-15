@@ -13,7 +13,7 @@ ref: copy_prices_from_price-list-version
 ## Übersicht
 Wenn Du eine neue Preislistenversion erstellst, ist diese vorerst leer, d.h. sie enthält keinerlei Preise oder Produkte. Diese kannst Du nun manuell [der Preisliste hinzufügen](Produkte_Preisliste_hinzufuegen).
 
-Stattdessen kannst Du jedoch auch die Preise und Produkte einer bestehenden Preislistenversion in Deine neue Version übernehmen, falls Du z.B. die gleichen Produkte hinzufügen möchtest aber mit anderen Preisen. Hierzu können ebenfalls Preisschemata verwendet werden.
+Stattdessen kannst Du jedoch auch die Preise und Produkte einer bestehenden Preislistenversion in Deine neue Version übernehmen, falls Du z.B. die gleichen Produkte hinzufügen möchtest aber mit anderen Preisen. Hierzu können ebenfalls [Preisschemata](Preisschema_mit_Regeln) verwendet werden.
 
 Um Preislisten zu kopieren, gehe wie folgt vor:
 
