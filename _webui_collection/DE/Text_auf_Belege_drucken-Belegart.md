@@ -19,7 +19,7 @@ Darüber hinaus kannst Du diese Texte auch eigenständig in die Sprachen Deiner 
 1. Öffne den Eintrag einer bestehenden Belegart, z.B. "Angebot".
 1. Gib in das Textfeld **Beschreibung** einen Text ein, der am Anfang des Beleges erscheinen soll.
 1. Gib in das Textfeld **Notiz / Zeilentext** einen Text ein, der am Ende des Beleges erscheinen soll.
-1. Stelle sicher, dass bei dem Kästchen **Copy description to document** ein Häkchen gesetzt ist, damit die Texte auch auf die Belege gedruckt werden.
+1. Stelle sicher, dass bei dem Kontrollkästchen **Copy description to document** ein Häkchen gesetzt ist, damit die Texte auch auf die Belege gedruckt werden.
 1. [metasfresh speichert automatisch](Speicheranzeige).
 
 ## Nächste Schritte (optional)
