@@ -39,9 +39,9 @@ Zum [Kopieren von Preislisten](Preise_von_Preislistenversion_kopieren) benötigs
 1. Klicke auf "Bestätigen", um das Overlay-Fenster zu schließen und die Regel zur Liste hinzuzufügen.
 <br><br>
 
-| **Hinweis zu "[Preislisten kopieren](Preise_von_Preislistenversion_kopieren)":** |
+| Hinweis zu "[Preislisten kopieren](Preise_von_Preislistenversion_kopieren)": |
 | :--- |
-| Damit eine Preisliste kopiert werden kann, muss das verwendete Preisschema **mindestens eine Schemaposition** enthalten. Allerdings ist es nicht unbedingt nötig, dass darin bestimmte Regeln definiert werden, wie z.B. Produkt, Geschäftspartner oder Aufschlag.<br> Ist dies dennoch der Fall und wird dieses Preisschema dann zum Kopieren von Preislisten eingesetzt, werden die definierten Regeln auf alle betroffenen Produkte angewendet.|
+| Damit eine Preisliste kopiert werden kann, muss das verwendete Preisschema **mindestens eine Schemaposition** enthalten. Allerdings ist es nicht unbedingt nötig, dass darin bestimmte Regeln definiert werden, wie z.B. Produkt, Geschäftspartner oder Aufschlag.<br> Ist dies dennoch der Fall und wird dieses Preisschema dann zum Kopieren von Preislisten eingesetzt, werden die definierten Regeln automatisch auf alle betroffenen Produkte angewendet.|
 
 ## Beispiel
 ![](assets/Preisschema_Regeln.gif)
