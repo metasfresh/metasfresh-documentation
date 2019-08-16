@@ -11,7 +11,7 @@ ref: price_list_schema_rules
 ---
 
 ## Overview
-If you want to [copy a price list](Copy_prices_from_price-list-version) you will need a valid price list schema where you can specify the products to be copied, to which product category and/or business partner the schema shall apply, and whether the standard prices shall be increased by a surcharge amount during copying.
+If you want to [copy a price list](Copy_prices_from_price-list-version) you will need a valid price list schema where you can also specify the products to be copied, to which product category and/or business partner the schema shall apply, and whether the standard prices shall be increased by a surcharge amount during copying.
 
 ## Steps
 
@@ -41,7 +41,7 @@ If you want to [copy a price list](Copy_prices_from_price-list-version) you will
 
 | Note for "[Copy price lists](Copy_prices_from_price-list-version)": |
 | :--- |
-| In order to copy a price list, the used price list schema must include **at least one schema line**. However, it is not strictly necessary to define specific rules, such as a product, business partner or surcharge amount.<br> If, however, this is the case and you are using this price list schema to copy a price list, the defined rules will be applied to all affected products automatically. |
+| In order to copy a price list, the price list schema used must include **at least one schema line**. However, it is not strictly necessary to define specific rules, such as a product, business partner or surcharge amount.<br> If, however, this is the case and you are using this price list schema to copy a price list, the defined rules will be applied to all affected products automatically. |
 
 ## Example
 ![](assets/Price_list_schema_rules.gif)
