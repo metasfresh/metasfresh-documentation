@@ -13,7 +13,7 @@ ref: copy_prices_from_price-list-version
 ## Übersicht
 Wenn Du eine neue Preislistenversion erstellst, ist diese vorerst leer, d.h. sie enthält keinerlei Preise oder Produkte. Diese kannst Du nun manuell [der Preisliste hinzufügen](Produkte_Preisliste_hinzufuegen).
 
-Stattdessen kannst Du jedoch auch die Preise und Produkte einer bestehenden Preislistenversion in Deine neue Version übernehmen, falls Du z.B. die gleichen Produkte hinzufügen möchtest aber mit anderen Preisen. Hierzu können ebenfalls [Preisschemata](Preisschema_mit_Regeln) verwendet werden.
+Stattdessen kannst Du jedoch auch die Preise und Produkte einer bestehenden Preislistenversion in Deine neue Version übernehmen, falls Du z.B. die gleichen Produkte  aber deren Preise abändern möchtest. Hierzu können ebenfalls [Preisschemata](Preisschema_mit_Regeln) verwendet werden.
 
 Um Preislisten zu kopieren, gehe wie folgt vor:
 
@@ -28,7 +28,7 @@ Um Preislisten zu kopieren, gehe wie folgt vor:
 1. Klicke doppelt auf das Feld **Basis-Preislistenversion** der neu erstellten Preislistenversion und wähle aus der Dropdown-Liste die Basisversion aus, von der die Preise und Produkte übernommen werden sollen.
 1. Klicke doppelt auf das Feld **Preis Schema** der neu erstellten Preislistenversion und wähle aus der Dropdown-Liste ein Preisschema aus, z.B. *Preislisten kopieren*.
 1. [Starte die Aktion](AktionStarten) "Preisliste erstellen".
- >**Hinweis:** Stelle sicher, dass die Zeile der neu erstellten Preislistenversion ausgewählt ist, bevor Du die Aktion startest.
+ >**Hinweis:** Stelle sicher, dass die Zeile der neu erstellten Preislistenversion [selektiert](AuswahlBelege) ist, bevor Du die Aktion startest.
 
 1. [metasfresh speichert automatisch](Speicheranzeige). Die Preise und Produkte wurden kopiert.
  >**Hinweis:** Waren in dem verwendeten Preisschema Regeln definiert, so wurden diese automatisch auf alle betroffenen Produktpreise angewendet.
