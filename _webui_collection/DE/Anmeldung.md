@@ -2,7 +2,7 @@
 title: Wie melde ich mich an?
 layout: default
 tags:
-  - Anfängertips für metasfresh
+  - Anfängertipps für metasfresh
   - Benutzung
 lang: de
 sequence: 10

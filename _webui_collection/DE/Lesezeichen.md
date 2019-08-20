@@ -2,7 +2,7 @@
 title: Wie kann ich Lesezeichen im Menü setzen?
 layout: default
 tags:
-  - Anfängertips für metasfresh
+  - Anfängertipps für metasfresh
   - Benutzung
 lang: de
 sequence: 40

@@ -2,6 +2,8 @@
 title: Wie richte ich PayPal Plus für metasfresh ein?
 layout: default
 tags:
+  - Workflow
+  - Verkauf
   - PayPal Plus
   - Einrichtung
 lang: de

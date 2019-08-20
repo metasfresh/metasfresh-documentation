@@ -26,6 +26,8 @@ collections:
     output: true
   talend_collection:
     output: true
+  rest_api_collection:
+    output: true
 
 defaults:
   - scope:

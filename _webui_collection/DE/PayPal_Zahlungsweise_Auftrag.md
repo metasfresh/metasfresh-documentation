@@ -2,6 +2,8 @@
 title: Wie verwende ich PayPal als Zahlungsweise für Aufträge?
 layout: default
 tags:
+  - Workflow
+  - Verkauf
   - PayPal Plus
 lang: de
 sequence: 10

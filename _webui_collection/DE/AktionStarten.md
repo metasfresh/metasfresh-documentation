@@ -2,7 +2,7 @@
 title: Wie starte ich eine Aktion? (Aktionstypen)
 layout: default
 tags:
-  - Anfängertips für metasfresh
+  - Anfängertipps für metasfresh
   - Benutzung
   - Aktionen
 lang: de
