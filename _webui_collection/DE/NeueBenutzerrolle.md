@@ -2,7 +2,7 @@
 title: Wie erstelle ich eine neue Benutzerrolle?
 layout: default
 tags:
-  - Anfängertips für metasfresh
+  - Anfängertipps für metasfresh
   - Einrichtung
   - Nutzer und Rollen
 lang: de

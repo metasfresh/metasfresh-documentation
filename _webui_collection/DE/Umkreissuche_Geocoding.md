@@ -2,7 +2,7 @@
 title: Wie verwende ich die Umkreissuche in metasfresh?
 layout: default
 tags:
-  - Anfängertips für metasfresh
+  - Anfängertipps für metasfresh
   - Benutzung
   - Filterfunktion
 lang: de

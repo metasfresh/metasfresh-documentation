@@ -2,7 +2,7 @@
 title: Eindeutige Fenster-URLs
 layout: default
 tags:
-  - Anfängertips für metasfresh
+  - Anfängertipps für metasfresh
   - Eigenschaften
 lang: de
 sequence: 40

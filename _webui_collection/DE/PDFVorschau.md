@@ -2,7 +2,7 @@
 title: Wie öffne ich die PDF-Druckvorschau eines Belegs?
 layout: default
 tags:
-  - Anfängertips für metasfresh
+  - Anfängertipps für metasfresh
   - Benutzung
   - Aktionen
 lang: de

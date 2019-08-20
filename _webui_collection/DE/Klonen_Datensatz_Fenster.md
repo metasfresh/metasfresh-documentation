@@ -2,7 +2,7 @@
 title: Wie klone ich die Daten aus einem Dokument?
 layout: default
 tags:
-  - Anfängertips für metasfresh
+  - Anfängertipps für metasfresh
   - Benutzung
   - Aktionen
 lang: de

@@ -2,7 +2,7 @@
 title: Wie springe ich über das Kontextmenü in verknüpfte Fenster?
 layout: default
 tags:
-  - Anfängertips für metasfresh
+  - Anfängertipps für metasfresh
   - Benutzung
   - Navigation
 lang: de

@@ -2,7 +2,7 @@
 title: Liste der Keyboard Shortcuts
 layout: default
 tags:
-  - Anfängertips für metasfresh
+  - Anfängertipps für metasfresh
 lang: de
 sequence: 20
 ref: keyboard_shortcuts_reference

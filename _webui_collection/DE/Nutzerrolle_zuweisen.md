@@ -2,7 +2,7 @@
 title: Wie weise ich einem Systembenutzer eine Nutzerrolle zu?
 layout: default
 tags:
-  - Anfängertips für metasfresh
+  - Anfängertipps für metasfresh
   - Einrichtung
   - Nutzer und Rollen
 lang: de

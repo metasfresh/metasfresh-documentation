@@ -2,7 +2,7 @@
 title: Wie funktioniert die Gebindeverwaltung als Teil des Handling Unit Systems?
 layout: default
 tags:
-  - Anfängertips für metasfresh
+  - Anfängertipps für metasfresh
   - Grundlagen und Konzepte
 lang: de
 sequence: 10

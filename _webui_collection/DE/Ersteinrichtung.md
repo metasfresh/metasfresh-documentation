@@ -2,7 +2,7 @@
 title: Wie stelle ich meine eigenen Firmendaten ein (Ersteinrichtungsassistent)?
 layout: default
 tags:
-  - Anfängertips für metasfresh
+  - Anfängertipps für metasfresh
   - Einrichtung
 lang: de
 sequence: 20
