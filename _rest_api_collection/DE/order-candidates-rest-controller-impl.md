@@ -15,8 +15,6 @@ Um diesen Endpunkt erfolgreich zu nutzen, benötigst Du gegebenenfalls folgende 
 - Datenquellname dieses Endpunktes (**dataSourceName**): `SOURCE.de.metas.ordercandidate.rest.OrderCandidatesRestControllerImpl`
 - Interne Benennung des Datenziels (**dataDestInternalName**): `DEST.de.metas.ordercandidate`
 
-<br>
-
 | **Hinweis:** |
 | :--- |
 | Die importierten Auftragskandidaten und Dateianhänge findest Du unter dem Menüpunkt "[Auftragsdisposition](../../webui_collection/DE/Menu)" wieder. |
@@ -24,15 +22,15 @@ Um diesen Endpunkt erfolgreich zu nutzen, benötigst Du gegebenenfalls folgende 
 ## Schritte
 
 ### Auftragskandidaten importieren
-[Folge dieser Anleitung](Allgemeine_Infos_REST_API) und verwende die Anfragemethode **<span style="color: #ffffff; background-color: #49cc90"> POST </span>/api/sales/order/candidates**. Füge im **Schritt 7** Deine Serveranfrage im JSON-Format ein, die Du auf Grundlage der für diesen Endpunkt zur Verfügung gestellten Anfragevorlage vorbereitet hast.
+[Folge dieser Anleitung](Allgemeine_Infos_REST_API) und verwende die Anfragemethode **<span style="color: #ffffff; background-color: #49cc90">&nbsp;POST </span>/api/sales/order/candidates**. Füge im **Schritt 7** Deine Serveranfrage im JSON-Format ein, die Du auf Grundlage der für diesen Endpunkt zur Verfügung gestellten Anfragevorlage vorbereitet hast.
 
 ### Dateianhänge hochladen
-1. Klicke auf die Anfragemethode<br> **<span style="color: #ffffff; background-color: #49cc90"> POST </span>/api/sales/order/candidates/{dataSourceName}/{externalReference}/attachments**.
+1. Klicke auf die Anfragemethode<br> **<span style="color: #ffffff; background-color: #49cc90">&nbsp;POST </span>/api/sales/order/candidates/{dataSourceName}/{externalReference}/attachments**.
 1. Klicke rechts unterhalb der Anfragemethode auf ![Ausprobieren](assets/button_try_it_out.png). Sämtliche Schreibfelder werden editierbar.
 1. Füge im Feld **Authorization token** Dein [Autorisierungstoken](../../webui_collection/DE/Authentifizierungstoken) ein.
 1. Trage in das Feld **dataSourceName** den Datenquellnamen dieses Endpunktes ein.
 1. Trage in das Feld **externalReference** die externe Referenz-ID (**External Header ID**) des Eintrages des Auftragskandidaten ein, dem der Dateianhang beigefügt werden soll.
- >**Hinweis:** Die **External Header ID** kannst Du in der "[Erweiterten Erfassung](Ansichten)" aus dem [Aktionsmenü](AktionStarten) des Eintrages des jeweiligen Auftragskandidaten einsehen.
+ >**Hinweis:** Die **External Header ID** kannst Du in der "[Erweiterten Erfassung](../../webui_collection/DE/Ansichten)" aus dem [Aktionsmenü](../../webui_collection/DE/AktionStarten) des Eintrages des jeweiligen Auftragskandidaten einsehen.
 
 1. Klicke im Feld **file** auf !["Datei auswählen"](assets/button_Datei_auswaehlen.png), um die als Anhang bestimmte Datei auszuwählen.
 1. Klicke auf ![Ausführen](assets/button_execute.png), um den Dateianhang hochzuladen.
