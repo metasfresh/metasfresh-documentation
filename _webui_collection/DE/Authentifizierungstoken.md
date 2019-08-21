@@ -11,7 +11,7 @@ ref: authentication_token
 ---
 
 ## Übersicht
-Mit einem Authentifizierungstoken kannst Du Dich u.a. gegenüber der [REST API von metasfresh](Allgemeine_Infos_REST_API) authentifizieren, was Dich für die Verwendung des Webservice autorisiert.
+Mit einem Authentifizierungstoken kannst Du Dich u.a. gegenüber der [REST API von metasfresh](../../rest_api_collection/DE/Allgemeine_Infos_REST_API) authentifizieren, was Dich für die Verwendung des Webservice autorisiert.
 
 ## Schritte
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Nutzer".
