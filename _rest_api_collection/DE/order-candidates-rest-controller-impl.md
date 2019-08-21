@@ -9,14 +9,38 @@ ref: order-candidates-rest-controller-impl
 ---
 
 ## Übersicht
-Über diesen Endpunkt kannst Du Auftragskandidaten nach metasfresh importieren und gleichzeitig sogar neue Geschäftspartner- sowie Produkteinträge anlegen. Gleichfalls kannst Du über diesen Endpunkt Anhänge hochladen und sie den Auftragskandidaten beifügen.
+Über diesen Endpunkt kannst Du Auftragskandidaten nach metasfresh importieren und gleichzeitig sogar neue Geschäftspartner- sowie Produkteinträge anlegen. Gleichfalls kannst Du über diesen Endpunkt Dateianhänge hochladen und sie den Auftragskandidaten beifügen.
+
+Um diesen Endpunkt erfolgreich zu nutzen, benötigst Du gegebenenfalls folgende Daten:
+- Datenquellname dieses Endpunktes (**dataSourceName**): `SOURCE.de.metas.ordercandidate.rest.OrderCandidatesRestControllerImpl`
+- Interne Benennung des Datenziels (**dataDestInternalName**): `DEST.de.metas.ordercandidate`
+
+<br>
+
+| **Hinweis:** |
+| :--- |
+| Die importierten Auftragskandidaten und Dateianhänge findest Du unter dem Menüpunkt "[Auftragsdisposition](../../webui_collection/DE/Menu)" wieder. |
 
 ## Schritte
-[Folge dieser Anleitung](Allgemeine_Infos_REST_API) und füge im **Schritt 7** Deine Serveranfrage im JSON-Format ein, die Du auf Grundlage des für diesen Endpunkt zur Verfügung gestellten Beispielwertes vorbereitet hast.
+
+### Auftragskandidaten importieren
+[Folge dieser Anleitung](Allgemeine_Infos_REST_API) und verwende die Anfragemethode **<span style="color: #ffffff; background-color: #49cc90"> POST </span>/api/sales/order/candidates**. Füge im **Schritt 7** Deine Serveranfrage im JSON-Format ein, die Du auf Grundlage der für diesen Endpunkt zur Verfügung gestellten Anfragevorlage vorbereitet hast.
+
+### Dateianhänge hochladen
+1. Klicke auf die Anfragemethode<br> **<span style="color: #ffffff; background-color: #49cc90"> POST </span>/api/sales/order/candidates/{dataSourceName}/{externalReference}/attachments**.
+1. Klicke rechts unterhalb der Anfragemethode auf ![Ausprobieren](assets/button_try_it_out.png). Sämtliche Schreibfelder werden editierbar.
+1. Füge im Feld **Authorization token** Dein [Autorisierungstoken](../../webui_collection/DE/Authentifizierungstoken) ein.
+1. Trage in das Feld **dataSourceName** den Datenquellnamen dieses Endpunktes ein.
+1. Trage in das Feld **externalReference** die externe Referenz-ID (**External Header ID**) des Eintrages des Auftragskandidaten ein, dem der Dateianhang beigefügt werden soll.
+ >**Hinweis:** Die **External Header ID** kannst Du in der "[Erweiterten Erfassung](Ansichten)" aus dem [Aktionsmenü](AktionStarten) des Eintrages des jeweiligen Auftragskandidaten einsehen.
+
+1. Klicke im Feld **file** auf !["Datei auswählen"](assets/button_Datei_auswaehlen.png), um die als Anhang bestimmte Datei auszuwählen.
+1. Klicke auf ![Ausführen](assets/button_execute.png), um den Dateianhang hochzuladen.
+ >**Hinweis:** Eventuelle Fehlermeldungen werden Dir unten im Abschnitt **Responses** angezeigt.
 
 ## Beispielhafte Serveranfrage
 
-### Auftragskandidaten inkl. Geschäftspartner- und Produkteintrag erstellen
+### Auftragskandidaten erstellen inkl. Geschäftspartner- und Produkteintrag anlegen
 ```json
 {
   "bpartner": {
