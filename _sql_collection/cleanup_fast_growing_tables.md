@@ -22,7 +22,7 @@ Some data might also be very interesting for troubleshooting.
 
 Only apply if no pending print jobs are existing and you dont need past data.
 
-```
+```SQL
 truncate c_print_package,c_print_job_instructions,c_print_job_line,c_print_packageinfo,c_printpackagedata,c_print_job_detail;
 ```
 
@@ -30,18 +30,25 @@ truncate c_print_package,c_print_job_instructions,c_print_job_line,c_print_packa
 
 Only apply if no pending async jobs are existing and you dont need past data.
 
-```
+```SQL
 truncate c_queue_workpackage, c_queue_block, c_queue_element,c_queue_workpackage_log,c_queue_workpackage_param;
 ```
 
 ### Temp Tables which are mostly empty anyway
 
-```
+```SQL
 truncate t_lock,t_webui_viewselection,t_webui_viewselectionline
 ```
 
-### Misc Tables
+### Material Dispo Eventlog
+
+```SQL
+truncate ad_eventlog,ad_eventlog_entry;
 ```
+
+### Misc Tables
+
+```SQL
 truncate ad_issue,ad_processablepo,c_advcommissionfactcand, c_advcommissionfact, c_incidentlinefact,c_advcomfact_salesrepfact
 ```
 
