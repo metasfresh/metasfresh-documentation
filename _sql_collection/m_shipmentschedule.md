@@ -34,3 +34,23 @@ from m_shipmentschedule mss
 
 ```
 
+
+## Rüstliste 
+
+```
+select --distinct bp.name,
+  cbl.name,
+  p.name
+  ,sum(ssq.qtytu) as tu
+ from M_ShipmentSchedule ss
+  join c_bpartner bp on ss.bill_bpartner_id = bp.c_bpartner_id
+  join m_shipmentschedule_qtypicked ssq on ss.m_shipmentschedule_id = ssq.m_shipmentschedule_id
+  join m_product p on ss.m_product_id = p.m_product_id
+  join c_bpartner_location cbl on ss.c_bpartner_location_id = cbl.c_bpartner_location_id
+where ss.deliverydate::date = now()::date
+and bp.name ilike '%customer%'
+  and ss.processed='Y'
+group by  cbl.name,p.name
+order by cbl.name,p.name
+
+```
