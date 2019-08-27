@@ -25,7 +25,7 @@ In metasfresh you can create custom record tabs in several input windows where y
 | **Note:** |
 | :--- |
 | You can use HTML tags to format characters and words as subscript and as superscript: |
-| • **Superscript:** min`<sup>`-1`</sup>` &rarr; min<sup>-1</sup><br><br> • **Subscript:** H`<sub>`2`</sub>`O &rarr; H<sub>2</sub>O |
+| •&nbsp;**Superscript:** min`<sup>`-1`</sup>` &rarr; min<sup>-1</sup><br><br> •&nbsp;**Subscript:** H`<sub>`2`</sub>`O &rarr; H<sub>2</sub>O |
 
 ### Print product label
 1. [Start the action](StartAction) "Products Data Entry (Jasper)".

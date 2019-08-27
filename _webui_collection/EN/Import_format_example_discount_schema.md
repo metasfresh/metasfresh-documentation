@@ -34,7 +34,7 @@ The mandatory fields are essential for a successful data import!
 | X | Product Value | FF_12345 | **Search Key** of the product (alphanumeric string) |
 | | Break Value | 100 | Minimum amount of a product at which a pricing condition applies. |
 | | Base_PricingSystem_Value | Customer Price List | **Search Key** of the pricing system used as basis for price determination. |
-| | PriceBase | • Pricing System<br> • Fixed | **Price base** may be either the pricing system or an individually specified fixed price. |
+| | PriceBase | •&nbsp;Pricing System<br> •&nbsp;Fixed | **Price base** may be either the pricing system or an individually specified fixed price. |
 | | Fixed Price | 2.99 | This information is only required if the **Price base** is set on *Fixed*. |
 | | Surcharge on Standard Price | 1.49 | This information is only required if the **Price base** is set on *Pricing System*. |
 | | Break Discount % | 5 | Volume discount in percent |

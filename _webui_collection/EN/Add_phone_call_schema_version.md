@@ -35,7 +35,7 @@ The following parameters can be combined with each other as needed:
 | :--- | :--- |
 | Weekdays | Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday |
 | Time interval | weekly / monthly |
-| Repetitions | • every *n* weeks<br> • every *n* months<br> • *n*<sup>th</sup> day of the month |
+| Repetitions | •&nbsp;every *n* weeks<br> •&nbsp;every *n* months<br> •&nbsp;*n*<sup>th</sup> day of the month |
 
 <br>
 

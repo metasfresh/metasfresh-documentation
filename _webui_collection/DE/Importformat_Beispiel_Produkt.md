@@ -32,7 +32,7 @@ Die Angabe der Pflichtfelder ist unerlässlich für einen erfolgreichen Datenimp
 | :---: | :---: | :--- | :--- |
 | X | Artikelnummer | FF_12345 | **Suchschlüssel** des Produktes (alphanumerische Zeichenfolge) |
 | X | Produktart | I | I = Artikel (engl.: _**I**tem_)<br> E = **E**rfolgskonten<br> R = **R**essource |
-| X | Produktkategorie-Schlüssel | • Diverse<br> • 16 | **Suchschlüssel** der Produktkategorie.<br> ***Achtung:*** Nicht der Name!<br> (*Den Suchschlüssel kannst Du unter dem Menüpunkt "[Produkt Kategorie](Menu)" nachschauen.*) |
+| X | Produktkategorie-Schlüssel | •&nbsp;Diverse<br> •&nbsp;16 | **Suchschlüssel** der Produktkategorie.<br> ***Achtung:*** Nicht der Name!<br> (*Den Suchschlüssel kannst Du unter dem Menüpunkt "[Produkt Kategorie](Menu)" nachschauen.*) |
 |  | Kodierung der Mengeneinheit	| PCE | PCE = Stück (Stk, engl.: _**P**ie**ce**_)<br> (*Die Kodierungen der Mengeneinheiten kannst Du unter dem Menüpunkt "[Maßeinheit](Menu)" nachschauen.*) |
 |  | MwSt-Kategorie | Reduzierter Steuersatz 7% (Deutschland) | Die MwSt-Kategorie kannst Du unter dem Menüpunkt "[Steuer Kategorie](Menu)" nachschauen. |
 |  | Version Preisliste | Testpreise Kunden (Deutschland) | Die Preislistenversion kannst Du unter dem Menüpunkt "[Preisliste](Menu)" nachschauen. |

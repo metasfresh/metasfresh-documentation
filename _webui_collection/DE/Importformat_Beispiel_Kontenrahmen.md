@@ -34,13 +34,13 @@ Die Angabe der Pflichtfelder ist unerlässlich für einen erfolgreichen Datenimp
 | X | Suchschlüssel | 10 | Suchschlüssel des Rechnungsführungselementes (dient ebenfalls zur Gliederung der Elemente untereinander). |
 | X | Name | Umlaufvermögen | Benennung des Rechnungsführungselementes |
 |  | Übergeordnetes Konto (Schlüssel) | 1 | Suchschlüssel des übergeordneten (zusammenfassenden) Kontos (dient ebenfalls zur Gliederung der Elemente untereinander). |
-|  | Kontenart | • A = Aktiven (engl.: _**a**ssets_)<br> • E = Aufwand (engl.: _**e**xpense_)<br> • O = Eigenkaptial (engl.: _**o**wner's equity_)<br> • R = Ertrag (engl.: _**r**evenue_)<br> • M = Notiz (engl.: _**m**emo_)<br> • L = Passiven (engl.: _**l**iabilities_) | Art des Kontos |
-|  | Kontovorzeichen | • N = Natural<br> • C = Haben (engl.: _**c**redit_)<br> • D = Soll (engl.: _**d**ebit_) | Zeigt das natürliche Vorzeichen des Kontos als Soll oder Haben an. |
-|  | Zusammenfassungseintrag | • Y = Ja<br> • N = Nein | Zusammenfassungseinträge stellen in einer Baumstruktur einen übergeordneten Ast dar, der untergeordnete Einträge in sich vereint und somit für das Reporting verwendet werden kann. |
-|  | Buchen "Ist" | • Y = Ja<br> • N = Nein | Zeigt an, ob Ist-Werte auf einem Element verbucht werden können. |
-|  | Buchen "Budget" | • Y = Ja<br> • N = Nein | Zeigt an, ob Budget-Werte auf einem Element verbucht werden können. |
-|  | Buchen "statistisch" | • Y = Ja<br> • N = Nein | Zeigt an, ob statistische Werte auf einem Element verbucht werden können. |
-|  | Belegartgesteuert | • Y = Ja<br> • N = Nein | Wird ein Konto über die Belegart gesteuert, dann können darauf keine manuellen Buchungen gemacht werden. |
+|  | Kontenart | •&nbsp;A = Aktiven (engl.: _**a**ssets_)<br> •&nbsp;E = Aufwand (engl.: _**e**xpense_)<br> •&nbsp;O = Eigenkaptial (engl.: _**o**wner's equity_)<br> •&nbsp;R = Ertrag (engl.: _**r**evenue_)<br> •&nbsp;M = Notiz (engl.: _**m**emo_)<br> •&nbsp;L = Passiven (engl.: _**l**iabilities_) | Art des Kontos |
+|  | Kontovorzeichen | •&nbsp;N = Natural<br> •&nbsp;C = Haben (engl.: _**c**redit_)<br> •&nbsp;D = Soll (engl.: _**d**ebit_) | Zeigt das natürliche Vorzeichen des Kontos als Soll oder Haben an. |
+|  | Zusammenfassungseintrag | •&nbsp;Y = Ja<br> •&nbsp;N = Nein | Zusammenfassungseinträge stellen in einer Baumstruktur einen übergeordneten Ast dar, der untergeordnete Einträge in sich vereint und somit für das Reporting verwendet werden kann. |
+|  | Buchen "Ist" | •&nbsp;Y = Ja<br> •&nbsp;N = Nein | Zeigt an, ob Ist-Werte auf einem Element verbucht werden können. |
+|  | Buchen "Budget" | •&nbsp;Y = Ja<br> •&nbsp;N = Nein | Zeigt an, ob Budget-Werte auf einem Element verbucht werden können. |
+|  | Buchen "statistisch" | •&nbsp;Y = Ja<br> •&nbsp;N = Nein | Zeigt an, ob statistische Werte auf einem Element verbucht werden können. |
+|  | Belegartgesteuert | •&nbsp;Y = Ja<br> •&nbsp;N = Nein | Wird ein Konto über die Belegart gesteuert, dann können darauf keine manuellen Buchungen gemacht werden. |
 
 ## Nächste Schritte
 - [Kontenrahmendaten importieren](Kontenrahmendaten_importieren).

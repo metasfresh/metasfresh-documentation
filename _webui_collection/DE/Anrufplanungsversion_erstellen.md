@@ -35,7 +35,7 @@ Du kannst folgende Parameter je nach Bedarf miteinander kombinieren:
 | :--- | :--- |
 | Wochentage | Montag, Dienstag, Mittwoch, Donnerstag, Freitag, Samstag, Sonntag |
 | Zeitraum | wöchentlich / monatlich |
-| Frequenz | • jede *n*-te Woche<br> • jeden *n*-ten Monat<br> • *n*-ter Tag des Monats |
+| Frequenz | •&nbsp;jede *n*-te Woche<br> •&nbsp;jeden *n*-ten Monat<br> •&nbsp;*n*-ter Tag des Monats |
 
 <br>
 
