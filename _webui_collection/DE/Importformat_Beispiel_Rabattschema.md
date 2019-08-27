@@ -34,7 +34,7 @@ Die Angabe der Pflichtfelder ist unerlässlich für einen erfolgreichen Datenimp
 | X | Produktschlüssel | FF_12345 | **Suchschlüssel** des Produktes (alphanumerische Zeichenfolge) |
 | | Menge | 100 | **Mengenstufe** des Produktes, ab der eine Preiskondition gilt. |
 | | Base_PricingSystem_Value | Testpreisliste Kunden | **Suchschlüssel** des Preissystems, das als Grundlage für die Preisbestimmung dient. |
-| | PriceBase | • Preissystem<br> • Festpreis | **Preisgrundlage** kann entweder das Preissystem sein oder ein abweichend bestimmter Festpreis.  |
+| | PriceBase | •&nbsp;Preissystem<br> •&nbsp;Festpreis | **Preisgrundlage** kann entweder das Preissystem sein oder ein abweichend bestimmter Festpreis.  |
 | | Standardpreis | 2,99 | **Festpreis**. Die Angabe ist nur erforderlich, sofern *Festpreis* als **Preisgrundlage** angegeben ist. |
 | | Aufschlag auf Standardpreis | 1,49 | Preisaufschlag. Die Angabe ist nur erforderlich, sofern *Preissystem* als **Preisgrundlage** angegeben ist. |
 | | Break Discount % | 5 | **Mengenrabatt** in Prozent |

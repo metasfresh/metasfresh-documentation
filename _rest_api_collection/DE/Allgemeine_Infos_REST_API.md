@@ -34,15 +34,19 @@ Im Folgenden werden die derzeit verfügbaren Endpunkte aufgeführt. Klicke auf e
 
 - [Auftragskandidaten (Auftragsdisposition)](order-candidates-rest-controller-impl)
 
-## JSON-Bausteine
+## JSON-Elemente
 
 ### externalId
-Bezieht sich auf die ID des Datensatzes auf der externen Plattform, von der die Daten abgerufen werden. Die `externalId` muss **eindeutig** sein. Zu finden ist sie am Ende der URL eines Dateneintrages in metasfresh hinter der Fenster-ID, wie an dem folgenden Beispiel zu erkennen ist:
 
-https://<span></span>live000.metasfresh.com/window/123/**2156435**
+```json
+"externalId": "2156435"
+```
+
+Dieses Name-Wert-Paar bezieht sich auf die ID des Datensatzes auf der externen Plattform, von der die Daten abgerufen werden. Die `externalId` muss **eindeutig** sein. Zu finden ist sie am Ende der URL eines Dateneintrages in metasfresh hinter der Fenster-ID, wie in dem folgenden Beispiel zu erkennen ist:
+
+<p style="text-align:center">https://live000.metasfresh.com/window/123/<strong>2156435</strong></p>
 
 ### syncAdvise
-Hiermit wird geprüft, ob ein Datensatz bereits existiert oder nicht sowie gesteuert, was in dem jeweiligen Fall passieren soll. Je nach Wertvorgabe können bestehende Datensätze aktualisiert, gelöscht oder von der Datenmigration ausgeschlossen sowie neue Datensätze angelegt oder der gesamte Migrationsvorgang abgebrochen werden.
 
 ```json
 "syncAdvise": {
@@ -51,10 +55,12 @@ Hiermit wird geprüft, ob ein Datensatz bereits existiert oder nicht sowie geste
 }
 ```
 
+Mithilfe dieses Objektes wird geprüft, ob ein Datensatz bereits existiert oder nicht sowie gesteuert, was in dem jeweiligen Fall passieren soll. Je nach Wertvorgabe können bestehende Datensätze aktualisiert, gelöscht oder von der Datenmigration ausgeschlossen sowie neue Datensätze angelegt oder der gesamte Migrationsvorgang abgebrochen werden.
+
 | Kondition | Werte | Beschreibung |
 | :--- | :--- |:--- |
-| "ifExists" | • UPDATE_MERGE<br> • UPDATE_REMOVE<br> • DONT_UPDATE | Ist ein Datensatz bereits vorhanden, kann er aktualisiert, gelöscht oder ausgelassen werden. |
-| "ifNotExists" | • CREATE<br> • FAIL | Ist ein Datensatz nicht vorhanden, kann er angelegt werden oder der Migrationsvorgang wird abgebrochen. |
+| "ifExists" | •&nbsp;UPDATE_MERGE<br> •&nbsp;UPDATE_REMOVE<br> •&nbsp;DONT_UPDATE | Ist ein Datensatz bereits vorhanden, kann er aktualisiert, gelöscht oder ausgelassen werden. |
+| "ifNotExists" | •&nbsp;CREATE<br> •&nbsp;FAIL | Ist ein Datensatz nicht vorhanden, kann er angelegt werden oder der Migrationsvorgang wird abgebrochen. |
 
 ## Beispiel
 ![REST API-Endpunkt: Auftragskandidaten](assets/REST_API_endpoint_example.png)

@@ -34,13 +34,13 @@ The mandatory fields are essential for a successful data import!
 | X | Value | 10 | Search key of the accounting element (is also used to structure the elements among each other). |
 | X | Name | Circulating Assets | Name of the accounting element |
 |  | Parent Value | 1 | Search key of the parent (summary) account (is also used to structure the elements among each other). |
-|  | Account Type | • A = Assets<br> • E = Expense<br> • O = Owner's Equity<br> • R = Revenue<br> • M = Memo<br> • L = Liabilities | Type of the account |
-|  | Account Sign | • N = Natural<br> • C = Credit<br> • D = Debit | Indicates the natural sign of the account as a debit or credit. |
-|  | Summary Level | • Y = Yes<br> • N = No | In a tree structure, summary entities represent a superior branch that combines child entries and can therefore be used for reporting. |
-|  | Post Actual | • Y = Yes<br> • N = No | Indicates whether actual values can be posted to an element. |
-|  | Post Budget | • Y = Yes<br> • N = No | Indicates whether budget values can be posted to an element. |
-|  | Post Statistical | • Y = Yes<br> • N = No | Indicates whether statistical values can be posted to an element. |
-|  | Document Controlled | • Y = Yes<br> • N = No | If an account is controlled by a document, you cannot post to it manually. |
+|  | Account Type | •&nbsp;A = Assets<br> •&nbsp;E = Expense<br> •&nbsp;O = Owner's Equity<br> •&nbsp;R = Revenue<br> •&nbsp;M = Memo<br> •&nbsp;L = Liabilities | Type of the account |
+|  | Account Sign | •&nbsp;N = Natural<br> •&nbsp;C = Credit<br> •&nbsp;D = Debit | Indicates the natural sign of the account as a debit or credit. |
+|  | Summary Level | •&nbsp;Y = Yes<br> •&nbsp;N = No | In a tree structure, summary entities represent a superior branch that combines child entries and can therefore be used for reporting. |
+|  | Post Actual | •&nbsp;Y = Yes<br> •&nbsp;N = No | Indicates whether actual values can be posted to an element. |
+|  | Post Budget | •&nbsp;Y = Yes<br> •&nbsp;N = No | Indicates whether budget values can be posted to an element. |
+|  | Post Statistical | •&nbsp;Y = Yes<br> •&nbsp;N = No | Indicates whether statistical values can be posted to an element. |
+|  | Document Controlled | •&nbsp;Y = Yes<br> •&nbsp;N = No | If an account is controlled by a document, you cannot post to it manually. |
 
 ## Next Steps
 - [Import chart of accounts data](Import_charts_of_accounts).

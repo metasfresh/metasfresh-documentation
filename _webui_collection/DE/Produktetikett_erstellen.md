@@ -25,7 +25,7 @@ In metasfresh kannst Du in verschiedenen Eingabefenstern benutzerdefinierte Regi
 | **Hinweis:** |
 | :--- |
 | Du kannst Zeichen und Wörter mithilfe von HTML-Tags hoch- oder tiefstellen: |
-| • **Hochstellung:** min`<sup>`-1`</sup>` &rarr; min<sup>-1</sup><br><br> • **Tiefstellung:** H`<sub>`2`</sub>`O &rarr; H<sub>2</sub>O |
+| •&nbsp;**Hochstellung:** min`<sup>`-1`</sup>` &rarr; min<sup>-1</sup><br><br> •&nbsp;**Tiefstellung:** H`<sub>`2`</sub>`O &rarr; H<sub>2</sub>O |
 
 ### Produktetikett drucken
 1. [Starte die Aktion](AktionStarten) "Products Data Entry (Jasper)".

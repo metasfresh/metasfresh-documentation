@@ -36,7 +36,7 @@ Du kannst folgende Parameter je nach Bedarf miteinander kombinieren:
 | Wochentage | Montag, Dienstag, Mittwoch, Donnerstag, Freitag, Samstag, Sonntag |
 | Bereitstellungszeit | Der Zeitpunkt, an dem die Lieferung versandfertig ist. |
 | Zeitraum | wöchentlich / monatlich |
-| Frequenz | • jede *n*-te Woche<br> • jeden *n*-ten Monat (Monatsintervall)<br> • *n*-ter Tag des Monats |
+| Frequenz | •&nbsp;jede *n*-te Woche<br> •&nbsp;jeden *n*-ten Monat (Monatsintervall)<br> •&nbsp;*n*-ter Tag des Monats |
 
 <br>
 
