@@ -2,17 +2,18 @@
 title: Wie stelle ich eine übergeordnete Produktkategorie ein?
 layout: default
 tags:
-  - Preisgestaltung
-  - Preiskonditionen
-  - Rabatte
-  - Kompensationsgruppen
+  - Stammdaten
+  - Produkt
+  - Produktkategorie
 lang: de
-sequence: 60
+sequence: 20
 ref: parentproductcategory
 ---
 
 ## Übersicht
-Wenn Du eine Produktkategorie einer anderen unterordnest, welche mit einem [Kompensationsgruppenschema verknüpft](Kompensationsgruppenschema_Produktkategorie) ist, dann wird beim [Gruppenrabattierungsprozess](Automatische_Gruppenrabatte) das Schema der übergeordneten Kategorie auf die Kompensationsgruppierung angewendet. So lassen sich einzelne Produkte unterschiedlich voneinander kategorisieren und trotzdem als Gruppe rabattieren.
+Wenn Du eine Produktkategorie einer anderen unterordnest, welche mit einem [Kompensationsgruppenschema verknüpft](Kompensationsgruppenschema_Produktkategorie) ist, dann wird bei der [Rabattierung](Auftragszeilengruppenrabatt) [automatisch erstellter Kompensationsgruppen](Kompensationsgruppen_automatisch_erstellen) das Schema der übergeordneten Kategorie angewendet. So lassen sich einzelne Produkte unterschiedlich voneinander kategorisieren und trotzdem als Gruppe rabattieren.
+
+Bei der [Erstellung von Stücklisten aufgrund eines Angebots](Stueckliste_bei_Auftragsgenerierung) dient die übergeordnete Kategorie zur Kategorisierung des zusammengestellten Verkaufsproduktes.
 
 ## Schritte
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Produkt Kategorie".

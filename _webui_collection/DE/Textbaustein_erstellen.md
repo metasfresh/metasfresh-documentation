@@ -2,7 +2,7 @@
 title: Wie erstelle ich einen Textbaustein?
 layout: default
 tags:
-  - Anfängertips für metasfresh
+  - Anfängertipps für metasfresh
   - Einrichtung
 lang: de
 sequence: 60

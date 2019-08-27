@@ -5,8 +5,9 @@ tags:
   - Pricing
   - Pricing Conditions
   - Discounts
+  - Configuration (Discount Schema)
 lang: en
-sequence: 50
+sequence: 30
 ref: link_discount_schema_to_bp
 ---
 

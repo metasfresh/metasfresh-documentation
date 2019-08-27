@@ -9,9 +9,7 @@ lang: en
 ## Overview
 Allows to control when the asynchronous queue processors are started after starting the app server.
 
-
 ## Example
-
 Set wait time after starting the app server to 1 second:
 
 ```

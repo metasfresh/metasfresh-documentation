@@ -25,12 +25,22 @@ In metasfresh, you can speed up some processes in several contexts by using cert
 | `Alt` + `↵ Enter` | `⌥ alt` + `↵ Enter` | Open selected / Apply ("Done") / Apply filter |
 | `Esc` | `esc` | Cancel |
 
+### Dynamic Search Box Context (Autocompletion)
+A dynamic search box is a searchable drop-down list, which updates with each letter typed into the text box, providing autocomplete suggestions to select by clicking on them.
+
+| Keyboard Shortcut <br> (Windows/MacOS) | Command |
+| :---: | :--- |
+| `SPACE` | Show a selection of available data entries.<br> (Select one of the provided options with the mouse or ![](../DE/assets/Workflow_Auftrag_Bis_Rechnung_WebUI-73797.png).) |
+
+**Example**: Dynamic drop-down list<br><br>
+![](assets/Dynamic_Drop-down_list.gif)
+
 ### Document Context ([list view](ViewModes))
 
 | Keyboard Shortcut <br> (Windows) | Keyboard Shortcut <br> (MacOS) | Command |
 | :---: | :---: | :--- |
 | `Alt` + `A` | `⌥ alt` + `A` | Select all lines, i.e. toggle between "Select all on this page" and "Select all ## items" |
-| `Alt` + `B` | `⌥ alt` + `B` | Open selected document in a new tab |
+| `Alt` + `B` | `⌥ alt` + `B` | Open selected document in a new browser tab |
 | `Alt` + `E` | `⌥ alt` + `E` | Open Advanced Edit Menu for selected document |
 | `Alt` + `Y` | `⌥ alt` + `Y` | Delete selected document |
 
@@ -41,11 +51,12 @@ In metasfresh, you can speed up some processes in several contexts by using cert
 | `Alt` + `D` | `⌥ alt` + `D` | Delete document |
 | `Alt` + `E` | `⌥ alt` + `E` | Open Advanced Edit Menu |
 | `Alt` + `I` | `⌥ alt` + `I` | Toggle Document Processing Actions (action button for document status) |
-| `Alt` + `K` | `⌥ alt` + `K` | Open E-mail Editor |
+| `Alt` + `K` | `⌥ alt` + `K` | Open Email Editor |
 | `Alt` + `N` | `⌥ alt` + `N` | Create New Document |
 | `Alt` + `P` | `⌥ alt` + `P` | Open Print Preview |
 | `Alt` + `U` | `⌥ alt` + `U` | Set document status to "Complete" |
 | `Alt` + `W` | `⌥ alt` + `W` | Clone document |
+| `Alt` + `Z` | `⌥ alt` + `Z` | *Only in sales orders:*<br> Open product proposal overlay window |
 
 ### Record Tab Context (in document)
 

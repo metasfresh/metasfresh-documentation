@@ -22,7 +22,7 @@ In metasfresh, you can quickly and easily combine dunning letters with their ass
 1. [Start the quick action](StartAction) "Dunning document with attached invoice PDFs".
  >**Note:** You will also find this action in the actions menu in both the list view and the detailed view of an entry.
 
-1. The PDF print preview of the dunning letter with the attached invoice PDFs opens up in a new tab.
+1. The PDF print preview of the dunning letter with the attached invoice PDFs opens up in a new browser tab.
 
 ## Example
 ![](assets/Dunning_letter_with_attached_invoice.gif)

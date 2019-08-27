@@ -9,18 +9,16 @@ layout: default
 sequence: 5
 ---
 
-This situation might happen if e.g.
+This situation might arise if, e.g.,
 * the legacy swing client is killed while it
-created async work packages for invoicing. In that case, the workpackages have
-`IsReadyForProcessing='N'`.
+created async work packages for invoicing. In that case, the workpackages have `IsReadyForProcessing='N'`.
 * processing an invoicing-workpackage failed, but for some reason, the lock was not removed.
-In that case, the workpackages have
-`IsError='Y'`
+In that case, the workpackages have `IsError='Y'`.
 
 The following SQL leans on the view de.metas.async".c_queue_overview_v to
 retrieve the `C_Invoice_Candidate_ID`s and `C_Queue_WorkPackage_ID`s in question.
 The important thing is to perform all three steps, no matter how you obtained the
-respective IDs
+respective IDs.
 
 ```sql
 -- note: adapt or drop the WHERE-part with "and IssueSummary='HasChanges'" as required

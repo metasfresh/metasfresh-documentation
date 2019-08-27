@@ -11,7 +11,7 @@ ref: single_incoming_payment
 ---
 
 ## Overview
-After receiving a payment, you can enter the amount as an *Incoming Payment* in metasfresh, whereby the associated invoice will automatically receive the status *Paid*. To do so, take the following steps:
+After receiving a payment, you can enter the amount as an *Incoming Payment* in metasfresh, whereby the associated invoice will automatically receive the status *Paid*. To do so, please proceed as follows:
 
 ## Requirements
 - Make sure to have an outstanding [invoice](Invoice_SalesOrder).
@@ -19,10 +19,10 @@ After receiving a payment, you can enter the amount as an *Incoming Payment* in 
 ## Steps
 1. Open "Payment" from the [menu](Menu).
 1. [Add a new payment entry](New_Record_Window).
-1. Select the **Business Partner**.
+1. In the field **Business Partner**, enter a part of the [business partner](New_Business_Partner) name or number and click on the matching result in the [drop-down list](Keyboard_shortcuts_reference).
 1. Select the **Document Type** *Incoming Payment*.
 1. Enter the **Invoice** for which you have received the payment.
- >**Note:** Hit `SPACE` to see all outstanding invoices of the business partner.
+ >**Note:** Hit [`SPACE`](Keyboard_shortcuts_reference) to see a selection of available outstanding invoices of the business partner.
 
 1. The **Payment amount** and the **Currency** are taken over automatically from the invoice, but can also be changed manually if required.
 1. [Complete the document](DocumentProcessingComplete).

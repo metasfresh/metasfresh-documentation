@@ -3,6 +3,7 @@ title: Wie kann ich URLs als Anhänge verwalten?
 layout: default
 tags:
   - Dokumentenverwaltung
+  - Dateianhänge
 lang: de
 sequence: 20
 ref: howto_attach_urls
@@ -23,7 +24,11 @@ ref: howto_attach_urls
 Zum Öffnen, drücke `Alt` + `7` / `⌥ alt` + `7`, um zur Anhangliste zu [springen](SpringezuBelegen) und klicke einfach auf das URL-Lesezeichen (siehe Beispiel).
 
 ### URL löschen
-Zum Löschen, drücke `Alt` + `7` / `⌥ alt` + `7`, um zur Anhangliste zu [springen](SpringezuBelegen) und klicke einfach auf das kleine Löschsymbol ![](assets/delete_icon.png) neben dem URL-Lesezeichen, welches Du löschen möchtest (siehe Beispiel).
+1. Drücke `Alt` + `7` / `⌥ alt` + `7`, um zur Anhangliste zu [springen](SpringezuBelegen).
+1. Klicke auf das kleine Löschsymbol ![](assets/delete_icon.png) neben dem URL-Lesezeichen, das Du löschen möchtest (siehe Beispiel).
+ >**Hinweis:** Sollte das Löschsymbol nicht erscheinen, verfügt Deine Benutzerrolle möglicherweise nicht über eine Löschberechtigung. [Folge dieser Anleitung](Dateihandling_Loeschberechtigung), um die Löschberechtigungen für Benutzerrollen einzustellen.
+
+1. Es erscheint ein kleines Dialogfenster mit der Frage: "Sind Sie sicher, dass Sie den Datenanhang löschen möchten?" – Klicke auf "Ok", um zu bestätigen.
 
 ## Beispiel
 ![](assets/URL_als_Anhang_verwalten.gif)

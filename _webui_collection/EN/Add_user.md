@@ -15,14 +15,14 @@ Generally speaking, users are contacts who you can register in metasfresh in add
 
 You can also register your business partners as users, e.g., for sending [serial letters](Create_serial_letters) to them as part of a [marketing campaign](Create_MKTG_campaign).
 
-In order to add new users, take the following steps:
+In order to add new users, please proceed as follows:
 
 ## Steps
 1. [Log in to metasfresh](Login).
 1. Open "User" from the [menu](Menu).
 1. [Add a new user](New_Record_Window).
 1. Fill in the fields **Firstname** and **Lastname**.
-1. Enter the user's **E-mail Address**.
+1. Enter the user's **Email Address**.
 1. The **Search Key** is an automatically assigned serial number. However, if required, you can also assign your own search key manually instead.
 
 ## Next Steps (optional)

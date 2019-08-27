@@ -13,7 +13,7 @@ ref: add_price-system
 ## Übersicht
 ![](assets/Preissystem Hierarchie - Preissystem.png)
 
-Ein Preissystem enthält eine oder mehrere Länderpreislisten, die einem Kunden/Lieferanten oder einer Partnergruppe [zugewiesen](Zuweisung_Preise_Partner) werden können.
+Ein Preissystem enthält eine oder mehrere Länderpreislisten, die einem [Kunden/Lieferanten](Zuweisung_Preise_Partner) oder einer [Partnergruppe zugewiesen](Zuweisung_Preise_Partner) werden können.
 
 Weitere Details zum Unterschied zwischen *Preissystem* und *Preisliste* findest Du [hier](Preissystem_versus_Preisliste).
 

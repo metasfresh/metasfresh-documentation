@@ -12,6 +12,8 @@ Whenever you change settings, it is necessary to reset the server cache in order
 
 ## Steps
 
+1. Log on as any user to the system you want to perform a server cache reset
+   > Note: Without user session you can not access the next step.
 1. Enter your server name and port into this link:
 `http://<yourhostname>/rest/api/debug/cacheReset`
 1. Copy the link into your browser where you have an open session of metasfresh and execute it.<br>

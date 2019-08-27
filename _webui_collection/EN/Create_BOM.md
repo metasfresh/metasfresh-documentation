@@ -3,9 +3,9 @@ title: How do I create a bill of materials (BOM)?
 layout: default
 tags:
   - Master Data
-  - Product
+  - Bill of Materials
 lang: en
-sequence: 30
+sequence: 10
 ref: create_bom
 ---
 
@@ -19,7 +19,7 @@ ref: create_bom
 1. Enter a **Document No**.
 
 ### Add BOM components
-1. Go to the record tab "Components of the BOM & Formula" at the bottom of the page and click ![](assets/Add_New_Button.png). An overlay window opens up.
+1. Go to the record tab "Components of the BOM & Formula" at the bottom of the page and click !["Add new"](assets/Add_New_Button.png). An overlay window opens up.
 1. Enter the **Product** you want to add as a component to the BOM, e.g., "Body" or "Strings".
 1. Enter a **Quantity**.
 1. Click "Done" to close the overlay window and add the product to the list.

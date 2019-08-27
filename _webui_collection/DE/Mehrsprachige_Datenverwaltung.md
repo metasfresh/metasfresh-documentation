@@ -12,7 +12,7 @@ ref: multilingual_data_management
 ## Übersicht
 In metasfresh kannst Du viele Deiner Daten sowohl für die *interne* als auch für die *externe* Datenverwaltung eigenständig in die Sprachen Deiner Geschäftspartner übersetzen.
 
-Die Dateneinträge der folgenden Menüpunkte können übersetzt werden:
+Derzeit können die Dateneinträge der folgenden Menüpunkte übersetzt werden:
 - Anreden
 - Aufgabentyp / Vorgangsart
 - Belegart
@@ -28,7 +28,7 @@ Die Dateneinträge der folgenden Menüpunkte können übersetzt werden:
 
 Sobald Du einen [neuen Dateneintrag angelegt](Neuer_Datensatz_Fenster_Webui) hast, werden in den entsprechenden Übersetzungsfenstern im Menü mehrsprachige Einträge erstellt, in denen Du anschließend Deine Übersetzungen bearbeiten kannst.
 
-Legst Du z.B. [ein neues Produkt an](NeuesProdukt), kannst Du unter dem Menüpunkt “Produkt Übersetzung” dessen Übersetzungseinträge bearbeiten.
+Legst Du z.B. [ein neues Produkt an](NeuesProdukt), kannst Du unter dem Menüpunkt "Produkt Übersetzung" dessen Übersetzungseinträge bearbeiten.
 
 Wenn Du nun die [Sprache Deiner Benutzeroberfläche änderst](SwitchLanguage) und z.B. einen [Auftrag erstellst](Auftrag_erfassen), wird Dir bei der Massenerfassung der Produktname in der jeweilig eingestellten Sprache angezeigt.
 
@@ -39,13 +39,13 @@ Oder wenn Du [Belege druckst](PDFVorschau) für anderssprachige Geschäftspartne
 ### Übersetzungseintrag öffnen
 
 #### a) Über das Navigationsmenü
-1. [Gehe ins Menü](Menu) und öffne das Übersetzungsfenster des jeweiligen Eintrags, z.B. "Produkt Übersetzung".
+1. [Gehe ins Menü](Menu) und öffne das Übersetzungsfenster des jeweiligen Eintrages, z.B. "Produkt Übersetzung".
 1. [Verwende die Filterfunktion](Filterfunktion), um denjenigen Eintrag zu finden, für den Du eine Übersetzung anlegen möchtest. Für jede verfügbare Sprache gibt es einen eigenen Eintrag (siehe Tabellenspalte **Sprache**).<br><br>![](assets/Produkt_Uebersetzung_Sprachen.png)
 
 #### b) Aus dem Eintrag über die Sidebar springen
-Hast Du den zu übersetzenden Eintrag bereits geöffnet, z.B. den eines Produkts, dann gehe wie folgt vor:
+Hast Du den zu übersetzenden Eintrag bereits geöffnet, z.B. den eines Produktes, dann gehe wie folgt vor:
 
-1. [Springe über die verknüpften Belege](SpringezuBelegen) des Eintrags in das jeweilige Übersetzungsfenster, z.B. "Produkt Übersetzung" unter PRODUKTVERWALTUNG in der Sidebar.
+1. [Springe über die verknüpften Belege](SpringezuBelegen) des Eintrages in das jeweilige Übersetzungsfenster, z.B. "Produkt Übersetzung" unter PRODUKTVERWALTUNG in der Sidebar.
 1. In diesem Fenster werden Dir alle Übersetzungseinträge für den ausgewählten Eintrag angezeigt.
 
 #### c) Aus der Registerkarte über das Kontextmenü springen\*
@@ -70,8 +70,8 @@ Möchtest Du Registerkarteneinträge übersetzen, wie z.B. im Falle der Mahnstuf
 <br><br>
 
 | **Allgemeiner Hinweis:** |
-| :- |
-| Die Änderungen im Feld **Name** wirken sich grundsätzlich sowohl auf die *internen* als auch auf die *externen* Daten aus. Das heißt, je nach [Spracheinstellung der Benutzeroberfläche](SwitchLanguage) bzw. Sprache des [Geschäftspartners](Neuer_Geschaeftspartner) wird dann der **Name** in der jeweiligen Sprache dargestellt bzw. auf die Belege gedruckt. Ausnahmen bilden hierbei die Dateneinträge der Menüpunkte "Belegart" und "Mahnstufe".<br> Für "Belegart" bestimmt das Feld **Name** lediglich die *interne* Benennung des Dateneintrags. Die *externe* Benennung wird über das zusätzliche Feld **Drucktext** verwaltet, wie es auch für "Mahnstufe" der Fall ist. Allerdings wird der *interne* Name der Mahnstufe im Eintrag der jeweiligen [Mahnart](Mahnart_definieren) verwaltet. |
+| :--- |
+| Die Änderungen im Feld **Name** wirken sich grundsätzlich sowohl auf die *internen* als auch auf die *externen* Daten aus. Das heißt, je nach [Spracheinstellung der Benutzeroberfläche](SwitchLanguage) bzw. Sprache des [Geschäftspartners](Neuer_Geschaeftspartner) wird dann der **Name** in der jeweiligen Sprache dargestellt bzw. auf die Belege gedruckt. Ausnahmen bilden hierbei die Dateneinträge der Menüpunkte "Belegart" und "Mahnstufe".<br> Für "Belegart" bestimmt das Feld **Name** lediglich die *interne* Benennung des Dateneintrages. Die *externe* Benennung wird über das zusätzliche Feld **Drucktext** verwaltet, wie es auch für "Mahnstufe" der Fall ist. Allerdings wird der *interne* Name der Mahnstufe im Eintrag der jeweiligen [Mahnart](Mahnart_definieren) verwaltet. |
 
 ## Beispiel
 ![](assets/Produkt_Uebersetzung.gif)

@@ -12,7 +12,7 @@ ref: startaction
 
 ## Overview
 Actions are contextual and can be started from every window. Each window therefore provides other actions.<br>
-In metasfresh there are three different types of actions:
+In metasfresh, there are three different types of actions:
 
 ## General Actions (Actions Menu)
 You will find these actions in the actions menu.
@@ -41,4 +41,4 @@ You will find quick actions for processes, such as [creating goods receipts](Cre
 
 ### Steps
 - Click on the quick actions button or press `Alt` + `U` / `⌥ alt` + `U` to execute the shown quick action.
-- Click on the box next to the quick actions button or press `Alt` + `L` / `⌥ alt` + `L` to toggle the quick actions menu and select an action other than the one shown.
+- Click on the box to the right of the quick actions button or press `Alt` + `L` / `⌥ alt` + `L` to toggle the quick actions menu and select an action other than the one shown.

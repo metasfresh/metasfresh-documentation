@@ -5,7 +5,7 @@ tags:
   - Datenverwaltung
   - Datenimport
 lang: de
-sequence: 30
+sequence: 40
 ref: import_file_useful_tips
 ---
 
@@ -13,8 +13,16 @@ ref: import_file_useful_tips
 Damit Du extern gespeicherte Daten in metasfresh importieren kannst, musst Du sie erst entsprechend formatiert als CSV- oder TXT-Datei hochladen und kannst sie dann einfach über das [Aktionsmenü](AktionStarten) importieren.
 
 Hier sind ein paar Formatbeispiele für den Import von:
+- [Bankauszugsdaten](Importformat_Beispiel_Bankauszug)
+- [Benutzerdefinierten Dateneingaben](Importformat_Beispiel_Dateneingabe)
 - [Geschäftspartnerdaten](Importformat_Beispiel_GPartner)
+- [IFA-Herstellerdaten](Importformat_Beispiel_GPartner_Pharma)
+- [IFA-Produktdaten](Importformat_Beispiel_Produkt_Pharma)
+- [Kontenrahmendaten](Importformat_Beispiel_Kontenrahmen)
+- [Nachbestelldaten](Importformat_Beispiel_Nachbestellung)
+- [Postalische Daten](Importformat_Beispiel_postalische_Daten)
 - [Produktdaten](Importformat_Beispiel_Produkt)
+- [Rabattschemadaten](Importformat_Beispiel_Rabattschema)
 
 ## Nützliche Hinweise
 Bitte achte bei der Erstellung einer Importdatei auf Folgendes:
@@ -27,8 +35,16 @@ Bitte achte bei der Erstellung einer Importdatei auf Folgendes:
  >**Hinweis:** metasfresh erwartet ***keine Spaltennamen*** in der Importdatei. Alleine die ***Position*** der Spalte muss mit der Startnummer übereinstimmmen.
 
 ## Nächste Schritte
+- [Bankauszugsdaten importieren](Bankauszugsdaten_importieren).
+- [Benutzerdefinierte Dateneingaben importieren](Dateneingaben_importieren).
 - [Geschäftspartnerdaten importieren](GPartnerdaten_importieren).
+- [IFA-Herstellerdaten importieren](GPartnerdaten_importieren_Pharma).
+- [IFA-Produktdaten importieren](Produktdaten_importieren_Pharma).
+- [Kontenrahmendaten importieren](Kontenrahmendaten_importieren).
+- [Nachbestelldaten importieren](Nachbestelldaten_importieren).
+- [Postalische Daten importieren](Postalische_Daten_importieren).
 - [Produktdaten importieren](Produktdaten_importieren).
+- [Rabattschemadaten importieren](Rabattschema_importieren).
 
 ## Beispiel: Excel-Tabelle (Produktdaten)
 ![](assets/Excel-Tabelle_Produktdaten.png)

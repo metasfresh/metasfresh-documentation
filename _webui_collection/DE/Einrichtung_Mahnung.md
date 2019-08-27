@@ -2,7 +2,7 @@
 title: Wie richte ich das Mahnverfahren ein?
 layout: default
 tags:
-  - Rechnungswesen
+  - Buchhaltung
   - Mahnwesen
   - Einrichtung
 lang: de

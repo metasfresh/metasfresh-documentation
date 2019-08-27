@@ -2,7 +2,7 @@
 title: Wie wechsle ich zwischen den Ansichten hin und her?
 layout: default
 tags:
-  - Anfängertips für metasfresh
+  - Anfängertipps für metasfresh
   - Benutzung
   - Navigation
 lang: de
@@ -16,7 +16,7 @@ Sämtliche Fenster (z.B. "Aufträge") öffnen prinzipiell in der Listenansicht. 
 ---
 
 ## Einzelansicht
-Bei einem Doppelklick auf einen Eintrag oder beim [Neuanlegen eines Eintrags](Neuer_Datensatz_Fenster_Webui) wechselt metasfresh automatisch in die Einzelansicht. Dort können Datenänderungen vorgenommen werden.
+Bei einem Doppelklick auf einen Eintrag oder beim [Neuanlegen eines Eintrages](Neuer_Datensatz_Fenster_Webui) wechselt metasfresh automatisch in die Einzelansicht. Dort können Datenänderungen vorgenommen werden.
 
 Um von der Einzelansicht wieder zurück in die Listenansicht zu wechseln, brauchst Du nur in dem Navigationsmenü auf den vorherigen Punkt zu klicken. Alternativ kannst Du auch den Zurück-Button Deines Internetbrowsers verwenden.
 

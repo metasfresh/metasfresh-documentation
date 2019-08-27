@@ -11,7 +11,7 @@ ref: convert_uoms
 ---
 
 ## Übersicht
-Stimmt die Bestandsmengeneinheit eines Produkts nicht mit seiner Verkaufsmengeneinheit überein, muss eine Umrechnung angelegt werden.
+Stimmt die Bestandsmengeneinheit eines Produktes nicht mit seiner Verkaufsmengeneinheit überein, muss eine Umrechnung angelegt werden.
 
 #### Zum Beispiel:
 Du führst Erdbeeren mit der Bestandsmengeneinheit (BME) "Kilogramm" im Bestand. Du verkaufst sie allerdings in 250g Schalen, also in der Verkaufsmengeneinheit (VME) "Stück".
@@ -21,8 +21,8 @@ Aus 1 Kilogramm erhältst Du 4 Stück 250g Schalen Erdbeeren.<br>
 1 Schale enthält 0,25 kg Erdbeeren.
 
 ## Schritte
-1. Öffne den Eintrag eines bestehenden [Produkts](Menu) bzw. [lege ein neues an](NeuesProdukt).
-1. Gehe zur Registerkarte "Maßeinheit Umrechnung" unten auf der Seite und klicke auf ![](assets/Neu_hinzufuegen_Button.png). Es öffnet sich ein Overlay-Fenster.
+1. Öffne den Eintrag eines bestehenden [Produktes](Menu) bzw. [lege ein neues an](NeuesProdukt).
+1. Gehe zur Registerkarte "Maßeinheit Umrechnung" unten auf der Seite und klicke auf !["Neu hinzufügen"](assets/Neu_hinzufuegen_Button.png). Es öffnet sich ein Overlay-Fenster.
 1. Das Feld **Maßeinheit Quelle** muss mit der Bestandsmengeneinheit des Artikels übereinstimmen, z.B. hier "Kilogramm".
 1. Das Feld **Maßeinheit Ziel** bestimmt die Maßeinheit, in die umgerechnet werden soll, z.B. hier "Stück".
 1. Das Feld **Quelle-Ziel Faktor** bestimmt den Faktor, mit dem die Menge in der Quellmaßeinheit multipliziert werden soll, um die entsprechende Menge in der Zielmaßeinheit zu erhalten.<br>

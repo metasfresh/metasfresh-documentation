@@ -2,7 +2,7 @@
 title: Wie ändere ich die Sprache der Benutzeroberfläche?
 layout: default
 tags:
-  - Anfängertips für metasfresh
+  - Anfängertipps für metasfresh
   - Einrichtung
 lang: de
 sequence: 10

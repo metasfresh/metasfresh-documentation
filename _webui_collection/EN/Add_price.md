@@ -16,16 +16,13 @@ ref: add_price
 ## Steps
 1. Open "Product Prices" from the [menu](Menu).
 1. [Create a new price entry](New_Record_Window).
-1. Enter the [**Product**](NewProduct) to which the price shall apply and select the corresponding one from the suggestions.
-1. In the field **Price List Version**, enter a part of the name of the envisaged price list version and click on one of the results.
- >**Note 1:** Hit `SPACE` to see all available [price list versions](Add_price-list-version).<br><br>
- >**Note 2:** Select one of the shown options with the mouse or ![](../DE/assets/Workflow_Auftrag_Bis_Rechnung_WebUI-73797.png).
-
-1. The field **List Price** specifies the list price that will later appear on the documents.
+1. Enter the [**Product**](NewProduct) to which the price shall apply and select it from the results in the [drop-down list](Keyboard_shortcuts_reference).
+1. In the field **Price List Version**, enter a part of the name of the designated [price list version](Add_price-list-version) and click on the matching result in the [drop-down list](Keyboard_shortcuts_reference).
+1. The field **List Price** specifies the list price that will appear on the supporting documents.
 1. The field **Standard Price** specifies the effectively valid purchase or sales price (depending on the respective price list).
 1. **Limit Price**: Manual price changes made by the user, e.g., in the order line, must not fall below this amount!
-1. The field **UOM** specifies the sales UOM and ***must not be confused*** with the product's stock UOM (inventory management)!
- >**Note:** If sales UOM ≠ stock UOM, you have to define a [UOM conversion](Convert_UOMs).
+1. The field **UOM** specifies the sales UOM and ***must not be confused*** with the product's stock-keeping UOM (inventory management)!
+ >**Note:** If sales UOM ≠ stock-keeping UOM, you have to define a [UOM conversion](Convert_UOMs).
 
 1. In the field **Tax Category**, you can select the respective value-added tax (VAT) category, such as *normal*, *reduced*, *tax-free*.
 1. [metasfresh saves the progress automatically](Saveindicator).

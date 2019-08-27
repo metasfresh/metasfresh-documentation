@@ -2,7 +2,7 @@
 title: Wie ändere ich die Art der Benachrichtigungen in metasfresh?
 layout: default
 tags:
-  - Anfängertips für metasfresh
+  - Anfängertipps für metasfresh
   - Einrichtung
 lang: de
 sequence: 40
@@ -19,7 +19,7 @@ metasfresh bietet folgende Benachrichtigungsarten:
 | E-Mail | Der Nutzer erhält eine Benachrichtigung nur per E-Mail. |
 | Statusmeldung | Der Nutzer erhält eine Benachrichtigung nur in der Nachrichtenbox ![](assets/NotificationBell_WebUI.png). |
 | E-Mail + Statusmeldung | Der Nutzer erhält eine Benachrichtigung sowohl per E-Mail als auch in der Nachrichtenbox ![](assets/NotificationBell_WebUI.png). |
-| Nichts | Es werden keine Benachrichtigungen versandt. |
+| Nichts | Es werden keine Benachrichtigungen versendet. |
 
 ## Schritte
 1. Öffne rechts oben in der Menüleiste das Nutzermenü ![](assets/UserMenu_Rabbit_WebUI.png).

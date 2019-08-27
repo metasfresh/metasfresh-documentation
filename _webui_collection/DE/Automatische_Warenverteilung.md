@@ -23,10 +23,10 @@ Zur Einrichtung der automatischen Warenverteilung für Leergebinde benötigst Du
 ## Schritte
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Distributions Konfiguration".
 1. [Lege einen neuen Distributionskonfigurationseintrag an](Neuer_Datensatz_Fenster_Webui).
-1. Benenne den Distributionskonfigurationeintrag im Feld **Name**, z.B. "Autom. Gebindedistribution".
+1. Benenne den Distributionskonfigurationseintrag im Feld **Name**, z.B. "Autom. Gebindedistribution".
 1. Trage eine **Nr.** ein.
 1. Setze ein Häkchen bei **IsHUDestroyed**.
-1. Gehe zur Registerkarte "Network Line" unten auf der Seite und klicke auf ![](assets/Neu_hinzufuegen_Button.png). Es öffnet sich ein Overlay-Fenster.
+1. Gehe zur Registerkarte "Network Line" unten auf der Seite und klicke auf !["Neu hinzufügen"](assets/Neu_hinzufuegen_Button.png). Es öffnet sich ein Overlay-Fenster.
 1. Wähle im Feld **Source Warehouse** ein Ausgangslager aus, z.B. *Hauptlager*.
 1. Wähle im Feld **Target Warehouse** ein Ziellager aus, z.B. *Leergebindelager*.
 1. Wähle einen **Lieferweg** aus, z.B. *Eigentransport*.

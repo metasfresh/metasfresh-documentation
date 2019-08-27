@@ -26,7 +26,7 @@ Furthermore, with the credit limit type it is possible to configure that a credi
 1. Determine a **Sequence** for the prioritization of the credit limit types.
  >**Note:** 1 = lowest priority (when using several credit limit types).
 
-1. ***Optional:*** Check the box **Auto Approval** if you want the credit limit to be approved without confirmation of an authorized user.
+1. ***Optional:*** Tick the checkbox **Auto Approval** if you want the credit limit to be approved without confirmation of an authorized user.
  >**Note:** In this case, the field **Approved by** of the credit limit line remains empty after approval.
 
 1. [metasfresh saves the progress automatically](Saveindicator).

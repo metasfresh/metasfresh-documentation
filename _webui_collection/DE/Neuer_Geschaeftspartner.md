@@ -13,7 +13,7 @@ ref: new_business_partner
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Geschäftspartner".
 1. [Lege einen neuen Geschäftspartner an](Neuer_Datensatz_Fenster_Webui).
 1. Der **Suchschlüssel** ist eine automatisch zugewiesene laufende Nummer. Unter Umständen kann man stattdessen jedoch auch einen eigenen Suchschlüssel manuell vergeben.
-1. Handelt es sich um eine **Firma**, setze bei dem entsprechenden Kästchen ein Häkchen und fülle das Feld **Firmenname** aus. Ist dies nicht der Fall, entferne das Häkchen und benenne den Geschäftspartner im Feld **Name**.
+1. Handelt es sich um eine **Firma**, setze bei dem entsprechenden Kontrollkästchen ein Häkchen und fülle das Feld **Firmenname** aus. Ist dies nicht der Fall, entferne das Häkchen und benenne den Geschäftspartner im Feld **Name**.
  >**Hinweis:** Der **Name/Firmenname** ist auf 60 Zeichen beschränkt.
 
 1. Wähle eine [**Geschäftspartnergruppe**](Neue_Geschaeftspartnergruppe) aus, z.B. *Maschinenlieferant*.
