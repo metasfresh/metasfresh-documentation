@@ -37,7 +37,7 @@ from m_shipmentschedule mss
 
 ## Rüstliste 
 
-```
+```SQL
 select --distinct bp.name,
   cbl.name,
   p.name
