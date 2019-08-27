@@ -22,7 +22,7 @@ Wenn ein Kunde eine einzelne Zahlung leistet, um mehrere Rechnungen auf einmal z
 1. Gib im Feld **Geschäftspartner** einen Teil des Namens oder der Nummer des [Geschäftspartners](Neuer_Geschaeftspartner) ein und klicke auf den passenden Treffer in der [Dropdown-Liste](Keyboard_Shortcuts_Liste).
 1. Wähle die **Belegart** *Zahlungseingang* aus.
 1. Wähle die zur Rechnung passende **Währung** aus.
-1. Gehe zur Registerkarte "Manuelle Zuordnung" unten auf der Seite und klicke auf ![](assets/Neu_hinzufuegen_Button.png). Es öffnet sich ein Overlay-Fenster.
+1. Gehe zur Registerkarte "Manuelle Zuordnung" unten auf der Seite und klicke auf !["Neu hinzufügen"](assets/Neu_hinzufuegen_Button.png). Es öffnet sich ein Overlay-Fenster.
 1. Trage die **Rechnung** ein, für die Du die Zahlung erhalten hast.
  >**Hinweis 1:** Drücke die [`LEERTASTE`](Keyboard_Shortcuts_Liste), um eine Auswahl verfügbarer, offener Rechnungen des Geschäftspartners zu sehen.<br><br>
  >**Hinweis 2:** Der **Betrag** wird automatisch aus der Rechnung übernommen.

@@ -31,7 +31,7 @@ In metasfresh you can create custom record tabs in several input windows where y
  >**Note:** This description will be shown in a tooltip.
 
 ### Add a subtab
-1. Go to the record tab "Subtab" at the bottom of the page and click ![](assets/Add_New_Button.png). An overlay window opens up.
+1. Go to the record tab "Subtab" at the bottom of the page and click !["Add new"](assets/Add_New_Button.png). An overlay window opens up.
 1. In the field **Name**, enter a system internal subtab name.
  >**Note:** This name is for internal reference only and is not displayed as a subtab name.
 

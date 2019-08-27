@@ -29,7 +29,7 @@ In metasfresh können Gutschriften erstellt werden, wenn sich nach Rechnungsstel
 1. [Springe über die verknüpften Belege](SpringezuBelegen) der fertiggestellten Rechnung erneut in das Fenster "Debitoren Rechnungen" (unter FAKTURIERUNG und dann "Rechnung" in der Sidebar) und öffne dort den dazugehörigen, bereits [herausgefilterten](Filterfunktion) Rechnungseintrag mit der **Belegart** *Gutschrift - Lieferdifferenz*.
 1. Gehe zur Registerkarte "Rechnungsposition" unten auf der Seite und trage dort in das Feld in der Spalte **Menge TU** und/oder **Menge** der betreffenden Zeile die Höhe der Mengendifferenz ein.
 1. [Selektiere](AuswahlBelege) und lösche alle Zeilen, die nicht von der Gutschrift betroffen sind.
-1. ***Optional:*** Klicke auf ![](assets/Massen_Erfassung_Button.png), um Zeilen hinzuzufügen.
+1. ***Optional:*** Klicke auf !["Massen Erfassung"](assets/Massen_Erfassung_Button.png), um Zeilen hinzuzufügen.
  >**Hinweis:** Drücke `Alt` + `Q` / `⌥ alt` + `Q`.
 
 ### Gutschrift fertigstellen

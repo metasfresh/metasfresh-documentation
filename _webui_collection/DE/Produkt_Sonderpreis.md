@@ -16,7 +16,7 @@ Allgemeine [Sonderpreisaktionen](Preiskampagne_Aktionspreis_anlegen) für versch
 
 ## Schritte
 1. Öffne den Eintrag eines bestehenden [Produktes](Menu) bzw. [lege ein neues an](NeuesProdukt).
-1. Gehe zur Registerkarte "Aktionspreise" unten auf der Seite und klicke auf ![](assets/Neu_hinzufuegen_Button.png). Es öffnet sich ein Overlay-Fenster.
+1. Gehe zur Registerkarte "Aktionspreise" unten auf der Seite und klicke auf !["Neu hinzufügen"](assets/Neu_hinzufuegen_Button.png). Es öffnet sich ein Overlay-Fenster.
 1. **a)** Wähle einen [**Geschäftspartner**](Neuer_Geschaeftspartner) aus, für den das Sonderangebot gelten soll. Gib hierzu einen Teil des Partnernamens oder der Partnernummer in das Feld ein und klicke auf eines der Ergebnisse aus der [Dropdown-Liste](Keyboard_Shortcuts_Liste).<br><br>
 **b)** Wähle eine [**Geschäftspartnergruppe**](Neue_Geschaeftspartnergruppe) aus, für die das Sonderangebot gelten soll. Gib hierzu einen Teil der Bezeichnung der Partnergruppe in das Feld ein und klicke auf eines der Ergebnisse aus der [Dropdown-Liste](Keyboard_Shortcuts_Liste).
  >**Hinweis:** Je nach Geschäftsbeziehung des Partners ([Kunde](Neuer_Geschaeftspartner_Kunde) oder [Lieferant](Neuer_Geschaeftspartner_Lieferant)) kommt der Aktionspreis entweder in [Auftrag](Auftrag_erfassen) oder [Bestellung](Bestellung_erfassen) zum Tragen.

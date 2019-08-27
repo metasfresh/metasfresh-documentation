@@ -15,7 +15,7 @@ With the credit limit you can determine a maximum amount up to which your busine
 
 ## Steps
 1. Open the entry of an existing [business partner](Menu) or [add a new one](New_Business_Partner).
-1. Go to the record tab "Credit Limit" at the bottom of the page and click ![](assets/Add_New_Button.png). An overlay window opens up.
+1. Go to the record tab "Credit Limit" at the bottom of the page and click !["Add new"](assets/Add_New_Button.png). An overlay window opens up.
 1. Select a **Credit Limit Type**, e.g., *Management*.
 1. Enter an **Amount** which a business partner is maximally allowed to reach with unpaid invoices until they are blocked from placing further orders.
 1. Set a **Date from**.

@@ -15,7 +15,7 @@ A product is a [consumer unit (CU)](Handling_Unit_System) which in bigger amount
 
 ## Steps
 1. Open the entry of an existing [product](Menu) or [add a new one](NewProduct).
-1. Go to the record tab "CU-TU Allocation" at the bottom of the page and click ![](assets/Add_New_Button.png). An overlay window opens up.
+1. Go to the record tab "CU-TU Allocation" at the bottom of the page and click !["Add new"](assets/Add_New_Button.png). An overlay window opens up.
 1. Select some **Packing Instructions**, e.g., *IFCO*.
 1. ***Option 1:*** Enter a specific fixed **Quantity** to put into the TU. The **UOM** is always the product's stock-keeping UOM.<br>
 ***Option 2:*** If the quantity is unknown or variable, tick the checkbox **Unspecified Capacity**.

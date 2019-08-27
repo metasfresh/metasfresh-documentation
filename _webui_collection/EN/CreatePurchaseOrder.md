@@ -21,7 +21,7 @@ ref: createpurchaseorder
 1. [metasfresh saves the progress automatically](Saveindicator).
 
 ### Add Order Lines
-1. Go to the record tab "PO Line" at the bottom of the page and click ![](assets/Batch_Entry_Button.png) to open the fast order line input.
+1. Go to the record tab "PO Line" at the bottom of the page and click !["Batch entry"](assets/Batch_Entry_Button.png) to open the fast order line input.
  >**Note:** Use shortcut `Alt` + `Q` / `⌥ alt` + `Q`.
 
 1. In the field **Product**, enter a part of the [product](NewProduct) name or number and click on the matching result in the [drop-down list](Keyboard_shortcuts_reference).

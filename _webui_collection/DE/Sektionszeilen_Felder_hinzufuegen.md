@@ -36,7 +36,7 @@ ref: add_fields_to_section_lines
 1. Wähle eine **Datenschutz-Kategorie** aus, z.B. *Keine personenbezogene Daten*, *Personenbezogene Daten* oder *Sensible Daten*.
 
 ### Listenelemente erfassen (Datentyp: *Liste*)
-1. Gehe zur Registerkarte "DataEntry_ListValue" unten auf der Seite und klicke auf ![](assets/Neu_hinzufuegen_Button.png). Es öffnet sich ein Overlay-Fenster.
+1. Gehe zur Registerkarte "DataEntry_ListValue" unten auf der Seite und klicke auf !["Neu hinzufügen"](assets/Neu_hinzufuegen_Button.png). Es öffnet sich ein Overlay-Fenster.
 1. Benenne das Listenelement im Feld **Name**.
 1. ***Optional:*** Erfasse eine **Beschreibung** in dem dafür vorgesehenen Textfeld.
  >**Hinweis:** Diese Beschreibung wird als Tooltip angezeigt werden.

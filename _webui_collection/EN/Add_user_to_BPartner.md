@@ -11,7 +11,7 @@ ref: add_user_to_bpartner
 
 ## Steps
 1. Open the entry of an existing [business partner](Menu) or [add a new one](New_Business_Partner).
-1. Go to the record tab "Contact" at the bottom of the page and click ![](assets/Add_New_Button.png). An overlay window opens up.
+1. Go to the record tab "Contact" at the bottom of the page and click !["Add new"](assets/Add_New_Button.png). An overlay window opens up.
 1. Select a **Greeting**.
 1. Fill in the fields **Firstname** and **Lastname**.
 1. ***Optional:*** Fill in the fields **Email Address**, **Phone** and other fields as required.

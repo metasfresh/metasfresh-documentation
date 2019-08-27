@@ -12,7 +12,7 @@ ref: add_new_calendar_periods
 ## Steps
 1. Open "Calendar and Year" from the [menu](Menu).
 1. Open the entry of an existing calendar or [add a new one](Add_new_calendar).
-1. Go to the record tab "Year" at the bottom of the page and click ![](assets/Add_New_Button.png). An overlay window opens up.
+1. Go to the record tab "Year" at the bottom of the page and click !["Add new"](assets/Add_New_Button.png). An overlay window opens up.
 1. Enter the **Year** for which you want to create a new period, e.g., "2019".
 1. Click "Done" to close the overlay window and add the year to the list.
 1. [Select](RecordSelection) the newly created record tab entry and [start the action](StartAction) "Create Periods". An overlay window opens up.

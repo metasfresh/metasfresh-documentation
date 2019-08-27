@@ -35,7 +35,7 @@ The following data can be imported to metasfresh:
  >**Note:** In order to successfully import data, the separator in the import file must coincide with the one set in the import format (comma, semicolon, tab, etc.).
 
 ### a) Add Format Fields
-1. Go to the record tab "Format Field" at the bottom of the page and click ![](assets/Add_New_Button.png). An overlay window opens up.
+1. Go to the record tab "Format Field" at the bottom of the page and click !["Add new"](assets/Add_New_Button.png). An overlay window opens up.
 1. Give the format field a **Name**, e.g., "Search Key".
 1. Pick a **Column** where the content of the import file is to be transferred later on, e.g., *Value_Suchschlüssel*.
 1. Select a **Data Type**, e.g., *String* or *Number*, depending on the import data type.

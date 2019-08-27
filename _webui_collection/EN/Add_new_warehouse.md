@@ -19,14 +19,14 @@ ref: add_new_warehouse
 1. ***Optional:*** Select a [**Warehouse Type**](Add_new_warehouse_type).
 
 ### Add a Place of Storage
-1. Go to the record tab "Locator" at the bottom of the page and click ![](assets/Add_New_Button.png). An overlay window opens up.
+1. Go to the record tab "Locator" at the bottom of the page and click !["Add new"](assets/Add_New_Button.png). An overlay window opens up.
 1. In each of the fields **Aisle**, **Rack**, **Level** and **Tray** enter the value *0*.
 1. Click "Done" to close the overlay window and add the storage place to the list.
 
 ### Warehouse Assignment
 Here you can select the ***Document Base Types*** for which the warehouse shall be used, e.g., *Sales Order*, *Purchase Order*, *Material Receipt*, etc.
 
-1. Go to the record tab "Lagerzuordnung" (*Warehouse Assignment*) at the bottom of the page and click ![](assets/Add_New_Button.png). An overlay window opens up.
+1. Go to the record tab "Lagerzuordnung" (*Warehouse Assignment*) at the bottom of the page and click !["Add new"](assets/Add_New_Button.png). An overlay window opens up.
 1. Select a **Document Base Type**, e.g., *Sales Order*.
 1. Click "Done" to close the overlay window and add the document base type to the list.
  >**Note:** You can assign any number of document base types to a warehouse. As an example, please take a look at the warehouse entry "Main Warehouse", which is already configured appropriately.

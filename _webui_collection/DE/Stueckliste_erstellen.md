@@ -19,7 +19,7 @@ ref: create_bom
 1. Vergib eine **Beleg Nr.**
 
 ### Stücklistenbestandteile hinzufügen
-1. Gehe zur Registerkarte "Stücklistenbestandteile" unten auf der Seite und klicke auf ![](assets/Neu_hinzufuegen_Button.png). Es öffnet sich ein Overlay-Fenster.
+1. Gehe zur Registerkarte "Stücklistenbestandteile" unten auf der Seite und klicke auf !["Neu hinzufügen"](assets/Neu_hinzufuegen_Button.png). Es öffnet sich ein Overlay-Fenster.
 1. Gib das **Produkt** ein, welches Du als Komponente zur Stückliste hinzufügen möchtest, z.B. "Korpus" oder "Saiten".
 1. Gib eine **Menge** an.
 1. Klicke auf "Bestätigen", um das Overlay-Fenster zu schließen und das Produkt zur Liste hinzuzufügen.

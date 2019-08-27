@@ -31,7 +31,7 @@ In metasfresh kannst Du in verschiedenen Eingabefenstern benutzerdefinierte Regi
  >**Hinweis:** Diese Beschreibung wird als Tooltip angezeigt werden.
 
 ### Unterregister hinzufügen
-1. Gehe zur Registerkarte "Unterregister" unten auf der Seite und klicke auf ![](assets/Neu_hinzufuegen_Button.png). Es öffnet sich ein Overlay-Fenster.
+1. Gehe zur Registerkarte "Unterregister" unten auf der Seite und klicke auf !["Neu hinzufügen"](assets/Neu_hinzufuegen_Button.png). Es öffnet sich ein Overlay-Fenster.
 1. Gib im Feld **Name** einen systeminternen Namen ein.
  >**Hinweis:** Dieser Name dient nur der systeminternen Referenz und wird nicht als Unterregistername angezeigt.
 

@@ -27,7 +27,7 @@ In metasfresh, you can create vendor credit notes (or memos) if a credit balance
  >**Note:** If the required partner does not appear in the list, you can add them through [quick create](Quick_create_new_business_partner).
 
 ### Add Invoice Lines
-1. Go to the record tab "Invoice Line" at the bottom of the page and click ![](assets/Batch_Entry_Button.png) to open the fast invoice line input.
+1. Go to the record tab "Invoice Line" at the bottom of the page and click !["Batch entry"](assets/Batch_Entry_Button.png) to open the fast invoice line input.
  >**Note:** Use shortcut `Alt` + `Q` / `⌥ alt` + `Q`.
 
 1. In the field **Product**, enter a part of the name or number of the [product](NewProduct) relevant for the credit note and click on the matching result in the [drop-down list](Keyboard_shortcuts_reference).

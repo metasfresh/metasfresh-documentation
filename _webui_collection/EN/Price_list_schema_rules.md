@@ -25,7 +25,7 @@ If you want to [copy a price list](Copy_prices_from_price-list-version) you will
 1. Select the **Discount Type** *Price List*.
 
 ### Add rules to the price list schema
-1. Go to the record tab "Schema Line" at the bottom of the page and click ![](assets/Add_New_Button.png). An overlay window opens up.
+1. Go to the record tab "Schema Line" at the bottom of the page and click !["Add new"](assets/Add_New_Button.png). An overlay window opens up.
  >**Note:** The specification and combination of the following fields are entirely **optional**.
 
 1. In the field **Product**, enter a part of the [product](NewProduct) name or number and click on the matching result in the [drop-down list](Keyboard_shortcuts_reference).

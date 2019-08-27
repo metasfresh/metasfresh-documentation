@@ -11,7 +11,7 @@ ref: add_user_to_bpartner
 
 ## Schritte
 1. Öffne den Eintrag eines bestehenden [Geschäftspartners](Menu) bzw. [lege einen neuen an](Neuer_Geschaeftspartner).
-1. Gehe zur Registerkarte "Nutzer / Kontakt" unten auf der Seite und klicke auf ![](assets/Neu_hinzufuegen_Button.png). Es öffnet sich ein Overlay-Fenster.
+1. Gehe zur Registerkarte "Nutzer / Kontakt" unten auf der Seite und klicke auf !["Neu hinzufügen"](assets/Neu_hinzufuegen_Button.png). Es öffnet sich ein Overlay-Fenster.
 1. Wähle eine **Anrede** aus.
 1. Fülle die Felder **Vorname** und **Nachname** aus.
 1. ***Optional:*** Fülle die Felder **E-Mail** und **Telefon** sowie weitere Felder nach Bedarf aus.

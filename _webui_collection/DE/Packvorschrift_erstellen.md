@@ -31,13 +31,13 @@ Mithilfe von Packvorschriften wird festgelegt, welches [Packmittel](Packmittel_e
 1. [metasfresh speichert automatisch](Speicheranzeige).
 
 ### Packmittel festlegen
-1. Gehe zur Registerkarte "Position" unten auf der Seite und klicke auf ![](assets/Neu_hinzufuegen_Button.png). Es öffnet sich ein Overlay-Fenster.
+1. Gehe zur Registerkarte "Position" unten auf der Seite und klicke auf !["Neu hinzufügen"](assets/Neu_hinzufuegen_Button.png). Es öffnet sich ein Overlay-Fenster.
 1. Wähle die **Positionsart** *Packmittel* aus. Es erscheint ein neues Feld **Packmittel**.
 1. Wähle das gewünschte **Packmittel** aus.
 1. Klicke auf "Bestätigen", um das Overlay-Fenster zu schließen und das Packmittel zur Liste hinzuzufügen.
 
 ### Packgut erlauben
-1. Gehe zur Registerkarte "Position" unten auf der Seite und klicke auf ![](assets/Neu_hinzufuegen_Button.png). Es öffnet sich ein Overlay-Fenster.
+1. Gehe zur Registerkarte "Position" unten auf der Seite und klicke auf !["Neu hinzufügen"](assets/Neu_hinzufuegen_Button.png). Es öffnet sich ein Overlay-Fenster.
 1. Wähle die **Positionsart** *Packgut* aus.
 1. Klicke auf "Bestätigen", um das Overlay-Fenster zu schließen und die Positionsart zur Liste hinzuzufügen.
 

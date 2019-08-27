@@ -24,7 +24,7 @@ The dunning type determines the moment when a [dunning run](Dunning_Run) starts 
 | :--- |
 | For a dunning type to take effect, it requires **at least one level**! |
 
-1. Go to the record tab "Level" at the bottom of the page and click ![](assets/Add_New_Button.png). An overlay window opens up.
+1. Go to the record tab "Level" at the bottom of the page and click !["Add new"](assets/Add_New_Button.png). An overlay window opens up.
 1. Give the level a **Name**.
 1. Enter a **Print Text** which will appear in the subject line of the dunning letter.
 1. Enter the number of **Days after due date** of an invoice until the dunning procedure is initiated.

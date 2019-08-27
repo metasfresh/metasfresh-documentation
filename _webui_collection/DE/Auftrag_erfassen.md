@@ -21,7 +21,7 @@ ref: salesorder_recording
 1. [metasfresh speichert automatisch](Speicheranzeige).
 
 ### Auftragszeilen hinzufügen
-1. Gehe zur Registerkarte "Auftragsposition" unten auf der Seite und klicke auf ![](assets/Massen_Erfassung_Button.png), um die Auftragszeileneingabe zu öffnen.
+1. Gehe zur Registerkarte "Auftragsposition" unten auf der Seite und klicke auf !["Massen Erfassung"](assets/Massen_Erfassung_Button.png), um die Auftragszeileneingabe zu öffnen.
  >**Hinweis:** Drücke `Alt` + `Q` / `⌥ alt` + `Q`.
 
 1. Gib in das Feld **Produkt** einen Teil des Namens oder der Nummer des [Produktes](NeuesProdukt) ein und klicke auf den passenden Treffer in der [Dropdown-Liste](Keyboard_Shortcuts_Liste).

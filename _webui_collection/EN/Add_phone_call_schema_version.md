@@ -44,7 +44,7 @@ The following parameters can be combined with each other as needed:
 | It is necessary to specify at least a time interval and/or a repetition so that phone call schedules can be generated successfully. |
 
 ### Add a business partner
-1. Go to the record tab "Phone Call Schema Version Line" at the bottom of the page and click ![](assets/Add_New_Button.png). An overlay window opens up.
+1. Go to the record tab "Phone Call Schema Version Line" at the bottom of the page and click !["Add new"](assets/Add_New_Button.png). An overlay window opens up.
 1. In the field **Business Partner**, enter a part of the [business partner](New_Business_Partner) name or number and click on the matching result in the [drop-down list](Keyboard_shortcuts_reference).
  >**Note:** If the business partner has a contact associated with them, the contact will be filled in here automatically.
 
