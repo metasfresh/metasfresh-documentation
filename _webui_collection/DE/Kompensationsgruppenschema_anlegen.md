@@ -18,7 +18,7 @@ Mithilfe eines Kompensationsgruppenschemas kannst Du kontrollieren, welche Produ
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Kompensationsgruppe Schema".
 1. [Lege ein neues Kompensationsgruppenschema an](Neuer_Datensatz_Fenster_Webui).
 1. Benenne das Schema im Feld **Name**, z.B. "Kompensationsgruppe I".
-1. Gehe zur Registerkarte "Produkte" unten auf der Seite und klicke auf ![](assets/Neu_hinzufuegen_Button.png). Es öffnet sich ein Overlay-Fenster.
+1. Gehe zur Registerkarte "Produkte" unten auf der Seite und klicke auf !["Neu hinzufügen"](assets/Neu_hinzufuegen_Button.png). Es öffnet sich ein Overlay-Fenster.
 1. Wähle ein **Produkt** aus, z.B. *Gruppenrabatt* oder *Gruppierungsprodukt*.
  >**Hinweis:** Du kannst auch jedes andere Produkt auswählen, das im Produktfeld vorgeschlagen wird, sofern es ***nicht lagerhaltig*** und mit ***derselben Preisliste*** verknüpft ist wie der Auftrag. <br> [Folge dieser Anleitung](Gruppierungsprodukt_anlegen) zur Konfiguration solcher *Gruppierungsprodukte*.
 

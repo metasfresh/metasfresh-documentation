@@ -15,7 +15,7 @@ Mit dem Kreditlimit kannst Du in metasfresh festlegen, bis zu welchem Höchstbet
 
 ## Schritte
 1. Öffne den Eintrag eines bestehenden [Geschäftspartners](Menu) bzw. [lege einen neuen an](Neuer_Geschaeftspartner).
-1. Gehe zur Registerkarte "Kreditlimit" unten auf der Seite und klicke auf ![](assets/Neu_hinzufuegen_Button.png). Es öffnet sich ein Overlay-Fenster.
+1. Gehe zur Registerkarte "Kreditlimit" unten auf der Seite und klicke auf !["Neu hinzufügen"](assets/Neu_hinzufuegen_Button.png). Es öffnet sich ein Overlay-Fenster.
 1. Wähle eine **Kreditlimit Art** aus, z.B. *Management*.
 1. Gib einen **Betrag** ein, der maximal mit offenen Rechnungen des Geschäftspartners erreicht werden darf, bis er für weitere Aufträge gesperrt wird.
 1. Stelle ein **Datum von** ein.

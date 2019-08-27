@@ -16,7 +16,7 @@ You can also quickly record [special price actions](Price_campaign_add_promotion
 
 ## Steps
 1. Open the entry of an existing [product](Menu) or [add a new one](NewProduct).
-1. Go to the record tab "Campaign Price" at the bottom of the page and click ![](assets/Add_New_Button.png). An overlay window opens up.
+1. Go to the record tab "Campaign Price" at the bottom of the page and click !["Add new"](assets/Add_New_Button.png). An overlay window opens up.
 1. **a)** Select the [**Business Partner**](New_Business_Partner) to whom the special offer shall apply. To do so, enter a part of the business partner name or number into the field and click on one of the results from the [drop-down list](Keyboard_shortcuts_reference).<br><br>
 **b)** Select the [**Business Partner Group**](New_Business_Partner_Group) to which the special offer shall apply. To do so, enter a part of the name of the business partner group into the field and click on one of the results from the [drop-down list](Keyboard_shortcuts_reference).
  >**Note:** Depending on the partner's business relation ([customer](New_business_partner_customer) or [vendor](New_business_partner_vendor)), the promotional price will be used either in [sales orders](SalesOrder_recording) or [purchase orders](CreatePurchaseOrder).

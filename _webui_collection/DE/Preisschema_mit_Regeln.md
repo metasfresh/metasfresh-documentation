@@ -25,7 +25,7 @@ Zum [Kopieren von Preislisten](Preise_von_Preislistenversion_kopieren) benötigs
 1. Wähle die **Preis Art** *Preisliste* aus.
 
 ### Regeln hinzufügen
-1. Gehe zur Registerkarte "Schema Position" unten auf der Seite und klicke auf ![](assets/Neu_hinzufuegen_Button.png). Es öffnet sich ein Overlay-Fenster.
+1. Gehe zur Registerkarte "Schema Position" unten auf der Seite und klicke auf !["Neu hinzufügen"](assets/Neu_hinzufuegen_Button.png). Es öffnet sich ein Overlay-Fenster.
  >**Hinweis:** Die folgenden Angaben sind alle **optional** und beliebig miteinander kombinierbar.
 
 1. Gib in das Feld **Produkt** einen Teil des Namens oder der Nummer des [Produktes](NeuesProdukt) ein und klicke auf den passenden Treffer in der [Dropdown-Liste](Keyboard_Shortcuts_Liste).

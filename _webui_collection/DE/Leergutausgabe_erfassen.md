@@ -33,7 +33,7 @@ Die Rückgabe dieses Leergutes kann sowohl mit Bezug zu einer bestimmten Bestell
 1. In diesem Eintrag sind bereits alle auftragsrelevanten Daten erfasst (siehe auch in der "[Erweiterten Erfassung](Ansichten)" aus dem [Aktionsmenü](AktionStarten)).
 
 ### Leergüter erfassen
-1. Gehe zur Registerkarte "Positionen" unten auf der Seite und klicke auf ![](assets/Massen_Erfassung_Button.png), um die Leergüter zu erfassen.
+1. Gehe zur Registerkarte "Positionen" unten auf der Seite und klicke auf !["Massen Erfassung"](assets/Massen_Erfassung_Button.png), um die Leergüter zu erfassen.
  >**Hinweis:** Drücke `Alt` + `Q` / `⌥ alt` + `Q`.
 
 1. Gib in das Feld **Packmittel** einen Teil des Namens des auszugebenden [Packmittels](Packmittel_einrichten) ein und klicke auf den passenden Treffer in der [Dropdown-Liste](Keyboard_Shortcuts_Liste).

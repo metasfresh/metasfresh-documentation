@@ -45,7 +45,7 @@ The following parameters can be combined with each other as needed:
 | It is necessary to specify at least a time interval and/or a repetition so that tour lists can be generated successfully. |
 
 ### Add a business partner
-1. Go to the record tab "Tour Version Line" at the bottom of the page and click ![](assets/Add_New_Button.png). An overlay window opens up.
+1. Go to the record tab "Tour Version Line" at the bottom of the page and click !["Add new"](assets/Add_New_Button.png). An overlay window opens up.
 1. In the field **Business Partner**, enter a part of the [business partner](New_Business_Partner) name or number and click on the matching result in the [drop-down list](Keyboard_shortcuts_reference).
 1. Also in the field **Business Partner**, pick a location, if the partner has more than one [location](Add_address_tab) associated with their entry.
 1. ***Optional:*** Enter a **Buffer (hours)**. It indicates how much time lies between dispatch and actual delivery of the goods.

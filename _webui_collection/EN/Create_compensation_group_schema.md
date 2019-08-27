@@ -18,7 +18,7 @@ A compensation group schema enables you to control which products will be [autom
 1. Open "Compensation Group Schema" from the [menu](Menu).
 1. [Add a new compensation group schema](New_Record_Window).
 1. Give the schema a **Name**, e.g., "Compensation Group I".
-1. Go to the record tab "Products" at the bottom of the page and click ![](assets/Add_New_Button.png). An overlay window opens up.
+1. Go to the record tab "Products" at the bottom of the page and click !["Add new"](assets/Add_New_Button.png). An overlay window opens up.
 1. Pick a **Product**, e.g., *Group discount* or *Grouping product*.
  >**Note:** You can select any other product from the list in the product field, provided that it is ***not stocked*** and linked to the very ***same price list*** as in the sales order.<br>
  [Follow these instructions](Add_grouping_product) to configure such a *grouping product*.

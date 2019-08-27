@@ -29,7 +29,7 @@ In metasfresh, you can create credit notes (or memos) if, after invoicing, a cre
 1. Use the completed invoice's [related documents to jump](JumptoviaSidebar) into the window "Sales Invoice" again (under BILLING and then "Invoice (Customer)" in the sidebar) and then open the associated invoice entry with the **Target Document Type** *Credit Memo - Deliver Diff* which has already been [found by the filter](Filtering_function).
 1. Go to the record tab "Invoice Line" at the bottom of the page and enter the amount of the quantity difference into the field in the column **Quantity TU** and/or **Quantity** of the relevant line.
 1. [Select](RecordSelection) and delete all lines irrelevant for the credit note.
-1. ***Optional:*** Click ![](assets/Batch_Entry_Button.png) to add lines.
+1. ***Optional:*** Click !["Batch entry"](assets/Batch_Entry_Button.png) to add lines.
  >**Note:** Use shortcut `Alt` + `Q` / `⌥ alt` + `Q`.
 
 ### Complete the credit note

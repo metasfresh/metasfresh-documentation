@@ -31,13 +31,13 @@ By means of packing instructions, you can specify the type of [packing material]
 1. [metasfresh saves the progress automatically](Saveindicator).
 
 ### Determine a packing material
-1. Go to the record tab "Position" at the bottom of the page and click ![](assets/Add_New_Button.png). An overlay window opens up.
+1. Go to the record tab "Position" at the bottom of the page and click !["Add new"](assets/Add_New_Button.png). An overlay window opens up.
 1. Select the **Position Type** *Packing material* (Ger.: Packmittel). A new field **Packing Material** appears.
 1. Select the desired **Packing Material**.
 1. Click "Done" to close the overlay window and add the packing material to the list.
 
 ### Allow packaged goods
-1. Go to the record tab "Position" at the bottom of the page and click ![](assets/Add_New_Button.png). An overlay window opens up.
+1. Go to the record tab "Position" at the bottom of the page and click !["Add new"](assets/Add_New_Button.png). An overlay window opens up.
 1. Select the **Position Type** *Packaged good* (Ger.: Packgut).
 1. Click "Done" to close the overlay window and add the position type to the list.
 

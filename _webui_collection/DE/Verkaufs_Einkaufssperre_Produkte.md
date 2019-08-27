@@ -19,7 +19,7 @@ Für diesen Fall kannst Du ganz einfach partnerbezogene Ausschlusslisten mit den
 
 ### a) Via Geschäftspartner
 1. Öffne den Eintrag eines bestehenden [Geschäftspartners](Menu) bzw. [lege einen neuen an](Neuer_Geschaeftspartner).
-1. Gehe zur Registerkarte "Produkt" unten auf der Seite und klicke auf ![](assets/Neu_hinzufuegen_Button.png). Es öffnet sich ein Overlay-Fenster.
+1. Gehe zur Registerkarte "Produkt" unten auf der Seite und klicke auf !["Neu hinzufügen"](assets/Neu_hinzufuegen_Button.png). Es öffnet sich ein Overlay-Fenster.
 1. Gib das [**Produkt**](NeuesProdukt) ein, das Du für den Verkauf/Einkauf sperren möchtest, und wähle es aus den Treffern der [Dropdown-Liste](Keyboard_Shortcuts_Liste) aus.
 1. Trage in das Textfeld **Produkt Sperre Grund** einen Grund ein, weshalb das Produkt für den Geschäftspartner gesperrt ist.
  >**Hinweis:** Dieser Grund erscheint dann in einer Fehlermeldung an den Nutzer, wenn dieser das gesperrte Produkt in einem Auftrag oder einer Bestellung hinzufügen möchte.
@@ -37,7 +37,7 @@ Für diesen Fall kannst Du ganz einfach partnerbezogene Ausschlusslisten mit den
 
 ### b) Via Produkte
 1. Öffne den Eintrag eines bestehenden [Produktes](Menu) bzw. [lege ein neues an](NeuesProdukt).
-1. Gehe zur Registerkarte "Geschäftspartner" unten auf der Seite und klicke auf ![](assets/Neu_hinzufuegen_Button.png). Es öffnet sich ein Overlay-Fenster.
+1. Gehe zur Registerkarte "Geschäftspartner" unten auf der Seite und klicke auf !["Neu hinzufügen"](assets/Neu_hinzufuegen_Button.png). Es öffnet sich ein Overlay-Fenster.
 1. Trage den Namen des **Geschäftspartners** ein, für den das Produkt gesperrt werden soll.
  >**Hinweis 1:** Geschäftspartner können [Kunden](Neuer_Geschaeftspartner_Kunde) und [Lieferanten](Neuer_Geschaeftspartner_Lieferant) sein.<br><br>
  >**Hinweis 2:** Drücke die [`LEERTASTE`](Keyboard_Shortcuts_Liste), um eine Auswahl verfügbarer [Geschäftspartner](Neuer_Geschaeftspartner) zu sehen.

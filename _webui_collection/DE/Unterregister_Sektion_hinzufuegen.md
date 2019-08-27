@@ -31,7 +31,7 @@ ref: add_section_to_sub_tab
 1. ***Optional:*** Setze ein Häkchen bei **Initial geschlossen**, wenn die Sektion beim öffnen des Unterregisters geschlossen sein soll.
 
 ### Zeilen hinzufügen
-1. Gehe zur Registerkarte "Zeile" unten auf der Seite und klicke auf ![](assets/Neu_hinzufuegen_Button.png). Es öffnet sich ein Overlay-Fenster.
+1. Gehe zur Registerkarte "Zeile" unten auf der Seite und klicke auf !["Neu hinzufügen"](assets/Neu_hinzufuegen_Button.png). Es öffnet sich ein Overlay-Fenster.
 1. Klicke auf "Bestätigen", um das Overlay-Fenster zu schließen und die Zeile zur Liste hinzuzufügen.
  >**Hinweis 1:** Wiederhole die Schritte 1 bis 2, um weitere Zeilen hinzuzufügen.<br><br>
  >**Hinweis 2:** Bei mehreren Zeilen für dieselbe Sektion kannst Du deren **Reihenfolge** bestimmen.

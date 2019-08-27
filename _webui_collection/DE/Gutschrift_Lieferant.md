@@ -27,7 +27,7 @@ In metasfresh können Lieferanten-Gutschriften erstellt werden, wenn sich ein Gu
  >**Hinweis:** Wird der gewünschte Partner nicht angezeigt, kannst Du ihn per [Schnellerfassung](Neuer_Geschaeftspartner_Schnellerfassung) neu anlegen.
 
 ### Rechnungszeilen erfassen
-1. Gehe zur Registerkarte "Rechnungsposition" unten auf der Seite und klicke auf ![](assets/Massen_Erfassung_Button.png), um die Rechnungszeileneingabe zu öffnen.
+1. Gehe zur Registerkarte "Rechnungsposition" unten auf der Seite und klicke auf !["Massen Erfassung"](assets/Massen_Erfassung_Button.png), um die Rechnungszeileneingabe zu öffnen.
  >**Hinweis:** Drücke `Alt` + `Q` / `⌥ alt` + `Q`.
 
 1. Gib in das Feld **Produkt** einen Teil des Namens oder der Nummer des von der Gutschrift betroffenen [Produktes](NeuesProdukt) ein und klicke auf den passenden Treffer in der [Dropdown-Liste](Keyboard_Shortcuts_Liste).

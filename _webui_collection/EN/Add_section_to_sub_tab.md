@@ -31,7 +31,7 @@ ref: add_section_to_sub_tab
 1. ***Optional:*** Tick the checkbox **Initial geschlossen** (*Initially closed*) if you want the section to remain closed when opening the subtab.
 
 ### Add lines
-1. Go to the record tab "Line" at the bottom of the page and click ![](assets/Add_New_Button.png). An overlay window opens up.
+1. Go to the record tab "Line" at the bottom of the page and click !["Add new"](assets/Add_New_Button.png). An overlay window opens up.
 1. Click "Done" to close the overlay window and add the line to the list.
  >**Note 1:** Repeat steps 1 to 2 to add further lines.<br><br>
  >**Note 2:** In case of multiple lines for the same section you can specify their order via the field **SeqNo**.

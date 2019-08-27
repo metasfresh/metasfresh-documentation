@@ -36,7 +36,7 @@ ref: add_fields_to_section_lines
 1. Pick a **Data protection category**, e.g., *Not personal*, *Personal* or *Sensitive personal*.
 
 ### Add list items (data type: *List*)
-1. Go to the record tab "Entry field value" at the bottom of the page and click ![](assets/Add_New_Button.png). An overlay window opens up.
+1. Go to the record tab "Entry field value" at the bottom of the page and click !["Add new"](assets/Add_New_Button.png). An overlay window opens up.
 1. Give the list item a **Name**.
 1. ***Optional:*** Enter a **Description** into the text box provided.
  >**Note:** This description will be shown in a tooltip.

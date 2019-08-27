@@ -33,7 +33,7 @@ The empties return can be carried out either with reference to a particular purc
 1. In this entry, all order-relevant data have already been entered (see also the [advanced edit menu](ViewModes) from the [actions menu](StartAction)).
 
 ### Record empties
-1. Go to the record tab "Positionen" (*Shipment Line*) at the bottom of the page and click ![](assets/Batch_Entry_Button.png) to enter the empties.
+1. Go to the record tab "Positionen" (*Shipment Line*) at the bottom of the page and click !["Batch entry"](assets/Batch_Entry_Button.png) to enter the empties.
  >**Note:** Use shortcut `Alt` + `Q` / `⌥ alt` + `Q`.
 
 1. In the field **Boxing Type**, enter a part of the name of the [packing material](Set_up_packing_material) to be returned and click on the matching result in the [drop-down list](Keyboard_shortcuts_reference).
