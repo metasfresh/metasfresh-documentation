@@ -15,3 +15,12 @@ In case you imported records and get duplicate ID errors when creating new recor
 >**Important:** MAKE SURE you are logged in with db user metasfresh when running that command.
 
 >**Hint:** If it is not working: please DROP that particular sequence and run that function again.
+
+
+## possible error messages
+
+```
+Error: Cannot retrieve next ID...
+Server error
+Cannot retrieve next ID from database for DocumentEntityDescriptor{tableName=Product_Category_Purchase_Group, fields.count=10}
+```
