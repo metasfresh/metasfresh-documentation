@@ -65,3 +65,27 @@ FROM ad_window w
 WHERE f.name = 'Produktionsauftrag'
 ORDER BY w.name
 ```
+
+
+```SQL
+
+SELECT
+  w.name as window_name,
+  f.name as field_name,  
+  tab.tablename,
+  c.columnname,
+  columnsql
+
+FROM ad_window w
+  JOIN ad_tab t ON t.ad_window_id = w.ad_window_id
+  JOIN ad_field f ON f.ad_tab_id = t.ad_tab_id  
+  JOIN ad_table tab on tab.ad_table_id = t.ad_table_id
+  JOIN ad_column c on f.ad_column_id = c.ad_column_id
+WHERE true 
+and f.name='Anrede (ID)'
+and w.ad_window_id=<Window ID>
+ORDER BY w.name
+```
+
+
+
