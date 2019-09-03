@@ -54,7 +54,7 @@ truncate ad_issue,ad_processablepo,c_advcommissionfactcand, c_advcommissionfact,
 
 optional constraints that can be dropped:
 
-```
+```SQL
 alter table msv3_bestellung_transaction
 drop constraint adissue_msv3bestellungtransaction
 ;
