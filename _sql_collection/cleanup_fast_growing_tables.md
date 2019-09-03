@@ -60,6 +60,10 @@ drop constraint adissue_msv3bestellungtransaction
 ;
 alter table msv3_verfuegbarkeit_transaction
     drop constraint adissue_msv3verfuegbarkeittransaction;
+
+-- needed for ad_issue
+alter table c_purchasecandidate_alloc 
+drop constraint adissue_cpurchasecandidatealloc;
 ```
 
 
