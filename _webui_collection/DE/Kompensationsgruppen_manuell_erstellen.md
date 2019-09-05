@@ -19,7 +19,7 @@ Um manuelle Kompensationsgruppen zu erstellen, gehe wie folgt vor:
 
 ## Schritte
 1. Folge dieser [Anleitung zur Erfassung eines Auftrags](Auftrag_erfassen) bis zum **Schritt 4 der Auftragszeileneingabe**.
-1. [Selektiere die Auftragszeilen](AuswahlBelege), die Du zu einer Kompensationsgruppe zusammenfassen möchtest.
+1. [Selektiere](AuswahlBelege) die Auftragszeilen, die Du zu einer Kompensationsgruppe zusammenfassen möchtest.
 1. [Starte die Aktion](AktionStarten) "Zeilen gruppieren". Es öffnet sich ein Overlay-Fenster.
 1. Wähle ein **Produkt** aus, z.B. *Rabatt*.
  >**Hinweis:** Du kannst auch jedes andere Gruppierungsprodukt auswählen, das im Produktfeld vorgeschlagen wird, sofern es ***nicht lagerhaltig*** und mit ***derselben Preisliste*** verknüpft ist wie der Auftrag.<br>

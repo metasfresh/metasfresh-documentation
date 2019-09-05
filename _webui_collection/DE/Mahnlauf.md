@@ -22,7 +22,7 @@ ref: dunning_run
 1. Drücke `F5`, um das Mahndispositionsfenster neuzuladen und die aktualisierten Kandidaten zu sehen.
 
 ### Mahnungen erstellen
-1. [Selektiere den Mahnkandidaten](AuswahlBelege), den Du mahnen möchtest.
+1. [Selektiere](AuswahlBelege) den Mahnkandidaten, den Du mahnen möchtest.
  >**Hinweis:** Du kannst auch Mahnungen für mehrere Kandidaten auf einmal verarbeiten.
 
 1. [Starte die Aktion](AktionStarten) "Mahnkandidaten verarbeiten". Es öffnet sich ein Overlay-Fenster.

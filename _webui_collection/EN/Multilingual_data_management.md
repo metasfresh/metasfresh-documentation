@@ -51,7 +51,7 @@ If you are already looking at the entry you want to translate, e.g., a product e
 #### c) Jumping from the record tab via the context menu\*
 If you want to translate record tab entries, as in the case of dunning levels, you can take the following steps:
 
-1. Go to the record tab at the bottom of the page, e.g., "Level" for the dunning levels in the window of the respective [dunning type](Menu), and select the line you want to translate.
+1. Go to the record tab at the bottom of the page, e.g., "Level" for the dunning levels in the window of the respective [dunning type](Menu), and [select](RecordSelection) the line you want to translate.
 1. Use the [context menu](Jumpto_via_context_menu) to switch into the corresponding translation window, e.g., ![](assets/Dunning_level_translation_context.png). Here you will now see a list of all translation entries for the selected entry.
 
 ### Add translations

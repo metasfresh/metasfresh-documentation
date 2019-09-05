@@ -1,5 +1,5 @@
 ---
-title: How do I add attributes to a business partner?
+title: How do I add qualifying attributes to a business partner?
 layout: default
 tags:
   - Master Data
@@ -14,7 +14,7 @@ Attributes make it easier for you to find a specific business partner when using
 
 ## Steps
 1. Open the entry of a [business partner](New_Business_Partner) in the [detailed view](ViewModes).
-1. Go to the field **Attributes** and select attributes appropriate for the business partner, e.g., *Partner* or *Sponsor*.
+1. Go to the field **Attribute** and select attributes appropriate for the business partner, e.g., *Partner* or *Sponsor*.
 1. [metasfresh saves the progress automatically](Saveindicator).
 
 ## Example

@@ -10,7 +10,7 @@ ref: create_boiler_plate
 ---
 
 ## Overview
-You can use boiler plates to create text templates for letters and emails, which you can also use in marketing campaigns, such as [serial letter campaigns](Create_serial_letters).
+You can use boiler plates to create text templates for letters and [emails](Send_email_from_system), which you can also use in marketing campaigns, such as [serial letter campaigns](Create_serial_letters).
 
 ## Steps
 1. Open "Boiler Plate" from the [menu](Menu).

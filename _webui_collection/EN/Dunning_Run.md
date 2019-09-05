@@ -22,7 +22,7 @@ ref: dunning_run
 1. Hit `F5` to refresh the dunning candidates window and see the updated candidates.
 
 ### Create Dunning Documents
-1. [Select the dunning candidate](RecordSelection) you want to dun.
+1. [Select](RecordSelection) the dunning candidate you want to dun.
  >**Note:** You can also process dunning letters for several candidates at once.
 
 1. [Start the action](StartAction) "Process Dunning Candidates". An overlay window opens up.

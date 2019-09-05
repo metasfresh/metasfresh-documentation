@@ -4,9 +4,9 @@ layout: default
 tags:
   - Pricing
   - Prices
-  - Price List Schemas (Copy Price Lists)
+  - Price List Schemas (Copy Product Prices)
 lang: en
-sequence: 20
+sequence: 30
 ref: price_list_schema_rules
 ---
 
@@ -18,9 +18,9 @@ If you want to [copy a price list](Copy_prices_from_price-list-version) you will
 ### Create a price list schema
 1. Open "Price List Schema" from the [menu](Menu).
 1. [Create a new price list schema](New_Record_Window).
-1. Give the price list schema a **Name**, e.g., "Copy Price Lists".
+1. Give the price list schema a **Name**, e.g., "Copy Product Prices".
 1. Set a **Valid from** date.
- >**Note:** If this date lies in the *past*, the price list schema is effective *immediately*. If it lies in the *future*, the schema will only apply *from that date*.
+ >**Note:** If this date lies in the *past*, the price list schema will be effective *immediately*. If it lies in the *future*, the schema will only apply *from that date*.
 
 1. Select the **Discount Type** *Price List*.
 
@@ -39,7 +39,7 @@ If you want to [copy a price list](Copy_prices_from_price-list-version) you will
 1. Click "Done" to close the overlay window and add the rule to the list.
 <br><br>
 
-| Note for "[Copy price lists](Copy_prices_from_price-list-version)": |
+| Note for "[Copy Product Prices](Copy_prices_from_price-list-version)": |
 | :--- |
 | In order to copy a price list, the price list schema used must include **at least one schema line**. However, it is not strictly necessary to define specific rules, such as a product, business partner or surcharge amount.<br> If, however, this is the case and you are using this price list schema to copy a price list, the defined rules will be applied to all affected products automatically. |
 

@@ -17,7 +17,7 @@ ref: create_discount_schema
 1. Give the discount schema a **Name**.
 1. Select the **Discount Type** *Breaks*.
 1. Set a **Valid from** date.
- >**Note:** If this date lies in the *past*, the discount schema is effective *immediately*. If it lies in the *future*, the schema will only apply *from that date*.
+ >**Note:** If this date lies in the *past*, the discount schema will be effective *immediately*. If it lies in the *future*, the schema will only apply *from that date*.
 
 1. Go to the record tab "Discount Break" at the bottom of the page and click !["Add new"](assets/Add_New_Button.png). An overlay window opens up.
  >**Note:** Alternatively, you can also [copy discount lines from existing discount schemas](Copy_discount_lines).

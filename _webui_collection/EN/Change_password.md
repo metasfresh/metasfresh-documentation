@@ -19,7 +19,7 @@ If you are having a hard time remembering your login password or simply want to 
 1. Open the email in your inbox and click on the included link. A new browser tab opens up.
 1. Enter your **New Password** with at least 8 characters.
  >**Note 1:** Make sure the password consists of ***at least 8 characters*** or it ***will not be saved***!<br><br>
- >**Note 2:** Please bear in mind that the password is ***case-sensitive***!
+ >**Note 2:** Please note that the password is ***case-sensitive***!
 
 1. Repeat your **New Password (retype)**.
 1. Click ![](assets/ChangePWButton.png) and log in as usual.
@@ -40,7 +40,7 @@ If you are having a hard time remembering your login password or simply want to 
 
 1. Enter your **New Password** with at least 8 characters.
  >**Note 1:** Make sure the password consists of ***at least 8 characters*** or it ***will not be saved***!<br><br>
- >**Note 2:** Please bear in mind that the password is ***case-sensitive***!
+ >**Note 2:** Please note that the password is ***case-sensitive***!
 
 1. Repeat your **New Password (retype)**.
 1. Click "Start" to apply the changes and close the overlay window.
