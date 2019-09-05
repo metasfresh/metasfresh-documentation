@@ -17,7 +17,7 @@ ref: ship_salesorder_picked_qty
 1. [Springe zur](SpringezuBelegen) "Lieferdisposition".
  >**Hinweis:** Drücke `Alt` + `6` / `⌥ alt` + `6`, um die Sidebar mit den verknüpften Belegen zu öffnen.
 
-1. [Selektiere die Auftragszeilen](AuswahlBelege), die Du liefern möchtest.
+1. [Selektiere](AuswahlBelege) die Auftragszeilen, die Du liefern möchtest.
 1. [Starte die Quick-Action](AktionStarten) "Auswahl liefern". Es öffnet sich ein Overlay-Fenster.
  >**Hinweis:** Diese Aktion findest Du ebenfalls im Aktionsmenü sowohl in der Listenansicht als auch in der Einzelansicht eines Eintrages.
 

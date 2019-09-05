@@ -18,7 +18,7 @@ Only authorized users can confirm requests for approval of credit limits. They r
 
 ## Steps
 1. Open the entry of the [business partner](Menu) for whom you have received a request for approval, or click on the [notification](Notification_types) ![](assets/NotificationBell_WebUI.png) to open the entry.
-1. Go to the record tab "Credit Limit" at the bottom of the page and [select the line of the credit limit](RecordSelection) you want to approve.
+1. Go to the record tab "Credit Limit" at the bottom of the page and [select](RecordSelection) the line of the credit limit you want to approve.
  >**Note:** The box in the column **Approved** of this line is unchecked.
 
 1. [Start the action](StartAction) "Credit Limit Approve".

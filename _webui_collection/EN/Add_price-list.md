@@ -25,7 +25,7 @@ Price lists can be country and currency-specific. Therefore they can be assigned
 1. Select a **Currency**.
 1. The field **Price Precision** specifies the number of decimal places for the price calculations.
 1. Select the [**Pricing System**](Add_price-system) to which the price list shall be linked.
-1. The box **Sales Price List** specifies whether this price list is to be used for *Sales* and consequently becomes selectable in [sales orders](SalesOrder_recording), for instance. If you uncheck this box, it automatically becomes a ***Purchase Price List***.
+1. The box **Sales Price List** specifies whether this price list is to be used for *Sales* or *Purchasing*. If the box is checked, it becomes selectable in [sales orders](SalesOrder_recording), for instance. If you uncheck this box, it automatically becomes a ***Purchasing Price List*** and available in [purchase orders](CreatePurchaseOrder), for instance.
 1. The box **Tax incl.** specifies whether the prices are *gross* or *net* prices (i.e. including or excluding value-added tax). metasfresh calculates the prices accordingly.
 1. [metasfresh saves the progress automatically](Saveindicator).
 

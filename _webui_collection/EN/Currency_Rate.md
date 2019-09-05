@@ -26,7 +26,7 @@ You used the [initial setup wizard](InitialSetupWizard) to set your metasfresh s
 
 1. Select *Spot* as the **Currency Type**.
 1. Set a **Valid from** date.
- >**Note:** If this date lies in the *past*, the currency rate is effective *immediately*. If it lies in the *future*, the currency rate will only be effective *from that date*.
+ >**Note:** If this date lies in the *past*, the currency rate will be effective *immediately*. If it lies in the *future*, the currency rate will only be effective *from that date*.
 
 1. [metasfresh saves the progress automatically](Saveindicator).
  >**Note:** Repeat steps 2 to 6 to set up further currency conversions, e.g., EUR to USD.

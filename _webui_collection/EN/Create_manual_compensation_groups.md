@@ -19,7 +19,7 @@ In order to create manual compensation groups, please proceed as follows:
 
 ## Steps
 1. Follow these [instructions for creating a sales order](SalesOrder_recording) up to **step 4 of the order line input**.
-1. [Select the order lines](RecordSelection) you want to combine into a compensation group.
+1. [Select](RecordSelection) the order lines you want to combine into a compensation group.
 1. [Start the action](StartAction) "Group Lines". An overlay window opens up.
 1. Select a **Product**, e.g., *Discount*.
  >**Note:** You can select any other grouping product from the list in the product field, provided that it is ***not stocked*** and linked to the very ***same price list*** as in the sales order.<br>

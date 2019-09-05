@@ -17,7 +17,7 @@ ref: new_business_partner
  >**Hinweis:** Der **Name/Firmenname** ist auf 60 Zeichen beschränkt.
 
 1. Wähle eine [**Geschäftspartnergruppe**](Neue_Geschaeftspartnergruppe) aus, z.B. *Maschinenlieferant*.
-1. Wähle die bevorzugte Kommunikations**sprache** des Partners aus.
+1. Wähle die bevorzugte **Sprache** des Partners zur Kommunikation aus.
 1. Füge eine **URL** hinzu, wie z.B. die Website des Partners.
  >**Hinweis:** Beachte dabei, dass die URL mit dem Internetprotokollakronym beginnt (z.B. `https://`). Klicke rechts auf das Link-Symbol ![](assets/Link_icon.png), um die Seite aufzurufen.
 

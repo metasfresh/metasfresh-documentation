@@ -51,7 +51,7 @@ Hast Du den zu übersetzenden Eintrag bereits geöffnet, z.B. den eines Produkte
 #### c) Aus der Registerkarte über das Kontextmenü springen\*
 Möchtest Du Registerkarteneinträge übersetzen, wie z.B. im Falle der Mahnstufe, dann gehe wie folgt vor:
 
-1. Gehe zur Registerkarte unten auf der Seite, z.B "Stufen" für die Mahnstufen im Fenster der jeweiligen [Mahnart](Menu), und selektiere die Zeile, für die Du eine Übersetzung anlegen möchtest.
+1. Gehe zur Registerkarte unten auf der Seite, z.B "Stufen" für die Mahnstufen im Fenster der jeweiligen [Mahnart](Menu), und [selektiere](AuswahlBelege) die Zeile, für die Du eine Übersetzung anlegen möchtest.
 1. [Springe über das Kontextmenü](Springezu_Kontextmenue) in das entsprechende Übersetzungsfenster, z.B. ![](assets/Mahnstufe_Uebersetzung_Kontext.png). Hier siehst Du nun eine Liste aller Übersetzungseinträge für den ausgewählten Eintrag.
 
 ### Übersetzungen anlegen

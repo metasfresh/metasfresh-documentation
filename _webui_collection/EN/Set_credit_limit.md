@@ -19,7 +19,7 @@ With the credit limit you can determine a maximum amount up to which your busine
 1. Select a **Credit Limit Type**, e.g., *Management*.
 1. Enter an **Amount** which a business partner is maximally allowed to reach with unpaid invoices until they are blocked from placing further orders.
 1. Set a **Date from**.
- >**Note:** If this date lies in the *past*, the credit limit is effective *immediately*. If it lies in the *future*, it will only apply *from that date*.
+ >**Note:** If this date lies in the *past*, the credit limit will be effective *immediately*. If it lies in the *future*, it will only apply *from that date*.
 
 1. Click "Done" to close the overlay window and add the credit limit to the list.
  >**Note:** The credit limit will take effect only after [approval by an authorized user](Credit_limit_approval).
