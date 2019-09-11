@@ -7,9 +7,25 @@ tag:
 lang: en
 ---
 
-## Warning
+## Warning!
 
 Only use this SQLs if you exactly know what you are doing.
+
+## Find out which tables grew big
+
+https://wiki.postgresql.org/wiki/Disk_Usage
+
+```SQL
+SELECT nspname || '.' || relname AS "relation",
+    pg_size_pretty(pg_relation_size(C.oid)) AS "size"
+  FROM pg_class C
+  LEFT JOIN pg_namespace N ON (N.oid = C.relnamespace)
+  WHERE nspname NOT IN ('pg_catalog', 'information_schema')
+  ORDER BY pg_relation_size(C.oid) DESC
+  LIMIT 20;
+
+```
+
 
 
 ## Cleanup data from time to time
