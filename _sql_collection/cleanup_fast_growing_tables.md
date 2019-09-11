@@ -62,6 +62,14 @@ truncate t_lock,t_webui_viewselection,t_webui_viewselectionline
 truncate ad_eventlog,ad_eventlog_entry;
 ```
 
+### Free Disk Space from AD Changelog 
+
+Remove Data from AD_Changelog of a certain table and free disk space:
+
+`delete from ad_changelog where ad_table_id = 540425;`
+`vacuum full ad_changelog;`
+
+
 ### Misc Tables
 
 ```SQL
