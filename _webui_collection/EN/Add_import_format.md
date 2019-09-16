@@ -39,6 +39,9 @@ The following data can be imported to metasfresh:
 1. Give the format field a **Name**, e.g., "Search Key".
 1. Pick a **Column** where the content of the import file is to be transferred later on, e.g., *Value_Suchschlüssel*.
 1. Select a **Data Type**, e.g., *String* or *Number*, depending on the import data type.
+1. Define a **Data Format**, where necessary (e.g., *dd.mm.yyyy* for the data type *Date*).
+ >**Note:** You can learn more about date and time patterns [here](https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html).
+
 1. Enter a **Start No**.
  >**Note:** The **start number** determines the position where a column is expected by metasfresh in the import file during import. It has nothing to do with the order (**SeqNo**) in which the format fields were added to the import format. It is therefore not necessary that the fields are placed in a fixed and ascending order, as long as the start numbers coincide with the column positions in the import file.
 
