@@ -39,7 +39,7 @@ Die Angabe der Pflichtfelder ist unerlässlich für einen erfolgreichen Datenimp
 |  | OrgValue | metasfresh AG | **Suchschlüssel** der Organisation.<br> ***Achtung:*** Nicht der Name!<br> (*Den Suchschlüssel kannst Du unter dem Menüpunkt "[Organisation](Menu)" nachschauen.*) |
 |  | Standortdaten | •&nbsp;Straße und Nr.<br> •&nbsp;PLZ<br> •&nbsp;Ort<br> •&nbsp;Region<br> •&nbsp;ISO Ländercode | Damit [Standortdaten](Adresse_erfassen_Tab) importiert werden können, müssen mindestens **Ort** und **ISO Ländercode** angegeben sein.<br><br> Standortdaten wie **Straße und Nr.**, **PLZ** oder **Region** werden nur importiert, wenn sowohl **Ort** als auch **ISO Ländercode** vorhanden sind. |
 |  | Global Location Number (GLN) | 1234567890128 | Zum Import einer **GLN** müssen sowohl **Ort** als auch **ISO Ländercode** vorhanden sein. |
-|  | Webadresse (URL) | <a href="https://metasfresh.com/" alt="metasfresh Homepage" target="blank"><strong>https://</strong>metasfresh.com/</a> | Damit eine **URL** nach dem Import funktioniert, muss diese mit dem Internetprotokollakronym beginnen (z.B. `https://`). |
+|  | Webadresse (URL) | <a href="https://metasfresh.com/" title="metasfresh Homepage" target="blank"><strong>https://</strong>metasfresh.com/</a> | Damit eine **URL** nach dem Import funktioniert, muss diese mit dem Internetprotokollakronym beginnen (z.B. `https://`). |
 
 ## Nächste Schritte
 - [Geschäftspartnerdaten importieren](GPartnerdaten_importieren).
