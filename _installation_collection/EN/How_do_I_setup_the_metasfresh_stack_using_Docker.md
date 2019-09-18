@@ -54,17 +54,16 @@ This manual describes the installation of the following services according to [t
 
 1. Build the Docker container.
 
- `docker-compose build`
+   `docker-compose build`
 
 1. Start the Docker container.
 
- `docker-compose up -d`
-
- >**Note:** The first time you start the container, it may take a few minutes until the database is populated and the service is available.
+   `docker-compose up -d`
+   >**Note:** The first time you start the container, it may take a few minutes until the database is populated and the service is available.
 
 1. ***Optional:*** Stop the Docker container.
 
-  `docker-compose down`
+   `docker-compose down`
 
 ## Access
 After the successful installation you can access the WebUI via:

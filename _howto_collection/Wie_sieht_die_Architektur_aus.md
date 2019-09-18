@@ -1,5 +1,5 @@
 ---
-title: Wie sieht die Architektur von metasfresh aus ?
+title: Wie sieht die Architektur von metasfresh aus?
 layout: default
 tags:
   - Systemadministration  
@@ -8,7 +8,7 @@ lang: de
 ---
 
 ## Übersicht
-![Preise](../images/metasfresh_architecture.png)
+![Technische Architektur](../images/metasfresh_architecture.png)
 
 ## Service Details
 Weitere Details findest Du [hier](EN/metasfresh_architecture).
