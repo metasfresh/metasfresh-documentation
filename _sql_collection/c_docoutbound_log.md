@@ -2,8 +2,8 @@
 title: C_Doc_Outbound_Log (Outbound Documents, Invoice, Printing Queue)
 layout: default
 tag: 
-   - datamodel
-   - documents
+   - Data Model
+   - Documents
 lang: en
 ---
 

@@ -2,8 +2,8 @@
 title: C_Invoice / C_Invoice_Candidate
 layout: default
 tag: 
-   - datamodel
-   - documents
+   - Data Model
+   - Documents
 lang: en
 ---
 

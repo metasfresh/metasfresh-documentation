@@ -2,8 +2,8 @@
 title: C_Order (Sales and Purchase Order)
 layout: default
 tag: 
-   - datamodel
-   - documents
+   - Data Model
+   - Documents
 lang: en
 ---
 

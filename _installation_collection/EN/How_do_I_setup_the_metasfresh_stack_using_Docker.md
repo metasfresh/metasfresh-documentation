@@ -10,21 +10,20 @@ ref: How_do_I_setup_the_metasfresh_stack_using_Docker
 ---
 
 ## Overview
-This manual describes the installation of the following services according to [this overview](howto_collection\EN\metasfresh_architecture.md):
-* DB
-* App
-* API
-* WebUI
-* Search
+This manual describes the installation of the following services according to [this overview](../../howto_collection/EN/metasfresh_architecture):
+- DB
+- App
+- API
+- WebUI
+- Search
 
 ## Hardware Requirements
 
-|     | Minimum      | Recommended
-| :------------- | :------------- |
-| RAM | 4 GB       | 8 GB (increases with db size)
-| CPU | 1 VCPU | 4 VCPU
-| HDD | 10 GB | 20 GB
-
+|  | Minimum | Recommended |
+| :--- | :--- | :--- |
+| RAM | 4 GB | 8 GB (increases with db size) |
+| CPU | 1 VCPU | 4 VCPU |
+| HDD | 10 GB | 20 GB |
 
 ## Installation with Docker
 

@@ -2,8 +2,8 @@
 title: M_Inventory (Inventory)
 layout: default
 tag: 
-   - datamodel
-   - documents
+   - Data Model
+   - Documents
 lang: en
 ---
 

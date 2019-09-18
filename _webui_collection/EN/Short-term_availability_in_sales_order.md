@@ -16,7 +16,7 @@ You can see the short-term availability of a product in the respective order lin
 
 ![](assets/Short-term_availability_in_sales_order.png)
 
-If a sales order with products that are not available on short-term is completed and product planning was configured appropriately, then either purchase orders or manufacturing orders will be created depending on the [product planning configurations](Productplanning) in order to restore the stocks of the depleted products.
+If a sales order with products that are not available on short-term is completed and product planning was configured appropriately, then either purchase orders or manufacturing orders will be created depending on the [product planning configurations](Product_planning) in order to restore the stocks of the depleted products.
 
 ## System administrator configurations
 As system administrator you can set the parameters that will be used by metasfresh to check the short-term availability under "Available quantity for sales config" in the menu where you can also configure different settings for various organizations. Possible parameters include:
@@ -45,4 +45,4 @@ In order to configure the short-term availability check, please proceed as follo
 1. [metasfresh saves the progress automatically](Saveindicator).
 
 ## Next Steps
-- [Set up product planning for automatic restocking of depleted products](Productplanning).
+- [Set up product planning for automatic restocking of depleted products](Product_planning).

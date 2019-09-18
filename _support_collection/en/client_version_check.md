@@ -17,6 +17,6 @@ Disabling the version check is useful if you temporarily need to run a modified 
 
 ### Further notes:
 - To disable the client check, you can comment-in the commented-out variable `METASFRESH_CLIENT_CHECK_OPTS` in either the
-[RUN_metasfresh_linux.sh](https://github.com/metasfresh/metasfresh/blob/master/de.metas.endcustomer.mf15/de.metas.endcustomer.mf15.swingui/src/main/resources/RUN_metasfresh_linux.sh) or
-[RUN_metasfresh.bat](https://github.com/metasfresh/metasfresh/blob/master/de.metas.endcustomer.mf15/de.metas.endcustomer.mf15.swingui/src/main/resources/misc/RUN_metasfresh.bat) client startup script.
+[`RUN_metasfresh_linux.sh`](https://github.com/metasfresh/metasfresh-dist/blob/master/swingui/src/main/resources/RUN_metasfresh_linux.sh) or
+[`RUN_metasfresh.bat`](https://github.com/metasfresh/metasfresh-dist/blob/master/swingui/src/main/resources/RUN_metasfresh.bat) client startup script.
 - You can also set `de.metas.clientcheck.Enabled` to `'N'` in the `AD_Sysconfig` table in order to globally disable the client check.

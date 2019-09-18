@@ -6,10 +6,9 @@ tags:
 sequence: 10
 lang: de
 ---
-## Übersicht
 
+## Übersicht
 ![Preise](../images/metasfresh_architecture.png)
 
 ## Service Details
-
-weitere Details sind [hier](/EN/metasfresh Architecture) zu finden.
+Weitere Details findest Du [hier](EN/metasfresh_architecture).

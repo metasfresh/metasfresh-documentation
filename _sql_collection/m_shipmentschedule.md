@@ -2,8 +2,8 @@
 title: M_Shipmentschedule
 layout: default
 tag: 
-  - datamodel
-  - dispo framework
+  - Data Model
+  - Dispo Framework
 lang: en
 ---
 
