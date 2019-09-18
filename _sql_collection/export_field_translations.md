@@ -2,7 +2,7 @@
 title: Export Field Translations (AD_Field)
 layout: default
 tag: 
-  - translation
+  - Translation
   
 lang: en
 ---

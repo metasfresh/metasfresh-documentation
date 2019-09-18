@@ -2,7 +2,7 @@
 title: Export Menu Folder and Node Translations (AD_Menu)
 layout: default
 tag: 
-  - translation
+  - Translation
   
 lang: en
 ---

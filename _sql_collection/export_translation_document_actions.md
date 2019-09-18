@@ -2,7 +2,7 @@
 title: Export Document Action Translations (Reference List)
 layout: default
 tag: 
-  - translation
+  - Translation
   
 lang: en
 ---
