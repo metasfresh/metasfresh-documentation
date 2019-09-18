@@ -1,5 +1,5 @@
 ---
-title: How to get started with translating docs?
+title: How to get started with translating docs
 layout: default
 tags:
   - metasfresh Community
@@ -7,19 +7,17 @@ lang: en
 ---
 
 ## 1. Understand the task
-1. get access to latest version of metasfresh
-1. play through the manual in german first http://docs.metasfresh.org/webui_collection/DE/NeuerProduktionsauftrag.html
-1. report feedback on [github](https://github.com/metasfresh/metasfresh-documentation/issues) if documentation is not fitting
-1. [switch the language](http://docs.metasfresh.org/webui_collection/EN/SwitchLanguage.html) to EN
-1. play through the workflow again
-1. report feedback on [github](https://github.com/metasfresh/metasfresh-documentation/issues) if not all fields are translated
-1. check other examples that already have been translated:
-   1. http://docs.metasfresh.org/webui_collection/DE/Auftrag_erfassen.html
-   1. http://docs.metasfresh.org/webui_collection/EN/SalesOrder_recording.html
+1. [Get access to the latest version of metasfresh](https://metasfresh.com/en/download/).
+1. [Test a feature documented in the German manual first](../../pages/webui/index_de).
+1. Report any feedback by [creating a new issue on GitHub](https://github.com/metasfresh/metasfresh-documentation/issues) if the documentation needs to be updated.
+1. [Switch metasfresh to English](../../webui_collection/EN/SwitchLanguage.html).
+1. [Test the same feature in English](../../pages/webui/index_en).
+1. Report any feedback on [GitHub](https://github.com/metasfresh/metasfresh-documentation/issues) if fields are missing translation or the documentation needs to be updated.
+1. Repeat steps 2 to 6 for as many features as you want to test.
 
 ## 2. Install your tools
-1. [Install github desktop](https://github-windows.s3.amazonaws.com/GitHubSetup.exe) 
-1. [Install and configure Atom Editor](http://docs.metasfresh.org/howto_collection/EN/how_to_setup_atom_for_contributing_docs.html)
+1. [Download and install GitHub Desktop](https://desktop.github.com/).
+1. [Download, install and configure Atom Editor](http://docs.metasfresh.org/howto_collection/EN/how_to_setup_atom_for_contributing_docs.html).
 
 ## 3. Prepare Repository
 1. Github Desktop: clone metasfresh/metasfresh-documentation to your local disk
@@ -32,13 +30,12 @@ lang: en
 
 ## 5. Commit your changes
 1. commit the new file using:
-   * **commit title**: #`<issuenumber>` `<title of issue>`
-   * **commit description**: #`<issuenumber>` and desribe your changes
-      
+   - **commit title**: #`<issuenumber>` `<title of issue>`
+   - **commit description**: #`<issuenumber>` and desribe your changes
+
 1. create a pull request for review
-    * the Pull request will take title and description from your last commit
-    * make sure #`<issuenumber>` is in description to link the PR with the issue
+   - the Pull request will take title and description from your last commit
+   - make sure #`<issuenumber>` is in description to link the PR with the issue
 
 ## Further Reading
-
-- [StyleGuide](https://github.com/metasfresh/metasfresh-documentation/blob/master/StyleGuide.md)
+- [StyleGuide](../../StyleGuide)
