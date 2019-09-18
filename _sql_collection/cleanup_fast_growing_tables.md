@@ -2,8 +2,8 @@
 title: Cleanup fast growing tables on big systems
 layout: default
 tag: 
-  - maintenance
-  - danger zone  
+  - Maintenance
+  - Danger Zone  
 lang: en
 ---
 

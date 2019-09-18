@@ -2,7 +2,7 @@
 title: Export Element Translations (AD_Element)
 layout: default
 tag: 
-  - translation
+  - Translation
 
 lang: en
 ---

@@ -2,7 +2,7 @@
 title: Export Message Translations (AD_Message)
 layout: default
 tag: 
-  - translation
+  - Translation
   
 lang: en
 ---
