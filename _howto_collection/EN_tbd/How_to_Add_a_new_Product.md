@@ -39,14 +39,14 @@ lang: en
      1. **Packvorschrift** "VirtualPI" auswählen.
      1. **Unbestimmte Kapazität** anhaken.
      1. **Gültig ab** Datum eintragen, ab wann die Packvorschrift aktiviert sein soll. Üblicher Wert wäre ein Datum kleiner als heute.
-     1. [Speichern](Wie_lege_ich_einen_neuen_datensatz_an).
+     1. [Speichern](../Wie_lege_ich_einen_neuen_datensatz_an).
    - **Artikel im Gebinde** - Artikel soll mittels Packvorschrift als Gebinde verwaltet werden.
-     1. [Add new data](Wie_lege_ich_einen_neuen_datensatz_an).
+     1. [Add new data](../Wie_lege_ich_einen_neuen_datensatz_an).
      1. Select a suitable **Packaging rule**.
      1. Enter **Amount** to define how many times the article (CU) fits into the packaging (TU).
      1. **Gültig ab** Datum eintragen ab wann die Packvorschrift aktiviert sein soll. The usual value would be a date before today's date.
      1. ***Optional:*** Definition of **Business Partner** so that the packaging rule only applies to this one partner.
-     1. [Save](Wie_lege_ich_einen_neuen_datensatz_an).
+     1. [Save](../Wie_lege_ich_einen_neuen_datensatz_an).
 
    **Note:** It is also possible to set different packaging policies for an individual article.
 
