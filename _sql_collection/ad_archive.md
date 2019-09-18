@@ -2,8 +2,8 @@
 title: AD_Archive
 layout: default
 tag: 
-  - datamodel
-  - documents
+  - Data Model
+  - Documents
 lang: en
 ---
 

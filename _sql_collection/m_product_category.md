@@ -2,8 +2,8 @@
 title: M_Product_Category
 layout: default
 tag: 
-   - datamodel
-   - masterdata
+   - Data Model
+   - Master Data
 lang: en
 ---
 

@@ -2,8 +2,8 @@
 title: M_ProductPrice (Pricing,Product)
 layout: default
 tag: 
-   - datamodel
-   - masterdata
+   - Data Model
+   - Master Data
 lang: en
 ---
 

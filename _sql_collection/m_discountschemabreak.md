@@ -2,8 +2,8 @@
 title: M_DiscountSchemaBreak (Discount Breaks)
 layout: default
 tag: 
-   - datamodel
-   - masterdata
+   - Data Model
+   - Master Data
 lang: en
 ---
 

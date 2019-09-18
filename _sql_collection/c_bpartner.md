@@ -2,8 +2,8 @@
 title: C_BPartner (Business Partner)
 layout: default
 tag: 
-   - datamodel
-   - masterdata
+   - Data Model
+   - Master Data
 lang: en
 ---
 

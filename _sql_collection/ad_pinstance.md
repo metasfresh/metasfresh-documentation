@@ -2,8 +2,8 @@
 title: AD_Pinstance (Process Log)
 layout: default
 tag: 
-  - datamodel
-  - systemdata
+  - Data Model
+  - System Data
 lang: en
 ---
 

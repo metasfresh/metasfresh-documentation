@@ -6,7 +6,7 @@ tags:
   - Materialdisposition
 lang: de
 sequence: 10
-ref: productplanning
+ref: product_planning
 ---
 
 ## Übersicht

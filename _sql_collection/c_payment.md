@@ -2,8 +2,8 @@
 title: C_Payment (Payment)
 layout: default
 tag: 
-   - datamodel
-   - documents
+   - Data Model
+   - Documents
 lang: en
 ---
 

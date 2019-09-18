@@ -2,8 +2,8 @@
 title: C_Queue_Workpackage 
 layout: default
 tag: 
-  - datamodel
-  - systemdata
+  - Data Model
+  - System Data
 lang: en
 ---
 

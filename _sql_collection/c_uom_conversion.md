@@ -2,8 +2,8 @@
 title: C_UOM_Conversion (UOM,Product)
 layout: default
 tag: 
-   - datamodel
-   - masterdata
+   - Data Model
+   - Master Data
 lang: en
 ---
 
