@@ -3,13 +3,13 @@ title: IT FRESH-556
 required data:   
 layout: default
 tags:
-  - 
+  -
 ---
 ## #248 Admin Login when deleted properties
 
 > Testcase to check the login after deleted properties.
 
-1. Delete the properties for metasfresh (e.g. in x2go File Manager)
+1. Delete the properties for metasfresh (e.g. in X2Go File Manager)
 
 1. Open metasfresh, without existing properties
 	* => you have to agree to the license agreement
