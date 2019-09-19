@@ -7,17 +7,17 @@ lang: en
 ---
 
 ## 1. Understand the task
-1. [Get access to the latest version of metasfresh](https://metasfresh.com/en/download/).
+1. <a href="https://metasfresh.com/en/download/" title="Download the latest version on metasfresh.com" target="blank">Get access to the latest version of metasfresh</a>.
 1. [Test a feature documented in the German manual first](../../pages/webui/index_de).
-1. Report any feedback by [creating a new issue on GitHub](https://github.com/metasfresh/metasfresh-documentation/issues) if the documentation needs to be updated.
+1. Report any feedback by <a href="https://github.com/metasfresh/metasfresh-documentation/issues" title="metasfresh-documentation on GitHub" target="blank">creating a new issue on GitHub</a> if the documentation needs to be updated.
 1. [Switch metasfresh to English](../../webui_collection/EN/SwitchLanguage.html).
 1. [Test the same feature in English](../../pages/webui/index_en).
-1. Report any feedback on [GitHub](https://github.com/metasfresh/metasfresh-documentation/issues) if fields are missing translation or the documentation needs to be updated.
+1. Report any feedback on <a href="https://github.com/metasfresh/metasfresh-documentation/issues" title="metasfresh-documentation on GitHub" target="blank">GitHub</a> if fields are missing translation or the documentation needs to be updated.
 1. Repeat steps 2 to 6 for as many features as you want to test.
 
 ## 2. Install your tools
-1. [Download and install GitHub Desktop](https://desktop.github.com/).
-1. [Download, install and configure Atom Editor](http://docs.metasfresh.org/howto_collection/EN/how_to_setup_atom_for_contributing_docs.html).
+1. <a href="https://desktop.github.com/" title="Download GitHub Desktop from the official website" target="blank">Download and install GitHub Desktop</a>.
+1. [Download, install and configure Atom Editor](how_to_setup_atom_for_contributing_docs).
 
 ## 3. Prepare Repository
 1. Github Desktop: clone metasfresh/metasfresh-documentation to your local disk
