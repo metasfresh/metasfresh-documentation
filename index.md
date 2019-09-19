@@ -14,7 +14,7 @@ layout: default
 ### Developers
   - [Architecture Overview](howto_collection/EN/metasfresh_architecture.html)
   - [Build System Overview](pages/infrastructure/ci_en): How the Maven-based build system works locally as well as on our CI server
-  - [Creating Documentation](http://docs.metasfresh.org/howto_collection/EN/how_to_get_started_with_translating_docs.html)
+  - [Contributor's Guide](pages/contributors_guide/index_en)
   - [Customizing App Dictionary](pages/appdictionary/index_en)
   - [Database Queries](pages/sql/index_en)
   - [Developing Code](pages/developers/index_en)

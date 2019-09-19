@@ -35,7 +35,7 @@ If you add new files ensure the following:
     - Credits for `ref` and `lang` go to ***Sylvain Durand*** who explains this comprehensibly on his [website](https://www.sylvaindurand.org/making-jekyll-multilingual/).
   - If your file is to be a part of a collection which is used to auto-generate table of contents, make sure it is residing in a folder starting with `_` (underscore), e.g. `_howto_collection`.
   - Make use of {% raw %}`{{ site.github.url }}`{% endraw %}.
-    - Instead of `../images/myimage.png`, use `{{ site.github.url }}/images/myimage.png`. This ensures that the file which contains the link can be moved around without the link breaking.
+    - Instead of `../images/myimage.png`, use {% raw %}`{{ site.github.url }}/images/myimage.png`{% endraw %}. This ensures that the file which contains the link can be moved around without the link breaking.
 
 ## Formatting Requirements
 
