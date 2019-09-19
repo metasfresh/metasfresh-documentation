@@ -28,6 +28,8 @@ collections:
     output: true
   rest_api_collection:
     output: true
+  contributors_guide_collection:
+    output: true
 
 defaults:
   - scope:
