@@ -17,15 +17,24 @@ ref: add_price
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Produkt Preise".
 1. [Lege einen neuen Preiseintrag an](Neuer_Datensatz_Fenster_Webui).
 1. Gib das [**Produkt**](NeuesProdukt) ein, für das der Preis gelten soll, und wähle es aus den Treffern der [Dropdown-Liste](Keyboard_Shortcuts_Liste) aus.
-1. Gib im Feld **Version Preisliste** einen Teil des Namens der vorgesehenen [Preislistenversion](Preislistenversion_anlegen) ein und klicke auf den passenden Treffer in der [Dropdown-Liste](Keyboard_Shortcuts_Liste).
-1. Das Feld **Auszeichnungspreis** bestimmt den Listenpreis, welcher später auf den Belegen aufgeführt wird.
-1. Das Feld **Standardpreis** bestimmt den tatsächlich geltenden Einkaufs- bzw. Verkaufspreis (je nachdem, ob es sich um eine Einkaufs- oder Verkaufspreisliste handelt).
-1. Der **Mindestpreis** darf von einer manuellen Preisänderung durch den Benutzer, z.B. in der Auftragszeile, nicht unterschritten werden!
-1. Das Feld **Maßeinheit** bestimmt die Verkaufsmengeneinheit und ist ***nicht zu verwechseln*** mit der Bestandsmengeneinheit des Artikels (Bestandsführung)!
- >**Hinweis:** Ist die Verkaufsmengeneinheit ≠ Bestandsmengeneinheit, muss eine [Maßeinheitenumrechnung](Masseinheiten_umrechnen) angelegt werden.
+1. Wähle im Feld **Version Preisliste** eine [Preislistenversion](Preislistenversion_anlegen) aus.
+1. Trage einen **Standardpreis** ein.
+1. Wähle eine **Maßeinheit** aus, für die der Preis gilt (Verkaufsmengeneinheit).
+ >**Hinweis:** Ist die Verkaufsmengeneinheit ≠ Bestandsmengeneinheit ([Produkt](NeuesProdukt)), muss eine [Maßeinheitenumrechnung](Masseinheiten_umrechnen) definiert werden.
 
-1. Im Feld **Steuerkategorie** kannst Du die jeweilige Mehrwertsteuerkategorie wählen, wie z.B. *normal*, *reduziert*, *steuerfrei*.
+1. Wähle im Feld **Steuerkategorie** eine Mehrwertsteuerkategorie aus, wie z.B. *normal*, *reduziert*, *steuerfrei* usw.
+1. Wähle im Feld **Abr. Menge basiert auf** aus, welches Gewicht bei der Fakturierung ausschlaggebend ist, z.B. *Nominalgewicht* (Standard) oder *Catch Weight* ([bei gewichtsabhängigen Produkten](Auftrag_Catch_Weight)).
 1. [metasfresh speichert automatisch](Speicheranzeige).
+
+## Weitere Informationen
+
+| Feldname | Hinweis |
+| :--- | :--- |
+| Auszeichnungspreis | Bestimmt den Listenpreis, welcher später auf den Belegen aufgeführt wird. |
+| Standardpreis | Bestimmt den tatsächlich geltenden Einkaufs- bzw. Verkaufspreis (je nachdem, ob es sich um eine Einkaufs- oder Verkaufspreisliste handelt). |
+| Mindestpreis | Darf von einer manuellen Preisänderung durch den Benutzer, z.B. in der Auftragszeile, nicht unterschritten werden! |
+| Maßeinheit | Bestimmt die Maßeinheit, *für die der Preis gilt* (Verkaufsmengeneinheit) und ist ***nicht zu verwechseln*** mit der Maßeinheit des Artikels für die Bestandsführung (Bestandsmengeneinheit)! |
+| Abr. Menge basiert auf | Bestimmt, welches Gewicht bei der Fakturierung ausschlaggebend ist.<br> &#8226;&nbsp;*Nominalgewicht*: Das Standardgewicht, welches durch [Maßeinheitenumrechnung](Masseinheiten_umrechnen) zwischen Bestands- und Verkaufsmengeneinheit erlangt wird (Durchschnittsgewicht).<br> &#8226;&nbsp;*Catch Weight*: Das tatsächliche Gewicht eines Produktes, welches durch Wiegen der Ware erlangt wird. ([Verwaltung von Gewichtsware](Auftrag_Catch_Weight)) |
 
 ## Nächste Schritte
 - [Weise die Preise einem Partner zu](Zuweisung_Preise_Partner).
