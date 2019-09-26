@@ -19,7 +19,7 @@ metasfresh bietet zwei Möglichkeiten, den Materialverbrauch bei der Produktion 
 [Hier](Zu_Bestellung_Wareneingang_erstellen) kannst Du nachlesen, wie Du einen Wareneingang erstellst.
 
 ## Schritte
-1. Öffne den Eintrag eines [fertigen Produktionsauftrags](NeuerProduktionsauftrag).
+1. Öffne den Eintrag eines [fertiggestellten Produktionsauftrags](NeuerProduktionsauftrag).
 1. [Starte die Aktion](AktionStarten) "Produzieren". Es öffnet sich ein Overlay-Fenster, das Produktionsfenster.
  >**Hinweis:** Hast Du den Produktionsauftrag in der [Listenansicht](Ansichten) selektiert, kannst Du ebenfalls über den [Quick-Actions](AktionStarten)-Button oben rechts die Aktion ![](assets/Actionbutton_Produzieren.png) starten.
 
