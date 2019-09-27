@@ -31,7 +31,7 @@ Daher bietet metasfresh die Möglichkeit, das abweichende Catch-Weight-Gewicht v
 
 ### Catch-Weight-Gewicht erfassen
 1. [Springe zur](SpringezuBelegen) "Lieferdisposition".
-1. Öffne den Lieferdispo-Eintrag des Catch-Weight-Produktes.
+1. Öffne den Lieferdispo-Eintrag mit dem Catch-Weight-Produkt.
 1. Trage rechts unten in das Feld **Abw. Catch Weight Menge** das tatsächliche Gewicht des beauftragten Produktes ein.
 1. Klicke auf den "Zurück"-Button Deines Browsers, um wieder in die [Listenansicht](Ansichten) der Lieferdisposition zu gelangen.
  >**Hinweis:** Wiederhole die Schritte 2 bis 4, um die Catch-Weight-Gewichte weiterer Produkte zu erfassen.

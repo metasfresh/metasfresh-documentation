@@ -15,7 +15,7 @@ ref: productprice
 1. Wähle im Feld **Version Preisliste** eine [Preislistenversion](Preislistenversion_anlegen) aus, z.B. "Testpreise Kunden Deutschland (Verkaufspreisliste)".
 1. Trage einen **Standardpreis** ein.
 1. Wähle eine **Maßeinheit** aus, für die der Preis gilt (Verkaufsmengeneinheit).
- >**Hinweis:** Ist die Verkaufsmengeneinheit ≠ Bestandsmengeneinheit ([Produkt](NeuesProdukt)), muss eine [Maßeinheitenumrechnung](Masseinheiten_umrechnen) definiert werden.
+ >**Hinweis:** Ist die Verkaufsmengeneinheit ≠ Bestandsmengeneinheit (siehe [Produkt](NeuesProdukt)), muss eine [Maßeinheitenumrechnung](Masseinheiten_umrechnen) definiert werden.
 
 1. Wähle im Feld **Steuerkategorie** eine Mehrwertsteuerkategorie aus, wie z.B. *normal*, *reduziert*, *steuerfrei* usw.
 1. Wähle im Feld **Abr. Menge basiert auf** aus, welches Gewicht bei der Fakturierung ausschlaggebend ist, z.B. *Nominalgewicht* (Standard) oder *Catch Weight* ([bei gewichtsabhängigen Produkten](Auftrag_Catch_Weight)).

@@ -20,7 +20,7 @@ ref: add_price
 1. Pick a [**Price List Version**](Add_price-list-version).
 1. Enter a **Standard Price**.
 1. Pick a **UOM** (unit of measurement) for which the price shall apply (sales UOM).
- >**Note:** If sales UOM ≠ stock-keeping UOM ([Product](NewProduct)), you have to define a [UOM conversion](Convert_UOMs).
+ >**Note:** If sales UOM ≠ stock-keeping UOM (see [Product](NewProduct)), you have to define a [UOM conversion](Convert_UOMs).
 
 1. In the field **Tax Category**, pick a value-added tax (VAT) category, such as *normal*, *reduced*, *tax-free*, etc.
 1. In the field **Invoiceable Quantity per**, pick the weight to be used for invoicing, e.g., *Nominal* weight (default) or *Catch Weight* ([for products with variable weight](Sales_order_catch_weight)).

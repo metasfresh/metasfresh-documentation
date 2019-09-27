@@ -20,7 +20,7 @@ ref: newproduct
 
 1. Wähle eine **Artikelart** aus.
 1. Wähle eine **Maßeinheit** für den Artikel aus.
- >**Hinweis:** Dies ist die Maßeinheit für die Bestandsführung und ist ***nicht zu verwechseln*** mit der Verkaufsmengeneinheit, die bei der [Preisvergabe](ProduktPreis) festgelegt wird!
+ >**Hinweis:** Dies ist die Maßeinheit für die *Bestandsführung* und ist ***nicht zu verwechseln*** mit der Verkaufsmengeneinheit, die bei der [Preisvergabe](ProduktPreis) festgelegt wird!
 
 1. Fülle das Feld **Artikelnummer** aus.
  >**Hinweis 1:** Diese Nummer erscheint auf den Belegen wie Auftragsbestätigung usw.<br><br>
