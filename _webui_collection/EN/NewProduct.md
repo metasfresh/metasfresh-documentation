@@ -20,7 +20,7 @@ ref: newproduct
 
 1. Choose a **Product Type**.
 1. Choose a **UOM** for the product.
- >**Note:** This UOM is used for inventory management and ***must not be confused*** with the sales UOM defined when [adding a price](ProductPrice)!
+ >**Note:** This UOM is used for *inventory management* and ***must not be confused*** with the sales UOM defined when [adding a price](ProductPrice)!
 
 1. In the field **Search Key**, enter a product number.
  >**Note 1:** This number will appear in documents such as sales order confirmations etc.<br><br>

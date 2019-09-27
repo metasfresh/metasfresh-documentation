@@ -11,9 +11,9 @@ ref: sales_order_catch_weight
 ---
 
 ## Overview
-Catch Weight Management makes it possible to measure products that naturally vary in weight in two ways. One way is using an average standard weight obtained by [UOM conversion](Convert_UOMs) for inventory, sales, receiving material, transferring goods, picking and shipping. The other one is weighing the products and invoicing them based on their actual (catch) weight.
+Catch Weight Management makes it possible to manage products that naturally vary in weight in two ways. One way is using an average standard weight obtained by [UOM conversion](Convert_UOMs) for inventory, sales, receiving material, transferring goods, picking and shipping. The other one is weighing the products and invoicing them based on their actual (catch) weight.
 
-This is why metasfresh offers the possibility to record the different catch weight of products in the shipment schedule before they are shipped, thus ensuring that only the quantity actually received by the customer is invoiced.
+This is why metasfresh offers the possibility to record the different catch weights of products in the shipment schedule before they are shipped, thus ensuring that only the quantity actually received by the customer is invoiced.
 
 ## Requirements
 1. Configure the product in question as a "catch weight product" by either [assigning a price to it](ProductPrice) or [adding a new product price](Add_price), always setting the **Invoiceable Quantity per** *Catch Weight*.
@@ -31,7 +31,7 @@ This is why metasfresh offers the possibility to record the different catch weig
 
 ### Enter the catch weight
 1. [Jump to](JumptoviaSidebar) "Shipment Disposition".
-1. Open the shipment candidate entry of the catch weight product.
+1. Open the shipment candidate entry with the catch weight product.
 1. In the field **Abw. Catch Weight Menge** (*Different Catch Weight Quantity*) at the bottom right, enter the actual weight of the ordered product.
 1. Click your browser's back button to return to the [list view](ViewModes) of the shipment disposition.
  >**Note:** Repeat steps 2 to 4 to enter the catch weight of further products.
