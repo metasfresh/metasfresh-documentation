@@ -4,8 +4,9 @@ layout: default
 tags:
   - Workflow
   - Vertragsverwaltung
+  - Einrichtung
 lang: de
-sequence: 100
+sequence: 20
 ref: define_contract_period
 ---
 
@@ -25,14 +26,14 @@ Zu den zeitlichen Rahmenbedingungen eines Vertrages zählen in metasfresh u.a. V
  >**Hinweis:** Dies ist die Häufigkeit, in der ein Auftrag während der Laufzeit ausgeliefert wird.
 
 1. ***Optional:*** Setze ein Häkchen bei **Vertrag autom. verlängern**, damit er nach Laufzeitende wieder neu beginnt.
- >**Hinweis:** In diesem Fall erscheint das Kästchen **Neue Vertragslaufzeit autom. fertigstellen**. Setze auch hier ein Häkchen.
+ >**Hinweis:** In diesem Fall erscheint das Kontrollkästchen **Neue Vertragslaufzeit autom. fertigstellen**. Setze auch hier ein Häkchen.
 
 1. ***Optional:*** Im Feld **Nächste Vertragsbedingungen** kannst Du den Anschlussvertrag auswählen, in den der abgelaufene Vertrag übergehen soll.
 
 ### Wechselkonditionen festlegen
 Die Wechselkonditionen bestimmen, zu welchem Zeitpunkt vor Vertragsende bzw. Vertragswechsel der Vertragspartner einen Statuswechsel vollziehen darf, wie z.B. den Vertrag kündigen.
 
-1. Gehe zur Registerkarte "Wechselkonditionen" unten auf der Seite und klicke auf ![](assets/Neu_hinzufuegen_Button.png). Es öffnet sich ein Overlay-Fenster.
+1. Gehe zur Registerkarte "Wechselkonditionen" unten auf der Seite und klicke auf !["Neu hinzufügen"](assets/Neu_hinzufuegen_Button.png). Es öffnet sich ein Overlay-Fenster.
 1. Lege eine **Gültigkeitsfrist** und eine **Einheit der Frist** fest, z.B. "1 Monat".
 1. Wähle die **Aktion** *Statuswechsel* aus.
 1. Wähle den **Vertrags-Status** *Gekündigt* aus.

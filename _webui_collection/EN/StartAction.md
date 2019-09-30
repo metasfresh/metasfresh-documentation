@@ -2,6 +2,7 @@
 title: How do I start an action? (Action Types)
 layout: default
 tags:
+  - A Beginner's Guide to metasfresh
   - Usage
   - Actions
 lang: en
@@ -11,7 +12,7 @@ ref: startaction
 
 ## Overview
 Actions are contextual and can be started from every window. Each window therefore provides other actions.<br>
-In metasfresh there are three different types of actions:
+In metasfresh, there are three different types of actions:
 
 ## General Actions (Actions Menu)
 You will find these actions in the actions menu.
@@ -36,8 +37,8 @@ You will find these actions in documents, such as [sales orders](SalesOrder_reco
 ---
 
 ## Quick Actions
-You will find quick actions for processes, such as [creating goods receipts](CreateGoodsReceipt), [order picking](Howto_use_Picking_Terminal), [product manufacturing](ProductionCompletion), etc. You can identify them by the big ![](assets/Quick-Actions-Button.png) at the top right of the window.
+You will find quick actions for processes, such as [creating goods receipts](CreateGoodsReceipt), [order picking](Picking_terminal), [product manufacturing](ProductionCompletion), etc. You can identify them by the big ![](assets/Quick-Actions-Button.png) at the top right of the window.
 
 ### Steps
 - Click on the quick actions button or press `Alt` + `U` / `⌥ alt` + `U` to execute the shown quick action.
-- Click on the box next to the quick actions button or press `Alt` + `L` / `⌥ alt` + `L` to toggle the quick actions menu and select an action other than the one shown.
+- Click on the box to the right of the quick actions button or press `Alt` + `L` / `⌥ alt` + `L` to toggle the quick actions menu and select an action other than the one shown.

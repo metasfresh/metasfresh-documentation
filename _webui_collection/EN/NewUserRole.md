@@ -2,6 +2,7 @@
 title: How do I create a new user role?
 layout: default
 tags:
+  - A Beginner's Guide to metasfresh
   - Setup
   - User and Roles
 lang: en
@@ -10,7 +11,7 @@ ref: newuserrole
 ---
 
 ## Overview
-A user role allows you to define which features the user can access and which data they can view.
+A user role enables you to specify which features the user can access and which data they can view.
 
 ## Steps
 1. Open "Role" from the [menu](Menu).
@@ -19,11 +20,8 @@ A user role allows you to define which features the user can access and which da
 1. Set a [**Max Query Records**](Max_query_records_userrole) limit.
 
 ### Assign the role to a system user
-1. Go to the record tab "User Assignment" at the bottom of the page and click ![](assets/Add_New_Button.png). An overlay window opens up.
-1. In the field **User/Contact**, enter a part of the system user name.
- >**Note 1:** Hit `SPACE` to see all available [system users](New_system_user).<br><br>
- >**Note 2:** Select one of the shown options with the mouse or ![](../DE/assets/Workflow_Auftrag_Bis_Rechnung_WebUI-73797.png).
-
+1. Go to the record tab "User Assignment" at the bottom of the page and click !["Add new"](assets/Add_New_Button.png). An overlay window opens up.
+1. In the field **User/Contact**, enter a part of the [system user](New_system_user) name and click on the matching result in the [drop-down list](Keyboard_shortcuts_reference).
 1. Click "Done" to close the overlay window and add the system user to the list.
 1. [metasfresh saves the progress automatically](Saveindicator).
 

@@ -2,6 +2,7 @@
 title: How do I open the PDF print preview of a document?
 layout: default
 tags:
+  - A Beginner's Guide to metasfresh
   - Usage
   - Actions
 lang: en

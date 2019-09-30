@@ -2,6 +2,7 @@
 title: Wie verwende ich das Menü?
 layout: default
 tags:
+  - Anfängertipps für metasfresh
   - Benutzung
   - Navigation
 lang: de

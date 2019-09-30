@@ -13,7 +13,7 @@ ref: materialschedule_purchase
 Die Materialdisposition ermittelt anhand der *Produktplandaten*, welche Produkte in welchen Mengen eingekauft werden müssen.
 
 ## Voraussetzungen
-- Konfiguriere die Produktplandaten für den [Einkauf](Produktplandaten#einkauf) des gewünschten Produkts.
+- Konfiguriere die Produktplandaten für den [Einkauf](Produktplandaten#einkauf) des gewünschten Produktes.
 
 ## Schritte
 1. Überprüfe in der [Materialdisposition](Menu), welche Produkte in welchen Mengen eingekauft werden müssen.

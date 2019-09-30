@@ -2,8 +2,8 @@
 title: M_ProductPrice (Pricing,Product)
 layout: default
 tag: 
-   - datamodel
-   - masterdata
+   - Data Model
+   - Master Data
 lang: en
 ---
 
@@ -37,7 +37,7 @@ INSERT INTO public.m_productprice
           'N',
           'N',
           (select c_uom_id from c_uom where c_uom.name = <uom column in your migration data> ),
-          NULL,
+          10, --seq shall not be null
           NULL,
           NULL,
           'N',

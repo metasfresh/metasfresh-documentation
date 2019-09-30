@@ -16,8 +16,8 @@ ref: newmanufacturingorder
 1. Wähle die [**Stückliste**](Stueckliste_erstellen) aus, nach der die Produktion erfolgen soll.
 1. Das Feld **Produktionsressource** bestimmt die zu beauftragende Produktionsstätte.
 1. Das Feld **Arbeitsablauf Produktion** bestimmt die durchzuführenden Arbeitsschritte.
-1. Erfasse im Feld **Zugesichertes Datum** den Zeitpunkt der Fertigstellung des Produkts.
-1. Erfasse die **Menge** und **Mengeneinheit** des herzustellenden Produkts.
+1. Erfasse im Feld **Zugesichertes Datum** den Zeitpunkt der Fertigstellung des Produktes.
+1. Erfasse die **Menge** und **Mengeneinheit** des herzustellenden Produktes.
 1. [Stelle den Beleg fertig](BelegverarbeitungFertigstellen).
 
 ## Beispiel

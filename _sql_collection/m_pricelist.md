@@ -2,8 +2,8 @@
 title: M_Pricelist (Pricing,Product,Category,Unit,Tax)
 layout: default
 tag: 
-   - datamodel
-   - masterdata
+   - Data Model
+   - Master Data
 lang: en
 ---
 

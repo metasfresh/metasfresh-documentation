@@ -2,6 +2,7 @@
 title: Wie erstelle ich einen Systembenutzer?
 layout: default
 tags:
+  - Anfängertipps für metasfresh
   - Einrichtung
   - Nutzer und Rollen
 lang: de
@@ -18,7 +19,7 @@ Systembenutzer sind Kontakte (Nutzer) mit Anmeldeberechtigung zu Deinem System.
 ### Mache aus dem Kontakt einen Systembenutzer
 1. Setze ein Häkchen bei **Systembenutzer**, um dem Kontakt Benutzerrechte zu gewähren.
 1. Trage bei **Login** einen Benutzernamen ein.
- >**Hinweis 1:** Der Systembenutzer kann sich wahlweise mit dem **Login** oder der **Email** anmelden.<br><br>
+ >**Hinweis 1:** Der Systembenutzer kann sich wahlweise mit dem **Login** oder der **E-Mail** anmelden.<br><br>
  >**Hinweis 2:** Beachte beim Benutzernamen die ***Groß- und Kleinschreibung***!
 
 ### Lege ein Passwort fest

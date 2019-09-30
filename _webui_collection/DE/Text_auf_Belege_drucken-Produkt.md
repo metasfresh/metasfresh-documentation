@@ -18,7 +18,7 @@ Du kannst die Produktbeschreibung auch eigenständig in die Sprachen Deiner Gesc
 ## Schritte
 
 ### Produktbeschreibung anlegen
-1. Öffne den Eintrag eines bestehenden [Produkts](Menu) bzw. [lege ein neues an](NeuesProdukt).
+1. Öffne den Eintrag eines bestehenden [Produktes](Menu) bzw. [lege ein neues an](NeuesProdukt).
 1. Öffne die "[Erweiterte Erfassung](Ansichten)" aus dem [Aktionsmenü](AktionStarten).
  >**Hinweis:** Drücke `Alt` + `E` / `⌥ alt` + `E`.
 

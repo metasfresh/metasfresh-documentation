@@ -1,5 +1,5 @@
 ---
-title: Wie installiere ich den metasfresh Stack mit Docker ?
+title: Wie installiere ich den metasfresh-Stack mit Docker?
 layout: default
 tags:
   - Systemadministration

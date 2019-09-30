@@ -2,6 +2,7 @@
 title: Wie weise ich einem Nutzer einen Geschäftspartner zu?
 layout: default
 tags:
+  - Anfängertipps für metasfresh
   - Einrichtung
   - Nutzer und Rollen
 lang: de
@@ -11,16 +12,13 @@ ref: assign_bpartner_to_user
 
 ## Schritte
 1. Öffne den Eintrag eines bestehenden [Nutzers](Menu) bzw. [lege einen neuen an](Nutzer_anlegen).
-1. Gehe zum Feld **Geschäftspartner**, gib dort einen Teil des Namens des gewünschten Geschäftspartners ein und klicke auf eines der Ergebnisse.
- >**Hinweis 1:** Drücke die `LEERTASTE`, um alle verfügbaren [Geschäftspartner](Neuer_Geschaeftspartner) zu sehen.<br><br>
- >**Hinweis 2:** Auswahl des Treffers mit Maus oder ![](assets/Workflow_Auftrag_Bis_Rechnung_WebUI-73797.png).
-
+1. Gehe zum Feld **Geschäftspartner**, gib dort einen Teil des Namens oder der Nummer des gewünschten [Geschäftspartners](Neuer_Geschaeftspartner) ein und klicke auf den passenden Treffer in der [Dropdown-Liste](Keyboard_Shortcuts_Liste).
 1. [metasfresh speichert automatisch](Speicheranzeige).
 <br><br>
 
 | **Hinweis:** |
-| :- |
-| Der Nutzereintrag erscheint nun ebenfalls unter dem Menüpunkt "[Geschäftspartner](Menu)" unter der Registerkarte "Nutzer / Kontakte" unten auf der Seite des jeweiligen Geschäftspartnereintrags. |
+| :--- |
+| Der Nutzereintrag erscheint nun ebenfalls unter dem Menüpunkt "[Geschäftspartner](Menu)" unter der Registerkarte "Nutzer / Kontakte" unten auf der Seite des jeweiligen Geschäftspartnereintrages. |
 
 ## Beispiel
 ![](assets/Nutzer_GPartner_zuweisen.gif)

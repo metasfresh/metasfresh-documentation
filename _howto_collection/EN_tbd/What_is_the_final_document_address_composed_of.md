@@ -2,11 +2,11 @@
 title: What is the final document address composed of?
 layout: default
 tags:
-  - Master data
+  - Master Data
 lang: en
 ---
-## Overview
 
+## Overview
 The address on documents such as order confirmation, delivery note, invoice etc. in metasfresh comprises a set of different data.
 
 We include an example to show what a document address is composed of:
@@ -24,9 +24,4 @@ We include an example to show what a document address is composed of:
 | Deutschland         | Address - County          | Window **Business Partner**, Register **Location**, Button **Adresse**, Feld **Country**          |
 
 ## Where to go from here
-
 How is the generation of the document address being configured?
-
-
-
-

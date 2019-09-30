@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Legacy Java Client Howtos and Tutorials
+title: Legacy Java Client How-Tos and Tutorials
 lang: en
 ---
 

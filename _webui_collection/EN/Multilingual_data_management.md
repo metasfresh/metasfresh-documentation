@@ -12,7 +12,7 @@ ref: multilingual_data_management
 ## Overview
 In metasfresh, you can autonomously translate a lot of your data into the languages of your business partners, for both *internal* and *external* data management.
 
-You can translate the data entries of the following menu items:
+Currently, you can translate the data entries of the following menu items:
 - [Bill of Material](Create_BOM)
 - Document Type
 - [Dunning Level](Define_Dunning_Type)\*
@@ -51,7 +51,7 @@ If you are already looking at the entry you want to translate, e.g., a product e
 #### c) Jumping from the record tab via the context menu\*
 If you want to translate record tab entries, as in the case of dunning levels, you can take the following steps:
 
-1. Go to the record tab at the bottom of the page, e.g., "Level" for the dunning levels in the window of the respective [dunning type](Menu), and select the line you want to translate.
+1. Go to the record tab at the bottom of the page, e.g., "Level" for the dunning levels in the window of the respective [dunning type](Menu), and [select](RecordSelection) the line you want to translate.
 1. Use the [context menu](Jumpto_via_context_menu) to switch into the corresponding translation window, e.g., ![](assets/Dunning_level_translation_context.png). Here you will now see a list of all translation entries for the selected entry.
 
 ### Add translations
@@ -65,12 +65,12 @@ If you want to translate record tab entries, as in the case of dunning levels, y
 1. ***If applicable:*** In the field **Name on Invoice**, enter the name that shall appear on the invoice.
  >**Note:** This step only applies to "Payment Term".
 
-1. Check the box **Translated**.
+1. Tick the checkbox **Translated**.
 1. [metasfresh saves the progress automatically](Saveindicator).
 <br><br>
 
 | **General Note:** |
-| :- |
+| :--- |
 | In principle, the changes in the field **Name** affect both *internal* and *external* data. This means, depending on the [language setting of the user interface](SwitchLanguage) or the [business partner's](New_Business_Partner) language, the **Name** will be displayed or printed on the documents in the respective language. Exceptions are, however, the data entries of the menu items "Document Type" and "Dunning Level".<br> Regarding "Document Type", the field **Name** merely determines the *internal* representation of the data entry. The *external* representation can be maintained through the additional field **Print Name**, as is also the case with "Dunning Level". The *internally* used name of the dunning level, however, can only be maintained in the respective [dunning type](Define_Dunning_Type) entry. |
 
 ## Example

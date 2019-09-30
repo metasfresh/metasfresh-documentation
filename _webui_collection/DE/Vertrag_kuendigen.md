@@ -15,7 +15,7 @@ ref: contract_termination
  >**Hinweis:** Du kannst auch mehrere Verträge auf einmal kündigen. Selektiere hierzu in der Listenansicht alle betreffenden Verträge und fahre mit den folgenden Schritten fort.
 
 1. [Starte die Aktion](AktionStarten) "Vertrag/Abo ändern". Es öffnet sich ein Overlay-Fenster.
- >**Hinweis:** Diese Aktion kannst Du auch direkt aus dem Eintrag des jeweiligen Vertrags starten.
+ >**Hinweis:** Diese Aktion kannst Du auch direkt aus dem Eintrag des jeweiligen Vertrages starten.
 
 1. Wähle ein **Wechsel-Datum** aus.
 1. Wähle die **Aktion** *Kündigen* aus.

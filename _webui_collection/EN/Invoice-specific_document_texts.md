@@ -22,8 +22,8 @@ For additional information on how to place manual text on documents, please see 
 1. Open the [advanced edit menu](ViewModes) from the [actions menu](StartAction).
  >**Note:** Use shortcut `Alt` + `E` / `⌥ alt` + `E`.
 
-1. Scroll down to the text box **Description** and enter a text that shall appear at the top of the document.
-1. In the text box **Document Foot Note**, enter a text that shall appear at the bottom of the document.
+1. Scroll down to the text box **Description** and enter a text that shall appear at the beginning of the document.
+1. In the text box **Document Foot Note**, enter a text that shall appear at the end of the document.
 1. Click "Done" to apply the changes and close the advanced edit menu.
 1. [Open the PDF preview](PrintPreview).
 

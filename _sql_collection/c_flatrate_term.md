@@ -2,8 +2,8 @@
 title: C_Flatrate_Term (Contract Management / Subscriptions)
 layout: default
 tag: 
-   - datamodel
-   - documents
+   - Data Model
+   - Documents
 lang: en
 ---
 

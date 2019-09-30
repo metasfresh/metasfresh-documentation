@@ -4,7 +4,7 @@ layout: default
 tags:
   - Dokumentenverwaltung
 lang: de
-sequence: 30
+sequence: 10
 ref: documentprocessingcomplete
 ---
 

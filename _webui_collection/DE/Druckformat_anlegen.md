@@ -2,6 +2,7 @@
 title: Wie lege ich ein neues Druckformat an?
 layout: default
 tags:
+  - Anfängertipps für metasfresh
   - Einrichtung
 lang: de
 sequence: 50
@@ -28,7 +29,7 @@ Mit dem Druckformat kannst Du u.a. das Papierformat sowie das Seitenlayout, wie 
 <br><br>
 
 | **Wichtiger Hinweis:** |
-| :- |
+| :--- |
 | Damit die Einstellungen auf dem Anwendungsserver aktiv werden, muss dieser erst vom Admin neugestartet werden. |
 
 ## Beispiel

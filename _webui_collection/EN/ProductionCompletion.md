@@ -15,11 +15,11 @@ metasfresh offers two possibilities to record the consumption of materials for p
 1. Produce a product and record the consumption of materials.
 
 ## Requirements
-- Prior to production, ensure that all the required products to be consumed are on stock.<br>
+- Prior to production, ensure that all the required products to be consumed are in stock.<br>
 For information on how to create a goods receipt, [click here](CreateGoodsReceipt).
 
 ## Steps
-1. Open a [completed manufacturing order](NewManufacturingOrder).
+1. Open the entry of a [completed manufacturing order](NewManufacturingOrder).
 1. [Start the action](StartAction) "Issue/Receipt". An overlay window, the production window "PP Order Issue/Receipt", opens up.
  >**Note:** If you have selected the manufacturing order while in [list view](ViewModes), you can also go to the [quick actions](StartAction) button at the top right to start the action ![](assets/Actionbutton_IssueReceipt.png).
 

@@ -2,6 +2,7 @@
 title: How do I configure my company data (Initial Setup Wizard)?
 layout: default
 tags:
+  - A Beginner's Guide to metasfresh
   - Setup
 lang: en
 sequence: 20

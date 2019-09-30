@@ -1,5 +1,5 @@
 ---
-title: Provide the result of a SQL as process to the user
+title: Provide the result of an SQL as process to the user
 layout: default
 tags:  
   - Process
@@ -7,17 +7,18 @@ lang: en
 ---
 
 ## Overview
-
-This guide shows you how to provide the resultset of a SQL to the user as Excel export by running a process.
+This guide shows you how to provide the resultset of an SQL to the user as Excel export by running a process.
 
 ## Origin
-
-Was developed by this issue: https://github.com/metasfresh/metasfresh/issues/4633
+Was developed by this issue: https://github.com/metasfresh/metasfresh/issues/4633.
 
 ## In General
+* Classname (will be automatically set and made read-only): `de.metas.impexp.excel.process.ExportToExcelProcess`
 
-* Classname (will be automatically set and made readonly): `de.metas.impexp.excel.process.ExportToExcelProcess`
-* Your select, e.g.
+> In version 5.91 is a bug which prevents the class from being set automatically.<br> **Workaround:** `update ad_process set classname='de.metas.impexp.excel.process.ExportToExcelProcess'
+where ad_process_id= <your ad_process id>`
+
+* Your select, e.g.,
 ```sql
 select
 @C_Order_ID/-1@ as C_Order_ID
@@ -32,7 +33,7 @@ The context variables used in SQL will be resolved in following order:
 * current selected record's field
 * global context
 
-## sample
+## Sample
 
 ![image](https://user-images.githubusercontent.com/1244701/46567456-d181d380-c93b-11e8-82b4-abe2b11f57f5.png)
 

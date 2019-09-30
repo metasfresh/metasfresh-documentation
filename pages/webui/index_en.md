@@ -1,6 +1,6 @@
 ---
 layout: default
-title: WebUI Howtos and Tutorials
+title: WebUI How-Tos and Tutorials
 lang: en
 ---
 

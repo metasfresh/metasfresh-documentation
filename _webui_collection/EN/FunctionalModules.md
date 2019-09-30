@@ -14,13 +14,13 @@ metasfresh is a full-featured ERP software that comes with the following modules
 
 | Module | Entities |
 | :--- | :--- |
-| Customer Relationship Management (CRM) | Prospect, Requests (Lead, [Opportunity Management](CRM_Request_Opportunities)), Sales Pipeline, Outbound E-mail |
+| Customer Relationship Management (CRM) | Prospect, Requests (Lead, [Opportunity Management](CRM_Request_Opportunities)), Sales Pipeline, Outbound Email |
 | [Sales](Workflow_SalesOrder_to_Invoice) | [Quotation](Create_SalesQuotation), [Sales Order](SalesOrder_recording) |
 | [Purchasing](Workflow_PurchaseOrder_to_Invoice) | Procurement Management, [Purchase Order](CreatePurchaseOrder), [Material Receipt](CreateGoodsReceipt) |
 | Manufacturing | MRP II, [Manufacturing Order](NewManufacturingOrder), Manufacturing Completion, [Bill of Material](Create_BOM) |
 | [Warehousing](Add_new_warehouse) | Shipment Planning, [Shipment](Ship_SalesOrder), Material Receipt Management, Material Receipt, Inventory |
 | Supply Chain Management (SCM) | Attributes, Traceability |
-| Billing | Invoice Disposition, [Customer](Invoice_SalesOrder)/[Vendor Invoice](CreatePurchaseInvoice), Credit Memo, Aggregation, Invoice Cancellation |
+| Billing | Billing Candidates, [Customer](Invoice_SalesOrder)/[Vendor Invoice](CreatePurchaseInvoice), Credit Memo, Aggregation, Invoice Cancellation |
 | Logistics | [Handling Unit Management](Handling_Unit_System), Empties, Distribution Management, Tour Support |
 | Payments | [Incoming](Single_incoming_payment)/Outgoing Payment, SEPA, ESR |
 | [Dunning](Dunning_Run) | [Dunning Levels](Define_Dunning_Type), Management of Dunning Documents |

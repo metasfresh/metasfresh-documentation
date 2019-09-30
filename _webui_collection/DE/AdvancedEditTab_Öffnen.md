@@ -2,6 +2,7 @@
 title: Wie öffne ich die "Erweiterte Erfassung" in einer Registerkarte?
 layout: default
 tags:
+  - Anfängertipps für metasfresh
   - Benutzung
   - Navigation
 lang: de

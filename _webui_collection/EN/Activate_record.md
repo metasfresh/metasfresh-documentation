@@ -2,6 +2,7 @@
 title: How do I activate and deactivate entries?
 layout: default
 tags:
+  - A Beginner's Guide to metasfresh
   - Usage
 lang: en
 sequence: 50

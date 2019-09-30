@@ -10,12 +10,12 @@ ref: createpurchaseinvoice
 ---
 
 ## Steps
-1. Open a [purchase order for which you have received goods](CreateGoodsReceipt).
-1. [Jump to](JumptoviaSidebar) "Invoice Disposition".
-1. [Select the order lines](RecordSelection) you want to invoice.
+1. Open the entry of a [purchase order for which you have received goods](CreateGoodsReceipt).
+1. [Jump to](JumptoviaSidebar) "Billing Candidates".
+1. [Select](RecordSelection) the order lines you want to invoice.
 1. [Start the action](StartAction) "Generate Invoices". An overlay window opens up.
 1. Click "Start" to confirm and close the overlay window.
-1. You will receive a notification ![](assets/NotificationBell_WebUI.png) in the upper right corner once the invoice is generated.
+1. You will receive a [notification](Notification_types) ![](assets/NotificationBell_WebUI.png) in the upper right corner once the invoice is generated.
 1. Click on the notification to open the invoice document.
 1. [Open the PDF print preview](PrintPreview).
 

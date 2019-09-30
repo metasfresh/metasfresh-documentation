@@ -3,6 +3,7 @@ title: How do I upload file attachments to my documents?
 layout: default
 tags:
   - Document Management
+  - File Attachments
 lang: en
 sequence: 10
 ref: file_handling
@@ -24,7 +25,11 @@ Open the document where you want to attach your files, e.g., business partner, s
 [Jump to](JumptoviaSidebar) the list of attachments by pressing `Alt` + `7` / `⌥ alt` + `7` and download the file simply by clicking it (see example).
 
 ### Delete
-[Jump to](JumptoviaSidebar) the list of attachments by pressing `Alt` + `7` / `⌥ alt` + `7` and simply click on the small delete icon ![](assets/delete_icon.png) next to the file to delete it (see example).
+1. [Jump to](JumptoviaSidebar) the list of attachments by pressing `Alt` + `7` / `⌥ alt` + `7`.
+1. Click on the small delete icon ![](assets/delete_icon.png) next to the file you want to delete (see example).
+ >**Note:** If the delete icon does not appear, your user role may not be permitted to delete file attachments. [Follow these instructions](File_handling_delete_permission) to change the delete permissions for user roles.
+
+1. A small dialog box appears asking you, "Are you sure you want to delete the attachment?" – Click "Ok" to confirm.
 
 ## Example
 ![](assets/File_handling_walkthrough.gif)

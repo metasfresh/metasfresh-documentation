@@ -1,13 +1,11 @@
 ---
-title: Setup Authorization Token for accessing REST API 
+title: Setup Authorization Token for accessing REST API
 layout: default
 tags:
   - System
 lang: en
 ref: system.setup.auth.token
-
 ---
-
 
 ## Setup Access
 1. open user window
@@ -24,7 +22,7 @@ Now you can use that token to access the API.
 This example shows how to create a sales order using the token.
 
 - doctype - doctype of the order (e.g. Angebot, Auftrag, etc.)
-- shipBPartnerCode - Partner Value 
+- shipBPartnerCode - Partner Value
 - productCode - Product Value
 - qty - quantity of the product
 - price - override price calculated by metasfresh with your own
@@ -56,29 +54,46 @@ curl -X POST "http://localhost:8181/api/sales/order/candidates" -H "accept: */*"
 the JSON is:
 ```json
 {
-  "org": {
-    "code": "test-org-03",
-    "name": "test-org-03-name"
-  },
-
   "bpartner": {
     "bpartner": {
-      "code": "test-create-03",
-      "name": "test-create-03-name"
+      "code": "G0001",
+      "externalId": "2156425"
     },
     "location": {
-      "externalId":"addr1", "countryCode":"DE"
-    },
-    "contact": { "name":"teo", "externalId": "contact1" }
+      "externalId": "2156425",
+      "syncAdvise": {
+        "ifExists": "DONT_UPDATE",
+        "ifNotExists": "FAIL"
+      }
+    }
   },
-
-  "dateRequired": "2018-10-01",
-  "productCode": "9002737",
-  "qty": 1,
-  "price": 321,
-  "discount": 13,
+  "currencyCode": "EUR",
+  "dataDestInternalName": "DEST.de.metas.ordercandidate",
+  "dataSourceInternalName": "SOURCE.de.metas.ordercandidate.rest.OrderCandidatesRestControllerImpl",
+  "dateRequired": "2019-08-11",
+  "externalHeaderId": "2156425",
+  "externalLineId": "2156425",
+  "invoiceDocType": {
+    "docBaseType": "ARI"
+  },
+  "org": {
+    "code": "001",
+    "syncAdvise": {
+      "ifExists": "DONT_UPDATE",
+      "ifNotExists": "FAIL"
+    }
+  },
   "poReference": "external-po-ref",
-  "externalId": "123456"
+  "price": 2,
+  "product": {
+    "code": "P002737",
+    "syncAdvise": {
+      "ifExists": "DONT_UPDATE",
+      "ifNotExists": "FAIL"
+    }
+  },
+  "uomCode": "PCE",
+  "qty": 1
 }
 ```
 

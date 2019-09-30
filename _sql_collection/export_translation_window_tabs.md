@@ -2,7 +2,7 @@
 title: Export Window and Tab Translations (AD_Window, AD_Tab)
 layout: default
 tag: 
-  - translation
+  - Translation
   
 lang: en
 ---

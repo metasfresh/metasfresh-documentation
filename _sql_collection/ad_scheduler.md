@@ -2,8 +2,8 @@
 title: AD_SCHEDULER 
 layout: default
 tag: 
-  - datamodel
-  - application dictionary
+  - Data Model
+  - Application Dictionary
 lang: en
 ---
 

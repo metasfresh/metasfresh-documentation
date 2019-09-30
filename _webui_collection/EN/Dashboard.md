@@ -12,7 +12,7 @@ ref: dashboard
 ## Overview
 The metasfresh dashboard loads automatically right after login and shows real-time dynamic data through various widgets.
 
-You may also customize the dashboard according to your own requirements by adding, removing, repositioning and editing widgets. To do so, take the following steps:
+You may also customize the dashboard according to your own requirements by adding, removing, repositioning and editing widgets. To do so, please proceed as follows:
 
 ## Customize the Dashboard
 1. [Log in to metasfresh](Login) or open "DASHBOARD" from the [menu](Menu).

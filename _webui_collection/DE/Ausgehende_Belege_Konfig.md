@@ -2,8 +2,8 @@
 title: Wie richte ich die ausgehenden Belege ein?
 layout: default
 tags:
+  - E-Mails und ausgehende Belege
   - Einrichtung
-  - Belege bearbeiten
 lang: de
 sequence: 10
 ref: outbound_documents_config
@@ -14,16 +14,20 @@ Du kannst die ausgehenden Belege für eine Vielzahl von Tabellen einrichten, dam
 
 ## Schritte
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Ausgehende Belege Konfig".
-1. [Erstelle einen neuen Konfigurationseintrag](Neuer_Datensatz_Fenster_Webui).
-1. Gib den Namen der **DB-Tabelle**, für die Du die ausgehenden Belege konfigurieren möchtest, ein und wähle die entsprechende Tabelle aus den Vorschlägen aus, z.B. "Mahnung".
+1. [Lege einen neuen Konfigurationseintrag an](Neuer_Datensatz_Fenster_Webui).
+1. Gib den Namen der **DB-Tabelle**, für die Du die ausgehenden Belege konfigurieren möchtest, ein und wähle die entsprechende Tabelle aus den Vorschlägen aus, z.B. "Mahnart".
 1. Wähle ein [**Druck-Format**](Druckformat_anlegen), z.B. *Mahnbrief (swat)*.
-1. Stelle sicher, dass bei dem Kästchen **In Druck-Warteschlange** ein Häkchen gesetzt ist, wenn Du die fertigen Belege ebenfalls an die Druckwarteschlange senden möchtest.
+1. Stelle sicher, dass bei dem Kontrollkästchen **In Druck-Warteschlange** ein Häkchen gesetzt ist, wenn Du die fertigen Belege ebenfalls an die Druckwarteschlange senden möchtest.
 1. [metasfresh speichert automatisch](Speicheranzeige).
 <br><br>
 
 | **Wichtiger Hinweis:** |
-| :- |
+| :--- |
 | Damit die Einstellungen auf dem Anwendungsserver aktiv werden, muss dieser erst vom Admin neugestartet werden. |
+
+## Nächste Schritte (optional)
+- [Richte die ausgehenden Belege für](Ausgehende_Belege_Konfig_Mahnung) [das Mahnverfahren ein](Mahnlauf).
+- [Richte die ausgehenden Belege für](Ausgehende_Belege_Konfig_Serienbriefe) [die Serienbrief-Funktion ein](Serienbriefe_erstellen).
 
 ## Beispiel
 ![](assets/Ausgehende_Belege_Konfig+Mahnung.gif)

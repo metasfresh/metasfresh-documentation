@@ -5,8 +5,9 @@ tags:
   - Preisgestaltung
   - Preiskonditionen
   - Rabatte
+  - Konfiguration (Rabattschema)
 lang: de
-sequence: 40
+sequence: 20
 ref: create_discount_schema
 ---
 
@@ -18,7 +19,9 @@ ref: create_discount_schema
 1. Stelle ein **Gültig ab** Datum ein.
  >**Hinweis:** Liegt das Datum in der *Vergangenheit*, gilt das Rabattschema *ab sofort*. Liegt es in der *Zukunft*, gilt es *erst ab diesem Datum*.
 
-1. Gehe zur Registerkarte "Rabattkonditionen" unten auf der Seite und klicke auf ![](assets/Neu_hinzufuegen_Button.png). Es öffnet sich ein Overlay-Fenster.
+1. Gehe zur Registerkarte "Rabattkonditionen" unten auf der Seite und klicke auf !["Neu hinzufügen"](assets/Neu_hinzufuegen_Button.png). Es öffnet sich ein Overlay-Fenster.
+ >**Hinweis:** Alternativ kannst Du auch [Rabattzeilen aus bestehenden Rabattschemata kopieren](Rabattzeilen_kopieren).
+
 1. ***Optional:*** Wähle ein **Produkt** oder eine **Produktkategorie** aus.
  >**Hinweis:** In diesem Fall gelten die Preiskonditionen ***nur*** für das ausgewählte Produkt oder die ausgewählte Produktkategorie. Bleiben die Felder leer, gelten die Preiskonditionen für alle Produkte auf der Preisliste.
 

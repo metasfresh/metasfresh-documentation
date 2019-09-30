@@ -2,6 +2,7 @@
 title: Wie zoome ich in ein Tabellenfeld?
 layout: default
 tags:
+  - Anfängertipps für metasfresh
   - Benutzung
   - Navigation
 lang: de
@@ -17,11 +18,11 @@ Diese Funktion steht für Tabellen sowohl in der [Listenansicht](Ansichten) als 
 ## Schritte
 1. Gehe mit dem Mauszeiger über das Tabellenfeld, zu dessen Inhalt Du springen möchtest, und öffne mit einem Rechtsklick das Kontextmenü.
 1. Klicke auf ![](assets/zoom_into_context.png), um in das jeweilige Fenster zu wechseln.
-1. Das Fenster wird in einem neuen Tab geöffnet.
+1. Das Fenster wird in einem neuen Browser-Tab geöffnet.
 <br><br>
 
 | **Wichtig!** |
-| :- |
+| :--- |
 | Dieses Feature funktioniert nur bei deaktiviertem Pop-Up-Blocker! |
 
 ## Beispiel

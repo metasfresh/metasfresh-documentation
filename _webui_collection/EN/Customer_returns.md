@@ -30,7 +30,7 @@ ref: customer_returns
 1. [Select](RecordSelection) the returned HU.
 1. [Start the quick action](StartAction) "Return from customer". The HU will now be moved to the quality issue warehouse.
 1. Click "Done" to close the "HU Editor".
-1. You will receive a notification ![](assets/NotificationBell_WebUI.png) in the upper right corner once the return shipment is generated.
+1. You will receive a [notification](Notification_types) ![](assets/NotificationBell_WebUI.png) in the upper right corner once the return shipment is generated.
 1. Click on the notification to open the confirmation of receipt of returned goods.
 >**Note:** Alternatively, open the entry of the sales order for which you have received customer returns, [jump to](JumptoviaSidebar) "Customer Return" and open the corresponding returned goods entry.
 

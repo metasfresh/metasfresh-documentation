@@ -2,6 +2,7 @@
 title: How do I select entries/lines?
 layout: default
 tags:
+  - A Beginner's Guide to metasfresh
   - Usage
 lang: en
 sequence: 30

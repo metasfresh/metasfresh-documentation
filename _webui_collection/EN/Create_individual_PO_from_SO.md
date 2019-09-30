@@ -10,7 +10,7 @@ ref: create_individual_po_from_so
 ---
 
 ## Overview
-If you want to carry over selected products in a self-determined quantity from a sales order to a purchase order, you can simply generate this purchase order directly from the (drafted or completed) sales order. To do so, take the following steps:
+If you want to carry over selected products in a self-determined quantity from a sales order to a purchase order, you can simply generate this purchase order directly from the (drafted or completed) sales order. To do so, please proceed as follows:
 
 ## Requirements
 **The following requirements must be fulfilled:**
@@ -34,7 +34,7 @@ If you have only created a draft of the sales order, the purchase order will fir
 ### Case 2: Completed Sales Order
 If you [complete](DocumentProcessingComplete) the sales order or you create the purchase order from a completed sales order, the purchase order will be generated right away:
 
-1. You will receive a notification ![](assets/NotificationBell_WebUI.png) in the upper right corner once the purchase order is created.
+1. You will receive a [notification](Notification_types) ![](assets/NotificationBell_WebUI.png) in the upper right corner once the purchase order is created.
 1. Click on the notification to open the purchase order.
  >**Note 1:** You can also jump ***directly*** to the purchase order from the sales order via the [related documents](JumptoviaSidebar).<br><br>
  >**Note 2:** The purchase order is already completed.

@@ -4,8 +4,9 @@ layout: default
 tags:
   - Workflow
   - Contract Management
+  - Setup
 lang: en
-sequence: 90
+sequence: 10
 ref: define_contractual_terms
 ---
 
@@ -15,7 +16,7 @@ ref: define_contractual_terms
 1. Give the contractual terms a **Name**.
 1. Select a **Contract Type**, e.g., *Subscription*.
 1. Select a **Pricing System**.
-1. In the field [**Contract Transition**](Define_contract_period), you can select the contract period.
+1. In the field **Contract Transition**, you can select the [contract period](Define_contract_period).
 1. [Complete the document](DocumentProcessingComplete).
 
 ## Example

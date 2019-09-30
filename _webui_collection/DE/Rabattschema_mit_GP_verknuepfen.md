@@ -5,8 +5,9 @@ tags:
   - Preisgestaltung
   - Preiskonditionen
   - Rabatte
+  - Konfiguration (Rabattschema)
 lang: de
-sequence: 50
+sequence: 30
 ref: link_discount_schema_to_bp
 ---
 

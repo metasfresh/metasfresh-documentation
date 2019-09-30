@@ -25,12 +25,10 @@ In metasfresh, opportunities are managed as *request types* with different statu
 ## Steps
 1. Open "Request" from the [menu](Menu).
 1. [Create a new request](New_Record_Window).
-1. Enter a part of the business partner name or number.
- >**Note 1:** Hit `SPACE` to see all available [business partners](New_Business_Partner).<br><br>
- >**Note 2:** Select one of the shown options with the mouse or ![](../DE/assets/Workflow_Auftrag_Bis_Rechnung_WebUI-73797.png).
-
+1. In the field **Business Partner**, enter a part of the [business partner](New_Business_Partner) name or number and click on the matching result in the [drop-down list](Keyboard_shortcuts_reference).
 1. Select the **Request Type** *Opportunity*.
 1. Under **Status** select the relevant probability and, if necessary, update it according to current changes.
+1. [metasfresh saves the progress automatically](Saveindicator).
 
 ## Example
 ![](assets/CRM_Request_Opportunities.gif)
