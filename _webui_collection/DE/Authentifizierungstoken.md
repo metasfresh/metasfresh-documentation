@@ -22,7 +22,7 @@ Mit einem Authentifizierungstoken kannst Du Dich u.a. gegenüber der [REST API v
 Wird unter der Registerkarte "Authentifizierung Tokens" kein Token angezeigt, dann lege ein neues an. Gehe hierzu wie folgt vor:
 
 1. Klicke auf !["Neu hinzufügen"](assets/Neu_hinzufuegen_Button.png). Es öffnet sich ein Overlay-Fenster.
-1. ***Optional:*** Gib eine **Beschreibung** ein.
+1. ***Optional:*** Erfasse eine kurze **Beschreibung**.
 1. Wähle eine **Rolle** aus, für die das Token gelten soll.
 1. Klicke auf "Bestätigen", um das Overlay-Fenster zu schließen und das Token zur Liste hinzuzufügen.
 

@@ -16,8 +16,8 @@ ref: createpurchaseorder
  >**Note:** If the required partner does not appear in the list, you can add them through [quick create](Quick_create_new_business_partner).
 
 1. Select a [**Price System**](Add_price-system), if the vendor is not yet [linked to a price system](Assign_prices_to_partner).
-1. The field **Date** specifies the date when the order *was placed*.
-1. The field **Date Promised** specifies the date when the service is to be *performed*, i.e. the shipment is to be expected.
+1. The field **Date** specifies the date on which the order *was placed*.
+1. The field **Date Promised** specifies the date on which the service is to be *performed*, i.e. the shipment is to be expected.
 1. [metasfresh saves the progress automatically](Saveindicator).
 
 ### Add Order Lines
