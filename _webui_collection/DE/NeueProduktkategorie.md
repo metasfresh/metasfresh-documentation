@@ -18,7 +18,8 @@ ref: newproductcategory
 
 ## Nächste Schritte (optional)
 - [Stelle eine **übergeordnete Produktkategorie** ein](Uebergeordnete_Produktkategorie).
-- Wähle im Feld **Produktnummernfolge** eine [Belegnummerierung](Belegnummern_definieren) aus.
+- Wähle im Feld **Produktnummernfolge** eine [Belegnummerierung](Belegnummern_definieren) aus. Gib dazu einen Teil des Namens der Belegnummerierung ein und klicke auf den passenden Treffer in der [Dropdown-Liste](Keyboard_Shortcuts_Liste).
+
 
 ## Beispiel
 ![](assets/NeueProduktkategorie.gif)
