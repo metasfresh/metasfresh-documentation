@@ -32,3 +32,6 @@ Mittels Projektarten kannst Du verschiedene Projekte übersichtlich organisieren
  >**Hinweis 2:** Bei mehreren Phasen kannst Du deren **Reihenfolge** bestimmen.
 
 1. [metasfresh speichert automatisch](Speicheranzeige).
+
+## Nächste Schritte
+- [Lege ein neues Projekt an](Projekt_anlegen).

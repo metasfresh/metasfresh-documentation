@@ -9,7 +9,7 @@ ref: create_new_project
 ---
 
 ## Übersicht
-In metasfresh kannst Du Projekte anlegen und übersichtlich verwalten. Neben allgemeinen projektbezogenen Daten wie Projektart, -status und -mitgliedern kannst Du ebenfalls einzelne Aufgaben und Vorgänge erfassen, planen und fristgerecht erledigen. So bist Du stets auf aktuellem Stand und behältst immer einen Überblick über ausstehende Verpflichtungen.
+In metasfresh kannst Du Projekte anlegen und übersichtlich verwalten. Neben allgemeinen projektbezogenen Daten wie Projektart, -status und -mitgliedern kannst Du ebenfalls einzelne Aufgaben und Vorgänge erfassen, planen und deren Status nachhalten. So bist Du stets auf aktuellem Stand und behältst immer einen Überblick über ausstehende Verpflichtungen.
 
 ## Schritte
 
@@ -39,7 +39,7 @@ In metasfresh kannst Du Projekte anlegen und übersichtlich verwalten. Neben all
 1. Gehe zur Registerkarte "Projektkontakt" unten auf der Seite und klicke auf !["Neu hinzufügen"](assets/Neu_hinzufuegen_Button.png). Es öffnet sich ein Overlay-Fenster.
 1. Gib im Feld **Geschäftspartner** einen Teil des Namens oder der Nummer des [Geschäftspartners](Neuer_Geschaeftspartner) ein, der an diesem Projekt beteiligt ist, und klicke auf den passenden Treffer in der [Dropdown-Liste](Keyboard_Shortcuts_Liste).
 1. Wähle einen **Ansprechpartner** für diesen Geschäftspartner aus.
-1. Erfasse eine kurze **Beschreibung**.
+1. ***Optional:*** Erfasse eine kurze **Beschreibung**.
 1. Wähle eine **Projektrolle** aus, z.B. *Project Manager* (Projektleiter) oder *Project Team Member* (Projektteammitglied).
 1. Klicke auf "Bestätigen", um das Overlay-Fenster zu schließen und das Projektmitglied zur Liste hinzuzufügen.
  >**Hinweis:** Auf diese Weise kannst Du auch weitere Projektmitglieder erfassen, wenn nötig.

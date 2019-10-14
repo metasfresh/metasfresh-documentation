@@ -32,3 +32,6 @@ Through project types you can organize different projects clearly as well as rec
  >**Note 2:** In case of multiple phases you can specify their **Sequence**.
 
 1. [metasfresh saves the progress automatically](Saveindicator).
+
+## Next Steps
+- [Create a new project](Create_new_project).
