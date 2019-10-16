@@ -27,6 +27,7 @@ In case you do not have access to the database, you can run a process to fix nat
  >**Note:** Use shortcut `Alt` + `2` / `⌥ alt` + `2` to open the menu.
 
 1. Click on the menu item to start the process. You will receive a short message at the top right when the process has been completed.
+
    ![](../../webui_collection/EN/assets/Fix_native_sequences.png)
 
 ## Possible Error Messages
