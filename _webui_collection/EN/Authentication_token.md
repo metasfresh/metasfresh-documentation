@@ -23,8 +23,9 @@ If no authentication token is shown under the record tab "Authentication Tokens"
 
 1. Click !["Add new"](assets/Add_New_Button.png). An overlay window opens up.
 1. ***Optional:*** Enter a **Description**.
-1. Pick a **Role** for which the token shall be valid.
+1. Pick a **Role** to specify which permissions the token should be able to use.
 1. Click "Done" to close the overlay window and add the token to the list.
+ >**Note:** Now you can use that token to access the API.
 
 | **Note:** |
 | :--- |
