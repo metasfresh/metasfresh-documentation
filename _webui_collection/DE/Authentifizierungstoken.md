@@ -23,8 +23,9 @@ Wird unter der Registerkarte "Authentifizierung Tokens" kein Token angezeigt, da
 
 1. Klicke auf !["Neu hinzufügen"](assets/Neu_hinzufuegen_Button.png). Es öffnet sich ein Overlay-Fenster.
 1. ***Optional:*** Erfasse eine kurze **Beschreibung**.
-1. Wähle eine **Rolle** aus, für die das Token gelten soll.
+1. Wähle eine **Rolle** aus, um die Berechtigungen für das Token festzulegen.
 1. Klicke auf "Bestätigen", um das Overlay-Fenster zu schließen und das Token zur Liste hinzuzufügen.
+ >**Hinweis:** Nun kannst Du mit diesem Token auf die API zugreifen.
 
 | **Hinweis:** |
 | :--- |

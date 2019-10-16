@@ -8,14 +8,7 @@ ref: system.setup.auth.token
 ---
 
 ## Setup Access
-1. open user window
-1. go to tab "authorization"
-1. add new record
-1. **Role:** specify which permissions the token should be able to use
-1. confirm
-1. token is generated and saved
-
-Now you can use that token to access the API.
+[Follow these instructions](../../webui_collection/EN/Authentication_token) to obtain an authorization token.
 
 ## Example
 
@@ -122,7 +115,7 @@ curl -X POST "http://localhost:8181/api/sales/order/candidates/123456/attachment
 
 
 
-source: (https://github.com/metasfresh/metasfresh/issues/4549#issuecomment-420188488)
+Source: [https://github.com/metasfresh/metasfresh/issues/4549#issuecomment-420188488](https://github.com/metasfresh/metasfresh/issues/4549#issuecomment-420188488)
 
 #### error messages
 
