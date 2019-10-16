@@ -36,7 +36,6 @@ run the test:
 cat test.json | curl -X POST -d @- "http://app:8282/api/sales/order" -H "accept: */*" -H "Authorization: fa51643c4e2849ed8db64c70baf578dc" -H "Content-Type: application/json"   > response.log
 ```
 
-
 ### sales/order/candidates
 
 #### Post a new sales order candidate
@@ -113,9 +112,7 @@ Attach test.pdf to an existing order candidate identified by ExternalId=123456:
 curl -X POST "http://localhost:8181/api/sales/order/candidates/123456/attachments" -H "accept: */*" -H "Authorization: 64390d2e7f8341c685ef1b982a652134" -H "Content-Type: multipart/form-data" -F "file=@test.pdf;type=application/pdf"
 ```
 
-
-
-Source: [https://github.com/metasfresh/metasfresh/issues/4549#issuecomment-420188488](https://github.com/metasfresh/metasfresh/issues/4549#issuecomment-420188488)
+Source: <a href="https://github.com/metasfresh/metasfresh/issues/4549#issuecomment-420188488" title="Sales Order Candidates REST API improvements" target="blank">https://github.com/metasfresh/metasfresh/issues/4549#issuecomment-420188488</a>
 
 #### error messages
 
