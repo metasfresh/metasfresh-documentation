@@ -9,7 +9,7 @@ sequence: 20
 ref: productioncompletion
 ---
 
-## Übersicht
+## Überblick
 metasfresh bietet zwei Möglichkeiten, den Materialverbrauch bei der Produktion zu protokollieren:
 1. Ein Produkt herstellen, ohne Material zu verbrauchen.
 1. Ein Produkt herstellen und Materialverbrauch protokollieren.

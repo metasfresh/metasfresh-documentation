@@ -7,7 +7,7 @@ tags:
 lang: de
 ref: how_do_I_reset_database_using_docker
 ---
-## Übersicht
+## Überblick
 
 In manchen Fällen hilft es, die Datenbank auf ihren Ursprungszustand zurückzusetzen, wenn Du in deiner Testumgebung nicht mehr weiterkommst. Hier siehst Du, wie dies geht.
 

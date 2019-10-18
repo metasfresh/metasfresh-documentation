@@ -10,7 +10,7 @@ sequence: 20
 ref: set_credit_status_bp
 ---
 
-## Übersicht
+## Überblick
 Hier wird beschrieben, wie Du den [Kreditstatus](Kreditstatusarten) eines einzelnen Geschäftspartners verwalten kannst. Wenn Du wissen möchtest, wie Du den Kreditstatus für eine gesamte Geschäftspartnergruppe einstellst, klicke [hier](Kreditstatus_einstellen_GPGruppe).
 
 ## Schritte

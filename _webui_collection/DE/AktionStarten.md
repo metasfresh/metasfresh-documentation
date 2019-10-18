@@ -10,7 +10,7 @@ sequence: 10
 ref: startaction
 ---
 
-## Übersicht
+## Überblick
 Aktionen sind kontextabhängig und können von jedem Fenster aus gestartet werden. In jedem Fenster stehen folglich andere Aktionen zur Verfügung.<br>
 In metasfresh gibt es drei verschiedene Aktionstypen:
 

@@ -9,7 +9,7 @@ sequence: 10
 ref: data_export_metasfresh
 ---
 
-## Übersicht
+## Überblick
 In metasfresh kannst Du aus jeder Listenansicht ausgewählte Daten exportieren, herunterladen und als XLS-Datei direkt auf Deinem PC speichern.
 
 Ebenfalls kannst Du ganz einfach alle [Produktspezifikationen auf einmal exportieren](Produktdaten_exportieren).

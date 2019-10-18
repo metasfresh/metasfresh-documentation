@@ -10,7 +10,7 @@ sequence: 20
 ref: new_system_user
 ---
 
-## Übersicht
+## Überblick
 Systembenutzer sind Kontakte (Nutzer) mit Anmeldeberechtigung zu Deinem System.
 
 ## Schritte

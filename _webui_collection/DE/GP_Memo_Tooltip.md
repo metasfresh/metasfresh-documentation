@@ -9,7 +9,7 @@ sequence: 60
 ref: bp_memo_tooltip
 ---
 
-## Übersicht
+## Überblick
 In metasfresh kannst Du besondere Notizen mit Informationen von potenzieller Wichtigkeit über einen Geschäftspartner erfassen, welche in Form eines Tooltips in [Aufträgen](Auftrag_erfassen) und [Bestellungen](Bestellung_erfassen) durch Klicken auf das Tooltip-Symbol ![](assets/Tooltip_icon.png) rechts neben dem Partnernamen schnell eingesehen werden können.
 
 ## Schritte

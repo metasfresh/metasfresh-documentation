@@ -10,7 +10,7 @@ sequence: 30
 ref: order_line-specific_product_description
 ---
 
-## Übersicht
+## Überblick
 Eine auftragszeilenspezifische Produktbeschreibung kann nur im Auftrag erfasst werden und erscheint anschließend auch nur auf der entsprechenden Auftragsbestätigung unterhalb des Produktnamens.
 
 Weitere Informationen darüber, wie Du eigenen Text in Belege einfügen kannst, gibt es [hier](Text_auf_Belege_drucken-allgemein).

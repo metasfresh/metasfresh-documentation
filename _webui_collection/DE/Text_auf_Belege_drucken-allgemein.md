@@ -9,7 +9,7 @@ sequence: 20
 ref: print_text_on_documents-general
 ---
 
-## Übersicht
+## Überblick
 In metasfresh kannst Du Deine Belege um eigenen Text erweitern und sie so Deinen geschäftlichen Bedürfnissen und Bedingungen entsprechend modifizieren.
 
 Zum Beispiel kannst Du an den Anfang eines Angebots eine Beschreibung desselben setzen und am Ende eine Notiz für den Kunden hinterlassen oder das bestellte Produkt näher beschreiben.

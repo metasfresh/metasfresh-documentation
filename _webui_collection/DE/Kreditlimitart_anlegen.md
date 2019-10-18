@@ -10,7 +10,7 @@ sequence: 70
 ref: add_credit_limit_type
 ---
 
-## Übersicht
+## Überblick
 Mittels der Kreditlimitarten hast Du die Möglichkeit, die Kreditlimits, die Du Deinen Geschäftspartnern setzt, zu benennen und zu organisieren und somit kenntlich zu machen, wofür die Limits bestimmt sind oder von wem bzw. welcher Abteilung sie festgelegt wurden.
 
 Beispielsweise verwendest Du eine Limitart namens "Versicherung", um zu kennzeichnen, dass dieses Limit aus versicherungstechnischen Gründen eingestellt wurde. Der Geschäftsführer möchte den Limitbetrag jedoch erhöhen, also wählt er die Limitart "Management", um ein neues Kreditlimit festzulegen. <br> metasfresh entscheidet dabei anhand des Anfangsdatums des Kreditlimits, ob es wirksam ist oder nicht. So kann man auch abgelaufene Limits außer Kraft setzen und mit neuen überschreiben.

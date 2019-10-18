@@ -7,7 +7,7 @@ tags:
   - Adresse
 lang: de
 ---
-## Übersicht
+## Überblick
 
 Die Adresse auf Belegen wie Auftragsbestätigung, Lieferschein, Rechnung, etc. setzt sich in metasfresh aus verschiedenen Daten zusammen.
 

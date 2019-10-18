@@ -34,6 +34,8 @@ The following data can be imported to metasfresh:
 1. Select a **Format** (separator), e.g., *Tab Separated*.
  >**Note:** In order to successfully import data, the separator in the import file must coincide with the one set in the import format (comma, semicolon, tab, etc.).
 
+1. ***Optional:*** Tick the checkbox **IsManualImport** if you want to import the data manually. Otherwise, they will be processed automatically unless an error occurs.
+
 ### a) Add Format Fields
 1. Go to the record tab "Format Field" at the bottom of the page and click !["Add new"](assets/Add_New_Button.png). An overlay window opens up.
 1. Give the format field a **Name**, e.g., "Search Key".

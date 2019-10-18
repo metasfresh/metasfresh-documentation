@@ -10,7 +10,7 @@ sequence: 40
 ref: create_packing_instructions
 ---
 
-## Übersicht
+## Überblick
 Mithilfe von Packvorschriften wird festgelegt, welches [Packmittel](Packmittel_einrichten) für eine Verpackung ([TU](Handling_Unit_System)) oder ein Ladehilfsmittel ([LU](Handling_Unit_System)) verwendet werden soll sowie ob und wie viel Packgut darin bzw. darauf verpackt werden darf.
 
 ## Schritte

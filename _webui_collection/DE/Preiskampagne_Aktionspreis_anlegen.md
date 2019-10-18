@@ -10,7 +10,7 @@ sequence: 10
 ref: price_campaign_add_promotional_price
 ---
 
-## Übersicht
+## Überblick
 In metasfresh kannst Du zeitlich begrenzte Sonderpreisaktionen starten, bei denen ein bestimmtes Produkt zu einem speziell festgelegten Aktionspreis verkauft wird. Dieser Preis gilt dann entweder für einzelne Kunden ([sofern diese für Preisaktionen teilnahmeberechtigt sind](Preiskampagne_Aktionspreis_erlauben)) oder für ganze Geschäftspartnergruppen. Alle bisher definierten Preiskonditionen werden folglich während des Aktionszeitraumes überschrieben und treten erst nach Ablauf der Sonderpreisaktion wieder in Kraft.
 
 ## Schritte

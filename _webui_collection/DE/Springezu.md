@@ -10,7 +10,7 @@ sequence: 40
 ref: jumpto
 ---
 
-## Übersicht
+## Überblick
 Möchtest Du den Inhalt eines Feldes einsehen und gegebenenfalls bearbeiten, brauchst Du nicht den Umweg über das Navigationsmenü zu gehen und nach dem Eintrag zu suchen, sondern kannst direkt über das Feld dorthin springen.
 
 ## Springen über ein Feld

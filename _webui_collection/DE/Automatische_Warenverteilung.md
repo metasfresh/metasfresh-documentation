@@ -10,7 +10,7 @@ sequence: 10
 ref: automatic_distribution_network
 ---
 
-## Übersicht
+## Überblick
 Eine Warenverteilung (oder ein *Distributionsnetz*) für Leergebinde ist notwendig, wenn leere Gebinde, die nach Entnahme der in ihnen enthaltenen Produkte anfallen, von einem Lager zur Lagerung in ein anderes (hier "Leergebindelager") bewegt werden sollen. Diese Bewegung wird durch die Warenverteilung abgebildet.
 
 ## Voraussetzungen

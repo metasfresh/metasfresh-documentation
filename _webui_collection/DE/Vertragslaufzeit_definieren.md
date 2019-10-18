@@ -10,7 +10,7 @@ sequence: 20
 ref: define_contract_period
 ---
 
-## Übersicht
+## Überblick
 Zu den zeitlichen Rahmenbedingungen eines Vertrages zählen in metasfresh u.a. Vertragslaufzeit, Ablauffrist, Anschlussverträge usw. All diese Bedingungen können im Fenster "Vertragslaufzeit" eingestellt werden.
 
 ## Schritte

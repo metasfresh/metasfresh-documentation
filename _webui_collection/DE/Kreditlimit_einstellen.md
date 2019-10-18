@@ -10,7 +10,7 @@ sequence: 40
 ref: set_credit_limit
 ---
 
-## Übersicht
+## Überblick
 Mit dem Kreditlimit kannst Du in metasfresh festlegen, bis zu welchem Höchstbetrag Deine Geschäftspartner offene Rechnungen sammeln können. Wurde dieser Betrag von einem Partner erreicht, können so lange keine neuen von ihm erteilten Aufträge bearbeitet werden, wie er seine Schulden nicht beglichen hat.
 
 ## Schritte

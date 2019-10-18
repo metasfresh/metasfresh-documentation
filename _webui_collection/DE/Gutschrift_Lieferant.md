@@ -11,7 +11,7 @@ sequence: 10
 ref: credit_memo_vendor
 ---
 
-## Übersicht
+## Überblick
 In metasfresh können Lieferanten-Gutschriften erstellt werden, wenn sich ein Guthaben zu Deinen Gunsten ergibt aufgrund von Abweichungen zwischen der Eingangsrechnung des Lieferanten und der tatsächlich erhaltenen Lieferung. Die Gutschriften werden sofort mit den Eingangsrechnungen verrechnet, sofern diese noch nicht bezahlt wurden.
 
 ## Voraussetzungen

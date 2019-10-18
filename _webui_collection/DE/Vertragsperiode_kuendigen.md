@@ -9,7 +9,7 @@ sequence: 40
 ref: contract_term_termination
 ---
 
-## Übersicht
+## Überblick
 Ist Dir bei einer [Vertragsverlängerung](Vertrag_verlaengern) beispielsweise ein Fehler unterlaufen und Du möchtest daher nur eine bestimmte Vertragsperiode kündigen, ohne den gesamten Vertrag kündigen und neu aufsetzen zu müssen, dann gehe wie folgt vor:
 
 ## Schritte

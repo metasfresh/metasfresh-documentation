@@ -9,7 +9,7 @@ sequence: 10
 ref: add_country_city_postal_code
 ---
 
-## Übersicht
+## Überblick
 Bei der [Erfassung eines Standortes](Adresse_erfassen_Tab) reicht es manchmal nicht aus, alleine die Stadt und Postleitzahl anzugeben. Für genauere Zuordnungen kann es hilfreich sein, auch die jeweiligen Ortsteile zu bestimmen, um so Standorte, die geografisch nah beieinander liegen und daher dieselbe Postleitzahl besitzen, trotzdem differenzieren zu können.
 
 Aus diesem Grund kannst Du in metasfresh beliebig viele Ortseinträge manuell anlegen und darin Postleitzahl, Gemeinde, Bezirk, Region und Land näher bestimmen. Gehe hierzu wie folgt vor:

@@ -9,7 +9,7 @@ sequence: 30
 ref: add_empty_container_depot
 ---
 
-## Übersicht
+## Überblick
 Ein Leergebindelager dient zur Lagerung der leeren Gebinde, die nach Entnahme der in ihnen enthaltenen Produkte anfallen.
 
 ## Schritte

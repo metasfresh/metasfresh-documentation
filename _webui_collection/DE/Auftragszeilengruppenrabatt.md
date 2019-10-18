@@ -11,7 +11,7 @@ sequence: 10
 ref: order_line_group_discount
 ---
 
-## Übersicht
+## Überblick
 [Auftragszeilengruppenrabatte](Rabattformen_in_metasfresh) können sowohl auf einzelne Auftragszeilen als auch auf *Kompensationsgruppen* gegeben werden. Kompensationsgruppen bestehen aus mehreren Auftragszeilen, die zu Gruppen zusammengefasst wurden, auf die gemeinsame Rabatte oder Aufschläge sowohl einmalig als auch sukzessiv gegeben werden können, wobei der vorherige Rabatt oder Aufschlag bei jeder Berechnung miteinbezogen wird. Außerdem können in einem Auftrag auch mehrere Rabatte/Aufschläge auf verschiedene Kompensationsgruppen gegeben werden.
 
 Kompensationsgruppen lassen sich sowohl [manuell](Kompensationsgruppen_manuell_erstellen) als auch [automatisch](Kompensationsgruppen_automatisch_erstellen) erstellen.

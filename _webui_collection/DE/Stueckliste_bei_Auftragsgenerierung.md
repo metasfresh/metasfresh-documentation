@@ -9,7 +9,7 @@ sequence: 30
 ref: create_bom_upon_so_generation
 ---
 
-## Übersicht
+## Überblick
 Hast Du mehrere Produkte, die für die Herstellung eines neuartigen Verkaufsproduktes vorgesehen sind, in einem Angebot zu einer Kompensationsgruppe zusammengefasst und erstellst anschließend daraus einen Auftrag, dann verwandelt metasfresh die Angebotsgruppe automatisch in eine verifizierte Stückliste, woraufhin das neu zusammengestellte Verkaufsprodukt sofort und ohne zusätzlichen Mehraufwand für zukünftige Aufträge zur Verfügung steht. Die jeweiligen Mengen der Bestandteile der Angebotsgruppe werden dabei in derselben Höhe in die Stückliste übernommen.
 
 ![](assets/Stücklistenerstellung bei Auftragsgenerierung von Angebot.png)

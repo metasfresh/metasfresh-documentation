@@ -5,7 +5,7 @@ tags:
   - Konzepte
 lang: de
 ---
-## Übersicht
+## Überblick
 
 metasfresh ermöglicht Dir ein Produkt nicht nur platt mit Bestandsmenge zu führen, sondern auch abzubilden in welcher Form der Artikel vorliegt.
 

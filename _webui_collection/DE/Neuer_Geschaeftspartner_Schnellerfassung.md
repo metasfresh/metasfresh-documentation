@@ -9,7 +9,7 @@ sequence: 20
 ref: quick_create_new_business_partner
 ---
 
-## Übersicht
+## Überblick
 Falls Dir bei der Erfassung eines [Auftrages](Auftrag_erfassen) oder einer [Bestellung](Bestellung_erfassen) auffällt, dass Du den betreffenden Geschäftspartner noch gar nicht in metasfresh registriert hast, kannst Du dies ganz einfach noch aus demselben Fenster per Schnellerfassung nachholen.
 
 ## Schritte

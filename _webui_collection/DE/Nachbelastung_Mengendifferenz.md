@@ -11,7 +11,7 @@ sequence: 40
 ref: adjustment_charge_quantity_difference
 ---
 
-## Übersicht
+## Überblick
 In metasfresh können Nachbelastungen erstellt werden, wenn sich nach Rechnungsstellung ein Guthaben zu Deinen Gunsten ergibt, z.B. aufgrund von Mengendifferenzen nach einer Lieferung. Die Nachbelastungen werden direkt mit den dazugehörigen Rechnungen verknüpft, wodurch die Änderungen für die Buchhaltung lückenlos nachvollziehbar sind.
 
 ## Schritte

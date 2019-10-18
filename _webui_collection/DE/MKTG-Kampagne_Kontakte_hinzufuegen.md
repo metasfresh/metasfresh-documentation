@@ -8,7 +8,7 @@ sequence: 40
 ref: add_contacts_to_mktg_campaign
 ---
 
-## Übersicht
+## Überblick
 Kontakte, die Du in die Verteilerliste einer [Marketingkampagne](MKTG-Kampagne_erstellen) aufnehmen möchtest, müssen als [Nutzer](Nutzer_anlegen) in metasfresh registriert sein.<br>
 Möchtest Du [Geschäftspartner](Neuer_Geschaeftspartner) in die Verteilerliste einer Marketingkampagne aufnehmen, musst Du deren Eintrag erst einen [Nutzer hinzufügen](GPartner_Nutzer_hinzufuegen).
 

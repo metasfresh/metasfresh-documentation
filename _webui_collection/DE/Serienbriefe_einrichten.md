@@ -9,7 +9,7 @@ sequence: 20
 ref: serial_letter_setup
 ---
 
-## Übersicht
+## Überblick
 Mithilfe von Serienbriefen kannst Du mit wenig Aufwand eine Vielzahl Deiner Kontakte auf einmal mit für sie interessanten Informationen versorgen und so Deine Marketingkampagnen erfolgreich vorantreiben.
 
 Hierzu musst Du u.a. die ausgehenden Belege für die Serienbriefe einrichten, damit Du die erstellten Serienbriefe unter dem Menüpunkt "Ausgehende Belege" wiederfinden und weiterverarbeiten kannst.

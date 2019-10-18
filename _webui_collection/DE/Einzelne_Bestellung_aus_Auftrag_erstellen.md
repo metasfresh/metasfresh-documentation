@@ -9,7 +9,7 @@ sequence: 60
 ref: create_individual_po_from_so
 ---
 
-## Übersicht
+## Überblick
 Möchtest Du ausgewählte Produkte aus einem Auftrag in selbst bestimmter Menge in eine Bestellung übertragen, kannst Du diese Bestellung einfach direkt aus dem Auftrag (Entwurf oder fertiggestellt) erstellen. Gehe hierzu wie folgt vor:
 
 ## Voraussetzungen

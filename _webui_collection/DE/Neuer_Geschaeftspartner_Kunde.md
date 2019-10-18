@@ -10,7 +10,7 @@ sequence: 10
 ref: new_business_partner_customer
 ---
 
-## Übersicht
+## Überblick
 In metasfresh kannst Du festlegen, ob ein Geschäftspartner ein Kunde, [Lieferant](Neuer_Geschaeftspartner_Lieferant) oder beides ist. Zusätzlich kannst Du die kaufmännischen Konditionen voreinstellen, welche bei der späteren Belegerstellung dann automatisch angewandt werden.
 
 ## Schritte

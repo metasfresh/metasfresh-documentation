@@ -10,7 +10,7 @@ sequence: 60
 ref: credit_limit_approval
 ---
 
-## Übersicht
+## Überblick
 Nur autorisierte Nutzer können Kreditlimits freigeben. Sie erhalten eine Benachrichtigung, sobald eine Freigabe angefordert wird.
 
 ## Voraussetzungen

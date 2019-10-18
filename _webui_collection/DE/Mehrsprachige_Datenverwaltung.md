@@ -9,7 +9,7 @@ sequence: 10
 ref: multilingual_data_management
 ---
 
-## Übersicht
+## Überblick
 In metasfresh kannst Du viele Deiner Daten sowohl für die *interne* als auch für die *externe* Datenverwaltung eigenständig in die Sprachen Deiner Geschäftspartner übersetzen.
 
 Derzeit können die Dateneinträge der folgenden Menüpunkte übersetzt werden:

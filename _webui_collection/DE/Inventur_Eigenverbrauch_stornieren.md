@@ -8,7 +8,7 @@ sequence: 20
 ref: inventory_mass_disposal_void
 ---
 
-## Übersicht
+## Überblick
 Wenn Du einen verbuchten Eigenverbrauch rückgängig machst, dann werden alle entsorgten HUs reaktiviert und stehen anschließend wieder für den Handel zur Verfügung. Gehe hierzu wie folgt vor:
 
 ## Schritte

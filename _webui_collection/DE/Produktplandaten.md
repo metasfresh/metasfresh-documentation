@@ -9,7 +9,7 @@ sequence: 10
 ref: product_planning
 ---
 
-## Übersicht
+## Überblick
 Mit den Produktplandaten kannst Du einstellen, was passieren soll, wenn ein Produkt verkauft wird.
 Ein Produkt kann ein einzelnes Fertigprodukt sein oder aus mehreren Komponenten bestehen. Unter Umständen hast Du dieses Produkt oder seine Komponenten nicht (mehr) auf Lager, also musst Du es **einkaufen** oder **produzieren**.
  >**Hinweis:** Im Fenster *Handling Unit Editor* erhältst Du eine Übersicht der Produkte auf Lager.

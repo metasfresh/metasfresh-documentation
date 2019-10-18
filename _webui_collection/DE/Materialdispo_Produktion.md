@@ -9,7 +9,7 @@ sequence: 30
 ref: materialschedule_manufacturing
 ---
 
-## Übersicht
+## Überblick
 Die Materialdisposition ermittelt anhand der *Produktplandaten*, welche Produkte in welchen Mengen produziert werden müssen.
 
 ## Voraussetzungen

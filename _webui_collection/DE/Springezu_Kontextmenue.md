@@ -10,7 +10,7 @@ sequence: 50
 ref: jumpto_via_context_menu
 ---
 
-## Übersicht
+## Überblick
 Diese Funktion steht für Registerkarteneinträge zur Verfügung und bietet eine weitere Möglichkeit, schnell zu verknüpften Daten zu gelangen.
 
 ## Springen über das Kontextmenü

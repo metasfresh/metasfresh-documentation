@@ -11,7 +11,7 @@ sequence: 20
 ref: credit_memo_quantity_difference
 ---
 
-## Übersicht
+## Überblick
 In metasfresh können Gutschriften erstellt werden, wenn sich nach Rechnungsstellung ein Guthaben zugunsten des Kunden ergibt, z.B. aufgrund von Mengendifferenzen nach einer Lieferung. Die Gutschriften werden direkt mit den dazugehörigen Rechnungen verknüpft, wodurch die Änderungen für die Buchhaltung problemlos nachvollziehbar sind.
 
 ## Schritte

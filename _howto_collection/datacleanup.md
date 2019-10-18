@@ -7,7 +7,7 @@ tags:
 
 lang: de
 ---
-## Übersicht
+## Überblick
 Das untenstehende Beispiel deaktiviert alle Constraints in der Datenbank um das einfache Löschen von Daten ohne Berücksichtigung von Abhängigkeiten zu ermöglichen.
 Klassischer Anwendungsfall ist zum Beispiel die Bereinigung einer Datenbank von Testdaten.
 

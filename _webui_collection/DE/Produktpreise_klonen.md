@@ -10,7 +10,7 @@ sequence: 90
 ref: clone_product_prices
 ---
 
-## Übersicht
+## Überblick
 In metasfresh kannst Du Produktpreise samt allen Details duplizieren, um für minimale Änderungen nicht alle Daten von Neuem erfassen zu müssen, z.B. in Fällen, in denen Du dasselbe Produkt auf einer Preisliste mit unterschiedlichen Packvorschriften hinterlegen möchtest. Dabei wird der duplizierte (geklonte) Produktpreis vorerst als "üngültig" gekennzeichnet, damit bei der Preiskalkulation keine Konflikte aufgrund der Duplikate auftreten. Sobald der geklonte Produktpreis angepasst wurde, kannst Du ihn manuell revalidieren, woraufhin er von der Preiskalkulation wieder normal berücksichtigt wird.
 
 ## Schritte

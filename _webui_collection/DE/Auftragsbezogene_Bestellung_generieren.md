@@ -9,7 +9,7 @@ sequence: 50
 ref: generate_so-related_po
 ---
 
-## Übersicht
+## Überblick
 Möchtest Du gezielt alle Produkte in beauftragter Menge aus einem bestimmten Auftrag in eine Bestellung übertragen, kannst Du diese auftragsbezogene Bestellung einfach direkt aus dem fertiggestellten Auftrag erzeugen. Gehe hierzu wie folgt vor:
 
 ## Voraussetzungen

@@ -10,7 +10,7 @@ sequence: 10
 ref: single_incoming_payment
 ---
 
-## Übersicht
+## Überblick
 Wenn Du eine Zahlung erhalten hast, kannst Du den Betrag als *Zahlungseingang* in metasfresh verbuchen, wodurch die dazugehörige Rechnung automatisch den Status *Bezahlt* erhält. Gehe hierzu wie folgt vor:
 
 ## Voraussetzungen

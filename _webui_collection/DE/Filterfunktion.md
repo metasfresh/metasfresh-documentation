@@ -10,7 +10,7 @@ sequence: 10
 ref: filtering_function
 ---
 
-## Übersicht
+## Überblick
 Wenn Du in einem Fenster nach ganz bestimmten Einträgen suchst (wie z.B. nach [Geschäftspartnern](Neuer_Geschaeftspartner), [Aufträgen](Auftrag_erfassen), [Produkten](NeuesProdukt) usw.), kannst Du Dir diese gezielt mithilfe der Filterfunktion anzeigen lassen.
 
 ## Schritte

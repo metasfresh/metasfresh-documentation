@@ -11,7 +11,7 @@ sequence: 30
 ref: compensation_group_schema_product_category
 ---
 
-## Übersicht
+## Überblick
 In metasfresh kannst Du Produkte mit ähnlichen Eigenschaften in Kategorien einordnen, um sie besser zu organisieren. Diese Produktkategorien ermöglichen es in Verbindung mit einem [Kompensationsgruppenschema](Kompensationsgruppenschema_anlegen) bei der [Gruppenrabattierung](Auftragszeilengruppenrabatt), die Produkte einer Kategorie [automatisch zu einer Kompensationsgruppe zusammenzufassen](Kompensationsgruppen_automatisch_erstellen).
 
 Um das Kompensationsgruppenschema mit einer Produktkategorie zu verknüpfen, gehe wie folgt vor:

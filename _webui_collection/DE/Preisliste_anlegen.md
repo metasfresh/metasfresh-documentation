@@ -10,7 +10,7 @@ sequence: 30
 ref: add_price-list
 ---
 
-## Übersicht
+## Überblick
 ![](assets/Preissystem Hierarchie - Preisliste.png)
 
 Preislisten können länder- und währungsspezifisch sein und somit einem bestimmten Partner (Kunden/Lieferanten) oder einer bestimmten Partnergruppe zugewiesen werden.

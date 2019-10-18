@@ -10,7 +10,7 @@ sequence: 20
 ref: inventory_movement
 ---
 
-## Übersicht
+## Überblick
 In metasfresh kannst Du Handhabungseinheiten (engl.: [*Handling Units* = HU](Handling_Unit_System)) ganz einfach von einem Lager in ein anderes verbringen.
 
 ## Schritte

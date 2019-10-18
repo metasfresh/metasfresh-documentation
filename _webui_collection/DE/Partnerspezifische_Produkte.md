@@ -10,7 +10,7 @@ sequence: 10
 ref: partner-specific_products
 ---
 
-## Übersicht
+## Überblick
 Manchmal weichen die Produktnamen und -nummern der Geschäftspartner von Deinen eigenen ab, obwohl es sich um dasselbe Produkt handelt. Beispielsweise führst Du in Deinem System das Produkt *Karotten*, der Kunde bevorzugt jedoch die Bezeichnung *Möhren* und der Lieferant die Bezeichnung *Wurzeln*.<br>
 Um also Missverständnisse zu vermeiden und Dein eigenes System nicht mit mehreren Bezeichnungen für ein und dasselbe Produkt zu überfüllen, kannst Du **partnerspezifische Produktnamen und -nummern** vergeben, ohne Deine internen Daten verändern zu müssen.
 

@@ -9,7 +9,7 @@ sequence: 40
 ref: invoice-specific_document_texts
 ---
 
-## Übersicht
+## Überblick
 Rechnungsspezifische Texte können nur im Eintrag einer fertiggestellten Rechnung erfasst werden und erscheinen anschließend auch nur auf dem entsprechenden Rechnungsbeleg.
 
 Weitere Informationen darüber, wie Du eigenen Text in Belege einfügen kannst, gibt es [hier](Text_auf_Belege_drucken-allgemein).

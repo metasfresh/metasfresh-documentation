@@ -10,7 +10,7 @@ sequence: 10
 ref: create_manual_compensation_groups
 ---
 
-## Übersicht
+## Überblick
 Eine manuell erstellte Kompensationsgruppe fasst mehrere Auftragszeilen zusammen, damit diese im Rahmen der [Gruppenrabattierung](Auftragszeilengruppenrabatt) gemeinsam rabattiert oder aufgeschlagen werden können.
 
 Bei der [Erstellung von Stücklisten aufgrund eines Angebots](Stueckliste_bei_Auftragsgenerierung) dienen manuelle Kompensationsgruppen dazu, Angebotsgruppen zu erstellen, auf deren Grundlage später die Stückliste und das Verkaufsprodukt erstellt werden.

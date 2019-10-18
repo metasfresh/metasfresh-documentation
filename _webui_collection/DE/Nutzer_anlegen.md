@@ -10,7 +10,7 @@ sequence: 10
 ref: add_user
 ---
 
-## Übersicht
+## Überblick
 Nutzer sind im Allgemeinen Kontakte, die Du zusätzlich zu Deinen bestehenden Geschäftspartnern in metasfresh registrieren kannst.
 
 Deine Geschäftspartner kannst Du ebenfalls als Nutzer registrieren, z.B. um sie als Empfänger für [Serienbriefe](Serienbriefe_erstellen) im Rahmen einer [Marketingkampagne](MKTG-Kampagne_erstellen) zu verwalten.

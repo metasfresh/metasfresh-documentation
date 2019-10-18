@@ -9,7 +9,7 @@ sequence: 30
 ref: reference_as_doc_seq_number
 ---
 
-## Übersicht
+## Überblick
 Wenn Du in metasfresh einen [Kundenauftrag erfasst](Auftrag_erfassen), kann es vorkommen, dass Du die Auftragsreferenz als Belegnummer für [Lieferschein](Zu_Auftrag_Lieferschein_erstellen) und/oder [Rechnung](Zu_Auftrag_Rechnung_erstellen) verwenden möchtest, damit der [Kunde](Neuer_Geschaeftspartner_Kunde) diese Belege problemlos seinen eigenen Unterlagen zuordnen kann. Gleichzeitig soll Deine eigene interne Belegnummerierung dadurch jedoch nicht durcheinander gebracht werden.
 
 Um die Referenz aus dem Auftrag automatisch auf den Lieferschein- bzw. Rechnungsbeleg zu übertragen, gehe wie folgt vor:

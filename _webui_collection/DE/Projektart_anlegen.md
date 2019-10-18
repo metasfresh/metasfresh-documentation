@@ -8,7 +8,7 @@ sequence: 20
 ref: create_new_project_type
 ---
 
-## Übersicht
+## Überblick
 Mittels Projektarten kannst Du verschiedene Projekte übersichtlich organisieren sowie ihre individuellen Projektphasen festhalten und im Detail beschreiben.
 
 ## Schritte

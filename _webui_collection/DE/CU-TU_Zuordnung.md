@@ -10,7 +10,7 @@ sequence: 10
 ref: cu-tu_allocation
 ---
 
-## Übersicht
+## Überblick
 Ein Produkt ist eine [Verbrauchereinheit (CU)](Handling_Unit_System), welche in größeren Mengen in einem [Gebinde (TU)](Handling_Unit_System) verpackt werden kann. Die Art des zu verwendenden Gebindes wird mittels der [Packvorschrift](Packvorschrift_erstellen) bestimmt.
 
 ## Schritte

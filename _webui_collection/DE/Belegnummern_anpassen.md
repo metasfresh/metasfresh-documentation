@@ -9,7 +9,7 @@ sequence: 20
 ref: customizing_doc_seq_numbers
 ---
 
-## Übersicht
+## Überblick
 In metasfresh werden Belege automatisch fortlaufend nummeriert. Diese Nummerierung kannst Du je nach Bedarf individuell anpassen, ohne dabei die bisherige Seriennummerierung zu unterbrechen und dadurch den Überblick zu verlieren. Durch Hinzufügen von Affixen (Prä- und Suffixen) zum Beispiel bekommt jede Belegart ihr eigenes Nummerierungsschema, welches anschließend automatisch auf jeden neu erstellten Beleg jeweils angewandt wird und dabei hilft, Belege untereinander schnell und einfach voneinander zu unterscheiden.
 
 Um die Belegnummern anzupassen, gehe wie folgt vor:

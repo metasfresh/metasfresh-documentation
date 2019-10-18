@@ -9,7 +9,7 @@ sequence: 10
 ref: create_serial_letters
 ---
 
-## Übersicht
+## Überblick
 Mithilfe von Serienbriefen kannst Du mit wenig Aufwand eine Vielzahl Deiner Kontakte auf einmal mit für sie interessanten Informationen versorgen und so Deine Marketingkampagnen erfolgreich vorantreiben.
 
 ## Voraussetzungen

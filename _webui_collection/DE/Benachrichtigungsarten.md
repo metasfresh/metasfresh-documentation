@@ -9,7 +9,7 @@ sequence: 40
 ref: notification_types
 ---
 
-## Übersicht
+## Überblick
 metasfresh informiert Dich mittels Kurzmitteilungen über den Status Deiner Prozesse, damit Du stets auf dem neuesten Stand bist und rechtzeitig reagieren kannst. Die Art und Weise, wie Du benachrichtigt wirst, kannst Du ganz einfach im Nutzermenü einstellen.<br>
 metasfresh bietet folgende Benachrichtigungsarten:
 

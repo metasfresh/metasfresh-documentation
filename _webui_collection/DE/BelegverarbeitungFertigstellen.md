@@ -8,7 +8,7 @@ sequence: 10
 ref: documentprocessingcomplete
 ---
 
-## Übersicht
+## Überblick
 Belege werden von metasfresh zwar [automatisch gespeichert](Speicheranzeige), jedoch erst verarbeitet, wenn diese fertiggestellt sind.
 
 ### Mit der Tastatur

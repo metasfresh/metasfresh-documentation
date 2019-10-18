@@ -7,7 +7,7 @@ tags:
 
 lang: de
 ---
-## Übersicht
+## Überblick
 
 ![Preise](../images/de_Preissystem Hierachie - Preislistenversion.png)
 

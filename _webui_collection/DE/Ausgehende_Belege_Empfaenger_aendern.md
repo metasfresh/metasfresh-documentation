@@ -8,7 +8,7 @@ sequence: 30
 ref: outbound_docs_change_recipient_email
 ---
 
-## Übersicht
+## Überblick
 Damit Du [Belege per E-Mail aus "Ausgehende Belege" versenden](Email_senden_ausgehende_Belege) kannst, müssen sie mit einer E-Mail-Adresse versehen sein. Möchtest Du den Empfänger ändern, der beispielsweise durch das [E-Mail-Server-Routing](Email_Server_Routing_einrichten) eingetragen wurde, oder eine ganz andere E-Mail-Adresse angeben, dann gehe wie folgt vor:
 
 ## Schritte

@@ -8,7 +8,7 @@ sequence: 20
 ref: keyboard_shortcuts_reference
 ---
 
-## Übersicht
+## Überblick
 In metasfresh kannst Du in verschiedenen Kontexten einige Prozesse mithilfe bestimmter Tastenkombinationen beschleunigen. Hier findest Du eine Liste der Tastaturbefehle.
 
 ### Globaler Kontext

@@ -10,7 +10,7 @@ sequence: 10
 ref: credit_status_types
 ---
 
-## Übersicht
+## Überblick
 In metasfresh kannst Du den Gesamtbetrag aus allen unbezahlten Rechnungen eines Partners auf einen Höchstwert beschränken. Dies ist das sogenannte [*Kreditlimit*](Kreditlimit_einstellen).
 
 Wurde dieses Kreditlimit von einem Partner erreicht, können so lange keine neuen von ihm erteilten Aufträge bearbeitet werden, wie er seine Schulden nicht beglichen hat. Wie viel ein Partner von seinem Kredit bereits in Anspruch genommen hat, kannst Du in dem Feld **Kreditlimit Indikator %** des jeweiligen Partnereintrages nachsehen.

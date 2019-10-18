@@ -10,7 +10,7 @@ sequence: 10
 ref: salesorder_sysconfig_promised_date
 ---
 
-## Übersicht
+## Überblick
 In metasfresh ist es standardmäßig eingerichtet, dass bei der Auftragserfassung der zugesagte Termin mit dem Auftragsdatum übereinstimmt. Sollten die Daten voneinander abweichen, kann dies nachträglich manuell geändert werden. Ist allerdings von vornherein bekannt, dass der zugesagte Termin immer eine Mindestanzahl Tage nach dem Auftragsdatum liegen soll, kann die Standardeinstellung von einem Systemadministrator entsprechend angepasst werden. Gehe hierzu wie folgt vor:
 
 ## Schritte

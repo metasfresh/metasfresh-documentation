@@ -10,7 +10,7 @@ sequence: 20
 ref: update_derivative_plv
 ---
 
-## Übersicht
+## Überblick
 In metasfresh kannst Du kundenspezifischen [Preislistenversionen](Preislistenversion_anlegen) eine allgemeine Basispreislistenversion zuordnen, deren Basispreise in Kombination mit dem jeweiligen [Preisschema](Preisschema_mit_Regeln) bei der [Übertragung von Preisen und Produkten](Preise_von_Preislistenversion_kopieren) als Grundlage dazu dienen, die neuen kundenspezifischen [Produktpreise](Preis_anlegen) aus ihnen abzuleiten.
 
 Diese [derivativen (von einer Basispreislistenversion abgeleiteten) Preislistenversionen](Preise_von_Preislistenversion_kopieren), welche Teil von unterschiedlichen kundenspezifischen [Preislisten](Preisliste_anlegen) sein können, können ebenfalls unter Berücksichtigung ihrer individuellen Preisschemata alle gleichzeitig aktualisiert werden, solange sie mit ein und derselben allgemeinen Basispreislistenversion verknüpft sind.

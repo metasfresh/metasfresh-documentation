@@ -9,7 +9,7 @@ sequence: 70
 ref: change_place_of_unloading
 ---
 
-## Übersicht
+## Überblick
 In metasfresh kannst Du einen abweichenden Abladeort festlegen, wenn die Adresse des Wareneingangslagers nicht der Standardadresse der jeweiligen Organisation entspricht. Dieser Abladeort wird anschließend ebenfalls auf den jeweiligen Einkaufsbestätigungen aufgeführt.
 
 ## Schritte

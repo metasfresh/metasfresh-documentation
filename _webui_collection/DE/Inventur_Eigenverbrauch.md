@@ -8,7 +8,7 @@ sequence: 10
 ref: inventory_mass_disposal
 ---
 
-## Übersicht
+## Überblick
 Manche Produkte, die Du im Lagerbestand führst, sind für den Eigenverbrauch bestimmt und stehen somit für den Handel mit anderen Geschäftspartnern nicht mehr zur Verfügung. Dies bedeutet, dass sie aus dem Bestand entfernt bzw. entsorgt werden müssen. In einer Warenbestandsaufnahme für den internen Verbrauch werden die entsorgten Produkte dann übersichtlich aufgelistet, um stets nachverfolgen zu können, was mit den Produkten geschehen ist.
 
 ## Schritte

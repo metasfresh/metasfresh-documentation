@@ -10,7 +10,7 @@ sequence: 10
 ref: product_and_partner-specific_prices
 ---
 
-## Übersicht
+## Überblick
 In metasfresh kannst Du eine Preisliste für mehrere Geschäftspartner verwenden. Doch was ist, wenn Du individuelle Preise für bestimmte Partner festlegen möchtest? Sicherlich möchtest Du keine neue Preisliste für jeden einzelnen erstellen und am Ende duplizierte Daten und zusätzlichen Organisationsaufwand haben.
 
 In diesem Fall kannst Du ganz einfach Preiskonditionen über das Rabattschema erstellen und diese mit dem betreffenden Geschäftspartner verknüpfen.<br>

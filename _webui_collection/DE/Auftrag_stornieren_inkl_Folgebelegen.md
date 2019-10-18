@@ -9,7 +9,7 @@ sequence: 80
 ref: void_so_incl_related_docs
 ---
 
-## Übersicht
+## Überblick
 In metasfresh kannst Du einen Auftrag samt allen damit verbundenen Belegen, wie z.B. Lieferscheinen, Rechnungen, Verträgen, Vertragsverlängerungen usw., schnell und einfach stornieren.
 
 So können beispielsweise Fehler, die vom Auftrag in die Folgebelege übertragen wurden, rechtzeitig und in ihrer Gesamtheit unwirksam gemacht werden. Anschließend wird automatisch ein Entwurf des ursprünglichen Auftrages erstellt, den Du dann überarbeiten und erneut fertigstellen kannst.

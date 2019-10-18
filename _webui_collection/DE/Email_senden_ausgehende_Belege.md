@@ -8,7 +8,7 @@ sequence: 20
 ref: send_email_from_outbound_docs
 ---
 
-## Übersicht
+## Überblick
 Unter dem Menüpunkt "Ausgehende Belege" findest Du alle Belege samt Folgebelegen wieder, die Du zuvor an den jeweiligen Stellen erstellt hast, wie z.B. [Auftragsbestätigungen](Auftrag_erfassen), [Lieferscheine](Zu_Auftrag_Lieferschein_erstellen), [Rechnungen](Zu_Auftrag_Rechnung_erstellen) usw. Mittels [E-Mail-Server-Routing](Email_Server_Routing_einrichten) wurden all diese Belege gegebenenfalls bereits automatisch mit den E-Mail-Adressen der entsprechenden [Kontakte/Nutzer](GPartner_Nutzer_hinzufuegen) versehen und können nun versendet werden.
 
 Um mehrere versandfertige Belege per E-Mail zu versenden, gehe wie folgt vor:

@@ -10,7 +10,7 @@ sequence: 70
 ref: authentication_token
 ---
 
-## Übersicht
+## Überblick
 Mit einem Authentifizierungstoken kannst Du Dich u.a. gegenüber der [REST API von metasfresh](../../rest_api_collection/DE/Allgemeine_Infos_REST_API) authentifizieren, was Dich für die Verwendung des Webservice autorisiert.
 
 ## Schritte

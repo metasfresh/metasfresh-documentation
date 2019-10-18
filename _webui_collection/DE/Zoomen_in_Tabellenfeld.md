@@ -10,7 +10,7 @@ sequence: 70
 ref: zoom_into_table_field
 ---
 
-## Übersicht
+## Überblick
 In metasfresh kann man den Inhalt vieler Tabellenfelder auch über die *Zoom-Funktion* erreichen. Damit kannst Du Dir oftmals den Weg über das Navigationsmenü ersparen und schnell zwischen den Fenstern hin- und herspringen.
 
 Diese Funktion steht für Tabellen sowohl in der [Listenansicht](Ansichten) als auch im Registerkartenkontext zur Verfügung.

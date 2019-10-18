@@ -6,12 +6,9 @@ tags:
 lang: de
 ---
 
-## Übersicht
-
-Steuert ob Notifikationen erstellt werden bei der Zuordnung von Vorgängen zu Benutzern.
-Die Notifikationen können per Email oder Statusmeldung erfolgen.
-
+## Überblick
+Steuert, ob Notifikationen erstellt werden bei der Zuordnung von Vorgängen zu Benutzern.
+Die Notifikationen können per E-Mail oder Statusmeldung erfolgen.
 
 ## Einrichtung
-
-Siehe [Einrichtung Systemschalter](Systemschalter)
+Siehe [Einrichtung Systemschalter](Systemschalter).
