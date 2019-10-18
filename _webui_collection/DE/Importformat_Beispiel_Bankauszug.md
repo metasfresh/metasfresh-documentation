@@ -29,17 +29,17 @@ In dem folgenden Beispiel wird der Dateninhalt aus einer Datei einer Tabellenkal
 ### Einige nützliche Hinweise
 Die Angabe der Pflichtfelder sowie die vorausgesetzte Zuordnung der IBANs zu existierenden Bankkonten sind unerlässlich für einen erfolgreichen Datenimport!
 
-| Pflichtfeld | Feldname | Beispiel | Hinweis |
-| :---: | :---: | :--- | :--- |
-| X | Kopfzeile IBAN | DE00 1234 5678 9876 5432 10 | IBAN des Kontos, auf das Zahlungsein- und -ausgänge gebucht werden (üblicherweise z.B. das Unternehmenskonto), wird hier als Konstante angegeben. Sie muss daher nicht in der Importdatei enthalten sein. |
-|  | Effektives Datum | 14.05.2018 | Datum, ab dem der Geldbetrag effektiv zur Verfügung steht. |
-|  | Valutadatum | 15.05.2018 | Wertstellungsdatum |
-|  | Rechnungspartner | Sequoia GmbH | Name des Rechnungspartners |
-| X | IBAN von/zu | CH10 9876 5432 1234 5678 90 | IBAN des Empfänger- oder Zahlungskontos |
-|  | Buchungsart | SEPA Überweisung | Buchungsart der Auszugsposition |
-|  | Positionsbeschreibung | Stammkapital | Beschreibung der Auszugsposition |
-| X | Summe Auszug | 12.500,00 | Betrag der Auszugsposition |
-| X | ISO-Währungscode | EUR | Dreistelliger Buchstabencode (gem. ISO 4217).<br> (*Den ISO-Währungscode kannst Du unter dem Menüpunkt "[Währung](Menu)" nachschauen.*) |
+| Pflichtfeld | Feldname | Spaltenname | Beispiel | Hinweis |
+| :---: | :--- | :--- | :--- | :--- |
+| X | Kopfzeile IBAN | IBAN_IBAN | DE00 1234 5678 9876 5432 10 | IBAN des Kontos, auf das Zahlungsein- und -ausgänge gebucht werden (üblicherweise z.B. das Unternehmenskonto), wird hier als Konstante angegeben. Sie muss daher nicht in der Importdatei enthalten sein. |
+|  | Effektives Datum | ValutaDate_Effective date | 14.05.2018 | Datum, ab dem der Geldbetrag effektiv zur Verfügung steht. |
+|  | Valutadatum | StatementLineDate_Valuta Datum | 15.05.2018 | Wertstellungsdatum |
+|  | Rechnungspartner | Bill_BPartner_Name_Name Rechnungspartner | Sequoia GmbH | Name des Rechnungspartners |
+| X | IBAN von/zu | IBAN_To_IBAN_To | CH10 9876 5432 1234 5678 90 | IBAN des Empfänger- oder Zahlungskontos |
+|  | Buchungsart | TrxType_Transaction Type | SEPA Überweisung | Buchungsart der Auszugsposition |
+|  | Positionsbeschreibung | LineDescription_Positions-Beschreibung | Stammkapital | Beschreibung der Auszugsposition |
+| X | Summe Auszug | StmtAmt_Statement amount | 12.500,00 | Betrag der Auszugsposition |
+| X | Währung | ISO_Code_ISO Währungscode | EUR | Dreistelliger Buchstabencode (gem. ISO 4217).<br> (*Den ISO-Währungscode kannst Du unter dem Menüpunkt "[Währung](Menu)" nachschauen.*) |
 
 ## Nächste Schritte
 - [Bankauszugsdaten importieren](Bankauszugsdaten_importieren).

@@ -29,16 +29,16 @@ The example below compares the data content of a file from a spreadsheet softwar
 The mandatory fields are essential for a successful data import!
 
 | Mandatory Field | Field Name | Column Name | Example | Note |
-| :---: | :---: | :--- | :--- | :--- |
+| :---: | :--- | :--- | :--- | :--- |
 | X | Search Key | Value_Suchschlüssel | I_BP_001 | Business partner search key (unique alphanumeric string) |
-| X | Company name | Companyname_Firmenname | Import Inc. | Company name |
+| X | Company Name | Companyname_Firmenname | Import Inc. | Company name |
 | X | Name | Name_Name | Bob Ross | Partner name (for individuals) |
-| (X) | First name<br>and<br>Last name | Firstname_Vorname<br>and<br>Lastname_Nachname | John Smith | This information is only required in connection with **contacts** to be imported. |
+| (X) | •&nbsp;First Name<br> •&nbsp;Last Name | •&nbsp;Firstname_Vorname<br> •&nbsp;Lastname_Nachname | •&nbsp;John<br> •&nbsp;Smith | This information is only required in connection with **contacts** to be imported. |
 | (X) | ISO Country Code | CountryCode_ISO-Ländercode | DE | DE = Germany (Ger.: _**De**utschland_)<br> Two-letter country code (in acc. with ISO 3166-1 alpha-2).<br>This information is only required in connection with addresses to be imported.<br> (*You can look up the ISO country code under "[Country, Region](Menu)" in the menu.*) |
 | X | Group Value | GroupValue_Gruppen-Schlüssel	| •&nbsp;Standard<br> •&nbsp;1000001 | **Search Key** of the business partner group.<br> ***Attention:*** Not the name!<br> First add the business partner group and then use the search key here.<br> (*You can look up the search key in the respective entry under "[Business Partner Group](Menu)" in the menu.*) |
 |  | Region | RegionName_Region | •&nbsp;NRW<br> •&nbsp;AZ | NRW = **N**orth **R**hine-**W**estphalia<br> AZ = **A**ri**z**ona<br> (*You can look up the acronym (**Name**) of a region under the record tab "Region" of the respective country entry under "[Country, Region](Menu)" in the menu.*) |
 |  | OrgValue | OrgValue_Organisations-Schlüssel | metasfresh AG | **Search Key** of the organization.<br> ***Attention:*** Not the name!<br> (*You can look up the search key under "[Organization](Menu)" in the menu.*) |
-|  | Location Data | •&nbsp;Address1_Straße und Nr.<br> •&nbsp;Postal_PLZ<br> •&nbsp;City_Ort<br> •&nbsp;RegionName_Region<br> •&nbsp;CountryCode_ISO Ländercode | •&nbsp;Street & House No.<br> •&nbsp;ZIP<br> •&nbsp;City<br> •&nbsp;Region<br> •&nbsp;ISO Country Code | For [location data](Add_address_tab) to be imported, at least **City** and **ISO Country Code** must be provided.<br><br> Location data, such as **Street & House No.**, **ZIP** or **Region**, will not be imported unless both **City** and **ISO Country Code** are provided. |
+|  | Location Data | •&nbsp;Address1_Straße und Nr.<br> •&nbsp;Postal_PLZ<br> •&nbsp;City_Ort<br> •&nbsp;RegionName_Region<br> •&nbsp;CountryCode_ISO Ländercode | •&nbsp;Street & No.<br> •&nbsp;ZIP<br> •&nbsp;City<br> •&nbsp;Region<br> •&nbsp;ISO Country Code | For [location data](Add_address_tab) to be imported, at least **City** and **ISO Country Code** must be provided.<br><br> Location data, such as **Street & House No.**, **ZIP** or **Region**, will not be imported unless both **City** and **ISO Country Code** are provided. |
 |  | Global Location Number (GLN) | GLN_GLN | 1234567890128 | In order to import a **GLN**, both **City** and **ISO Country Code** are required. |
 |  | Web address (URL) | URL_URL | <a href="https://metasfresh.com/en/" title="metasfresh Homepage" target="blank"><strong>https://</strong>metasfresh.com/</a> | For a **URL** to work after import, make sure it begins with the Internet protocol acronym (e.g., `https://`). |
 
