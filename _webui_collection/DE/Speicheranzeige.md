@@ -9,7 +9,7 @@ sequence: 20
 ref: saveindicator
 ---
 
-## Übersicht
+## Überblick
 metasfresh speichert prinzipiell überall vollautomatisch in dem Moment, wo Daten geändert werden.
 
 An der Farbe des Fortschrittsbalkens unterhalb der Menüleiste erkennst Du den jeweiligen Status des Speichervorgangs.

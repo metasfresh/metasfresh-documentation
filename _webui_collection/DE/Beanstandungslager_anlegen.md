@@ -9,7 +9,7 @@ sequence: 40
 ref: add_quality_issue_warehouse
 ---
 
-## Übersicht
+## Überblick
 Ein Beanstandungslager dient zur Lagerung von zurückgesendeter Ware, die erst auf ihre Unversehrtheit und Vollständigkeit geprüft werden muss, bevor sie ggf. wieder in die normale Vertriebskette zurückgeführt werden darf.
 
 ## Schritte

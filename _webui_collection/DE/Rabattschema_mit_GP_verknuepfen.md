@@ -11,7 +11,7 @@ sequence: 30
 ref: link_discount_schema_to_bp
 ---
 
-## Übersicht
+## Überblick
 Damit ein [Rabattschema](Rabattschema_anlegen) automatisch angewendet wird, muss es erst mit einem Geschäftspartner verknüpft werden, für den das Rabattschema gelten soll.
 
 ## Schritte

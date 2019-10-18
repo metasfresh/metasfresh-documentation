@@ -9,7 +9,7 @@ sequence: 10
 ref: handling_unit_system
 ---
 
-## Übersicht
+## Überblick
 metasfresh ermöglicht es Dir, Produkte nicht nur ohne Weiteres mit ihrer Gesamtmenge im Bestand zu führen, sondern sie auch ihren individuellen Eigenschaften entsprechend zu verwalten und demnach abzubilden, in welcher Form sie konkret vorliegen.
 
 So kann Fertigsalat in Tüten zu 10 Stück in einer Kiste verpackt sein, von der wiederum 20 Stück auf einer Palette stehen.

@@ -5,7 +5,7 @@ tags:
   - Concepts
 lang: en
 ---
-## Übersicht
+## Überblick
 
 metasfresh enables you to keep track of a product not only as in stocked amounts but it is also possible to map in which form the article is.
 

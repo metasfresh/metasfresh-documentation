@@ -9,7 +9,7 @@ sequence: 50
 ref: picking_terminal
 ---
 
-## Übersicht
+## Überblick
 In metasfresh kannst Du *Handling Units* ([HUs](Handling_Unit_System)) für Lieferungen kommissionieren. Die kommissionierte Menge der HUs wird dann von Deinem Lagerbestand abgebucht.<br>
 Den Lagerbestand kannst Du im "[Handling Unit Editor](Menu)" jederzeit nachschauen.
 

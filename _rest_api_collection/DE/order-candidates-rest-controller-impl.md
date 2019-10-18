@@ -8,7 +8,7 @@ sequence: 10
 ref: order-candidates-rest-controller-impl
 ---
 
-## Übersicht
+## Überblick
 Über diesen Endpunkt kannst Du Auftragskandidaten nach metasfresh importieren und gleichzeitig sogar neue Geschäftspartner- sowie Produkteinträge anlegen. Gleichfalls kannst Du über diesen Endpunkt Dateianhänge hochladen und sie den Auftragskandidaten beifügen.
 
 Um diesen Endpunkt erfolgreich zu nutzen, benötigst Du gegebenenfalls folgende Daten:

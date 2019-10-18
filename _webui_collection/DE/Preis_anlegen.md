@@ -10,7 +10,7 @@ sequence: 50
 ref: add_price
 ---
 
-## Übersicht
+## Überblick
 ![](assets/Preissystem Hierarchie - Preis.png)
 
 ## Schritte

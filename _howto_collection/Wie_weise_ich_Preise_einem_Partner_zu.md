@@ -6,7 +6,7 @@ tags:
   - Partner
 lang: de
 ---
-## Übersicht
+## Überblick
 
 ![Preiszuordnung](../images/de_Zuordnung Preise und Partner.png)
 

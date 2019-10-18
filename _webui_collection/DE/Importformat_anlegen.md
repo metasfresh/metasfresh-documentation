@@ -36,6 +36,8 @@ Folgende Daten können nach metasfresh importiert werden:
 1. Wähle ein **Format** (Trennzeichen) aus, z.B. *Tabulator-separiert*.
  >**Hinweis:** Für einen erfolgreichen Datenimport muss das Trennzeichen der Importdatei mit dem aus dem Importformat übereinstimmen (Komma, Tabulatorzeichen, Semikolon usw.).
 
+1. ***Optional:*** Setze ein Häkchen bei **IsManualImport**, wenn Du die Daten manuell importieren möchtest. Ansonsten werden Sie automatisch verarbeitet, sofern keine Fehler auftreten.
+
 ### a) Formatfelder hinzufügen
 1. Gehe zur Registerkarte "Format-Feld" unten auf der Seite und klicke auf !["Neu hinzufügen"](assets/Neu_hinzufuegen_Button.png). Es öffnet sich ein Overlay-Fenster.
 1. Benenne das Formatfeld im Feld **Name**, z.B. "Suchschlüssel".

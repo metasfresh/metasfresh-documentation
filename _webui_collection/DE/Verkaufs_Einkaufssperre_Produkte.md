@@ -10,7 +10,7 @@ sequence: 10
 ref: sales_purchasing_block_on_products
 ---
 
-## Übersicht
+## Überblick
 In metasfresh kannst Du alle Produkte, die auf einer Preisliste stehen, an alle Geschäftspartner verkaufen bzw. bei allen Partnern einkaufen, die mit derselben Preisliste verknüpft sind. Doch was ist, wenn Du einzelnen Partnern nur eine bestimmte Auswahl an Produkten zur Verfügung stellen willst, ohne für jeden einzelnen eine neue Preisliste zu erstellen, die bis auf die ausgenommenen Produkte identisch mit der ursprünglichen wäre und ansonsten nur zu duplizierten Daten und zusätzlichem Organisationsaufwand führen würde?
 
 Für diesen Fall kannst Du ganz einfach partnerbezogene Ausschlusslisten mit denjenigen Produkten erstellen, die für den Verkauf bzw. Einkauf gesperrt werden sollen und somit in Aufträgen oder Bestellungen nicht mehr hinzugefügt werden können. Diese Listen kannst Du sowohl im Produkteintrag als auch im Geschäftspartnereintrag erstellen. Gehe hierzu wie folgt vor:

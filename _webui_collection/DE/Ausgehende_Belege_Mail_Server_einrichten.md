@@ -9,7 +9,7 @@ sequence: 20
 ref: outbound_documents_setup_email_server
 ---
 
-## Übersicht
+## Überblick
 In metasfresh kannst Du ein eigenes E-Mail-Postfach einrichten, das für den Versand ausgehender Belege verwendet wird. Über ein [E-Mail-Server-Routing](Email_Server_Routing_einrichten) kannst Du zudem einstellen, an welchen [Kontakt/Nutzer](GPartner_Nutzer_hinzufuegen) ein bestimmter Beleg bei seiner Erstellung automatisch adressiert wird, um den E-Mail-Versand aus "Ausgehende Belege" einfacher und effizienter zu machen.
 
 ## Schritte

@@ -10,7 +10,7 @@ sequence: 10
 ref: sales_order_catch_weight
 ---
 
-## Übersicht
+## Überblick
 Beim Catch Weight Management handelt es sich um die Verwaltung von gewichtsabhängigen Produkten, die einerseits mit einem durchschnittlichen Standardgewicht (welches durch [Maßeinheitenumrechnung](Masseinheiten_umrechnen) erlangt wird) bestandsgeführt, verkauft, empfangen, transportiert, kommissioniert und versendet werden, andererseits aber auch gewogen und mit dem tatsächlichen Gewicht (dem sogenannten *Catch-Weight-Gewicht*) abgerechnet werden.
 
 Daher bietet metasfresh die Möglichkeit, das abweichende Catch-Weight-Gewicht von Produkten vor ihrem Versand in der Lieferdisposition zu erfassen und so bei der Fakturierung sicherzustellen, dass nur die Menge abgerechnet wird, die der Kunde auch tatsächlich erhalten hat.

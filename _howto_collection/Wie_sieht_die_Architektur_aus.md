@@ -7,7 +7,7 @@ sequence: 10
 lang: de
 ---
 
-## Übersicht
+## Überblick
 ![Technische Architektur](../images/metasfresh_architecture.png)
 
 ## Service Details

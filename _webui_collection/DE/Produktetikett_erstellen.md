@@ -10,7 +10,7 @@ sequence: 10
 ref: create_product_label
 ---
 
-## Übersicht
+## Überblick
 In metasfresh kannst Du in verschiedenen Eingabefenstern benutzerdefinierte Registerkarten anlegen zur Erfassung eigener spezifischer Daten. Diese Daten lassen sich mithilfe von Unterregistern, Sektionen, Zeilen sowie Eingabefeldern organisieren und so auch in der Form von Produktetiketten oder Typenschildern ausdrucken.
 
 ## Voraussetzungen

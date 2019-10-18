@@ -9,7 +9,7 @@ sequence: 30
 ref: setup_email_server_routing
 ---
 
-## Übersicht
+## Überblick
 In metasfresh kannst Du mittels E-Mail-Server-Routing einstellen, an welchen [Kontakt/Nutzer](GPartner_Nutzer_hinzufuegen) ein bestimmter Beleg bei seiner Erstellung automatisch adressiert wird, um den E-Mail-Versand aus "Ausgehende Belege" einfacher und effizienter zu machen.
 
 ## Schritte

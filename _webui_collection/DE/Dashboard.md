@@ -9,7 +9,7 @@ sequence: 20
 ref: dashboard
 ---
 
-## Übersicht
+## Überblick
 Das Dashboard von metasfresh ist eine Übersichtsseite, die automatisch nach der Anmeldung lädt. Dort werden Dir dynamische Daten in Echtzeit mittels verschiedener Widgets angezeigt.
 
 Das Dashboard kannst Du auch nach eigenem Bedarf anpassen und Widgets hinzufügen, entfernen, verschieben und bearbeiten. Gehe hierzu wie folgt vor:

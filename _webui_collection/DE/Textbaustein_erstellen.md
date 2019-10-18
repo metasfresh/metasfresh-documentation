@@ -9,7 +9,7 @@ sequence: 60
 ref: create_boiler_plate
 ---
 
-## Übersicht
+## Überblick
 Mithilfe von Textbausteinen kannst Du Textvorlagen für Briefe und [E-Mails](Email_senden_aus_System) erstellen, welche Du u.a. auch in Marketingkampagnen einsetzen kannst, z.B. in [Serienbrief-Kampagnen](Serienbriefe_erstellen).
 
 ## Schritte

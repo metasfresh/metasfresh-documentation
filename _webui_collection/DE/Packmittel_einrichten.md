@@ -10,7 +10,7 @@ sequence: 30
 ref: set_up_packing_material
 ---
 
-## Übersicht
+## Überblick
 Packmittel werden zur Verpackung von Produkten ([CU](Handling_Unit_System)) verwendet und können je nach Beschaffenheit der CU aus unterschiedlichem Material bestehen.
 
 In metasfresh werden Packmittel als Produkte gehandhabt, die beim Fertigstellen eines Auftrages oder einer Bestellung automatisch hinzugefügt werden.

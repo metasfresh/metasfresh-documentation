@@ -10,7 +10,7 @@ sequence: 30
 ref: voiding_payment
 ---
 
-## Übersicht
+## Überblick
 In metasfresh kannst Du falsch verbuchte Zahlungseingänge schnell wieder stornieren und gleichzeitig den *Bezahlt*-Status der zugeordneten Rechnungen rückgängig machen. Gehe hierzu wie folgt vor:
 
 ## Schritte

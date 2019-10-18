@@ -9,7 +9,7 @@ sequence: 10
 ref: file_handling
 ---
 
-## Übersicht
+## Überblick
 In metasfresh kannst Du fast überall Dateianhänge hochladen. Du kannst sowohl einzelne als auch mehrere Dateien auf einmal hochladen.
 
 ## Schritte

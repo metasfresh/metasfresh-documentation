@@ -6,7 +6,7 @@ tags:
 lang: de
 ---
 
-## Übersicht
+## Überblick
 
 Wenn Du bei neuen Vorgängen Deine Benutzer automatisch per Mail informieren möchtest, kannst Du diese Anleitung zur Aktivierung verwenden.
 

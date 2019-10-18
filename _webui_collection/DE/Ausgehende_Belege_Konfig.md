@@ -9,7 +9,7 @@ sequence: 10
 ref: outbound_documents_config
 ---
 
-## Übersicht
+## Überblick
 Du kannst die ausgehenden Belege für eine Vielzahl von Tabellen einrichten, damit die erstellten Belege, wie Rechnungen, Lieferscheine, Mahnbriefe usw., unter dem Menüpunkt "Ausgehende Belege" aufgelistet werden, wo Du dann entweder einzelne Belege der Reihe nach oder kollektiv weiterverarbeiten kannst.
 
 ## Schritte

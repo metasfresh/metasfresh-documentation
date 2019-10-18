@@ -9,7 +9,7 @@ sequence: 30
 ref: file_handling_delete_permission
 ---
 
-## Übersicht
+## Überblick
 In metasfresh kannst Du einstellen, dass nur bestimmte Benutzer die Erlaubnis haben, [Dateianhänge zu löschen](Dateihandling). Für alle anderen bleibt die Löschfunktion verborgen und sie können lediglich die Dateien öffnen und herunterladen. So wird verhindert, dass Dateien von nicht autorisierten Benutzern (versehentlich) gelöscht werden.
 
 Beim Löschen eines Dateianhangs durch einen autorisierten Benutzer wird ein Eintrag im Änderungslog des Anhangs erstellt, u.a. mit dem Dateinamen sowie dem Namen des löschenden Benutzers. So kann stets festgestellt werden, von wem und zu welchem Zeitpunkt ein Dateianhang gelöscht wurde.

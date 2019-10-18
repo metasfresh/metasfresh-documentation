@@ -7,7 +7,7 @@ tags:
 sequence: 10
 lang: de
 ---
-## Übersicht
+## Überblick
 
 ![Preise](../images/de_drawing_preissystem_hierachie.png)
 

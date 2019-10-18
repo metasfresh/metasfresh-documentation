@@ -8,7 +8,7 @@ lang: de
 ref: installer_how_to_change_hostnames_for_webui
 ---
 
-## Übersicht
+## Überblick
 Wenn Du die URL der metasfresh WebUI ändern möchtest, damit sich die Clients nicht die IP-Adresse Deines Servers merken müssen, sondern einen DNS-Eintrag Deiner Wahl benutzen können, musst Du die Datei `config.js` auf Deinem Server anpassen.
 
 ## Schritte

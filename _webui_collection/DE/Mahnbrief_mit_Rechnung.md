@@ -9,7 +9,7 @@ sequence: 20
 ref: dunning_letter_with_attached_invoice
 ---
 
-## Übersicht
+## Überblick
 In metasfresh kannst Du Mahnbriefe schnell und einfach mit den dazugehörigen Rechnungsbelegen in einer PDF-Datei zusammenfügen, um die Unterlagen dann gemeinsam auszudrucken bzw. an den jeweiligen Mahnkandidaten weiterzuleiten.
 
 ## Voraussetzungen

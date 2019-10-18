@@ -8,7 +8,7 @@ sequence: 10
 ref: create_new_project
 ---
 
-## Übersicht
+## Überblick
 In metasfresh kannst Du Projekte anlegen und übersichtlich verwalten. Neben allgemeinen projektbezogenen Daten wie Projektart, -status und -mitgliedern kannst Du ebenfalls einzelne Aufgaben und Vorgänge erfassen, planen und deren Status nachhalten. So bist Du stets auf aktuellem Stand und behältst immer einen Überblick über ausstehende Verpflichtungen.
 
 ## Schritte

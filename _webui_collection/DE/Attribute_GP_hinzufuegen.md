@@ -9,7 +9,7 @@ sequence: 50
 ref: add_attributes_to_bp
 ---
 
-## Übersicht
+## Überblick
 Attribute vereinfachen Dir die Suche nach einem bestimmten Geschäftspartner bei der Verwendung der [Filterfunktion](Filterfunktion).
 
 ## Schritte

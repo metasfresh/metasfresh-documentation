@@ -10,7 +10,7 @@ sequence: 20
 ref: incoming_payments_manual_allocation
 ---
 
-## Übersicht
+## Überblick
 Wenn ein Kunde eine einzelne Zahlung leistet, um mehrere Rechnungen auf einmal zu begleichen, muss der erhaltene Betrag den jeweiligen Rechnungen *manuell zugeordnet* werden. Gehe hierzu wie folgt vor:
 
 ## Voraussetzungen

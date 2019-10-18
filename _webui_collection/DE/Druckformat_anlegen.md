@@ -9,7 +9,7 @@ sequence: 50
 ref: add_print_format
 ---
 
-## Übersicht
+## Überblick
 Mit dem Druckformat kannst Du u.a. das Papierformat sowie das Seitenlayout, wie z.B. Hoch- oder Querformat, für Belege, die für den Druck bestimmt sind, festlegen.
 
 ## Schritte

@@ -10,7 +10,7 @@ sequence: 60
 ref: max_query_records_userrole
 ---
 
-## Übersicht
+## Überblick
 Du kannst die Suchergebnisse, die einem Nutzer in der Listenansicht angezeigt werden, auf ein Maximum beschränken. Gehe hierzu wie folgt vor:
 
 ## Schritte

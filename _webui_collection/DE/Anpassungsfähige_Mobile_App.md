@@ -9,7 +9,7 @@ sequence: 30
 ref: responsive_mobile_app
 ---
 
-## Übersicht
+## Überblick
 metasfresh kann auf allen Geräten ausgeführt werden, vom Desktop-PC bis hin zum Smartphone. Die App passt sich an den jeweils vorhandenen Bildschirm an.
 
 Wozu ist das gut?

@@ -10,7 +10,7 @@ sequence: 40
 ref: add_price-list-version
 ---
 
-## Übersicht
+## Überblick
 ![](assets/Preissystem Hierarchie - Preislistenversion.png)
 
 ## Schritte

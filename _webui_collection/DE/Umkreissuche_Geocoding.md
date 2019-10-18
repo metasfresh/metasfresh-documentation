@@ -10,7 +10,7 @@ sequence: 20
 ref: area_search_geocoding
 ---
 
-## Übersicht
+## Überblick
 In vielen Fenstern, in denen es Einträge gibt, die mit [Geschäftspartnern](Neuer_Geschaeftspartner) verknüpft sind (z.B. unter [Aufträge](Auftrag_erfassen), [Bestellungen](Bestellung_erfassen), [Geschäftspartner](Neuer_Geschaeftspartner), [Anrufliste](Anrufplanung_mittels_Anruflisten) usw.) kannst Du die Umkreissuche verwenden, um die Suchergebnisse auf einen bestimmten geografischen Bereich einzuschränken.
 
 Darüber hinaus kannst Du direkt aus dem Geschäftspartnereintrag standortspezifische Umkreissuchen starten, wobei die Ergebnisse anhand der von Dir ausgewählten Adresse vorgeschlagen werden.

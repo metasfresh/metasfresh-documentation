@@ -9,7 +9,7 @@ sequence: 10
 ref: pricing_conditions_in_metasfresh
 ---
 
-## Übersicht
+## Überblick
 Damit Produkte in metasfresh in Aufträgen und Bestellungen verarbeitet werden können, müssen folgende Bedingungen erfüllt sein:
 
 - Die Produkte *müssen* auf einer gültigen [Preisliste](Produkte_Preisliste_hinzufuegen) stehen.

@@ -9,7 +9,7 @@ sequence: 20
 ref: add_new_warehouse_type
 ---
 
-## Übersicht
+## Überblick
 In metasfresh kannst Du verschiedene Lagerarten bestimmen und so Deine [Lager](Neues_Lager_anlegen) nach deren jeweiligen Eigenschaften und Funktionen organisieren.
 
 ## Schritte

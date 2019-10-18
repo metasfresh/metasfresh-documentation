@@ -10,7 +10,7 @@ sequence: 40
 ref: link_dunning_type_to_partner
 ---
 
-## Übersicht
+## Überblick
 Damit eine Mahnart in Verbindung mit einem Partner wirksam wird, musst Du sie erst mit dem entsprechenden Partner verknüpfen. Du kannst sie sowohl mit einem einzelnen Kunden als auch mit einer Geschäftspartnergruppe verknüpfen.
 
 ## Mahnart mit einzelnem Kunden verknüpfen

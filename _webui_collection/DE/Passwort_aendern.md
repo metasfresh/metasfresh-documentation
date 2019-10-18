@@ -9,7 +9,7 @@ sequence: 30
 ref: change_password
 ---
 
-## Übersicht
+## Überblick
 Ist Dir Dein Login-Passwort entfallen oder möchtest Du es ändern, dann folge bei Deiner nächsten Anmeldung einfach der "Passwort vergessen"-Funktion und richte Dein neues Passwort ein.
 
 ## Passwort ändern (Passwort vergessen)

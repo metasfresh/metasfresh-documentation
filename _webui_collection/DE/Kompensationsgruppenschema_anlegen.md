@@ -11,7 +11,7 @@ sequence: 20
 ref: create_compensation_group_schema
 ---
 
-## Übersicht
+## Überblick
 Mithilfe eines Kompensationsgruppenschemas kannst Du kontrollieren, welche Produkte in einem [Auftrag](Auftrag_erfassen) [automatisch zu Kompensationsgruppen zusammengefasst](Kompensationsgruppen_automatisch_erstellen) werden.
 
 ## Schritte

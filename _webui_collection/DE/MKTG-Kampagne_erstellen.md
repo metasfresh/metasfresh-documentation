@@ -8,7 +8,7 @@ sequence: 10
 ref: create_mktg_campaign
 ---
 
-## Übersicht
+## Überblick
 Mittels einer Marketingkampagne kannst Du mit wenig Aufwand eine Vielzahl Deiner Kontakte auf einmal mit für sie interessanten Informationen versorgen.
 
 In metasfresh gibt es zwei Arten von Marketingkampagnen: *E-Mail-Kampagnen* und *Serienbrief-Kampagnen*.

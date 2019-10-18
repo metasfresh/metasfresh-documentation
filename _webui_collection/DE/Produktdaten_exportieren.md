@@ -10,7 +10,7 @@ sequence: 10
 ref: export_product_data
 ---
 
-## Übersicht
+## Überblick
 In metasfresh kannst Du ganz einfach alle Produktspezifikationen auf einmal exportieren.
 
 Weitere Informationen über den Export einzelner Dateneinträge gibt es [hier](Datenexport_aus_metasfresh).

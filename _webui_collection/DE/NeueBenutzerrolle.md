@@ -10,7 +10,7 @@ sequence: 40
 ref: newuserrole
 ---
 
-## Übersicht
+## Überblick
 Mit einer Benutzerrolle kannst Du bestimmen, auf welche Funktionen ein Nutzer Zugriff hat und welche Daten er einsehen kann.
 
 ## Schritte

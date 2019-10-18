@@ -10,7 +10,7 @@ sequence: 20
 ref: outbound_documents_config_dunning
 ---
 
-## Übersicht
+## Überblick
 Du musst die ausgehenden Belege für das Mahnverfahren einrichten, damit die erstellten Mahnbriefe unter dem Menüpunkt "Ausgehende Belege" aufgelistet werden, wo Du sie dann entweder einzeln der Reihe nach oder kollektiv weiterverarbeiten kannst.
 
 ## Schritte

@@ -10,7 +10,7 @@ sequence: 30
 ref: price_list_schema_rules
 ---
 
-## Übersicht
+## Überblick
 Zum [Kopieren von Preislisten](Preise_von_Preislistenversion_kopieren) benötigst Du ein gültiges Preisschema. Darin kannst Du u.a. festlegen, welche Produkte übernommen werden sollen, für welche Produktkategorie und/oder welchen Geschäftspartner das Schema gelten soll und ob die Standardpreise während des Kopiervorgangs um einen Aufschlag erhöht werden sollen.
 
 ## Schritte

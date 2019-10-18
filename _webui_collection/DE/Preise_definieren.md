@@ -10,7 +10,7 @@ sequence: 10
 ref: define_prices
 ---
 
-## Übersicht
+## Überblick
 ![](assets/Preissystem_Hierarchie.png)
 
 ## Schritte

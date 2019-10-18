@@ -7,7 +7,7 @@ lang: de
 ref: how_do_i_browse_the_rest_api_using_swagger
 ---
 
-## Übersicht
+## Überblick
 
 metasfresh verwendet Swagger, um REST API Funktionen darzustellen.
 

@@ -10,7 +10,7 @@ sequence: 60
 ref: assign_prices_to_partner
 ---
 
-## Übersicht
+## Überblick
 ![](assets/Preissystem_Zuweisung Preise und Partner.png)
 
 In metasfresh gibt es *Verkaufspreislisten* und *Einkaufspreislisten*. Die Verkaufspreislisten können den [Kunden](Neuer_Geschaeftspartner_Kunde) zugewiesen werden und die Einkaufspreislisten den [Lieferanten](Neuer_Geschaeftspartner_Lieferant). Diese beiden Preislistenarten können ebenfalls [Partnergruppen](Zuweisung_Preise_Partnergruppe) zugewiesen werden.

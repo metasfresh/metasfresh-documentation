@@ -10,7 +10,7 @@ sequence: 10
 ref: convert_uoms
 ---
 
-## Übersicht
+## Überblick
 Weicht die Bestandsmengeneinheit eines Produktes von der Verkaufsmengeneinheit ab, muss eine Umrechnung angelegt werden.
 
 #### Zum Beispiel:

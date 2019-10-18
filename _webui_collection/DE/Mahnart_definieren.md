@@ -10,7 +10,7 @@ sequence: 30
 ref: define_dunning_type
 ---
 
-## Übersicht
+## Überblick
 Mit der Mahnart bestimmst Du den Zeitpunkt, ab dem ein [Mahnlauf](Mahnlauf) beginnt und wie viele Stufen er durchläuft.
 
 ## Schritte

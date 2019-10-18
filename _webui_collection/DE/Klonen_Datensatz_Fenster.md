@@ -10,7 +10,7 @@ sequence: 40
 ref: clone_record_window
 ---
 
-## Übersicht
+## Überblick
 Um Dir die Arbeit beim Erfassen von Dokumenten mit ähnlichen oder gleichen Daten wie in bestehenden Dokumenten zu erleichtern, kannst Du die vorhandenen Dokumentdaten eines Fensters einschließlich aller dazugehörigen Subtabs mithilfe der *Klonen-Funktion* einfach vollständig duplizieren.<br>
 Das Klonen funktioniert bei allen Stammdaten und Belegen wie [Aufträgen](Auftrag_erfassen), [Bestellungen](Bestellung_erfassen), [Produktpreisen](Produktpreise_klonen) usw.
 

@@ -9,7 +9,7 @@ sequence: 10
 ref: create_contract
 ---
 
-## Übersicht
+## Überblick
 Ein Vertrag ist in metasfresh ein Auftrag in der Form eines Abonnements für die regelmäßige Lieferung von Produkten in einem bestimmten Zeitraum.
 
 ## Schritte

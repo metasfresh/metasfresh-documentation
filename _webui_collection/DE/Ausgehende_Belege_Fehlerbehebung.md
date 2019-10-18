@@ -9,7 +9,7 @@ sequence: 10
 ref: outbound_documents_troubleshooting
 ---
 
-## Übersicht
+## Überblick
 In metasfresh wird für jeden gestarteten Prozess ein Arbeitspaket (engl.: *work package*) unter "Asynchrone Verarbeitungswarteschlage" angelegt, in dem Informationen wie Verarbeitungsstatus, Protokollstatus oder Fehlermeldungen eingesehen werden können. Auch fehlgeschlagene Prozesse verfügen somit über Arbeitspakete und können in der asynchronen Verarbeitungswarteschlage behoben werden.
 
 Schlägt die Übermittlung eines per E-Mail versendeten Beleges fehl, z.B. weil die Zugangsdaten des E-Mail-Kontos nicht stimmen oder der E-Mail-Server nicht erreichbar ist, dann kann das Arbeitspaket nicht verarbeitet werden und es wird mit einer Fehlermeldung versehen.

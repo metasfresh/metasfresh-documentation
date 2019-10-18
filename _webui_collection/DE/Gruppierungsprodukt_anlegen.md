@@ -9,7 +9,7 @@ sequence: 50
 ref: add_grouping_product
 ---
 
-## Übersicht
+## Überblick
 Ein Gruppierungsprodukt ist ein technisches Hilfsmittelprodukt, welches in [Aufträgen](Auftrag_erfassen) und [Angeboten](Angebot_erstellen) dazu dient, mehrere Auftragszeilen zu Kompensationsgruppen zusammenzufassen, um sie anschließend gemeinsam weiterzuverarbeiten.
 
 Bei der [Gruppenrabattierung](Auftragszeilengruppenrabatt) zum Beispiel kommt es als [*Rabattprodukt*](Kompensationsgruppen_manuell_erstellen) zur Anwendung, um die selektierten Auftragszeilen zu gruppieren und dann gemeinsam zu rabattieren oder aufzuschlagen.

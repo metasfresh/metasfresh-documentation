@@ -9,7 +9,7 @@ sequence: 30
 ref: outbound_documents_config_serial_letters
 ---
 
-## Übersicht
+## Überblick
 Du musst die ausgehenden Belege für die Serienbrief-Funktion einrichten, damit die erstellten Serienbriefe ebenfalls unter dem Menüpunkt "Ausgehende Belege" aufgelistet werden, wo Du sie dann entweder einzeln der Reihe nach oder kollektiv weiterverarbeiten kannst.
 
 ## Schritte

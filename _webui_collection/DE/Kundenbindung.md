@@ -11,7 +11,7 @@ sequence: 10
 ref: customer_retention
 ---
 
-## Übersicht
+## Überblick
 Legst Du in metasfresh einen Kunden neu an, hat er zunächst keinen besonderen Kundenstatus. Sobald Du jedoch einen Vertrag für diesen Kunden erfasst, wird er als *Neukunde* markiert. Ab dem Zeitpunkt der zweiten Rechnungsstellung erhält er dann den Status *Stammkunde*, welchen er bis zu 12 Monate nach Ablauf des Vertrages behält. Wird innerhalb dieses Zeitraums für diesen Kunden kein neuer Vertrag erfasst oder der alte verlängert, verliert er den Stammkundenstatus wieder.
 
 Die Kundenstatus werden täglich automatisch aktualisiert. Eine manuelle Aktualisierung ist über den Menüpunkt "[Create Missing Customer Retention](Menu)" möglich.

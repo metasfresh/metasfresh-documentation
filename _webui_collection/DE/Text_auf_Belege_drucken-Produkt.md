@@ -10,7 +10,7 @@ sequence: 20
 ref: print_text_on_documents-product
 ---
 
-## Übersicht
+## Überblick
 Der Text einer Produktbeschreibung erscheint auf allen entsprechenden Belegen unterhalb des Produktnamens. Weitere Informationen darüber, wie Du eigenen Text in Belege einfügen kannst, gibt es [hier](Text_auf_Belege_drucken-allgemein).
 
 Du kannst die Produktbeschreibung auch eigenständig in die Sprachen Deiner Geschäftspartner übertragen, damit beim [Drucken von Belegen](PDFVorschau) für fremdsprachige Geschäftspartner automatisch der in deren Sprachen entsprechend verfasste Text auf den Belegen aufgeführt wird. Weitere Informationen darüber, wie Du Dateneinträge mehrsprachig verwalten kannst, gibt es [hier](Mehrsprachige_Datenverwaltung).

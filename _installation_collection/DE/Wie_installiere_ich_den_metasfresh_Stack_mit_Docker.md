@@ -9,7 +9,7 @@ sequence: 10
 ref: How_do_I_setup_the_metasfresh_stack_using_Docker
 ---
 
-## Übersicht
+## Überblick
 Diese Anleitung beschreibt die Installation der folgenden Dienste gemäß [dieser Übersicht](../../howto_collection/Wie_sieht_die_Architektur_aus):
 * DB
 * App

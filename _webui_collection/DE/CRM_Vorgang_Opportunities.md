@@ -10,7 +10,7 @@ sequence: 30
 ref: crm_request_opportunities
 ---
 
-## Übersicht
+## Überblick
 Opportunities sind potenzielle Verkaufsmöglichkeiten im Vertrieb, die mit einer prozentualen Wahrscheinlichkeit angegeben werden können.
 
 In metasfresh werden Opportunities als eine *Vorgangsart* abgebildet, deren Status wie folgt sein kann:

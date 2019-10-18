@@ -9,7 +9,7 @@ sequence: 20
 ref: create_bom_upon_so_generation_setup
 ---
 
-## Übersicht
+## Überblick
 In metasfresh kannst Du in [Angeboten](Angebot_erstellen) einzelne [Produkte](NeuesProdukt), die miteinander kombiniert ein neues Verkaufsprodukt ergeben, zu einer Angebotsgruppe zusammenfassen (allg. auch als *Kompensationsgruppe* bezeichnet) und das Angebot dann Deinem Kunden unterbreiten. Ist er damit einverstanden, kannst Du das Angebot einfach in einen Auftrag umwandeln und die Lieferung des neuen Produktes in die Wege leiten.
 
 Bei der Umwandlung in einen Auftrag kreiert metasfresh dann automatisch aus der Kombination der Produktionsbestandteile eine neue Stückliste, woraufhin das neu zusammengestellte Verkaufsprodukt sofort und ohne zusätzlichen Mehraufwand für zukünftige Aufträge zur Verfügung steht.

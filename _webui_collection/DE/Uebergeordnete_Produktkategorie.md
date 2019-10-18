@@ -10,7 +10,7 @@ sequence: 20
 ref: parentproductcategory
 ---
 
-## Übersicht
+## Überblick
 Wenn Du eine Produktkategorie einer anderen unterordnest, welche mit einem [Kompensationsgruppenschema verknüpft](Kompensationsgruppenschema_Produktkategorie) ist, dann wird bei der [Rabattierung](Auftragszeilengruppenrabatt) [automatisch erstellter Kompensationsgruppen](Kompensationsgruppen_automatisch_erstellen) das Schema der übergeordneten Kategorie angewendet. So lassen sich einzelne Produkte unterschiedlich voneinander kategorisieren und trotzdem als Gruppe rabattieren.
 
 Bei der [Erstellung von Stücklisten aufgrund eines Angebots](Stueckliste_bei_Auftragsgenerierung) dient die übergeordnete Kategorie zur Kategorisierung des zusammengestellten Verkaufsproduktes.

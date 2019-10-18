@@ -10,7 +10,7 @@ sequence: 10
 ref: discount_types_in_metasfresh
 ---
 
-## Übersicht
+## Überblick
 Die Rabattschemata in metasfresh sind sehr flexibel und vielfältig einsetzbar. Sie können auf einzelne Produkte oder ganze Produktkategorien angewendet werden, als Staffel- und Gruppenrabatte konfiguriert und Geschäftspartnern individuell zugeordnet werden.
 
 Außerdem lassen sich die verschiedenen Rabattformen intelligent miteinander kombinieren, können manuell gewährt oder auch als automatische Rabattschemata konfiguriert werden.

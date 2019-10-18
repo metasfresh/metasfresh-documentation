@@ -10,7 +10,7 @@ sequence: 20
 ref: add_packing-instructions_to_price
 ---
 
-## Übersicht
+## Überblick
 Wenn Du ein Produkt verkaufst, tust Du dies nicht unbedingt immer nach der Bestandsmengeneinheit, sondern legst eine abweichende Verkaufsmengeneinheit fest, die je nachdem auch in [Gebinden](Handling_Unit_System) verpackt wird.
 
 Unter "Produkt Preise" kannst Du daher sowohl [Packvorschriften](Packvorschrift_erstellen) auswählen als auch einstellen, ob der Preis entweder von der Bestandsmengeneinheit oder von der Verkaufsmengeneinheit abhängig ist.

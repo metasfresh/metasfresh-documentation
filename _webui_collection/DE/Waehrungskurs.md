@@ -9,7 +9,7 @@ sequence: 20
 ref: currency_rate
 ---
 
-## Übersicht
+## Überblick
 Wenn Du mit einer anderen Währung als Deiner Stammwährung arbeiten möchtest, musst Du einen Währungskurs für die Umrechnung einstellen.
 
 **Beispiel:**<br>

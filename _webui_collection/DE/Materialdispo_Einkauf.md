@@ -9,7 +9,7 @@ sequence: 20
 ref: materialschedule_purchase
 ---
 
-## Übersicht
+## Überblick
 Die Materialdisposition ermittelt anhand der *Produktplandaten*, welche Produkte in welchen Mengen eingekauft werden müssen.
 
 ## Voraussetzungen

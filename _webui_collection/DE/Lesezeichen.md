@@ -9,7 +9,7 @@ sequence: 40
 ref: bookmarks
 ---
 
-## Übersicht
+## Überblick
 Das voreingestellte Menü listet nur einen Teil der verfügbaren Menüpunkte auf.<br>
 Lesezeichen können helfen, das Menü dem persönlichen Bedarf entsprechend übersichtlicher zu gestalten. So werden die von Dir am häufigsten verwendeten Menüpunkte direkt nach dem Öffnen des Menüs aufgeführt.
 

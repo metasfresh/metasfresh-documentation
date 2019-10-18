@@ -10,7 +10,7 @@ sequence: 50
 ref: credit_limit_request_approval
 ---
 
-## Übersicht
+## Überblick
 Bevor ein Kreditlimit wirksam werden kann, muss es von einem autorisierten Nutzer freigegeben werden.
 
 ## Schritte

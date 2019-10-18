@@ -8,7 +8,7 @@ sequence: 10
 ref: send_email_from_system
 ---
 
-## Übersicht
+## Überblick
 In metasfresh kannst Du überall, wo Du mit einem Partner in Kontakt stehst (z.B. in einem Auftrag oder einer Bestellung), eine E-Mail direkt aus dem System an diesen Partner senden.
 
 ## Schritte

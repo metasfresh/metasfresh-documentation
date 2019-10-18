@@ -9,7 +9,7 @@ sequence: 30
 ref: print_text_on_documents-doctype
 ---
 
-## Übersicht
+## Überblick
 In metasfresh kannst Du für jede Belegart (z.B. Angebot, Bestellung, Eingangsrechnung, Lieferschein, Standardauftrag usw.) eigene Texte erfassen, die dann bei der Belegerstellung automatisch an den dafür vorgesehenen Stellen auf dem Beleg eingefügt werden. Die Texte können sowohl am Anfang als auch am Ende des Beleges stehen (siehe [dieses Beispiel](Text_auf_Belege_drucken-allgemein)).
 
 Darüber hinaus kannst Du diese Texte auch eigenständig in die Sprachen Deiner Geschäftspartner übertragen, damit beim [Drucken von Belegen](PDFVorschau) für fremdsprachige Geschäftspartner automatisch die in deren Sprachen entsprechend verfassten Texte auf den Belegen aufgeführt werden. Weitere Informationen darüber, wie Du Dateneinträge mehrsprachig verwalten kannst, gibt es [hier](Mehrsprachige_Datenverwaltung).
