@@ -35,7 +35,7 @@ The mandatory fields are essential for a successful data import!
 | X | <abbr title="Name_Name">Name</abbr> | Circulating Assets | Name of the accounting element |
 |  | <abbr title="ParentValue_Schlüssel Übergeordnetes Konto">Parent Value</abbr> | 1 | Search key of the parent (summary) account (is also used to structure the elements among each other). |
 |  | <abbr title="AccountType_Kontenart">Account Type</abbr> | •&nbsp;A = Assets<br> •&nbsp;E = Expense<br> •&nbsp;O = Owner's Equity<br> •&nbsp;R = Revenue<br> •&nbsp;M = Memo<br> •&nbsp;L = Liabilities | Type of the account |
-|  | <abbr title="AccountSign_Kontovorzeichen">Account Sign</abbr> | •&nbsp;N / false = Natural<br> •&nbsp;C = Credit<br> •&nbsp;D = Debit | Indicates the natural sign of the account as a debit or credit. |
+|  | <abbr title="AccountSign_Kontovorzeichen">Account Sign</abbr> | •&nbsp;N = Natural<br> •&nbsp;C = Credit<br> •&nbsp;D = Debit | Indicates the natural sign of the account as a debit or credit. |
 |  | <abbr title="IsSummary_Zusammenfassungseintrag">Summary Level</abbr> | •&nbsp;Y / true = Yes<br> •&nbsp;N / false = No | In a tree structure, summary entities represent a superior branch that combines child entries and can therefore be used for reporting. |
 |  | <abbr title="PostActual_Buchen &quot;Ist&quot;">Post Actual</abbr> | •&nbsp;Y / true = Yes<br> •&nbsp;N / false = No | Indicates whether actual values can be posted to an element. |
 |  | <abbr title="PostBudget_Buchen &quot;Budget&quot;">Post Budget</abbr> | •&nbsp;Y / true = Yes<br> •&nbsp;N / false = No | Indicates whether budget values can be posted to an element. |
