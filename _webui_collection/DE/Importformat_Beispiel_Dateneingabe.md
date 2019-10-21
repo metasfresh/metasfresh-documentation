@@ -28,16 +28,16 @@ In dem folgenden Beispiel wird der Dateninhalt aus einer Datei einer Tabellenkal
 ### Einige nützliche Hinweise
 Die Angabe der Pflichtfelder ist unerlässlich für einen erfolgreichen Datenimport!
 
-| Pflichtfeld | Feldname | Beispiel | Hinweis |
+| Pflichtfeld | <abbr title="Bewege den Mauszeiger über den Feldnamen, um den entspr. Spaltennamen zu sehen.">Feldname</abbr> | Beispiel | Hinweis |
 | :---: | :---: | :--- | :--- |
-| X | Fenster | Produkt | Systeminterner Name des Eingabefensters. (Im Zweifel beim Systemadministrator erfragen.) |
-| X | Eingaberegister Name | Produktetikett | Name der benutzerdefinierten Registerkarte |
-| X | Unterregister Name | Datenerfassung | Name des Unterregisters |
-|  | Sektion Name | Technische Daten | Name der Sektion |
-|  | Zeile Name | •&nbsp;10<br> •&nbsp;20<br> •&nbsp;... | Reihenfolge der Zeile |
-| X | Datensatz-Key | 0815_Ottomotor | Suchschlüssel des Dateneintrages |
-| X | Feld Name | Datum | Name des Feldes<br> (**Wichtiger Hinweis:** Bei mehreren Feldern mit demselben Namen ***müssen*** der Sektionsname und/oder die Reihenfolge der Zeile angegeben werden!) |
-|  | Feld Wert | 2020-02-20 | Wert bzw. Inhalt des Feldes.<br> Für folgende Felddatentypen (siehe [Erweiterte Dateneingabe - Feld](Sektionszeilen_Felder_hinzufuegen)) können folgende Werte angegeben werden:<br> •&nbsp;Datum: `JJJJ-MM-TT` (gem. ISO 8601)<br> •&nbsp;Kontrollkästchen: Y (`= aktiviert`), N (`= deaktiviert`)<br> •&nbsp;Liste: `Name des Listenelementes`<br> •&nbsp;Textbox: `Text (mehrzeilig)`<br> •&nbsp;Textfeld: `Text (einzeilig)`<br> •&nbsp;Zahl: `Zahlenwert`<br><br> Wird kein Feldwert angegeben, wird der ggf. vorhandene Feldinhalt in dem Eingaberegister gelöscht. |
+| X | <abbr title="WindowInternalName_Window Internal Name">Fenster</abbr> | Produkt | Systeminterner Name des Eingabefensters. (Im Zweifel beim Systemadministrator erfragen.) |
+| X | <abbr title="DataEntry_Tab_Name_Eingaberegister Name">Eingaberegister Name</abbr> | Produktetikett | Name der benutzerdefinierten Registerkarte |
+| X | <abbr title="DataEntry_SubTab_Name_Unterregister Name">Unterregister Name</abbr> | Datenerfassung | Name des Unterregisters |
+|  | <abbr title="DataEntry_Section_Name_Sektion Name">Sektion Name</abbr> | Technische Daten | Name der Sektion |
+|  | <abbr title="DataEntry_Line_Name_Zeile Name">Zeile Name</abbr> | •&nbsp;10<br> •&nbsp;20<br> •&nbsp;... | Reihenfolge der Zeile |
+| X | <abbr title="ExternalId_External ID">Datensatz-Key</abbr> | 0815_Ottomotor | Suchschlüssel des Dateneintrages |
+| X | <abbr title="FieldName_Field name">Feld Name</abbr> | Datum | Name des Feldes<br> (**Wichtiger Hinweis:** Bei mehreren Feldern mit demselben Namen ***müssen*** der Sektionsname und/oder die Reihenfolge der Zeile angegeben werden!) |
+|  | <abbr title="FieldValue_Field Value">Feld Wert</abbr> | 2020-02-20 | Wert bzw. Inhalt des Feldes.<br> Für folgende Felddatentypen (siehe [Erweiterte Dateneingabe - Feld](Sektionszeilen_Felder_hinzufuegen)) können folgende Werte angegeben werden:<br> •&nbsp;Datum: `JJJJ-MM-TT` (gem. ISO 8601)<br> •&nbsp;Kontrollkästchen: Y (`= aktiviert`), N (`= deaktiviert`)<br> •&nbsp;Liste: `Name des Listenelementes`<br> •&nbsp;Textbox: `Text (mehrzeilig)`<br> •&nbsp;Textfeld: `Text (einzeilig)`<br> •&nbsp;Zahl: `Zahlenwert`<br><br> Wird kein Feldwert angegeben, wird der ggf. vorhandene Feldinhalt in dem Eingaberegister gelöscht. |
 
 ## Nächste Schritte
 - [Benutzerdefinierte Dateneingaben importieren](Dateneingaben_importieren).

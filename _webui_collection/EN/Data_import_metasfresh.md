@@ -30,6 +30,7 @@ You can quickly import externally stored data (such as Excel spreadsheets with d
 | Chart of Accounts Data | Import Account | [view](Import_format_example_charts_of_accounts) | [read](Import_charts_of_accounts) |
 | Custom Data Entries | Import Data Entry Record | [view](Import_format_example_data_entry) | [read](Import_custom_data_entries) |
 | Discount Schema Data | Discount Schema Import | [view](Import_format_example_discount_schema) | [read](Import_discount_schema) |
-| Postal Data | Import Postal Code Data | [view](Import_format_example_postal_data) | [read](Import_postal_data) |
+| Postal Data | Import Postal Data | [view](Import_format_example_postal_data) | [read](Import_postal_data) |
 | Product Data | Import Product | [view](Import_format_example_product) | [read](Import_product_data) |
 | Replenishment Data | Import Replenishment | [view](Import_format_example_replenishments) | [read](Import_replenishment_data) |
+| User Data | Import User | [view](Import_format_example_users) | [read](Import_user_data) |

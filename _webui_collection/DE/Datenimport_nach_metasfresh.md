@@ -32,6 +32,7 @@ Mithilfe der Importfunktion kannst Du extern gespeicherte Daten (wie z.B. Excel-
 | IFA-Produktdaten | Import Pharma Product | [ansehen](Importformat_Beispiel_Produkt_Pharma) | [lesen](Produktdaten_importieren_Pharma) |
 | Kontenrahmendaten | Import - Kontendefinition | [ansehen](Importformat_Beispiel_Kontenrahmen) | [lesen](Kontenrahmendaten_importieren) |
 | Nachbestelldaten | Import Replenishment | [ansehen](Importformat_Beispiel_Nachbestellung) | [lesen](Nachbestelldaten_importieren) |
-| Postalische Daten | Import Postal Code Data | [ansehen](Importformat_Beispiel_postalische_Daten) | [lesen](Postalische_Daten_importieren) |
+| Nutzerdaten | Import User | [ansehen](Importformat_Beispiel_Nutzer) | [lesen](Nutzerdaten_importieren) |
+| Postalische Daten | Import Postal Data | [ansehen](Importformat_Beispiel_postalische_Daten) | [lesen](Postalische_Daten_importieren) |
 | Produktdaten | Import - Produkt | [ansehen](Importformat_Beispiel_Produkt) | [lesen](Produktdaten_importieren) |
 | Rabattschemadaten | I_DiscountSchema | [ansehen](Importformat_Beispiel_Rabattschema) | [lesen](Rabattschema_importieren) |

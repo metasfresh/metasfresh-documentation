@@ -12,11 +12,11 @@ ref: import_postal_data
 
 ## Requirements
 Make sure to comply with all requirements for the [data import in metasfresh](Data_import_metasfresh). [Here you can find a format example for importing postal data](Import_format_example_postal_data).
- >**Note:** For importing postal data, you require an import format that is configured with the **database table** *Import Postal Code Data*.
+ >**Note:** For importing postal data, you require an import format that is configured with the **database table** *Import Postal Data*.
 
 ## Steps
 1. Open "Data Import" from the [menu](Menu).
-1. Open an appropriate data import entry or [add a new one](add_new_data_import_entry).
+1. Open a suitable data import entry or [add a new one](add_new_data_import_entry).
 
 ### Upload and import the file
 1. [Upload your import file containing the postal data](File_handling).

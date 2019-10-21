@@ -29,17 +29,17 @@ In dem folgenden Beispiel wird der Dateninhalt aus einer Datei einer Tabellenkal
 ### Einige nützliche Hinweise
 Die Angabe der Pflichtfelder sowie die vorausgesetzte Zuordnung der IBANs zu existierenden Bankkonten sind unerlässlich für einen erfolgreichen Datenimport!
 
-| Pflichtfeld | Feldname | Spaltenname | Beispiel | Hinweis |
-| :---: | :--- | :--- | :--- | :--- |
-| X | Kopfzeile IBAN | IBAN_IBAN | DE00 1234 5678 9876 5432 10 | IBAN des Kontos, auf das Zahlungsein- und -ausgänge gebucht werden (üblicherweise z.B. das Unternehmenskonto), wird hier als Konstante angegeben. Sie muss daher nicht in der Importdatei enthalten sein. |
-|  | Effektives Datum | ValutaDate_Effective date | 14.05.2018 | Datum, ab dem der Geldbetrag effektiv zur Verfügung steht. |
-|  | Valutadatum | StatementLineDate_Valuta Datum | 15.05.2018 | Wertstellungsdatum |
-|  | Rechnungspartner | Bill_BPartner_Name_Name Rechnungspartner | Sequoia GmbH | Name des Rechnungspartners |
-| X | IBAN von/zu | IBAN_To_IBAN_To | CH10 9876 5432 1234 5678 90 | IBAN des Empfänger- oder Zahlungskontos |
-|  | Buchungsart | TrxType_Transaction Type | SEPA Überweisung | Buchungsart der Auszugsposition |
-|  | Positionsbeschreibung | LineDescription_Positions-Beschreibung | Stammkapital | Beschreibung der Auszugsposition |
-| X | Summe Auszug | StmtAmt_Statement amount | 12.500,00 | Betrag der Auszugsposition |
-| X | Währung | ISO_Code_ISO Währungscode | EUR | Dreistelliger Buchstabencode (gem. ISO 4217).<br> (*Den ISO-Währungscode kannst Du unter dem Menüpunkt "[Währung](Menu)" nachschauen.*) |
+| Pflichtfeld | <abbr title="Bewege den Mauszeiger über den Feldnamen, um den entspr. Spaltennamen zu sehen.">Feldname</abbr> | Beispiel | Hinweis |
+| :---: | :---: | :--- | :--- |
+| X | <abbr title="IBAN_IBAN">Kopfzeile IBAN</abbr> | DE00 1234 5678 9876 5432 10 | IBAN des Kontos, auf das Zahlungsein- und -ausgänge gebucht werden (üblicherweise z.B. das Unternehmenskonto), wird hier als Konstante angegeben. Sie muss daher nicht in der Importdatei enthalten sein. |
+|  | <abbr title="ValutaDate_Effective date">Effektives Datum</abbr> | 14.05.2018 | Datum, ab dem der Geldbetrag effektiv zur Verfügung steht. |
+|  | <abbr title="StatementLineDate_Valuta Datum">Valutadatum</abbr> | 15.05.2018 | Wertstellungsdatum |
+|  | <abbr title="Bill_BPartner_Name_Name Rechnungspartner">Rechnungspartner</abbr> | Sequoia GmbH | Name des Rechnungspartners |
+| X | <abbr title="IBAN_To_IBAN_To">IBAN von/zu</abbr> | CH10 9876 5432 1234 5678 90 | IBAN des Empfänger- oder Zahlungskontos |
+|  | <abbr title="TrxType_Transaction Type">Buchungsart</abbr> | SEPA Überweisung | Buchungsart der Auszugsposition |
+|  | <abbr title="LineDescription_Positions-Beschreibung">Positionsbeschreibung</abbr> | Stammkapital | Beschreibung der Auszugsposition |
+| X | <abbr title="StmtAmt_Statement amount">Summe Auszug</abbr> | 12.500,00 | Betrag der Auszugsposition |
+| X | <abbr title="ISO_Code_ISO Währungscode">Währung</abbr> | EUR | Dreistelliger Buchstabencode (gem. ISO 4217).<br> (*Den ISO-Währungscode kannst Du unter dem Menüpunkt "[Währung](Menu)" nachschauen.*) |
 
 ## Nächste Schritte
 - [Bankauszugsdaten importieren](Bankauszugsdaten_importieren).

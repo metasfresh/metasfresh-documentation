@@ -16,7 +16,7 @@ Stelle sicher, dass alle Voraussetzungen für den [Datenimport in metasfresh](Da
 
 ## Schritte
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Daten Import".
-1. Öffne einen geeigneten Datenimporteintrag oder [lege einen neuen an](Datenimporteintrag_anlegen).
+1. Öffne einen passenden Datenimporteintrag oder [lege einen neuen an](Datenimporteintrag_anlegen).
 
 ### Importdatei hochladen und importieren
 1. [Lade Deine Importdatei mit den Nachbestelldaten hoch](Dateihandling).

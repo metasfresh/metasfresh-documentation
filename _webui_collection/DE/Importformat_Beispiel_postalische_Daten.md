@@ -11,7 +11,7 @@ ref: import_format_example_postal_data
 ---
 
 ## Überblick
-Für den Import postalischer Daten benötigst Du ein Importformat, in dem die **DB-Tabelle** *Import Postal Code Data* eingestellt ist.
+Für den Import postalischer Daten benötigst Du ein Importformat, in dem die **DB-Tabelle** *Import Postal Data* eingestellt ist.
 
 In dem folgenden Beispiel wird der Dateninhalt aus einer Datei einer Tabellenkalkulationssoftware (hier z.B. eine *Excel*-Datei vor der [Konvertierung in eine CSV- oder TXT-Datei](Importdatei_nuetzliche_Hinweise)) dem Importformat für postalische Daten gegenübergestellt:
 
@@ -28,14 +28,14 @@ In dem folgenden Beispiel wird der Dateninhalt aus einer Datei einer Tabellenkal
 ### Einige nützliche Hinweise
 Die Angabe der Pflichtfelder ist unerlässlich für einen erfolgreichen Datenimport!
 
-| Pflichtfeld | Feldname | Beispiel | Hinweis |
+| Pflichtfeld | <abbr title="Bewege den Mauszeiger über den Feldnamen, um den entspr. Spaltennamen zu sehen.">Feldname</abbr> | Beispiel | Hinweis |
 | :---: | :---: | :--- | :--- |
-|  | PLZ | 34049 | Postleitzahl |
-|  | Ort | Konstantinopel | Ort bzw. Stadt |
-| X | ISO-Ländercode | TR | TR = **T**ü**r**kei<br> Zweistelliger Buchstabencode (gem. ISO 3166-1 Alpha-2).<br> (*Den ISO-Ländercode kannst Du unter dem Menüpunkt "[Land, Region](Menu)" nachschauen.*) |
-|  | Region | IST | IST = **Ist**anbul<br> (*Das Akronym bzw. den **Namen** einer Region kannst Du unter dem Menüpunkt "[Land, Region](Menu)" unter der Registerkarte "Region" des jeweiligen Ländereintrages nachschauen.*) |
-|  | Gültig ab | 11.03.330 | Datum, ab dem die postalischen Daten gültig sind. |
-|  | Gültig bis | 01.01.1453 | Datum, bis zu dem die postalischen Daten gültig sind. |
+|  | <abbr title="Postal_PLZ">PLZ</abbr> | 34049 | Postleitzahl |
+|  | <abbr title="City_Ort">Ort</abbr> | Konstantinopel | Ort bzw. Stadt |
+| X | <abbr title="CountryCode_ISO Ländercode">ISO-Ländercode</abbr> | TR | TR = **T**ü**r**kei<br> Zweistelliger Buchstabencode (gem. ISO 3166-1 Alpha-2).<br> (*Den ISO-Ländercode kannst Du unter dem Menüpunkt "[Land, Region](Menu)" nachschauen.*) |
+|  | <abbr title="RegionName_Region">Region</abbr> | IST | IST = **Ist**anbul<br> (*Das Akronym bzw. den **Namen** einer Region kannst Du unter dem Menüpunkt "[Land, Region](Menu)" unter der Registerkarte "Region" des jeweiligen Ländereintrages nachschauen.*) |
+|  | <abbr title="ValidFrom_Gültig ab">Gültig ab</abbr> | 11.03.330 | Datum, ab dem die postalischen Daten gültig sind. |
+|  | <abbr title="ValidTo_Gültig bis">Gültig bis</abbr> | 01.01.1453 | Datum, bis zu dem die postalischen Daten gültig sind. |
 
 ## Nächste Schritte
 - [Postalische Daten importieren](Postalische_Daten_importieren).

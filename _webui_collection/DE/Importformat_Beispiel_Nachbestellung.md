@@ -27,15 +27,15 @@ In dem folgenden Beispiel wird der Dateninhalt aus einer Datei einer Tabellenkal
 
 ### Einige nützliche Hinweise
 
-| Pflichtfeld | Feldname | Beispiel | Hinweis |
+| Pflichtfeld | <abbr title="Bewege den Mauszeiger über den Feldnamen, um den entspr. Spaltennamen zu sehen.">Feldname</abbr> | Beispiel | Hinweis |
 | :---: | :---: | :--- | :--- |
-| X | Produktschlüssel | P002737 | **Suchschlüssel** des Produktes für die Nachbestellung (alphanumerische Zeichenfolge) |
-| X | Lager-Schlüssel | Lager_01 | **Suchschlüssel** des Lagers (alphanumerische Zeichenfolge) |
-| X | ReplenishType | *Bei Unterschreitung Minimalbestand* | Art der Wiederauffüllung |
-| X | Mindestmenge | 100 | Minimaler Bestand für das Produkt |
-| X | Maximalmenge | 500 | Maximaler Bestand für das Produkt |
-|  | Source Warehouse Value | HptLager | **Suchschlüssel** des Ausgangslagers |
-|  | Organisation Key<br> (=OrgValue) | metasfresh AG | **Suchschlüssel** der Organisation.<br> ***Achtung:*** Nicht der Name!<br> (*Den Suchschlüssel kannst Du unter dem Menüpunkt "[Organisation](Menu)" nachschauen.*) |
+| X | <abbr title="ProductValue_Produktschlüssel">Produktschlüssel</abbr> | P002737 | **Suchschlüssel** des Produktes für die Nachbestellung (alphanumerische Zeichenfolge) |
+| X | <abbr title="WarehouseValue_Lager-Schlüssel">Lager-Schlüssel</abbr> | Lager_01 | **Suchschlüssel** des Lagers (alphanumerische Zeichenfolge) |
+| X | <abbr title="ReplenishType_Art der Wiederauffüllung">ReplenishType</abbr> | *Bei Unterschreitung Minimalbestand* | Art der Wiederauffüllung |
+| X | <abbr title="Level_Min_Mindestmenge">Mindestmenge</abbr> | 100 | Minimaler Bestand für das Produkt |
+| X | <abbr title="Level_Max_Maximalmenge">Maximalmenge</abbr> | 500 | Maximaler Bestand für das Produkt |
+|  | <abbr title="WarehouseSourceValue_Source Warehouse Value">Source Warehouse Value</abbr> | HptLager | **Suchschlüssel** des Ausgangslagers |
+|  | <abbr title="OrgValue_Organisations-Schlüssel">Organisation Key</abbr><br> (=OrgValue) | metasfresh AG | **Suchschlüssel** der Organisation.<br> ***Achtung:*** Nicht der Name!<br> (*Den Suchschlüssel kannst Du unter dem Menüpunkt "[Organisation](Menu)" nachschauen.*) |
 
 ## Nächste Schritte
 - [Nachbestelldaten importieren](Nachbestelldaten_importieren).

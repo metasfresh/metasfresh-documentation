@@ -11,7 +11,7 @@ ref: import_format_example_postal_data
 ---
 
 ## Overview
-For importing postal data, you require an import format that is configured with the **database table** *Import Postal Code Data*.
+For importing postal data, you require an import format that is configured with the **database table** *Import Postal Data*.
 
 The example below compares the data content of a file from a spreadsheet software (here, e.g., an *Excel* file prior to its [conversion to a CSV or TXT file](Import_file_useful_tips)) with the import format for postal data:
 
@@ -28,14 +28,14 @@ The example below compares the data content of a file from a spreadsheet softwar
 ### Some useful notes
 The mandatory fields are essential for a successful data import!
 
-| Mandatory Field | Field Name | Example | Note |
+| Mandatory Field | <abbr title="Hover your cursor over the field name to see the corresponding column name.">Field Name</abbr> | Example | Note |
 | :---: | :---: | :--- | :--- |
-|  | ZIP | 34049 | Postal code |
-|  | City | Constantinople | Name of the city |
-| X | ISO Country Code | TR | TR = **T**u**r**key<br> Two-letter country code (in acc. with ISO 3166-1 alpha-2).<br> (*You can look up the ISO country code under "[Country, Region](Menu)" in the menu.*) |
-|  | Region | IST | IST = **Ist**anbul<br> (*You can look up the acronym (**Name**) of a region under the record tab "Region" of the respective country entry under "[Country, Region](Menu)" in the menu.*) |
-|  | Valid from | 11.03.330 | Date from when the postal data are valid. |
-|  | Valid to | 01.01.1453 | Date until the postal data are valid. |
+|  | <abbr title="Postal_Postal">ZIP</abbr>  | 34049 | Postal code |
+|  | <abbr title="City_City Name">City</abbr>  | Constantinople | Name of the city |
+| X | <abbr title="CountryCode_ISO Country Code">ISO Country Code</abbr>  | TR | TR = **T**u**r**key<br> Two-letter country code (in acc. with ISO 3166-1 alpha-2).<br> (*You can look up the ISO country code under "[Country, Region](Menu)" in the menu.*) |
+|  | <abbr title="RegionName_Region Name">Region</abbr>  | IST | IST = **Ist**anbul<br> (*You can look up the acronym (**Name**) of a region under the record tab "Region" of the respective country entry under "[Country, Region](Menu)" in the menu.*) |
+|  | <abbr title="ValidFrom_Valid from">Valid from</abbr>  | 11.03.330 | Date from when the postal data are valid. |
+|  | <abbr title="ValidTo_Valid to">Valid to</abbr>  | 01.01.1453 | Date until the postal data are valid. |
 
 ## Next Steps
 - [Import postal data](Import_postal_data).

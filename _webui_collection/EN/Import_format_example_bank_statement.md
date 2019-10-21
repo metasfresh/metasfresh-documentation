@@ -29,17 +29,17 @@ The example below compares the data content of a file from a spreadsheet softwar
 ### Some useful notes
 The mandatory fields as well as the requirement that the IBANs belong to existing bank accounts are essential for a successful data import!
 
-| Mandatory Field | Field Name | Example | Note |
+| Mandatory Field | <abbr title="Hover your cursor over the field name to see the corresponding column name.">Field Name</abbr> | Example | Note |
 | :---: | :---: | :--- | :--- |
-| X | Header IBAN | DE00 1234 5678 9876 5432 10 | IBAN of the account that is used for incoming and outgoing payments (usually, e.g., the company account) is stated here as a constant value. Therefore, it does not have to be included in the import file. |
-|  | Effective Date | 14.05.2018 | Date from when the money is effectively available. |
-|  | Statement Line Date | 15.05.2018 | Value date |
-|  | Bill-to Partner | Sequoia Inc. | Name of the invoice recipient |
-| X | IBAN from/to | CH10 9876 5432 1234 5678 90 | IBAN of the recipient or payment account |
-|  | Transaction Type | SEPA credit transfer | Transaction type of the statement line |
-|  | Line Description | Share Capital | Description of the statement line |
-| X | Statement Amount | 12,500.00 | Amount of the statement line |
-| X | ISO Currency Code | USD | Three-letter currency code (in acc. with ISO 4217).<br> (*You can look up the ISO currency code under "[Currency](Menu)" in the menu.*) |
+| X | <abbr title="IBAN_IBAN">Header IBAN</abbr> | DE00 1234 5678 9876 5432 10 | IBAN of the account that is used for incoming and outgoing payments (usually, e.g., the company account) is stated here as a constant value. Therefore, it does not have to be included in the import file. |
+|  | <abbr title="ValutaDate_Effective date">Effective Date</abbr> | 14.05.2018 | Date from when the money is effectively available. |
+|  | <abbr title="StatementLineDate_Valuta Datum">Statement Line Date</abbr> | 15.05.2018 | Value date |
+|  | <abbr title="Bill_BPartner_Name_Name Rechnungspartner">Bill-to Partner</abbr> | Sequoia Inc. | Name of the invoice recipient |
+| X | <abbr title="IBAN_To_IBAN_To">IBAN from/to</abbr> | CH10 9876 5432 1234 5678 90 | IBAN of the recipient or payment account |
+|  | <abbr title="TrxType_Transaction Type">Transaction Type</abbr> | SEPA credit transfer | Transaction type of the statement line |
+|  | <abbr title="LineDescription_Positions-Beschreibung">Line Description</abbr> | Share Capital | Description of the statement line |
+| X | <abbr title="StmtAmt_Statement amount">Statement Amount</abbr> | 12,500.00 | Amount of the statement line |
+| X | <abbr title="ISO_Code_ISO Währungscode">Currency</abbr> | USD | Three-letter currency code (in acc. with ISO 4217).<br> (*You can look up the ISO currency code under "[Currency](Menu)" in the menu.*) |
 
 ## Next Steps
 - [Import bank statement data](Import_bank_statement_data).

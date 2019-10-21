@@ -23,6 +23,7 @@ The following data can be imported to metasfresh:
 - [Postal data](Import_postal_data)
 - [Product data](Import_product_data)
 - [Replenishment data](Import_replenishment_data)
+- [User data](Import_user_data)
 
 ## Steps
 
@@ -69,6 +70,7 @@ If you want to add a new import format with the same format fields as an existin
 - [Import postal data](Import_postal_data).
 - [Import product data](Import_product_data).
 - [Import replenishment data](Import_replenishment_data).
+- [Import user data](Import_user_data).
 
 ## Example
 ![](assets/Add_import_format.gif)

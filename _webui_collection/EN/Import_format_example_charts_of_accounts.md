@@ -28,19 +28,19 @@ The example below compares the data content of a file from a spreadsheet softwar
 ### Some useful notes
 The mandatory fields are essential for a successful data import!
 
-| Mandatory Field | Field Name | Example | Note |
+| Mandatory Field | <abbr title="Hover your cursor over the field name to see the corresponding column name.">Field Name</abbr> | Example | Note |
 | :---: | :---: | :--- | :--- |
-| X | Element Name | Accounts Import | Name of the chart of accounts |
-| X | Value | 10 | Search key of the accounting element (is also used to structure the elements among each other). |
-| X | Name | Circulating Assets | Name of the accounting element |
-|  | Parent Value | 1 | Search key of the parent (summary) account (is also used to structure the elements among each other). |
-|  | Account Type | •&nbsp;A = Assets<br> •&nbsp;E = Expense<br> •&nbsp;O = Owner's Equity<br> •&nbsp;R = Revenue<br> •&nbsp;M = Memo<br> •&nbsp;L = Liabilities | Type of the account |
-|  | Account Sign | •&nbsp;N = Natural<br> •&nbsp;C = Credit<br> •&nbsp;D = Debit | Indicates the natural sign of the account as a debit or credit. |
-|  | Summary Level | •&nbsp;Y = Yes<br> •&nbsp;N = No | In a tree structure, summary entities represent a superior branch that combines child entries and can therefore be used for reporting. |
-|  | Post Actual | •&nbsp;Y = Yes<br> •&nbsp;N = No | Indicates whether actual values can be posted to an element. |
-|  | Post Budget | •&nbsp;Y = Yes<br> •&nbsp;N = No | Indicates whether budget values can be posted to an element. |
-|  | Post Statistical | •&nbsp;Y = Yes<br> •&nbsp;N = No | Indicates whether statistical values can be posted to an element. |
-|  | Document Controlled | •&nbsp;Y = Yes<br> •&nbsp;N = No | If an account is controlled by a document, you cannot post to it manually. |
+| X | <abbr title="ElementName_Element Name">Element Name</abbr> | Accounts Import | Name of the chart of accounts |
+| X | <abbr title="Value_Suchschlüssel">Value</abbr> | 10 | Search key of the accounting element (is also used to structure the elements among each other). |
+| X | <abbr title="Name_Name">Name</abbr> | Circulating Assets | Name of the accounting element |
+|  | <abbr title="ParentValue_Schlüssel Übergeordnetes Konto">Parent Value</abbr> | 1 | Search key of the parent (summary) account (is also used to structure the elements among each other). |
+|  | <abbr title="AccountType_Kontenart">Account Type</abbr> | •&nbsp;A = Assets<br> •&nbsp;E = Expense<br> •&nbsp;O = Owner's Equity<br> •&nbsp;R = Revenue<br> •&nbsp;M = Memo<br> •&nbsp;L = Liabilities | Type of the account |
+|  | <abbr title="AccountSign_Kontovorzeichen">Account Sign</abbr> | •&nbsp;N / false = Natural<br> •&nbsp;C = Credit<br> •&nbsp;D = Debit | Indicates the natural sign of the account as a debit or credit. |
+|  | <abbr title="IsSummary_Zusammenfassungseintrag">Summary Level</abbr> | •&nbsp;Y / true = Yes<br> •&nbsp;N / false = No | In a tree structure, summary entities represent a superior branch that combines child entries and can therefore be used for reporting. |
+|  | <abbr title="PostActual_Buchen &quot;Ist&quot;">Post Actual</abbr> | •&nbsp;Y / true = Yes<br> •&nbsp;N / false = No | Indicates whether actual values can be posted to an element. |
+|  | <abbr title="PostBudget_Buchen &quot;Budget&quot;">Post Budget</abbr> | •&nbsp;Y / true = Yes<br> •&nbsp;N / false = No | Indicates whether budget values can be posted to an element. |
+|  | <abbr title="PostStatistical_Buchen &quot;statistisch&quot;">Post Statistical</abbr> | •&nbsp;Y / true = Yes<br> •&nbsp;N / false = No | Indicates whether statistical values can be posted to an element. |
+|  | <abbr title="IsDocControlled_Belegartgesteuert">Document Controlled</abbr> | •&nbsp;Y / true = Yes<br> •&nbsp;N / false = No | If an account is controlled by a document, you cannot post to it manually. |
 
 ## Next Steps
 - [Import chart of accounts data](Import_charts_of_accounts).

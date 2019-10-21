@@ -40,3 +40,4 @@ Which columns you can choose from when adding an import format depends on the **
 - [Import postal data](Import_postal_data).
 - [Import product data](Import_product_data).
 - [Import replenishment data](Import_replenishment_data).
+- [Import user data](Import_user_data).

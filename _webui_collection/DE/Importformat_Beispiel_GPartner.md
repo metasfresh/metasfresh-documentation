@@ -30,11 +30,11 @@ Die Angabe der Pflichtfelder ist unerlässlich für einen erfolgreichen Datenimp
 
 | Pflichtfeld | <abbr title="Bewege den Mauszeiger über den Feldnamen, um den entspr. Spaltennamen zu sehen.">Feldname</abbr> | Beispiel | Hinweis |
 | :---: | :--- | :--- | :--- |
-| X | <abbr title="Value_Suchschlüssel">Suchschlüssel</abbr> | I_GP_001 | Suchschlüssel des Geschäftspartners (eindeutige alphanumerische Zeichenfolge) |
+| X | <abbr title="BPValue_Nr">Suchschlüssel</abbr> | I_GP_001 | Suchschlüssel des Geschäftspartners (eindeutige alphanumerische Zeichenfolge) |
 | X | <abbr title="Companyname_Firmenname">Firmenname</abbr> | Import AG | Firmenname |
 | X | <abbr title="Name_Name">Name</abbr> | Bob Ross | Geschäftspartnername (bei Einzelpersonen) |
 | (X) | •&nbsp;<abbr title="Firstname_Vorname">Vorname</abbr><br> •&nbsp;<abbr title="Lastname_Nachname">Nachname</abbr> | •&nbsp;Johann<br> •&nbsp;Schmidt | Die Angabe ist nur im Zusammenhang mit zu importierenden **Kontakten** erforderlich. |
-| (X) | <abbr title="CountryCode_ISO-Ländercode">ISO-Ländercode</abbr> | DE | DE = **De**utschland<br> Zweistelliger Buchstabencode (gem. ISO 3166-1 Alpha-2).<br> Die Angabe ist nur im Zusammenhang mit zu importierenden Adressen erforderlich.<br> (*Den ISO-Ländercode kannst Du unter dem Menüpunkt "[Land, Region](Menu)" nachschauen.*) |
+| (X) | <abbr title="CountryCode_ISO Ländercode">ISO-Ländercode</abbr> | DE | DE = **De**utschland<br> Zweistelliger Buchstabencode (gem. ISO 3166-1 Alpha-2).<br> Die Angabe ist nur im Zusammenhang mit zu importierenden Adressen erforderlich.<br> (*Den ISO-Ländercode kannst Du unter dem Menüpunkt "[Land, Region](Menu)" nachschauen.*) |
 | X | <abbr title="GroupValue_Gruppen-Schlüssel">Gruppen-Schlüssel</abbr> | •&nbsp;Standard<br> •&nbsp;1000001 | **Suchschlüssel** der Geschäftspartnergruppe.<br> ***Achtung:*** Nicht der Name!<br> Lege die Geschäftspartnergruppe erst in metasfresh an und verwende dann hier ihren Suchschlüssel.<br> (*Den Suchschlüssel kannst Du unter dem Menüpunkt "[Geschäftspartnergruppen](Menu)" im jeweiligen Eintrag nachschauen.*) |
 |  | <abbr title="RegionName_Region">Region</abbr> | •&nbsp;NRW<br> •&nbsp;AZ | NRW = **N**ord**r**hein-**W**estfalen<br> AZ = **A**ri**z**ona<br> (*Das Akronym bzw. den **Namen** einer Region kannst Du unter dem Menüpunkt "[Land, Region](Menu)" unter der Registerkarte "Region" des jeweiligen Ländereintrages nachschauen.*) |
 |  | <abbr title="OrgValue_Organisations-Schlüssel">OrgValue</abbr> | metasfresh AG | **Suchschlüssel** der Organisation.<br> ***Achtung:*** Nicht der Name!<br> (*Den Suchschlüssel kannst Du unter dem Menüpunkt "[Organisation](Menu)" nachschauen.*) |
