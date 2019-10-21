@@ -29,3 +29,4 @@ ref: add_new_data_import_entry
 - [Import postal data](Import_postal_data).
 - [Import product data](Import_product_data).
 - [Import replenishment data](Import_replenishment_data).
+- [Import user data](Import_user_data).

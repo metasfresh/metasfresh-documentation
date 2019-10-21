@@ -28,18 +28,18 @@ In dem folgenden Beispiel wird der Dateninhalt aus einer Datei einer Tabellenkal
 ### Einige nützliche Hinweise
 Die Angabe der Pflichtfelder ist unerlässlich für einen erfolgreichen Datenimport!
 
-| Pflichtfeld | Feldname | Beispiel | Hinweis |
+| Pflichtfeld | <abbr title="Bewege den Mauszeiger über den Feldnamen, um den entspr. Spaltennamen zu sehen.">Feldname</abbr> | Beispiel | Hinweis |
 | :---: | :---: | :--- | :--- |
-| X | Geschäftspartner-Schlüssel | GP_001 | Geschäftspartnernummer (eindeutige alphanumerische Zeichenfolge) |
-| X | Produktschlüssel | FF_12345 | **Suchschlüssel** des Produktes (alphanumerische Zeichenfolge) |
-| | Menge | 100 | **Mengenstufe** des Produktes, ab der eine Preiskondition gilt. |
-| | Base_PricingSystem_Value | Testpreisliste Kunden | **Suchschlüssel** des Preissystems, das als Grundlage für die Preisbestimmung dient. |
-| | PriceBase | •&nbsp;Preissystem<br> •&nbsp;Festpreis | **Preisgrundlage** kann entweder das Preissystem sein oder ein abweichend bestimmter Festpreis.  |
-| | Standardpreis | 2,99 | **Festpreis**. Die Angabe ist nur erforderlich, sofern *Festpreis* als **Preisgrundlage** angegeben ist. |
-| | Aufschlag auf Standardpreis | 1,49 | Preisaufschlag. Die Angabe ist nur erforderlich, sofern *Preissystem* als **Preisgrundlage** angegeben ist. |
-| | Break Discount % | 5 | **Mengenrabatt** in Prozent |
-| | Zahlungskonditions-Schlüssel | 14 Tage 2% | **Zahlungsziel** |
-| | Rabatt | 5 | **Skonto** bei Zahlung innerhalb der Frist. |
+| X | <abbr title="BPartner_Value_Geschäftspartner-Schlüssel">Geschäftspartner-Schlüssel</abbr> | GP_001 | Geschäftspartnernummer (eindeutige alphanumerische Zeichenfolge) |
+| X | <abbr title="ProductValue_Produktschlüssel">Produktschlüssel</abbr> | FF_12345 | **Suchschlüssel** des Produktes (alphanumerische Zeichenfolge) |
+| | <abbr title="BreakValue_Mengenstufe">Mengenstufe</abbr> | 100 | **Mengenstufe** des Produktes, ab der eine Preiskondition gilt. |
+| | <abbr title="Base_PricingSystem_Value_Base_PricingSystem_Value">Basis-Preissystem</abbr> | Testpreisliste Kunden | **Suchschlüssel** des Preissystems, das als Grundlage für die Preisbestimmung dient. |
+| | <abbr title="PriceBase_Preisgrundlage">Preisgrundlage</abbr> | •&nbsp;Preissystem<br> •&nbsp;Festpreis | Preisgrundlage kann entweder das Preissystem oder ein abweichend bestimmter Festpreis sein. |
+| | <abbr title="PriceStdFixed_Festpreis">Festpreis</abbr> | 2,99 | **Festpreis**. Die Angabe ist nur erforderlich, sofern *Festpreis* als **Preisgrundlage** angegeben ist. |
+| | <abbr title="PricingSystemSurchargeAmt_Preisaufschlag">Aufschlag auf Standardpreis</abbr> | 1,49 | Preisaufschlag. Die Angabe ist nur erforderlich, sofern *Preissystem* als **Preisgrundlage** angegeben ist. |
+| | <abbr title="BreakDiscount_Break Discount %">Mengenrabatt in %</abbr> | 5 | **Mengenrabatt** in Prozent |
+| | <abbr title="PaymentTermValue_Zahlungskonditions-Schlüssel">Zahlungsbedingungen</abbr> | 14 Tage 2% | **Zahlungsziel** (Zahlungskonditions-Schlüssel) |
+| | <abbr title="Discount_Rabatt %">Skonto in %</abbr> | 5 | **Skonto** bei Zahlung innerhalb der Frist. |
 
 ## Nächste Schritte
 - [Rabattschema importieren](Rabattschema_importieren).

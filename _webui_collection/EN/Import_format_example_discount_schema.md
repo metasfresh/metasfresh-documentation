@@ -28,18 +28,18 @@ The example below compares the data content of a file from a spreadsheet softwar
 ### Some useful notes
 The mandatory fields are essential for a successful data import!
 
-| Mandatory Field | Field Name | Example | Note |
+| Mandatory Field | <abbr title="Hover your cursor over the field name to see the corresponding column name.">Field Name</abbr> | Example | Note |
 | :---: | :---: | :--- | :--- |
-| X | Business Partner Value | BP_001 | Business partner number (unique alphanumeric string) |
-| X | Product Value | FF_12345 | **Search Key** of the product (alphanumeric string) |
-| | Break Value | 100 | Minimum amount of a product at which a pricing condition applies. |
-| | Base_PricingSystem_Value | Customer Price List | **Search Key** of the pricing system used as basis for price determination. |
-| | PriceBase | •&nbsp;Pricing System<br> •&nbsp;Fixed | **Price base** may be either the pricing system or an individually specified fixed price. |
-| | Fixed Price | 2.99 | This information is only required if the **Price base** is set on *Fixed*. |
-| | Surcharge on Standard Price | 1.49 | This information is only required if the **Price base** is set on *Pricing System*. |
-| | Break Discount % | 5 | Volume discount in percent |
-| | Term of Payment | 14 days 2% | Payment term for a pricing condition |
-| | Discount | 5 | Cash discount for payment within the period. |
+| X | <abbr title="BPartner_Value_Geschäftspartner-Schlüssel">Business Partner Value</abbr> | BP_001 | Business partner number (unique alphanumeric string) |
+| X | <abbr title="ProductValue_Product Value">Product Value</abbr> | FF_12345 | **Search Key** of the product (alphanumeric string) |
+| | <abbr title="BreakValue_Menge">Break Value</abbr> | 100 | Minimum amount of a product at which a pricing condition applies. |
+| | <abbr title="Base_PricingSystem_Value_Base_PricingSystem_Value">Base Pricing System</abbr> | Customer Price List | **Search Key** of the pricing system used as basis for price determination. |
+| | <abbr title="PriceBase_Price base">Price Base</abbr> | •&nbsp;Pricing System<br> •&nbsp;Fixed | **Price base** may be either the pricing system or an individually specified fixed price. |
+| | <abbr title="PriceStdFixed_Fixed price">Fixed Price</abbr> | 2.99 | This information is only required if the **Price base** is set on *Fixed*. |
+| | <abbr title="PricingSystemSurchargeAmt_Surcharge">Surcharge on Standard Price</abbr> | 1.49 | This information is only required if the **Price base** is set on *Pricing System*. |
+| | <abbr title="BreakDiscount_Break Discount %">Break Discount in %</abbr> | 5 | Volume discount in percent |
+| | <abbr title="PaymentTermValue_Zahlungskonditions-Schlüssel">Term of Payment</abbr> | 14 days 2% | Payment term for a pricing condition |
+| | <abbr title="Discount_Rabatt %">Cash Discount in %</abbr> | 5 | Cash discount for payment within the period. |
 
 ## Next Steps
 - [Import discount schema](Import_discount_schema).

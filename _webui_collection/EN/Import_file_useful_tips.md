@@ -20,7 +20,8 @@ Here are some format examples for the import of:
 - [Discount schema data](Import_format_example_discount_schema)
 - [Postal data](Import_format_example_postal_data)
 - [Product data](Import_format_example_product)
-- [Replenishment data](Import_replenishment_data)
+- [Replenishment data](Import_format_example_replenishments)
+- [User data](Import_format_example_users)
 
 ## Useful Tips
 When creating an import file, please keep in mind the following:
@@ -41,6 +42,7 @@ When creating an import file, please keep in mind the following:
 - [Import postal data](Import_postal_data).
 - [Import product data](Import_product_data).
 - [Import replenishment data](Import_replenishment_data).
+- [Import user data](Import_user_data).
 
 ## Example: Excel Spreadsheet (Product Data)
 ![](assets/Excel_table_product_data.png)

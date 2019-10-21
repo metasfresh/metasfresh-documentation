@@ -28,14 +28,14 @@ In dem folgenden Beispiel wird der Dateninhalt aus einer Datei einer Tabellenkal
 ### Einige nützliche Hinweise
 Die Angabe der Pflichtfelder ist unerlässlich für einen erfolgreichen Datenimport!
 
-| Pflichtfeld | Feldname | Beispiel | Hinweis |
+| Pflichtfeld | <abbr title="Bewege den Mauszeiger über den Feldnamen, um den entspr. Spaltennamen zu sehen.">Feldname</abbr> | Beispiel | Hinweis |
 | :---: | :---: | :--- | :--- |
-| X | Artikelnummer | FF_12345 | **Suchschlüssel** des Produktes (alphanumerische Zeichenfolge) |
-| X | Produktart | I | I = Artikel (engl.: _**I**tem_)<br> E = **E**rfolgskonten<br> R = **R**essource |
-| X | Produktkategorie-Schlüssel | •&nbsp;Diverse<br> •&nbsp;16 | **Suchschlüssel** der Produktkategorie.<br> ***Achtung:*** Nicht der Name!<br> (*Den Suchschlüssel kannst Du unter dem Menüpunkt "[Produkt Kategorie](Menu)" nachschauen.*) |
-|  | Kodierung der Mengeneinheit	| PCE | PCE = Stück (Stk, engl.: _**P**ie**ce**_)<br> (*Die Kodierungen der Mengeneinheiten kannst Du unter dem Menüpunkt "[Maßeinheit](Menu)" nachschauen.*) |
-|  | MwSt-Kategorie | Reduzierter Steuersatz 7% (Deutschland) | Die MwSt-Kategorie kannst Du unter dem Menüpunkt "[Steuer Kategorie](Menu)" nachschauen. |
-|  | Version Preisliste | Testpreise Kunden (Deutschland) | Die Preislistenversion kannst Du unter dem Menüpunkt "[Preisliste](Menu)" nachschauen. |
+| X | <abbr title="Value_Suchschlüssel">Artikelnummer</abbr> | FF_12345 | **Suchschlüssel** des Produktes (alphanumerische Zeichenfolge) |
+| X | <abbr title="ProductType_Produktart">Produktart</abbr> | I | I = Artikel (engl.: _**I**tem_)<br> E = **E**rfolgskonten<br> R = **R**essource |
+| X | <abbr title="ProductCategory_Value_Produktkategorie-Schlüssel">Produktkategorie-Schlüssel</abbr> | •&nbsp;Diverse<br> •&nbsp;16 | **Suchschlüssel** der Produktkategorie.<br> ***Achtung:*** Nicht der Name!<br> (*Den Suchschlüssel kannst Du unter dem Menüpunkt "[Produkt Kategorie](Menu)" nachschauen.*) |
+|  | <abbr title="X12DE355_Kodierung der Mengeneinheit">Kodierung der Mengeneinheit</abbr>	| PCE | PCE = Stück (Stk, engl.: _**P**ie**ce**_)<br> (*Die Kodierungen der Mengeneinheiten kannst Du unter dem Menüpunkt "[Maßeinheit](Menu)" nachschauen.*) |
+|  | <abbr title="C_TaxCategory_Name_MwSt-Kategorie">MwSt-Kategorie</abbr> | Reduzierter Steuersatz 7% (Deutschland) | Die MwSt-Kategorie kannst Du unter dem Menüpunkt "[Steuer Kategorie](Menu)" nachschauen. |
+|  | <abbr title="M_PriceList_Version_Name_Version Preisliste">Version Preisliste</abbr> | Testpreise Kunden (Deutschland) | Die Preislistenversion kannst Du unter dem Menüpunkt "[Preisliste](Menu)" nachschauen. |
 
 ## Nächste Schritte
 - [Produktdaten importieren](Produktdaten_importieren).

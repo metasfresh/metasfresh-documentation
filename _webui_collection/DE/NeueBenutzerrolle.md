@@ -11,7 +11,7 @@ ref: newuserrole
 ---
 
 ## Überblick
-Mit einer Benutzerrolle kannst Du bestimmen, auf welche Funktionen ein Nutzer Zugriff hat und welche Daten er einsehen kann.
+Mit einer Benutzerrolle kannst Du die Berechtigungen eines Nutzers definieren sowie bestimmen, auf welche Funktionen er Zugriff hat und welche Daten er einsehen kann.
 
 ## Schritte
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Rolle - Verwaltung".

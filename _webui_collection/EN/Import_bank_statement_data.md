@@ -16,7 +16,7 @@ Make sure to comply with all requirements for the [data import in metasfresh](Da
 
 ## Steps
 1. Open "Data Import" from the [menu](Menu).
-1. Open an appropriate data import entry or [add a new one](Add_new_data_import_entry).
+1. Open a suitable data import entry or [add a new one](Add_new_data_import_entry).
 
 ### Upload and import the file
 1. [Upload your import file containing the bank statement data](File_handling).

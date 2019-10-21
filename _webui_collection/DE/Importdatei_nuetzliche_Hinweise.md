@@ -20,6 +20,7 @@ Hier sind ein paar Formatbeispiele für den Import von:
 - [IFA-Produktdaten](Importformat_Beispiel_Produkt_Pharma)
 - [Kontenrahmendaten](Importformat_Beispiel_Kontenrahmen)
 - [Nachbestelldaten](Importformat_Beispiel_Nachbestellung)
+- [Nutzerdaten](Importformat_Beispiel_Nutzer)
 - [Postalische Daten](Importformat_Beispiel_postalische_Daten)
 - [Produktdaten](Importformat_Beispiel_Produkt)
 - [Rabattschemadaten](Importformat_Beispiel_Rabattschema)
@@ -42,6 +43,7 @@ Bitte achte bei der Erstellung einer Importdatei auf Folgendes:
 - [IFA-Produktdaten importieren](Produktdaten_importieren_Pharma).
 - [Kontenrahmendaten importieren](Kontenrahmendaten_importieren).
 - [Nachbestelldaten importieren](Nachbestelldaten_importieren).
+- [Nutzerdaten importieren](Nutzerdaten_importieren).
 - [Postalische Daten importieren](Postalische_Daten_importieren).
 - [Produktdaten importieren](Produktdaten_importieren).
 - [Rabattschemadaten importieren](Rabattschema_importieren).

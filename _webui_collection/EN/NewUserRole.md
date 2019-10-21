@@ -11,7 +11,7 @@ ref: newuserrole
 ---
 
 ## Overview
-A user role enables you to specify which features the user can access and which data they can view.
+A user role enables you to define user permissions and specify which functions they have access to and which data they can view.
 
 ## Steps
 1. Open "Role" from the [menu](Menu).

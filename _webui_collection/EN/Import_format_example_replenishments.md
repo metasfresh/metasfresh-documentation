@@ -27,15 +27,15 @@ The example below compares the data content of a file from a spreadsheet softwar
 
 ### Some useful notes
 
-| Mandatory Field | Field Name | Example | Note |
+| Mandatory Field | <abbr title="Hover your cursor over the field name to see the corresponding column name.">Field Name</abbr> | Example | Note |
 | :---: | :---: | :--- | :--- |
-| X | Product Value | P002737 | **Search Key** of the product for replenishment (alphanumeric string) |
-| X | Warehouse Value | Warehouse_01 | **Search Key** of the warehouse (alphanumeric string) |
-| X | ReplenishType | *Reorder below minimum level* | Method for re-ordering a product |
-| X | Level_Min | 100 | Minimum inventory level for the product |
-| X | Level_Max | 500 | Maximum inventory level for the product |
-|  | Source Warehouse Value | MainWH | **Search Key** of the source warehouse |
-|  | Organisation Key<br> (=OrgValue) | metasfresh AG | **Search Key** of the organization.<br> ***Attention:*** Not the name!<br> (*You can look up the search key under "[Organization](Menu)" in the menu.*) |
+| X | <abbr title="ProductValue_Product Value">Product Search Key</abbr> | P002737 | **Search Key** of the product for replenishment (alphanumeric string) |
+| X | <abbr title="WarehouseValue_Warehouse Key">Warehouse Search Key</abbr> | Warehouse_01 | **Search Key** of the warehouse (alphanumeric string) |
+| X | <abbr title="ReplenishType_Replenish Type">ReplenishType</abbr> | *Reorder below minimum level* | Method for re-ordering a product |
+| X | <abbr title="Level_Min_Minimum Level">Minimum Level</abbr> | 100 | Minimum inventory level for the product |
+| X | <abbr title="Level_Max_Maximum Level">Maximum Level</abbr> | 500 | Maximum inventory level for the product |
+|  | <abbr title="WarehouseSourceValue_Source Warehouse Value">Source Warehouse Value</abbr> | MainWH | **Search Key** of the source warehouse |
+|  | <abbr title="OrgValue_Organisation Key">Organisation Key</abbr><br> (=OrgValue) | metasfresh AG | **Search Key** of the organization.<br> ***Attention:*** Not the name!<br> (*You can look up the search key under "[Organization](Menu)" in the menu.*) |
 
 ## Next Steps
 - [Import replenishment data](Import_replenishment_data).

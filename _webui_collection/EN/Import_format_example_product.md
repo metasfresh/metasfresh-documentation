@@ -28,14 +28,14 @@ The example below compares the data content of a file from a spreadsheet softwar
 ### Some useful notes
 The mandatory fields are essential for a successful data import!
 
-| Mandatory Field | Field Name | Example | Note |
+| Mandatory Field | <abbr title="Hover your cursor over the field name to see the corresponding column name.">Field Name</abbr> | Example | Note |
 | :---: | :---: | :--- | :--- |
-| X | Item Search Key | FF_12345 | **Search Key** of the product (alphanumeric string) |
-| X | Product Type | I | I = **I**tem<br> E = **E**xpense Type<br> R = **R**esource |
-| X | Product Category Search Key | •&nbsp;Standard<br> •&nbsp;16 | **Search Key** of the product category. ***Attention:*** Not the name!<br> (*You can look up the search key under "[Product Category](Menu)" in the menu.*) |
-|  | UOM Code | PCE | PCE = Each (_**P**ie**ce**_)<br> (*You can look up the UOM code under "[Unit of Measure](Menu)" in the menu.*) |
-|  | Tax Category | Reduzierter Steuersatz 7% (Deutschland) | You can look up the tax category under "[Tax Category](Menu)" in the menu. |
-|  | Price List Version | Testpreise Kunden (Deutschland) | You can look up the price list version under "[Price List](Menu)" in the menu. |
+| X | <abbr title="Value_Suchschlüssel">Item Search Key</abbr> | FF_12345 | **Search Key** of the product (alphanumeric string) |
+| X | <abbr title="ProductType_Produktart">Product Type</abbr> | I | I = **I**tem<br> E = **E**xpense Type<br> R = **R**esource |
+| X | <abbr title="ProductCategory_Value_Produktkategorie-Schlüssel">Product Category Search Key</abbr> | •&nbsp;Standard<br> •&nbsp;16 | **Search Key** of the product category. ***Attention:*** Not the name!<br> (*You can look up the search key under "[Product Category](Menu)" in the menu.*) |
+|  | <abbr title="X12DE355_Kodierung der Mengeneinheit">UOM Code</abbr> | PCE | PCE = Each (_**P**ie**ce**_)<br> (*You can look up the UOM code under "[Unit of Measure](Menu)" in the menu.*) |
+|  | <abbr title="C_TaxCategory_Name_MwSt-Kategorie">Tax Category</abbr> | Reduzierter Steuersatz 7% (Deutschland) | You can look up the tax category under "[Tax Category](Menu)" in the menu. |
+|  | <abbr title="M_PriceList_Version_Name_Version Preisliste">Price List Version</abbr> | Testpreise Kunden (Deutschland) | You can look up the price list version under "[Price List](Menu)" in the menu. |
 
 ## Next Steps
 - [Import product data](Import_product_data).
