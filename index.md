@@ -5,7 +5,6 @@ layout: default
 
 ### Users
 - User Manual (WebUI) [(EN)](pages/webui/index_en) [(DE)](pages/webui/index_de)
-- Legacy Java Client [(EN)](pages/howto/index_en) [(DE)](pages/howto/index_de)
 
 ### Admins
 - Installation [(EN)](pages/installation/index_en)  [(DE)](pages/installation/index_de)
@@ -27,3 +26,6 @@ layout: default
 - via metasfresh Website: [English](http://metasfresh.com/en) and [German](http://metasfresh.com/).
 - Follow us on Twitter: [@metasfresh (English)](https://twitter.com/metasfresh), [@metasfreshDE (German)](https://twitter.com/metasfreshDE).
 - There are also two Gitter chat rooms. One for [metasfresh](https://gitter.im/metasfresh/metasfresh) and one for [metasfresh-documentation](https://gitter.im/metasfresh/metasfresh-documentation).
+
+### Legacy
+- Legacy Java Client [(EN)](pages/howto/index_en) [(DE)](pages/howto/index_de)
