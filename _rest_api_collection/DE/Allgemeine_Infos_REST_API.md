@@ -33,6 +33,12 @@ Um den Webservice verwenden zu können, benötigst Du allerdings ein Autorisieru
 Im Folgenden werden die derzeit verfügbaren Endpunkte aufgeführt. Klicke auf einen Endpunkt, über den Du mehr erfahren möchtest.
 
 - [Auftragskandidaten (Auftragsdisposition)](order-candidates-rest-controller-impl)
+- Aufträge
+- Dateiup- und -download
+- Datenimport
+- Geschäftspartner und Kontakte
+- Produkte und Produktkategorien
+- Rechnungen und Rechnungskandidaten
 
 ## JSON-Elemente
 
