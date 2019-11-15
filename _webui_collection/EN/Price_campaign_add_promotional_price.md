@@ -13,6 +13,9 @@ ref: price_campaign_add_promotional_price
 ## Overview
 In metasfresh, you can launch special price actions for a limited period of time in which a specific product is sold at a specific promotional price. This price will then apply either to single customers ([provided they are eligible for price promotions](Price_campaign_allow_promotional_price)) or to entire business partner groups. Consequently, all previously defined price conditions will be overridden during the promotion period and remain ineffective until the end of the promotion.
 
+## Requirements
+- [Clear customers for promotional prices so they can participate in special price actions](Price_campaign_allow_promotional_price).
+
 ## Steps
 1. Open "Campaign Price" from the [menu](Menu).
 1. [Create a new entry](New_Record_Window).
