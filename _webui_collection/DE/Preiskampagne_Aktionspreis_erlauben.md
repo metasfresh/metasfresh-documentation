@@ -20,3 +20,6 @@ Du kannst einzeln festlegen, welche Kunden zur Teilnahme an Preisaktionen berech
 1. Gehe zur Registerkarte "Kunde" unten auf der Seite und bewege die horizontale Bildlaufleiste nach rechts, bis Du die Spalte **Aktionsbezug** erreichst.
 1. Klicke doppelt auf das Feld **Aktionsbezug** der Kundenzeile und setze ein Häkchen in dem Kontrollkästchen.
 1. [metasfresh speichert automatisch](Speicheranzeige).
+
+## Nächste Schritte
+- [Erstelle eine Sonderpreisaktion](Preiskampagne_Aktionspreis_anlegen).

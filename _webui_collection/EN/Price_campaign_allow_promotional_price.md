@@ -20,3 +20,6 @@ You can define individually which customers are authorized to participate in pri
 1. Go to the record tab "Customer" at the bottom of the page and move the horizontal scrollbar to the right until you reach the column **IsAllowActionPrice**.
 1. Double-click the field **IsAllowActionPrice** of the customer line and tick the checkbox.
 1. [metasfresh saves the progress automatically](Saveindicator).
+
+## Next Steps
+- [Create special price actions](Price_campaign_add_promotional_price).
