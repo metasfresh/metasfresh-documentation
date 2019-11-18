@@ -18,7 +18,7 @@ ref: paypal_payment_rule_salesorder
 
 ### Auftrag erfassen
 1. [Erfasse einen Auftrag](Auftrag_erfassen) unter Beachtung der folgenden Einstellungen:
-  - Wähle im Feld **Auftraggeber** einen Kontakt aus, der über eine E-Mail-Adresse verfügt und über die Zahlungsaufforderung benachrichtigt werden soll.
+  - Wähle im Feld **Rechnung an** einen Kontakt aus, der über die Zahlungsaufforderung benachrichtigt werden soll. Der Kontakt muss über eine E-Mail-Adresse verfügen sowie als [*Rechnungskontakt*](GPartner_Nutzer_hinzufuegen) gekennzeichnet sein.
   - Wähle als **Zahlungsweise** *PayPal* aus.
 2. Bei [Fertigstellung des Auftrages](BelegverarbeitungFertigstellen) erhält dieser vorerst den Belegstatus "*Waiting for payment*" und es wird eine E-Mail mit den Details zur Zahlungsfreigabe an den Geschäftspartnerkontakt versendet.
 3. Es werden Einträge in den folgenden [Fenstern im Menü](Menu) erstellt:

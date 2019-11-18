@@ -17,8 +17,8 @@ ref: paypal_payment_rule_salesorder
 ## Steps
 
 ### Record an order
-1. [Enter an order](SalesOrder_recording) while taking into account the following settings:
-  - In the field **Business Partner**, pick a contact who has an email address and shall be notified about the payment request.
+1. [Enter an order](SalesOrder_recording) taking into account the following settings:
+  - In the field **Invoice Partner**, pick a contact who shall be notified about the payment request. This contact must have an email address and be marked as [*default bill-to contact*](Add_user_to_BPartner).
   - Pick the **Payment Rule** *PayPal*.
 1. After [completing the sales order](DocumentProcessingComplete) the document status is changed to "*Waiting for payment*" for the time being and an email is sent to the business partner contact containing the details on payment approval.
 1. New entries are created in the following [menu windows](Menu):
