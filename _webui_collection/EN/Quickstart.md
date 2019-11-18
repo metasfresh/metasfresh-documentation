@@ -19,5 +19,5 @@ ref: quickstart
 1. [Enter your company data](InitialSetupWizard).
 1. [Go through a sample workflow ](Workflow_SalesOrder_to_Invoice).
 
-## Tutorial
+## Tutorial (English subtitles)
 <iframe width="560" height="315" src="https://www.youtube.com/embed/MawMLQR5ffQ?start=2" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

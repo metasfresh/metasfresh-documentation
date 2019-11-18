@@ -23,8 +23,6 @@ ref: add_user_to_bpartner
 - Tick the checkbox **BillTo Contact Default** to make this contact available for receiving payment requests.
 - Tick the checkbox **ShipTo Contact Default**.
 
-<br>
-
 | **Note:** |
 | :--- |
 | You will find the newly created user entry under "[User](Menu)" in the menu. |
