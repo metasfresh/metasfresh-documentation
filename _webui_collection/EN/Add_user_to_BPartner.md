@@ -16,7 +16,14 @@ ref: add_user_to_bpartner
 1. Fill in the fields **Firstname** and **Lastname**.
 1. ***Optional:*** Fill in the fields **Email Address**, **Phone** and other fields as required.
 1. Click "Done" to close the overlay window and add the user to the list.
-<br><br>
+
+### Additional optional settings
+- Tick the checkbox **Sales Contact**.
+- Tick the checkbox **Purchasing Contact**.
+- Tick the checkbox **BillTo Contact Default** to make this contact available for receiving payment requests.
+- Tick the checkbox **ShipTo Contact Default**.
+
+<br>
 
 | **Note:** |
 | :--- |

@@ -16,6 +16,13 @@ ref: add_user_to_bpartner
 1. Fülle die Felder **Vorname** und **Nachname** aus.
 1. ***Optional:*** Fülle die Felder **E-Mail** und **Telefon** sowie weitere Felder nach Bedarf aus.
 1. Klicke auf "Bestätigen", um das Overlay-Fenster zu schließen und den Nutzer zur Liste hinzuzufügen.
+
+### Weitere optionale Einstellungen
+- Setze ein Häkchen bei **Verkaufskontakt**.
+- Setze ein Häkchen bei **Einkaufskontakt**.
+- Setze ein Häkchen bei **Rechnungskontakt**, um diesen Kontakt für den Empfang von Zahlungsaufforderungen verfügbar zu machen.
+- Setze ein Häkchen bei **Lieferkontakt**.
+
 <br>
 
 | **Hinweis:** |
