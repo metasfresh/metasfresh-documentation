@@ -23,8 +23,6 @@ ref: add_user_to_bpartner
 - Setze ein Häkchen bei **Rechnungskontakt**, um diesen Kontakt für den Empfang von Zahlungsaufforderungen verfügbar zu machen.
 - Setze ein Häkchen bei **Lieferkontakt**.
 
-<br>
-
 | **Hinweis:** |
 | :--- |
 | Den neu erstellten Nutzereintrag findest Du unter dem Menüpunkt "[Nutzer](Menu)" wieder. |
