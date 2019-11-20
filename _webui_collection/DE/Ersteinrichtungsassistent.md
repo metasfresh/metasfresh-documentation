@@ -10,7 +10,7 @@ ref: initialsetupwizard
 ---
 
 ## Überblick
-Mit den folgenden Schritten kannst Du die Daten des bestehenden Mandanten "metasfresh", der standardmäßig enthalten ist, mit Deinen eigenen Firmendaten ersetzen. Die Kontaktdaten (Anschrift, E-Mail, Bankverbindung usw.) erscheinen dann ebenfalls auf allen Belegen sowohl in der Adresszeile als auch am Belegfuß.
+Mit den folgenden Schritten kannst Du die Daten des bestehenden Mandanten "metasfresh", der standardmäßig enthalten ist, mit Deinen eigenen Firmendaten ersetzen. Die Kontaktdaten (Anschrift, E-Mail, Bankverbindung usw.) erscheinen dann auf allen Belegen sowohl in der Adresszeile als auch am Belegfuß.
 
 Weitere Informationen darüber, wie Du eigenen Text in Belege einfügen kannst, gibt es [hier](Text_auf_Belege_drucken-allgemein).
 
@@ -31,7 +31,7 @@ Weitere Informationen darüber, wie Du eigenen Text in Belege einfügen kannst, 
  >**Hinweis:** Das Textfeld **Beschreibung** ist auf 90 Zeichen beschränkt.
 
 1. Klicke auf "Start", um die Änderungen zu übernehmen und den Einrichtungsassistenten zu schließen.
- >**Hinweis:** Du kannst den Assistenten beliebig oft verwenden, um die Firmendaten anzupassen.
+ >**Hinweis:** Du kannst den Assistenten beliebig oft aufrufen, um die Firmendaten anzupassen.
 
 <br>
 

@@ -19,7 +19,7 @@ In metasfresh kannst Du die Zeitzonen von Organisationen individuell anpassen. S
 1. Gib im Feld **Time Zone** (*Zeitzone*) einen Teil der Bezeichnung der gewünschten Zeitzone ein und klicke auf den passenden Treffer in der [Dropdown-Liste](Keyboard_Shortcuts_Liste).
  >**Hinweis:** Um bestimmte Zeitzonen zu finden, kannst Du die Namen aus der <a href="https://www.iana.org/time-zones" title="IANA Time Zone Database" target="blank">IANA-Datenbank</a> verwenden, so z.B. "Etc/GMT+1" oder "Europe/Berlin" (siehe auch die Liste der Zeitzonen auf <a href="https://en.wikipedia.org/wiki/List_of_tz_database_time_zones" title="List of tz database time zones" target="blank">Wikipedia</a>).
 
-1. Klicke auf "Bestätigen", um das Overlay-Fenster zu schließen und die Zeitzone zu übernehmen.
+1. Klicke auf "Bestätigen", um die Änderungen zu übernehmen und die "Erweiterte Erfassung" zu schließen.
 
 | **Hinweis:** |
 | :--- |
