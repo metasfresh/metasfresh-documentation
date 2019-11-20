@@ -21,7 +21,7 @@ Um automatische Kompensationsgruppen zu erstellen, gehe wie folgt vor:
 - [Richte die automatische Kompensationsgruppierung](Automatische_Kompensationsgruppen_konfig) für die betreffenden Produktkategorien ein.
 
 ## Schritte
-1. Folge dieser [Anleitung zur Erfassung eines Auftrags](Auftrag_erfassen) bis zum **Schritt 4 der Auftragszeileneingabe**.
+1. Folge dieser [Anleitung zur Erfassung eines Auftrages](Auftrag_erfassen) bis zum **Schritt 4 der Auftragszeileneingabe**.
 1. [Selektiere](AuswahlBelege) die Auftragszeilen, die Du zu einer Kompensationsgruppe zusammenfassen möchtest.
 1. [Starte die Aktion](AktionStarten) "Multigroup lines". Die Kompensationsgruppen werden automatisch erstellt und als zusätzliche Rabattzeilen mit der **Gruppenart** *Rabatt* ausgewiesen.
 

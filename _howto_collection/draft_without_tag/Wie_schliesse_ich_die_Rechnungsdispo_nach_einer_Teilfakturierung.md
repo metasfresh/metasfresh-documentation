@@ -9,7 +9,7 @@ lang: de
 
 1. Wenn keine weitere Lieferung und keine weitere Fakturierung gewünscht ist, kann die entsprechende Rechnungsdispo geschlossen werden
 
-1. [Springe hierzu in die Rechnungsdispo des Auftrags](Wie_springe_ich_zwischen_Belegen)
+1. [Springe hierzu in die Rechnungsdispo des Auftrages](Wie_springe_ich_zwischen_Belegen)
 
 1. Die Beauftragte Menge ist größer als die Gelieferte Menge, daher ist die Rechnungsdispo noch nicht komplett abgerechnet
 
@@ -21,6 +21,6 @@ lang: de
 
 1. Die entsprechende Lieferdispo für die Rechnungsdispo wird durch diesen Prozess ebenfalls geschlossen, sie muss nicht [extra geschlossen werden!](Wie_schliesse_ich_die_Lieferdispo_nach_einer_Teillieferung)
 
-1. Falls es keine weiteren offenen Rechnungsdispos gibt, ist der Rechnungsstatus des Auftrags jetzt "Vollständig Fakturiert"
+1. Falls es keine weiteren offenen Rechnungsdispos gibt, ist der Rechnungsstatus des Auftrages jetzt "Vollständig Fakturiert"
 
   **Hinweis:** Der Prozess für das Schließen von Rechnungsdispos nach Teillieferung kann auch automatisch erfolgen, wenn es in der System Konfiguration so eingestellt ist!

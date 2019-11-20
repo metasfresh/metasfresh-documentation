@@ -29,7 +29,7 @@ For the setup of the automatic distribution network for empty containers, the fo
 1. Go to the record tab "Network Line" at the bottom of the page and click !["Add new"](assets/Add_New_Button.png). An overlay window opens up.
 1. Select a **Source Warehouse**, e.g., *Main Warehouse*.
 1. In the field **Warehouse**, select a target warehouse, e.g., *Empty Container Depot*.
-1. Select a **Shipper**, e.g., *In-house Transport*.
+1. Select a **Shipper**, e.g., *Own Transport*.
 1. Click "Done" to close the overlay window and add the network line to the list.
 
 ## Example

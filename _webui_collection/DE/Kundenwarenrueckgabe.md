@@ -19,7 +19,7 @@ ref: customer_returns
 ## Schritte
 
 ### Kundenrücklieferung erstellen
-1. Öffne den Eintrag eines Auftrags, für den Du eine [kommissionierte Lieferung erstellt](Lieferung_mit_kommissionierter_Menge) hast, die zurückgegangen ist.
+1. Öffne den Eintrag eines Auftrages, für den Du eine [kommissionierte Lieferung erstellt](Lieferung_mit_kommissionierter_Menge) hast, die zurückgegangen ist.
 1. [Springe zur](SpringezuBelegen) "Lieferung" des Auftrages.
  >**Hinweis:** Drücke `Alt` + `6` / `⌥ alt` + `6`, um die Sidebar mit den verknüpften Belegen zu öffnen.
 
@@ -32,7 +32,7 @@ ref: customer_returns
 1. Klicke auf "Bestätigen", um den "HU Editor" zu schließen.
 1. Du erhältst oben rechts eine [Benachrichtigung](Benachrichtigungsarten) ![](assets/NotificationBell_WebUI.png), sobald die Kundenrücklieferung erstellt ist.
 1. Klicke auf die Benachrichtigung, um den Kundenrücklieferungsbeleg zu öffnen.
- >**Hinweis:** Öffne alternativ den Eintrag des Auftrags, für den Du eine Kundenrücklieferung erhalten hast, [springe zur](SpringezuBelegen) "Kundenrücklieferung" und öffne den entsprechenden Eintrag der Kundenwarenrückgabe.
+ >**Hinweis:** Öffne alternativ den Eintrag des Auftrages, für den Du eine Kundenrücklieferung erhalten hast, [springe zur](SpringezuBelegen) "Kundenrücklieferung" und öffne den entsprechenden Eintrag der Kundenwarenrückgabe.
 
 1. [Öffne die PDF-Vorschau](PDFVorschau) des Belegs.
 

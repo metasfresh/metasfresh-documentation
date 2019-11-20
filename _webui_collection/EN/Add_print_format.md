@@ -21,7 +21,7 @@ The print format enables you, among other things, to set paper size and page lay
 1. Open the [advanced edit menu](ViewModes) from the [actions menu](StartAction).
  >**Note:** Use shortcut `Alt` + `E` / `⌥ alt` + `E`.
 
-1. Scroll down to the field **Jasper Process** and select an appropriate process, e.g., *Serial Letter*.
+1. Scroll down to the field **Jasper Process** and pick an appropriate process, e.g., *Serial Letter*.
  >**Note:** Jasper creates the layouts for the documents according to the settings.
 
 1. Click "Done" to apply the changes and close the advanced edit menu.
