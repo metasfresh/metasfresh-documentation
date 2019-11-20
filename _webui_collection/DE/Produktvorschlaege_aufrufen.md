@@ -18,7 +18,7 @@ Die Liste der Produktvorschläge kannst Du unter [Aufträge](Auftrag_erfassen), 
 ## Schritte
 
 ### In Aufträgen
-1. Folge dieser [Anleitung zur Erfassung eines Auftrags](Auftrag_erfassen) bis zur **Auftragszeileneingabe**.
+1. Folge dieser [Anleitung zur Erfassung eines Auftrages](Auftrag_erfassen) bis zur **Auftragszeileneingabe**.
 1. Gehe zur Registerkarte "Auftragsposition" unten auf der Seite und klicke auf ![](assets/Produktvorschlaege_Button.png), um die Liste der Produktvorschläge zu öffnen.
  >**Hinweis:** Drücke `Alt` + `Z` / `⌥ alt` + `Z`.
 

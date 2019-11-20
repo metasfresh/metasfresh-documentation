@@ -18,7 +18,7 @@ Bei der [Erstellung von Stücklisten aufgrund eines Angebots](Stueckliste_bei_Au
 Um manuelle Kompensationsgruppen zu erstellen, gehe wie folgt vor:
 
 ## Schritte
-1. Folge dieser [Anleitung zur Erfassung eines Auftrags](Auftrag_erfassen) bis zum **Schritt 4 der Auftragszeileneingabe**.
+1. Folge dieser [Anleitung zur Erfassung eines Auftrages](Auftrag_erfassen) bis zum **Schritt 4 der Auftragszeileneingabe**.
 1. [Selektiere](AuswahlBelege) die Auftragszeilen, die Du zu einer Kompensationsgruppe zusammenfassen möchtest.
 1. [Starte die Aktion](AktionStarten) "Zeilen gruppieren". Es öffnet sich ein Overlay-Fenster.
 1. Wähle ein **Produkt** aus, z.B. *Rabatt*.

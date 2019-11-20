@@ -19,7 +19,7 @@ lang: de
 1. Feld **Name** ausfüllen
 1. Feld **Produkt** ausfüllen
 
-   Dieses Produkt wird beim Fertigstellen eines Auftrags oder Bestellung automatisch hinzugefügt.
+   Dieses Produkt wird beim Fertigstellen eines Auftrages oder Bestellung automatisch hinzugefügt.
    
 1. [Speichern](Wie_lege_ich_einen_neuen_datensatz_an)
 

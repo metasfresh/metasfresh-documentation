@@ -16,7 +16,7 @@ Eine auftragszeilenspezifische Produktbeschreibung kann nur im Auftrag erfasst w
 Weitere Informationen darüber, wie Du eigenen Text in Belege einfügen kannst, gibt es [hier](Text_auf_Belege_drucken-allgemein).
 
 ## Schritte
-- Folge der [Anleitung zur Erfassung eines Auftrags](Auftrag_erfassen) bis zum **Schritt 4 der Auftragszeileneingabe**.
+- Folge der [Anleitung zur Erfassung eines Auftrages](Auftrag_erfassen) bis zum **Schritt 4 der Auftragszeileneingabe**.
 
 ### Variante 1: Direkter Weg über die Auftragszeile
 1. Bewege die horizontale Bildlaufleiste der Auftragszeilentabelle nach rechts, bis Du die Spalte **Beschreibung** erreichst.
@@ -29,7 +29,7 @@ Weitere Informationen darüber, wie Du eigenen Text in Belege einfügen kannst, 
 1. Klicke auf "Bestätigen", um die Änderungen zu übernehmen und die "Erweiterte Erfassung" zu schließen.
 
 ## Nächste Schritte
-- Folge den restlichen Schritten zur [Auftragserfassung](Auftrag_erfassen), um den Auftrag abzuschließen.
+- Folge den restlichen Schritten zur [Auftragserfassung](Auftrag_erfassen), um den Auftrag fertigzustellen.
 
 ## Beispiel
 ![](assets/Auftragszeilenspezifische_Produktbeschreibung.gif)

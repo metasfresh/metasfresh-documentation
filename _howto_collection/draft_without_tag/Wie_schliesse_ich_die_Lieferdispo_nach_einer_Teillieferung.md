@@ -18,6 +18,6 @@ lang: de
 
 1. Die Liefermenge wird auf 0 gesetzt, das Feld ist rot, die Lieferdispo ist Verarbeitet
 
-1. Falls es keine weiteren Rückstände gibt, ist der Lieferstatus des Auftrags jetzt "Vollständig Geliefert"
+1. Falls es keine weiteren Rückstände gibt, ist der Lieferstatus des Auftrages jetzt "Vollständig Geliefert"
 
 

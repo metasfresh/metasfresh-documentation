@@ -22,7 +22,7 @@ For a dunning type to take effect in connection with a partner, you first need t
 
 1. In the field **Dunning**, select the desired dunning type.
 1. Click "Done" to apply the changes and close the advanced edit menu.
- >**Note:** Alternatively, you can also double-click the field in the column **Dunning** of the customer line and select a dunning type from the drop-down list.
+ >**Note:** Alternatively, you can also double-click the field in the column **Dunning** of the customer line and pick a dunning type from the drop-down list.
 
 ### Example
 ![](assets/Link dunning type to customer.gif)
@@ -36,7 +36,7 @@ For a dunning type to take effect in connection with a partner, you first need t
 1. Open the [advanced edit menu](ViewModes) from the [actions menu](StartAction).
  >**Note:** Use shortcut `Alt` + `E` / `⌥ alt` + `E`.
 
-1. Scroll down to the field **Dunning** and select the desired dunning type.
+1. Scroll down to the field **Dunning** and pick the desired dunning type.
 1. Click "Done" to apply the changes and close the advanced edit menu.
 
 ### Example
