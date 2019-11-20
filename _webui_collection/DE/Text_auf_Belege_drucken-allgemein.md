@@ -25,7 +25,7 @@ Auf der folgenden Abbildung eines Angebots werden die modifizierbaren Textstelle
 ## Ersteinrichtungsassistent
 
 #### Anschrift des Absenders und Belegfuß bearbeiten
-Klicke [hier](Ersteinrichtung), wenn Du die Textstellen mithilfe des Ersteinrichtungsassistenten bearbeiten möchtest.
+Klicke [hier](Ersteinrichtungsassistent), wenn Du die Textstellen mithilfe des Ersteinrichtungsassistenten bearbeiten möchtest.
 
 ---
 

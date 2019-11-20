@@ -5,7 +5,7 @@ tags:
   - A Beginner's Guide to metasfresh
   - Setup
 lang: en
-sequence: 50
+sequence: 60
 ref: add_print_format
 ---
 

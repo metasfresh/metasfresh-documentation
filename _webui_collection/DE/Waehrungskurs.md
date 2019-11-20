@@ -13,7 +13,7 @@ ref: currency_rate
 Wenn Du mit einer anderen Währung als Deiner Stammwährung arbeiten möchtest, musst Du einen Währungskurs für die Umrechnung einstellen.
 
 **Beispiel:**<br>
-Du hast Dein metasfresh System mit dem [Einrichtungsassistenten](Ersteinrichtung) auf EUR eingestellt, möchtest aber auch mit USD arbeiten.
+Du hast Dein metasfresh System mit dem [Einrichtungsassistenten](Ersteinrichtungsassistent) auf EUR eingestellt, möchtest aber auch mit USD arbeiten.
 
 ## Schritte
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Währungskurs".
