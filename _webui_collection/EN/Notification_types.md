@@ -5,7 +5,7 @@ tags:
   - A Beginner's Guide to metasfresh
   - Setup
 lang: en
-sequence: 40
+sequence: 50
 ref: notification_types
 ---
 

@@ -5,7 +5,7 @@ tags:
   - Anfängertipps für metasfresh
   - Einrichtung
 lang: de
-sequence: 30
+sequence: 40
 ref: change_password
 ---
 

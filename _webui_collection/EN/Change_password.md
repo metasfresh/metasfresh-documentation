@@ -5,7 +5,7 @@ tags:
   - A Beginner's Guide to metasfresh
   - Setup
 lang: en
-sequence: 30
+sequence: 40
 ref: change_password
 ---
 

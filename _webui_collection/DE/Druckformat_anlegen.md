@@ -5,7 +5,7 @@ tags:
   - Anfängertipps für metasfresh
   - Einrichtung
 lang: de
-sequence: 50
+sequence: 60
 ref: add_print_format
 ---
 

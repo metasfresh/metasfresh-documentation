@@ -16,7 +16,7 @@ ref: quickstart
 1. [Melde Dich bei metasfresh an](Anmeldung).
 1. [Ändere Dein Passwort](Passwort_aendern).
 1. [Wähle Deine Sprache](SwitchLanguage).
-1. [Stelle Deine Firmendaten ein](Ersteinrichtung).
+1. [Stelle Deine Firmendaten ein](Ersteinrichtungsassistent).
 1. [Spiele einen Beispiel-Workflow durch](Workflow_Auftrag_Bis_Rechnung).
 
 ## Tutorial
