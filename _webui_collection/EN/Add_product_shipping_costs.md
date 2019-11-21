@@ -20,7 +20,7 @@ In order to properly use the "Flat Shipping Rate" product, it must be configured
 
 ### Add product "Flat Shipping Rate"
 1. Open "Product" from the [menu](Menu).
-1. [Use the filter](Filtering_function) and search for the product "Versandkostenpauschale" (*Flat Shipping Rate*) or [add a new product](NewProduct) taking into account the following specifications.
+1. [Use the filter](Filtering_function) and search for the product "Versandkostenpauschale" (*Flat Shipping Rate*) or [add a new product](NewProduct) using the following specifications.
 1. Make sure the following settings are made:
   - **Product Category** is *Gebinde* (=container).
   - **Product Type** is *Freight Cost*.
@@ -38,7 +38,7 @@ In the standard metasfresh, the default flat shipping rate is already configured
 1. Go to the record tab "Lieferweg" (*Shipper*) at the bottom of the page and click !["Add new"](assets/Add_New_Button.png). An overlay window opens up.
 1. Pick the **Shipper** *Eigentransport* (= own transport).
 1. Set a **Valid from** date.
- >**Note:** If this date lies in the *past*, the shipper will be effective *immediately*. If it lies in the *future*, the shipper will apply *from that date*. metasfresh suggests the currently valid shipper based on the date promised of the sales order.
+ >**Note:** If this date lies in the *past*, the shipper setting will be effective *immediately*. If it lies in the *future*, it will apply *from that date*. metasfresh uses the currently valid shipper setting based on the date promised of the sales order.
 
 1. Click "Done" to close the overlay window and add the shipper to the list.
 

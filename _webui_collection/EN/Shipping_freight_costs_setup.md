@@ -12,7 +12,7 @@ ref: shipping_freight_costs_setup
 ---
 
 ## Overview
-The possibility to add shipping costs to sales orders is provided by default in standard metasfresh and can, of course, also be customized as required. In order to properly use this feature, you only have to make sure that the flat-rate shipping costs as well as the shipment and delivery settings of the respective customer are configured appropriately.
+The possibility to add shipping costs to sales orders is provided by default in standard metasfresh and can, of course, also be customized to your requirements. In order for shipping costs to be processed properly, you only have to make sure that the flat-rate shipping costs as well as the shipment and delivery settings of the respective customer are configured appropriately.
 
 ## Steps
 1. [Review the settings of the default product "Flat Shipping Rate" or create your own](Add_product_shipping_costs).
