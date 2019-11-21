@@ -1,5 +1,5 @@
 ---
-title: How do I make customers available for shipping costs?
+title: How do I configure customers for shipping costs?
 layout: default
 tags:
   - Workflow

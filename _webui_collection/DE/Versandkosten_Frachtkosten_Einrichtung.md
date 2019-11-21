@@ -12,7 +12,7 @@ ref: shipping_freight_costs_setup
 ---
 
 ## Übersicht
-Die Möglichkeit, Aufträge mit Versandkosten zu versehen ist in metasfresh standardmäßig enthalten und kann darüber hinaus selbstverständlich dem eigenen Bedarf angepasst werden. Dazu müssen lediglich die Einstellungen der Versandkostenpauschalen sowie die Liefereinstellungen für die jeweiligen Kunden entsprechend eingerichtet sein, damit Versandkosten ordnungsgemäß eingesetzt werden können.
+Die Möglichkeit, Aufträge mit Versandkosten zu versehen, ist in metasfresh standardmäßig enthalten und kann darüber hinaus selbstverständlich den eigenen Anforderungen angepasst werden. Dazu müssen lediglich die Einstellungen der Versandkostenpauschalen sowie die Liefereinstellungen für die jeweiligen Kunden entsprechend eingerichtet sein, damit Versandkosten ordnungsgemäß verarbeitet werden können.
 
 ## Schritte
 1. [Überprüfe die Konfiguration des Standardproduktes "Versandkostenpauschale" oder lege ein eigenes an](Produkt_Versandkostenpauschale_anlegen).

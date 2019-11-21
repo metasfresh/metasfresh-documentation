@@ -38,7 +38,7 @@ Im metasfresh-Standard ist die stan­dard­mä­ßig vorhandene Versandkostenpau
 1. Gehe zur Registerkarte "Lieferweg" unten auf der Seite und klicke auf !["Neu hinzufügen"](assets/Neu_hinzufuegen_Button.png). Es öffnet sich ein Overlay-Fenster.
 1. Wähle als **Lieferweg** *Eigentransport* aus.
 1. Stelle ein **Gültig ab** Datum ein.
- >**Hinweis:** Liegt das Datum in der *Vergangenheit*, gilt der Lieferweg *ab sofort*. Liegt es in der *Zukunft*, gilt er *erst ab diesem Datum*. metasfresh orientiert sich am zugesagten Termin im Auftrag und verwendet dementsprechend den jeweils gültigen Lieferweg.
+ >**Hinweis:** Liegt das Datum in der *Vergangenheit*, gilt die Lieferwegeinstellung *ab sofort*. Liegt es in der *Zukunft*, gilt sie *erst ab diesem Datum*. metasfresh orientiert sich am zugesagten Termin im Auftrag und verwendet dementsprechend die jeweils gültige Lieferwegeinstellung.
 
 1. Klicke auf "Bestätigen", um das Overlay-Fenster zu schließen und den Lieferweg zur Liste hinzuzufügen.
 

@@ -1,5 +1,5 @@
 ---
-title: Wie mache ich Kunden für die Belastung mit Versandkosten verfügbar?
+title: Wie konfiguriere ich Kunden für Versandkosten?
 layout: default
 tags:
   - Workflow
