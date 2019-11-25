@@ -51,6 +51,10 @@ This name-value pair refers to the ID of the data record on the external platfor
 
 <p style="text-align:center">https://<code ng-non-bindable>{{ base.URL }}</code>/window/123/<strong>2156435</strong></p>
 
+<p align="center">https://<code ng-non-bindable>{{ base.URL }}</code>/window/123/<strong>2156435</strong></p>
+
+<center>https://{% raw %}`{{ base.URL }}`{% endraw %}/window/123/<strong>2156435</strong></center>
+
 <p style="text-align:center">https://{% raw %}`{{ base.URL }}`{% endraw %}/window/123/<strong>2156435</strong></p>
 
 ### syncAdvise
