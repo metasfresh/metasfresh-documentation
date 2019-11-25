@@ -50,7 +50,7 @@ Im Folgenden werden die derzeit verfügbaren Endpunkte aufgeführt. Klicke auf e
 
 Dieses Name-Wert-Paar bezieht sich auf die ID des Datensatzes auf der externen Plattform, von der die Daten abgerufen werden. Die `externalId` muss **eindeutig** sein. Zu finden ist sie am Ende der URL eines Dateneintrages in metasfresh hinter der Fenster-ID, wie in dem folgenden Beispiel zu erkennen ist:
 
-<p style="text-align:center">https://<code>{{Basis-URL}}</code>/window/123/<strong>2156435</strong></p>
+<p style="text-align:center">https://{% raw %}<code>{{ Basis-URL }}</code>{% endraw %}/window/123/<strong>2156435</strong></p>
 
 ### syncAdvise
 
