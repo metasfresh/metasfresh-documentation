@@ -1,5 +1,5 @@
 ---
-title: General Information on the Use of the metasfresh Web Service
+title: General Information on the use of the metasfresh web service
 layout: default
 tags:
   - A Beginner's Guide to the metasfresh Web Service
@@ -9,7 +9,7 @@ ref: general_info_rest_api
 ---
 
 ## Overview
-By means of the metasfresh web service (REST API) you can transfer external data to metasfresh and retrieve, update or delete existing data entries from the system. This is done via so-called *API endpoints*. Each endpoint is set up for the migration of certain data sets, which can be transferred to the metasfresh application server through server requests in <a href="https://www.json.org/index.html" title="Introducing JSON" target="blank">JSON format</a>. A special feature of the metasfresh REST API is that you can also combine data sets that would normally be migrated separately via the respective endpoints in a single server request, thereby creating several data entries in one go. For example, when migrating a sales order candidate to metasfresh's sales order disposition, both a new business partner and product entry can be created simultaneously.
+By means of the metasfresh web service (REST API) you can transfer external data to metasfresh and retrieve, update or delete existing data entries from the system. This is done via so-called *API endpoints*. Each endpoint is set up for the migration of certain data sets, which can be transferred to the metasfresh application server through server requests in <a href="https://www.json.org/index.html" title="Introducing JSON" target="blank">JSON format</a>. A special feature of the metasfresh REST API is that you can also combine data sets that would normally be migrated separately via the respective endpoints, and import them in a single server request, thereby creating several data entries in one go. For example, when migrating a sales order candidate to metasfresh's sales order disposition, both a new business partner and product entry can be created simultaneously.
 
 A template for a JSON server request is provided for each endpoint in the respective input field (![request example](assets/example_value.png)) and can be viewed, copied and modified using the required data. A description of the request model (![request model](assets/model.png)) with explanations of the individual elements will help you to create your own server request.
 
@@ -31,13 +31,13 @@ In order to use the web service, you require an authentication token that you wi
 ## Available Endpoints
 The endpoints currently available are listed below. Click on an endpoint you would like to learn more about.
 
-- [Sales order candidates (sales order disposition)](order-candidates-rest-controller-impl)
-- Sales orders
-- File upload and download
-- Data import
 - Business partners and contacts
-- Products and product categories
+- Data import
+- File upload and download
 - Invoices and billing candidates
+- Products and product categories
+- Sales orders
+- [Sales order candidates (sales order disposition)](order-candidates-rest-controller-impl)
 
 ## JSON Elements
 
@@ -47,9 +47,11 @@ The endpoints currently available are listed below. Click on an endpoint you wou
 "externalId": "2156435"
 ```
 
-This name-value pair refers to the ID of the data record on the external platform from which the data are retrieved. The `externalId` must be **unique**. It can be found at the end of the URL of a data entry in metasfresh behind the window ID, as shown in the following example:
+This name-value pair refers to the ID of the data record on the external platform from which the data are retrieved. The `externalId` must be **unique**. It can be found at the end of a data entry's URL in metasfresh behind the window ID, as shown in the following example:
 
-<p style="text-align:center">https://<code>{{base.URL}}</code>/window/123/<strong>2156435</strong></p>
+<p style="text-align:center">https://<code ng-non-bindable>{{ base.URL }}</code>/window/123/<strong>2156435</strong></p>
+
+<p style="text-align:center">https://{% raw %}`{{ base.URL }}`{% endraw %}/window/123/<strong>2156435</strong></p>
 
 ### syncAdvise
 
