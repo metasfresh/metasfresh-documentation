@@ -1,5 +1,5 @@
 ---
-title: Allgemeine Informationen zur Verwendung des metasfresh Webservice
+title: Allgemeine Informationen zur Nutzung des metasfresh Webservice
 layout: default
 tags:
   - Anfängertipps für den metasfresh Webservice
@@ -14,7 +14,7 @@ Eine Besonderheit der metasfresh REST API ist, dass Du Datenmigrationen, die im 
 
 Eine Vorlage für eine Serveranfrage im JSON-Format steht für jeden Endpunkt zur Verfügung und kann an der jeweiligen Stelle (![Anfragevorlage](assets/example_value.png)) eingesehen, kopiert und mit den gewünschten Daten ergänzt werden. Eine Beschreibung des Anfrage-Modells (![Anfrage-Modell](assets/model.png)) mit Erläuterungen zu den einzelnen Elementen hilft Dir bei der Erstellung Deiner eigenen Serveranfrage.
 
-Um den Webservice verwenden zu können, benötigst Du allerdings ein Autorisierungstoken, mit dem Du Dich erst bei der REST API authentifizieren musst, bevor Du eine Serveranfrage absenden kannst. Dieses Token wird Dir in dem Eintrag Deines metasfresh-[Nutzers](../../webui_collection/DE/Nutzer_anlegen) bereitgestellt.
+Um den Webservice nutzen zu können, benötigst Du allerdings ein Autorisierungstoken, mit dem Du Dich erst bei der REST API authentifizieren musst, bevor Du eine Serveranfrage absenden kannst. Dieses Token wird Dir in dem Eintrag Deines metasfresh-[Nutzers](../../webui_collection/DE/Nutzer_anlegen) bereitgestellt.
 
 ## Schritte
 1. [Halte Dein Autorisierungstoken bereit](../../webui_collection/DE/Authentifizierungstoken).

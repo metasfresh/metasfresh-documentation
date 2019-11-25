@@ -30,7 +30,7 @@ To use this endpoint successfully, you might need the following data:
 1. In the field **Authorization token**, paste your [authentication token](../../webui_collection/EN/Authentication_token).
 1. In the field **dataSourceName**, paste the endpoint's data source name.
 1. In the field **externalReference**, enter the external reference ID (**External Header ID**) of the sales order candidate's entry where the file shall be attached.
- >**Note:** You can view the **External Header ID** in the [advanced edit menu](ViewModes) from the [actions menu](StartAction) of the respective sales order candidate's entry.
+ >**Note:** You can view the **External Header ID** in the [advanced edit menu](../../webui_collection/EN/ViewModes) from the [actions menu](../../webui_collection/EN/StartAction) of the respective sales order candidate's entry.
 
 1. In the field **file**, click ![Google Chrome: "Choose file"](assets/button_Choose_file.png) or ![Mozilla Firefox: "Browse..."](assets/button_Browse.png) to select the attachment file.
 1. Click ![Execute](assets/button_execute.png) to upload the file attachment.
