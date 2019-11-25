@@ -1,5 +1,5 @@
 ---
-title: General Information on the use of the metasfresh web service
+title: General information on the use of the metasfresh web service
 layout: default
 tags:
   - A Beginner's Guide to the metasfresh Web Service
@@ -55,7 +55,7 @@ This name-value pair refers to the ID of the data record on the external platfor
 
 <center>https://{% raw %}`{{ base.URL }}`{% endraw %}/window/123/<strong>2156435</strong></center>
 
-<p style="text-align:center">https://{% raw %}`{{ base.URL }}`{% endraw %}/window/123/<strong>2156435</strong></p>
+<p style="text-align:center">https://{% raw %}<code>{{ base.URL }}</code>{% endraw %}/window/123/<strong>2156435</strong></p>
 
 ### syncAdvise
 
