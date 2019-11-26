@@ -17,3 +17,5 @@ lang: en
   }
 ```
 1. click on "execute"
+
+![](assets/usersession_post.png)
