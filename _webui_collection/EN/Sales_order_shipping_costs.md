@@ -4,6 +4,7 @@ layout: default
 tags:
   - Workflow
   - Sales
+  - Shipping
   - Shipping and Freight Costs
 lang: en
 sequence: 10

@@ -4,16 +4,17 @@ layout: default
 tags:
   - Workflow
   - Verkauf
+  - Kommissionierung
 lang: de
-sequence: 60
+sequence: 20
 ref: ship_salesorder_picked_qty
 ---
 
 ## Voraussetzungen
-- [Kommissioniere einen Auftrag](Lieferung_kommissionieren).
+- [Kommissioniere einen Auftrag](Auftrag_kommissionieren).
 
 ## Schritte
-1. Öffne den Eintrag eines [kommissionierten Auftrags](Lieferung_kommissionieren).
+1. Öffne den Eintrag eines [kommissionierten Auftrags](Auftrag_kommissionieren).
 1. [Springe zur](SpringezuBelegen) "Lieferdisposition".
  >**Hinweis:** Drücke `Alt` + `6` / `⌥ alt` + `6`, um die Sidebar mit den verknüpften Belegen zu öffnen.
 

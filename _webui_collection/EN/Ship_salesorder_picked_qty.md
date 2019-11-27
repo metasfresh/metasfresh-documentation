@@ -4,8 +4,9 @@ layout: default
 tags:
   - Workflow
   - Sales
+  - Order Picking
 lang: en
-sequence: 60
+sequence: 20
 ref: ship_salesorder_picked_qty
 ---
 
