@@ -5,7 +5,7 @@ tags:
   - Workflow
   - Sales
 lang: en
-sequence: 90
+sequence: 60
 ref: short-term_availability_in_sales_order
 ---
 

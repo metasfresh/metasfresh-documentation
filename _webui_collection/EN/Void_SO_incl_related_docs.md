@@ -5,7 +5,7 @@ tags:
   - Workflow
   - Sales
 lang: en
-sequence: 80
+sequence: 50
 ref: void_so_incl_related_docs
 ---
 
