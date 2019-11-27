@@ -4,6 +4,7 @@ layout: default
 tags:
   - Workflow
   - Verkauf
+  - Versand
   - Versand- und Frachtkosten
 lang: de
 sequence: 10

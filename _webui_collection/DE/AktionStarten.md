@@ -37,7 +37,7 @@ Diese Aktionen findest Du in Belegen wie [Aufträgen](Auftrag_erfassen), [Bestel
 ---
 
 ## Quick-Actions
-Quick-Actions findest Du bei Prozessen wie [Kommissionierungen](Lieferung_kommissionieren), [Produktherstellungen](ProduktionFertigstellung), [Wareneingängen](Zu_Bestellung_Wareneingang_erstellen) usw. Du erkennst sie anhand des großen ![](assets/Quick-Actions-Button.png) oben rechts im Fenster.
+Quick-Actions findest Du bei Prozessen wie [Kommissionierungen](Auftrag_kommissionieren), [Produktherstellungen](ProduktionFertigstellung), [Wareneingängen](Zu_Bestellung_Wareneingang_erstellen) usw. Du erkennst sie anhand des großen ![](assets/Quick-Actions-Button.png) oben rechts im Fenster.
 
 ### Schritte
 - Klicke auf den Quick-Actions-Button oder drücke `Alt` + `U` / `⌥ alt` + `U`, um die angezeigte Quick-Action auszuführen.

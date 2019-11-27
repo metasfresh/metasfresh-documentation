@@ -4,8 +4,9 @@ layout: default
 tags:
   - Workflow
   - Sales
+  - Order Picking
 lang: en
-sequence: 50
+sequence: 10
 ref: picking_terminal
 ---
 
@@ -33,4 +34,4 @@ You can check your stock inventory at any time in the "[Handling Unit Editor](Me
 - [Create a shipment with picked quantities](Ship_salesorder_picked_qty).
 
 ## Example
-![](../DE/assets/Lieferung_kommissionieren.gif)
+![](../DE/assets/Auftrag_kommissionieren.gif)

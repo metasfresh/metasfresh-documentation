@@ -4,6 +4,7 @@ layout: default
 tags:
   - Workflow
   - Verkauf
+  - Versand
   - Versand- und Frachtkosten
   - Einrichtung
 lang: de
@@ -11,7 +12,7 @@ sequence: 10
 ref: shipping_freight_costs_setup
 ---
 
-## Übersicht
+## Überblick
 Die Möglichkeit, Aufträge mit Versandkosten zu versehen, ist in metasfresh standardmäßig enthalten und kann darüber hinaus selbstverständlich den eigenen Anforderungen angepasst werden. Dazu müssen lediglich die Einstellungen der Versandkostenpauschalen sowie die Liefereinstellungen für die jeweiligen Kunden entsprechend eingerichtet sein, damit Versandkosten ordnungsgemäß verarbeitet werden können.
 
 ## Schritte
@@ -19,4 +20,4 @@ Die Möglichkeit, Aufträge mit Versandkosten zu versehen, ist in metasfresh sta
 1. [Überprüfe die Liefereinstellungen des Kunden, der mit Versandkosten belastet werden soll](GPartner_Versandkosten_einrichten).
 
 ## Nächste Schritte
-- [Erfasse einen versandkostenpflichtigen Auftrag für einen Kunden](Auftrag_Versandkosten).
+- [Erfasse einen versandkostenpflichtigen Auftrag für einen Kunden](Auftrag_erfassen_Versandkosten).

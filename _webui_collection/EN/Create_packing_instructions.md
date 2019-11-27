@@ -32,7 +32,7 @@ By means of packing instructions, you can specify the type of [packing material]
 
 ### Determine a packing material
 1. Go to the record tab "Position" at the bottom of the page and click !["Add new"](assets/Add_New_Button.png). An overlay window opens up.
-1. Select the **Position Type** *Packing material* (Ger.: Packmittel). A new field **Packing Material** appears.
+1. Select the **Position Type** *Packing material* (Ger.: Packmittel). A new field [**Packing Material**](Set_up_packing_material) appears.
 1. Select the desired **Packing Material**.
 1. Click "Done" to close the overlay window and add the packing material to the list.
 

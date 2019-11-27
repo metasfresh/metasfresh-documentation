@@ -4,6 +4,7 @@ layout: default
 tags:
   - Workflow
   - Verkauf
+  - Versand
   - Versand- und Frachtkosten
   - Einrichtung
 lang: de
@@ -11,7 +12,7 @@ sequence: 20
 ref: add_product_shipping_costs
 ---
 
-## Übersicht
+## Überblick
 In metasfresh werden Versandkostenpauschalen als Zusatzprodukt gehandhabt, das einem Auftrag als weitere Position hinzugefügt wird und so anschließend fakturiert werden kann. Im metasfresh-Standard ist ein Produkteintrag für die Versandkostenpauschale bereits vorhanden. Ein solches Produkt wird aus technischen Gründen benötigt, um die Versandkosten bei der Fakturierung versandkostenpflichtiger Aufträge auf der Rechnung auszuweisen und kann bei entsprechender Konfiguration auch automatisch bei Fertigstellung eines Auftrages hinzugefügt werden.
 
 Damit das Produkt "Versandkostenpauschale" ordnungsgemäß verwendet werden kann, muss es folgendermaßen konfiguriert sein:
@@ -43,4 +44,4 @@ Im metasfresh-Standard ist die stan­dard­mä­ßig vorhandene Versandkostenpau
 1. Klicke auf "Bestätigen", um das Overlay-Fenster zu schließen und den Lieferweg zur Liste hinzuzufügen.
 
 ## Nächste Schritte
-- [Erfasse einen versandkostenpflichtigen Auftrag](Auftrag_Versandkosten).
+- [Erfasse einen versandkostenpflichtigen Auftrag](Auftrag_erfassen_Versandkosten).

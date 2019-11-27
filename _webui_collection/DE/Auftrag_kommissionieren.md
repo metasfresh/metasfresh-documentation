@@ -1,11 +1,12 @@
 ---
-title: Wie kommissioniere ich eine Lieferung?
+title: Wie kommissioniere ich einen Auftrag für die Lieferung?
 layout: default
 tags:
   - Workflow
   - Verkauf
+  - Kommissionierung
 lang: de
-sequence: 50
+sequence: 10
 ref: picking_terminal
 ---
 
@@ -33,4 +34,4 @@ Den Lagerbestand kannst Du im "[Handling Unit Editor](Menu)" jederzeit nachschau
 - [Erstelle eine Lieferung mit der kommissionierten Menge](Lieferung_mit_kommissionierter_Menge).
 
 ## Beispiel
-![](assets/Lieferung_kommissionieren.gif)
+![](assets/Auftrag_kommissionieren.gif)

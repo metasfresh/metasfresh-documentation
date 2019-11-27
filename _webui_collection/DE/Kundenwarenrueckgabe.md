@@ -13,7 +13,7 @@ ref: customer_returns
 ## Voraussetzungen
 1. Du benötigst ein "[Beanstandungslager](Beanstandungslager_anlegen)", an das die Warenrücksendungen weitergeleitet werden können.
 1. [Erfasse einen Auftrag](Auftrag_erfassen) und [stelle ihn fertig](BelegverarbeitungFertigstellen).
-1. [Kommissioniere den Auftrag](Lieferung_kommissionieren).
+1. [Kommissioniere den Auftrag](Auftrag_kommissionieren).
 1. [Erstelle eine Lieferung mit der kommissionierten Menge](Lieferung_mit_kommissionierter_Menge).
 
 ## Schritte
