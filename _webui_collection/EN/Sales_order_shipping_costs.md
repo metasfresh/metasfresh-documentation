@@ -19,8 +19,8 @@ ref: sales_order_shipping_costs
 1. Open the [advanced edit menu](ViewModes) from the [actions menu](StartAction).
  >**Note:** Use shortcut `Alt` + `E` / `⌥ alt` + `E`.
 
-1. Scroll down to the field **Delivery Via** and pick *Shipper*, if not already done automatically.
-1. In the field **Shipper**, pick *Eigentransport* (=own transport), if not already done automatically.
+1. Scroll down to the field **Delivery Via** and pick *Shipper*, if not already set automatically.
+1. In the field **Shipper**, pick *Eigentransport* (=own transport), if not already set automatically.
  >**Note:** The settings for the fields **Delivery Via** and **Shipper** are automatically copied from the respective business partner entry [if they have been preconfigured in there](Setup_bpartner_shipping_costs).
 
 1. Scroll down further to the field **Freight Cost Rule** and pick *Fix price*.
