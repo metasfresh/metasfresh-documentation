@@ -7,7 +7,7 @@ tags:
   - Kommissionierung
 lang: de
 sequence: 30
-ref: picking_terminal_v2
+ref: order_picking_terminal_v2
 ---
 
 ## Überblick

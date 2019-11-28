@@ -37,7 +37,7 @@ You will find these actions in documents, such as [sales orders](SalesOrder_reco
 ---
 
 ## Quick Actions
-You will find quick actions for processes, such as [creating goods receipts](CreateGoodsReceipt), [order picking](Picking_terminal), [product manufacturing](ProductionCompletion), etc. You can identify them by the big ![](assets/Quick-Actions-Button.png) at the top right of the window.
+You will find quick actions for processes, such as [creating goods receipts](CreateGoodsReceipt), [order picking](Order_picking_terminal), [product manufacturing](ProductionCompletion), etc. You can identify them by the big ![](assets/Quick-Actions-Button.png) at the top right of the window.
 
 ### Steps
 - Click on the quick actions button or press `Alt` + `U` / `⌥ alt` + `U` to execute the shown quick action.

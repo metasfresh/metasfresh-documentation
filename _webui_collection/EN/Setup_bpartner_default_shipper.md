@@ -17,7 +17,7 @@ ref: setup_bpartner_default_shipper
 1. Open the [advanced edit menu](ViewModes) from the [actions menu](StartAction).
  >**Note:** Use shortcut `Alt` + `E` / `⌥ alt` + `E`.
 
-1. Scroll down to the field **Shipper** and pick a shipper, e.g., *Eigentransport* (=own transport) or *DPD*.
+1. Scroll down to the field **Shipper** and pick a [shipper](Shipper_configuration), e.g., *Eigentransport* (=own transport) or *DPD*.
 1. Click "Done" to apply the changes and close the advanced edit menu.
 
 | **Note:** |

@@ -1,5 +1,5 @@
 ---
-title: Wie kommissioniere ich einen Auftrag für die Lieferung?
+title: Wie kommissioniere ich einen Auftrag für die Lieferung unter Nutzung von Handling Units? (Kommissionier-Terminal)
 layout: default
 tags:
   - Workflow
@@ -7,11 +7,11 @@ tags:
   - Kommissionierung
 lang: de
 sequence: 10
-ref: picking_terminal
+ref: order_picking_terminal
 ---
 
 ## Überblick
-In metasfresh kannst Du *Handling Units* ([HUs](Handling_Unit_System)) für Lieferungen kommissionieren. Die kommissionierte Menge der HUs wird dann von Deinem Lagerbestand abgebucht.<br>
+In metasfresh kannst Du ausgewählte *Handling Units* ([HUs](Handling_Unit_System)) für Lieferungen kommissionieren. Die kommissionierte Menge der HUs wird dann von Deinem Lagerbestand abgebucht.<br>
 Den Lagerbestand kannst Du im "[Handling Unit Editor](Menu)" jederzeit nachschauen.
 
 ## Voraussetzungen

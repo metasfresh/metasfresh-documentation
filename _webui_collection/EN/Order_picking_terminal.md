@@ -1,5 +1,5 @@
 ---
-title: How do I use the picking terminal for shipments?
+title: How do I pick an order using handling units for shipments? (Picking Terminal)
 layout: default
 tags:
   - Workflow
@@ -7,11 +7,11 @@ tags:
   - Order Picking
 lang: en
 sequence: 10
-ref: picking_terminal
+ref: order_picking_terminal
 ---
 
 ## Overview
-In metasfresh, you can pick *handling units* ([HUs](Handling_Unit_System)) for shipments. The picked quantities are deducted from stock afterwards.<br>
+In metasfresh, you can choose and pick *handling units* ([HUs](Handling_Unit_System)) to prepare shipments. The picked quantities are deducted from stock afterwards.<br>
 You can check your stock inventory at any time in the "[Handling Unit Editor](Menu)".
 
 ## Requirements
