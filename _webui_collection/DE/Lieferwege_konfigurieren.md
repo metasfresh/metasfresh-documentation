@@ -14,8 +14,8 @@ ref: shipper_configuration
 ## Überblick
 metafresh verfügt derzeit über Schnittstellen für den Versand mit folgenden Dienstleistern (Lieferwege):
 - Der Kurier
-- DHL
-- DPD
+- <a href="#dhl-konfiguration" title="zur DHL-Konfiguration" target="blank">DHL</a>
+- [DPD](#dpd-konfiguration)
 - GO! Express & Logistics
 
 ## Schritte
@@ -24,9 +24,20 @@ metafresh verfügt derzeit über Schnittstellen für den Versand mit folgenden D
 1. Trage die **Nachverfolgungs-URL**, die Dir vom Versanddienstleister bereitgestellt wurde.
 1. Gehe zur Registerkarte des jeweiligen Lieferweges (z.B. "DPD Konfiguration") unten auf der Seite und klicke auf !["Neu hinzufügen"](assets/Neu_hinzufuegen_Button.png). Es öffnet sich ein Overlay-Fenster.
 
-### DPD Konfiguration
-1. Trage in das Feld **URL Api Login** die URL für die Anmeldung und Authentifizierung gegenüber der Anwendungsschnittstelle des Versanddienstleisters ein.
-1. Trage in das Feld **URL Api Shipment Service** die URL für den Zugriff auf die Versandschnittstelle ein, über die die Versandscheine generiert werden.
+### <a name="dhl-konfiguration">DHL Konfiguration</a>
+1. Trage in das Feld **DHL API URL** die URL für die Anmeldung bei der DHL-Anwendungsschnittstelle ein.
+1. Trage die **Anwendungs-ID** ein, die Du von DHL für die Einrichtung erhalten hast.
+1. Trage das **Anwendungs-Token** ein, das Du von DHL für die Einrichtung erhalten hast.
+1. Trage die **Kontonummer** ein, die Du von DHL für die Einrichtung erhalten hast.
+1. Trage in das Feld **Nutzer-ID/Login** Deinen Benutzernamen zur Kontoanmeldung ein.
+1. Trage in das Feld **Unterschrift** Dein Passwort zur Kontoanmeldung ein.
+
+---
+
+### <a name="dpd-konfiguration">DPD Konfiguration</a>
+
+1. Trage in das Feld **URL Api Login** die URL für die <a href="http://diswiki.dpd.nl/wiki/2/login-service" title="dpd Login Service" target="blank">Anmeldung und Authentifizierung</a> gegenüber der DPD-Anwendungsschnittstelle ein.
+1. Trage in das Feld **URL Api Shipment Service** die URL für den Zugriff auf die <a href="http://diswiki.dpd.nl/wiki/3/shipment-service" title="dpd Shipment Service" target="blank">Versandschnittstelle</a> ein, über die die Versandscheine generiert werden.
 1. Trage die **Delis ID** ein, die Du von DPD für die Einrichtung erhalten hast.
 1. Trage das **Delis Passwort** ein, das Du von DPD für die Einrichtung erhalten hast.
 1. Wähle ein **Papierformat** für den Versandschein aus.
