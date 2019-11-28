@@ -26,4 +26,4 @@ ref: create_transportation_order
 
 ## Nächste Schritte
 - [Nutze das "Kommissionier-Terminal (v2)", um einen Auftrag für den Versand in diesem Transportauftrag zu kommissionieren](Auftrag_kommissionieren_Terminal_v2).
-- <a href="../Lieferwege_konfigurieren#dpd-konfiguration" title="zur DPD-Konfiguration springen">DPD</a>
+- <a href="Lieferwege_konfigurieren#dpd-konfiguration" title="zur DPD-Konfiguration springen">DPD</a>
