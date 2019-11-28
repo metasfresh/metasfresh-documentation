@@ -1,5 +1,5 @@
 ---
-title: How do I pick an order using handling units for shipments? (Picking Terminal)
+title: How do I pick a sales order for shipments using handling units? (Picking Terminal)
 layout: default
 tags:
   - Workflow

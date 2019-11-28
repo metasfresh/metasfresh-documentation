@@ -13,7 +13,7 @@ ref: enable_collectivebill
 1. Open the entry of an existing [business partner](Menu) or [add a new one](New_Business_Partner).
 1. Go to the record tab "Customer" at the bottom of the page.
 1. Open the [advanced edit menu](Open_AdvancedEditTab) of the customer line.
-1. Set the field **Aggregationrule Customer Invoices** to the desired aggregation rule.
+1. In the field **Aggregationrule Customer Invoices**, set the desired aggregation rule.
  >**Note:** For the standard case select "invoicing-agg-std".
 
 1. Click "Done" to apply the changes and close the advanced edit menu.
