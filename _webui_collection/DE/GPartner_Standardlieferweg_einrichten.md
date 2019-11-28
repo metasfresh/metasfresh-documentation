@@ -17,7 +17,7 @@ ref: setup_bpartner_default_shipper
 1. Öffne die "[Erweiterte Erfassung](Ansichten)" aus dem [Aktionsmenü](AktionStarten).
  >**Hinweis:** Drücke `Alt` + `E` / `⌥ alt` + `E`.
 
-1. Scrolle runter bis zum Feld **Lieferweg** und wähle einen Lieferweg aus, z.B. *Eigentransport* oder *DPD*.
+1. Scrolle runter bis zum Feld **Lieferweg** und wähle einen [Lieferweg](Lieferwege_konfigurieren) aus, z.B. *Eigentransport* oder *DPD*.
 1. Klicke auf "Bestätigen", um die Änderungen zu übernehmen und die "Erweiterte Erfassung" zu schließen.
 
 | **Hinweis:** |

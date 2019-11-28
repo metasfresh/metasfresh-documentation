@@ -14,7 +14,7 @@ ref: ship_salesorder_picked_qty
 - [Kommissioniere einen Auftrag](Auftrag_kommissionieren).
 
 ## Schritte
-1. Öffne den Eintrag eines [kommissionierten Auftrags](Auftrag_kommissionieren).
+1. Öffne den Eintrag eines [kommissionierten Auftrags](Auftrag_kommissionieren) im Fenster "[Aufträge](Menu)".
 1. [Springe zur](SpringezuBelegen) "Lieferdisposition".
  >**Hinweis:** Drücke `Alt` + `6` / `⌥ alt` + `6`, um die Sidebar mit den verknüpften Belegen zu öffnen.
 

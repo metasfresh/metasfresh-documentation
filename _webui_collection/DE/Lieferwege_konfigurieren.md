@@ -14,8 +14,8 @@ ref: shipper_configuration
 ## Überblick
 metafresh verfügt derzeit über Schnittstellen für den Versand mit folgenden Dienstleistern (Lieferwege):
 - Der Kurier
-- <a href="#dhl-konfiguration" title="zur DHL-Konfiguration" target="blank">DHL</a>
-- [DPD](#dpd-konfiguration)
+- <a href="#dhl-konfiguration" title="zur DHL-Konfiguration springen">DHL</a>
+- <a href="#dpd-konfiguration" title="zur DPD-Konfiguration springen">DPD</a>
 - GO! Express & Logistics
 
 ## Schritte

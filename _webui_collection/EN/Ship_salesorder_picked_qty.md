@@ -11,10 +11,10 @@ ref: ship_salesorder_picked_qty
 ---
 
 ## Requirements
-- [Pick handling units for a shipment](Picking_terminal).
+- [Pick handling units for a shipment](Order_picking_terminal).
 
 ## Steps
-1. Open the entry of a [sales order with picked HUs](Picking_terminal).
+1. Open the entry of a [sales order with picked HUs](Order_picking_terminal) under "[Sales Order](Menu)" in the menu.
 1. [Jump to](JumptoviaSidebar) "Shipment Disposition".
  >**Note:** Press `Alt` + `6` / `⌥ alt` + `6` to open the sidebar with the list of referenced documents.
 

@@ -13,13 +13,13 @@ ref: customer_returns
 ## Requirements
 1. You will need a "[Quality Issue Warehouse](Add_quality_issue_warehouse)" to which the returned goods can be forwarded.
 1. [Create a sales order](SalesOrder_recording) and [complete it](DocumentProcessingComplete).
-1. [Pick the handling units for the shipment](Picking_terminal).
+1. [Pick the handling units for the shipment](Order_picking_terminal).
 1. [Create a shipment with picked quantities](Ship_salesorder_picked_qty).
 
 ## Steps
 
 ### Create a Returned Goods Receipt
-1. Open the entry of a sales order for which you have [created a shipment with picked quantities](Picking_terminal) that have been returned.
+1. Open the entry of a sales order for which you have [created a shipment with picked quantities](Order_picking_terminal) that have been returned.
 1. [Jump to](JumptoviaSidebar) "Shipment (Customer)".
  >**Note:** Press `Alt` + `6` / `⌥ alt` + `6` to open the sidebar with the list of referenced documents.
 
