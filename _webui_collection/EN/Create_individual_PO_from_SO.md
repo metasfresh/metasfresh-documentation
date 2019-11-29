@@ -36,7 +36,7 @@ If you [complete](DocumentProcessingComplete) the sales order or you create the 
 
 1. You will receive a [notification](Notification_types) ![](assets/NotificationBell_WebUI.png) in the upper right corner once the purchase order is created.
 1. Click on the notification to open the purchase order.
- >**Note 1:** You can also jump ***directly*** to the purchase order from the sales order via the [related documents](JumptoviaSidebar).<br><br>
+ >**Note 1:** You can also jump ***directly*** to the purchase order via the sales order's [related documents](JumptoviaSidebar).<br><br>
  >**Note 2:** The purchase order is already completed.
 
 ## Example

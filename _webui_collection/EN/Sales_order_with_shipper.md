@@ -1,5 +1,5 @@
 ---
-title: How do I create an order for shipping?
+title: How do I create a sales order for shipping?
 layout: default
 tags:
   - Workflow

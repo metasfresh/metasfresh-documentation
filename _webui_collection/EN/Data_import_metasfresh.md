@@ -17,7 +17,7 @@ You can quickly import externally stored data (such as Excel spreadsheets with d
 1. Have an [import file](Import_file_useful_tips) ready containing data formatted according to the import format (see **format examples** in the overview below).
 1. Import your data using the appropriate import format (see **instructions** in the overview below).
 
-   | **Important Note:** |
+   | **Important note:** |
    | :--- |
    | **1)** Make sure that the ***separator*** from the import file coincides with the one defined in the import format (comma, semicolon, tab, etc.).<br> **2)** Please also make sure that both the ***decimal*** and the ***thousands separators*** from the import file match with your respective language-specific system preferences (e.g., Eng.: *$ 1,999.95* vs. Ger.: *€ 1.999,95*). |
 

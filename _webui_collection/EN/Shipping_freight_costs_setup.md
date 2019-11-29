@@ -20,4 +20,4 @@ The possibility to add shipping costs to sales orders is provided by default in 
 1. [Review the shipment and delivery settings of the customer to be charged shipping costs](Setup_bpartner_shipping_costs).
 
 ## Next Steps
-- [Enter an order with shipping costs for a customer](Sales_order_shipping_costs).
+- [Create a sales order with shipping costs for a customer](Sales_order_shipping_costs).

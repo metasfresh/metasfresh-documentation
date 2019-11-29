@@ -44,4 +44,4 @@ In the standard metasfresh, the default flat shipping rate is already configured
 1. Click "Done" to close the overlay window and add the shipper to the list.
 
 ## Next Steps
-- [Enter an order with shipping costs](Sales_order_shipping_costs).
+- [Create a sales order with shipping costs](Sales_order_shipping_costs).
