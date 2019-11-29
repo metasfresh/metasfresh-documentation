@@ -25,4 +25,4 @@ ref: create_transport_order
 | The transport order must be in the *Drafted* status and ***must not*** be completed until all delivery orders scheduled for the collection date have been entered and processed! |
 
 ## Next Steps
-- [Use the "Picking Terminal (v2)" to pick a sales order for shipping and handle it in this transport order](Order_picking_terminal_v2).
+- [Use the "Picking Terminal (v2)" to pick a sales order for shipping and to handle it in this transport order](Order_picking_terminal_v2).

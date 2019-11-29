@@ -16,7 +16,7 @@ You can check your stock inventory at any time in the "[Handling Unit Editor](Me
 
 ## Requirements
 1. [Create a sales order intended for shipping](Sales_order_with_shipper) and [complete it](DocumentProcessingComplete).
-1. [Create a transport order in the *Drafted* status](Sales_order_with_shipper) to use it to handle the picked sales order.
+1. [Create a transport order in the *Drafted* status](Create_transport_order) to use it to handle the picked sales order.
 
 ## Steps
 1. Open "Picking Terminal (v2)" from the [menu](Menu).
