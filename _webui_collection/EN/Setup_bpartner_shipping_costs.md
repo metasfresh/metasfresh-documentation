@@ -16,4 +16,4 @@ ref: setup_bpartner_shipping_costs
 [Follow these instructions](Setup_bpartner_default_shipper) and pick the **Shipper** *Eigentransport* (=own transport).
 
 ## Next Steps
-- [Enter an order with shipping costs for the customer](Sales_order_shipping_costs).
+- [Create a sales order with shipping costs for the customer](Sales_order_shipping_costs).

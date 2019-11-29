@@ -21,7 +21,7 @@ metafresh verfügt derzeit über Schnittstellen für den Versand mit folgenden D
 ## Schritte
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Lieferweg".
 1. Öffne den Eintrag eines bestehenden Lieferweges in der [Einzelansicht](Ansichten), z.B. "DPD".
-1. Trage die **Nachverfolgungs-URL**, die Dir vom Versanddienstleister bereitgestellt wurde.
+1. Trage die **Nachverfolgungs-URL** ein, die Dir vom Versanddienstleister bereitgestellt wurde.
 1. Gehe zur Registerkarte des jeweiligen Lieferweges (z.B. "DPD Konfiguration") unten auf der Seite und klicke auf !["Neu hinzufügen"](assets/Neu_hinzufuegen_Button.png). Es öffnet sich ein Overlay-Fenster.
 
 ### <a name="dhl-konfiguration">DHL Konfiguration</a>
@@ -31,16 +31,16 @@ metafresh verfügt derzeit über Schnittstellen für den Versand mit folgenden D
 1. Trage die **Kontonummer** ein, die Du von DHL für die Einrichtung erhalten hast.
 1. Trage in das Feld **Nutzer-ID/Login** Deinen Benutzernamen zur Kontoanmeldung ein.
 1. Trage in das Feld **Unterschrift** Dein Passwort zur Kontoanmeldung ein.
+1. Klicke auf "Bestätigen", um das Overlay-Fenster zu schließen und die Konfigurationen zur Liste hinzuzufügen.
 
 ---
 
 ### <a name="dpd-konfiguration">DPD Konfiguration</a>
-
 1. Trage in das Feld **URL Api Login** die URL für die <a href="http://diswiki.dpd.nl/wiki/2/login-service" title="dpd Login Service" target="blank">Anmeldung und Authentifizierung</a> gegenüber der DPD-Anwendungsschnittstelle ein.
 1. Trage in das Feld **URL Api Shipment Service** die URL für den Zugriff auf die <a href="http://diswiki.dpd.nl/wiki/3/shipment-service" title="dpd Shipment Service" target="blank">Versandschnittstelle</a> ein, über die die Versandscheine generiert werden.
 1. Trage die **Delis ID** ein, die Du von DPD für die Einrichtung erhalten hast.
 1. Trage das **Delis Passwort** ein, das Du von DPD für die Einrichtung erhalten hast.
-1. Wähle ein **Papierformat** für den Versandschein aus.
+1. Wähle ein **Papierformat** für die Versandscheine aus.
 1. Klicke auf "Bestätigen", um das Overlay-Fenster zu schließen und die Konfigurationen zur Liste hinzuzufügen.
 
 | **Wichtiger Hinweis:** |

@@ -25,7 +25,7 @@ If you specifically want to carry over all products in the ordered quantity from
 1. Pick the desired **Vendor**.
 1. Click "Start" to generate the purchase order and close the overlay window.
  >**Note 1:** You will find a draft of the order-related purchase order with the sales order number as **Reference** under "[Purchase Order](Menu)" in the menu.<br><br>
- >**Note 2:** You can jump ***directly*** to the purchase order from the sales order via the [related documents](JumptoviaSidebar).
+ >**Note 2:** You can jump ***directly*** to the purchase order via the sales order's [related documents](JumptoviaSidebar).
 
 ## Example
 ![](assets/Generate PO from SO.gif)

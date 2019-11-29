@@ -25,5 +25,5 @@ ref: setup_bpartner_default_shipper
 | **Delivery Via** and **Shipper** can also be set during order entry. |
 
 ## Next Steps
-- [Enter an order intended for shipping](Sales_order_with_shipper).
-- [Enter an order with shipping costs](Sales_order_shipping_costs).
+- [Create a sales order intended for shipping](Sales_order_with_shipper).
+- [Create a sales order with shipping costs](Sales_order_shipping_costs).

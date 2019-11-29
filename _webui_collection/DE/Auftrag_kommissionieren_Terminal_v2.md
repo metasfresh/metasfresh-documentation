@@ -16,7 +16,7 @@ Den Lagerbestand kannst Du im "[Handling Unit Editor](Menu)" jederzeit nachschau
 
 ## Voraussetzungen
 1. [Erfasse einen für den Versand bestimmten Auftrag](Auftrag_erfassen_Versand) und [stelle ihn fertig](BelegverarbeitungFertigstellen).
-1. [Erstelle einen Transportauftrag mit dem Status *Entwurf*](Transportauftrag_erstellen), in den der kommissionierte Auftrag aufgenommen werden soll.
+1. [Erstelle einen Transportauftrag mit dem Status *Entwurf*](Transportauftrag_erstellen), in dem der kommissionierte Auftrag abgewickelt werden soll.
 
 ## Schritte
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Kommissionier-Terminal (v2)".
@@ -32,7 +32,7 @@ Mithilfe der Pickliste kann der Kommissionierer den tatsächlichen Bestand über
 ### Produkte kommissionieren ("Picken")
 1. [Starte die Quick-Action](AktionStarten) "Pick". Es öffnet sich ein Overlay-Fenster mit der Pickliste.
 1. ***Optional:*** Klicke doppelt auf das Feld **Menge Abw.** der Produktzeile und gib dort die abweichende Menge ein.
-1. [Selektiere](AuswahlBelege) die Zeilen der zu kommissionierenden Produkte und [starte die Quick-Action](AktionStarten) "Pick". Der **Kommissionier-Status** ändert sich auf *Komm. OK*.
+1. [Selektiere](AuswahlBelege) die Zeilen der zu kommissionierenden Produkte und [starte die Quick-Action](AktionStarten) "Pick". Der **Kommissionier-Status** ändert sich von *Komm. ausstehend* auf *Komm. OK*.
 
 ### Kommissionierte Produkte verpacken
 1. [Selektiere](AuswahlBelege) die Zeilen der zu verpackenden Produkte und [starte die Quick-Action](AktionStarten) "Pack To". Es öffnet sich ein Overlay-Fenster.
@@ -41,8 +41,8 @@ Mithilfe der Pickliste kann der Kommissionierer den tatsächlichen Bestand über
 
 ### Kommissionierung verarbeiten
 1. [Selektiere](AuswahlBelege) die Zeilen der verpackten Produkte und [starte die Quick-Action](AktionStarten) "Process". Es öffnet sich ein Overlay-Fenster.
-1. Der **Lieferweg** wird aus dem Auftrag übernommen und ist hier voreingestellt, kann jedoch nachträglich manuell geändert werden.
-1. Der **Transportauftrag** wird entsprechend dem Bereitstellungsdatum des Auftrages hier voreingestellt, kann jedoch nachträglich manuell geändert werden.
+1. Der **Lieferweg** wird aus dem Auftrag übernommen und ist hier voreingestellt, kann jedoch noch manuell geändert werden.
+1. Der **Transportauftrag** wird entsprechend dem Bereitstellungsdatum des Auftrages hier voreingestellt, kann jedoch noch manuell geändert werden.
 1. Klicke auf "Start", um das Overlay-Fenster zu schließen und die Kommissionierung zu verarbeiten. Die Produktzeilen werden schreibgeschützt.
 1. Klicke auf "Bestätigen", um die Pickliste zu schließen und zum Kommissionier-Terminal zurückzukehren. Die Zeile des kommissionierten Auftrages wird aus dem Terminal entfernt.
 
