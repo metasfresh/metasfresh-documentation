@@ -89,7 +89,7 @@ delete from ad_element_link where ad_tab_id = 540877;
 Update to 5.112
 
 ```BASH
-docker exec  -u postgres <dev> psql -d metasfresh -c "INSERT INTO public.ad_element (ad_element_id, ad_client_id, ad_org_id, isactive, created, createdby, updated, updatedby, columnname, entitytype, name, printname, description, help, po_name, po_printname, po_description, po_help, widgetsize, commitwarning, webui_namebrowse, webui_namenewbreadcrumb, webui_namenew) VALUES (1003093, 0, 0, 'Y', '2018-10-15 15:04:04.943585 +02:00', 99, '2018-10-15 15:04:04.943585 +02:00', 99, null, 'D', 'Kommentar/Hilfe', 'Kommentar/Hilfe', 'Comment or Hint', 'The Help field contains a hint, comment or help about the use of this item.', null, null, null, null, null, null, null, null, null);
+docker exec  -u postgres <dev> psql -d metasfresh -c "INSERT INTO public.ad_element (ad_element_id, ad_client_id, ad_org_id, isactive, created, createdby, updated, updatedby, columnname, entitytype, name, printname, description, help, po_name, po_printname, po_description, po_help, widgetsize, commitwarning, webui_namebrowse, webui_namenewbreadcrumb, webui_namenew) VALUES (1003093, 0, 0, 'Y', '2018-10-15 15:04:04.943585 +02:00', 99, '2018-10-15 15:04:04.943585 +02:00', 99, null, 'D', 'Kommentar/Hilfe', 'Kommentar/Hilfe', 'Comment or Hint', 'The Help field contains a hint, comment or help about the use of this item.', null, null, null, null, null, null, null, null, null);"
 
 docker exec  -u postgres <dev> psql -d metasfresh -c "select migrationscript_ignore('76-de.metas.vertical.creditscore.creditpass/5518780_sys_gh5016_add_missing_AD_Element_Link_records.sql')"
 
