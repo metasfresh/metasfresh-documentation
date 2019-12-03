@@ -11,7 +11,7 @@ ref: price_campaign_allow_promotional_price
 ---
 
 ## Overview
-In metasfresh, you can launch special price actions for a limited period of time in which a specific product is sold at a specific promotional price. This price will then apply either to single customers (provided they are eligible for price promotions) or to entire business partner groups. Consequently, all previously defined price conditions will be overridden during the promotion period and remain ineffective until the end of the promotion.
+In metasfresh, you can launch special price actions for a limited period of time in which a specific product is sold at a specific promotional price. This price will then apply either to single customers (provided they are eligible for price promotions) or to entire business partner groups. Consequently, all previously defined pricing conditions will be overridden during the promotion period and remain ineffective until the end of the promotion.
 
 You can define individually which customers are authorized to participate in price promotions, e.g., if they belong to the same business partner group, but not all of them shall receive the promotional price. To do so, please proceed as follows:
 

@@ -10,7 +10,7 @@ ref: product_promotional_price
 ---
 
 ## Overview
-In metasfresh, you can sell a specific product for a limited period of time at a specific promotional price, which will then apply either to single customers ([provided they are eligible for price promotions](Price_campaign_allow_promotional_price)) or to entire business partner groups. Consequently, all previously defined price conditions will be overridden during the promotion period and remain ineffective until the end of the promotion.
+In metasfresh, you can sell a specific product for a limited period of time at a specific promotional price, which will then apply either to single customers ([provided they are eligible for price promotions](Price_campaign_allow_promotional_price)) or to entire business partner groups. Consequently, all previously defined pricing conditions will be overridden during the promotion period and remain ineffective until the end of the promotion.
 
 You can also quickly record [special price actions](Price_campaign_add_promotional_price) in general for different products under "[Campaign Price](Menu)" in the menu.
 
