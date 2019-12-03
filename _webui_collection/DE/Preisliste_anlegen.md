@@ -25,8 +25,12 @@ Preislisten können länder- und währungsspezifisch sein und somit einem bestim
 1. Wähle eine **Währung** aus.
 1. Das Feld **Preispräzision** bestimmt, wie viele Nachkommastellen bei der Preisberechnung berücksichtigt werden.
 1. Wähle das [**Preissystem**](Preissystem_anlegen) aus, mit dem die Preisliste verknüpft werden soll.
+1. ***Optional:*** Stelle eine **Basispreisliste** ein. Gib hierzu einen Teil des Namens der gewünschten Preisliste ein und klicke auf den passenden Treffer in der [Dropdown-Liste](Keyboard_Shortcuts_Liste).
+ >**Hinweis:** Die Basispreisliste wird dann herangezogen, wenn ein Produkt auf der aktuell verwendeten Preisliste nicht zu finden ist. Sie dient ebenfalls zur [Aktualisierung abgeleiteter Kundenpreislisten](Abgeleitete_PLV_aktualisieren).
+
 1. Das Kontrollkästchen **Verkaufspreisliste** bestimmt, ob diese Preisliste für den *Verkauf* oder *Einkauf* verwendet werden soll. Ist das Häkchen gesetzt, wird sie z.B. im [Kundenauftrag](Auftrag_erfassen) auswählbar. Wird das Häkchen entfernt, wird es automatisch eine ***Einkaufspreisliste*** und somit z.B. in [Bestellungen](Bestellung_erfassen) verfügbar.
 1. Das Kontrollkästchen **Preis inkl. Steuern** bestimmt, ob die Preise *brutto* oder *netto* (d.h. inklusive oder exklusive Mehrwertsteuer) zu verstehen sind. metasfresh berechnet die Preise dementsprechend.
+1. ***Optional:*** Wähle eine **Standard Steuerkategorie** aus, die bei Auswahl der Preisliste automatisch eingestellt wird.
 1. [metasfresh speichert automatisch](Speicheranzeige).
 
 ## Nächste Schritte

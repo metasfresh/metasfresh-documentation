@@ -24,7 +24,7 @@ ref: sales_order_shipping_costs
  >**Note:** The settings for the fields **Delivery Via** and **Shipper** are automatically copied from the respective business partner entry [if they have been preconfigured in there](Setup_bpartner_shipping_costs).
 
 1. Scroll down further to the field **Freight Cost Rule** and pick *Fix price*.
- >**Note:** This fixed price only applies to this order. It is charged as a lump sum for the shipping costs and overrides any price conditions defined for the selected price list.
+ >**Note:** This fixed price only applies to this order. It is charged as a lump sum for the shipping costs and overrides any pricing conditions defined for the selected price list.
 
 1. In the field **Freight Amount**, enter a price.
 1. Click "Done" to apply the changes and close the advanced edit menu.

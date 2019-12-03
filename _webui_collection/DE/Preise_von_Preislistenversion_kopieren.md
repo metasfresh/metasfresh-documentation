@@ -11,11 +11,11 @@ ref: copy_prices_from_price-list-version
 ---
 
 ## Überblick
-Wenn Du eine neue Preislistenversion erstellst, ist diese vorerst leer, d.h. sie enthält keinerlei Preise oder Produkte. Diese kannst Du nun [manuell der Preisliste hinzufügen](Produkte_Preisliste_hinzufuegen) oder stattdessen unter Anwendung von [Preisschemata](Preisschema_mit_Regeln) aus einer bestehenden Preislistenversion (Basispreislistenversion) in Deine neue übertragen, falls Du z.B. die gleichen Produkte übernehmen aber deren Preise abändern möchtest. Gehe hierzu wie folgt vor:
+Wenn Du eine neue Preislistenversion erstellst, ist diese vorerst leer, d.h. sie enthält keinerlei Preise oder Produkte. Diese kannst Du nun [manuell der Preisliste hinzufügen](Produkte_Preisliste_hinzufuegen) oder stattdessen unter Anwendung von [Preisschemata](Preislistenschema_anlegen) aus einer bestehenden Preislistenversion (*Basispreislistenversion*) in Deine neue übertragen, falls Du z.B. die gleichen Produkte übernehmen aber deren Preise abändern möchtest. Gehe hierzu wie folgt vor:
 
 ## Voraussetzungen
-- [Lege ein Preisschema an](Preisschema_mit_Regeln), z.B. mit der Benennung "Produktpreise kopieren".
- >**Hinweis:** Du kannst in dem Preisschema auch Regeln festlegen, die beim Kopiervorgang berücksichtigt werden sollen, wie z.B. Preisaufschläge o.ä.
+- [Lege ein Preisschema an](Preislistenschema_anlegen), z.B. mit der Benennung "Produktpreise kopieren".
+ >**Hinweis:** Du kannst in dem Preisschema auch Regeln definieren, die beim Kopiervorgang berücksichtigt werden sollen, wie z.B. Preisaufschläge o.ä.
 
 ## Schritte
 1. Öffne den Eintrag einer bestehenden [Preisliste](Menu) bzw. [lege eine neue an](Preisliste_anlegen).
@@ -27,9 +27,9 @@ Wenn Du eine neue Preislistenversion erstellst, ist diese vorerst leer, d.h. sie
  >**Hinweis:** Stelle sicher, dass die Zeile der neu erstellten Preislistenversion [selektiert](AuswahlBelege) ist, bevor Du die Aktion startest.
 
 1. [metasfresh speichert automatisch](Speicheranzeige). Die Preise und Produkte wurden kopiert.
- >**Hinweis:** Waren in dem verwendeten Preisschema Regeln definiert, so wurden diese automatisch auf alle betroffenen Produktpreise angewendet.
+ >**Hinweis:** Waren in dem verwendeten Preisschema Regeln definiert, so wurden diese automatisch auf alle betreffenden Produktpreise angewendet.
 
-1. [Springe über das Kontextmenü](Springezu_Kontextmenue) ![](assets/Produkt Preise Kontextmenü.png) der zuvor neu erstellten Preislistenversion in das Fenster "Produktpreise". Hier siehst Du nun eine Liste aller aus der Basispreislistenversion übernommenen Produkte.
+1. [Springe über das Kontextmenü](Springezu_Kontextmenue) ![](assets/Produkt Preise Kontextmenü.png) der neu erstellten Preislistenversion in das Fenster "Produktpreise". Hier siehst Du nun eine Liste aller aus der Basispreislistenversion übernommenen Produkte.
 
 ## Beispiel
 ![](assets/Preise von Preislistenversion kopieren.gif)
