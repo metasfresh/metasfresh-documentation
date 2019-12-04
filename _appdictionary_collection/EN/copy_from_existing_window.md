@@ -1,5 +1,5 @@
 ---
-title: How do I copy all elements from an existing window into a new one?
+title: Copy all elements from an existing window into a new one
 layout: default
 tags:  
   - Window
