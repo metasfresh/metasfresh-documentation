@@ -23,7 +23,7 @@ Falls Dir bei der Erfassung eines [Auftrages](Auftrag_erfassen) oder einer [Best
 1. Handelt es sich um eine **Firma**, setze in dem entsprechenden Kontrollkästchen ein Häkchen und fülle das Feld **Firmenname** aus. Ist dies nicht der Fall, entferne das Häkchen und benenne den Geschäftspartner im Feld **Name**.
 1. Wähle eine [**Geschäftspartnergruppe**](Neue_Geschaeftspartnergruppe) aus.
 1. Wähle die vom Partner bevorzugte **Sprache** zur Kommunikation aus.
-1. Klicke auf den ![](assets/Edit_address_button.png)-Button, um eine **Anschrift** zu erfassen.
+1. Klicke auf den !["Edit"](assets/Edit_address_button.png)-Button, um eine **Anschrift** zu erfassen.
 1. Trage die **Straße und Nr.**, die **PLZ**, den **Ort** und das **Land** des Partners ein.
  >**Hinweis:** Wenn Du "Vereinigte Staaten von Amerika" als **Land** auswählst, kannst Du auch die **Region** eingeben. Klicke dazu einfach zweimal auf den Edit-Button, um das kleine Adressbearbeitungsfenster zu schließen und wieder zu öffnen. Das Feld erscheint dann oberhalb von **Land**.
 
