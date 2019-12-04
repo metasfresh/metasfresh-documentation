@@ -12,12 +12,16 @@ ref: add_address_tab
 ## Schritte
 1. Öffne den Eintrag eines bestehenden [Geschäftspartners](Menu) in der [Einzelansicht](Ansichten) bzw. [lege einen neuen an](Neuer_Geschaeftspartner).
 1. Gehe zur Registerkarte "Adresse" unten auf der Seite und klicke auf !["Neu hinzufügen"](assets/Neu_hinzufuegen_Button.png). Es öffnet sich ein Overlay-Fenster.
-1. Trage in das Feld **Name** den Namen des Geschäftspartners ein.
-1. Klicke auf den ![](assets/Edit_address_button.png)-Button, um eine **Anschrift** zu erfassen.
+1. ***Optional:*** Trage in das Feld **Abw. Firmenname** einen Namen ein, der anstelle des Geschäftspartner- bzw. Firmennamens als Empfänger auf den Belegen erscheinen soll.
+ >**Hinweis:** Wird kein abweichender Firmenname erfasst, wird immer der Name aus dem Geschäftspartnereintrag verwendet.
+
+1. Benenne den Adresseintrag im Feld **Name**, z.B. "Hauptsitz" oder "Außenstelle" o.ä.
+1. Klicke auf den !["Edit"](assets/Edit_address_button.png)-Button, um eine **Anschrift** zu erfassen.
 1. Trage die **Straße und Nr.**, die **PLZ**, den **Ort** und das **Land** des Unternehmens ein.
- >**Hinweis:** Wenn Du "Vereinigte Staaten von Amerika" als **Land** auswählst, kannst Du auch die **Region** eingeben. Klicke dazu einfach zweimal auf den Edit-Button, um das kleine Adressbearbeitungsfenster zu schließen und wieder zu öffnen. Das Feld erscheint dann oberhalb von **Land**.
+ >**Hinweis:** Wenn Du z.B. "Vereinigte Staaten von Amerika" als **Land** auswählst, kannst Du auch die **Region** eingeben. Klicke dazu einfach zweimal auf den Edit-Button, um das kleine Adressbearbeitungsfenster zu schließen und wieder zu öffnen. Das Feld erscheint dann oberhalb von **Land**.
 
 1. Trage die **GLN** (Globale Lokationsnummer) des Unternehmens ein, sofern vorhanden.
+1. Konfiguriere den Adresseintrag nach Bedarf mittels der Kontrollkästchen, z.B. **Lieferstandard**, **Rechnung Standard Adresse**, **Abladeort**, **Besuchsadresse** usw.
 1. Klicke auf "Bestätigen", um das Overlay-Fenster zu schließen und die Adresse zur Liste hinzuzufügen.
  >**Hinweis:** Auf diese Weise kannst Du auch mehrere Adressen erfassen, wenn nötig.
 
