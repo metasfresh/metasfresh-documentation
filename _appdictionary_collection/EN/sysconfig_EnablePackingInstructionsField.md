@@ -4,6 +4,8 @@ layout: default
 tags:  
   - System Config
 lang: en
+sequence:
+ref: sysconfig_EnablePackingInstructionsField
 ---
 
 ## Overview

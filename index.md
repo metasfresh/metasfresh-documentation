@@ -22,10 +22,10 @@ layout: default
   - [Talend Guides](pages/talend/index_en)
 
 ### Get in contact with us
-- via [Forum](http://forum.metasfresh.org).
-- via metasfresh Website: [English](http://metasfresh.com/en) and [German](http://metasfresh.com/).
-- Follow us on Twitter: [@metasfresh (English)](https://twitter.com/metasfresh), [@metasfreshDE (German)](https://twitter.com/metasfreshDE).
-- There are also two Gitter chat rooms. One for [metasfresh](https://gitter.im/metasfresh/metasfresh) and one for [metasfresh-documentation](https://gitter.im/metasfresh/metasfresh-documentation).
+- via <a href="http://forum.metasfresh.org" title="metasfresh Forum" target="blank">Forum</a>.
+- via metasfresh Website: <a href="http://metasfresh.com/en" title="metasfresh.com (EN)" target="blank">English</a> and <a href="http://metasfresh.com/" title="metasfresh.com (DE)" target="blank">Deutsch</a>.
+- Follow us on Twitter: <a href="https://twitter.com/metasfresh" title="metasfresh on Twitter (EN)" target="blank">@metasfresh (English)</a>, <a href="https://twitter.com/metasfreshDE" title="metasfresh auf Twitter (DE)" target="blank">@metasfreshDE (German)</a>.
+- There are also two Gitter chat rooms. One for <a href="https://gitter.im/metasfresh/metasfresh" title="metasfresh on Gitter" target="blank">metasfresh</a> and one for <a href="https://gitter.im/metasfresh/metasfresh-documentation" title="metasfresh-documentation on Gitter" target="blank">metasfresh-documentation</a>.
 
 ### Legacy
 - Legacy Java Client [(EN)](pages/howto/index_en) [(DE)](pages/howto/index_de)

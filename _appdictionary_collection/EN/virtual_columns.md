@@ -4,6 +4,8 @@ layout: default
 tags:  
   - Window
 lang: en
+sequence:
+ref: virtual_columns
 ---
 
 ## Overview

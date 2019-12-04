@@ -4,6 +4,8 @@ layout: default
 tags:  
   - Window
 lang: en
+sequence:
+ref: change_tab_sequence
 ---
 
 ## Overview

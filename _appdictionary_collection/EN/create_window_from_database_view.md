@@ -4,6 +4,8 @@ layout: default
 tags:  
   - Window
 lang: en
+sequence:
+ref: create_window_from_database_view
 ---
 
 ## Overview
