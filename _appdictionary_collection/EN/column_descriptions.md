@@ -4,6 +4,8 @@ layout: default
 tags:  
   - Developers and Customizers
 lang: en
+sequence:
+ref: column_descriptions
 ---
 
 ## Overview

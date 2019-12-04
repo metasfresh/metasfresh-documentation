@@ -4,6 +4,8 @@ layout: default
 tags:  
   - General
 lang: en
+sequence:
+ref: activate_deactivate_full_text_search_bpartners
 ---
 
 ## Overview

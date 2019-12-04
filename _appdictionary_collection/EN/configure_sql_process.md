@@ -4,6 +4,8 @@ layout: default
 tags:  
   - Process
 lang: en
+sequence:
+ref: configure_sql_process
 ---
 
 ## Overview

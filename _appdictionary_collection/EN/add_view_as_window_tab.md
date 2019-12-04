@@ -4,6 +4,8 @@ layout: default
 tags:  
   - Window
 lang: en
+sequence:
+ref: add_view_as_window_tab
 ---
 
 ## Overview
@@ -17,6 +19,6 @@ But instead of a window you create a tab in an existing window.
 In order to do that you need a link column between your view and the parent tab of the window you want to add your view to.
 
 ## Steps
-1. Make sure you got a column in your view that you can use to link, e.g., *c_bpartner_id* in business partner window.
-1. Make your tab on tab level lower than the main tab. So when the main tab is 0 make it 1.
+1. Make sure you have a column in your view that you can use to link, e.g., `c_bpartner_id` in business partner window.
+1. Make your tab one tab level lower than the main tab. So if the main tab is 0, make it 1.
 1. Fill in your link column in the field with the same name on tab.

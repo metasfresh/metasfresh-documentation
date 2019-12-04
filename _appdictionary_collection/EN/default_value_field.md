@@ -4,6 +4,8 @@ layout: default
 tags:  
   - Window
 lang: en
+sequence:
+ref: default_value_field
 ---
 
 ## Example for default value as SQL statement
