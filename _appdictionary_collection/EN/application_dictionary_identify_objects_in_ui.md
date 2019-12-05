@@ -4,7 +4,7 @@ layout: default
 tags:  
   - General
 lang: en
-sequence:
+sequence: 10
 ref: application_dictionary_identify_objects_in_ui
 ---
 

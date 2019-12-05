@@ -4,7 +4,7 @@ layout: default
 tags:  
   - General
 lang: en
-sequence:
+sequence: 20
 ref: activate_deactivate_full_text_search_bpartners
 ---
 
