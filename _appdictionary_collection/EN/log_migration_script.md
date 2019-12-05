@@ -4,7 +4,7 @@ layout: default
 tags:  
   - General
 lang: en
-sequence:
+sequence: 30
 ref: log_migration_script
 ---
 
