@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Handle multiple repos from commandline
+title: Handle multiple repos from command line
 tags: developers_getting_started
 sequence: 100
-summary: how to make life easier without github desktop
+summary: How to make life easier without GitHub desktop
 lang: en
 ref: developers_myrepos
 ---

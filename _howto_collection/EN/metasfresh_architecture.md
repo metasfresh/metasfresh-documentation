@@ -11,17 +11,17 @@ lang: en
 
 ## Service Details
 
-| Service     | Dev Language     | Running on | Technologies | Repo
-| :------------- | :------------- | :------------- | :------------- |  :------------- |
-| WebUI        | Javascript        | Apache / Nginx | React Redux, HTML5, PostCSS | [Github](https://github.com/metasfresh/metasfresh-webui-frontend)
-| WebAPI        | Java 8      | Spring Boot |REST, JSON, Swagger, Spring, hazelcast, websocket| [Github](https://github.com/metasfresh/metasfresh-webui)
-| App         | Java 8, SQL       | Spring Boot | Jasper Reports, Application Dictionary| [Github](https://github.com/metasfresh/metasfresh)
-| DB         | SQL, PgSQL       | Postgres (9.5+) | Application Dictionary | [Github](https://github.com/metasfresh/metasfresh)
-| Reporting | JRXML | Jasperserver  | Jasper Reports 6.5.1 [Client](https://community.jaspersoft.com/project/jaspersoft-studio/releases#project_releases-old-1)| [Github](https://github.com/metasfresh/metasfresh/tree/master/de.metas.fresh/de.metas.fresh.base/src/main/jasperreports/de/metas)
-| elastic Search | |  | Standard Elastic Search | [Github](https://github.com/elastic/elasticsearch)
-| RabbitMQ | | |Standard  RabbitMQ | [Github](https://github.com/rabbitmq)
-| Java Client| Java 8 | Java JRE 8+ | Swing | [Github](https://github.com/metasfresh/metasfresh)
-||
-| Optional: |
-| Material Dispo         | Java 8       | Spring Boot | realtime calculation of material | [Github](https://github.com/metasfresh/metasfresh)
-| Jasper Reports         | Java 8       | Spring Boot | render jasper reports | [Github](https://github.com/metasfresh/metasfresh)
+| Service | Dev Language | Running on | Technologies | Repo |
+| :--- | :--- | :--- | :--- | :--- |
+| WebUI | Javascript | Apache / Nginx | React Redux, HTML5, PostCSS | <a href="https://github.com/metasfresh/metasfresh-webui-frontend" title="metasfresh-webui-frontend on Github" target="blank">Github</a> |
+| WebAPI | Java 8 | Spring Boot | REST, JSON, Swagger, Spring, hazelcast, websocket | <a href="https://github.com/metasfresh/metasfresh-webui" title="metasfresh-webui on Github" target="blank">Github</a> |
+| App | Java 8, SQL | Spring Boot | Jasper Reports, Application Dictionary | <a href="https://github.com/metasfresh/metasfresh" title="metasfresh on Github" target="blank">Github</a> |
+| DB | SQL, PgSQL | Postgres (9.5+) | Application Dictionary | <a href="https://github.com/metasfresh/metasfresh" title="metasfresh on Github" target="blank">Github</a> |
+| Reporting | JRXML | Jasperserver | Jasper Reports 6.5.1 <a href="https://community.jaspersoft.com/project/jaspersoft-studio/releases#project_releases-old-1" title="Jaspersoft® Studio" target="blank">Client</a> | <a href="https://github.com/metasfresh/metasfresh/tree/master/de.metas.fresh/de.metas.fresh.base/src/main/jasperreports/de/metas" title="jasperreports/de/metas on Github" target="blank">Github</a> |
+| elastic Search |  |  | Standard Elastic Search | <a href="https://github.com/elastic/elasticsearch" title="elasticsearch on Github" target="blank">Github</a> |
+| RabbitMQ |  |  |Standard RabbitMQ | <a href="https://github.com/rabbitmq" title="rabbitmq on Github" target="blank">Github</a> |
+| Java Client | Java 8 | Java JRE 8+ | Swing | <a href="https://github.com/metasfresh/metasfresh" title="metasfresh on Github" target="blank">Github</a> |
+|  |  |  |  |  |
+| ***Optional:*** |
+| Material Schedule | Java 8 | Spring Boot | Real-time calculation of material | <a href="https://github.com/metasfresh/metasfresh" title="metasfresh on Github" target="blank">Github</a> |
+| Jasper Reports | Java 8 | Spring Boot | Render Jasper reports | <a href="https://github.com/metasfresh/metasfresh" title="metasfresh on Github" target="blank">Github</a> |
