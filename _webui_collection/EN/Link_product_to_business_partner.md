@@ -18,5 +18,8 @@ ref: link_product_to_business_partner
 1. Click "Done" to close the overlay window and add the business partner to the list.
  >**Note:** Repeat steps 2 to 4 to add further business partners.
 
+## Next Steps (optional)
+- [Set a current vendor for the product](Set_current_vendor).
+
 ## Example
 ![](assets/Link product to business partner.gif)
