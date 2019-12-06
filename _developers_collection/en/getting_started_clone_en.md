@@ -3,7 +3,7 @@ layout: default
 title: Get the code
 tags: developers_getting_started
 sequence: 10
-summary: how to obtain the source code from Github
+summary: How to obtain the source code from Github
 lang: en
 ref: developers_getting_started_clone
 ---

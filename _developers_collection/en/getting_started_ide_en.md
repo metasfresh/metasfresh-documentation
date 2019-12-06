@@ -3,7 +3,7 @@ layout: default
 title: Get the code into your IDE
 tags: developers_getting_started
 sequence: 30
-summary: how to import the source code into your IDE (Eclipse)
+summary: How to import the source code into your IDE (Eclipse)
 lang: en
 ref: developers_getting_started_ide
 ---
