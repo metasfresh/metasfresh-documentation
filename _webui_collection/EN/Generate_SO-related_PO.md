@@ -16,7 +16,7 @@ If you specifically want to carry over all products in the ordered quantity from
 **The following requirements must be fulfilled:**
 
 1. The [products](NewProduct) to be ordered must be [linked](Link_product_to_business_partner) to a [business partner (vendor)](New_business_partner_vendor).
-1. This business partner must be set as the products' [**Default Vendor**](Set_default_vendor).
+1. This business partner must be set as the products' [**current vendor**](Set_current_vendor).
 1. This vendor must be linked to the exact same [price list(s)](ProductPrice) as the products to be ordered.
 
 ## Steps

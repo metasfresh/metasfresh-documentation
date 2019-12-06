@@ -18,5 +18,8 @@ ref: link_product_to_business_partner
 1. Klicke auf "Bestätigen", um das Overlay-Fenster zu schließen und den Geschäftspartner zur Liste hinzuzufügen.
  >**Hinweis:** Wiederhole die Schritte 2 bis 4, um weitere Geschäftspartner hinzuzufügen.
 
+## Nächste Schritte (optional)
+- [Lege einen gegenwärtigen Lieferanten für das Produkt fest](Gegenwaertigen_Lieferanten_festlegen).
+
 ## Beispiel
 ![](assets/Produkt mit Geschaeftspartner verknuepfen.gif)
