@@ -33,8 +33,6 @@ If a customer makes a single payment to settle multiple invoices, you have to *m
 1. [Complete the document](DocumentProcessingComplete).
 1. To check the status of the individual invoices, go to the record tab "Allocations" and [zoom into](Zoom_into_table_field) the field in the column **Invoice** of the respective allocation line.
 
-<br>
-
 | **Note:** |
 | :--- |
 | You can also view the manual payment allocations in detail under "[Payment Allocations](Menu)" in the menu. |
