@@ -31,7 +31,13 @@ Wenn ein Kunde eine einzelne Zahlung leistet, um mehrere Rechnungen auf einmal z
  >**Hinweis:** Wiederhole die Schritte 6 bis 8 für alle Rechnungen, die mit der erhaltenen Zahlung beglichen wurden.
 
 1. [Stelle den Beleg fertig](BelegverarbeitungFertigstellen).
-1. Um den Status der Rechnungen zu überprüfen, gehe zur Registerkarte "Zuordnungen" und [zoome](Zoomen_in_Tabellenfeld) in das Feld in der Spalte **Rechnung** der jeweiligen Zuordnungszeile.
+1. Um den Status der einzelnen Rechnungen zu überprüfen, gehe zur Registerkarte "Zuordnungen" und [zoome](Zoomen_in_Tabellenfeld) in das Feld in der Spalte **Rechnung** der jeweiligen Zuordnungszeile.
+
+<br>
+
+| **Hinweis:** |
+| :--- |
+| Die manuellen Zahlungszuordnungen der Rechnung kannst Du ebenfalls unter dem Menüpunkt "[Manuelle Zahlung Zuordnungen](Menu)" übersichtlich einsehen. |
 
 ## Beispiel
-![](assets/Zahlungseingaenge_manuelle_Zuordnung.gif)
+<kbd><img src="assets/Zahlungseingaenge_manuelle_Zuordnung.gif" alt="GIF: Zahlungseingänge manuelle Zuordnung"></kbd>

@@ -32,4 +32,4 @@ After receiving a payment, you can enter the amount as an *Incoming Payment* in 
 - [Manually allocate a single payment to multiple invoices](Incoming_payments_manual_allocation).
 
 ## Example
-![](assets/single_incoming_payment.gif)
+<kbd><img src="assets/single_incoming_payment.gif" alt="GIF: Single incoming payment"></kbd>

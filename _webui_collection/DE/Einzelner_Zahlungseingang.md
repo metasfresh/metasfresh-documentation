@@ -1,5 +1,5 @@
 ---
-title: Wie verbuche ich Zahlungseingänge für einzelne Rechnungen?
+title: Wie verbuche ich Zahlungseingänge gegen einzelne Rechnungen?
 layout: default
 tags:
   - Buchhaltung
@@ -32,4 +32,4 @@ Wenn Du eine Zahlung erhalten hast, kannst Du den Betrag als *Zahlungseingang* i
 - [Ordne eine Einmalzahlung für mehrere Rechnungen entsprechend zu](Zahlungseingaenge_manuelle_Zuordnung).
 
 ## Beispiel
-![](assets/Einzelner_Zahlungseingang.gif)
+<kbd><img src="assets/Einzelner_Zahlungseingang.gif" alt="GIF: Einzelner Zahlungseingang"></kbd>

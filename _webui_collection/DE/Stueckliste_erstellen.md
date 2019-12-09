@@ -27,7 +27,7 @@ ref: create_bom
 
 | **Hinweis:** |
 | :--- |
-| Die einzelnen Stücklistenbestandteile kannst Du ebenfalls unter dem Menüpunkt "[Stücklistenbestandteile](Menu)" einsehen. |
+| Die einzelnen Stücklistenbestandteile kannst Du ebenfalls unter dem Menüpunkt "[Stücklistenbestandteile](Menu)" übersichtlich einsehen. |
 
 ### Stückliste verifizieren
 Damit eine Stückliste gültig wird, muss sie vorher verifiziert werden.
@@ -35,7 +35,7 @@ Damit eine Stückliste gültig wird, muss sie vorher verifiziert werden.
 1. [Starte die Aktion](AktionStarten) "Stücklisten verifizieren". Es öffnet sich ein Overlay-Fenster.
 1. Wähle eine [**Produktkategorie**](NeueProduktkategorie) aus.
 1. Klicke auf "Start", um zu bestätigen und das Overlay-Fenster zu schließen.
-1. [metasfresh speichert automatisch](Speicheranzeige).
+1. Um den Verifizierungsstatus des Stücklistenproduktes zu überprüfen, [springe in das Feld](Springezu) **Produkt** des Eintrags und stelle sicher, dass das Kontrollkästchen **Verifiziert** angehakt ist: ![Verifiziert='Y'](assets/Stueckliste_Produkt_verifiziert.png).
 
 ## Beispiel
 <kbd><img src="assets/Stueckliste_erstellen.gif" alt="GIF: Stückliste erstellen"></kbd>

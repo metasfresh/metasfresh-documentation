@@ -1,5 +1,5 @@
 ---
-title: How do I apply a single payment to multiple invoices?
+title: How do I apply a single payment against multiple invoices?
 layout: default
 tags:
   - Accounting
@@ -31,7 +31,13 @@ If a customer makes a single payment to settle multiple invoices, you have to *m
  >**Note:** Repeat steps 6 to 8 for all invoices that were settled with the payment received.
 
 1. [Complete the document](DocumentProcessingComplete).
-1. To review the invoice status, go to the record tab "Allocations" and [zoom into](Zoom_into_table_field) the field in the column **Invoice** of the respective allocation line.
+1. To check the status of the individual invoices, go to the record tab "Allocations" and [zoom into](Zoom_into_table_field) the field in the column **Invoice** of the respective allocation line.
+
+<br>
+
+| **Note:** |
+| :--- |
+| You can also view the manual payment allocations in detail under "[Payment Allocations](Menu)" in the menu. |
 
 ## Example
-![](assets/Incoming_payments_manual_allocation.gif)
+<kbd><img src="assets/Incoming_payments_manual_allocation.gif" alt="GIF: Incoming payments manual allocation"></kbd>
