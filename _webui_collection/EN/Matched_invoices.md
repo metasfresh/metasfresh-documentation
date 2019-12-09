@@ -1,7 +1,7 @@
 ---
 title: Where can I find an overview of all matchable invoices?
 layout: default
-ttags:
+tags:
   - Accounting
   - Receivables and Payables
 lang: en
