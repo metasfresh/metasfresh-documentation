@@ -22,7 +22,7 @@ ref: create_discount_schema
 1. Go to the record tab "Discount Break" at the bottom of the page and click !["Add new"](assets/Add_New_Button.png). An overlay window opens up.
  >**Note:** Alternatively, you can also [copy discount lines from existing discount schemas](Copy_discount_lines).
 
-1. ***Optional:*** Select a **Product** or a **Product Category**.
+1. ***Optional:*** Select a **Product** or a [**Product Category**](NewProductCategory).
  >**Note:** In this case, the pricing conditions apply ***only*** to the selected product or category. If the fields remain empty, the pricing conditions apply to all the products on the price list.
 
 1. In the field **Break Value**, enter the amount at which a pricing condition is to apply.

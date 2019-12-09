@@ -15,7 +15,7 @@ ref: newproduct
 1. Fülle das Feld **Name** aus.
  >**Hinweis:** Dieser Name erscheint auf den Belegen wie Auftragsbestätigung usw.
 
-1. Wähle eine **Produktkategorie** aus.
+1. Wähle eine [**Produktkategorie**](NeueProduktkategorie) aus.
  >**Hinweis:** Die Produktkategorie kann verwendet werden, um die Rabattierung, Kontierung und den Merkmalsatz eines Artikels zu steuern.
 
 1. Wähle eine **Artikelart** aus.

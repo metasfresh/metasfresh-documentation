@@ -23,7 +23,7 @@ In order to properly use the "Flat Shipping Rate" product, it must be configured
 1. Open "Product" from the [menu](Menu).
 1. [Use the filter](Filtering_function) and search for the product "Versandkostenpauschale" (*Flat Shipping Rate*) or [add a new product](NewProduct) using the following specifications.
 1. Make sure the following settings are made:
-  - **Product Category** is *Gebinde* (=container).
+  - [**Product Category**](NewProductCategory) is *Gebinde* (=container).
   - **Product Type** is *Freight Cost*.
   - **Purchased** is *deactivated*.
   - **Sold** is *activated*.

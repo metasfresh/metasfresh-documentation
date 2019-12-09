@@ -32,7 +32,7 @@ Ein Preisschema in metasfresh kann dazu verwendet werden, bestehende [Produktpre
 | Die folgenden Angaben sind alle ***optional*** und beliebig miteinander kombinierbar. |
 
 1. Gib in das Feld **Produkt** einen Teil des Namens oder der Nummer des [Produktes](NeuesProdukt) deiner Wahl ein und klicke auf den passenden Treffer in der [Dropdown-Liste](Keyboard_Shortcuts_Liste).
-1. Wähle eine **Produktkategorie** aus.
+1. Wähle eine [**Produktkategorie**](NeueProduktkategorie) aus.
 1. Gib im Feld **Geschäftspartner** einen Teil des Namens oder der Nummer des [Geschäftspartners](Neuer_Geschaeftspartner) deiner Wahl ein und klicke auf den passenden Treffer in der [Dropdown-Liste](Keyboard_Shortcuts_Liste).
 1. Wähle eine **Steuerkategorie** aus.
 1. Trage einen **Aufschlag auf Standardpreis** ein oder belasse ihn bei *0,00*.

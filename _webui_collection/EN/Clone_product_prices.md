@@ -11,7 +11,7 @@ ref: clone_product_prices
 ---
 
 ## Overview
-In metasfresh you can duplicate product prices along with all details to avoid having to enter all data from scratch when making only small changes, e.g., in cases where you want to store the same product on a price list with different packing instructions. The duplicated (cloned) product price is initially marked as "invalid" so that no conflicts arise in the price calculation due to the duplicates. As soon as the cloned product price has been adjusted, you can manually revalidate it and it will be taken back into consideration by the price engine.
+In metasfresh, you can duplicate product prices along with all details to avoid having to enter all data from scratch when making only small changes, e.g., in cases where you want to store the same product on a price list with different packing instructions. The duplicated (cloned) product price is initially marked as "invalid" so that no conflicts arise in the price calculation due to the duplicates. As soon as the cloned product price has been adjusted, you can manually revalidate it and it will be taken back into consideration by the price engine.
 
 ## Steps
 

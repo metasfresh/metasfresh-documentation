@@ -11,7 +11,7 @@ ref: update_derivative_plv
 ---
 
 ## Overview
-In metasfresh you can assign a general base price list to various customer-specific [price lists](Add_price-list). With just a click of the mouse, this base price list can be used to update the [product prices](Add_price) (i.e. create new [price list versions](Add_price-list-version)) of all customer price lists linked to or derived from the base price list through the application of pricing conditions defined in a [price list schema](Add_price_list_schema).
+In metasfresh, you can assign a general base price list to various customer-specific [price lists](Add_price-list). With just a click of the mouse, this base price list can be used to update the [product prices](Add_price) (i.e. create new [price list versions](Add_price-list-version)) of all customer price lists linked to or derived from the base price list through the application of pricing conditions defined in a [price list schema](Add_price_list_schema).
 
 ## Requirements
 1. [Create a general price list](Add_price-list) that can be set as *base price list* in customer-specific price lists.

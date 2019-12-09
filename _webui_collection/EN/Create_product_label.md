@@ -11,7 +11,7 @@ ref: create_product_label
 ---
 
 ## Overview
-In metasfresh you can create custom record tabs in several input windows where you can enter your own specific data. These data can be organized by subtabs, sections, lines and input fields and can also be printed in the form of product labels or nameplates.
+In metasfresh, you can create custom record tabs in several input windows where you can enter your own specific data. These data can be organized by subtabs, sections, lines and input fields and can also be printed in the form of product labels or nameplates.
 
 ## Requirements
 - [Create a custom record tab in the window "Product" including subtabs](Add_custom_record_tab), [sections, lines](Add_section_to_sub_tab) and [fields](Add_fields_to_section_lines) according to your requirements.

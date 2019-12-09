@@ -14,22 +14,28 @@ ref: create_bom
 ### Create a BOM
 1. Open "Bill of Materials" from the [menu](Menu).
 1. [Create a new BOM](New_Record_Window).
-1. Enter the [**Product**](NewProduct) for which you want to create a BOM, e.g., "Guitar".
+1. In the field **Product**, enter a part of the name or number of the [product](NewProduct) for which you want to create a BOM and click on the matching result in the [drop-down list](Keyboard_shortcuts_reference), e.g., "Guitar".
 1. Make sure the **Search Key** of the BOM is ***identical*** to the search key of the product.
-1. Enter a **Document No**.
+1. In the field **No.**, enter a document number.
 
 ### Add BOM components
 1. Go to the record tab "Components of the BOM & Formula" at the bottom of the page and click !["Add new"](assets/Add_New_Button.png). An overlay window opens up.
-1. Enter the **Product** you want to add as a component to the BOM, e.g., "Body" or "Strings".
-1. Enter a **Quantity**.
-1. Click "Done" to close the overlay window and add the product to the list.
+1. In the field **Product**, enter a part of the name or number of the [product](NewProduct) you want to add as a component to the BOM and click on the matching result in the [drop-down list](Keyboard_shortcuts_reference), e.g., "Body" or "Strings".
+1. In the field **Qty**, enter a quantity.
+1. Click "Done" to close the overlay window and add the component to the list.
  >**Note:** You can add any number of components to a BOM.
 
-### Verify BOM
-To obtain a valid BOM it has to be verified beforehand.
+| **Note:** |
+| :--- |
+| You can also view the individual BOM components under "[Components of the BOM & Formula](Menu)" in the menu. |
 
-1. [Start the action](StartAction) "Verify BOMs". An overlay window opens up.
+### Verify BOM
+To obtain a valid BOM it has to be verified first.
+
+1. [Start the action](StartAction) "Verify BOM". An overlay window opens up.
+1. Pick a [**Product Category**](NewProductCategory).
 1. Click "Start" to confirm and close the overlay window.
+1. [metasfresh saves the progress automatically](Saveindicator).
 
 ## Example
-![](assets/Create_BOM.gif)
+<kbd><img src="assets/Create_BOM.gif" alt="GIF: Create BOM"></kbd>
