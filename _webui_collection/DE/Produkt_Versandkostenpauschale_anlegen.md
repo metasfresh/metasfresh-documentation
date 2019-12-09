@@ -23,7 +23,7 @@ Damit das Produkt "Versandkostenpauschale" ordnungsgemäß verwendet werden kann
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Produkte".
 1. [Verwende die Filterfunktion](Filterfunktion) und suche nach dem Produkt "Versandkostenpauschale" oder [lege ein neues Produkt](NeuesProdukt) entsprechend den folgenden Vorgaben an.
 1. Stelle sicher, dass die folgenden Einstellungen gesetzt sind:
-  - **Produktkategorie** ist *Gebinde*.
+  - [**Produktkategorie**](NeueProduktkategorie) ist *Gebinde*.
   - **Artikelart** ist *Frachtkosten*.
   - **Wird Eingekauft** ist *deaktiviert*.
   - **Verkauft** ist *aktiviert*.

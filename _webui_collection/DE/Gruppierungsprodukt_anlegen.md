@@ -22,7 +22,7 @@ Grundsätzlich wird ein Gruppierungsprodukt wie jedes andere normale [Produkt](N
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Produkte".
 1. [Lege ein neues Produkt an](Neuer_Datensatz_Fenster_Webui).
 1. Trage in das Feld **Name** einen sinnvollen Namen ein, z.B. "Rabatt".
-1. Wähle eine geeignete **Produktkategorie** aus, z.B. *Gruppierungsprodukt*.
+1. Wähle eine geeignete [**Produktkategorie**](NeueProduktkategorie) aus, z.B. *Gruppierungsprodukt*.
 1. Entferne das Häkchen bei **Lagerhaltig**.
 1. [Füge das Produkt einer Preisliste hinzu](ProduktPreis).
 

@@ -9,7 +9,7 @@ ref: create_new_project
 ---
 
 ## Overview
-In metasfresh you can create projects and manage them clearly. Apart from general project-related data such as project type, status and members, you can also record and plan individual tasks and procedures as well as keep an eye on their statuses. This way you are always up to date and can keep track of any pending responsibilities.
+In metasfresh, you can create projects and manage them clearly. Apart from general project-related data such as project type, status and members, you can also record and plan individual tasks and procedures as well as keep an eye on their statuses. This way you are always up to date and can keep track of any pending responsibilities.
 
 ## Steps
 

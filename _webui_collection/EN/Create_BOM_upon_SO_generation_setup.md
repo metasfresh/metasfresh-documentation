@@ -14,6 +14,8 @@ When creating [quotations](Create_SalesQuotation) in metasfresh, you can take in
 
 During the conversion, metasfresh will automatically create a bill of materials consisting of the combined manufacturing parts, immediately making the newly assembled sales product available for future orders without any extra work.
 
+<kbd><img src="assets/BOM creation upon SO generation from quotation.png" alt="Fig.: BOM creation upon SO generation from quotation"></kbd>
+
 ## Steps
 
 ### Add grouping product with a parent product category
@@ -36,4 +38,4 @@ During the conversion, metasfresh will automatically create a bill of materials 
  - [Automatically create a bill of materials consisting of the compensation group from a quotation by converting it into a sales order](Create_BOM_upon_SO_generation).
 
 ## Example
-![](assets/Create_BOM_upon_SO_generation_setup.gif)
+<kbd><img src="assets/Create_BOM_upon_SO_generation_setup.gif" alt="GIF: Create BOM upon SO generation (Setup)"></kbd>

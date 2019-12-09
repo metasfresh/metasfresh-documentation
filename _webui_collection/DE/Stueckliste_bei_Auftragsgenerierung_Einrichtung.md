@@ -14,6 +14,8 @@ In metasfresh kannst Du in [Angeboten](Angebot_erstellen) einzelne [Produkte](Ne
 
 Bei der Umwandlung in einen Auftrag kreiert metasfresh dann automatisch aus der Kombination der Produktionsbestandteile eine neue Stückliste, woraufhin das neu zusammengestellte Verkaufsprodukt sofort und ohne zusätzlichen Mehraufwand für zukünftige Aufträge zur Verfügung steht.
 
+<kbd><img src="assets/Stücklistenerstellung bei Auftragsgenerierung von Angebot.png" alt="Abb.: Stücklistenerstellung bei Auftragsgenerierung von Angebot"></kbd>
+
 ## Schritte
 
 ### Gruppierungsprodukt mit übergeordneter Produktkategorie anlegen
@@ -36,4 +38,4 @@ Bei der Umwandlung in einen Auftrag kreiert metasfresh dann automatisch aus der 
 - [Erstelle bei der Umwandlung eines Angebots in einen Auftrag automatisch eine Stückliste bestehend aus der Kompensationsgruppe des Angebots](Stueckliste_bei_Auftragsgenerierung).
 
 ## Beispiel
-![](assets/Stueckliste_bei_Auftragsgenerierung_Einrichtung.gif)
+<kbd><img src="assets/Stueckliste_bei_Auftragsgenerierung_Einrichtung.gif" alt="GIF: Stückliste bei Auftragsgenerierung (Einrichtung)"></kbd>

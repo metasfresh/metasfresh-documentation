@@ -15,7 +15,7 @@ ref: newproduct
 1. Give the product a **Name**.
  >**Note:** This name will appear in documents such as sales order confirmations etc.
 
-1. Choose a **Product Category**.
+1. Choose a [**Product Category**](NewProductCategory).
  >**Note:** The product category can be used to control discounts, account assignments and attribute sets of products.
 
 1. Choose a **Product Type**.

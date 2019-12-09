@@ -32,7 +32,7 @@ A price list schema in metasfresh can be used to [copy existing product prices f
 | The following specifications are all ***optional*** and can be combined with each other as required. |
 
 1. In the field **Product**, enter a part of the name or number of the [product](NewProduct) of your choice and click on the matching result in the [drop-down list](Keyboard_shortcuts_reference).
-1. Pick a **Product Category**.
+1. Pick a [**Product Category**](NewProductCategory).
 1. In the field **Business Partner**, enter a part of the name or number of the [business partner](New_Business_Partner) of your choice and click on the matching result in the [drop-down list](Keyboard_shortcuts_reference).
 1. Pick a **Tax Category**.
 1. Enter a **Std. Price Surcharge Amt.** or leave it at *0.00*.

@@ -22,7 +22,7 @@ ref: create_discount_schema
 1. Gehe zur Registerkarte "Rabattkonditionen" unten auf der Seite und klicke auf !["Neu hinzufügen"](assets/Neu_hinzufuegen_Button.png). Es öffnet sich ein Overlay-Fenster.
  >**Hinweis:** Alternativ kannst Du auch [Rabattzeilen aus bestehenden Rabattschemata kopieren](Rabattzeilen_kopieren).
 
-1. ***Optional:*** Wähle ein **Produkt** oder eine **Produktkategorie** aus.
+1. ***Optional:*** Wähle ein **Produkt** oder eine [**Produktkategorie**](NeueProduktkategorie) aus.
  >**Hinweis:** In diesem Fall gelten die Preiskonditionen ***nur*** für das ausgewählte Produkt oder die ausgewählte Produktkategorie. Bleiben die Felder leer, gelten die Preiskonditionen für alle Produkte auf der Preisliste.
 
 1. Gib im Feld **Mengenstufe** die Anzahl ein, ab welcher eine Preiskondition gelten soll.

@@ -22,7 +22,7 @@ A grouping product is basically added like any other normal [product](NewProduct
 1. Open "Product" from the [menu](Menu).
 1. [Add a new product](New_Record_Window).
 1. Enter a meaningful **Name**, e.g., "Discount".
-1. Select an appropriate **Product Category**, e.g., *Grouping product*.
+1. Select an appropriate [**Product Category**](NewProductCategory), e.g., *Grouping product*.
 1. Uncheck the box **Stocked**.
 1. [Add the product to a price list](ProductPrice).
 
