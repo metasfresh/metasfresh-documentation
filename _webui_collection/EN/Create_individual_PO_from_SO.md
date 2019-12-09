@@ -43,4 +43,4 @@ If you [complete](DocumentProcessingComplete) the sales order or you create the 
  >**Note 2:** The purchase order is already completed.
 
 ## Example
-![](assets/Create individual PO from SO.gif)
+<kbd><img src="assets/Create individual PO from SO.gif" alt="GIF: Create individual PO from SO"></kbd>
