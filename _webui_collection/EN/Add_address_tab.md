@@ -13,7 +13,7 @@ ref: add_address_tab
 1. Open the entry of an existing [business partner](Menu) in the [detailed view](ViewModes) or [add a new one](New_Business_Partner).
 1. Go to the record tab "Location" at the bottom of the page and click !["Add new"](assets/Add_New_Button.png). An overlay window opens up.
 1. ***Optional:*** In the field **Name of BPartner**, enter an alternative name that shall appear as recipient on the supporting documents instead of the business partner/company name.
- >**Note:** Unless an alternative partner name is recorded, the name from the business partner entry will always be used.
+ >**Note:** Unless an alternative partner name is specified, the name from the business partner entry will be used by default.
 
 1. Give the location entry a **Name**, e.g., "Headquarters", "Branch office" or similar.
 1. To enter an **Address**, click on the !["Edit"](assets/Edit_address_button.png) button.
@@ -28,4 +28,4 @@ ref: add_address_tab
 1. [metasfresh saves the progress automatically](Saveindicator).
 
 ## Example
-![](assets/Add_address_tab.gif)
+<kbd><img src="assets/Add_address_tab.gif" alt="GIF: Add address (tab)"></kbd>

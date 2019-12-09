@@ -13,7 +13,7 @@ ref: add_address_tab
 1. Öffne den Eintrag eines bestehenden [Geschäftspartners](Menu) in der [Einzelansicht](Ansichten) bzw. [lege einen neuen an](Neuer_Geschaeftspartner).
 1. Gehe zur Registerkarte "Adresse" unten auf der Seite und klicke auf !["Neu hinzufügen"](assets/Neu_hinzufuegen_Button.png). Es öffnet sich ein Overlay-Fenster.
 1. ***Optional:*** Trage in das Feld **Abw. Firmenname** einen Namen ein, der anstelle des Geschäftspartner- bzw. Firmennamens als Empfänger auf den Belegen erscheinen soll.
- >**Hinweis:** Wird kein abweichender Firmenname erfasst, wird immer der Name aus dem Geschäftspartnereintrag verwendet.
+ >**Hinweis:** Wird kein abweichender Firmenname angegeben, so kommt standardmäßig der Name aus dem Geschäftspartnereintrag zur Anwendung.
 
 1. Benenne den Adresseintrag im Feld **Name**, z.B. "Hauptsitz" oder "Außenstelle" o.ä.
 1. Klicke auf den !["Edit"](assets/Edit_address_button.png)-Button, um eine **Anschrift** zu erfassen.
@@ -28,4 +28,4 @@ ref: add_address_tab
 1. [metasfresh speichert automatisch](Speicheranzeige).
 
 ## Beispiel
-![](assets/Adresse_erfassen_Tab.gif)
+<kbd><img src="assets/Adresse_erfassen_Tab.gif" alt="GIF: Adresse erfassen (Registerkarte)"></kbd>

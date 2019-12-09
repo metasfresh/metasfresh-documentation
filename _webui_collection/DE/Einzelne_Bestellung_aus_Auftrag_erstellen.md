@@ -43,4 +43,4 @@ Wenn Du den Auftrag [fertigstellst](BelegverarbeitungFertigstellen) oder die Bes
  >**Hinweis 2:** Die Bestellung ist bereits fertiggestellt.
 
 ## Beispiel
-![](assets/Einzelne Bestellung aus Auftrag erstellen.gif)
+<kbd><img src="assets/Einzelne Bestellung aus Auftrag erstellen.gif" alt="GIF: Einzelne Bestellung aus Auftrag erstellen"></kbd>
