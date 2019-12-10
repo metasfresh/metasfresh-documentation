@@ -12,7 +12,7 @@ ref: setup_geocoding_service
 ---
 
 ## Überblick
-Um die Umkreissuche in metasfresh verwenden zu können, muss zuerst ein Geokodierungsdienst ausgewählt werden, der die visuell lesbaren Adressen (bestehend aus Straße, Hausnummer, Ort, PLZ, Land) in geografische Koordinaten umwandelt und auf einer Landkarte darstellt.
+Um die [Umkreissuche in metasfresh](Umkreissuche_Geocoding) verwenden zu können, muss zuerst ein Geokodierungsdienst ausgewählt werden, der die visuell lesbaren [Adressen](Adresse_erfassen_Tab) (bestehend aus Straße, Hausnummer, Ort, PLZ, Land) in geografische Koordinaten umwandelt und auf einer Landkarte darstellt.
 
 metasfresh verfügt derzeit über Schnittstellen für die folgenden Geokodierungsdienste:
 - <a href="#google-maps" title="Google Maps einrichten">Google Maps</a> <sup>(<em>Kartenansicht verfügbar</em>)</sup>
