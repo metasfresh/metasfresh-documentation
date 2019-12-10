@@ -12,7 +12,7 @@ ref: shipper_configuration
 ---
 
 ## Overview
-metafresh currently offers interfaces for shipping with the following service providers (shippers):
+metasfresh currently offers interfaces for shipping with the following service providers (shippers):
 - Der Kurier
 - <a href="#dhl-configuration" title="jump to DHL configuration">DHL</a>
 - <a href="#dpd-configuration" title="jump to DPD configuration">DPD</a>
