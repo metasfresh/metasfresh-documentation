@@ -16,6 +16,7 @@ In many windows that include entries associated with [business partners](New_Bus
 In addition, you can start location-specific area searches directly from the business partner entry, where the results are suggested based on the selected address.
 
 ## Requirements
+1. [Set up a geocoding service for the area search](Setup_geocoding_service).
 1. [Add a business partner along with an address](Add_address_tab).
 
    | **Important note!** |

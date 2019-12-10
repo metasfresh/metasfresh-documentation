@@ -34,7 +34,7 @@ metasfresh currently offers interfaces for the following geocoding services:
 ### <a name="open-street-maps">Set up Open Street Maps</a>
 No changes need to be made to the default settings.
 
-<br>
+---
 
 | **Important note:** |
 | :--- |

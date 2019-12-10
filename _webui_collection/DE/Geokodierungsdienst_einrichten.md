@@ -34,7 +34,7 @@ metasfresh verfügt derzeit über Schnittstellen für die folgenden Geokodierung
 ### <a name="open-street-maps">Open Street Maps einrichten</a>
 Es müssen keine Änderungen an den Standardeinstellungen vorgenommen werden.
 
-<br>
+---
 
 | **Wichtiger Hinweis:** |
 | :--- |
