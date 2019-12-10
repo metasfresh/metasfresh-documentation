@@ -12,7 +12,7 @@ ref: setup_geocoding_service
 ---
 
 ## Overview
-To be able to use the area search in metasfresh, a geocoding service must first be set, which transforms the human-readable addresses (consisting of street, house number, city, postal code, country) into geographical coordinates and displays them on a map.
+To be able to use the [area search in metasfresh](Area_search_geocoding), a geocoding service must first be set, which transforms the human-readable [addresses](Add_address_tab) (consisting of street, house number, city, postal code, country) into geographical coordinates and displays them on a map.
 
 metasfresh currently offers interfaces for the following geocoding services:
 - <a href="#google-maps" title="Set up Google Maps">Google Maps</a> <sup>(<em>map view available</em>)</sup>
