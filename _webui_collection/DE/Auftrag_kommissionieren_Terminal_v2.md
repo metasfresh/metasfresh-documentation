@@ -16,7 +16,9 @@ Den Lagerbestand kannst Du im "[Handling Unit Editor](Menu)" jederzeit nachschau
 
 ## Voraussetzungen
 1. [Erfasse einen für den Versand bestimmten Auftrag](Auftrag_erfassen_Versand) und [stelle ihn fertig](BelegverarbeitungFertigstellen).
-1. [Erstelle einen Transportauftrag mit dem Status *Entwurf*](Transportauftrag_erstellen), in dem der kommissionierte Auftrag abgewickelt werden soll.
+1. [Erstelle einen Transportauftrag im Status *Entwurf*](Transportauftrag_erstellen), in dem der kommissionierte Auftrag abgewickelt werden soll.
+1. Vergewissere Dich vor der Kommissionierung, dass die georderten Produkte in ausreichender Menge für den Verkauf auf Lager sind.<br>
+Um den Bestand aufzufüllen, kannst Du einen [Wareneingang erstellen](Zu_Bestellung_Wareneingang_erstellen).
 
 ## Schritte
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Kommissionier-Terminal (v2)".
