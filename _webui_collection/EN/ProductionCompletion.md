@@ -15,8 +15,8 @@ metasfresh offers two possibilities to record the consumption of materials for p
 1. Produce a product and record the consumption of materials.
 
 ## Requirements
-- Prior to production, ensure that all the required products to be consumed are in stock.<br>
-For information on how to create a goods receipt, [click here](CreateGoodsReceipt).
+- Prior to production, make sure that the required products are in stock in sufficient quantity for consumption.<br>
+To replenish the stock, you can [create a goods receipt](CreateGoodsReceipt).
 
 ## Steps
 1. Open the entry of a [completed manufacturing order](NewManufacturingOrder).
@@ -27,15 +27,15 @@ For information on how to create a goods receipt, [click here](CreateGoodsReceip
 This is the easiest way to produce in metasfresh. The produced quantity is simply added into stock without deducting the required components that are on the bill of materials (BOM).
 
 1. In the production window, [select](RecordSelection) the product (**MP**) you want to produce, e.g., "Carrots chopped".
- ![](assets/ProductionCompletion_ProductionWindow.png)
+ <kbd><img src="assets/ProductionCompletion_ProductionWindow.png" alt="Fig.: Production window"></kbd>
 
 1. [Start the quick action](StartAction) "Receive HUs".<br>
  ![](assets/ProductionCompletion_Receive_1.png)<br>
  >**Note:** If the product has packing instructions, these will appear on the quick actions button instead of "Receive HUs".
-   ![](assets/ProductionCompletion_Receive_2.png)
+   <kbd><img src="assets/ProductionCompletion_Receive_2.png" alt="Fig.: Receive HUs"></kbd>
 
 1. Another overlay window opens up.
- ![](assets/ProductionCompletion_ReceiveWindow.png)
+ <kbd><img src="assets/ProductionCompletion_ReceiveWindow.png" alt="Fig.: Receive HUs (Overlay)"></kbd>
 
 1. ***Optional:*** Select **TU Packing Instructions**.
 1. ***Optional:*** Select **LU Packing Instructions**.
@@ -51,16 +51,16 @@ This is the easiest way to produce in metasfresh. The produced quantity is simpl
 
 1. Click "Start" to record the received HUs and close the overlay window.
 1. When the allocation was successful, the received HUs will be listed below the product to be produced:
- ![](assets/ProductionCompletion_Assignment.png)
+ <kbd><img src="assets/ProductionCompletion_Assignment.png" alt="Fig.: Received HUs after allocation"></kbd>
  >**Note:** If you want to reverse the allocation, simply select the added HU, go to the quick actions button and click "Remove HU".
 
 1. [Start the quick action](StartAction) "Process" to make the material posting. This makes the lines read-only:
- ![](assets/ProductionCompletion_PlanningComplete.png)
+ <kbd><img src="assets/ProductionCompletion_PlanningComplete.png" alt="Fig.: Material posting"></kbd>
 
 1. Click "Done" to close the production window.
 
 ## Example 1
-![](assets/ProductionCompletion_walkthrough.gif)
+<kbd><img src="assets/ProductionCompletion_walkthrough.gif" alt="GIF: Production-Completion (Walkthrough 1)"></kbd>
 
 ---
 
@@ -68,24 +68,24 @@ This is the easiest way to produce in metasfresh. The produced quantity is simpl
 The BOM components required for the production are deducted from stock. Adding the produced quantity works as described above.
 
 1. In the production window, [select](RecordSelection) the BOM component (**CO**) you want to deduct from stock, e.g., "Carrots unwashed".
- ![](assets/ProductionCompletion_MaterialConsumption.png)
+ <kbd><img src="assets/ProductionCompletion_MaterialConsumption.png" alt="Fig.: Material consumption"></kbd>
 
 1. [Start the quick action](StartAction) "Open HU Selection Window".<br>
  ![](assets/Open_HU-Selection-Window.png)
 
 1. An overview of the matching handling units (HU) from stock opens up on the right-hand side.
- ![](assets/ProductionCompletion_StockOverview.png)
+ <kbd><img src="assets/ProductionCompletion_StockOverview.png" alt="Fig.: Stock overview"></kbd>
 
 1. [Select](RecordSelection) the HU to be consumed for production.
 1. Select "Issue complete HUs" via the actions button.
 1. When the allocation was successful, you will find the issued HU below the component.
-![](assets/ProductionCompletion_Booked.png)
+ <kbd><img src="assets/ProductionCompletion_Booked.png" alt="Fig.: Deduction"></kbd>
  >**Note:** If you want to reverse the deduction, simply select the added HU and start the quick action "Remove HU".
 
 1. [Start the quick action](StartAction) "Process" to deduct the HUs. This makes the lines read-only:
- ![](assets/HU_booking_readonly.png)
+ <kbd><img src="assets/HU_booking_readonly.png" alt="Fig.: HU deduction (read-only)"></kbd>
 
 1. Click "Done" to close the production window.
 
 ## Example 2
-![](assets/ProductionCompletion_Consumption.gif)
+<kbd><img src="assets/ProductionCompletion_Consumption.gif" alt="GIF: Production-Completion with consumption (Walkthrough 2)"></kbd>
