@@ -20,7 +20,7 @@ Um sicherzustellen, dass alle Geschäftspartnerstandorte bei der Umkreissuche be
 1. [Melde Dich bei metasfresh an](Anmeldung).
 1. Gehe zur Adressleiste und gib dort die Fenster-ID `/window/121` hinter der Basis-URL ein:
 
-   <p style="width:50%; border:1px; border-style:solid; border-color:#dddddd; padding:0.5em; text-align:center;">https://{% raw %}<code>{{ Basis-URL }}</code>{% endraw %}<strong>/window/121</strong></p>
+   <p style="margin-left:25%; width:50%; border:1px; border-style:solid; border-color:#dddddd; padding:0.5em; text-align:center;">https://{% raw %}<code>{{ Basis-URL }}</code>{% endraw %}<strong>/window/121</strong></p>
 
 1. Bestätige mit `↵ Enter`. Es öffnet sich das versteckte Fenster "Ort".
 1. [Starte die Aktion](AktionStarten) "Geocoding update". Nun wurden die geografischen Koordinaten aller Geschäftspartnerstandorte neu berechnet.
