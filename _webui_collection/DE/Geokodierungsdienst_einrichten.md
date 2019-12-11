@@ -12,7 +12,9 @@ ref: setup_geocoding_service
 ---
 
 ## Überblick
-Um die [Umkreissuche in metasfresh](Umkreissuche_Geocoding) verwenden zu können, muss zuerst ein Geokodierungsdienst ausgewählt werden, der die visuell lesbaren [Adressen](Adresse_erfassen_Tab) (bestehend aus Straße, Hausnummer, Ort, PLZ, Land) in geografische Koordinaten umwandelt und auf einer Landkarte darstellt.
+Um die [Umkreissuche in metasfresh](Umkreissuche_Geocoding) verwenden zu können, muss zuerst ein Geokodierungsdienst eingerichtet werden, der die visuell lesbaren [Adressen](Adresse_erfassen_Tab) (bestehend aus Straße, Hausnummer, Ort, PLZ, Land) in geografische Koordinaten umwandelt und auf einer Landkarte darstellt.
+
+Nach Einrichtung der Geokodierung empfiehlt es sich, mittels eines [Aktualisierungsprozesses](Geokodierung_aktualisieren) sicherzustellen, dass alle bisher erfassten bzw. importierten Geschäftspartnerstandorte bei der Umkreissuche berücksichtigt werden.
 
 metasfresh verfügt derzeit über Schnittstellen für die folgenden Geokodierungsdienste:
 - <a href="#google-maps" title="Google Maps einrichten">Google Maps</a> <sup>(<em>Kartenansicht verfügbar</em>)</sup>
@@ -20,7 +22,7 @@ metasfresh verfügt derzeit über Schnittstellen für die folgenden Geokodierung
 
 | **Hinweis:** |
 | :--- |
-| Es kann zu jedem Zeitpunkt nur ein Geokodierungsdienst aktiv sein! |
+| Es kann zu jedem Zeitpunkt ***nur ein*** Geokodierungsdienst aktiv sein! |
 
 ## Schritte
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Geocoding Konfiguration".
@@ -39,3 +41,7 @@ Es müssen keine Änderungen an den Standardeinstellungen vorgenommen werden.
 | **Wichtiger Hinweis:** |
 | :--- |
 | Wenn Du über eine große Anzahl von Geschäftspartnereinträgen verfügst und die Umkreissuche besonders häufig verwendest, empfiehlt es sich, die **Cache-Kapazität** von 200 auf etwa 500 zu erhöhen. Dadurch können Deine bisher eingetippten Suchbegriffe besser zwischengespeichert und die Geschwindigkeit bei abwechselnder Suche nach mehreren verschiedenen Orten beibehalten werden. |
+
+## Nächste Schritte
+1. [Aktualisiere die Geokodierungsfunktion, um sicherzustellen, dass alle Geschäftspartnerstandorte berücksichtigt werden](Geokodierung_aktualisieren).
+1. [Verwende die Umkreissuche, um die Ergebnisse beim Filtern von Einträgen auf einen bestimmten geografischen Bereich einzuschränken](Umkreissuche_Geocoding).
