@@ -49,7 +49,7 @@ The endpoints currently available are listed below. Click on an endpoint you wou
 
 This name-value pair refers to the ID of the data record on the external platform from which the data are retrieved. The `externalId` must be **unique**. It can be found at the end of a data entry's URL in metasfresh behind the window ID, as shown in the following example:
 
-<p style="text-align:center">https://{% raw %}<code>{{ base.URL }}</code>{% endraw %}/window/123/<strong>2156435</strong></p>
+<p style="margin-left:25%; width:50%; border:1px; border-style:solid; border-color:#dddddd; padding:0.5em; text-align:center;">https://{% raw %}<code>{{ base.URL }}</code>{% endraw %}/window/123/<strong>2156435</strong></p>
 
 ### syncAdvise
 

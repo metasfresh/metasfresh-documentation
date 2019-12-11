@@ -14,7 +14,7 @@ ref: setup_geocoding_service
 ## Overview
 To be able to use the [area search in metasfresh](Area_search_geocoding), a geocoding service must first be set up, which transforms the human-readable [addresses](Add_address_tab) (consisting of street, house number, city, postal code, country) into geographical coordinates and displays them on a map.
 
-Once geocoding has been set up, it is recommended to use an [update process](Update_geocoding) to ensure that all business partner locations that have been entered or imported so far will be considered during the area search.
+Once geocoding has been set up, it is recommended to [update the georeferenced data](Update_geocoding) to ensure that all business partner locations that have been entered or imported so far will be included in the area search.
 
 metasfresh currently offers interfaces for the following geocoding services:
 - <a href="#google-maps" title="Set up Google Maps">Google Maps</a> <sup>(<em>map view available</em>)</sup>
@@ -43,5 +43,5 @@ No changes need to be made to the default settings.
 | If you have a large number of business partner entries and use the area search particularly frequently,  it is appropriate to increase the **Cache Capacity** from 200 to about 500. This will allow you to cache your search strings and maintain search speed even when alternating between different locations during searches. |
 
 ## Next Steps
-1. [Update the geocoding feature to ensure that all business partner locations will be considered](Update_geocoding).
+1. [Update the georeferenced data to ensure that all business partner locations will be included in the area search](Update_geocoding).
 1. [Use the area search to limit the results when filtering entries to a specific geographical area](Area_search_geocoding).
