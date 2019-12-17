@@ -15,7 +15,7 @@ To use this endpoint successfully, you require the following data:
 - Data source name of the endpoint (**dataSource**):<br> `int-SOURCE.de.metas.rest_api.ordercandidates.impl.OrderCandidatesRestControllerImpl`
 - Internal name of the data target (**dataDest**): `int-DEST.de.metas.ordercandidate`
 
-These are so-called "identifier strings" (ID strings) whose respective values need to be specified using one of the corresponding prefixes:
+These are so-called "identifier strings" (ID strings) whose respective values need to be provided using one of the corresponding prefixes:
 - `int-` for the ID of the data record on the internal platform (`internalId`)
 - `ext-` for the ID of the data record on the external platform (`externalId`)
 - `val-` for the search key of the data entry in metasfresh
