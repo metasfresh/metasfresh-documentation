@@ -11,9 +11,16 @@ ref: order-candidates-rest-controller-impl
 ## Überblick
 Über diesen Endpunkt kannst Du Auftragskandidaten nach metasfresh importieren und gleichzeitig sogar neue Geschäftspartner- sowie Produkteinträge anlegen. Gleichfalls kannst Du über diesen Endpunkt Dateianhänge hochladen und sie den Auftragskandidaten beifügen.
 
-Um diesen Endpunkt erfolgreich zu nutzen, benötigst Du gegebenenfalls folgende Daten:
-- Datenquellname dieses Endpunktes (**dataSourceName**): `SOURCE.de.metas.ordercandidate.rest.OrderCandidatesRestControllerImpl`
-- Interne Benennung des Datenziels (**dataDestInternalName**): `DEST.de.metas.ordercandidate`
+Um diesen Endpunkt erfolgreich zu nutzen, benötigst Du folgende Daten:
+- Datenquellname dieses Endpunktes (**dataSource**): `int-SOURCE.de.metas.rest_api.ordercandidates.impl.OrderCandidatesRestControllerImpl`
+- Interne Benennung des Datenziels (**dataDest**): `int-DEST.de.metas.ordercandidate`
+
+Hierbei handelt es sich um sogenannte "Bezeichnerstrings" (ID-Zeichenfolge), deren jeweiligen Werte mit einem der entsprechenden Präfixe angegeben werden müssen:
+- `int-` für die ID des Datensatzes auf der internen Plattform (`internalId`)
+- `ext-` für die ID des Datensatzes auf der externen Plattform (`externalId`)
+- `val-` für den Suchschlüssel des Dateneintrages in metasfresh
+
+Wird kein Präfix angegeben, so wird der Wert als ID des Dateneintrages (`AD_Input_DataSource_ID` = `metasfreshId`) betrachtet.
 
 | **Hinweis:** |
 | :--- |
@@ -62,6 +69,7 @@ Um diesen Endpunkt erfolgreich zu nutzen, benötigst Du gegebenenfalls folgende 
       "externalId": "API-con00001",
       "firstName": "Ganesh",
       "lastName": "Rupka",
+      "phone": "1800-CALL-ME-NOW",
       "name": "Ganesh B. Rupka",
       "syncAdvise": {
         "ifExists": "DONT_UPDATE",
@@ -74,6 +82,7 @@ Um diesen Endpunkt erfolgreich zu nutzen, benötigst Du gegebenenfalls folgende 
       "address2": "East Wing",
       "address3": "Apt. 3",
       "address4": "Room 4",
+      "postal": "1234",
       "city": "New Dehli",
       "countryCode": "IN",
       "externalId": "API-loc00001",
@@ -89,8 +98,8 @@ Um diesen Endpunkt erfolgreich zu nutzen, benötigst Du gegebenenfalls folgende 
     }
   },
   "currencyCode": "INR",
-  "dataDestInternalName": "DEST.de.metas.ordercandidate",
-  "dataSourceInternalName": "SOURCE.de.metas.ordercandidate.rest.OrderCandidatesRestControllerImpl",
+  "dataSource": "int-SOURCE.de.metas.rest_api.ordercandidates.impl.OrderCandidatesRestControllerImpl",
+  "dataDest": "int-DEST.de.metas.ordercandidate",
   "dateRequired": "2019-08-23",
   "externalHeaderId": "extHead-101",
   "externalLineId": "extLine-101",
@@ -105,12 +114,12 @@ Um diesen Endpunkt erfolgreich zu nutzen, benötigst Du gegebenenfalls folgende 
     }
   },
   "poReference": "SEO_768-04",
-  "price": 6.90,
-  "pricingSystemCode": 2000837,
+  "pricingSystemCode": "Testpreise Kunden",
   "product": {
     "code": "Coco_2468",
     "name": "Coconuts",
     "type": "ITEM",
+    "priceStd": 6.90,
     "uomCode": "PCE",
     "syncAdvise": {
       "ifExists": "DONT_UPDATE",
@@ -120,5 +129,16 @@ Um diesen Endpunkt erfolgreich zu nutzen, benötigst Du gegebenenfalls folgende 
   "uomCode": "PCE",
   "productDescription": "I've got a lovely bunch of coconuts.",
   "qty": 5
+  "salesPartnerCode": "test_42",
+  "shipper": "val-DPD - Classic",
+  "paymentRule": "OnCredit",
+  "orderDocType": "SalesOrder"
 }
 ```
+
+### Nützliche Hinweise
+
+| Element | Hinweis |
+| :--- | :--- |
+| `"pricingSystemCode":` | Das in der JSON-Serveranfrage angegebene [Preissystem](../../webui_collection/DE/Preissystem_anlegen) muss auf eine bestehende [Verkaufspreisliste](../../webui_collection/DE/Preisliste_anlegen) zeigen, die eine [Preislistenversion](../../webui_collection/DE/Preislistenversion_anlegen) enthält, in deren Gültigkeitszeitraum das Datum aus der Serveranfrage fällt, damit die [Produktpreise](../../webui_collection/DE/Preis_anlegen) erstellt werden. Zudem muss die besagte Preisliste mit einer **Standard-Steuerkategorie** ausgestattet sein.<br> Vergewissere Dich außerdem, dass die [Ablaufsteuerung](../../webui_collection/DE/Menu) für den Auftragskandidatenimport (`C_OLCand process to C_OrderLines`) auf *aktiv* gestellt ist. |
+| `"postal":`<br>`"city":`<br>`"countryCode":` | Wenn Du **PLZ**, **Ort** und **Land** importierst, vergewissere Dich, dass die angegebene Postleitzahl auch im System vorhanden ist, anderenfalls kann sie nicht mit der entsprechenden Datenbanktabelle `C_Location` verknüpft werden und es werden lediglich die jeweiligen Felder ohne weitere [Georeferenz](../../webui_collection/DE/Geokodierung_aktualisieren) ausgefüllt. |
