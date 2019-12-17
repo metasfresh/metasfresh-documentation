@@ -11,9 +11,16 @@ ref: order-candidates-rest-controller-impl
 ## Overview
 Via this endpoint you can import sales order candidates into metasfresh and at the same time even create new business partner and product entries. You can also use this endpoint to upload file attachments and attach them to the sales order candidates.
 
-To use this endpoint successfully, you might need the following data:
-- Data source name of the endpoint (**dataSourceName**): `SOURCE.de.metas.ordercandidate.rest.OrderCandidatesRestControllerImpl`
-- Internal name of the data target (**dataDestInternalName**): `DEST.de.metas.ordercandidate`
+To use this endpoint successfully, you require the following data:
+- Data source name of the endpoint (**dataSource**): `int-SOURCE.de.metas.rest_api.ordercandidates.impl.OrderCandidatesRestControllerImpl`
+- Internal name of the data target (**dataDest**): `int-DEST.de.metas.ordercandidate`
+
+These are so-called "identifier strings" (ID strings) whose respective values need to be specified using one of the corresponding prefixes:
+- `int-` for the ID of the data record on the internal platform (`internalId`)
+- `ext-` for the ID of the data record on the external platform (`externalId`)
+- `val-` for the search key of the data entry in metasfresh
+
+If no prefix is provided, the value is regarded as the ID of the data entry (`AD_Input_DataSource_ID` = `metasfreshId`).
 
 | **Note:** |
 | :--- |
@@ -62,6 +69,7 @@ To use this endpoint successfully, you might need the following data:
       "externalId": "API-con00001",
       "firstName": "Ganesh",
       "lastName": "Rupka",
+      "phone": "1800-CALL-ME-NOW",
       "name": "Ganesh B. Rupka",
       "syncAdvise": {
         "ifExists": "DONT_UPDATE",
@@ -74,6 +82,7 @@ To use this endpoint successfully, you might need the following data:
       "address2": "East Wing",
       "address3": "Apt. 3",
       "address4": "Room 4",
+      "postal": "1234",
       "city": "New Dehli",
       "countryCode": "IN",
       "externalId": "API-loc00001",
@@ -89,8 +98,8 @@ To use this endpoint successfully, you might need the following data:
     }
   },
   "currencyCode": "INR",
-  "dataDestInternalName": "DEST.de.metas.ordercandidate",
-  "dataSourceInternalName": "SOURCE.de.metas.ordercandidate.rest.OrderCandidatesRestControllerImpl",
+  "dataSource": "int-SOURCE.de.metas.rest_api.ordercandidates.impl.OrderCandidatesRestControllerImpl",
+  "dataDest": "int-DEST.de.metas.ordercandidate",
   "dateRequired": "2019-08-23",
   "externalHeaderId": "extHead-101",
   "externalLineId": "extLine-101",
@@ -105,12 +114,12 @@ To use this endpoint successfully, you might need the following data:
     }
   },
   "poReference": "SEO_768-04",
-  "price": 6.90,
-  "pricingSystemCode": 2000837,
+  "pricingSystemCode": "Testpreise Kunden",
   "product": {
     "code": "Coco_2468",
     "name": "Coconuts",
     "type": "ITEM",
+    "priceStd": 6.90,
     "uomCode": "PCE",
     "syncAdvise": {
       "ifExists": "DONT_UPDATE",
@@ -120,5 +129,16 @@ To use this endpoint successfully, you might need the following data:
   "uomCode": "PCE",
   "productDescription": "I've got a lovely bunch of coconuts.",
   "qty": 5
+  "salesPartnerCode": "test_42",
+  "shipper": "val-DPD - Classic",
+  "paymentRule": "OnCredit",
+  "orderDocType": "SalesOrder"
 }
 ```
+
+### Useful Tips
+
+| Element | Note |
+| :--- | :--- |
+| `"pricingSystemCode":` | The [price system](../../webui_collection/EN/Add_price-system) provided in the JSON server request must point to an existing [sales price list](../../webui_collection/EN/Add_price-list) that contains a [price list version](../../webui_collection/EN/Add_price-list-version) whose validity period includes the date from the server request in order for the [product prices](../../webui_collection/EN/Add_price) to be created. The aforementioned price list must also be equipped with a **default tax category**.<br> In addition, make sure that the process [scheduler](../../webui_collection/EN/Menu) for the sales order candidate import (`C_OLCand process to C_OrderLines`) is set to *active*. |
+| `"postal":`<br>`"city":`<br>`"countryCode":` | When importing **ZIP**, **city** and **country**, make sure that the postal code provided also exists in the system, otherwise it cannot be linked to the corresponding database table `C_Location` and only the respective fields are populated without further [georeference](../../webui_collection/EN/Update_geocoding). |
