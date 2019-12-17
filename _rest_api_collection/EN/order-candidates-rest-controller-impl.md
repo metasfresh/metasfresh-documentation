@@ -12,7 +12,7 @@ ref: order-candidates-rest-controller-impl
 Via this endpoint you can import sales order candidates into metasfresh and at the same time even create new business partner and product entries. You can also use this endpoint to upload file attachments and attach them to the sales order candidates.
 
 To use this endpoint successfully, you require the following data:
-- Data source name of the endpoint (**dataSource**): `int-SOURCE.de.metas.rest_api.ordercandidates.impl.OrderCandidatesRestControllerImpl`
+- Data source name of the endpoint (**dataSource**):<br> `int-SOURCE.de.metas.rest_api.ordercandidates.impl.OrderCandidatesRestControllerImpl`
 - Internal name of the data target (**dataDest**): `int-DEST.de.metas.ordercandidate`
 
 These are so-called "identifier strings" (ID strings) whose respective values need to be specified using one of the corresponding prefixes:
@@ -20,7 +20,7 @@ These are so-called "identifier strings" (ID strings) whose respective values ne
 - `ext-` for the ID of the data record on the external platform (`externalId`)
 - `val-` for the search key of the data entry in metasfresh
 
-If no prefix is provided, the value is regarded as the ID of the data entry (`AD_Input_DataSource_ID` = `metasfreshId`).
+If no prefix is provided, the element value is regarded as the ID of the data entry (`AD_Input_DataSource_ID` = `metasfreshId`).
 
 | **Note:** |
 | :--- |
@@ -140,5 +140,5 @@ If no prefix is provided, the value is regarded as the ID of the data entry (`AD
 
 | Element | Note |
 | :--- | :--- |
-| `"pricingSystemCode":` | The [price system](../../webui_collection/EN/Add_price-system) provided in the JSON server request must point to an existing [sales price list](../../webui_collection/EN/Add_price-list) that contains a [price list version](../../webui_collection/EN/Add_price-list-version) whose validity period includes the date from the server request in order for the [product prices](../../webui_collection/EN/Add_price) to be created. The aforementioned price list must also be equipped with a **default tax category**.<br> In addition, make sure that the process [scheduler](../../webui_collection/EN/Menu) for the sales order candidate import (`C_OLCand process to C_OrderLines`) is set to *active*. |
+| `"pricingSystemCode":` | The [price system](../../webui_collection/EN/Add_price-system) provided in the JSON server request must point to an existing [sales price list](../../webui_collection/EN/Add_price-list) that contains a [price list version](../../webui_collection/EN/Add_price-list-version) whose validity period includes the date from the server request in order for the [product prices](../../webui_collection/EN/Add_price) to be created. The aforementioned price list must also be equipped with a **default tax category**.<br> In addition, make sure that the [scheduler](../../webui_collection/EN/Menu) for the sales order candidate import process (`C_OLCand process to C_OrderLines`) is set to *active*. |
 | `"postal":`<br>`"city":`<br>`"countryCode":` | When importing **ZIP**, **city** and **country**, make sure that the postal code provided also exists in the system, otherwise it cannot be linked to the corresponding database table `C_Location` and only the respective fields are populated without further [georeference](../../webui_collection/EN/Update_geocoding). |

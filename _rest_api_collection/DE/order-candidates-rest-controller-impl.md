@@ -12,15 +12,15 @@ ref: order-candidates-rest-controller-impl
 Über diesen Endpunkt kannst Du Auftragskandidaten nach metasfresh importieren und gleichzeitig sogar neue Geschäftspartner- sowie Produkteinträge anlegen. Gleichfalls kannst Du über diesen Endpunkt Dateianhänge hochladen und sie den Auftragskandidaten beifügen.
 
 Um diesen Endpunkt erfolgreich zu nutzen, benötigst Du folgende Daten:
-- Datenquellname dieses Endpunktes (**dataSource**): `int-SOURCE.de.metas.rest_api.ordercandidates.impl.OrderCandidatesRestControllerImpl`
+- Datenquellname dieses Endpunktes (**dataSource**):<br> `int-SOURCE.de.metas.rest_api.ordercandidates.impl.OrderCandidatesRestControllerImpl`
 - Interne Benennung des Datenziels (**dataDest**): `int-DEST.de.metas.ordercandidate`
 
-Hierbei handelt es sich um sogenannte "Bezeichnerstrings" (ID-Zeichenfolge), deren jeweiligen Werte mit einem der entsprechenden Präfixe angegeben werden müssen:
+Hierbei handelt es sich um sogenannte "Bezeichnerstrings" (ID-Zeichenfolge), deren jeweilige Werte mit einem der entsprechenden Präfixe angegeben werden müssen:
 - `int-` für die ID des Datensatzes auf der internen Plattform (`internalId`)
 - `ext-` für die ID des Datensatzes auf der externen Plattform (`externalId`)
 - `val-` für den Suchschlüssel des Dateneintrages in metasfresh
 
-Wird kein Präfix angegeben, so wird der Wert als ID des Dateneintrages (`AD_Input_DataSource_ID` = `metasfreshId`) betrachtet.
+Wird kein Präfix angegeben, so wird der Elementwert als ID des Dateneintrages (`AD_Input_DataSource_ID` = `metasfreshId`) betrachtet.
 
 | **Hinweis:** |
 | :--- |
