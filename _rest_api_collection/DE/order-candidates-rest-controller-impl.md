@@ -15,7 +15,7 @@ Um diesen Endpunkt erfolgreich zu nutzen, benötigst Du folgende Daten:
 - Datenquellname dieses Endpunktes (**dataSource**):<br> `int-SOURCE.de.metas.rest_api.ordercandidates.impl.OrderCandidatesRestControllerImpl`
 - Interne Benennung des Datenziels (**dataDest**): `int-DEST.de.metas.ordercandidate`
 
-Hierbei handelt es sich um sogenannte "Bezeichnerstrings" (ID-Zeichenfolge), deren jeweilige Werte mit einem der entsprechenden Präfixe angegeben werden müssen:
+Hierbei handelt es sich um sogenannte "Bezeichnerstrings" (ID-Zeichenfolgen), deren jeweilige Werte mit einem der entsprechenden Präfixe angegeben werden müssen:
 - `int-` für die ID des Datensatzes auf der internen Plattform (`internalId`)
 - `ext-` für die ID des Datensatzes auf der externen Plattform (`externalId`)
 - `val-` für den Suchschlüssel des Dateneintrages in metasfresh
