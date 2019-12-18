@@ -12,7 +12,7 @@ ref: printpdfsetup
 ## Server
 ### enable printing 
 
-1. set sysconfig to Y
+1. set sysconfig `de.metas.printing.Enabled` to Y
 1. restart app server
 
 eventually add to docoutbound config to have printing queue records
