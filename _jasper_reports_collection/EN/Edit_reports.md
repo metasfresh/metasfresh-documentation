@@ -1,5 +1,5 @@
 ---
-title: How to edit jasper reports
+title: How to edit Jasper reports
 layout: default
 tags:
   - Reports
@@ -8,7 +8,7 @@ sequence: 10
 ref: edit_reports
 ---
 
-## <a name="index">Index</a>
+## Index
 <ol type="I">
  <li><a href="#changing-the-sql" title="Changing the SQL">Changing the SQL</a></li>
  <li><a href="#adding-a-parameter" title="Adding a Parameter">Adding a Parameter</a></li>
@@ -34,11 +34,11 @@ ref: edit_reports
 
 1. Press "OK" to save and close.
 
-<p style="text-align:right"><font size="2"><em><a href="#index" title="Jump to top of page">Return to index</a></em></font><sub><font size="4"> ⤴</font></sub></p>
+<p style="text-align:right"><font size="2"><em><a href="#top" title="Jump to top of page">Return to index</a></em></font><font size="3"> &#x2BA5;</font></p>
 
 ### <a name="adding-a-parameter">II. Adding a Parameter</a>
 1. Add the name and the class which you know your SQL is expecting, e.g., for "Date" it will be `java.util.Date`.
-1. **Is For Prompting**: If you set this on "Y", you will see the parameter when you run the jasper in JasperSoft.
+1. **Is For Prompting**: If you set this on "Y", you will see the parameter when you run the Jasper in JasperSoft.
 1. Special parameters:
   - Name: `ad_language`
   - Class: `java.lang.String`
@@ -47,7 +47,7 @@ ref: edit_reports
 
 1. Parameters are indicated as `$P{param_name}`.
 
-<p style="text-align:right"><font size="2"><em><a href="#index" title="Jump to top of page">Return to index</a></em></font><sub><font size="4"> ⤴</font></sub></p>
+<p style="text-align:right"><font size="2"><em><a href="#top" title="Jump to top of page">Return to index</a></em></font><font size="3"> &#x2BA5;</font></p>
 
 ### <a name="adding-a-variable">III. Adding a variable</a>
 1. We usually use variables to calculate data directly in the report, e.g., a sum.
@@ -58,7 +58,7 @@ ref: edit_reports
 For instance, select *Group* if you want to obtain the sum per business partner, in cases where there are more than one and you grouped your data by business partner.
 1. Variables are indicated as `$V{var_name}`.
 
-<p style="text-align:right"><font size="2"><em><a href="#index" title="Jump to top of page">Return to index</a></em></font><sub><font size="4"> ⤴</font></sub></p>
+<p style="text-align:right"><font size="2"><em><a href="#top" title="Jump to top of page">Return to index</a></em></font><font size="3"> &#x2BA5;</font></p>
 
 ### <a name="content-of-the-report">IV. Content of the Report (bands)</a>
 1. **Title**: This band appears only on the first page of the report.
@@ -72,7 +72,7 @@ For instance, select *Group* if you want to obtain the sum per business partner,
 1. **Summary**: Mostly used when you want to add an additional page to your report to put some separate data, like a summary.
 1. **Background**: Mostly used for document watermarks. For example, if a document is not completed and you want to make this apparent to the person reading it.
 
-<p style="text-align:right"><font size="2"><em><a href="#index" title="Jump to top of page">Return to index</a></em></font><sub><font size="4"> ⤴</font></sub></p>
+<p style="text-align:right"><font size="2"><em><a href="#top" title="Jump to top of page">Return to index</a></em></font><font size="3"> &#x2BA5;</font></p>
 
 ### <a name="properties">V. Properties</a>
 1. Usually we use text fields to add data in the report (see *Palette* > *Basic elements* on the upper right).
@@ -87,16 +87,16 @@ For instance, select *Group* if you want to obtain the sum per business partner,
 1. Things like size and location, you can change them directly from Design.
 1. You can also set properties for the report and for bands. For example, you can use **Print when expression** for a band if you only want it to appear in certain cases.
 
-<p style="text-align:right"><font size="2"><em><a href="#index" title="Jump to top of page">Return to index</a></em></font><sub><font size="4"> ⤴</font></sub></p>
+<p style="text-align:right"><font size="2"><em><a href="#top" title="Jump to top of page">Return to index</a></em></font><font size="3"> &#x2BA5;</font></p>
 
 ### <a name="subreports">VI. Subreports</a>
 1. You can add multiple subreports to the main report.
 1. They can also have properties like **print when expression**.
-1. In the subreport's "Expression" you have to insert the link to your jasper subreport between "path/mysubreport.jasper".
+1. In the subreport's "Expression" you have to insert the link to your Jasper subreport between "path/mysubreport.jasper".
 1. On "Edit Parameters" you have to add the parameters/fields/variables/resources you already have in your main report and that you want to include in the subreport, passing the value to it.
 1. Subreports are very useful for reusing existing reports and parts of data that have to be the same in multiple documents.
 
-<p style="text-align:right"><font size="2"><em><a href="#index" title="Jump to top of page">Return to index</a></em></font><sub><font size="4"> ⤴</font></sub></p>
+<p style="text-align:right"><font size="2"><em><a href="#top" title="Jump to top of page">Return to index</a></em></font><font size="3"> &#x2BA5;</font></p>
 
 ### <a name="language">VII. Language</a>
 1. You can have your report in multiple languages. You translate them in `.properties` files.
@@ -105,14 +105,14 @@ For instance, select *Group* if you want to obtain the sum per business partner,
 1. The properties files must be saved with the ANSI encoding.
 1. To add the properties file to your report, you have to go to your report's properties and on "Resource Bundle" to set the path to your properties file like this: `path/report`.
 
-<p style="text-align:right"><font size="2"><em><a href="#index" title="Jump to top of page">Return to index</a></em></font><sub><font size="4"> ⤴</font></sub></p>
+<p style="text-align:right"><font size="2"><em><a href="#top" title="Jump to top of page">Return to index</a></em></font><font size="3"> &#x2BA5;</font></p>
 
 ### <a name="source">VIII. Source</a>
-1. If you want to view the XML code to your jasper report, just go to "Source" tab right below your report.
+1. If you want to view the XML code to your Jasper report, just go to "Source" tab right below your report.
 1. We usually use this source view when we want to have bold fields in PDF files as well.
 1. To enable this, you have to write `pdfFontName="Helvetica-Bold"` after `isBold="true"`.
 
-<p style="text-align:right"><font size="2"><em><a href="#index" title="Jump to top of page">Return to index</a></em></font><sub><font size="4"> ⤴</font></sub></p>
+<p style="text-align:right"><font size="2"><em><a href="#top" title="Jump to top of page">Return to index</a></em></font><font size="3"> &#x2BA5;</font></p>
 
 ### <a name="preview">IX. Preview</a>
 1. "Preview" is the last tab under your report.
@@ -122,4 +122,4 @@ For instance, select *Group* if you want to obtain the sum per business partner,
 1. If you want to set the language for your report you have to click icon "Report Parameter" and add the language via "Report locale" drop-down.
 1. If you want to go back to the parameters after running the report you have to press the arrow icon "show parameters".
 
-<p style="text-align:right"><font size="2"><em><a href="#index" title="Jump to top of page">Return to index</a></em></font><sub><font size="4"> ⤴</font></sub></p>
+<p style="text-align:right"><font size="2"><em><a href="#top" title="Jump to top of page">Return to index</a></em></font><font size="3"> &#x2BA5;</font></p>
