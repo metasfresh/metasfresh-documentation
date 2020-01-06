@@ -1,5 +1,5 @@
 ---
-title: How to resize a jasper barcode
+title: How to resize a Jasper barcode
 layout: default
 tags:
   - Barcodes
@@ -9,7 +9,7 @@ ref: resize_jasper_barcode
 ---
 
 ## Steps
-1. Set the desired size to the `reportElement`, i.e. `width` and `height`.
+1. Set the desired size for the `reportElement`, i.e. `width` and `height`.
 1. In the `reportElement`, set the desired properties (i.e. `property name`) and use "pixel" as value for the size.
 1. In the actual barcode element, set the module ratio, e.g., `moduleWidth="1.0"`.
 
