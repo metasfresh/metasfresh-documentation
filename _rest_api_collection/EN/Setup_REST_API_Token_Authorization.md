@@ -14,7 +14,7 @@ ref: system.setup.auth.token
 
 This example shows how to create a sales order using the token.
 
-- doctype - doctype of the order (e.g. Angebot, Auftrag, etc.)
+- doctype - doctype of the order (e.g., Angebot, Auftrag, etc.)
 - shipBPartnerCode - Partner Value
 - productCode - Product Value
 - qty - quantity of the product
