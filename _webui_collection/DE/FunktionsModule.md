@@ -28,5 +28,5 @@ metasfresh ist eine vollwertige ERP-Software und verfügt über folgende Module:
 | Mandantenfähigkeit | Mehrdimensionale Organisationsstruktur, automatische Gegenzeichnung von Belegen |
 | [Preismanagement](Preissystem_versus_Preisliste) | [Preisliste](Preisliste_anlegen), Versionierung, Mehrwährungsfähigkeit, [mengenbezogene Abschläge](Rabattformen_in_metasfresh), Preiseinheiten, [Handhabung von Preis- und Gebindeeinheiten](Packvorschrift_Preis_anhaengen), brutto/netto, Handauszeichnung und Ermäßigungen |
 | Qualitätsmanagement | Bildaufnahme, Qualitätskontrolle und automatische Abzinsung |
-| Vertragsverwaltung | [Abonnements](Vertrag_erfassen), [automatische Verlängerung](Vertrag_verlaengern), [konfigurierbare Vertragsbedingungen](Vertragsbedingungen_definieren), Integration in Auftragserfassung, Lieferverträge |
+| Vertragsverwaltung | [Abonnements](Abonnementvertrag_erfassen), [automatische Verlängerung](Vertrag_verlaengern), [konfigurierbare Vertragsbedingungen](Vertragsbedingungen_definieren), Integration in Auftragserfassung, Lieferverträge |
 | [Gebindeverwaltung](Handling_Unit_System) | [Konfigurierbare Gebinde](CU-TU_Zuordnung), Leergutannahme und Gebindesaldo mitsamt Abrechnung |

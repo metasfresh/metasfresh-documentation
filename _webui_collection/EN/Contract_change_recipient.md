@@ -10,7 +10,7 @@ ref: contract_change_recipient
 ---
 
 ## Steps
-1. Open the entry of a [current contract](Create_contract).
+1. Open the entry of a [current contract](Create_subscription_contract).
 1. [Start the action](StartAction) "Change Recipient". An overlay window opens up.
  >**Note:** If you have [selected](RecordSelection) the contract while in [list view](ViewModes), you can also go to the [quick actions](StartAction) button at the top right to start the action ![](assets/Change_recipient_button.png).
 

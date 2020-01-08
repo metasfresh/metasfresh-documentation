@@ -13,7 +13,7 @@ ref: extend_contract
 
 ### a) Über den Menüpunkt "Vertrag"
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Vertrag".
-1. [Selektiere](AuswahlBelege) in der [Listenansicht](Ansichten) den [Vertrag](Vertrag_erfassen), den Du verlängern möchtest.
+1. [Selektiere](AuswahlBelege) in der [Listenansicht](Ansichten) den [Vertrag](Abonnementvertrag_erfassen), den Du verlängern möchtest.
 1. [Starte die Aktion](AktionStarten) "Vertrag verlängern". Es öffnet sich ein Overlay-Fenster.
  >**Hinweis:** Diese Aktion kannst Du auch direkt aus dem Eintrag des jeweiligen Vertrages starten.
 

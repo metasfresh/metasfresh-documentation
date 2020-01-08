@@ -22,7 +22,7 @@ In order to obtain a *sales price list* you have to tick the checkbox **Sales Pr
 
 1. Open the entry of an existing customer from your [business partners](Menu) or [add a new one](New_business_partner_customer).
 1. Go to the record tab "Customer" at the bottom of the page.
-1. Double-click the field **Price System** of the customer line and pick the desired [price system](Add_price-system) from the drop-down list.
+1. Double-click the field **Pricing System** of the customer line and pick the desired [pricing system](Add_price-system) from the drop-down list.
 1. [metasfresh saves the progress automatically](Saveindicator).
 
 ---
@@ -32,7 +32,7 @@ In order to obtain a *purchase price list* you have to uncheck the box **Sales P
 
 1. Open the entry of an existing vendor from your [business partners](Menu) or [add a new one](New_business_partner_vendor).
 1. Go to the record tab "Vendor" at the bottom of the page.
-1. Double-click the field **Purchase Price System** of the vendor line and pick the desired [price system](Add_price-system) from the drop-down list.
+1. Double-click the field **Purchase Pricing System** of the vendor line and pick the desired [pricing system](Add_price-system) from the drop-down list.
 1. [metasfresh saves the progress automatically](Saveindicator).
 
 ## Next Steps (alternative)

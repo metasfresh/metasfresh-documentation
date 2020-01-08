@@ -20,7 +20,7 @@ Die Kundenstatus werden täglich automatisch aktualisiert. Eine manuelle Aktuali
 
 ### Vertrag erfassen und Rechnungen erstellen
 1. [Lege einen neuen Kunden an](Neuer_Geschaeftspartner_Kunde), sofern noch nicht geschehen.
-1. [Erfasse einen Vertrag für diesen Kunden](Vertrag_erfassen). Der Kunde erhält nun den Status "Neukunde".
+1. [Erfasse einen Vertrag für diesen Kunden](Abonnementvertrag_erfassen). Der Kunde erhält nun den Status "Neukunde".
 1. [Erstelle eine Rechnung](Zu_Auftrag_Rechnung_erstellen) zu diesem Vertrag (1. Rechnung).
 1. [Verlängere den Vertrag](Vertrag_verlaengern).
 1. [Erstelle eine Rechnung](Zu_Auftrag_Rechnung_erstellen) zu dem verlängerten Vertrag (2. Rechnung). Der Kunde erhält nun den Status "Stammkunde".

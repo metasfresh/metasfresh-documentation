@@ -20,7 +20,7 @@ Customer statuses are updated automatically per day. Manual updating can be done
 
 ### Create a contract and invoice it
 1. [Add a new customer](New_business_partner_customer), if you have not yet done so.
-1. [Create a contract for this customer](Create_contract). The customer will now receive the status "New Customer".
+1. [Create a contract for this customer](Create_subscription_contract). The customer will now receive the status "New Customer".
 1. [Create an invoice](Invoice_SalesOrder) for this contract (1<sup>st</sup> invoice).
 1. [Extend the contract](Extend_contract).
 1. [Create an invoice](Invoice_SalesOrder) for the extended contract (2<sup>nd</sup> invoice). The customer will now receive the status "Regular Customer".

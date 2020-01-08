@@ -21,7 +21,7 @@ In metasfresh, there are *sales price lists* and *purchase price lists*. The sal
 1. Open the entry of an existing [business partner group](Menu) or [add a new one](New_Business_Partner_Group).
  >**Note:** Alternatively, open a [business partner entry](New_Business_Partner) and [jump to the content of the field](Jumpto) **Business Partner Group**.
 
-1. Pick the desired **Price System**.
+1. Pick the desired **Pricing System**.
 1. [metasfresh saves the progress automatically](Saveindicator).
 
 ## Next Steps (alternative)
