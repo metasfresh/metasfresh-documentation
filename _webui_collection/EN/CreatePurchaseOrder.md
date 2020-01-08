@@ -15,7 +15,7 @@ ref: createpurchaseorder
 1. In the field **Delivery from**, enter a part of the [vendor](New_business_partner_vendor) name or number and click on the matching result in the [drop-down list](Keyboard_shortcuts_reference).
  >**Note:** If the required partner does not appear in the list, you can add them through [quick create](Quick_create_new_business_partner).
 
-1. Select a [**Price System**](Add_price-system), if the vendor is not yet [linked to a price system](Assign_prices_to_partner).
+1. Select a [**Pricing System**](Add_price-system), if the vendor is not yet [linked to a pricing system](Assign_prices_to_partner).
 1. The field **Date** specifies the date on which the order *was placed*.
 1. The field **Date Promised** specifies the date on which the service is to be *performed*, i.e. the shipment is to be expected.
 1. [metasfresh saves the progress automatically](Saveindicator).

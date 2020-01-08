@@ -17,7 +17,7 @@ In this case, you can simply set up pricing conditions via the discount schema a
 For this purpose, you can choose between two options:
 
 - **Fixed Price:** You can determine a new standard price as a fixed price.
-- **Surcharge on Standard Price:** You can add a surcharge to an existing standard price in a price system.
+- **Surcharge on Standard Price:** You can add a surcharge to an existing standard price in a pricing system.
 
 ## Steps
 1. Follow these [instructions for creating a discount schema](Create_discount_schema) up to **step 9**.
@@ -27,9 +27,9 @@ For this purpose, you can choose between two options:
 1. Enter a **Fixed price** that shall be used for the product(s) when the pricing conditions are fulfilled.
 
 ### b) Determine a surcharge on a standard price
-1. In the field **Price base**, select *Pricing system*. A new field **Pricing system** appears.
-1. In the field **Pricing system**, enter a part of the desired base [price system](Add_price-system) and click on the matching result in the [drop-down list](Keyboard_shortcuts_reference).
-1. Enter a **Aufschlag auf Standardpreis** (*Surcharge on standard price*) that shall be added to the standard price defined in the base price system when the pricing conditions are fulfilled.
+1. In the field **Price base**, select *Pricing system*. A new field **Pricing System** appears.
+1. In the field **Pricing System**, enter a part of the desired base [pricing system](Add_price-system) and click on the matching result in the [drop-down list](Keyboard_shortcuts_reference).
+1. Enter a **Aufschlag auf Standardpreis** (*Surcharge on standard price*) that shall be added to the standard price defined in the base pricing system when the pricing conditions are fulfilled.
 
 ### Next Steps
 1. Click "Done" to close the overlay window and add the pricing conditions to the list.

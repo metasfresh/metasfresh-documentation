@@ -28,5 +28,5 @@ metasfresh is a full-featured ERP software that comes with the following modules
 | Multi-Tenant | Multi-Org structure, automatic countersignature of documents |
 | [Price Management](Price-system_versus_price-list) | [Price Lists](Add_price-list), Versioning, Multi-Currency Capability, [Quantity-based Discounts](Discount_types_in_metasfresh), Price Units, [Handling Unit Pricing](Add_packing-instructions_to_price), gross/net, Manual Pricing and Discounts |
 | Quality Management | Image Recording, Quality Control and Automatic Discounting |
-| Contract Management | [Subscriptions](Create_contract), [Automatic Contract Extension](Extend_contract), [Configurable Contractual Terms](Define_contractual_terms), Integration into Sales Order Recording, Delivery Contracts |
+| Contract Management | [Subscriptions](Create_subscription_contract), [Automatic Contract Extension](Extend_contract), [Configurable Contractual Terms](Define_contractual_terms), Integration into Sales Order Recording, Delivery Contracts |
 | [Packaging and Container Management](Handling_Unit_System) | [Configurable Containers](CU-TU_Allocation), Empties Management and Balance incl. Billing |

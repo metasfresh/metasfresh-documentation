@@ -20,7 +20,7 @@ In metasfresh, you can determine whether a business partner is a customer, [vend
 1. Go to the record tab "Customer" at the bottom of the page.
 1. Open the [advanced edit menu](Open_AdvancedEditTab) of the customer line.
 1. Tick the checkbox **Customer**.
-1. Select a [**Price System**](Add_price-system).
+1. Select a [**Pricing System**](Add_price-system).
 1. Select a [**Discount Schema**](Pricing_conditions_in_metasfresh).
 1. ***Optional:*** Add further terms and conditions, such as **Payment Rule**, **Payment Term**, [**Dunning**](Setup_Dunning), etc.
 1. Click "Done" to apply the changes and close the advanced edit menu.
