@@ -14,13 +14,13 @@ ref: create_bom
 ### Create a BOM
 1. Open "Bill of Materials" from the [menu](Menu).
 1. [Create a new BOM](New_Record_Window).
-1. In the field **Product**, enter a part of the name or number of the [product](NewProduct) for which you want to create a BOM and click on the matching result in the [drop-down list](Keyboard_shortcuts_reference), e.g., "Guitar".
+1. In the field **Product**, enter a part of the name or number of the [product](NewProduct) for which you want to create a BOM and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>, e.g., "Guitar".
 1. Make sure the **Search Key** of the BOM is ***identical*** to the search key of the product.
 1. In the field **No.**, enter a document number.
 
 ### Add BOM components
 1. Go to the record tab "Components of the BOM & Formula" at the bottom of the page and click !["Add new"](assets/Add_New_Button.png). An overlay window opens up.
-1. In the field **Product**, enter a part of the name or number of the [product](NewProduct) you want to add as a component to the BOM and click on the matching result in the [drop-down list](Keyboard_shortcuts_reference), e.g., "Body" or "Strings".
+1. In the field **Product**, enter a part of the name or number of the [product](NewProduct) you want to add as a component to the BOM and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>, e.g., "Body" or "Strings".
 1. In the field **Qty**, enter a quantity.
 1. Click "Done" to close the overlay window and add the component to the list.
  >**Note:** You can add any number of components to a BOM.

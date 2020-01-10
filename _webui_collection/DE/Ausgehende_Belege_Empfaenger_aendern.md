@@ -18,7 +18,7 @@ Damit Du [Belege per E-Mail aus "Ausgehende Belege" versenden](Email_senden_ausg
 1. Öffne den Eintrag des Beleges, dessen Empfängerdaten Du ändern möchtest, aus der [Listenansicht](Ansichten).
 
 ### a) Anderen Geschäftspartnerkontakt auswählen
-1. Gib im Feld **Mailempfänger** einen Teil des Namens des [Kontaktes/Nutzers](GPartner_Nutzer_hinzufuegen) des Geschäftspartners ein und klicke auf den passenden Treffer in der [Dropdown-Liste](Keyboard_Shortcuts_Liste).
+1. Gib im Feld **Mailempfänger** einen Teil des Namens des [Kontaktes/Nutzers](GPartner_Nutzer_hinzufuegen) des Geschäftspartners ein und klicke auf den passenden Treffer in der <a href="Keyboard_Shortcuts_Liste#dropdown" title="Dynamisches Suchfeld (Autocomplete)">Dropdown-Liste</a>.
 1. Das Feld **Mailadresse** wird in diesem Fall automatisch ausgefüllt, sofern eine E-Mail-Adresse vorhanden ist.
 
 ### b) Abweichenden E-Mail-Empfänger angeben

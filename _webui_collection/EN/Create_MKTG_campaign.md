@@ -24,7 +24,7 @@ The following components are required for a marketing campaign:
 1. Open "Marketing Campaign" from the [menu](Menu).
 1. [Create a new marketing campaign](New_Record_Window).
 1. Give the marketing campaign a **Name**.
-1. In the field [**Marketing Platform**](Create_MKTG_platform), enter a part of the marketing platform and click on the matching result in the [drop-down list](Keyboard_shortcuts_reference).
+1. In the field [**Marketing Platform**](Create_MKTG_platform), enter a part of the marketing platform and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
 1. Select a **Boiler Plate**.
 1. [metasfresh saves the progress automatically](Saveindicator).
 

@@ -45,7 +45,7 @@ Du kannst folgende Parameter je nach Bedarf miteinander kombinieren:
 
 ### Geschäftspartner hinzufügen
 1. Gehe zur Registerkarte "Anruf Planung Version Position" unten auf der Seite und klicke auf !["Neu hinzufügen"](assets/Neu_hinzufuegen_Button.png). Es öffnet sich ein Overlay-Fenster.
-1. Gib im Feld **Geschäftspartner** einen Teil des Namens oder der Nummer des [Geschäftspartners](Neuer_Geschaeftspartner) ein und klicke auf den passenden Treffer in der [Dropdown-Liste](Keyboard_Shortcuts_Liste).
+1. Gib im Feld **Geschäftspartner** einen Teil des Namens oder der Nummer des [Geschäftspartners](Neuer_Geschaeftspartner) ein und klicke auf den passenden Treffer in der <a href="Keyboard_Shortcuts_Liste#dropdown" title="Dynamisches Suchfeld (Autocomplete)">Dropdown-Liste</a>.
  >**Hinweis:** Sofern dem Geschäftspartner ein Kontakt zugeordnet wurde, wird dieser hier automatisch übernommen.
 
 1. Wähle ebenfalls im Feld **Geschäftspartner** einen Kontakt aus, sofern dem Geschäftspartner mehr als einer zugeordnet wurde.

@@ -25,8 +25,8 @@ ref: commission_contract_details
 1. Lege eine **Reihenfolge** für die Provisionsdetails fest.
  >**Hinweis:** Je niedriger die Laufnummer einer Zeile, desto höher ihr Vorrang bei entscheidungsnotwendingen Anwendungsfällen ähnlicher Provisionsdetails.
 
-1. ***Optional:*** Wähle eine **Geschäftspartnergruppe** aus, für die Provision gewährt werden soll. Gib hierzu einen Teil des Namens der Geschäftspartnergruppe in das Feld ein und klicke auf eines der Ergebnisse aus der <a href="Keyboard_Shortcuts_Liste#dropdown" title="Dynamisches Suchfeld (Autocomplete)">Dropdown-Liste</a>.
-1. ***Optional:*** Wähle eine **Produktkategorie** aus, für die Provision gewährt werden soll. Gib hierzu einen Teil des Namens der Produktkategorie in das Feld ein und klicke auf eines der Ergebnisse aus der [Dropdown-Liste](Keyboard_Shortcuts_Liste).
+1. ***Optional:*** Wähle eine **Geschäftspartnergruppe** aus, für die Provision gewährt werden soll. Gib hierzu einen Teil des Namens der Geschäftspartnergruppe in das Feld ein und klicke auf den passenden Treffer in der <a href="Keyboard_Shortcuts_Liste#dropdown" title="Dynamisches Suchfeld (Autocomplete)">Dropdown-Liste</a>.
+1. ***Optional:*** Wähle eine **Produktkategorie** aus, für die Provision gewährt werden soll. Gib hierzu einen Teil des Namens der Produktkategorie in das Feld ein und klicke auf den passenden Treffer in der <a href="Keyboard_Shortcuts_Liste#dropdown" title="Dynamisches Suchfeld (Autocomplete)">Dropdown-Liste</a>.
  >**Hinweis:** Wird weder eine Geschäftspartnergruppe noch eine Produktkategorie angegeben, so werden die Provisionsdetails allgemein angewandt.
 
 1. Trage in das Feld **% der Basispunkte** den prozentualen Anteil ein, der von der Basispunktzahl (Zeilensumme im Auftrag) für die Provision abgezogen werden soll.

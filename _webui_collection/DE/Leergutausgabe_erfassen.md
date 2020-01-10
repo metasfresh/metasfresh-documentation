@@ -22,7 +22,7 @@ Die Rückgabe dieses Leergutes kann sowohl mit Bezug zu einer bestimmten Bestell
 1. [Starte die Quick-Action](AktionStarten) "Leergutausgabe". Es öffnet sich in demselben Tab das Fenster "[Leergutausgabe](Menu)".
  >**Hinweis:** Diese Aktion findest Du ebenfalls im Aktionsmenü in der Listenansicht.
 
-1. Gib im Feld **Geschäftspartner** einen Teil des Namens oder der Nummer des [Lieferanten](Neuer_Geschaeftspartner_Lieferant) ein, an den das Leergut zurückgeht, und klicke auf den passenden Treffer in der [Dropdown-Liste](Keyboard_Shortcuts_Liste).
+1. Gib im Feld **Geschäftspartner** einen Teil des Namens oder der Nummer des [Lieferanten](Neuer_Geschaeftspartner_Lieferant) ein, an den das Leergut zurückgeht, und klicke auf den passenden Treffer in der <a href="Keyboard_Shortcuts_Liste#dropdown" title="Dynamisches Suchfeld (Autocomplete)">Dropdown-Liste</a>.
  >**Hinweis:** Wird der gewünschte Partner nicht angezeigt, kannst Du ihn per [Schnellerfassung](Neuer_Geschaeftspartner_Schnellerfassung) neu anlegen.
 
 ### b) Bestellbezogene Leergutausgabe
@@ -36,7 +36,7 @@ Die Rückgabe dieses Leergutes kann sowohl mit Bezug zu einer bestimmten Bestell
 1. Gehe zur Registerkarte "Positionen" unten auf der Seite und klicke auf !["Massen Erfassung"](assets/Massen_Erfassung_Button.png), um die Leergüter zu erfassen.
  >**Hinweis:** Drücke `Alt` + `Q` / `⌥ alt` + `Q`.
 
-1. Gib in das Feld **Packmittel** einen Teil des Namens des auszugebenden [Packmittels](Packmittel_einrichten) ein und klicke auf den passenden Treffer in der [Dropdown-Liste](Keyboard_Shortcuts_Liste).
+1. Gib in das Feld **Packmittel** einen Teil des Namens des auszugebenden [Packmittels](Packmittel_einrichten) ein und klicke auf den passenden Treffer in der <a href="Keyboard_Shortcuts_Liste#dropdown" title="Dynamisches Suchfeld (Autocomplete)">Dropdown-Liste</a>.
 1. Gib eine **Menge** ein.
  >**Hinweis:** Wechsle in das Feld mit der Maus oder `Tab ↹`-Taste.
 

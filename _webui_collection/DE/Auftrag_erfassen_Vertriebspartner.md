@@ -18,7 +18,7 @@ ref: salesorder_recording_sales_partner
 ## Schritte
 Folge dieser [Anleitung zur Erfassung eines Auftrages](Auftrag_erfassen) unter Berücksichtigung der folgenden Einstellungen:
   - Gib den **Vertriebspartnercode** an.
-  - Gib im Feld **Zugeordneter Vertriebspartner** einen Teil des Namens oder der Nummer des zuzuordnenden Vertriebspartners ein und klicke auf den passenden Treffer in der [Dropdown-Liste](Keyboard_Shortcuts_Liste).
+  - Gib im Feld **Zugeordneter Vertriebspartner** einen Teil des Namens oder der Nummer des zuzuordnenden Vertriebspartners ein und klicke auf den passenden Treffer in der <a href="Keyboard_Shortcuts_Liste#dropdown" title="Dynamisches Suchfeld (Autocomplete)">Dropdown-Liste</a>.
     >**Hinweis:** Wird eines der beiden Felder korrekt ausgefüllt, so wird das jeweils andere automatisch ergänzt.
 
 ### Provisionsvorgang einsehen

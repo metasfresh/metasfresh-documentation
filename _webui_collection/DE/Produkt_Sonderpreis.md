@@ -17,9 +17,9 @@ Allgemeine [Sonderpreisaktionen](Preiskampagne_Aktionspreis_anlegen) für versch
 ## Schritte
 1. Öffne den Eintrag eines bestehenden [Produktes](Menu) bzw. [lege ein neues an](NeuesProdukt).
 1. Gehe zur Registerkarte "Aktionspreise" unten auf der Seite und klicke auf !["Neu hinzufügen"](assets/Neu_hinzufuegen_Button.png). Es öffnet sich ein Overlay-Fenster.
-1. **a)** Wähle im Feld **Geschäftspartner** einen [Kunden](Neuer_Geschaeftspartner_Kunde) aus, für den das Sonderangebot gelten soll. Gib hierzu einen Teil des Kundennamens oder der Kundennummer in das Feld ein und klicke auf eines der Ergebnisse aus der [Dropdown-Liste](Keyboard_Shortcuts_Liste).<br><br>
-**b)** Wähle eine [**Geschäftspartnergruppe**](Neue_Geschaeftspartnergruppe) aus, für die das Sonderangebot gelten soll. Gib hierzu einen Teil der Bezeichnung der Partnergruppe in das Feld ein und klicke auf eines der Ergebnisse aus der [Dropdown-Liste](Keyboard_Shortcuts_Liste).
-1. Wähle ein **Land** aus, in dem das Sonderangebot gelten soll. Gib hierzu einen Teil des Ländernamens in das Feld ein und klicke auf eines der Ergebnisse aus der [Dropdown-Liste](Keyboard_Shortcuts_Liste).
+1. **a)** Wähle im Feld **Geschäftspartner** einen [Kunden](Neuer_Geschaeftspartner_Kunde) aus, für den das Sonderangebot gelten soll. Gib hierzu einen Teil des Kundennamens oder der Kundennummer in das Feld ein und klicke auf den passenden Treffer in der <a href="Keyboard_Shortcuts_Liste#dropdown" title="Dynamisches Suchfeld (Autocomplete)">Dropdown-Liste</a>.<br><br>
+**b)** Wähle eine [**Geschäftspartnergruppe**](Neue_Geschaeftspartnergruppe) aus, für die das Sonderangebot gelten soll. Gib hierzu einen Teil der Bezeichnung der Partnergruppe in das Feld ein und klicke auf den passenden Treffer in der <a href="Keyboard_Shortcuts_Liste#dropdown" title="Dynamisches Suchfeld (Autocomplete)">Dropdown-Liste</a>.
+1. Wähle ein **Land** aus, in dem das Sonderangebot gelten soll. Gib hierzu einen Teil des Ländernamens in das Feld ein und klicke auf den passenden Treffer in der <a href="Keyboard_Shortcuts_Liste#dropdown" title="Dynamisches Suchfeld (Autocomplete)">Dropdown-Liste</a>.
  >**Hinweis:** Die **Währung** wird entsprechend dem ausgewählten Land automatisch aktualisiert, kann jedoch nachträglich manuell geändert werden.
 
 1. Stelle ein **Gültig ab** Datum ein.

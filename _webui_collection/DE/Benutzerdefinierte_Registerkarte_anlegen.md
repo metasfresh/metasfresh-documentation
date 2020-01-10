@@ -24,7 +24,7 @@ In metasfresh kannst Du in verschiedenen Eingabefenstern benutzerdefinierte Regi
 1. Benenne die Registerkarte im Feld **Registername**.
  >**Hinweis:** Dieser Name wird auf dem Registerreiter im Eingabefenster zu lesen sein.
 
-1. Gib im Feld **Eingabefenster** einen Teil des Namens des [Fensters](Menu) ein, in dem die Registerkarte erscheinen soll, und klicke auf den passenden Treffer in der [Dropdown-Liste](Keyboard_Shortcuts_Liste), z.B. *Produkt*.
+1. Gib im Feld **Eingabefenster** einen Teil des Namens des [Fensters](Menu) ein, in dem die Registerkarte erscheinen soll, und klicke auf den passenden Treffer in der <a href="Keyboard_Shortcuts_Liste#dropdown" title="Dynamisches Suchfeld (Autocomplete)">Dropdown-Liste</a>, z.B. *Produkt*.
  >**Hinweis:** Bei mehreren benutzerdefinierten Registerkarten für dasselbe Eingabefenster kannst Du deren **Reihenfolge** bestimmen.
 
 1. ***Optional:*** Erfasse eine **Beschreibung** in dem dafür vorgesehenen Textfeld.
