@@ -12,7 +12,7 @@ ref: newproduct
 ## Schritte
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Produkt".
 1. [Lege ein neues Produkt an](Neuer_Datensatz_Fenster_Webui).
-1. Fülle das Feld **Name** aus.
+1. Benenne das Produkt im Feld **Name**.
  >**Hinweis:** Dieser Name erscheint auf den Belegen wie Auftragsbestätigung usw.
 
 1. Wähle eine [**Produktkategorie**](NeueProduktkategorie) aus.
@@ -21,10 +21,6 @@ ref: newproduct
 1. Wähle eine **Artikelart** aus.
 1. Wähle eine **Maßeinheit** für den Artikel aus.
  >**Hinweis:** Dies ist die Maßeinheit für die *Bestandsführung* und ist ***nicht zu verwechseln*** mit der Verkaufsmengeneinheit, die bei der [Preisvergabe](ProduktPreis) festgelegt wird!
-
-1. Fülle das Feld **Artikelnummer** aus.
- >**Hinweis 1:** Diese Nummer erscheint auf den Belegen wie Auftragsbestätigung usw.<br><br>
- >**Hinweis 2:** Diese Nummer kann auch automatisch vergeben werden.
 
 ## Nächste Schritte
 - [Einkaufs- oder Verkaufspreis hinterlegen](ProduktPreis).

@@ -18,7 +18,7 @@ ref: extend_contract
  >**Hinweis:** Diese Aktion kannst Du auch direkt aus dem Eintrag des jeweiligen Vertrages starten.
 
 1. Wähle für **Neue Vertragslaufzeit autom. fertigstellen** *Ja*.
-1. Wähle ein **Anfangsdatum**.
+1. Stelle ein **Anfangsdatum** ein.
 1. Klicke auf "Start", um den Vertrag zu verlängern und das Overlay-Fenster zu schließen.
 
 ### b) Aus dem Auftrag

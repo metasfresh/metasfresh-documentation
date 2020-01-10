@@ -30,7 +30,7 @@ Erfasse den Abonnementvertrag wie einen [Auftrag](Auftrag_erfassen). Beachte ***
 
 | **Hinweis 2:** |
 | :--- |
-| Nach der Fertigstellung des Auftrages findest Du den Abonnementvertrag unter dem Menüpunkt "[Vertrag](Menu)" wieder. Über die [verknüpften Belege](SpringezuBelegen) kannst Du aus dem Auftrag auch ***direkt*** zum Vertrag springen. |
+| Nach der Fertigstellung des Auftrages findest Du den Abonnementvertrag unter dem Menüpunkt "[Vertrag](Menu)" wieder. Über die [verknüpften Belege](SpringezuBelegen) kannst Du aus dem Auftrag auch ***direkt*** zum Vertrag springen (unter VERTRAGSVERWALTUNG in der Sidebar). |
 
 ## Beispiel
 ![](assets/Abonnementvertrag_erfassen.gif)

@@ -18,11 +18,11 @@ This is why metasfresh offers the possibility to record the different catch weig
 ## Requirements
 1. Configure the product in question as a "catch weight product" by either [assigning a price to it](ProductPrice) or [adding a new product price](Add_price), always setting the **Invoiceable Quantity per** *Catch Weight*.
 
-   ![](assets/Catch_weight_product_price.png)
+   <kbd><img src="assets/Catch_weight_product_price.png" alt="Fig.: Invoiceable Quantity per 'Catch Weight'"></kbd>
 
 1. Define a [UOM conversion](Convert_UOMs) where the checkbox **Target is catch UOM** is activated.
 
-   ![](assets/Catch_UOM_conversion.png)
+   <kbd><img src="assets/Catch_UOM_conversion.png" alt="Fig.: Target is catch UOM ='Y'"></kbd>
 
 ## Steps
 
@@ -44,4 +44,4 @@ This is why metasfresh offers the possibility to record the different catch weig
  >**Note:** The [PDF preview](PrintPreview) of the invoice will show the product's catch weight and the invoice amount will be calculated accordingly.
 
 ## Example
-![](assets/Sales_order_catch_weight.gif)
+<kbd><img src="assets/Sales_order_catch_weight.gif" alt="GIF: Sales Order (Catch Weight)"></kbd>

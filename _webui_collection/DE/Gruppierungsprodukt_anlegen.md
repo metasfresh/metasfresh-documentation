@@ -16,7 +16,7 @@ Bei der [Gruppenrabattierung](Auftragszeilengruppenrabatt) zum Beispiel kommt es
 
 Bei der [Erstellung von Stücklisten aufgrund eines Angebots](Stueckliste_bei_Auftragsgenerierung) dient das Gruppierungsprodukt dazu, Produktionsbestandteile als Angebotsgruppen auszuweisen, damit diese anschließend mittels der [manuellen Kompensationsgruppierung](Kompensationsgruppen_manuell_erstellen) zu einem neuen Verkaufsprodukt mit Stückliste vereint werden können.
 
-Grundsätzlich wird ein Gruppierungsprodukt wie jedes andere normale [Produkt](NeuesProdukt) auch angelegt, unter Beachtung der folgenden anwendungsspezifischen Konfiguration:
+Grundsätzlich wird ein Gruppierungsprodukt wie jedes andere normale [Produkt](NeuesProdukt) auch angelegt, unter Berücksichtigung der folgenden anwendungsspezifischen Konfiguration:
 
 ## Schritte
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Produkte".

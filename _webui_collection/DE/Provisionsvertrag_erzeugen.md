@@ -1,0 +1,41 @@
+---
+title: Wie schließe ich einen Provisionsvertrag?
+layout: default
+tags:
+  - Workflow
+  - Vertragsverwaltung
+  - Provisionsverträge
+lang: de
+sequence: 10
+ref: create_commission_contract
+---
+
+## Voraussetzungen
+1. [Erfasse einen Vertriebspartner, mit dem ein Provisionsvertrag geschlossen werden soll](Vertriebspartner_anlegen).
+1. [Definiere die Vertragsbedingungen des Provisionsvertrages](Vertragsbedingungen_Provision_definieren).
+
+## Schritte
+1. Öffne den Eintrag eines bestehenden Vertriebspartners aus Deinen [Geschäftspartnern](Menu).
+1. [Starte die Aktion](AktionStarten) "Erzeuge Vertrag". Es öffnet sich ein Overlay-Fenster.
+1. Wähle die gewünschten **Vertragsbedingungen** für den Provisionsvertrag aus.
+1. Stelle ein **Anfangsdatum** ein.
+1. Klicke auf "Start", um das Overlay-Fenster zu schließen und den Provisionsvertrag zu erzeugen.
+1. [metasfresh speichert automatisch](Speicheranzeige).
+
+| **Hinweis:** |
+| :--- |
+| Nach seiner Erzeugung findest Du den Provisionsvertrag unter dem Menüpunkt "[Vertrag](Menu)" wieder. Über die [verknüpften Belege](SpringezuBelegen) des Vertriebspartnereintrages kannst Du auch ***direkt*** zum Vertrag springen (unter VERTRAGSVERWALTUNG in der Sidebar). |
+
+## Fehlermeldung
+
+<kbd>
+<font size="3" style="line-height:1.25; font-family: Arial"><span style="color:#f67a89"><strong>Error: Der Vertragszeitraum Jan 1,...</strong></span><br>
+Server error<br>
+Der Vertragszeitraum Jan 1, <script>document.write(new Date().getFullYear())</script> bis Dec 31, <script>document.write(new Date().getFullYear())</script> hat keine Perioden.</font>
+</kbd><br><br>
+
+Solltest Du bei **Schritt 5** diese Fehlermeldung erhalten, dann folge dieser [Anleitung zur Erstellung neuer Kalenderperioden](Kalenderperioden_hinzufuegen) für den ausgewählten Vertragszeitraum.
+
+## Nächste Schritte
+1. [Ordne den Vertriebspartner einem oder mehreren Kunden zu](Vertriebspartner_Kunden_zuordnen).
+1. [Erfasse einen Auftrag mit provisionsberechtigtem Vertriebspartner](Auftrag_erfassen_Vertriebspartner).
