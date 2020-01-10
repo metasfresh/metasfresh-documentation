@@ -33,16 +33,16 @@ ref: newproduct
 
 - Das Feld **Artikelart** bestimmt, um welche Art von Artikel es sich handelt.
 
-| Option | Effekt |
-| :--- | :--- |
-| Artikel | Materieller Artikel, z.B. Stückgut, Verpackung usw. (Standard) |
-| Dienstleistung | Immaterieller Artikel, z.B. Serviceleistung |
-| Erfolgskonto | Steuert Kontierung |
-| Ressource | Artikel, der zeitlich nur einmal belegt werden kann, z.B. eine Maschine |
+  | Option | Bedeutung |
+  | :--- | :--- |
+  | Artikel | Materieller Artikel, z.B. Stückgut, Verpackung usw. (Standard) |
+  | Dienstleistung | Immaterieller Artikel, z.B. Serviceleistung |
+  | Erfolgskonto | Steuert Kontierung |
+  | Ressource | Artikel, der zeitlich nur einmal belegt werden kann, z.B. eine Maschine |
 
 - Das Kontrollkästchen **Lagerhaltig** zeigt an, ob der Artikel (sofern die Artikelart auf der Option "Artikel" steht) im Bestand geführt wird.
 - Das Kontrollkästchen **Eingekauft** zeigt an, ob der Artikel im Einkauf zur Verfügung steht.
 - Das Kontrollkästchen **Verkauft** zeigt an, ob der Artikel im Verkauf zur Verfügung steht.
 
 ## Beispiel
-![](assets/neuesprodukt.gif)
+<kbd><img src="assets/neuesprodukt.gif" alt="GIF: Neues Produkt anlegen"></kbd>

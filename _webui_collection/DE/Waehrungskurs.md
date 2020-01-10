@@ -32,7 +32,7 @@ Du hast Dein metasfresh System mit dem [Einrichtungsassistenten](Ersteinrichtung
  >**Hinweis:** Wiederhole die Schritte 2 bis 6, um weitere Kursumrechnungen anzulegen, z.B. USD nach EUR.
 
 ## Fehlermeldung
-Wenn die Umrechnung nicht korrekt eingestellt ist, gibt es bei der Erstellung einesWareneingangs oder einer Abrechnung eine Fehlermeldung dieser Art:
+Wenn die Umrechnung nicht korrekt eingestellt ist, gibt es bei der Erstellung eines Wareneingangs oder einer Abrechnung eine Fehlermeldung dieser Art:
 
 `... Unable to convert from currency $ ... to currency € ...`
 

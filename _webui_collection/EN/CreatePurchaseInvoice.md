@@ -20,4 +20,4 @@ ref: createpurchaseinvoice
 1. [Open the PDF print preview](PrintPreview).
 
 ## Example
-![](assets/CreatePurchaseInvoice.gif)
+<kbd><img src="assets/CreatePurchaseInvoice.gif" alt="GIF: Create purchase invoice for order"></kbd>

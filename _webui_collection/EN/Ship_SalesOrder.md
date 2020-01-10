@@ -25,4 +25,4 @@ ref: ship_salesorder
 - [Create an invoice](Invoice_SalesOrder) for the sales order.
 
 ## Example
-![](assets/order_shipment.gif)
+<kbd><img src="assets/order_shipment.gif" alt="GIF: Create shipment for sales order"></kbd>

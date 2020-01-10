@@ -25,4 +25,4 @@ ref: ship_salesorder
 - [Erstelle eine Rechnung](Zu_Auftrag_Rechnung_erstellen) zu dem Auftrag.
 
 ## Beispiel
-![](assets/auftrag_liefern.gif)
+<kbd><img src="assets/auftrag_liefern.gif" alt="GIF: Lieferschein für Auftrag erstellen"></kbd>

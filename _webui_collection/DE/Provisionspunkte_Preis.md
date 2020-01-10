@@ -7,12 +7,14 @@ tags:
   - Provisionsverträge
   - Einrichtung
 lang: de
-sequence: 20
+sequence: 30
 ref: commission_points_price
 ---
 
 ## Überblick
-Provisionspunkte sind in metasfresh standardmäßig enthalten. Sie werden zur Provisionsberechnung verwendet und ergeben sich aus dem prozentualen Provisionsanteil der beauftragen Basispunktzahl (Zeilensumme im Auftrag), dessen Höhe in den [Einstellungen für Hierarchie-Provisionsverträge](Provisionsvertrag_Details_definieren) festgelegt werden kann. Außerdem können Provisionspunkte mit einem individuellen Preis versehen werden, der im Zuge der Abrechnung die Höhe der endgültig fälligen Provision bestimmt.
+Provisionspunkte sind in metasfresh standardmäßig enthalten. Sie werden zur Provisionsberechnung verwendet und ergeben sich aus dem prozentualen Provisionsanteil der beauftragen Basispunktzahl (Zeilensumme im Auftrag), dessen Höhe in den [Einstellungen für Hierarchie-Provisionsverträge](Provisionsvertrag_Details_definieren) festgelegt werden kann. Außerdem können Provisionspunkte mit einem individuellen Preis versehen werden, der im Zuge der Fakturierung den endgültigen Betrag der fälligen Provision bestimmt.
+
+Um Provisionspunkten einen Preis zuzuweisen, gehe wie folgt vor:
 
 ## Schritte
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Produkte".

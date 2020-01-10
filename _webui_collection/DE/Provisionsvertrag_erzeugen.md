@@ -28,11 +28,9 @@ ref: create_commission_contract
 
 ## Fehlermeldung
 
-<kbd>
-<font size="3" style="line-height:1.25; font-family: Arial"><span style="color:#f67a89"><strong>Error: Der Vertragszeitraum Jan 1,...</strong></span><br>
+<kbd style="font-size:12pt; font-family:arial; line-height:1.5;"><span style="color:#f67a89"><strong>Error: Der Vertragszeitraum Jan 1,...</strong></span><br>
 Server error<br>
-Der Vertragszeitraum Jan 1, <script>document.write(new Date().getFullYear())</script> bis Dec 31, <script>document.write(new Date().getFullYear())</script> hat keine Perioden.</font>
-</kbd><br><br>
+Der Vertragszeitraum Jan 1, <script>document.write(new Date().getFullYear())</script> bis Dec 31, <script>document.write(new Date().getFullYear())</script> hat keine Perioden.</kbd><br><br>
 
 Solltest Du bei **Schritt 5** diese Fehlermeldung erhalten, dann folge dieser [Anleitung zur Erstellung neuer Kalenderperioden](Kalenderperioden_hinzufuegen) für den ausgewählten Vertragszeitraum.
 

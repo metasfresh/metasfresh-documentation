@@ -33,16 +33,16 @@ ref: newproduct
 
 - The field **Product Type** specifies the type of product.
 
-| Option | Effect |
-| :--- | :--- |
-| Item | Material product, e.g., piece goods, packaging, etc. (default) |
-| Service | Immaterial product |
-| Expense type | Controls the account assignment |
-| Resource | Product that can temporally only be accounted for once, e.g., a machine |
+  | Option | Meaning |
+  | :--- | :--- |
+  | Item | Material product, e.g., piece goods, packaging, etc. (default) |
+  | Service | Immaterial product |
+  | Expense type | Controls the account assignment |
+  | Resource | Product that can temporally only be accounted for once, e.g., a machine |
 
 - The checkbox **Stocked** specifies whether the product is in stock (provided the product type is set on "Item").
 - The checkbox **Purchased** specifies whether the product is available in purchasing.
 - The checkbox **Sold** specifies whether the product is available in sales.
 
 ## Example
-![](assets/NewProduct.gif)
+<kbd><img src="assets/NewProduct.gif" alt="GIF: Add new product"></kbd>
