@@ -30,7 +30,7 @@ To create a subscription contract, simply follow the same steps as for a [sales 
 
 | **Note 2:** |
 | :--- |
-| After completing the sales order you will find the subscription contract under "[Contract](Menu)" in the menu. You can also jump ***directly*** to the contract via the sales order's [related documents](JumptoviaSidebar). |
+| After completing the sales order you will find the subscription contract under "[Contract](Menu)" in the menu. You can also jump ***directly*** to the contract via the sales order's [related documents](JumptoviaSidebar) (under CONTRACT MANAGEMENT in the sidebar). |
 
 ## Example
 ![](assets/Create_subscription_contract.gif)

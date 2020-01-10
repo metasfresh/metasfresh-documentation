@@ -27,7 +27,7 @@ Wenn Du eine neue Preislistenversion erstellst, ist diese vorerst leer, d.h. sie
  >**Hinweis:** Stelle sicher, dass die Zeile der neu erstellten Preislistenversion [selektiert](AuswahlBelege) ist, bevor Du die Aktion startest.
 
 1. [metasfresh speichert automatisch](Speicheranzeige). Die Preise und Produkte wurden kopiert.
- >**Hinweis:** Waren in dem verwendeten Preisschema Regeln definiert, so wurden diese automatisch auf alle betreffenden Produktpreise angewendet.
+ >**Hinweis:** Waren in dem verwendeten Preisschema Regeln definiert, so wurden diese automatisch auf alle betreffenden Produktpreise angewandt.
 
 1. [Springe über das Kontextmenü](Springezu_Kontextmenue) ![](assets/Produkt Preise Kontextmenü.png) der neu erstellten Preislistenversion in das Fenster "Produktpreise". Hier siehst Du nun eine Liste aller aus der Basispreislistenversion übernommenen Produkte.
 

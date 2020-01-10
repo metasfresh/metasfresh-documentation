@@ -18,11 +18,11 @@ Daher bietet metasfresh die Möglichkeit, das abweichende Catch-Weight-Gewicht v
 ## Voraussetzungen
 1. Konfiguriere das betreffende Produkt als "Catch-Weight-Produkt", indem Du ihm entweder [einen Preis hinzufügst](ProduktPreis) oder [einen neuen Produktpreis anlegst](Preis_anlegen) und dabei jeweils im Feld **Abr. Menge basiert auf** *Catch Weight* einstellst.
 
-   ![](assets/Catch_Weight_Produktpreis.png)
+   <kbd><img src="assets/Catch_Weight_Produktpreis.png" alt="Abb.: Abr. Menge basiert auf 'Catch Weight'"></kbd>
 
 1. Lege eine [Maßeinheitenumrechnung](Masseinheiten_umrechnen) an, in der das Kontrollkästchen **Ziel ist Catch-Maßeinheit** aktiviert ist.
 
-   ![](assets/Catch_Masseinheit_Umrechnung.png)
+   <kbd><img src="assets/Catch_Masseinheit_Umrechnung.png" alt="Abb.: Ziel ist Catch-Maßeinheit ='Y'"></kbd>
 
 ## Schritte
 
@@ -44,4 +44,4 @@ Daher bietet metasfresh die Möglichkeit, das abweichende Catch-Weight-Gewicht v
  >**Hinweis:** Auf der [PDF-Vorschau](PDFVorschau) des Rechnungsbeleges wird das Catch-Weight-Gewicht ausgewiesen und der Rechnungsbetrag entsprechend berechnet.
 
 ## Beispiel
-![](assets/Auftrag_Catch_Weight.gif)
+<kbd><img src="assets/Auftrag_Catch_Weight.gif" alt="GIF: Auftrag (Catch Weight)"></kbd>

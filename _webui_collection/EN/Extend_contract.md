@@ -18,7 +18,7 @@ ref: extend_contract
  >**Note:** You can also start this action directly from the respective contract's entry.
 
 1. Select *Yes* for **Auto-complete new Contract Period**.
-1. Choose a **Start Date**.
+1. Set a **Start Date**.
 1. Click "Start" to extend the contract and close the overlay window.
 
 ### b) From the sales order
