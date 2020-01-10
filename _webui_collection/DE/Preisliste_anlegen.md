@@ -25,7 +25,7 @@ Preislisten können länder- und währungsspezifisch sein und somit einem bestim
 1. Wähle eine **Währung** aus.
 1. Das Feld **Preispräzision** bestimmt, wie viele Nachkommastellen bei der Preisberechnung berücksichtigt werden.
 1. Wähle das [**Preissystem**](Preissystem_anlegen) aus, mit dem die Preisliste verknüpft werden soll.
-1. ***Optional:*** Stelle eine **Basispreisliste** ein. Gib hierzu einen Teil des Namens der gewünschten Preisliste ein und klicke auf den passenden Treffer in der [Dropdown-Liste](Keyboard_Shortcuts_Liste).
+1. ***Optional:*** Stelle eine **Basispreisliste** ein. Gib hierzu einen Teil des Namens der gewünschten Preisliste ein und klicke auf den passenden Treffer in der <a href="Keyboard_Shortcuts_Liste#dropdown" title="Dynamisches Suchfeld (Autocomplete)">Dropdown-Liste</a>.
  >**Hinweis:** Die Basispreisliste wird dann herangezogen, wenn ein Produkt auf der aktuell verwendeten Preisliste nicht zu finden ist. Sie dient ebenfalls zur [Aktualisierung abgeleiteter Kundenpreislisten](Abgeleitete_PLV_aktualisieren).
 
 1. Das Kontrollkästchen **Verkaufspreisliste** bestimmt, ob diese Preisliste für den *Verkauf* oder *Einkauf* verwendet werden soll. Ist das Häkchen gesetzt, wird sie z.B. im [Kundenauftrag](Auftrag_erfassen) auswählbar. Wird das Häkchen entfernt, wird es automatisch eine ***Einkaufspreisliste*** und somit z.B. in [Bestellungen](Bestellung_erfassen) verfügbar.

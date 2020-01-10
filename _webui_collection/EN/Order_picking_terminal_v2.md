@@ -38,7 +38,7 @@ The order picker can use the pick list to check the actual stock, note down any 
 
 ### Pack up picked products
 1. [Select](RecordSelection) the lines of the products to be packed and [start the quick action](StartAction) "Pack to". An overlay window opens up.
-1. In the field **Packing Instructions**, enter a part of the name of the [packing instructions](Create_packing_instructions) to be used and click on the matching result in the [drop-down list](Keyboard_shortcuts_reference).
+1. In the field **Packing Instructions**, enter a part of the name of the [packing instructions](Create_packing_instructions) to be used and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
 1. Click "Start" to confirm and close the overlay window. The **Pick Status** changes to *Packed*.
 
 ### Process order picking

@@ -20,7 +20,7 @@ In metasfresh kannst Du Projekte anlegen und übersichtlich verwalten. Neben all
 1. Benenne das Projekt im Feld **Name**.
 1. Wähle einen **Projektstatus** aus, z.B. *Planung*.
 1. ***Optional:*** Erfasse eine **Beschreibung** des Projektes in dem dafür vorgesehenen Textfeld.
-1. Gib im Feld **Geschäftspartner** einen Teil des Namens oder der Nummer des [Geschäftspartners](Neuer_Geschaeftspartner) ein, der an diesem Projekt beteiligt ist, und klicke auf den passenden Treffer in der [Dropdown-Liste](Keyboard_Shortcuts_Liste).
+1. Gib im Feld **Geschäftspartner** einen Teil des Namens oder der Nummer des [Geschäftspartners](Neuer_Geschaeftspartner) ein, der an diesem Projekt beteiligt ist, und klicke auf den passenden Treffer in der <a href="Keyboard_Shortcuts_Liste#dropdown" title="Dynamisches Suchfeld (Autocomplete)">Dropdown-Liste</a>.
 1. Wähle im Feld **Außendienst** den Namen des verantwortlichen Unternehmensvertreters aus.
 1. Stelle im Feld **Datum Auftragseingang** das Datum ein, an dem der Auftrag für das Projekt eingegangen ist.
 1. Stelle im Feld **Projektabschluss** das vereinbarte Datum ein, bis zu dem das Projekt abgeschlossen werden soll.
@@ -37,7 +37,7 @@ In metasfresh kannst Du Projekte anlegen und übersichtlich verwalten. Neben all
 
 ### Projektmitglieder erfassen
 1. Gehe zur Registerkarte "Projektkontakt" unten auf der Seite und klicke auf !["Neu hinzufügen"](assets/Neu_hinzufuegen_Button.png). Es öffnet sich ein Overlay-Fenster.
-1. Gib im Feld **Geschäftspartner** einen Teil des Namens oder der Nummer des [Geschäftspartners](Neuer_Geschaeftspartner) ein, der an diesem Projekt beteiligt ist, und klicke auf den passenden Treffer in der [Dropdown-Liste](Keyboard_Shortcuts_Liste).
+1. Gib im Feld **Geschäftspartner** einen Teil des Namens oder der Nummer des [Geschäftspartners](Neuer_Geschaeftspartner) ein, der an diesem Projekt beteiligt ist, und klicke auf den passenden Treffer in der <a href="Keyboard_Shortcuts_Liste#dropdown" title="Dynamisches Suchfeld (Autocomplete)">Dropdown-Liste</a>.
 1. Wähle einen **Ansprechpartner** für diesen Geschäftspartner aus.
 1. ***Optional:*** Erfasse eine kurze **Beschreibung**.
 1. Wähle eine **Projektrolle** aus, z.B. *Project Manager* (Projektleiter) oder *Project Team Member* (Projektteammitglied).

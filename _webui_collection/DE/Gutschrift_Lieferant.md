@@ -23,14 +23,14 @@ In metasfresh können Lieferanten-Gutschriften erstellt werden, wenn sich ein Gu
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Kreditoren Rechnungen".
 1. [Lege einen neuen Eintrag an](Neuer_Datensatz_Fenster_Webui).
 1. Wähle die **Belegart** *Gutschrift (Lieferant)* aus.
-1. Gib im Feld **Rechnung von** einen Teil des Namens oder der Nummer des [Lieferanten](Neuer_Geschaeftspartner_Lieferant) ein und klicke auf den passenden Treffer in der [Dropdown-Liste](Keyboard_Shortcuts_Liste).
+1. Gib im Feld **Rechnung von** einen Teil des Namens oder der Nummer des [Lieferanten](Neuer_Geschaeftspartner_Lieferant) ein und klicke auf den passenden Treffer in der <a href="Keyboard_Shortcuts_Liste#dropdown" title="Dynamisches Suchfeld (Autocomplete)">Dropdown-Liste</a>.
  >**Hinweis:** Wird der gewünschte Partner nicht angezeigt, kannst Du ihn per [Schnellerfassung](Neuer_Geschaeftspartner_Schnellerfassung) neu anlegen.
 
 ### Rechnungszeilen erfassen
 1. Gehe zur Registerkarte "Rechnungsposition" unten auf der Seite und klicke auf !["Massen Erfassung"](assets/Massen_Erfassung_Button.png), um die Rechnungszeileneingabe zu öffnen.
  >**Hinweis:** Drücke `Alt` + `Q` / `⌥ alt` + `Q`.
 
-1. Gib in das Feld **Produkt** einen Teil des Namens oder der Nummer des von der Gutschrift betroffenen [Produktes](NeuesProdukt) ein und klicke auf den passenden Treffer in der [Dropdown-Liste](Keyboard_Shortcuts_Liste).
+1. Gib in das Feld **Produkt** einen Teil des Namens oder der Nummer des von der Gutschrift betroffenen [Produktes](NeuesProdukt) ein und klicke auf den passenden Treffer in der <a href="Keyboard_Shortcuts_Liste#dropdown" title="Dynamisches Suchfeld (Autocomplete)">Dropdown-Liste</a>.
 1. Gib eine **Menge** ein.
  >**Hinweis:** Wechsle in das Feld mit der Maus oder `Tab ↹`-Taste.
 

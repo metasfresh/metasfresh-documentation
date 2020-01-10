@@ -20,7 +20,7 @@ Welche Spalten Dir beim Anlegen eines Importformats zur Auswahl stehen, ist abh�
 1. [Verwende die Filterfunktion](Filterfunktion) und suche nach der **DB-Tabelle**, die Du anpassen möchtest, z.B. die Importtabelle "I_Product" für Produktdaten.
 1. Öffne den Datenbanktabelleneintrag.
 1. Gehe zur Registerkarte "Spalte" unten auf der Seite und klicke auf !["Neu hinzufügen"](assets/Neu_hinzufuegen_Button.png). Es öffnet sich ein Overlay-Fenster.
-1. Scrolle runter bis zum Feld **System-Element**, gib dort einen Teil des Namens der neuen Spalte ein und klicke auf den passenden Treffer in der [Dropdown-Liste](Keyboard_Shortcuts_Liste).
+1. Scrolle runter bis zum Feld **System-Element**, gib dort einen Teil des Namens der neuen Spalte ein und klicke auf den passenden Treffer in der <a href="Keyboard_Shortcuts_Liste#dropdown" title="Dynamisches Suchfeld (Autocomplete)">Dropdown-Liste</a>.
 1. Trage in das darüberliegende Feld die **Länge** ein, die die neue Spalte in der Datenbank haben soll.
 1. Klicke auf "Bestätigen", um das Overlay-Fenster zu schließen und die Spalte zur Liste hinzuzufügen.
 1. [Starte die Aktion](AktionStarten) "Spalte synchronisieren", um die Spalte in der Datenbank zu persistieren.

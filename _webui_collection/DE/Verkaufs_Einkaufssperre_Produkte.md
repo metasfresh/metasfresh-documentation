@@ -20,7 +20,7 @@ Für diesen Fall kannst Du ganz einfach partnerbezogene Ausschlusslisten mit den
 ### a) Via Geschäftspartner
 1. Öffne den Eintrag eines bestehenden [Geschäftspartners](Menu) bzw. [lege einen neuen an](Neuer_Geschaeftspartner).
 1. Gehe zur Registerkarte "Produkt" unten auf der Seite und klicke auf !["Neu hinzufügen"](assets/Neu_hinzufuegen_Button.png). Es öffnet sich ein Overlay-Fenster.
-1. Gib das [**Produkt**](NeuesProdukt) ein, das Du für den Verkauf/Einkauf sperren möchtest, und wähle es aus den Treffern der [Dropdown-Liste](Keyboard_Shortcuts_Liste) aus.
+1. Gib das [**Produkt**](NeuesProdukt) ein, das Du für den Verkauf/Einkauf sperren möchtest, und wähle es aus den Treffern der <a href="Keyboard_Shortcuts_Liste#dropdown" title="Dynamisches Suchfeld (Autocomplete)">Dropdown-Liste</a> aus.
 1. Trage in das Textfeld **Produkt Sperre Grund** einen Grund ein, weshalb das Produkt für den Geschäftspartner gesperrt ist.
  >**Hinweis:** Dieser Grund erscheint dann in einer Fehlermeldung an den Nutzer, wenn dieser das gesperrte Produkt in einem Auftrag oder einer Bestellung hinzufügen möchte.
 

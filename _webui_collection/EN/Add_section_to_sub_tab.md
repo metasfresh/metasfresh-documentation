@@ -24,7 +24,7 @@ ref: add_section_to_sub_tab
 1. In the field **Sektionsname** (*Section name*), enter a section name.
  >**Note:** This name will be displayed in the appropriate place in the subtab.
 
-1. In the field **Subtab**, enter a part of the (system internal) name of the [subtab](Add_custom_record_tab) where you want the section to appear and click on the matching result in the [drop-down list](Keyboard_shortcuts_reference).
+1. In the field **Subtab**, enter a part of the (system internal) name of the [subtab](Add_custom_record_tab) where you want the section to appear and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
  >**Note:** In case of multiple sections for the same subtab you can specify their order via the field **SeqNo**.
 
 1. ***Optional:*** Enter a **Description** into the text box provided.

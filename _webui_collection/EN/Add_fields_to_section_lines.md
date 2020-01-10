@@ -21,7 +21,7 @@ ref: add_fields_to_section_lines
 1. Give the field a **Name**.
  >**Note:** The field name will be displayed in the appropriate place in the section line.
 
-1. In the field **Line**, enter a part of the (system internal) name of the [section](Add_section_to_sub_tab) containing the line where you want the field to appear and click on the matching result in the [drop-down list](Keyboard_shortcuts_reference).
+1. In the field **Line**, enter a part of the (system internal) name of the [section](Add_section_to_sub_tab) containing the line where you want the field to appear and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
  >**Note 1:** The line sequence number is found at the end of the result.<br><br>
  >**Note 2:** In case of multiple fields for the same section line you can specify their order via the field **SeqNo**.
 

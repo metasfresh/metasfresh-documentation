@@ -16,7 +16,7 @@ ref: add_price
 ## Steps
 1. Open "Product Prices" from the [menu](Menu).
 1. [Create a new price entry](New_Record_Window).
-1. Enter the [**Product**](NewProduct) to which the price shall apply and select it from the results in the [drop-down list](Keyboard_shortcuts_reference).
+1. Enter the [**Product**](NewProduct) to which the price shall apply and select it from the results in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
 1. Pick a [**Price List Version**](Add_price-list-version).
 1. Enter a **Standard Price**.
 1. Pick a **UOM** (unit of measurement) for which the price shall apply (sales UOM).

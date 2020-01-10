@@ -45,7 +45,7 @@ The following parameters can be combined with each other as needed:
 
 ### Add a business partner
 1. Go to the record tab "Phone Call Schema Version Line" at the bottom of the page and click !["Add new"](assets/Add_New_Button.png). An overlay window opens up.
-1. In the field **Business Partner**, enter a part of the [business partner](New_Business_Partner) name or number and click on the matching result in the [drop-down list](Keyboard_shortcuts_reference).
+1. In the field **Business Partner**, enter a part of the [business partner](New_Business_Partner) name or number and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
  >**Note:** If the business partner has a contact associated with them, the contact will be filled in here automatically.
 
 1. Also in the field **Business Partner**, pick a contact, if the partner has more than one contact associated with their entry.

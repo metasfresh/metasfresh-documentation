@@ -15,7 +15,7 @@ ref: add_new_warehouse
 1. Open "Warehouse" from the [menu](Menu).
 1. [Add a new warehouse](New_Record_Window).
 1. Give the warehouse a **Name**, e.g., "[Empty Container Depot](Add_empty_container_depot)".
-1. In the field **Partner Location**, enter a part of the [location](Add_address_tab) name and click on the matching result in the [drop-down list](Keyboard_shortcuts_reference).
+1. In the field **Partner Location**, enter a part of the [location](Add_address_tab) name and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
 1. ***Optional:*** Select a [**Warehouse Type**](Add_new_warehouse_type).
 
 ### Add a Place of Storage

@@ -20,7 +20,7 @@ In this case, you can simply create partner-related exclusion lists with those p
 ### a) Via Business Partner
 1. Open the entry of an existing [business partner](Menu) or [add a new one](New_Business_Partner).
 1. Go to the record tab "Product" at the bottom of the page and click !["Add new"](assets/Add_New_Button.png). An overlay window opens up.
-1. Enter the [**Product**](NewProduct) you want to block for sales/purchasing and select it from the results in the [drop-down list](Keyboard_shortcuts_reference).
+1. Enter the [**Product**](NewProduct) you want to block for sales/purchasing and select it from the results in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
 1. In the text box **Exclusion From Sale Reason**, enter a reason why the product is blocked for the business partner.
  >**Note:** This reason will be displayed in an error message to the user when they want to add the blocked product to a sales or purchase order.
 

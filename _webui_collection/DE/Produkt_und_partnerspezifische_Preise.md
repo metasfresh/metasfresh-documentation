@@ -28,7 +28,7 @@ Hierzu stehen Dir zwei Möglichkeiten zur Auswahl:
 
 ### b) Aufschlag auf einen Standardpreis festlegen
 1. Wähle im Feld **Preisgrundlage** *Preissystem* aus. Es erscheint ein neues Feld **Preissystem**.
-1. Gib im Feld **Preissystem** einen Teil des gewünschten Basis-[Preissystems](Preissystem_anlegen) ein und klicke auf den passenden Treffer in der [Dropdown-Liste](Keyboard_Shortcuts_Liste).
+1. Gib im Feld **Preissystem** einen Teil des gewünschten Basis-[Preissystems](Preissystem_anlegen) ein und klicke auf den passenden Treffer in der <a href="Keyboard_Shortcuts_Liste#dropdown" title="Dynamisches Suchfeld (Autocomplete)">Dropdown-Liste</a>.
 1. Trage einen **Aufschlag auf Standardpreis** ein, der bei Erfüllung der Preiskonditionen auf den im Basispreissystem festgelegten Standardpreis draufgerechnet werden soll.
 
 ### Nächste Schritte

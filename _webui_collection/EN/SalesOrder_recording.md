@@ -12,7 +12,7 @@ ref: salesorder_recording
 ## Steps
 1. Open "Sales Order" from the [menu](Menu).
 1. [Create a new sales order](New_Record_Window).
-1. In the field **Business Partner**, enter a part of the [customer](New_business_partner_customer) name or number and click on the matching result in the [drop-down list](Keyboard_shortcuts_reference).
+1. In the field **Business Partner**, enter a part of the [customer](New_business_partner_customer) name or number and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
  >**Note:** If the required partner does not appear in the list, you can add them through [quick create](Quick_create_new_business_partner).
 
 1. Select a [**Pricing System**](Add_price-system), if the customer is not yet [linked to a pricing system](Assign_prices_to_partner).
@@ -24,7 +24,7 @@ ref: salesorder_recording
 1. Go to the record tab "Order Line" at the bottom of the page and click !["Batch entry"](assets/Batch_Entry_Button.png) to open the fast order line input.
  >**Note:** Use shortcut `Alt` + `Q` / `⌥ alt` + `Q`.
 
-1. In the field **Product**, enter a part of the [product](NewProduct) name or number and click on the matching result in the [drop-down list](Keyboard_shortcuts_reference).
+1. In the field **Product**, enter a part of the [product](NewProduct) name or number and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
  >**Note:** Use the [product proposals list](Product_proposals_sales_purchase_order) to view all products available on the current price list and, if necessary, add a selection of them to the sales order.
 
 1. Enter a **Quantity**.

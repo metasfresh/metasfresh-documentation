@@ -24,7 +24,7 @@ Für eine Marketingkampagne benötigst Du:
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Marketing Kampagne".
 1. [Lege eine neue Marketingkampagne an](Neuer_Datensatz_Fenster_Webui).
 1. Benenne die Marketingkampagne im Feld **Name**.
-1. Gib im Feld [**Marketing Platform**](MKTG-Plattform_erstellen) einen Teil der Marketing-Plattform ein und klicke auf den passenden Treffer in der [Dropdown-Liste](Keyboard_Shortcuts_Liste), z.B. *CleverReach*.
+1. Gib im Feld [**Marketing Platform**](MKTG-Plattform_erstellen) einen Teil der Marketing-Plattform ein und klicke auf den passenden Treffer in der <a href="Keyboard_Shortcuts_Liste#dropdown" title="Dynamisches Suchfeld (Autocomplete)">Dropdown-Liste</a>, z.B. *CleverReach*.
 1. Wähle einen **Textbaustein** aus.
 1. [metasfresh speichert automatisch](Speicheranzeige).
 

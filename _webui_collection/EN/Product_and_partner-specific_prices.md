@@ -28,7 +28,7 @@ For this purpose, you can choose between two options:
 
 ### b) Determine a surcharge on a standard price
 1. In the field **Price base**, select *Pricing system*. A new field **Pricing System** appears.
-1. In the field **Pricing System**, enter a part of the desired base [pricing system](Add_price-system) and click on the matching result in the [drop-down list](Keyboard_shortcuts_reference).
+1. In the field **Pricing System**, enter a part of the desired base [pricing system](Add_price-system) and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
 1. Enter a **Aufschlag auf Standardpreis** (*Surcharge on standard price*) that shall be added to the standard price defined in the base pricing system when the pricing conditions are fulfilled.
 
 ### Next Steps

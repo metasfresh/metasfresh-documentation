@@ -17,9 +17,9 @@ You can also quickly record [special price actions](Price_campaign_add_promotion
 ## Steps
 1. Open the entry of an existing [product](Menu) or [add a new one](NewProduct).
 1. Go to the record tab "Campaign Price" at the bottom of the page and click !["Add new"](assets/Add_New_Button.png). An overlay window opens up.
-1. **a)** In the field **Business Partner**, pick the [customer](New_business_partner_customer) who shall receive the special offer. To do so, enter a part of the customer name or number into the field and click on one of the results from the [drop-down list](Keyboard_shortcuts_reference).<br><br>
-**b)** Select the [**Business Partner Group**](New_Business_Partner_Group) to which the special offer shall apply. To do so, enter a part of the name of the business partner group into the field and click on one of the results from the [drop-down list](Keyboard_shortcuts_reference).
-1. Select the **Country** in which the special offer shall apply. To do so, enter a part of the country name into the field and click on one of the results from the [drop-down list](Keyboard_shortcuts_reference).
+1. **a)** In the field **Business Partner**, pick the [customer](New_business_partner_customer) who shall receive the special offer. To do so, enter a part of the customer name or number into the field and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.<br><br>
+**b)** Select the [**Business Partner Group**](New_Business_Partner_Group) to which the special offer shall apply. To do so, enter a part of the name of the business partner group into the field and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
+1. Select the **Country** in which the special offer shall apply. To do so, enter a part of the country name into the field and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
  >**Note:** The **Currency** will be automatically updated according to the selected country but can be changed manually afterwards.
 
 1. Set a **Valid from** date.

@@ -17,7 +17,7 @@ Some products from your inventory are intended for internal use and are therefor
 1. [Start the quick action](StartAction) "Mass Disposal". An overlay window opens up.
  >**Note:** You will also find this action in the actions menu.
 
-1. In the field **Activity**, enter a part of the cost center and click on the matching result in the [drop-down list](Keyboard_shortcuts_reference), e.g., *Management*.
+1. In the field **Activity**, enter a part of the cost center and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>, e.g., *Management*.
 1. ***Optional:*** Enter a **Description** into the text box provided.
 1. Click "Start" to close the overlay window and post the selected HUs as internal use.
 1. You will receive a [notification](Notification_types) ![](assets/NotificationBell_WebUI.png) in the upper right corner once the internal use is posted.

@@ -22,7 +22,7 @@ The empties return can be carried out either with reference to a particular purc
 1. [Start the quick action](StartAction) "Empties Return". The window "[Empties Return](Menu)" opens up in the same tab.
  >**Note:** You will also find this action in the actions menu in the list view.
 
-1. In the field **Business Partner**, enter a part of the name or number of the [vendor](New_business_partner_vendor) to whom you are returning the empties and click on the matching result in the [drop-down list](Keyboard_shortcuts_reference).
+1. In the field **Business Partner**, enter a part of the name or number of the [vendor](New_business_partner_vendor) to whom you are returning the empties and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
  >**Note:** If the required partner does not appear in the list, you can add them through [quick create](Quick_create_new_business_partner).
 
 ### b) Purchase order-related empties return
@@ -36,7 +36,7 @@ The empties return can be carried out either with reference to a particular purc
 1. Go to the record tab "Positionen" (*Shipment Line*) at the bottom of the page and click !["Batch entry"](assets/Batch_Entry_Button.png) to enter the empties.
  >**Note:** Use shortcut `Alt` + `Q` / `⌥ alt` + `Q`.
 
-1. In the field **Boxing Type**, enter a part of the name of the [packing material](Set_up_packing_material) to be returned and click on the matching result in the [drop-down list](Keyboard_shortcuts_reference).
+1. In the field **Boxing Type**, enter a part of the name of the [packing material](Set_up_packing_material) to be returned and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
 1. Enter a **Quantity**.
  >**Note:** Use the mouse or `Tab ↹` key to go to the field.
 

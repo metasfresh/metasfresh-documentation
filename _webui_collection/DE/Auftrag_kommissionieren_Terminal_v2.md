@@ -38,7 +38,7 @@ Mithilfe der Pickliste kann der Kommissionierer den tatsächlichen Bestand über
 
 ### Kommissionierte Produkte verpacken
 1. [Selektiere](AuswahlBelege) die Zeilen der zu verpackenden Produkte und [starte die Quick-Action](AktionStarten) "Pack To". Es öffnet sich ein Overlay-Fenster.
-1. Gib im Feld **Packvorschrift** einen Teil des Namens der zu verwendenden [Packvorschrift](Packvorschrift_erstellen) ein und klicke auf den passenden Treffer in der [Dropdown-Liste](Keyboard_Shortcuts_Liste).
+1. Gib im Feld **Packvorschrift** einen Teil des Namens der zu verwendenden [Packvorschrift](Packvorschrift_erstellen) ein und klicke auf den passenden Treffer in der <a href="Keyboard_Shortcuts_Liste#dropdown" title="Dynamisches Suchfeld (Autocomplete)">Dropdown-Liste</a>.
 1. Klicke auf "Start", um zu bestätigen und das Overlay-Fenster zu schließen. Der **Kommissionier-Status** ändert sich auf *Gepackt*.
 
 ### Kommissionierung verarbeiten

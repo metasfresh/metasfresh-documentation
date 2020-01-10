@@ -18,7 +18,7 @@ ref: newproductcategory
 
 ## Next Steps (optional)
 - [Set a **parent product category**](ParentProductCategory).
-- In the field **Product sequence**, pick a [document sequence](Define_new_doc_sequence). To do so, enter a part of the document sequence name and click on the matching result in the [drop-down list](Keyboard_shortcuts_reference).
+- In the field **Product sequence**, pick a [document sequence](Define_new_doc_sequence). To do so, enter a part of the document sequence name and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
 
 ## Example
 ![](assets/NewProductCategory.gif)
