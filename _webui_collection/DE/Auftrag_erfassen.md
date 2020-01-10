@@ -42,4 +42,4 @@ ref: salesorder_recording
 - [Erstelle einen Lieferschein](Zu_Auftrag_Lieferschein_erstellen) zu dem Auftrag.
 
 ## Beispiel
-![](assets/auftrag.gif)
+<kbd><img src="assets/auftrag.gif" alt="GIF: Auftrag erfassen"></kbd>

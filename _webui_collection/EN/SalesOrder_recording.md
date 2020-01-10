@@ -42,4 +42,4 @@ ref: salesorder_recording
 - [Create a shipment](Ship_SalesOrder) for the sales order.
 
 ## Example
-![](assets/salesorder.gif)
+<kbd><img src="assets/salesorder.gif" alt="GIF: Create a sales order"></kbd>

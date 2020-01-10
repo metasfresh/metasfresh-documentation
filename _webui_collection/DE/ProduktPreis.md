@@ -32,4 +32,4 @@ ref: productprice
 | Abr. Menge basiert auf | Bestimmt, welches Gewicht bei der Fakturierung ausschlaggebend ist.<br> &#8226;&nbsp;*Nominalgewicht*: Das Standardgewicht, welches durch [Maßeinheitenumrechnung](Masseinheiten_umrechnen) zwischen Bestands- und Verkaufsmengeneinheit erlangt wird (Durchschnittsgewicht).<br> &#8226;&nbsp;*Catch Weight*: Das tatsächliche Gewicht eines Produktes, welches durch Wiegen der Ware erlangt wird. ([Verwaltung von Gewichtsware](Auftrag_Catch_Weight)) |
 
 ## Beispiel
-![](assets/neuerproduktpreis.gif)
+<kbd><img src="assets/neuerproduktpreis.gif" alt="GIF: Produktpreis vergeben"></kbd>

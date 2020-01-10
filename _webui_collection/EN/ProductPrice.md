@@ -32,4 +32,4 @@ ref: productprice
 | Invoicable Quantity per | Specifies the weight to be used for invoicing.<br> &#8226;&nbsp;*Nominal*: Standard (average) weight obtained by [UOM conversion](Convert_UOMs) between stock-keeping UOM and sales UOM.<br> &#8226;&nbsp;*Catch Weight*: Actual (exact) weight of a product obtained by weighing the goods. ([Catch Weight Management](Sales_order_catch_weight))|
 
 ## Example
-![](assets/NewProductPrice.gif)
+<kbd><img src="assets/NewProductPrice.gif" alt="GIF: Assign a product price"></kbd>

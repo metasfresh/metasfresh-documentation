@@ -20,4 +20,4 @@ ref: createpurchaseinvoice
 1. [Öffne die PDF-Vorschau](PDFVorschau) des Belegs.
 
 ## Beispiel
-![](assets/Zu_Bestellung_Eingangsrechnung_erstellen.gif)
+<kbd><img src="assets/Zu_Bestellung_Eingangsrechnung_erstellen.gif" alt="GIF: Eingangsrechnung zu Bestellung erstellen"></kbd>
