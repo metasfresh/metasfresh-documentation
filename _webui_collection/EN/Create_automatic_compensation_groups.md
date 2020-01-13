@@ -21,7 +21,7 @@ In order to create automatic compensation groups, please proceed as follows:
 - [Set up automatic compensation grouping](Automatic_compensation_groups_setup) for the product categories in question.
 
 ## Steps
-1. Follow these [instructions for creating a sales order](SalesOrder_recording) up to **step 4 of the order line input**.
+1. Follow these [instructions for entering a sales order](SalesOrder_recording) up to **step 4 of the order line input**.
 1. [Select](RecordSelection) the order lines you want to combine into a compensation group.
 1. [Start the action](StartAction) "Multigroup lines". The compensation groups are created automatically and displayed as additional discount lines with the **Compensation Type** *Discount*.
 

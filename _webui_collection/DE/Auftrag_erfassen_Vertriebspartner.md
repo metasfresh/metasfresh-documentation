@@ -13,13 +13,13 @@ ref: salesorder_recording_sales_partner
 ## Voraussetzungen
 1. [Erfasse einen Vertriebspartner](Vertriebspartner_anlegen) und [erzeuge einen Provisionsvertrag für ihn](Provisionsvertrag_erzeugen).
 1. [Ordne den Vertriebspartner einem oder mehreren Kunden zu](Vertriebspartner_Kunden_zuordnen).
-1. [Vergib einen Preis für die Provisionspunkte](Provisionspunkte_Preis).
+1. [Weise den Provisionspunkten einen Preis zu](Provisionspunkte_Preis).
 
 ## Schritte
 Folge dieser [Anleitung zur Erfassung eines Auftrages](Auftrag_erfassen) unter Berücksichtigung der folgenden Einstellungen:
-  - Gib den **Vertriebspartnercode** an.
-  - Gib im Feld **Zugeordneter Vertriebspartner** einen Teil des Namens oder der Nummer des zuzuordnenden Vertriebspartners ein und klicke auf den passenden Treffer in der <a href="Keyboard_Shortcuts_Liste#dropdown" title="Dynamisches Suchfeld (Autocomplete)">Dropdown-Liste</a>.
-    >**Hinweis:** Wird eines der beiden Felder korrekt ausgefüllt, so wird das jeweils andere automatisch ergänzt.
+- Gib den **Vertriebspartnercode** an.
+- Gib im Feld **Zugeordneter Vertriebspartner** einen Teil des Namens oder der Nummer des provisionsberechtigten Vertriebspartners ein und klicke auf den passenden Treffer in der <a href="Keyboard_Shortcuts_Liste#dropdown" title="Dynamisches Suchfeld (Autocomplete)">Dropdown-Liste</a>.
+ >**Hinweis:** Wird eines der beiden Felder korrekt ausgefüllt, so wird das jeweils andere automatisch ergänzt.
 
 ### Provisionsvorgang einsehen
 Nach Fertigstellung des Auftrages wird ein Eintrag unter dem Menüpunkt "[Provisionsvorgang](Menu)" angelegt, zu dem Du auch ***direkt*** über die [verknüpften Belege](SpringezuBelegen) des Auftrages springen kannst (unter VERTRIEB in der Sidebar). Darin erhältst Du eine Übersicht des Provisionsvorganges samt Abrechnungsstatus und Höhe der Basispunktzahl. Von hier aus gelangst Du über die Sidebar ebenfalls schnell weiter zum **Buchauszug zur Provision**.

@@ -1,5 +1,5 @@
 ---
-title: How do I create a purchase order?
+title: How do I enter a purchase order?
 layout: default
 tags:
   - Workflow

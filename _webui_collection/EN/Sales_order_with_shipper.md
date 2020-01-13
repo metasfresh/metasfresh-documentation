@@ -14,7 +14,7 @@ ref: sales_order_with_shipper
 - [Set up the desired shipper as default shipper for the customer](Setup_bpartner_default_shipper).
 
 ## Steps
-1. Follow these [instructions for creating a sales order](SalesOrder_recording) up to **step 4 of the order line input**.
+1. Follow these [instructions for entering a sales order](SalesOrder_recording) up to **step 4 of the order line input**.
 1. Open the [advanced edit menu](ViewModes) from the [actions menu](StartAction).
  >**Note:** Use shortcut `Alt` + `E` / `⌥ alt` + `E`.
 

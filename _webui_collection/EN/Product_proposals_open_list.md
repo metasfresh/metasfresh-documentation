@@ -18,12 +18,12 @@ You can open the product proposals list under [sales orders](SalesOrder_recordin
 ## Steps
 
 ### In sales orders
-1. Follow these [instructions for creating a sales order](SalesOrder_recording) up to the **order line input**.
+1. Follow these [instructions for entering a sales order](SalesOrder_recording) up to the **order line input**.
 1. Go to the record tab "Order Line" at the bottom of the page and click ![](assets/Product_Proposals_button.png) to open the product proposals list.
  >**Note:** Use shortcut `Alt` + `Z` / `⌥ alt` + `Z`.
 
 ### In purchase orders
-1. Follow these [instructions for creating a purchase order](CreatePurchaseOrder) up to the **order line input**.
+1. Follow these [instructions for entering a purchase order](CreatePurchaseOrder) up to the **order line input**.
 1. Go to the record tab "PO Line" at the bottom of the page and click ![](assets/Product_Proposals_button.png) to open the product proposals list.
  >**Note:** Use shortcut `Alt` + `Z` / `⌥ alt` + `Z`.
 

@@ -18,7 +18,7 @@ When [creating bills of materials from a quotation](Create_BOM_upon_SO_generatio
 In order to create manual compensation groups, please proceed as follows:
 
 ## Steps
-1. Follow these [instructions for creating a sales order](SalesOrder_recording) up to **step 4 of the order line input**.
+1. Follow these [instructions for entering a sales order](SalesOrder_recording) up to **step 4 of the order line input**.
 1. [Select](RecordSelection) the order lines you want to combine into a compensation group.
 1. [Start the action](StartAction) "Group Lines". An overlay window opens up.
 1. Select a **Product**, e.g., *Discount*.

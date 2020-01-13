@@ -16,7 +16,7 @@ An order line-specific product description can only be recorded in a sales order
 For additional information on how to place manual text on documents, please see [here](Print_text_on_documents-general).
 
 ## Steps
-- Follow these [instructions for creating a sales order](SalesOrder_recording) up to **step 4 of the order line input**.
+- Follow these [instructions for entering a sales order](SalesOrder_recording) up to **step 4 of the order line input**.
 
 ### Option 1: Direct way via the order line
 1. Move the horizontal scrollbar of the order line table to the right until you reach the column **Description**.

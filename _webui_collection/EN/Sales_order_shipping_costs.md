@@ -15,7 +15,7 @@ ref: sales_order_shipping_costs
 - [Set up shipping and freight costs for sales](Shipping_freight_costs_setup).
 
 ## Steps
-1. Follow these [instructions for creating a sales order](SalesOrder_recording) up to **step 4 of the order line input**.
+1. Follow these [instructions for entering a sales order](SalesOrder_recording) up to **step 4 of the order line input**.
 1. Open the [advanced edit menu](ViewModes) from the [actions menu](StartAction).
  >**Note:** Use shortcut `Alt` + `E` / `⌥ alt` + `E`.
 

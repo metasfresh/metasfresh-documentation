@@ -12,12 +12,12 @@ ref: define_contractual_terms_commission
 ---
 
 ## Voraussetzungen
-- [Lege die prozentuale Provisionsverteilung sowie weitere Provisionsdetails fest](Provisionsvertrag_Details_definieren).
+- [Definiere die Bedingungen zur Provisionsgewährung](Provisionsbedingungen_Details).
 
 ## Schritte
 Folge dieser [Anleitung zur Definition von Vertragsbedingungen](Vertragsbedingungen_definieren) unter Berücksichtigung der folgenden Einstellungen:
 1. Wähle als **Vertragsart** *Provision* aus.
-1. Wähle die gewünschten [**Einstellungen für Hierarchie-Provisionsverträge**](Provisionsvertrag_Details_definieren) aus.
+1. Wähle die gewünschten [**Einstellungen für Hierarchie-Provisionsverträge**](Provisionsbedingungen_Details) aus.
 1. Wähle für die **Rechnungsstellung** *Nach Lieferung* aus.
  >**Hinweis:** So kann die Provision erst abgerechnet werden, nachdem die Ware ausgeliefert wurde.
 
