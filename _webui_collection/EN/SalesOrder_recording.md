@@ -1,5 +1,5 @@
 ---
-title: How do I create a sales order?
+title: How do I enter a sales order?
 layout: default
 tags:
   - Workflow

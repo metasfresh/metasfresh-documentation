@@ -47,4 +47,4 @@ ref: paypal_payment_rule_salesorder
 
 ## Next Steps
 1. [Create a shipment](Ship_SalesOrder) for the sales order.
-2. [Create an invoice](Invoice_SalesOrder) for the sales order.
+1. [Create an invoice](Invoice_SalesOrder) for the sales order.

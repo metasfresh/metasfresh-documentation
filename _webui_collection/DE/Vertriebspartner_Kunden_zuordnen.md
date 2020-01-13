@@ -21,7 +21,7 @@ ref: assign_sales_partner_to_customers
 ### Auftrag nur mit Vertriebspartner (optional)
 Setze ein Häkchen bei **Auftrag nur mit Vertriebspartner**, um festzulegen, dass Aufträge für den aktuellen Kunden nur bei Angabe eines Vertriebspartners fertiggestellt werden können.
 
-<kbd><img src="assets/Auftrag_nur_mit_Vertriebspartner.png" alt="Abb.: Auftrag nur mit Vertriebspartner"></kbd>
+<kbd><img src="assets/Auftrag_nur_mit_Vertriebspartner.png" alt="Abb.: Auftrag nur mit Vertriebspartner='Y'"></kbd>
 
 ## Nächste Schritte
 - [Erfasse einen Auftrag mit provisionsberechtigtem Vertriebspartner](Auftrag_erfassen_Vertriebspartner).

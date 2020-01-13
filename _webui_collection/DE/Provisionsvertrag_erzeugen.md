@@ -10,6 +10,9 @@ sequence: 10
 ref: create_commission_contract
 ---
 
+## Überblick
+Durch einen Provisionsvertrag verpflichtet sich der Auftraggeber, einem [Vertriebspartner](Vertriebspartner_anlegen) für den [Verkauf bestimmter Produkte](Auftrag_erfassen) eine Vergütung ([Provision](Provisionspunkte_Preis)) zu zahlen.
+
 ## Voraussetzungen
 1. [Erfasse einen Vertriebspartner, mit dem ein Provisionsvertrag geschlossen werden soll](Vertriebspartner_anlegen).
 1. [Definiere die Vertragsbedingungen des Provisionsvertrages](Vertragsbedingungen_Provision_definieren).
@@ -32,6 +35,7 @@ ref: create_commission_contract
 Server error<br>
 Der Vertragszeitraum Jan 1, <script>document.write(new Date().getFullYear())</script> bis Dec 31, <script>document.write(new Date().getFullYear())</script> hat keine Perioden.</kbd><br><br>
 
+Diese Fehlermeldung weist darauf hin, dass für den ausgewählten Vertragszeitraum keine Kalenderperioden exisiteren.<br>
 Solltest Du bei **Schritt 5** diese Fehlermeldung erhalten, dann folge dieser [Anleitung zur Erstellung neuer Kalenderperioden](Kalenderperioden_hinzufuegen) für den ausgewählten Vertragszeitraum.
 
 ## Nächste Schritte

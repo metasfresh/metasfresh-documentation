@@ -29,7 +29,7 @@ By means of the [filtering function](Phone_call_scheduling_filtering) you can qu
 1. [Start the quick action](StartAction) "Create Sales Order". A new sales order opens up in the same tab. It is already filled in with the business partner's information.
  >**Note:** You will also find this action in the actions menu in both the list view and the detailed view of an entry.
 
-1. Continue with **step 4** of these [instructions for creating a sales order](SalesOrder_recording).
+1. Continue with **step 4** of these [instructions for entering a sales order](SalesOrder_recording).
 
 | **Note:** |
 | :--- |
