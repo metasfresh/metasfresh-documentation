@@ -21,4 +21,4 @@ An der Farbe des Fortschrittsbalkens unterhalb der Menüleiste erkennst Du den j
 | **<span style="color:#e85667">rot</span>** | Speichervorgang ist aufgrund eines Fehlers fehlgeschlagen. |
 
 ## Beispiel
-![Speicheranzeige](assets/Saveindicator_DE.gif)
+<kbd><img src="assets/Saveindicator_DE.gif" alt="GIF: Speicheranzeige"></kbd>

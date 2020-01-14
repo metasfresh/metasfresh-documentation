@@ -12,7 +12,7 @@ ref: commission_conditons_details
 ---
 
 ## Overview
-In the commission conditions, you can determine the commission percentage that to be deducted from the basis points (line amount in the sales order), and for which business partner group and/or product category commission is to be granted. In the case of <a href="Add_new_sales_partner#sp-hierarchy" title="Subordinate sales partners">sales partner hierarchies</a>, you can also specify whether the commission for each sales partner shall be deducted from either the full basis points number or in steps from the difference of basis points and commission points of the higher-level sales partner.
+In the commission conditions, you can determine the commission percentage to be deducted from the basis points (line amount in the sales order), and for which business partner group and/or product category commission is to be granted. In the case of <a href="Add_new_sales_partner#sp-hierarchy" title="Subordinate sales partners">sales partner hierarchies</a>, you can also specify whether the commission for each sales partner shall always be deducted from the full basis points number or in steps from the difference of basis points and commission points of the higher-level sales partner.
 
 ## Steps
 1. Open "Hierarchy commission settings" from the [menu](Menu).

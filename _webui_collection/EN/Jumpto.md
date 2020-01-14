@@ -25,4 +25,4 @@ If you want to review and perhaps edit the content of a field, you do not need t
 | You might need to disable your pop-up blocker to make this feature work. |
 
 ## Example
-![](assets/jumpto.gif)
+<kbd><img src="assets/jumpto.gif" alt="GIF: Jumping via Field"></kbd>

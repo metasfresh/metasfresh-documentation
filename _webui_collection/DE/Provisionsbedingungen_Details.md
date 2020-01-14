@@ -12,7 +12,7 @@ ref: commission_conditons_details
 ---
 
 ## Überblick
-In den Provisionsbedingungen kannst Du die Höhe des Provisionsprozentsatzes bestimmen, der von der Basispunktzahl (Zeilensumme im Auftrag) abgeht, sowie für welche Geschäftspartnergruppe und/oder Produktkategorie eine Provision gewährt werden soll. Im Falle von <a href="Vertriebspartner_anlegen#vp-hierarchie" title="Vertriebspartner einander unterordnen">Vertriebspartnerhierarchien</a> kannst Du hier ebenfalls festlegen, ob die Provision eines jeden Vertriebspartners jeweils entweder von der vollen Basispunktzahl abgezogen werden soll oder stufenweise jeweils von der Differenz aus Basispunktzahl und Provisionsprozentsatz des übergeordneten Vertriebspartners.
+In den Provisionsbedingungen kannst Du die Höhe des Provisionsprozentsatzes bestimmen, der von der Basispunktzahl (Zeilensumme im Auftrag) abgeht, sowie für welche Geschäftspartnergruppe und/oder Produktkategorie eine Provision gewährt werden soll. Im Falle von <a href="Vertriebspartner_anlegen#vp-hierarchie" title="Vertriebspartner einander unterordnen">Vertriebspartnerhierarchien</a> kannst Du hier ebenfalls festlegen, ob die Provision der jeweiligen Vertriebspartner stets von der vollen Basispunktzahl abgezogen werden soll oder stufenweise jeweils von der Differenz aus Basispunktzahl und Provisionsprozentsatz des übergeordneten Vertriebspartners.
 
 ## Schritte
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Einstellungen für Hierarchie-Provisionsverträge".

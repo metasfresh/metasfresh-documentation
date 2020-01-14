@@ -25,4 +25,4 @@ Möchtest Du den Inhalt eines Feldes einsehen und gegebenenfalls bearbeiten, bra
 | Dieses Feature funktioniert nur bei deaktiviertem Pop-Up-Blocker! |
 
 ## Beispiel
-![](assets/SpringezuDaten.gif)
+<kbd><img src="assets/SpringezuDaten.gif" alt="GIF: Springen über ein Feld"></kbd>

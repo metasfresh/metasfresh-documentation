@@ -33,7 +33,7 @@ Dynamische Suchfelder sind durchsuchbare Dropdown-Listen, die sich mit jeder Ein
 | `LEERTASTE` | Auswahl verfügbarer Dateneinträge anzeigen.<br> (Treffer mit Maus oder ![](assets/Workflow_Auftrag_Bis_Rechnung_WebUI-73797.png) auswählen.) |
 
 **Beispiel**: Dynamische Dropdown-Liste<br><br>
-![](assets/Dynamische_Dropdown-Liste.gif)
+<kbd><img src="assets/Dynamische_Dropdown-Liste.gif" alt="GIF: Dynamische Dropdown-Liste"></kbd>
 
 ### Kontext: Dokument ([Listenansicht](Ansichten))
 
@@ -92,4 +92,4 @@ Dynamische Suchfelder sind durchsuchbare Dropdown-Listen, die sich mit jeder Ein
 | `Alt` + `S` | `⌥ alt` + `S` | Alle Zeilen selektieren |
 
 **Beispiel**: Handling Unit Editor<br><br>
-![](assets/Listenansicht_aus-einklappen_selektieren.gif)
+<kbd><img src="assets/Listenansicht_aus-einklappen_selektieren.gif" alt="GIF: Einzüge ein-/ausklappen und selektieren"></kbd>

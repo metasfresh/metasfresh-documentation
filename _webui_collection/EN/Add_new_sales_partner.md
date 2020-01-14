@@ -22,7 +22,7 @@ Sales partners can be assigned to customers as well as to each other by hierarch
  >**Note:** This code can be specified during sales order entry for commission assignment.
 
 ### <a name="sp-hierarchy">Subordinate sales partners (optional)</a>
-1. In the field **Sales partner** (on the right-hand side), enter a part of the ***parent*** sales partner name or number and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
+1. In the field **Sales partner** (on the right-hand side), enter a part of the ***superordinate*** sales partner's name or number and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
 1. [metasfresh saves the progress automatically](Saveindicator).
 
 ## Next Steps
