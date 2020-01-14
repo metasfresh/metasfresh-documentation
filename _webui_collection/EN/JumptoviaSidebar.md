@@ -16,4 +16,4 @@ ref: jumptoviasidebar
 1. Click on one of the links to jump to the respective document (e.g., Invoice).
 
 ## Example
-![](assets/jumptosidebar.gif)
+<kbd><img src="assets/jumptosidebar.gif" alt="GIF: Jumping via Sidebar"></kbd>

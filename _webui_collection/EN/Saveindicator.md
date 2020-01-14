@@ -21,4 +21,4 @@ The color of the progress bar below the menu bar indicates the respective status
 | **<span style="color:#e85667">red</span>** | Failed to save changes due to an error. |
 
 ## Example
-![Saving indicator](assets/Saveindicator_EN.gif)
+<kbd><img src="assets/Saveindicator_EN.gif" alt="GIF: Saving indicator"></kbd>

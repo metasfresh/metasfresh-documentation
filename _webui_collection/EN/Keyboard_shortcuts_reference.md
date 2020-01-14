@@ -33,7 +33,7 @@ A dynamic search box is a searchable drop-down list, which updates with each let
 | `SPACE` | Show a selection of available data entries.<br> (Select one of the provided options with the mouse or ![](../DE/assets/Workflow_Auftrag_Bis_Rechnung_WebUI-73797.png).) |
 
 **Example**: Dynamic drop-down list<br><br>
-![](assets/Dynamic_Drop-down_list.gif)
+<kbd><img src="assets/Dynamic_Drop-down_list.gif" alt="GIF: Dynamic drop-down list"></kbd>
 
 ### Document Context ([list view](ViewModes))
 
@@ -92,4 +92,4 @@ A dynamic search box is a searchable drop-down list, which updates with each let
 | `Alt` + `S` | `⌥ alt` + `S` | Select all rows |
 
 **Example**: Handling Unit Editor<br><br>
-![](assets/Listview_expand_collapse_select_indents.gif)
+<kbd><img src="assets/Listview_expand_collapse_select_indents.gif" alt="GIF: Expand, collapse and select rows"></kbd>

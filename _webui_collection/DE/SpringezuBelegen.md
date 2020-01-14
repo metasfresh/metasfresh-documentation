@@ -16,4 +16,4 @@ ref: jumptoviasidebar
 1. Klicke auf eine der Verknüpfung, um zu dem jeweiligen Beleg zu springen (z.B. Rechnung).
 
 ## Beispiel
-![](assets/springezusidebar.gif)
+<kbd><img src="assets/springezusidebar.gif" alt="GIF: Springen mit der Sidebar"></kbd>
