@@ -44,7 +44,7 @@ Folgende Daten können nach metasfresh importiert werden:
 1. Benenne das Formatfeld im Feld **Name**, z.B. "Suchschlüssel".
 1. Wähle eine **Spalte** aus, in die der Inhalt der Importdatei später übertragen werden soll, z.B. *Value_Suchschlüssel*.
 1. Wähle einen **Datentyp** aus, z.B. *Zeichenfolge* oder *Zahl*, je nach Art der Importdaten.
-1. Lege im Feld **Data Format** ein geeignetes Datenformat fest, sofern notwendig (z.B. beim Datentyp *Datum* das Format *dd.mm.yyyy*).
+1. Lege im Feld **Data Format** ein geeignetes Datenformat fest, sofern notwendig (z.B. beim Datentyp *Datum* das Format *dd.MM.yyyy*).
  >**Hinweis:** Weitere Informationen über Datumsformate findest Du <a href="https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html" title="Formatbeispiele für Daten | Oracle.com" target="blank">hier</a>.
 
 1. Vergib eine **Start-Nr.**

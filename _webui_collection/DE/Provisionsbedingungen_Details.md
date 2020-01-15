@@ -21,7 +21,7 @@ In den Provisionsbedingungen kannst Du die Höhe des Provisionsprozentsatzes bes
 1. Setze ein Häkchen bei **Provision von Basis abziehen**.
  >**Hinweis:** Im Falle von Vertriebspartnerhierarchien werden so die Provisionspunkte der unteren Ebenen auf Basis der (stufenweise verringerten) Differenz aus Basispunktzahl und Provisionspunkten der jeweils darüberliegenden Ebenen ermittelt.
 
-1. Das Feld **Nachkommapräzision** bestimmt die Anzahl der Nachkommastellen der Provisionspunkte.
+1. Das Feld **Nachkommapräzision** bestimmt die Anzahl der Nachkommastellen, auf die beim Berechnen der Provisionspunkte gerundet wird.
 
 ### Provisionsprozentsatz und weitere Details
 1. Gehe zur Registerkarte "Einstellungsdetail" unten auf der Seite und klicke auf !["Neu hinzufügen"](assets/Neu_hinzufuegen_Button.png). Es öffnet sich ein Overlay-Fenster.
