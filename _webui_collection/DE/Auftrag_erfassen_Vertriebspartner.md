@@ -25,13 +25,14 @@ Folge dieser [Anleitung zur Erfassung eines Auftrages](Auftrag_erfassen) unter B
 Nach Fertigstellung des Auftrages wird ein Eintrag unter dem Menüpunkt "[Provisionsvorgang](Menu)" angelegt, zu dem Du auch ***direkt*** über die [verknüpften Belege](SpringezuBelegen) des Auftrages springen kannst (unter VERTRIEB in der Sidebar). Darin erhältst Du eine Übersicht des Provisionsvorganges samt Abrechnungsstatus und Höhe der Basispunktzahl. Von hier aus gelangst Du über die Sidebar ebenfalls schnell weiter zum **Buchauszug zur Provision**.
 
 ### Buchauszug zur Provision (und Abrechnung)
-Über die [verknüpften Belege](SpringezuBelegen) des Provisionsvorganges kannst Du ***direkt*** zum Buchauszug der Provision springen (Menüpunkt "[Provision Buchauszug](Menu)" unter VERTRIEB in der Sidebar). Darin erhältst Du eine Übersicht der ermittelten Punktzahl und unter der Registerkarte "Log" unten auf der Seite findest Du alle Details zum Abrechnungsstatus der Provision. Von hier aus gelangst Du über die Sidebar ebenfalls schnell weiter zur **Rechnungsdisposition**, von wo aus Du die [Eingangsrechnung (Kreditorenrechnung) zur Provision erstellen](Zu_Bestellung_Eingangsrechnung_erstellen) kannst.
+Über die [verknüpften Belege](SpringezuBelegen) des Provisionsvorganges kannst Du ***direkt*** zum Buchauszug der Provision springen (Menüpunkt "[Provision Buchauszug](Menu)" unter VERTRIEB in der Sidebar). Darin erhältst Du eine Übersicht der ermittelten Punktzahl und unter der Registerkarte "Log" unten auf der Seite findest Du alle Details zum Abrechnungsstatus der Provision. Von hier aus gelangst Du über die Sidebar ebenfalls schnell weiter zur **Rechnungsdisposition**, von wo aus Du die [Eingangsrechnung (Kreditorenrechnung) zur Provision erstellen](Provisionsabrechnung_erstellen) kannst.
 
 | **Hinweis:** |
 | :--- |
-| Je nachdem, welcher Zeitpunkt für die Rechnungsstellung in den [Vertragsbedingungen für Provisionsverträge](Vertragsbedingungen_Provision_definieren) festgelegt wurde, kann die Provisionsabrechnung entweder *sofort* oder erst *nach Lieferung* erfolgen. |
+| Die Provisionsabrechnung kann erst nach Auslieferung des Auftrages erstellt werden, sofern in den [Vertragsbedingungen für Provisionsverträge](Vertragsbedingungen_Provision_definieren) als Zeitpunkt für die Rechnungsstellung *nach Lieferung* eingestellt wurde. |
 
 ## Nächste Schritte
 1. [Erstelle einen Lieferschein](Zu_Auftrag_Lieferschein_erstellen) zu dem Auftrag mit Vertriebspartner.
-1. [Erstelle die Provisionsabrechnung](Zu_Bestellung_Eingangsrechnung_erstellen) aus der "[Rechnungsdisposition](Menu)".
+1. [Erstelle die Provisionsabrechnung](Provisionsabrechnung_erstellen).
 1. [Erstelle eine Rechnung](Zu_Auftrag_Rechnung_erstellen) zu dem Auftrag mit Vertriebspartner.
+ >**Hinweis:** Die Anzeige zu den fakturierten (Basis)punktzahlen unter "[Provisionsvorgang](Menu)" bzw. "[Provision Buchauszug](Menu)" wird erst nach Rechnungsstellung aktualisiert. Unabhängig davon kann eine Provisionsabrechnung jedoch schon vorher geschehen.

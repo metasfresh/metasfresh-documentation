@@ -21,7 +21,7 @@ In the commission conditions, you can determine the commission percentage to be 
 1. Tick the checkbox **Subtract commission from base**.
  >**Note:** In the case of sales partner hierarchies, the commission points of the lower levels are determined based on the difference of the (gradually reduced) basis points number and the commission points of the higher levels.
 
-1. The field **Points precision** specifies the number of decimal places for the commission points.
+1. The field **Points precision** specifies the number of decimal places to which commission points are rounded when calculated by the system.
 
 ### Commission percentage and further details
 1. Go to the record tab "Settings detail" at the bottom of the page and click !["Add new"](assets/Add_New_Button.png). An overlay window opens up.

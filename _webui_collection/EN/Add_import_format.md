@@ -42,7 +42,7 @@ The following data can be imported to metasfresh:
 1. Give the format field a **Name**, e.g., "Search Key".
 1. Pick a **Column** where the content of the import file is to be transferred later on, e.g., *Value_Suchschlüssel*.
 1. Select a **Data Type**, e.g., *String* or *Number*, depending on the import data type.
-1. Define a **Data Format**, where necessary (e.g., *dd.mm.yyyy* for the data type *Date*).
+1. Define a **Data Format**, where necessary (e.g., *dd.MM.yyyy* for the data type *Date*).
  >**Note:** You can learn more about date and time patterns <a href="https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html" title="Date format examples | Oracle.com" target="blank">here</a>.
 
 1. Enter a **Start No**.
