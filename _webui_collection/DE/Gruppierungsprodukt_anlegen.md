@@ -31,7 +31,7 @@ Grundsätzlich wird ein Gruppierungsprodukt wie jedes andere normale [Produkt](N
 | Das Gruppierungsprodukt darf ***nicht lagerhaltig*** sein und muss mit ***derselben Preisliste*** verknüpft sein wie der Auftrag, in dem es zum Einsatz kommen soll! |
 
 ### Aktivierung für Angebotsgruppierung
-1. Öffne die "[Erweiterte Erfassung](Ansichten)" aus dem [Aktionsmenü](AktionStarten).
+1. Öffne die "[Erweiterte Erfassung](Ansichten#erw-erfassung)" aus dem [Aktionsmenü](AktionStarten#aktionsmenue).
  >**Hinweis:** Drücke `Alt` + `E` / `⌥ alt` + `E`.
 
 1. Scrolle runter bis zum Kontrollkästchen **Ist Angebotsgruppe** und setze dort ein Häkchen.

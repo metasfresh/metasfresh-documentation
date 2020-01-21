@@ -19,7 +19,7 @@ In a commission contract, the client undertakes to pay a remuneration ([commissi
 
 ## Steps
 1. Open the entry of an existing sales partner from your [business partners](Menu).
-1. [Start the action](StartAction) "Create Contract for filtered Business Partner". An overlay window opens up.
+1. [Start the action](StartAction#actions-menu) "Create Contract for filtered Business Partner". An overlay window opens up.
 1. Pick the desired **Contract Terms** for the commission contract.
 1. Set a **Start Date**.
 1. Click "Start" to close the overlay window and create the contract.

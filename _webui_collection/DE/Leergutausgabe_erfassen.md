@@ -19,18 +19,18 @@ Die Rückgabe dieses Leergutes kann sowohl mit Bezug zu einer bestimmten Bestell
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Wareneingangsdisposition".
 
 ### a) Gesonderte Leergutausgabe
-1. [Starte die Quick-Action](AktionStarten) "Leergutausgabe". Es öffnet sich in demselben Tab das Fenster "[Leergutausgabe](Menu)".
+1. [Starte die Quick-Action](AktionStarten#quick-actions) "Leergutausgabe". Es öffnet sich in demselben Tab das Fenster "[Leergutausgabe](Menu)".
  >**Hinweis:** Diese Aktion findest Du ebenfalls im Aktionsmenü in der Listenansicht.
 
 1. Gib im Feld **Geschäftspartner** einen Teil des Namens oder der Nummer des [Lieferanten](Neuer_Geschaeftspartner_Lieferant) ein, an den das Leergut zurückgeht, und klicke auf den passenden Treffer in der <a href="Keyboard_Shortcuts_Liste#dropdown" title="Dynamisches Suchfeld (Autocomplete)">Dropdown-Liste</a>.
  >**Hinweis:** Wird der gewünschte Partner nicht angezeigt, kannst Du ihn per [Schnellerfassung](Neuer_Geschaeftspartner_Schnellerfassung) neu anlegen.
 
 ### b) Bestellbezogene Leergutausgabe
-1. [Selektiere](AuswahlBelege) in der [Listenansicht](Ansichten) den Eintrag der [Bestellung](Bestellung_erfassen), zu der Du eine Leergutausgabe erfassen möchtest.
-1. [Starte die Quick-Action](AktionStarten) "Leergutausgabe". Es öffnet sich in demselben Tab das Fenster "[Leergutausgabe](Menu)".
+1. [Selektiere](AuswahlBelege) in der [Listenansicht](Ansichten#listenansicht) den Eintrag der [Bestellung](Bestellung_erfassen), zu der Du eine Leergutausgabe erfassen möchtest.
+1. [Starte die Quick-Action](AktionStarten#quick-actions) "Leergutausgabe". Es öffnet sich in demselben Tab das Fenster "[Leergutausgabe](Menu)".
  >**Hinweis:** Diese Aktion findest Du ebenfalls im Aktionsmenü sowohl in der Listenansicht als auch in der Einzelansicht eines Eintrages.
 
-1. In diesem Eintrag sind bereits alle auftragsrelevanten Daten erfasst (siehe auch in der "[Erweiterten Erfassung](Ansichten)" aus dem [Aktionsmenü](AktionStarten)).
+1. In diesem Eintrag sind bereits alle auftragsrelevanten Daten erfasst (siehe auch in der "[Erweiterten Erfassung](Ansichten#erw-erfassung)" aus dem [Aktionsmenü](AktionStarten#aktionsmenue)).
 
 ### Leergüter erfassen
 1. Gehe zur Registerkarte "Positionen" unten auf der Seite und klicke auf !["Massen Erfassung"](assets/Massen_Erfassung_Button.png), um die Leergüter zu erfassen.

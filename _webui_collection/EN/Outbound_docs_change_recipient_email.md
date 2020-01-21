@@ -15,7 +15,7 @@ In order to be able to [send documents via email from "Outbound Documents"](Send
 
 ### Open the entry
 1. Open "Outbound Documents" from the [menu](Menu).
-1. From the [list view](ViewModes), open the entry of the document whose recipient you want to change.
+1. From the [list view](ViewModes#list-view), open the entry of the document whose recipient you want to change.
 
 ### a) Pick a different business partner contact
 1. In the field **eMail Recipient**, enter a part of the [contact/user](New_business_partner_customer) name of the business partner and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.

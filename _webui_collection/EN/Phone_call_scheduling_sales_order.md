@@ -25,8 +25,8 @@ By means of the [filtering function](Phone_call_scheduling_filtering) you can qu
 
 ### Create a sales order
 1. Open "Phone Call Schedule" from the [menu](Menu).
-1. From the [list view](ViewModes), [select](RecordSelection) the entry of the partner you have called and for whom you want to create a sales order.
-1. [Start the quick action](StartAction) "Create Sales Order". A new sales order opens up in the same tab. It is already filled in with the business partner's information.
+1. From the [list view](ViewModes#list-view), [select](RecordSelection) the entry of the partner you have called and for whom you want to create a sales order.
+1. [Start the quick action](StartAction#quick-actions) "Create Sales Order". A new sales order opens up in the same tab. It is already filled in with the business partner's information.
  >**Note:** You will also find this action in the actions menu in both the list view and the detailed view of an entry.
 
 1. Continue with **step 4** of these [instructions for entering a sales order](SalesOrder_recording).

@@ -21,7 +21,7 @@ Stelle sicher, dass alle Voraussetzungen für den [Datenimport in metasfresh](Da
 
 ### Importdatei hochladen und importieren
 1. [Lade Deine Importdatei mit den IFA-Herstellerdaten hoch](Dateihandling).
-1. [Starte die Aktion](AktionStarten) "Import attachment". Es öffnet sich ein Overlay-Fenster.
+1. [Starte die Aktion](AktionStarten#aktionsmenue) "Import attachment". Es öffnet sich ein Overlay-Fenster.
 1. Wähle im Feld **Anhang** die hochgeladene [Importdatei](Importdatei_nuetzliche_Hinweise) aus.
 1. Klicke auf "Start", um die IFA-Herstellerdaten zu importieren und das Overlay-Fenster zu schließen.
 
@@ -32,7 +32,7 @@ Stelle sicher, dass alle Voraussetzungen für den [Datenimport in metasfresh](Da
  - Sollten einige Daten beim Import nicht oder fehlerhaft übertragen worden sein, kannst Du diese Fehler im jeweiligen IFA-Geschäftspartnereintrag unter "[Import Pharma BPartners](Menu)" korrigieren. Hast Du alle Fehler behoben, kannst Du die IFA-Herstellerdaten nun manuell importieren. Gehe hierzu wie folgt vor:
 
 #### IFA-Herstellerdaten manuell importieren
-1. [Starte die Aktion](AktionStarten) "IFA Hersteller importieren". Es öffnet sich ein Overlay-Fenster.
+1. [Starte die Aktion](AktionStarten#aktionsmenue) "IFA Hersteller importieren". Es öffnet sich ein Overlay-Fenster.
 1. Klicke auf "Start", um die IFA-Herstellerdaten zu importieren und das Overlay-Fenster zu schließen.
 1. Die importierten IFA-Herstellerdaten findest Du nun unter dem Menüpunkt "[Geschäftspartner Pharma](Menu)" wieder.
 

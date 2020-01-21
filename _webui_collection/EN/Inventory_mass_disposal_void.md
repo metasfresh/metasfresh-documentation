@@ -2,9 +2,11 @@
 title: How do I reverse an internal use posting?
 layout: default
 tags:
+  - Master Data
+  - Warehouse Management
   - Inventory
 lang: en
-sequence: 20
+sequence: 30
 ref: inventory_mass_disposal_void
 ---
 
@@ -14,7 +16,7 @@ If you reverse an internal use posting, all HUs that were disposed of will be re
 ## Steps
 1. Open "Internal Use" from the [menu](Menu).
 1. Open the entry of a [posted internal use](Inventory_mass_disposal) you want to void.
-1. Open the [document processing menu](StartAction) (`Alt` + `I` / `⌥ alt` + `I`) and click on *Void*.<br>
+1. Open the [document processing menu](StartAction#doc-processing) (`Alt` + `I` / `⌥ alt` + `I`) and click on *Void*.<br>
 ![](assets/DocStatus_void.png)
 
 1. The internal use posting has now been reversed and all HUs restored.

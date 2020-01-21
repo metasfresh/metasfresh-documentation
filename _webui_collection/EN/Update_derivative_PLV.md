@@ -30,5 +30,5 @@ In metasfresh, you can assign a general base price list to various customer-spec
 
 ### Update derivative price lists
 1. Go to the record tab "Price List Version" at the bottom of the page and [select](RecordSelection) the line of the new base price list version.
-1. [Start the action](StartAction) "Apply to derivative price lists". An overlay window opens up.
+1. [Start the action](StartAction#actions-menu) "Apply to derivative price lists". An overlay window opens up.
 1. Click "Start" to close the overlay window and, according to the base price list schema, update all customer-specific price lists that are linked to the general base price list.

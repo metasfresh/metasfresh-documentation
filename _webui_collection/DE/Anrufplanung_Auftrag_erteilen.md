@@ -25,8 +25,8 @@ Mithilfe der [Filterfunktion](Anrufplanung_Anrufe_filtern) kannst Du dir schnell
 
 ### Auftrag erstellen
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Anrufliste".
-1. [Selektiere](AuswahlBelege) in der [Listenansicht](Ansichten) den Eintrag des Partners, mit dem Du ein Gespräch geführt hast, woraus sich ein Kundenauftrag ergeben hat.
-1. [Starte die Quick-Action](AktionStarten) "Auftrag erstellen". Es öffnet sich in demselben Tab ein neuer Auftrag, der bereits mit den Daten des Geschäftspartners ausgefüllt ist.
+1. [Selektiere](AuswahlBelege) in der [Listenansicht](Ansichten#listenansicht) den Eintrag des Partners, mit dem Du ein Gespräch geführt hast, woraus sich ein Kundenauftrag ergeben hat.
+1. [Starte die Quick-Action](AktionStarten#quick-actions) "Auftrag erstellen". Es öffnet sich in demselben Tab ein neuer Auftrag, der bereits mit den Daten des Geschäftspartners ausgefüllt ist.
  >**Hinweis:** Diese Aktion findest Du ebenfalls im Aktionsmenü sowohl in der Listenansicht als auch in der Einzelansicht eines Eintrages.
 
 1. Fahre fort mit dieser [Anleitung zur Auftragserfassung](Auftrag_erfassen) ab **Schritt 4**.

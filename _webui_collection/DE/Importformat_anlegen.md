@@ -54,10 +54,10 @@ Folgende Daten können nach metasfresh importiert werden:
  >**Hinweis:** Wiederhole die Schritte 1 bis 6, um weitere Formatfelder hinzuzufügen.
 
 ### b) Formatfelder übertragen
-Möchtest Du ein neues Importformat anlegen mit den gleichen Formatfeldern wie ein bestehendes Format, dann kannst Du die Formatfelder ganz einfach über das [Aktionsmenü](AktionStarten) aus dem bestehenden in das neue Importformat übertragen. Gehe hierzu wir folgt vor:
+Möchtest Du ein neues Importformat anlegen mit den gleichen Formatfeldern wie ein bestehendes Format, dann kannst Du die Formatfelder ganz einfach über das [Aktionsmenü](AktionStarten#aktionsmenue) aus dem bestehenden in das neue Importformat übertragen. Gehe hierzu wir folgt vor:
 
 1. Lege ein neues Importformat an, wie oben in den **Schritten 1 bis 5** beschrieben.
-1. [Starte die Aktion](AktionStarten) "Positionen kopieren". Es öffnet sich ein Overlay-Fenster.
+1. [Starte die Aktion](AktionStarten#aktionsmenue) "Positionen kopieren". Es öffnet sich ein Overlay-Fenster.
 1. Wähle das entsprechende **Importformat** aus, aus dem Du die Formatfelder übertragen möchtest.
  >**Hinweis:** Um die Formatfelder aus einem bestehenden Importformat erfolgreich zu übertragen, muss in dem neuen Format **_dieselbe_ DB-Tabelle** eingestellt sein wie in dem bestehenden.
 

@@ -28,8 +28,8 @@ Die Liste der Produktvorschläge kannst Du unter [Aufträge](Auftrag_erfassen), 
  >**Hinweis:** Drücke `Alt` + `Z` / `⌥ alt` + `Z`.
 
 ### In Geschäftspartnereinträgen
-1. Öffne den Eintrag eines bestehenden [Geschäftspartners](Menu) in der [Einzelansicht](Ansichten) bzw. [lege einen neuen an](Neuer_Geschaeftspartner).
-1. [Starte die Aktion](AktionStarten) "Produktvorschläge". Es öffnet sich ein Overlay-Fenster mit der Liste der Produktvorschläge.
+1. Öffne den Eintrag eines bestehenden [Geschäftspartners](Menu) in der [Einzelansicht](Ansichten#einzelansicht) bzw. [lege einen neuen an](Neuer_Geschaeftspartner).
+1. [Starte die Aktion](AktionStarten#aktionsmenue) "Produktvorschläge". Es öffnet sich ein Overlay-Fenster mit der Liste der Produktvorschläge.
 
 ## Nächste Schritte
 - [Verwende die Liste der Produktvorschläge bei der Auftrags- oder Bestellerfassung](Produktvorschlaege_Auftrag_Bestellung).

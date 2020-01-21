@@ -19,7 +19,7 @@ ref: ship_salesorder_picked_qty
  >**Note:** Press `Alt` + `6` / `⌥ alt` + `6` to open the sidebar with the list of referenced documents.
 
 1. [Select](RecordSelection) the order lines you want to ship.
-1. [Start the quick action](StartAction) "Generate Shipments". An overlay window opens up.
+1. [Start the quick action](StartAction#quick-actions) "Generate Shipments". An overlay window opens up.
  >**Note:** You will also find this action in the actions menu in both the list view and the detailed view of an entry.
 
 1. In the field **QuantityType**, select *Picked Qty*.

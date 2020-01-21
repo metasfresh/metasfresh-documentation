@@ -21,7 +21,7 @@ If you specifically want to carry over all products in the ordered quantity from
 
 ## Steps
 1. [Create a sales order](SalesOrder_recording) and [complete it](DocumentProcessingComplete).
-1. [Start the action](StartAction) "Generate PO from Sales Order". An overlay window opens up.
+1. [Start the action](StartAction#actions-menu) "Generate PO from Sales Order". An overlay window opens up.
 1. ***Optional:*** Pick an alternative **Vendor**.
  >**Note 1:** Unless an alternative vendor is specified, the current vendor will be used by default.<br><br>
  >**Note 2:** Alternative vendors must be linked [to a discount schema](Link_discount_schema_to_BP) just as the current vendor.

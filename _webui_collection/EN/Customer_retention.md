@@ -26,7 +26,7 @@ Customer statuses are updated automatically per day. Manual updating can be done
 1. [Create an invoice](Invoice_SalesOrder) for the extended contract (2<sup>nd</sup> invoice). The customer will now receive the status "Regular Customer".
 
 ### View customer retention status
-1. Open the entry of a customer in the [detailed view](ViewModes) under "[Business Partner](New_Business_Partner)" in the menu.
+1. Open the entry of a customer in the [detailed view](ViewModes#detailed-view) under "[Business Partner](New_Business_Partner)" in the menu.
 1. Look for the field **Customer retention**.
 
 ![](assets/Customer_retention_regular_customer.png)

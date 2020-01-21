@@ -22,7 +22,7 @@ In metasfresh kannst Du sowohl nach Fertigstellung eines Auftrages (und vor der 
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Aufträge".
 1. Öffne den Eintrag eines [fertiggestellten Auftrags](Auftrag_erfassen), für den Du die Rechnungsempfängerdaten ändern möchtest.
 1. [Springe zur](SpringezuBelegen) "Rechnungsdisposition" und öffne den Eintrag des entsprechenden Rechnungskandidaten.
-1. Öffne die "[Erweiterte Erfassung](Ansichten)" aus dem [Aktionsmenü](AktionStarten).
+1. Öffne die "[Erweiterte Erfassung](Ansichten#erw-erfassung)" aus dem [Aktionsmenü](AktionStarten#aktionsmenue).
  >**Hinweis:** Drücke `Alt` + `E` / `⌥ alt` + `E`.
 
 1. Wähle im Feld **Rechnungsadresse abw.** eine neue Rechnungsadresse aus.

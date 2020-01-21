@@ -31,7 +31,7 @@ A grouping product is basically added like any other normal [product](NewProduct
 | The grouping product must ***not be stocked*** and it must be linked to the very ***same price list*** as in the sales order where it shall be used! |
 
 ### Activate grouping product for quotation grouping
-1. Open the [advanced edit menu](ViewModes) from the [actions menu](StartAction).
+1. Open the [advanced edit menu](ViewModes#adv-edit) from the [actions menu](StartAction#actions-menu).
  >**Note:** Use shortcut `Alt` + `E` / `⌥ alt` + `E`.
 
 1. Scroll down to the checkbox **Ist Angebotsgruppe** (*Is quotation group*) and tick it.

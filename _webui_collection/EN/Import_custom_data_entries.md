@@ -20,7 +20,7 @@ Make sure to comply with all requirements for the [data import in metasfresh](Da
 
 ### Upload and import the file
 1. [Upload your import file containing the custom data entries](File_handling).
-1. [Start the action](StartAction) "Import attachment". An overlay window opens up.
+1. [Start the action](StartAction#actions-menu) "Import attachment". An overlay window opens up.
 1. In the field **Attachment**, select the uploaded [import file](Import_file_useful_tips).
 1. Click "Start" to import the custom data entries and close the overlay window.
 
@@ -31,6 +31,6 @@ Make sure to comply with all requirements for the [data import in metasfresh](Da
  - In case data were transferred incorrectly or are missing after the import, you can review and edit all custom data entries under "[Import - Custom data entry](Menu)". After having rectified all inaccuracies, you can now manually import the custom data entries. To do so, please proceed as follows:
 
 #### Manual Custom Data Entry Import
-1. [Start the action](StartAction) "Import - Erweiterte Dateneingabe" (*Import - Custom Data Entry*). An overlay window opens up.
+1. [Start the action](StartAction#actions-menu) "Import - Erweiterte Dateneingabe" (*Import - Custom Data Entry*). An overlay window opens up.
 1. Click "Start" to import the custom data entries and close the overlay window.
 1. You will find the imported custom data entries in the respective input window in the [menu](Menu).

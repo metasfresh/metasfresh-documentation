@@ -23,12 +23,12 @@ ref: customer_returns
 1. [Jump to](JumptoviaSidebar) "Shipment (Customer)".
  >**Note:** Press `Alt` + `6` / `⌥ alt` + `6` to open the sidebar with the list of referenced documents.
 
-1. From the [list view](ViewModes), [select](RecordSelection) the shipment note in question.
-1. [Start the quick action](StartAction) "Select HU for Return". The "HU Editor" opens up.
+1. From the [list view](ViewModes#list-view), [select](RecordSelection) the shipment note in question.
+1. [Start the quick action](StartAction#quick-actions) "Select HU for Return". The "HU Editor" opens up.
  >**Note:** You will also find this action in the actions menu in both the list view and the detailed view of an entry.
 
 1. [Select](RecordSelection) the returned HU.
-1. [Start the quick action](StartAction) "Return from customer". The HU will now be moved to the quality issue warehouse.
+1. [Start the quick action](StartAction#quick-actions) "Return from customer". The HU will now be moved to the quality issue warehouse.
 1. Click "Done" to close the "HU Editor".
 1. You will receive a [notification](Notification_types) ![](assets/NotificationBell_WebUI.png) in the upper right corner once the return shipment is generated.
 1. Click on the notification to open the confirmation of receipt of returned goods.

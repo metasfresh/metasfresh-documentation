@@ -18,8 +18,8 @@ Tour lists are created based on the settings of the tour versions. Depending on 
 
 ## Steps
 1. Open "Tour" from the [menu](Menu).
-1. From the [list view](ViewModes), [select](RecordSelection) the [tour scheduling schema](Add_tour_scheduling_schema) you want to use for creating a tour list.
-1. [Start the action](StartAction) "Generate Delivery Days". An overlay window opens up.
+1. From the [list view](ViewModes#list-view), [select](RecordSelection) the [tour scheduling schema](Add_tour_scheduling_schema) you want to use for creating a tour list.
+1. [Start the action](StartAction#actions-menu) "Generate Delivery Days". An overlay window opens up.
  >**Note:** You will also find this action in the actions menu in the detailed view of an entry.
 
 1. Set a **Date from** and a **Date To** in order to specify the period for which the tour list shall be created.

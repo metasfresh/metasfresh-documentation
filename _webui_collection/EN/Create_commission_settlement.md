@@ -29,7 +29,7 @@ ref: create_commission_settlement
 ### Settle commission payment
 1. Use the commission deed's [related documents to jump](JumptoviaSidebar) into the window "[Billing Candidates](Menu)" (under BILLING and then "Invoice Disposition" in the sidebar).
 1. [Select](RecordSelection) the commission line you want to settle.
-1. [Start the action](StartAction) "Generate invoices". An overlay window opens up.
+1. [Start the action](StartAction#actions-menu) "Generate invoices". An overlay window opens up.
 1. Click "Start" to confirm and close the overlay window.
 1. You will receive a [notification](Notification_types) ![](assets/NotificationBell_WebUI.png) in the upper right corner once the settlement has been generated.
 1. Click on the notification to open the settlement document.

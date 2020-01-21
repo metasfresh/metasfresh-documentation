@@ -20,7 +20,7 @@ Stelle sicher, dass alle Voraussetzungen für den [Datenimport in metasfresh](Da
 
 ### Importdatei hochladen und importieren
 1. [Lade Deine Importdatei mit den benutzerdefinierten Dateneingaben hoch](Dateihandling).
-1. [Starte die Aktion](AktionStarten) "Import attachment". Es öffnet sich ein Overlay-Fenster.
+1. [Starte die Aktion](AktionStarten#aktionsmenue) "Import attachment". Es öffnet sich ein Overlay-Fenster.
 1. Wähle im Feld **Anhang** die hochgeladene [Importdatei](Importdatei_nuetzliche_Hinweise) aus.
 1. Klicke auf "Start", um die benutzerdefinierten Dateneingaben zu importieren und das Overlay-Fenster zu schließen.
 
@@ -31,6 +31,6 @@ Stelle sicher, dass alle Voraussetzungen für den [Datenimport in metasfresh](Da
  - Sollten einige Daten beim Import nicht oder fehlerhaft übertragen worden sein, kannst Du diese Fehler im jeweiligen Eintrag der benutzerdefinierten Dateneingabe unter "[Import - Erweiterte Dateneingabe](Menu)" korrigieren. Hast Du alle Fehler behoben, kannst Du die benutzerdefinierten Dateneingaben nun manuell importieren. Gehe hierzu wie folgt vor:
 
 #### Benutzerdefinierte Dateneingaben manuell importieren
-1. [Starte die Aktion](AktionStarten) "Import - Erweiterte Dateneingabe". Es öffnet sich ein Overlay-Fenster.
+1. [Starte die Aktion](AktionStarten#aktionsmenue) "Import - Erweiterte Dateneingabe". Es öffnet sich ein Overlay-Fenster.
 1. Klicke auf "Start", um die benutzerdefinierten Dateneingaben zu importieren und das Overlay-Fenster zu schließen.
 1. Die importierten benutzerdefinierten Dateneingaben findest Du nun in dem jeweils angegebenen Eingabefenster im [Menü](Menu) wieder.

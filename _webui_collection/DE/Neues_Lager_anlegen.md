@@ -3,7 +3,7 @@ title: Wie lege ich ein neues Lager an?
 layout: default
 tags:
   - Stammdaten
-  - Lager
+  - Lagerverwaltung
 lang: de
 sequence: 10
 ref: add_new_warehouse
@@ -32,4 +32,4 @@ Hier kannst Du dem Lager diejenigen Belegarten als ***Dokument-Basistyp*** zuord
  >**Hinweis:** Du kannst beliebig viele Zuordnungen erstellen. Vergleiche dazu den Lagereintrag "Hauptlager", der bereits entsprechend eingerichtet ist.
 
 ## Beispiel
-![](assets/Neues_Lager_anlegen.gif)
+<kbd><img src="assets/Neues_Lager_anlegen.gif" alt="GIF: Neues Lager anlegen"></kbd>

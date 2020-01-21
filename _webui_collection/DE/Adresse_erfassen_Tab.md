@@ -10,7 +10,7 @@ ref: add_address_tab
 ---
 
 ## Schritte
-1. Öffne den Eintrag eines bestehenden [Geschäftspartners](Menu) in der [Einzelansicht](Ansichten) bzw. [lege einen neuen an](Neuer_Geschaeftspartner).
+1. Öffne den Eintrag eines bestehenden [Geschäftspartners](Menu) in der [Einzelansicht](Ansichten#einzelansicht) bzw. [lege einen neuen an](Neuer_Geschaeftspartner).
 1. Gehe zur Registerkarte "Adresse" unten auf der Seite und klicke auf !["Neu hinzufügen"](assets/Neu_hinzufuegen_Button.png). Es öffnet sich ein Overlay-Fenster.
 1. ***Optional:*** Trage in das Feld **Abw. Firmenname** einen Namen ein, der anstelle des Geschäftspartner- bzw. Firmennamens als Empfänger auf den Belegen erscheinen soll.
  >**Hinweis:** Wird kein abweichender Firmenname angegeben, so kommt standardmäßig der Name aus dem Geschäftspartnereintrag zur Anwendung.

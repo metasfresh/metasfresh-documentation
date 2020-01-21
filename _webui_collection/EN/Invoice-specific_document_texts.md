@@ -19,7 +19,7 @@ For additional information on how to place manual text on documents, please see 
 1. Open the entry of a [completed outgoing invoice](Invoice_SalesOrder). [Use the filter](Filtering_function) to help you find a specific invoice.
  >**Note:** You may also use the [related documents](JumptoviaSidebar) of a [completed](DocumentProcessingComplete) [sales order](SalesOrder_recording) to jump ***directly*** to the corresponding invoice document you want to edit.
 
-1. Open the [advanced edit menu](ViewModes) from the [actions menu](StartAction).
+1. Open the [advanced edit menu](ViewModes#adv-edit) from the [actions menu](StartAction#actions-menu).
  >**Note:** Use shortcut `Alt` + `E` / `⌥ alt` + `E`.
 
 1. Scroll down to the text box **Description** and enter a text that shall appear at the beginning of the document.

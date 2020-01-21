@@ -3,7 +3,7 @@ title: How do I add an empty container depot?
 layout: default
 tags:
   - Master Data
-  - Warehouse
+  - Warehouse Management
 lang: en
 sequence: 30
 ref: add_empty_container_depot
@@ -20,4 +20,4 @@ An empty container depot serves to store the empty containers that remain after 
  >**Note:** In order for the empty containers to be moved to the empty container depot for storage, you will need an appropriate [distribution network](Automatic_distribution_network)!
 
 ## Example
-![](assets/Add_Empty_Container_Depot.gif)
+<kbd><img src="assets/Add_Empty_Container_Depot.gif" alt="GIF: How to add an new warehouse"></kbd>

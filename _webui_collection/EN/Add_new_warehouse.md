@@ -3,7 +3,7 @@ title: How do I add a new warehouse?
 layout: default
 tags:
   - Master Data
-  - Warehouse
+  - Warehouse Management
 lang: en
 sequence: 10
 ref: add_new_warehouse
@@ -32,4 +32,4 @@ Here you can select the ***Document Base Types*** for which the warehouse shall 
  >**Note:** You can assign any number of document base types to a warehouse. As an example, please take a look at the warehouse entry "Main Warehouse", which is already configured appropriately.
 
 ## Example
-![](assets/Add_Empty_Container_Depot.gif)
+<kbd><img src="assets/Add_Empty_Container_Depot.gif" alt="GIF: How to add a new warehouse"></kbd>

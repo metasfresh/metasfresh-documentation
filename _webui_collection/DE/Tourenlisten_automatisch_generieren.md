@@ -18,8 +18,8 @@ Tourenlisten basieren auf den Einstellungen der Tourversionen. Je nach Einstellu
 
 ## Schritte
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Tour".
-1. [Selektiere](AuswahlBelege) in der [Listenansicht](Ansichten) das [Tourenplanungsschema](Tourenplanungsschema_anlegen), das Du zur Erzeugung einer Tourenliste verwenden möchtest.
-1. [Starte die Aktion](AktionStarten) "GenerateDeliveryDays" (*Liefertage generieren*). Es öffnet sich ein Overlay-Fenster.
+1. [Selektiere](AuswahlBelege) in der [Listenansicht](Ansichten#listenansicht) das [Tourenplanungsschema](Tourenplanungsschema_anlegen), das Du zur Erzeugung einer Tourenliste verwenden möchtest.
+1. [Starte die Aktion](AktionStarten#aktionsmenue) "GenerateDeliveryDays" (*Liefertage generieren*). Es öffnet sich ein Overlay-Fenster.
  >**Hinweis:** Diese Aktion findest Du ebenfalls im Aktionsmenü in der Einzelansicht eines Eintrages.
 
 1. Stelle ein **Datum von** und ein **Datum bis** ein, um den genauen Zeitraum festzulegen, für den die Tourenliste erzeugt werden soll.

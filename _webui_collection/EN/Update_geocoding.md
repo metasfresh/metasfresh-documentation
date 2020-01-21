@@ -23,7 +23,7 @@ To ensure that all business partner locations are included in the area search, i
    <p style="margin-left:25%; width:50%; border:1px; border-style:solid; border-color:#dddddd; padding:0.5em; text-align:center;">https://{% raw %}<code>{{ base.URL }}</code>{% endraw %}<strong>/window/121</strong></p>
 
 1. Hit `↵ Enter` to apply. The hidden window "Location" opens up.
-1. [Start the action](StartAction) "Geocoding update". The geographical coordinates of all business partner locations have now been recalculated.
+1. [Start the action](StartAction#actions-menu) "Geocoding update". The geographical coordinates of all business partner locations have now been recalculated.
 1. [metasfresh saves the progress automatically](Saveindicator).
 
 ## Next Steps

@@ -19,7 +19,7 @@ Weitere Informationen darüber, wie Du eigenen Text in Belege einfügen kannst, 
 1. Öffne den Eintrag einer [fertiggestellten Ausgangsrechnung](Zu_Auftrag_Rechnung_erstellen). [Verwende die Filterfunktion](Filterfunktion), um Dir bei der Suche nach einer ganz bestimmten Rechnung zu helfen.
  >**Hinweis:** Du kannst auch über die [verknüpften Belege](SpringezuBelegen) eines [fertiggestellten](BelegverarbeitungFertigstellen) [Auftrages](Auftrag_erfassen) ***direkt*** zum dazugehörigen Rechnungsbeleg springen, den Du bearbeiten möchtest.
 
-1. Öffne die "[Erweiterte Erfassung](Ansichten)" aus dem [Aktionsmenü](AktionStarten).
+1. Öffne die "[Erweiterte Erfassung](Ansichten#erw-erfassung)" aus dem [Aktionsmenü](AktionStarten#aktionsmenue).
  >**Hinweis:** Drücke `Alt` + `E` / `⌥ alt` + `E`.
 
 1. Scrolle runter bis zum Textfeld **Beschreibung** und gib hier einen Text ein, der am Anfang des Beleges erscheinen soll.

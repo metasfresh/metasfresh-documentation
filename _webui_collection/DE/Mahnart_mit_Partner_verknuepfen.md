@@ -33,7 +33,7 @@ Damit eine Mahnart in Verbindung mit einem Partner wirksam wird, musst Du sie er
 
 ### Schritte
 1. Öffne den Eintrag einer bestehenden [Geschäftspartnergruppe](Menu) bzw. [lege eine neue an](Neue_Geschaeftspartnergruppe).
-1. Öffne die "[Erweiterte Erfassung](Ansichten)" aus dem [Aktionsmenü](AktionStarten).
+1. Öffne die "[Erweiterte Erfassung](Ansichten#erw-erfassung)" aus dem [Aktionsmenü](AktionStarten#aktionsmenue).
  >**Hinweis:** Drücke `Alt` + `E` / `⌥ alt` + `E`.
 
 1. Scrolle runter bis zum Feld **Mahnung** und wähle die gewünschte Mahnart aus.

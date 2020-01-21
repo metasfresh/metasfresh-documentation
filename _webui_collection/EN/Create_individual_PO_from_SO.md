@@ -22,7 +22,7 @@ If you want to carry over selected products in a self-determined quantity from a
 ## Steps
 1. [Create a sales order](SalesOrder_recording).
 1. [Select](RecordSelection) the order lines with the products you want to purchase.
-1. [Start the action](StartAction) "Create purchase orders". An overlay window opens up.
+1. [Start the action](StartAction#actions-menu) "Create purchase orders". An overlay window opens up.
  >**Note:** This action will only become available when at least one order line is selected.
 
 1. Click !['+'](../DE/assets/expand_list_plus.png) on the left of the purchase order line to expand it.

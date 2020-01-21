@@ -32,7 +32,7 @@ Compensation groups can be created both [manually](Create_manual_compensation_gr
 If you want to give further discounts on a group discount that always consider the previously calculated discount total, simply proceed as follows:
 
 1. [Select](RecordSelection) an order line from the compensation group in question.
-1. [Start the action](StartAction) "Add group compensation line". An overlay window opens up.
+1. [Start the action](StartAction#actions-menu) "Add group compensation line". An overlay window opens up.
 1. Select a **Product**, e.g., *Discount*.
  >**Note:** You can select any other product from the list in the product field, provided that it is ***not stocked*** and linked to the very ***same price list*** as in the sales order.<br>
  [Follow these instructions](Add_grouping_product) to configure such a *discount product*.

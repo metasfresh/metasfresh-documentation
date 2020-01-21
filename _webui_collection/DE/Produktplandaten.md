@@ -23,7 +23,7 @@ Wird ein Auftrag erfasst, überprüft die *Materialdisposition* anhand der Produ
 
 ### Plandaten konfigurieren
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Produkt Plandaten".
-1. Öffne den Eintrag des gewünschten Produktes aus der [Listenansicht](Ansichten).
+1. Öffne den Eintrag des gewünschten Produktes aus der [Listenansicht](Ansichten#listenansicht).
 1. Gehe zur Registerkarte "Daten Planung" unten auf der Seite und klicke auf !["Neu hinzufügen"](assets/Neu_hinzufuegen_Button.png). Es öffnet sich ein Overlay-Fenster.
 
 #### a) Für den Einkauf

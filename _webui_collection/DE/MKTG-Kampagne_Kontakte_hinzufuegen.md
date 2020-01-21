@@ -25,8 +25,8 @@ Damit Kontakte (Nutzer bzw. Geschäftspartner) in die Verteilerliste einer [*Ser
 
 #### a) in E-Mail-Kampagne exportieren
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Geschäftspartner".
-1. [Selektiere](AuswahlBelege) in der [Listenansicht](Ansichten) die [Geschäftspartner](Neuer_Geschaeftspartner), die Du Deiner E-Mail-Kampagne als Kontakte hinzufügen möchtest.
-1. [Starte die Quick-Action](AktionStarten) "Export in E-Mail-Kampagne". Es öffnet sich ein Overlay-Fenster.
+1. [Selektiere](AuswahlBelege) in der [Listenansicht](Ansichten#listenansicht) die [Geschäftspartner](Neuer_Geschaeftspartner), die Du Deiner E-Mail-Kampagne als Kontakte hinzufügen möchtest.
+1. [Starte die Quick-Action](AktionStarten#quick-actions) "Export in E-Mail-Kampagne". Es öffnet sich ein Overlay-Fenster.
  >**Hinweis:** Diese Aktion findest Du ebenfalls im Aktionsmenü sowohl in der Listenansicht als auch in der Einzelansicht eines Eintrages.
 
 1. Gib im Feld [**MKTG_Campaign**](MKTG-Kampagne_erstellen) einen Teil der E-Mail-Kampagne ein und klicke auf den passenden Treffer in der <a href="Keyboard_Shortcuts_Liste#dropdown" title="Dynamisches Suchfeld (Autocomplete)">Dropdown-Liste</a>.
@@ -34,8 +34,8 @@ Damit Kontakte (Nutzer bzw. Geschäftspartner) in die Verteilerliste einer [*Ser
 
 #### b) in Serienbrief-Kampagne exportieren
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Geschäftspartner".
-1. [Selektiere](AuswahlBelege) in der [Listenansicht](Ansichten) die [Geschäftspartner](Neuer_Geschaeftspartner), die Du Deiner Serienbrief-Kampagne als Kontakte hinzufügen möchtest.
-1. [Starte die Aktion](AktionStarten) "Export in Serienbrief-Kampagne". Es öffnet sich ein Overlay-Fenster.
+1. [Selektiere](AuswahlBelege) in der [Listenansicht](Ansichten#listenansicht) die [Geschäftspartner](Neuer_Geschaeftspartner), die Du Deiner Serienbrief-Kampagne als Kontakte hinzufügen möchtest.
+1. [Starte die Aktion](AktionStarten#aktionsmenue) "Export in Serienbrief-Kampagne". Es öffnet sich ein Overlay-Fenster.
  >**Hinweis:** Diese Aktion findest Du ebenfalls im Aktionsmenü in der Einzelansicht eines Eintrages.
 
 1. Gib im Feld [**MKTG_Campaign**](MKTG-Kampagne_erstellen) einen Teil der Serienbrief-Kampagne ein und klicke auf den passenden Treffer in der <a href="Keyboard_Shortcuts_Liste#dropdown" title="Dynamisches Suchfeld (Autocomplete)">Dropdown-Liste</a>.
@@ -53,8 +53,8 @@ Damit Kontakte (Nutzer bzw. Geschäftspartner) in die Verteilerliste einer [*Ser
 | Bei Nutzern kann man nicht unabhängig voneinander zwischen den Aktionen *Export in E-Mail-* oder *Serienbrief-Kampagne* wählen. Ob also eine E-Mail- oder Standardadresse benötigt wird, hängt daher von der Art der Marketingkampagne bzw. den Einstellungen der [Marketing-Plattform](MKTG-Plattform_erstellen) ab.<br> Für eine *E-Mail-Kampagne* muss im Nutzereintrag eine **E-Mail-Adresse** angegeben sein! Eine Verknüpfung mit einem Geschäftspartner ist in diesem Fall nicht erforderlich.<br> Bei einer *Serienbrief-Kampagne* muss der Nutzer jedoch [mit einem Geschäftspartner verknüpft](Nutzer_GPartner_zuweisen) sein, der seinerseits wiederum über eine Adresse als **Rechnungsstandard** verfügen muss! |
 
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Nutzer".
-1. [Selektiere](AuswahlBelege) in der [Listenansicht](Ansichten) die [Nutzer](Nutzer_anlegen), die Du Deiner Marketingkampagne als Kontakte hinzufügen möchtest.
-1. [Starte die Quick-Action](AktionStarten) "Gefilterte Kontakte in Kampagne". Es öffnet sich ein Overlay-Fenster.
+1. [Selektiere](AuswahlBelege) in der [Listenansicht](Ansichten#listenansicht) die [Nutzer](Nutzer_anlegen), die Du Deiner Marketingkampagne als Kontakte hinzufügen möchtest.
+1. [Starte die Quick-Action](AktionStarten#quick-actions) "Gefilterte Kontakte in Kampagne". Es öffnet sich ein Overlay-Fenster.
  >**Hinweis:** Diese Aktion findest Du ebenfalls im Aktionsmenü sowohl in der Listenansicht als auch in der Einzelansicht eines Eintrages.
 
 1. Gib im Feld [**MKTG_Campaign**](MKTG-Kampagne_erstellen) einen Teil der Marketingkampagne ein und klicke auf den passenden Treffer in der <a href="Keyboard_Shortcuts_Liste#dropdown" title="Dynamisches Suchfeld (Autocomplete)">Dropdown-Liste</a>.

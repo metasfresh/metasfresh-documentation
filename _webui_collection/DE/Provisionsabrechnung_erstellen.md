@@ -29,7 +29,7 @@ ref: create_commission_settlement
 ### Provision abrechnen
 1. [Springe über die verknüpften Belege](SpringezuBelegen) des Buchauszuges in das Fenster "Rechnungsdisposition" (unter FAKTURIERUNG in der Sidebar).
 1. [Selektiere](AuswahlBelege) die Provisionszeile, die Du abrechnen möchtest.
-1. [Starte die Aktion](AktionStarten) "Auswahl fakturieren". Es öffnet sich ein Overlay-Fenster.
+1. [Starte die Aktion](AktionStarten#aktionsmenue) "Auswahl fakturieren". Es öffnet sich ein Overlay-Fenster.
 1. Klicke auf "Start", um zu bestätigen und das Overlay-Fenster zu schließen.
 1. Du erhältst oben rechts eine [Benachrichtigung](Benachrichtigungsarten) ![](assets/NotificationBell_WebUI.png), sobald die Abrechnung erstellt wurde.
 1. Klicke auf die Benachrichtigung, um den Abrechnungsbeleg zu öffnen.

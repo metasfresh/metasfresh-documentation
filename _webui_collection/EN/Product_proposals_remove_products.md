@@ -18,7 +18,7 @@ You can open the product proposals list under [sales orders](SalesOrder_recordin
 ### Remove products from price list (*only in sales orders and purchase orders*)
 1. [Open the product proposals list](Product_proposals_open_list).
 1. [Select](RecordSelection) the lines of the products you want to remove from the current price list.
-1. [Start the quick action](StartAction) "Remove".
+1. [Start the quick action](StartAction#quick-actions) "Remove".
 1. An overlay window opens up asking you whether you really want to delete the line.
 1. Click "Start" to confirm and remove the products from the price list.
 

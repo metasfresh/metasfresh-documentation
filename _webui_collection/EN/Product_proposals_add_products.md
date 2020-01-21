@@ -17,11 +17,11 @@ You can open the product proposals list under [sales orders](SalesOrder_recordin
 
 ### View more products and add them to a price list
 1. [Open the product proposals list](Product_proposals_open_list).
-1. [Start the quick action](StartAction) "More products...". All the products from the base price list are displayed.
+1. [Start the quick action](StartAction#quick-actions) "More products...". All the products from the base price list are displayed.
 1. [Select](RecordSelection) the lines of the products you want to add to the current price list.
-1. [Start the quick action](StartAction) "Add products". The selected products have now been added to the product proposals list.
+1. [Start the quick action](StartAction#quick-actions) "Add products". The selected products have now been added to the product proposals list.
 1. [Select](RecordSelection) the lines of the newly added products.
-1. [Start the quick action](StartAction) "Save to price list". The new products have now been added to the respective price list.
+1. [Start the quick action](StartAction#quick-actions) "Save to price list". The new products have now been added to the respective price list.
 
 ### Save and continue
 1. Click "Done" to apply the changes and close the product proposals list.

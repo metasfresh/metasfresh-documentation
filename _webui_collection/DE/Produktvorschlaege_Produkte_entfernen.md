@@ -18,7 +18,7 @@ Die Liste der Produktvorschläge kannst Du unter [Aufträge](Auftrag_erfassen), 
 ### Produkte aus Preisliste entfernen (*nur in Aufträgen und Bestellungen*)
 1. [Rufe die Liste der Produktvorschläge auf](Produktvorschlaege_aufrufen).
 1. [Selektiere](AuswahlBelege) die Zeilen der Produkte, die Du aus der aktuellen Preisliste entfernen möchtest.
-1. [Starte die Quick-Action](AktionStarten) "Löschen".
+1. [Starte die Quick-Action](AktionStarten#quick-actions) "Löschen".
 1. Es öffnet sich ein Overlay-Fenster, in dem Du gefragt wirst, ob Du den Datensatz wirklich löschen möchtest.
 1. Klicke auf "Start", um zu bestätigen und die Produkte aus der Preisliste zu entfernen.
 

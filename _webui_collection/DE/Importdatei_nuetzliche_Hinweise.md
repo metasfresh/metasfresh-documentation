@@ -10,7 +10,7 @@ ref: import_file_useful_tips
 ---
 
 ## Überblick
-Damit Du extern gespeicherte Daten in metasfresh importieren kannst, musst Du sie erst entsprechend formatiert als CSV- oder TXT-Datei hochladen und kannst sie dann einfach über das [Aktionsmenü](AktionStarten) importieren.
+Damit Du extern gespeicherte Daten in metasfresh importieren kannst, musst Du sie erst entsprechend formatiert als CSV- oder TXT-Datei hochladen und kannst sie dann einfach über das [Aktionsmenü](AktionStarten#aktionsmenue) importieren.
 
 Hier sind ein paar Formatbeispiele für den Import von:
 - [Bankauszugsdaten](Importformat_Beispiel_Bankauszug)

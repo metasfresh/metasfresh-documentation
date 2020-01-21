@@ -19,7 +19,7 @@ You can also autonomously transfer the product description into the languages of
 
 ### Add a Product Description
 1. Open the entry of an existing [product](Menu) or [add a new one](NewProduct).
-1. Open the [advanced edit menu](ViewModes) from the [actions menu](StartAction).
+1. Open the [advanced edit menu](ViewModes#adv-edit) from the [actions menu](StartAction#actions-menu).
  >**Note:** Use shortcut `Alt` + `E` / `⌥ alt` + `E`.
 
 1. Scroll down to the text box **Document Note** and enter your text here.

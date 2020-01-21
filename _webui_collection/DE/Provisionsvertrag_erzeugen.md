@@ -19,7 +19,7 @@ Durch einen Provisionsvertrag verpflichtet sich der Auftraggeber, einem [Vertrie
 
 ## Schritte
 1. Öffne den Eintrag eines bestehenden Vertriebspartners aus Deinen [Geschäftspartnern](Menu).
-1. [Starte die Aktion](AktionStarten) "Erzeuge Vertrag". Es öffnet sich ein Overlay-Fenster.
+1. [Starte die Aktion](AktionStarten#aktionsmenue) "Erzeuge Vertrag". Es öffnet sich ein Overlay-Fenster.
 1. Wähle die gewünschten **Vertragsbedingungen** für den Provisionsvertrag aus.
 1. Stelle ein **Anfangsdatum** ein.
 1. Klicke auf "Start", um das Overlay-Fenster zu schließen und den Provisionsvertrag zu erzeugen.

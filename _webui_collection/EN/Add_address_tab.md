@@ -10,7 +10,7 @@ ref: add_address_tab
 ---
 
 ## Steps
-1. Open the entry of an existing [business partner](Menu) in the [detailed view](ViewModes) or [add a new one](New_Business_Partner).
+1. Open the entry of an existing [business partner](Menu) in the [detailed view](ViewModes#detailed-view) or [add a new one](New_Business_Partner).
 1. Go to the record tab "Location" at the bottom of the page and click !["Add new"](assets/Add_New_Button.png). An overlay window opens up.
 1. ***Optional:*** In the field **Name of BPartner**, enter an alternative name that shall appear as recipient on the supporting documents instead of the business partner/company name.
  >**Note:** Unless an alternative partner name is specified, the name from the business partner entry will be used by default.

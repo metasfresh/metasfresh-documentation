@@ -16,8 +16,8 @@ For example, if mistakes were carried over from a sales order into the subsequen
 
 ## Steps
 1. Open "Sales Order" from the [menu](Menu).
-1. From the [list view](ViewModes), [select](RecordSelection) the [completed sales order](SalesOrder_recording) you want to void along with all related documents.
-1. [Start the action](StartAction) "Void selected order with related documents". An overlay window opens up.
+1. From the [list view](ViewModes#list-view), [select](RecordSelection) the [completed sales order](SalesOrder_recording) you want to void along with all related documents.
+1. [Start the action](StartAction#actions-menu) "Void selected order with related documents". An overlay window opens up.
  >**Note:** You can also start this action directly from the respective sales order's entry.
 
 1. Click "Start" to void all documents and close the overlay window.

@@ -28,8 +28,8 @@ You can open the product proposals list under [sales orders](SalesOrder_recordin
  >**Note:** Use shortcut `Alt` + `Z` / `⌥ alt` + `Z`.
 
 ### In business partner entries
-1. Open the entry of an existing [business partner](Menu) in the [detailed view](ViewModes) or [add a new one](New_Business_Partner).
-1. [Start the action](StartAction) "Product Proposals". An overlay window opens up with the product proposals list.
+1. Open the entry of an existing [business partner](Menu) in the [detailed view](ViewModes#detailed-view) or [add a new one](New_Business_Partner).
+1. [Start the action](StartAction#actions-menu) "Product Proposals". An overlay window opens up with the product proposals list.
 
 ## Next Steps
 - [Use the product proposals list when entering a sales/purchase order](Product_proposals_sales_purchase_order).

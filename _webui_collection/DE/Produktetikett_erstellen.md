@@ -28,7 +28,7 @@ In metasfresh kannst Du in verschiedenen Eingabefenstern benutzerdefinierte Regi
 | •&nbsp;**Hochstellung:** min`<sup>`-1`</sup>` &rarr; min<sup>-1</sup><br><br> •&nbsp;**Tiefstellung:** H`<sub>`2`</sub>`O &rarr; H<sub>2</sub>O |
 
 ### Produktetikett drucken
-1. [Starte die Aktion](AktionStarten) "Products Data Entry (Jasper)".
+1. [Starte die Aktion](AktionStarten#aktionsmenue) "Products Data Entry (Jasper)".
 1. Das Produktetikett wird in einem neuen Browser-Tab als PDF-Vorschau geöffnet.
 
 ## Beispiel

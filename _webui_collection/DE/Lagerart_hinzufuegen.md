@@ -3,7 +3,7 @@ title: Wie lege ich ich eine neue Lagerart an?
 layout: default
 tags:
   - Stammdaten
-  - Lager
+  - Lagerverwaltung
 lang: de
 sequence: 20
 ref: add_new_warehouse_type
@@ -20,4 +20,4 @@ In metasfresh kannst Du verschiedene Lagerarten bestimmen und so Deine [Lager](N
 1. [metasfresh speichert automatisch](Speicheranzeige).
 
 ## Beispiel
-![](assets/Lagerart_hinzufuegen.gif)
+<kbd><img src="assets/Lagerart_hinzufuegen.gif" alt="GIF: Lagerart hinzufügen"></kbd>

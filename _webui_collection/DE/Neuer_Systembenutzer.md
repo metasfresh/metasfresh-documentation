@@ -23,7 +23,7 @@ Systembenutzer sind Kontakte (Nutzer) mit Anmeldeberechtigung zu Deinem System.
  >**Hinweis 2:** Beachte beim Benutzernamen die ***Groß- und Kleinschreibung***!
 
 ### Lege ein Passwort fest
-1. [Starte die Aktion](AktionStarten) "Passwort ändern". Es öffnet sich ein Overlay-Fenster.
+1. [Starte die Aktion](AktionStarten#aktionsmenue) "Passwort ändern". Es öffnet sich ein Overlay-Fenster.
 1. Gib ein **Neues Passwort** mit mindestens 8 Zeichen ein.
  >**Hinweis 1:** Ein **Altes Passwort** ist nicht erforderlich, wenn der Nutzer neu erstellt wird.<br><br>
  >**Hinweis 2:** Stelle sicher, dass das Passwort ***mindestens 8 Zeichen*** hat, sonst wird der Eintrag ***nicht gespeichert***!<br><br>

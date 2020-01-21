@@ -30,7 +30,7 @@ If you combine multiple products intended for the manufacturing of a new sales p
 1. [Complete the quotation](DocumentProcessingComplete).
 
 ### Convert the quotation into a sales order
-1. [Start the action](StartAction) "Auftrag aus Angebot (construction)" (*Create Sales Order from this Quotation (construction)*). An overlay window opens up.
+1. [Start the action](StartAction#actions-menu) "Auftrag aus Angebot (construction)" (*Create Sales Order from this Quotation (construction)*). An overlay window opens up.
 1. Pick the **Document type** *Sales Order*.
 1. Click "Start" to close the overlay window and create the sales order.
 

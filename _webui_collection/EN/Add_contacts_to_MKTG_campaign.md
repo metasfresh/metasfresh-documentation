@@ -24,8 +24,8 @@ For contacts (users or business partners) to be added to the mailing list of a *
 
 #### a) to an Email Campaign
 1. Open "Business Partner" from the [menu](Menu).
-1. From the [list view](ViewModes), [select](RecordSelection) the [business partners](New_Business_Partner) you want to add as contacts to your email campaign.
-1. [Start the quick action](StartAction) "Export in EMail Campaign". An overlay window opens up.
+1. From the [list view](ViewModes#list-view), [select](RecordSelection) the [business partners](New_Business_Partner) you want to add as contacts to your email campaign.
+1. [Start the quick action](StartAction#quick-actions) "Export in EMail Campaign". An overlay window opens up.
  >**Note:** You will also find this action in the actions menu in both the list view and the detailed view of an entry.
 
 1. In the field [**Marketing Campaign**](Create_MKTG_campaign), enter a part of the email campaign and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
@@ -33,8 +33,8 @@ For contacts (users or business partners) to be added to the mailing list of a *
 
 #### b) to a Serial Letter Campaign
 1. Open "Business Partner" from the [menu](Menu).
-1. From the [list view](ViewModes), [select](RecordSelection) the [business partners](New_Business_Partner) you want to add as contacts to your serial letter campaign.
-1. [Start the action](StartAction) "Export in Serial Letter Campaign". An overlay window opens up.
+1. From the [list view](ViewModes#list-view), [select](RecordSelection) the [business partners](New_Business_Partner) you want to add as contacts to your serial letter campaign.
+1. [Start the action](StartAction#actions-menu) "Export in Serial Letter Campaign". An overlay window opens up.
  >**Note:** You will also find this action in the actions menu in the detailed view of an entry.
 
 1. In the field [**Marketing Campaign**](Create_MKTG_campaign), enter a part of the serial letter campaign and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
@@ -52,8 +52,8 @@ For contacts (users or business partners) to be added to the mailing list of a *
 | For users, you cannot choose separately between the actions *Export in email* or *Serial Letter Campaign* separately. Whether you require an email address or a default address therefore depends on the type of marketing campaign, or rather the [marketing platform](Create_MKTG_platform) configurations.<br> For an *email campaign*, an **email address** must be provided in the user entry! In this case, the user does not have to be linked to a business partner.<br> In a *serial letter campaign*, however, the user does have to be [linked to a business partner](Assign_BPartner_to_user) who, in turn, must possess a **default invoice address**! |
 
 1. Open "User" from the [menu](Menu).
-1. From the [list view](ViewModes), [select](RecordSelection) the [users](Add_user) you want to add as contacts to your marketing campaign.
-1. [Start the quick action](StartAction) "Kontaktperson aus Nutzer" (*Add contact from user*). An overlay window opens up.
+1. From the [list view](ViewModes#list-view), [select](RecordSelection) the [users](Add_user) you want to add as contacts to your marketing campaign.
+1. [Start the quick action](StartAction#quick-actions) "Kontaktperson aus Nutzer" (*Add contact from user*). An overlay window opens up.
  >**Note:** You will also find this action in the actions menu in both the list view and the detailed view of an entry.
 
 1. In the field [**Marketing Campaign**](Create_MKTG_campaign), enter a part of the marketing campaign and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.

@@ -21,7 +21,7 @@ In metasfresh, you can create credit notes (or memos) if, after invoicing, a cre
 1. [Use the filter](Filtering_function) to find the entry of the completed invoice for which you want to create a credit note and open it.
  >**Note:** Alternatively, use a [sales order](SalesOrder_recording)'s [related documents to jump](JumptoviaSidebar) to the corresponding [invoice](Invoice_SalesOrder).
 
-1. [Start the action](StartAction) "Gutschrift erstellen" (*Create credit note*). An overlay window opens up.
+1. [Start the action](StartAction#actions-menu) "Gutschrift erstellen" (*Create credit note*). An overlay window opens up.
 1. Pick the **Document Type** *Credit Memo - Deliver Diff*.
 1. Click "Start" to create an invoice document for the credit note and close the overlay window.
 

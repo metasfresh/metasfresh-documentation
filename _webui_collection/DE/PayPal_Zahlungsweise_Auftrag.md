@@ -30,16 +30,16 @@ ref: paypal_payment_rule_salesorder
 
 #### Zahlungsstatus aktualisieren
 1. [Gehe ins Menü](Menu) und öffne das Fenster "PayPal Order".
-1. [Selektiere](AuswahlBelege) in der [Listenansicht](Ansichten) den Eintrag der PayPal-Zahlung, deren Status Du aktualisieren möchtest.
-1. [Starte die Aktion](AktionStarten) "Update from PayPal server".
+1. [Selektiere](AuswahlBelege) in der [Listenansicht](Ansichten#listenansicht) den Eintrag der PayPal-Zahlung, deren Status Du aktualisieren möchtest.
+1. [Starte die Aktion](AktionStarten#aktionsmenue) "Update from PayPal server".
  >**Hinweis:** Diese Aktion kannst Du auch direkt aus dem jeweiligen Zahlungseintrag starten.
 
 1. Der Zahlungseintrag erhält den **Status** *Approved*, ebenso wie der jeweilige Eintrag unter "Payment Reservation", sofern der Kunde die Zahlung freigegeben hat.
 
 #### PayPal-Auftrag autorisieren
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Payment Reservation".
-1. [Selektiere](AuswahlBelege) in der [Listenansicht](Ansichten) den Eintrag des PayPal-Auftrages, den Du autorisieren möchtest.
-1. [Starte die Aktion](AktionStarten) "Authorize PayPal Order".
+1. [Selektiere](AuswahlBelege) in der [Listenansicht](Ansichten#listenansicht) den Eintrag des PayPal-Auftrages, den Du autorisieren möchtest.
+1. [Starte die Aktion](AktionStarten#aktionsmenue) "Authorize PayPal Order".
  >**Hinweis:** Diese Aktion kannst Du auch direkt aus dem Eintrag des jeweiligen PayPal-Auftrages starten.
 
 1. Der Eintrag erhält den **Status** *Completed*, ebenso wie der jeweilige Auftrag, der nun fertiggestellt ist.

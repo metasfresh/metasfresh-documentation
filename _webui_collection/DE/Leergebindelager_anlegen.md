@@ -3,7 +3,7 @@ title: Wie lege ich ein Leergebindelager an?
 layout: default
 tags:
   - Stammdaten
-  - Lager
+  - Lagerverwaltung
 lang: de
 sequence: 30
 ref: add_empty_container_depot
@@ -20,4 +20,4 @@ Ein Leergebindelager dient zur Lagerung der leeren Gebinde, die nach Entnahme de
  >**Hinweis:** Damit die leeren Gebinde zur Lagerung in das Leergebindelager bewegt werden, ist ein entsprechendes [Distributionsnetz](Automatische_Warenverteilung) notwendig!
 
 ## Beispiel
-![](assets/Neues_Lager_anlegen.gif)
+<kbd><img src="assets/Neues_Lager_anlegen.gif" alt="GIF: Ein neues Lager anlegen"></kbd>

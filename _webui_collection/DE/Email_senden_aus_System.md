@@ -13,7 +13,7 @@ In metasfresh kannst Du überall, wo Du mit einem Partner in Kontakt stehst (z.B
 
 ## Schritte
 1. Öffne einen Eintrag, z.B. einen [Auftrag](Auftrag_erfassen).
-1. Öffne das [Aktionsmenü](AktionStarten) ![](assets/actionsmenu_WebUI.png) und klicke auf "E-Mail". Es öffnet sich der E-Mail-Editor.
+1. Öffne das [Aktionsmenü](AktionStarten#aktionsmenue) ![](assets/actionsmenu_WebUI.png) und klicke auf "E-Mail". Es öffnet sich der E-Mail-Editor.
  >**Hinweis 1:** Drücke alternativ `Alt` + `K` / `⌥ alt` + `K`, um den E-Mail-Editor zu öffnen.<br><br>
  >**Hinweis 2:** Der Name des Empfängers wird, sofern vorhanden, automatisch eingetragen.
 

@@ -13,7 +13,7 @@ In metasfresh, you can send an email directly from the system to any partner you
 
 ## Steps
 1. Open an entry, e.g., a [sales order](SalesOrder_recording).
-1. Open the [actions menu](StartAction) ![](assets/actionsmenu_WebUI.png) and click on "Email". The email editor opens up.
+1. Open the [actions menu](StartAction#actions-menu) ![](assets/actionsmenu_WebUI.png) and click on "Email". The email editor opens up.
  >**Note 1:** Alternatively, press `Alt` + `K` / `⌥ alt` + `K` to open the email editor.<br><br>
  >**Note 2:** The name of the recipient, if available, will be filled in automatically.
 

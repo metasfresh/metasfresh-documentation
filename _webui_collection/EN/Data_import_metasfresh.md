@@ -10,7 +10,7 @@ ref: data_import_metasfresh
 ---
 
 ## Overview
-You can quickly import externally stored data (such as Excel spreadsheets with data on business partners or products) into metasfresh through the use of the import feature and thus also bring existing entries up to date. To do so, you first have to format the data appropriately, upload them as a CSV or TXT file and then simply import them via the [actions menu](StartAction).
+You can quickly import externally stored data (such as Excel spreadsheets with data on business partners or products) into metasfresh through the use of the import feature and thus also bring existing entries up to date. To do so, you first have to format the data appropriately, upload them as a CSV or TXT file and then simply import them via the [actions menu](StartAction#actions-menu).
 
 ## Requirements
 1. [Add an import format using the appropriate database table](Add_import_format) (see overview below) where you define the data, or rather the columns, as well as their data types that are to be transferred from the import file into metasfresh.

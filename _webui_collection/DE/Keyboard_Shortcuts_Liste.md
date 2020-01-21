@@ -35,7 +35,7 @@ Dynamische Suchfelder sind durchsuchbare Dropdown-Listen, die sich mit jeder Ein
 **Beispiel**: Dynamische Dropdown-Liste<br><br>
 <kbd><img src="assets/Dynamische_Dropdown-Liste.gif" alt="GIF: Dynamische Dropdown-Liste"></kbd>
 
-### Kontext: Dokument ([Listenansicht](Ansichten))
+### Kontext: Dokument ([Listenansicht](Ansichten#listenansicht))
 
 | Tastenkombination <br> (Windows) | Tastenkombination <br> (MacOS) | Befehl |
 | :---: | :---: | :--- |
@@ -44,7 +44,7 @@ Dynamische Suchfelder sind durchsuchbare Dropdown-Listen, die sich mit jeder Ein
 | `Alt` + `E` | `⌥ alt` + `E` | "Erweiterte Erfassung" für ausgewähltes Dokument öffnen |
 | `Alt` + `Y` | `⌥ alt` + `Y` | Ausgewähltes Dokument löschen |
 
-### Kontext: Dokument ([Einzelansicht](Ansichten))
+### Kontext: Dokument ([Einzelansicht](Ansichten#einzelansicht))
 
 | Tastenkombination <br> (Windows) | Tastenkombination <br> (MacOS) | Befehl |
 | :---: | :---: | :--- |
@@ -67,7 +67,7 @@ Dynamische Suchfelder sind durchsuchbare Dropdown-Listen, die sich mit jeder Ein
 | `Alt` + `Y` | `⌥ alt` + `Y` | Ausgewählte Zeile löschen |
 | `Alt` + `+` | `⌥ alt` + `+` | Registerkarte erweitern / reduzieren |
 
-### Kontext: [Quick-Actions](AktionStarten)
+### Kontext: [Quick-Actions](AktionStarten#quick-actions)
 
 | Tastenkombination <br> (Windows) | Tastenkombination <br> (MacOS) | Befehl |
 | :---: | :---: | :--- |

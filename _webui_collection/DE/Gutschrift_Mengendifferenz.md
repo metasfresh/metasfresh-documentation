@@ -21,7 +21,7 @@ In metasfresh können Gutschriften erstellt werden, wenn sich nach Rechnungsstel
 1. [Verwende die Filterfunktion](Filterfunktion), um den Eintrag der fertiggestellten Rechnung zu finden, für die Du eine Gutschrift erstellen möchtest und öffne ihn.
  >**Hinweis:** [Springe alternativ über die verknüpften Belege](SpringezuBelegen) eines [Auftrages](Auftrag_erfassen) in den dazugehörigen [Rechnungseintrag](Zu_Auftrag_Rechnung_erstellen).
 
-1. [Starte die Aktion](AktionStarten) "Gutschrift erstellen". Es öffnet sich ein Overlay-Fenster.
+1. [Starte die Aktion](AktionStarten#aktionsmenue) "Gutschrift erstellen". Es öffnet sich ein Overlay-Fenster.
 1. Wähle die **Belegart** *Gutschrift - Lieferdifferenz* aus.
 1. Klicke auf "Start", um einen Rechnungsbeleg für die Gutschrift zu erstellen und das Overlay-Fenster zu schließen.
 

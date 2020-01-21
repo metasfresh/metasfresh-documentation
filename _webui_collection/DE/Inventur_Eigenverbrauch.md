@@ -2,9 +2,11 @@
 title: Wie entsorge ich für den Eigenverbrauch bestimmte Handling Units?
 layout: default
 tags:
+  - Stammdaten
+  - Lagerverwaltung
   - Inventur
 lang: de
-sequence: 10
+sequence: 20
 ref: inventory_mass_disposal
 ---
 
@@ -14,7 +16,7 @@ Manche Produkte, die Du im Lagerbestand führst, sind für den Eigenverbrauch be
 ## Schritte
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Handling Unit Editor".
 1. [Selektiere](AuswahlBelege) aus der Liste eine oder mehrere [Handling Units](Handling_Unit_System), die Du als Eigenverbrauch verbuchen möchtest.
-1. [Starte die Quick-Action](AktionStarten) "Mass Disposal". Es öffnet sich ein Overlay-Fenster.
+1. [Starte die Quick-Action](AktionStarten#quick-actions) "Mass Disposal". Es öffnet sich ein Overlay-Fenster.
  >**Hinweis:** Diese Aktion findest Du ebenfalls im Aktionsmenü.
 
 1. Gib im Feld **Kostenstelle** einen Teil des Ortes der Kostenentstehung ein und klicke auf den passenden Treffer in der <a href="Keyboard_Shortcuts_Liste#dropdown" title="Dynamisches Suchfeld (Autocomplete)">Dropdown-Liste</a>, z.B. *Verwaltung*.
@@ -28,4 +30,4 @@ Manche Produkte, die Du im Lagerbestand führst, sind für den Eigenverbrauch be
 - [Mache den verbuchten Eigenverbrauch rückgängig](Inventur_Eigenverbrauch_stornieren).
 
 ## Beispiel
-![](assets/Inventur_Eigenverbrauch.gif)
+<kbd><img src="assets/Inventur_Eigenverbrauch.gif" alt="GIF: Für den Eigenverbrauch bestimmte Handling Units entsorgen"></kbd>

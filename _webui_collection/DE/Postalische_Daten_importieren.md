@@ -20,7 +20,7 @@ Stelle sicher, dass alle Voraussetzungen für den [Datenimport in metasfresh](Da
 
 ### Importdatei hochladen und importieren
 1. [Lade Deine Importdatei mit den postalischen Daten hoch](Dateihandling).
-1. [Starte die Aktion](AktionStarten) "Import attachment". Es öffnet sich ein Overlay-Fenster.
+1. [Starte die Aktion](AktionStarten#aktionsmenue) "Import attachment". Es öffnet sich ein Overlay-Fenster.
 1. Wähle im Feld **Anhang** die hochgeladene [Importdatei](Importdatei_nuetzliche_Hinweise) aus.
 1. Klicke auf "Start", um die postalischen Daten zu importieren und das Overlay-Fenster zu schließen.
 
@@ -31,6 +31,6 @@ Stelle sicher, dass alle Voraussetzungen für den [Datenimport in metasfresh](Da
  - Sollten einige Daten beim Import nicht oder fehlerhaft übertragen worden sein, kannst Du diese Fehler im jeweiligen Eintrag der postalischen Daten unter "[Import Postal Data](Menu)" korrigieren. Hast Du alle Fehler behoben, kannst Du die postalischen Daten nun manuell importieren. Gehe hierzu wie folgt vor:
 
 #### Postalische Daten manuell importieren
-1. [Starte die Aktion](AktionStarten) "Import Postal Data".
+1. [Starte die Aktion](AktionStarten#aktionsmenue) "Import Postal Data".
 1. [metasfresh speichert automatisch](Speicheranzeige).
 1. Die importierten postalischen Daten findest Du nun unter dem Menüpunkt "[Land, Ort und Postleitzahl](Menu)" wieder.

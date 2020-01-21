@@ -3,7 +3,7 @@ title: How do I add a quality issue warehouse?
 layout: default
 tags:
   - Master Data
-  - Warehouse
+  - Warehouse Management
 lang: en
 sequence: 40
 ref: add_quality_issue_warehouse
@@ -19,4 +19,4 @@ A quality issue warehouse serves to store any returned goods, which must first b
 1. [metasfresh saves the progress automatically](Saveindicator).
 
 ## Example
-![Quality Issue Warehouse](assets/Quality_issue_warehouse.gif)
+<kbd><img src="assets/Quality_issue_warehouse.gif" alt="GIF: How to add a quality issue warehouse"></kbd>
