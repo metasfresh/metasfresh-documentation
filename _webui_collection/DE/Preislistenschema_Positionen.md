@@ -20,7 +20,7 @@ Ein Preisschema in metasfresh kann dazu verwendet werden, bestehende [Produktpre
 
 ### Schemapositionen hinzufügen
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Preislisten-Schema Position".
-1. [Lege einen neuen Eintrag an](Neuer_Datensatz_Fenster_Webui).
+1. [Erstelle einen neuen Eintrag](Neuer_Datensatz_Fenster_Webui).
 1. Gib im Feld **Rabatt Schema** einen Teil des Namens des [Preislistenschemas](Preislistenschema_anlegen) ein, dem die Schemaposition zugeordnet werden soll, und klicke auf den passenden Treffer in der <a href="Keyboard_Shortcuts_Liste#dropdown" title="Dynamisches Suchfeld (Autocomplete)">Dropdown-Liste</a>.
 1. Bei mehreren Positionen für dasselbe Schema kannst Du deren **Reihenfolge** bestimmen.
  >**Hinweis:** Die niedrigste Zahl kommt zuerst.

@@ -20,7 +20,7 @@ In metasfresh werden Packmittel als Produkte gehandhabt, die beim Fertigstellen 
 
 ## Schritte
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Packmittel".
-1. [Lege einen neuen Eintrag an](Neuer_Datensatz_Fenster_Webui).
+1. [Erstelle einen neuen Eintrag](Neuer_Datensatz_Fenster_Webui).
 1. Benenne das Packmittel im Feld **Name**.
 1. Wähle im Feld **Produkt** das gewünschte Packmittel aus, z.B. *Eurokiste*.
 1. ***Optional:*** Wähle im Feld **Einheit Abmessungen** die Maßeinheit für die Abmessungen des Packmittels aus und trage in die Felder **Länge**, **Breite** und **Höhe** die jeweiligen Maße ein.

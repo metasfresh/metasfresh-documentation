@@ -18,7 +18,7 @@ ref: add_new_warehouse
 1. Gib im Feld **Standort** einen Teil des [Standort](Adresse_erfassen_Tab)namens ein und klicke auf den passenden Treffer in der <a href="Keyboard_Shortcuts_Liste#dropdown" title="Dynamisches Suchfeld (Autocomplete)">Dropdown-Liste</a>.
 1. ***Optional:*** Wähle eine [**Lagerart**](Lagerart_hinzufuegen) aus.
 
-### Lagerort hinzufügen
+### <a name="lagerort">Lagerort hinzufügen</a>
 1. Gehe zur Registerkarte "Lagerort" unten auf der Seite und klicke auf !["Neu hinzufügen"](assets/Neu_hinzufuegen_Button.png). Es öffnet sich ein Overlay-Fenster.
 1. Trage in die Felder **Gang**, **Regal**, **Ebene** und **Fach** jeweils den Wert *0* ein.
 1. Klicke auf "Bestätigen", um das Overlay-Fenster zu schließen und den Lagerort zur Liste hinzuzufügen.

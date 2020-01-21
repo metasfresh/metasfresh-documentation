@@ -33,7 +33,7 @@ Damit das Produkt "Versandkostenpauschale" ordnungsgemäß verwendet werden kann
 Im metasfresh-Standard ist die stan­dard­mä­ßig vorhandene Versandkostenpauschale bereits mit dem Lieferweg *Eigentransport* konfiguriert. Lieferwege für manuell erstellte Versandkostenpauschalen können wie folgt erfasst werden:
 
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Versandkostenpauschale".
-1. [Lege einen neuen Eintrag an](Neuer_Datensatz_Fenster_Webui).
+1. [Erstelle einen neuen Eintrag](Neuer_Datensatz_Fenster_Webui).
 1. Benenne den Einstellungseintrag im Feld **Name**.
 1. Wähle im Feld **Produkt** die Versandkostenpauschale Deiner Wahl aus.
 1. Gehe zur Registerkarte "Lieferweg" unten auf der Seite und klicke auf !["Neu hinzufügen"](assets/Neu_hinzufuegen_Button.png). Es öffnet sich ein Overlay-Fenster.

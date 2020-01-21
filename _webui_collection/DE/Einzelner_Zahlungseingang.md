@@ -18,7 +18,7 @@ Wenn Du eine Zahlung erhalten hast, kannst Du den Betrag als *Zahlungseingang* i
 
 ## Schritte
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Zahlungen".
-1. [Lege einen neuen Zahlungseintrag an](Neuer_Datensatz_Fenster_Webui).
+1. [Erstelle einen neuen Zahlungseintrag](Neuer_Datensatz_Fenster_Webui).
 1. Gib im Feld **Geschäftspartner** einen Teil des Namens oder der Nummer des [Geschäftspartners](Neuer_Geschaeftspartner) ein und klicke auf den passenden Treffer in der <a href="Keyboard_Shortcuts_Liste#dropdown" title="Dynamisches Suchfeld (Autocomplete)">Dropdown-Liste</a>.
 1. Wähle die **Belegart** *Zahlungseingang* aus.
 1. Trage die **Rechnung** ein, für die Du die Zahlung erhalten hast.

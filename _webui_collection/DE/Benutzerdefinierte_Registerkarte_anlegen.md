@@ -17,7 +17,7 @@ In metasfresh kannst Du in verschiedenen Eingabefenstern benutzerdefinierte Regi
 
 ### Registerkarte anlegen
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Erweiterte Dateneingabe - Register".
-1. [Lege einen neuen Eintrag an](Neuer_Datensatz_Fenster_Webui).
+1. [Erstelle einen neuen Eintrag](Neuer_Datensatz_Fenster_Webui).
 1. Gib im Feld **Name** einen systeminternen Registerkartennamen ein.
  >**Hinweis:** Dieser Name dient nur der systeminternen Referenz und wird nicht als Registername angezeigt.
 
