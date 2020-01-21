@@ -18,7 +18,7 @@ In metasfresh kannst Du zeitlich begrenzte Sonderpreisaktionen starten, bei dene
 
 ## Schritte
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Aktionspreise".
-1. [Lege einen neuen Eintrag an](Neuer_Datensatz_Fenster_Webui).
+1. [Erstelle einen neuen Eintrag](Neuer_Datensatz_Fenster_Webui).
 1. Wähle das [**Produkt**](NeuesProdukt) aus, für welches Du ein Sonderangebot machen möchtest. Gib hierzu einen Teil des Produktnamens oder der Produktnummer in das Feld ein und klicke auf den passenden Treffer in der <a href="Keyboard_Shortcuts_Liste#dropdown" title="Dynamisches Suchfeld (Autocomplete)">Dropdown-Liste</a>.
 1. **a)** Wähle im Feld **Geschäftspartner** einen [Kunden](Neuer_Geschaeftspartner_Kunde) aus, für den das Sonderangebot gelten soll. Gib hierzu einen Teil des Kundennamens oder der Kundennummer in das Feld ein und klicke auf den passenden Treffer in der <a href="Keyboard_Shortcuts_Liste#dropdown" title="Dynamisches Suchfeld (Autocomplete)">Dropdown-Liste</a>.<br><br>
 **b)** Wähle eine **Geschäftspartnergruppe** aus, für die das Sonderangebot gelten soll. Gib hierzu einen Teil der Bezeichnung der [Geschäftspartnergruppe](Neue_Geschaeftspartnergruppe) in das Feld ein und klicke auf den passenden Treffer in der <a href="Keyboard_Shortcuts_Liste#dropdown" title="Dynamisches Suchfeld (Autocomplete)">Dropdown-Liste</a>.

@@ -16,7 +16,7 @@ In den Provisionsbedingungen kannst Du die Höhe des Provisionsprozentsatzes bes
 
 ## Schritte
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Einstellungen für Hierarchie-Provisionsverträge".
-1. [Lege einen neuen Eintrag an](Neuer_Datensatz_Fenster_Webui).
+1. [Erstelle einen neuen Eintrag](Neuer_Datensatz_Fenster_Webui).
 1. Benenne den Einstellungseintrag im Feld **Name**.
 1. Setze ein Häkchen bei **Provision von Basis abziehen**.
  >**Hinweis:** Im Falle von Vertriebspartnerhierarchien werden so die Provisionspunkte der unteren Ebenen auf Basis der (stufenweise verringerten) Differenz aus Basispunktzahl und Provisionspunkten der jeweils darüberliegenden Ebenen ermittelt.

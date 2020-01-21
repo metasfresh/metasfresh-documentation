@@ -14,7 +14,7 @@ In metasfresh kannst Du verschiedene Lagerarten bestimmen und so Deine [Lager](N
 
 ## Schritte
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Warehouse Type" (*Lagerart*).
-1. [Lege einen neuen Eintrag an](Neuer_Datensatz_Fenster_Webui).
+1. [Erstelle einen neuen Eintrag](Neuer_Datensatz_Fenster_Webui).
 1. Benenne die Lagerart im Feld **Name**, z.B. "Distributionszentrum".
 1. ***Optional:*** Erfasse eine **Beschreibung** in dem dafür vorgesehenen Textfeld mit näheren Informationen zu der Lagerart.
 1. [metasfresh speichert automatisch](Speicheranzeige).

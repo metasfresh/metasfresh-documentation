@@ -15,7 +15,7 @@ ref: add_price
 
 ## Schritte
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Produkt Preise".
-1. [Lege einen neuen Preiseintrag an](Neuer_Datensatz_Fenster_Webui).
+1. [Erstelle einen neuen Preiseintrag](Neuer_Datensatz_Fenster_Webui).
 1. Gib das [**Produkt**](NeuesProdukt) ein, für das der Preis gelten soll, und wähle es aus den Treffern der <a href="Keyboard_Shortcuts_Liste#dropdown" title="Dynamisches Suchfeld (Autocomplete)">Dropdown-Liste</a> aus.
 1. Wähle im Feld **Version Preisliste** eine [Preislistenversion](Preislistenversion_anlegen) aus.
 1. Trage einen **Standardpreis** ein.

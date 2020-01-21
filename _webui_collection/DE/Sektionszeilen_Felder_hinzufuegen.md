@@ -17,7 +17,7 @@ ref: add_fields_to_section_lines
 
 ### Feld hinzufügen
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Erweiterte Dateneingabe - Feld".
-1. [Lege einen neuen Eintrag an](Neuer_Datensatz_Fenster_Webui).
+1. [Erstelle einen neuen Eintrag](Neuer_Datensatz_Fenster_Webui).
 1. Benenne das Feld im Feld **Name**.
  >**Hinweis:** Der Feldname wird an entsprechender Stelle in der Sektionszeile zu lesen sein.
 

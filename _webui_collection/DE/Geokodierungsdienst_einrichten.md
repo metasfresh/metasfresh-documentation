@@ -26,7 +26,7 @@ metasfresh verfügt derzeit über Schnittstellen für die folgenden Geokodierung
 
 ## Schritte
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Geocoding Konfiguration".
-1. [Lege einen neuen Eintrag an](Neuer_Datensatz_Fenster_Webui).
+1. [Erstelle einen neuen Eintrag](Neuer_Datensatz_Fenster_Webui).
 1. Wähle im Feld **Geocoding Dienst Provider** den gewünschten Geokodierungsdienst aus.
 
 ### <a name="google-maps">Google Maps einrichten</a>

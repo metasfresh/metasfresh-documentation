@@ -17,13 +17,13 @@ Mithilfe von Packvorschriften wird festgelegt, welches [Packmittel](Packmittel_e
 
 ### Neue Packvorschrift anlegen
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Packvorschrift".
-1. [Lege einen neuen Eintrag an](Neuer_Datensatz_Fenster_Webui).
+1. [Erstelle einen neuen Eintrag](Neuer_Datensatz_Fenster_Webui).
 1. Benenne die Packvorschrift im Feld **Name**.
 1. [metasfresh speichert automatisch](Speicheranzeige).
 
 ### Eine Version der Packvorschrift definieren
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Packvorschrift Version".
-1. [Lege einen neuen Eintrag an](Neuer_Datensatz_Fenster_Webui).
+1. [Erstelle einen neuen Eintrag](Neuer_Datensatz_Fenster_Webui).
 1. Wähle die gewünschte **Packvorschrift** aus.
 1. Benenne die Version im Feld **Name**.
 1. Wähle einen **Handling Unit Typ** aus, z.B. *Transport Unit*.

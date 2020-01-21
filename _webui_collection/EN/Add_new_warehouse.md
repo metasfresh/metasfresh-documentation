@@ -18,7 +18,7 @@ ref: add_new_warehouse
 1. In the field **Partner Location**, enter a part of the [location](Add_address_tab) name and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
 1. ***Optional:*** Select a [**Warehouse Type**](Add_new_warehouse_type).
 
-### Add a Place of Storage
+### <a name="locator">Add a Storage Location</a>
 1. Go to the record tab "Locator" at the bottom of the page and click !["Add new"](assets/Add_New_Button.png). An overlay window opens up.
 1. In each of the fields **Aisle**, **Rack**, **Level** and **Tray** enter the value *0*.
 1. Click "Done" to close the overlay window and add the storage place to the list.

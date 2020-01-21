@@ -13,7 +13,7 @@ ref: add_empty_container_depot
 An empty container depot serves to store the empty containers that remain after the products they contain have been removed.
 
 ## Steps
-1. Follow these [instructions for adding a warehouse](Add_new_warehouse) up to **step 3 of recording a place of storage**.
+1. Follow these [instructions for adding a warehouse](Add_new_warehouse) up to **step 3 of recording a storage location**.
 1. Go to the record tab "Lagerzuordnung" (*Warehouse Assignment*) at the bottom of the page and click !["Add new"](assets/Add_New_Button.png). An overlay window opens up.
 1. Select the **Document Base Type** *Material Physical Inventory*.
 1. Click "Done" to close the overlay window and add the document base type to the list.

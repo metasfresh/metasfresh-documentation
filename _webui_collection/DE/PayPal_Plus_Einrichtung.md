@@ -13,7 +13,7 @@ ref: paypal_plus_setup
 
 ## Schritte
 1. [Gehe ins Menü](Menu) und öffne das Fenster "PayPal Config".
-1. [Lege einen neuen Konfigurationseintrag an](Neuer_Datensatz_Fenster_Webui).
+1. [Erstelle einen neuen Konfigurationseintrag](Neuer_Datensatz_Fenster_Webui).
 1. Benenne den Konfigurationseintrag im Feld **Beschreibung**, z.B. "PayPal Plus Konfiguration".
 1. ***Optional:*** Setze ein Häkchen bei **Sandbox**. (*Nur für Entwickler/Testzwecke!*)
 1. Trage die **Client ID** ein, die Du von PayPal für die Einrichtung erhalten hast.

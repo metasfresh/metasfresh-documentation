@@ -18,7 +18,7 @@ Aus diesem Grund kannst Du in metasfresh beliebig viele Ortseinträge manuell an
 
 ## Schritte
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Land, Ort und Postleitzahl".
-1. [Lege einen neuen Ortseintrag an](Neuer_Datensatz_Fenster_Webui).
+1. [Erstelle einen neuen Ortseintrag](Neuer_Datensatz_Fenster_Webui).
 1. Trage in das Feld **Ort** den Ortsnamen ein, z.B. "Bonn".
 1. Trage in das Feld **PLZ** die Postleitzahl ein, z.B. "53179".
 1. Trage in das Feld **Region** das Bundesland/den Bundesstaat/die Provinz oder Entsprechendes ein, z.B. "NRW".
