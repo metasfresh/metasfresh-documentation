@@ -23,7 +23,7 @@ Which columns you can choose from when adding an import format depends on the **
 1. Scroll down to the field **System Element**, enter a part of the new column's name and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
 1. In the field above, enter the **Length** the new column shall have in the database.
 1. Click "Done" to close the overlay window and add the column to the list.
-1. [Start the action](StartAction) "Synchronize column" to persist the column into the database.
+1. [Start the action](StartAction#actions-menu) "Synchronize column" to persist the column into the database.
 1. [metasfresh saves the progress automatically](Saveindicator).
 
 | **Important note:** |

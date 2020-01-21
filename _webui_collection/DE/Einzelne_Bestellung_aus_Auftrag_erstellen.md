@@ -22,7 +22,7 @@ Möchtest Du ausgewählte Produkte aus einem Auftrag in selbst bestimmter Menge 
 ## Schritte
 1. [Erfasse einen Auftrag](Auftrag_erfassen).
 1. [Selektiere](AuswahlBelege) die Auftragszeilen mit den Produkten, welche Du bestellen möchtest.
-1. [Starte die Aktion](AktionStarten) "Bestellungen disponieren". Es öffnet sich ein Overlay-Fenster.
+1. [Starte die Aktion](AktionStarten#aktionsmenue) "Bestellungen disponieren". Es öffnet sich ein Overlay-Fenster.
  >**Hinweis:** Diese Aktion wird erst verfügbar, wenn mindestens eine Auftragszeile ausgewählt ist.
 
 1. Klicke links in der Bestellzeile auf !['+'](assets/expand_list_plus.png), um sie aufzuklappen.

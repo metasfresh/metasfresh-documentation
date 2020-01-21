@@ -20,7 +20,7 @@ metasfresh verfügt derzeit über Schnittstellen für den Versand mit folgenden 
 
 ## Schritte
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Lieferweg".
-1. Öffne den Eintrag eines bestehenden Lieferweges in der [Einzelansicht](Ansichten), z.B. "DPD".
+1. Öffne den Eintrag eines bestehenden Lieferweges in der [Einzelansicht](Ansichten#einzelansicht), z.B. "DPD".
 1. Trage die **Nachverfolgungs-URL** ein, die Dir vom Versanddienstleister bereitgestellt wurde.
 1. Gehe zur Registerkarte des jeweiligen Lieferweges (z.B. "DPD Konfiguration") unten auf der Seite und klicke auf !["Neu hinzufügen"](assets/Neu_hinzufuegen_Button.png). Es öffnet sich ein Overlay-Fenster.
 

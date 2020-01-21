@@ -30,5 +30,5 @@ In metasfresh kannst Du verschiedenen kundenspezifischen [Preislisten](Preislist
 
 ### Derivative Preislisten aktualisieren
 1. Gehe zur Registerkarte "Preislistenversion" unten auf der Seite und [selektiere](AuswahlBelege) die Zeile der neuen Basispreislistenversion.
-1. [Starte die Aktion](AktionStarten) "Auf derivative Preislisten anwenden". Es öffnet sich ein Overlay-Fenster.
+1. [Starte die Aktion](AktionStarten#aktionsmenue) "Auf derivative Preislisten anwenden". Es öffnet sich ein Overlay-Fenster.
 1. Klicke auf "Start", um das Overlay-Fenster zu schließen und alle mit der allgemeinen Basispreisliste verknüpften kundenspezifischen Preislisten gemäß des Basispreislistenschemas zu aktualisieren.

@@ -15,7 +15,7 @@ ref: add_new_calendar_periods
 1. Go to the record tab "Year" at the bottom of the page and click !["Add new"](assets/Add_New_Button.png). An overlay window opens up.
 1. Enter the **Year** for which you want to create a new period, e.g., "<script>document.write(new Date().getFullYear() + 1)</script>".
 1. Click "Done" to close the overlay window and add the year to the list.
-1. [Select](RecordSelection) the newly created record tab entry and [start the action](StartAction) "Create Periods". An overlay window opens up.
+1. [Select](RecordSelection) the newly created record tab entry and [start the action](StartAction#actions-menu) "Create Periods". An overlay window opens up.
 1. Set a **Start Date**, e.g., "01/01/<script>document.write(new Date().getFullYear() + 1)</script>".
 1. Define an appropriate **Date Format**, if necessary (e.g., *MMM-yy* for *Jan-<script>document.write((new Date().getFullYear() + 1).toString().substr(-2));</script>*).
  >**Note:** You can learn more about date and time patterns <a href="https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html" title="Date format examples | Oracle.com" target="blank">here</a>.

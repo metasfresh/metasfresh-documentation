@@ -37,7 +37,7 @@ Wird kein Präfix angegeben, so wird der Elementwert als ID des Dateneintrages (
 1. Füge im Feld **Authorization token** Dein [Autorisierungstoken](../../webui_collection/DE/Authentifizierungstoken) ein.
 1. Trage in das Feld **dataSourceName** den Datenquellnamen dieses Endpunktes ein.
 1. Trage in das Feld **externalReference** die externe Referenz-ID (**External Header ID**) des Eintrages des Auftragskandidaten ein, dem der Dateianhang beigefügt werden soll.
- >**Hinweis:** Die **External Header ID** kannst Du in der "[Erweiterten Erfassung](../../webui_collection/DE/Ansichten)" aus dem [Aktionsmenü](../../webui_collection/DE/AktionStarten) des Eintrages des jeweiligen Auftragskandidaten einsehen.
+ >**Hinweis:** Die **External Header ID** kannst Du in der "[Erweiterten Erfassung](../../webui_collection/DE/Ansichten#erw-erfassung)" aus dem [Aktionsmenü](../../webui_collection/DE/AktionStarten#aktionsmenue) des Eintrages des jeweiligen Auftragskandidaten einsehen.
 
 1. Klicke im Feld **file** auf ![Google Chrome: "Datei auswählen"](assets/button_Datei_auswaehlen.png) oder ![Mozilla Firefox: "Durchsuchen..."](assets/button_Durchsuchen.png), um die als Anhang bestimmte Datei auszuwählen.
 1. Klicke auf ![Ausführen](assets/button_execute.png), um den Dateianhang hochzuladen.

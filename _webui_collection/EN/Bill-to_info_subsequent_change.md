@@ -22,7 +22,7 @@ In metasfresh, you can easily change the name and/or address of the invoice reci
 1. Open "Sales Order" from the [menu](Menu).
 1. Open the entry of a [completed sales order](SalesOrder_recording) for which you want to change the bill-to information.
 1. [Jump to](JumptoviaSidebar) "Billing Candidates" and open the entry of the corresponding billing candidate.
-1. Open the [advanced edit menu](ViewModes) from the [actions menu](StartAction).
+1. Open the [advanced edit menu](ViewModes#adv-edit) from the [actions menu](StartAction#actions-menu).
  >**Note:** Use shortcut `Alt` + `E` / `⌥ alt` + `E`.
 
 1. In the field **Rechnungsadresse abw.**, select a new billing address.

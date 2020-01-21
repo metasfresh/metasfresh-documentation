@@ -3,7 +3,7 @@ title: Wie richte ich eine automatische Warenverteilung für Leergebinde ein?
 layout: default
 tags:
   - Stammdaten
-  - Lager
+  - Lagerverwaltung
   - Lagerbewegung
 lang: de
 sequence: 10
@@ -33,4 +33,4 @@ Zur Einrichtung der automatischen Warenverteilung für Leergebinde benötigst Du
 1. Klicke auf "Bestätigen", um das Overlay-Fenster zu schließen und die Netzwerkzeile zur Liste hinzuzufügen.
 
 ## Beispiel
-![](assets/Automatische_Warenverteilung.gif)
+<kbd><img src="assets/Automatische_Warenverteilung.gif" alt="GIF: Automatische Warenverteilung für Leergebinde einrichten"></kbd>

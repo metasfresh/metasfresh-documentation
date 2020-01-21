@@ -19,18 +19,18 @@ The receipt of empties is processed via the material receipt candidates and can 
 1. Open "Material Receipt Candidates" from the [menu](Menu).
 
 ### a) Receiving empties separately
-1. [Start the quick action](StartAction) "Empties Receive". The window "[Empties Receive](Menu)" opens up in the same tab.
+1. [Start the quick action](StartAction#quick-actions) "Empties Receive". The window "[Empties Receive](Menu)" opens up in the same tab.
  >**Note:** You will also find this action in the actions menu in the list view.
 
 1. In the field **Business Partner**, enter a part of the name or number of the [customer](New_business_partner_customer) returning the empties and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
  >**Note:** If the required partner does not appear in the list, you can add them through [quick create](Quick_create_new_business_partner).
 
 ### b) Purchase order-related empties receipt
-1. From the [list view](ViewModes), [select](RecordSelection) the entry of the [purchase order](CreatePurchaseOrder) for which you want to receive empties.
-1. [Start the quick action](StartAction) "Empties Receive". The window "[Empties Receive](Menu)" opens up in the same tab.
+1. From the [list view](ViewModes#list-view), [select](RecordSelection) the entry of the [purchase order](CreatePurchaseOrder) for which you want to receive empties.
+1. [Start the quick action](StartAction#quick-actions) "Empties Receive". The window "[Empties Receive](Menu)" opens up in the same tab.
  >**Note:** You will also find this action in the actions menu in both the list view and the detailed view of an entry.
 
-1. In this entry, all order-relevant data have already been entered (see also the [advanced edit menu](ViewModes) from the [actions menu](StartAction)).
+1. In this entry, all order-relevant data have already been entered (see also the [advanced edit menu](ViewModes#adv-edit) from the [actions menu](StartAction#actions-menu)).
 
 ### Record empties
 1. Go to the record tab "Position" (*Shipment Line*) at the bottom of the page and click !["Batch entry"](assets/Batch_Entry_Button.png) to enter the empties.

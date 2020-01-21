@@ -9,9 +9,9 @@ ref: quick_actions
 ---
 
 ## Overview
-This guide shows you how to configure a process to be shown in the [quick actions drop-down menu](http://docs.metasfresh.org/webui_collection/EN/StartAction.html).
+This guide shows you how to configure a process to be shown in the [quick actions drop-down menu](../../webui_collection/EN/StartAction#quick-actions).
 
-![quickaction](assets/quick_actions-8edb4.png)
+<kbd><img src="assets/quick_actions-8edb4.png" alt="Fig.: Quick action"></kbd>
 
 ## Steps
 1. Login to the java back end.

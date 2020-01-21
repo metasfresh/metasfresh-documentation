@@ -16,7 +16,7 @@ In metasfresh, you can quickly cancel incorrectly booked payments and at the sam
 ## Steps
 1. Open "Payment" from the [menu](Menu).
 1. Open the entry of a [posted payment](Single_incoming_payment).
-1. Open the [document processing menu](StartAction) (`Alt` + `I` / `⌥ alt` + `I`) and click on *Void*.<br>
+1. Open the [document processing menu](StartAction#doc-processing) (`Alt` + `I` / `⌥ alt` + `I`) and click on *Void*.<br>
 ![](assets/DocStatus_void.png)
 
 1. The payment has now been reversed.

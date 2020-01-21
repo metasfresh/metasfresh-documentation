@@ -16,7 +16,7 @@ In metasfresh kannst Du zeitlich begrenzte Sonderpreisaktionen starten, bei dene
 Du kannst einzeln festlegen, welche Kunden zur Teilnahme an Preisaktionen berechtigt sind, z.B. wenn sie derselben Geschäftspartnergruppe angehören, aber nicht alle daraus sollen den Aktionspreis erhalten. Gehe hierzu wie folgt vor:
 
 ## Schritte
-1. Öffne den Eintrag eines bestehenden [Geschäftspartners](Menu) in der [Einzelansicht](Ansichten) bzw. [lege einen neuen an](Neuer_Geschaeftspartner_Kunde).
+1. Öffne den Eintrag eines bestehenden [Geschäftspartners](Menu) in der [Einzelansicht](Ansichten#einzelansicht) bzw. [lege einen neuen an](Neuer_Geschaeftspartner_Kunde).
 1. Gehe zur Registerkarte "Kunde" unten auf der Seite und bewege die horizontale Bildlaufleiste nach rechts, bis Du die Spalte **Aktionsbezug** erreichst.
 1. Klicke doppelt auf das Feld **Aktionsbezug** der Kundenzeile und setze ein Häkchen in dem Kontrollkästchen.
 1. [metasfresh speichert automatisch](Speicheranzeige).

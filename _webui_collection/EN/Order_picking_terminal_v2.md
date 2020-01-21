@@ -22,27 +22,27 @@ To replenish the stock, you can [create a goods receipt](CreateGoodsReceipt).
 
 ## Steps
 1. Open "Picking Terminal (v2)" from the [menu](Menu).
-1. From the [list view](ViewModes), [select](RecordSelection) the sales order you want to pick.
+1. From the [list view](ViewModes#list-view), [select](RecordSelection) the sales order you want to pick.
 
 ### Print pick list
 The order picker can use the pick list to check the actual stock, note down any deviating quantities and enter them in the next step ("picking"). In order to print the pick list, please proceed as follows:
 
-1. [Start the quick action](StartAction) "Print Pick List".
+1. [Start the quick action](StartAction#quick-actions) "Print Pick List".
 1. The PDF print preview of the pick list opens up in a new browser tab.
 1. Return to the "Picking Terminal (v2)" window.
 
 ### Pick products
-1. [Start the quick action](StartAction) "Pick". An overlay window opens up with the pick list.
+1. [Start the quick action](StartAction#quick-actions) "Pick". An overlay window opens up with the pick list.
 1. ***Optional:*** Double-click the field **Qty Override** of the product line and enter the deviating quantity.
-1. [Select](RecordSelection) the lines of the products to be picked and [start the quick action](StartAction) "Pick". The **Pick Status** changes from *To be picked* to *Picked*.
+1. [Select](RecordSelection) the lines of the products to be picked and [start the quick action](StartAction#quick-actions) "Pick". The **Pick Status** changes from *To be picked* to *Picked*.
 
 ### Pack up picked products
-1. [Select](RecordSelection) the lines of the products to be packed and [start the quick action](StartAction) "Pack to". An overlay window opens up.
+1. [Select](RecordSelection) the lines of the products to be packed and [start the quick action](StartAction#quick-actions) "Pack to". An overlay window opens up.
 1. In the field **Packing Instructions**, enter a part of the name of the [packing instructions](Create_packing_instructions) to be used and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
 1. Click "Start" to confirm and close the overlay window. The **Pick Status** changes to *Packed*.
 
 ### Process order picking
-1. [Select](RecordSelection) the lines of the packed products and [start the quick action](StartAction) "Process". An overlay window opens up.
+1. [Select](RecordSelection) the lines of the packed products and [start the quick action](StartAction#quick-actions) "Process". An overlay window opens up.
 1. The **Shipper** is taken from the sales order and is preset here, but can still be changed manually.
 1. The **Transportation Order** is preset here according to the date of provisioning of the sales order, but can still be changed manually.
 1. Click "Start" to close the overlay window and process the order picking. The product lines are made read-only.

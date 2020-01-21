@@ -2,9 +2,11 @@
 title: Wie mache ich einen verbuchten Eigenverbrauch rückgängig?
 layout: default
 tags:
+  - Stammdaten
+  - Lagerverwaltung
   - Inventur
 lang: de
-sequence: 20
+sequence: 30
 ref: inventory_mass_disposal_void
 ---
 
@@ -14,7 +16,7 @@ Wenn Du einen verbuchten Eigenverbrauch rückgängig machst, dann werden alle en
 ## Schritte
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Eigenverbrauch".
 1. Öffne den Eintrag des [verbuchten Eigenverbrauchs](Inventur_Eigenverbrauch), den Du rückgängig machen möchtest.
-1. Öffne das [Belegverarbeitungsmenü](AktionStarten) (`Alt` + `I` / `⌥ alt` + `I`) und klicke auf *Löschen*.<br>
+1. Öffne das [Belegverarbeitungsmenü](AktionStarten#belegverarbeitung) (`Alt` + `I` / `⌥ alt` + `I`) und klicke auf *Löschen*.<br>
 ![](assets/Belegstatus_Loeschen.png)
 
 1. Der verbuchte Eigenverbrauch wurde nun rückgängig gemacht und alle HUs wiederhergestellt.

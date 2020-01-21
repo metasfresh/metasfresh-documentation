@@ -23,7 +23,7 @@ ref: import_product_data_pharma
 
 ### Importdatei hochladen und importieren
 1. [Lade Deine Importdatei mit den IFA-Produktdaten hoch](Dateihandling).
-1. [Starte die Aktion](AktionStarten) "Import attachment". Es öffnet sich ein Overlay-Fenster.
+1. [Starte die Aktion](AktionStarten#aktionsmenue) "Import attachment". Es öffnet sich ein Overlay-Fenster.
 1. Wähle im Feld **Anhang** die hochgeladene [Importdatei](Importdatei_nuetzliche_Hinweise) aus.
 1. Klicke auf "Start", um die IFA-Produktdaten zu importieren und das Overlay-Fenster zu schließen.
 
@@ -34,7 +34,7 @@ ref: import_product_data_pharma
  - Sollten einige Daten beim Import nicht oder fehlerhaft übertragen worden sein, kannst Du diese Fehler im jeweiligen IFA-Produkteintrag unter "[Import Pharma Product](Menu)" korrigieren. Hast Du alle Fehler behoben, kannst Du die IFA-Produktdaten nun manuell importieren. Gehe hierzu wie folgt vor:
 
 #### IFA-Produktdaten manuell importieren
-1. [Starte die Aktion](AktionStarten) "Import Pharma Product". Es öffnet sich ein Overlay-Fenster.
+1. [Starte die Aktion](AktionStarten#aktionsmenue) "Import Pharma Product". Es öffnet sich ein Overlay-Fenster.
 1. Klicke auf "Start", um die IFA-Produktdaten zu importieren und das Overlay-Fenster zu schließen.
 1. Die importierten IFA-Produktdaten findest Du nun unter dem Menüpunkt "[Produkt Pharma](Menu)" wieder.
 

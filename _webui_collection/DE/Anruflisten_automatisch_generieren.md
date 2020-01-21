@@ -20,8 +20,8 @@ Anruflisten basieren auf den Einstellungen der Anrufplanungsversionen. Je nach E
 
 ## Schritte
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Anruf Planung".
-1. [Selektiere](AuswahlBelege) in der [Listenansicht](Ansichten) das [Anrufplanungsschema](Anrufplanungsschema_anlegen), das Du zur Erzeugung einer Anrufliste verwenden möchtest.
-1. [Starte die Aktion](AktionStarten) "Anruflisten generieren". Es öffnet sich ein Overlay-Fenster.
+1. [Selektiere](AuswahlBelege) in der [Listenansicht](Ansichten#listenansicht) das [Anrufplanungsschema](Anrufplanungsschema_anlegen), das Du zur Erzeugung einer Anrufliste verwenden möchtest.
+1. [Starte die Aktion](AktionStarten#aktionsmenue) "Anruflisten generieren". Es öffnet sich ein Overlay-Fenster.
  >**Hinweis:** Diese Aktion findest Du ebenfalls im Aktionsmenü in der Einzelansicht eines Eintrages.
 
 1. Stelle ein **Datum von** und ein **Datum bis** ein, um den genauen Zeitraum festzulegen, für den die Listen erzeugt werden sollen.

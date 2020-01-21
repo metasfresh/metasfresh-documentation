@@ -22,7 +22,7 @@ Die Liste der Produktvorschläge kannst Du unter [Aufträge](Auftrag_erfassen), 
  >**Hinweis:** Wiederhole die Schritte 2 bis 3 für weitere Produkte, deren Preise Du ändern möchtest.
 
 1. [Selektiere](AuswahlBelege) die Zeilen der Produkte, deren Preise Du bearbeitet hast.
-1. [Starte die Quick-Action](AktionStarten) "Speichern". Nun wurden die Preise auf der jeweiligen Preisliste aktualisiert.
+1. [Starte die Quick-Action](AktionStarten#quick-actions) "Speichern". Nun wurden die Preise auf der jeweiligen Preisliste aktualisiert.
 
 ### Speichern und fortfahren
 1. Klicke auf "Bestätigen", um die Änderungen zu übernehmen und die Liste der Produktvorschläge zu schließen.

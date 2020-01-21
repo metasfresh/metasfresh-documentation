@@ -15,9 +15,9 @@ ref: copy_discount_lines
 
 ## Schritte
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Rabatte Zeilen". Hier werden alle Rabattzeilen aus allen existierenden Rabattschemata aufgelistet.
-1. ***Optional:*** [Verwende die Filterfunktion](Filterfunktion), um die [Listenansicht](Ansichten) nach ganz bestimmten Rabattzeilen zu filtern.
+1. ***Optional:*** [Verwende die Filterfunktion](Filterfunktion), um die [Listenansicht](Ansichten#listenansicht) nach ganz bestimmten Rabattzeilen zu filtern.
 1. [Selektiere](AuswahlBelege) die Rabattzeilen, die Du kopieren möchtest.
-1. [Starte die Quick-Action](AktionStarten) "Rabatte Zeilen Kopieren". Es öffnet sich ein Overlay-Fenster.
+1. [Starte die Quick-Action](AktionStarten#quick-actions) "Rabatte Zeilen Kopieren". Es öffnet sich ein Overlay-Fenster.
  >**Hinweis:** Diese Aktion findest Du ebenfalls im Aktionsmenü in der Listenansicht.
 
 1. Wähle das **Rabattschema** aus, in das die selektierten Rabattzeilen übertragen werden sollen.

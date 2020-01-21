@@ -30,16 +30,16 @@ ref: paypal_payment_rule_salesorder
 
 #### Update payment status
 1. Open "PayPal Order" from the [menu](Menu).
-1. From the [list view](ViewModes), [select](RecordSelection) the PayPal payment entry whose status you want to update.
-1. [Start the action](StartAction) "Update from PayPal server".
+1. From the [list view](ViewModes#list-view), [select](RecordSelection) the PayPal payment entry whose status you want to update.
+1. [Start the action](StartAction#actions-menu) "Update from PayPal server".
  >**Note:** You can also start this action directly from the respective payment entry.
 
 1. The payment entry's **Status** is changed to *Approved* as is the status of the respective order entry under "Payment Reservation", provided the payment has been approved by the customer.
 
 #### Authorize PayPal order
 1. Open "Payment Reservation" from the [menu](Menu).
-1. From the [list view](ViewModes), [select](RecordSelection) the PayPal order entry you want to authorize.
-1. [Start the action](StartAction) "Authorize PayPal Order".
+1. From the [list view](ViewModes#list-view), [select](RecordSelection) the PayPal order entry you want to authorize.
+1. [Start the action](StartAction#actions-menu) "Authorize PayPal Order".
  >**Note:** You can also start this action directly from the respective PayPal order entry.
 
 1. The entry's **Status** is changed to *Completed* as is the document status of the respective sales order.

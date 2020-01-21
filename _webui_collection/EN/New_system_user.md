@@ -23,7 +23,7 @@ System users are contacts (users) with access permissions to your system.
  >**Note 2:** Please note that the username is ***case-sensitive***!
 
 ### Set a password
-1. [Start the action](StartAction) "Change Password". An overlay window opens up.
+1. [Start the action](StartAction#actions-menu) "Change Password". An overlay window opens up.
 1. Enter a **New Password** with at least 8 characters.
  >**Note 1:** An **Old Password** is not required if a new user is created.<br><br>
  >**Note 2:** Make sure the password consists of ***at least 8 characters*** or the entry ***will not be saved***!<br><br>

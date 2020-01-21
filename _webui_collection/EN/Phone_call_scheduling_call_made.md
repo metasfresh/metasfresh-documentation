@@ -32,8 +32,8 @@ By means of the [filtering function](Phone_call_scheduling_filtering) you can qu
 1. [metasfresh saves the progress automatically](Saveindicator).
 
 #### Alternative B
-1. From the [list view](ViewModes), [select](RecordSelection) the entry of the partner you have called.
-1. [Start the quick action](StartAction) "Mark As Called". The checkbox in the column **IsCalled** of the selected entry is ticked.
+1. From the [list view](ViewModes#list-view), [select](RecordSelection) the entry of the partner you have called.
+1. [Start the quick action](StartAction#quick-actions) "Mark As Called". The checkbox in the column **IsCalled** of the selected entry is ticked.
  >**Note 1:** You will also find this action in the actions menu in both the list view and the detailed view of an entry.<br><br>
  >**Note 2:** You can only mark one entry at a time as *called* this way.
 

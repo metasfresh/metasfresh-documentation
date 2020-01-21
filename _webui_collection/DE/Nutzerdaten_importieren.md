@@ -20,7 +20,7 @@ Stelle sicher, dass alle Voraussetzungen für den [Datenimport in metasfresh](Da
 
 ### Importdatei hochladen und importieren
 1. [Lade Deine Importdatei mit den Nutzerdaten hoch](Dateihandling).
-1. [Starte die Aktion](AktionStarten) "Import attachment". Es öffnet sich ein Overlay-Fenster.
+1. [Starte die Aktion](AktionStarten#aktionsmenue) "Import attachment". Es öffnet sich ein Overlay-Fenster.
 1. Wähle im Feld **Anhang** die hochgeladene [Importdatei](Importdatei_nuetzliche_Hinweise) aus.
 1. Klicke auf "Start", um die Nutzerdaten zu importieren und das Overlay-Fenster zu schließen.
 
@@ -31,6 +31,6 @@ Stelle sicher, dass alle Voraussetzungen für den [Datenimport in metasfresh](Da
  - Sollten einige Daten beim Import nicht oder fehlerhaft übertragen worden sein, kannst Du diese Fehler im jeweiligen Nutzereintrag unter "[Import Users](Menu)" korrigieren. Hast Du alle Fehler behoben, kannst Du die Nutzerdaten nun manuell importieren. Gehe hierzu wie folgt vor:
 
 #### Nutzerdaten manuell importieren
-1. [Starte die Aktion](AktionStarten) "Import Users".
+1. [Starte die Aktion](AktionStarten#aktionsmenue) "Import Users".
 1. [metasfresh speichert automatisch](Speicheranzeige).
 1. Die importierten Nutzerdaten findest Du nun unter dem Menüpunkt "[Nutzer](Menu)" wieder oder aber auch unter der Registerkarte "Nutzer/Kontakt" im Eintrag des verknüpften Geschäftspartners.

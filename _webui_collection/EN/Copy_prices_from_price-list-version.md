@@ -23,7 +23,7 @@ When you create a new price list version, it will be empty at first, i.e. it wil
 1. Go to the record tab "Price List Version" at the bottom of the page.
 1. Double-click the field **Base Price List Version** of the newly created price list version and from the drop-down list select the base version from where the prices and products shall be taken over.
 1. Double-click the field **Price List Schema** of the newly created price list version and select a price list schema from the drop-down list, e.g., *Copy Product Prices*.
-1. [Start the action](StartAction) "Create product prices".
+1. [Start the action](StartAction#actions-menu) "Create product prices".
  >**Note:** Make sure that the line of the newly created price list version is [selected](RecordSelection) before you start the action.
 
 1. [metasfresh saves the progress automatically](Saveindicator). The prices and products have been copied.

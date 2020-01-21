@@ -17,11 +17,11 @@ Die Liste der Produktvorschläge kannst Du unter [Aufträge](Auftrag_erfassen), 
 
 ### Andere Produkte anzeigen und zur Preisliste hinzufügen
 1. [Rufe die Liste der Produktvorschläge auf](Produktvorschlaege_aufrufen).
-1. [Starte die Quick-Action](AktionStarten) "Andere Produkte". Es werden Dir alle Produkte aus der Basispreisliste angezeigt.
+1. [Starte die Quick-Action](AktionStarten#quick-actions) "Andere Produkte". Es werden Dir alle Produkte aus der Basispreisliste angezeigt.
 1. [Selektiere](AuswahlBelege) die Zeilen der Produkte, die Du der aktuellen Preisliste hinzufügen möchtest.
-1. [Starte die Quick-Action](AktionStarten) "Produkte hinzufügen". Nun wurden die selektierten Produkte zur Liste der Produktvorschläge hinzugefügt.
+1. [Starte die Quick-Action](AktionStarten#quick-actions) "Produkte hinzufügen". Nun wurden die selektierten Produkte zur Liste der Produktvorschläge hinzugefügt.
 1. [Selektiere](AuswahlBelege) die Zeilen der neu hinzugefügten Produkte.
-1. [Starte die Quick-Action](AktionStarten) "Speichern". Nun wurden die neuen Produkte in die jeweilige Preisliste aufgenommen.
+1. [Starte die Quick-Action](AktionStarten#quick-actions) "Speichern". Nun wurden die neuen Produkte in die jeweilige Preisliste aufgenommen.
 
 ### Speichern und fortfahren
 1. Klicke auf "Bestätigen", um die Änderungen zu übernehmen und die Liste der Produktvorschläge zu schließen.

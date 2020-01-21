@@ -3,7 +3,7 @@ title: Wie lege ich ein Beanstandungslager an?
 layout: default
 tags:
   - Stammdaten
-  - Lager
+  - Lagerverwaltung
 lang: de
 sequence: 40
 ref: add_quality_issue_warehouse
@@ -19,4 +19,4 @@ Ein Beanstandungslager dient zur Lagerung von zurückgesendeter Ware, die erst a
 1. [metasfresh speichert automatisch](Speicheranzeige).
 
 ## Beispiel
-![Beanstandungslager](assets/Beanstandungslager_anlegen.gif)
+<kbd><img src="assets/Beanstandungslager_anlegen.gif" alt="GIF: Ein Beanstandungslager anlegen"></kbd>

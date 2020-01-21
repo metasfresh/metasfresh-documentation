@@ -33,7 +33,7 @@ For a dunning type to take effect in connection with a partner, you first need t
 
 ### Steps
 1. Open the entry of an existing [business partner group](Menu) or [add a new one](New_Business_Partner_Group).
-1. Open the [advanced edit menu](ViewModes) from the [actions menu](StartAction).
+1. Open the [advanced edit menu](ViewModes#adv-edit) from the [actions menu](StartAction#actions-menu).
  >**Note:** Use shortcut `Alt` + `E` / `⌥ alt` + `E`.
 
 1. Scroll down to the field **Dunning** and pick the desired dunning type.

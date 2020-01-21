@@ -32,7 +32,7 @@ Kompensationsgruppen lassen sich sowohl [manuell](Kompensationsgruppen_manuell_e
 Möchtest Du auf einen Gruppenrabatt noch weitere Rabatte vergeben, die sich an der jeweils zuvor rabattierten Summe orientieren, gehe einfach wie folgt vor:
 
 1. [Selektiere](AuswahlBelege) eine Auftragszeile aus der betreffenden Kompensationsgruppe.
-1. [Starte die Aktion](AktionStarten) "Neuer Gruppenrabatt". Es öffnet sich ein Overlay-Fenster.
+1. [Starte die Aktion](AktionStarten#aktionsmenue) "Neuer Gruppenrabatt". Es öffnet sich ein Overlay-Fenster.
 1. Wähle ein **Produkt** aus, z.B. *Rabatt*.
  >**Hinweis:** Du kannst auch jedes andere Produkt auswählen, das im Produktfeld vorgeschlagen wird, sofern es ***nicht lagerhaltig*** und mit ***derselben Preisliste*** verknüpft ist wie der Auftrag.<br>
  [Folge dieser Anleitung](Gruppierungsprodukt_anlegen) zur Konfiguration solcher *Rabattprodukte*.

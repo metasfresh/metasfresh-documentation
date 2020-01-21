@@ -3,7 +3,7 @@ title: How do I set up an automatic distribution network for empty containers?
 layout: default
 tags:
   - Master Data
-  - Warehouse
+  - Warehouse Management
   - Inventory Movement
 lang: en
 sequence: 10
@@ -33,4 +33,4 @@ For the setup of the automatic distribution network for empty containers, the fo
 1. Click "Done" to close the overlay window and add the network line to the list.
 
 ## Example
-![](assets/Automatic_distribution_network.gif)
+<kbd><img src="assets/Automatic_distribution_network.gif" alt="GIF: How to set up an automatic distribution network for empty containers"></kbd>

@@ -22,7 +22,7 @@ You can open the product proposals list under [sales orders](SalesOrder_recordin
  >**Note:** Repeat the steps 2 to 3 for further products whose prices you want to change.
 
 1. [Select](RecordSelection) the lines of the products whose prices you have edited.
-1. [Start the quick action](StartAction) "Save to price list". The prices have now been updated on the respective price list.
+1. [Start the quick action](StartAction#quick-actions) "Save to price list". The prices have now been updated on the respective price list.
 
 ### Save and continue
 1. Click "Done" to apply the changes and close the product proposals list.

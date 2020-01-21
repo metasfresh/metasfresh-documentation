@@ -34,7 +34,7 @@ Ist Dir Dein Login-Passwort entfallen oder möchtest Du es ändern, dann folge b
  >**Hinweis:** Drücke `Alt` + `4` / `⌥ alt` + `4`.
 
 1. Klicke auf "Einstellungen".
-1. [Starte die Aktion](AktionStarten) "Mein Passwort ändern". Es öffnet sich ein Overlay-Fenster.
+1. [Starte die Aktion](AktionStarten#aktionsmenue) "Mein Passwort ändern". Es öffnet sich ein Overlay-Fenster.
 1. Gib Dein **Altes Passwort** ein.
  >**Hinweis:** Halte ![](assets/ShowPassword_Icon.png) gedrückt, um das Passwort anzuzeigen.
 

@@ -23,7 +23,7 @@ In order to create automatic compensation groups, please proceed as follows:
 ## Steps
 1. Follow these [instructions for entering a sales order](SalesOrder_recording) up to **step 4 of the order line input**.
 1. [Select](RecordSelection) the order lines you want to combine into a compensation group.
-1. [Start the action](StartAction) "Multigroup lines". The compensation groups are created automatically and displayed as additional discount lines with the **Compensation Type** *Discount*.
+1. [Start the action](StartAction#actions-menu) "Multigroup lines". The compensation groups are created automatically and displayed as additional discount lines with the **Compensation Type** *Discount*.
 
 ### Delete compensation group
 If you want to undo a compensation group, simply delete the respective discount line.

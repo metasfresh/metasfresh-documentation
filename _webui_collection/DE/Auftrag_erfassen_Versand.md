@@ -15,7 +15,7 @@ ref: sales_order_with_shipper
 
 ## Schritte
 1. Folge dieser [Anleitung zur Erfassung eines Auftrages](Auftrag_erfassen) bis zum **Schritt 4 der Auftragszeileneingabe**.
-1. Öffne die "[Erweiterte Erfassung](Ansichten)" aus dem [Aktionsmenü](AktionStarten).
+1. Öffne die "[Erweiterte Erfassung](Ansichten#erw-erfassung)" aus dem [Aktionsmenü](AktionStarten#aktionsmenue).
  >**Hinweis:** Drücke `Alt` + `E` / `⌥ alt` + `E`.
 
 1. Scrolle runter bis zum Feld **Lieferung** und wähle *Wird geliefert* aus, sofern noch nicht automatisch geschehen.

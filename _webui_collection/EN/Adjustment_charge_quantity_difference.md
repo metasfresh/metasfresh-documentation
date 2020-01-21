@@ -21,7 +21,7 @@ In metasfresh, you can create subsequent debit notes with adjustment charges if,
 1. [Use the filter](Filtering_function) to find the entry of the completed invoice for which you want to create a subsequent debit note and open it.
  >**Note:** Alternatively, use a [sales order](SalesOrder_recording)'s [related documents to jump](JumptoviaSidebar) to the corresponding [invoice](Invoice_SalesOrder).
 
-1. [Start the action](StartAction) "Nachbelastung" (*Adjustment charge*). An overlay window opens up.
+1. [Start the action](StartAction#actions-menu) "Nachbelastung" (*Adjustment charge*). An overlay window opens up.
 1. Pick the **Document Type** *Nachbelastung - Mengendifferenz* (*Adjustment Charge - Quantity diff*).
 1. Click "Start" to create an invoice document for the subsequent debit note and close the overlay window.
 

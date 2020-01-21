@@ -12,7 +12,7 @@ ref: quotation_to_salesorder
 
 ## Steps
 1. Open a completed [quotation](Create_SalesQuotation).
-1. [Start the action](StartAction) "Create Sales Order from this Quotation". An overlay window opens up.
+1. [Start the action](StartAction#actions-menu) "Create Sales Order from this Quotation". An overlay window opens up.
 1. Set the field **Document Type** to *Sales Order*.
 1. ***Optional:*** Tick the checkbox **Automatically complete** if you want the sales order to be completed automatically after creation.
 1. Click "Start" to confirm and close the overlay window.

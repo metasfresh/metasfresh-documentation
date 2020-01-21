@@ -19,10 +19,10 @@ In order to send multiple mailable documents via email, please proceed as follow
 
 ## Steps
 1. Open "Outbound Documents" from the [menu](Menu).
-1. From the [list view](ViewModes), [select](RecordSelection) the documents you want to send via email.
+1. From the [list view](ViewModes#list-view), [select](RecordSelection) the documents you want to send via email.
  >**Note:** Make sure that [each document has an email address](Outbound_docs_change_recipient_email) assigned (see field in column **eMail**).
 
-1. [Start the action](StartAction) "Auswahl als Email an Geschäftspartner senden" (*Send selection via email to business partner*). An overlay window opens up.
+1. [Start the action](StartAction#actions-menu) "Auswahl als Email an Geschäftspartner senden" (*Send selection via email to business partner*). An overlay window opens up.
  >**Note:** You will also find this action in the actions menu in the detailed view of an entry.
 
 1. Click "Start" to email the documents and close the overlay window.

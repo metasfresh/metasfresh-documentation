@@ -33,7 +33,7 @@ This is why metasfresh offers the possibility to record the different catch weig
 1. [Jump to](JumptoviaSidebar) "Shipment Disposition".
 1. Open the shipment candidate entry with the catch weight product.
 1. In the field **Abw. Catch Weight Menge** (*Different Catch Weight Quantity*) at the bottom right, enter the actual weight of the ordered product.
-1. Click your browser's back button to return to the [list view](ViewModes) of the shipment disposition.
+1. Click your browser's back button to return to the [list view](ViewModes#list-view) of the shipment disposition.
  >**Note:** Repeat steps 2 to 4 to enter the catch weight of further products.
 
 ### Create the delivery note and invoice

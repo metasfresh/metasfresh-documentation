@@ -16,11 +16,11 @@ ref: product_proposals_compare_prices
 ## Schritte
 1. [Rufe die Liste der Produktvorschläge auf](Produktvorschlaege_aufrufen).
 1. [Selektiere](AuswahlBelege) die Zeile des Produktes, dessen Preis Du mit anderen vergleichen möchtest.
-1. [Starte die Quick-Action](AktionStarten) "Vergleichspreise". Es werden Dir alle Einträge der Geschäftspartner angezeigt, mit denen das selektierte Produkt zuletzt gehandelt wurde und zu welchem Preis.
+1. [Starte die Quick-Action](AktionStarten#quick-actions) "Vergleichspreise". Es werden Dir alle Einträge der Geschäftspartner angezeigt, mit denen das selektierte Produkt zuletzt gehandelt wurde und zu welchem Preis.
 1. [Selektiere](AuswahlBelege) die Zeilen mit den Produktpreisen, die Du in Deine aktuelle Preisliste übernehmen möchtest.
-1. [Starte die Quick-Action](AktionStarten) "Produkte hinzufügen". Nun wurden die selektierten Produktpreise zur Liste der Produktvorschläge hinzugefügt.
+1. [Starte die Quick-Action](AktionStarten#quick-actions) "Produkte hinzufügen". Nun wurden die selektierten Produktpreise zur Liste der Produktvorschläge hinzugefügt.
 1. [Selektiere](AuswahlBelege) die Zeilen mit den neu hinzugefügten Produktpreisen.
-1. [Starte die Quick-Action](AktionStarten) "Speichern". Nun wurden die neuen Produktpreise in die jeweilige Preisliste aufgenommen.
+1. [Starte die Quick-Action](AktionStarten#quick-actions) "Speichern". Nun wurden die neuen Produktpreise in die jeweilige Preisliste aufgenommen.
 
 ### Speichern und fortfahren
 1. Klicke auf "Bestätigen", um die Änderungen zu übernehmen und die Liste der Produktvorschläge zu schließen.

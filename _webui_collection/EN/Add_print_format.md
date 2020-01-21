@@ -18,7 +18,7 @@ The print format enables you, among other things, to set paper size and page lay
 1. Give the print format a **Name**.
 1. Select a **Table** to which the print format shall apply, e.g., *Letter*.
 1. Select a **Print Paper**, e.g., *A4 Portrait*.
-1. Open the [advanced edit menu](ViewModes) from the [actions menu](StartAction).
+1. Open the [advanced edit menu](ViewModes#adv-edit) from the [actions menu](StartAction#actions-menu).
  >**Note:** Use shortcut `Alt` + `E` / `⌥ alt` + `E`.
 
 1. Scroll down to the field **Jasper Process** and pick an appropriate process, e.g., *Serial Letter*.

@@ -16,8 +16,8 @@ So können beispielsweise Fehler, die vom Auftrag in die Folgebelege übertragen
 
 ## Schritte
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Aufträge".
-1. [Selektiere](AuswahlBelege) in der [Listenansicht](Ansichten) den [fertiggestellten Auftrag](Auftrag_erfassen), den Du samt Folgebelegen stornieren möchtest.
-1. [Starte die Aktion](AktionStarten) "Ausgewählten Auftrag mit Folgebelegen stornieren". Es öffnet sich ein Overlay-Fenster.
+1. [Selektiere](AuswahlBelege) in der [Listenansicht](Ansichten#listenansicht) den [fertiggestellten Auftrag](Auftrag_erfassen), den Du samt Folgebelegen stornieren möchtest.
+1. [Starte die Aktion](AktionStarten#aktionsmenue) "Ausgewählten Auftrag mit Folgebelegen stornieren". Es öffnet sich ein Overlay-Fenster.
  >**Hinweis:** Diese Aktion kannst Du auch direkt aus dem Eintrag des jeweiligen Auftrages starten.
 
 1. Klicke auf "Start", um die Stornierung durchzuführen und das Overlay-Fenster zu schließen.

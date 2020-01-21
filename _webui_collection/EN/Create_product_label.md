@@ -28,7 +28,7 @@ In metasfresh, you can create custom record tabs in several input windows where 
 | •&nbsp;**Superscript:** min`<sup>`-1`</sup>` &rarr; min<sup>-1</sup><br><br> •&nbsp;**Subscript:** H`<sub>`2`</sub>`O &rarr; H<sub>2</sub>O |
 
 ### Print product label
-1. [Start the action](StartAction) "Products Data Entry (Jasper)".
+1. [Start the action](StartAction#actions-menu) "Products Data Entry (Jasper)".
 1. The PDF print preview of the product label opens up in a new browser tab.
 
 ## Example

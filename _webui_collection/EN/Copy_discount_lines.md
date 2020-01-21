@@ -15,9 +15,9 @@ ref: copy_discount_lines
 
 ## Steps
 1. Open "Rabatte Zeilen" (*Discount Lines*) from the [menu](Menu). This is where all discount lines from all existing discount schemas are listed.
-1. ***Optional:*** [Use the filter](Filtering_function) to sort the [list view](ViewModes) by specific discount lines.
+1. ***Optional:*** [Use the filter](Filtering_function) to sort the [list view](ViewModes#list-view) by specific discount lines.
 1. [Select](RecordSelection) the discount lines you want to copy.
-1. [Start the quick action](StartAction) "Copy to Discount Schema". An overlay window opens up.
+1. [Start the quick action](StartAction#quick-actions) "Copy to Discount Schema". An overlay window opens up.
  >**Note:** You will also find this action in the actions menu in the list view.
 
 1. Pick the **Discount Schema** where you want to copy the selected discount lines.

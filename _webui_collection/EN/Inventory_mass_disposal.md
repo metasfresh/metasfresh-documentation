@@ -2,9 +2,11 @@
 title: How do I dispose of handling units that are intended for internal use?
 layout: default
 tags:
+  - Master Data
+  - Warehouse Management
   - Inventory
 lang: en
-sequence: 10
+sequence: 20
 ref: inventory_mass_disposal
 ---
 
@@ -14,7 +16,7 @@ Some products from your inventory are intended for internal use and are therefor
 ## Steps
 1. Open "Handling Unit Editor" from the [menu](Menu).
 1. From the list, [select](RecordSelection) one or more [handling units](Handling_Unit_System) you want to post as internal use.
-1. [Start the quick action](StartAction) "Mass Disposal". An overlay window opens up.
+1. [Start the quick action](StartAction#quick-actions) "Mass Disposal". An overlay window opens up.
  >**Note:** You will also find this action in the actions menu.
 
 1. In the field **Activity**, enter a part of the cost center and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>, e.g., *Management*.
@@ -28,4 +30,4 @@ Some products from your inventory are intended for internal use and are therefor
 - [Reverse the internal use posting](Inventory_mass_disposal_void).
 
 ## Example
-![](assets/Inventory_mass_disposal.gif)
+<kbd><img src="assets/Inventory_mass_disposal.gif" alt="GIF: How to dispose of handling units intended for internal use"></kbd>

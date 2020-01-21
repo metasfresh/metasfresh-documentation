@@ -3,7 +3,7 @@ title: How do I add a new warehouse type?
 layout: default
 tags:
   - Master Data
-  - Warehouse
+  - Warehouse Management
 lang: en
 sequence: 20
 ref: add_new_warehouse_type
@@ -20,4 +20,4 @@ In metasfresh, you can define different warehouse types and so organize your [wa
 1. [metasfresh saves the progress automatically](Saveindicator).
 
 ## Example
-![](assets/Add_new_warehouse_type.gif)
+<kbd><img src="assets/Add_new_warehouse_type.gif" alt="GIF: How to add a new warehouse type"></kbd>

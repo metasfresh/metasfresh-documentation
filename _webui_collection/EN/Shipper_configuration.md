@@ -20,7 +20,7 @@ metasfresh currently offers interfaces for shipping with the following service p
 
 ## Steps
 1. Open "Shipper" from the [menu](Menu).
-1. Open the entry of an existing shipper in the [detailed view](ViewModes), e.g., "DPD".
+1. Open the entry of an existing shipper in the [detailed view](ViewModes#detailed-view), e.g., "DPD".
 1. Enter the **Tracking URL** provided to you by the shipping service.
 1. Go to the record tab of the respective shipper (e.g., "DPD Configuration") at the bottom of the page and click !["Add new"](assets/Add_New_Button.png). An overlay window opens up.
 

@@ -14,7 +14,7 @@ In metasfresh kannst Du besondere Notizen mit Informationen von potenzieller Wic
 
 ## Schritte
 1. Öffne den Eintrag eines bestehenden [Geschäftspartners](Menu) bzw. [lege einen neuen an](Neuer_Geschaeftspartner).
-1. Öffne die "[Erweiterte Erfassung](Ansichten)" aus dem [Aktionsmenü](AktionStarten).
+1. Öffne die "[Erweiterte Erfassung](Ansichten#erw-erfassung)" aus dem [Aktionsmenü](AktionStarten#aktionsmenue).
  >**Hinweis:** Drücke `Alt` + `E` / `⌥ alt` + `E`.
 
 1. Scrolle runter bis zum Textfeld **Sonstiges** und gib hier eine Notiz ein, die als Tooltip angezeigt werden soll.

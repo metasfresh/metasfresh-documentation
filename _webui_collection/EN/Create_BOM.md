@@ -32,7 +32,7 @@ ref: create_bom
 ### Verify BOM
 To obtain a valid BOM it has to be verified first.
 
-1. [Start the action](StartAction) "Verify BOM". An overlay window opens up.
+1. [Start the action](StartAction#actions-menu) "Verify BOM". An overlay window opens up.
 1. Pick a [**Product Category**](NewProductCategory).
 1. Click "Start" to confirm and close the overlay window.
 1. To check the verification status of the BOM product, [jump into the field](Jumpto) **Product** of the entry and confirm that the checkbox **Verified** is ticked off: ![Verified='Y'](assets/BOM_product_verified.png).

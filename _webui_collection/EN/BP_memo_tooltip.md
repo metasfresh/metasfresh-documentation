@@ -14,7 +14,7 @@ In metasfresh, you can record special memos with information of potential import
 
 ## Steps
 1. Open the entry of an existing [business partner](Menu) or [add a new one](New_Business_Partner).
-1. Open the [advanced edit menu](ViewModes) from the [actions menu](StartAction).
+1. Open the [advanced edit menu](ViewModes#adv-edit) from the [actions menu](StartAction#actions-menu).
  >**Note:** Use shortcut `Alt` + `E` / `⌥ alt` + `E`.
 
 1. Scroll down to the text box **Memo** and enter some information to be displayed in the tooltip.

@@ -21,7 +21,7 @@ Möchtest Du gezielt alle Produkte in beauftragter Menge aus einem bestimmten Au
 
 ## Schritte
 1. [Erfasse einen Auftrag](Auftrag_erfassen) und [stelle ihn fertig](BelegverarbeitungFertigstellen).
-1. [Starte die Aktion](AktionStarten) "Bestellung aus Auftrag generieren". Es öffnet sich ein Overlay-Fenster.
+1. [Starte die Aktion](AktionStarten#aktionsmenue) "Bestellung aus Auftrag generieren". Es öffnet sich ein Overlay-Fenster.
 1. ***Optional:*** Wähle einen abweichenden **Lieferanten** aus.
  >**Hinweis 1:** Wird kein abweichender Lieferant ausgewählt, so kommt standardmäßig der gegenwärtige Lieferant zur Anwendung.<br><br>
  >**Hinweis 2:** Abweichende Lieferanten müssen ebenso wie der gegenwärtige [mit einem Rabattschema verknüpft](Rabattschema_mit_GP_verknuepfen) sein.

@@ -32,7 +32,7 @@ ref: create_bom
 ### Stückliste verifizieren
 Damit eine Stückliste gültig wird, muss sie vorher verifiziert werden.
 
-1. [Starte die Aktion](AktionStarten) "Stücklisten verifizieren". Es öffnet sich ein Overlay-Fenster.
+1. [Starte die Aktion](AktionStarten#aktionsmenue) "Stücklisten verifizieren". Es öffnet sich ein Overlay-Fenster.
 1. Wähle eine [**Produktkategorie**](NeueProduktkategorie) aus.
 1. Klicke auf "Start", um zu bestätigen und das Overlay-Fenster zu schließen.
 1. Um den Verifizierungsstatus des Stücklistenproduktes zu überprüfen, [springe in das Feld](Springezu) **Produkt** des Eintrags und stelle sicher, dass das Kontrollkästchen **Verifiziert** angehakt ist: ![Verifiziert='Y'](assets/Stueckliste_Produkt_verifiziert.png).

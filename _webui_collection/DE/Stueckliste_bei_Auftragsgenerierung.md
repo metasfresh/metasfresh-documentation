@@ -30,7 +30,7 @@ Hast Du mehrere Produkte, die für die Herstellung eines neuartigen Verkaufsprod
 1. [Stelle das Angebot fertig](BelegverarbeitungFertigstellen).
 
 ### Angebot in Auftrag umwandeln
-1. [Starte die Aktion](AktionStarten) "Auftrag aus Angebot (construction)". Es öffnet sich ein Overlay-Fenster.
+1. [Starte die Aktion](AktionStarten#aktionsmenue) "Auftrag aus Angebot (construction)". Es öffnet sich ein Overlay-Fenster.
 1. Wähle die **Belegart** *Standardauftrag* aus.
 1. Klicke auf "Start", um das Overlay-Fenster zu schließen und den Auftrag zu erstellen.
 

@@ -26,7 +26,7 @@ Die Kundenstatus werden täglich automatisch aktualisiert. Eine manuelle Aktuali
 1. [Erstelle eine Rechnung](Zu_Auftrag_Rechnung_erstellen) zu dem verlängerten Vertrag (2. Rechnung). Der Kunde erhält nun den Status "Stammkunde".
 
 ### Kundenbindungsstatus einsehen
-1. Öffne den Eintrag eines Kunden in der [Einzelansicht](Ansichten) unter dem Menüpunkt "[Geschäftspartner](Menu)".
+1. Öffne den Eintrag eines Kunden in der [Einzelansicht](Ansichten#einzelansicht) unter dem Menüpunkt "[Geschäftspartner](Menu)".
 1. Suche das Feld **Kundenbindung** auf.
 
 ![](assets/Kundenbindung_Stammkunde.png)

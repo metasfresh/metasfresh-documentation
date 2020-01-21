@@ -16,11 +16,11 @@ Via product proposals in a [sales order](SalesOrder_recording) or [purchase orde
 ## Steps
 1. [Open the product proposals list](Product_proposals_open_list).
 1. [Select](RecordSelection) the line of the product whose price you want to compare with others.
-1. [Start the quick action](StartAction) "Other customers". All the entries are displayed of the business partners with whom the selected product was recently traded and at which price.
+1. [Start the quick action](StartAction#quick-actions) "Other customers". All the entries are displayed of the business partners with whom the selected product was recently traded and at which price.
 1. [Select](RecordSelection) the lines with the product prices you want to add to your current price list.
-1. [Start the quick action](StartAction) "Add products". The selected product prices have now been added to the product proposals list.
+1. [Start the quick action](StartAction#quick-actions) "Add products". The selected product prices have now been added to the product proposals list.
 1. [Select](RecordSelection) the lines with the newly added product prices.
-1. [Start the quick action](StartAction) "Save to price list". The new product prices have now been added to the respective price list.
+1. [Start the quick action](StartAction#quick-actions) "Save to price list". The new product prices have now been added to the respective price list.
 
 ### Save and continue
 1. Click "Done" to apply the changes and close the product proposals list.

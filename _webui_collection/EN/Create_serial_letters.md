@@ -18,7 +18,7 @@ With serial letters, it takes very little effort to provide a great number of yo
 ## Steps
 1. Open the entry of an existing [marketing campaign](Menu) or [add a new one](Create_MKTG_campaign).
 1. [Add contacts to the marketing campaign](Add_contacts_to_MKTG_campaign), if necessary.
-1. [Start the action](StartAction) "Create letters".
+1. [Start the action](StartAction#actions-menu) "Create letters".
 1. You will receive a [notification](Notification_types) ![](assets/NotificationBell_WebUI.png) in the upper right corner once the serial letters are created. This may take a few seconds.
 1. Click on the notification to switch to the window "[Printing Queue](Menu)".
-1. [Start the action](StartAction) "Open PDF".
+1. [Start the action](StartAction#actions-menu) "Open PDF".

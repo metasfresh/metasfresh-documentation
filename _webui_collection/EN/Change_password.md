@@ -34,7 +34,7 @@ If you are having a hard time remembering your login password or simply want to 
  >**Note:** Use shortcut `Alt` + `4` / `⌥ alt` + `4`.
 
 1. Click on "Settings".
-1. [Start the action](StartAction) "Change my password". An overlay window opens up.
+1. [Start the action](StartAction#actions-menu) "Change my password". An overlay window opens up.
 1. Enter your **Old Password**.
  >**Note:** Press and hold ![](assets/ShowPassword_Icon.png) to see the password.
 

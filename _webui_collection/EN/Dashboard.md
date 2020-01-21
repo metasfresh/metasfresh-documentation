@@ -16,10 +16,10 @@ You may also customize the dashboard according to your own requirements by addin
 
 ## Customize the Dashboard
 1. [Log in to metasfresh](Login) or open "DASHBOARD" from the [menu](Menu).
-1. Open the [actions menu](StartAction) ![](assets/actionsmenu_WebUI.png) and click "Open edit mode". A small selection pane opens up on the right-hand side of the page showing the available widgets.
+1. Open the [actions menu](StartAction#actions-menu) ![](assets/actionsmenu_WebUI.png) and click "Open edit mode". A small selection pane opens up on the right-hand side of the page showing the available widgets.
  >**Note:** Use shortcut `Alt` + `O` / `⌥ alt` + `O`.
 
-1. In order to close the selection pane and exit the edit mode, return to the [actions menu](StartAction) and click "Close edit mode".
+1. In order to close the selection pane and exit the edit mode, return to the [actions menu](StartAction#actions-menu) and click "Close edit mode".
 
 ### Add Widgets
 - Click on a widget in the selection pane and drag and drop it ![](assets/Cursor_MoveWidget_YES.png) in the desired place on the dashboard.

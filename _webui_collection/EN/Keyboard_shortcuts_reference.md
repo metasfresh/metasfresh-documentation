@@ -35,7 +35,7 @@ A dynamic search box is a searchable drop-down list, which updates with each let
 **Example**: Dynamic drop-down list<br><br>
 <kbd><img src="assets/Dynamic_Drop-down_list.gif" alt="GIF: Dynamic drop-down list"></kbd>
 
-### Document Context ([list view](ViewModes))
+### Document Context ([list view](ViewModes#list-view))
 
 | Keyboard Shortcut <br> (Windows) | Keyboard Shortcut <br> (MacOS) | Command |
 | :---: | :---: | :--- |
@@ -44,7 +44,7 @@ A dynamic search box is a searchable drop-down list, which updates with each let
 | `Alt` + `E` | `⌥ alt` + `E` | Open Advanced Edit Menu for selected document |
 | `Alt` + `Y` | `⌥ alt` + `Y` | Delete selected document |
 
-### Document Context ([detailed view](ViewModes))
+### Document Context ([detailed view](ViewModes#detailed-view))
 
 | Keyboard Shortcut <br> (Windows) | Keyboard Shortcut <br> (MacOS) | Command |
 | :---: | :---: | :--- |
@@ -67,7 +67,7 @@ A dynamic search box is a searchable drop-down list, which updates with each let
 | `Alt` + `Y` | `⌥ alt` + `Y` | Delete selected line |
 | `Alt` + `+` | `⌥ alt` + `+` | Expand / collapse record tab |
 
-### [Quick Actions](StartAction) Context
+### [Quick Actions](StartAction#quick-actions) Context
 
 | Keyboard Shortcut <br> (Windows) | Keyboard Shortcut <br> (MacOS) | Command |
 | :---: | :---: | :--- |

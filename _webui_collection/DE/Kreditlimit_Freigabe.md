@@ -21,7 +21,7 @@ Nur autorisierte Nutzer können Kreditlimits freigeben. Sie erhalten eine Benach
 1. Gehe zur Registerkarte "Kreditlimit" unten auf der Seite und [selektiere](AuswahlBelege) die Zeile des Kreditlimits, welches freigegeben werden soll.
  >**Hinweis:** In dem Kontrollkästchen der Spalte **Freigegeben** dieser Zeile ist kein Häkchen gesetzt.
 
-1. [Starte die Aktion](AktionStarten) "Kreditlimit freigeben".
+1. [Starte die Aktion](AktionStarten#aktionsmenue) "Kreditlimit freigeben".
 1. [metasfresh speichert automatisch](Speicheranzeige).
  >**Hinweis:** Die Meldung "Process completed successfully" erscheint oben rechts im Fenster, in dem Kontrollkästchen der Spalte **Freigegeben** wird ein Häkchen gesetzt und das Feld **Freigegeben von** wird mit dem Namen des autorisierten Nutzers ausgefüllt.
 

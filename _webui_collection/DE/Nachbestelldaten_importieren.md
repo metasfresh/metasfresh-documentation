@@ -20,7 +20,7 @@ Stelle sicher, dass alle Voraussetzungen für den [Datenimport in metasfresh](Da
 
 ### Importdatei hochladen und importieren
 1. [Lade Deine Importdatei mit den Nachbestelldaten hoch](Dateihandling).
-1. [Starte die Aktion](AktionStarten) "Import attachment". Es öffnet sich ein Overlay-Fenster.
+1. [Starte die Aktion](AktionStarten#aktionsmenue) "Import attachment". Es öffnet sich ein Overlay-Fenster.
 1. Wähle im Feld **Anhang** die hochgeladene [Importdatei](Importdatei_nuetzliche_Hinweise) aus.
 1. Klicke auf "Start", um die Nachbestelldaten zu importieren und das Overlay-Fenster zu schließen.
 
@@ -31,6 +31,6 @@ Stelle sicher, dass alle Voraussetzungen für den [Datenimport in metasfresh](Da
  - Sollten einige Daten beim Import nicht oder fehlerhaft übertragen worden sein, kannst Du diese Fehler im jeweiligen Nachbestellungseintrag unter "[Import Replenishment](Menu)" korrigieren. Hast Du alle Fehler behoben, kannst Du die Nachbestelldaten nun manuell importieren. Gehe hierzu wie folgt vor:
 
 #### Nachbestelldaten manuell importieren
-1. [Starte die Aktion](AktionStarten) "Import Replenishments". Es öffnet sich ein Overlay-Fenster.
+1. [Starte die Aktion](AktionStarten#aktionsmenue) "Import Replenishments". Es öffnet sich ein Overlay-Fenster.
 1. Klicke auf "Start", um die Nachbestelldaten zu importieren und das Overlay-Fenster zu schließen.
 1. Die importierten Nachbestelldaten findest Du nun im jeweiligen [Lager](Menu)- und [Produkt](Menu)eintrag unter der Registerkarte "Nachbestellung" wieder.
