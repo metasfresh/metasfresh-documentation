@@ -1,5 +1,5 @@
 ---
-title: How do I add a new data entry under a tab?
+title: How do I add a new data entry under a record tab?
 layout: default
 tags:
   - Data Management
@@ -13,4 +13,4 @@ ref: new_record_tab
 Simply click !["Add new"](assets/Add_New_Button.png).
 
 ## Example
-![](assets/New_Record_Tab.gif)
+<kbd><img src="assets/New_Record_Tab.gif" alt="GIF: Add a new data entry under a record tab"></kbd>
