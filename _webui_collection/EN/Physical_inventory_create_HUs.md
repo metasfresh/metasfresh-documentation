@@ -1,5 +1,5 @@
 ---
-title: How do I take inventory? (or: How to create Handling Units)
+title: How do I take inventory? (or&#58; How to create Handling Units)
 layout: default
 tags:
   - Master Data
