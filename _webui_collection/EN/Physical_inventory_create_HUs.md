@@ -7,7 +7,7 @@ tags:
   - Inventory
 lang: en
 sequence: 10
-ref: inventory_create_hus
+ref: physical_inventory_create_hus
 ---
 
 ## Overview

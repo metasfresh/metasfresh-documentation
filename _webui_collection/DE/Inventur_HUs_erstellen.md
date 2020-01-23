@@ -7,7 +7,7 @@ tags:
   - Inventur
 lang: de
 sequence: 10
-ref: inventory_create_hus
+ref: physical_inventory_create_hus
 ---
 
 ## Überblick
