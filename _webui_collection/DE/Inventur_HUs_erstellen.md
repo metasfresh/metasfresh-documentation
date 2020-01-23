@@ -1,5 +1,5 @@
 ---
-title: Wie führe ich eine Inventur durch? (*oder:* Handling Units erstellen)
+title: Wie führe ich eine Inventur durch? (oder: Handling Units erstellen)
 layout: default
 tags:
   - Stammdaten

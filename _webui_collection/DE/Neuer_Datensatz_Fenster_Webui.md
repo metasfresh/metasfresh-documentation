@@ -17,4 +17,4 @@ Klicke auf ![](assets/actionsmenu_WebUI.png)
 und dann auf "Neu".
 
 ## Beispiel
-![](assets/neuerdatensatzfenster.gif)
+<kbd><img src="assets/Neuer_Datensatz_Fenster_WebUI.gif" alt="GIF: Neuen Dateneintrag in einem Fenster anlegen"></kbd>

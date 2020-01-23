@@ -1,5 +1,5 @@
 ---
-title: How do I take inventory? (*or:* How to create Handling Units)
+title: How do I take inventory? (or: How to create Handling Units)
 layout: default
 tags:
   - Master Data
@@ -11,7 +11,7 @@ ref: inventory_create_hus
 ---
 
 ## Overview
-In metasfresh, you can record inventory levels and also add new [handling units](Handling_Unit_System) to your stock via inventory.
+In metasfresh, you can record inventory levels and also add new [handling units](Handling_Unit_System) to your stock via physical inventory.
 
 ## Steps
 1. Open "Physical Inventory" from the [menu](Menu).
