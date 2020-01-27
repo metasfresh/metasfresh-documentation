@@ -4,7 +4,7 @@ layout: default
 tags:
   - Workflow
   - Verkauf
-  - CRM
+  - Reklamation
 lang: de
 sequence: 40
 ref: customer_returns
