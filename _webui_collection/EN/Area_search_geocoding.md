@@ -4,6 +4,7 @@ layout: default
 tags:
   - A Beginner's Guide to metasfresh
   - Usage
+  - Geographical Data and Functions
   - Area Search
 lang: en
 sequence: 10

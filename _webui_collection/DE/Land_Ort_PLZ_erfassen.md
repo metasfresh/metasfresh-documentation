@@ -4,10 +4,9 @@ layout: default
 tags:
   - Anfängertipps für metasfresh
   - Benutzung
-  - Umkreissuche
-  - Länder, Orte und Postleitzahlen
+  - Geografische Daten und Funktionen
 lang: de
-sequence: 10
+sequence: 20
 ref: add_country_city_postal_code
 ---
 

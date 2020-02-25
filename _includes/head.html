@@ -3,14 +3,17 @@
     <head>
         <meta charset="utf-8">
         <title>{{ page.title }}</title>
-		<link rel="stylesheet" href="{{ site.github.url }}/css/github-markdown.css"/>
+    <link rel="stylesheet" type="text/css" href="{{ site.github.url }}/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="{{ site.github.url }}/css/grid.css">
+		<link rel="stylesheet" type="text/css" href="{{ site.github.url }}/css/github-markdown.css"/>
+    <link rel="stylesheet" type="text/css" href="{{ site.github.url }}/css/styles.css"/>
 		<style>
 			.markdown-body {
 				box-sizing: border-box;
 				min-width: 200px;
 				max-width: 980px;
 				margin: 0 auto;
-				padding: 45px;
+				padding: 30px 45px 45px 45px;
 			}
 		</style>
     </head>
@@ -29,15 +32,24 @@
 
 
 		{% if lang='en' or include.lang='en' %}
-			{% assign metasfresh_home = 'http://metasfresh.com/en/' %}
+			{% assign metasfresh_home = 'https://metasfresh.com/en/' %}
 		{% else %}
-			{% assign metasfresh_home = 'http://metasfresh.com' %}
+			{% assign metasfresh_home = 'https://metasfresh.com/' %}
 		{% endif %}
 
-		<a href="{{ metasfresh_home }}">
-			<img src="{{ site.github.url }}/images\metasfreshNEG_400px.jpg" alt="metasfresh logo and link to homepage" style="position: absolute; top: 0; right: 0; width: 200px; text-align:center;"> 
-		</a>
 
-		<nav>
-			<a href="{{ site.github.url }}/index.html">Zurück zur Startseite</a>
-		</nav>
+    <header>
+            <nav>
+                <div class="row">
+                    <div class="main-nav">
+                        <a href="{{ site.github.url }}/index.html">Zurück zur Startseite</a>
+                    </div>
+                    <a href="{{ metasfresh_home }}" title="Go to metasfresh.com" target="_blank">
+                      <img src="{{ site.github.url }}/images/metasfreshNEG_400px.jpg" alt="metasfresh logo and link to homepage" class="logo">
+                    </a>
+                </div>
+            </nav>
+        <div class="row">
+            <h1>{{ page.title }}</h1>
+        </div>
+    </header>

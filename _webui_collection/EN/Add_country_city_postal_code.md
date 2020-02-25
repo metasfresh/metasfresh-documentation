@@ -4,10 +4,9 @@ layout: default
 tags:
   - A Beginner's Guide to metasfresh
   - Usage
-  - Area Search
-  - Countries, Cities and Postal Codes
+  - Geographical Data and Functions
 lang: en
-sequence: 10
+sequence: 20
 ref: add_country_city_postal_code
 ---
 

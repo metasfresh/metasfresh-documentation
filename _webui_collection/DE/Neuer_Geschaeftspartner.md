@@ -32,4 +32,4 @@ ref: new_business_partner
 1. Erfasse zusätzliche [Tooltip-Informationen](GP_Memo_Tooltip) für den Geschäftspartner.
 
 ## Beispiel
-![](assets/Neuer_GPartner.gif)
+<kbd><img src="assets/Neuer_GPartner.gif" alt="GIF: Geschäftspartner erfassen"></kbd>
