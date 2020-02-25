@@ -32,4 +32,4 @@ ref: new_business_partner
 1. Record additional [tooltip information](BP_memo_tooltip) about the business partner.
 
 ## Example
-![](assets/New_BPartner.gif)
+<kbd><img src="assets/New_BPartner.gif" alt="GIF: Add a new business partner"></kbd>

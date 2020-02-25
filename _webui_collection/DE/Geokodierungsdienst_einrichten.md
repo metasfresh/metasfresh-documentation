@@ -4,6 +4,7 @@ layout: default
 tags:
   - Anfängertipps für metasfresh
   - Benutzung
+  - Geografische Daten und Funktionen
   - Umkreissuche
   - Einrichtung
 lang: de

@@ -9,6 +9,11 @@ sequence: 30
 ref: add_address_tab
 ---
 
+## Überblick
+Die Geschäftspartneradresse setzt sich in metasfresh aus verschiedenen Daten zusammen und erscheint auf Belegen wie [Auftragsbestätigung](Auftrag_erfassen), [Lieferschein](Zu_Auftrag_Lieferschein_erstellen), [Rechnung](Zu_Auftrag_Rechnung_erstellen) usw.
+
+[Hier](Zusammensetzung_Belegadresse) siehst Du, woraus sich eine Belegadresse zusammensetzt.
+
 ## Schritte
 1. Öffne den Eintrag eines bestehenden [Geschäftspartners](Menu) in der [Einzelansicht](Ansichten#einzelansicht) bzw. [lege einen neuen an](Neuer_Geschaeftspartner).
 1. Gehe zur Registerkarte "Adresse" unten auf der Seite und klicke auf !["Neu hinzufügen"](assets/Neu_hinzufuegen_Button.png). Es öffnet sich ein Overlay-Fenster.

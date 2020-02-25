@@ -9,6 +9,11 @@ sequence: 30
 ref: add_address_tab
 ---
 
+## Overview
+The business partner address in metasfresh comprises a set of different data and appears on documents such as [order confirmation](SalesOrder_recording), [delivery note](Ship_SalesOrder), [invoice](Invoice_SalesOrder), etc.
+
+[This example](Address_composition) shows you which data is used to compose a document address.
+
 ## Steps
 1. Open the entry of an existing [business partner](Menu) in the [detailed view](ViewModes#detailed-view) or [add a new one](New_Business_Partner).
 1. Go to the record tab "Location" at the bottom of the page and click !["Add new"](assets/Add_New_Button.png). An overlay window opens up.

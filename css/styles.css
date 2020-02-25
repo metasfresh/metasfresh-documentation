@@ -1,0 +1,25 @@
+.clearfix {zoom: 1}
+.clearfix:after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+/* Main Navigation */
+.main-nav {
+    float: left;
+    list-style: none;
+    margin-top: 25px;
+}
+
+.main-nav a {
+    display: inline-block;
+}
+
+.logo {
+    float: right;
+    height: auto;
+    width: 200px;
+}
