@@ -24,4 +24,4 @@ ref: add_new_calendar_periods
 1. [Springe über das Kontextmenü](Springezu_Kontextmenue) ![](assets/Kalenderperiode Kontextmenue.png) des zuvor neu erstellten Jahreseintrages in das Fenster "Periode". Hier siehst Du nun eine Auflistung der einzelnen Monate aus der Periode.
 
 ## Beispiel
-![](assets/Kalenderperioden_hinzufuegen.gif)
+<kbd><img src="assets/Neue_Kalenderperiode_anlegen.gif" alt="GIF: Neue Kalenderperiode anlegen"></kbd>

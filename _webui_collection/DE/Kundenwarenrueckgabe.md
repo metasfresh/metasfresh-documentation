@@ -4,7 +4,7 @@ layout: default
 tags:
   - Workflow
   - Verkauf
-  - Reklamation
+  - Reklamationen
 lang: de
 sequence: 40
 ref: customer_returns
@@ -37,4 +37,4 @@ ref: customer_returns
 1. [Öffne die PDF-Vorschau](PDFVorschau) des Belegs.
 
 ## Beispiel
-![](assets/Kundenwarenrueckgabe.gif)
+<kbd><img src="assets/Kundenwarenrueckgabe.gif" alt="GIF: Kundenwarenrückgabe"></kbd>

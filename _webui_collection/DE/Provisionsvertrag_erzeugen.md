@@ -36,7 +36,7 @@ Server error<br>
 Der Vertragszeitraum Jan 1, <script>document.write(new Date().getFullYear())</script> bis Dec 31, <script>document.write(new Date().getFullYear())</script> hat keine Perioden.</kbd><br><br>
 
 Diese Fehlermeldung weist darauf hin, dass für den ausgewählten Vertragszeitraum keine Kalenderperioden exisiteren.<br>
-Solltest Du bei **Schritt 5** diese Fehlermeldung erhalten, dann folge dieser [Anleitung zur Erstellung neuer Kalenderperioden](Kalenderperioden_hinzufuegen) für den ausgewählten Vertragszeitraum.
+Solltest Du bei **Schritt 5** diese Fehlermeldung erhalten, dann folge dieser [Anleitung zur Erstellung neuer Kalenderperioden](Neue_Kalenderperiode_anlegen) für den ausgewählten Vertragszeitraum.
 
 ## Nächste Schritte
 1. [Ordne den Vertriebspartner einem oder mehreren Kunden zu](Vertriebspartner_Kunden_zuordnen).

@@ -24,4 +24,4 @@ ref: add_new_calendar_periods
 1. Use the [context menu](Jumpto_via_context_menu) ![](assets/Calendar periods context menu.png) of the newly created year entry from before to switch into the window "Calendar Periods" where you will see a list of all the months from this period.
 
 ## Example
-![](assets/Add new calendar periods.gif)
+<kbd><img src="assets/Add new calendar periods.gif" alt="GIF: Add new calendar periods"></kbd>
