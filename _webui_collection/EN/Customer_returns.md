@@ -4,7 +4,7 @@ layout: default
 tags:
   - Workflow
   - Sales
-  - CRM
+  - Complaints Handling
 lang: en
 sequence: 40
 ref: customer_returns
@@ -37,4 +37,4 @@ ref: customer_returns
 1. [Open the PDF print preview](PrintPreview).
 
 ## Example
-![](assets/Customer_returns.gif)
+<kbd><img src="assets/Customer_returns.gif" alt="GIF: Customer returns"></kbd>

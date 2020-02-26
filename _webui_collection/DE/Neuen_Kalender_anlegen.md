@@ -16,7 +16,7 @@ ref: add_new_calendar
 1. [metasfresh speichert automatisch](Speicheranzeige).
 
 ## Nächste Schritte
-- [Füge Kalenderperioden hinzu](Kalenderperioden_hinzufuegen).
+- [Füge Kalenderperioden hinzu](Neue_Kalenderperiode_anlegen).
 
 ## Beispiel
 ![](assets/Neuen_Kalender_anlegen.gif)
