@@ -31,10 +31,10 @@
 </script>
 
 
-		{% if page.lang == 'en' or include.lang == 'en' %}
-			{% assign metasfresh_home = 'https://metasfresh.com/en/' %}
-		{% else %}
+		{% if page.lang == 'de' or include.lang == 'de' %}
 			{% assign metasfresh_home = 'https://metasfresh.com/' %}
+		{% else %}
+			{% assign metasfresh_home = 'https://metasfresh.com/en/' %}
 		{% endif %}
 
 
