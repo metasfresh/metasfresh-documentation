@@ -31,7 +31,7 @@
 </script>
 
 
-		{% if lang='en' or include.lang='en' %}
+		{% if page.lang == 'en' or include.lang == 'en' %}
 			{% assign metasfresh_home = 'https://metasfresh.com/en/' %}
 		{% else %}
 			{% assign metasfresh_home = 'https://metasfresh.com/' %}
@@ -49,7 +49,7 @@
                 </a>
             </div>
         </nav>
-        
+
         <div class="row">
             <h1>{{ page.title }}</h1>
         </div>
