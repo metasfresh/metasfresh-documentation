@@ -9,7 +9,7 @@ ref: general_info_rest_api
 ---
 
 ## Überblick
-Über den metasfresh Webservice (REST API) kannst Du externe Daten nach metasfresh übertragen sowie bestehende Dateneinträge aus dem System abrufen, aktualisieren oder löschen. Dies erfolgt über sogenannte *API-Endpunkte*, wobei jeder Endpunkt für die Migration bestimmter Datensätze eingerichtet ist, die mittels Serveranfrage im <a href="https://www.json.org/json-de.html" title="Einführung in JSON" target="blank">JSON-Format</a> an den metasfresh Application Server übermittelt werden können.
+Über den metasfresh Webservice (REST API) kannst Du externe Daten nach metasfresh übertragen sowie bestehende Dateneinträge aus dem System abrufen, aktualisieren oder löschen. Dies erfolgt über sogenannte *API-Endpunkte*, wobei jeder Endpunkt für die Migration bestimmter Datensätze eingerichtet ist, die mittels Serveranfrage im <a href="https://www.json.org/json-de.html" title="Einführung in JSON" target="_blank">JSON-Format</a> an den metasfresh Application Server übermittelt werden können.
 Eine Besonderheit der metasfresh REST API ist, dass Du Datenmigrationen, die im Normalfall über die einzelnen Endpunkte erfolgen würden, ebenso gut in nur einer Serveranfrage zusammenfassen kannst, im Zuge dessen gleich mehrere Dateneinträge auf einmal angelegt werden. So lässt sich z.B. bei der Migration eines Auftragskandidaten in die Auftragsdisposition von metasfresh gleichzeitig ein neuer Geschäftspartner- und Produkteintrag anlegen.
 
 Eine Vorlage für eine Serveranfrage im JSON-Format steht für jeden Endpunkt zur Verfügung und kann an der jeweiligen Stelle (![Anfragevorlage](assets/example_value.png)) eingesehen, kopiert und mit den gewünschten Daten ergänzt werden. Eine Beschreibung des Anfrage-Modells (![Anfrage-Modell](assets/model.png)) mit Erläuterungen zu den einzelnen Elementen hilft Dir bei der Erstellung Deiner eigenen Serveranfrage.
@@ -22,7 +22,7 @@ Um den Webservice nutzen zu können, benötigst Du allerdings ein Autorisierungs
  >**Hinweis:** Die URL setzt sich in der Regel folgendermaßen zusammen:<br> https://`instanzname###`.metasfresh.com/app/swagger-ui.html#/
 
 1. Öffne den Endpunkt, den Du zur Datenmigration verwenden möchtest, durch Anklicken des Endpunktnamens.
-1. Klicke links unterhalb des Endpunktnamens auf die gewünschte <a href="https://wiki.selfhtml.org/wiki/HTTP/Anfragemethoden" title="HTTP-Anfragemethoden" target="blank">Anfragemethode</a>.
+1. Klicke links unterhalb des Endpunktnamens auf die gewünschte <a href="https://wiki.selfhtml.org/wiki/HTTP/Anfragemethoden" title="HTTP-Anfragemethoden" target="_blank">Anfragemethode</a>.
 1. Klicke rechts unterhalb der Anfragemethode auf ![Ausprobieren](assets/button_try_it_out.png). Die Eingabefelder **Authorization token** und **request** werden editierbar.
 1. Füge in das Feld **Authorization token** Dein Autorisierungstoken ein.
 1. Füge in das Feld **request** Deine vorbereitete Serveranfrage im JSON-Format ein.

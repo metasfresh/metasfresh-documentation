@@ -8,4 +8,4 @@ lang: de
 ---
 
 ## Installation unter Windows
-<a href="http://metasfresh.com/dokumentation/client-installation/" title="metasfresh Client-Installation unter Windows" target="blank">Anleitung auf metasfresh.com</a>.
+<a href="http://metasfresh.com/dokumentation/client-installation/" title="metasfresh Client-Installation unter Windows" target="_blank">Anleitung auf metasfresh.com</a>.

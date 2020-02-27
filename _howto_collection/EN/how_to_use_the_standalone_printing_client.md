@@ -18,7 +18,7 @@ It can retrieve print jobs from metasfresh and perform them using your printers.
 
 * The client is a single jar file that can be executed with java.
   * This means that you need to have a java runtime environment (JRE) on the computer where the client shall run.
-* The client needs to run on a local system of yours which needs to have access to your printer(s). The client will use java's <a href="https://docs.oracle.com/javase/8/docs/technotes/guides/jps/spec/jpsOverview.fm4.html" title="Print Service API" target="blank">Print Service API</a> to access those printers.
+* The client needs to run on a local system of yours which needs to have access to your printer(s). The client will use java's <a href="https://docs.oracle.com/javase/8/docs/technotes/guides/jps/spec/jpsOverview.fm4.html" title="Print Service API" target="_blank">Print Service API</a> to access those printers.
 * Can be obtained in different ways:
   * The client is available from our artifact repository. The latest release version can be obtained [here](https://repo.metasfresh.com/service/local/artifact/maven/redirect?g=de.metas.printing&a=de.metas.printing.client&v=LATEST&r=mvn-release&p=jar&c=jar-with-dependencies).
   * If you installed the metasfresh.tar.gz distribution, then the current version of the printing client binary is the file `de.metas.printing.client-jar-with-dependencies.jar`, located in your metasfresh server's `/opt/metasfresh/download` folder.

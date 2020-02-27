@@ -31,7 +31,7 @@ metasfresh verfügt derzeit über Schnittstellen für die folgenden Geokodierung
 1. Wähle im Feld **Geocoding Dienst Provider** den gewünschten Geokodierungsdienst aus.
 
 ### <a name="google-maps">Google Maps einrichten</a>
-1. <a href="https://cloud.google.com/maps-platform/pricing/" title="API-Zugang über die Google Maps Plattform" target="blank">Folge dieser Anleitung von Google</a>, um Dir Zugang zur Anwendungsschnittstelle zu verschaffen und einen persönlichen API-Schlüssel zu generieren.
+1. <a href="https://cloud.google.com/maps-platform/pricing/" title="API-Zugang über die Google Maps Plattform" target="_blank">Folge dieser Anleitung von Google</a>, um Dir Zugang zur Anwendungsschnittstelle zu verschaffen und einen persönlichen API-Schlüssel zu generieren.
 1. Trage in das Feld **Google Maps - API-Schlüssel** den API-Schlüssel ein, den Du von Google für die Einrichtung erhalten hast. Üblicherweise beginnt dieser mit `AIza...`.
 
 ### <a name="open-street-maps">Open Street Maps einrichten</a>

@@ -12,7 +12,7 @@ ref: define_contractual_terms_commission
 ---
 
 ## Requirements
-- [Define the conditions for granting commission.](Commission_conditons_details).
+- [Define the conditions for granting commission](Commission_conditons_details).
 
 ## Steps
 Follow these [instructions for entering a sales order](SalesOrder_recording) taking into account the following settings:

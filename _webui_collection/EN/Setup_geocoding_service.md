@@ -31,7 +31,7 @@ metasfresh currently offers interfaces for the following geocoding services:
 1. Pick the desired **Geocoding Provider**.
 
 ### <a name="google-maps">Set up Google Maps</a>
-1. <a href="https://cloud.google.com/maps-platform/pricing/" title="API access via the Google Maps Platform" target="blank">Follow these instructions from Google</a> to gain access to the API and generate a personal API key.
+1. <a href="https://cloud.google.com/maps-platform/pricing/" title="API access via the Google Maps Platform" target="_blank">Follow these instructions from Google</a> to gain access to the API and generate a personal API key.
 1. In the field **Google Maps - API Key**, enter the API key provided by Google for setup. It usually starts with `AIza...`.
 
 ### <a name="open-street-maps">Set up Open Street Maps</a>
