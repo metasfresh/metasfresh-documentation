@@ -7,7 +7,7 @@ lang: en
 ---
 ## Install
 
-Download Atom from the <a href="https://atom.io/" title="atom.io" target="blank">official website</a>.
+Download Atom from the <a href="https://atom.io/" title="atom.io" target="_blank">official website</a>.
 
 ## Configuring
 

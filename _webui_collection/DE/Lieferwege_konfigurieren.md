@@ -36,8 +36,8 @@ metasfresh verfügt derzeit über Schnittstellen für den Versand mit folgenden 
 ---
 
 ### <a name="dpd-konfiguration">DPD Konfiguration</a>
-1. Trage in das Feld **URL Api Login** die URL für die <a href="http://diswiki.dpd.nl/wiki/2/login-service" title="dpd Login Service" target="blank">Anmeldung und Authentifizierung</a> gegenüber der DPD-Anwendungsschnittstelle ein.
-1. Trage in das Feld **URL Api Shipment Service** die URL für den Zugriff auf die <a href="http://diswiki.dpd.nl/wiki/3/shipment-service" title="dpd Shipment Service" target="blank">Versandschnittstelle</a> ein, über die die Versandscheine generiert werden.
+1. Trage in das Feld **URL Api Login** die URL für die <a href="http://diswiki.dpd.nl/wiki/2/login-service" title="dpd Login Service" target="_blank">Anmeldung und Authentifizierung</a> gegenüber der DPD-Anwendungsschnittstelle ein.
+1. Trage in das Feld **URL Api Shipment Service** die URL für den Zugriff auf die <a href="http://diswiki.dpd.nl/wiki/3/shipment-service" title="dpd Shipment Service" target="_blank">Versandschnittstelle</a> ein, über die die Versandscheine generiert werden.
 1. Trage die **Delis ID** ein, die Du von DPD für die Einrichtung erhalten hast.
 1. Trage das **Delis Passwort** ein, das Du von DPD für die Einrichtung erhalten hast.
 1. Wähle ein **Papierformat** für die Versandscheine aus.
@@ -45,7 +45,7 @@ metasfresh verfügt derzeit über Schnittstellen für den Versand mit folgenden 
 
 | **Wichtiger Hinweis:** |
 | :--- |
-| Folgende DPD-Dienste stehen derzeit zur Verfügung:<br> •&nbsp;<a href="https://www.dpd.com/de/de/versenden/paketversand/" title="DPD CLASSIC Paketversand" target="blank">DPD CLASSIC</a> (in Deutschland und ganz Europa)<br> •&nbsp;<a href="https://www.dpd.com/de/de/versenden/expressversand/" title="DPD Expressversand" target="blank">DPD EXPRESS E12</a> (innerhalb Deutschlands) |
+| Folgende DPD-Dienste stehen derzeit zur Verfügung:<br> •&nbsp;<a href="https://www.dpd.com/de/de/versenden/paketversand/" title="DPD CLASSIC Paketversand" target="_blank">DPD CLASSIC</a> (in Deutschland und ganz Europa)<br> •&nbsp;<a href="https://www.dpd.com/de/de/versenden/expressversand/" title="DPD Expressversand" target="_blank">DPD EXPRESS E12</a> (innerhalb Deutschlands) |
 
 ## Nächste Schritte
 - [Richte einen Lieferweg Deiner Wahl als Standardlieferweg für einen bestimmten Kunden ein](GPartner_Standardlieferweg_einrichten).

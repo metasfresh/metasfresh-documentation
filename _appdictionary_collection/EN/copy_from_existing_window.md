@@ -11,7 +11,7 @@ ref: copy_from_existing_window
 ## Overview
 This process copies all elements from an existing window into the window you currently have selected.
 
-See also <a href="https://forum.metasfresh.org/t/use-process-for-copy-window/1288" title="Use process for copy window | forum.metasfresh.org" target="blank">this forum post</a>.
+See also <a href="https://forum.metasfresh.org/t/use-process-for-copy-window/1288" title="Use process for copy window | forum.metasfresh.org" target="_blank">this forum post</a>.
 
 ## Steps
 1. Create a new empty window.

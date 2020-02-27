@@ -42,11 +42,21 @@
         <nav>
             <div class="row">
                 <div class="main-nav">
-                    <a href="{{ site.github.url }}/index.html">Zurück zur Startseite</a>
+                    {% if page.name == "index.md" %}
+                        <a href="https://metasfresh.com/en/category/blog-en/" target="_blank">Visit our blog on metasfresh.com!</a>
+                    {% else %}
+                        {% if page.lang == 'de' or include.lang == 'de' %}
+                            <a href="{{ site.github.url }}/index.html">Zurück zur Startseite</a>
+                        {% else %}
+                            <a href="{{ site.github.url }}/index.html">Return to Home</a>
+                        {% endif %}
+                    {% endif %}
                 </div>
-                <a href="{{ metasfresh_home }}" title="Go to metasfresh.com" target="_blank">
-                    <img src="{{ site.github.url }}/images/metasfreshNEG_400px.jpg" alt="metasfresh logo and link to homepage" class="logo">
-                </a>
+                {% if page.lang == 'de' or include.lang == 'de' %}
+                    <a href="{{ metasfresh_home }}" title="Zur metasfresh.com Homepage" target="_blank"><img src="{{ site.github.url }}/images/metasfreshNEG_400px.jpg" alt="metasfresh Logo und Link zur Website" class="logo"></a>
+                {% else %}
+                    <a href="{{ metasfresh_home }}" title="Visit metasfresh.com" target="_blank"><img src="{{ site.github.url }}/images/metasfreshNEG_400px.jpg" alt="metasfresh logo and link to website" class="logo"></a>
+                {% endif %}
             </div>
         </nav>
 

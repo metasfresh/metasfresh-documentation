@@ -27,5 +27,5 @@ In order to assign a price to commission points, please proceed as follows:
 1. Click "Done" to close the overlay window and add the price to the list.
 
 ## Next Steps
-1. [Define the conditions for granting commission.](Commission_conditons_details).
+1. [Define the conditions for granting commission](Commission_conditons_details).
 1. [Enter a sales order using a sales partner entitled to commission](Salesorder_recording_sales_partner).
