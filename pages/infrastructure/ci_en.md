@@ -4,7 +4,7 @@ layout: default
 tags: CI, infrastructure
 ---
 
-# Intro
+## Intro
 
 When building and deploying artifacts on our CI infrastructure, we build the "master" branch, but also feature branches like "FRESH-123".
 
@@ -22,7 +22,7 @@ Some side notes
 ** https://axelfontaine.com/blog/final-nail.html
 * obviously, this would not have been possible without the great people that provided us with jenkins, git, the jenkins-git-plugin, linux etc. etc.
 
-# The `metasfresh-dependency.version` build property
+## The `metasfresh-dependency.version` build property
 
 The property **`metasfresh-dependency.version`** plays an important role when resolving metasfresh dependencies.
 It is specified in the [pom.xml](https://github.com/metasfresh/metasfresh-parent/blob/master/pom.xml) of our [metasfresh-parent](https://github.com/metasfresh/metasfresh-parent), and there it is set to
@@ -42,7 +42,7 @@ On the CI side, we distinguish between "master" builds and "feature" builds.
 
 Note that there are dedicated "master" and "feature" build jobs, to  make it easier to e.g. provide a dedicated build agent for each kind of job, or to be able to prefer master builds to feature builds if needed.
 
-# "master" build
+## "master" build
 
 When doing a "master" build, all metasfresh dependencies are built from their respective git repositories' master branches.
 Also, the build artifacts' versions are each set to `1-master-SNAPSHOT`, as well as the value of the `metasfresh-dependency.version` property, and then the actual build starts.
@@ -51,13 +51,13 @@ Therefore, in a "master" build, only artifacts from the master branch are consid
 
 This scenario is comparatively boring and ***not*** the reason why we need the metasfresh-dependency.version property and all build jobs & documentation.
 
-# "feature" build
+## "feature" build
 
 When doing a "feature" build, it means that the respective build itself ***or at least one of its metasfresh dependencies*** are built from their respective repositories' "not-master" branches.
 Typically, this is a branch like "FRESH-123", but it might also be some other branch.
 So, calling it a "feature" build is usually correct and seems to be relatively clear to me, but calling it "not-master" build would actually be more correct.
 
-## A concrete example
+### A concrete example
 
 In this section, we describe a concrete example, from a high-level view.
 
@@ -102,7 +102,7 @@ So, to summarize: in this example
 * Because it contains one "feature" artifact from branch `FRESH-276`, this from-master-branch-build's result is versioned as `2-FRESH-276-SNAPSHOT`. This is important to avoid mixing it up with a "master" build of `metasfresh-procurement-webui`.
 * When resolving its `metasfresh` dependencies the "feature" build of `metasfresh-procurement-webui` prefers `2-FRESH-276-SNAPSHOT`, but willingly falls back to `1-master-SNAPSHOT` in the case of metasfresh.
 
-## `_feature_webhook` vs `_feature_downstream` build jobs
+### `_feature_webhook` vs `_feature_downstream` build jobs
 
 In the previous section, we described how a `_feature_webhook` build job was notified by github and later, how a `_feature_downstream` job was invoked to check for the `feature`-branch and fall back to the `master`-branch if there wasn't a feature branch.
 
