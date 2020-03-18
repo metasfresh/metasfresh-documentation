@@ -10,7 +10,7 @@ ref: quickstart
 
 ## Requirements
 - Get access to a running metasfresh system.
-- You can install metasfresh on your server by using this [instruction manual](http://docs.metasfresh.org/pages/installation/index_en) or by creating a free online account via the [metasfresh website](http://metasfresh.com/en/nextgen).
+- You can install metasfresh on your server by using this [instruction manual](https://docs.metasfresh.org/pages/installation/index_en) or by creating a free online account via the [metasfresh website](https://metasfresh.com/en/nextgen).
 
 ## Steps
 1. [Log in to metasfresh](Login).

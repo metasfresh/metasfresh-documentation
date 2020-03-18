@@ -10,7 +10,7 @@ lang: en
 
 ## Installation on Ubuntu Server
 
-[Instructions available on metasfresh.com](http://metasfresh.com/dokumentation/installation-metas-fresh-unter-ubuntu-mittels-installationspaket/)
+[Instructions available on metasfresh.com](https://metasfresh.com/dokumentation/installation-metas-fresh-unter-ubuntu-mittels-installationspaket/)
 
 ## Next steps
 

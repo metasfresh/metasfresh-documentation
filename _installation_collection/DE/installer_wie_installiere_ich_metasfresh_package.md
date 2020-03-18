@@ -24,7 +24,7 @@ Wenn Du eine flexiblere Installation bevorzugst, probiere doch die Installation 
 
 
 ## Installation
-1. Lade Dir den aktuellsten metasfresh-Server Installer [hier](http://metasfresh.com/download/) auf Deinen Server.
+1. Lade Dir den aktuellsten metasfresh-Server Installer [hier](https://metasfresh.com/download/) auf Deinen Server.
 1. Führe ein Update der Quellen auf Deinem Ubuntu Server durch.
 ```bash
 user@host:~/$ sudo apt update

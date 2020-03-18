@@ -15,4 +15,4 @@ Now I was expecting this extra order line to have an invoice candidate that I ca
 ## Explanation
 The invoice candidates for packing materials are not generated from sales order line but from picking.
 So they will appear once you picked the sales order lines and select the final and actual packing material there.
-This is to support a different packing material on shipping. Once the in/out is created the packing material will have an invoice candidate under "[Billing Candidates](http://docs.metasfresh.org/webui_collection/EN/Menu.html)".
+This is to support a different packing material on shipping. Once the in/out is created the packing material will have an invoice candidate under "[Billing Candidates](https://docs.metasfresh.org/webui_collection/EN/Menu.html)".

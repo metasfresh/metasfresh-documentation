@@ -10,4 +10,4 @@ lang: en
 
 ## Installation on Windows systems
 
-[Instructions available on metasfresh.com](http://metasfresh.com/dokumentation/client-installation/)
+[Instructions available on metasfresh.com](https://metasfresh.com/dokumentation/client-installation/)
