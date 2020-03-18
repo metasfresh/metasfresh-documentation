@@ -3,7 +3,7 @@ title: Wie konfiguriere ich IBANs? (Systemadministrator)
 layout: default
 description: "Lernen Sie, wie man IBANs in metasfresh konfiguriert, um gültige internationale Bankkontonummern für Geschäfte weltweit zu verwenden."
 tags:
-  - Master Data
+  - Stammdaten
   - Bank- und Kontodaten
 lang: de
 sequence: 10
@@ -15,7 +15,7 @@ Ohne die Struktur der internationalen Bankkontonummer (IBAN) vorab festzulegen, 
 
 | **Hinweis:** |
 | :--- |
-| Mehr Informationen über die Zusammensetzung von IBANs und BBANs findest Du in dem offiziellen <a href="https://www.swift.com/sites/default/files/resources/iban_registry.pdf" title="Data Standards (BIC, IBAN, LEI) &#124; swift.com" target="_blank">IBAN-Register</a> oder auf der <a href="https://www.ecbs.org/iban.htm" title="International Bank Account Number &#124; ecbs.org" target="_blank">"European Banking Resources"-Website</a>. |
+| Mehr Informationen über die Zusammensetzung von IBANs und BBANs findest Du in dem offiziellen <a href="https://www.swift.com/sites/default/files/resources/iban_registry.pdf" title="Data Standards (PDF) &#124; swift.com" target="_blank">IBAN-Register</a> oder auf der <a href="https://www.ecbs.org/iban.htm" title="International Bank Account Number &#124; ecbs.org" target="_blank">"European Banking Resources"-Website</a>. |
 
 ## Schritte
 1. [Melde Dich bei metasfresh an](Anmeldung) mit der [Benutzerrolle](NeueBenutzerrolle) "Systemadministrator".

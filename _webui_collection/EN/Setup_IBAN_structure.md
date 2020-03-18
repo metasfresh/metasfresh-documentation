@@ -15,7 +15,7 @@ Without previously configuring the International Bank Account Number (IBAN) stru
 
 | **Note:** |
 | :--- |
-| For more information on IBAN and BBAN structures, please refer to the official <a href="https://www.swift.com/sites/default/files/resources/iban_registry.pdf" title="Data Standards (BIC, IBAN, LEI) &#124; swift.com" target="_blank">IBAN Registry</a> or the <a href="https://www.ecbs.org/iban.htm" title="International Bank Account Number &#124; ecbs.org" target="_blank">European Banking Resources</a>. |
+| For more information on IBAN and BBAN structures, please refer to the official <a href="https://www.swift.com/sites/default/files/resources/iban_registry.pdf" title="Data Standards (PDF) &#124; swift.com" target="_blank">IBAN Registry</a> or the <a href="https://www.ecbs.org/iban.htm" title="International Bank Account Number &#124; ecbs.org" target="_blank">European Banking Resources</a>. |
 
 ## Steps
 1. [Log in to metasfresh](Login) with the [user role](NewUserRole) "System Administrator".
