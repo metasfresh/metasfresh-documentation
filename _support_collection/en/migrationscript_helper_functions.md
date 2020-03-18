@@ -63,7 +63,7 @@ COMMENT ON FUNCTION public.migrationscript_ignore(character varying) IS 'Inserts
 usage example:
 select migrationscript_ignore(''configuration/changingpartnerwindow.sql'');
 
-Please keep in sync with http://docs.metasfresh.org/sql_collection/migrationscript_helper_functions.html
+Please keep in sync with https://docs.metasfresh.org/sql_collection/migrationscript_helper_functions.html
 ';
 ```
 
@@ -113,6 +113,6 @@ select migrationscript_ignoreNewProjectName(''projectnameWithTypo'', ''fixedName
 
 Note that it only inserts if no AD_MigrationScript with the respective new name already exists.
 
-Please keep in sync with http://docs.metasfresh.org/sql_collection/migrationscript_helper_functions.html
+Please keep in sync with https://docs.metasfresh.org/sql_collection/migrationscript_helper_functions.html
 ';
 ```

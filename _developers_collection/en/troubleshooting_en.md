@@ -50,7 +50,7 @@ You can configure eclipse to only show errors from the project that is currently
 
 ## I Get a warning about `Version is duplicate of parent version`
 
-You can ignore the warning. eclipse's maven plugin thinks one should remove the duplication version, but we need it. Details [here](http://docs.metasfresh.org/pages/infrastructure/ci_en).
+You can ignore the warning. eclipse's maven plugin thinks one should remove the duplication version, but we need it. Details [here](https://docs.metasfresh.org/pages/infrastructure/ci_en).
 
 ## I get an error saying `Unsupported major.minor version 52.0`
 

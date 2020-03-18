@@ -23,7 +23,7 @@ This installation aims at installing metasfresh directly on a bare-metal or a vi
 If you want a more flexible installation, try using [metasfresh-docker](How_do_I_setup_the_metasfresh_stack_using_Docker).
 
 ## Installation
-1. [Download](http://metasfresh.com/download/) the latest metasfresh-server installation package to your server.
+1. [Download](https://metasfresh.com/download/) the latest metasfresh-server installation package to your server.
 1. Update your Ubuntu server source list.
 ```bash
 user@host:~/$ sudo apt update
