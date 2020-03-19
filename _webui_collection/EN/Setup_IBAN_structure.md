@@ -46,4 +46,4 @@ The structure of a German bank account number:
 | e | Blank space |
 | ! | Indicates a fixed length (e.g., `8!n` means 8 digits max.) |
 
-<div style="text-align: right;"><sup>(Source: <a href="https://www.swift.com/sites/default/files/resources/iban_registry.pdf" title="IBAN Registry" target="_blank">swift.com</a>)</sup></div>
+<div style="text-align: right;"><sup>(Source: <a href="https://www.swift.com/sites/default/files/resources/iban_registry.pdf" title="IBAN Registry (PDF)" target="_blank">swift.com</a>)</sup></div>

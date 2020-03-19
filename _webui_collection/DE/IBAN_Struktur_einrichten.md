@@ -11,7 +11,7 @@ ref: setup_iban_structure
 ---
 
 ## Überblick
-Ohne die Struktur der internationalen Bankkontonummer (IBAN) vorab festzulegen, kann eine IBAN nicht unter "[Bankkonto](Menu)" erfasst werden. Erst nach Bestimmung der richtigen Struktur wird eine IBAN beim Hinzufügen automatisch validiert.
+Ohne die Struktur der internationalen Bankkontonummer (IBAN) vorab festzulegen, kann eine IBAN nicht unter "[Bankkonto](Menu)" erfasst werden. Erst nach Angabe der richtigen Struktur wird eine IBAN beim Hinzufügen automatisch validiert.
 
 | **Hinweis:** |
 | :--- |
@@ -47,4 +47,4 @@ Aufbau einer deutschen Bankkontonummer:
 | e | Leerzeichen |
 | ! | Gibt eine feste Länge an (z.B. `8!n` bedeutet max. 8 Ziffern) |
 
-<div style="text-align: right;"><sup>(Quelle: <a href="https://www.swift.com/sites/default/files/resources/iban_registry.pdf" title="IBAN-Register" target="_blank">swift.com</a>)</sup></div>
+<div style="text-align: right;"><sup>(Quelle: <a href="https://www.swift.com/sites/default/files/resources/iban_registry.pdf" title="IBAN-Register (PDF)" target="_blank">swift.com</a>)</sup></div>
