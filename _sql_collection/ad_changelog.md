@@ -11,7 +11,7 @@ lang: en
 
 ### Shows a subset of the change log records
 
-```
+```SQL
 SELECT
   t.tablename,
   c.columnname,
