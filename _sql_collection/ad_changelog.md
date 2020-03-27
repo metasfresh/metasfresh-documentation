@@ -30,3 +30,34 @@ WHERE columnname NOT ILIKE '%ID%'
 	  
 ```
 
+## INSERT Examples
+
+```SQL
+
+INSERT INTO public.ad_changelog (ad_changelog_id, ad_session_id, ad_table_id, ad_column_id, ad_client_id, ad_org_id,
+                                 isactive, created, createdby, updated, updatedby, record_id, oldvalue, newvalue, undo,
+                                 redo, iscustomization, trxname, description, eventchangelog, ad_pinstance_id)
+select nextval('ad_changelog_seq'),
+       1000000,
+       get_table_id('c_bp_bankaccount'),
+       (select ad_column_id from ad_column where ad_table_id = get_table_id('c_bp_bankaccount') and columnname ilike 'accountno'),
+       1000000,
+       1000000,
+       'Y',
+       now(),
+       2200950,
+       now(),
+       2200950,
+       c_bp_bankaccount_id,
+       accountno,
+       new_accountno,
+       null,
+       null,
+       'N',
+       'gh553',
+       'Info why it was changed',
+       'U',
+       null
+from  (select * from fix.<your table>) data
+;
+```
