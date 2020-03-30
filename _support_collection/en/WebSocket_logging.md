@@ -1,7 +1,7 @@
 ---
-title: Verify Web Server/Browser Communication via WebSocket Logging
+title: Verify WebUI API/Frontend Communication via WebSocket Logging
 layout: default
-description: "How to verify web server/browser communication via WebSocket logging"
+description: "How to verify WebUI API/frontend communication via WebSocket logging"
 tags:
   - WebSocket Logging
 lang: en
