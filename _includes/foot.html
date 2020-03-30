@@ -5,12 +5,12 @@
 	<!-- adding the data-proofer-ignore ignore attribute for html-proofer, because when this is evaluated, the respective md file might not yet be on the ghpages branch -->
 	<hr>
       {% if page.name == "index.md" %}
-          <a href="https://github.com/metasfresh/metasfresh/releases/latest" title="View the latest metasfresh release" target="_blank" data-proofer-ignore>View our Source Code on GitHub.com</a>
+          <a href="https://github.com/metasfresh/metasfresh/releases/latest" title="View the latest metasfresh release" target="\_blank" data-proofer-ignore>View our Source Code on GitHub.com</a>
       {% else %}
           {% if page.lang == 'de' or include.lang == 'de' %}
-              <a href="https://github.com/metasfresh/metasfresh-documentation/blob/gh-pages/{{page.path}}" title="Quelldatei dieser Seite anzeigen" target="_blank" data-proofer-ignore>Zur Quelldatei auf GitHub.com</a>
+              <a href="https://github.com/metasfresh/metasfresh-documentation/blob/gh-pages/{{page.path}}" title="Quelldatei dieser Seite anzeigen" target="\_blank" data-proofer-ignore>Zur Quelldatei auf GitHub.com</a>
           {% else %}
-              <a href="https://github.com/metasfresh/metasfresh-documentation/blob/gh-pages/{{page.path}}" title="View this page's source file" target="_blank" data-proofer-ignore>View source file on GitHub.com</a>
+              <a href="https://github.com/metasfresh/metasfresh-documentation/blob/gh-pages/{{page.path}}" title="View this page's source file" target="\_blank" data-proofer-ignore>View source file on GitHub.com</a>
           {% endif %}
       {% endif %}
 	<br/>

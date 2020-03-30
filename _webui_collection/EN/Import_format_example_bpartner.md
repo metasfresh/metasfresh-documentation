@@ -40,7 +40,7 @@ The mandatory fields are essential for a successful data import!
 |  | <abbr title="OrgValue_Organisation Key">OrgValue</abbr> | metasfresh AG | **Search Key** of the organization.<br> ***Attention:*** Not the name!<br> (*You can look up the search key under "[Organization](Menu)" in the menu.*) |
 |  | <abbr title="See examples &#8594;">Location Data</abbr> | •&nbsp;<abbr title="Address1_Straße und Nr.">Street & No.</abbr><br> •&nbsp;<abbr title="Postal_PLZ">ZIP</abbr><br> •&nbsp;<abbr title="City_City Name">City</abbr><br> •&nbsp;<abbr title="RegionName_Region Name">Region</abbr><br> •&nbsp;<abbr title="CountryCode_ISO Country Code">ISO Country Code</abbr> | For [location data](Add_address_tab) to be imported, at least **City** and **ISO Country Code** must be provided.<br><br> Location data, such as **Street & House No.**, **ZIP** or **Region**, will not be imported unless both **City** and **ISO Country Code** are provided. |
 |  | <abbr title="GLN_GLN">Global Location Number</abbr> (GLN) | 1234567890128 | In order to import a **GLN**, both **City** and **ISO Country Code** are required. |
-|  | <abbr title="URL_URL">Web address</abbr> (URL) | <a href="https://metasfresh.com/en/" title="metasfresh Homepage" target="_blank"><strong>https://</strong>metasfresh.com/</a> | For a **URL** to work after import, make sure it begins with the Internet protocol acronym (e.g., `https://`). |
+|  | <abbr title="URL_URL">Web address</abbr> (URL) | <a href="https://metasfresh.com/en/" title="metasfresh Homepage" target="\_blank"><strong>https://</strong>metasfresh.com/</a> | For a **URL** to work after import, make sure it begins with the Internet protocol acronym (e.g., `https://`). |
 
 ## Next Steps
 - [Import business partner data](Import_bpartner_data).

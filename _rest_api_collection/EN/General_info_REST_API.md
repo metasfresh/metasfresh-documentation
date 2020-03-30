@@ -9,7 +9,7 @@ ref: general_info_rest_api
 ---
 
 ## Overview
-By means of the metasfresh web service (REST API) you can transfer external data to metasfresh and retrieve, update or delete existing data entries from the system. This is done via so-called *API endpoints*. Each endpoint is set up for the migration of certain data sets, which can be transferred to the metasfresh application server through server requests in <a href="https://www.json.org/index.html" title="Introducing JSON" target="_blank">JSON format</a>. A special feature of the metasfresh REST API is that you can also combine data sets that would normally be migrated separately via the respective endpoints, and import them in a single server request, thereby creating several data entries in one go. For example, when migrating a sales order candidate to metasfresh's sales order disposition, both a new business partner and product entry can be created simultaneously.
+By means of the metasfresh web service (REST API) you can transfer external data to metasfresh and retrieve, update or delete existing data entries from the system. This is done via so-called *API endpoints*. Each endpoint is set up for the migration of certain data sets, which can be transferred to the metasfresh application server through server requests in <a href="https://www.json.org/index.html" title="Introducing JSON" target="\_blank">JSON format</a>. A special feature of the metasfresh REST API is that you can also combine data sets that would normally be migrated separately via the respective endpoints, and import them in a single server request, thereby creating several data entries in one go. For example, when migrating a sales order candidate to metasfresh's sales order disposition, both a new business partner and product entry can be created simultaneously.
 
 A template for a JSON server request is provided for each endpoint in the respective input field (![request example](assets/example_value.png)) and can be viewed, copied and modified using the required data. A description of the request model (![request model](assets/model.png)) with explanations of the individual elements will help you to create your own server request.
 
@@ -21,7 +21,7 @@ In order to use the web service, you require an authentication token that you wi
  >**Note:** The URL is usually composed as follows:<br> https://`instance.name###`.metasfresh.com/app/swagger-ui.html#/
 
 1. Open the endpoint you want to use for data migration by clicking on the endpoint name.
-1. Click on the desired <a href="https://www.w3schools.com/tags/ref_httpmethods.asp" title="HTTP Request Methods" target="_blank">request method</a> on the left below the endpoint name.
+1. Click on the desired <a href="https://www.w3schools.com/tags/ref_httpmethods.asp" title="HTTP Request Methods" target="\_blank">request method</a> on the left below the endpoint name.
 1. Click !["Try it out"](assets/button_try_it_out.png) on the right below the request method. The input fields **Authorization token** and **request** become editable.
 1. In the field **Authorization token**, paste your authentication token.
 1. In the field **request**, paste your prepared JSON server request.

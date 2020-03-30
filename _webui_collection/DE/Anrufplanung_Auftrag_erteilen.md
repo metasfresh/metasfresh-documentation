@@ -1,5 +1,5 @@
 ---
-title: Wie erfasse ich einen Auftrag direkt im Anschluss an ein Kundengespräch?
+title: Wie erfasse ich einen Auftrag noch während des Telefonats mit dem Kunden?
 layout: default
 tags:
   - Workflow

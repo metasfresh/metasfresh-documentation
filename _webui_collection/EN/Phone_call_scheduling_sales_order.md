@@ -1,5 +1,5 @@
 ---
-title: How do I create a sales order immediately after calling a customer?
+title: How do I create a sales order while on the phone with the customer?
 layout: default
 tags:
   - Workflow

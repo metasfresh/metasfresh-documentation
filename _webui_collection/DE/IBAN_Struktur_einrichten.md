@@ -15,7 +15,7 @@ Ohne die Struktur der internationalen Bankkontonummer (IBAN) vorab festzulegen, 
 
 | **Hinweis:** |
 | :--- |
-| Mehr Informationen über die Zusammensetzung von IBANs und BBANs findest Du in dem offiziellen <a href="https://www.swift.com/sites/default/files/resources/iban_registry.pdf" title="Data Standards (PDF) &#124; swift.com" target="_blank">IBAN-Register</a> oder auf der <a href="https://www.ecbs.org/iban.htm" title="International Bank Account Number &#124; ecbs.org" target="_blank">"European Banking Resources"-Website</a>. |
+| Mehr Informationen über die Zusammensetzung von IBANs und BBANs findest Du in dem offiziellen <a href="https://www.swift.com/sites/default/files/resources/iban_registry.pdf" title="Data Standards (PDF) &#124; swift.com" target="\_blank">IBAN-Register</a> oder auf der <a href="https://www.ecbs.org/iban.htm" title="International Bank Account Number &#124; ecbs.org" target="\_blank">"European Banking Resources"-Website</a>. |
 
 ## Schritte
 1. [Melde Dich bei metasfresh an](Anmeldung) mit der [Benutzerrolle](NeueBenutzerrolle) "Systemadministrator".
@@ -35,7 +35,7 @@ Ohne die Struktur der internationalen Bankkontonummer (IBAN) vorab festzulegen, 
 Aufbau einer deutschen Bankkontonummer:
 
 <kbd><img src="assets/IBAN_structure_Germany.png" alt="Fig.: Aufbau deutsche IBAN"></kbd>
-<div style="text-align: right;"><sup>(Quelle: <a href="https://www.ecbs.org/iban/germany-bank-account-number.html" title="European Banking Resources" target="_blank">ecbs.org</a>)</sup></div>
+<div style="text-align: right;"><sup>(Quelle: <a href="https://www.ecbs.org/iban/germany-bank-account-number.html" title="European Banking Resources" target="\_blank">ecbs.org</a>)</sup></div>
 
 <br>Die IBAN-Struktur eines jeden Landes wird mithilfe der folgenden Zeichendarstellungen definiert:
 
@@ -47,4 +47,4 @@ Aufbau einer deutschen Bankkontonummer:
 | e | Leerzeichen |
 | ! | Gibt eine feste Länge an (z.B. `8!n` bedeutet max. 8 Ziffern) |
 
-<div style="text-align: right;"><sup>(Quelle: <a href="https://www.swift.com/sites/default/files/resources/iban_registry.pdf" title="IBAN-Register (PDF)" target="_blank">swift.com</a>)</sup></div>
+<div style="text-align: right;"><sup>(Quelle: <a href="https://www.swift.com/sites/default/files/resources/iban_registry.pdf" title="IBAN-Register (PDF)" target="\_blank">swift.com</a>)</sup></div>

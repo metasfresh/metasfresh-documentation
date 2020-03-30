@@ -1,5 +1,5 @@
 ---
-title: How do I manage the receipt of customer returns?
+title: How do I handle customer returns?
 layout: default
 tags:
   - Workflow
