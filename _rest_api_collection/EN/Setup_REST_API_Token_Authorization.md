@@ -112,7 +112,7 @@ Attach test.pdf to an existing order candidate identified by ExternalId=123456:
 curl -X POST "http://localhost:8181/api/sales/order/candidates/123456/attachments" -H "accept: */*" -H "Authorization: 64390d2e7f8341c685ef1b982a652134" -H "Content-Type: multipart/form-data" -F "file=@test.pdf;type=application/pdf"
 ```
 
-Source: <a href="https://github.com/metasfresh/metasfresh/issues/4549#issuecomment-420188488" title="Sales Order Candidates REST API improvements" target="_blank">https://github.com/metasfresh/metasfresh/issues/4549#issuecomment-420188488</a>
+Source: <a href="https://github.com/metasfresh/metasfresh/issues/4549#issuecomment-420188488" title="Sales Order Candidates REST API improvements" target="\_blank">https://github.com/metasfresh/metasfresh/issues/4549#issuecomment-420188488</a>
 
 #### error messages
 

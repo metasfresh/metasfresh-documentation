@@ -18,7 +18,7 @@ ref: add_new_calendar_periods
 1. [Select](RecordSelection) the newly created record tab entry and [start the action](StartAction#actions-menu) "Create Periods". An overlay window opens up.
 1. Set a **Start Date**, e.g., "01/01/<script>document.write(new Date().getFullYear() + 1)</script>".
 1. Define an appropriate **Date Format**, if necessary (e.g., *MMM-yy* for *Jan-<script>document.write((new Date().getFullYear() + 1).toString().substr(-2));</script>*).
- >**Note:** You can learn more about date and time patterns <a href="https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html" title="Date format examples | Oracle.com" target="_blank">here</a>.
+ >**Note:** You can learn more about date and time patterns <a href="https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html" title="Date format examples | Oracle.com" target="\_blank">here</a>.
 
 1. Click "Start" to create the periods and close the overlay window.
 1. Use the [context menu](Jumpto_via_context_menu) ![](assets/Calendar periods context menu.png) of the newly created year entry from before to switch into the window "Calendar Periods" where you will see a list of all the months from this period.

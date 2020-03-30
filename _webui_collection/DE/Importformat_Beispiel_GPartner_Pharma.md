@@ -12,7 +12,7 @@ ref: import_format_example_bpartner_pharma
 ---
 
 ## Überblick
-Für den Import von Herstellerdaten gemäß <a href="https://www.ifaffm.de/de/ifa-gmbh.html" title="Informationsstelle für Arzneispezialitäten" target="_blank">IFA GmbH</a> benötigst Du ein Importformat, in dem die **DB-Tabelle** *Import Pharma BPartners* eingestellt ist.
+Für den Import von Herstellerdaten gemäß <a href="https://www.ifaffm.de/de/ifa-gmbh.html" title="Informationsstelle für Arzneispezialitäten" target="\_blank">IFA GmbH</a> benötigst Du ein Importformat, in dem die **DB-Tabelle** *Import Pharma BPartners* eingestellt ist.
 
 In dem folgenden Beispiel wird der Dateninhalt aus einer Datei einer Tabellenkalkulationssoftware (hier z.B. eine *Excel*-Datei vor der [Konvertierung in eine CSV- oder TXT-Datei](Importdatei_nuetzliche_Hinweise)) dem Importformat für IFA-Herstellerdaten gegenübergestellt:
 
@@ -28,7 +28,7 @@ In dem folgenden Beispiel wird der Dateninhalt aus einer Datei einer Tabellenkal
 
 ### Einige nützliche Hinweise
 Die Angabe der Pflichtfelder ist unerlässlich für einen erfolgreichen Datenimport!
- >**Hinweis:** Ausführliche Informationen zu den Feldbedeutungen gibt es in der Produktbeschreibung der IFA-Informationsdienste (<a href="https://www.ifaffm.de/mandanten/1/documents/03_ifa_fuer_datenbezieher/Produktbeschreibung_10218-20218_lang.pdf" title="IFA-Informationsdienste Produktbeschreibung" target="_blank">PDF hier herunterladen und lesen</a>).
+ >**Hinweis:** Ausführliche Informationen zu den Feldbedeutungen gibt es in der Produktbeschreibung der IFA-Informationsdienste (<a href="https://www.ifaffm.de/mandanten/1/documents/03_ifa_fuer_datenbezieher/Produktbeschreibung_10218-20218_lang.pdf" title="IFA-Informationsdienste Produktbeschreibung" target="\_blank">PDF hier herunterladen und lesen</a>).
 
 | Pflichtfeld | Feldname | Hinweis |
 | :---: | :---: | :--- |

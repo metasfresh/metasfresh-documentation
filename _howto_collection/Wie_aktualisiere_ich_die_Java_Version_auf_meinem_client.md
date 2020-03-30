@@ -7,10 +7,10 @@ lang: de
 ---
 
 ## Windows
-<a href="https://www.java.com/de/" title="Java for Windows | java.com" target="_blank">Java-Update für Windows</a>
+<a href="https://www.java.com/de/" title="Java for Windows | java.com" target="\_blank">Java-Update für Windows</a>
 
 ## Macintosh OS X
-<a href="https://www.java.com/de/download/help/mac_java_update.xml" title="Java for Mac OS X | java.com" target="_blank">Java-Update für Mac OS X</a>
+<a href="https://www.java.com/de/download/help/mac_java_update.xml" title="Java for Mac OS X | java.com" target="\_blank">Java-Update für Mac OS X</a>
 
 ## Linux
-<a href="https://www.java.com/de/download/help/linux_install.xml" title="Java for Linux | java.com" target="_blank">Java-Update für Linux</a>
+<a href="https://www.java.com/de/download/help/linux_install.xml" title="Java for Linux | java.com" target="\_blank">Java-Update für Linux</a>

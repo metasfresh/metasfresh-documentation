@@ -36,8 +36,8 @@ metasfresh currently offers interfaces for shipping with the following service p
 ---
 
 ### <a name="dpd-configuration">DPD Configuration</a>
-1. In the field **Login Api Url**, enter the URL for <a href="http://diswiki.dpd.nl/wiki/2/login-service" title="dpd Login Service" target="_blank">login and authentication</a> against the DPD API.
-1. In the field **Shipment Service Api Url**, enter the URL for accessing the <a href="http://diswiki.dpd.nl/wiki/3/shipment-service" title="dpd Shipment Service" target="_blank">shipping interface</a> used to generate the shipping labels.
+1. In the field **Login Api Url**, enter the URL for <a href="http://diswiki.dpd.nl/wiki/2/login-service" title="dpd Login Service" target="\_blank">login and authentication</a> against the DPD API.
+1. In the field **Shipment Service Api Url**, enter the URL for accessing the <a href="http://diswiki.dpd.nl/wiki/3/shipment-service" title="dpd Shipment Service" target="\_blank">shipping interface</a> used to generate the shipping labels.
 1. Enter the **Delis ID** provided by DPD for setup.
 1. Enter the **Delis Password** provided by DPD for setup.
 1. Pick a **Paper Format** for the shipping labels.
@@ -45,7 +45,7 @@ metasfresh currently offers interfaces for shipping with the following service p
 
 | **Important note:** |
 | :--- |
-| The following DPD services are currently available:<br> •&nbsp;<a href="https://www.dpd.com/de/en/versenden/paketversand/" title="DPD CLASSIC parcel shipping" target="_blank">DPD CLASSIC</a> (in Germany and throughout Europe)<br> •&nbsp;<a href="https://www.dpd.com/de/en/versenden/expressversand/" title="DPD Express shipping" target="_blank">DPD EXPRESS E12</a> (within Germany) |
+| The following DPD services are currently available:<br> •&nbsp;<a href="https://www.dpd.com/de/en/versenden/paketversand/" title="DPD CLASSIC parcel shipping" target="\_blank">DPD CLASSIC</a> (in Germany and throughout Europe)<br> •&nbsp;<a href="https://www.dpd.com/de/en/versenden/expressversand/" title="DPD Express shipping" target="\_blank">DPD EXPRESS E12</a> (within Germany) |
 
 ## Next Steps
 - [Set up a shipper of your choice as default shipper for a particular customer](Setup_bpartner_default_shipper).

@@ -45,7 +45,7 @@
             <div class="row">
                 <div class="main-nav">
                     {% if page.name == "index.md" %}
-                        <a href="https://metasfresh.com/en/category/blog-en/" target="_blank">Visit our blog on metasfresh.com!</a>
+                        <a href="https://metasfresh.com/en/category/blog-en/" target="\_blank">Visit our blog on metasfresh.com!</a>
                     {% else %}
                         {% if page.lang == 'de' or include.lang == 'de' %}
                             <a href="{{ site.github.url }}/index.html">Zurück zur Startseite</a>
@@ -55,9 +55,9 @@
                     {% endif %}
                 </div>
                 {% if page.lang == 'de' or include.lang == 'de' %}
-                    <a href="{{ metasfresh_home }}" title="Zur metasfresh.com Homepage" target="_blank"><img src="{{ site.github.url }}/images/metasfreshNEG_400px.png" alt="metasfresh Logo und Link zur Website" class="logo"></a>
+                    <a href="{{ metasfresh_home }}" title="Zur metasfresh.com Homepage" target="\_blank"><img src="{{ site.github.url }}/images/metasfreshNEG_400px.png" alt="metasfresh Logo und Link zur Website" class="logo"></a>
                 {% else %}
-                    <a href="{{ metasfresh_home }}" title="Visit metasfresh.com" target="_blank"><img src="{{ site.github.url }}/images/metasfreshNEG_400px.png" alt="metasfresh logo and link to website" class="logo"></a>
+                    <a href="{{ metasfresh_home }}" title="Visit metasfresh.com" target="\_blank"><img src="{{ site.github.url }}/images/metasfreshNEG_400px.png" alt="metasfresh logo and link to website" class="logo"></a>
                 {% endif %}
             </div>
         </nav>

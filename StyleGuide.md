@@ -10,7 +10,7 @@ If you add new files ensure the following:
 - thr filename has the extension `.md` (markdown)
 - the filename only includes letters `Aa-Zz`, numbers `0-9`, and `_` (underscore)
 - UTF-8 **without BOM** character encoding
-- the file begins with a YAML-header (called <a href="https://jekyllrb.com/docs/front-matter/" title="YAML front matter | jekyllrb.com" target="_blank"><em>front matter</em></a>) containing meta data for Jekyll that looks something like this:
+- the file begins with a YAML-header (called <a href="https://jekyllrb.com/docs/front-matter/" title="YAML front matter | jekyllrb.com" target="\_blank"><em>front matter</em></a>) containing meta data for Jekyll that looks something like this:
 
   ```
   ---
@@ -32,7 +32,7 @@ If you add new files ensure the following:
   - `lang` shall be the two-letter language code (in acc. with ISO 639-1:2002).<br>Examples: en = English, de = German, es = Spanish, zh = Chinese, etc.
   - `sequence` will put the articles in the defined order (10, 20, 30, ...). If no sequence is defined, the articles are sorted alphabetically.
   - `ref` is required to identify different language versions of the same article, i.e. a German how-to and its translations all need to have the same identical `ref` value together with their respective `lang` value. That way the system knows that they belong together and it can determine the language of each article.
-    - Credits for `ref` and `lang` go to ***Sylvain Durand*** who explains this matter comprehensibly on his <a href="https://www.sylvaindurand.org/making-jekyll-multilingual/" title="Making Jekyll multilingual | sylvaindurand.org" target="_blank">website</a>.
+    - Credits for `ref` and `lang` go to ***Sylvain Durand*** who explains this matter comprehensibly on his <a href="https://www.sylvaindurand.org/making-jekyll-multilingual/" title="Making Jekyll multilingual | sylvaindurand.org" target="\_blank">website</a>.
   - If your file is to be a part of a collection which is used to auto-generate table of contents, make sure it is residing in a folder starting with `_` (underscore), e.g. `_howto_collection`.
   - Make use of {% raw %}`{{ site.github.url }}`{% endraw %}.
     - Instead of `../images/myimage.png`, use {% raw %}`{{ site.github.url }}/images/myimage.png`{% endraw %}. This ensures that the file which contains the link can be moved around without the link breaking.
