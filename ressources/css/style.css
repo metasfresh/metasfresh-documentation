@@ -24,7 +24,7 @@
     width: 200px;
 }
 
-i {
+.filter-alert {
   display: inline-block;
   margin-right: 10px;
 }

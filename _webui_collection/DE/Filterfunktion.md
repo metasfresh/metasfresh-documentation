@@ -23,6 +23,7 @@ Wenn Du in einem Fenster nach ganz bestimmten Einträgen suchst (wie z.B. nach [
 
 ## Nächste Schritte (optional)
 - [Verwende die Umkreissuche, um die Ergebnisse beim Filtern von Einträgen auf einen bestimmten geografischen Bereich einzuschränken](Umkreissuche_Geocoding).
+- [Lege benutzerdefinierte Filter an](Benutzerdefinierte_Filter_anlegen).
 
 ## Beispiel
 <kbd><img src="assets/Filtering function.gif" alt="GIF: Filterfunktion"></kbd>

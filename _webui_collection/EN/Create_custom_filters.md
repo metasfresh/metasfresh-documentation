@@ -11,7 +11,7 @@ ref: create_custom_filters
 ---
 
 ## Overview
-This guide shows you how to create a custom filter in a window of your choice. Generally speaking, you can use general SQL operators, such as the `LIKE` operator, but you will also need to use the field separator (`<^>`) or the segment separator (`<~>`) to write your query.
+This guide shows you how to create a custom [filter](Filtering_function) in a window of your choice. Generally speaking, you can use general SQL operators, such as the `LIKE` operator, but you will also need to use the field separator (`<^>`) or the segment separator (`<~>`) to write your query.
 
 <p style="margin-left: 40px; padding-left: 15px; border-left: 1px solid #dedede;">
 <strong>Example:</strong><br>
@@ -20,10 +20,10 @@ But if you write it like that, it will not work because the system will not know
 So the correct way would be: <code><^>InvoiceRule<^> LIKE <^>D<^></code>.
 </p>
 
-<i class="ion-alert"></i>Note the spaces before and after the `LIKE` operator. **They are essential!**
+<i class="ion-alert filter-alert"></i>Note the spaces before and after the `LIKE` operator. **They are essential!**
 
-<i class="ion-alert"></i>Also, note the `<^>` symbol. This is the field separator. It marks the search field, the operator and the value.<br>
-For multiple terms, there is the segment separator, which looks like this: `<~>`.
+<i class="ion-alert filter-alert"></i>Also, note the `<^>` symbol. This is the field separator. It marks the search field, the operator and the value.<br>
+When querying several terms, the segment separator is used, which looks like this: `<~>`.
 
 <p style="margin-left: 40px; padding-left: 15px; border-left: 1px solid #dedede;">
 <strong>Example:</strong><br>
