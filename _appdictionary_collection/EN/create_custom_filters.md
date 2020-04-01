@@ -11,7 +11,7 @@ ref: create_custom_filters
 ## Overview
 This guide shows you how to create a custom filter in a window. In general, you can use general SQL operators, such as the `LIKE` operator, but you will also need to use the field separator (`<^>`) or the segment separator (`<~>`) to write your query.
 
-<p style="margin-left: 40px">
+<p style="margin-left: 40px; padding-left: 15px; border-left: 1px solid #dedede;">
 <strong>Example:</strong><br>
 If you want to create a user query that will filter for all invoice candidates with the invoice rule "After delivery (D)", the pure SQL code using the <code>LIKE</code> operator would be: <code>InvoiceRule LIKE 'D'</code>.<br><br>
 But if you write it like that, it will not work because it will not know how to parse that SQL.
@@ -23,7 +23,7 @@ Note the spaces before and after the `LIKE` operator. **They are essential!**
 Also, note `<^>`. This is the field separator. It marks the search field, the operator and the value.<br>
 For multiple terms, there is the segment separator, which looks like this: `<~>`.
 
-<p style="margin-left: 40px">
+<p style="margin-left: 40px; padding-left: 15px; border-left: 1px solid #dedede;">
 <strong>Example:</strong><br>
 If you wanted to filter for invoice candidates with the invoice rule "After delivery (D)" as well as for a certain partner, the query would look like this:<br>
 <code>AND<^>InvoiceRule<^> LIKE <^>D<^><~>AND<^>Bill_BPartner_ID<^>=<^>2156423<^></code>.
