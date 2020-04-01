@@ -23,6 +23,7 @@ If you are searching for specific entries in a window (such as [business partner
 
 ## Next Steps (optional)
 - [Use the area search to limit the results when filtering entries to a specific geographical area](Area_search_geocoding).
+- [Create custom filters](Create_custom_filters).
 
 ## Example
 <kbd><img src="assets/Filtering function.gif" alt="GIF: Filtering function"></kbd>
