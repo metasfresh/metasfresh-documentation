@@ -9,11 +9,9 @@ lang: de
 
 ## Vorbereitung
 
-- [Wie funktioniert die Gebindeverwaltung als Teil des Handling Unit Systems?](Wie_funktioniert_die_Gebindeverwaltung_als_Teil_des_Handling_Unit_Systems)
-
+- [Wie funktioniert die Gebindeverwaltung als Teil des Handling Unit Systems?](../webui_collection/DE/Handling_Unit_System)
 
 ## Schritte
-
 1. [Fenster "Packvorschrift" öffnen](Wie_finde_und_öffne_ich_ein_Fenster)
 1. [Neuen Datensatz anlegen](Wie_lege_ich_einen_neuen_datensatz_an)
 1. Feld **Name** ausfüllen
@@ -25,14 +23,14 @@ lang: de
 1. Register `Position` öffnen
 
    Zuerst definieren wir welches Packmittel in dieser Packvorschrift verwendet wird:
-   
+
    1. [Neuen Datensatz anlegen](Wie_lege_ich_einen_neuen_datensatz_an)
    1. Feld **Positionsart**: den Wert "Packmittel" auswählen
    1. Feld **Packmittel**: ein konkretes Packmittel auswählen
    1. [Speichern](Wie_lege_ich_einen_neuen_datensatz_an)
-   
+
    Anschließend erlauben wir dass ein Produkt in das Packmittel hinein getan werden darf:
-   
+
    1. Feld **Positionsart**: den Wert "Packgut" auswählen
    1. [Speichern](Wie_lege_ich_einen_neuen_datensatz_an)
 
