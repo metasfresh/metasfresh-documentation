@@ -23,3 +23,8 @@
     height: auto;
     width: 200px;
 }
+
+i {
+  display: inline-block;
+  margin-right: 10px;
+}
