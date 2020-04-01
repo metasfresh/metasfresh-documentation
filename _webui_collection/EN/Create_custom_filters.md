@@ -20,9 +20,9 @@ But if you write it like that, it will not work because it will not know how to 
 So the correct way would be: <code><^>InvoiceRule<^> LIKE <^>D<^></code>.
 </p>
 
-<i class="ion-alert"></i>Note the spaces before and after the `LIKE` operator. **They are essential!**
+<i class="ion-alert"></i> Note the spaces before and after the `LIKE` operator. **They are essential!**
 
-<i class="ion-alert"></i>Also, note `<^>`. This is the field separator. It marks the search field, the operator and the value.<br>
+<i class="ion-alert"></i> Also, note `<^>`. This is the field separator. It marks the search field, the operator and the value.<br>
 For multiple terms, there is the segment separator, which looks like this: `<~>`.
 
 <p style="margin-left: 40px; padding-left: 15px; border-left: 1px solid #dedede;">
@@ -33,25 +33,23 @@ If you wanted to filter for invoice candidates with the invoice rule "After deli
 
 | **Important!** |
 | :--- |
-| The name of the column must be identical to the one in `AD_Column.ColumnName`. |
+| The name of the column must be *identical* to the one in `AD_Column.ColumnName`. |
 
 ## Steps
 Let's use a practical example. Assume you want to create a filter for the "Attribute Value" window. This filter shall include the following filtering options: *Name*, *Attribute* and *IsActive flag*.
 
 1. Open "User Query" from the [menu](Menu).
 1. [Create a new entry](New_Record_Window).
-1. Give your custom filter a **Name**, e.g., its function.
-1. Pick the <abbr title="AD_Table_ID"><strong>Table</strong></abbr> for which you want to use the filter.
-1. Pick the <abbr title="AD_Tab_ID"><strong>Tab</strong></abbr> where you want to show the filter.
+1. Give your custom filter a **Name**, e.g., *AttributeValue* (see examples below).
+1. Set the **Table** for which you want to use the filter. To do so, enter a part of the <abbr title="AD_Table_ID">table ID</abbr> and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
+1. Set the **Tab** where you want the filter results to display. To do so, enter a part of the <abbr title="AD_Tab_ID">tab ID</abbr> and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
 1. Enter the filtering **Code** into the text box provided, e.g.:
 
-  ```
-  AND<^>M_Attribute_ID<^> = <^><^><~>AND<^>IsActive<^> = <^>Y<^><~>AND<^>Name<^>lLIKE<^><^>
-  ```
+   ```
+   AND<^>M_Attribute_ID<^> = <^><^><~>AND<^>IsActive<^> = <^>Y<^><~>AND<^>Name<^>ILIKE<^><^>
+   ```
 
 1. This will result in:<br>
-  <kbd><img src="https://user-images.githubusercontent.com/15378036/70226875-45935380-175a-11ea-9083-090e6b875989.png" alt="attr1"></kbd>
+  <kbd><img src="https://user-images.githubusercontent.com/15378036/70226875-45935380-175a-11ea-9083-090e6b875989.png" alt="Fig.: Custom filter 'AttributeValue'"></kbd>
   <br><br>
-  <kbd><img src="https://user-images.githubusercontent.com/15378036/70226881-4cba6180-175a-11ea-951d-27454d572441.png" alt="attr2"></kbd>
-
-**User/Contact** field
+  <kbd><img src="https://user-images.githubusercontent.com/15378036/70226881-4cba6180-175a-11ea-951d-27454d572441.png" alt="Fig.: Custom filter 'AttributeValue' open"></kbd>
