@@ -9,7 +9,7 @@ lang: de
 
 ## Vorbereitung
 
-- [Wie funktioniert die Gebindeverwaltung als Teil des Handling Unit Systems?](Wie_funktioniert_die_Gebindeverwaltung_als_Teil_des_Handling_Unit_Systems)
+- [Wie funktioniert die Gebindeverwaltung als Teil des Handling Unit Systems?](../webui_collection/DE/Handling_Unit_System)
 
 
 ## Schritte
@@ -20,7 +20,7 @@ lang: de
 1. Feld **Produkt** ausfüllen
 
    Dieses Produkt wird beim Fertigstellen eines Auftrages oder Bestellung automatisch hinzugefügt.
-   
+
 1. [Speichern](Wie_lege_ich_einen_neuen_datensatz_an)
 
 ## nächste Schritte
