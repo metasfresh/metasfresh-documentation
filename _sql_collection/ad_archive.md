@@ -7,6 +7,15 @@ tag:
 lang: en
 ---
 
+## Retrieve file attachment of a record
+
+```SQL
+select ad_wf_node_template_id,e.filename,e.binarydata from AD_WF_Node_Template adwftemp
+left join ad_attachment_multiref fileref on fileref.ad_table_id=get_table_id('AD_WF_Node_Template') and fileref.record_id= adwftemp.ad_wf_node_template_id
+left JOIN ad_attachmententry e ON e.ad_attachmententry_id = fileref.ad_attachmententry_id
+```
+
+
 ## Export Binary Data from AD_Archive to Files
 
 1. Log into psql on your Linux Server and run:
