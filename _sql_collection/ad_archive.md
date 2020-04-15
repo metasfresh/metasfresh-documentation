@@ -9,6 +9,8 @@ lang: en
 
 ## Retrieve file attachment of a record
 
+PDF for Documents are stored in `ad_archive` but if a user uploads a file to a record its stored in `ad_attachmententry`
+
 ```SQL
 select ad_wf_node_template_id,e.filename,e.binarydata from AD_WF_Node_Template adwftemp
 left join ad_attachment_multiref fileref on fileref.ad_table_id=get_table_id('AD_WF_Node_Template') and fileref.record_id= adwftemp.ad_wf_node_template_id
