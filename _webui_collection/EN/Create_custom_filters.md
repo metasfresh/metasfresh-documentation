@@ -41,6 +41,7 @@ Let's use a practical example. Assume you want to create a filter for the "Attri
 1. Open "User Query" from the [menu](Menu).
 1. [Create a new entry](New_Record_Window).
 1. Give your custom filter a **Name**, e.g., *AttributeValue* (see example below).
+1. Set a **User/Contact** if the filter usage should be limited to this user. To do so, enter a part of the [user](Add_user) name and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.<br>If no user is specified, the filter can be used by anyone.
 1. Set the **Table** for which you want to use the filter. To do so, enter a part of the <abbr title="AD_Table_ID">table ID</abbr> and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
 1. Set the **Tab** where you want the filter results to display. To do so, enter a part of the <abbr title="AD_Tab_ID">tab ID</abbr> and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
 1. Enter the filtering **Code** into the text box provided, e.g.:
@@ -49,6 +50,8 @@ Let's use a practical example. Assume you want to create a filter for the "Attri
    AND<^>M_Attribute_ID<^> = <^><^><~>AND<^>IsActive<^> = <^>Y<^><~>AND<^>Name<^>ILIKE<^><^>
    ```
 
+1. [Reset the server cache](../../installation_collection/EN/How_to_reset_server_cache).
+1. Reset the front-end cache. To do so, press `Ctrl`/`⌘ cmd` + `⇧ Shift` + `R`.
 1. This will result in:<br>
   <kbd><img src="https://user-images.githubusercontent.com/15378036/70226875-45935380-175a-11ea-9083-090e6b875989.png" alt="Fig.: Custom filter 'AttributeValue'"></kbd>
   <br><br>

@@ -9,11 +9,7 @@ ref: create_email_template
 ---
 
 ## Schritte
-1. [Gehe ins Menü](Menu) und öffne das Fenster "EMail-Vorlage".
-1. [Lege eine neue E-Mail-Vorlage an](Neuer_Datensatz_Fenster_Webui).
-1. Benenne die Vorlage im Feld **Name**.
-1. Trage einen **Betreff** ein.
-1. Gib im Textfeld **EMailtext** eine Nachricht ein, die für die E-Mail-Mitteilung verwendet werden soll.
+1. Folge dieser [Anleitung zur Erstellung eines Textbausteines](Textbaustein_erstellen) und gib im Textfeld **Text** eine Nachricht ein, die für die E-Mail-Mitteilung verwendet werden soll.
 1. [metasfresh speichert automatisch](Speicheranzeige).
 
 | **Hinweis:** |

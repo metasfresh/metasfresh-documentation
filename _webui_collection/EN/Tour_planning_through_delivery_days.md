@@ -1,5 +1,5 @@
 ---
-title: How do I schedule tours for delivery in metasfresh?
+title: How do I schedule delivery tours in metasfresh?
 layout: default
 tags:
   - Logistics

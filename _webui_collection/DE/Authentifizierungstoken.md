@@ -29,4 +29,4 @@ Wird unter der Registerkarte "Authentifizierung Tokens" kein Token angezeigt, da
 
 | **Hinweis:** |
 | :--- |
-| Um das Authentifizierungstoken in die Zwischenablage zu kopieren, klicke doppelt auf das Feld in der Spalte **Authentication Token** der Tokenzeile (das Token verfärbt sich gräulich) und drücke `Strg` + `C` / `⌘ cmd` + `C`. Oder öffne die "[Erweiterte Erfassung](AdvancedEditTab_Öffnen)" der Tokenzeile, markiere dort das Token mit der Maus und verwende denselben Tastaturbefehl. |
+| Um das Authentifizierungstoken in die Zwischenablage zu kopieren, klicke doppelt auf das Feld in der Spalte **Authentication Token** der Tokenzeile (das Token verfärbt sich gräulich) und drücke `Strg`/`⌘ cmd` + `C`. Oder öffne die "[Erweiterte Erfassung](AdvancedEditTab_Öffnen)" der Tokenzeile, markiere dort das Token mit der Maus und verwende denselben Tastaturbefehl. |

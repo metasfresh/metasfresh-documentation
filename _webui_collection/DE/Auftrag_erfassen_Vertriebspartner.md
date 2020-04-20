@@ -1,5 +1,5 @@
 ---
-title: Wie erfasse ich einen Auftrag mit Vertriebspartner?
+title: Wie erfasse ich einen provisionsabhängigen Auftrag?
 layout: default
 tags:
   - Workflow

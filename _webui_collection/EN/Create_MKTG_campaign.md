@@ -18,14 +18,14 @@ In the *email campaigns*, newsletters are sent out to the selected contacts via 
 ## Requirements
 The following components are required for a marketing campaign:
 - A [marketing platform](Create_MKTG_platform) determining the address type of the marketing contacts.
-- A [boiler plate](Create_boiler_plate) with a text template for the emails or serial letters.
+- A [boilerplate](Create_boilerplate) with a text template for the emails or serial letters.
 
 ## Steps
 1. Open "Marketing Campaign" from the [menu](Menu).
 1. [Create a new marketing campaign](New_Record_Window).
 1. Give the marketing campaign a **Name**.
 1. In the field [**Marketing Platform**](Create_MKTG_platform), enter a part of the marketing platform and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
-1. Select a **Boiler Plate**.
+1. Select a **Boilerplate** (*Textbaustein*).
 1. [metasfresh saves the progress automatically](Saveindicator).
 
 ## Next Steps
