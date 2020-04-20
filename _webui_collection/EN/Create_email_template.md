@@ -9,16 +9,12 @@ ref: create_email_template
 ---
 
 ## Steps
-1. Open "Mail Template" from the [menu](Menu).
-1. [Add a new email template](New_Record_Window).
-1. Give the template a **Name**.
-1. Enter a **Subject**.
-1. Enter a **Mail Text** to be used for the email notification.
+1. Follow these [instructions for creating a boilerplate](Create_boilerplate) and in the text box **Text Snippet**, enter a message to be used for the email notification.
 1. [metasfresh saves the progress automatically](Saveindicator).
 
 | **Note:** |
 | :--- |
-| By means of so-called *context variables* metasfresh can automatically retrieve individual document data and insert them into the respective places in the e-mail. Context variables are prefixed and suffixed by symbols such as "@" or "%". |
+| By means of so-called *context variables* metasfresh can automatically retrieve individual document data and insert them into the corresponding places in the e-mail. Context variables are prefixed and suffixed by symbols such as "@" or "%". |
 
 ## Example
 

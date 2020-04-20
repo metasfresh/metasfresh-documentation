@@ -1,5 +1,5 @@
 ---
-title: How do I enter a sales order using a sales partner?
+title: How do I enter a commission-based sales order?
 layout: default
 tags:
   - Workflow

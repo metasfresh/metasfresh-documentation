@@ -10,7 +10,7 @@ ref: functionalmodules
 ---
 
 ## Überblick
-metasfresh ist eine vollwertige ERP-Software und verfügt über folgende Module:
+metasfresh ist eine vollwertige ERP-Software und verfügt über folgende Module (keine erschöpfende Liste):
 
 | Modul | Instanzen |
 | :--- | :--- |

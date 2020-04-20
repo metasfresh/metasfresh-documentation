@@ -10,7 +10,7 @@ ref: functionalmodules
 ---
 
 ## Overview
-metasfresh is a full-featured ERP software that comes with the following modules:
+metasfresh is a full-featured ERP software that comes with the following modules (not an exhaustive list):
 
 | Module | Entities |
 | :--- | :--- |

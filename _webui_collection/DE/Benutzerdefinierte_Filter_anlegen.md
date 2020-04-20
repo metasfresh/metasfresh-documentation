@@ -41,6 +41,7 @@ Anwendungsbeispiel: Angenommen, Du wolltest einen Filter für das Fenster "Merkm
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Nutzer Filter".
 1. [Erstelle einen neuen Eintrag](Neuer_Datensatz_Fenster_Webui).
 1. Benenne Deinen benutzerdefinierten Filter im Feld **Name**, z.B. *AttributeValue* (siehe Beispiel unten).
+1. Stelle einen **Nutzer** ein, sofern die Filternutzung auf diesen beschränkt sein soll. Gib hierzu einen Teil des [Nutzer](Nutzer_anlegen)namens ein und klicke auf den passenden Treffer in der <a href="Keyboard_Shortcuts_Liste#dropdown" title="Dynamisches Suchfeld (Autocomplete)">Dropdown-Liste</a>.<br>Wird kein Nutzer angegeben, so kann der Filter von jedem verwendet werden.
 1. Stelle die **DB Tabelle** ein, auf die Du den Filter anwenden möchtest. Gib hierzu einen Teil der <abbr title="AD_Table_ID">Spalten-ID</abbr> ein und klicke auf den passenden Treffer in der <a href="Keyboard_Shortcuts_Liste#dropdown" title="Dynamisches Suchfeld (Autocomplete)">Dropdown-Liste</a>.
 1. Stelle das **Register** ein, in dem die Filterergebnisse angezeigt werden sollen. Gib hierzu einen Teil der <abbr title="AD_Tab_ID">Register-ID</abbr> ein und klicke auf den passenden Treffer in der <a href="Keyboard_Shortcuts_Liste#dropdown" title="Dynamisches Suchfeld (Autocomplete)">Dropdown-Liste</a>.
 1. Erfasse den Filter-**Code** in dem dafür vorgesehenen Textfeld, z.B.:
@@ -49,6 +50,8 @@ Anwendungsbeispiel: Angenommen, Du wolltest einen Filter für das Fenster "Merkm
    AND<^>M_Attribute_ID<^> = <^><^><~>AND<^>IsActive<^> = <^>Y<^><~>AND<^>Name<^>ILIKE<^><^>
    ```
 
+1. [Setze den Server-Cache zurück](../../installation_collection/DE/Wie_resette_ich_den_server_cache).
+1. Setze den Front-End-Cache zurück. Drücke hierzu `Strg`/`⌘ cmd` + `⇧ Umschalt` + `R`.
 1. Als Ergebnis erhältst Du dann:<br>
   <kbd><img src="https://user-images.githubusercontent.com/15378036/70226875-45935380-175a-11ea-9083-090e6b875989.png" alt="Abb.: Benutzerdefinierter Filter 'AttributeValue'"></kbd>
   <br><br>

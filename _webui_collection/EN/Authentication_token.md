@@ -29,4 +29,4 @@ If no authentication token is shown under the record tab "Authentication Tokens"
 
 | **Note:** |
 | :--- |
-| To copy the authentication token to the clipboard, double-click the field in the column **Authentication Token** of the token line (the token will turn grey) and press `Ctrl` + `C` / `⌘ cmd` + `C`. Or open the [advanced edit menu](Open_AdvancedEditTab) of the token line, highlight the token there with the mouse and use the same keyboard shortcut. |
+| To copy the authentication token to the clipboard, double-click the field in the column **Authentication Token** of the token line (the token will turn grey) and press `Ctrl`/`⌘ cmd` + `C`. Or open the [advanced edit menu](Open_AdvancedEditTab) of the token line, highlight the token there with the mouse and use the same keyboard shortcut. |
