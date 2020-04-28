@@ -10,11 +10,9 @@ ref: product_planning
 ---
 
 ## Überblick
-Mit den Produktplandaten kannst Du einstellen, was passieren soll, wenn ein Produkt verkauft wird.
-Ein Produkt kann ein einzelnes Fertigprodukt sein oder aus mehreren Komponenten bestehen. Unter Umständen hast Du dieses Produkt oder seine Komponenten nicht (mehr) auf Lager, also musst Du es **einkaufen** oder **produzieren**.
- >**Hinweis:** Im Fenster *Handling Unit Editor* erhältst Du eine Übersicht der Produkte auf Lager.
+Über die Produktplandaten kannst Du festlegen, was passieren soll, wenn ein Auftrag für ein Produkt erstellt wird, das nur noch in geringer Menge vorrätig ist. Ein Produkt kann ein einzelnes Fertigprodukt sein oder aus mehreren Komponenten bestehen (siehe [Stückliste](Stueckliste_erstellen)). Tritt der Fall ein, dass der Bedarf an dem Produkt oder den einzelnen Komponenten nicht (vollständig) gedeckt werden kann, so geben die Produktplandaten vor, ob neue Waren **eingekauft** oder **produziert** werden müssen, um die Lagerbestände wieder aufzufüllen und den Bedarf zu decken. Im Fenster [*Handling Unit Editor*](Menu) erhältst Du eine Übersicht der Produkte auf Lager.
 
-Wird ein Auftrag erfasst, überprüft die *Materialdisposition* anhand der Produktplandaten automatisch, welche Produkte auf Lager sind, eingekauft oder produziert werden müssen.
+Die [*Materialdisposition*](Materialdisposition_Grundlagen) von metasfresh überprüft außerdem bei Auftragserstellung anhand der Produktplandaten, welche Produkte auf Lager sind, eingekauft oder produziert werden müssen und kann dann automatisch Bestellungen und Produktionsaufträge erzeugen.
 
 ## Voraussetzungen
 - [Lege ein Produkt an](NeuesProdukt), für das Du die Plandaten konfigurieren möchtest.
@@ -23,21 +21,21 @@ Wird ein Auftrag erfasst, überprüft die *Materialdisposition* anhand der Produ
 
 ### Plandaten konfigurieren
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Produkt Plandaten".
-1. Öffne den Eintrag des gewünschten Produktes aus der [Listenansicht](Ansichten#listenansicht).
-1. Gehe zur Registerkarte "Daten Planung" unten auf der Seite und klicke auf !["Neu hinzufügen"](assets/Neu_hinzufuegen_Button.png). Es öffnet sich ein Overlay-Fenster.
+1. [Erstelle einen neuen Plandateneintrag](Neuer_Datensatz_Fenster_Webui).
 
-#### a) Für den Einkauf
+#### a) Für den Einkauf konfigurieren
+1. Gib in das Feld **Produkt** einen Teil des Namens oder der Nummer des [Produktes](NeuesProdukt) ein und klicke auf den passenden Treffer in der <a href="Keyboard_Shortcuts_Liste#dropdown" title="Dynamisches Suchfeld (Autocomplete)">Dropdown-Liste</a>.
 1. Soll die Planung von der Materialdisposition berücksichtigt werden, setze ein Häkchen bei **Beleg erstellen**.
 1. Setze das Feld **Wird eingekauft** auf *Ja*.
-1. Klicke auf "Bestätigen", um das Overlay-Fenster zu schließen und die Plandaten zur Liste hinzuzufügen.
+1. [metasfresh speichert automatisch](Speicheranzeige).
 
-#### b) Für die Produktion
-1. Wähle eine **Stücklistenkonfiguration** aus.
-1. Wähle einen **Arbeitsablauf** aus.
-1. Wähle eine **Produktionsressource** aus.
+#### b) Für die Produktion konfigurieren
+1. Wähle eine **BOM & Formula** (*Stücklistenkonfiguration*) aus.
+1. Wähle einen **Workflow** (*Arbeitsablauf*) aus.
+1. Wähle im Feld **Ressource** eine Produktionsressource aus.
 1. Soll der Produktionsauftrag von der Materialdisposition berücksichtigt werden, setze ein Häkchen bei **Beleg erstellen**.
 1. Soll der Produktionsauftrag automatisch fertiggestellt werden, setze ein Häkchen bei **Beleg fertigstellen**.
 1. Setze das Feld **Wird produziert** auf *Ja*.
  >**Hinweis:** In diesem Fall legt die Materialdisposition automatisch einen Produktionsauftrag an, sobald ein Auftrag erstellt wurde.
 
-1. Klicke auf "Bestätigen", um das Overlay-Fenster zu schließen und die Plandaten zur Liste hinzuzufügen.
+1. [metasfresh speichert automatisch](Speicheranzeige).
