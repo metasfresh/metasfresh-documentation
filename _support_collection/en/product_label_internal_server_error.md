@@ -16,12 +16,13 @@ When running the process `Products Data Entry (Jasper)` in a Manufacturing Order
 
 ## Solution:
 - Port-Bind the app-container's api in your docker-compose.yml, e.g.:
-```
-app:
-...
-  ports:
-    - "8282:8282"
-```
+
+  ```
+  app:
+  ...
+    ports:
+      - "8282:8282"
+  ```
 
 - Update the ad_sysconfig entry `API_URL` in your database to the server and port which shall be reachable by your clients:
 ```
