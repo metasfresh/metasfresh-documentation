@@ -1,5 +1,5 @@
 ---
-title: Error when running Products Data Entry (Jasper) process
+title: Error when running process 'Products Data Entry (Jasper)'
 layout: default
 description: "Solve the internal server error for manufacturing order process 'Products Data Entry (Jasper)'"
 tags:
@@ -15,8 +15,7 @@ When running the process `Products Data Entry (Jasper)` in a Manufacturing Order
 - Logs in `reports` container show error containing `reports_1   | Caused by: java.net.UnknownHostException: app`
 
 ## Solution:
-- Port-Bind the app-container's api in your docker-compose.yml
-eg:
+- Port-Bind the app-container's api in your docker-compose.yml, e.g.:
 ```
 app:
 ...
@@ -34,8 +33,7 @@ docker exec -u postgres metasfreshdocker_db_1 psql -d metasfresh -c "UPDATE ad_s
 docker-compose down && docker-compose up -d
 ```
 
-- Make sure Port `8282/TCP` is reachable from your clients
-eg:
+- Make sure Port `8282/TCP` is reachable from your clients, e.g.:
 ```
 nc -vz my.metasfreshserver.com 8282
 my.metasfreshserver.com [AAA.BBB.CCC.DDD] 8282 open
