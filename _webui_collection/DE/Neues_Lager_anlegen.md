@@ -16,6 +16,9 @@ ref: add_new_warehouse
 1. [Lege ein neues Lager an](Neuer_Datensatz_Fenster_Webui).
 1. Benenne das Lager im Feld **Name**, z.B. "[Leergebindelager](Leergebindelager_anlegen)".
 1. Gib im Feld **Standort** einen Teil des [Standort](Adresse_erfassen_Tab)namens ein und klicke auf den passenden Treffer in der <a href="Keyboard_Shortcuts_Liste#dropdown" title="Dynamisches Suchfeld (Autocomplete)">Dropdown-Liste</a>.
+1. Wähle eine **Produktionsstätte** aus, sofern vorhanden.
+ >**Hinweis:** Produktionsstätten werden für [Produktplanung](Produktplandaten) und [automatische Bestellkontrollen](Automatische_Bestellkontrollen) benötigt.
+
 1. ***Optional:*** Wähle eine [**Lagerart**](Lagerart_hinzufuegen) aus.
 
 ### <a name="lagerort">Lagerort hinzufügen</a>

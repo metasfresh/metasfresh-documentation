@@ -23,6 +23,7 @@ In addition, metasfresh's [*material schedule*](Material_schedule_basics) uses t
 1. Open "Product Planning" from the [menu](Menu).
 1. [Create a new planning data entry](New_Record_Window).
 1. In the field **Product**, enter a part of the [product](NewProduct) name or number and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
+1. Pick a [**Warehouse**](Add_new_warehouse) where the product is kept in store.
 
 #### a) For Purchasing
 1. If the product should be monitored by the material schedule and purchase orders be created automatically, tick the checkbox **Create Plan**.
@@ -37,3 +38,6 @@ In addition, metasfresh's [*material schedule*](Material_schedule_basics) uses t
 1. If the manufacturing order should be completed automatically, tick the checkbox **Complete Document**.
 1. Set the field **Manufactured** to *Yes*.
 1. [metasfresh saves the progress automatically](Saveindicator).
+
+## Next Steps (optional)
+- [Create automatic order checkup documents for controlled order processing](Automatic_order_checkup).
