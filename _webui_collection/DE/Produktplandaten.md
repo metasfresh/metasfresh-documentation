@@ -23,6 +23,7 @@ Zusätzlich überprüft die [*Materialdisposition*](Materialdisposition_Grundlag
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Produkt Plandaten".
 1. [Erstelle einen neuen Plandateneintrag](Neuer_Datensatz_Fenster_Webui).
 1. Gib in das Feld **Produkt** einen Teil des Namens oder der Nummer des [Produktes](NeuesProdukt) ein und klicke auf den passenden Treffer in der <a href="Keyboard_Shortcuts_Liste#dropdown" title="Dynamisches Suchfeld (Autocomplete)">Dropdown-Liste</a>.
+1. Wähle ein [**Lager**](Neues_Lager_anlegen) aus, in dem das Produkt aufbewahrt wird.
 
 #### a) Für den Einkauf konfigurieren
 1. Soll das Produkt von der Materialdisposition berücksichtigt und Bestellungen automatisch erzeugt werden, setze ein Häkchen bei **Beleg erstellen**.
@@ -37,3 +38,6 @@ Zusätzlich überprüft die [*Materialdisposition*](Materialdisposition_Grundlag
 1. Soll der Produktionsauftrag automatisch fertiggestellt werden, setze ein Häkchen bei **Beleg fertigstellen**.
 1. Setze das Feld **Wird produziert** auf *Ja*.
 1. [metasfresh speichert automatisch](Speicheranzeige).
+
+## Nächste Schritte (optional)
+- [Erstelle automatische Bestellkontrollen zur kontrollierten Auftragsbearbeitung](Automatische_Bestellkontrollen).
