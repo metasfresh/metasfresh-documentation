@@ -19,4 +19,4 @@ ref: activate_automatic_order_checkup
 1. [metasfresh speichert automatisch](Speicheranzeige).
 
 ## Nächste Schritte
-- [Erstelle automatische Bestellkontrollen zur kontrollierten Auftragsbearbeitung](Automatische_Bestellkontrollen).
+- [Erzeuge Bestellkontrollen zur kontrollierten Auftragsbearbeitung](Automatische_Bestellkontrollen).
