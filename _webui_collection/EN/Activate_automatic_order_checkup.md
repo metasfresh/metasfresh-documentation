@@ -19,4 +19,4 @@ ref: activate_automatic_order_checkup
 1. [metasfresh saves the progress automatically](Saveindicator).
 
 ## Next Steps
-- [Create automatic order checkup documents for controlled order processing](Automatic_order_checkup).
+- [Generate order checkup lists for controlled order processing](Automatic_order_checkup).
