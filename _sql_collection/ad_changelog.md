@@ -9,6 +9,16 @@ lang: en
 
 ## SELECT Examples
 
+### See how many changelogs are existing per table - Top 10
+```SQL
+
+select tablename, count(*) from ad_changelog
+join ad_table on ad_table.ad_table_id=ad_changelog.ad_table_id
+group by tablename
+order by count(*) desc
+limit 10
+```
+
 ### Shows a subset of the change log records
 
 ```SQL
