@@ -1,0 +1,19 @@
+---
+title: C_CountryArea (EU Area)
+layout: default
+tag: 
+   - Data Model
+   - Master Data
+lang: en
+---
+
+## SELECT Examples
+
+### Find out which countries belong to EU
+
+```SQL
+select c.name, * 
+from c_country c 
+join  C_CountryArea_Assign ca on c.c_country_id = ca.c_country_id
+order by c.name
+```
