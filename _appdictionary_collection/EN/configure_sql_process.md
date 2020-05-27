@@ -31,9 +31,11 @@ from C_BPartner bp
 ```
 
 The context variables used in SQL will be resolved in following order:
-* process parameter
-* current selected record's field
-* global context
+* process parameter e.g. `where c_order_id = @C_Order_ID/-1@`
+* current selected record's field. e.g. `where <column> in (@$WEBUI_ViewSelectedIds/0@)`
+* global context e.g. `@#AD_User_ID@`
+
+
 
 ## Sample
 
