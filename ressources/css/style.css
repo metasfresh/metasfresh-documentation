@@ -7,6 +7,11 @@
     visibility: hidden;
 }
 
+.row {
+    max-width: 980px;
+    margin: 0 auto;
+}
+
 /* Main Navigation */
 .main-nav {
     float: left;
@@ -25,6 +30,45 @@
 }
 
 .filter-alert {
-  display: inline-block;
-  margin-right: 10px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0 45px;
+    background-color: #fff;
+    -webkit-box-shadow: 0 2px 2px rgb(239, 239, 239);
+    box-shadow: 0 2px 2px #efefef;
+    z-index: 9999;
+}
+
+.searchbox-phrase {
+    color: #69B43E;
+    font-size: 12px;
+    padding-left: 10px;
+}
+
+.custom-searchbox {
+    border: 1px solid #ccc;
+    padding-top: 5px;
+}
+
+#gs_id50,
+#gs_id51 {
+    margin-bottom: 0;
+}
+
+.custom-searchbox table td,
+.custom-searchbox table th,
+.custom-searchbox table tr {
+    border: none;
+}
+
+.no-display-de,
+.no-display-en {
+    display: none;
 }
