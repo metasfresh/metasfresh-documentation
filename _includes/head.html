@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html>
+<html lang="{% if page.lang %}{{ page.lang }}{% else %}{{ include.lang }}{% endif %}">
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="language" content="{% if page.lang %}{{ page.lang }}{% else %}{{ include.lang }}{% endif %}">
         <title>{{ page.title }}</title>
 		<link rel="canonical" href="{{ site.github.url }}{{ page.url }}" />
 		<link rel="stylesheet" type="text/css" href="{{ site.github.url }}/vendors/css/normalize.css" />
@@ -15,7 +18,7 @@
 				min-width: 200px;
 				max-width: 980px;
 				margin: 0 auto;
-				padding: 30px 45px 45px 45px;
+				padding: 90px 45px 45px 45px;
 			}
 		</style>
     </head>
@@ -30,7 +33,7 @@
 
 
     <header>
-        <nav>
+        <nav class="sticky">
             <div class="row">
                 <div class="main-nav">
                     {% if page.name == "index.md" %}
@@ -50,6 +53,24 @@
                 {% endif %}
             </div>
         </nav>
+
+
+        <div class="searchbox-de no-display-de">
+            <div class="searchbox-phrase">Wonach suchst Du?</div>
+            <script async src="https://cse.google.com/cse.js?cx=016970168769103457171:3puwzzygqis"></script>
+            <div class="custom-searchbox">
+                <div class="gcse-searchbox-only" data-resultsUrl="{{ site.github.url }}/Suchergebnisse.html"></div>
+            </div>
+        </div>
+
+        <div class="searchbox-en no-display-en">
+            <div class="searchbox-phrase">What are you looking for?</div>
+            <script async src="https://cse.google.com/cse.js?cx=016970168769103457171:iocz35utezx"></script>
+            <div class="custom-searchbox">
+                <div class="gcse-searchbox-only" data-resultsUrl="{{ site.github.url }}/search-results.html"></div>
+            </div>
+        </div>
+
 
         <div class="row">
             <h1>{{ page.title }}</h1>
