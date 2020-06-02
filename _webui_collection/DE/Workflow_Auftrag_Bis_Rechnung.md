@@ -9,7 +9,7 @@ sequence: 10
 ref: workflow_salesorder_to_invoice
 ---
 
-![IMG](../../images/de_auftrag_bis_rechnung.png)
+<kbd><img src="../../images/de_auftrag_bis_rechnung.png" alt="Abb.: Workflow - Auftrag bis Rechnung"></kbd>
 
 ## Schritte
 1. [Melde Dich bei metasfresh an](Anmeldung).

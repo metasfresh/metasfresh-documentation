@@ -12,13 +12,17 @@ ref: order_picking_terminal_v2
 
 ## Overview
 In metasfresh, you can pick *handling units* ([HUs](Handling_Unit_System)) for shipping and use different [shippers](Shipper_configuration), e.g., shipping services like DPD and DHL. The picked quantities are deducted from stock afterwards.<br>
-You can check your stock inventory at any time in the "[Handling Unit Editor](Menu)".
+You can review your stock levels at any time in the "[Handling Unit Editor](Menu)".
+
+<kbd><img src="assets/Workflow_Sales_Order_to_Invoice (Picking Terminal v2).png" alt="Abb.: Workflow - Auftrag bis Rechnung (Kommissionier-Terminal v2)"></kbd>
 
 ## Requirements
 1. [Create a sales order intended for shipping](Sales_order_with_shipper) and [complete it](DocumentProcessingComplete).
 1. [Create a transport order in the *Drafted* status](Create_transport_order) to use it to handle the picked sales order.
-1. Prior to picking, make sure that the ordered products are in stock in sufficient quantity for sale.<br>
-To replenish the stock, you can [create a goods receipt](CreateGoodsReceipt).
+1. Prior to picking, make sure that the ordered products are in stock in sufficient quantity for sale.
+1. To replenish stocks, you can either:<br>
+  **a)** [create a goods receipt](CreateGoodsReceipt).<br>
+  **b)** [add new handling units via physical inventory](Physical_inventory_create_HUs).
 
 ## Steps
 1. Open "Picking Terminal (v2)" from the [menu](Menu).

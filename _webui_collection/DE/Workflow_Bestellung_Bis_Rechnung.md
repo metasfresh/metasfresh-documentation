@@ -9,7 +9,7 @@ sequence: 10
 ref: workflow_purchaseorder_to_invoice
 ---
 
-![IMG](../../images/de_bestellung_bis_eingangsrechnung.png)
+<kbd><img src="../../images/de_bestellung_bis_eingangsrechnung.png" alt="Abb.: Workflow - Bestellung bis Eingangsrechnung"></kbd>
 
 ## Schritte
 1. [Melde Dich bei metasfresh an](Anmeldung).
