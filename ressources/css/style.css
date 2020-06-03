@@ -12,6 +12,12 @@
     margin: 0 auto;
 }
 
+/* Icons */
+.filter-alert {
+    display: inline-block;
+    margin-right: 10px;
+}
+
 /* Main Navigation */
 .main-nav {
     float: left;
@@ -29,11 +35,6 @@
     width: 200px;
 }
 
-.filter-alert {
-    display: inline-block;
-    margin-right: 10px;
-}
-
 .sticky {
     position: fixed;
     top: 0;
@@ -46,6 +47,7 @@
     z-index: 9999;
 }
 
+/* Adjusting Google Custom Search Engine */
 .searchbox-phrase {
     color: #69B43E;
     font-size: 12px;
@@ -79,4 +81,9 @@
 .no-display-de,
 .no-display-en {
     display: none;
+}
+
+/* Remove Google Ads */
+.gsc-adBlock {
+    display: none!important;
 }
