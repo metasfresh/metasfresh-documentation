@@ -68,6 +68,14 @@
     border: none;
 }
 
+#___gcse_2 * {
+    box-sizing: content-box;
+}
+
+.gsc-above-wrapper-area-container {
+    padding: 25px 0 25px 0;
+}
+
 .no-display-de,
 .no-display-en {
     display: none;
