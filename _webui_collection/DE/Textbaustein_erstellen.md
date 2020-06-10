@@ -5,7 +5,7 @@ tags:
   - Anfängertipps für metasfresh
   - Einrichtung
 lang: de
-sequence: 70
+sequence: 60
 ref: create_boilerplate
 ---
 

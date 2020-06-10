@@ -5,7 +5,7 @@ tags:
   - A Beginner's Guide to metasfresh
   - Setup
 lang: en
-sequence: 70
+sequence: 60
 ref: create_boilerplate
 ---
 

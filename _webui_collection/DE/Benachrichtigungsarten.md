@@ -5,7 +5,7 @@ tags:
   - Anfängertipps für metasfresh
   - Einrichtung
 lang: de
-sequence: 50
+sequence: 40
 ref: notification_types
 ---
 
