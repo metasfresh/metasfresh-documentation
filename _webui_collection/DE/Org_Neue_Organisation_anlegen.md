@@ -39,7 +39,7 @@ Dank der [Mandantenfähigkeit](Konzept_Mandantenfaehigkeit) von metasfresh ist e
 1. Anschließend findest Du diesen Geschäftspartner unter dem Menüpunkt "[Organisation Stammdaten](Menu)" wieder.
 
 ### Lagerzuordnungen
-Durch die Verknüpfung der Organisation mit einem Geschäftspartner wird automatisch auch ein Lager für sie erstellt, welches anschließend in den Organisationsdaten aufgeführt wird. Diesem Lager kannst Du nun diejenigen Belegarten als **Dokument-Basistyp** zuordnen, bei denen es verwendet werden soll. Gehe hierzu wie folgt vor:
+Durch die Verknüpfung der Organisation mit einem Geschäftspartner wird automatisch auch ein Lager erstellt, welches anschließend in den Organisationsdaten aufgeführt wird. Diesem Lager kannst Du nun diejenigen Belegarten als **Dokument-Basistyp** zuordnen, bei denen es verwendet werden soll. Gehe hierzu wie folgt vor:
 
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Organisation".
 1. Öffne den Eintrag der zuvor neu erstellten Organisation.
@@ -57,17 +57,27 @@ Wenn Du mit einer neuen Organisation arbeiten und z.B. Aufträge oder Bestellung
 - Geschäftspartner (Kunden und/oder Lieferanten)
 - Produkte
 
-Folge den Anleitungen im Anschluss unter Berücksichtigung der folgenden Einstellung:
+Folge den Anleitungen im Anschluss unter Berücksichtigung des folgenden Hinweises:
 
 | **Wichtiger Hinweis:** |
 | :--- |
 | Stelle sicher, dass Du in jedem einzelnen Dateneintrag in dem Feld **Sektion** auch ***dieselbe Organisation*** einstellst, für die die Daten sichtbar sein sollen!<br>Um Daten für alle Organisationen verfügbar zu machen (z.B. zu Testzwecken), wähle als Organisation `*`. |
 
 1. [Definiere gültige Preise für die neue Organisation](Preise_definieren).
-1. Definiere gültige Steuersätze für die neue Organisation.
+1. [Definiere gültige Steuersätze für die neue Organisation](MwSt_Neuen_Steuersatz_erfassen).
 1. Lege neue [Geschäftspartner](Neuer_Geschaeftspartner) ([Kunden](Neuer_Geschaeftspartner_Kunde) oder [Lieferanten](Neuer_Geschaeftspartner_Lieferant)) für die Organisation an.
 1. [Lege neue Produkte für die Organisation an](NeuesProdukt).
 
-| **Wichtiger Hinweis:** |
-| :--- |
-| Um sicherzustellen, dass alle Änderungen übernommen werden, empfiehlt es sich nach Anlegen und Einstellen einer neuen Organisation:<br><ol style="margin-top: 5px; margin-bottom: 3px;"><li>[den Server-Cache zurückzusetzen](../../installation_collection/DE/Wie_resette_ich_den_server_cache) sowie anschließend</li><li>den Front-End-Cache zu leeren (`Strg`/`⌘ cmd` + `⇧ Umschalt` + `R`).</li></ol> |
+
+  <table>
+    <thead>
+      <tr>
+        <th style="text-align: left"><strong>Wichtiger Hinweis:</strong></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="text-align: left">Um sicherzustellen, dass alle Änderungen übernommen werden, empfiehlt es sich nach Anlegen und Einstellen einer neuen Organisation:<br><ol style="margin-top: 5px; margin-bottom: 3px;"><li><a href="../../installation_collection/DE/Wie_resette_ich_den_server_cache">den Server-Cache zurückzusetzen</a> sowie anschließend</li><li>den Front-End-Cache zu leeren (<code class="language-plaintext highlighter-rouge">Strg</code>/<code class="language-plaintext highlighter-rouge">⌘ cmd</code> + <code class="language-plaintext highlighter-rouge">⇧ Umschalt</code> + <code class="language-plaintext highlighter-rouge">R</code>)</li></ol></td>
+      </tr>
+    </tbody>
+  </table>
