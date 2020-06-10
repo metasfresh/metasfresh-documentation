@@ -5,7 +5,7 @@ tags:
   - A Beginner's Guide to metasfresh
   - Basics and Concepts
 lang: en
-sequence: 10
+sequence: 20
 ref: handling_unit_system
 ---
 

@@ -26,8 +26,8 @@ ref: add_new_warehouse
 1. In each of the fields **Aisle**, **Rack**, **Level** and **Tray** enter the value *0*.
 1. Click "Done" to close the overlay window and add the storage place to the list.
 
-### Warehouse Assignment
-Here you can select the ***Document Base Types*** for which the warehouse shall be used, e.g., *Sales Order*, *Purchase Order*, *Material Receipt*, etc.
+### <a name="lagerzuordnung">Warehouse Assignment</a>
+Here you can select the ***Document Base Types*** for which the warehouse shall be used, e.g., *Sales Order*, *Purchase Order*, *Inventory*, *Material Receipt*, etc.
 
 1. Go to the record tab "Lagerzuordnung" (*Warehouse Assignment*) at the bottom of the page and click !["Add new"](assets/Add_New_Button.png). An overlay window opens up.
 1. Select a **Document Base Type**, e.g., *Sales Order*.

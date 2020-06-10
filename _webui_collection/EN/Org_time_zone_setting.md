@@ -4,8 +4,9 @@ layout: default
 tags:
   - A Beginner's Guide to metasfresh
   - Setup
+  - Organizations
 lang: en
-sequence: 30
+sequence: 20
 ref: org_time_zone_setting
 ---
 

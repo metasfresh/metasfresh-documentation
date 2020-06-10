@@ -5,7 +5,7 @@ tags:
   - Anfängertipps für metasfresh
   - Grundlagen und Konzepte
 lang: de
-sequence: 10
+sequence: 20
 ref: handling_unit_system
 ---
 

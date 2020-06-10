@@ -5,7 +5,7 @@ tags:
   - Anfängertipps für metasfresh
   - Grundlagen und Konzepte
 lang: de
-sequence: 20
+sequence: 30
 ref: material_schedule_basics
 ---
 
