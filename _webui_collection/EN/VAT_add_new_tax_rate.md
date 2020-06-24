@@ -15,7 +15,7 @@ Tax rates are included in metasfresh by default and can be flexibly configured a
 ## Steps
 1. Open "Tax Rate" from the [menu](Menu).
 1. [Add a new tax rate](New_Record_Window).
-1. Give the tax rate a **Name**, e.g., "Normal Tax Rate 16%" or "Reduced Tax Rate 5%".
+1. Give the tax rate a **Name**, e.g., "Standard Tax Rate 16%" or "Reduced Tax Rate 5%".
 1. Set a **Valid from** date.
  >**Note:** If this date lies in the *past*, the tax rate will be effective *immediately*. If it lies in the *future*, the tax rate will only apply *from that date*.
 
