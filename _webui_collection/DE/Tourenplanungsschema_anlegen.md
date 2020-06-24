@@ -11,7 +11,7 @@ ref: add_tour_scheduling_schema
 ---
 
 ## Überblick
-Ein Tourenplanungsschema kann mehrere Tourversionen umfassen, die sich durch ihre jeweiligen Gültigkeitszeiträume gegenseitig automatisch nacheinander ablösen. Dadurch lassen sich prospektive Tourenlisten erzeugen, mit denen Liefertouren weit im Voraus geplant werden können, wodurch Du stets auf aktuellem Stand bist und immer einen Überblick über die ausstehenden Touren, Liefertage und Ansprechpartner behältst.
+Ein Tourenplanungsschema kann mehrere Tourversionen umfassen, die sich aufgrund ihrer jeweiligen Gültigkeitszeiträume gegenseitig automatisch nacheinander ablösen. Dadurch lassen sich prospektive Tourenlisten erzeugen, mit denen Liefertouren weit im Voraus geplant werden können, wodurch Du stets auf aktuellem Stand bist und immer einen Überblick über die ausstehenden Touren, Liefertage und Ansprechpartner behältst.
 
 ## Schritte
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Tour".
