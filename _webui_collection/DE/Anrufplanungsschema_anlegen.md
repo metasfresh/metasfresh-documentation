@@ -13,7 +13,7 @@ ref: add_phone_call_schema
 ---
 
 ## Überblick
-Ein Anrufplanungsschema kann mehrere Anrufplanungsversionen umfassen, die sich durch ihre jeweiligen Gültigkeitszeiträume gegenseitig automatisch nacheinander ablösen. Dadurch lassen sich prospektive Anruflisten erzeugen, mit denen Telefonate weit im Voraus geplant werden können, wodurch Du stets auf aktuellem Stand bist und immer einen Überblick über die zu tätigenden Anrufe, Anrufzeiten und Ansprechpartner behältst.
+Ein Anrufplanungsschema kann mehrere Anrufplanungsversionen umfassen, die sich aufgrund ihrer jeweiligen Gültigkeitszeiträume gegenseitig automatisch nacheinander ablösen. Dadurch lassen sich prospektive Anruflisten erzeugen, mit denen Telefonate weit im Voraus geplant werden können, wodurch Du stets auf aktuellem Stand bist und immer einen Überblick über die zu tätigenden Anrufe, Anrufzeiten und Ansprechpartner behältst.
 
 ## Schritte
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Anruf Planung".

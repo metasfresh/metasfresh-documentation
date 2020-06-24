@@ -11,7 +11,7 @@ ref: add_tour_scheduling_schema
 ---
 
 ## Overview
-A tour scheduling schema may comprise several tour versions that successively replace each other automatically based on their respective validity periods. This way you can create prospective tour lists that enable you to schedule delivery tours far in advance while staying up to date and keeping track of pending tours, delivery days and contacts at all times.
+A tour scheduling schema may comprise several tour versions that automatically replace each other in succession based on their respective validity periods. This way you can create prospective tour lists that enable you to schedule delivery tours far in advance while staying up to date and keeping track of pending tours, delivery days and contacts at all times.
 
 ## Steps
 1. Open "Tour" from the [menu](Menu).
