@@ -1,4 +1,4 @@
-/* 
+/*
 This css file is taken from https://github.com/sindresorhus/github-markdown-css and was released unter the The MIT License:
 
 The MIT License (MIT)
@@ -37,6 +37,12 @@ THE SOFTWARE.
   font-size: 16px;
   line-height: 1.6;
   word-wrap: break-word;
+  box-sizing: border-box;
+  min-width: 200px;
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 90px 45px 45px 45px;
+  background-color: #fff;
 }
 
 .markdown-body a {
