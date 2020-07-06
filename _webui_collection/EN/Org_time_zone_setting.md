@@ -11,7 +11,7 @@ ref: org_time_zone_setting
 ---
 
 ## Overview
-In metasfresh, you can set the time zones of organizations individually. This ensures that internal planning and scheduling within an organization is always consistent and not unintentionally disrupted by international location changes.
+In metasfresh, you can set the time zones of [organizations](Org_add_new_organization) individually. This ensures that internal planning and scheduling within an organization is always consistent and not unintentionally disrupted by international location changes.
 
 ## Steps
 1. Open "Organisation" from the [menu](Menu).

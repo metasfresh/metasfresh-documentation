@@ -12,6 +12,7 @@ ref: createpurchaseorder
 ## Steps
 1. Open "Purchase Order" from the [menu](Menu).
 1. [Create a new purchase order](New_Record_Window).
+1. ***Optional:*** Set the desired [**Organization**](Org_add_new_organization) at the bottom right. To do so, enter a part of the organization's name into the field and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
 1. In the field **Delivery from**, enter a part of the [vendor](New_business_partner_vendor) name or number and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
  >**Note:** If the required partner does not appear in the list, you can add them through [quick create](Quick_create_new_business_partner).
 

@@ -7,7 +7,7 @@ tags:
   - Empties Returns
 lang: en
 sequence: 20
-ref: reverse_empties_receipt
+ref: reverse_empties_return
 ---
 
 ## Requirements
