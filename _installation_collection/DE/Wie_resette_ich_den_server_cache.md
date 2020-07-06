@@ -17,5 +17,4 @@ Jedes Mal, wenn Du Einstellungen änderst, muss der Server-Cache zurückgesetzt 
 1. Füge Deinen Servernamen und Port in den folgenden Link ein: `https://<yourhostname>/rest/api/debug/cacheReset`.
 1. Kopiere den Link in die Adressleiste Deines Browsers, in dem Du eine metasfresh Sitzung geöffnet hast, und führe ihn mit `↵ Enter` aus.<br>
 `https://mydockerhost:8080/rest/api/debug/cacheReset`
-
-Bei erfolgreicher Cache-Zurücksetzung wird nur eine weiße Seite angezeigt.
+1. Bei erfolgreicher Cache-Zurücksetzung wird nur eine weiße Seite angezeigt.

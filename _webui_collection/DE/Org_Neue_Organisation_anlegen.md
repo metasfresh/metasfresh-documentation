@@ -72,7 +72,6 @@ Folge den Anleitungen im Anschluss unter Berücksichtigung des folgenden Hinweis
 Um sicherzustellen, dass alle Änderungen übernommen werden, wird empfohlen, dass Sie nach dem Erstellen und Konfigurieren einer neuen Organisation die folgenden Schritte durchführen:
 
 
-
   <table>
     <thead>
       <tr>

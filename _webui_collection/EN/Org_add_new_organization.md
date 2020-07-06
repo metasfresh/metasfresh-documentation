@@ -22,7 +22,7 @@ Thanks to metasfresh's [multitenancy architecture](Multitenancy_concept), it is 
 1. [metasfresh saves the progress automatically](Saveindicator).
 
 ### Link a business partner to the organization
-Follow these [instructions for adding a new business partner](New_Business_Partner), taking into account the following settings:
+1. Follow these [instructions for adding a new business partner](New_Business_Partner), taking into account the following settings:
    - Set the newly created **Organisation** at the bottom right. To do so, enter a part of the organization's name into the field and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
    - The optional steps are not required.<br><br>
 
@@ -33,13 +33,13 @@ Follow these [instructions for adding a new business partner](New_Business_Partn
 1. [Start the action](StartAction#actions-menu) "Link Organization". An overlay window opens up.
 1. Set the newly created **Organisation**. To do so, enter a part of the organization's name into the field and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
 1. Pick a **Location**.
- >**Note:** This location is needed for the automatic creation of this organization's main warehouse as well as for the correct VAT calculation.
+ >**Note:** This location is needed for the automatic creation of this organization's main warehouse and for correctly calculating the VAT.
 
 1. Click "Start" to link the business partner to the organization and close the overlay window.
 1. Afterwards you can find this business partner under "[Businesspartner Dist-Orgs](Menu)" in the menu.
 
 ### Warehouse Assignment
-By linking the organization to a business partner, a warehouse is automatically created and included in the organization's info. You can now assign this warehouse the **Document Base Types** for which it shall be used. To do so, please proceed as follows:
+By linking the organization to a business partner, a warehouse is automatically created and added to the organization's info. You can now assign this warehouse the **Document Base Types** for which it shall be used. To do so, please proceed as follows:
 
 1. Open "Organisation" from the [menu](Menu).
 1. Open the entry of the previously created new organization.
@@ -50,18 +50,18 @@ By linking the organization to a business partner, a warehouse is automatically 
 
 ## Next Steps
 If you want to use a new organization and, for example, enter sales or purchase orders, all required data ***must*** be linked to this organization as well. Data include:
-- valid pricing systems
-- valid price lists
-- valid price list versions
-- valid tax rates
-- business partners (customers and/or vendors)
-- products
+- Valid pricing systems
+- Valid price lists
+- Valid price list versions
+- Valid tax rates
+- Business partners (customers and/or vendors)
+- Products
 
 Follow the instructions below, taking note of the following:
 
 | **Important note:** |
 | :--- |
-| Please make sure to set the ***same organization*** allowed to view the data in every single data entry!<br> In order to make data available to every organization (e.g., for testing purposes), set **Organisation** to `*`. |
+| Please make sure to set the ***same organization*** that is allowed to view the data in every single data entry!<br> In order to make data available to every organization (e.g., for testing purposes), set **Organisation** to `*`. |
 
 1. [Define valid prices for the new organization](Define_prices).
 1. [Define valid tax rates for the new organization](VAT_add_new_tax_rate).
