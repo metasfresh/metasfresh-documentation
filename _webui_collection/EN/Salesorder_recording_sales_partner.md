@@ -16,7 +16,7 @@ ref: salesorder_recording_sales_partner
 1. [Assign a price to the commission points](Commission_points_price).
 
 ## Steps
-Follow these [instructions for entering a sales order](SalesOrder_recording) taking into account the following settings:
+Follow these [instructions for entering a sales order](SalesOrder_recording), taking into account the following settings:
 - Enter the **Sales partner code**.
 - In the field **Sales partner**, enter a part of the name or number of the sales partner entitled to the commission and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
  >**Note:** If one of the two fields is filled in correctly, the other one will be completed automatically.

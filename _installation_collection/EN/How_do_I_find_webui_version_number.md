@@ -22,7 +22,7 @@ The server will answer with a JSON String, which looks like this:
 You will find the version number after `"dbVersion":`. In this case it is the version `5.99.1-14944+master` which is major '5.99'.
 
 
-## Version of WebUI Frontend
+## Version of WebUI Front End
 
 that version can be found on the server in this file:
 

@@ -27,7 +27,7 @@ metasfresh currently offers interfaces for the following geocoding services:
 
 | **Important note:** |
 | :--- |
-| If you have a large number of business partner entries and use the area search particularly frequently,  we recommend increasing the **Cache Capacity** from 200 to about 500. This will allow you to cache your search strings and maintain search speed even when alternating between different locations during searches. |
+| If you have a large number of business partner entries and use the area search particularly frequently, we recommend increasing the **Cache Capacity** from 200 to about 500. This will allow you to cache your search strings and maintain search speed even when alternating between different locations during searches. |
 
 ## Steps
 1. Open "Geocoding Config" from the [menu](Menu).

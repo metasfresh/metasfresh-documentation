@@ -12,7 +12,7 @@ ref: add_new_system_language
 This guide shows you how to activate existing language records, turn them into system languages and create all missing translation references.
 
 ## Steps
-1. Log in to the Java backend using the role "System Administrator".
+1. Log in to the Java back end using the role "System Administrator".
 1. Go to "Language" (`WebUI > System > Language`).
 1. [Look up the record](../../howto_collection/EN_tbd/How_to_search_inside_a_window) of the language you want to add to the system.
 1. Tick the checkbox **Active**.

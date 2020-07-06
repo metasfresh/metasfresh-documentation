@@ -11,7 +11,7 @@ ref: org_time_zone_setting
 ---
 
 ## Überblick
-In metasfresh kannst Du die Zeitzonen von Organisationen individuell anpassen. So wird sichergestellt, dass die interne Terminplanung innerhalb einer Organisation stets einheitlich ist und nicht unbeabsichtigt von internationalen Standortwechseln durcheinandergebracht wird.
+In metasfresh kannst Du die Zeitzonen von [Organisationen](Org_Neue_Organisation_anlegen) individuell anpassen. So wird sichergestellt, dass die interne Terminplanung innerhalb einer Organisation stets einheitlich ist und nicht unbeabsichtigt von internationalen Standortwechseln durcheinandergebracht wird.
 
 ## Schritte
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Organisation".

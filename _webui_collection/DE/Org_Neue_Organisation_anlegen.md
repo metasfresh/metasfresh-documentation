@@ -11,7 +11,7 @@ ref: org_add_new_organization
 ---
 
 ## Überblick
-Dank der [Mandantenfähigkeit](Konzept_Mandantenfaehigkeit) von metasfresh ist es möglich, eine unbegrenzte Anzahl von Organisationen in einem System zu erstellen, die trotz zentraler Datenverwaltung jeweils nur auf bestimmte Daten zugreifen können.
+Dank der [Mandantenfähigkeit](Konzept_Mandantenfaehigkeit) von metasfresh ist es möglich, eine unbegrenzte Anzahl von Organisationen auf demselben System zu bedienen, wodurch alle Daten zwar zentral verwaltet werden können, der Datenzugriff jeder Organisation jedoch nur auf die eigene Datenmenge beschränkt ist.
 
 ## Schritte
 
@@ -39,17 +39,17 @@ Dank der [Mandantenfähigkeit](Konzept_Mandantenfaehigkeit) von metasfresh ist e
 1. Anschließend findest Du diesen Geschäftspartner unter dem Menüpunkt "[Organisation Stammdaten](Menu)" wieder.
 
 ### Lagerzuordnungen
-Durch die Verknüpfung der Organisation mit einem Geschäftspartner wird automatisch auch ein Lager erstellt, welches anschließend in den Organisationsdaten aufgeführt wird. Diesem Lager kannst Du nun diejenigen Belegarten als **Dokument-Basistyp** zuordnen, bei denen es verwendet werden soll. Gehe hierzu wie folgt vor:
+Durch die Verknüpfung der Organisation mit einem Geschäftspartner wird automatisch auch ein Lager erstellt und anschließend in den Organisationsdaten aufgeführt. Diesem Lager kannst Du nun diejenigen Belegarten als **Dokument-Basistyp** zuordnen, bei denen es verwendet werden soll. Gehe hierzu wie folgt vor:
 
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Organisation".
 1. Öffne den Eintrag der zuvor neu erstellten Organisation.
-1. Gehe zur Registerkarte "Organisationsdaten" und [zoome](Zoomen_in_Tabellenfeld) in das Feld in der Spalte **Lager** der Datenzeile.
+1. Gehe zur Registerkarte "Organisationsdaten" unten auf der Seite und [zoome](Zoomen_in_Tabellenfeld) in das Feld in der Spalte **Lager** der Datenzeile.
  >**Hinweis:** [Springe alternativ über die verknüpften Belege](SpringezuBelegen) in das Fenster "Lager" (unter LAGERVERWALTUNG und dann "Lager und Lagerort" in der Sidebar).
 
-1. Gehe zur Registerkarte "Lagerzuordnung" und [füge die gewünschten **Dokument-Basistypen** hinzu](Neues_Lager_anlegen#lagerzuordnung).
+1. Gehe zur Registerkarte "Lagerzuordnung" unten auf der Seite und [füge die gewünschten **Dokument-Basistypen** hinzu](Neues_Lager_anlegen#lagerzuordnung).
 
 ## Nächste Schritte
-Wenn Du mit einer neuen Organisation arbeiten und z.B. Aufträge oder Bestellungen erfassen möchtest, müssen auch alle dafür benötigten Daten ***unbedingt*** mit dieser Organisation verknüpft sein. Zu diesen Daten zählen:
+Wenn Du eine neue Organisation verwenden und z.B. Aufträge oder Bestellungen erfassen möchtest, müssen auch alle dafür benötigten Daten ***unbedingt*** mit dieser Organisation verknüpft sein. Zu diesen Daten zählen:
 - gültige Preissysteme
 - gültige Preislisten
 - gültige Preislistenversionen
@@ -61,12 +61,16 @@ Folge den Anleitungen im Anschluss unter Berücksichtigung des folgenden Hinweis
 
 | **Wichtiger Hinweis:** |
 | :--- |
-| Stelle sicher, dass Du in jedem einzelnen Dateneintrag in dem Feld **Sektion** auch ***dieselbe Organisation*** einstellst, für die die Daten sichtbar sein sollen!<br>Um Daten für alle Organisationen verfügbar zu machen (z.B. zu Testzwecken), wähle als Organisation `*`. |
+| Stelle sicher, dass Du in jedem einzelnen Dateneintrag in dem Feld **Sektion** auch ***dieselbe Organisation*** einstellst, für die die Daten sichtbar sein sollen!<br> Um Daten für jede Organisation verfügbar zu machen (z.B. zu Testzwecken), wähle als Organisation `*`. |
 
 1. [Definiere gültige Preise für die neue Organisation](Preise_definieren).
 1. [Definiere gültige Steuersätze für die neue Organisation](MwSt_Neuen_Steuersatz_erfassen).
-1. Lege neue [Geschäftspartner](Neuer_Geschaeftspartner) ([Kunden](Neuer_Geschaeftspartner_Kunde) oder [Lieferanten](Neuer_Geschaeftspartner_Lieferant)) für die Organisation an.
+1. [Lege neue Geschäftspartner](Neuer_Geschaeftspartner) ([Kunden](Neuer_Geschaeftspartner_Kunde) oder [Lieferanten](Neuer_Geschaeftspartner_Lieferant)) für die Organisation an.
 1. [Lege neue Produkte für die Organisation an](NeuesProdukt).
+
+
+Um sicherzustellen, dass alle Änderungen übernommen werden, wird empfohlen, dass Sie nach dem Erstellen und Konfigurieren einer neuen Organisation die folgenden Schritte durchführen:
+
 
 
   <table>
@@ -77,7 +81,10 @@ Folge den Anleitungen im Anschluss unter Berücksichtigung des folgenden Hinweis
     </thead>
     <tbody>
       <tr>
-        <td style="text-align: left">Um sicherzustellen, dass alle Änderungen übernommen werden, empfiehlt es sich nach Anlegen und Einstellen einer neuen Organisation:<br><ol style="margin-top: 5px; margin-bottom: 3px;"><li><a href="../../installation_collection/DE/Wie_resette_ich_den_server_cache">den Server-Cache zurückzusetzen</a> sowie anschließend</li><li>den Front-End-Cache zu leeren (<code class="language-plaintext highlighter-rouge">Strg</code>/<code class="language-plaintext highlighter-rouge">⌘ cmd</code> + <code class="language-plaintext highlighter-rouge">⇧ Umschalt</code> + <code class="language-plaintext highlighter-rouge">R</code>)</li></ol></td>
+        <td style="text-align: left">Um sicherzustellen, dass alle Änderungen übernommen werden, empfiehlt es sich nach Erstellung und Konfiguration einer neuen Organisation, die folgenden Schritte durchzuführen:<br><ol style="margin-top: 5px; margin-bottom: 3px;"><li><a href="../../installation_collection/DE/Wie_resette_ich_den_server_cache">Server-Cache zurücksetzen</a>.</li><li>Front-End-Cache leeren (<code class="language-plaintext highlighter-rouge">Strg</code>/<code class="language-plaintext highlighter-rouge">⌘ cmd</code> + <code class="language-plaintext highlighter-rouge">⇧ Umschalt</code> + <code class="language-plaintext highlighter-rouge">R</code>).</li></ol></td>
       </tr>
     </tbody>
   </table>
+
+## Nächste Schritte (optional)
+- [Stelle die Zeitzone der Organisation ein](Org_Zeitzone_einstellen).

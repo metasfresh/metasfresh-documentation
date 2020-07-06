@@ -24,6 +24,5 @@ Tax rates are included in metasfresh by default and can be flexibly configured a
 1. Set the **Country** from which services are provided.
 1. In the field **To**, set the country in which the services are provided or where the tax rate should apply.
 1. Tick the checkbox **Document Level** to calculate taxes per document instead of per line.
-1. ***Optional:*** Set the desired **Organization**.
-To do so, enter a part of the organization's name into the field and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
+1. ***Optional:*** Set the desired [**Organization**](Org_add_new_organization). To do so, enter a part of the organization's name into the field and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
 1. [metasfresh saves the progress automatically](Saveindicator).

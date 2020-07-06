@@ -85,7 +85,7 @@ Please take a look [here](getting_started_maven_settings) for details.
   - The launcher file `/metasfresh-dist/metasfresh-dist-swingui.launch` starts the sing client,<br>When developing, this is often the most practical way to run metasfresh from Eclipse.<br>Note that in order to do dev-work the swing client only needs to connect to the DB, but not neccesarily to the app server
 
 * Starting the server and client individually:
-  - Start the backend/app server: use the launcher file `/metasfresh-dist/metasfresh-dist-serverRoot.launch`
+  - Start the back-end/app server: use the launcher file `/metasfresh-dist/metasfresh-dist-serverRoot.launch`
   - Start the webui-api: use the launcher file `metasfresh-webui-api/metasfresh-webui-api.launch`
     - Note that this start the webui's rest API. To actually interact with metasfresh using your web-browser, you also need to start the javascript webui-frontend as well. See the respective [README.md](https://github.com/metasfresh/metasfresh-webui-frontend/blob/master/README.md) for further details.
   - If you are going to work with material-dispo, the print service, the MSV3-server etc: there are also `.launch` config files for those
