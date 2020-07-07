@@ -71,3 +71,10 @@ select nextval('ad_changelog_seq'),
 from  (select * from fix.<your table>) data
 ;
 ```
+
+
+## Counts tables in Changelog 
+
+```
+select * from dlm.ad_changelog_counts_v;
+```
