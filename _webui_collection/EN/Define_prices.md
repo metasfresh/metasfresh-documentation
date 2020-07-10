@@ -11,7 +11,7 @@ ref: define_prices
 ---
 
 ## Overview
-![](assets/price system_hierachy.png)
+<kbd><img src="assets/price system_hierachy.png" alt="Fig.: Pricing System Hierarchy"></kbd>
 
 ## Steps
 1. [Add a pricing system](Add_price-system).

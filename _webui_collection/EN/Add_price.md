@@ -11,7 +11,7 @@ ref: add_price
 ---
 
 ## Overview
-![](assets/price system hierarchy - price.png)
+<kbd><img src="assets/price system hierarchy - price.png" alt="Fig.: Pricing System Hierarchy - Focus: Price"></kbd>
 
 ## Steps
 1. Open "Product Prices" from the [menu](Menu).
@@ -22,8 +22,9 @@ ref: add_price
 1. Pick a **UOM** (unit of measurement) for which the price shall apply (sales UOM).
  >**Note:** If sales UOM ≠ stock-keeping UOM (see [Product](NewProduct)), you have to define a [UOM conversion](Convert_UOMs).
 
-1. In the field **Tax Category**, pick a value-added tax (VAT) category, such as *normal*, *reduced*, *tax-free*, etc.
+1. In the field **Tax Category**, pick a value-added tax (VAT) category, e.g., *standard*, *reduced*, *tax-free*, etc.
 1. In the field **Invoiceable Quantity per**, pick the weight to be used for invoicing, e.g., *Nominal* weight (default) or *Catch Weight* ([for products with variable weight](Sales_order_catch_weight)).
+1. ***Optional:*** Set the desired [**Organization**](Org_add_new_organization). To do so, enter a part of the organization's name into the field and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
 1. [metasfresh saves the progress automatically](Saveindicator).
 
 ## Further Information
@@ -40,4 +41,4 @@ ref: add_price
 - [Assign the prices to a partner](Assign_prices_to_partner).
 
 ## Example
-![](assets/Add_Price.gif)
+<kbd><img src="assets/Add_Price.gif" alt="GIF: Add new price"></kbd>

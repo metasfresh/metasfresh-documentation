@@ -11,7 +11,7 @@ ref: add_price
 ---
 
 ## Überblick
-![](assets/Preissystem Hierarchie - Preis.png)
+<kbd><img src="assets/Preissystem Hierarchie - Preis.png" alt="Abb.: Preissystem-Hierarchie - Fokus: Preis"></kbd>
 
 ## Schritte
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Produkt Preise".
@@ -22,8 +22,9 @@ ref: add_price
 1. Wähle eine **Maßeinheit** aus, für die der Preis gilt (Verkaufsmengeneinheit).
  >**Hinweis:** Ist die Verkaufsmengeneinheit ≠ Bestandsmengeneinheit (siehe [Produkt](NeuesProdukt)), muss eine [Maßeinheitenumrechnung](Masseinheiten_umrechnen) definiert werden.
 
-1. Wähle im Feld **Steuerkategorie** eine Mehrwertsteuerkategorie aus, wie z.B. *normal*, *reduziert*, *steuerfrei* usw.
+1. Wähle im Feld **Steuerkategorie** eine Mehrwertsteuerkategorie aus, wie z.B. *regulär*, *ermäßigt*, *steuerfrei* usw.
 1. Wähle im Feld **Abr. Menge basiert auf** aus, welches Gewicht bei der Fakturierung ausschlaggebend ist, z.B. *Nominalgewicht* (Standard) oder *Catch Weight* ([bei gewichtsabhängigen Produkten](Auftrag_Catch_Weight)).
+1. ***Optional:*** Stelle im Feld **Sektion** die gewünschte [Organisation](Org_Neue_Organisation_anlegen) ein. Gib dazu einen Teil des Organisationsnamens ein und klicke auf den passenden Treffer in der <a href="Keyboard_Shortcuts_Liste#dropdown" title="Dynamisches Suchfeld (Autocomplete)">Dropdown-Liste</a>.
 1. [metasfresh speichert automatisch](Speicheranzeige).
 
 ## Weitere Informationen
@@ -40,4 +41,4 @@ ref: add_price
 - [Weise die Preise einem Partner zu](Zuweisung_Preise_Partner).
 
 ## Beispiel
-![](assets/Preis_anlegen.gif)
+<kbd><img src="assets/Preis_anlegen.gif" alt="GIF: Preis anlegen"></kbd>

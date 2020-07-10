@@ -52,7 +52,7 @@ ref: dunning_run
 
 | **Note:** |
 | :--- |
-| Under "[Outbound Documents](Menu)" in the menu, you may also email several dunning letters to various dunning candidates at once. To do so, from the [list view](ViewModes#list-view), [select](RecordSelection) the respective entries and continue with **steps 4 and 5** as described above. If you want to resend dunning letters, simply uncheck the box **Nur bisher nicht gemailte** (*Only email previously unsent docs*) in the overlay window before clicking "Start". |
+| Under "[Outbound Documents](Menu)" in the menu, you may also email several dunning letters to various dunning candidates at once. To do so, from the [list view](ViewModes#list-view), [select](RecordSelection) the respective entries and continue with **steps 4 and 5** as described above. If you want to resend dunning letters, simply clear the checkbox **Nur bisher nicht gemailte** (*Only email previously unsent docs*) in the overlay window before clicking "Start". |
 
 ## Next Steps (optional)
 - [Attach invoice documents to the dunning letter](Dunning_letter_with_attached_invoice).

@@ -11,9 +11,9 @@ ref: add_price-list
 ---
 
 ## Überblick
-![](assets/Preissystem Hierarchie - Preisliste.png)
+<kbd><img src="assets/Preissystem Hierarchie - Preisliste.png" alt="Abb.: Preissystem-Hierarchie - Fokus: Preislisten"></kbd>
 
-Preislisten können länder- und währungsspezifisch sein und somit einem bestimmten Partner (Kunden/Lieferanten) oder einer bestimmten Partnergruppe zugewiesen werden.
+Preislisten sind länder- und währungsspezifisch und können einem bestimmten [Partner (Kunden/Lieferanten)](Zuweisung_Preise_Partner) oder einer [Partnergruppe zugewiesen](Zuweisung_Preise_Partnergruppe) werden.
 
 ## Schritte
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Preisliste".
@@ -29,12 +29,13 @@ Preislisten können länder- und währungsspezifisch sein und somit einem bestim
  >**Hinweis:** Die Basispreisliste wird dann herangezogen, wenn ein Produkt auf der aktuell verwendeten Preisliste nicht zu finden ist. Sie dient ebenfalls zur [Aktualisierung abgeleiteter Kundenpreislisten](Abgeleitete_PLV_aktualisieren).
 
 1. Das Kontrollkästchen **Verkaufspreisliste** bestimmt, ob diese Preisliste für den *Verkauf* oder *Einkauf* verwendet werden soll. Ist das Häkchen gesetzt, wird sie z.B. im [Kundenauftrag](Auftrag_erfassen) auswählbar. Wird das Häkchen entfernt, wird es automatisch eine ***Einkaufspreisliste*** und somit z.B. in [Bestellungen](Bestellung_erfassen) verfügbar.
-1. Das Kontrollkästchen **Preis inkl. Steuern** bestimmt, ob die Preise *brutto* oder *netto* (d.h. inklusive oder exklusive Mehrwertsteuer) zu verstehen sind. metasfresh berechnet die Preise dementsprechend.
+1. Das Kontrollkästchen **Preis inkl. Steuern** bestimmt, ob die Preise *brutto* oder *netto* (d.h. inklusive oder exklusive Mehrwertsteuer) zu verstehen sind. metasfresh berechnet die Preise entsprechend.
 1. ***Optional:*** Wähle eine **Standard Steuerkategorie** aus, die bei Auswahl der Preisliste automatisch eingestellt wird.
+1. ***Optional:*** Stelle im Feld **Sektion** die gewünschte [Organisation](Org_Neue_Organisation_anlegen) ein. Gib dazu einen Teil des Organisationsnamens ein und klicke auf den passenden Treffer in der <a href="Keyboard_Shortcuts_Liste#dropdown" title="Dynamisches Suchfeld (Autocomplete)">Dropdown-Liste</a>.
 1. [metasfresh speichert automatisch](Speicheranzeige).
 
 ## Nächste Schritte
 - [Lege eine Preislistenversion an](Preislistenversion_anlegen).
 
 ## Beispiel
-![](assets/Preisliste_anlegen.gif)
+<kbd><img src="assets/Preisliste_anlegen.gif" alt="GIF: Preisliste anlegen"></kbd>

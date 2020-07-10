@@ -20,7 +20,7 @@ If in the course of creating a [sales order](SalesOrder_recording) or a [purchas
 1. Select a **Greeting**.
 1. Fill in the fields **Firstname** and **Lastname**.
 1. ***Optional:*** Fill in the fields **Email Address** and **Phone**.
-1. If the business partner is a company, tick the checkbox **Company** and fill in the field **Company Name**. Otherwise, uncheck the box and enter the partner's **Name**.
+1. If the business partner is a company, tick the checkbox **Company** and fill in the field **Company Name**. Otherwise, clear the checkbox and enter the partner's **Name**.
 1. Select a [**Business Partner Group**](New_Business_Partner_Group).
 1. Select the partner’s preferred **Language** for communication.
 1. Click on the !["Edit"](assets/Edit_address_button.png) button to add an **Address**.

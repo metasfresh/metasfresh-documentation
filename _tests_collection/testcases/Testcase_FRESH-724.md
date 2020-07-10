@@ -65,7 +65,7 @@ tags:
 1. Gear, Auswahl als Email senden:
 	* => both docs are sent as mail, also the invoice!
 	
-1. Filter again, but for isinvoiceemailenabled: Y, and send Emails again (uncheck the box "Nur bisher nicht gemailte"):
+1. Filter again, but for isinvoiceemailenabled: Y, and send Emails again (clear the checkbox "Nur bisher nicht gemailte"):
 	* => only the inout is sent, NOT the invoice!
 
 1. Make sure G000X has a user, with isinvoiceemailenabled: N; but G000X still has isinvoiceemailenabled: Y
@@ -75,6 +75,6 @@ tags:
 1. Gear, Auswahl als Email senden:
 	* => all docs are sent, since G000X still has isinvoiceemailenabled: Y
 	
-1. Set the user of G000X to isinvoiceemailenabled: NULL, and repeat Auswahl senden in DocOutbound (uncheck the box "Nur bisher nicht gemailte"):
+1. Set the user of G000X to isinvoiceemailenabled: NULL, and repeat Auswahl senden in DocOutbound (clear the checkbox "Nur bisher nicht gemailte"):
 	* => all docs are sent, since G000X still has isinvoiceemailenabled: Y
 

@@ -49,7 +49,7 @@ Durch die Verknüpfung der Organisation mit einem Geschäftspartner wird automat
 1. Gehe zur Registerkarte "Lagerzuordnung" unten auf der Seite und [füge die gewünschten **Dokument-Basistypen** hinzu](Neues_Lager_anlegen#lagerzuordnung).
 
 ## Nächste Schritte
-Wenn Du eine neue Organisation verwenden und z.B. Aufträge oder Bestellungen erfassen möchtest, müssen auch alle dafür benötigten Daten ***unbedingt*** mit dieser Organisation verknüpft sein. Zu diesen Daten zählen:
+Wenn Du eine neue Organisation verwenden und z.B. [Aufträge](Auftrag_erfassen) oder [Bestellungen](Bestellung_erfassen) erfassen möchtest, müssen auch alle dafür benötigten Daten ***unbedingt*** mit dieser Organisation verknüpft sein. Zu diesen Daten zählen:
 - gültige Preissysteme
 - gültige Preislisten
 - gültige Preislistenversionen

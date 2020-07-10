@@ -32,7 +32,7 @@ ref: add_fields_to_section_lines
  >**Note:** This description will be shown in a tooltip.
 
 1. ***Optional:*** Tick the checkbox **Pflichtangabe** (*Mandatory*) if you want the field to be mandatory.
-1. Uncheck the box **Available in API** if you do not want this field to be available to external applications via metasfresh API.
+1. Clear the checkbox **Available in API** if you do not want this field to be available to external applications via metasfresh API.
 1. Pick a **Data protection category**, e.g., *Not personal*, *Personal* or *Sensitive personal*.
 
 ### Add list items (data type: *List*)
