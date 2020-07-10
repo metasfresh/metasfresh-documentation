@@ -21,7 +21,7 @@ In metasfresh, you can duplicate product prices along with all details to avoid 
 
 ### Manually revalidate product price
 1. Apply the changes you want to make to the cloned product price, e.g., by changing its packing instructions.
-1. Uncheck the box **Ignore price**.
+1. Clear the checkbox **Ignore price**.
 1. [metasfresh saves the progress automatically](Saveindicator).
 
 ## Example

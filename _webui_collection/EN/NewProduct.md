@@ -13,7 +13,7 @@ ref: newproduct
 1. Open "Product" from the [menu](Menu).
 1. [Add a new product](New_Record_Window).
 1. Give the product a **Name**.
- >**Note:** This name will appear in documents such as sales order confirmations etc.
+ >**Note:** This name will appear on documents (e.g., sales order confirmations, purchase order confirmations, invoices, etc.).
 
 1. Choose a [**Product Category**](NewProductCategory).
  >**Note:** The product category can be used to control discounts, account assignments and attribute sets of products.
@@ -21,6 +21,8 @@ ref: newproduct
 1. Choose a **Product Type**.
 1. Choose a **UOM** for the product.
  >**Note:** This UOM is used for *inventory management* and ***must not be confused*** with the sales UOM defined when [adding a price](ProductPrice)!
+
+1. Set the desired [**Organization**](Org_add_new_organization) at the bottom right. To do so, enter a part of the organization's name into the field and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
 
 ## Next Steps
 - [Record a purchase or sales price](ProductPrice).

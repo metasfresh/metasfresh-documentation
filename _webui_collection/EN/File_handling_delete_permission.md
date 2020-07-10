@@ -19,7 +19,7 @@ When an attachment is deleted by an authorized user, an entry is created in the 
 ### Set delete permission
 1. Open "Role" from the [menu](Menu).
 1. Open the entry of the [user role](NewUserRole) for which you want to set the delete permissions.
-1. Tick the checkbox **Attachment Deletion Allowed** to allow a user role to delete attachments, or uncheck it to withdraw deletion rights.
+1. Tick the checkbox **Attachment Deletion Allowed** to allow a user role to delete attachments, or clear it to withdraw deletion rights.
 1. [metasfresh saves the progress automatically](Saveindicator).
 
 ### View change log

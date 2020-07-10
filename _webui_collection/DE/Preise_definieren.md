@@ -11,7 +11,7 @@ ref: define_prices
 ---
 
 ## Überblick
-![](assets/Preissystem_Hierarchie.png)
+<kbd><img src="assets/Preissystem_Hierarchie.png" alt="Abb.: Preissystem-Hierarchie"></kbd>
 
 ## Schritte
 1. [Lege ein Preissystem an](Preissystem_anlegen).

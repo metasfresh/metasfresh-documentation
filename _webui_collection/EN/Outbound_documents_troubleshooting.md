@@ -26,7 +26,7 @@ To resend the document anyway, you first have to remove the error from the work 
  >**Note:** It has proven helpful to look for the work package by reference to its exact creation time (see column **Created**).
 
 1. Open the work package's entry.
-1. Uncheck the box **Fehler** (= error).
+1. Clear the checkbox **Fehler** (= error).
 
 ## Next Steps (optional)
 1. [Verify the access data of the email server](Outbound_documents_setup_email_server).

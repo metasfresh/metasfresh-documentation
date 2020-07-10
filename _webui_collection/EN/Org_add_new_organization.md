@@ -49,7 +49,7 @@ By linking the organization to a business partner, a warehouse is automatically 
 1. Go to the record tab "Lagerzuordnung" (*Warehouse Assignment*) at the bottom of the page and [add the desired **Document Base Types**](Add_new_warehouse#lagerzuordnung).
 
 ## Next Steps
-If you want to use a new organization and, for example, enter sales or purchase orders, all required data ***must*** be linked to this organization as well. Data include:
+If you want to use a new organization and, for example, enter [sales orders](SalesOrder_recording) or [purchase orders](CreatePurchaseOrder), all required data ***must*** be linked to this organization as well. Data include:
 - Valid pricing systems
 - Valid price lists
 - Valid price list versions

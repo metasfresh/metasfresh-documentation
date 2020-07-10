@@ -28,7 +28,7 @@ In order to obtain a *sales price list* you have to tick the checkbox **Sales Pr
 ---
 
 ### Assign purchase price list to vendor
-In order to obtain a *purchase price list* you have to uncheck the box **Sales Price List** in the corresponding price list entry (see **step 8** of "[How do I add a price list?](Add_price-list)"). Once this is done, you can continue with these steps:
+In order to obtain a *purchase price list* you have to clear the checkbox **Sales Price List** in the corresponding price list entry (see **step 8** of "[How do I add a price list?](Add_price-list)"). Once this is done, you can continue with these steps:
 
 1. Open the entry of an existing vendor from your [business partners](Menu) or [add a new one](New_business_partner_vendor).
 1. Go to the record tab "Vendor" at the bottom of the page.
