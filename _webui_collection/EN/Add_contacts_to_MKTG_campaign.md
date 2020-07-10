@@ -4,7 +4,7 @@ layout: default
 tags:
   - Marketing
 lang: en
-sequence: 40
+sequence: 30
 ref: add_contacts_to_mktg_campaign
 ---
 
@@ -16,7 +16,8 @@ If you want to add [business partners](New_Business_Partner) to the mailing list
 For contacts (users or business partners) to be added to the mailing list of an *email campaign*, an [email address must be provided in the user entry](Add_user).
 
 ### Requirements for Serial Letter Campaigns
-For contacts (users or business partners) to be added to the mailing list of a *serial letter campaign*, a [default address must be provided in the business partner entry](Add_address_tab), e.g., *Default Shipping Address* or *Default Invoice Address*. This might require the user to be [linked to a business partner](Assign_BPartner_to_user) first.<br> ![](assets/Default_Address.png)
+For contacts (users or business partners) to be added to the mailing list of a *serial letter campaign*, a [default address must be provided in the business partner entry](Add_address_tab), e.g., *Default Shipping Address* or *Default Invoice Address*. This might require the user to be [linked to a business partner](Assign_BPartner_to_user) first.<br>
+<kbd><img src="assets/Default_Address.png" alt="Fig.: Default address (Default Shipping/Invoice Address)"></kbd>
 
 ## Steps
 
@@ -65,4 +66,4 @@ For contacts (users or business partners) to be added to the mailing list of a *
 | You will find the added contacts under the record tab "Kontaktperson" (*Contact*) at the bottom of the page of the respective marketing campaign's entry under "[Marketing Campaign](Menu)" in the menu. |
 
 ## Example
-![](assets/Add_contacts_to_MKTG_campaign.gif)
+<kbd><img src="assets/Add_contacts_to_MKTG_campaign.gif" alt="GIF: Export contacts into marketing campaign"></kbd>
