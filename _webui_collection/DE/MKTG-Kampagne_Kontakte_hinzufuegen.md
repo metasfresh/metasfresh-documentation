@@ -4,7 +4,7 @@ layout: default
 tags:
   - Marketing
 lang: de
-sequence: 40
+sequence: 30
 ref: add_contacts_to_mktg_campaign
 ---
 
@@ -17,7 +17,7 @@ Damit Kontakte (Nutzer bzw. Geschäftspartner) in die Verteilerliste einer *E-Ma
 
 ### Voraussetzungen für Serienbrief-Kampagnen
 Damit Kontakte (Nutzer bzw. Geschäftspartner) in die Verteilerliste einer [*Serienbrief-Kampagne*](Serienbriefe_erstellen) aufgenommen werden können, muss im [Geschäftspartnereintrag eine Standardadresse](Adresse_erfassen_Tab) angegeben sein, z.B. *Lieferstandard* oder *Rechnungsstandard*. Hierzu muss ein Nutzer gegebenenfalls erst noch [mit einem Geschäftspartner verknüpft](Nutzer_GPartner_zuweisen) werden.<br>
-![](assets/Standardadresse.png)
+<kbd><img src="assets/Standardadresse.png" alt="Abb.: Standardadresse (Lieferstandard oder Rechnungsstandard)"></kbd>
 
 ## Schritte
 
@@ -66,4 +66,4 @@ Damit Kontakte (Nutzer bzw. Geschäftspartner) in die Verteilerliste einer [*Ser
 | Die hinzugefügten Kontakte findest Du nun unter dem Menüpunkt "[Marketing Kampagne](Menu)" unter der Registerkarte "Kontaktperson" unten auf der Seite des Eintrages der jeweiligen Marketingkampagne wieder. |
 
 ## Beispiel
-![](assets/MKTG-Kampagne_Kontakte_hinzufuegen.gif)
+<kbd><img src="assets/MKTG-Kampagne_Kontakte_hinzufuegen.gif" alt="GIF: Kontakte in Marketingkampagne exportieren"></kbd>

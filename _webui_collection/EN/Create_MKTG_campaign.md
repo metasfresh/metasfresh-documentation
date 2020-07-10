@@ -4,12 +4,12 @@ layout: default
 tags:
   - Marketing
 lang: en
-sequence: 10
+sequence: 20
 ref: create_mktg_campaign
 ---
 
 ## Overview
-A marketing campaign makes it extremely easy for you to provide a great number of your contacts with information of interest to them in just one go.
+A marketing campaign enables you to provide a large number of your contacts with information of interest to them at just one go and with a minimum amount of effort. Marketing campaigns can be synchronized bidirectionally (i.e. from metasfresh to the [marketing platform](Create_MKTG_platform) and vice versa), keeping all contact data up to date at all times.
 
 In metasfresh, there are two types of marketing campaigns: *email campaigns* and *serial letter campaigns*.
 
@@ -24,12 +24,15 @@ The following components are required for a marketing campaign:
 1. Open "Marketing Campaign" from the [menu](Menu).
 1. [Create a new marketing campaign](New_Record_Window).
 1. Give the marketing campaign a **Name**.
-1. In the field [**Marketing Platform**](Create_MKTG_platform), enter a part of the marketing platform and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
-1. Select a **Boilerplate** (*Textbaustein*).
+1. Enter a part of the [**Marketing Platform**](Create_MKTG_platform) and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
+1. Set a **Start Date**.
+1. Set an **End Date**.
+1. Pick a **Boilerplate** (*Textbaustein*).
 1. [metasfresh saves the progress automatically](Saveindicator).
 
 ## Next Steps
-- [Add contacts to the marketing campaign](Add_contacts_to_MKTG_campaign).
+1. [Add contacts to the marketing campaign](Add_contacts_to_MKTG_campaign).
+1.
 
 ## Example
-![](assets/Create_MKTG_campaign.gif)
+<kbd><img src="assets/Create_MKTG_campaign.gif" alt="GIF: Create a Marketing Campaign"></kbd>
