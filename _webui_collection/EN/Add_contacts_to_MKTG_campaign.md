@@ -65,5 +65,8 @@ For contacts (users or business partners) to be added to the mailing list of a [
 | :--- |
 | You will find the added contacts under the record tab "Kontaktperson" (*Contact*) at the bottom of the page of the respective marketing campaign's entry under "[Marketing Campaign](Menu)" in the menu. |
 
+## Next Steps
+- [Synchronize the marketing campaign with the marketing platform](Sync_MKTG_campaign_with_platform).
+
 ## Example
 <kbd><img src="assets/Add_contacts_to_MKTG_campaign.gif" alt="GIF: Export contacts into marketing campaign"></kbd>

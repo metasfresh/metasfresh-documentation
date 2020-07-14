@@ -28,4 +28,4 @@ ref: add_user_to_bpartner
 | You will find the newly created user entry under "[User](Menu)" in the menu. |
 
 ## Example
-![](assets/Add_user_to_BPartner.gif)
+<kbd><img src="assets/Add_user_to_BPartner.gif" alt="GIF: How to link a business partner to a user"></kbd>

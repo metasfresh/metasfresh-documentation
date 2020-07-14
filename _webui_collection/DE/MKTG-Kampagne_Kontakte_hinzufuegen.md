@@ -65,5 +65,8 @@ Damit Kontakte (Nutzer bzw. Geschäftspartner) in die Verteilerliste einer [*Ser
 | :--- |
 | Die hinzugefügten Kontakte findest Du nun unter dem Menüpunkt "[Marketing Kampagne](Menu)" unter der Registerkarte "Kontaktperson" unten auf der Seite des Eintrages der jeweiligen Marketingkampagne wieder. |
 
+## Nächste Schritte
+- [Synchronisiere die Marketingkampagne mit der Marketing-Plattform](MKTG_Kampagne_mit_Plattform_synchronisieren).
+
 ## Beispiel
 <kbd><img src="assets/MKTG-Kampagne_Kontakte_hinzufuegen.gif" alt="GIF: Kontakte in Marketingkampagne exportieren"></kbd>
