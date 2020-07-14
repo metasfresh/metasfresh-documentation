@@ -9,7 +9,7 @@ ref: create_mktg_platform
 ---
 
 ## Überblick
-Über die Marketing-Plattform kannst Du dein metasfresh System mit einem externen E-Mail-Marketing-Service verbinden, wie z.B. CleverReach<sup>&#174;</sup>, welcher standardmäßig in metasfresh integriert ist. Selbstverständlich können aber auch weitere Integrationen Deiner Wahl hinzugefügt werden.
+Über die Marketing-Plattform kannst Du Dein metasfresh System mit einem externen E-Mail-Marketing-Service verbinden, wie z.B. CleverReach<sup>&#174;</sup>, welcher standardmäßig in metasfresh integriert ist. Selbstverständlich lassen sich auch weitere Integrationen Deiner Wahl hinzufügen.
 
 Mittels der Marketing-Plattform kannst Du festlegen, welche Adressart beim [Hinzufügen von Kontakten in eine Marketingkampagne](MKTG-Kampagne_Kontakte_hinzufuegen) verwendet werden soll. Du hast die Wahl zwischen der *Standardadresse des Geschäftspartners* (**Requires Location**) und der *E-Mail-Adresse des Nutzers* (**Requires Mail Address**). Selbstverständlich kannst Du auch beide Adressarten miteinander kombinieren.
 
@@ -30,7 +30,7 @@ Wählst Du **Requires Mail Address** aus, dann handelt es sich anschließend bei
 
 | **Hinweis:** |
 | :--- |
-| Um die Integration zu verwenden, benötigst Du ein Konto bei CleverReach<sup>&#174;</sup>. Nähere Informationen zum Anlegen eines Kontos findest Du unter <a href="https://www.cleverreach.com/de/" title="Starten Sie jetzt mit CleverReach®!" target="_blank">www.CleverReach.com</a>. |
+| Um die Integration zu verwenden, benötigst Du ein Konto bei CleverReach<sup>&#174;</sup>. Nähere Informationen zum Anlegen eines Kontos findest Du unter <a href="https://www.cleverreach.com/de/" title="Starten Sie jetzt mit CleverReach®!" target="\_blank">www.CleverReach.com</a>. |
 
 1. Gehe zur Registerkarte "CleverReach" unten auf der Seite und klicke auf !["Neu hinzufügen"](assets/Neu_hinzufuegen_Button.png). Es öffnet sich ein Overlay-Fenster.
 1. Trage Deine **Kundennummer** ein, die Dir von CleverReach<sup>&#174;</sup> bereitgestellt wurde.
@@ -41,7 +41,7 @@ Wählst Du **Requires Mail Address** aus, dann handelt es sich anschließend bei
 
 | **Hinweis:** |
 | :--- |
-| Zum Überprüfen der Verbindung kannst Du über CleverReach<sup>&#174;</sup> eine Beispiel-Marketingkampagne erstellen und die Daten mit metasfresh synchronisieren. Folge den nächsten Schritten weiter unten für nähere Informationen hierzu. |
+| Zum Überprüfen der Verbindung kannst Du über CleverReach<sup>&#174;</sup> eine Beispiel-Marketingkampagne erstellen und die [Daten mit metasfresh synchronisieren](MKTG_Kampagne_mit_Plattform_synchronisieren). Bei Fragen rund um CleverReach<sup>&#174;</sup> hilft Dir das <a href="https://support.cleverreach.de/hc/de/articles/360014691599" title="Integration metasfresh &#124; support.cleverreach.de" target="\_blank">CleverReach<sup>&#174;</sup> Support Team</a> gerne jederzeit weiter. |
 
 ## Nächste Schritte
 - [Erstelle eine Marketingkampagne](MKTG-Kampagne_erstellen).

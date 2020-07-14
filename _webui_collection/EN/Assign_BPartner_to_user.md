@@ -21,4 +21,4 @@ ref: assign_bpartner_to_user
 | The user entry will now also appear under the record tab "Contact" at the bottom of the page of the respective business partner entry under "[Business Partner](Menu)" in the menu. |
 
 ## Example
-![](assets/Assign_BPartner_to_user.gif)
+<kbd><img src="assets/Assign_BPartner_to_user.gif" alt="GIF: How to assign a business partner to a user"></kbd>
