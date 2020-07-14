@@ -30,18 +30,18 @@ If you choose **Requires Mail Address**, the subsequent campaign will be an *ema
 
 | **Note:** |
 | :--- |
-| To use this integration, you need to have a CleverReach<sup>&#174;</sup> account. For more information on creating an account, please refer to <a href="https://www.cleverreach.com/en/" title="Start now with CleverReach®!" target="_blank">www.CleverReach.com</a>. |
+| To use this integration, you need to have a CleverReach<sup>&#174;</sup> account. For more information on creating an account, please refer to <a href="https://www.cleverreach.com/en/" title="Start now with CleverReach®!" target="\_blank">www.CleverReach.com</a>. |
 
 1. Go to the record tab "CleverReach" at the bottom of the page and click !["Add new"](assets/Add_New_Button.png). An overlay window opens up.
 1. Enter the **Customer No** provided to you by CleverReach<sup>&#174;</sup>.
-1. Enter the **Registered Email** that you use to login to your CleverReach<sup>&#174;</sup> account.
-1. Enter the **Password** that you use to login to your CleverReach<sup>&#174;</sup> account.
+1. Enter the **Registered Email** that you use to log in to your CleverReach<sup>&#174;</sup> account.
+1. Enter the **Password** that you use to log in to your CleverReach<sup>&#174;</sup> account.
 1. Click "Done" to close the overlay window and add the access data to the list.
 1. [metasfresh saves the progress automatically](Saveindicator).
 
 | **Note:** |
 | :--- |
-| To verify that the connection was set up correctly, you can create a sample marketing campaign via CleverReach<sup>&#174;</sup> and synchronize the data with metasfresh. Please follow the next steps below for more information. |
+| To verify that the connection was set up correctly, you can create a sample marketing campaign via CleverReach<sup>&#174;</sup> and [synchronize the data with metasfresh](Sync_MKTG_campaign_with_platform). If you have any questions regarding CleverReach<sup>&#174;</sup>, the <a href="https://support.cleverreach.de/hc/en-us/articles/360014691599-Integration-metasfresh" title="Integration metasfresh &#124; support.cleverreach.de" target="\_blank">CleverReach<sup>&#174;</sup> Support Team</a> will be happy to help you at any time. |
 
 ## Next Steps
 - [Create a marketing campaign](Create_MKTG_campaign).
