@@ -28,4 +28,4 @@ ref: add_user_to_bpartner
 | Den neu erstellten Nutzereintrag findest Du unter dem Menüpunkt "[Nutzer](Menu)" wieder. |
 
 ## Beispiel
-![](assets/GPartner_Nutzer_hinzufuegen.gif)
+<kbd><img src="assets/GPartner_Nutzer_hinzufuegen.gif" alt="GIF: Geschäftspartner mit einem Nutzer verknüpfen"></kbd>
