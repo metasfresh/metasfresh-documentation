@@ -13,10 +13,13 @@ ref: new_business_partner_vendor
 ## Überblick
 In metasfresh kannst Du festlegen, ob ein Geschäftspartner ein [Kunde](Neuer_Geschaeftspartner_Kunde), Lieferant oder beides ist. Zusätzlich kannst Du die kaufmännischen Konditionen voreinstellen, welche bei der späteren Belegerstellung dann automatisch angewandt werden.
 
+## Voraussetzungen
+- [Erfasse einen neuen Geschäftspartner](Neuer_Geschaeftspartner).
+
 ## Schritte
 
 ### Geschäftspartner als Lieferant
-1. Öffne den Eintrag eines [Geschäftspartners](Neuer_Geschaeftspartner) in der [Einzelansicht](Ansichten#einzelansicht).
+1. Öffne den Eintrag eines [Geschäftspartners](Menu) in der [Einzelansicht](Ansichten#einzelansicht).
 1. Gehe zur Registerkarte "Lieferant" unten auf der Seite.
 1. Öffne die "[Erweiterte Erfassung](AdvancedEditTab_Öffnen)" der Lieferantenzeile.
 1. Setze ein Häkchen bei **Lieferant**.
@@ -26,4 +29,4 @@ In metasfresh kannst Du festlegen, ob ein Geschäftspartner ein [Kunde](Neuer_Ge
 1. Klicke auf "Bestätigen", um die Änderungen zu übernehmen und die "Erweiterte Erfassung" zu schließen.
 
 ## Beispiel
-![](assets/Neuer_Geschaeftspartner_Lieferant.gif)
+<kbd><img src="assets/Neuer_Geschaeftspartner_Lieferant.gif" alt="GIF: Wie erfasse ich einen neuen Lieferanten?"></kbd>

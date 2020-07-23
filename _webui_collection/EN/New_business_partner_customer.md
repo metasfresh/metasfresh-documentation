@@ -13,10 +13,13 @@ ref: new_business_partner_customer
 ## Overview
 In metasfresh, you can determine whether a business partner is a customer, [vendor](New_business_partner_vendor) or both. Additionally, you can set default commercial terms and conditions that will then be automatically applied to all future business documents.
 
+## Requirements
+- [Add a new business partner](New_Business_Partner).
+
 ## Steps
 
 ### Business Partner as Customer
-1. Open the entry of a [business partner](New_Business_Partner) in the [detailed view](ViewModes#detailed-view).
+1. Open the entry of a [business partner](Menu) in the [detailed view](ViewModes#detailed-view).
 1. Go to the record tab "Customer" at the bottom of the page.
 1. Open the [advanced edit menu](Open_AdvancedEditTab) of the customer line.
 1. Tick the checkbox **Customer**.
@@ -26,4 +29,4 @@ In metasfresh, you can determine whether a business partner is a customer, [vend
 1. Click "Done" to apply the changes and close the advanced edit menu.
 
 ## Example
-![](assets/New_Business_Partner_customer.gif)
+<kbd><img src="assets/New_Business_Partner_customer.gif" alt="GIF: How to add a new customer"></kbd>
