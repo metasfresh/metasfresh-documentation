@@ -17,9 +17,9 @@ You can also easily [export all product specifications](Export_product_data) in 
 ## Steps
 1. [Open a window](Menu) of your choice in the [list view](ViewModes#list-view), e.g., "Business Partner".
 1. [Select](RecordSelection) the lines you want to export.
-1. [Start the action](StartAction#actions-menu) "Download selected". The "Save As" dialog box opens up with the default file name "report", which you may certainly change ad lib.
-1. Save the file in a directory of your choice.
+1. [Start the action](StartAction#actions-menu) "Download selected". The "Save As" dialog box opens up.
+1. Use the suggested file name or change it ad lib and save the file in a directory of your choice.
 1. Browse to this directory and open the file in a spreadsheet software, such as *Microsoft Excel*.
 
 ## Example
-![](assets/Export_data.gif)
+<kbd><img src="assets/Export_data.gif" alt="GIF: How to export selected data entries"></kbd>

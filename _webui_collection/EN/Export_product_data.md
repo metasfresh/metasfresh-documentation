@@ -17,9 +17,9 @@ For more information on how to export selected data entries, please see [here](D
 
 ## Steps
 1. Open "Product" from the [menu](Menu) in the [list view](ViewModes#list-view).
-1. [Start the action](StartAction#actions-menu) "Export Product Specifications". The "Save As" dialog box opens up with the default file name "Report_#", which you may certainly change ad lib.
-1. Save the file in a directory of your choice.
+1. [Start the action](StartAction#actions-menu) "Export Product Specifications". The "Save As" dialog box opens up.
+1. Use the suggested file name or change it ad lib and save the file in a directory of your choice.
 1. Browse to this directory and open the file in a spreadsheet software, such as *Microsoft Excel*.
 
 ## Example
-![](assets/Export_product_data.gif)
+<kbd><img src="assets/Export_product_data.gif" alt="GIF: How to export product data into an \*.xls file"></kbd>
