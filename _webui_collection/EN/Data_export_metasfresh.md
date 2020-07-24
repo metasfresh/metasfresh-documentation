@@ -19,7 +19,7 @@ You can also easily [export all product specifications](Export_product_data) in 
 1. [Select](RecordSelection) the lines you want to export.
 1. [Start the action](StartAction#actions-menu) "Download selected". The "Save As" dialog box opens up.
 1. Use the suggested file name or change it ad lib and save the file in a directory of your choice.
-1. Browse to this directory and open the file in a spreadsheet software, such as *Microsoft Excel*.
+1. Browse to this directory and open the file in a spreadsheet software, e.g., *Microsoft Excel*.
 
 ## Example
 <kbd><img src="assets/Export_data.gif" alt="GIF: How to export selected data entries"></kbd>
