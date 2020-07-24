@@ -19,7 +19,7 @@ Ebenfalls kannst Du ganz einfach alle [Produktspezifikationen auf einmal exporti
 1. [Selektiere](AuswahlBelege) die Zeilen, die Du exportieren möchtest.
 1. [Starte die Aktion](AktionStarten#aktionsmenue) "Download selected". Es öffnet sich das "Speichern unter"-Dialogfenster.
 1. Übernimm den vorgeschlagenen Dateinamen oder vergib einen neuen und speichere die Datei in einem Verzeichnis Deiner Wahl.
-1. Bewege Dich in dieses Verzeichnis und öffne die Datei in einem Tabellenkalkulationsprogramm wie z.B. *Microsoft Excel*.
+1. Bewege Dich in dieses Verzeichnis und öffne die Datei in einem Tabellenkalkulationsprogramm, z.B. *Microsoft Excel*.
 
 ## Beispiel
 <kbd><img src="assets/Daten_exportieren.gif" alt="GIF: Ausgewählte Dateneinträge exportieren"></kbd>
