@@ -7,7 +7,7 @@ lang: en
 ref: change_language_metasfresh_user
 ---
 
-1. 1. [Log in](../../webui_collection/EN/Login) to the system where you want to change the language of your current user session.
+1. [Log in](../../webui_collection/EN/Login) to the system where you want to change the language of your current user session.
 1. Open swagger via
    ```
    http://<yourserver:port>/swagger-ui.html#/user-session-rest-controller/setLanguageUsingPUT

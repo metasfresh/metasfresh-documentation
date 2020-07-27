@@ -18,14 +18,13 @@ In case you have requested your own free demo instance <a href="https://metasfre
  >**Important note:** Please note that the username and password are ***case-sensitive***!
 
 ### Log in as System Adminstrator
-
-| **Note:** |
-| :--- |
-| This user cannot change the interface language in WebUI as it is possible on the Java client back end. To change this user's language, please see [here](../../support_collection\en\change_language_metasfresh_user.md). |
-
 1. Open the URL of the metasfresh service in your web browser, e.g., <abbr title="Just an example"><code>https://dockerhost</code></abbr>.
 1. Log in with the **username** `metasfresh` and the **password** `metasfresh`.
  >**Important note:** Please note that the username and password are ***case-sensitive***!
+
+  | **Note:** |
+  | :--- |
+  | This user cannot change the interface language in WebUI as it is possible on the Java client back end. To change this user's language, please see [here](../../support_collection/en/change_language_metasfresh_user). |
 
 ## Example
 <kbd><img src="assets/login_en.gif" alt="GIF: Log in to metasfresh"></kbd>
