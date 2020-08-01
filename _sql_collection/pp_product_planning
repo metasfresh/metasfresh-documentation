@@ -1,0 +1,30 @@
+---
+title: PP_Product_Planning (Product Planning Data)
+layout: default
+tag: 
+   - Data Model
+   - Master Data
+lang: en
+---
+
+## INSERT Examples
+
+### BOM and its line
+
+Creating default planning data for all finished good products
+
+
+```
+INSERT INTO public.pp_product_planning
+(ad_client_id, ad_org_id, ad_workflow_id, created, createdby, deliverytime_promised, isactive, iscreateplan, isissue,
+ ismps, m_product_id, m_warehouse_id, pp_product_bom_id, pp_product_planning_id, planner_id, s_resource_id,
+ transferttime, updated, updatedby, workingtime, yield, dd_networkdistribution_id, c_bpartner_id, ispurchased,
+ ismanufactured, isdoccomplete, istraded, storageattributeskey, m_attributesetinstance_id, isattributedependant, seqno,
+ ispickdirectlyiffeasible, m_product_planningschema_id, onmaterialreceiptwithdestwarehouse, ispickingorder)
+
+select 1000000, 1000000, 540075, '2020-06-16 07:58:59.000000 +02:00', 2188244, null, 'Y', 'Y', 'Y', 'N',mp.m_product_id , null,
+        1000016, nextval('pp_product_planning_seq'), null, 540006, null, '2020-06-16 07:59:19.000000 +02:00', 2188244, null, 100, null, null, null,
+        'Y', 'N', null, '-1002', 0, 'N', 10, 'N', null, 'M', 'N'
+from m_product mp
+     join pp_product_bom mpbom on mp.m_product_id = mpbom.m_product_id
+```
