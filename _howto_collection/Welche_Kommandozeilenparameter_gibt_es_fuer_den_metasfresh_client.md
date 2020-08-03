@@ -22,9 +22,9 @@ Wenn der Client über das [Startskript](Wie_benutze_ich_das_Startskript) gestart
 
 **Anwendungssprache -Dorg.adempiere.client.lang**
 
-Stellt eine feste Anwendungssprache ein und blendet das Feld Sprache bei der Anmeldung aus. 
+Stellt eine feste Anwendungssprache ein und blendet das Feld Sprache bei der Anmeldung aus.
 
-Mögliche Werte findest Du so heraus: [SQL Abfrage](List_Languages)
+Mögliche Werte findest Du so heraus: [SQL Abfrage](EN_tbd/List_Languages)
 
 Beispiel für die Sprache Deutsch
 
