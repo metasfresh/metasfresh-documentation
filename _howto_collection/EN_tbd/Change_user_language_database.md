@@ -5,7 +5,7 @@ tags:
   - Setup
 lang: en
 sequence: 30
-ref: change_language_database
+ref: change_user_language_database
 ---
 
 You can update the `ad_user` table `ad_language` entry in the database.
