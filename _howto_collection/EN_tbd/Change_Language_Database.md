@@ -9,7 +9,7 @@ ref: change_language_database
 ---
 
 You can update the `ad_user` table `ad_language` entry in the database.
- >**Note:** You might have to restart the metasfresh docker stack!
+ >**Note:** You might have to restart the metasfresh docker stack afterwards!
 
 Available `ad_language` values are:
 
