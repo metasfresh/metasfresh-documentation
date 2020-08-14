@@ -19,7 +19,7 @@ Wenn ein Kunde eine einzelne Zahlung leistet, um mehrere Rechnungen auf einmal z
 ## Schritte
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Zahlungen".
 1. [Erstelle einen neuen Zahlungseintrag](Neuer_Datensatz_Fenster_Webui).
-1. Gib im Feld **Geschäftspartner** einen Teil des Namens oder der Nummer des [Geschäftspartners](Neuer_Geschaeftspartner) ein und klicke auf den passenden Treffer in der <a href="Keyboard_Shortcuts_Liste#dropdown" title="Dynamisches Suchfeld (Autocomplete)">Dropdown-Liste</a>.
+1. Gib in das Feld **Geschäftspartner** einen Teil des Namens oder der Nummer des [Geschäftspartners](Neuer_Geschaeftspartner) ein und klicke auf den passenden Treffer in der <a href="Keyboard_Shortcuts_Liste#dropdown" title="Dynamisches Suchfeld (Autocomplete)">Dropdown-Liste</a>.
 1. Wähle die **Belegart** *Zahlungseingang* aus.
 1. Wähle die zur Rechnung passende **Währung** aus.
 1. Gehe zur Registerkarte "Manuelle Zuordnung" unten auf der Seite und klicke auf !["Neu hinzufügen"](assets/Neu_hinzufuegen_Button.png). Es öffnet sich ein Overlay-Fenster.

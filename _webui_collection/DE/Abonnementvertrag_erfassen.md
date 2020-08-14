@@ -13,7 +13,7 @@ ref: create_subscription_contract
 Ein Abonnementvertrag ist ein Ratenlieferungsvertrag. Er ist ein Vertrag über die regelmäßige Lieferung von Sachen gleicher Art in einem bestimmten Zeitraum.
 
 ## Voraussetzungen
-- [Definiere die Vertragsbedingungen für den Abonnementvertrag](Vertragsbedingungen_definieren).
+- [Bestimme die Vertragsbedingungen für den Abonnementvertrag](Vertragsbedingungen_definieren).
 
 ## Schritte
 Erfasse den Abonnementvertrag wie einen [Auftrag](Auftrag_erfassen). Beachte ***vor Fertigstellung*** jedoch folgende Schritte:
@@ -33,4 +33,4 @@ Erfasse den Abonnementvertrag wie einen [Auftrag](Auftrag_erfassen). Beachte ***
 | Nach der Fertigstellung des Auftrages findest Du den Abonnementvertrag unter dem Menüpunkt "[Vertrag](Menu)" wieder. Über die [verknüpften Belege](SpringezuBelegen) kannst Du aus dem Auftrag auch ***direkt*** zum Vertrag springen (unter VERTRAGSVERWALTUNG in der Sidebar). |
 
 ## Beispiel
-![](assets/Abonnementvertrag_erfassen.gif)
+<kbd><img src="assets/Abonnementvertrag_erfassen.gif" alt="GIF: Abonnementvertrag erfassen"></kbd>

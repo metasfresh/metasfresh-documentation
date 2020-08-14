@@ -29,7 +29,7 @@ Damit Kontakte (Nutzer bzw. Geschäftspartner) in die Verteilerliste einer [*Ser
 1. [Starte die Quick-Action](AktionStarten#quick-actions) "Export in E-Mail-Kampagne". Es öffnet sich ein Overlay-Fenster.
  >**Hinweis:** Diese Aktion findest Du ebenfalls im Aktionsmenü sowohl in der Listenansicht als auch in der Einzelansicht eines Eintrages.
 
-1. Gib im Feld [**MKTG_Campaign**](MKTG-Kampagne_erstellen) einen Teil der E-Mail-Kampagne ein und klicke auf den passenden Treffer in der <a href="Keyboard_Shortcuts_Liste#dropdown" title="Dynamisches Suchfeld (Autocomplete)">Dropdown-Liste</a>.
+1. Gib in das Feld [**MKTG_Campaign**](MKTG-Kampagne_erstellen) einen Teil der E-Mail-Kampagne ein und klicke auf den passenden Treffer in der <a href="Keyboard_Shortcuts_Liste#dropdown" title="Dynamisches Suchfeld (Autocomplete)">Dropdown-Liste</a>.
 1. Klicke auf "Start", um das Overlay-Fenster zu schließen und die Kontakte zur E-Mail-Kampagne hinzuzufügen.
 
 #### b) in Serienbrief-Kampagne exportieren
@@ -38,7 +38,7 @@ Damit Kontakte (Nutzer bzw. Geschäftspartner) in die Verteilerliste einer [*Ser
 1. [Starte die Aktion](AktionStarten#aktionsmenue) "Export in Serienbrief-Kampagne". Es öffnet sich ein Overlay-Fenster.
  >**Hinweis:** Diese Aktion findest Du ebenfalls im Aktionsmenü in der Einzelansicht eines Eintrages.
 
-1. Gib im Feld [**MKTG_Campaign**](MKTG-Kampagne_erstellen) einen Teil der Serienbrief-Kampagne ein und klicke auf den passenden Treffer in der <a href="Keyboard_Shortcuts_Liste#dropdown" title="Dynamisches Suchfeld (Autocomplete)">Dropdown-Liste</a>.
+1. Gib in das Feld [**MKTG_Campaign**](MKTG-Kampagne_erstellen) einen Teil der Serienbrief-Kampagne ein und klicke auf den passenden Treffer in der <a href="Keyboard_Shortcuts_Liste#dropdown" title="Dynamisches Suchfeld (Autocomplete)">Dropdown-Liste</a>.
 1. Wähle im Feld **DefaultAddressType** die Art der Standardadresse aus, an die die Serienbriefe später gesendet werden sollen, z.B. *BillToDefault* (Rechnungsstandard) oder *ShipToDefault* (Lieferstandard).
  >**Hinweis:** Stelle sicher, dass unter der Registerkarte "Adresse" des jeweiligen Geschäftspartnereintrages die entsprechenden Felder in der entsprechenden Zeile aktiviert sind (<a href="#voraussetzungen-serienbrief-kampagnen" title="Voraussetzungen für Serienbrief-Kampagnen">siehe oben</a>).
 
@@ -57,7 +57,7 @@ Damit Kontakte (Nutzer bzw. Geschäftspartner) in die Verteilerliste einer [*Ser
 1. [Starte die Quick-Action](AktionStarten#quick-actions) "Gefilterte Kontakte in Kampagne". Es öffnet sich ein Overlay-Fenster.
  >**Hinweis:** Diese Aktion findest Du ebenfalls im Aktionsmenü sowohl in der Listenansicht als auch in der Einzelansicht eines Eintrages.
 
-1. Gib im Feld **MKTG_Campaign** einen Teil der [Marketingkampagne](MKTG-Kampagne_erstellen) ein und klicke auf den passenden Treffer in der <a href="Keyboard_Shortcuts_Liste#dropdown" title="Dynamisches Suchfeld (Autocomplete)">Dropdown-Liste</a>.
+1. Gib in das Feld **MKTG_Campaign** einen Teil der [Marketingkampagne](MKTG-Kampagne_erstellen) ein und klicke auf den passenden Treffer in der <a href="Keyboard_Shortcuts_Liste#dropdown" title="Dynamisches Suchfeld (Autocomplete)">Dropdown-Liste</a>.
 1. Klicke auf "Start", um das Overlay-Fenster zu schließen und die Kontakte zur Marketingkampagne hinzuzufügen.
 <br><br>
 

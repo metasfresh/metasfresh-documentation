@@ -26,7 +26,7 @@ ref: newproduct
 
 ## Nächste Schritte
 - [Einkaufs- oder Verkaufspreis hinterlegen](ProduktPreis).
-- Produkt für die Produktion konfigurieren.
+- [Produkt für die Produktion konfigurieren](Produktplandaten).
 
 ## Weitere Informationen
 - Das Feld **Maßeinheit** bestimmt, in welcher Einheit der Artikel im Bestand geführt wird (Bestandsmengeneinheit).

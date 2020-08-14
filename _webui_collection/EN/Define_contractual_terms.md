@@ -1,5 +1,5 @@
 ---
-title: How do I define contractual terms?
+title: How do I specify contractual terms?
 layout: default
 tags:
   - Workflow
@@ -22,4 +22,4 @@ ref: define_contractual_terms
 1. [Complete the document](DocumentProcessingComplete).
 
 ## Example
-![](assets/define_contractual_terms.gif)
+<kbd><img src="assets/define_contractual_terms.gif" alt="GIF: How to specify contractual terms"></kbd>

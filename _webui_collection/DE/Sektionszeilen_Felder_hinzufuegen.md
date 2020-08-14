@@ -21,7 +21,7 @@ ref: add_fields_to_section_lines
 1. Benenne das Feld im Feld **Name**.
  >**Hinweis:** Der Feldname wird an entsprechender Stelle in der Sektionszeile zu lesen sein.
 
-1. Gib im Feld **Zeile** einen Teil des (systeminternen) Namens der [Sektion](Unterregister_Sektion_hinzufuegen) ein, in der sich die Zeile befindet, in der das Feld erscheinen soll, und klicke auf den passenden Treffer in der <a href="Keyboard_Shortcuts_Liste#dropdown" title="Dynamisches Suchfeld (Autocomplete)">Dropdown-Liste</a>.
+1. Gib in das Feld **Zeile** einen Teil des (systeminternen) Namens der [Sektion](Unterregister_Sektion_hinzufuegen) ein, in der sich die Zeile befindet, in der das Feld erscheinen soll, und klicke auf den passenden Treffer in der <a href="Keyboard_Shortcuts_Liste#dropdown" title="Dynamisches Suchfeld (Autocomplete)">Dropdown-Liste</a>.
  >**Hinweis 1:** Die Reihenfolge der Zeile steht am Ende der Trefferbezeichnung.<br><br>
  >**Hinweis 2:** Bei mehreren Feldern für dieselbe Sektionszeile kannst Du deren **Reihenfolge** bestimmen.
 

@@ -25,9 +25,9 @@ Ohne die Struktur der internationalen Bankkontonummer (IBAN) vorab festzulegen, 
 1. Öffne die "[Erweiterte Erfassung](Ansichten#erw-erfassung)" aus dem [Aktionsmenü](AktionStarten#aktionsmenue).
  >**Hinweis:** Drücke `Alt` + `E` / `⌥ alt` + `E`.
 
-1. Gib im Feld **Bank Code Length** die Anzahl der Zeichen für die Bankleitzahl (BLZ) ein, z.B. `8`.
-1. Gib im Feld **Bank Code Char Type** die Zeichendarstellung der BLZ ein, z.B. `n` für *Ziffern* (siehe Beispiel unten).
-1. Gib im Feld **Bank Code SeqNo** die Anzahl der Zeichen für die Kontonummer ein, z.B. `10`.
+1. Gib in das Feld **Bank Code Length** die Anzahl der Zeichen für die Bankleitzahl (BLZ) ein, z.B. `8`.
+1. Gib in das Feld **Bank Code Char Type** die Zeichendarstellung der BLZ ein, z.B. `n` für *Ziffern* (siehe Beispiel unten).
+1. Gib in das Feld **Bank Code SeqNo** die Anzahl der Zeichen für die Kontonummer ein, z.B. `10`.
 1. Klicke auf "Bestätigen", um die Änderungen zu übernehmen und die "Erweiterte Erfassung" zu schließen.
 1. [metasfresh speichert automatisch](Speicheranzeige).
 

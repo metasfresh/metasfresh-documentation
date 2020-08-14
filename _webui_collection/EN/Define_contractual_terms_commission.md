@@ -1,5 +1,5 @@
 ---
-title: How do I define the contractual terms for commission contracts?
+title: How do I specify the contractual terms for commission contracts?
 layout: default
 tags:
   - Workflow
@@ -12,10 +12,10 @@ ref: define_contractual_terms_commission
 ---
 
 ## Requirements
-- [Define the conditions for granting commission](Commission_conditons_details).
+- [Specify the conditions for granting commission](Commission_conditons_details).
 
 ## Steps
-Follow these [instructions for entering a sales order](SalesOrder_recording), taking into account the following settings:
+Follow these [instructions for specifying contractual terms](Define_contractual_terms), taking into account the following settings:
 1. Pick the **Contract Type** *Commission*.
 1. Pick the desired [**Hierarchy commission settings**](Commission_conditons_details).
 1. Pick the **Invoice Rule** *After Delivery*.

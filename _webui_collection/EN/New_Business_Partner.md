@@ -18,7 +18,7 @@ ref: new_business_partner
 
 1. Select a [**Business Partner Group**](New_Business_Partner_Group), e.g., *Machine Supplier*.
 1. Select the partner’s preferred **Language** for communication.
-1. Add a **URL** on the right, e.g., the partner's website.
+1. ***Optional:*** Enter a **URL** on the right, e.g., the partner's website.
  >**Note:** Make sure that the URL begins with the Internet protocol acronym (e.g., `https://`). Click on the link icon ![](assets/Link_icon.png) on the right to open the web page.
 
 1. [Add one or more addresses](Add_address_tab).

@@ -13,7 +13,7 @@ ref: create_subscription_contract
 A subscription contract is a contract for delivery by instalments. It is a contract for the regular delivery of goods of the same type during a certain period of time.
 
 ## Requirements
-- [Define the contractual terms for the subscription contract](Define_contractual_terms).
+- [Specify the contractual terms for the subscription contract](Define_contractual_terms).
 
 ## Steps
 To create a subscription contract, simply follow the same steps as for a [sales order](SalesOrder_recording). However, ***before completing the document***, make sure to complete these steps first:
@@ -33,4 +33,4 @@ To create a subscription contract, simply follow the same steps as for a [sales 
 | After completing the sales order you will find the subscription contract under "[Contract](Menu)" in the menu. You can also jump ***directly*** to the contract via the sales order's [related documents](JumptoviaSidebar) (under CONTRACT MANAGEMENT in the sidebar). |
 
 ## Example
-![](assets/Create_subscription_contract.gif)
+<kbd><img src="assets/Create_subscription_contract.gif" alt="GIF: How to create a subscription contract"></kbd>

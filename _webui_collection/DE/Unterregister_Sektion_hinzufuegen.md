@@ -18,13 +18,13 @@ ref: add_section_to_sub_tab
 ### Sektion hinzufügen
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Erweiterte Dateneingabe - Sektion".
 1. [Erstelle einen neuen Eintrag](Neuer_Datensatz_Fenster_Webui).
-1. Gib im Feld **Name** einen systeminternen Sektionsnamen ein.
+1. Gib in das Feld **Name** einen systeminternen Sektionsnamen ein.
  >**Hinweis:** Dieser Name dient nur der systeminternen Referenz und wird nicht als Sektionsname angezeigt.
 
 1. Benenne die Sektion im Feld **Sektionsname**.
  >**Hinweis:** Dieser Name wird an entsprechender Stelle in dem Unterregister zu lesen sein.
 
-1. Gib im Feld **Unterregister** einen Teil des (systeminternen) Namens des [Unterregisters](Benutzerdefinierte_Registerkarte_anlegen) ein, in dem die Sektion erscheinen soll, und klicke auf den passenden Treffer in der <a href="Keyboard_Shortcuts_Liste#dropdown" title="Dynamisches Suchfeld (Autocomplete)">Dropdown-Liste</a>.
+1. Gib in das Feld **Unterregister** einen Teil des (systeminternen) Namens des [Unterregisters](Benutzerdefinierte_Registerkarte_anlegen) ein, in dem die Sektion erscheinen soll, und klicke auf den passenden Treffer in der <a href="Keyboard_Shortcuts_Liste#dropdown" title="Dynamisches Suchfeld (Autocomplete)">Dropdown-Liste</a>.
  >**Hinweis:** Bei mehreren Sektionen für dasselbe Unterregister kannst Du deren **Reihenfolge** bestimmen.
 
 1. ***Optional:*** Erfasse eine **Beschreibung** in dem dafür vorgesehenen Textfeld.

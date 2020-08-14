@@ -18,7 +18,7 @@ ref: new_business_partner
 
 1. Wähle eine [**Geschäftspartnergruppe**](Neue_Geschaeftspartnergruppe) aus, z.B. *Maschinenlieferant*.
 1. Wähle die bevorzugte **Sprache** des Partners zur Kommunikation aus.
-1. Füge rechts eine **URL** hinzu, wie z.B. die Website des Partners.
+1. ***Optional:*** Trage rechts eine **URL** ein, z.B. die Website des Partners.
  >**Hinweis:** Beachte dabei, dass die URL mit dem Internetprotokollakronym beginnen muss (z.B. `https://`). Klicke rechts auf das Link-Symbol ![](assets/Link_icon.png), um die Seite aufzurufen.
 
 1. [Füge eine oder mehrere Adressen hinzu](Adresse_erfassen_Tab).

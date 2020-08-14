@@ -36,5 +36,5 @@ In the commission conditions, you can determine the commission percentage to be 
 1. Click "Done" to close the overlay window and add the commission details to the list.
 
 ## Next Steps
-1. [Define the contractual terms for commission contracts](Define_contractual_terms_commission).
+1. [Specify the contractual terms for commission contracts](Define_contractual_terms_commission).
 1. [Create a commission contract for the sales partner](Create_commission_contract).

@@ -9,7 +9,7 @@ ref: create_email_template
 ---
 
 ## Schritte
-1. Folge dieser [Anleitung zur Erstellung eines Textbausteines](Textbaustein_erstellen) und gib im Textfeld **Text** eine Nachricht ein, die für die E-Mail-Mitteilung verwendet werden soll.
+1. Folge dieser [Anleitung zur Erstellung eines Textbausteines](Textbaustein_erstellen) und gib in das Textfeld **Text** eine Nachricht ein, die für die E-Mail-Mitteilung verwendet werden soll.
 1. [metasfresh speichert automatisch](Speicheranzeige).
 
 | **Hinweis:** |

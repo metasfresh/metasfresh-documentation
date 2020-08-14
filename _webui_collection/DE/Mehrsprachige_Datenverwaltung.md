@@ -62,7 +62,7 @@ Möchtest Du Registerkarteneinträge übersetzen, wie z.B. im Falle der Mahnstuf
 1. ***Sofern vorhanden:*** Ersetze im Feld **Drucktext** die vorhandene Benennung mit Deiner Übersetzung.
  >**Hinweis:** Dieser Schritt betrifft "Belegart" und "Mahnstufe".
 
-1. ***Sofern vorhanden:*** Gib im Feld **Name auf Rechnung** die Benennung ein, die auf der Rechnung erscheinen soll.
+1. ***Sofern vorhanden:*** Gib in das Feld **Name auf Rechnung** die Benennung ein, die auf der Rechnung erscheinen soll.
  >**Hinweis:** Dieser Schritt betrifft nur "Zahlungsbedingung".
 
 1. Setze ein Häkchen bei **Übersetzt**.

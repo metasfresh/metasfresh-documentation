@@ -46,7 +46,7 @@ Du kannst folgende Parameter je nach Bedarf miteinander kombinieren:
 
 ### Geschäftspartner hinzufügen
 1. Gehe zur Registerkarte "Tour Version Line" unten auf der Seite und klicke auf !["Neu hinzufügen"](assets/Neu_hinzufuegen_Button.png). Es öffnet sich ein Overlay-Fenster.
-1. Gib im Feld **Geschäftspartner** einen Teil des Namens oder der Nummer des [Geschäftspartners](Neuer_Geschaeftspartner) ein und klicke auf den passenden Treffer in der <a href="Keyboard_Shortcuts_Liste#dropdown" title="Dynamisches Suchfeld (Autocomplete)">Dropdown-Liste</a>.
+1. Gib in das Feld **Geschäftspartner** einen Teil des Namens oder der Nummer des [Geschäftspartners](Neuer_Geschaeftspartner) ein und klicke auf den passenden Treffer in der <a href="Keyboard_Shortcuts_Liste#dropdown" title="Dynamisches Suchfeld (Autocomplete)">Dropdown-Liste</a>.
 1. Wähle ebenfalls im Feld **Geschäftspartner** einen Standort aus, sofern dem Geschäftspartner mehr als eine [Adresse](Adresse_erfassen_Tab) zugeordnet wurde.
 1. ***Optional:*** Gib einen **Puffer (Std)** ein. Dieser definiert, wie viel Zeit zwischen Versand und tatsächlicher Übergabe der Lieferware liegt.
 1. Setze ein Häkchen bei **Abholung**, sofern die Lieferware abgeholt wird.
