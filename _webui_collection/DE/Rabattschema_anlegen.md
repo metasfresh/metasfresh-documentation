@@ -25,8 +25,8 @@ ref: create_discount_schema
 1. ***Optional:*** Wähle ein **Produkt** oder eine [**Produktkategorie**](NeueProduktkategorie) aus.
  >**Hinweis:** In diesem Fall gelten die Preiskonditionen ***nur*** für das ausgewählte Produkt oder die ausgewählte Produktkategorie. Bleiben die Felder leer, gelten die Preiskonditionen für alle Produkte auf der Preisliste.
 
-1. Gib im Feld **Mengenstufe** die Anzahl ein, ab welcher eine Preiskondition gelten soll.
-1. Gib im Feld **Mengenrabatt %** einen Prozentbetrag ein.
+1. Gib in das Feld **Mengenstufe** die Anzahl ein, ab welcher eine Preiskondition gelten soll.
+1. Gib in das Feld **Mengenrabatt %** einen Prozentbetrag ein.
  >**Hinweis:** Ist dieser Betrag negativ, wird der Rabatt bei der Berechnung wie ein Zuschlag behandelt.
 
 1. Klicke auf "Bestätigen", um das Overlay-Fenster zu schließen und die Preiskondition zur Liste hinzuzufügen.

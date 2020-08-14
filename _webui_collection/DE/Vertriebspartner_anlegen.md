@@ -22,12 +22,12 @@ Vertriebspartner können sowohl Kunden zugeordnet als auch einander hierarchisch
  >**Hinweis:** Dieser Code kann bei der Auftragserfassung zur Provisionszuordnung angegeben werden.
 
 ### <a name="vp-hierarchie">Vertriebspartner einander unterordnen (optional)</a>
-1. Gib im Feld **Zugeordneter Vertriebspartner** einen Teil des Namens oder der Nummer des ***übergeordneten*** Vertriebspartners ein und klicke auf den passenden Treffer in der <a href="Keyboard_Shortcuts_Liste#dropdown" title="Dynamisches Suchfeld (Autocomplete)">Dropdown-Liste</a>.
+1. Gib in das Feld **Zugeordneter Vertriebspartner** einen Teil des Namens oder der Nummer des ***übergeordneten*** Vertriebspartners ein und klicke auf den passenden Treffer in der <a href="Keyboard_Shortcuts_Liste#dropdown" title="Dynamisches Suchfeld (Autocomplete)">Dropdown-Liste</a>.
 1. [metasfresh speichert automatisch](Speicheranzeige).
 
 ## Nächste Schritte
-1. [Definiere die Bedingungen zur Provisionsgewährung](Provisionsbedingungen_Details).
-1. [Definiere die Vertragsbedingungen für Provisionsverträge](Vertragsbedingungen_Provision_definieren).
+1. [Bestimme die Bedingungen zur Provisionsgewährung](Provisionsbedingungen_Details).
+1. [Bestimme die Vertragsbedingungen für Provisionsverträge](Vertragsbedingungen_Provision_definieren).
 1. [Bestimme die Höhe der Provision mittels Provisionspunkten](Provisionspunkte_Preis).
 1. [Erzeuge einen Provisionsvertrag für den Vertriebspartner](Provisionsvertrag_erzeugen).
 1. [Ordne den Vertriebspartner einem oder mehreren Kunden zu](Vertriebspartner_Kunden_zuordnen).

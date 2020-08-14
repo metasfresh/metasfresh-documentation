@@ -15,7 +15,7 @@ In a commission contract, the client undertakes to pay a remuneration ([commissi
 
 ## Requirements
 1. [Record a sales partner with whom a commission contract is to be concluded](Add_new_sales_partner).
-1. [Define the contractual terms of the commission contract](Define_contractual_terms_commission).
+1. [Specify the contractual terms of the commission contract](Define_contractual_terms_commission).
 
 ## Steps
 1. Open the entry of an existing sales partner from your [business partners](Menu).

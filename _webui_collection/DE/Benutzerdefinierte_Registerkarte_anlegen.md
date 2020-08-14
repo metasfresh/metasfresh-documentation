@@ -18,13 +18,13 @@ In metasfresh kannst Du in verschiedenen Eingabefenstern benutzerdefinierte Regi
 ### Registerkarte anlegen
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Erweiterte Dateneingabe - Register".
 1. [Erstelle einen neuen Eintrag](Neuer_Datensatz_Fenster_Webui).
-1. Gib im Feld **Name** einen systeminternen Registerkartennamen ein.
+1. Gib in das Feld **Name** einen systeminternen Registerkartennamen ein.
  >**Hinweis:** Dieser Name dient nur der systeminternen Referenz und wird nicht als Registername angezeigt.
 
 1. Benenne die Registerkarte im Feld **Registername**.
  >**Hinweis:** Dieser Name wird auf dem Registerreiter im Eingabefenster zu lesen sein.
 
-1. Gib im Feld **Eingabefenster** einen Teil des Namens des [Fensters](Menu) ein, in dem die Registerkarte erscheinen soll, und klicke auf den passenden Treffer in der <a href="Keyboard_Shortcuts_Liste#dropdown" title="Dynamisches Suchfeld (Autocomplete)">Dropdown-Liste</a>, z.B. *Produkt*.
+1. Gib in das Feld **Eingabefenster** einen Teil des Namens des [Fensters](Menu) ein, in dem die Registerkarte erscheinen soll, und klicke auf den passenden Treffer in der <a href="Keyboard_Shortcuts_Liste#dropdown" title="Dynamisches Suchfeld (Autocomplete)">Dropdown-Liste</a>, z.B. *Produkt*.
  >**Hinweis:** Bei mehreren benutzerdefinierten Registerkarten für dasselbe Eingabefenster kannst Du deren **Reihenfolge** bestimmen.
 
 1. ***Optional:*** Erfasse eine **Beschreibung** in dem dafür vorgesehenen Textfeld.
@@ -32,7 +32,7 @@ In metasfresh kannst Du in verschiedenen Eingabefenstern benutzerdefinierte Regi
 
 ### Unterregister hinzufügen
 1. Gehe zur Registerkarte "Unterregister" unten auf der Seite und klicke auf !["Neu hinzufügen"](assets/Neu_hinzufuegen_Button.png). Es öffnet sich ein Overlay-Fenster.
-1. Gib im Feld **Name** einen systeminternen Namen ein.
+1. Gib in das Feld **Name** einen systeminternen Namen ein.
  >**Hinweis:** Dieser Name dient nur der systeminternen Referenz und wird nicht als Unterregistername angezeigt.
 
 1. Benenne das Unterregister im Feld **Registername**.

@@ -36,5 +36,5 @@ In den Provisionsbedingungen kannst Du die Höhe des Provisionsprozentsatzes bes
 1. Klicke auf "Bestätigen", um das Overlay-Fenster zu schließen und die Provisionsdetails zur Liste hinzuzufügen.
 
 ## Nächste Schritte
-1. [Definiere die Vertragsbedingungen für Provisionsverträge](Vertragsbedingungen_Provision_definieren).
+1. [Bestimme die Vertragsbedingungen für Provisionsverträge](Vertragsbedingungen_Provision_definieren).
 1. [Erzeuge einen Provisionsvertrag für den Vertriebspartner](Provisionsvertrag_erzeugen).

@@ -13,7 +13,7 @@ ref: quick_create_new_business_partner
 Falls Dir bei der Erfassung eines [Auftrages](Auftrag_erfassen) oder einer [Bestellung](Bestellung_erfassen) auffällt, dass Du den betreffenden Geschäftspartner noch gar nicht in metasfresh registriert hast, kannst Du dies ganz einfach noch aus demselben Fenster per Schnellerfassung nachholen.
 
 ## Schritte
-1. Gib im Feld **Auftraggeber** ([Auftrag](Auftrag_erfassen)) bzw. **Lieferung von** ([Bestellung](Bestellung_erfassen)) einen Teil des Namens des fehlenden Geschäftspartners ein. Es öffnet sich eine Dropdown-Liste.<br>
+1. Gib in das Feld **Auftraggeber** ([Auftrag](Auftrag_erfassen)) bzw. **Lieferung von** ([Bestellung](Bestellung_erfassen)) einen Teil des Namens des fehlenden Geschäftspartners ein. Es öffnet sich eine Dropdown-Liste.<br>
 ![](assets/Neuer_Geschaeftspartner_Schnellerfassung.png)
 
 1. Klicke auf die Option *Neuer Geschäftspartner*. Es öffnet sich ein Overlay-Fenster für die Schnellerfassung.

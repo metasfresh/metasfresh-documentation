@@ -21,7 +21,7 @@ ref: contract_termination
 1. Wähle die **Aktion** *Kündigen* aus.
 1. Wähle einen **Kündigungsgrund** aus.
 1. Klicke auf "Start", um die Kündigung durchzuführen und das Overlay-Fenster zu schließen.
- >**Hinweis:** Die [Vertragsbedingungen](Vertragsbedingungen_definieren) bestimmen, zu welchem Termin ein Vertrag kündbar ist. Tritt bei der Kündigung ein Fehler auf, ist sie zu dem gewählten Zeitpunkt höchstwahrscheinlich nicht zugelassen.
+ >**Hinweis:** Die [Vertragsbedingungen](Vertragsbedingungen_definieren) legen fest, zu welchem Termin ein Vertrag kündbar ist. Tritt bei der Kündigung ein Fehler auf, ist sie zu dem gewählten Zeitpunkt höchstwahrscheinlich nicht zugelassen.
 
 1. In der [Listenansicht](Ansichten#listenansicht) der Verträge kannst Du den **Vertragsstatus** einsehen.
 

@@ -23,7 +23,7 @@ In metasfresh können Lieferanten-Gutschriften erstellt werden, wenn sich ein Gu
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Kreditoren Rechnungen".
 1. [Erstelle einen neuen Eintrag](Neuer_Datensatz_Fenster_Webui).
 1. Wähle die **Belegart** *Gutschrift (Lieferant)* aus.
-1. Gib im Feld **Rechnung von** einen Teil des Namens oder der Nummer des [Lieferanten](Neuer_Geschaeftspartner_Lieferant) ein und klicke auf den passenden Treffer in der <a href="Keyboard_Shortcuts_Liste#dropdown" title="Dynamisches Suchfeld (Autocomplete)">Dropdown-Liste</a>.
+1. Gib in das Feld **Rechnung von** einen Teil des Namens oder der Nummer des [Lieferanten](Neuer_Geschaeftspartner_Lieferant) ein und klicke auf den passenden Treffer in der <a href="Keyboard_Shortcuts_Liste#dropdown" title="Dynamisches Suchfeld (Autocomplete)">Dropdown-Liste</a>.
  >**Hinweis:** Wird der gewünschte Partner nicht angezeigt, kannst Du ihn per [Schnellerfassung](Neuer_Geschaeftspartner_Schnellerfassung) neu anlegen.
 
 ### Rechnungszeilen erfassen

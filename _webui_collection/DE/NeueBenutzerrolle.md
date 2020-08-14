@@ -21,7 +21,7 @@ Mit einer Benutzerrolle kannst Du die Berechtigungen eines Nutzers definieren so
 
 ### Die Rolle einem Systembenutzer zuweisen
 1. Gehe zur Registerkarte "Benutzer-Zugriff" unten auf der Seite und klicke auf !["Neu hinzufügen"](assets/Neu_hinzufuegen_Button.png). Es öffnet sich ein Overlay-Fenster.
-1. Gib im Feld **Nutzer** einen Teil des [Systembenutzer](Neuer_Systembenutzer)namens ein und klicke auf den passenden Treffer in der <a href="Keyboard_Shortcuts_Liste#dropdown" title="Dynamisches Suchfeld (Autocomplete)">Dropdown-Liste</a>.
+1. Gib in das Feld **Nutzer** einen Teil des [Systembenutzer](Neuer_Systembenutzer)namens ein und klicke auf den passenden Treffer in der <a href="Keyboard_Shortcuts_Liste#dropdown" title="Dynamisches Suchfeld (Autocomplete)">Dropdown-Liste</a>.
 1. Klicke auf "Bestätigen", um das Overlay-Fenster zu schließen und den Systembenutzer zur Liste hinzuzufügen.
 1. [metasfresh speichert automatisch](Speicheranzeige).
 

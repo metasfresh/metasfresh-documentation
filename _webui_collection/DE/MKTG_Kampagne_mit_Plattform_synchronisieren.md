@@ -22,6 +22,6 @@ ref: sync_mktg_campaign_with_platform
 
   Es öffnet sich ein Overlay-Fenster.
 
-1. Gib im Feld **MKTG_Platform** einen Teil der [Marketing-Plattform](MKTG-Plattform_erstellen) ein, zu/von der Du die Daten synchronisieren möchtest, und klicke auf den passenden Treffer in der <a href="Keyboard_Shortcuts_Liste#dropdown" title="Dynamisches Suchfeld (Autocomplete)">Dropdown-Liste</a>.
+1. Gib in das Feld **MKTG_Platform** einen Teil der [Marketing-Plattform](MKTG-Plattform_erstellen) ein, zu/von der Du die Daten synchronisieren möchtest, und klicke auf den passenden Treffer in der <a href="Keyboard_Shortcuts_Liste#dropdown" title="Dynamisches Suchfeld (Autocomplete)">Dropdown-Liste</a>.
 1. Klicke auf "Start", um die Datensynchronisation zu starten und das Overlay-Fenster zu schließen.
 1. [metasfresh speichert automatisch](Speicheranzeige).

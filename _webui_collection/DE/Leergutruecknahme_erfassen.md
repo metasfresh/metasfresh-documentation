@@ -22,7 +22,7 @@ Die Rücknahme dieses Leergutes wird über die Wareneingangsdisposition abgewick
 1. [Starte die Quick-Action](AktionStarten#quick-actions) "Leergutrücknahme". Es öffnet sich in demselben Tab das Fenster "[Leergutrücknahme](Menu)".
  >**Hinweis:** Diese Aktion findest Du ebenfalls im Aktionsmenü in der Listenansicht.
 
-1. Gib im Feld **Geschäftspartner** einen Teil des Namens oder der Nummer des [Kunden](Neuer_Geschaeftspartner_Kunde) ein, der das Leergut zurückgibt, und klicke auf den passenden Treffer in der <a href="Keyboard_Shortcuts_Liste#dropdown" title="Dynamisches Suchfeld (Autocomplete)">Dropdown-Liste</a>.
+1. Gib in das Feld **Geschäftspartner** einen Teil des Namens oder der Nummer des [Kunden](Neuer_Geschaeftspartner_Kunde) ein, der das Leergut zurückgibt, und klicke auf den passenden Treffer in der <a href="Keyboard_Shortcuts_Liste#dropdown" title="Dynamisches Suchfeld (Autocomplete)">Dropdown-Liste</a>.
  >**Hinweis:** Wird der gewünschte Partner nicht angezeigt, kannst Du ihn per [Schnellerfassung](Neuer_Geschaeftspartner_Schnellerfassung) neu anlegen.
 
 ### b) Bestellbezogene Leergutrücknahme

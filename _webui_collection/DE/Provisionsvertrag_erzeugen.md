@@ -15,7 +15,7 @@ Durch einen Provisionsvertrag verpflichtet sich der Auftraggeber, einem [Vertrie
 
 ## Voraussetzungen
 1. [Erfasse einen Vertriebspartner, mit dem ein Provisionsvertrag geschlossen werden soll](Vertriebspartner_anlegen).
-1. [Definiere die Vertragsbedingungen des Provisionsvertrages](Vertragsbedingungen_Provision_definieren).
+1. [Bestimme die Vertragsbedingungen des Provisionsvertrages](Vertragsbedingungen_Provision_definieren).
 
 ## Schritte
 1. Öffne den Eintrag eines bestehenden Vertriebspartners aus Deinen [Geschäftspartnern](Menu).

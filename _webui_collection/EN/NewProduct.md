@@ -26,7 +26,7 @@ ref: newproduct
 
 ## Next Steps
 - [Record a purchase or sales price](ProductPrice).
-- Configure the product for manufacturing.
+- [Configure the product for manufacturing](Product_planning).
 
 ## Further Information
 - The field **UOM** (unit of measurement) specifies the unit in which the product is managed in stock (stock-keeping UOM).

@@ -1,5 +1,5 @@
 ---
-title: Wie definiere ich die Vertragsbedingungen für Provisionsverträge?
+title: Wie bestimme ich die Vertragsbedingungen für Provisionsverträge?
 layout: default
 tags:
   - Workflow
@@ -12,10 +12,10 @@ ref: define_contractual_terms_commission
 ---
 
 ## Voraussetzungen
-- [Definiere die Bedingungen zur Provisionsgewährung](Provisionsbedingungen_Details).
+- [Bestimme die Bedingungen zur Provisionsgewährung](Provisionsbedingungen_Details).
 
 ## Schritte
-Folge dieser [Anleitung zur Definition von Vertragsbedingungen](Vertragsbedingungen_definieren) unter Berücksichtigung der folgenden Einstellungen:
+Folge dieser [Anleitung zur Bestimmung von Vertragsbedingungen](Vertragsbedingungen_definieren) unter Berücksichtigung der folgenden Einstellungen:
 1. Wähle als **Vertragsart** *Provision* aus.
 1. Wähle die gewünschten [**Einstellungen für Hierarchie-Provisionsverträge**](Provisionsbedingungen_Details) aus.
 1. Wähle für die **Rechnungsstellung** *Nach Lieferung* aus.
