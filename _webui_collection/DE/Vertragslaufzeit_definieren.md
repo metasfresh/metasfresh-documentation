@@ -1,5 +1,5 @@
 ---
-title: Wie lege ich die zeitlichen Rahmenbedingungen eines Vertrages fest?
+title: Wie bestimme ich die zeitlichen Rahmenbedingungen eines Vertrages?
 layout: default
 tags:
   - Workflow
@@ -22,13 +22,13 @@ Zu den zeitlichen Rahmenbedingungen eines Vertrages zählen in metasfresh u.a. V
 1. Wähle einen **Abrechnungs-/Lieferkalender** aus, z.B. *Buchführungs-Kalender*.
 1. Lege eine **Vertragslaufzeit** und **Vertragseinheit** fest, z.B. "1 Jahr".
 1. Lege eine **Ablauffrist** und **Ablaufeinheit** fest, z.B. "1 Monat".
+
+#### Weitere optionale Einstellungen
 1. Lege ein **Abointervall** und eine **Aboeinheit** fest, z.B. "2 Wochen".
  >**Hinweis:** Dies ist die Häufigkeit, in der ein Auftrag während der Laufzeit ausgeliefert wird.
 
-1. ***Optional:*** Setze ein Häkchen bei **Vertrag autom. verlängern**, damit er nach Laufzeitende wieder neu beginnt.
- >**Hinweis:** In diesem Fall erscheint das Kontrollkästchen **Neue Vertragslaufzeit autom. fertigstellen**. Setze auch hier ein Häkchen.
-
-1. ***Optional:*** Im Feld **Nächste Vertragsbedingungen** kannst Du den Anschlussvertrag auswählen, in den der abgelaufene Vertrag übergehen soll.
+1. Wähle im Feld **Vertrag autom. verlängern** die Art und Weise aus, wie der Vertrag nach Laufzeitende verlängert werden soll.
+1. Im Feld **Nächste Vertragsbedingungen** kannst Du den Anschlussvertrag auswählen, in den der abgelaufene Vertrag übergehen soll.
 
 ### Wechselkonditionen festlegen
 Die Wechselkonditionen bestimmen, zu welchem Zeitpunkt vor Vertragsende bzw. Vertragswechsel der Vertragspartner einen Statuswechsel vollziehen darf, wie z.B. den Vertrag kündigen.
@@ -43,4 +43,4 @@ Die Wechselkonditionen bestimmen, zu welchem Zeitpunkt vor Vertragsende bzw. Ver
 - [Stelle das Dokument fertig](BelegverarbeitungFertigstellen).
 
 ## Beispiel
-![](assets/Vertragslaufzeit_definieren.gif)
+<kbd><img src="assets/Vertragslaufzeit_definieren.gif" alt="GIF: Zeitliche Rahmenbedingungen eines Vertrages bestimmen"></kbd>

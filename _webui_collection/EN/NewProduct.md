@@ -25,7 +25,8 @@ ref: newproduct
 1. Set the desired [**Organization**](Org_add_new_organization) at the bottom right. To do so, enter a part of the organization's name into the field and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
 
 ## Next Steps
-- [Record a purchase or sales price](ProductPrice).
+- [Record purchase and sales prices for the product](ProductPrice).
+- [Add packing instructions to the product](CU-TU_Allocation).
 - [Configure the product for manufacturing](Product_planning).
 
 ## Further Information
