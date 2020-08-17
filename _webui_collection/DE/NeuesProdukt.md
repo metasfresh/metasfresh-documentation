@@ -25,8 +25,9 @@ ref: newproduct
 1. ***Optional:*** Stelle unten rechts im Feld **Sektion** die gewünschte [Organisation](Org_Neue_Organisation_anlegen) ein. Gib dazu einen Teil des Organisationsnamens ein und klicke auf den passenden Treffer in der <a href="Keyboard_Shortcuts_Liste#dropdown" title="Dynamisches Suchfeld (Autocomplete)">Dropdown-Liste</a>.
 
 ## Nächste Schritte
-- [Einkaufs- oder Verkaufspreis hinterlegen](ProduktPreis).
-- [Produkt für die Produktion konfigurieren](Produktplandaten).
+- [Hinterlege Einkaufs- und Verkaufspreise für das Produkt](ProduktPreis).
+- [Weise dem Produkt eine Packvorschrift zu](CU-TU_Zuordnung).
+- [Konfiguriere das Produkt für die Produktion](Produktplandaten).
 
 ## Weitere Informationen
 - Das Feld **Maßeinheit** bestimmt, in welcher Einheit der Artikel im Bestand geführt wird (Bestandsmengeneinheit).

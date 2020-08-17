@@ -14,7 +14,7 @@ ref: define_contractual_terms
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Vertragsbedingungen".
 1. [Erstelle einen neuen Eintrag](Neuer_Datensatz_Fenster_Webui).
 1. Benenne die Vertragsbedingungen im Feld **Name**.
-1. Wähle eine **Vertragsart** aus, z.B. *Abonnement* oder *Provision*.
+1. Wähle eine **Vertragsart** aus, z.B. *Abonnement*, *Provision* oder *Liefervereinbarung*.
 1. Sofern verfügbar, gib in das Feld **Preissystem** einen Teil des gewünschten [Preissystems](Preissystem_anlegen) ein und klicke auf den passenden Treffer in der <a href="Keyboard_Shortcuts_Liste#dropdown" title="Dynamisches Suchfeld (Autocomplete)">Dropdown-Liste</a>.
 1. Stelle im Feld **Vertragsverlängerung/-übergang** eine [Vertragslaufzeit](Vertragslaufzeit_definieren) ein.
 1. Wähle für die **Rechnungsstellung** einen Zeitpunkt aus, z.B. *Sofort* oder *Nach Lieferung*.
