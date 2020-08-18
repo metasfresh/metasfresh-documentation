@@ -26,10 +26,11 @@ layout: default
 - Meet us in our <a href="https://forum.metasfresh.org/" title="metasfresh Forum" target="\_blank">Community Forum</a> to discuss metasfresh and ask questions.
 - Contact us via our website metasfresh.com in <a href="https://metasfresh.com/en" title="metasfresh.com (EN)" target="\_blank">English</a> or in <a href="https://metasfresh.com/" title="metasfresh.com (DE)" target="\_blank">German</a>.
 - Follow us on Twitter: <a href="https://twitter.com/metasfresh" title="metasfresh on Twitter (EN)" target="\_blank">@metasfresh (English)</a>, <a href="https://twitter.com/metasfreshDE" title="metasfresh auf Twitter (DE)" target="\_blank">@metasfreshDE (German)</a>.
+- <a href="https://github.com/metasfresh" title="metasfresh on GitHub.com" target="\_blank">Visit us on GitHub!</a>
+
 <!--
 - There are also two Gitter chat rooms. One for <a href="https://gitter.im/metasfresh/metasfresh" title="metasfresh on Gitter" target="\_blank">metasfresh</a> and one for <a href="https://gitter.im/metasfresh/metasfresh-documentation" title="metasfresh-documentation on Gitter" target="\_blank">metasfresh-documentation</a>.
 -->
-- <a href="https://github.com/metasfresh" title="metasfresh on GitHub.com" target="\_blank">Visit us on GitHub!</a>
 
 ### Legacy
 - Legacy Java Client [(EN)](pages/howto/index_en) [(DE)](pages/howto/index_de)
