@@ -1,5 +1,5 @@
 ---
-title: Configure Session and View Expiration (ViewExpirationTimeoutInMinutes)
+title: Configure View Expiration (ViewExpirationTimeoutInMinutes)
 layout: default
 tags:  
   - System Config
@@ -9,7 +9,7 @@ ref: sysconfig_ViewExpirationTimeoutInMinutes
 ---
 
 ## Overview
-Allows to control when the session and therefore the views of an user expire and require relogon and refiltering.
+Allows to control when the views of an user expire and require refiltering.
 
 ### Default
 
