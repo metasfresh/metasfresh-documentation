@@ -17,14 +17,9 @@ Mit dem Druckformat kannst Du u.a. das Papierformat sowie das Seitenlayout, wie 
 1. [Erstelle ein neues Druckformat](Neuer_Datensatz_Fenster_Webui).
 1. Benenne das Druckformat im Feld **Name**.
 1. Wähle eine **DB-Tabelle** aus, für die das Druckformat verwendet werden soll, z.B. *Letter*.
-1. Wähle ein **Druck-Papier** aus, z.B. *A4 Portrait*.
-1. Öffne die "[Erweiterte Erfassung](Ansichten#erw-erfassung)" aus dem [Aktionsmenü](AktionStarten#aktionsmenue).
- >**Hinweis:** Drücke `Alt` + `E` / `⌥ alt` + `E`.
-
-1. Scrolle runter bis zum Feld **Jasper Process** und wähle einen geeigneten Prozess aus, z.B. *Serial Letter*.
+1. Wähle einen geeigneten **Jasper Prozess** aus, z.B. *Serial Letter*.
  >**Hinweis:** Mittels Jasper werden die Belege bei ihrer Erstellung den Einstellungen entsprechend gestaltet.
 
-1. Klicke auf "Bestätigen", um die Änderungen zu übernehmen und die "Erweiterte Erfassung" zu schließen.
 1. [metasfresh speichert automatisch](Speicheranzeige).
 <br><br>
 
@@ -33,4 +28,4 @@ Mit dem Druckformat kannst Du u.a. das Papierformat sowie das Seitenlayout, wie 
 | Damit die Einstellungen auf dem Anwendungsserver aktiv werden, muss dieser erst vom Admin neugestartet werden. |
 
 ## Beispiel
-![](assets/Druckformat_anlegen.gif)
+<kbd><img src="assets/Druckformat_anlegen.gif" alt="GIF: Neues Druckformat anlegen"></kbd>

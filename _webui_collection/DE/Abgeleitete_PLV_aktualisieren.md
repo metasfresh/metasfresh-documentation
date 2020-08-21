@@ -16,7 +16,7 @@ In metasfresh kannst Du verschiedenen kundenspezifischen [Preislisten](Preislist
 ## Voraussetzungen
 1. [Erstelle eine allgemeine Preisliste](Preisliste_anlegen), die als *Basispreisliste* in kundenspezifischen Preislisten eingestellt werden kann.
 1. [Erstelle kundenspezifische Preislisten](Preisliste_anlegen) und verknüpfe sie mit der **Basispreisliste**.
-1. Die (derivativen) Kundenpreislisten müssen [als "Verkaufspreisliste" markiert](Preisliste_anlegen) und [mit einem Kunden verknüpft](Zuweisung_Preise_Partner) sein.
+1. Die (derivativen) Kundenpreislisten müssen [als "Verkaufspreisliste" markiert](Preisliste_anlegen) und [mit einem Kunden verknüpft](Zuweisung_Preise_Partner#verkaufspreisliste) sein.
 1. Für diesen [Kunden](Neuer_Geschaeftspartner_Kunde) muss es erlaubt sein, von Basispreislistenversionen abgeleitete Preislistenversionen zu aktualisieren.
  >**Hinweis:** Setze hierzu ein Häkchen bei **PLV von Basis** in der Kundenzeile der Registerkarte "Kunde" des entsprechenden Kundeneintrages unter "[Geschäftspartner](Menu)".<br> ![](assets/PLV_von_BasisPLV.png)
 

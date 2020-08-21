@@ -16,7 +16,7 @@ In metasfresh, you can assign a general base price list to various customer-spec
 ## Requirements
 1. [Create a general price list](Add_price-list) that can be set as *base price list* in customer-specific price lists.
 1. [Create customer-specific price lists](Add_price-list) and link them to the **base price list**.
-1. The (derivative) customer price lists must be [marked as "sales price list"](Add_price-list) and be [linked to a customer](Assign_prices_to_partner).
+1. The (derivative) customer price lists must be [marked as "sales price list"](Add_price-list) and be [linked to a customer](Assign_prices_to_partner#sales-price-list).
 1. For this customer, updating price list versions derived from base price list versions must be enabled.
  >**Note:** To enable this, tick the checkbox **PLV from Base** in the customer line of the record tab "Customer" of the customer entry under "[Business Partner](Menu)" in the menu.<br> ![](assets/PLV_from_BasePLV.png)
 

@@ -13,11 +13,11 @@ ref: assign_prices_to_partner
 ## Overview
 <kbd><img src="assets/price system_assign prices to partner.png" alt="Fig.: Pricing System, Partners and Partner Groups"></kbd>
 
-In metasfresh, there are *sales price lists* and *purchase price lists*. Sales price lists contain sales products and are assigned to [customers](New_business_partner_customer), while purchase price lists are used for [vendors](New_business_partner_vendor) and contain products for purchasing. These two types of price lists can also be assigned to [partner groups](Assign_prices_to_partner_group).
+In metasfresh, there are *sales price lists* and *purchase price lists*. Sales price lists contain sales products and are assigned to [customers](New_business_partner_customer), while purchase price lists are used for [vendors](New_business_partner_vendor) and contain products for purchasing. These two types of price lists can also be [assigned to partner groups](Assign_prices_to_partner_group).
 
 ## Steps
 
-### Assign sales price list to customer
+### <a name="sales-price-list">Assign sales price list to customer</a>
 In order to obtain a *sales price list* you have to tick the checkbox **Sales Price List** in the corresponding price list entry (see **step 8** of "[How do I add a price list?](Add_price-list)"). Once this is done, you can continue with these steps:
 
 1. Open the entry of an existing customer from your [business partners](Menu) or [add a new one](New_business_partner_customer).
@@ -27,7 +27,7 @@ In order to obtain a *sales price list* you have to tick the checkbox **Sales Pr
 
 ---
 
-### Assign purchase price list to vendor
+### <a name="purchase-price-list">Assign purchase price list to vendor</a>
 In order to obtain a *purchase price list* you have to clear the checkbox **Sales Price List** in the corresponding price list entry (see **step 8** of "[How do I add a price list?](Add_price-list)"). Once this is done, you can continue with these steps:
 
 1. Open the entry of an existing vendor from your [business partners](Menu) or [add a new one](New_business_partner_vendor).

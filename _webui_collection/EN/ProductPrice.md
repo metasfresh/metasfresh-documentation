@@ -12,7 +12,7 @@ ref: productprice
 ## Steps
 1. Open the entry of an existing [product](Menu) or [add a new one](NewProduct).
 1. Go to the record tab "Price" at the bottom of the page and click !["Add new"](assets/Add_New_Button.png). An overlay window opens up.
-1. Pick a [**Price List Version**](Add_price-list-version), e.g., "Customer Price List" ([for sales](Assign_prices_to_partner)) or "Vendor Price List" ([for purchasing](Assign_prices_to_partner)).
+1. Pick a [**Price List Version**](Add_price-list-version), e.g., "Customer Price List" ([for sales](Assign_prices_to_partner#sales-price-list)) or "Vendor Price List" ([for purchasing](Assign_prices_to_partner#purchase-price-list)).
 1. Enter a **Standard Price**.
 1. Pick a **UOM** (unit of measurement) for which the price shall apply (sales UOM).
  >**Note:** If sales UOM ≠ stock-keeping UOM (see [Product](NewProduct)), you have to define a [UOM conversion](Convert_UOMs).
