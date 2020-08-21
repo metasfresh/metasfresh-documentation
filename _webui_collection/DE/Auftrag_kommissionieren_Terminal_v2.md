@@ -47,8 +47,8 @@ Mithilfe der Pickliste kann der Kommissionierer den tatsächlichen Bestand über
 
 ### Kommissionierung verarbeiten
 1. [Selektiere](AuswahlBelege) die Zeilen der verpackten Produkte und [starte die Quick-Action](AktionStarten#quick-actions) "Process". Es öffnet sich ein Overlay-Fenster.
-1. Der **Lieferweg** wird aus dem Auftrag übernommen und ist hier voreingestellt, kann jedoch noch manuell geändert werden.
-1. Der **Transportauftrag** wird entsprechend dem Bereitstellungsdatum des Auftrages hier voreingestellt, kann jedoch noch manuell geändert werden.
+1. Der **Lieferweg** wird aus dem Auftrag übernommen und ist hier voreingestellt, kann jedoch manuell geändert werden.
+1. Der **Transportauftrag** wird entsprechend dem Bereitstellungsdatum des Auftrages hier voreingestellt, kann jedoch manuell geändert werden.
 1. Klicke auf "Start", um das Overlay-Fenster zu schließen und die Kommissionierung zu verarbeiten. Die Produktzeilen werden schreibgeschützt.
 1. Klicke auf "Bestätigen", um die Pickliste zu schließen und zum Kommissionier-Terminal zurückzukehren. Die Zeile des kommissionierten Auftrages wird aus dem Terminal entfernt.
 

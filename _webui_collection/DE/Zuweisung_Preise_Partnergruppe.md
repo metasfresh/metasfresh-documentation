@@ -11,9 +11,9 @@ ref: assign_prices_to_partner_group
 ---
 
 ## Überblick
-![](assets/Preissystem_Zuweisung Preise und Partner.png)
+<kbd><img src="assets/Preissystem_Zuweisung Preise und Partner.png" alt="Abb.: Preissystem, Partner und Partnergruppen"></kbd>
 
-In metasfresh gibt es *Verkaufspreislisten* und *Einkaufspreislisten*. Die Verkaufspreislisten können den [Kunden](Zuweisung_Preise_Partner) zugewiesen werden und die Einkaufspreislisten den [Lieferanten](Zuweisung_Preise_Partner). Diese beiden Preislistenarten können ebenfalls [Partnergruppen](Neue_Geschaeftspartnergruppe) zugewiesen werden.
+In metasfresh gibt es *Verkaufspreislisten* und *Einkaufspreislisten*. Verkaufspreislisten werden [Kunden zugewiesen](Zuweisung_Preise_Partner#verkaufspreisliste) und enthalten Verkaufsprodukte, während Einkaufspreislisten für [Lieferanten](Zuweisung_Preise_Partner#einkaufspreisliste) verwendet werden und Produkte für den Einkauf enthalten. Diese beiden Preislistenarten können ebenfalls [Partnergruppen](Neue_Geschaeftspartnergruppe) zugewiesen werden.
 
 ## Schritte
 
@@ -28,4 +28,4 @@ In metasfresh gibt es *Verkaufspreislisten* und *Einkaufspreislisten*. Die Verka
 - [Weise Preislisten einzelnen Geschäftspartnern zu](Zuweisung_Preise_Partner).
 
 ## Beispiel
-![](assets/Zuweisung_Preise_Partnergruppe.gif)
+<kbd><img src="assets/Zuweisung_Preise_Partnergruppe.gif" alt="GIF: Preislisten einer Geschäftspartnergruppe zuweisen"></kbd>

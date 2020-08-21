@@ -19,7 +19,7 @@ Um eine Ausschreibung zu starten, müssen folgende Stammdaten vorhanden sein/Vor
 1. [Erfasse die Lieferanten, die an der Ausschreibung teilnehmen sollen](Neuer_Geschaeftspartner_Lieferant).
 1. Stelle sicher, dass jeder Ausschreibungsteilnehmer (Lieferant) mit einem Nutzer verknüpft ist, der eine E-Mail-Adresse besitzt sowie Zugriff auf die "Mengenmeldung App" hat.
 1. Die auszuschreibenden Produkte müssen für Lieferantenverträge freigegeben werden.
-1. Bestimme spezielle Vertragsbedingungen für die Ausschreibungen ohne Vertragsverlängerung.
+1. Bestimme die Vertragsbedingungen für die Ausschreibungen.
 
 ## Schritte
 
@@ -112,21 +112,109 @@ Folge dieser [Anleitung zur Bestimmung der zeitlichen Rahmenbedingungen eines Ve
 Folge dieser [Anleitung zur Bestimmung von Vertragsbedingungen](Vertragsbedingungen_definieren) unter Berücksichtigung der folgenden Einstellungen:
 1. Vergib einen sinnvollen Namen, z.B. *Ausschreibung (RfP)*.
 1. Wähle als **Vertragsart** *Liefervereinbarung* aus.
-1. Stelle im Feld **Vertragsverlängerung/-übergang** *Keine autom. Verlängerung* (siehe oben) ein.
-
-
----
-
-***CONTINUE HERE!!!***
-
----
-
-   => Gibt es bei der "Vertragslaufzeit = 0" etwas Bestimmtes zu beachten?
-
-1. Preissytem Lieferanten?
-1. Rechnungsstellung?
-1. Bei Vertragsverlängerung?
-1. Registerkart: Zuordnung (Pauschale)/Produkt (Depot)?
+1. Wähle im Feld **Vertragsverlängerung/-übergang** *Keine autom. Verlängerung* (siehe oben) aus.
 
 #### Nächste Schritte
 - ?
+
+---
+
+### Wie lege ich eine E-Mail-Vorlage an?
+
+#### Schritte
+1. [Gehe ins Menü](Menu) und öffne das Fenster "EMail-Vorlage".
+1. [Erstelle einen neuen Eintrag](Neuer_Datensatz_Fenster_Webui).
+1. Benenne die E-Mail-Vorlage im Feld **Name**.
+1. Trage einen **Betreff** ein.
+1. Gib in das Textfeld **E-Mail-Text** eine Nachricht ein, die für die E-Mail-Mitteilung verwendet werden soll.
+1. Setze ein Häkchen bei **HTML**, sofern der Text HTML-Tags enthält.
+1. [metasfresh speichert automatisch](Speicheranzeige).
+
+---
+
+### Welche Druckformate werden für Ausschreibungen benötigt?
+
+#### Überblick
+Ausschreibungen erfordern vier verschiedene E-Mail-Vorlagen, denen jeweils ein eigenes Druckformat zugrunde liegt. Zu Beginn einer Ausschreibung werden Einladungen verschickt (sowohl mit als auch ohne Mengenmeldung) und sobald ein Teilnehmer für die Liefervereinbarung auserkoren wurde, erhält dieser eine Zusage, während die anderen eine Absage erhalten.
+Sofern die jeweils notwendigen Druckformate noch nicht vorhanden sind, müssen sie erstellt werden. Gehe hierzu wie folgt vor:
+
+#### Schritte
+Folge dieser [Anleitung zum Anlegen neuer Druckformate](Druckformat_anlegen) unter Berücksichtigung der folgenden Einstellungen:
+
+##### Alle Ausschreibungs-Druckformate
+1. Wähle als **DB-Tabelle** *Ausschreibungs-Antwort* aus.
+
+##### <a name="ausschreibungseinladung-mit-mengenmeldung">Ausschreibungseinladung (mit Mengenmeldung)</a>
+1. Vergib einen sinnvollen Namen, z.B. *Information Ausschreibung*.
+1. Wähle als **Jasper Prozess** *Information Ausschreibung* aus.
+
+##### <a name="ausschreibungseinladung-ohne-mengenmeldung">Ausschreibungseinladung (ohne Mengenmeldung)</a>
+1. Vergib einen sinnvollen Namen, z.B. *Information Ausschreibung ohne Mengenmeldung*.
+1. Wähle als **Jasper Prozess** *Information Ausschreibung ohne Mengenmeldung* aus.
+
+##### <a name="ausschreibungszusage">Ausschreibungszusage</a>
+1. Vergib einen sinnvollen Namen, z.B. *Zusage Ausschreibung*.
+1. Wähle als **Jasper Prozess** *Zusage Ausschreibung* aus.
+
+##### <a name="ausschreibungsabsage">Ausschreibungsabsage</a>
+1. Vergib einen sinnvollen Namen, z.B. *Absage Ausschreibung*.
+1. Wähle als **Jasper Prozess** *Absage Ausschreibung* aus.
+
+---
+
+### Wie lege ich ein neues Ausschreibungsthema an?
+
+#### Voraussetzungen
+1. Bestimme die Vertragsbedingungen für die Ausschreibung.
+1. Erfasse jeweils einen Text als [E-Mail-Vorlage] mit folgendem Inhalt:
+  - Informationen über die Ausschreibung,
+  - Informationen über die Ausschreibung (ohne Mengenmeldung),
+  - eine Zusage für die Ausschreibung,
+  - eine Absage für die Ausschreibung.
+1. Vergewissere Dich, dass die benötigten Druckformate für die jeweiligen E-Mail-Vorlagen vorhanden sind.
+
+#### Schritte
+1. [Gehe ins Menü](Menu) und öffne das Fenster "Ausschreibung Thema".
+1. [Erstelle einen neuen Eintrag](Neuer_Datensatz_Fenster_Webui).
+1. Öffne die "[Erweiterte Erfassung](Ansichten#erw-erfassung)" aus dem [Aktionsmenü](AktionStarten#aktionsmenue).
+ >**Hinweis:** Drücke `Alt` + `E` / `⌥ alt` + `E`.
+
+##### Vertragsbedingungen festlegen
+1. Benenne das Thema im Feld **Name**, z.B. mit dem Namen des Ausschreibungsproduktes [Produkte für Lieferantenverträge].
+1. Wähle im Feld **Ausschreibung Art** *Procurement* aus.
+1. Stelle die **Vertragsbedingungen** für die Ausschreibung ein, z.B. *Ausschreibung (RfP)* [Vertragsbedingungen für Ausschreibungen].
+
+##### E-Mail-Vorlagen auswählen
+
+###### Ausschreibungseinladung (mit Mengenmeldung)
+1. Wähle im Feld **RfQ Invitation mail text** eine E-Mail-Vorlage aus, die Informationen über die Ausschreibung enthält und als Einladung verschickt werden soll.
+1. Wähle im Feld **RfQ Invitation Druck - Format** das [Druckformat für die Ausschreibungseinladung](...#ausschreibungseinladung-mit-mengenmeldung) aus, z.B. *Information Ausschreibung*.
+
+###### Ausschreibungseinladung (ohne Mengenmeldung)
+1. Wähle im Feld **RfQ without Qty Invitation mail text** eine E-Mail-Vorlage aus, die Informationen über die Ausschreibung *ohne Mengenmeldung* enthält und als Einladung verschickt werden soll.
+1. Wähle im Feld **RfQ without Qty Invitation Druck - Format** das [Druckformat für die Ausschreibungseinladung ohne Mengenmeldung](...#ausschreibungseinladung-ohne-mengenmeldung) aus, z.B. *Information Ausschreibung ohne Mengenmeldung*.
+
+###### Ausschreibungszusage
+1. Wähle im Feld **RfQ win mail text** eine E-Mail-Vorlage aus, die als Ausschreibungszusage verschickt werden soll.
+1. Wähle im Feld **RfQ Won Druck - Format** das [Druckformat für die Ausschreibungszusage](...#ausschreibungszusage) aus, z.B. *Zusage Ausschreibung*.
+
+###### Ausschreibungsabsage
+1. Wähle im Feld **RfQ lost mail text** eine E-Mail-Vorlage aus, die als Ausschreibungsabsage verschickt werden soll.
+1. Wähle im Feld **RfQ Lost Druck - Format** das [Druckformat für die Ausschreibungsabsage](...#ausschreibungsabsage) aus, z.B. *Absage Ausschreibung*.
+
+##### Erweiterte Erfassung schließen
+1. Klicke auf "Bestätigen", um die Änderungen zu übernehmen und die "Erweiterte Erfassung" zu schließen.
+1. [metasfresh speichert automatisch](Speicheranzeige).
+
+##### Ausschreibungsteilnehmer hinzufügen
+1. Gehe zur Registerkarte "Teilnehmer" unten auf der Seite und klicke auf !["Neu hinzufügen"](assets/Neu_hinzufuegen_Button.png). Es öffnet sich ein Overlay-Fenster.
+1. Gib in das Feld **Geschäftspartner** einen Teil des Namens oder der Nummer des [Lieferanten](Neuer_Geschaeftspartner_Lieferant) ein, der an der Ausschreibung teilnimmt, und klicke auf den passenden Treffer in der <a href="Keyboard_Shortcuts_Liste#dropdown" title="Dynamisches Suchfeld (Autocomplete)">Dropdown-Liste</a>.
+1. Der "Standort" wird automatisch eingetragen, kann jedoch manuell geändert werden.
+1. Der "Lieferkontakt" wird automatisch eingetragen, kann jedoch manuell geändert werden. Stelle hier den [mit dem Geschäftspartner verknüpften Nutzer mit E-Mail-Adresse sowie Zugriff auf die "Mengenmeldung App" ein](...Wie gebe ich Lieferkontakten Zugriff auf die "Mengenmeldung App"?).
+1. Klicke auf "Bestätigen", um das Overlay-Fenster zu schließen und den Geschäftspartner zur Teilnehmerliste hinzuzufügen.
+ >**Hinweis:** Wiederhole diese Schritte, um weitere Teilnehmer hinzuzufügen.
+
+---
+
+# Create a new RfQ (Ausschreibung) with: [...]
+CONTINUE HERE
