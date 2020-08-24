@@ -10,8 +10,6 @@ sequence: 10
 ref: create_request_for_quotation
 ---
 
-# Wie erstelle ich eine Ausschreibung?
-
 ## Überblick
 Eine Ausschreibung ist eine schriftliche Aufforderung zur Abgabe von Angeboten für die in der Ausschreibung genannten Lieferungen oder Dienstleistungen. Um eine Ausschreibung über metasfresh zu veröffentlichen, müssen folgende Voraussetzungen erfüllt sein:
 
