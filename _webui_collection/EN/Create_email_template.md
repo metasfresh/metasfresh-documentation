@@ -8,8 +8,16 @@ sequence: 40
 ref: create_email_template
 ---
 
+## Overview
+In metasfresh you can create both general boilerplates and more specific text templates for emails. For general boilerplates, please [follow these instructions](Create_boilerplate). In order to create specific email templates, e.g., for requests for quotations, please proceed as follows:
+
 ## Steps
-1. Follow these [instructions for creating a boilerplate](Create_boilerplate) and in the text box **Text Snippet**, enter a message to be used for the email notification.
+1. Open "Mail Template" from the [menu](Menu) (`window/204/`).
+1. [Create a new entry](New_Record_Window).
+1. Give the email template a **Name**.
+1. Enter a **Subject**.
+1. In the text box **Mail Text**, enter a message to be used for the email notification.
+1. Tick the checkbox **HTML**, if the text contains HTML tags.
 1. [metasfresh saves the progress automatically](Saveindicator).
 
 | **Note:** |

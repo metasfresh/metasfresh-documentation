@@ -1,5 +1,5 @@
 ---
-title: How do I define the commission conditions?
+title: How do I specify the commission conditions?
 layout: default
 tags:
   - Workflow

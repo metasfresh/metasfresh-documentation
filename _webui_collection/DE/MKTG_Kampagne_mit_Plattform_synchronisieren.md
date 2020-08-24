@@ -27,4 +27,4 @@ ref: sync_mktg_campaign_with_platform
 1. [metasfresh speichert automatisch](Speicheranzeige).
 
 ## Beispiel
-<kbd><img src="assets/MKTG_Kampagne_mit_Plattform_synchronisieren.png" alt="Abb.: Marketingkampagne mit Marketing-Plattform synchronisieren"></kbd>
+<kbd><a href="assets/MKTG_Kampagne_mit_Plattform_synchronisieren.png" title="Ansicht vergrößern"><img src="assets/MKTG_Kampagne_mit_Plattform_synchronisieren.png" alt="Abb.: Marketingkampagne mit Marketing-Plattform synchronisieren"></a></kbd>
