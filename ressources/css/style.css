@@ -87,3 +87,11 @@
 .gsc-adBlock {
     display: none!important;
 }
+
+/* Offset html anchors globally for fixed header */
+:target::before {
+    content: '';
+    display: block;
+    height: 60px;
+    margin-top: -60px;
+}
