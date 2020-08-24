@@ -28,4 +28,4 @@ In metasfresh, there are *sales price lists* and *purchase price lists*. Sales p
 - [Assign price lists to single business partners](Assign_prices_to_partner_group).
 
 ## Example
-![](assets/Assign_Prices_to_Partner_Group.gif)
+<kbd><img src="assets/Assign_Prices_to_Partner_Group.gif" alt="Fig.: How to assign price lists to a business partner group"></kbd>

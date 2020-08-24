@@ -1,5 +1,5 @@
 ---
-title: Wie definiere ich die Provisionsbedingungen?
+title: Wie bestimme ich die Provisionsbedingungen?
 layout: default
 tags:
   - Workflow
