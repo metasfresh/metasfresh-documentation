@@ -10,7 +10,7 @@ ref: void_so_incl_related_docs
 ---
 
 ## Überblick
-In metasfresh kannst Du einen Auftrag samt allen damit verbundenen Belegen, wie z.B. [Lieferscheinen](Zu_Auftrag_Lieferschein_erstellen), [Rechnungen](Zu_Auftrag_Rechnung_erstellen), [Verträgen](Abonnementvertrag_erfassen), [Vertragsverlängerungen](Vertrag_verlaengern) usw., schnell und einfach stornieren.
+In metasfresh kannst Du einen [Auftrag](Auftrag_erfassen) samt allen damit verbundenen Belegen, wie z.B. [Lieferscheinen](Zu_Auftrag_Lieferschein_erstellen), [Rechnungen](Zu_Auftrag_Rechnung_erstellen), [Verträgen](Abonnementvertrag_erfassen), [Vertragsverlängerungen](Vertrag_verlaengern) usw., schnell und einfach stornieren.
 
 So können beispielsweise Fehler, die vom Auftrag in die Folgebelege übertragen wurden, rechtzeitig und in ihrer Gesamtheit unwirksam gemacht werden. Anschließend wird automatisch ein Entwurf des ursprünglichen Auftrages erstellt, den Du dann überarbeiten und erneut fertigstellen kannst.
 
@@ -26,8 +26,6 @@ So können beispielsweise Fehler, die vom Auftrag in die Folgebelege übertragen
 
 ## Nächste Schritte
 - Überprüfe den neu erstellten Entwurf des Auftrages und [stelle ihn fertig](BelegverarbeitungFertigstellen).
-
-<br>
 
 | **Hinweis:** |
 | :--- |
