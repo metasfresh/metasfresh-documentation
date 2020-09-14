@@ -17,7 +17,7 @@ You will need a [running Docker-based metasfresh system](How_do_I_setup_the_meta
 1. Create a backup of the current Docker workspace.
 1. Delete the host's images of **app**, **webui** and **webapi**.
 1. Get the new Docker files from GitHub.
-1. Change the hostname in the `docker-compose.yml` file.
+1. Adjust the hostname in the `docker-compose.yml` file.
 1. Rebuild the images.
 1. Start Docker containers.
 
@@ -26,7 +26,7 @@ You will need a [running Docker-based metasfresh system](How_do_I_setup_the_meta
 ```bash
 cd metasfresh-docker
 docker-compose stop
-tar cvzf /backup/backup.tar.gz ./*
+tar cvzf ../backup.tar.gz ./<mydocker dir>/* --BACKUP
 docker-compose rm
 git pull
 vi ./docker-compose.yml
