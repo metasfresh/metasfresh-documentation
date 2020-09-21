@@ -4,6 +4,7 @@ layout: default
 tags:
   - Workflow
   - Verkauf
+  - Verkaufsprozesse
   - Kommissionierung
 lang: de
 sequence: 30
@@ -18,7 +19,7 @@ Die Lagerbestände kannst Du im "[Handling Unit Editor](Menu)" jederzeit nachsch
 
 ## Voraussetzungen
 1. [Erfasse einen für den Versand bestimmten Auftrag](Auftrag_erfassen_Versand) und [stelle ihn fertig](BelegverarbeitungFertigstellen).
-1. [Erstelle einen Transportauftrag im Status *Entwurf*](Transportauftrag_erstellen), in dem der kommissionierte Auftrag abgewickelt werden soll.
+1. [Erstelle einen Transportauftrag im Status *Entwurf*](Transportauftrag_erstellen), über den der kommissionierte Auftrag abgewickelt werden soll.
 1. Vergewissere Dich vor der Kommissionierung, dass die georderten Produkte in ausreichender Menge für den Verkauf auf Lager sind.
 1. Um den Bestand aufzufüllen, kannst Du entweder:<br>
   **a)** einen [Wareneingang erstellen](Zu_Bestellung_Wareneingang_erstellen).<br>

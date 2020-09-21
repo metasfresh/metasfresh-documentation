@@ -4,6 +4,7 @@ layout: default
 tags:
   - Workflow
   - Sales
+  - Sales Processes
   - Order Picking
 lang: en
 sequence: 30
@@ -18,7 +19,7 @@ You can review your stock levels at any time in the "[Handling Unit Editor](Menu
 
 ## Requirements
 1. [Create a sales order intended for shipping](Sales_order_with_shipper) and [complete it](DocumentProcessingComplete).
-1. [Create a transport order in the *Drafted* status](Create_transport_order) to use it to handle the picked sales order.
+1. [Create a transport order in the *Drafted* status](Create_transport_order) to use for handling the picked sales order.
 1. Prior to picking, make sure that the ordered products are in stock in sufficient quantity for sale.
 1. To replenish stocks, you can either:<br>
   **a)** [create a goods receipt](CreateGoodsReceipt).<br>
