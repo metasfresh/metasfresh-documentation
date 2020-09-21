@@ -4,6 +4,7 @@ layout: default
 tags:
   - Workflow
   - Sales
+  - Sales Processes
   - Order Picking
 lang: en
 sequence: 20
