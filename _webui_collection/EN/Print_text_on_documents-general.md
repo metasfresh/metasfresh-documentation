@@ -18,7 +18,7 @@ You can record these texts in metasfresh in a number of different ways. Upon doc
 
 The following figure of a quotation highlights the modifiable text passages and points out the menu items where they can be edited in metasfresh:
 
-![Modifiable document texts with their respective menu items](assets/Text on documents.png)
+<kbd><img src="assets/Text on documents.png" alt="Fig.: Modifiable document texts with their respective menu items"></kbd>
 
 ---
 
@@ -42,7 +42,7 @@ Click [here](Print_text_on_documents-doctype), if you want to add a text at the 
 Click [here](Partner-specific_products), if you want to record partner-specific product names and numbers that will appear on the documents of the respective business partners instead of the names and numbers you use for internal product management purposes.
 
 #### Add a general product description
-Click [here](Print_text_on_documents-product), if you want to add a general product description that will appear on all documents.
+Click [here](Print_text_on_documents-product), if you want to add a general product description.
 
 #### Add an order line-specific product description
 Click [here](Order_line-specific_product_description), if you want to add a product description that will appear on the respective order confirmation only.
