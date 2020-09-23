@@ -18,7 +18,7 @@ Diese Texte kannst Du auf verschiedene Art und Weise in metasfresh erfassen. Bei
 
 Auf der folgenden Abbildung eines Angebots werden die modifizierbaren Textstellen hervorgehoben sowie die jeweiligen Menüpunkte aufgezeigt, wo sie in metasfresh bearbeitet werden können:
 
-![Modifizierbare Belegtexte mit den jeweiligen Menüpunkten](assets/Text auf Belege drucken.png)
+<kbd><img src="assets/Text auf Belege drucken.png" alt="Abb.: Modifizierbare Belegtexte mit den jeweiligen Menüpunkten"></kbd>
 
 ---
 
@@ -39,10 +39,10 @@ Klicke [hier](Text_auf_Belege_drucken-Belegart), wenn Du am Anfang und Ende des 
 ## Produkte
 
 #### Partnerspezifische Produkte verwalten
-Klicke [hier](Partnerspezifische_Produkte), wenn Du partnerspezifische Produktnamen und -nummern erfassen möchtest, die anstelle Deiner intern verwendeten Namen und Nummern auf den Belegen der jeweiligen Geschäftspartner erscheinen.
+Klicke [hier](Partnerspezifische_Produkte), wenn Du partnerspezifische Produktnamen und -nummern erfassen möchtest, die anstelle der von Dir intern verwendeten Namen und Nummern auf den Belegen der jeweiligen Geschäftspartner erscheinen.
 
 #### Allgemeine Produktbeschreibung hinzufügen
-Klicke [hier](Text_auf_Belege_drucken-Produkt), wenn Du einem Produkt eine allgemeine Beschreibung hinzufügen möchtest, die auf allen Belegen erscheint.
+Klicke [hier](Text_auf_Belege_drucken-Produkt), wenn Du einem Produkt eine allgemeine Beschreibung hinzufügen möchtest.
 
 #### Auftragszeilenspezifische Produktbeschreibung hinzufügen
 Klicke [hier](Auftragszeilenspezifische_Produktbeschreibung), wenn Du einem Produkt eine Beschreibung hinzufügen möchtest, die ausschließlich auf der jeweiligen Auftragsbestätigung erscheint.

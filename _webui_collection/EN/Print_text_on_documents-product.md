@@ -1,5 +1,5 @@
 ---
-title: How do I record a general product description that will appear on documents?
+title: How do I record a general product description?
 layout: default
 tags:
   - Master Data
@@ -11,9 +11,9 @@ ref: print_text_on_documents-product
 ---
 
 ## Overview
-The product description text will appear below the product name on all corresponding documents. For additional information on how to place manual text on documents, please see [here](Print_text_on_documents-general).
+The product description text will appear below the product name on sales order confirmations. For additional information on how to place manual text on documents, please see [here](Print_text_on_documents-general).
 
-You can also autonomously transfer the product description into the languages of your business partners, so that when you [print commercial documents](PrintPreview) for foreign business partners, the text will automatically appear on these documents in their respective languages. For additional information on how to manage data entries in multiple languages, please see [here](Multilingual_data_management).
+You can also translate the product description yourself into the languages of your business partners, so that when you [print sales order confirmations](PrintPreview) for foreign business partners, the text will automatically appear on these documents in their respective languages. For additional information on how to manage data entries in multiple languages, please see [here](Multilingual_data_management).
 
 ## Steps
 
@@ -35,4 +35,4 @@ You can also autonomously transfer the product description into the languages of
 1. [metasfresh saves the progress automatically](Saveindicator).
 
 ## Example
-![](assets/Text on documents - product.gif)
+<kbd><img src="assets/Text on documents - product.gif" alt="GIF: How to record a general product description"></kbd>
