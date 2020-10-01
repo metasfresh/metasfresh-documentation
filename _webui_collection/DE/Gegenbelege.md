@@ -1,5 +1,5 @@
 ---
-title: Gegenbelege &mdash; Übersicht
+title: Gegenbelege – Übersicht
 layout: default
 tags:
   - Gegenbelege  
