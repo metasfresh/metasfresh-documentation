@@ -11,7 +11,7 @@ ref: counter_documents
 ## Überblick
 metasfresh ermöglicht Dir nicht nur die Verwaltung mehrerer juristischer Personen in einem System mittels [Organisationen](Org_Neue_Organisation_anlegen), sondern auch die automatische Erzeugung der jeweiligen Gegenbelege, wenn diese Organisationen miteinander Geschäfte abwickeln.
 
-Gibt eine Organisation A bei einer Organisation B beispielsweise eine [Bestellung](Bestellung_erfassen) auf, so wird bei der Organisation B ([Lieferant](Neuer_Geschaeftspartner_Lieferant)) automatisch ein [Auftrag](Auftrag_erfassen) der Organisation A ([Kunde](Neuer_Geschaeftspartner_Kunde)) angelegt und vice versa.
+Gibt eine Organisation A ([Kunde](Neuer_Geschaeftspartner_Kunde)) bei einer Organisation B ([Lieferant](Neuer_Geschaeftspartner_Lieferant)) beispielsweise eine [Bestellung](Bestellung_erfassen) auf, so wird bei der Organisation B automatisch ein [Kundenauftrag](Auftrag_erfassen) der Organisation A angelegt und vice versa.
 
 <kbd><img src="assets/de_Gegenbelege.png" alt="Abb.: Gegenbelege"></kbd>
 
@@ -24,9 +24,9 @@ Damit nicht beide Organisation identische Produkte und Packmittel führen müsse
 {% include tag_linklist.html lang=page.lang pages=site.webui_collection tag="Gegenbelege" suppress_secondary_pages=""%}
 
 ## Beispielablauf
-1. Ein Benutzer der Org. A stellt einen Auftrag an Org. B fertig.
-2. Automatisch wird in Org. B eine Bestellung erzeugt mit Org. A als Lieferant sowie den jeweils zugehörigen Produkten und Packvorschriften.
-3. Die Bestellung bei der Org. B bleibt vorerst noch offen zwecks Sichtprüfung.
+1. Ein Benutzer aus der Org. A stellt eine Bestellung an Org. B fertig.
+1. Automatisch wird bei Org. B ein Auftrag erzeugt mit Org. A als Kunden sowie den jeweils zugehörigen Produkten und Packvorschriften.
+1. Der Auftrag bei der Org. B bleibt vorerst noch offen zwecks Sichtprüfung.
 
 ## Kontrolle
 1. Einmal pro Tag versendet metasfresh eine Liste der erstellten Gegenbelege.
