@@ -30,5 +30,5 @@ Damit nicht beide Organisation identische Produkte und Packmittel führen müsse
 
 ## Kontrolle
 1. Einmal pro Tag versendet metasfresh eine Liste der erstellten Gegenbelege.
-1. Sollte einmal ein Gegenbeleg nicht erstellt werden können, weil z.B. verknüpfte Stammdaten nicht angelegt wurden, erhältst Du eine entsprechende Fehlermeldung.
-1. Im Fenster "Missing Counter Documents" findest Du die Belege aufgelistet, die nicht erstellt werden konnten.
+1. Sollte einmal ein Gegenbeleg nicht erstellt werden können, weil z.B. verknüpfte Stammdaten fehlen, erhältst Du eine entsprechende Fehlermeldung.
+1. Gegenbelege, die nicht erstellt werden konnten, werden unter "[Fehlender/Unvollständiger Gegenbeleg](Menu)" aufgelistet. Um dieses Fenster zu sehen, musst Du Dich mit der [Benutzerrolle](NeueBenutzerrolle) "Admin" [bei metasfresh anmelden](Anmeldung).

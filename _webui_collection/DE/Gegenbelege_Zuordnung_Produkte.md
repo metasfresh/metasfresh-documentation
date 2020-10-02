@@ -26,7 +26,7 @@ ref: counter_documents_product_allocation
 
 | **Hinweis:** |
 | :--- |
-| Bestehende Produktzuordnungen anderer Organisationen kannst Du unter der Registerkarte "Zugeordnetes Produkt" unten auf der Seite eines Produkteintrages einsehen. |
+| Alle bestehenden Zuordnungen zu Produkten anderer Organisationen werden unter der Registerkarte "Zugeordnetes Produkt" unten auf der Seite eines Produkteintrages aufgelistet. |
 
 ## Weitere Seiten zum Thema Gegenbelege
 
