@@ -2,7 +2,6 @@
 title: Wie erfasse ich einen Abonnementvertrag?
 layout: default
 tags:
-  - Workflow
   - Vertragsverwaltung
 lang: de
 sequence: 10

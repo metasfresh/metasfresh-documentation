@@ -2,7 +2,6 @@
 title: How do I enter a sales order?
 layout: default
 tags:
-  - Workflow
   - Sales
 lang: en
 sequence: 20

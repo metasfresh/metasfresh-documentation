@@ -2,7 +2,6 @@
 title: Wie storniere ich einen Auftrag samt allen Folgebelegen?
 layout: default
 tags:
-  - Workflow
   - Verkauf
 lang: de
 sequence: 50

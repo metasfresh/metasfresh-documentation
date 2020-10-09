@@ -2,8 +2,6 @@
 title: How do I mark a contact as called?
 layout: default
 tags:
-  - Workflow
-  - Sales
   - CRM
   - Phone Call Scheduling
 lang: en

@@ -2,8 +2,6 @@
 title: How do I schedule phone calls by means of call lists in metasfresh?
 layout: default
 tags:
-  - Workflow
-  - Sales
   - CRM
   - Phone Call Scheduling
 lang: en

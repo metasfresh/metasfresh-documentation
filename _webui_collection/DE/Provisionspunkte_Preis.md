@@ -2,7 +2,6 @@
 title: Wie weise ich Provisionspunkten einen Preis zu?
 layout: default
 tags:
-  - Workflow
   - Vertragsverwaltung
   - Provisionsverträge
   - Einrichtung

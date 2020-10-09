@@ -2,7 +2,6 @@
 title: How do I change the place of unloading for incoming goods?
 layout: default
 tags:
-  - Workflow
   - Purchase
 lang: en
 sequence: 70

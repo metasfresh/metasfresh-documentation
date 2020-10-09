@@ -2,7 +2,6 @@
 title: Wie verarbeite ich Aufträge mit gewichtsabhängigen Produkten? (Verwaltung von Gewichtsware)
 layout: default
 tags:
-  - Workflow
   - Verkauf
   - Catch Weight Management
 lang: de

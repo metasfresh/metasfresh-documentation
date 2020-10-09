@@ -2,7 +2,6 @@
 title: How do I configure a shipper?
 layout: default
 tags:
-  - Workflow
   - Sales
   - Shipping
   - Transport Orders and Shippers

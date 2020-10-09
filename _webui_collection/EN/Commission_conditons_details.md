@@ -2,7 +2,6 @@
 title: How do I specify the commission conditions?
 layout: default
 tags:
-  - Workflow
   - Contract Management
   - Commission Contracts
   - Setup

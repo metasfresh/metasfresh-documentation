@@ -2,7 +2,6 @@
 title: How do I specify contractual terms?
 layout: default
 tags:
-  - Workflow
   - Contract Management
   - Setup
 lang: en

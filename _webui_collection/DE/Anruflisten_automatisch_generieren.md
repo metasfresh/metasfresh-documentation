@@ -2,8 +2,6 @@
 title: Wie erzeuge ich automatische Anruflisten?
 layout: default
 tags:
-  - Workflow
-  - Verkauf
   - CRM
   - Anruflisten und -planung
 lang: de

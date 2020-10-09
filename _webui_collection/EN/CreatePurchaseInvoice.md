@@ -2,7 +2,6 @@
 title: How do I create a purchase invoice for my order?
 layout: default
 tags:
-  - Workflow
   - Purchase
 lang: en
 sequence: 40

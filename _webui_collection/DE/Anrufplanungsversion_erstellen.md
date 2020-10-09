@@ -2,8 +2,6 @@
 title: Wie erstelle ich eine Anrufplanungsversion?
 layout: default
 tags:
-  - Workflow
-  - Verkauf
   - CRM
   - Anruflisten und -planung
   - Einrichtung

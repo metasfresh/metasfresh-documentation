@@ -2,7 +2,7 @@
 title: Wie mache ich eine Materialentnahme?
 layout: default
 tags:
-  - Workflow-Setup
+  - Materialwirtschaft
 lang: de
 ref: inventory_takeout
 ---

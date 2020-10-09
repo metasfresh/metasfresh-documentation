@@ -2,7 +2,6 @@
 title: How do I create a purchase order for selected products from a sales order?
 layout: default
 tags:
-  - Workflow
   - Purchase
 lang: en
 sequence: 60

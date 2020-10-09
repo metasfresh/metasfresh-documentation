@@ -2,8 +2,6 @@
 title: How do I add a phone call schema version?
 layout: default
 tags:
-  - Workflow
-  - Sales
   - CRM
   - Phone Call Scheduling
   - Setup

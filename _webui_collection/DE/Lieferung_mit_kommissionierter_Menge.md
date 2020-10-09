@@ -2,9 +2,7 @@
 title: Wie erstelle ich eine Lieferung mit kommissionierter Menge?
 layout: default
 tags:
-  - Workflow
   - Verkauf
-  - Verkaufsprozesse
   - Kommissionierung
 lang: de
 sequence: 20

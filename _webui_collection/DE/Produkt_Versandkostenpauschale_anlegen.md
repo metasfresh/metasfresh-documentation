@@ -2,7 +2,6 @@
 title: Wie richte ich Versandkostenpauschalen ein?
 layout: default
 tags:
-  - Workflow
   - Verkauf
   - Versand
   - Versand- und Frachtkosten

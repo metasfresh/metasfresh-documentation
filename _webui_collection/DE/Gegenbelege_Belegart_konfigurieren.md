@@ -1,5 +1,5 @@
 ---
-title: Wie konfiguriere ich die Belegarten von Gegenbelegen? (Admin)
+title: Wie konfiguriere ich die Belegarten von Gegenbelegen?
 layout: default
 tags:
   - Gegenbelege  
@@ -13,7 +13,6 @@ ref: counter_documents_configure_doc_type
 <kbd><img src="assets/de_Gegenbelege.png" alt="Abb.: Gegenbelege"></kbd>
 
 ## Schritte
-1. [Melde Dich bei metasfresh an](Anmeldung) mit der [Benutzerrolle](NeueBenutzerrolle) "Admin".
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Gegenbeleg".
 1. [Erstelle einen neuen Konfigurationseintrag](Neuer_Datensatz_Fenster_Webui).
 1. Stelle im Feld **Sektion** die gewünschte [Organisation](Org_Neue_Organisation_anlegen) ein, für die die Konfiguration gelten soll. Gib dazu einen Teil des Organisationsnamens ein und klicke auf den passenden Treffer in der <a href="Keyboard_Shortcuts_Liste#dropdown" title="Dynamisches Suchfeld (Autocomplete)">Dropdown-Liste</a>.

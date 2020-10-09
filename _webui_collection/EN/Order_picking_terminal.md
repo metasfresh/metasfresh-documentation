@@ -2,9 +2,7 @@
 title: How do I pick a sales order for shipments using handling units? (Picking Terminal)
 layout: default
 tags:
-  - Workflow
   - Sales
-  - Sales Processes
   - Order Picking
 lang: en
 sequence: 10

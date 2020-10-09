@@ -2,7 +2,6 @@
 title: Wie entferne ich eine Abo-Lieferpause?
 layout: default
 tags:
-  - Workflow
   - Vertragsverwaltung
 lang: de
 sequence: 60

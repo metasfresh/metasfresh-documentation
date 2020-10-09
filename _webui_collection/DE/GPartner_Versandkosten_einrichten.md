@@ -2,7 +2,6 @@
 title: Wie konfiguriere ich Kunden für Versandkosten?
 layout: default
 tags:
-  - Workflow
   - Verkauf
   - Versand
   - Versand- und Frachtkosten

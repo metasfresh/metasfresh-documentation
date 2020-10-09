@@ -2,7 +2,6 @@
 title: Wie erstelle ich eine Ausschreibung?
 layout: default
 tags:
-  - Workflow
   - Einkauf
   - Ausschreibungen
 lang: de

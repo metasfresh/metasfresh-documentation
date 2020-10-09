@@ -2,7 +2,6 @@
 title: Wie bestimme ich die zeitlichen Rahmenbedingungen eines Vertrages?
 layout: default
 tags:
-  - Workflow
   - Vertragsverwaltung
   - Einrichtung
 lang: de

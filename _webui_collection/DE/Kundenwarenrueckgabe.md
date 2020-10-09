@@ -2,7 +2,6 @@
 title: Wie verwalte ich Kundenwarenrückgaben?
 layout: default
 tags:
-  - Workflow
   - Verkauf
   - Reklamationen
 lang: de

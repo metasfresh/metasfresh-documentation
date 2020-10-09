@@ -2,8 +2,6 @@
 title: How do I create a sales quotation?
 layout: default
 tags:
-  - Workflow
-  - Sales
   - CRM
 lang: en
 sequence: 10

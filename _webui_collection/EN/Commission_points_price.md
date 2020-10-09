@@ -2,7 +2,6 @@
 title: How do I assign a price to commission points?
 layout: default
 tags:
-  - Workflow
   - Contract Management
   - Commission Contracts
   - Setup

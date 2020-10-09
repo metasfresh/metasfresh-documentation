@@ -2,7 +2,6 @@
 title: How do I set up automatic compensation grouping for product categories?
 layout: default
 tags:
-  - Workflow
   - Sales
   - Compensation Groups
   - Setup

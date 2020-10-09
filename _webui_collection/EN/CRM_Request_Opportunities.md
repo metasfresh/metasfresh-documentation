@@ -2,8 +2,6 @@
 title: How do I manage opportunities?
 layout: default
 tags:
-  - Workflow
-  - Sales
   - CRM
 lang: en
 sequence: 30

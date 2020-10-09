@@ -2,7 +2,6 @@
 title: Wie verknüpfe ich ein Kompensationsgruppenschema mit einer Produktkategorie?
 layout: default
 tags:
-  - Workflow
   - Verkauf
   - Kompensationsgruppen
   - Einrichtung

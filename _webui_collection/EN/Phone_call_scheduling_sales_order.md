@@ -2,8 +2,6 @@
 title: How do I create a sales order while on the phone with the customer?
 layout: default
 tags:
-  - Workflow
-  - Sales
   - CRM
   - Phone Call Scheduling
 lang: en

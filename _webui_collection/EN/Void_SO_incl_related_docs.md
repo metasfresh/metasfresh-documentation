@@ -2,7 +2,6 @@
 title: How do I void a sales order along with all related documents?
 layout: default
 tags:
-  - Workflow
   - Sales
 lang: en
 sequence: 50

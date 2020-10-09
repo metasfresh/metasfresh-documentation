@@ -2,7 +2,6 @@
 title: How do I activate automatic order checkups? (System Administrator)
 layout: default
 tags:
-  - Workflow
   - Sales
   - Order Checkups
 lang: en

@@ -2,7 +2,6 @@
 title: How do I create a manufacturing order?
 layout: default
 tags:
-  - Workflow
   - Manufacturing
 lang: en
 sequence: 10

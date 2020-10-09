@@ -2,32 +2,23 @@
 title: How do I pick a sales order for shipping? (Picking Terminal v2)
 layout: default
 tags:
-  - Workflow
   - Sales
-  - Sales Processes
   - Order Picking
 lang: en
 sequence: 30
-ref: order_picking_terminal_v2
+ref: order_picking_delivery_terminalv2
 ---
 
 ## Overview
 In metasfresh, you can pick *handling units* ([HUs](Handling_Unit_System)) for shipping and use different [shippers](Shipper_configuration), e.g., shipping services like DPD and DHL. The picked quantities are deducted from stock afterwards.<br>
 You can review your stock levels at any time in the "[Handling Unit Editor](Menu)".
 
-<kbd><img src="assets/Workflow_Sales_Order_to_Invoice (Picking Terminal v2).png" alt="Abb.: Workflow - Auftrag bis Rechnung (Kommissionier-Terminal v2)"></kbd>
-
 ## Requirements
-1. [Create a sales order intended for shipping](Sales_order_with_shipper) and [complete it](DocumentProcessingComplete).
-1. [Create a transport order in the *Drafted* status](Create_transport_order) to use for handling the picked sales order.
-1. Prior to picking, make sure that the ordered products are in stock in sufficient quantity for sale.
-1. To replenish stocks, you can either:<br>
-  **a)** [create a goods receipt](CreateGoodsReceipt).<br>
-  **b)** [add new handling units via physical inventory](Physical_inventory_create_HUs).
+- Familiarize yourself with the workflow "[Sales Order to Invoice with Delivery Order](Workflow_SalesOrder_to_Invoice_with_delivery)" and make sure you have completed all the preparatory steps.
 
 ## Steps
 1. Open "Picking Terminal (v2)" from the [menu](Menu).
-1. From the [list view](ViewModes#list-view), [select](RecordSelection) the sales order you want to pick.
+1. From the [list view](ViewModes#list-view), [select](RecordSelection) the [sales order you want to pick](Sales_order_with_shipper).
 
 ### Print pick list
 The order picker can use the pick list to check the actual stock, note down any deviating quantities and enter them in the next step ("picking"). In order to print the pick list, please proceed as follows:
@@ -50,6 +41,8 @@ The order picker can use the pick list to check the actual stock, note down any 
 1. [Select](RecordSelection) the lines of the packed products and [start the quick action](StartAction#quick-actions) "Process". An overlay window opens up.
 1. The **Shipper** is taken from the sales order and is preset here, but can still be changed manually.
 1. The **Transportation Order** is preset here according to the date of provisioning of the sales order, but can still be changed manually.
+ >**Note:** Transport orders intended for handling picked sales orders [must be created in *Drafted* status in advance](Create_transport_order).
+
 1. Click "Start" to close the overlay window and process the order picking. The product lines are made read-only.
 1. Click "Done" to close the pick list and return to the picking terminal. The line of the picked sales order is removed from the terminal.
 

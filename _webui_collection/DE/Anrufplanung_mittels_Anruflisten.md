@@ -2,8 +2,6 @@
 title: Wie plane ich Telefonate mittels Anruflisten in metasfresh?
 layout: default
 tags:
-  - Workflow
-  - Verkauf
   - CRM
   - Anruflisten und -planung
 lang: de

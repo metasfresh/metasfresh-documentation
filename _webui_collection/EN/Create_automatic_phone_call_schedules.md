@@ -2,8 +2,6 @@
 title: How do I create automatic phone call schedules?
 layout: default
 tags:
-  - Workflow
-  - Sales
   - CRM
   - Phone Call Scheduling
 lang: en

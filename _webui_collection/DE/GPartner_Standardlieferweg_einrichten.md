@@ -2,7 +2,6 @@
 title: Wie richte ich einen Standardlieferweg für Kunden ein?
 layout: default
 tags:
-  - Workflow
   - Verkauf
   - Versand
 lang: de

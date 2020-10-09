@@ -2,7 +2,6 @@
 title: How do I link a compensation group schema to a product category?
 layout: default
 tags:
-  - Workflow
   - Sales
   - Compensation Groups
   - Setup

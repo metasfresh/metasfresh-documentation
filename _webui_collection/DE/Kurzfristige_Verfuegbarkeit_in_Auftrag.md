@@ -2,7 +2,6 @@
 title: Wie finde ich die kurzfristige Verfügbarkeit von Produkten in Aufträgen heraus?
 layout: default
 tags:
-  - Workflow
   - Verkauf
 lang: de
 sequence: 60

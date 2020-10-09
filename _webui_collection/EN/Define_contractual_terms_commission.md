@@ -2,7 +2,6 @@
 title: How do I specify the contractual terms for commission contracts?
 layout: default
 tags:
-  - Workflow
   - Contract Management
   - Commission Contracts
   - Setup

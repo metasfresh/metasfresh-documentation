@@ -2,7 +2,6 @@
 title: How do I create a sales order for shipping?
 layout: default
 tags:
-  - Workflow
   - Sales
   - Shipping
 lang: en
@@ -26,4 +25,5 @@ ref: sales_order_with_shipper
 1. Follow the remaining steps for [creating a sales order](SalesOrder_recording) to complete the order.
 
 ## Next Steps
-- [Pick the sales order for shipping](Order_picking_terminal_v2).
+1. [Create a transport order to use for handling the picked sales order](Create_transport_order).
+1. [Pick the sales order for shipping](Order_picking_delivery_terminalv2).

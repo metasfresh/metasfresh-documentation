@@ -2,7 +2,6 @@
 title: Wie gebe ich Lieferkontakten Zugriff auf die "Mengenmeldung App"?
 layout: default
 tags:
-  - Workflow
   - Einkauf
   - Ausschreibungen
   - Einrichtung

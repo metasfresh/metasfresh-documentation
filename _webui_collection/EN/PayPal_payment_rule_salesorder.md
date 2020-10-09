@@ -2,7 +2,6 @@
 title: How do I use PayPal as payment rule for sales orders?
 layout: default
 tags:
-  - Workflow
   - Sales
   - PayPal Plus
 lang: en

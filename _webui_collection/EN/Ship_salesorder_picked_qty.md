@@ -2,9 +2,7 @@
 title: How do I create a shipment with picked quantities?
 layout: default
 tags:
-  - Workflow
   - Sales
-  - Sales Processes
   - Order Picking
 lang: en
 sequence: 20

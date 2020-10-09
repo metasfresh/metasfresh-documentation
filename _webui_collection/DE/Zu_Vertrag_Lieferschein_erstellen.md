@@ -2,7 +2,6 @@
 title: Wie erstelle ich einen Lieferschein für einen Vertrag?
 layout: default
 tags:
-  - Workflow
   - Vertragsverwaltung
 lang: de
 sequence: 70

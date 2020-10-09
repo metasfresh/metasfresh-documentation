@@ -2,7 +2,6 @@
 title: Wie erfasse ich einen provisionsabhängigen Auftrag?
 layout: default
 tags:
-  - Workflow
   - Verkauf
   - Vertriebspartner
 lang: de

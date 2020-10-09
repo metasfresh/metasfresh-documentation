@@ -2,7 +2,6 @@
 title: How do I generate a sales order-related purchase order?
 layout: default
 tags:
-  - Workflow
   - Purchase
 lang: en
 sequence: 50

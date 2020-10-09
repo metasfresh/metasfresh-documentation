@@ -2,7 +2,6 @@
 title: How do I enter a commission-based sales order?
 layout: default
 tags:
-  - Workflow
   - Sales
   - Sales Partners
 lang: en

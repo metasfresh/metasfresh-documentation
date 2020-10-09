@@ -2,7 +2,6 @@
 title: How do I create manual compensation groups?
 layout: default
 tags:
-  - Workflow
   - Sales
   - Compensation Groups
 lang: en

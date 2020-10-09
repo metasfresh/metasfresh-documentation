@@ -31,4 +31,4 @@ In order to enable both organizations to manage their products and packing mater
 ## Inspection
 1. Once a day metasfresh sends out a list of the created counter documents.
 1. If a counter document cannot be created, e.g., because linked master data are missing, you will receive an error message.
-1. Counter documents that could not be created are listed under "[RV_Missing_Counter_Documents](Menu)" (*Missing Counter Documents*) in the menu. To see this window you have to [log in to metasfresh](Login) with the [user role](NewUserRole) "Admin".
+1. Counter documents that could not be created are listed under "[Missing/Incomplete Counter Document](Menu)" in the menu.

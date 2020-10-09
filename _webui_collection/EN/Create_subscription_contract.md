@@ -2,7 +2,6 @@
 title: How do I create a subscription contract?
 layout: default
 tags:
-  - Workflow
   - Contract Management
 lang: en
 sequence: 10

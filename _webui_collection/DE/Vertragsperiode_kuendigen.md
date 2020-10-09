@@ -2,7 +2,6 @@
 title: Wie kündige ich eine einzelne Vertragsperiode?
 layout: default
 tags:
-  - Workflow
   - Vertragsverwaltung
 lang: de
 sequence: 40

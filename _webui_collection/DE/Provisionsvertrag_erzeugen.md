@@ -2,7 +2,6 @@
 title: Wie schließe ich einen Provisionsvertrag?
 layout: default
 tags:
-  - Workflow
   - Vertragsverwaltung
   - Provisionsverträge
 lang: de

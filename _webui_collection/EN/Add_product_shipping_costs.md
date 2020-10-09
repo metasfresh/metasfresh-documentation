@@ -2,7 +2,6 @@
 title: How do I set up flat shipping rates?
 layout: default
 tags:
-  - Workflow
   - Sales
   - Shipping
   - Shipping and Freight Costs

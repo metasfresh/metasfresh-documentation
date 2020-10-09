@@ -2,7 +2,6 @@
 title: How do I generate order checkups?
 layout: default
 tags:
-  - Workflow
   - Sales
   - Order Checkups
 lang: en

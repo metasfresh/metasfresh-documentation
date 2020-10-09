@@ -2,7 +2,6 @@
 title: Wie erstelle ich eine Eingangsrechnung für eine Bestellung?
 layout: default
 tags:
-  - Workflow
   - Einkauf
 lang: de
 sequence: 40

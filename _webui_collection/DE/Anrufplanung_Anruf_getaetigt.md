@@ -2,8 +2,6 @@
 title: Wie markiere ich Anrufe als getätigt?
 layout: default
 tags:
-  - Workflow
-  - Verkauf
   - CRM
   - Anruflisten und -planung
 lang: de

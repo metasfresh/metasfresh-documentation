@@ -2,8 +2,6 @@
 title: Wie filtere ich eine Anrufliste nach erteilten Aufträgen oder getätigten Anrufen?
 layout: default
 tags:
-  - Workflow
-  - Verkauf
   - CRM
   - Anruflisten und -planung
 lang: de

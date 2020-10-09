@@ -2,7 +2,6 @@
 title: How do I configure customers for shipping costs?
 layout: default
 tags:
-  - Workflow
   - Sales
   - Shipping
   - Shipping and Freight Costs

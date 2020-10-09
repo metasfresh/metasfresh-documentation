@@ -2,7 +2,6 @@
 title: How do I create a commission settlement?
 layout: default
 tags:
-  - Workflow
   - Sales
   - Sales Partners
 lang: en
