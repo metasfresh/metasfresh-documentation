@@ -2,7 +2,6 @@
 title: How do I set up PayPal Plus for metasfresh?
 layout: default
 tags:
-  - Workflow
   - Sales
   - PayPal Plus
   - Setup

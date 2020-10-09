@@ -2,7 +2,6 @@
 title: Wie aktiviere ich automatische Bestellkontrollen? (Systemadministrator)
 layout: default
 tags:
-  - Workflow
   - Verkauf
   - Bestellkontrollen
 lang: de

@@ -2,7 +2,6 @@
 title: Wie erzeuge ich Bestellkontrollen?
 layout: default
 tags:
-  - Workflow
   - Verkauf
   - Bestellkontrollen
 lang: de

@@ -2,7 +2,6 @@
 title: How do I add a compensation group schema?
 layout: default
 tags:
-  - Workflow
   - Sales
   - Compensation Groups
   - Setup

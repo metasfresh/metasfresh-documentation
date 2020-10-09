@@ -2,7 +2,6 @@
 title: Wie richte ich Versand- und Frachtkosten ein?
 layout: default
 tags:
-  - Workflow
   - Verkauf
   - Versand
   - Versand- und Frachtkosten

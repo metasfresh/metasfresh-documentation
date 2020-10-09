@@ -2,8 +2,6 @@
 title: Wie erstelle ich ein Angebot?
 layout: default
 tags:
-  - Workflow
-  - Verkauf
   - CRM
 lang: de
 sequence: 10

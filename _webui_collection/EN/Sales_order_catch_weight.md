@@ -2,7 +2,6 @@
 title: How do I process sales orders with weight-dependent products? (Catch Weight Management)
 layout: default
 tags:
-  - Workflow
   - Sales
   - Catch Weight Management
 lang: en

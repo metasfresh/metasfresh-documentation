@@ -2,7 +2,7 @@
 title: Wie entnehme ich eine Verkaufseinheit (CU)?
 layout: default
 tags:
-  - Workflow-Setup
+  - Materialwirtschaft
   - Transformieren
 lang: de
 ref: transform_cu

@@ -2,7 +2,6 @@
 title: Wie ändere ich den Abladeort für Wareneingänge?
 layout: default
 tags:
-  - Workflow
   - Einkauf
 lang: de
 sequence: 70

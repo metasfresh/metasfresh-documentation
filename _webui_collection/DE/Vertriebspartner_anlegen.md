@@ -2,7 +2,6 @@
 title: Wie erfasse ich einen neuen Vertriebspartner?
 layout: default
 tags:
-  - Workflow
   - Verkauf
   - Vertriebspartner
 lang: de

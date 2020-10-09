@@ -2,7 +2,6 @@
 title: How do I enter a sales order with fixed shipping costs?
 layout: default
 tags:
-  - Workflow
   - Sales
   - Shipping
   - Shipping and Freight Costs

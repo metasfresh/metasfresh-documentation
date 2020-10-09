@@ -2,7 +2,6 @@
 title: Wie ordne ich einen Vertriebspartner Kunden zu?
 layout: default
 tags:
-  - Workflow
   - Verkauf
   - Vertriebspartner
 lang: de

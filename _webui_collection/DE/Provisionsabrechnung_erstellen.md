@@ -2,7 +2,6 @@
 title: Wie erstelle ich eine Provisionsabrechnung?
 layout: default
 tags:
-  - Workflow
   - Verkauf
   - Vertriebspartner
 lang: de

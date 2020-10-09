@@ -2,7 +2,6 @@
 title: How do I find out the short-term availability of products in sales orders?
 layout: default
 tags:
-  - Workflow
   - Sales
 lang: en
 sequence: 60

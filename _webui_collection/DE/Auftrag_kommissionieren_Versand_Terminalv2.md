@@ -2,32 +2,23 @@
 title: Wie kommissioniere ich einen Auftrag für den Versand? (Kommissionier-Terminal v2)
 layout: default
 tags:
-  - Workflow
   - Verkauf
-  - Verkaufsprozesse
   - Kommissionierung
 lang: de
 sequence: 30
-ref: order_picking_terminal_v2
+ref: order_picking_delivery_terminalv2
 ---
 
 ## Überblick
 In metasfresh kannst Du *Handling Units* ([HUs](Handling_Unit_System)) für den Versand kommissionieren und auf verschiedenen [Lieferwegen](Lieferwege_konfigurieren) versenden, z.B. über Versanddienstleister wie DPD und DHL. Die kommissionierte Menge der HUs wird dann von Deinem Lagerbestand abgebucht.<br>
 Die Lagerbestände kannst Du im "[Handling Unit Editor](Menu)" jederzeit nachschauen.
 
-<kbd><img src="assets/Workflow_Auftrag_bis_Rechnung_(Kommissionier-Terminal v2).png" alt="Abb.: Workflow - Auftrag bis Rechnung (Kommissionier-Terminal v2)"></kbd>
-
 ## Voraussetzungen
-1. [Erfasse einen für den Versand bestimmten Auftrag](Auftrag_erfassen_Versand) und [stelle ihn fertig](BelegverarbeitungFertigstellen).
-1. [Erstelle einen Transportauftrag im Status *Entwurf*](Transportauftrag_erstellen), über den der kommissionierte Auftrag abgewickelt werden soll.
-1. Vergewissere Dich vor der Kommissionierung, dass die georderten Produkte in ausreichender Menge für den Verkauf auf Lager sind.
-1. Um den Bestand aufzufüllen, kannst Du entweder:<br>
-  **a)** einen [Wareneingang erstellen](Zu_Bestellung_Wareneingang_erstellen).<br>
-  **b)** per [Inventur neue Handling Units erstellen](Inventur_HUs_erstellen).
+- Mache Dich mit dem Workflow "[Auftrag bis Rechnung mit Versandauftrag](Workflow_Auftrag_bis_Rechnung_mit_Versand)" vertraut und stelle sicher, alle vorbereitenden Schritte erfüllt zu haben.
 
 ## Schritte
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Kommissionier-Terminal (v2)".
-1. [Selektiere](AuswahlBelege) in der [Listenansicht](Ansichten#listenansicht) den Auftrag, den Du kommissionieren möchtest.
+1. [Selektiere](AuswahlBelege) in der [Listenansicht](Ansichten#listenansicht) den [Auftrag, den Du kommissionieren möchtest](Auftrag_erfassen_Versand).
 
 ### Pickliste drucken
 Mithilfe der Pickliste kann der Kommissionierer den tatsächlichen Bestand überprüfen und ggf. abweichende Mengen händisch notieren und im nächsten Schritt ("Picken") erfassen. Um die Pickliste zu drucken, gehe wie folgt vor:
@@ -50,6 +41,8 @@ Mithilfe der Pickliste kann der Kommissionierer den tatsächlichen Bestand über
 1. [Selektiere](AuswahlBelege) die Zeilen der verpackten Produkte und [starte die Quick-Action](AktionStarten#quick-actions) "Process". Es öffnet sich ein Overlay-Fenster.
 1. Der **Lieferweg** wird aus dem Auftrag übernommen und ist hier voreingestellt, kann jedoch manuell geändert werden.
 1. Der **Transportauftrag** wird entsprechend dem Bereitstellungsdatum des Auftrages hier voreingestellt, kann jedoch manuell geändert werden.
+ >**Hinweis:** Transportaufträge, über die kommissionierte Aufträge abgewickelt werden sollen, müssen [im Voraus erstellt worden sein und sich im Status *Entwurf* befinden](Transportauftrag_erstellen).
+
 1. Klicke auf "Start", um das Overlay-Fenster zu schließen und die Kommissionierung zu verarbeiten. Die Produktzeilen werden schreibgeschützt.
 1. Klicke auf "Bestätigen", um die Pickliste zu schließen und zum Kommissionier-Terminal zurückzukehren. Die Zeile des kommissionierten Auftrages wird aus dem Terminal entfernt.
 

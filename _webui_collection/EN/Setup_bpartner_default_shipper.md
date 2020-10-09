@@ -2,7 +2,6 @@
 title: How do I set up a default shipper for customers?
 layout: default
 tags:
-  - Workflow
   - Sales
   - Shipping
 lang: en

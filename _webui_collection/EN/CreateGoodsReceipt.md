@@ -2,7 +2,6 @@
 title: How do I create a goods receipt for my purchase order?
 layout: default
 tags:
-  - Workflow
   - Purchase
 lang: en
 sequence: 30

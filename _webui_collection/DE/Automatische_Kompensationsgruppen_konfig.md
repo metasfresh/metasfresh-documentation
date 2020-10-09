@@ -2,7 +2,6 @@
 title: Wie richte ich die automatische Kompensationsgruppierung für Produktkategorien ein?
 layout: default
 tags:
-  - Workflow
   - Verkauf
   - Kompensationsgruppen
   - Einrichtung

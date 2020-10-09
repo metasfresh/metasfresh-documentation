@@ -2,7 +2,6 @@
 title: Wie erstelle ich eine Bestellung für ausgewählte Produkte aus einem Auftrag?
 layout: default
 tags:
-  - Workflow
   - Einkauf
 lang: de
 sequence: 60

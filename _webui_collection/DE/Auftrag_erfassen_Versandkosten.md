@@ -2,7 +2,6 @@
 title: Wie erfasse ich einen Auftrag mit festen Versandkosten?
 layout: default
 tags:
-  - Workflow
   - Verkauf
   - Versand
   - Versand- und Frachtkosten

@@ -2,7 +2,6 @@
 title: Wie erstelle ich manuelle Kompensationsgruppen?
 layout: default
 tags:
-  - Workflow
   - Verkauf
   - Kompensationsgruppen
 lang: de

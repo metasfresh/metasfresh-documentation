@@ -2,7 +2,6 @@
 title: How do I specify the time frame conditions of a contract?
 layout: default
 tags:
-  - Workflow
   - Contract Management
   - Setup
 lang: en

@@ -2,7 +2,6 @@
 title: Welche Druckformate werden für Ausschreibungen benötigt?
 layout: default
 tags:
-  - Workflow
   - Einkauf
   - Ausschreibungen
   - Einrichtung

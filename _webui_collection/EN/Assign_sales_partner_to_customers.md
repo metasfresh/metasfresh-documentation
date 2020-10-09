@@ -2,7 +2,6 @@
 title: How do I assign a sales partner to customers?
 layout: default
 tags:
-  - Workflow
   - Sales
   - Sales Partners
 lang: en

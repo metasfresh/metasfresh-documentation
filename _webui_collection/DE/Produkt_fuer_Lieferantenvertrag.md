@@ -2,7 +2,6 @@
 title: Wie gebe ich Produkte für Lieferantenverträge frei?
 layout: default
 tags:
-  - Workflow
   - Vertragsverwaltung
   - Lieferantenverträge
 lang: de

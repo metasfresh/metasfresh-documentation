@@ -2,7 +2,6 @@
 title: How do I terminate a contract?
 layout: default
 tags:
-  - Workflow
   - Contract Management
 lang: en
 sequence: 30

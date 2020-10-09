@@ -2,7 +2,6 @@
 title: Wie konfiguriere ich einen Lieferweg?
 layout: default
 tags:
-  - Workflow
   - Verkauf
   - Versand
   - Transportaufträge und Lieferwege

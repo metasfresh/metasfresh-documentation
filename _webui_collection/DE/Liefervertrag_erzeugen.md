@@ -2,7 +2,6 @@
 title: Wie schließe ich einen Liefervertrag?
 layout: default
 tags:
-  - Workflow
   - Vertragsverwaltung
   - Lieferantenverträge
 lang: de

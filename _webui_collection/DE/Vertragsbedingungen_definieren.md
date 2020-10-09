@@ -2,7 +2,6 @@
 title: Wie bestimme ich Vertragsbedingungen?
 layout: default
 tags:
-  - Workflow
   - Vertragsverwaltung
   - Einrichtung
 lang: de

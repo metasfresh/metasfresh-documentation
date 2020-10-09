@@ -2,9 +2,7 @@
 title: Wie kommissioniere ich einen Auftrag für die Lieferung unter Nutzung von Handling Units? (Kommissionier-Terminal)
 layout: default
 tags:
-  - Workflow
   - Verkauf
-  - Verkaufsprozesse
   - Kommissionierung
 lang: de
 sequence: 10

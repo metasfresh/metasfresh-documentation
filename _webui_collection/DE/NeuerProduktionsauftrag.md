@@ -2,7 +2,6 @@
 title: Wie lege ich einen Produktionsauftrag an?
 layout: default
 tags:
-  - Workflow
   - Produktion
 lang: de
 sequence: 10

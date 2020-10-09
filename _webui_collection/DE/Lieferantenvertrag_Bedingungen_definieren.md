@@ -2,7 +2,6 @@
 title: Wie bestimme ich die Vertragsbedingungen für Lieferantenverträge?
 layout: default
 tags:
-  - Workflow
   - Vertragsverwaltung
   - Lieferantenverträge
   - Einrichtung

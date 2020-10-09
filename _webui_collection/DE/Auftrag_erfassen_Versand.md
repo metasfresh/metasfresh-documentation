@@ -2,7 +2,6 @@
 title: Wie erfasse ich einen für den Versand bestimmten Auftrag?
 layout: default
 tags:
-  - Workflow
   - Verkauf
   - Versand
 lang: de
@@ -26,4 +25,5 @@ ref: sales_order_with_shipper
 1. Folge den restlichen Schritten zur [Auftragserfassung](Auftrag_erfassen), um den Auftrag fertigzustellen.
 
 ## Nächste Schritte
-- [Kommissioniere den Auftrag für den Versand](Auftrag_kommissionieren_Terminal_v2).
+1. [Erstelle ich einen Transportauftrag, über den der kommissionierte Auftrag abgewickelt werden soll](Transportauftrag_erstellen).
+1. [Kommissioniere den Auftrag für den Versand](Auftrag_kommissionieren_Versand_Terminalv2).

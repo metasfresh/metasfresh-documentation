@@ -2,7 +2,6 @@
 title: How do I add a new sales partner?
 layout: default
 tags:
-  - Workflow
   - Sales
   - Sales Partners
 lang: en

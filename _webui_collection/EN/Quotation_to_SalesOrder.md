@@ -2,8 +2,6 @@
 title: How do I convert a quotation into a sales order?
 layout: default
 tags:
-  - Workflow
-  - Sales
   - CRM
 lang: en
 sequence: 20

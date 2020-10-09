@@ -2,7 +2,6 @@
 title: How do I create a shipment for a sales order?
 layout: default
 tags:
-  - Workflow
   - Sales
 lang: en
 sequence: 30

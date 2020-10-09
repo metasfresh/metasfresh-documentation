@@ -2,7 +2,6 @@
 title: Wie erstelle ich einen Wareneingang zu einer Bestellung?
 layout: default
 tags:
-  - Workflow
   - Einkauf
 lang: de
 sequence: 30

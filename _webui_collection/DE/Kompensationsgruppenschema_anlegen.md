@@ -2,7 +2,6 @@
 title: Wie lege ich ein Kompensationsgruppenschema an?
 layout: default
 tags:
-  - Workflow
   - Verkauf
   - Kompensationsgruppen
   - Einrichtung

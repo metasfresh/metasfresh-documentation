@@ -2,7 +2,6 @@
 title: How do I create a shipment for a contract?
 layout: default
 tags:
-  - Workflow
   - Contract Management
 lang: en
 sequence: 70

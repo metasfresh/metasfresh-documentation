@@ -2,7 +2,6 @@
 title: Wie pausiere ich einen Vertrag?
 layout: default
 tags:
-  - Workflow
   - Vertragsverwaltung
 lang: de
 sequence: 50

@@ -2,8 +2,6 @@
 title: Wie lege ich ein Anrufplanungsschema an?
 layout: default
 tags:
-  - Workflow
-  - Verkauf
   - CRM
   - Anruflisten und -planung
   - Einrichtung

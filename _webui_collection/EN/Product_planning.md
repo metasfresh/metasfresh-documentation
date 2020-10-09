@@ -2,7 +2,6 @@
 title: How do I set up product planning?
 layout: default
 tags:
-  - Workflow
   - Material Schedule
 lang: en
 sequence: 10

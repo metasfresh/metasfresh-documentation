@@ -2,7 +2,7 @@
 title: Wie konfiguriere ich meine Produktplandaten?
 layout: default
 tags:
-  - Workflow
+  - Materialwirtschaft
   - Materialdisposition
 lang: de
 sequence: 10

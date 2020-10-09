@@ -2,7 +2,6 @@
 title: Wie bestimme ich die Vertragsbedingungen für Ausschreibungen?
 layout: default
 tags:
-  - Workflow
   - Einkauf
   - Ausschreibungen
   - Einrichtung

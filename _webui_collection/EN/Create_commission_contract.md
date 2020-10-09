@@ -2,7 +2,6 @@
 title: How do I conclude a commission contract?
 layout: default
 tags:
-  - Workflow
   - Contract Management
   - Commission Contracts
 lang: en

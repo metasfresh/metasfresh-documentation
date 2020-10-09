@@ -2,8 +2,6 @@
 title: Wie verwalte ich Opportunities?
 layout: default
 tags:
-  - Workflow
-  - Verkauf
   - CRM
 lang: de
 sequence: 30

@@ -2,7 +2,6 @@
 title: Wie ändere ich den Abo-Empfänger eines Vertrags?
 layout: default
 tags:
-  - Workflow
   - Vertragsverwaltung
 lang: de
 sequence: 80

@@ -1,5 +1,5 @@
 ---
-title: How do I configure the document types of counter documents? (Admin)
+title: How do I configure the document types of counter documents?
 layout: default
 tags:
   - Counter Documents
@@ -13,7 +13,6 @@ ref: counter_documents_configure_doc_type
 <kbd><img src="assets/en_counter_documents.png" alt="Fig.: Counter Documents"></kbd>
 
 ## Steps
-1. [Log in to metasfresh](Login) with the [user role](NewUserRole) "Admin".
 1. Open "Counter Document" from the [menu](Menu).
 1. [Create a new configuration entry](New_Record_Window).
 1. Set the desired [**Organization**](Org_add_new_organization) for which the configuration shall apply. To do so, enter a part of the organization's name into the field and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.

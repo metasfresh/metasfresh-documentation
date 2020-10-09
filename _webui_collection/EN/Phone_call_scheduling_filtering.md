@@ -2,8 +2,6 @@
 title: How do I filter a phone call schedule by created sales orders or called contacts?
 layout: default
 tags:
-  - Workflow
-  - Sales
   - CRM
   - Phone Call Scheduling
 lang: en

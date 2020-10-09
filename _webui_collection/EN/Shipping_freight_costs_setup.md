@@ -2,7 +2,6 @@
 title: How do I set up shipping and freight costs?
 layout: default
 tags:
-  - Workflow
   - Sales
   - Shipping
   - Shipping and Freight Costs

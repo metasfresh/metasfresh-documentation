@@ -2,7 +2,6 @@
 title: How do I change the recipient of a subscription?
 layout: default
 tags:
-  - Workflow
   - Contract Management
 lang: en
 sequence: 80

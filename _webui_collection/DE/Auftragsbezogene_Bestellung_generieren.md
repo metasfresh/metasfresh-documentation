@@ -2,7 +2,6 @@
 title: Wie erzeuge ich eine auftragsbezogene Bestellung?
 layout: default
 tags:
-  - Workflow
   - Einkauf
 lang: de
 sequence: 50

@@ -2,8 +2,6 @@
 title: Wie mache ich aus einem Angebot einen Auftrag?
 layout: default
 tags:
-  - Workflow
-  - Verkauf
   - CRM
 lang: de
 sequence: 20

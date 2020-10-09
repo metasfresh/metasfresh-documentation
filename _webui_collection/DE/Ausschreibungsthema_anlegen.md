@@ -2,7 +2,6 @@
 title: Wie lege ich ein neues Ausschreibungsthema an?
 layout: default
 tags:
-  - Workflow
   - Einkauf
   - Ausschreibungen
 lang: de

@@ -2,7 +2,6 @@
 title: How do I enter a purchase order?
 layout: default
 tags:
-  - Workflow
   - Purchase
 lang: en
 sequence: 20
