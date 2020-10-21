@@ -25,11 +25,23 @@ Du benötigst ein [laufendes metasfresh System auf Docker-Basis](Wie_installiere
 
 ```bash
 cd metasfresh-docker
-docker-compose stop
-tar cvzf ../backup.tar.gz ./<mydocker dir>/* --BACKUP
-docker-compose rm
+docker-compose down
+tar cvzf ../backup.tar.gz ./*
 git pull
 vi ./docker-compose.yml
+docker-compose build
+docker-compose up -d
+```
+
+Wenn Du die `docker-compose.yml`-Datei angepasst hast (z.B. andere Ports) und sie erst sichern möchtest, dann verwende:
+
+```bash
+cd metasfresh-docker
+docker-compose down
+tar cvzf ../backup.tar.gz ./*
+cp -a ./docker-compose.yml ../
+git pull
+mv ../docker-compose.yml ./
 docker-compose build
 docker-compose up -d
 ```
