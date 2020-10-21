@@ -25,11 +25,23 @@ You will need a [running Docker-based metasfresh system](How_do_I_setup_the_meta
 
 ```bash
 cd metasfresh-docker
-docker-compose stop
-tar cvzf ../backup.tar.gz ./<mydocker dir>/* --BACKUP
-docker-compose rm
+docker-compose down
+tar cvzf ../backup.tar.gz ./*
 git pull
 vi ./docker-compose.yml
+docker-compose build
+docker-compose up -d
+```
+
+If you've changed the `docker-compose.yml` file (e.g., different ports) and want to save it first, use:
+
+```bash
+cd metasfresh-docker
+docker-compose down
+tar cvzf ../backup.tar.gz ./*
+cp -a ./docker-compose.yml ../
+git pull
+mv ../docker-compose.yml ./
 docker-compose build
 docker-compose up -d
 ```
