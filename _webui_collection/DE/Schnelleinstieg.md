@@ -9,8 +9,9 @@ ref: quickstart
 ---
 
 ## Voraussetzungen
-- Erlange Zugang zu einem laufenden metasfresh System.
-- Installiere metasfresh auf Deinem Server mithilfe dieser [Anleitung](https://docs.metasfresh.org/pages/installation/index_de) oder erstelle ein kostenloses Konto über die [metasfresh Homepage](https://metasfresh.com/nextgen/).
+Erlange Zugang zu einem laufenden metasfresh System. Dazu gibt es zwei Wege:
+- **Automatisch:** Erstelle ein <a href="https://metasfresh.com/nextgen/" title="metasfresh Cloud ERP | metasfresh.com" target="_blank">**kostenloses Konto** über die metasfresh Website</a> und erhalte innerhalb weniger Minuten Deine persönliche Demo-Instanz.
+- **Manuell:** Installiere metasfresh auf Deinem Server mithilfe [dieser Anleitung](../../installation_collection/DE/Wie_installiere_ich_den_metasfresh_Stack_mit_Docker).
 
 ## Schritte
 1. [Melde Dich bei metasfresh an](Anmeldung).

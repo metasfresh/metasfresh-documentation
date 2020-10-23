@@ -24,7 +24,7 @@ Follow these [instructions for entering a sales order](SalesOrder_recording), ta
 After completing the sales order, an entry is created under "[Commission instance](Menu)" in the menu where you can also jump to ***directly*** via the sales order's [related documents](JumptoviaSidebar) (under SALES in the sidebar). Here you will get an overview of the commission transaction, including settlement status and the number of basis points. You can also quickly go to the **commission deed** from here via the sidebar.
 
 ### Commission deed (and settlement)
-You can jump ***directly*** to the [commission deed](Menu) via the commission instance's [related documents](JumptoviaSidebar) (under SALES in the sidebar) where you will get an overview of the calculated points. Under the record tab "Fact" at the bottom of the page you will also find all details about the settlement status of the commission. From here, you can also quickly go to the **billing candidates** via the sidebar where you can create the [incoming invoice (purchase invoice) for the commission](Create_commission_settlement).
+You can jump ***directly*** to the [commission deed](Menu) via the commission instance's [related documents](JumptoviaSidebar) (under SALES in the sidebar) where you will get an overview of the calculated points. Under the record tab "Fact" at the bottom of the page you will also find all details about the settlement status of the commission. From here, you can also quickly go to the **Purchase Invoice Candidates** via the sidebar where you can create the [incoming invoice (purchase invoice) for the sales partner entitled to the commission](Create_commission_settlement).
 
 | **Note:** |
 | :--- |

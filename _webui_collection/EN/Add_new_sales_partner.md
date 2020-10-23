@@ -25,9 +25,9 @@ Sales partners can be assigned to customers as well as to each other by hierarch
 1. [metasfresh saves the progress automatically](Saveindicator).
 
 ## Next Steps
+1. [Specify the commission amount using commission points](Commission_points_price).
 1. [Specify the conditions for granting commission](Commission_conditons_details).
 1. [Specify the contractual terms for commission contracts](Define_contractual_terms_commission).
-1. [Specify the amount of the commission using commission points](Commission_points_price).
 1. [Create a commission contract for the sales partner](Create_commission_contract).
 1. [Assign the sales partner to one or more customers](Assign_sales_partner_to_customers).
 1. [Enter a sales order including the sales partner](Salesorder_recording_sales_partner).

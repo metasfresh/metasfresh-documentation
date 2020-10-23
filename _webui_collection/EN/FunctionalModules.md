@@ -20,7 +20,7 @@ metasfresh is a full-featured ERP software that comes with the following modules
 | Manufacturing | MRP II, [Manufacturing Order](NewManufacturingOrder), Manufacturing Completion, [Bill of Material](Create_BOM) |
 | [Warehousing](Add_new_warehouse) | Shipment Planning, [Shipment](Ship_SalesOrder), Material Receipt Management, Material Receipt, Inventory |
 | Supply Chain Management (SCM) | Attributes, Traceability |
-| Billing | Billing Candidates, [Customer](Invoice_SalesOrder)/[Vendor Invoice](CreatePurchaseInvoice), Credit Memo, Aggregation, Invoice Cancellation |
+| Billing | Billing Candidates (Sales/Purchasing), [Customer](Invoice_SalesOrder)/[Vendor Invoice](CreatePurchaseInvoice), Credit Memo, Aggregation, Invoice Cancellation |
 | Logistics | [Handling Unit Management](Handling_Unit_System), Empties, Distribution Management, Tour Support |
 | Payments | [Incoming](Single_incoming_payment)/Outgoing Payment, SEPA, ESR |
 | [Dunning](Dunning_Run) | [Dunning Levels](Define_Dunning_Type), Management of Dunning Documents |

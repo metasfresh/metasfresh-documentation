@@ -13,6 +13,9 @@ ref: commission_conditons_details
 ## Overview
 In the commission conditions, you can determine the commission percentage to be deducted from the basis points (line amount in the sales order), and for which business partner group and/or product category commission is to be granted. In the case of <a href="Add_new_sales_partner#sp-hierarchy" title="Subordinate sales partners">sales partner hierarchies</a>, you can also specify whether the commission for each sales partner shall always be deducted from the full basis points number or in steps from the difference of basis points and commission points of the higher-level sales partner.
 
+## Requirements
+- [Specify the commission amount using commission points in a so-called "commission product"](Commission_points_price).
+
 ## Steps
 1. Open "Hierarchy commission settings" from the [menu](Menu).
 1. [Create a new entry](New_Record_Window).
@@ -21,6 +24,7 @@ In the commission conditions, you can determine the commission percentage to be 
  >**Note:** In the case of sales partner hierarchies, the commission points of the lower levels are determined based on the difference of the (gradually reduced) basis points number and the commission points of the higher levels.
 
 1. The field **Points precision** specifies the number of decimal places to which commission points are rounded when calculated by the system.
+1. In the field **Commission product**, enter a part of the name or number of the [product (e.g., *commission point*) used to specify the unit in which commission points are to be managed and settled](Commission_points_price) and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
 
 ### Commission percentage and further details
 1. Go to the record tab "Settings detail" at the bottom of the page and click !["Add new"](assets/Add_New_Button.png). An overlay window opens up.

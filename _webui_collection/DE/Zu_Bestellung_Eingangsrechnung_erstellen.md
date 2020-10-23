@@ -10,7 +10,7 @@ ref: createpurchaseinvoice
 
 ## Schritte
 1. Öffne den Eintrag einer [Bestellung, zu der es einen Wareneingang gibt](Zu_Bestellung_Wareneingang_erstellen).
-1. [Springe zur](SpringezuBelegen) "Rechnungsdisposition".
+1. [Springe zur](SpringezuBelegen) "Rechnungsdisposition Einkauf".
 1. [Selektiere](AuswahlBelege) die Bestellzeilen, die Du abrechnen möchtest.
 1. [Starte die Aktion](AktionStarten#aktionsmenue) "Auswahl fakturieren". Es öffnet sich ein Overlay-Fenster.
 1. Klicke auf "Start", um zu bestätigen und das Overlay-Fenster zu schließen.

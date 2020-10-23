@@ -26,7 +26,7 @@ ref: create_commission_settlement
 1. [Springe über die verknüpften Belege](SpringezuBelegen) des Provisionsvorganges in das Fenster "Provision Buchauszug" (unter VERTRIEB in der Sidebar) und öffne dort den bereits [herausgefilterten](Filterfunktion) Eintrag.
 
 ### Provision abrechnen
-1. [Springe über die verknüpften Belege](SpringezuBelegen) des Buchauszuges in das Fenster "Rechnungsdisposition" (unter FAKTURIERUNG in der Sidebar).
+1. [Springe über die verknüpften Belege](SpringezuBelegen) des Buchauszuges in das Fenster "Rechnungsdisposition Einkauf" (unter FAKTURIERUNG in der Sidebar).
 1. [Selektiere](AuswahlBelege) die Provisionszeile, die Du abrechnen möchtest.
 1. [Starte die Aktion](AktionStarten#aktionsmenue) "Auswahl fakturieren". Es öffnet sich ein Overlay-Fenster.
 1. Klicke auf "Start", um zu bestätigen und das Overlay-Fenster zu schließen.
