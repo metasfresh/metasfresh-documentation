@@ -13,6 +13,9 @@ ref: commission_conditons_details
 ## Überblick
 In den Provisionsbedingungen kannst Du die Höhe des Provisionsprozentsatzes bestimmen, der von der Basispunktzahl (Zeilensumme im Auftrag) abgeht, sowie für welche Geschäftspartnergruppe und/oder Produktkategorie eine Provision gewährt werden soll. Im Falle von <a href="Vertriebspartner_anlegen#vp-hierarchie" title="Vertriebspartner einander unterordnen">Vertriebspartnerhierarchien</a> kannst Du hier ebenfalls festlegen, ob die Provision der jeweiligen Vertriebspartner stets von der vollen Basispunktzahl abgezogen werden soll oder stufenweise jeweils von der Differenz aus Basispunktzahl und Provisionsprozentsatz des übergeordneten Vertriebspartners.
 
+## Voraussetzungen
+- [Bestimme in einem sogenannten "Provisionsprodukt" die Provisionshöhe mittels Provisionspunkten](Provisionspunkte_Preis).
+
 ## Schritte
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Einstellungen für Hierarchie-Provisionsverträge".
 1. [Erstelle einen neuen Eintrag](Neuer_Datensatz_Fenster_Webui).
@@ -21,6 +24,7 @@ In den Provisionsbedingungen kannst Du die Höhe des Provisionsprozentsatzes bes
  >**Hinweis:** Im Falle von Vertriebspartnerhierarchien werden so die Provisionspunkte der unteren Ebenen auf Basis der (stufenweise verringerten) Differenz aus Basispunktzahl und Provisionspunkten der jeweils darüberliegenden Ebenen ermittelt.
 
 1. Das Feld **Nachkommapräzision** bestimmt die Anzahl der Nachkommastellen, auf die beim Berechnen der Provisionspunkte gerundet wird.
+1. Gib in das Feld **Provisionsprodukt** einen Teil des Namens oder der Nummer des [Produktes ein (z.B. *Provisionspunkt*), in dessen Einheit Provisionspunkte geführt und abgerechnet werden](Provisionspunkte_Preis), und klicke auf den passenden Treffer in der <a href="Keyboard_Shortcuts_Liste#dropdown" title="Dynamisches Suchfeld (Autocomplete)">Dropdown-Liste</a>.
 
 ### Provisionsprozentsatz und weitere Details
 1. Gehe zur Registerkarte "Einstellungsdetail" unten auf der Seite und klicke auf !["Neu hinzufügen"](assets/Neu_hinzufuegen_Button.png). Es öffnet sich ein Overlay-Fenster.

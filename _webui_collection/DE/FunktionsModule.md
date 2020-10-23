@@ -20,7 +20,7 @@ metasfresh ist eine vollwertige ERP-Software und verfügt über folgende Module 
 | Produktion | MRP II, [Erfassung von Produktionsaufträgen](NeuerProduktionsauftrag), Produktionsfertigstellung, [Stückliste](Stueckliste_erstellen) |
 | [Lagerhaltung](Neues_Lager_anlegen) | Lieferdisposition, [Lieferung](Zu_Auftrag_Lieferschein_erstellen), Wareneingangsdisposition, Wareneingang, Inventur |
 | Supply-Chain-Management (SCM) | Attribute, Rückverfolgbarkeit |
-| Fakturierung | Rechnungsdisposition, [Kunden-](Zu_Auftrag_Rechnung_erstellen)/[Lieferantenrechnung](Zu_Bestellung_Eingangsrechnung_erstellen), Gutschrift, Aggregation, Stornierung |
+| Fakturierung | Rechnungsdisposition (Einkauf/Verkauf), [Kunden-](Zu_Auftrag_Rechnung_erstellen)/[Lieferantenrechnung](Zu_Bestellung_Eingangsrechnung_erstellen), Gutschrift, Aggregation, Stornierung |
 | Logistik | [Handling Unit Management](Handling_Unit_System), Leergut, Distributionsmanagement, Tourenplanung |
 | Zahlungsarten | [Zahlungsein-](Einzelner_Zahlungseingang)/ausgänge, SEPA, ESR |
 | [Mahnwesen](Mahnlauf) | [Mahnstufen](Mahnart_definieren), Verwaltung von Mahnungen, Mahnbescheide |

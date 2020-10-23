@@ -25,9 +25,9 @@ Vertriebspartner können sowohl Kunden zugeordnet als auch einander hierarchisch
 1. [metasfresh speichert automatisch](Speicheranzeige).
 
 ## Nächste Schritte
+1. [Bestimme die Provisionshöhe mittels Provisionspunkten](Provisionspunkte_Preis).
 1. [Bestimme die Bedingungen zur Provisionsgewährung](Provisionsbedingungen_Details).
 1. [Bestimme die Vertragsbedingungen für Provisionsverträge](Vertragsbedingungen_Provision_definieren).
-1. [Bestimme die Höhe der Provision mittels Provisionspunkten](Provisionspunkte_Preis).
 1. [Erzeuge einen Provisionsvertrag für den Vertriebspartner](Provisionsvertrag_erzeugen).
 1. [Ordne den Vertriebspartner einem oder mehreren Kunden zu](Vertriebspartner_Kunden_zuordnen).
 1. [Erfasse einen Auftrag mit dem Vertriebspartner](Auftrag_erfassen_Vertriebspartner).

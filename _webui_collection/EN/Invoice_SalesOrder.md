@@ -10,7 +10,7 @@ ref: invoice_salesorder
 
 ## Steps
 1. Open the entry of a [sales order which has been shipped](Ship_SalesOrder).
-1. [Jump to](JumptoviaSidebar) "Billing Candidates".
+1. [Jump to](JumptoviaSidebar) "Sales Invoice Candidates".
 1. [Select](RecordSelection) the order lines you want to invoice.
 1. [Start the action](StartAction#actions-menu) "Generate invoices". An overlay window opens up.
 1. Click "Start" to confirm and close the overlay window.
