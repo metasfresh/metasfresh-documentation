@@ -53,7 +53,7 @@ In this guide you see how the window feature is used to retrieve data that you t
   1. Also tick "key column" on that AD column holding your unique ID.
   1. Tick the AD columns as search columns that you want to use for filtering the data later on.
 1. Create an AD Window.
-  1. Link it to the AD Table you created.
+  1. Create AD Tab and link it to the AD Table you created.
   1. Run the process "create fields from columns".
   1. Run the process "create default UI elements".
 1. Create a menu node for your window.
