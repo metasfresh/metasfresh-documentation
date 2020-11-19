@@ -11,7 +11,7 @@ ref: org_add_new_organization
 ---
 
 ## Überblick
-Dank der [Mandantenfähigkeit](Konzept_Mandantenfaehigkeit) von metasfresh ist es möglich, eine unbegrenzte Anzahl von Organisationen auf demselben System zu bedienen, wodurch alle Daten zwar zentral verwaltet werden können, der Datenzugriff jeder Organisation jedoch nur auf die eigene Datenmenge beschränkt ist.
+metasfresh verfügt über die Möglichkeit, überbetriebliche Kooperationen zwischen beliebig vielen Unternehmen mittels Organisationen abzubilden, welche alle auf einem und demselben System bedient werden können. Die Anzahl der möglichen Organisationen ist dabei unbegrenzt. So können alle Daten zentral verwaltet werden, während der Datenzugriff jeder einzelnen Organisation stets nur auf die eigene Datenmenge beschränkt ist. Siehe auch: [Konzept der Mandantenfähigkeit (Multitenancy)](Konzept_Mandantenfaehigkeit).
 
 ## Schritte
 

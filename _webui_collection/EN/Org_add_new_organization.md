@@ -11,7 +11,7 @@ ref: org_add_new_organization
 ---
 
 ## Overview
-Thanks to metasfresh's [multitenancy architecture](Multitenancy_concept), it is possible to serve an unlimited number of organizations on a single system, thereby enabling data to be managed centrally while limiting each organization's data access to their own amount of data.
+metasfresh offers the possibility to map inter-company cooperations between any number of companies by means of organizations which can all be served on one single system. There is no limit to the number of possible organizations. Thus, all data can be managed centrally while limiting each organization's data access to only their own amount of data at all times. See also: [Multitenancy Concept](Multitenancy_concept).
 
 ## Steps
 
