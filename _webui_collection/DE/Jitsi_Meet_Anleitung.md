@@ -19,8 +19,14 @@ Um das beste Jitsi Meet-Erlebnis mit metasfresh zu erzielen, empfehlen wir, die 
 1. Um einem Meeting beizutreten, rufen Sie den Link auf, den Sie von metasfresh erhalten haben. Der Jitsi Meet-Raum wird geöffnet.
 1. Sollten Sie an dieser Stelle oben links eine Browser-Benachrichtigung darüber erhalten, dass `meet.metasfresh.com` Ihr Mikrofon und/oder Ihre Kamera verwenden möchte, dann klicken Sie auf "Zulassen".
 
-    | ![Berechtigung Kamera zulassen](assets/jitsi-meet/Berechtigung-Kamera-Cursor.png) | ![Berechtigung Mikrofon zulassen](assets/jitsi-meet/Berechtigung-Mikrofon-Cursor.png) |
-    | :---: | :---: |
+    <table>
+      <thead>
+        <tr>
+          <th style="text-align: center"><img src="assets/jitsi-meet/Berechtigung-Kamera-Cursor.png" alt="Berechtigung Kamera zulassen"></th>
+          <th style="text-align: center"><img src="assets/jitsi-meet/Berechtigung-Mikrofon-Cursor.png" alt="Berechtigung Mikrofon zulassen"></th>
+        </tr>
+      </thead>
+    </table>
 
 1. Sofern Sie ein Passwort erhalten haben, geben Sie es bei Aufforderung im Browser ein. Anschließend befinden Sie sich im Meeting-Raum.
 
@@ -33,11 +39,13 @@ Um das beste Jitsi Meet-Erlebnis mit metasfresh zu erzielen, empfehlen wir, die 
     Um diese Fehler zu beheben, müssen die Browser-Einstellungen angepasst werden. Die Vorgehensweise in einem solchen Fall wird unter dem folgenden Abschnitt näher beschrieben.
 
 ## Fehler beim Bezug von Zugriffsberechtigungen beheben
-Um Jitsi Meet optimal zu nutzen, benötigt Ihr Browser die entsprechenden Zugriffsberechtigungen für Kamera und Mikrofon. Diese können an unterschiedlichen Orten im Browser erteilt werden. Im Folgenden beschreiben wir die verschiedenen Optionen Schritt für Schritt. Sollten nach Befolgen der Schritte einer Option die Fehlermeldungen weiter bestehen, überprüfen Sie die Einstellungen bitte erneut anhand einer der anderen Optionen. Anschließend werden Sie möglicherweise aufgefordert, die Seite neu zu laden.
+Um Jitsi Meet optimal zu nutzen, benötigt Ihr Browser die entsprechenden Zugriffsberechtigungen für Kamera und Mikrofon. Diese können an unterschiedlichen Orten im Browser erteilt werden. Im Folgenden werden die verschiedenen Optionen Schritt für Schritt beschrieben. Sollten nach Befolgen der Schritte einer Option die Fehlermeldungen weiter bestehen, überprüfen Sie die Einstellungen bitte erneut anhand einer der anderen Optionen. Anschließend werden Sie möglicherweise aufgefordert, die Seite neu zu laden.
 
 <kbd><img src="assets/jitsi-meet/Seite-neu-laden.png" alt="Seite neu laden"></kbd>
 
 Oftmals kann auch ein Browser-Neustart hilfreich sein. Um ganz auf Nummer sicher zu gehen, empfehlen wir, **den Meeting-Link einfach neu aufzurufen**.
+
+---
 
 ### Option 1
 1. Klicken Sie links oben in der Adresszeile des Browsers auf das kleine Vorhängeschlosssymbol <kbd><img src="assets/jitsi-meet/Vorhaengeschloss.png" alt="Vorhängeschlosssymbol" style="max-width: 25px"></kbd>, um die Berechtigungsübersicht der Website zu öffnen.
