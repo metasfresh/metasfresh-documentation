@@ -15,12 +15,12 @@ Tax rates are included in metasfresh by default and can be flexibly configured a
 ## Steps
 1. Open "Tax Rate" from the [menu](Menu).
 1. [Add a new tax rate](New_Record_Window).
-1. Give the tax rate a **Name**, e.g., "Standard Tax Rate 16%" or "Reduced Tax Rate 5%".
+1. Give the tax rate a **Name**, e.g., "Standard Tax Rate 19%" or "Reduced Tax Rate 7%".
 1. Set a **Valid from** date.
  >**Note:** If this date lies in the *past*, the tax rate will be effective *immediately*. If it lies in the *future*, the tax rate will only apply *from that date*.
 
 1. Pick an appropriate **Tax Category**.
-1. In the field **Rate**, enter the amount of the tax rate in percent, e.g., "16" or "5".
+1. In the field **Rate**, enter the percentage of the tax rate, e.g., "19" or "7".
 1. Set the **Country** from which services are provided.
 1. In the field **To**, set the country in which the services are provided or where the tax rate should apply.
 1. Tick the checkbox **Document Level** to calculate taxes per document instead of per line.
