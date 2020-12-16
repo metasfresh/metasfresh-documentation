@@ -19,14 +19,12 @@ Um das beste Jitsi Meet-Erlebnis mit metasfresh zu erzielen, empfehlen wir, die 
 1. Um einem Meeting beizutreten, rufen Sie den Link auf, den Sie von metasfresh erhalten haben. Der Jitsi Meet-Raum wird geöffnet.
 1. Sollten Sie an dieser Stelle oben links eine Browser-Benachrichtigung darüber erhalten, dass `meet.metasfresh.com` Ihr Mikrofon und/oder Ihre Kamera verwenden möchte, dann klicken Sie auf "Zulassen".
 
-    <table>
-      <thead>
-        <tr>
-          <th style="text-align: center"><img src="assets/jitsi-meet/Berechtigung-Kamera-Cursor.png" alt="Berechtigung Kamera zulassen"></th>
-          <th style="text-align: center"><img src="assets/jitsi-meet/Berechtigung-Mikrofon-Cursor.png" alt="Berechtigung Mikrofon zulassen"></th>
-        </tr>
-      </thead>
-    </table>
+    <div style="display: inline-block; margin: 5px;">
+    <kbd><img src="assets/jitsi-meet/Berechtigung-Kamera-Cursor.png" alt="Berechtigung Kamera zulassen"></kbd>
+    </div>
+    <div style="display: inline-block; margin: 5px">
+    <kbd><img src="assets/jitsi-meet/Berechtigung-Mikrofon-Cursor.png" alt="Berechtigung Mikrofon zulassen"></kbd>
+    </div>
 
 1. Sofern Sie ein Passwort erhalten haben, geben Sie es bei Aufforderung im Browser ein. Anschließend befinden Sie sich im Meeting-Raum.
 
@@ -88,3 +86,11 @@ Oftmals kann auch ein Browser-Neustart hilfreich sein. Um ganz auf Nummer sicher
 1. Unter den jeweiligen Einträgen können Sie außerdem jegliche zugelassene Websites wieder entfernen und so eventuell erteilte Zugriffsberechtigungen rückgängig machen. Klicken Sie hierzu einfach auf das kleine Mülleimersymbol <kbd><img src="assets/jitsi-meet/Muelleimersymbol.png" alt="Mülleimersymbol" style="max-width: 25px"></kbd> rechts neben der Website-URL, die Sie entfernen möchten.
 
     <kbd><a href="assets/jitsi-meet/Chrome-Website-Einstellungen-zugelassene-Website-loeschen.png" title="Ansicht vergrößern"><img src="assets/jitsi-meet/Chrome-Website-Einstellungen-zugelassene-Website-loeschen.png" alt="Chrome Website-Einstellungen - Zugelassene Website löschen" style="max-width:450px"></a></kbd>
+
+## Firewall-Einstellungen prüfen (Administratoren)
+Damit Jitsi Meet korrekt funktioniert, muss ausgehender Verkehr (OUT) von der Firewall zugelassen werden. Stellen Sie also sicher, dass folgende Ports geöffnet sind:
+- 80 TCP HTTP/BOSH/Websocket
+- 443 TCP HTTP/BOSH/Websocket
+- 10000-20000 UDP/TCP jitsi-meet videostream RTP
+
+Weitere Informationen hierzu finden Sie im <a href="https://community.jitsi.org/t/jitsi-users-corporate-firewall-settings-to-use-jitsi-client-and-webapp-meet-jit-si/10220/5" title="Corporate firewall settings to use Jitsi client and webapp | jitsi.org" target="\_blank">Jitsi Community Forum</a>.
