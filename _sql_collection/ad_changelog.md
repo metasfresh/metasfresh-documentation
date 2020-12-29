@@ -40,6 +40,16 @@ WHERE columnname NOT ILIKE '%ID%'
 	  
 ```
 
+### Example - What products have been updated?
+
+```SQL
+select adc.columnname,adcl.created,adcl.oldvalue,adcl.newvalue from ad_changelog adcl
+left join m_product mp on mp.m_product_id = adcl.record_id
+    left join ad_column adc on adc.ad_column_id=adcl.ad_column_id
+where adcl.ad_table_id = get_table_id('m_product')
+and adcl.created >= '2020-12-01'
+```
+
 ## INSERT Examples
 
 ```SQL
