@@ -68,6 +68,11 @@ Cause: Something which is basic to the invoice candidate has changed. Most commo
 Troubleshoot: Using https://github.com/metasfresh/metasfresh-documentation/issues/223
 
 Sample:
+
+```SQL
+select p_msg,* from de_metas_invoicecandidate.c_invoice_candidate_diagnose_haschanges_error_v.
+```
+
 ```
  1000002: @LineNetAmt@: 0.00->700.00
 1000003: @LineNetAmt@: 0.00->2800.00
