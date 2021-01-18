@@ -25,18 +25,8 @@ This process copies all elements from an existing window into the window you cur
 See also <a href="https://forum.metasfresh.org/t/use-process-for-copy-window/1288" title="Use process for copy window | forum.metasfresh.org" target="\_blank">this forum post</a>.
 
 ## Steps
-
-### Create a new window
-1. Log on to the Java Swing Client as "System Administrator".
-1. On the left side under **Application Dictionary**, click on "Window Management". A lookup overlay opens up.
-1. Click ![](../../images/icons/New24.png) to create a new empty window.
-1. Right-click into the field **System-Element** to zoom into the system element window.
-
-### Create a new system element
-1. Click ![](../../images/icons/New24.png) to create a new system element.
-1. Enter a **Name** and a **Print Text**.
-1. Click ![](../../images/icons/Save24.png) to save.
-1. Go back to the new empty window you created earlier.
+1. [Create a new window](create_new_window).
+1. [Create a new system element](create_new_system_element).
 
 ### Copy all elements from existing window
 1. Enter the new **System-Element** from the previous steps.
