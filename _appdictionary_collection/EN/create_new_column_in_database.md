@@ -27,6 +27,8 @@ See original issue comment: https://github.com/metasfresh/me03/issues/6700#issue
 
 1. After the column is created, sync it with database using the `IsSyncDatabase` button.
 
+    <kbd><img src="../../images/IsSyncDatabase_button.png" alt="Sync with database button (IsSyncDatabase)"></kbd>
+
     <kbd><img src="https://user-images.githubusercontent.com/73820536/104692498-c5873d80-5710-11eb-9e87-55ab9f915760.png" alt="Sync with database button"></kbd>
 
 1. Translate the column.
