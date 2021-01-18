@@ -11,6 +11,8 @@ ref: add_new_system_language
 ## Overview
 This guide shows you how to activate existing language records, turn them into system languages and create all missing translation references.
 
+In order to activate translations in the Java Swing Client, please see [here](activate_translations_tab).
+
 ## Steps
 1. Log in to the Java back end using the role "System Administrator".
 1. Go to "Language" (`WebUI > System > Language`).
