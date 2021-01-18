@@ -36,7 +36,3 @@ See original issue comment: https://github.com/metasfresh/me03/issues/6700#issue
     <kbd><img src="https://user-images.githubusercontent.com/29163573/104921454-9e8f6c80-5999-11eb-987d-4f7685dd42e1.png" alt="Sync with database button"></kbd>
 
     <kbd><img src="https://user-images.githubusercontent.com/73820536/104692498-c5873d80-5710-11eb-9e87-55ab9f915760.png" alt="Sync with database button"></kbd>
-
-1. Translate the column.
-
-    <kbd><img src="https://user-images.githubusercontent.com/73820536/104692368-878a1980-5710-11eb-8704-2853933207a0.png" alt="Add column translation"></kbd>
