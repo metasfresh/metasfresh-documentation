@@ -11,7 +11,7 @@ ref: commission_conditons_details
 ---
 
 ## Überblick
-In den Provisionsbedingungen kannst Du die Höhe des Provisionsprozentsatzes bestimmen, der von der Basispunktzahl (Zeilensumme im Auftrag) abgeht, sowie für welche Geschäftspartnergruppe und/oder Produktkategorie eine Provision gewährt werden soll. Im Falle von <a href="Vertriebspartner_anlegen#vp-hierarchie" title="Vertriebspartner einander unterordnen">Vertriebspartnerhierarchien</a> kannst Du hier ebenfalls festlegen, ob die Provision der jeweiligen Vertriebspartner stets entweder auf Grundlage der vollen Basispunktzahl berechnet oder stufenweise jeweils aus der Differenz zwischen Basispunktzahl und prozentualem Anteil der Provisionspunkte des untergeordneten Vertriebspartners ermittelt werden soll.
+In den Provisionsbedingungen kannst Du die Höhe des Provisionsprozentsatzes bestimmen, der von der Basispunktzahl (Zeilensumme im Auftrag) abgeht, sowie für welche Geschäftspartnergruppe und/oder Produktkategorie eine Provision gewährt werden soll. Im Falle von <a href="Vertriebspartner_anlegen#vp-hierarchie" title="Vertriebspartner einander unterordnen">Vertriebspartnerhierarchien</a> kannst Du hier ebenfalls festlegen, ob die Provision der jeweiligen Vertriebspartner entweder auf Grundlage der vollen Basispunktzahl berechnet oder stufenweise aus der Differenz zwischen Basispunktzahl und prozentualem Anteil der Provisionspunkte des jeweils untergeordneten Vertriebspartners ermittelt werden soll.
 
 ## Voraussetzungen
 - [Bestimme in einem sogenannten "Provisionsprodukt" die Provisionshöhe mittels Provisionspunkten](Provisionspunkte_Preis).

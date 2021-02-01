@@ -26,7 +26,7 @@ Eine Margenvereinbarung zwischen [provisionsberechtigtem Vertriebspartner](Vertr
 1. Gib in das Feld **Zugeordneter Vertriebspartner** einen Teil des Namens oder der Nummer des [Vertriebspartners](Vertriebspartner_anlegen) ein, dessen Provision zur Berechnung des Preisnachlasses herangezogen werden soll, und klicke auf den passenden Treffer in der <a href="Keyboard_Shortcuts_Liste#dropdown" title="Dynamisches Suchfeld (Autocomplete)">Dropdown-Liste</a>.
 1. Gib in das Feld **Kunde** einen Teil des Namens oder der Nummer des [Kunden](Neuer_Geschaeftspartner_Kunde) ein, dem der Preisnachlass zugutekommen soll, und klicke auf den passenden Treffer in der <a href="Keyboard_Shortcuts_Liste#dropdown" title="Dynamisches Suchfeld (Autocomplete)">Dropdown-Liste</a>.
  >**Hinweis 1:** Bleibt das Feld leer, so gilt die Margenvereinbarung für ***alle Kunden***.<br><br>
- >**Hinweis 2:** Bei Vorhandensein sowohl allgemeiner Vereinbarungen als auch solcher mit bestimmten Kunden gilt immer diejenige mit den konkreteren Daten.
+ >**Hinweis 2:** Bei Vorhandensein sowohl allgemeiner Vereinbarungen als auch solcher mit bestimmten Kunden hat stets diejenige mit den konkreteren Daten Vorrang.
 
 1. Trage in das Feld **Marge %** den Prozentsatz ein, der von der Provision des Vertriebspartners abgezogen und anschließend als Nachlass auf den Nettopreis des Produktes gewährt werden soll.
 1. Stelle ein **Gültig ab** Datum ein.
