@@ -13,7 +13,7 @@ ref: address_composition
 ## Überblick
 Die Adresse auf Belegen wie [Auftragsbestätigung](Auftrag_erfassen), [Lieferschein](Zu_Auftrag_Lieferschein_erstellen), [Rechnung](Zu_Auftrag_Rechnung_erstellen) usw. setzt sich in metasfresh aus verschiedenen Daten zusammen.
 
-Hier siehst Du an einem Beispiel, woraus sich eine Belegadresse zusammensetzt:
+Das folgende Beispiel zeigt, woraus sich eine Belegadresse zusammensetzt:
 
 ![Abb.: Datenzuordnung der Belegadresse](assets/Zusammensetzung_Belegadresse.png)
 <br><br>
