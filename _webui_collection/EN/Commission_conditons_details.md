@@ -11,7 +11,7 @@ ref: commission_conditons_details
 ---
 
 ## Overview
-In the commission conditions, you can determine the commission percentage to be deducted from the basis points (line amount in the sales order), and for which business partner group and/or product category commission is to be granted. In the case of <a href="Add_new_sales_partner#sp-hierarchy" title="Subordinate sales partners">sales partner hierarchies</a>, you can also specify whether the commission for each sales partner shall always be deducted from the full basis points number or in steps from the difference of basis points and commission points of the higher-level sales partner.
+In the commission conditions, you can determine the commission percentage to be deducted from the basis points (line amount in the sales order), and for which business partner group and/or product category commission is to be granted. In the case of <a href="Add_new_sales_partner#sp-hierarchy" title="Subordinate sales partners">sales partner hierarchies</a>, you can also specify whether the commission for each sales partner shall either be calculated based on the full basis points number or be obtained gradually by subtracting the percentage of the respective lower-level sales partner's commission points from the basis points.
 
 ## Requirements
 - [Specify the commission amount using commission points in a so-called "commission product"](Commission_points_price).
@@ -21,7 +21,7 @@ In the commission conditions, you can determine the commission percentage to be 
 1. [Create a new entry](New_Record_Window).
 1. Give the settings entry a **Name**.
 1. Tick the checkbox **Subtract commission from base**.
- >**Note:** In the case of sales partner hierarchies, the commission points of the lower levels are determined based on the difference of the (gradually reduced) basis points number and the commission points of the higher levels.
+ >**Note:** In the case of sales partner hierarchies, the commission points of the higher levels are determined based on the difference between the (gradually reduced) basis points number and the percentage of the commission points of the respective lower levels.
 
 1. The field **Points precision** specifies the number of decimal places to which commission points are rounded when calculated by the system.
 1. In the field **Commission product**, enter a part of the name or number of the [product (e.g., *commission point*) used to specify the unit in which commission points are to be managed and settled](Commission_points_price) and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
