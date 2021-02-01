@@ -9,7 +9,7 @@ lang: en
 
 ## SELECT Examples
 
-Show quantity on stock for product and unit of measurement.
+Show quantity on stock for product and unit of measure.
 
 ```SQL
 

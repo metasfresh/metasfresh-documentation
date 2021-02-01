@@ -13,7 +13,7 @@ ref: address_composition
 ## Overview
 The address on documents such as [order confirmation](SalesOrder_recording), [delivery note](Ship_SalesOrder), [invoice](Invoice_SalesOrder), etc. in metasfresh comprises a set of different data.
 
-The following example shows you which data are used to compose a document address:
+The following example shows the data used to compose a document address:
 
 ![Fig.: Data assigned to document address](assets/Address_composition.png)
 <br><br>

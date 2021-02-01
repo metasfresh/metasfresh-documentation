@@ -19,7 +19,7 @@ ref: add_price
 1. Enter the [**Product**](NewProduct) to which the price shall apply and select it from the results in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
 1. Pick a [**Price List Version**](Add_price-list-version).
 1. Enter a **Standard Price**.
-1. Pick a **UOM** (unit of measurement) for which the price shall apply (sales UOM).
+1. Pick a **UOM** (unit of measure) for which the price shall apply (sales UOM).
  >**Note:** If sales UOM ≠ stock-keeping UOM (see [Product](NewProduct)), you have to define a [UOM conversion](Convert_UOMs).
 
 1. In the field **Tax Category**, pick a value-added tax (VAT) category, e.g., *standard*, *reduced*, *tax-free*, etc.
@@ -34,7 +34,7 @@ ref: add_price
 | List Price | Specifies the list price that will appear on the supporting documents. |
 | Standard Price | Specifies the effectively valid purchase or sales price (depending on the respective price list). |
 | Limit Price | Manual price changes made by the user, e.g., in the order line, must not fall below this amount! |
-| UOM | Specifies the unit of measurement *for which the price applies* (sales UOM) and ***must not be confused*** with the product's UOM used for inventory management (stock-keeping UOM)! |
+| UOM | Specifies the unit of measure *for which the price applies* (sales UOM) and ***must not be confused*** with the product's UOM used for inventory management (stock-keeping UOM)! |
 | Invoicable Quantity per | Specifies the weight to be used for invoicing.<br> &#8226;&nbsp;*Nominal*: Standard (average) weight obtained by [UOM conversion](Convert_UOMs) between stock-keeping UOM and sales UOM.<br> &#8226;&nbsp;*Catch Weight*: Actual (exact) weight of a product obtained by weighing the goods. ([Catch Weight Management](Sales_order_catch_weight))|
 
 ## Next Steps

@@ -13,10 +13,11 @@ ref: newproduct
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Produkte".
 1. [Lege ein neues Produkt an](Neuer_Datensatz_Fenster_Webui).
 1. Benenne das Produkt im Feld **Name**.
- >**Hinweis:** Dieser Name erscheint auf den Belegen (z.B. Auftragsbestätigungen, Bestellbestätigungen, Rechnungen usw.).
+ >**Hinweis 1:** Dieser Name erscheint auf den Belegen (z.B. Auftragsbestätigungen, Bestellbestätigungen, Rechnungen usw.).<br><br>
+ >**Hinweis 2:** Der **Suchschlüssel** wird automatisch anhand der [individuell konfigurierbaren Belegnummerierung](Belegnummern_definieren) vergeben.
 
 1. Wähle eine [**Produktkategorie**](NeueProduktkategorie) aus.
- >**Hinweis:** Die Produktkategorie kann verwendet werden, um die Rabattierung, Kontierung und den Merkmalsatz eines Artikels zu steuern.
+ >**Hinweis:** Die Produktkategorie wird zur Steuerung der Rabattierung, Kontierung und Merkmalsätze eines Artikels verwendet.
 
 1. Wähle eine **Artikelart** aus.
 1. Wähle eine **Maßeinheit** für den Artikel aus.
@@ -31,7 +32,7 @@ ref: newproduct
 
 ## Weitere Informationen
 - Das Feld **Maßeinheit** bestimmt, in welcher Einheit der Artikel im Bestand geführt wird (Bestandsmengeneinheit).
- >**Hinweis 1:** Sobald der erste Beleg existiert, in dem dieser Artikel verwendet wird, kann die Bestandsmengeneinheit nicht mehr ohne Weiteres geändert werden.<br><br>
+ >**Hinweis 1:** Sobald der erste Beleg erstellt wurde, in dem dieser Artikel verwendet wird, kann die Bestandsmengeneinheit nicht mehr ohne Weiteres geändert werden.<br><br>
  >**Hinweis 2:** Eine abweichende Verkaufsmengeneinheit kann unter der Registerkarte "Preis" losgelöst von der Bestandsmengeneinheit definiert werden. In diesem Fall muss eine [Maßeinheitenumrechnung](Masseinheiten_umrechnen) angelegt werden.
 
 - Das Feld **Artikelart** bestimmt, um welche Art von Artikel es sich handelt.
@@ -41,7 +42,7 @@ ref: newproduct
   | Artikel | Materieller Artikel, z.B. Stückgut, Verpackung usw. (Standard) |
   | Dienstleistung | Immaterieller Artikel, z.B. Serviceleistung |
   | Erfolgskonto | Steuert Kontierung |
-  | Ressource | Artikel, der zeitlich nur einmal belegt werden kann, z.B. eine Maschine |
+  | Ressource | Artikel, der zeitlich nur einmal belegt werden kann, z.B. eine Maschine, ein\*e Angestellte\*r usw. |
 
 - Das Kontrollkästchen **Lagerhaltig** zeigt an, ob der Artikel (sofern die Artikelart auf der Option "Artikel" steht) im Bestand geführt wird.
 - Das Kontrollkästchen **Eingekauft** zeigt an, ob der Artikel im Einkauf zur Verfügung steht.
