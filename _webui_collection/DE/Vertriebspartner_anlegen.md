@@ -20,7 +20,7 @@ Vertriebspartner können sowohl Kunden zugeordnet als auch einander hierarchisch
 1. Trage auf der rechten Seite den **Vertriebspartnercode** ein, sofern verfügbar.
  >**Hinweis:** Dieser Code kann bei der Auftragserfassung zur Provisionszuordnung angegeben werden.
 
-### <a name="vp-hierarchie">Vertriebspartner einander unterordnen (optional)</a>
+### <a name="vp-hierarchie">Vertriebspartnerhierarchien (optional)</a>
 1. Gib in das Feld **Zugeordneter Vertriebspartner** einen Teil des Namens oder der Nummer des ***übergeordneten*** Vertriebspartners ein und klicke auf den passenden Treffer in der <a href="Keyboard_Shortcuts_Liste#dropdown" title="Dynamisches Suchfeld (Autocomplete)">Dropdown-Liste</a>.
 1. [metasfresh speichert automatisch](Speicheranzeige).
 

@@ -11,7 +11,7 @@ ref: commission_conditons_details
 ---
 
 ## Überblick
-In den Provisionsbedingungen kannst Du die Höhe des Provisionsprozentsatzes bestimmen, der von der Basispunktzahl (Zeilensumme im Auftrag) abgeht, sowie für welche Geschäftspartnergruppe und/oder Produktkategorie eine Provision gewährt werden soll. Im Falle von <a href="Vertriebspartner_anlegen#vp-hierarchie" title="Vertriebspartner einander unterordnen">Vertriebspartnerhierarchien</a> kannst Du hier ebenfalls festlegen, ob die Provision der jeweiligen Vertriebspartner stets von der vollen Basispunktzahl abgezogen werden soll oder stufenweise jeweils von der Differenz aus Basispunktzahl und Provisionsprozentsatz des übergeordneten Vertriebspartners.
+In den Provisionsbedingungen kannst Du die Höhe des Provisionsprozentsatzes bestimmen, der von der Basispunktzahl (Zeilensumme im Auftrag) abgeht, sowie für welche Geschäftspartnergruppe und/oder Produktkategorie eine Provision gewährt werden soll. Im Falle von <a href="Vertriebspartner_anlegen#vp-hierarchie" title="Vertriebspartner einander unterordnen">Vertriebspartnerhierarchien</a> kannst Du hier ebenfalls festlegen, ob die Provision der jeweiligen Vertriebspartner stets entweder auf Grundlage der vollen Basispunktzahl berechnet oder stufenweise jeweils aus der Differenz zwischen Basispunktzahl und prozentualem Anteil der Provisionspunkte des untergeordneten Vertriebspartners ermittelt werden soll.
 
 ## Voraussetzungen
 - [Bestimme in einem sogenannten "Provisionsprodukt" die Provisionshöhe mittels Provisionspunkten](Provisionspunkte_Preis).
@@ -21,7 +21,7 @@ In den Provisionsbedingungen kannst Du die Höhe des Provisionsprozentsatzes bes
 1. [Erstelle einen neuen Eintrag](Neuer_Datensatz_Fenster_Webui).
 1. Benenne den Einstellungseintrag im Feld **Name**.
 1. Setze ein Häkchen bei **Provision von Basis abziehen**.
- >**Hinweis:** Im Falle von Vertriebspartnerhierarchien werden so die Provisionspunkte der unteren Ebenen auf Basis der (stufenweise verringerten) Differenz aus Basispunktzahl und Provisionspunkten der jeweils darüberliegenden Ebenen ermittelt.
+ >**Hinweis:** Im Falle von Vertriebspartnerhierarchien werden so die Provisionspunkte der übergeordneten Ebenen auf Basis der Differenz zwischen (stufenweise verringerter) Basispunktzahl und prozentualem Anteil der Provisionspunkte der jeweils untergeordneten Ebenen ermittelt.
 
 1. Das Feld **Nachkommapräzision** bestimmt die Anzahl der Nachkommastellen, auf die beim Berechnen der Provisionspunkte gerundet wird.
 1. Gib in das Feld **Provisionsprodukt** einen Teil des Namens oder der Nummer des [Produktes ein (z.B. *Provisionspunkt*), in dessen Einheit Provisionspunkte geführt und abgerechnet werden](Provisionspunkte_Preis), und klicke auf den passenden Treffer in der <a href="Keyboard_Shortcuts_Liste#dropdown" title="Dynamisches Suchfeld (Autocomplete)">Dropdown-Liste</a>.
