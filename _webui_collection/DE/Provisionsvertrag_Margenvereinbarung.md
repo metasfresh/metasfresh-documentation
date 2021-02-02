@@ -30,7 +30,7 @@ Eine Margenvereinbarung zwischen [provisionsberechtigtem Vertriebspartner](Vertr
 
 1. Trage in das Feld **Marge %** den Prozentsatz ein, der von der Provision des Vertriebspartners abgezogen und anschließend als Nachlass auf den Nettopreis des Produktes gewährt werden soll.
 1. Stelle ein **Gültig ab** Datum ein.
- >**Hinweis:** Liegt das Datum in der *Vergangenheit*, gilt die Vereinbarung *ab sofort*. Liegt es in der *Zukunft*, gilt sie *erst ab diesem Datum*.
+ >**Hinweis:** Liegt das Datum in der *Vergangenheit*, ist die Vereinbarung *ab sofort* gültig. Liegt es in der *Zukunft*, gilt sie *erst ab diesem Datum*.
 
 1. [metasfresh speichert automatisch](Speicheranzeige).
 

@@ -26,16 +26,16 @@ In addition, metasfresh's [*material schedule*](Material_schedule_basics) uses t
 1. Pick a [**Warehouse**](Add_new_warehouse) where the product is kept in store.
 
 #### a) For Purchasing
-1. If the product should be monitored by the material schedule and purchase orders be created automatically, tick the checkbox **Create Plan**.
+1. Tick the checkbox **Create Plan** if the product should be monitored by the material schedule and purchase orders be created automatically.
 1. Set the field **Purchased** to *Yes*.
 1. [metasfresh saves the progress automatically](Saveindicator).
 
 #### b) For Manufacturing
-1. Pick a **BOM & Formula**.
+1. Pick a [**BOM & Formula**](Create_BOM).
 1. Pick a **Workflow**.
 1. In the field **Resource**, pick a production resource.
-1. If the product and its BOM components should be monitored by the material schedule and manufacturing orders be created automatically, tick the checkbox **Create Plan**.
-1. If the manufacturing order should be completed automatically, tick the checkbox **Complete Document**.
+1. Tick the checkbox **Create Plan** if the product and its BOM components should be monitored by the material schedule and manufacturing orders be created automatically.
+1. Tick the checkbox **Complete Document** if the manufacturing order should be completed automatically.
 1. Set the field **Manufactured** to *Yes*.
 1. [metasfresh saves the progress automatically](Saveindicator).
 

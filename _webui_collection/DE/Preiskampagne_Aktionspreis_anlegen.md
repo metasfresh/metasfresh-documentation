@@ -26,7 +26,7 @@ In metasfresh kannst Du zeitlich begrenzte Sonderpreisaktionen starten, bei dene
  >**Hinweis:** Die **Währung** wird entsprechend dem ausgewählten Land automatisch aktualisiert, kann jedoch nachträglich manuell geändert werden.
 
 1. Stelle ein **Gültig ab** Datum ein.
- >**Hinweis:** Liegt das Datum in der *Vergangenheit*, gilt der Aktionspreis *ab sofort*. Liegt es in der *Zukunft*, gilt er *erst ab diesem Datum*. metasfresh orientiert sich am zugesagten Termin im Auftrag und verwendet dementsprechend den jeweils gültigen Preis.
+ >**Hinweis:** Liegt das Datum in der *Vergangenheit*, ist der Aktionspreis *ab sofort* gültig. Liegt es in der *Zukunft*, gilt er *erst ab diesem Datum*. metasfresh orientiert sich am zugesagten Termin im Auftrag und verwendet dementsprechend den jeweils gültigen Preis.
 
 1. Stelle ein **Gültig bis** Datum ein.
 1. Trage einen **Standardpreis** ein, der in dem festgelegten Zeitraum als Aktionspreis für das ausgewählte Produkt verwendet werden soll.

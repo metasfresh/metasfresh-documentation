@@ -4,7 +4,7 @@ layout: default
 tags:
   - Master Data
   - Product
-  - Units of Measurement (UOMs)
+  - Units of Measure (UOMs)
 lang: en
 sequence: 10
 ref: convert_uoms

@@ -20,7 +20,7 @@ Ein Produkt ist eine [Verbrauchereinheit (CU)](Handling_Unit_System), welche in 
 1. ***a)*** Trage eine bestimmte, immer gleichbleibende **Menge** ein, die in das Gebinde gepackt werden soll. Die **Maßeinheit** ist stets die Bestandsmengeneinheit des Produktes.<br><br>
 ***b)*** Bei unbekannter bzw. variabler Menge setze ein Häkchen bei **Unbestimmte Kapazität**.
 1. Stelle ein **Gültig ab** Datum ein.
- >**Hinweis:** Liegt das Datum in der *Vergangenheit*, gilt die Packvorschrift *ab sofort*. Liegt es in der *Zukunft*, gilt sie *erst ab diesem Datum*. metasfresh orientiert sich am zugesagten Termin in Auftrag oder Bestellung und schlägt dementsprechend die jeweils gültige Packvorschrift automatisch vor.
+ >**Hinweis:** Liegt das Datum in der *Vergangenheit*, ist die Packvorschrift *ab sofort* gültig. Liegt es in der *Zukunft*, gilt sie *erst ab diesem Datum*. metasfresh orientiert sich am zugesagten Termin in Auftrag oder Bestellung und schlägt dementsprechend die jeweils gültige Packvorschrift automatisch vor.
 
 1. ***Optional:*** Gib einen [**Geschäftspartner**](Neuer_Geschaeftspartner) an, wenn diese Packvorschrift nur für diesen einen Partner gelten soll.
 1. Klicke auf "Bestätigen", um das Overlay-Fenster zu schließen und die Zuordnung zur Liste hinzuzufügen.

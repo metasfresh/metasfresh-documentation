@@ -18,7 +18,7 @@ Ein Preisschema in metasfresh kann dazu verwendet werden, bestehende [Produktpre
 1. [Lege ein neues Preisschema an](Neuer_Datensatz_Fenster_Webui).
 1. Benenne das Preisschema im Feld **Name**, z.B. "Produktpreise kopieren".
 1. Stelle ein **Gültig ab** Datum ein.
- >**Hinweis:** Liegt das Datum in der *Vergangenheit*, gilt das Preisschema *ab sofort*. Liegt es in der *Zukunft*, gilt es *erst ab diesem Datum*.
+ >**Hinweis:** Liegt das Datum in der *Vergangenheit*, ist das Preisschema *ab sofort* gültig. Liegt es in der *Zukunft*, gilt es *erst ab diesem Datum*.
 
 1. Wähle die **Preis Art** *Preisliste* aus.
 

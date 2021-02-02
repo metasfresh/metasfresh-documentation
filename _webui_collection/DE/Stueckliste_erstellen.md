@@ -16,12 +16,14 @@ ref: create_bom
 1. [Lege eine neue Stückliste an](Neuer_Datensatz_Fenster_Webui).
 1. Gib in das Feld **Produkt** einen Teil des Namens oder der Nummer des [Produktes](NeuesProdukt) ein, für das Du eine Stückliste erstellen möchtest, und klicke auf den passenden Treffer in der <a href="Keyboard_Shortcuts_Liste#dropdown" title="Dynamisches Suchfeld (Autocomplete)">Dropdown-Liste</a>, z.B. "Gitarre".
 1. Stelle sicher, dass der **Suchschlüssel** der Stückliste und die Artikelnummer des Produktes ***miteinander identisch*** sind.
-1. Vergib im Feld **Nr.** eine Belegnummer.
+1. ***Optional:*** Vergib im Feld **Nr.** eine benutzerdefinierte Belegnummer.
+1. ***Optional:*** Stelle ein **Gültig ab** Datum ein.
+ >**Hinweis:** Liegt das Datum in der *Vergangenheit*, ist die Stückliste *ab sofort* gültig. Liegt es in der *Zukunft*, gilt sie *erst ab diesem Datum*.
 
 ### Stücklistenbestandteile hinzufügen
 1. Gehe zur Registerkarte "Stücklistenbestandteile" unten auf der Seite und klicke auf !["Neu hinzufügen"](assets/Neu_hinzufuegen_Button.png). Es öffnet sich ein Overlay-Fenster.
 1. Gib in das Feld **Produkt** einen Teil des Namens oder der Nummer des [Produktes](NeuesProdukt) ein, welches Du als Komponente zur Stückliste hinzufügen möchtest, und klicke auf den passenden Treffer in der <a href="Keyboard_Shortcuts_Liste#dropdown" title="Dynamisches Suchfeld (Autocomplete)">Dropdown-Liste</a>, z.B. "Korpus" oder "Saiten".
-1. Gib eine **Menge** an.
+1. Gib eine **Menge** an. Um die Menge in Prozent zu erfassen, setze ein Häkchen bei **Ist %** und trage den Betrag in das Feld **% Menge** ein.
 1. Klicke auf "Bestätigen", um das Overlay-Fenster zu schließen und die Komponente zur Liste hinzuzufügen.
  >**Hinweis:** Du kannst beliebig viele Komponenten zur Stückliste hinzuzufügen.
 
