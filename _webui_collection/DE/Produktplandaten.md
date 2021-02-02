@@ -26,16 +26,16 @@ Zusätzlich überprüft die [*Materialdisposition*](Materialdisposition_Grundlag
 1. Wähle ein [**Lager**](Neues_Lager_anlegen) aus, in dem das Produkt aufbewahrt wird.
 
 #### a) Für den Einkauf konfigurieren
-1. Soll das Produkt von der Materialdisposition berücksichtigt und Bestellungen automatisch erzeugt werden, setze ein Häkchen bei **Beleg erstellen**.
+1. Setze ein Häkchen bei **Beleg erstellen**, wenn das Produkt von der Materialdisposition berücksichtigt und Bestellungen automatisch erzeugt werden sollen.
 1. Setze das Feld **Wird eingekauft** auf *Ja*.
 1. [metasfresh speichert automatisch](Speicheranzeige).
 
 #### b) Für die Produktion konfigurieren
-1. Wähle eine **BOM & Formula** (*Stücklistenkonfiguration*) aus.
+1. Wähle eine **BOM & Formula** ([*Stücklistenkonfiguration*](Stueckliste_erstellen)) aus.
 1. Wähle einen **Workflow** (*Arbeitsablauf*) aus.
 1. Wähle im Feld **Ressource** eine Produktionsressource aus.
-1. Sollen das Produkt und seine Stücklistenbestandteile von der Materialdisposition berücksichtigt und Produktionsaufträge automatisch erzeugt werden, setze ein Häkchen bei **Beleg erstellen**.
-1. Soll der Produktionsauftrag automatisch fertiggestellt werden, setze ein Häkchen bei **Beleg fertigstellen**.
+1. Setze ein Häkchen bei **Beleg erstellen**, wenn das Produkt und seine Stücklistenbestandteile von der Materialdisposition berücksichtigt und Produktionsaufträge automatisch erzeugt werden sollen.
+1. Setze ein Häkchen bei **Beleg fertigstellen**, wenn der Produktionsauftrag automatisch fertiggestellt werden soll.
 1. Setze das Feld **Wird produziert** auf *Ja*.
 1. [metasfresh speichert automatisch](Speicheranzeige).
 

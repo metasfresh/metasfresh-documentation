@@ -17,7 +17,7 @@ Steuersätze sind standardmäßig in metasfresh enthalten und können nach unter
 1. [Lege einen neuen Steuersatz an](Neuer_Datensatz_Fenster_Webui).
 1. Benenne den Steuersatz im Feld **Name**, z.B. "Regulärer Steuersatz 19%" oder "Ermäßigter Steuersatz 7%".
 1. Stelle ein **Gültig ab** Datum ein.
- >**Hinweis:** Liegt das Datum in der *Vergangenheit*, gilt der Steuersatz *ab sofort*. Liegt es in der *Zukunft*, gilt er *erst ab diesem Datum*.
+ >**Hinweis:** Liegt das Datum in der *Vergangenheit*, ist der Steuersatz *ab sofort* gültig. Liegt es in der *Zukunft*, gilt er *erst ab diesem Datum*.
 
 1. Wähle eine geeignete **Steuerkategorie** aus.
 1. Gib in das Feld **Satz** die prozentuale Höhe des Steuersatzes ein, z.B. "19" oder "7".

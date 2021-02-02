@@ -20,7 +20,7 @@ In metasfresh können mehrere [Nutzer](Nutzer_anlegen) zu einer Gruppe zusammeng
 1. Gehe zur Registerkarte "Nutzergruppenzuordnung" unten auf der Seite und klicke auf !["Neu hinzufügen"](assets/Neu_hinzufuegen_Button.png). Es öffnet sich ein Overlay-Fenster.
 1. Gib in das Feld **Ansprechpartner** einen Teil des Namens des Nutzers ein, der zur Gruppe hinzugefügt werden soll, und klicke auf den passenden Treffer in der <a href="Keyboard_Shortcuts_Liste#dropdown" title="Dynamisches Suchfeld (Autocomplete)">Dropdown-Liste</a>.
 1. Stelle ein **Gültig ab** Datum ein.
- >**Hinweis:** Liegt das Datum in der *Vergangenheit*, gilt der Eintrag *ab sofort*. Liegt es in der *Zukunft*, gilt er *erst ab diesem Datum*.
+ >**Hinweis:** Liegt das Datum in der *Vergangenheit*, ist der Eintrag *ab sofort* gültig. Liegt es in der *Zukunft*, gilt er *erst ab diesem Datum*.
 
 1. Stelle ein **Gültig bis** Datum ein.
 1. Klicke auf "Bestätigen", um das Overlay-Fenster zu schließen und den Nutzer zur Liste hinzuzufügen.

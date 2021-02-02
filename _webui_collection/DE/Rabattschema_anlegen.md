@@ -17,7 +17,7 @@ ref: create_discount_schema
 1. Benenne das Rabattschema im Feld **Name**.
 1. Wähle die **Rabattart** *Breaks* aus.
 1. Stelle ein **Gültig ab** Datum ein.
- >**Hinweis:** Liegt das Datum in der *Vergangenheit*, gilt das Rabattschema *ab sofort*. Liegt es in der *Zukunft*, gilt es *erst ab diesem Datum*.
+ >**Hinweis:** Liegt das Datum in der *Vergangenheit*, ist das Rabattschema *ab sofort* gültig. Liegt es in der *Zukunft*, gilt es *erst ab diesem Datum*.
 
 1. Gehe zur Registerkarte "Rabattkonditionen" unten auf der Seite und klicke auf !["Neu hinzufügen"](assets/Neu_hinzufuegen_Button.png). Es öffnet sich ein Overlay-Fenster.
  >**Hinweis:** Alternativ kannst Du auch [Rabattzeilen aus bestehenden Rabattschemata kopieren](Rabattzeilen_kopieren).

@@ -23,5 +23,5 @@ The CleverReach<sup>&#174;</sup> user used for authentification needs to have RE
 
 ## Next Steps
 1. [Create a marketing platform](../webui_collection/EN/Create_MKTG_platform).
-1. [create a marketing campaign](../webui_collection/EN/Create_MKTG_campaign).
+1. [Create a marketing campaign](../webui_collection/EN/Create_MKTG_campaign).
 1. [Add contacts to your marketing campaign](../webui_collection/EN/Add_contacts_to_MKTG_campaign).

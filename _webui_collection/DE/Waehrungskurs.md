@@ -26,7 +26,7 @@ Du hast Dein metasfresh System mit dem [Einrichtungsassistenten](Ersteinrichtung
 
 1. Wähle die **Kursart** *Spot* aus.
 1. Stelle ein **Gültig ab** Datum ein.
- >**Hinweis:** Liegt das Datum in der *Vergangenheit*, gilt der Währungskurs *ab sofort*. Liegt es in der *Zukunft*, gilt er *erst ab diesem Datum*.
+ >**Hinweis:** Liegt das Datum in der *Vergangenheit*, ist der Währungskurs *ab sofort* gültig. Liegt es in der *Zukunft*, gilt er *erst ab diesem Datum*.
 
 1. [metasfresh speichert automatisch](Speicheranzeige).
  >**Hinweis:** Wiederhole die Schritte 2 bis 6, um weitere Kursumrechnungen anzulegen, z.B. USD nach EUR.

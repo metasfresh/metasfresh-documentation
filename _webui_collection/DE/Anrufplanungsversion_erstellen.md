@@ -24,7 +24,7 @@ In einer Anrufplanungsversion lässt sich festlegen, an welchen Tagen und in wel
 1. Wähle im Feld **Anruf Planung** ein Anrufplanungsschema aus, z.B. *Kundenzufriedenheitsbefragung*.
 1. Benenne die Anrufplanungsversion im Feld **Name**, z.B. "Kundenbefragung Sommersaison".
 1. Stelle ein **Gültig ab** Datum ein.
- >**Hinweis:** Liegt das Datum in der *Vergangenheit*, gilt die Version *ab sofort*. Liegt es in der *Zukunft*, gilt sie *erst ab diesem Datum*. Ältere Versionen werden von der jeweils neueren automatisch überschrieben.
+ >**Hinweis:** Liegt das Datum in der *Vergangenheit*, ist die Version *ab sofort* gültig. Liegt es in der *Zukunft*, gilt sie *erst ab diesem Datum*. Ältere Versionen werden von der jeweils neueren automatisch überschrieben.
 
 ### Wochentage, Wiederholungen und Zeiträume festlegen
 Du kannst folgende Parameter je nach Bedarf miteinander kombinieren:

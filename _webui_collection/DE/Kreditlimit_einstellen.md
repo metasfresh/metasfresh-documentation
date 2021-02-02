@@ -19,7 +19,7 @@ Mit dem Kreditlimit kannst Du in metasfresh festlegen, bis zu welchem Höchstbet
 1. Wähle eine **Kreditlimit Art** aus, z.B. *Management*.
 1. Gib einen **Betrag** ein, der maximal mit offenen Rechnungen des Geschäftspartners erreicht werden darf, bis er für weitere Aufträge gesperrt wird.
 1. Stelle ein **Datum von** ein.
- >**Hinweis:** Liegt das Datum in der *Vergangenheit*, gilt das Kreditlimit *ab sofort*. Liegt es in der *Zukunft*, gilt es *erst ab diesem Datum*.
+ >**Hinweis:** Liegt das Datum in der *Vergangenheit*, ist das Kreditlimit *ab sofort* gültig. Liegt es in der *Zukunft*, gilt es *erst ab diesem Datum*.
 
 1. Klicke auf "Bestätigen", um das Overlay-Fenster zu schließen und das Kreditlimit zur Liste hinzuzufügen.
  >**Hinweis:** Das Kreditlimit wird erst nach [Freigabe durch einen autorisierten Nutzer](Kreditlimit_Freigabe) wirksam.
