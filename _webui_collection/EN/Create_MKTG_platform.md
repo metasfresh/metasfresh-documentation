@@ -34,6 +34,8 @@ If you choose **Requires Mail Address**, the subsequent campaign will be an *ema
 
 1. Go to the record tab "CleverReach" at the bottom of the page and click !["Add new"](assets/Add_New_Button.png). An overlay window opens up.
 1. Enter the **Customer No** provided to you by CleverReach<sup>&#174;</sup>.
+ >**Note:** [The CleverReach<sup>&#174;</sup> user used for authentification needs to have REST-API access](../../setup/CleverReach_Setup).
+
 1. Enter the **Registered Email** that you use to log in to your CleverReach<sup>&#174;</sup> account.
 1. Enter the **Password** that you use to log in to your CleverReach<sup>&#174;</sup> account.
 1. Click "Done" to close the overlay window and add the access data to the list.
