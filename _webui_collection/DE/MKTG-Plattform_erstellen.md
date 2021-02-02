@@ -34,6 +34,8 @@ Wählst Du **Requires Mail Address** aus, dann handelt es sich anschließend bei
 
 1. Gehe zur Registerkarte "CleverReach" unten auf der Seite und klicke auf !["Neu hinzufügen"](assets/Neu_hinzufuegen_Button.png). Es öffnet sich ein Overlay-Fenster.
 1. Trage Deine **Kundennummer** ein, die Dir von CleverReach<sup>&#174;</sup> bereitgestellt wurde.
+ >**Hinweis:** [Der CleverReach<sup>&#174;</sup>-Nutzer, der zur Authentifizierung verwendet wird, muss über Zugriff auf die REST-API verfügen](../../setup/CleverReach_Setup).
+
 1. Trage Deine **Nutzer-ID/Login** ein, die Du zur Anmeldung bei Deinem CleverReach<sup>&#174;</sup>-Konto verwendest.
 1. Trage das **Kennwort** ein, welches Du zur Anmeldung bei Deinem CleverReach<sup>&#174;</sup>-Konto verwendest.
 1. Klicke auf "Bestätigen", um das Overlay-Fenster zu schließen und die Zugangsdaten zur Liste hinzuzufügen.
