@@ -17,11 +17,13 @@ lang: en
 | WebAPI | Java 8 | Spring Boot | REST, JSON, Swagger, Spring, hazelcast, websocket |
 | App | Java 8, SQL | Spring Boot | Jasper Reports, Application Dictionary |
 | DB | SQL, PgSQL | Postgres (9.5+) | Application Dictionary |
-| Reporting | JRXML | Jasperserver | Jasper Reports 6.5.1 <a href="https://community.jaspersoft.com/project/jaspersoft-studio/releases#project_releases-old-1" title="Jaspersoft® Studio" target="\_blank">Client</a> |
+| Reporting | JRXML | Spring Boot | <a href="https://community.jaspersoft.com/project/jasperreports-library/releases" title="Open Source Java Reporting Library" target="\_blank">JasperReports® Library 6.5.1</a> |
 | elastic Search |  |  | Standard Elastic Search |
 | RabbitMQ |  |  |Standard RabbitMQ |
 | Java Client | Java 8 | Java JRE 8+ | Swing |
 |  |  |  |  |
-| ***Optional:*** |
+| ***Optional:*** <abbr title="Can be run as a separate service.">*</abbr> |
 | Material Schedule | Java 8 | Spring Boot | Real-time calculation of material |
 | Jasper Reports | Java 8 | Spring Boot | Render Jasper reports |
+
+<em>* <small>Can be run as a separate service.</small></em>
