@@ -1,5 +1,5 @@
 ---
-title: Set Up CleverReach® Newsletter Export
+title: Set Up CleverReach Newsletter Export
 layout: default
 tags:
   - System
@@ -20,3 +20,8 @@ The CleverReach<sup>&#174;</sup> user used for authentification needs to have RE
 1. Click on the username or "Edit" to open the entry of the user you want to grant REST-API access.
 1. Tick the checkbox **REST-API access** at the bottom of the overlay window.
 1. Click "Save" to apply the changes and close the overlay window.
+
+## Next Steps
+1. [Create a marketing platform](../webui_collection/EN/Create_MKTG_platform).
+1. [create a marketing campaign](../webui_collection/EN/Create_MKTG_campaign).
+1. [Add contacts to your marketing campaign](../webui_collection/EN/Add_contacts_to_MKTG_campaign).
