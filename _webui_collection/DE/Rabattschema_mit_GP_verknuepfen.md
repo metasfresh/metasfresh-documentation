@@ -5,13 +5,14 @@ tags:
   - Preisgestaltung
   - Preiskonditionen
   - Rabatte
+  - Konfiguration (Rabattschema)
 lang: de
-sequence: 50
+sequence: 30
 ref: link_discount_schema_to_bp
 ---
 
-## Übersicht
-Damit ein [Rabattschema](Rabattschema_anlegen) automatisch angewendet wird, muss es erst mit einem Geschäftspartner verknüpft werden, für den das Rabattschema gelten soll.
+## Überblick
+Damit ein [Rabattschema](Rabattschema_anlegen) automatisch angewandt wird, muss es erst mit einem Geschäftspartner verknüpft werden, für den das Rabattschema gelten soll.
 
 ## Schritte
 1. Öffne den Eintrag eines bestehenden [Geschäftspartners](Menu) bzw. [lege einen neuen an](Neuer_Geschaeftspartner).

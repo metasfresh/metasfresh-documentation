@@ -2,8 +2,8 @@
 title: Translation Tables (_trl)
 layout: default
 tag: 
-  - datamodel
-  - application dictionary
+  - Data Model
+  - Application Dictionary
 lang: en
 ---
 

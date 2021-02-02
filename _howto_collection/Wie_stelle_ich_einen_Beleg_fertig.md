@@ -7,6 +7,6 @@ tags:
 lang: de
 ---
 
-1. Klicke im Fenster unten rechts auf den Button "Verarbeitung" ![img](../images/de_verarbeitung_beleg.png)
-1. wähle "Verarbeitung(Fertigstellen)" aus
-1. [OK klicken] (Wie bestaetige ich einen Aktion)
+1. Klicke im Fenster unten rechts auf den Button "Verarbeitung".<br>![img](../images/de_verarbeitung_beleg.png)
+1. Wähle "Verarbeitung (Fertigstellen)" aus.
+1. [OK klicken](Wie_bestaetige_ich_eine_Aktion).

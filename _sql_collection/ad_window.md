@@ -2,8 +2,8 @@
 title: AD_Window 
 layout: default
 tag: 
-  - datamodel
-  - application dictionary
+  - Data Model
+  - Application Dictionary
 lang: en
 ---
 
@@ -64,4 +64,50 @@ FROM ad_window w
   JOIN ad_column c on f.ad_column_id = c.ad_column_id
 WHERE f.name = 'Produktionsauftrag'
 ORDER BY w.name
+```
+
+## Find Table and Column by Field Name and Window ID
+
+```SQL
+
+SELECT
+  w.name as window_name,
+  f.name as field_name,  
+  tab.tablename,
+  c.columnname,
+  columnsql
+
+FROM ad_window w
+  JOIN ad_tab t ON t.ad_window_id = w.ad_window_id
+  JOIN ad_field f ON f.ad_tab_id = t.ad_tab_id  
+  JOIN ad_table tab on tab.ad_table_id = t.ad_table_id
+  JOIN ad_column c on f.ad_column_id = c.ad_column_id
+WHERE true 
+and f.name='Anrede (ID)'
+and w.ad_window_id=<Window ID>
+ORDER BY w.name
+```
+
+## Find Window ID and Name by Table Name 
+
+```SQL
+-- Table Name => Find Window Name and ID  
+SELECT DISTINCT
+  w.name as window_name,
+  w.ad_window_id,
+  t.name as tab_name
+
+FROM ad_window w
+  JOIN ad_tab t ON t.ad_window_id = w.ad_window_id
+    join ad_table adt on t.ad_table_id = adt.ad_table_id
+  JOIN ad_field f ON f.ad_tab_id = t.ad_tab_id
+  JOIN ad_ui_section uis ON uis.ad_tab_id = t.ad_tab_id
+  JOIN ad_ui_column uic ON uic.ad_ui_section_id = uis.ad_ui_section_id
+  JOIN ad_ui_elementgroup uig ON uig.ad_ui_column_id = uic.ad_ui_column_id
+  JOIN ad_ui_element uie ON uie.ad_ui_elementgroup_id = uig.ad_ui_elementgroup_id
+
+WHERE adt.tablename ilike '%c_vat_code%'
+ORDER BY w.name
+
+
 ```

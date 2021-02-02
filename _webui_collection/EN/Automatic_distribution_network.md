@@ -3,9 +3,10 @@ title: How do I set up an automatic distribution network for empty containers?
 layout: default
 tags:
   - Master Data
-  - Warehouse
+  - Warehouse Management
+  - Inventory Movement
 lang: en
-sequence: 30
+sequence: 10
 ref: automatic_distribution_network
 ---
 
@@ -22,14 +23,14 @@ For the setup of the automatic distribution network for empty containers, the fo
 ## Steps
 1. Open "Distribution Configuration" from the [menu](Menu).
 1. [Add a new distribution configuration entry](New_Record_Window).
-1. Give the distribution configuration entry a **Name**, e.g. "Auto Distribution Network".
+1. Give the distribution configuration entry a **Name**, e.g., "Auto Distribution Network".
 1. Enter a **No.**
-1. Check the box **IsHUDestroyed**.
-1. Go to the record tab "Network Line" at the bottom of the page and click ![](assets/Add_New_Button.png). A new window opens up.
-1. Select a **Source Warehouse**, e.g. *Main Warehouse*.
-1. In the field **Warehouse** select a target warehouse, e.g. *Empty Container Depot*.
-1. Select a **Shipper**, e.g. *In-house Transport*.
-1. Click "Done" to close the window and add the network line to the list.
+1. Tick the checkbox **IsHUDestroyed**.
+1. Go to the record tab "Network Line" at the bottom of the page and click !["Add new"](assets/Add_New_Button.png). An overlay window opens up.
+1. Select a **Source Warehouse**, e.g., *Main Warehouse*.
+1. In the field **Warehouse**, select a target warehouse, e.g., *Empty Container Depot*.
+1. Select a **Shipper**, e.g., *Own Transport*.
+1. Click "Done" to close the overlay window and add the network line to the list.
 
 ## Example
-![](assets/Automatic_distribution_network.gif)
+<kbd><img src="assets/Automatic_distribution_network.gif" alt="GIF: How to set up an automatic distribution network for empty containers"></kbd>

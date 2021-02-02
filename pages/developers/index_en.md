@@ -23,6 +23,6 @@ Please make sure you are using **Java 8** while building the code.
 
 ## Code/Architecture overview
 
-The goal of these articles is to help everyone who would like gain a better unterstanding of the metasfresh codebase. 
+The goal of these articles is to help everyone who would like to gain a better unterstanding of the metasfresh codebase to do so. 
 
 {% include tag_linklist.html pages=site.developers_collection tag="developers_overview" %}

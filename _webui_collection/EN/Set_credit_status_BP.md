@@ -16,7 +16,7 @@ This describes how you can manage the [credit status](Credit_status_types) of a 
 ## Steps
 1. Open the entry of an existing [business partner](Menu) or [add a new one](New_Business_Partner).
 1. Go to the record tab "Statistics" at the bottom of the page.
-1. Double-click the field **Credit Status** of the statistics line and select a status from the drop-down list, e.g. *Credit OK*.
+1. Double-click the field **Credit Status** of the statistics line and pick a status from the drop-down list, e.g., *Credit OK*.
 1. [metasfresh saves the progress automatically](Saveindicator).
 
 ## Next Steps

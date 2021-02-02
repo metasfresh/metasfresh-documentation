@@ -2,6 +2,7 @@
 title: Wie starte ich eine Aktion? (Aktionstypen)
 layout: default
 tags:
+  - Anfängertipps für metasfresh
   - Benutzung
   - Aktionen
 lang: de
@@ -9,11 +10,11 @@ sequence: 10
 ref: startaction
 ---
 
-## Übersicht
+## Überblick
 Aktionen sind kontextabhängig und können von jedem Fenster aus gestartet werden. In jedem Fenster stehen folglich andere Aktionen zur Verfügung.<br>
 In metasfresh gibt es drei verschiedene Aktionstypen:
 
-## Allgemeine Aktionen (Aktionsmenü)
+## <a name="aktionsmenue">Allgemeine Aktionen (Aktionsmenü)</a>
 Diese Aktionen findest Du im Aktionsmenü.
 
 ### Schritte
@@ -21,11 +22,11 @@ Diese Aktionen findest Du im Aktionsmenü.
 1. Klicke auf die gewünschte Aktion.
 
 ### Beispiel
-![](assets/AktionStarten.gif)
+<kbd><img src="assets/AktionStarten.gif" alt="GIF: Aktionsmenü"></kbd>
 
 ---
 
-## Belegverarbeitungsaktionen
+## <a name="belegverarbeitung">Belegverarbeitungsaktionen</a>
 Diese Aktionen findest Du in Belegen wie [Aufträgen](Auftrag_erfassen), [Bestellungen](Bestellung_erfassen) oder [Produktionsauftägen](NeuerProduktionsauftrag). Mit ihnen kannst Du den Belegstatus einstellen.<br>
 ![](assets/Menue_Belegverarbeitungsaktionen.png)
 
@@ -35,8 +36,8 @@ Diese Aktionen findest Du in Belegen wie [Aufträgen](Auftrag_erfassen), [Bestel
 
 ---
 
-## Quick-Actions
-Quick-Actions findest Du bei Prozessen wie [Kommissionierungen](Lieferung_kommissionieren), [Produktherstellungen](ProduktionFertigstellung), [Wareneingängen](Zu_Bestellung_Wareneingang_erstellen) usw. Du erkennst sie anhand des großen ![](assets/Quick-Actions-Button.png) oben rechts im Fenster.
+## <a name="quick-actions">Quick-Actions</a>
+Quick-Actions findest Du bei Prozessen wie [Kommissionierungen](Auftrag_kommissionieren), [Produktherstellungen](ProduktionFertigstellung), [Wareneingängen](Zu_Bestellung_Wareneingang_erstellen) usw. Du erkennst sie anhand des großen ![](assets/Quick-Actions-Button.png) oben rechts im Fenster.
 
 ### Schritte
 - Klicke auf den Quick-Actions-Button oder drücke `Alt` + `U` / `⌥ alt` + `U`, um die angezeigte Quick-Action auszuführen.

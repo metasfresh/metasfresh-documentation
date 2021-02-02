@@ -2,7 +2,6 @@
 title: Wie erstelle ich eine Eingangsrechnung für eine Bestellung?
 layout: default
 tags:
-  - Workflow
   - Einkauf
 lang: de
 sequence: 40
@@ -10,14 +9,14 @@ ref: createpurchaseinvoice
 ---
 
 ## Schritte
-1. Öffne eine [Bestellung, zu der es einenWareneingang gibt](Zu_Bestellung_Wareneingang_erstellen).
-1. [Springe zur](SpringezuBelegen) Rechnungsdisposition.
-1. [Selektiere die Bestellzeilen](AuswahlBelege), die Du abrechnen möchtest.
-1. [Starte die Aktion](AktionStarten) "Auswahl fakturieren".
-1. Klicke auf "Start", um zu bestätigen und das Fenster zu schließen.
-1. Du erhältst oben rechts eine Benachrichtigung ![](assets/NotificationBell_WebUI.png), sobald die Rechnung erstellt ist.
+1. Öffne den Eintrag einer [Bestellung, zu der es einen Wareneingang gibt](Zu_Bestellung_Wareneingang_erstellen).
+1. [Springe zur](SpringezuBelegen) "Rechnungsdisposition Einkauf".
+1. [Selektiere](AuswahlBelege) die Bestellzeilen, die Du abrechnen möchtest.
+1. [Starte die Aktion](AktionStarten#aktionsmenue) "Auswahl fakturieren". Es öffnet sich ein Overlay-Fenster.
+1. Klicke auf "Start", um zu bestätigen und das Overlay-Fenster zu schließen.
+1. Du erhältst oben rechts eine [Benachrichtigung](Benachrichtigungsarten) ![](assets/NotificationBell_WebUI.png), sobald die Rechnung erstellt wurde.
 1. Klicke auf die Benachrichtigung, um den Rechnungsbeleg zu öffnen.
-1. [Öffne die PDF-Version](PDFVorschau) des Belegs, um ihn auszudrucken.
+1. [Öffne die PDF-Vorschau](PDFVorschau) des Belegs.
 
 ## Beispiel
-![](assets/Zu_Bestellung_Eingangsrechnung_erstellen.gif)
+<kbd><img src="assets/Zu_Bestellung_Eingangsrechnung_erstellen.gif" alt="GIF: Eingangsrechnung zu Bestellung erstellen"></kbd>

@@ -2,7 +2,7 @@
 title: I_BPartner
 layout: default
 tag: 
-   - datamigration
+   - Data Migration
 lang: en
 ---
 
@@ -12,7 +12,7 @@ lang: en
 ```
 
 INSERT INTO i_bpartner (i_bpartner_id, ad_client_id, ad_org_id, created, updated, createdby, updatedby, value, name,companyname, name2, bpcontactgreeting, firstname, lastname, address4, address2, address3, countrycode, postal, city
-,isbillto,isshipto,isbilltodefault,isshiptodefault,isdefaultcontact,isbilltocontact_default,isshiptocontact_default,iscompany)
+,isbillto,isshipto,isbilltodefault,isshiptodefault,isdefaultcontact,isbilltocontact_default,isshiptocontact_default)
 
   SELECT
   nextval('i_bpartner_seq'), 
@@ -35,10 +35,12 @@ INSERT INTO i_bpartner (i_bpartner_id, ad_client_id, ad_org_id, created, updated
   neu_land        as countrycode,
   trim(plz)::VARCHAR(10)             as postal,
   trim(ort)::VARCHAR(10)             as city,
-    'Y','Y','Y','Y','Y','Y','Y','Y'
+    'Y','Y','Y','Y','Y','Y','Y'
 
 FROM migration_data.<yourtable>
 WHERE true
 
 
 ```
+
+>**Note:** iscompany was dropped from import table because its set automatically if companyname is not null

@@ -1,5 +1,5 @@
 ---
-title: Wie aktualisiere ich die Java Version auf meinem Client ?
+title: Wie aktualisiere ich die Java-Version auf meinem Client?
 layout: default
 tags:
   - Systemadministration
@@ -7,13 +7,10 @@ lang: de
 ---
 
 ## Windows
-
-[https://www.java.com/de/](https://www.java.com/de/)
+<a href="https://www.java.com/de/" title="Java for Windows | java.com" target="\_blank">Java-Update für Windows</a>
 
 ## Macintosh OS X
-
-[https://www.java.com/de/download/help/mac_java_update.xml](https://www.java.com/de/download/help/mac_java_update.xml)
+<a href="https://www.java.com/de/download/help/mac_java_update.xml" title="Java for Mac OS X | java.com" target="\_blank">Java-Update für Mac OS X</a>
 
 ## Linux
-
-[https://www.java.com/de/download/help/linux_install.xml](https://www.java.com/de/download/help/linux_install.xml)
+<a href="https://www.java.com/de/download/help/linux_install.xml" title="Java for Linux | java.com" target="\_blank">Java-Update für Linux</a>

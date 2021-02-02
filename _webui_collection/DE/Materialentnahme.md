@@ -2,7 +2,7 @@
 title: Wie mache ich eine Materialentnahme?
 layout: default
 tags:
-  - Workflow-Setup
+  - Materialwirtschaft
 lang: de
 ref: inventory_takeout
 ---
@@ -14,7 +14,7 @@ ref: inventory_takeout
 ## Schritte
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Handling Unit Editor".
 1. [Selektiere](AuswahlBelege) eine Handling Unit.
-1. [Starte die Aktion](AktionStarten) "Materialentnahme".
+1. [Starte die Aktion](AktionStarten#aktionsmenue) "Materialentnahme".
 
 ## Erläuterung
 Nun wird die Handling Unit ohne ihre Verpackung (LU und TU) in das Lager verschoben.

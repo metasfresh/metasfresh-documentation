@@ -5,8 +5,9 @@ tags:
   - Preisgestaltung
   - Preiskonditionen
   - Rabatte
+  - Konfiguration (Rabattschema)
 lang: de
-sequence: 30
+sequence: 10
 ref: automatic_volume_discount
 ---
 

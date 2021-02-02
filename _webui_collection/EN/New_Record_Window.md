@@ -16,4 +16,4 @@ Press `Alt` + `N` / `⌥ alt` + `N`.
 Click ![](assets/actionsmenu_WebUI.png) and then "New".
 
 ## Example
-![](assets/neuerdatensatzfenster.gif)
+<kbd><img src="assets/New_data_entry_window_WebUI.gif" alt="GIF: Add a new data entry in a window"></kbd>

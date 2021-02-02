@@ -16,8 +16,8 @@ Sometimes when you run into a dead end with your test environment you may want t
 ## Reset Database
 
 ```
-docker-compose stop
-docker rm <name of your db container>
-rm -r volumes/db
+docker-compose down
+rm -rf ./volumes/db 
+docker-compose build
 docker-compose up -d
 ```

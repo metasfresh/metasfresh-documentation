@@ -3,16 +3,16 @@ layout: default
 title: Get your local DB up and running
 tags: developers_getting_started
 sequence: 40
-summary: how to import the latest metasfresh DB seed into your PostgreSQL database
+summary: How to import the latest metasfresh DB seed into your PostgreSQL database
 lang: en
 ref: developers_getting_started_db
 ---
 
-## Option one:<br/>Import the dump into your local PostgreSQL instalation
+## Option one:<br/>Import the dump into your local PostgreSQL installation
 
 ### Notes
 
-* The database dump from the latest metasfresh release is available [here](http://www.metasfresh.com/wp-content/releases/db_seeds/metasfresh_latest.pgdump).
+* The database dump from the latest metasfresh release is available for download [here](http://www.metasfresh.com/wp-content/releases/db_seeds/metasfresh_latest.pgdump).
 * This guide assumes that you already have installed a PostgreSQL server.
 
 ### Import the initial dump from command line

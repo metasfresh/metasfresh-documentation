@@ -1,5 +1,5 @@
 ---
-title: Wie weise ich Preise einem Partner (Kunden/Lieferanten) oder einer Partnergruppe zu?
+title: Wie weise ich Preislisten einem einzelnen Partner (Kunden/Lieferanten) zu?
 layout: default
 tags:
   - Preisgestaltung
@@ -10,15 +10,16 @@ sequence: 60
 ref: assign_prices_to_partner
 ---
 
-## Übersicht
-![](assets/Preissystem_Zuweisung Preise und Partner.png)
+## Überblick
+<kbd><img src="assets/Preissystem_Zuweisung Preise und Partner.png" alt="Abb.: Preissystem, Partner und Partnergruppen"></kbd>
 
-In metasfresh gibt es *Verkaufspreislisten* und *Einkaufspreislisten*. Die Verkaufspreislisten können den Kunden zugewiesen werden und die Einkaufspreislisten den Lieferanten. Diese beiden Preislistenarten können ebenfalls Partnergruppen zugewiesen werden.
+In metasfresh gibt es *Verkaufspreislisten* und *Einkaufspreislisten*. Verkaufspreislisten werden [Kunden](Neuer_Geschaeftspartner_Kunde) zugewiesen und enthalten Verkaufsprodukte, während Einkaufspreislisten für [Lieferanten](Neuer_Geschaeftspartner_Lieferant) verwendet werden und Produkte für den Einkauf enthalten. Diese beiden Preislistenarten können ebenfalls [Partnergruppen zugewiesen](Zuweisung_Preise_Partnergruppe) werden.
 
-## Verkaufspreisliste einem Kunden zuweisen
-Um eine *Verkaufspreisliste* zu erhalten, musst Du in dem entsprechenden Preislisteneintrag das Häkchen bei **Verkaufspreisliste** setzen (siehe **Schritt 8** von "[*Wie lege ich eine Preisliste an?*](Preisliste_anlegen)"). Hast Du dies getan, kannst Du wie folgt fortfahren:
+## Schritte
 
-### Schritte
+### <a name="verkaufspreisliste">Verkaufspreisliste einem Kunden zuweisen</a>
+Um eine *Verkaufspreisliste* zu erhalten, musst Du in dem entsprechenden Preislisteneintrag das Häkchen bei **Verkaufspreisliste** setzen (siehe **Schritt 8** von "[Wie lege ich eine Preisliste an?](Preisliste_anlegen)"). Hast Du dies getan, kannst Du wie folgt fortfahren:
+
 1. Öffne den Eintrag eines bestehenden Kunden aus Deinen [Geschäftspartnern](Menu) bzw. [lege einen neuen an](Neuer_Geschaeftspartner_Kunde).
 1. Gehe zur Registerkarte "Kunde" unten auf der Seite.
 1. Klicke doppelt auf das Feld **Preissystem** der Kundenzeile und wähle aus der Dropdown-Liste das gewünschte [Preissystem](Preissystem_anlegen) aus.
@@ -26,25 +27,16 @@ Um eine *Verkaufspreisliste* zu erhalten, musst Du in dem entsprechenden Preisli
 
 ---
 
-## Einkaufspreisliste einem Lieferanten zuweisen
-Um eine *Einkaufspreisliste* zu erhalten, musst Du in dem entsprechenden Preislisteneintrag das Häkchen bei **Verkaufspreisliste** entfernen (siehe **Schritt 8** von "[*Wie lege ich eine Preisliste an?*](Preisliste_anlegen)"). Hast Du dies getan, kannst Du wie folgt fortfahren:
+### <a name="einkaufspreisliste">Einkaufspreisliste einem Lieferanten zuweisen</a>
+Um eine *Einkaufspreisliste* zu erhalten, musst Du in dem entsprechenden Preislisteneintrag das Häkchen bei **Verkaufspreisliste** entfernen (siehe **Schritt 8** von "[Wie lege ich eine Preisliste an?](Preisliste_anlegen)"). Hast Du dies getan, kannst Du wie folgt fortfahren:
 
-### Schritte
 1. Öffne den Eintrag eines bestehenden Lieferanten aus Deinen [Geschäftspartnern](Menu) bzw. [lege einen neuen an](Neuer_Geschaeftspartner_Lieferant).
 1. Gehe zur Registerkarte "Lieferant" unten auf der Seite.
 1. Klicke doppelt auf das Feld **Einkaufspreissystem** der Lieferantenzeile und wähle aus der Dropdown-Liste das gewünschte Preissystem aus.
 1. [metasfresh speichert automatisch](Speicheranzeige).
 
-## Beispiel
-![](assets/Zuweisung_Preise_Partner.gif)
-
----
-
-## Preisliste einer Partnergruppe zuweisen
-1. Öffne den Eintrag eines bestehenden [Geschäftspartners](Menu) bzw. [lege einen neuen an](Neuer_Geschaeftspartner).
-1. [Springe zum Inhalt des Feldes](Springezu) [**Geschäftspartnergruppe**](Neue_Geschaeftspartnergruppe). Es öffnet sich der jeweilige Geschäftspartnergruppeneintrag in einem neuen Fenster.
-1. Wähle in diesem Fenster nun das gewünschte **Preissystem** aus.
-1. [metasfresh speichert automatisch](Speicheranzeige).
+## Nächste Schritte (alternativ)
+- [Weise Preislisten einer ganzen Geschäftspartnergruppe zu](Zuweisung_Preise_Partnergruppe).
 
 ## Beispiel
-![](assets/Zuweisung_Preise_Partnergruppe.gif)
+<kbd><img src="assets/Zuweisung_Preise_Partner.gif" alt="GIF: Einzelnen Partnern (Kunden/Lieferanten) Preislisten zuweisen"></kbd>

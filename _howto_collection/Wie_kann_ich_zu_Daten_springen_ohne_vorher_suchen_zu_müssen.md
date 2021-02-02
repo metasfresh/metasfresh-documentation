@@ -7,7 +7,7 @@ tags:
 lang: de
 ---
 
-## Übersicht
+## Überblick
 
 Generell kannst Du bei allen Suchfeldern mit einem Klick in die dahinter liegenden Daten springen um diese einzusehen oder zu bearbeiten.
 

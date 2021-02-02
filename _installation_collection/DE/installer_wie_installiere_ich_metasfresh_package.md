@@ -24,7 +24,7 @@ Wenn Du eine flexiblere Installation bevorzugst, probiere doch die Installation 
 
 
 ## Installation
-1. Lade Dir den aktuellsten metasfresh-Server Installer [hier](http://metasfresh.com/download/) auf Deinen Server.
+1. Lade Dir den aktuellsten metasfresh-Server Installer [hier](https://metasfresh.com/download/) auf Deinen Server.
 1. Führe ein Update der Quellen auf Deinem Ubuntu Server durch.
 ```bash
 user@host:~/$ sudo apt update
@@ -49,7 +49,7 @@ Sobald die Dienste initialisiert sind, kannst Du:
 **oder**
 
 * Die URL `http://XXX.YYY.ZZZ.AAA/` in Deinem Browser aufrufen, um auf die metasfresh WebUI zuzugreifen
- >**Hinweis:** XXX.YYY.ZZZ.AAA stellt die IP-Adresse Deines Servers dar. Wenn Du den Server lieber mit einem DNS-Eintrag (z.B. Hostnamen) aufrufen möchtest, richte den Server wie hier beschrieben ein.
+ >**Hinweis:** XXX.YYY.ZZZ.AAA stellt die IP-Adresse Deines Servers dar. Wenn Du den Server lieber mit einem DNS-Eintrag (z.B. Hostnamen) aufrufen möchtest, richte den Server wie [hier beschrieben](installer_wie_aendere_ich_hostnamen_in_webui) ein.
 
 Wenn Du den Status der metasfresh-Dienste überprüfen möchtest, stoppe bzw. starte sie einfach neu. Hierzu kannst Du folgende Befehle benutzen:
 ```bash

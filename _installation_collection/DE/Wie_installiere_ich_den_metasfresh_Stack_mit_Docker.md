@@ -9,7 +9,7 @@ sequence: 10
 ref: How_do_I_setup_the_metasfresh_stack_using_Docker
 ---
 
-## Übersicht
+## Überblick
 Diese Anleitung beschreibt die Installation der folgenden Dienste gemäß [dieser Übersicht](../../howto_collection/Wie_sieht_die_Architektur_aus):
 * DB
 * App
@@ -21,7 +21,7 @@ Diese Anleitung beschreibt die Installation der folgenden Dienste gemäß [diese
 
 |     | Mindestens      | Empfohlen
 | :------------- | :------------- |
-| RAM | 3 GB       | 4 GB
+| RAM | 4 GB       | 8 GB (steigt mit Größe der Datenbank)
 | CPU | 1 VCPU | 4 VCPU
 | HDD | 10 GB | 20 GB
 
@@ -155,6 +155,22 @@ webui:
         - "ES_JAVA_OPTS=-Xms128M -Xmx256m"
       restart: always
 ```
+
+## Sichtbar machen der Reports zwecks Bearbeitung
+Möchte man die Reports, welche im metasfresh app-Docker-Image enthalten sind, editierbar machen, so muss man diese im docker-compose.yml zuerst als Volume nach außen legen.
+
+```
+# Neues Volume reports hinzugefügt, um die Jasper
+# Reports Dateien customizen zu können
+  volumes:
+    - ./volumes/app/reports:/opt/metasfresh/reports:rw
+    - ./volumes/app/log:/opt/metasfresh/log:rw
+    - /etc/localtime:/etc/localtime:ro
+    - /etc/timezone:/etc/timezone:ro
+
+```
+
+ACHTUNG: Hier liegen natürlich die kompilierten jasper-Dateien. Man muss also zum Ändern der Reports sich zuerst das Repository mit den Quellen der Reports ziehen und dann mit Jasper Reports kompilieren.
 
 ## Visualisierung der Docker-Container
 In diesem [Forumsbeitrag](https://forum.metasfresh.org/t/docker-gui-recommendation) (*auf Englisch*) über dieses Thema werden zwei weit verbreitete Tools empfohlen.

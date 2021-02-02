@@ -1,5 +1,5 @@
 ---
-title: Wie kann ich nach einer Teillieferung / Teilfakturierung meines Auftrags vorgehen?  
+title: Wie kann ich nach einer Teillieferung / Teilfakturierung meines Auftrages vorgehen?  
 layout: default
 tags:
   - 

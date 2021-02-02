@@ -1,20 +1,21 @@
 ---
-title: Identify InvoiceLines whose product has a missing UPC/EAN
+title: Identify invoice lines whose product has a missing UPC/EAN
 component: de.metas.edi
-tags: 
-  - sql
+tags:
+  - SQL
 lang: en
 layout: default
 sequence: 10
 ---
 
-It happens that users accidentally set `C_OLCand.DatePromised_Override` to a wrong date (e.g. wrong year) ofr a larger number of order candidates and then have the system create orders without noticing the error.
-To fix:
+It happens that users accidentally set `C_OLCand.DatePromised_Override` to a wrong date (e.g., wrong year) of a larger number of order candidates and then have the system create orders without noticing the error.
+
+This is how to fix this:
 
 ```sql
 -- create a temporary view to select the shipmentschedules in question
 CREATE TEMP VIEW C_OLCand_M_ShipmentSchedule_ORDERS_160826095301_v AS
-SELECT 
+SELECT
 	t.Name, olc.C_OLCand_ID, ol.C_Order_ID, s.M_ShipmentSchedule_ID, s.DeliveryDate, s.DeliveryDate_Override
 
 FROM C_OLCand olc

@@ -6,11 +6,11 @@ tags:
   - Preise
   - Preisdefinition
 lang: de
-sequence: 70
+sequence: 80
 ref: add_products_to_price-list
 ---
 
-## Übersicht
+## Überblick
 Es gibt zwei Wege, Produkte einer [Preisliste](Preisliste_anlegen) hinzuzufügen:
 1. [Gib einem Produkt einen Preis](ProduktPreis).
 1. [Lege einen Preis an](Preis_anlegen).

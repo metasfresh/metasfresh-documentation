@@ -4,8 +4,9 @@ layout: default
 tags:
   - Concepts
 lang: en
+published: false
 ---
-## Übersicht
+## Overview
 
 metasfresh enables you to keep track of a product not only as in stocked amounts but it is also possible to map in which form the article is.
 
@@ -17,14 +18,15 @@ Therefore a CU in a TU in an LU is a **Handling Unit**.
 ![Handling Unit](../../images/en_drawing_Handling_Unit_System.png)
 
 ## Beispiele
-HU|type|example
----|---|---
-CU|Product|Individual pieces (e.g. salad), bulk material (e.g. sand) or Free-flowing goods (e.g. milk)
-TU|Packaging|Non-reusable crates, reusable crates (e.g. Eurobox, IFCO), put-up hinge, box with individual drinks, etc.
-LU|Loading aids|Palette, container, Paloxes, etc.
 
-HU|Configuration|Explaination
----|---|---
-CU|[How to Add a new product?](How_to_Add_a_new_Product)|Shows how to create a CU and add several packaging instructions (CU-TU relation).
-TU|How to add packaging instructions
-LU|How to relate an LU to a packing instruction
+| HU | Type | Example |
+| --- | --- | --- |
+| CU | Product | Individual pieces (e.g. salad), bulk material (e.g. sand) or Free-flowing goods (e.g. milk) |
+| TU | Packaging | Non-reusable crates, reusable crates (e.g. Eurobox, IFCO), put-up hinge, box with individual drinks, etc. |
+| LU | Loading aids | Palette, container, Paloxes, etc. |
+
+| HU | Configuration | Explanation |
+| --- | --- | --- |
+| CU | [How to Add a new product?](How_to_Add_a_new_Product) | Shows how to create a CU and add several packaging instructions (CU-TU relation). |
+| TU | How to add packaging instructions |  |
+| LU | How to relate an LU to a packing instruction |  |

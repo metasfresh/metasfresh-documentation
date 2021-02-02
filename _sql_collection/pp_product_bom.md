@@ -2,8 +2,8 @@
 title: PP_Product_BOM (Bill of Material)
 layout: default
 tag: 
-   - datamodel
-   - masterdata
+   - Data Model
+   - Master Data
 lang: en
 ---
 

@@ -1,0 +1,97 @@
+.clearfix {zoom: 1}
+.clearfix:after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+.row {
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+/* Icons */
+.filter-alert {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+/* Main Navigation */
+.main-nav {
+    float: left;
+    list-style: none;
+    margin-top: 20px;
+}
+
+.main-nav a {
+    display: inline-block;
+}
+
+.logo {
+    float: right;
+    height: auto;
+    width: 200px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0 45px;
+    background-color: #fff;
+    -webkit-box-shadow: 0 2px 2px rgb(239, 239, 239);
+    box-shadow: 0 2px 2px #efefef;
+    z-index: 9999;
+}
+
+/* Adjusting Google Custom Search Engine */
+.searchbox-phrase {
+    color: #69B43E;
+    font-size: 12px;
+    padding-left: 10px;
+}
+
+.custom-searchbox {
+    border: 1px solid #ccc;
+    padding-top: 5px;
+}
+
+#gs_id50,
+#gs_id51 {
+    margin-bottom: 0;
+}
+
+.custom-searchbox table td,
+.custom-searchbox table th,
+.custom-searchbox table tr {
+    border: none;
+}
+
+#___gcse_2 * {
+    box-sizing: content-box;
+}
+
+.gsc-above-wrapper-area-container {
+    padding: 25px 0 25px 0;
+}
+
+.no-display-de,
+.no-display-en {
+    display: none;
+}
+
+/* Remove Google Ads */
+.gsc-adBlock {
+    display: none!important;
+}
+
+/* Offset html anchors globally for fixed header */
+:target::before {
+    content: '';
+    display: block;
+    height: 65px;
+    margin-top: -65px;
+}

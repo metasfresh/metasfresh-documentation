@@ -7,7 +7,7 @@ lang: de
 ref: how_do_i_enable_developer_view_using_swagger
 ---
 
-## Übersicht
+## Überblick
 Wenn Du die Spalten hinter den Feldern (unabhängig von den Spracheinstellungen) und die ID der Registerkarten sehen möchtest, solltest Du die *Entwickleransicht* aktivieren.
 
 

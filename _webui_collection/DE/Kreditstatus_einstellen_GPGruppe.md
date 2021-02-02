@@ -10,7 +10,7 @@ sequence: 30
 ref: set_credit_status_bpgroup
 ---
 
-## Übersicht
+## Überblick
 Wenn Du einen [Kreditstatus](Kreditstatusarten) für eine gesamte Geschäftspartnergruppe einstellst, gilt dieser für jeden Geschäftspartner, der bei [Neuerstellung](Neuer_Geschaeftspartner) mit dieser Gruppe verknüpft wird.
 
 Möchtest Du wissen, wie Du den Kreditstatus eines Geschäftspartners daraufhin individuell verwalten kannst, klicke [hier](Kreditstatus_einstellen_GP).

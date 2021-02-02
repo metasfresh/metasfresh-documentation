@@ -4,7 +4,7 @@ layout: default
 tags:
   - Document Management
 lang: en
-sequence: 30
+sequence: 10
 ref: documentprocessingcomplete
 ---
 
@@ -15,7 +15,7 @@ Documents are [saved automatically by metasfresh](Saveindicator). However, they 
 Press `Alt` + `U` / `⌥ alt` + `U` to set the status to "complete".
 
 ### With the mouse
-Click on the button for the [document processing actions](StartAction) (`Alt` + `I` / `⌥ alt` + `I`) in the upper right corner of the window and select "Complete".
+Click on the button for the [document processing actions](StartAction#doc-processing) (`Alt` + `I` / `⌥ alt` + `I`) in the upper right corner of the window and select "Complete".
 
 ## Example
 ![](assets/docprocessing_complete.gif)

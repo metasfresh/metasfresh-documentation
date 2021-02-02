@@ -1,11 +1,11 @@
 ---
-title: How do I define the time frame conditions of a contract?
+title: How do I specify the time frame conditions of a contract?
 layout: default
 tags:
-  - Workflow
   - Contract Management
+  - Setup
 lang: en
-sequence: 100
+sequence: 20
 ref: define_contract_period
 ---
 
@@ -14,32 +14,32 @@ In metasfresh, time frame conditions of a contract include the term duration, te
 
 ## Steps
 
-### Define the conditions for the Contract Period
+### Specify the conditions for the Contract Period
 1. Open "Contract Period" from the [menu](Menu).
 1. [Create a new entry](New_Record_Window).
 1. Give the contract period a **Name**.
 1. Select a **Calendar**.
-1. Define a **Term Duration** and a **Term Unit**, e.g. "1 Year".
-1. Define a **Term of Notice** and a **Term of Notice Unit**, e.g. "1 Month".
-1. Define a **Subscription Interval** and a **Subscription Unit**, e.g. "2 Weeks".
+1. Define a **Term Duration** and a **Term Unit**, e.g., "1 Year".
+1. Define a **Term of Notice** and a **Term of Notice Unit**, e.g., "1 Month".
+
+#### Further optional settings
+1. Define a **Subscription Interval** and a **Subscription Unit**, e.g., "2 Weeks".
  >**Note:** This is the frequency of the shipments of a sales order during the contract period.
 
-1. ***Optional:*** Check the box **Auto renew Contract** to make the contract run in a loop.
- >**Note:** In this case, the box **Complete next terms automatically** appears. Check this box, too.
+1. In the field **Extension Type**, pick the way to automatically extend a contract after it expires.
+1. In the field **Next Contract Terms**, you can select the follow-up contract for the expired one.
 
-1. ***Optional:*** In the field **Next Contract Terms** you can select the follow-up contract for the expired one.
-
-### Define the Transition Conditions
+### Specify the Transition Conditions
 The transition conditions determine at what moment before the end or change of a contract the contractual party may perform a status change, such as the termination of the contract.
 
-1. Go to the record tab "Transition Conditions" at the bottom of the page and click ![](assets/Add_New_Button.png). A new window opens up.
-1. Define a **Deadline** and a **Deadline Unit**, e.g. "1 Month".
+1. Go to the record tab "Transition Conditions" at the bottom of the page and click !["Add new"](assets/Add_New_Button.png). An overlay window opens up.
+1. Define a **Deadline** and a **Deadline Unit**, e.g., "1 Month".
 1. Select the **Action** *Status Change*.
 1. Select the **Contract Status** *Terminated*.
-1. Click "Done" to close the window and add the transition conditions to the record tab.
+1. Click "Done" to close the overlay window and add the transition conditions to the record tab.
 
 ### Complete the document
 - [Complete the document](DocumentProcessingComplete).
 
 ## Example
-![](assets/Define_contract_period.gif)
+<kbd><img src="assets/Define_contract_period.gif" alt="GIF: How to specify the time frame conditions of a contract"></kbd>

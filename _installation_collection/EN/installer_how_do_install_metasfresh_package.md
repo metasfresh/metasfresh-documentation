@@ -23,7 +23,7 @@ This installation aims at installing metasfresh directly on a bare-metal or a vi
 If you want a more flexible installation, try using [metasfresh-docker](How_do_I_setup_the_metasfresh_stack_using_Docker).
 
 ## Installation
-1. [Download](http://metasfresh.com/download/) the latest metasfresh-server installation package to your server.
+1. [Download](https://metasfresh.com/download/) the latest metasfresh-server installation package to your server.
 1. Update your Ubuntu server source list.
 ```bash
 user@host:~/$ sudo apt update
@@ -47,7 +47,7 @@ When the services have been initialized, you can either:
 **or**
 
 * Use `http://XXX.YYY.ZZZ.AAA/` to access metasfresh-WebUI
- >**Note:** Check out this TO DO guide for using a hostname instead of an IP address to access the WebUI.
+ >**Note:** Check out [this TO DO guide](installer_how_to_change_hostnames_for_webui) for using a hostname instead of an IP address to access the WebUI.
 
 If you want to check the statuses of the metasfresh services, you can simply stop or restart them. To do so, you can use the following commands:
 ```bash

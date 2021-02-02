@@ -10,8 +10,8 @@ sequence: 10
 ref: define_prices
 ---
 
-## Übersicht
-![](assets/Preissystem_Hierarchie.png)
+## Überblick
+<kbd><img src="assets/Preissystem_Hierarchie.png" alt="Abb.: Preissystem-Hierarchie"></kbd>
 
 ## Schritte
 1. [Lege ein Preissystem an](Preissystem_anlegen).

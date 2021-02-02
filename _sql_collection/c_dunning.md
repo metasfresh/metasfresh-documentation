@@ -2,8 +2,8 @@
 title: C_Dunning (Dunning Candidates, Level, Documents, Print Items)
 layout: default
 tag: 
-   - datamodel
-   - documents
+   - Data Model
+   - Documents
 lang: en
 ---
 

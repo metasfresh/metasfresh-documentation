@@ -15,7 +15,7 @@ First you need to make sure that your customer has been assigned a price list:
 
 1. [Open the window "Business Partner"](How_to_find_and_open_a_window) 
 1. Open the register tab "Customer"
-1. Fill the field **Pricing system** 
+1. Fill the field **Pricing System** 
 
 In order to have the option to export the price list later, print preview needs to be activated:
 

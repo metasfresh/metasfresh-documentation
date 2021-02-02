@@ -1,32 +1,29 @@
 ---
-title: How to setup the standalone printing client with webui?
+title: How to setup the standalone printing client with WebUI?
 layout: default
 tags:
-  - printing webui
+  - Printing WebUI
 lang: en
 ---
 
-# Intro
-
-A standalone printing client is useful in differnt scenarios. 
+## Intro
+A standalone printing client is useful in different scenarios.
 For example, if you use a hosted metasfresh instance, that instance which runs on our server has no access to your local printers.
 Still, your processes might require that at certain stages, documents are automatically printed by your local servers.
 
-To address this and other scenarios, the standalone printing client can run locally, with access to your local printers. 
+To address this and other scenarios, the standalone printing client can run locally, with access to your local printers.
 It can retrieve print jobs from metasfresh and perform them using your printers.
 
-# 0. Get the printing client software
+## 0. Get the printing client software
 
 * The client is a single jar file that can be executed with java.
   * This means that you need to have a java runtime environment (JRE) on the computer where the client shall run.
-* The client needs to run on a local system of yours which needs to have access to your printer(s). The client will use java's [Print Service API](https://docs.oracle.com/javase/8/docs/technotes/guides/jps/spec/jpsOverview.fm4.html) to access those printers.
+* The client needs to run on a local system of yours which needs to have access to your printer(s). The client will use java's <a href="https://docs.oracle.com/javase/8/docs/technotes/guides/jps/spec/jpsOverview.fm4.html" title="Print Service API" target="\_blank">Print Service API</a> to access those printers.
 * Can be obtained in different ways:
-  * The client is available from our artifact repository. The latest release version can be obtained via this URL: [https://repo.metasfresh.com/service/local/artifact/maven/redirect?g=
-de.metas.printing&a=de.metas.printing.client&v=LATEST&r=mvn-release&p=jar&c=jar-with-dependencies](https://repo.metasfresh.com/service/local/artifact/maven/redirect?g=
-de.metas.printing&a=de.metas.printing.client&v=LATEST&r=mvn-release&p=jar&c=jar-with-dependencies)
+  * The client is available from our artifact repository. The latest release version can be obtained [here](https://repo.metasfresh.com/service/local/artifact/maven/redirect?g=de.metas.printing&a=de.metas.printing.client&v=LATEST&r=mvn-release&p=jar&c=jar-with-dependencies).
   * If you installed the metasfresh.tar.gz distribution, then the current version of the printing client binary is the file `de.metas.printing.client-jar-with-dependencies.jar`, located in your metasfresh server's `/opt/metasfresh/download` folder.
 
-# 1. Set up a dedicated printing-client-user in metasfresh
+## 1. Set up a dedicated printing-client-user in metasfresh
 
 Background: metasfresh allows to configure one user to print on behalf of another user.
 The standalone printing client will connect to metasfresh a the user which we configure in this step.
@@ -70,9 +67,9 @@ de.metas.printing.client.login.hostkey=<host-key-for-this-printing-client>
 # Sets at which intervals the printing client shall query metasfresh for new print jobs (yes, we know that polling sucks..).
 de.metas.printing.client.PrintingClientDaemon.PollIntervalMs=10000
 
-# If the client receives a printing error from the underlying printer API, 
-# then these two parameters can be used to specify how often the client shall retry and how long it shall wait between each retry. 
-# Two retries mean that the client will attempt the print three times max. 
+# If the client receives a printing error from the underlying printer API,
+# then these two parameters can be used to specify how often the client shall retry and how long it shall wait between each retry.
+# Two retries mean that the client will attempt the print three times max.
 # Defaults: retry 3 times and wait 5 seconds between each retry
 de.metas.printing.client.engine.retryCount=3
 de.metas.printing.client.engine.retryIntervalMs=5000
@@ -97,14 +94,14 @@ de.metas.printing.client.engine.retryIntervalMs=5000
 de.metas.printing.client.IPrintConnectionEndpoint=de.metas.printing.client.endpoint.RestHttpPrintConnectionEndpoint
 
 # Possible values are base64 (when getting data from the ESB) and binary (when getting data directly from metasfresh)
-# The default is "base64" to ensure that new client binaries still work with the old ESB infrastructure, 
+# The default is "base64" to ensure that new client binaries still work with the old ESB infrastructure,
 # without changing the config file
 de.metas.printing.client.endpoint.RestHttpPrintConnectionEndpoint.dataEncoding=binary
 ```
 
 Additional notes
 
-* The property `de.metas.printing.client.login.apiToken` is basically the credential of an actual metasfresh user (i.e. the one we created in step 1). 
+* The property `de.metas.printing.client.login.apiToken` is basically the credential of an actual metasfresh user (i.e. the one we created in step 1).
 It makes sense to have that user be a dedicated user
 which has no other purpose than to log on, transmit the printers it has local access to (and their trays) and receive print packages.
 
@@ -112,7 +109,7 @@ which has no other purpose than to log on, transmit the printers it has local ac
 Also associated with the hostkey can be a mapping between logical printers (like "invoice-printer")
 and actual printers the information of which is transmitted by a printing client.
 
-# 3. Start the printing client
+## 3. Start the printing client
 
 You can now open a command line and start the printing client like this:
 
@@ -138,7 +135,7 @@ When the printing client starts up, it does the following
 * use the local java printing API to find its local printers and send that list to metasfresh
 * poll for print jobs at regular intervals
 
-# 4. Configure the printing client in metasfresh
+## 4. Configure the printing client in metasfresh
 
 * Open the "Drucker-Zuordnung" (`AD_Printer_Config`) window
 * Search the record with the hostkey from the printing client config file
@@ -147,7 +144,7 @@ When the printing client starts up, it does the following
 * Go to the "Konfiguration" (`AD_Printer_Matching`) tab and select the printing client's printers (and trays) to associate with the logical printer(s) of metasfresh
   * note that the "Konfiguration" (`AD_Printer_Matching`) tab already contains one record for each logical metasfresh printer, with the client's local default printer being selected.
 
-# 5. Associate the  printing client's config with the user(s) that need to print
+## 5. Associate the  printing client's config with the user(s) that need to print
 
 Here the important part is to find out that user's hostkey.
 

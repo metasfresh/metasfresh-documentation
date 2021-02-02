@@ -4,7 +4,7 @@ required data:
    bpartner: bpartners G000X, G000Y, G000Z 
 layout: default
 tags:
-  - Masterdata
+  - Master Data
 ---
 ## Creating Partner Relation throws Exception
 

@@ -1,5 +1,5 @@
 ---
-title: Find out if an invoice candidate is invoicable
+title: Find out if an invoice candidate is invoiceable
 component: de.metas.invoicecandidate
 tags:
   - Support
@@ -11,7 +11,7 @@ sequence: 5
 
 ## Check the candidate
 
-Check your invoice candidate according to the expecations described in the sql. They all should match.
+Check your invoice candidate according to the expectations described in the SQL. They should all match.
 
 ```
   SELECT
@@ -38,24 +38,20 @@ Check your invoice candidate according to the expecations described in the sql. 
     and ic.processed = 'N'        
 ```
 
-## Check 
+## Check
 
 ### Process Revision
-
 Check the process revision for the invoicing process you started for details. You can see the selection query there.
 
 ### Check T_Lock
-
-With the ad_pinstance_id from process revision you can check the t_lock table if the invoice candidate was already enqueued
+With the `ad_pinstance_id` from process revision you can check the `t_lock` table if the invoice candidate was already enqueued.
 
 ### Check Async Work Package
-
 Check if an async work package was created and if that is on error or still in progress.
 
 
-## Possible Solutions 
-
-mark invoice candidate to be recomputed:
+## Possible Solutions
+Mark invoice candidate to be recomputed:
 
 ```
 insert into c_invoice_candidate_recompute
@@ -72,6 +68,11 @@ Cause: Something which is basic to the invoice candidate has changed. Most commo
 Troubleshoot: Using https://github.com/metasfresh/metasfresh-documentation/issues/223
 
 Sample:
+
+```SQL
+select p_msg,* from de_metas_invoicecandidate.c_invoice_candidate_diagnose_haschanges_error_v.
+```
+
 ```
  1000002: @LineNetAmt@: 0.00->700.00
 1000003: @LineNetAmt@: 0.00->2800.00
@@ -80,6 +81,6 @@ Sample:
 Update invalid result: Updated 7 invoice candidates, 0 errors
 ```
 
-Solution: Delete affected invoice candidates via the webui. They will be created automatically again.
+Solution: Delete affected invoice candidates via the WebUI. They will be recreated automatically.
 
-Alternative: delete via sql but then you need to run the process to recreate the ICS.
+Alternative: Delete via SQL but then you need to run the process to recreate the ICs.

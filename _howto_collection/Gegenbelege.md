@@ -6,7 +6,7 @@ tags:
 lang: de
 sequence: 10
 ---
-## Übersicht
+## Überblick
 
 metasfresh ermöglicht Dir nicht nur die Verwaltung mehreren juristischer Personen in einem System mittels Organisationen, sondern auch die jeweiligen Gegenbelege automatisch zu erzeugen wenn diese Organisationen miteinander Geschäfte abwickeln.
 

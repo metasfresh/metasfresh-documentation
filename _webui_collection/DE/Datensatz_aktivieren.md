@@ -2,6 +2,7 @@
 title: Wie aktiviere und deaktiviere ich Einträge?
 layout: default
 tags:
+  - Anfängertipps für metasfresh
   - Benutzung
 lang: de
 sequence: 50

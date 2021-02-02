@@ -10,21 +10,20 @@ ref: How_do_I_setup_the_metasfresh_stack_using_Docker
 ---
 
 ## Overview
-This manual describes the installation of the following services according to [this overview](howto_collection\EN\metasfresh_architecture.md):
-* DB
-* App
-* API
-* WebUI
-* Search
+This manual describes the installation of the following services according to [this overview](../../howto_collection/EN/metasfresh_architecture):
+- DB
+- App
+- API
+- WebUI
+- Search
 
 ## Hardware Requirements
 
-|     | Minimum      | Recommended
-| :------------- | :------------- |
-| RAM | 3 GB       | 4 GB
-| CPU | 1 VCPU | 4 VCPU
-| HDD | 10 GB | 20 GB
-
+|  | Minimum | Recommended |
+| :--- | :--- | :--- |
+| RAM | 4 GB | 8 GB (increases with db size) |
+| CPU | 1 VCPU | 4 VCPU |
+| HDD | 10 GB | 20 GB |
 
 ## Installation with Docker
 
@@ -55,17 +54,16 @@ This manual describes the installation of the following services according to [t
 
 1. Build the Docker container.
 
- `docker-compose build`
+   `docker-compose build`
 
 1. Start the Docker container.
 
- `docker-compose up -d`
-
- >**Note:** The first time you start the container, it may take a few minutes until the database is populated and the service is available.
+   `docker-compose up -d`
+   >**Note:** The first time you start the container, it may take a few minutes until the database is populated and the service is available.
 
 1. ***Optional:*** Stop the Docker container.
 
-  `docker-compose down`
+   `docker-compose down`
 
 ## Access
 After the successful installation you can access the WebUI via:

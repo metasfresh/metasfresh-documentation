@@ -9,10 +9,11 @@ sequence: 20
 ref: currency_rate
 ---
 
-## Übersicht
+## Überblick
 Wenn Du mit einer anderen Währung als Deiner Stammwährung arbeiten möchtest, musst Du einen Währungskurs für die Umrechnung einstellen.
 
-**Beispiel:** Du hast Dein metasfresh System mit dem [Einrichtungsassistenten](Ersteinrichtung) auf EUR eingestellt, möchtest aber auch mit USD arbeiten.
+**Beispiel:**<br>
+Du hast Dein metasfresh System mit dem [Einrichtungsassistenten](Ersteinrichtungsassistent) auf EUR eingestellt, möchtest aber auch mit USD arbeiten.
 
 ## Schritte
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Währungskurs".
@@ -31,7 +32,7 @@ Wenn Du mit einer anderen Währung als Deiner Stammwährung arbeiten möchtest, 
  >**Hinweis:** Wiederhole die Schritte 2 bis 6, um weitere Kursumrechnungen anzulegen, z.B. USD nach EUR.
 
 ## Fehlermeldung
-Wenn die Umrechnung nicht korrekt eingestellt ist, gibt es bei der Erstellung einesWareneingangs oder einer Abrechnung eine Fehlermeldung dieser Art:
+Wenn die Umrechnung nicht korrekt eingestellt ist, gibt es bei der Erstellung eines Wareneingangs oder einer Abrechnung eine Fehlermeldung dieser Art:
 
 `... Unable to convert from currency $ ... to currency € ...`
 

@@ -2,6 +2,7 @@
 title: How do I open the PDF print preview of a document?
 layout: default
 tags:
+  - A Beginner's Guide to metasfresh
   - Usage
   - Actions
 lang: en
@@ -13,7 +14,7 @@ ref: printpreview
 Press `Alt` + `P` / `⌥ alt` + `P` to open the print preview.
 
 ## With the mouse
-Click ![](assets/actionsmenu_WebUI.png) and then select "Print".
+Open the [actions menu](StartAction#actions-menu) ![](assets/actionsmenu_WebUI.png) and click "Print".
  >**Note:** You will need a PDF viewer to open the file.
 
 ## Example

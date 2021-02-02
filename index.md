@@ -5,30 +5,32 @@ layout: default
 
 ### Users
 - User Manual (WebUI) [(EN)](pages/webui/index_en) [(DE)](pages/webui/index_de)
-- Legacy Java Client [(EN)](pages/howto/index_en) [(DE)](pages/howto/index_de)
 
 ### Admins
 - Installation [(EN)](pages/installation/index_en)  [(DE)](pages/installation/index_de)
 - [Support & Troubleshooting](pages/support/index_en)
 
 ### Developers
-  - [metasfresh source code at github](https://github.com/metasfresh/metasfresh)
-  - [developing code](pages/developers/index_en)
-  - [architecture overview](howto_collection/EN/metasfresh_architecture.html)
-  - [buildsystem overview](pages/infrastructure/ci_en): how the maven-based buildsystem works locally as well a on our CI-server
-  - Javadocs [for the "main" body of code](http://metasfresh.com/javadoc/metasfresh-master/) and [for the esb bundles](http://metasfresh.com/javadoc/metasfresh-esb-master/)
-  - [The metasfresh gitter chat](https://gitter.im/metasfresh/metasfresh)
+  - [Architecture Overview](howto_collection/EN/metasfresh_architecture.html)
+  - [Build System Overview](pages/infrastructure/ci_en): How the Maven-based build system works locally as well as on our CI server
+  - [Contributor's Guide](pages/contributors_guide/index_en)
   - [Customizing App Dictionary](pages/appdictionary/index_en)
-  - Testing
-    - [Test Documentation](pages/tests/index_en)
-  - writing docs
-    - [How to get started](http://docs.metasfresh.org/howto_collection/EN/how_to_get_started_with_translating_docs.html)
   - [Database Queries](pages/sql/index_en)
+  - [Developing Code](pages/developers/index_en)
+  - [Jasper Reports Guide](pages/jasper_reports/index_en)
+  - REST API Guides [(EN)](pages/rest_api/index_en) [(DE)](pages/rest_api/index_de)
   - [Setup Guides](pages/setup/index_en)
+  - [Talend Guides](pages/talend/index_en)
 
-### How to get in contact
+### Get in touch with us!
+- Meet us in our <a href="https://forum.metasfresh.org/" title="metasfresh Forum" target="\_blank">Community Forum</a> to discuss metasfresh and ask questions.
+- Contact us via our website metasfresh.com in <a href="https://metasfresh.com/en" title="metasfresh.com (EN)" target="\_blank">English</a> or in <a href="https://metasfresh.com/" title="metasfresh.com (DE)" target="\_blank">German</a>.
+- Follow us on Twitter: <a href="https://twitter.com/metasfresh" title="metasfresh on Twitter (EN)" target="\_blank">@metasfresh (English)</a>, <a href="https://twitter.com/metasfreshDE" title="metasfresh auf Twitter (DE)" target="\_blank">@metasfreshDE (German)</a>.
+- <a href="https://github.com/metasfresh" title="metasfresh on GitHub.com" target="\_blank">Visit us on GitHub!</a>
 
-* via [Forum](http://forum.metasfresh.org)
-* metasfresh website [http://metasfresh.com/en](http://metasfresh.com/en) (english) and [http://metasfresh.com/](http://metasfresh.com/) (german).
-* You can follow us on twitter: @metasfresh (english), @metasfreshDE (german).
-* There also are two gitter chat rooms. One for [metasfresh](https://gitter.im/metasfresh/metasfresh) and one for [metasfresh-documentation](https://gitter.im/metasfresh/metasfresh-documentation).
+<!--
+- There are also two Gitter chat rooms. One for <a href="https://gitter.im/metasfresh/metasfresh" title="metasfresh on Gitter" target="\_blank">metasfresh</a> and one for <a href="https://gitter.im/metasfresh/metasfresh-documentation" title="metasfresh-documentation on Gitter" target="\_blank">metasfresh-documentation</a>.
+-->
+
+### Legacy
+- Legacy Java Client [(EN)](pages/howto/index_en) [(DE)](pages/howto/index_de)
