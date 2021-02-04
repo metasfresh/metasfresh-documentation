@@ -10,7 +10,7 @@ ref: product_planning
 ---
 
 ## Überblick
-Über die Produktplandaten kannst Du festlegen, was passieren soll, wenn ein Auftrag für ein Produkt erstellt wird, das nur noch in geringer Menge vorrätig ist. Ein Produkt kann ein einzelnes Fertigprodukt sein oder aus mehreren Komponenten bestehen (siehe: [Stückliste](Stueckliste_erstellen)). Tritt der Fall ein, dass der Bedarf an dem Produkt oder den einzelnen Komponenten nicht (vollständig) gedeckt werden kann, so geben die Produktplandaten vor, ob neue Waren **eingekauft** oder **produziert** werden müssen, um die Lagerbestände wieder aufzufüllen und den Bedarf zu decken. Im Fenster [*Handling Unit Editor*](Menu) erhältst Du eine Übersicht der Produkte auf Lager.
+Über die Produktplandaten kannst Du festlegen, was automatisch passieren soll, wenn ein Auftrag für ein Produkt erstellt wird, das nur noch in geringer Menge vorrätig ist. Ein Produkt kann ein einzelnes Fertigprodukt sein oder aus mehreren Komponenten bestehen (siehe: [Stückliste](Stueckliste_erstellen)). Tritt der Fall ein, dass der Bedarf an dem Produkt oder den einzelnen Komponenten nicht (vollständig) gedeckt werden kann, so geben die Produktplandaten vor, ob neue Waren **eingekauft** oder **produziert** werden müssen, um die Lagerbestände wieder aufzufüllen und den Bedarf zu decken. Im Fenster [*Handling Unit Editor*](Menu) erhältst Du eine Übersicht der Produkte auf Lager.
 
 Zusätzlich überprüft die [*Materialdisposition*](Materialdisposition_Grundlagen) von metasfresh bei Auftragserstellung anhand der Produktplandaten automatisch, welche Produkte auf Lager sind, eingekauft oder produziert werden müssen und erzeugt dann ebenfalls automatisch Bestellungen bzw. Produktionsaufträge.
 
@@ -38,6 +38,10 @@ Zusätzlich überprüft die [*Materialdisposition*](Materialdisposition_Grundlag
 1. Setze ein Häkchen bei **Beleg fertigstellen**, wenn der Produktionsauftrag automatisch fertiggestellt werden soll.
 1. Setze das Feld **Wird produziert** auf *Ja*.
 1. [metasfresh speichert automatisch](Speicheranzeige).
+
+    | **Hinweis:** |
+    | :--- |
+    | Bei Fertigstellung eines [Auftrages](Auftrag_erfassen) für ein Produkt, das mittels Plandaten für die Produktion konfiguriert ist, wird zur Bedarfsdeckung automatisch ein [Produktionsauftrag](NeuerProduktionsauftrag) erstellt und mit dem Auftrag verknüpft. |
 
 ## Nächste Schritte (optional)
 - [Erstelle automatische Bestellkontrollen zur kontrollierten Auftragsbearbeitung](Automatische_Bestellkontrollen).

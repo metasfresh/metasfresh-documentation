@@ -24,7 +24,7 @@ Um den Bestand aufzufüllen, kannst Du einen [Wareneingang erstellen](Zu_Bestell
  >**Hinweis:** Hast Du den Produktionsauftrag in der [Listenansicht](Ansichten#listenansicht) selektiert, kannst Du ebenfalls über den [Quick-Actions](AktionStarten#quick-actions)-Button oben rechts die Aktion ![](assets/Actionbutton_Produzieren.png) starten.
 
 ### a) Produkt herstellen, ohne Material zu verbrauchen
-Dies ist die einfachste Möglichkeit in metasfresh zu produzieren. Hierbei wird die produzierte Menge einfach dem Bestand zugebucht, ohne dass die benötigten Stücklistenkomponenten abgebucht werden.
+Dies ist die einfachste Möglichkeit in metasfresh zu produzieren. Hierbei wird die produzierte Menge einfach dem Bestand zugebucht, ohne dass die benötigten Stücklistenbestandteile abgebucht werden.
 
 1. [Selektiere](AuswahlBelege) im Produktionsfenster das Produkt (**MP**), welches Du herstellen möchtest, z.B. "Karotten gestückelt".
  <kbd><img src="assets/ProduktionFertigstellung_Produktionsfenster.png" alt="Abb.: Produktionsfenster"></kbd>
@@ -65,9 +65,9 @@ Dies ist die einfachste Möglichkeit in metasfresh zu produzieren. Hierbei wird 
 ---
 
 ### b) Produkt herstellen und Materialverbrauch protokollieren
-Hierbei werden die für die Produktion benötigten Stücklistenkomponenten vom Bestand abgebucht. Die Zubuchung der produzierten Menge erfolgt wie oben beschrieben.
+Hierbei werden die für die Produktion benötigten Stücklistenbestandteile vom Bestand abgebucht. Die Zubuchung der produzierten Menge erfolgt wie oben beschrieben.
 
-1. [Selektiere](AuswahlBelege) im Produktionsfenster die Stücklistenkomponente (**CO**), welche Du vom Bestand abbuchen möchtest, z.B. "Karotten ungewaschen".
+1. [Selektiere](AuswahlBelege) im Produktionsfenster das Stücklistenbestandteil (**CO**), welches Du vom Bestand abbuchen möchtest, z.B. "Karotten ungewaschen".
  <kbd><img src="assets/ProduktionFertigstellung_Materialverbrauch.png" alt="Abb.: Materialverbrauch"></kbd>
 
 1. [Starte die Quick-Action](AktionStarten#quick-actions) "HU-Auswahlfenster öffnen".<br>
@@ -78,7 +78,7 @@ Hierbei werden die für die Produktion benötigten Stücklistenkomponenten vom B
 
 1. [Selektiere](AuswahlBelege) die HU, welche für die Produktion verbraucht werden soll.
 1. [Starte die Quick-Action](AktionStarten#quick-actions) "Komplette HUs hinzufügen".
-1. Nach erfolgreicher Zuordnung siehst Du die hinzugefügte HU unterhalb der Komponente.
+1. Nach erfolgreicher Zuordnung siehst Du die hinzugefügte HU unterhalb des Stücklistenbestandteils.
  <kbd><img src="assets/ProduktionFertigstellung_Abbuchung.png" alt="Abb.: Abbuchung"></kbd>
  >**Hinweis:** Möchtest Du die Abbuchung rückgängig machen, wähle einfach die hinzugefügte HU aus und starte die Quick-Action "HU entfernen".
 
