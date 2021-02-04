@@ -10,7 +10,7 @@ ref: product_planning
 ---
 
 ## Overview
-Product planning is used to define what should happen when an order is placed for a product whose inventory level is running low. A product can be a single finished product or consist of several components (see also: [Bill of Materials](Create_BOM)). In the event that the demand for the product or the individual components cannot be covered (completely), the product planning data specify whether new goods are to be **purchased** or **manufactured** in order to replenish the stocks and cover the demand. The [*Handling Unit Editor*](Menu) window provides you with an overview of the products in stock.
+Product planning is used to define what should happen automatically when an order is placed for a product whose inventory level is running low. A product can be a single finished product or consist of several components (see also: [Bill of Materials](Create_BOM)). In the event that the demand for the product or the individual components cannot be covered (completely), the product planning data specify whether new goods are to be **purchased** or **manufactured** in order to replenish the stocks and cover the demand. The [*Handling Unit Editor*](Menu) window provides you with an overview of the products in stock.
 
 In addition, metasfresh's [*material schedule*](Material_schedule_basics) uses the product planning data to automatically monitor which products are in stock, have to be purchased or manufactured and then also automatically creates purchase orders or manufacturing orders.
 
@@ -38,6 +38,10 @@ In addition, metasfresh's [*material schedule*](Material_schedule_basics) uses t
 1. Tick the checkbox **Complete Document** if the manufacturing order should be completed automatically.
 1. Set the field **Manufactured** to *Yes*.
 1. [metasfresh saves the progress automatically](Saveindicator).
+
+    | **Note:** |
+    | :--- |
+    | When completing a [sales order](SalesOrder_recording) for a product that is configured for manufacturing using planning data, a [manufacturing order](NewManufacturingOrder) is automatically created to meet demand and linked to the sales order. |
 
 ## Next Steps (optional)
 - [Create automatic order checkup documents for controlled order processing](Automatic_order_checkup).

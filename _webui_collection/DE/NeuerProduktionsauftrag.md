@@ -2,6 +2,7 @@
 title: Wie lege ich einen Produktionsauftrag an?
 layout: default
 tags:
+  - Workflow
   - Produktion
 lang: de
 sequence: 10
@@ -20,4 +21,4 @@ ref: newmanufacturingorder
 1. [Stelle den Beleg fertig](BelegverarbeitungFertigstellen).
 
 ## Beispiel
-![](assets/NeuerProduktionsauftrag.gif)
+<kbd><img src="assets/NeuerProduktionsauftrag.gif" alt="GIF: Produktionsauftrag anlegen"></kbd>

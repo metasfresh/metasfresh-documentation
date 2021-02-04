@@ -2,6 +2,7 @@
 title: How do I create a manufacturing order?
 layout: default
 tags:
+  - Workflow
   - Manufacturing
 lang: en
 sequence: 10
@@ -20,4 +21,4 @@ ref: newmanufacturingorder
 1. [Complete the order](DocumentProcessingComplete).
 
 ## Example
-![](assets/NewManufacturingOrder.gif)
+<kbd><img src="assets/NewManufacturingOrder.gif" alt="GIF: How to create a manufacturing order"></kbd>
