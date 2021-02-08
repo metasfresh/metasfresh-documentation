@@ -37,6 +37,9 @@ Zusätzlich überprüft die [*Materialdisposition*](Materialdisposition_Grundlag
 1. Setze ein Häkchen bei **Beleg erstellen**, wenn das Produkt und seine Stücklistenbestandteile von der Materialdisposition berücksichtigt und Produktionsaufträge automatisch erzeugt werden sollen.
 1. Setze ein Häkchen bei **Beleg fertigstellen**, wenn der Produktionsauftrag automatisch fertiggestellt werden soll.
 1. Setze das Feld **Wird produziert** auf *Ja*.
+1. ***Optional:*** Gib eine **Max. Menge pro Produktionsauftrag** ein, z.B. um die Rückverfolgung bestimmter Produktionsbestandteile zu gewährleisten.
+ >**Hinweis:** Bleibt das Feld leer oder enthält einen Wert &#8924; 0, so gibt es keine Mengenbegrenzung.
+
 1. [metasfresh speichert automatisch](Speicheranzeige).
 
     | **Hinweis:** |

@@ -37,6 +37,9 @@ In addition, metasfresh's [*material schedule*](Material_schedule_basics) uses t
 1. Tick the checkbox **Create Plan** if the product and its BOM components should be monitored by the material schedule and manufacturing orders be created automatically.
 1. Tick the checkbox **Complete Document** if the manufacturing order should be completed automatically.
 1. Set the field **Manufactured** to *Yes*.
+1. ***Optional:*** Enter a **Max. quantity per manufacturing order**, e.g., to ensure the traceability of certain manufacturing components.
+ >**Note:** If the field remains empty or contains a value &#8924; 0, there is no limit on quantity.
+
 1. [metasfresh saves the progress automatically](Saveindicator).
 
     | **Note:** |

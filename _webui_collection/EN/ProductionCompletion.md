@@ -86,6 +86,7 @@ The BOM components required for the production are deducted from stock. Adding t
  <kbd><img src="assets/HU_booking_readonly.png" alt="Fig.: HU deduction (read-only)"></kbd>
 
 1. Click "Done" to close the production window.
+1. The manufacturing order now receives the **Planning status** *Fertig* (Completed).
 
 ## Example 2
 <kbd><img src="assets/ProductionCompletion_Consumption.gif" alt="GIF: Production-Completion with consumption (Walkthrough 2)"></kbd>

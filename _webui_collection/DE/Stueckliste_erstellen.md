@@ -29,10 +29,13 @@ ref: create_bom
 1. Wähle einen **Komponententyp** aus, z.B. *Komponente*.
  >**Hinweis:** Das *Co-Produkt* ist ein Nebenerzeugnis aus der Produktion des eigentlichen Fertigproduktes und kann anschließend selbst als Fertigprodukt geführt werden.
 
-1. Gib eine **Menge** an. Um die Menge in Prozent zu erfassen, setze ein Häkchen bei **Ist %** und trage den Betrag in das Feld **% Menge** ein.
+1. Gib eine **Menge** ein. Um die Menge in Prozent zu erfassen, setze ein Häkchen bei **Ist %** und trage den Betrag in das Feld **% Menge** ein.
  >**Hinweis:** Eine Stückliste enthält die Angaben für ein einzelnes Fertigprodukt. Bei Anwendung der Stückliste wird die hier angegebene Menge also mit der jeweils beauftragten Menge multipliziert.
 
-1. Wähle im Feld **Zuteil Methode** *Issue only for what was received* aus, damit nur die tatsächlich verbrauchte Menge des Stücklistenbestandteils erfasst wird.
+1. Wähle eine **Zuteil Methode** aus, wie die verbrauchten Materialien verbucht werden sollen, z.B. *Issue only for what was received* oder *Backflush*.
+ >**Hinweis 1:** Um die Zuteilung zu automatisieren, d.h. nur die tatsächlich verbrauchte Materialmenge abzubuchen, wähle "Issue only for what was received".<br><br>
+ >**Hinweis 2:** Um die Materialmenge pro Stücklistenbestandteil einzeln abzubuchen, wähle "Backflush".
+
 1. Klicke auf "Bestätigen", um das Overlay-Fenster zu schließen und das Bestandteil zur Liste hinzuzufügen.
  >**Hinweis:** Du kannst beliebig viele Bestandteile zur Stückliste hinzufügen.
 

@@ -115,8 +115,10 @@ Hierbei werden die für die Produktion benötigten Stücklistenbestandteile vom 
 
 #### b) Ausgewählte HUs mit Seriennummern verbrauchen
 1. [Starte die Quick-Action](AktionStarten#quick-actions) "Add CUs with Serial Numbers". Es öffnet sich ein Overlay-Fenster.
-1. Trage in das Feld **SerialNo** die Seriennummer der HU ein, die bei der Produktion verbraucht wurde. Mehrere Seriennummern können mittels Zeilenumbrüchen erfasst werden.
-1. Klicke auf "Start", um die HUs hinzuzufügen und das Overlay-Fenster zu schließen.
+1. Trage in das Feld **SerialNo** die Seriennummer der HU ein, die bei der Produktion verbraucht wurde. Mehrere Seriennummern können mittels Zeilenumbrüchen (`⇧ Shift` + `↵ Enter`) erfasst werden.
+1. Klicke auf "Start", um das Overlay-Fenster zu schließen und die seriellen HUs zu generieren.
+1. [Selektiere](AuswahlBelege) die HU, die bei der Produktion verbraucht wurde
+1. [Starte die Quick-Action](AktionStarten#quick-actions) "Komplette HUs hinzufügen".
 
 #### c) HUs automatisch abbuchen (z.B. bei Massenware)
 1. [Starte die Quick-Action](AktionStarten#quick-actions) "Als Quell-HUs wählen".
@@ -128,6 +130,7 @@ Hierbei werden die für die Produktion benötigten Stücklistenbestandteile vom 
     <kbd><img src="assets/HU_booking_readonly.png" alt="Abb.: HU-Abbuchung (schreibgeschützt)"></kbd>
 
 1. Klicke auf "Bestätigen", um das Produktionsfenster zu schließen.
+1. Der Produktionsauftrag erhält nun den **Planstatus** *Fertig*.
 
 ## Beispiel
 <kbd><img src="assets/ProduktionFertigstellung_Verbrauch.gif" alt="GIF: Produktion-Fertigstellung mit Verbrauch (Walkthrough 2)"></kbd>
