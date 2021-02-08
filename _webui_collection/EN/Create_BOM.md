@@ -32,7 +32,10 @@ ref: create_bom
 1. In the field **Qty**, enter a quantity. To record the quantity in percent, tick the checkbox **Is %** and enter the amount in the field **% Qty**.
  >**Note:** A BOM contains the specifications for a single finished product. When the BOM is used, the quantity specified here will be multiplied by the quantity ordered in each case.
 
-1. In the field **Issue Method**, pick *Issue only for what was received* to only record the quantity of the component actually consumed.
+1. Pick an **Issue Method** how to deduct the consumed materials, e.g., *Issue only for what was received* or *Backflush*.
+ >**Note 1:** For automatic issuing, i.e. deducting only the quantity of materials actually consumed, pick "Issue only for what was received".<br><br>
+ >**Note 2:** To deduct the quantity of material per BOM component individually, pick "Backflush".
+
 1. Click "Done" to close the overlay window and add the component to the list.
  >**Note:** You can add any number of components to a BOM.
 
