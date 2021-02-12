@@ -100,6 +100,11 @@ app:
   expose:
     - "8282"
     - "61616"
+  #for accessing the api directly (eg. for debugging or connecting your
+  #app to the metasfresh app server and java client can access rabbitmq) uncomment following lines:
+  #ports:
+  #  - "8282:8282"
+  #  - "6161:6161"  
   restart: always
   volumes:
     - ./volumes/app/log:/opt/metasfresh/log:rw
