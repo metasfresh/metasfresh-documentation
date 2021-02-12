@@ -104,7 +104,7 @@ app:
   #app to the metasfresh app server and java client can access rabbitmq) uncomment following lines:
   #ports:
   #  - "8282:8282"
-  #  - "6161:6161"  
+  #  - "61616:61616"  
   restart: always
   volumes:
     - ./volumes/app/log:/opt/metasfresh/log:rw
