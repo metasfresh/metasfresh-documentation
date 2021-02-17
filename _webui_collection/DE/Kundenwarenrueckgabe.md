@@ -2,10 +2,10 @@
 title: Wie verwalte ich Kundenwarenrückgaben?
 layout: default
 tags:
-  - Verkauf
+  - Kun­den­ser­vice
   - Reklamationen
 lang: de
-sequence: 40
+sequence: 10
 ref: customer_returns
 ---
 

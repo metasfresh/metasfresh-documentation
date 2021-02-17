@@ -2,10 +2,10 @@
 title: How do I handle customer returns?
 layout: default
 tags:
-  - Sales
+  - Customer Service
   - Complaints Handling
 lang: en
-sequence: 40
+sequence: 10
 ref: customer_returns
 ---
 
