@@ -37,4 +37,4 @@ In metasfresh, you can create subsequent debit notes with adjustment charges if,
 1. [Open the PDF preview](PrintPreview).
 
 ## Example
-![](assets/Adjustment_charge_price_difference.gif)
+<kbd><img src="assets/Adjustment_charge_price_difference.gif" alt="GIF: How to create a subsequent debit note in response to price differences after invoicing"></kbd>

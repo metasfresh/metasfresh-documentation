@@ -37,4 +37,4 @@ In metasfresh können Nachbelastungen erstellt werden, wenn sich nach Rechnungss
 1. [Öffne die PDF-Vorschau](PDFVorschau).
 
 ## Beispiel
-![](assets/Nachbelastung_Preisdifferenz.gif)
+<kbd><img src="assets/Nachbelastung_Preisdifferenz.gif" alt="GIF: Nachbelastung bei Preisdifferenzen nach Rechnungsstellung erstellen"></kbd>
