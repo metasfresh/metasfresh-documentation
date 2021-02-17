@@ -22,7 +22,7 @@ Weitere Informationen darüber, wie Du eigenen Text in Belege einfügen kannst, 
  >**Hinweis 2:** Zur einheitlichen Bestimmung von Daten und Terminen auf internationaler Ebene kannst Du die [maßgebende Zeitzone einer Organisation festlegen](Org_Zeitzone_einstellen).
 
 1. Lade ein **Logo** über !["Foto hochladen"](assets/Foto hochladen Button.png) oder !["Foto von Webcam"](assets/Foto Webcam Button.png) hoch.
- >**Hinweis 1:** Das Logo sollte nicht größer als 200x200 Pixel sein, um eine optimale Passform für die Belege zu haben.<br><br>
+ >**Hinweis 1:** Das Logo sollte 2650 x 300px Pixel groß sein, um eine optimale Passform für die Belege zu haben.<br><br>
  >**Hinweis 2:** Um das Foto wieder zu entfernen, klicke einfach auf !["Zurücksetzen"](assets/Foto entfernen Button.png).
 
 1. Wähle eine **Sprache** aus.
