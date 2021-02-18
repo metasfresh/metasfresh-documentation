@@ -46,7 +46,7 @@ Manchmal kann es vorkommen, dass Kunden defekte Produkte reklamieren und zur Rep
 
 ### Serviceannahme fertigstellen
 1. [Stelle den Beleg fertig](BelegverarbeitungFertigstellen).
-1. Es wird ein neuer Vorgang zu dieser Serviceannahme angelegt, der nun zur Prüfung und Freigabe durch eine verantwortliche Person bereitliegt.
+1. Es wird automatisch ein neuer Vorgang zu dieser Serviceannahme angelegt, der nun zur Prüfung und Freigabe durch eine verantwortliche Person bereitliegt.
 
 ## Nächste Schritte
 1. [Springe über die verknüpften Belege](SpringezuBelegen) in das Fenster "Vorgänge" (unter CRM in der Sidebar) und öffne dort den bereits [herausgefilterten](Filterfunktion) Vorgang.

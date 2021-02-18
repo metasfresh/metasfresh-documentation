@@ -21,6 +21,15 @@ Wenn Du in einem Fenster nach ganz bestimmten Einträgen suchst (wie z.B. nach [
 
 1. Um die Suchfelder wieder zu leeren, klicke auf ![](assets/Filter_nach_X.png) und dann auf ![](assets/Clear_filter.png) in der oberen rechten Ecke der Filtermaske.
 
+### Nach "Aktiv"-Status filtern
+Manche Einträge können auch anhand von "Aktiv"-Status gefiltert werden, d.h. ob eine Eigenschaft aktiv oder inaktiv ist. Beispielsweise kannst Du im Fenster "[Anrufliste](Anrufplanung_Anrufe_filtern)" die Einträge nach erteilten und ***nicht*** erteilten Aufträgen sowie nach getätigten und ***nicht*** getätigten Anrufen filtern.
+
+| Option | Kontrollkästchen |
+| :--- | :---: |
+| Klicke ein Mal auf das Kontrollkästchen, um es zu aktivieren und nach Einträgen zu suchen, bei denen diese Eigenschaft aktiviert ist. | ![](assets/Checkbox_activated_tick.png) |
+| Klicke ein zweites Mal darauf, um nach Einträgen zu suchen, bei denen diese Eigenschaft ***nicht*** aktiviert ist. | ![](assets/Checkbox_activated_empty.png) |
+| Klicke auf `(clear)` rechts neben dem aktivierten Kontrollkästchen, um es wieder zu deaktivieren. | ![](assets/Checkbox_clear_tick.png)<br><br> ![](assets/Checkbox_clear.png) |
+
 ## Nächste Schritte (optional)
 - [Verwende die Umkreissuche, um die Ergebnisse beim Filtern von Einträgen auf einen bestimmten geografischen Bereich einzuschränken](Umkreissuche_Geocoding).
 - [Lege benutzerdefinierte Filter an](Benutzerdefinierte_Filter_anlegen).

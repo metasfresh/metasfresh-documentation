@@ -7,7 +7,6 @@ tags:
 lang: de
 sequence: 20
 ref: service_repair_project_start
-published: false
 ---
 
 ## Überblick
@@ -18,46 +17,30 @@ Ein Reparaturprojekt in metasfresh beinhaltet alle für die Reparatur notwendige
 1. [Springe über die verknüpften Belege](SpringezuBelegen) der Serviceannahme in das Fenster "Vorgänge" (unter CRM in der Sidebar) und öffne dort den bereits [herausgefilterten](Filterfunktion) Vorgang.
 
 ## Schritte
-1. [Starte die Aktion](AktionStarten#aktionsmenue) "Reparaturprojekt starten". Es öffnet sich in demselben Tab das Fenster "[Reparatur Projekt](Menu)".
-1. Unter der Registerkarte "Reparaturaufgabe" unten auf der Seite (29:58)
 
+### Vorgang prüfen und Projekt starten
+1. [Gehe ins Menü](Menu) und öffne das Fenster "Vorgänge".
+1. [Verwende die Filterfunktion](Filterfunktion), um Dir bei der Suche nach dem gewünschten Vorgang zu helfen, z.B. durch Filtern nach dem **Aufgabentyp** (*Request Type*) *Service Annahme* mit oder ohne **Projekt**.
+1. Öffne den Eintrag des betreffenden Vorganges und prüfe ihn auf seine Vollständigkeit.
+1. [Starte die Aktion](AktionStarten#aktionsmenue) "Reparaturprojekt starten". Es öffnet sich in demselben Tab das Fenster "[Service/Reparatur Projekt](Menu)".
+1. Gehe zur Registerkarte "Reparaturaufgabe" unten auf der Seite. Hier kannst Du die verschiedenen Arten der zu tätigenden Aufgaben einsehen, z.B. *Reparaturauftrag* oder *Ersatzteile*.
 
+### Reparaturauftrag erstellen
+1. [Selektiere](AuswahlBelege) eine Aufgabenzeile der **Art** *Reparaturauftrag*.
+1. [Starte die Aktion](AktionStarten#aktionsmenue) "Reparaturauftrag erstellen".
+1. Es wird ein Reparaturauftrag mit dem Status *In Arbeit* erstellt und in der Spalte **Reparaturauftrag** der Aufgabenzeile mit dem Projekt verknüpft. [Zoome](Zoomen_in_Tabellenfeld) in das Feld, um den Auftrag zu öffnen.
+ >**Hinweis:** Ein Reparaturauftrag ist ein Produktionsauftrag mit der Belegart *Reparaturauftrag*.
 
+1. Im Eintrag des Reparaturauftrages kannst Du alle benötigten Arbeitsaufwände erfassen.
 
-
-
-
-### Daten der Serviceannahme erfassen.
-1. [Gehe ins Menü](Menu) und öffne das Fenster "Service Annahme".
-1. [Erstelle einen neuen Eintrag](Neuer_Datensatz_Fenster_Webui).
-1. Gib in das Feld **Kunde** einen Teil des Namens oder der Nummer des [Kunden](Neuer_Geschaeftspartner_Kunde) ein, der ein Produkt zur Reparatur zurückgesendet hat, und klicke auf den passenden Treffer in der <a href="Keyboard_Shortcuts_Liste#dropdown" title="Dynamisches Suchfeld (Autocomplete)">Dropdown-Liste</a>.
-1. Wähle ein **Lager** aus, in dem das re­pa­ra­tur­be­dürf­tige Produkt in Empfang genommen wird.
-1. Wähle die **Belegart** *Service Annahme* aus.
-1. ***Optional:*** Gib in das Feld **Auftrag** einen Teil der Nummer des [Auftrages](Auftrag_erfassen) ein, über den das Produkt verkauft wurde, und klicke auf den passenden Treffer in der <a href="Keyboard_Shortcuts_Liste#dropdown" title="Dynamisches Suchfeld (Autocomplete)">Dropdown-Liste</a>.
-
-### Zurückgesendete Produkte erfassen
-1. [Starte die Aktion](AktionStarten#aktionsmenue) "HU für Retoure auswählen". Es öffnet sich ein Overlay-Fenster.
-1. ***Optional:*** [Verwende die Filterfunktion](Filterfunktion), um Dir bei der Suche nach einer ganz bestimmten HU zu helfen, z.B. per Barcode.
-1. [Selektiere](AuswahlBelege) die HU, die Du als Retoure erfassen möchtest.
-1. [Starte die Quick-Action](AktionStarten#quick-actions) "Auswählen", um die HU zur Liste hinzuzufügen.
- >**Hinweis:** Die HUs lassen sich nur einzeln auswählen. Wiederhole die Schritte 2 bis 4, um weitere HUs hinzuzufügen.
-
-1. Klicke auf "Bestätigen", um das Overlay-Fenster zu schließen.
-1. Die erfassten HUs werden unter der Registerkarte "Position" unten auf der Seite aufgelistet.
-
-### Ersatzteile für Reparatur hinzufügen
-1. [Starte die Aktion](AktionStarten#aktionsmenue) "Ersatzteile hinzufügen". Es öffnet sich ein Overlay-Fenster.
-1. Wähle das **Produkt** aus, welches als Ersatzteil hinzugefügt werden soll.
- >**Hinweis:** Die Felder **Maßeinheit** und **Menge** werden automatisch mit den Werten aus der Stückliste des retournierten Produktes ausgefüllt.
-
-1. Ändere die **Maßeinheit** und/oder **Menge** je nach Bedarf.
-1. Klicke auf "Start", um das Overlay-Fenster zu schließen und die Ersatzteile zur Liste hinzuzufügen.
-1. Die erfassten Ersatzteile werden ebenfalls unter der Registerkarte "Position" unten auf der Seite aufgelistet.
-
-### Serviceannahme fertigstellen
-1. [Stelle den Beleg fertig](BelegverarbeitungFertigstellen).
-1. Es wird ein neuer Vorgang zu dieser Serviceannahme erstellt, der nun zur Prüfung und Freigabe durch eine verantwortliche Person bereitliegt.
+### Ersatzteile reservieren
+1. [Selektiere](AuswahlBelege) eine Aufgabenzeile der **Art** *Ersatzteile*.
+1. [Starte die Aktion](AktionStarten#aktionsmenue) "Ersatzteile reservieren". Es öffnet sich ein Overlay-Fenster, der "Handling Unit Editor".
+1. [Selektiere](AuswahlBelege) eine HU-Zeile der zu reservierenden Ersatzteile und starte die Quick-Action "Reservieren". Es öffnet sich ein Overlay-Fenster.
+1. Gib eine **Menge** ein.
+1. Klicke auf "Start", um die Ersatzteile zu reservieren und das Overlay-Fenster zu schließen.
+1. Klicke auf "Bestätigen", um den "Handling Unit Editor" zu schließen.
 
 ## Nächste Schritte
-1. [Springe über die verknüpften Belege](SpringezuBelegen) in das Fenster "Vorgänge" (unter CRM in der Sidebar) und öffne dort den bereits [herausgefilterten](Filterfunktion) Vorgang.
-1. Starte ein Reparaturprojekt nach erfolgreicher Prüfung.
+1. Erfasse die benötigten Arbeitsaufwände im Reparaturauftrag.
+1. Erstelle ein Angebot über die erbrachten Reparaturleistungen.
