@@ -23,7 +23,7 @@ By means of the [filtering function](Filtering_function) you can quickly gain an
 
 ### Filter the phone call schedule
 Open "Phone Call Schedule" from the [menu](Menu) and [use the filter](Filtering_function) to find specific entries in the phone call schedule more quickly. Besides the usual search items, you can also filter the schedules by:
-- entries with and ***without*** sales orders, as well as for
+- entries with and ***without*** sales orders, as well as by
 - entries with called contacts and ***calls yet to be made***.
 
 | Option | Checkbox |

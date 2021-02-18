@@ -22,7 +22,7 @@ For additional information on how to place manual text on documents, please see 
  >**Note 2:** For a consistent calculation of dates and times at an international level, you can set the [reference time zone for an organization](Org_time_zone_setting).
 
 1. Upload an image as your **Logo** via !["Upload a photo"](assets/Upload photo button.png) or !["Take from camera"](assets/Webcam button.png).
- >**Note 1:** The logo shall not be larger than 200x200 pixels to fit nicely on the documents.<br><br>
+ >**Note 1:** The logo dimensions should be 2650 x 300 pixels to fit nicely on the documents.<br><br>
  >**Note 2:** To remove the image, simply click !["Clear"](assets/Remove photo button.png).
 
 1. Pick a **Language**.
@@ -40,4 +40,4 @@ For additional information on how to place manual text on documents, please see 
 | You can also look up the complete business partner entry with your company details under "[Businesspartner Dist-Orgs](Menu)" in the menu. |
 
 ## Example
-![](assets/InitialSetupWizard.png)
+<kbd><img src="assets/InitialSetupWizard.png" alt="Abb.: Initial Setup Wizard"></kbd>

@@ -21,6 +21,15 @@ If you are searching for specific entries in a window (such as [business partner
 
 1. To empty the search fields, click ![](assets/Filter_by_X.png) and then click ![](assets/Clear_filter.png) in the top right-hand corner of the filter mask.
 
+### Filter by "Active" status
+Some entries can also be filtered by "Active" status, i.e. whether a property is active or inactive. For example, in the "[Phone Call Schedule](Phone_call_scheduling_filtering)" window, you can filter by entries with and ***without*** sales orders, as well as by entries with called contacts and ***calls yet to be made***.
+
+| Option | Checkbox |
+| :--- | :---: |
+| Click once on the checkbox to activate it and search for entries where this property is activated. | ![](assets/Checkbox_activated_tick.png) |
+| Click on it a second time to search for entries where this property is ***not*** activated. | ![](assets/Checkbox_activated_empty.png) |
+| Click on `(clear)` on the right-hand side of the activated checkbox to deactivate it. | ![](assets/Checkbox_clear_tick.png)<br><br> ![](assets/Checkbox_clear.png) |
+
 ## Next Steps (optional)
 - [Use the area search to limit the results when filtering entries to a specific geographical area](Area_search_geocoding).
 - [Create custom filters](Create_custom_filters).
