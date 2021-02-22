@@ -23,6 +23,16 @@ ref: create_bom
 1. ***Optional:*** Set a **Valid from** date.
  >**Note:** If this date lies in the *past*, the BOM will be effective *immediately*. If it lies in the *future*, it will only apply *from that date*.
 
+1. ***Optional:*** Pick a **Serial No. Sequence**. To do so, enter a part of the [document sequence](Define_new_doc_sequence) name and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
+ >**Note:** The [product category](NewProductCategory) must be linked to an **Attribute Set** where the attribute *serial number* is defined.
+
+#### <a name="spare-parts-bom">Special Case: Spare Parts BOM (for repair service returns)</a>
+- Pick the **BOM Type** *Spare Parts*.
+
+| **Tip:** |
+| :--- |
+| [Clone the entry of a manufacturing BOM](clone_record_window) and then remove all unnecessary components from the record tab "Components of the BOM & Formula". Just make sure that the **Search Keys** are different when cloning. |
+
 ### Add BOM components
 1. Go to the record tab "Components of the BOM & Formula" at the bottom of the page and click !["Add new"](assets/Add_New_Button.png). An overlay window opens up.
 1. In the field **Product**, enter a part of the name or number of the [product](NewProduct) you want to add as a component to the BOM and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>, e.g., "Body" or "Strings".

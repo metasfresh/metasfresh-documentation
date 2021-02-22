@@ -19,7 +19,8 @@ metasfresh bietet zwei Möglichkeiten, den Materialverbrauch bei der Produktion 
 -->
 
 ## Voraussetzungen
-- Vergewissere Dich vor der Produktion, dass die benötigten Produktionsbestandteile in ausreichender Menge für den Verbrauch auf Lager sind. Um den Bestand aufzufüllen, kannst Du einen [Wareneingang erstellen](Zu_Bestellung_Wareneingang_erstellen).
+1. [Erfasse einen Produktionsauftrag](NeuerProduktionsauftrag) für das Fertigungsprodukt und [stelle ihn fertig](BelegverarbeitungFertigstellen).
+1. Vergewissere Dich vor der Produktion, dass die benötigten Produktionsbestandteile in ausreichender Menge für den Verbrauch auf Lager sind. Um den Bestand aufzufüllen, kannst Du einen [Wareneingang erstellen](Zu_Bestellung_Wareneingang_erstellen).
 
 ## Schritte
 1. Öffne den Eintrag eines [fertiggestellten Produktionsauftrags](NeuerProduktionsauftrag).
@@ -81,7 +82,12 @@ Dies ist die einfachste Möglichkeit in metasfresh zu produzieren. Hierbei wird 
 
 -->
 
-### Verbrauchte Produktionsbestandteile erfassen
+#### HUs mit Seriennummern manuell erfassen (optional)
+1. [Selektiere](AuswahlBelege) im Produktionsfenster die HU, dessen Seriennummer Du erfassen möchtest.
+1. Gib auf der rechten Seite unter "Merkmale" in das Feld **SerialNo** die Seriennummer der HU ein.
+1. [metasfresh speichert automatisch](Speicheranzeige).
+
+### <a name="produktionsverbrauch">Verbrauchte Produktionsbestandteile erfassen</a>
 
 <!--
 
@@ -122,7 +128,13 @@ Hierbei werden die für die Produktion benötigten Stücklistenbestandteile vom 
 
 #### c) HUs automatisch abbuchen (z.B. bei Massenware)
 1. [Starte die Quick-Action](AktionStarten#quick-actions) "Als Quell-HUs wählen".
-1. Die HU wird nun am Ende der Liste als schreibgeschützte Zeile hinzugefügt und die jeweils verbrauchte Menge der Produktionsbestandteile bei Verarbeitung des Produktionsauftrages automatisch vom Lager abgebucht.
+1. Die HU wird nun am Ende der Liste als schreibgeschützte Zeile hinzugefügt.
+1. [Selektiere](AuswahlBelege) die Zeile des Produktionsbestandteils, für das Du eine Quell-HU hinzugefügt hast.
+1. [Starte die Quick-Action](AktionStarten#quick-actions) "CUs aus Quell-HUs hinzufügen". Es öffnet sich ein Overlay-Fenster.
+1. Gib eine **Menge CU/TU** ein.
+1. Klicke auf "Start", um das Overlay-Fenster zu schließen und die angegebene Menge der Produktionsbestandteile zuzuteilen.
+1. ***Optional:*** [Selektiere](AuswahlBelege) die Zeile der zugeteilten Produktionsbestandteile und [starte die Quick-Action](AktionStarten#quick-actions) "HU entfernen", um die Zuteilung rückgängig zu machen.
+1. ***Optional:*** [Selektiere](AuswahlBelege) die Zeile der Quell-HU und [starte die Quick-Action](AktionStarten#quick-actions) "Soll keine Quell-HU mehr sein", um die HU wieder aus der Liste zu entfernen.
 
 ### Produktionsauftrag verarbeiten und Bestandsbuchungen auslösen
 1. [Starte die Quick-Action](AktionStarten#quick-actions) "Verarbeiten", um die Abbuchung vorzunehmen. Dadurch werden die Zeilen schreibgeschützt:

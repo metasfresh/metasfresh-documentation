@@ -17,11 +17,21 @@ ref: create_bom
 1. Gib in das Feld **Produkt** einen Teil des Namens oder der Nummer des [Produktes](NeuesProdukt) ein, für das Du eine Stückliste erstellen möchtest, und klicke auf den passenden Treffer in der <a href="Keyboard_Shortcuts_Liste#dropdown" title="Dynamisches Suchfeld (Autocomplete)">Dropdown-Liste</a>, z.B. "Gitarre".
 1. Stelle sicher, dass der **Suchschlüssel** der Stückliste und die Artikelnummer des Produktes ***miteinander identisch*** sind.
 1. Wähle im Feld **Verwendung** *Produktion* aus.
- >**Hinweis:** Für Handelsstücklisten für Fertigprodukte, deren Bestandteile nicht produziert, aber im Auftrag einzeln aufgeführt werden, wähle *Phantom* aus.
+ >**Hinweis:** Für Handelsstücklisten für Fertigprodukte, deren Bestandteile nicht produziert, aber im Auftrag einzeln aufgeführt werden sollen, wähle *Phantom* aus.
 
 1. ***Optional:*** Vergib im Feld **Nr.** eine benutzerdefinierte Belegnummer.
 1. ***Optional:*** Stelle ein **Gültig ab** Datum ein.
  >**Hinweis:** Liegt das Datum in der *Vergangenheit*, ist die Stückliste *ab sofort* gültig. Liegt es in der *Zukunft*, gilt sie *erst ab diesem Datum*.
+
+1. ***Optional:*** Wähle eine **Nummernfolge für Seriennummer** aus. Gib dazu einen Teil des Namens der [Belegnummerierung](Belegnummern_definieren) ein und klicke auf den passenden Treffer in der <a href="Keyboard_Shortcuts_Liste#dropdown" title="Dynamisches Suchfeld (Autocomplete)">Dropdown-Liste</a>.
+ >**Hinweis:** Hierzu muss die [Produktkategorie](NeueProduktkategorie) mit einem **Merkmalssatz** verknüpft sein, in dem das Attribut *Seriennummer* definiert ist.
+
+#### <a name="ersatzteilstueckliste">Sonderfall: Ersatzteilstückliste (für re­pa­ra­tur­be­dürf­tige Retouren)</a>
+- Wähle die **Stücklisten-Zugehörigkeit** *Ersatzteile* aus.
+
+| **Tipp:** |
+| :--- |
+| [Klone den Eintrag einer Produktionsstückliste](Klonen_Datensatz_Fenster) und entferne anschließend alle unnötigen Bestandteile aus der Registerkarte "Stücklistenbestandteile". Beachte beim Klonen lediglich, dass die **Suchschlüssel** unterschiedlich sind. |
 
 ### Stücklistenbestandteile hinzufügen
 1. Gehe zur Registerkarte "Stücklistenbestandteile" unten auf der Seite und klicke auf !["Neu hinzufügen"](assets/Neu_hinzufuegen_Button.png). Es öffnet sich ein Overlay-Fenster.
