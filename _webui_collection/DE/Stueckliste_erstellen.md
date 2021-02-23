@@ -26,12 +26,12 @@ ref: create_bom
 1. ***Optional:*** Wähle eine **Nummernfolge für Seriennummer** aus. Gib dazu einen Teil des Namens der [Belegnummerierung](Belegnummern_definieren) ein und klicke auf den passenden Treffer in der <a href="Keyboard_Shortcuts_Liste#dropdown" title="Dynamisches Suchfeld (Autocomplete)">Dropdown-Liste</a>.
  >**Hinweis:** Hierzu muss die [Produktkategorie](NeueProduktkategorie) mit einem **Merkmalssatz** verknüpft sein, in dem das Attribut *Seriennummer* definiert ist.
 
-#### <a name="ersatzteilstueckliste">Sonderfall: Ersatzteilstückliste (für re­pa­ra­tur­be­dürf­tige Retouren)</a>
+#### <a name="ersatzteilstueckliste">Sonderfall: Ersatzteilstückliste</a> (für [re­pa­ra­tur­be­dürf­tige Retouren](Reparaturen_Service_Annahme))
 - Wähle die **Stücklisten-Zugehörigkeit** *Ersatzteile* aus.
 
 | **Tipp:** |
 | :--- |
-| [Klone den Eintrag einer Produktionsstückliste](Klonen_Datensatz_Fenster) und entferne anschließend alle unnötigen Bestandteile aus der Registerkarte "Stücklistenbestandteile". Beachte beim Klonen lediglich, dass die **Suchschlüssel** unterschiedlich sind. |
+| [Klone den Eintrag einer Produktionsstückliste](Klonen_Datensatz_Fenster) und entferne anschließend alle unnötigen Bestandteile aus der Registerkarte "Stücklistenbestandteile". Achte beim Klonen lediglich darauf, dass die **Suchschlüssel** unterschiedlich sind. |
 
 ### Stücklistenbestandteile hinzufügen
 1. Gehe zur Registerkarte "Stücklistenbestandteile" unten auf der Seite und klicke auf !["Neu hinzufügen"](assets/Neu_hinzufuegen_Button.png). Es öffnet sich ein Overlay-Fenster.
