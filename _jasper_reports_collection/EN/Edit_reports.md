@@ -8,6 +8,9 @@ sequence: 10
 ref: edit_reports
 ---
 
+## Precondition
+Make sure your Jasper Studio has Version 6.5.1. 
+
 ## Index
 <ol type="I">
  <li><a href="#changing-the-sql" title="Changing the SQL">Changing the SQL</a></li>
