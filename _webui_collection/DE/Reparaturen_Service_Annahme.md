@@ -10,7 +10,7 @@ ref: service_repair_customer_return
 ---
 
 ## Überblick
-Manchmal kann es vorkommen, dass Kunden defekte Produkte reklamieren und zur Reparatur zurücksenden, um anschließend (ggf. auf Kulanz) ein funktionsfähiges Produkt zurückzuerhalten. In metasfresh können solche Fälle über die Serviceannahme abgewickelt und Reparaturen inkl. Ersatzteilen, Serviceleistungen usw. im Rahmen von Produktionsaufträgen durchgeführt werden.
+Manchmal kann es vorkommen, dass Kunden defekte Produkte reklamieren und zur Reparatur zurücksenden, um anschließend (ggf. auf Kulanz) ein funktionsfähiges Produkt zurückzuerhalten. In metasfresh können solche Fälle über die Serviceannahme abgewickelt und Reparaturen inkl. Zubehörteilen, Serviceleistungen usw. im Rahmen von Produktionsaufträgen durchgeführt werden.
 
 <kbd><img src="assets/Service Annahme bis Angebot (Reparaturprozess).png" alt="Abb.: Serviceannahme bis Angebot (Reparaturprozess)"></kbd>
 
@@ -41,18 +41,18 @@ Manchmal kann es vorkommen, dass Kunden defekte Produkte reklamieren und zur Rep
 1. Klicke auf "Bestätigen", um das Overlay-Fenster zu schließen.
 1. Die erfassten HUs werden unter der Registerkarte "Position" unten auf der Seite aufgelistet.
 
-### Ersatzteile für Reparatur hinzufügen
+### Zubehörteile für Reparatur hinzufügen
 
 | **Hinweis:** |
 | :--- |
-| Die Ersatzteile eines Fertigungsproduktes müssen separat in einer <a href="Stueckliste_erstellen#ersatzteilstueckliste" title="Ersatzteilstückliste erstellen">Ersatzteilstückliste</a> erfasst werden, zusätzlich zur [Produktionsstückliste](Stueckliste_erstellen), welche alle für die Produktion benötigten Bestandteile (materiell sowie immateriell, wie z.B. Dienstleistungen) enthält. |
+| Die Zubehörteile eines Fertigungsproduktes müssen separat in einer <a href="Stueckliste_erstellen#zubehörteilstueckliste" title="Zubehörteilstückliste erstellen">Zubehörteilstückliste</a> erfasst werden, zusätzlich zur [Produktionsstückliste](Stueckliste_erstellen), welche alle für die Produktion benötigten Bestandteile (materiell sowie immateriell, wie z.B. Dienstleistungen) enthält. |
 
-1. [Starte die Aktion](AktionStarten#aktionsmenue) "Ersatzteile hinzufügen". Es öffnet sich ein Overlay-Fenster.
-1. Wähle das **Produkt** aus, welches als Ersatzteil hinzugefügt werden soll.
- >**Hinweis:** Die Felder **Maßeinheit** und **Menge** werden automatisch mit den Werten aus der Ersatzteilstückliste des retournierten Produktes ausgefüllt.
+1. [Starte die Aktion](AktionStarten#aktionsmenue) "Zubehörteile hinzufügen". Es öffnet sich ein Overlay-Fenster.
+1. Wähle das **Produkt** aus, welches als Zubehörteil hinzugefügt werden soll.
+ >**Hinweis:** Die Felder **Maßeinheit** und **Menge** werden automatisch mit den Werten aus der Zubehörteilstückliste des retournierten Produktes ausgefüllt.
 
 1. Ändere die **Maßeinheit** und/oder **Menge** je nach Bedarf.
-1. Klicke auf "Start", um das Overlay-Fenster zu schließen und die Ersatzteile zur Liste unter der Registerkarte "Position" unten auf der Seite hinzuzufügen.
+1. Klicke auf "Start", um das Overlay-Fenster zu schließen und die Zubehörteile zur Liste unter der Registerkarte "Position" unten auf der Seite hinzuzufügen.
 
 ### Serviceannahme fertigstellen
 1. [Stelle den Beleg fertig](BelegverarbeitungFertigstellen).
