@@ -23,7 +23,7 @@ Ein Reparaturprojekt in metasfresh beinhaltet alle für die Reparatur notwendige
 1. [Verwende die Filterfunktion](Filterfunktion), um Dir bei der Suche nach dem gewünschten Vorgang zu helfen, z.B. durch Filtern nach dem **Aufgabentyp** (*Request Type*) *Service Annahme* mit oder ohne **Projekt**.
 1. Öffne den Eintrag des betreffenden Vorganges und prüfe ihn auf seine Vollständigkeit.
 1. [Starte die Aktion](AktionStarten#aktionsmenue) "Reparaturprojekt starten". Es öffnet sich ein neuer Browser-Tab mit dem "[Service/Reparatur Projekt](Menu)".
-1. Gehe zur Registerkarte "Reparaturaufgabe" unten auf der Seite. Hier kannst Du die verschiedenen Arten der zu tätigenden Aufgaben einsehen, z.B. *Reparaturauftrag* oder *Ersatzteile*.
+1. Gehe zur Registerkarte "Reparaturaufgabe" unten auf der Seite. Hier kannst Du die verschiedenen Arten der zu tätigenden Aufgaben einsehen, z.B. *Reparaturauftrag* oder *Zubehörteile*.
 1. ***Optional:*** Klicke auf !["Neu hinzufügen"](assets/Neu_hinzufuegen_Button.png), um weitere Aufgaben zu erfassen oder [selektiere](AuswahlBelege) bestimmte Aufgabenzeilen, um sie zu löschen (`Alt` + `Y` / `⌥ alt` + `Y`).
 
 ### Reparaturauftrag erstellen
@@ -34,15 +34,15 @@ Ein Reparaturprojekt in metasfresh beinhaltet alle für die Reparatur notwendige
 
 1. Im Eintrag des Reparaturauftrages kannst Du alle benötigten [Arbeitsaufwände erfassen](Produktionsauftrag_Aufwand_erfassen).
 
-### Ersatzteile reservieren
-1. [Selektiere](AuswahlBelege) eine Aufgabenzeile der **Art** *Ersatzteile*.
-1. [Starte die Aktion](AktionStarten#aktionsmenue) "Ersatzteile reservieren". Es öffnet sich ein Overlay-Fenster, der "Handling Unit Editor".
-1. [Selektiere](AuswahlBelege) eine HU-Zeile der zu reservierenden Ersatzteile und starte die Quick-Action "Reservieren". Es öffnet sich ein Overlay-Fenster.
+### Zubehörteile reservieren
+1. [Selektiere](AuswahlBelege) eine Aufgabenzeile der **Art** *Zubehörteile*.
+1. [Starte die Aktion](AktionStarten#aktionsmenue) "Zubehörteile reservieren". Es öffnet sich ein Overlay-Fenster, der "Handling Unit Editor".
+1. [Selektiere](AuswahlBelege) eine HU-Zeile der zu reservierenden Zubehörteile und starte die Quick-Action "Reservieren". Es öffnet sich ein Overlay-Fenster.
 1. Gib eine **Menge** ein.
-1. Klicke auf "Start", um die Ersatzteile zu reservieren und das Overlay-Fenster zu schließen.
+1. Klicke auf "Start", um die Zubehörteile zu reservieren und das Overlay-Fenster zu schließen.
 1. Klicke auf "Bestätigen", um den "Handling Unit Editor" zu schließen.
-1. Die Aufgabenzeile der **Art** *Ersatzteile* hat nun den **Status** *Abgeschlossen*.
-1. ***Optional:*** [Starte die Aktion](AktionStarten#aktionsmenue) "Reservierte Ersatzteile stornieren", um die Ersatzteilreservierung rückgängig zu machen und den Status der Aufgabenzeile zurück auf *in Arbeit* zu ändern.
+1. Die Aufgabenzeile der **Art** *Zubehörteile* hat nun den **Status** *Abgeschlossen*.
+1. ***Optional:*** [Starte die Aktion](AktionStarten#aktionsmenue) "Reservierte Zubehörteile stornieren", um die Zubehörteilreservierung rückgängig zu machen und den Status der Aufgabenzeile zurück auf *in Arbeit* zu ändern.
 
 ## Nächste Schritte
 1. [Erfasse die benötigten Arbeitsaufwände und verbrauchten Produktionsbestandteile im Reparaturauftrag](Produktionsauftrag_Aufwand_erfassen).
