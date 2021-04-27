@@ -44,4 +44,4 @@ See original issue comment: https://github.com/metasfresh/me03/issues/7137#issue
     - `E_Equals Or Like`
     - `N_Not Null`
 
-  <kbd><a href="https://user-images.githubusercontent.com/73820536/108999453-fca32400-76aa-11eb-9592-d02ef506a562.png" title="Click to enlarge" target="\_blank"><img src="https://user-images.githubusercontent.com/73820536/108999453-fca32400-76aa-11eb-9592-d02ef506a562.png" alt="Filter operator options" style="max-width:450px"></a></kbd>
+    <kbd><a href="https://user-images.githubusercontent.com/73820536/108999453-fca32400-76aa-11eb-9592-d02ef506a562.png" title="Click to enlarge" target="\_blank"><img src="https://user-images.githubusercontent.com/73820536/108999453-fca32400-76aa-11eb-9592-d02ef506a562.png" alt="Filter operator options" style="max-width:450px"></a></kbd>

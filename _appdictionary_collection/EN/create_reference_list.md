@@ -47,7 +47,7 @@ See original issue comment: https://github.com/metasfresh/me03/issues/6978#issue
     - In the field **Reference**, pick *List*.
     - In the field **Reference Key**, pick the name of the list you created in **step 2** above.
 
-  <kbd><a href="https://user-images.githubusercontent.com/73820536/108060069-0ef3e100-705f-11eb-968e-c84f4a0e1e3d.png" title="Click to enlarge" target="\_blank"><img src="https://user-images.githubusercontent.com/73820536/108060069-0ef3e100-705f-11eb-968e-c84f4a0e1e3d.png" alt="Set column for table"></a></kbd>
+    <kbd><a href="https://user-images.githubusercontent.com/73820536/108060069-0ef3e100-705f-11eb-968e-c84f4a0e1e3d.png" title="Click to enlarge" target="\_blank"><img src="https://user-images.githubusercontent.com/73820536/108060069-0ef3e100-705f-11eb-968e-c84f4a0e1e3d.png" alt="Set column for table"></a></kbd>
 
     In the WebUI this will appear as follows:
 

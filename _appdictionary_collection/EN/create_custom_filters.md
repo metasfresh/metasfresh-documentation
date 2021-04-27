@@ -47,6 +47,4 @@ Let's use a practical example. Assume you want to create a filter for the "Attri
 
     <kbd><a href="https://user-images.githubusercontent.com/15378036/70226875-45935380-175a-11ea-9083-090e6b875989.png" title="Click to enlarge" target="\_blank"><img src="https://user-images.githubusercontent.com/15378036/70226875-45935380-175a-11ea-9083-090e6b875989.png" alt="Fig.: Custom filter 'AttributeValue' (WebUI)"></a></kbd>
 
-    <br>
-
     <kbd><a href="https://user-images.githubusercontent.com/15378036/70226881-4cba6180-175a-11ea-951d-27454d572441.png" title="Click to enlarge" target="\_blank"><img src="https://user-images.githubusercontent.com/15378036/70226881-4cba6180-175a-11ea-951d-27454d572441.png" alt="Fig.: Custom filter 'AttributeValue' open (WebUI)"></a></kbd>
