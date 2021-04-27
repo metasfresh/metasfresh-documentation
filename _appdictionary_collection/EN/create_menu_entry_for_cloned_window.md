@@ -48,8 +48,6 @@ See original issue comment: https://github.com/metasfresh/me03/issues/7548#issue
     | :--- |
     | In order to see the new menu entries on the front end, all you need to do is a cache reset and reload. |
 
-    <br>
-
     | **Special Note #2:** |
     | :--- |
     | **DO NOT** tick the checkbox **Override in Menu** if you want to keep both entries in the menu structure! |
