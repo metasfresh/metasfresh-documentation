@@ -40,9 +40,13 @@ Let's use a practical example. Assume you want to create a filter for the "Attri
 1. Pick the <abbr title="AD_Table_ID">table</abbr> for which you want to use the filter.
 1. Pick the <abbr title="AD_Tab_ID">tab</abbr> where you want the filter results to display.
 1. Enter the filtering code:<br>
-   <kbd><img src="https://user-images.githubusercontent.com/15378036/70225460-c0a73a80-1757-11ea-8a64-d934ac7d89e6.PNG" alt="Custom filter configuration"></kbd>
 
-1. This will result in:<br>
-   <kbd><img src="https://user-images.githubusercontent.com/15378036/70226875-45935380-175a-11ea-9083-090e6b875989.png" alt="Fig.: Custom filter 'AttributeValue'"></kbd>
-   <br><br>
-   <kbd><img src="https://user-images.githubusercontent.com/15378036/70226881-4cba6180-175a-11ea-951d-27454d572441.png" alt="Fig.: Custom filter 'AttributeValue' open"></kbd>
+    <kbd><a href="https://user-images.githubusercontent.com/15378036/70225460-c0a73a80-1757-11ea-8a64-d934ac7d89e6.PNG" title="Click to enlarge" target="\_blank"><img src="https://user-images.githubusercontent.com/15378036/70225460-c0a73a80-1757-11ea-8a64-d934ac7d89e6.PNG" alt="Custom filter configuration"></a></kbd>
+
+1. This will result in:
+
+    <kbd><a href="https://user-images.githubusercontent.com/15378036/70226875-45935380-175a-11ea-9083-090e6b875989.png" title="Click to enlarge" target="\_blank"><img src="https://user-images.githubusercontent.com/15378036/70226875-45935380-175a-11ea-9083-090e6b875989.png" alt="Fig.: Custom filter 'AttributeValue' (WebUI)"></a></kbd>
+
+    <br>
+
+    <kbd><a href="https://user-images.githubusercontent.com/15378036/70226881-4cba6180-175a-11ea-951d-27454d572441.png" title="Click to enlarge" target="\_blank"><img src="https://user-images.githubusercontent.com/15378036/70226881-4cba6180-175a-11ea-951d-27454d572441.png" alt="Fig.: Custom filter 'AttributeValue' open (WebUI)"></a></kbd>

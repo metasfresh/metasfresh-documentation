@@ -11,7 +11,7 @@ ref: quick_actions
 ## Overview
 This guide shows you how to configure a process to be shown in the [quick actions drop-down menu](../../webui_collection/EN/StartAction#quick-actions).
 
-<kbd><img src="assets/quick_actions-8edb4.png" alt="Fig.: Quick action"></kbd>
+<kbd><a href="assets/quick_actions-8edb4.png" title="Click to enlarge" target="\_blank"><img src="assets/quick_actions-8edb4.png" alt="Fig.: Quick action"></a></kbd>
 
 ## Steps
 1. Login to the java back end.

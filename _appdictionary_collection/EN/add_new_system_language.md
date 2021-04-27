@@ -20,10 +20,12 @@ In order to activate translations in the Java Swing Client, please see [here](ac
 1. Tick the checkbox **Active**.
 1. Tick the checkbox **System Language**.
 1. Click "Process Now". An overlay window opens up.
-   <kbd><img src="../../images/Active_System-Language_Process-Now.png" alt="Fig.: Langauge tab: IsActive=Y, IsSystemLanguage=Y, 'Process Now' Button"></kbd>
+
+    <kbd><a href="../../images/Active_System-Language_Process-Now.png" title="Click to enlarge" target="\_blank"><img src="../../images/Active_System-Language_Process-Now.png" alt="Fig.: Langauge tab: IsActive=Y, IsSystemLanguage=Y, 'Process Now' Button"></a></kbd>
 
 1. Pick the **Maintenance Mode** *Add Missing Translations* and click "Start". This will create all missing translations.
-   <kbd><img src="../../images/Maintenance-Mode_Add-Missing-Translations.png" alt="Fig.: Langauge tab: IsActive=Y, IsSystemLanguage=Y, 'Process Now' Button"></kbd>
+
+    <kbd><a href="../../images/Maintenance-Mode_Add-Missing-Translations.png" title="Click to enlarge" target="\_blank"><img src="../../images/Maintenance-Mode_Add-Missing-Translations.png" alt="Fig.: Maintenance Mode 'Add Missing Translations'"></a></kbd>
 
 <br>
 
