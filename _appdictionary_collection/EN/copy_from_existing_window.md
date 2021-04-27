@@ -39,3 +39,6 @@ See also <a href="https://forum.metasfresh.org/t/use-process-for-copy-window/128
 1. Change the zoom to the destination of the table the window is for (e.g. new sales order window needs to be configured on `c_order` table).
 1. Set permissions so you can see it by using either "role access update" or by adding the window manually to your role.
 1. ***Optional:*** You can use "template tabs" to link tabs into the new window instead of duplicating them which solves the problem of maintaining changes coming from metasfresh release in the originating window.
+
+## Next Steps (optional)
+- [Replace the menu entry of the old window with the new cloned one](create_menu_entry_for_cloned_window).
