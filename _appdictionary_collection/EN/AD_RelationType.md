@@ -1,5 +1,5 @@
 ---
-title: Relation Type(AD_RelationType)
+title: Relation Types (AD_RelationType)
 layout: default
 tags:  
   - AD_Elements
@@ -82,7 +82,7 @@ This relation type is needed when we want to display relations between entities 
 
 #### 1. Define a reference type
 1. Give the reference type a **Name**.
-    >**Note:** We recommend using the pattern `source_table -> target_table`
+    >**Note:** We recommend using the pattern `source_table -> target_table`.
 
 1. Tick the checkbox `isDirected` to ensure that the direction of the relation is from source to target.
     >**Note:** If you also want the reverse relation (target to source) you will need to define a separate relation type for it.
