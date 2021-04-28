@@ -16,7 +16,7 @@ See original issue comment: https://github.com/metasfresh/me03/issues/6978#issue
 1. Open "Reference" from the menu and create a new reference.
 
     ```
-    Menu/Application Dictionary/Reference
+    Menu/Application-Dictionary/Reference
     ```
 
     <kbd><a href="https://user-images.githubusercontent.com/73820536/108051329-70ae4e00-7053-11eb-8359-7c798b668f16.png" title="Click to enlarge" target="\_blank"><img src="https://user-images.githubusercontent.com/73820536/108051329-70ae4e00-7053-11eb-8359-7c798b668f16.png" alt="Reference menu item" style="max-width:300px"></a></kbd>
