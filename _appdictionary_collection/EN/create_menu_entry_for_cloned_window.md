@@ -64,4 +64,4 @@ See original issue comment: https://github.com/metasfresh/me03/issues/7548#issue
 
     | **Special Note #3:** |
     | :--- |
-    | Because the new window overrode the old one all references and zoom functionality are already in place.<br><br><kbd><a href="https://user-images.githubusercontent.com/73820536/112492140-af899f00-8d89-11eb-9bf2-6fc224ff2e42.png" title="Click to enlarge" target="\_blank"><img src="https://user-images.githubusercontent.com/73820536/112492140-af899f00-8d89-11eb-9bf2-6fc224ff2e42.png" alt="Sidebar references"></a></kbd> |
+    | Because the new window overrides the old one all references and zoom functionality are already in place.<br><br><kbd><a href="https://user-images.githubusercontent.com/73820536/112492140-af899f00-8d89-11eb-9bf2-6fc224ff2e42.png" title="Click to enlarge" target="\_blank"><img src="https://user-images.githubusercontent.com/73820536/112492140-af899f00-8d89-11eb-9bf2-6fc224ff2e42.png" alt="Sidebar references"></a></kbd> |
