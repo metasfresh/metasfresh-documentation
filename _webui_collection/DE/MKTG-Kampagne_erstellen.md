@@ -13,7 +13,7 @@ Mittels einer Marketingkampagne kannst Du mit nur wenig Aufwand eine Vielzahl De
 
 In metasfresh gibt es zwei Arten von Marketingkampagnen: *E-Mail-Kampagnen* und *Serienbrief-Kampagnen*.
 
-Bei den *E-Mail-Kampagnen* werden Newsletter per E-Mail an die ausgewählten Kontakte versendet. Bei den *Serienbrief-Kampagnen* werden gedruckte [Serienbriefe](Serienbriefe_erstellen) erstellt, die automatisch mit der in metasfresh hinterlegten Standardadresse der jeweiligen Kontakte versehen werden und dann ausgedruckt und per Post verschickt werden können.
+Bei den *E-Mail-Kampagnen* werden Newsletter per E-Mail an die ausgewählten Kontakte versendet. Bei den *Serienbrief-Kampagnen* werden druckfertige [Serienbriefe](Serienbriefe_erstellen) erstellt, die automatisch mit der in metasfresh hinterlegten Standardadresse der jeweiligen Kontakte versehen werden und dann ausgedruckt und per Post verschickt werden können.
 
 ## Voraussetzungen
 Für eine Marketingkampagne benötigst Du:
