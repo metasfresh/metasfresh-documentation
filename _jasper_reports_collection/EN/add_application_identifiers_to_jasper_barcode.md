@@ -1,5 +1,5 @@
 ---
-title: How to add application identifiers with group separators to a Jasper barcode?
+title: How to add application identifiers with group separators to a Jasper barcode
 layout: default
 tags:
   - Barcodes
