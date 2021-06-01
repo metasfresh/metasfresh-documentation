@@ -35,7 +35,7 @@ See original issue: https://github.com/metasfresh/metasfresh/issues/2045
 - Target Document Type
 - Document Number
 - Document Date
-- **Note:** The document status is already displayed in the [document processing menu](../../webui_collection/EN/StartAction) at the top right of the document.
+- **Note:** The document status is already displayed in the [document processing menu](../../webui_collection/EN/StartAction#doc-processing) at the top right of the document.
 
     ![img: Document processing menu: Document Status](../../webui_collection/EN/assets/Menu_DocumentProcessingActions.png)
 
@@ -70,10 +70,10 @@ When displaying the following fields, always show them together:
 - "Valid from" date descending
 
 ## Field names for Documents
-- Instead of "Target Document Type", write **Document Type**
-- Instead Of "Document Date", write **Date**
+- Instead of "Target Document Type", write **Document Type**.
+- Instead of "Document Date", write **Date**.
 - Instead of "Document No.", write **No.**
-- Instead of "Document Status", write **Status**
+- Instead of "Document Status", write **Status**.
 
 ## Default Filter for Documents
 - Date (Document Date)
