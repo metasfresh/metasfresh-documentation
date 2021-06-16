@@ -12,7 +12,7 @@ ref: developers_getting_started_db
 
 ### Notes
 
-* The database dump from the latest metasfresh release is available for download [here](http://www.metasfresh.com/wp-content/releases/db_seeds/metasfresh_latest.pgdump).
+* The database dump from the latest metasfresh release is available for download [here](https://www.metasfresh.com/wp-content/releases/db_seeds/metasfresh_latest.pgdump).
 * This guide assumes that you already have installed a PostgreSQL server.
 
 ### Import the initial dump from command line
