@@ -27,7 +27,7 @@ Diese Aktionen findest Du im Aktionsmenü.
 ---
 
 ## <a name="belegverarbeitung">Belegverarbeitungsaktionen</a>
-Diese Aktionen findest Du in Belegen wie [Aufträgen](Auftrag_erfassen), [Bestellungen](Bestellung_erfassen) oder [Produktionsauftägen](NeuerProduktionsauftrag). Mit ihnen kannst Du den Belegstatus einstellen.<br>
+Diese Aktionen findest Du in Belegen wie [Aufträgen](Auftrag_erfassen), [Bestellungen](Bestellung_erfassen) oder [Produktionsaufträgen](NeuerProduktionsauftrag). Mit ihnen kannst Du den Belegstatus einstellen.<br>
 ![](assets/Menue_Belegverarbeitungsaktionen.png)
 
 ### Schritte
