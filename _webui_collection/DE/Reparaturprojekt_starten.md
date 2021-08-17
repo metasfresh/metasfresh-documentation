@@ -46,4 +46,4 @@ Ein Reparaturprojekt in metasfresh beinhaltet alle für die Reparatur notwendige
 
 ## Nächste Schritte
 1. [Erfasse die benötigten Arbeitsaufwände und verbrauchten Produktionsbestandteile im Reparaturauftrag](Produktionsauftrag_Aufwand_erfassen).
-1. [Erstelle ein Angebot über die erbrachten Reparaturleistungen](Angebot_Kostenvoranschlag_Reparaturleistungen).
+1. [Erstelle einen Kostenvoranschlag für die erbrachten Reparaturleistungen](Angebot_Kostenvoranschlag_Reparaturleistungen).
