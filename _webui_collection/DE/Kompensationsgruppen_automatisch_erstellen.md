@@ -25,7 +25,7 @@ Um automatische Kompensationsgruppen zu erstellen, gehe wie folgt vor:
 1. [Starte die Aktion](AktionStarten#aktionsmenue) "Multigroup lines". Die Kompensationsgruppen werden automatisch erstellt und als zusätzliche Rabattzeilen mit der **Gruppenart** *Rabatt* ausgewiesen.
 
 ### Kompensationsgruppe löschen
-Möchtest Du eine Kompensationsgruppe rückgängig machen, lösche einfach die jeweilige Rabattzeile.
+Möchtest Du eine Kompensationsgruppe rückgängig machen, lösche einfach die jeweilige Rabattzeile, indem Du mit einem Rechtsklick auf die betreffende Zeile das Kontextmenü öffnest und auf "Löschen" klickst (`Alt` + `Y` / `⌥ alt` + `Y`).
 
 ## Nächste Schritte
 - [Gib einen Rabatt oder Zuschlag auf die automatisch erstellte Kompensationsgruppe](Auftragszeilengruppenrabatt).
