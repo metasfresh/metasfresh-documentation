@@ -29,7 +29,7 @@ Um manuelle Kompensationsgruppen zu erstellen, gehe wie folgt vor:
  >**Hinweis:** Wiederhole die Schritte 2 bis 6, um weitere Kompensationsgruppen zu erstellen.
 
 ### Kompensationsgruppe löschen
-Möchtest Du eine Kompensationsgruppe rückgängig machen, lösche einfach die jeweilige Rabattzeile.
+Möchtest Du eine Kompensationsgruppe rückgängig machen, lösche einfach die jeweilige Rabattzeile, indem Du mit einem Rechtsklick auf die betreffende Zeile das Kontextmenü öffnest und auf "Löschen" klickst (`Alt` + `Y` / `⌥ alt` + `Y`).
 
 ## Nächste Schritte
 - [Gib einen Rabatt oder Zuschlag auf die manuell erstellte Kompensationsgruppe](Auftragszeilengruppenrabatt).

@@ -1,5 +1,5 @@
 ---
-title: Wie empfange ich re­pa­ra­tur­be­dürf­tige Retouren (Service-Produkte)?
+title: Wie empfange ich re­pa­ra­tur­be­dürf­tige Retouren (Garantiefälle)?
 layout: default
 tags:
   - Kun­den­ser­vice
@@ -40,6 +40,10 @@ Manchmal kann es vorkommen, dass Kunden defekte Produkte reklamieren und zur Rep
 
 1. Klicke auf "Bestätigen", um das Overlay-Fenster zu schließen.
 1. Die erfassten HUs werden unter der Registerkarte "Position" unten auf der Seite aufgelistet.
+ >**Hinweis:** Bitte beachte, dass dieselbe HU nicht mehrmals für die Retoure ausgewählt werden kann.
+
+1. Wenn Du die Auswahl einer HU rückgängig machen möchtest, öffne einfach mit einem Rechtsklick auf die jeweilige Zeile das Kontextmenü und klicke auf "Löschen" (`Alt` + `Y` / `⌥ alt` + `Y`). Anschließend kann die HU dann wieder für die Retoure ausgewählt werden.
+ >**Hinweis:** Dies funktioniert nur, solange der Eintrag für die Serviceannahme noch nicht fertiggestellt wurde.
 
 ### Zubehörteile für Reparatur hinzufügen
 

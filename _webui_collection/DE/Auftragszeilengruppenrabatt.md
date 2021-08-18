@@ -42,7 +42,7 @@ Möchtest Du auf einen Gruppenrabatt noch weitere Rabatte vergeben, die sich an 
 1. Bestätige mit `↵ Enter`.
 
 ## Kompensationsgruppe löschen
-Möchtest Du eine Kompensationsgruppe löschen und den Rabatt rückgängig machen, lösche einfach die jeweilige Rabattzeile.
+Möchtest Du eine Kompensationsgruppe löschen und den Rabatt rückgängig machen, lösche einfach die jeweilige Rabattzeile, indem Du mit einem Rechtsklick auf die betreffende Zeile das Kontextmenü öffnest und auf "Löschen" klickst (`Alt` + `Y` / `⌥ alt` + `Y`).
 
 ## Beispiel
 ![](assets/Auftragszeilengruppenrabatt.gif)
