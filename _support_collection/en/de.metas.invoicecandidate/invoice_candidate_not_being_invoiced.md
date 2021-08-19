@@ -1,8 +1,7 @@
 ---
 title: Find out if an invoice candidate is invoiceable
 component: de.metas.invoicecandidate
-tags:
-  - Support
+tags:  
   - de.metas.invoicecandidate
 lang: en
 layout: default
