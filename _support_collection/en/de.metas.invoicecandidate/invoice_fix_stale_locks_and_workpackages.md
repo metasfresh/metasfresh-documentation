@@ -2,7 +2,6 @@
 title: Recover from stale locks and workpackages on invoice candidates
 component: de.metas.invoicecandidate
 tags:
-  - Support
   - de.metas.invoicecandidate
 lang: en
 layout: default
