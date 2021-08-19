@@ -60,7 +60,9 @@ select c_invoice_candidate_id,NULL,'3'
 
 # Error Messages
 
-## Has Changes
+## When starting Invoicing from Invoice Candidates
+
+### Has Changes
 
 Cause: Something which is basic to the invoice candidate has changed. Most common is a price change after the candidate was created.
 
@@ -83,3 +85,22 @@ Update invalid result: Updated 7 invoice candidates, 0 errors
 Solution: Delete affected invoice candidates via the WebUI. They will be recreated automatically.
 
 Alternative: Delete via SQL but then you need to run the process to recreate the ICs.
+
+
+## On Async WorkPackages 
+
+### The two augents need to have an equal productId
+
+**Symptom:**
+Invoice is not created
+
+**Analyse:**
+Error in async workpackage:
+
+> Error: The two augents need to have an equal productId; firstAugent=StockQtyAndUOMQty(productId=ProductId(repoId=2006242), stockQty=5 Stk, uomQty=5 Stk); secondAugent=StockQtyAndUOMQty(productId=ProductId(repoId=2006262), stockQty=5 Stk, uomQty=5 Stk) (AdempiereException)
+
+**Explanation:**
+The product was changed in the order after the order was completed but the old product is still in the invoice candidate.
+
+**workaround:**
+Delete the invoice candidate. It will be automatically regenerated.
