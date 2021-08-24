@@ -58,7 +58,7 @@ Manchmal kann es vorkommen, dass Kunden defekte Produkte reklamieren und zur Rep
 1. Ändere die **Maßeinheit** und/oder **Menge** je nach Bedarf.
 1. Klicke auf "Start", um das Overlay-Fenster zu schließen und die Zubehörteile zur Liste unter der Registerkarte "Position" unten auf der Seite hinzuzufügen.
 
-### Serviceannahme fertigstellen
+### Serviceannahme fertigstellen und Vorgang anlegen
 1. [Stelle den Beleg fertig](BelegverarbeitungFertigstellen).
 1. Es wird automatisch ein neuer Vorgang zu dieser Serviceannahme angelegt, der nun zur Prüfung und Freigabe durch eine verantwortliche Person bereitliegt.
 

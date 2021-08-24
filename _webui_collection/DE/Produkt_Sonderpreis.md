@@ -5,7 +5,7 @@ tags:
   - Stammdaten
   - Produkt
 lang: de
-sequence: 60
+sequence: 70
 ref: product_promotional_price
 ---
 

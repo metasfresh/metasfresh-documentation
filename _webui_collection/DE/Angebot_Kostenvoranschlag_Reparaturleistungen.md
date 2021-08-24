@@ -21,14 +21,14 @@ ref: quotation_estimate_repair_services
  >**Hinweis:** Ein Kostenvoranschlag ist ein [Auftrag](Auftrag_erfassen) mit der Belegart "Kostenvoranschlag".
 
 1. Sofern im Reparaturauftrag ein <a href="Produktionsauftrag_Aufwand_erfassen#dienstleistungsaufwand" title="Arbeitsaufwände für Reparaturaufträge erfassen">Dienstleistungsaufwand</a> erfasst wurde, wurden die jeweiligen Auftragszeilen dementsprechend in [Kompensationsgruppen](Kompensationsgruppen_manuell_erstellen) zusammengefasst.
-1. Sofern im Reparaturauftrag eine <a href="Produktionsauftrag_Aufwand_erfassen#dienstleistungsaufwand" title="Arbeitsaufwände für Reparaturaufträge erfassen">Zusammenfassung</a> des Dienstleistungsaufwandes erfasst wurde, wird diese unterhalb des Dienstleistungsproduktes auf den Beleg gedruckt als Information für den Kunden.
+1. Sofern im Reparaturauftrag eine <a href="Produktionsauftrag_Aufwand_erfassen#dienstleistungsaufwand" title="Arbeitsaufwände für Reparaturaufträge erfassen">Zusammenfassung</a> des Dienstleistungsaufwandes erfasst wurde, wird diese unterhalb des [Dienstleistungsproduktes](Dienstleistungsprodukt_anlegen) auf den Beleg gedruckt als Information für den Kunden.
 
 ### Auftragszeilen drucken oder verbergen
 Auftragszeilen für Zubehörteile werden standardmäßig nicht auf den Beleg gedruckt. Um dies zu ändern, gehe wie folgt vor:
 1. Öffne die "[Erweiterte Erfassung](AdvancedEditTab_Öffnen)" der Auftragszeile, welche auf den Beleg gedruckt bzw. verborgen werden soll.
 1. Scrolle runter bis zum Kontrollkästchen **Beim Drucken ausblenden** und setze bzw. entferne dort das Häkchen.
 1. Klicke auf "Bestätigen", um die Änderungen zu übernehmen und die "Erweiterte Erfassung" zu schließen.
- >**Hinweis:** Bitte beachte, dass die Summe der gedruckten Auftragszeilen von dem Gesamtbetrag auf dem Beleg abweichen kann, wenn die verborgenen Zeilen einen Wert ungleich 0 aufweisen.
+ >**Hinweis:** Bitte beachte, dass die Summe der gedruckten Auftragszeilen von dem angezeigten Gesamtbetrag auf dem Beleg abweichen kann, wenn die verborgenen Zeilen einen Wert ungleich 0 aufweisen.
 
 ### Angebot fertigstellen und Auftrag erzeugen
 1. [Stelle den Kostenvoranschlag fertig](BelegverarbeitungFertigstellen).
