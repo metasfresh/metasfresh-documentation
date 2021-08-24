@@ -31,7 +31,7 @@ ref: create_bom
 
 | **Tipp:** |
 | :--- |
-| [Klone den Eintrag einer Produktionsstückliste](Klonen_Datensatz_Fenster) und entferne anschließend alle unbenötigten Bestandteile aus der Registerkarte "Stücklistenbestandteile", die keine Zubehörteile sind. Achte beim Klonen lediglich darauf, dass die **Suchschlüssel** unterschiedlich sind. |
+| [Klone den Eintrag einer Produktionsstückliste](Klonen_Datensatz_Fenster) und entferne anschließend alle unbenötigten Bestandteile aus der Registerkarte "Stücklistenbestandteile", die keine Zubehörteile sind. Achte beim Klonen lediglich darauf, dass die **Suchschlüssel unterschiedlich** sind. |
 
 ### Stücklistenbestandteile hinzufügen
 1. Gehe zur Registerkarte "Stücklistenbestandteile" unten auf der Seite und klicke auf !["Neu hinzufügen"](assets/Neu_hinzufuegen_Button.png). Es öffnet sich ein Overlay-Fenster.
