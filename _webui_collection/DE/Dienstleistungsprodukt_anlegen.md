@@ -33,5 +33,5 @@ Folge dieser [Anleitung zur Erfassung eines Produktes](NeuesProdukt) unter Berü
 - Entferne zusätzlich das Häkchen bei **Verkauft**.
 
 ## Nächste Schritte (optional)
-- <a href="Produktionsauftrag_Aufwand_erfassen#dienstleistungsaufwand" title="Arbeitsaufwände für Reparaturaufträge erfassen">Verwende das Dienstleistungsprodukt zur Erfassung von Serviceleistungen bei Reparaturaufträgen</a>.
+- <a href="Produktionsauftrag_Aufwand_erfassen#dienstleistungsaufwand" title="Arbeitsaufwände für Reparaturaufträge erfassen">Verwende das Dienstleistungsprodukt zur Aufwandserfassung von Serviceleistungen bei Reparaturaufträgen</a>.
 - [Verwende das Dienstleistungsprodukt als Service-Artikel für den Komponentengenerator](Komponentengenerator_Einrichtung).
