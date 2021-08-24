@@ -5,7 +5,7 @@ tags:
   - Master Data
   - Product
 lang: en
-sequence: 60
+sequence: 70
 ref: product_promotional_price
 ---
 

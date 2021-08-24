@@ -37,11 +37,11 @@ Ein Reparaturprojekt in metasfresh beinhaltet alle für die Reparatur notwendige
 ### Zubehörteile reservieren
 1. [Selektiere](AuswahlBelege) eine Aufgabenzeile der **Art** *Zubehörteile*.
 1. [Starte die Aktion](AktionStarten#aktionsmenue) "Zubehörteile reservieren". Es öffnet sich ein Overlay-Fenster, der "Handling Unit Editor".
-1. [Selektiere](AuswahlBelege) eine HU-Zeile der zu reservierenden Zubehörteile und starte die Quick-Action "Reservieren". Es öffnet sich ein Overlay-Fenster.
+1. [Selektiere](AuswahlBelege) eine HU-Zeile der zu reservierenden <a href="Stueckliste_erstellen#zubehörteilstueckliste" title="Zubehörteilstückliste erstellen">Zubehörteile</a> und starte die Quick-Action "Reservieren". Es öffnet sich ein Overlay-Fenster.
 1. Gib eine **Menge** ein.
 1. Klicke auf "Start", um die Zubehörteile zu reservieren und das Overlay-Fenster zu schließen.
 1. Klicke auf "Bestätigen", um den "Handling Unit Editor" zu schließen.
-1. Die Aufgabenzeile der **Art** *Zubehörteile* hat nun den **Status** *Abgeschlossen*.
+1. Die Aufgabenzeile der **Art** *Zubehörteile* zeigt nun den **Status** *Abgeschlossen*.
 1. ***Optional:*** [Starte die Aktion](AktionStarten#aktionsmenue) "Reservierte Zubehörteile stornieren", um die Zubehörteilreservierung rückgängig zu machen und den Status der Aufgabenzeile zurück auf *in Arbeit* zu ändern.
 
 ## Nächste Schritte

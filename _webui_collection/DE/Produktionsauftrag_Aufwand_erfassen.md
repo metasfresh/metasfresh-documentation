@@ -23,7 +23,7 @@ ref: manufacturing_order_record_work
 1. <a href="ProduktionFertigstellung#produktionsverbrauch" title="Verbrauchte Produktionsbestandteile erfassen">Erfasse die bei der Reparatur verbrauchten Produktionsbestandteile</a>.
 
 ### <a name="dienstleistungsaufwand">Dienstleistungsaufwand erfassen (für Reparaturaufträge)</a>
-Der Dienstleistungsaufwand wird in der Form eines Dienstleistungsproduktes erfasst, welches anschließend bei der Angebots- bzw. Auftragserstellung dazu dient, alle Aufwände aus dem jeweiligen Reparaturauftrag in eine [Kompensationsgruppe](Kompensationsgruppen_manuell_erstellen) zusammenzufassen, um dann bei Bedarf [Auftragszeilengruppenrabatte](Auftragszeilengruppenrabatt) darauf vergeben zu können. Ein solches Dienstleistungsprodukt kann z.B. eine Reparaturpauschale sein oder bei Garantiefällen Kosten ganz erlassen.
+Der Dienstleistungsaufwand wird in der Form eines [Dienstleistungsproduktes](Dienstleistungsprodukt_anlegen) erfasst, welches anschließend bei der Angebots- bzw. Auftragserstellung dazu dient, alle Aufwände aus dem jeweiligen Reparaturauftrag in eine [Kompensationsgruppe](Kompensationsgruppen_manuell_erstellen) zusammenzufassen, um dann bei Bedarf [Auftragszeilengruppenrabatte](Auftragszeilengruppenrabatt) darauf vergeben zu können. Ein solches Dienstleistungsprodukt kann z.B. eine Reparaturpauschale sein oder bei Garantiefällen Kosten ganz erlassen.
 
 1. Gib in das Feld **Dienstleistungsaufwand** einen Teil des Namens oder der Nummer des Dienstleistungsproduktes ein und klicke auf den passenden Treffer in der <a href="Keyboard_Shortcuts_Liste#dropdown" title="Dynamisches Suchfeld (Autocomplete)">Dropdown-Liste</a>.
 1. Erfasse eine **Zusammenfassung** des Dienstleistungsaufwandes.
