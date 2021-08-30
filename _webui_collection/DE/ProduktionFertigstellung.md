@@ -146,7 +146,7 @@ Hierbei werden die für die Produktion benötigten Stücklistenbestandteile vom 
 
 | **Hinweis:** |
 | :--- |
-| Die neu erstellte HU wird nun unter der Registerkarte "Handling Unit Assignment" unten auf der Seite des jeweiligen Produktionsauftrages aufgeführt und in der Spalte **Handling Unit** der HU-Zeile mit dem [Handling Unit Editor](Menu) verknüpft. [Zoome](Zoomen_in_Tabellenfeld) in das Feld, um den Eintrag zu öffnen.<br>Im Eintrag der HU wiederum findest Du den jeweiligen Produktionsauftrag unter der Registerkarte "Handling Unit Referenzen" unten auf der Seite wieder. |
+| Die neu erstellte HU wird nun unter der Registerkarte "Handling Unit Assignment" unten auf der Seite des jeweiligen Produktionsauftrages aufgeführt und in der Spalte **Handling Unit** der HU-Zeile mit dem [Handling Unit Editor](Menu) verknüpft. [Zoome](Zoomen_in_Tabellenfeld) in das Feld, um den Eintrag zu öffnen.<br>Im Eintrag der HU wiederum findest Du den jeweiligen Produktionsauftrag unter der Registerkarte "Handling Unit Referenzen" unten auf der Seite verknüpft. |
 
 
 ## Beispiel
