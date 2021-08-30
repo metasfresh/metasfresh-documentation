@@ -42,7 +42,9 @@ Ein Reparaturprojekt in metasfresh beinhaltet alle für die Reparatur notwendige
 1. Klicke auf "Start", um die Zubehörteile zu reservieren und das Overlay-Fenster zu schließen.
 1. Klicke auf "Bestätigen", um den "Handling Unit Editor" zu schließen.
 1. Die Aufgabenzeile der **Art** *Zubehörteile* zeigt nun den **Status** *Abgeschlossen*.
-1. ***Optional:*** [Starte die Aktion](AktionStarten#aktionsmenue) "Reservierte Zubehörteile stornieren", um die Zubehörteilreservierung rückgängig zu machen und den Status der Aufgabenzeile zurück auf *in Arbeit* zu ändern.
+
+### Reservierte Zubehörteile stornieren (optional)
+- [Starte die Aktion](AktionStarten#aktionsmenue) "Reservierte Zubehörteile stornieren", um die Zubehörteilreservierung rückgängig zu machen und den Status der Aufgabenzeile zurück auf *in Arbeit* zu setzen.
 
 ## Nächste Schritte
 1. [Erfasse die benötigten Arbeitsaufwände und verbrauchten Produktionsbestandteile im Reparaturauftrag](Produktionsauftrag_Aufwand_erfassen).

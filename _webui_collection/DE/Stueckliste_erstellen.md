@@ -24,7 +24,7 @@ ref: create_bom
  >**Hinweis:** Liegt das Datum in der *Vergangenheit*, ist die Stückliste *ab sofort* gültig. Liegt es in der *Zukunft*, gilt sie *erst ab diesem Datum*.
 
 1. ***Optional:*** Wähle eine **Nummernfolge für Seriennummer** aus. Gib dazu einen Teil des Namens der [Belegnummerierung](Belegnummern_definieren) ein und klicke auf den passenden Treffer in der <a href="Keyboard_Shortcuts_Liste#dropdown" title="Dynamisches Suchfeld (Autocomplete)">Dropdown-Liste</a>.
- >**Hinweis:** Hierzu muss die [Produktkategorie](NeueProduktkategorie) mit einem **Merkmalssatz** verknüpft sein, in dem das Attribut *Seriennummer* definiert ist.
+ >**Hinweis:** Hierzu muss die [Produktkategorie](NeueProduktkategorie) mit einem [**Merkmalssatz**](Merkmalssatz_neu_anlegen) verknüpft sein, in dem das [Merkmal](Merkmal_Produkt_neu_anlegen) *Seriennummer* definiert ist.
 
 #### <a name="zubehörteilstueckliste">Sonderfall: Zubehörteilstückliste</a> (für [re­pa­ra­tur­be­dürf­tige Retouren](Reparaturen_Service_Annahme))
 - Wähle die **Stücklisten-Zugehörigkeit** *Zubehörteile* aus.

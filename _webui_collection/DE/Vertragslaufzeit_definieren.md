@@ -22,7 +22,7 @@ Zu den zeitlichen Rahmenbedingungen eines Vertrages zählen in metasfresh u.a. V
 1. Lege eine **Vertragslaufzeit** und **Vertragseinheit** fest, z.B. "1 Jahr".
 1. Lege eine **Ablauffrist** und **Ablaufeinheit** fest, z.B. "1 Monat".
 
-#### Weitere optionale Einstellungen
+#### Weitere Einstellungen (optional)
 1. Lege ein **Abointervall** und eine **Aboeinheit** fest, z.B. "2 Wochen".
  >**Hinweis:** Dies ist die Häufigkeit, in der ein Auftrag während der Laufzeit ausgeliefert wird.
 

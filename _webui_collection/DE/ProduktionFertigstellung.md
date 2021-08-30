@@ -84,7 +84,7 @@ Dies ist die einfachste Möglichkeit in metasfresh zu produzieren. Hierbei wird 
 
 #### HUs mit Seriennummern manuell erfassen (optional)
 1. [Selektiere](AuswahlBelege) im Produktionsfenster die HU, dessen Seriennummer Du erfassen möchtest.
-1. Gib auf der rechten Seite unter "Merkmale" in das Feld **SerialNo** die Seriennummer der HU ein.
+1. Gib auf der rechten Seite unter "[Merkmale](Merkmal_Produkt_neu_anlegen)" in das Feld **SerialNo** die Seriennummer der HU ein.
 1. [metasfresh speichert automatisch](Speicheranzeige).
 
 ### <a name="produktionsverbrauch">Verbrauchte Produktionsbestandteile erfassen</a>
@@ -143,6 +143,11 @@ Hierbei werden die für die Produktion benötigten Stücklistenbestandteile vom 
 
 1. Klicke auf "Bestätigen", um das Produktionsfenster zu schließen.
 1. Der Produktionsauftrag erhält nun den **Planstatus** *Fertig*.
+
+| **Hinweis:** |
+| :--- |
+| Die neu erstellte HU wird nun unter der Registerkarte "Handling Unit Assignment" unten auf der Seite des jeweiligen Produktionsauftrages aufgeführt und in der Spalte **Handling Unit** der HU-Zeile mit dem [Handling Unit Editor](Menu) verknüpft. [Zoome](Zoomen_in_Tabellenfeld) in das Feld, um den Eintrag zu öffnen.<br>Im Eintrag der HU wiederum findest Du den jeweiligen Produktionsauftrag unter der Registerkarte "Handling Unit Referenzen" unten auf der Seite wieder. |
+
 
 ## Beispiel
 <kbd><img src="assets/ProduktionFertigstellung_Verbrauch.gif" alt="GIF: Produktion-Fertigstellung mit Verbrauch (Walkthrough 2)"></kbd>
