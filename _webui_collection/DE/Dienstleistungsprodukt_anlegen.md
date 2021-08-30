@@ -10,9 +10,9 @@ ref: add_service_product
 ---
 
 ## Überblick
-Ein Dienstleistungsprodukt dient zur Erfassung immaterieller Serviceleistungen, die nicht im Bestand geführt werden, wie z.B. Arbeitsaufwände, Reparaturpauschalen usw., und kann im Rahmen von <a href="Produktionsauftrag_Aufwand_erfassen#dienstleistungsaufwand" title="Arbeitsaufwände für Reparaturaufträge erfassen">Produktions-/Reparaturaufträgen</a> zum Verkauf angeboten werden. In einem solchen Fall verhält es sich ähnlich dem [Gruppierungsprodukt](Gruppierungsprodukt_anlegen), insofern als es bei der Angebots- bzw. Auftragserstellung dazu dient, alle Aufwände aus dem jeweiligen Reparaturauftrag in eine [Kompensationsgruppe](Kompensationsgruppen_manuell_erstellen) zusammenzufassen, um dann bei Bedarf [Auftragszeilengruppenrabatte](Auftragszeilengruppenrabatt) darauf vergeben zu können.
+In metasfresh dient ein Dienstleistungsprodukt zur Erfassung immaterieller Serviceleistungen, die nicht im Bestand geführt werden, wie z.B. Arbeitsaufwände, Reparaturpauschalen usw., und kann im Rahmen von <a href="Produktionsauftrag_Aufwand_erfassen#dienstleistungsaufwand" title="Arbeitsaufwände für Reparaturaufträge erfassen">Produktions-/Reparaturaufträgen</a> zum Verkauf angeboten werden. In einem solchen Fall verhält es sich ähnlich dem [Gruppierungsprodukt](Gruppierungsprodukt_anlegen), insofern als es bei der Angebots- bzw. Auftragserstellung dazu dient, alle Aufwände aus dem jeweiligen Reparaturauftrag in eine [Kompensationsgruppe](Kompensationsgruppen_manuell_erstellen) zusammenzufassen, um dann bei Bedarf [Auftragszeilengruppenrabatte](Auftragszeilengruppenrabatt) darauf vergeben zu können.
 
-Darüber hinaus kann das Dienstleistungsprodukt aber auch beim [Komponentengenerator](Komponentengenerator_Einrichtung) zur Anwendung kommen, wo es als Service-Artikel zur Generierung individueller Merkmale dient, wie z.B. eigener Seriennummern oder werkseitiger Passwörter.
+Darüber hinaus kann das Dienstleistungsprodukt aber auch beim [Komponentengenerator](Komponentengenerator_Einrichtung) zur Anwendung kommen, wo es als Service-Artikel zur Generierung individueller [Merkmale](Merkmal_Produkt_neu_anlegen) dient, wie z.B. eigener Seriennummern oder werkseitiger Passwörter.
 
 Grundsätzlich wird ein Dienstleistungsprodukt wie jedes andere normale [Produkt](NeuesProdukt) auch angelegt.
 

@@ -22,7 +22,7 @@ In metasfresh, time frame conditions of a contract include the term duration, te
 1. Define a **Term Duration** and a **Term Unit**, e.g., "1 Year".
 1. Define a **Term of Notice** and a **Term of Notice Unit**, e.g., "1 Month".
 
-#### Further optional settings
+#### Additional settings (optional)
 1. Define a **Subscription Interval** and a **Subscription Unit**, e.g., "2 Weeks".
  >**Note:** This is the frequency of the shipments of a sales order during the contract period.
 

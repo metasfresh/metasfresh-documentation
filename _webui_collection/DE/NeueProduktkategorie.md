@@ -16,7 +16,8 @@ ref: newproductcategory
 1. Benenne die Kategorie im Feld **Name**.
 1. [metasfresh speichert automatisch](Speicheranzeige).
 
-## Nächste Schritte (optional)
+## Weitere Einstellungen (optional)
+- Stelle einen [**Merkmals-Satz**](Merkmalssatz_neu_anlegen) ein.
 - [Stelle eine **übergeordnete Produktkategorie** ein](Uebergeordnete_Produktkategorie).
 - Wähle im Feld **Produktnummernfolge** eine [Belegnummerierung](Belegnummern_definieren) aus. Gib dazu einen Teil des Namens der Belegnummerierung ein und klicke auf den passenden Treffer in der <a href="Keyboard_Shortcuts_Liste#dropdown" title="Dynamisches Suchfeld (Autocomplete)">Dropdown-Liste</a>.
 
