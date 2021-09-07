@@ -6,6 +6,7 @@ layout: default
 tags:
   - e2e
   - Subscription
+lang: en
 ---
 
 
