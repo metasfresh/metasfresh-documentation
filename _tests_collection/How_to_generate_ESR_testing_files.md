@@ -18,7 +18,7 @@ ESR = Einzahlungsschein mit Referenznummer (DE, Switzerland) => EN: payment slip
 ## Steps
 
 ### Prepare the ESR testing file
-1. Start with a text file like this one: <a href="assets/ESR-file-how-to.txt  download" title="Download sample ESR testing file" target="\_blank">ESR-file-how-to.txt</a>
+1. Start with a text file like this one: <a href="assets/ESR-file-how-to.txt" download="ESR-file-how-to" title="Download sample ESR testing file" target="\_blank">ESR-file-how-to.txt</a>
 
     >**Note:** You can use any text editor to open and edit your file. We do recommend using *Notepad++* for its text selection highlighting feature.
 
