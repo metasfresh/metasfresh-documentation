@@ -27,6 +27,7 @@ ESR = Einzahlungsschein mit Referenznummer (DE, Switzerland) => EN: payment slip
     **Explanation:**
     - The upper part contains two example ESR lines based on the first reference number.
     - In the lower part the new file is built based on your reference number.
+    <br>
 
 1. Copy the reference number of your invoice (taken from the database) and paste it above the lower reference number.
 1. Split the reference number using spaces exactly like in the file (see screenshot), to have all those separate parts.
