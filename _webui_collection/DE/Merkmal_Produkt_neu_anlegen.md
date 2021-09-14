@@ -12,7 +12,7 @@ ref: add_new_product_attributes
 ---
 
 ## Überblick
-In metasfresh können Merkmale dazu verwendet werden, Produkten bestimmte individuelle Eigenschaften zu attribuieren, wodurch sie sich beispielsweise in der Bestandsverwaltung oder Kommissionierung konkret differenzieren lassen, z.B. anhand von Seriennummern, Mindesthaltbarkeitsdaten usw.
+In metasfresh können Merkmale dazu verwendet werden, Produkten bestimmte individuelle Eigenschaften zu attribuieren, wodurch sie sich beispielsweise in der Bestandsverwaltung oder Kommissionierung präzise differenzieren lassen, z.B. anhand von Seriennummern, Mindesthaltbarkeitsdaten usw.
 
 Mehrere Merkmale können in [Merkmalssätzen](Merkmalssatz_neu_anlegen) vereint werden und über [Produktkategorien](NeueProduktkategorie) mit [Produkten](NeuesProdukt) verknüpft werden. Bei Betrachtung der [Handling Unit](Handling_Unit_System) eines Produktes im [HU Editor](Menu) können die einzelnen Merkmale samt ihren zugewiesenen Werten eingesehen werden.
 

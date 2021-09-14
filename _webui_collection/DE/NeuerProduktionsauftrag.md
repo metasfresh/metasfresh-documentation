@@ -28,5 +28,8 @@ ref: newmanufacturingorder
 | :--- |
 | Sobald alle Pflichtfelder ausgefüllt sind, werden die Bestandteile aus der eingestellten Stückliste in den Produktionsauftrag übernommen und unter der Registerkarte "Komponenten" unten auf der Seite aufgeführt, wo sie anschließend editiert sowie weitere Bestandteile einzeln hinzugefügt werden können. |
 
+## Nächste Schritte
+- [Stelle das Produkt her](ProduktionFertigstellung).
+
 ## Beispiel
 <kbd><img src="assets/NeuerProduktionsauftrag.gif" alt="GIF: Produktionsauftrag anlegen"></kbd>

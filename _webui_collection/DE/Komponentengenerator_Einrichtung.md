@@ -11,7 +11,7 @@ ref: component_generator_setup
 ---
 
 ## Überblick
-Mithilfe des Komponentengenerators können in metasfresh auf Grundlage von [Produktionsaufträgen](NeuerProduktionsauftrag) gefertigte Produkte automatisch mit individuellen [Merkmalen](Merkmal_Produkt_neu_anlegen), wie z.B. eigenen Seriennummern, versehen werden.
+Mithilfe des Komponentengenerators können in metasfresh auf Grundlage von [Produktionsaufträgen](NeuerProduktionsauftrag) gefertigte Produkte automatisch mit individuellen [Merkmalen](Merkmal_Produkt_neu_anlegen), wie z.B. eigenen Seriennummern, versehen werden. Wie das in der Praxis funktioniert, siehst Du [hier](ProduktionFertigstellung#komponentengenerator-produktion).
 
 ## Voraussetzungen
 Die zu generierenden Komponenten (Merkmale) müssen zuerst als *Dienstleistungsprodukte* in metasfresh angelegt werden. [Folge dazu dieser Anleitung](Dienstleistungsprodukt_anlegen) unter Berücksichtigung der anwendungsspezifischen Konfiguration für den Komponentengenerator.
