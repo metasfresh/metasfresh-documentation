@@ -23,7 +23,7 @@ Ein Merkmalssatz besteht aus einem oder mehreren [Merkmalen](Merkmal_Produkt_neu
 1. Benenne den Merkmalssatz im Feld **Name**.
 1. Stelle im Feld **Pflichtfeld Art** ein, ob der Merkmalssatz als Pflichtangabe behandelt werden soll oder nicht, z.B. über die Optionen *Wenn in Auslieferung*, *Always Mandatory* oder *Not Mandatory*.
 1. ***Optional:*** Setze ein Häkchen bei **Serien Nr.**.
- >**Hinweis:** Diese Einstellung wird für [Merkmale](Merkmal_Produkt_neu_anlegen) von [Fertigungsprodukten](ProduktionFertigstellung) benötigt, deren Merkmalswerte mit dem [Komponentengenerator](Komponentengenerator_Einrichtung) in der [Produktion](NeuerProduktionsauftrag) erzeugt werden können, wie Seriennummern oder werkseitige Passwörter.
+ >**Hinweis:** Diese Einstellung wird für [Merkmale](Merkmal_Produkt_neu_anlegen) von [Fertigungsprodukten](NeuerProduktionsauftrag) benötigt, deren Merkmalswerte mit dem [Komponentengenerator](Komponentengenerator_Einrichtung) in der [Produktion](ProduktionFertigstellung#komponentengenerator-produktion) erzeugt werden können, wie Seriennummern oder werkseitige Passwörter.
 
 ### Merkmale hinzufügen
 1. Gehe zur Registerkarte "Merkmals-Verwendung" unten auf der Seite und klicke auf !["Neu hinzufügen"](assets/Neu_hinzufuegen_Button.png). Es öffnet sich ein Overlay-Fenster.
