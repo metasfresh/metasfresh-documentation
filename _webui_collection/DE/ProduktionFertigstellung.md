@@ -88,15 +88,15 @@ Dies ist die einfachste Möglichkeit in metasfresh zu produzieren. Hierbei wird 
 1. [metasfresh speichert automatisch](Speicheranzeige).
 
 #### <a name="komponentengenerator-produktion">HU-Merkmale automatisch erzeugen mit dem Komponentengenerator (optional)</a>
-Sofern in der [Stückliste](Stueckliste_erstellen) des Fertigungsproduktes [Dienstleistungsprodukte](Dienstleistungsprodukt_anlegen) enthalten sind, die im Zusammenhang mit dem [Komponentengenerator](Komponentengenerator_Einrichtung) zur Erzeugung individueller [Merkmale](Merkmal_Produkt_neu_anlegen) verwendet werden können (wie Seriennummern, werkseitige Passwörter usw.), werden diese als zusätzliche Service-Komponenten <kbd><img src="../EN/assets/manufacturing_component_service_article_wrench.png" alt="Symbol Dienstleistungsprodukt (Schraubenschlüssel)" style="max-width: 20px"></kbd> (**Art** *CO*) im Produktionsfenster aufgelistet. Um sie auf das hergestellte Produkt anzuwenden, gehe wie folgt vor:
+Sofern in der [Stückliste](Stueckliste_erstellen) des Fertigungsproduktes [Dienstleistungsprodukte](Dienstleistungsprodukt_anlegen) enthalten sind, die im Zusammenhang mit dem [Komponentengenerator](Komponentengenerator_Einrichtung) zur Erzeugung individueller [Merkmale](Merkmal_Produkt_neu_anlegen) verwendet werden können (wie Seriennummern, werkseitige Passwörter usw.), werden diese als zusätzliche Service-Komponenten <kbd><img src="../EN/assets/manufacturing_component_service_article_wrench.png" alt="Symbol Dienstleistungsprodukt (Schraubenschlüssel)" style="max-width: 20px"></kbd> (**Art** *CO*) im Produktionsfenster aufgelistet. Um die jeweiligen Merkmalswerte für das hergestellte Produkt zu erzeugen, gehe wie folgt vor:
 
 1. [Selektiere](AuswahlBelege) im Produktionsfenster die Service-Komponente, zum Beispiel *Seriennummer*.
-1. [Starte die Quick-Action](AktionStarten#quick-actions) "Issue Service" (*Dienst anwenden*). Es öffnet sich ein Overlay-Fenster.
+1. [Starte die Quick-Action](AktionStarten#quick-actions) "Issue Service" (*Dienst ausführen*). Es öffnet sich ein Overlay-Fenster.
 1. ***Optional:*** Setze ein Häkchen bei **Override Existing Values** (*Vorhandene Werte überschreiben*).
 1. Klicke auf "Start", um die individuellen Werte des Dienstleistungsproduktes zu erzeugen und das Overlay-Fenster zu schließen.
 1. Das Fertigungsprodukt wird nun automatisch in die einzelnen CUs mit ihren individuellen Merkmalswerten aufgeteilt.
 
-    <kbd><img src="../EN/assets/manufacturing_issue_service_component_generator.gif" alt="GIF: Dienst anwenden (Issue Service)"></kbd>
+    <kbd><img src="../EN/assets/manufacturing_issue_service_component_generator.gif" alt="GIF: Dienst ausführen (Issue Service)"></kbd>
 
 ### <a name="produktionsverbrauch">Verbrauchte Produktionsbestandteile erfassen</a>
 
