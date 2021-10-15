@@ -22,13 +22,17 @@ In metasfresh you can create both general boilerplates and more specific text te
 
 | **Note:** |
 | :--- |
-| By means of so-called *context variables* metasfresh can automatically retrieve individual document data and insert them into the corresponding places in the e-mail. Context variables are prefixed and suffixed by symbols such as "@" or "%". |
+| By means of so-called *context variables* metasfresh can automatically retrieve individual document data and insert them into the corresponding places in the email. Context variables are **opened and closed** by symbols such as "@" or "%". |
+
+| **<a name="context-variable-email-addresses">Important Note about Email Addresses:</a>** |
+| :--- |
+| When using email addresses with an "@" symbol in the template, a conflict may occur as the system recognizes this symbol as an opening operator of a context variable and by definition expects a closing operator. To prevent this conflict, simply insert **a second "@" symbol** after the first one to close the variable (see the following example below). Then, when using the template in an email, the email address will appear in the common form of writing including the "@" symbol. |
 
 ## Example
 
 | [PayPal Plus](PayPal_payment_rule_salesorder) |
 | :--- |
-| **Subject:**<br> Please approve @Amount@ for order #@SalesOrderDocumentNo@<br><br> **Mail Text:**<br> Hi @Name@<br> Thank you for your order #@SalesOrderDocumentNo@.<br> Please use the following link to approve the payment reservation on PayPal: @ApproveURL@. |
+| **Subject:**<br> Please approve @Amount@ for order #@SalesOrderDocumentNo@<br><br> **Mail Text:**<br> Hi @Name@<br> Thank you for your order #@SalesOrderDocumentNo@.<br> Please use the following link to approve the payment reservation on PayPal: @ApproveURL@.<br><br>Do you have questions about this payment reservation? Please contact us by email at: <a href="#context-variable-email-addresses" title="Important Note about Email Addresses">info@@no-mail.com</a>. |
 
 ### Explanatory Notes to the Example
 

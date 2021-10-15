@@ -22,13 +22,17 @@ In metasfresh kannst Du sowohl allgemeine Textbausteine als auch spezifischere V
 
 | **Hinweis:** |
 | :--- |
-| Mittels sogenannter *Kontextvariablen* können individuelle Belegdaten automatisch von metasfresh eingeholt und anschließend an den jeweiligen Stellen in der E-Mail eingesetzt werden. Kontextvariablen werden mit Symbolen wie z.B. "@" oder "%" angeführt und abgeschlossen. |
+| Mittels sogenannter *Kontextvariablen* können individuelle Belegdaten automatisch von metasfresh eingeholt und anschließend an den jeweiligen Stellen in der E-Mail eingesetzt werden. Kontextvariablen werden mit Symbolen wie z.B. "@" oder "%" **angeführt und abgeschlossen**. |
+
+| **<a name="kontextvariable-e-mail-adressen">Wichtiger Hinweis zu E-Mail-Adressen:</a>** |
+| :--- |
+| Bei Verwendung von E-Mail-Adressen mit "@"-Symbol in der Vorlage kann es unter Umständen zu einem Konflikt kommen, da das System dieses Symbol als eröffnenden Operator einer Kontextvariable erkennt und de­fi­ni­ti­ons­ge­mäß einen abschließenden Operator erwartet. Zur Vermeidung dieses Konfliktes füge einfach **ein zweites "@"-Symbol** hinter dem ersten ein, um die Variable zu beenden (siehe folgendes Beispiel unten). Bei anschließender Verwendung der Vorlage in einer E-Mail erscheint die E-Mail-Adresse dann in der üblichen Schreibweise mit "@"-Symbol. |
 
 ## Beispiel
 
 | [PayPal Plus](PayPal_Zahlungsweise_Auftrag) |
 | :--- |
-| **Betreff:**<br> Bitte bestätigen Sie @Amount@ für Auftrag Nr. @SalesOrderDocumentNo@<br><br> **EMailtext:**<br> Hallo @Name@,<br> vielen Dank für Ihren Auftrag Nr. @SalesOrderDocumentNo@.<br> Bitte bestätigen Sie die Zahlungsreservierung bei PayPal über den folgenden Link: @ApproveURL@. |
+| **Betreff:**<br> Bitte bestätigen Sie @Amount@ für Auftrag Nr. @SalesOrderDocumentNo@<br><br> **EMailtext:**<br> Hallo @Name@,<br> vielen Dank für Ihren Auftrag Nr. @SalesOrderDocumentNo@.<br> Bitte bestätigen Sie die Zahlungsreservierung bei PayPal über den folgenden Link: @ApproveURL@.<br><br>Fragen zu dieser Zahlungsreservierung? Kontaktieren Sie uns per E-Mail an: <a href="#kontextvariable-e-mail-adressen" title="Wichtiger Hinweis zu E-Mail-Adressen">info@@no-mail.com</a>. |
 
 ### Erläuterungen zum Beispiel
 
