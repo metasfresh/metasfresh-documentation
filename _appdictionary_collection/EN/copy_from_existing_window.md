@@ -15,7 +15,7 @@ In order to provide a customized window, you can simply create a copy of an exis
 | :--- |
 | **Do not** alter the public window, because future public updates might destroy it. |
 
-Please also ensure to:
+In case you want to keep the "old" window, please also ensure to:
 - remove role access to the "old" window to avoid confusion with the new one.
 - see if there are `AD_Ref_Table` records whose `AD_Window_ID` have to be updated to the new window.
 - see if there are `AD_Table_Process` records whose `AD_Window_ID` or `AD_Tab_ID` have to be updated to the new window.
@@ -25,8 +25,8 @@ This process copies all elements from an existing window into the window you cur
 See also <a href="https://forum.metasfresh.org/t/use-process-for-copy-window/1288" title="Use process for copy window | forum.metasfresh.org" target="\_blank">this forum post</a>.
 
 ## Steps
-1. [Create a new window](create_new_window).
 1. [Create a new system element](create_new_system_element).
+2. [Create a new window](create_new_window).
 
 ### Copy all elements from existing window
 1. Enter the new **System-Element** from the previous steps.
@@ -37,7 +37,7 @@ See also <a href="https://forum.metasfresh.org/t/use-process-for-copy-window/128
 ### Menu node and permissions
 1. Create a new menu node for your new window.
 1. Change the zoom to the destination of the table the window is for (e.g. new sales order window needs to be configured on `c_order` table).
-1. Set permissions so you can see it by using either "role access update" or by adding the window manually to your role.
+1. ***Optional (only applies in local environment):*** Set permissions so you can see it by using either "role access update" or by adding the window manually to your role.
 1. ***Optional:*** You can use "template tabs" to link tabs into the new window instead of duplicating them which solves the problem of maintaining changes coming from metasfresh release in the originating window.
 
 ## Next Steps (optional)
