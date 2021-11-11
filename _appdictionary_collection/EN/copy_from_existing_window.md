@@ -15,7 +15,7 @@ In order to provide a customized window, you can simply create a copy of an exis
 | :--- |
 | **Do not** alter the public window, because future public updates might destroy it. |
 
-In case you want to keep the "old" window, please also ensure to:
+In case you won't want to override the old window, please also ensure to:
 - remove role access to the "old" window to avoid confusion with the new one.
 - see if there are `AD_Ref_Table` records whose `AD_Window_ID` have to be updated to the new window.
 - see if there are `AD_Table_Process` records whose `AD_Window_ID` or `AD_Tab_ID` have to be updated to the new window.
