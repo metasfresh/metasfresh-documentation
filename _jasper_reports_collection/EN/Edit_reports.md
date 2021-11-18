@@ -11,6 +11,8 @@ ref: edit_reports
 ## Precondition
 Make sure your Jasper Studio has Version 6.5.1. 
 
+Download the source files from here: https://github.com/metasfresh/metasfresh/tree/master/backend/de.metas.fresh/de.metas.fresh.base/src/main/jasperreports/de/metas
+
 ## Index
 <ol type="I">
  <li><a href="#changing-the-sql" title="Changing the SQL">Changing the SQL</a></li>
