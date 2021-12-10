@@ -2,7 +2,7 @@
 title: Check Elasticsearch index and add records to FTS (Troubleshooting)
 layout: default
 tags:  
-  - Full-Text Search (FTS)
+  - Full-Text Search (FTS) / Elasticsearch
 lang: en
 sequence: 20
 ref: check_elasticsearch_index_and_add_records_to_fts_troubleshooting
@@ -27,8 +27,8 @@ A name (e.g., business partner) is recorded in a table and also shows in the lis
 
     | c\_bpartner\_id | es\_documentid | created | updated |
     | :--- | :--- | :--- | :--- |
-    | 3296013 | 3296013-3360717-X | 2021-12-12 07:22:23.000000 +01:00 | 2020-04-14 20:21:55.000000 +01:00 |
-    | 3296013 | 3296013-3370769-3471263 | 2021-12-12 07:22:23.000000 +01:00 | 2020-04-14 20:21:55.000000 +01:00 |
+    | 3296013 | 3296013-3360717-X | 2018-04-14 07:22:23.000000 +01:00 | 2021-04-10 20:21:55.000000 +01:00 |
+    | 3296013 | 3296013-3370769-3471263 | 2018-04-14 07:22:23.000000 +01:00 | 2021-04-10 20:21:55.000000 +01:00 |
 
 1. Check if a given document ID is indexed on Elasticsearch.
 
