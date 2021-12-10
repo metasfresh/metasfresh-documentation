@@ -2,7 +2,7 @@
 title: Activate and Deactivate Full-Text Search for Business Partners
 layout: default
 tags:  
-  - Full-Text Search (FTS)
+  - Full-Text Search (FTS) / Elasticsearch
 lang: en
 sequence: 10
 ref: activate_deactivate_full_text_search_bpartners
