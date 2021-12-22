@@ -66,3 +66,10 @@ A name (e.g., business partner) is recorded in a table and also shows in the lis
     ```sql
     select processed, count(1) from ES_FTS_Index_Queue group by rollup (processed);
     ```
+
+## Note for Developers
+If the Elasticsearch is buried somewhere deep in a docker container and it's not accessible from the outside, then you have to create an SSH tunnel and map the Elasticsearch standard port `9200` to your localhost port `19200`, e.g.:
+
+```
+putty elasticsearch-host -L 19200:search:9200
+```
