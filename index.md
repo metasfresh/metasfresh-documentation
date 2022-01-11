@@ -17,6 +17,7 @@ layout: default
   - [Customizing App Dictionary](pages/appdictionary/index_en)
   - [Database Queries](pages/sql/index_en)
   - [Developing Code](pages/developers/index_en)
+  - [IntelliJ Guide](pages/intellij/index_en)
   - [Jasper Reports Guide](pages/jasper_reports/index_en)
   - REST API Guides [(EN)](pages/rest_api/index_en) [(DE)](pages/rest_api/index_de)
   - [Setup Guides](pages/setup/index_en)
