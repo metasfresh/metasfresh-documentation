@@ -37,6 +37,8 @@ collections:
     output: true
   installation_collection:
     output: true
+  intellij_collection:
+    output: true
   jasper_reports_collection:
     output: true
   glossary_collection:
