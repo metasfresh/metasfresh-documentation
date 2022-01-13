@@ -42,7 +42,7 @@ The following code will create the new folder `work-metas` and clone all metasfr
 Download and install JDK 8 from [AdoptOpenJDK](https://adoptopenjdk.net/releases.html?variant=openjdk8&jvmVariant=hotspot).
 Afterwards ensure the `JAVA_HOME` PATH is correct.
 
----java-home-path---
+![set JAVA_HOME path](./assets/java-home-path.png)
 
 ## Install node.js
 Download and install [node.js](https://nodejs.org/en/download/)
@@ -51,11 +51,11 @@ Download and install [node.js](https://nodejs.org/en/download/)
 
 Download and install [postgresql](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads) (optimal) version 10.19 and only select `Command Line Tools`.
 
----postgresql-install-web---
+![install postgres Command Line Tools](./assets/postresql-install-web.png)
 
 afterwards add the PATH:
 
----postgres-path---
+![set postgres path](./assets/postgres-path.png)
 
 ## Set up maven
 
@@ -78,7 +78,7 @@ This should return something similar to:
 - (Create a folder named `.m2` in `C:/Users/username`)
 - Paste `settings.xml` into `C:/Users/username/.m2/settings.xml`
 
----path-settings-xml---
+![folder and location for settings.xml](./assets/path-settings-xml.png)
 
 ## Compile the maven project
 
@@ -138,23 +138,25 @@ The Community Edition might work, for more information consult https://forum.met
 
 Open IntelliJ Ultimate and go to `Customize -> All Settings`
 
----intellij-conf-maven---
+![configure maven in IntelliJ](./assets/intellij-conf-maven.png)
 
 In `Build, Execution, Deployment -> Build Tools -> Maven` ensure the user settings file path is correct.
 
----intellij-user-settings-file---
+![user settings file path in IntelliJ](./assets/intellij-user-settings-file.png)
 
 In Build, Execution, Deployment -> Build Tools -> Maven -> Importing ensure the following checkboxes are (un-)ticked:
 Also choose the `JAVA_HOME` PATH in `JDK for Importer`
 
----intellij-maven-importing---
+![maven import settings and JDK for importer](./assets/intellij-maven-importing.png)
 
 Open the work-metas project:
 - choose `Projects -> Open`
-  ---7intellij-open-project---
+
+  ![open the project](./assets/intellij-open-project.png)
 
 - select the folder work-metas
-  ---intellij-choose-work-metas---
+
+  ![select the folder "work-metas"](./assets/intellij-choose-work-metas.png)
 
 - once the project opened, close it again. The `work-metas` folder should now contain an `.idea` subfolder.
 
@@ -180,11 +182,11 @@ Open `Project Structure` with <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Shift</kbd>+<k
 
 - ensure under `SDK` the correct jdk home path is selected.
 
----intellij-ps-sdk---
+![choose SDK home path](./assets/intellij-ps-sdk.png)
 
 - under `Project` choose the correct Project SDK
 
----intellij-ps-project---
+![add SDK for project](./assets/intellij-ps-project.png)
 
 - confirm with `Apply` and `OK`
 
@@ -192,13 +194,13 @@ Open `Settings` with <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>S</kbd>
 
 In `Build, Execution, Deployment -> Build Tools -> Maven -> Importing` select the JDK for `JDK for importer`.
 
----intellij-settings-jdk-imp---
+![maven configure JDK for importer](./assets/intellij-settings-jdk-imp.png)
 
 ### pom files
 
 In the `Project` tool window navigate to `metasfresh/backend/pom.xml`, right-click on the `pom.xml` and select `Add as a Maven project`.
 
----intellij-pom-maven---
+![add pom as a maven project](./assets/intellij-pom-maven.png)
 
 This step might take some time to complete and will throw an error, since we need to add these poms as well:
 
@@ -211,11 +213,11 @@ This step might take some time to complete and will throw an error, since we nee
 
 Press "4 squares" and disable `Configuration -> Type`
 
----intellij-4squares---
+![press "4squares" and change configuration](./assets/intellij-4squares.png)
 
 Press "plus", choose `Run configuration type` and add the following:
 
----intellij-run-config---
+![press "plus" to add to the run configuration](./assets/intellij-run-config.png)
 
 - `Docker`
 - `npm`
@@ -223,7 +225,7 @@ Press "plus", choose `Run configuration type` and add the following:
 
 In the end you should see the following Run configurations:
 
----intellij-final-run-config---
+![final run configuration](./assets/intellij-final-run-config.png)
 
 ### Configure docker for IntelliJ
 
@@ -232,7 +234,7 @@ Open settings with <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>S</kbd>
 In `Build, Execution, Deployment -> Docker` press <kbd>+</kbd>.
 Then choose the option "Docker for Windows". Afterwards you can check if the connection was successful and hit `Apply`.
 
----intellij-docker---
+![configure docker for IntelliJ](./assets/intellij-docker.png)
 
 ### Configure node js for IntelliJ
 
@@ -240,7 +242,7 @@ Open settings with <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>S</kbd>
 
 In `Language & Frameworks -> Node.js` ensure that `Node interpreter` and `Package Manager` are the installed ones.
 
----intellij-node-js---
+![check paths for node.js](./assets/intellij-node-js.png)
 
 Press `Apply` and `Ok`
 
@@ -250,20 +252,20 @@ Press `Apply` and `Ok`
 
 In the `Services` tool window right click `Infrastructure: Compose Deployment` and choose run. In the end a message should indicate its success.
 
----intellij-icd---
+![run Infrastructure: Compose Deployment](./assets/intellij-icd.png)
 
----intellij-docker-success---
+![Infrastructure successful deployed](./assets/intellij-docker-success.png)
 
 Info about the Docker Additional property error:
 Docker sometimes enables the option to use Docker Compose V2. However, this needs to be disabled.
 
----docker-compose-v2---
+![docker compose v2 disable](./assets/docker-compose-v2.png)
 
 ### Install dependencies for frontend
 
 In the `Project` tool window select the file `metasfresh/frontend/package.json`, right click it and choose `run 'npm install'`.
 
----intellij-npm-install---
+![npm install](./assets/intellij-npm-install.png)
 
 Copy the file `metasfresh\frontend\config.js.dist` into `metasfresh\frontend\docker\nginx`.
 
@@ -276,7 +278,7 @@ You need to run this script manually (e.g. in Datagrip).
 
 This is necessary after every git pull from master. It updates all changes to your local database.
 
---intellij-run-sql-migrations---
+![npm install](./assets/intellij-run-sql-migrations.png)
 
 ## Start metasfresh
 
@@ -293,6 +295,6 @@ convert the files whenever you need them. Just right-click on a “.launch” fi
 Eclipse can only find `// todo comments` if todo is in caps rage.
 To do this you should go to `Settings -> Editor -> Live Templates` and add a new template as follows:
 
----live-templates-optional---
+  ![Eclipser](./assets/live-templates-optional.png)
 
 - Learn shortcuts and helpful information about your IDE.
