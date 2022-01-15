@@ -33,7 +33,7 @@ INSERT INTO public.m_productprice
           0,
           'N',
           nextval('m_productprice_seq'),
-          1000001,
+          <put your tax category id here>,
           'N',
           'N',
           (select c_uom_id from c_uom where c_uom.name = <uom column in your migration data> ),
