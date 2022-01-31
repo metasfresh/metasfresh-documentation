@@ -17,6 +17,9 @@ ref: printpdfsetup
 
 eventually add to docoutbound config to have printing queue records
 
+### Client Archive Setting
+1. Open window "Client"
+2. Make sure the archive settings are NOT set to NOTHING. e.g. Documents
 
 ### enable hostkey of user
 
