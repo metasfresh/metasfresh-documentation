@@ -37,6 +37,9 @@ By enabling this the system will not use the session ID but the login name of th
 1. login with the user where you want to use the PDF printer
 1. open window "printing allocation"
 1. create new record printer allocation
+
+### create printer tray allocation
+1. Go to Window "Printer Tray Allocation"
 1. go to subtab tray and add one record that links the logical tray with the printer tray
 
 ### configure logical printer
