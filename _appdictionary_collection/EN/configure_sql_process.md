@@ -102,11 +102,11 @@ The context variables used in SQL will be resolved in following order:
 
 <details><summary>How to add Translations to a Process</summary>
 
-* Open `Tools` than `Preferences` and tick the box with `Show Translations Tabs`
+* Open `Tools` then `Preferences` and tick the box with `Show Translations Tabs`
 
 ![image](./assets/SwingUI_Preferences_TranslatationTabs.png)
 
-* Than Restart Java Client/SwingUI afterwards the Tabs will be visible.
+* Then Restart Java Client/SwingUI afterwards the Tabs will be visible.
 
 ![image](./assets/SwingUI_TranslatationTabs.png)
 
