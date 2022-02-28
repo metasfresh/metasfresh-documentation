@@ -94,9 +94,9 @@ The context variables used in SQL will be resolved in following order:
 
 <details><summary>How to Create and Bind Processes for Selected Records</summary>
 
-![image](./assets/Process_SwingUI_SQLStatement.png)
-![image](./assets/Process_SwingUI_SQLfunction_part1.png)
-![image](./assets/Process_SwingUI_SQLfunction_part2.png)
+![image](./assets/Process_SwingUI_SQLStatements.png)
+![image](./assets/Process_SwingUI_SQLfunction_p1.png)
+![image](./assets/Process_SwingUI_SQLfunction_p2.png)
 
 </details>
 
@@ -104,10 +104,10 @@ The context variables used in SQL will be resolved in following order:
 
 * Open `Tools` then `Preferences` and tick the box with `Show Translations Tabs`
 
-![image](./assets/SwingUI_Preferences_TranslatationTabs.png)
+![image](./assets/SwingUI_Preferences_TranslatationTab.png)
 
 * Then Restart Java Client/SwingUI afterwards the Tabs will be visible.
 
-![image](./assets/SwingUI_TranslatationTabs.png)
+![image](./assets/SwingUI_TranslatationTab.png)
 
 </details>
