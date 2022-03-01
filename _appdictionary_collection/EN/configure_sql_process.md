@@ -123,11 +123,14 @@ A default value can be:
 ---
 
 <details><summary style="font-weight: bold">How to add translations to a process</summary>
-
-1. Open <code>Tools</code>, then <code>Preferences</code> and tick the checkbox called <strong>Show Translation Tabs</strong>.
-    <kbd><img src="./assets/SwingUI_Preferences_TranslatationTab.png" alt="Fig.: Checkbox 'Show Translation Tabs' (SwingUI)"></kbd><br><br>
-
-2. Then restart the Java Client (SwingUI). Afterwards the tabs will be visible.
+<br>
+<ol>
+  <li>Open <code>Tools</code>, then <code>Preferences</code> and tick the checkbox called <strong>Show Translation Tabs</strong>.
+    <kbd><img src="./assets/SwingUI_Preferences_TranslatationTab.png" alt="Fig.: Checkbox 'Show Translation Tabs' (SwingUI)"></kbd>
+  </li>
+  <br>
+  <li>Then restart the Java Client (SwingUI). Afterwards the tabs will be visible.
     <kbd><img src="./assets/SwingUI_TranslatationTab.png" alt="Fig.: Report Translation Tabs visible (SwingUI)"></kbd>
-
+  </li>
+</ol>
 </details>
