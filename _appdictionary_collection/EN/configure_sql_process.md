@@ -13,14 +13,15 @@ ref: configure_sql_process
 - It also shows you how to add `Translations Tabs` in a running process.
 
 ## Origin
-This guide was developed in this issue: ["Generic Process for SQL -> Excel Export" (metasfresh#4633)](https://github.com/metasfresh/metasfresh/issues/4633).
+This guide was developed in this issue: <a href="https://github.com/metasfresh/metasfresh/issues/4633" title="metasfresh issue #4633 | github.com" target="\_blank">"Generic Process for SQL -> Excel Export" (metasfresh#4633)</a>.
 
-<!--
+<!-- html comment
 Other relevant issues:
 https://github.com/metasfresh/onboarding/issues/12
 https://github.com/metasfresh/me03/issues/10686
 -->
 
+[GitHub style comments (mind the space after the round bracket!) ]: #
 [Other relevant issues: ]: #
 [https://github.com/metasfresh/onboarding/issues/12 ]: #
 [https://github.com/metasfresh/me03/issues/10686 ]: #
@@ -68,18 +69,18 @@ A default value can be:
 - A more complex SQL, like `@SQL=SELECT COALESCE(MAX(SeqNo),0) + 100 AS DefaultValue FROM C_PricingRule`.
     >**Note:** The statement starts with `@SQL=` but the `@` **does not have to be paired** with another one at the end.
 
-<br>
-
 | **General note:** |
 | :--- |
 | An SQL statement starts with: `@sql= <sql statement here>` |
 
 [Commented by Ruxi in issue: https://github.com/metasfresh/onboarding/issues/12 ]: #
 
+<br>
+
 #### 3. The `WEBUI_ViewSelectedIds`
 
 - `WEBUI_ViewSelectedIds` is a value for the currently selected record's field, e.g., `where <column> in ('@$WEBUI_ViewSelectedIds/0@')`.
-- Since the input of `WEBUI_ViewSelectedIds` is going to be a continous varchar, you would need to split the input.
+- Since the input of `WEBUI_ViewSelectedIds` is going to be a continuous varchar, you would need to split the input.
 
     | **Example** |
     | :--- |
@@ -89,7 +90,7 @@ A default value can be:
 
 
 ## Samples
-<details><summary>How to create and bind processes </summary>
+<details><summary style="font-weight: bold">How to create and bind processes</summary>
 
 <kbd><img src="https://user-images.githubusercontent.com/1244701/46567456-d181d380-c93b-11e8-82b4-abe2b11f57f5.png" alt="Fig.: Report & Process (SwingUI)"></kbd>
 
@@ -109,7 +110,7 @@ A default value can be:
 
 ---
 
-<details><summary>How to create and bind processes for selected records</summary>
+<details><summary style="font-weight: bold">How to create and bind processes for selected records</summary>
 
 <kbd><img src="./assets/Process_SwingUI_SQLStatements.png" alt="Fig.: Report & Process - SQL Statement (SwingUI)"></kbd>
 
@@ -121,14 +122,12 @@ A default value can be:
 
 ---
 
-<details><summary>How to add translations to a process</summary>
+<details><summary style="font-weight: bold">How to add translations to a process</summary>
 
 1. Open `Tools`, then `Preferences` and tick the checkbox called  **Show Translation Tabs**.
-
-    <kbd><img src="./assets/SwingUI_Preferences_TranslatationTab.png" alt="Fig.: Checkbox 'Show Translation Tabs' (SwingUI)"></kbd>
+    <kbd><img src="./assets/SwingUI_Preferences_TranslatationTab.png" alt="Fig.: Checkbox 'Show Translation Tabs' (SwingUI)"></kbd><br><br>
 
 1. Then restart the Java Client (SwingUI). Afterwards the tabs will be visible.
-
     <kbd><img src="./assets/SwingUI_TranslatationTab.png" alt="Fig.: Report Translation Tabs visible (SwingUI)"></kbd>
 
 </details>
