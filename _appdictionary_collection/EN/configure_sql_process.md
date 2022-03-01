@@ -15,9 +15,9 @@ ref: configure_sql_process
 ## Origin
 Was developed by this issue: https://github.com/metasfresh/metasfresh/issues/4633.
 
-[ other relevant issues:
- https://github.com/metasfresh/onboarding/issues/12
- https://github.com/metasfresh/me03/issues/10686 ]: #
+[other relevant issues:
+https://github.com/metasfresh/onboarding/issues/12
+https://github.com/metasfresh/me03/issues/10686]: #
 
 
 ## In General
