@@ -21,9 +21,9 @@ https://github.com/metasfresh/onboarding/issues/12
 https://github.com/metasfresh/me03/issues/10686
 -->
 
-[Other relevant issues:
-https://github.com/metasfresh/onboarding/issues/12
-https://github.com/metasfresh/me03/issues/10686 ]: #
+[Other relevant issues: ]: #
+[https://github.com/metasfresh/onboarding/issues/12 ]: #
+[https://github.com/metasfresh/me03/issues/10686 ]: #
 
 
 ## In General
