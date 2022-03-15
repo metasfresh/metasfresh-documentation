@@ -79,7 +79,7 @@ truncate api_request_audit, api_request_audit_log, api_response_audit ;
 ### Misc Tables
 
 ```SQL
-truncate ad_issue,ad_processablepo,c_advcommissionfactcand, c_advcommissionfact, c_incidentlinefact,c_advcomfact_salesrepfact
+truncate ad_issue,c_advcommissionfactcand, c_advcommissionfact, c_incidentlinefact,c_advcomfact_salesrepfact,es_fts_index_queue ;
 ```
 
 optional constraints that can be dropped:
