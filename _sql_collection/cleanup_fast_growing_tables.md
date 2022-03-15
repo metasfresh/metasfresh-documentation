@@ -69,6 +69,12 @@ Remove Data from AD_Changelog of a certain table and free disk space:
 `delete from ad_changelog where ad_table_id = 540425;`
 `vacuum full ad_changelog;`
 
+### REST API-related Tables
+
+```SQL
+truncate api_request_audit, api_request_audit_log, api_response_audit ;
+```
+
 
 ### Misc Tables
 
