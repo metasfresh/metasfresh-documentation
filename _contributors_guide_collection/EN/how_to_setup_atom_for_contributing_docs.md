@@ -15,37 +15,37 @@ Download Atom from the <a href="https://atom.io/" title="atom.io" target="\_blan
 With this you can easily create links to other markdown files without having them to search.
 
 1. press `Ctrl + Shift + P` to open search
-1. search for "install packages and themes"
-1. click on `Settings View: install packages and themes`
+1. search for "Install Packages and Themes"
+1. click on `Settings View: Install Packages and Themes`
 1. search for "autocomplete-paths"
-1. click on "install"
+1. click on "Install"
 
 **Usage:** just put / and then a part of the file you are looking for.
 
 e.g. `/sales` will suggest `SalesOrder_recording`.
 
-*Hint:* Combine with Markdown Snippes using `l + TAB` to get `[]()`
+*Hint:* Combine with Markdown Snippets using `l + TAB` to get `[]()`
 
 ### Markdown Image Helper
 
 This package allows you to easily upload and insert images into markdown pages.
 
 1. press `Ctrl + Shift + P` to open search
-1. search for "install packages and themes"
-1. click on `Settings View: install packages and themes`
+1. search for "Install Packages and Themes"
+1. click on `Settings View: Install Packages and Themes`
 1. search for "markdown-image-helper"
-1. click on "install"
+1. click on "Install"
 
-### Enable Github Style
+### Enable GitHub Style
 
-This setting switches the markdown preview to github style.
+This setting switches the markdown preview to GitHub style.
 
 1. press `Ctrl + Shift + P` to open search
-1. search for "install packages and themes"
-1. click on `Settings View: install packages and themes`
+1. search for "Installed Packages"
+1. click on `Settings View: Installed Packages`
 1. search for "markdown-preview"
-1. click on "settings"
-1. enable "Use Github.com" style
+1. click on "Settings"
+1. enable "Use GitHub.com" style
 
  ![](assets/how_to_setup_atom_for_contributing_docs-6110c.png)
 
@@ -54,10 +54,10 @@ This setting switches the markdown preview to github style.
 This Packages automatically scrolls the markdown preview to the position of your cursor in the markdown text.
 
 1. press `Ctrl + Shift + P` to open search
-1. search for "install packages and themes"
-1. click on `Settings View: install packages and themes`
+1. search for "Install Packages and Themes"
+1. click on `Settings View: Install Packages and Themes`
 1. search for "markdown-scroll-sync"
-1. click on "install"
+1. click on "Install"
 
 ## Format Snippets
 
