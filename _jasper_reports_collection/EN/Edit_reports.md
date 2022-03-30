@@ -9,20 +9,12 @@ ref: edit_reports
 ---
 
 ## Precondition
-Make sure your Jasper Studio is this specific Version 6.5.1.
+- Make sure your Jasper Studio is this specific Version 6.5.1.
 
-Download the source files from here: https://github.com/metasfresh/metasfresh/tree/master/backend/de.metas.fresh/de.metas.fresh.base/src/main/jasperreports/de/metas
+   - Download the source files from here: https://github.com/metasfresh/metasfresh/tree/master/backend/de.metas.fresh/de.metas.fresh.base/src/main/jasperreports/de/metas
 
-## Setting up your Jasper Studio environment
-
-### Add Jasper Project in Jasper Studio
-1. After you downloaded the source files open Jasper Studio
-1. Click on `File` and open `New Project`, choose `JasperReport Project` in the wizard, click `Next` and name it.
-1. Afterwards under the tab `Project Explorer` right click the Project and choose `Build Path` > `Configure Build Path` > `Link Source` and `Browse` .
-1. Browse and search for the location of the downloaded source files and use this path for the metasfresh JasperReport documentation:
-`metasfresh/backend/de.metas.fresh/de.metas.fresh.base/src/main/jasperreports`
-then `Apply & Close`.
-1. Afterwards right click again on the Project and `Build Project`.
+- <p><a href="https://github.com/metasfresh/metasfresh-documentation/blob/gh-pages/_jasper_reports_collection/EN/Set_up_Jasper_Studio_Environment.md" title="How to set up your Jasper Studio environment">How to set up your Jasper Studio environment
+</a></font></p>
 
 ## Index
 <ol type="I">
@@ -143,10 +135,10 @@ For instance, select *Group* if you want to obtain the sum per business partner,
 
 
 ### <a name="Database_Adapter">X. Set up Database Adapter</a>
-1. In the `Repository Explorer` tab right click on `Data Adapter` than `Create Data Adapter` and choose `Database JDBC Connection`
-1. Input your connection preferences. For example for the localhost:
+1. In the `Repository Explorer` tab right click on `Data Adapter` then `Create Data Adapter` and choose `Database JDBC Connection`
+1. Set your connection preferences. As an example, for localhost:
 <kbd><img src="./assets/data_adapter_preferences.png" alt="Data Adapter preferences"></kbd>
-1. Afterwards you can use it for the steps in **IX. Preview**.
+1. Afterwards, you can use it in the following steps: **IX. Preview**.
 
 
 
