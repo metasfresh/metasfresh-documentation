@@ -4,7 +4,7 @@ layout: default
 tags:  
   - Process
 lang: en
-sequence:
+sequence: 20
 ref: configure_sql_process
 ---
 

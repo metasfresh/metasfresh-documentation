@@ -3,35 +3,40 @@ title: How to create a process
 layout: default
 tags:  
   - Process
-seq: 20
 lang: en
+sequence: 10
+ref: how_to_create_processes
 ---
-## You can create the process in the Java client or in the WebUI
-## Steps Java client
 
-#### Login in Java client
-1. Log in to the desired instance and login as **System Administrator**.
-2. Now go on **report & process**.
-3. Create a new process.
+## Overview
+Processes can be created in two ways: via the Java client or via the WebUI.
 
-<kbd><img src="./assets/X2Go_New_Process.png" alt="Fig.: Checkbox '' (SwingUI)"></kbd>
-### Setup the process
+## Steps via Java Client
 
-1. Search Key: Is the internal search name and must be unique.
-1. Name: It is the name they are displayed in the action menu.
-1. Active: Must be on if the process is to be displayed.
-1. Entity Type: Dictionary entry type: Determines ownership and synchronization.
-1. Data Access Level: Specifies who has access to this process and who can use it.
-1. Type: Validation of the type of process.
+### Login
+1. Log in to the desired Java back-end instance with the user role “System Administrator”.
+1. Open **Report & Process** from the menu.
+1. Click on <kbd><img src="../../images/icons/New24.png" alt="Fig.: Create New Process"></kbd> to create a new process.
 
-<kbd><img src="./assets/X2Go_Process_Create.png" alt="Fig.: Checkbox '' (SwingUI)"></kbd>
-### In Report Access
-Here you enter the access rights for the roles.
+    <kbd><img src="assets/X2Go_New_Process.png" alt="Fig.: Report & Process window (SwingUI)"></kbd>
 
-<kbd><img src="./assets/X2Go_Report_Access.png" alt="Fig.: Checkbox 'Report Access Window' (SwingUI)"></kbd>
+### Setup the process (Report Process Tab)
+1. **Search Key:** This is the internal search name and must be unique.
+1. **Name:** This is the name that will be displayed in the actions menu.
+1. **Active:** Must be enabled for the process to appear in the actions menu.
+1. **Entity Type:** This is the dictionary entry type determining ownership and synchronization.
+1. **Data Access Level:** Specifies who has access to this process and who can use it.
+1. **Type:** Defines the validation of the process type.
+
+<kbd><img src="assets/X2Go_Process_Create.png" alt="Fig.: Report process window (SwingUI)"></kbd>
+
+### Report Access Tab
+Here you can enter the access rights for the roles.
+
+<kbd><img src="assets/X2Go_Report_Access.png" alt="Fig.: Report Access Tab (SwingUI)"></kbd>
 
 ### Parameters
-To add a parameters click `add new` and the advanced edit with the following parameters will open up.
+To add a parameter click `add new` and the advanced edit with the following parameters will open up.
 In this advanced edit you can enter:
 1. *Sequence*: The way all parameters are ordered (usually in steps like 10,20,30,...)
 1. *Name*, *Description*, *Comment/Help*: Contain information and help about the parameter needed to enter. The name and description are visible to the user.
@@ -51,8 +56,10 @@ In this advanced edit you can enter:
 1. Entity Type: Dictionary entry type: Determines ownership and synchronization.
 
 <kbd><img src="./assets/X2Go_Assingnes_to_table.png" alt="Fig.: Checkbox '' (SwingUI)"></kbd>
+
 ---
-## Steps WebUI
+
+## Steps via WebUI
 ### Login in the WebUI
 1. login in the WebUI as **System Administrator**.
 1. Go in navigation to **Report&Process**.
