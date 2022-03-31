@@ -21,3 +21,6 @@ ref: set_up_jasper_studio_environment
 `metasfresh/backend/de.metas.fresh/de.metas.fresh.base/src/main/jasperreports`
 then **Apply & Close**.
 1. Afterwards, right click the Project again and select **Build Project**.
+
+### Next steps
+- <a href="./Edit_reports.md" title="how to edit Jasper Reports">How to edit Jasper Reports</a></font>
