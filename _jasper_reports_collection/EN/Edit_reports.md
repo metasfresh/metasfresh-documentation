@@ -4,7 +4,7 @@ layout: default
 tags:
   - Reports
 lang: en
-sequence: 10
+sequence: 20
 ref: edit_reports
 ---
 
@@ -13,7 +13,7 @@ ref: edit_reports
 
    - Download the source files from here: https://github.com/metasfresh/metasfresh/tree/master/backend/de.metas.fresh/de.metas.fresh.base/src/main/jasperreports/de/metas
 
-- <p><a href="https://github.com/metasfresh/metasfresh-documentation/blob/gh-pages/_jasper_reports_collection/EN/Set_up_Jasper_Studio_Environment.md" title="How to set up your Jasper Studio environment">How to set up your Jasper Studio environment
+- <p><a href="./Set_up_Jasper_Studio_Environment.md" title="How to set up your Jasper Studio environment">How to set up your Jasper Studio environment
 </a></font></p>
 
 ## Index
@@ -135,8 +135,9 @@ For instance, select *Group* if you want to obtain the sum per business partner,
 
 
 ### <a name="Database_Adapter">X. Set up Database Adapter</a>
-1. In the `Repository Explorer` tab right click on `Data Adapter` then `Create Data Adapter` and choose `Database JDBC Connection`
-1. Set your connection preferences. As an example, for localhost:
+1. In the **Repository Explorer** tab right click on **Data Adapter** then **Create Data Adapter**.
+1. In the window **Create Data Adapter** choose **Database JDBC Connection** and click **Next**.
+1. Set your connection preferences. As an example, for `localhost`:
 <kbd><img src="./assets/data_adapter_preferences.png" alt="Data Adapter preferences"></kbd>
 1. Afterwards, you can use it in the following steps: **IX. Preview**.
 
