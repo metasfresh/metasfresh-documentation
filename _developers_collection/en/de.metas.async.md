@@ -18,14 +18,12 @@ There are three "sub-tables" which all reference one workpackage each. Each work
   - `C_Queue_Element` records each reference one metasfresh record to work with via `AD_table_ID` and `Record_ID` columns. Examples include invoice candidates, shipment candidates etc.
   - `C_Queue_WorkPackage_Param` records can specify parameters to be used when the workpackage is processed.
   - `C_Queue_WorkPackage_Log` records contain audit/log informations that were collected while the work pacage was processed
-* `C_Queue_Block` records are referecenced by workpackage records with each workpackage referencing one block. Workpackages that were enqueued together usually share the same block record.
 * `C_Queue_PackageProcessor` records specify the business logic that can be applied to a given workpackage. More specifically, the package processor table has a column named [Classname](https://github.com/metasfresh/metasfresh/blob/master/de.metas.async/src/main/java-gen/de/metas/async/model/I_C_Queue_PackageProcessor.java)
 which references a java class that in turn implements the interface [IWorkpackageProcessor](https://github.com/metasfresh/metasfresh/blob/master/de.metas.async/src/main/java/de/metas/async/spi/IWorkpackageProcessor.java).
-Each queue block references one package processor. That way, each work package has one package processor that is in charge of processing it.
+Each workpackage references one package processor that is in charge of processing it.
 When processing a workpackage, the package-processor's customer business logic accesses the workpackage's elements and parameters to do the job, and write audit messages to the work package's log.
 * `C_Queue_Processor` records reference one or many package processors. They basically constitue a queue.
 This means metasfresh does not need to have one queue for each workpackage-processor, but can also have one queue for different kinds of workpackages.
-Also, the workpackage-processor controls how many threads are assinged to the queue it represents.
 
 Here is an experimental ascii-Diagram i started working on.
 Thx to http://stable.ascii-flow.appspot.com/
