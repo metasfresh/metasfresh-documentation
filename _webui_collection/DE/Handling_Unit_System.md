@@ -18,7 +18,7 @@ Dieses System, Produkte (sog. Verbrauchereinheiten, engl.: *Consumer Units* = CU
 
 Demzufolge bezeichnen wir das Gefüge aus einer CU in einer TU in/auf einer LU also als **Handling Unit (HU)**.
 
-![Handling Unit](assets/Handling_Unit_System_DE.png)
+<kbd><img src="assets/Handling_Unit_System_metasfresh_DE.png" alt="Abb.: metasfresh Handling Unit System"></kbd>
 
 ## Beispiele
 
