@@ -61,7 +61,7 @@ So, calling it a "feature" build is usually correct and seems to be relatively c
 
 In this section, we describe a concrete example, from a high-level view.
 
-Note that in order to support feature builds in the described way, we need different types of jobs which end with `_feature_webhook` and `_feature_downstream`. The difference is described in another section. I think that in order to follow the example, it's not requred to userstand the difference.
+Note that in order to support feature builds in the described way, we need different types of jobs which end with `_feature_webhook` and `_feature_downstream`. The difference is described in another section. I think that in order to follow the example, it's not required to userstand the difference.
 
 Three repositories are playing a role in this example:
 * [metasfresh](https://github.com/metasfresh/metasfresh)

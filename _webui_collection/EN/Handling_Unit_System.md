@@ -18,7 +18,7 @@ This system of mapping products (so-called *consumer units = CU*) along with the
 
 Hence, the combination of a CU inside a TU in/on an LU is called a **Handling Unit (HU)**.
 
-![Handling Unit](assets/Handling_Unit_System_EN.png)
+<kbd><img src="assets/Handling_Unit_System_metasfresh_EN.png" alt="Abb.: metasfresh Handling Unit System"></kbd>
 
 ## Examples
 
