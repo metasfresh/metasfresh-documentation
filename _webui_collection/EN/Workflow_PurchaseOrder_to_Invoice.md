@@ -9,7 +9,7 @@ sequence: 10
 ref: workflow_purchaseorder_to_invoice
 ---
 
-<kbd><img src="../../images/en_workflow_PO_to_POinvoice.png" alt="Fig.: Workflow - Purchase Order to Invoice"></kbd>
+<kbd><img src="assets/Workflow_Purchase_Order_to_Invoice_EN.png" alt="Fig.: Workflow - Purchase Order to Invoice"></kbd>
 
 ## Steps
 1. [Log in to metasfresh](Login).
