@@ -9,7 +9,7 @@ sequence: 10
 ref: workflow_salesorder_to_invoice
 ---
 
-<kbd><img src="../../images/en_workflow_salesorder_to_invoice.png" alt="Fig.: Workflow - Sales Order to Invoice"></kbd>
+<kbd><img src="assets/Workflow_Sales_Order_to_Invoice_EN.png" alt="Fig.: Workflow - Sales Order to Invoice"></kbd>
 
 ## Steps
 1. [Log in to metasfresh](Login).
