@@ -38,10 +38,10 @@ select
 from c_invoice
 ```
 
-So in order to make your SQL code work in the virtual column it needs to be runnable as a column in a `select` statement.
+So, in order to make your SQL code work in the virtual column it needs to be runnable as a column in a `select` statement.
 
 ## When creating or changing SQL columns they are validated on save
-Each time the `AD_Column.ColumnSQL` is changed, the code is validated un save.
+Each time the `AD_Column.ColumnSQL` is changed, the code is validated on save.
 
 The validation goes as follows:
 
@@ -53,11 +53,11 @@ select
 from TableName master
 limit 1
 ```
-1. If that code succeeds => OK, if not => ERROR.
+1. If that code succeeds ➔ OK, if not ➔ ERROR.
 
 ## Dos and Don't
-1. When using `select` statements, add parentheses "`()`" around them, e.g., *`(select value from other table where...)`*.
-1. Never use slashes "`/`" in column names even though they are virtual.
+1. When using `select` statements, add parentheses `()` around them, e.g., *`(select value from other table where...)`*.
+1. Never use slashes `/` in column names even though they are virtual.
 
 
 ## How to avoid some corner-case issues
@@ -73,7 +73,7 @@ A corner case occurs when `ColumnSQL` has a subquery which joins the same table 
 
 #### Example
 Assume that in the "Account" window (aka "Element value", `window/540761`) you want to show the account number of a parent account.
-You may probably be tempted to write:
+You might be tempted to write:
 ```sql
 ( SELECT p.Value FROM c_elementvalue p where p.c_elementvalue_id=C_ElementValue.parent_id)
 ```
@@ -88,5 +88,5 @@ To avoid this, you could write:
 ```
 
 #### Please note:
-- There is no dot (`.`) between `@JoinTableNameOrAliasIncludingDot@` and the `parent_id`.
+- There is no dot (`.`) between `@JoinTableNameOrAliasIncludingDot@` and `parent_id`.
 - We still have to use lowercase letters in `FROM c_elementvalue` to make sure the table name is not replaced with `master`.
