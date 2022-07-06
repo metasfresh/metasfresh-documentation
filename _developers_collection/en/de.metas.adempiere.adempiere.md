@@ -23,4 +23,4 @@ In addition to the code we inherited from ADempiere, we added a lot of own work,
 and [model interceptors](https://github.com/metasfresh/metasfresh/tree/master/backend/de.metas.adempiere.adempiere/base/src/main/java/org/adempiere/ad/modelvalidator/annotations)
 (a.k.a. model validators, javadoc [here](https://metasfresh.com/javadoc/metasfresh-master/org/adempiere/ad/modelvalidator/annotations/package-summary.html)).
 
-If you are coming from the ADempiere world, feel free to contact us - for example in our [gitter chat](https://gitter.im/metasfresh/metasfresh) - and ask us what happened with particular parts and folders. We would be happy to answer and at the same time extend this documentation.
+If you are coming from the ADempiere world, feel free to contact us – for example via our <a href="https://forum.metasfresh.org/" title="metasfresh Community Forum &#124; forum.metasfresh.org" target="\_blank">metasfresh Community Forum</a> – and ask us what happened with particular parts and folders. We would be happy to answer and at the same time extend this documentation.
