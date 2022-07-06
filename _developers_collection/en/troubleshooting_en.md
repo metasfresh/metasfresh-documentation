@@ -2,7 +2,7 @@
 layout: default
 title: Troubleshooting
 tags: developers_troubleshooting
-sequence: 10 
+sequence: 10
 summary: Solving problems that might arise when trying to run metasfresh from eclipse
 lang: en
 ref: developers_troubleshooting
@@ -29,8 +29,8 @@ We recoment to first check the following projects:
 
 * [metasfresh-parent](https://github.com/metasfresh/metasfresh-parent) (a repo of its own)
 * [de.metas.parent](https://github.com/metasfresh/metasfresh/tree/master/de.metas.parent) (comes with the metasfresh repo)
-* [de.metas.util](https://github.com/metasfresh/metasfresh/tree/master/de.metas.util) (comes with the metasfresh repo)
-* [de.metas.adempiere.adempiere.base](https://github.com/metasfresh/metasfresh/tree/master/de.metas.adempiere.adempiere/base) (also comes with the metasfresh repo)
+* [de.metas.util](https://github.com/metasfresh/metasfresh/tree/master/backend/de.metas.util) (comes with the metasfresh repo)
+* [de.metas.adempiere.adempiere.base](https://github.com/metasfresh/metasfresh/tree/master/backend/de.metas.adempiere.adempiere/base) (also comes with the metasfresh repo)
 
 ## So how can I make eclipse showing only the current project's errors?
 
@@ -44,7 +44,7 @@ You can configure eclipse to only show errors from the project that is currently
 
 ![troubleshooting_ide_eclipse_configure_problems_20_open_configure]({{ site.github.url }}/images/developers/troubleshooting_ide_eclipse_configure_problems_20_open_configure.png)
 
-* ...and change the setting such that only errors from the currently selecte project are displayed: 
+* ...and change the setting such that only errors from the currently selecte project are displayed:
 
 ![troubleshooting_ide_eclipse_configure_problems_30_do_configure]({{ site.github.url }}/images/developers/troubleshooting_ide_eclipse_configure_problems_30_do_configure.png)
 
