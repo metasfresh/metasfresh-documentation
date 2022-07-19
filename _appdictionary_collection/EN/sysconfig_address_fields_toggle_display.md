@@ -9,13 +9,13 @@ ref: sysconfig_address_fields_toggle_display
 ---
 
 ## Overview
-[Addresses of business partners](../../webui_collection/EN/Add_address_tab) can be recorded in the record tab "Location" at the bottom of each entry in the "[Business Partner](../../webui_collection/EN/Menu)" window.
+In the [WebUI of metasfresh](https://docs.metasfresh.org/pages/webui/index_en), [addresses of business partners](../../webui_collection/EN/Add_address_tab) can be recorded in the record tab "Location" at the bottom of each entry in the "[Business Partner](../../webui_collection/EN/Menu)" window.
 
-<kbd><img src="assets/webUI_bpartner_location_tab.png" alt="Fig.: Location tab in the business partner window" style="max-width: 400px"></kbd>
+<kbd><a href="assets/webUI_bpartner_location_tab.png" title="Click to enlarge"><img src="assets/webUI_bpartner_location_tab.png" alt="Fig.: Location tab in the business partner window" style="max-width: 450px"></a></kbd>
 
 This system configuration allows you to control which address fields are shown in the address modal overlay.
 
-<kbd><img src="assets/webUI_bpartner_address_fields_modal_overlay.png" alt="Fig.: Address fields in the address modal overlay" style="max-width: 400px"></kbd>
+<kbd><a href="assets/webUI_bpartner_address_fields_modal_overlay.png" title="Click to enlarge"><img src="assets/webUI_bpartner_address_fields_modal_overlay.png" alt="Fig.: Address fields in the address modal overlay" style="max-width: 450px"></a></kbd>
 
 ## Example
 
@@ -27,7 +27,7 @@ The following code reference will help you locate the related system configurati
 1. Open "System Configuration" from the [menu](../../webui_collection/EN/Menu).
 1. [Use the filter](../../webui_collection/EN/Filtering_function) to find the address configuration entries you want to adjust, e.g., by searching for "address".
 
-<kbd><img src="assets/webUI_window_system_configuration_address_configs.png" alt="Fig.: Address fields in the address modal overlay"></kbd>
+<kbd><a href="assets/webUI_window_system_configuration_address_configs.png" title="Click to enlarge"><img src="assets/webUI_window_system_configuration_address_configs.png" alt="Fig.: Address fields in the address modal overlay"></a></kbd>
 
 ### Configuration via SQL
 Use the following SQL select statement to return the WebUI table shown above:
