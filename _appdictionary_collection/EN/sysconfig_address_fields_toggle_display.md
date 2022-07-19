@@ -24,6 +24,7 @@ The following code reference will help you locate the related system configurati
 `de.metas.ui.web.address.AddressDescriptorFactory#SYSCONFIG_PREFIX`
 
 ### Configuration via WebUI
+1. [Log in to metasfresh](../../webui_collection/EN/Login) with the [user role](../../webui_collection/EN/NewUserRole) "System Administrator".
 1. Open "System Configuration" from the [menu](../../webui_collection/EN/Menu).
 1. [Use the filter](../../webui_collection/EN/Filtering_function) to find the address configuration entries you want to adjust, e.g., by searching for "address".
 
