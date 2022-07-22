@@ -61,6 +61,8 @@ order by ad_language,e.name;
 
 <kbd><a href="assets/sysconfig_address5_isdisplay_swing.png" title="sysconfig address 5 isdisplay"><img src="assets/sysconfig_address5_isdisplay_swing.png" alt="Fig.: sysconfig address 5 isdisplay" style="max-width: 450px"></a></kbd>
 
+- After that you can run `Generate Model` to create the models for the `I_C_Location` and `X_C_Location`.
+
 - Afterwards relocate to `de.metas.ui.web.address.AddressDescriptorFactory#createAddressEntityDescriptor` and add this to the function:
 
 ```java
@@ -81,8 +83,6 @@ addressDescriptor.addField(buildFieldDescriptor(IAddressModel.COLUMNNAME_Address
 	void setAddress5(String address);
 	//@formatter:on
 ```
-
-- After that you can run `Generate Model` to create the models for the `I_C_Location` and `X_C_Location`
 
 - when every step is completed, the results should look like this:
 
