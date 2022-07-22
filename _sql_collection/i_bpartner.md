@@ -11,7 +11,7 @@ lang: en
 
 ```
 
-INSERT INTO i_bpartner (i_bpartner_id, ad_client_id, ad_org_id, created, updated, createdby, updatedby, value, name,companyname, name2, bpcontactgreeting, firstname, lastname, address4, address2, address3, countrycode, postal, city
+INSERT INTO i_bpartner (i_bpartner_id, ad_client_id, ad_org_id, created, updated, createdby, updatedby, bpvalue, name,companyname, name2, bpcontactgreeting, firstname, lastname, address4, address2, address3, countrycode, postal, city
 ,isbillto,isshipto,isbilltodefault,isshiptodefault,isdefaultcontact,isbilltocontact_default,isshiptocontact_default)
 
   SELECT
