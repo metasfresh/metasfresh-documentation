@@ -37,7 +37,7 @@ Use the following SQL select statement to return the WebUI table shown above:
 select name,value from ad_Sysconfig where name like 'de.metas.ui.web.address.%'
 ```
 
-The following code snippet will return the translations of the queried fields:
+The following SQL select statement will return the german translations of the queried address fields:
 
 ```SQL
 select e.ad_element_id, ad_language,columnname,e.name,e.printname, etrl.name,etrl.printname  from ad_element e
@@ -46,3 +46,54 @@ where columnname ilike 'address%'
 and ad_language='de_DE'
 order by ad_language,e.name
 ```
+
+## Adding a new address field
+
+- To add a new address field in this example `address5` is our new address field, first you need to insert a new field into the `ad_element` table using this SQL query:
+
+```SQL
+INSERT INTO public.ad_element (ad_element_id, ad_client_id, ad_org_id, isactive, created, createdby, updated, updatedby, columnname,
+                               entitytype, name, printname, description, help, po_name, po_printname, po_description, po_help,
+                               widgetsize, commitwarning, webui_namebrowse, webui_namenewbreadcrumb, webui_namenew)
+VALUES (nextval('ad_element_seq'), 0, 0, 'Y', now(), 99, now(), 99, 'Address5', 'D', 'Adresse5',
+        'Adresse5', 'Adresszeile 5 für diesen Standort', '"Adresszeile 5" bietet weitere Adressangaben für diesen Standort. Z.B. Gebäudenummer, Stockwerk, Raumnummer o.ä.',
+        null, null, null, null, null, null, null, null, null);
+
+```
+
+- Next you would need to insert a new configuration into `ad_sysconfig` using this SQL query:
+
+```SQL
+INSERT INTO public.ad_sysconfig (ad_sysconfig_id, ad_client_id, ad_org_id, created, updated, createdby, updatedby, isactive, name,
+                                 value, description, entitytype, configurationlevel)
+VALUES (nextval('ad_sysconfig_seq'), 0, 0,now(), now(), 99, 99, 'Y',
+        'de.metas.ui.web.address.AddressDescriptorFactory.Address5.IsDisplay', 'Y',
+        'Decides if the Address5 field shall be shown in the address dialog', 'D', 'C');
+```
+
+- Afterwards relocate to `de.metas.ui.web.address.AddressDescriptorFactory#createAddressEntityDescriptor` and add this to the function.
+
+```java
+addressDescriptor.addField(buildFieldDescriptor(IAddressModel.COLUMNNAME_Address5)
+										   .setValueClass(String.class)
+										   .setWidgetType(DocumentFieldWidgetType.Text)
+										   .setDisplayLogic(getSysConfigDisplayValue(IAddressModel.COLUMNNAME_Address5))
+										   .setDataBinding(new AddressFieldBinding(IAddressModel.COLUMNNAME_Address5, false, I_C_Location::getAddress5, AddressFieldBinding::writeValue_Address4)));
+
+```
+
+- Than go to `de.metas.ui.web.address.IAddressModel#IAddressModel` and insert this code
+
+```java
+//@formatter:off
+	String COLUMNNAME_Address5 = "Address5";
+	String getAddress5();
+	void setAddress5(String address);
+	//@formatter:on
+```
+
+- After that you can run `Generate Model` to create the models for the `I_C_Location` and `X_C_Location`
+
+- when every step is completed, the results should look like this:
+
+<kbd><a href="assets/local_address5.png" title="address5 field local WebUI"><img src="assets/local_address5.png" alt="Fig.: Address 5 Field in the local webUI" style="max-width: 450px"></a></kbd>
