@@ -31,10 +31,10 @@ The following code reference will help you locate the related system configurati
 <kbd><a href="assets/webUI_window_system_configuration_address_configs.png" title="Click to enlarge"><img src="assets/webUI_window_system_configuration_address_configs.png" alt="Fig.: Address fields in the address modal overlay"></a></kbd>
 
 ### Configuration via SQL
-Use the following SQL select statement to return the WebUI table shown above:
+The SQL to find the `sysconfig` entries is:
 
 ```SQL
-select name,value from ad_Sysconfig where name like 'de.metas.ui.web.address.%'
+select name,value from ad_Sysconfig where name like 'de.metas.ui.web.address.AddressDescriptorFactory%.IsDisplay';
 ```
 
 The following SQL select statement will return the german translations of the queried address fields:
@@ -44,34 +44,24 @@ select e.ad_element_id, ad_language,columnname,e.name,e.printname, etrl.name,etr
 join ad_element_trl etrl on etrl.ad_element_id = e.ad_element_id
 where columnname ilike 'address%'
 and ad_language='de_DE'
-order by ad_language,e.name
+order by ad_language,e.name;
 ```
 
 ## Adding a new address field
 
-- To add a new address field in this example `address5` is our new address field, first you need to insert a new field into the `ad_element` table using this SQL query:
+- To add a new address field in this example `address5` is our new address field, first you need to add a new entry into `ad_element`:
 
-```SQL
-INSERT INTO public.ad_element (ad_element_id, ad_client_id, ad_org_id, isactive, created, createdby, updated, updatedby, columnname,
-                               entitytype, name, printname, description, help, po_name, po_printname, po_description, po_help,
-                               widgetsize, commitwarning, webui_namebrowse, webui_namenewbreadcrumb, webui_namenew)
-VALUES (nextval('ad_element_seq'), 0, 0, 'Y', now(), 99, now(), 99, 'Address5', 'D', 'Adresse5',
-        'Adresse5', 'Adresszeile 5 für diesen Standort', '"Adresszeile 5" bietet weitere Adressangaben für diesen Standort. Z.B. Gebäudenummer, Stockwerk, Raumnummer o.ä.',
-        null, null, null, null, null, null, null, null, null);
+<kbd><a href="assets/ad_element_address5_swing.png" title="ad_element address5 swingUI"><img src="assets/ad_element_address5_swing.png" alt="Fig.: create a new ad_element address5 in swingUI" style="max-width: 450px"></a></kbd>
 
-```
+- You also need to add a new column in `c_location`:
 
-- Next you would need to insert a new configuration into `ad_sysconfig` using this SQL query:
+<kbd><a href="assets/c_location_table_address5_swing.png" title="column in c_location table"><img src="assets/c_location_table_address5_swing.png" alt="Fig.: create a column in c_location table" style="max-width: 450px"></a></kbd>
 
-```SQL
-INSERT INTO public.ad_sysconfig (ad_sysconfig_id, ad_client_id, ad_org_id, created, updated, createdby, updatedby, isactive, name,
-                                 value, description, entitytype, configurationlevel)
-VALUES (nextval('ad_sysconfig_seq'), 0, 0,now(), now(), 99, 99, 'Y',
-        'de.metas.ui.web.address.AddressDescriptorFactory.Address5.IsDisplay', 'Y',
-        'Decides if the Address5 field shall be shown in the address dialog', 'D', 'C');
-```
+- Next you would need to add a new configuration into `ad_sysconfig`:
 
-- Afterwards relocate to `de.metas.ui.web.address.AddressDescriptorFactory#createAddressEntityDescriptor` and add this to the function.
+<kbd><a href="assets/sysconfig_address5_isdisplay_swing.png" title="sysconfig address 5 isdisplay"><img src="assets/sysconfig_address5_isdisplay_swing.png" alt="Fig.: sysconfig address 5 isdisplay" style="max-width: 450px"></a></kbd>
+
+- Afterwards relocate to `de.metas.ui.web.address.AddressDescriptorFactory#createAddressEntityDescriptor` and add this to the function:
 
 ```java
 addressDescriptor.addField(buildFieldDescriptor(IAddressModel.COLUMNNAME_Address5)
@@ -82,7 +72,7 @@ addressDescriptor.addField(buildFieldDescriptor(IAddressModel.COLUMNNAME_Address
 
 ```
 
-- Than go to `de.metas.ui.web.address.IAddressModel#IAddressModel` and insert this code
+- Than go to `de.metas.ui.web.address.IAddressModel#IAddressModel` and insert this code:
 
 ```java
 //@formatter:off
