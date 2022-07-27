@@ -12,7 +12,7 @@ ref: record_permissions_setup
 ---
 
 ## Overview
-In metasfresh, in addition to the general access permissions to windows and functions, you can also flexibly and individually configure the management functions for access to individual datasets ("Grant access" and "Revoke access") within each [user role](NewUserRole).
+In metasfresh, in addition to the general access permissions to windows and functions, you can also flexibly configure the management functions for access to individual datasets ("Grant access" and "Revoke access") within each [user role](NewUserRole).
 
 To enable these access management functions, please proceed as follows:
 

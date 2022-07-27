@@ -19,6 +19,8 @@ In metasfresh kann man mittels [Benutzerrollen](NeueBenutzerrolle) konfigurieren
 
 ## Schritte
 1. [Gehe ins Menü](Menu) und öffne ein beliebiges Fenster, in dem Du den Nutzerzugriff verwalten möchtest, z.B. "Geschäftspartner".
+    >**Hinweis:** Um den Datenzugriff in einem Fenster verwalten zu können, muss die zugrunde liegende Datenbanktabelle als [Berechtigungseintrag](Datensatzberechtigungen_einrichten) in dem Rolleneintrag des aktuell angemeldeten Benutzers vorhanden sein.
+
 1. Öffne einen bestehenden Eintrag oder [lege einen neuen an](Neuer_Datensatz_Fenster_Webui).
 1. [Starte die Aktion](AktionStarten#aktionsmenue) "Zugriff gewähren" oder "Zugriff entziehen", je nach Absicht. Es öffnet sich ein Overlay-Fenster.
 1. Wähle im Feld **Access** die Art des Zugriffs aus, z.B. *Read*, *Write*, *Export* oder *Report*.

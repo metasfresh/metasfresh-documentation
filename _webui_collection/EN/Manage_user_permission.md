@@ -19,6 +19,8 @@ In metasfresh, [user roles](NewUserRole) enable you to configure which windows a
 
 ## Steps
 1. Open any window from the [menu](Menu) where you want to manage user access permissions, e.g., "Business Partner".
+    >**Note:** To be able to manage data access in a window, the underlying database table must have a [permission entry](Record_permissions_setup) in the role entry of the currently logged-in user.
+
 1. Open an existing entry or [create a new one](New_Record_Window).
 1. [Start the action](StartAction#actions-menu) "Grant Access" or "Revoke Access", depending on your intention. An overlay window opens up.
 1. Pick an **Access** type, e.g., *Read*, *Write*, *Export* oder *Report*.
