@@ -5,14 +5,17 @@ tags:
   - Anfängertipps für metasfresh
   - Einrichtung
   - Nutzer und Rollen
-  - Datenzugriff verwalten
+  - Zugriffsberechtigungen verwalten
 lang: de
 sequence: 10
 ref: manage_user_permission
 ---
 
 ## Überblick
-In metasfresh kann man mittels [Benutzerrollen](NeueBenutzerrolle) konfigurieren, auf welche Fenster und Funktionen einzelne [Nutzer](Nutzer_anlegen) zugreifen dürfen. Darüber hinaus lässt sich der Nutzerzugriff aber auch innerhalb der freigegebenen Fenster für bestimmte Dateneinträge einschränken oder erweitern. Das bedeutet also, dass ein Nutzer, obwohl er auf ein Fenster zugreifen darf, gegebenenfalls einzelne oder alle Einträge z.B. nur lesen, aber nicht bearbeiten kann.
+In metasfresh kann man mittels [Benutzerrollen](NeueBenutzerrolle) konfigurieren, auf welche Fenster und Funktionen einzelne [Nutzer](Nutzer_anlegen) zugreifen dürfen. Darüber hinaus lässt sich der Nutzerzugriff aber auch innerhalb der freigegebenen Fenster für bestimmte Dateneinträge einschränken oder erweitern. Das bedeutet also, dass ein Nutzer, obwohl er auf ein Fenster zugreifen darf, gegebenenfalls einzelne oder alle Einträge z.B. nur lesen, aber nicht bearbeiten kann. Der Zugriff auf diese Verwaltungsfunktionen für Datensatzberechtigungen ("Zugriff gewähren" und "Zugriff entziehen") kann ebenfalls flexibel und individuell konfiguriert werden.
+
+## Voraussetzungen
+- [Richte den Zugriff auf die Verwaltungsfunktionen für Datensatzberechtigungen ein](Datensatzberechtigungen_einrichten). (Systemadministrator)
 
 ## Schritte
 1. [Gehe ins Menü](Menu) und öffne ein beliebiges Fenster, in dem Du den Nutzerzugriff verwalten möchtest, z.B. "Geschäftspartner".

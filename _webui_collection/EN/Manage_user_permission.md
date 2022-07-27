@@ -1,5 +1,5 @@
 ---
-title: How do I grant and revoke data access to users?
+title: How do I grant and revoke data access for users?
 layout: default
 tags:
   - A Beginner's Guide to metasfresh
@@ -12,7 +12,10 @@ ref: manage_user_permission
 ---
 
 ## Overview
-In metasfresh, [user roles](NewUserRole) enable you to configure which windows and functionalities individual [users](Add_user) are permitted to access. In addition, user access can also be restricted or extended for certain data entries within the shared windows. This means that even though a user is allowed to access a window, they may only be able to read, but not edit, individual or all entries, for example.
+In metasfresh, [user roles](NewUserRole) enable you to configure which windows and functionalities individual [users](Add_user) are permitted to access. In addition, user access can also be restricted or extended within the shared windows for certain data entries. This means that although a user is allowed to access a window, they may only be able to read, but not edit, individual or all entries, for example. Access to these management functions for data record permissions ("Grant Access" and "Revoke Access") can also be configured flexibly per individual user role.
+
+## Requirements
+- [Set up access to the record permissions management features](Record_permissions_setup). (System Administrator)
 
 ## Steps
 1. Open any window from the [menu](Menu) where you want to manage user access permissions, e.g., "Business Partner".
