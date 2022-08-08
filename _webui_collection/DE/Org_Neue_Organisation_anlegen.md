@@ -80,7 +80,7 @@ Um sicherzustellen, dass alle Änderungen übernommen werden, wird empfohlen, da
     </thead>
     <tbody>
       <tr>
-        <td style="text-align: left">Um sicherzustellen, dass alle Änderungen übernommen werden, empfiehlt es sich nach Erstellung und Konfiguration einer neuen Organisation, die folgenden Schritte durchzuführen:<br><ol style="margin-top: 5px; margin-bottom: 3px;"><li><a href="../../installation_collection/DE/Wie_resette_ich_den_server_cache">Server-Cache zurücksetzen</a>.</li><li>Front-End-Cache leeren (<code class="language-plaintext highlighter-rouge">Strg</code>/<code class="language-plaintext highlighter-rouge">⌘ cmd</code> + <code class="language-plaintext highlighter-rouge">⇧ Umschalt</code> + <code class="language-plaintext highlighter-rouge">R</code>).</li></ol></td>
+        <td style="text-align: left">Um sicherzustellen, dass alle Änderungen übernommen werden, empfiehlt es sich nach Erstellung und Konfiguration einer neuen Organisation, die folgenden Schritte durchzuführen:<br><ol style="margin-top: 5px; margin-bottom: 3px;"><li><a href="../../installation_collection/DE/Wie_resette_ich_den_web_api_server_cache">Server-Cache zurücksetzen</a>.</li><li>Front-End-Cache leeren (<code class="language-plaintext highlighter-rouge">Strg</code>/<code class="language-plaintext highlighter-rouge">⌘ cmd</code> + <code class="language-plaintext highlighter-rouge">⇧ Umschalt</code> + <code class="language-plaintext highlighter-rouge">R</code>).</li></ol></td>
       </tr>
     </tbody>
   </table>

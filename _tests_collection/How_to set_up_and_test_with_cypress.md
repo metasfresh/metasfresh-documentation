@@ -11,7 +11,7 @@ lang: en
 1. 32-bit node LTS Version: 8.11.3 https://nodejs.org/en/download/
 1. 32-bit vscode: https://code.visualstudio.com/docs/setup/windows
 1. webui front-end repository: clone/sync with github, save in your explorer: where you have other github repositories
-1. move it into vsc (pls ask tobi for details, can't really remember this part)
+1. move it into vsc (pls ask <a href="https://github.com/metas-ts" title="Tobias Schöneberg on GitHub" target="\_blank">metas-ts</a> for details, can't really remember this part)
 1. in node:
 	* $ cd /your/project/path => metasfresh webui front end
 	* $ npm install cypress --save-dev => cypress is installed
