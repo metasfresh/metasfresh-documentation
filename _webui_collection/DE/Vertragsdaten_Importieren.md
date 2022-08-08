@@ -34,4 +34,4 @@ Stelle sicher, dass alle Voraussetzungen für den  [Datenimport in metasfresh](D
 #### Vertragsdaten manuell importieren
 1. [Starte die Aktion](AktionStarten#aktionsmenue) "Import Subscription Data".
 1. [metasfresh speichert automatisch](Speicheranzeige).
-1. Die importierten Abodaten findest Du nun unter dem Menüpunkt "[Vertrag Aboverlauf](Menu)" wieder.
+1. Die importierten Vertragsdaten findest Du nun unter dem Menüpunkt "[Vertrag Aboverlauf](Menu)" wieder.
