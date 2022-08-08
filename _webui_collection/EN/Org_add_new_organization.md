@@ -77,7 +77,7 @@ Follow the instructions below, taking note of the following:
     </thead>
     <tbody>
       <tr>
-        <td style="text-align: left">To ensure that all changes are applied, it is recommended that you take the following steps after creating and configuring a new organization:<br><ol style="margin-top: 5px; margin-bottom: 3px;"><li><a href="../../installation_collection/EN/How_to_reset_server_cache">Reset the server cache</a>.</li><li>Empty the front-end cache (<code class="language-plaintext highlighter-rouge">Ctrl</code>/<code class="language-plaintext highlighter-rouge">⌘ cmd</code> + <code class="language-plaintext highlighter-rouge">⇧ Shift</code> + <code class="language-plaintext highlighter-rouge">R</code>).</li></ol></td>
+        <td style="text-align: left">To ensure that all changes are applied, it is recommended that you take the following steps after creating and configuring a new organization:<br><ol style="margin-top: 5px; margin-bottom: 3px;"><li><a href="../../installation_collection/EN/How_to_reset_web_api_server_cache">Reset the server cache</a>.</li><li>Empty the front-end cache (<code class="language-plaintext highlighter-rouge">Ctrl</code>/<code class="language-plaintext highlighter-rouge">⌘ cmd</code> + <code class="language-plaintext highlighter-rouge">⇧ Shift</code> + <code class="language-plaintext highlighter-rouge">R</code>).</li></ol></td>
       </tr>
     </tbody>
   </table>

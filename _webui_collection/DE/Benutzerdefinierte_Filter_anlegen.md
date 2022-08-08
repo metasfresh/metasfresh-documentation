@@ -50,7 +50,7 @@ Anwendungsbeispiel: Angenommen, Du wolltest einen Filter für das Fenster "Merkm
    AND<^>M_Attribute_ID<^> = <^><^><~>AND<^>IsActive<^> = <^>Y<^><~>AND<^>Name<^>ILIKE<^><^>
    ```
 
-1. [Setze den Server-Cache zurück](../../installation_collection/DE/Wie_resette_ich_den_server_cache).
+1. [Setze den Web API Server-Cache zurück](../../installation_collection/DE/Wie_resette_ich_den_web_api_server_cache).
 1. Setze den Front-End-Cache zurück. Drücke hierzu `Strg`/`⌘ cmd` + `⇧ Umschalt` + `R`.
 1. Als Ergebnis erhältst Du dann:<br>
   <kbd><img src="https://user-images.githubusercontent.com/15378036/70226875-45935380-175a-11ea-9083-090e6b875989.png" alt="Abb.: Benutzerdefinierter Filter 'AttributeValue'"></kbd>

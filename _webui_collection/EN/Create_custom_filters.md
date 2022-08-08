@@ -50,7 +50,7 @@ Let's use a practical example. Assume you want to create a filter for the "Attri
    AND<^>M_Attribute_ID<^> = <^><^><~>AND<^>IsActive<^> = <^>Y<^><~>AND<^>Name<^>ILIKE<^><^>
    ```
 
-1. [Reset the server cache](../../installation_collection/EN/How_to_reset_server_cache).
+1. [Reset the web API server cache](../../installation_collection/EN/How_to_reset_web_api_server_cache).
 1. Reset the front-end cache. To do so, press `Ctrl`/`⌘ cmd` + `⇧ Shift` + `R`.
 1. This will result in:<br>
   <kbd><img src="https://user-images.githubusercontent.com/15378036/70226875-45935380-175a-11ea-9083-090e6b875989.png" alt="Fig.: Custom filter 'AttributeValue'"></kbd>
