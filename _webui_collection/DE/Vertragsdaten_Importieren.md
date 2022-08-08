@@ -12,7 +12,7 @@ ref: import_contract_details
 
 ## Voraussetzungen
 Stelle sicher, dass alle Voraussetzungen für den  [Datenimport in metasfresh](Datenimport_nach_metasfresh) erfüllt sind. [Hier findest du ein Formatbeispiel für den Import von Vertragsdaten](Importformat_Beispiel_Vertragsdaten).
->**Hinweis:** Für den Import von Vertragsdaten benötigst Du ein Importformat, in dem die **DB-Tabelle** *Contract Import* eingestellt ist.
+>**Hinweis:** Für den Import von Vertragsdaten benötigst du ein Importformat, in dem die **DB-Tabelle** *Contract Import* eingestellt ist.
 
 ## Schritte
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Daten Import".
@@ -34,4 +34,4 @@ Stelle sicher, dass alle Voraussetzungen für den  [Datenimport in metasfresh](D
 #### Vertragsdaten manuell importieren
 1. [Starte die Aktion](AktionStarten#aktionsmenue) "Import Subscription Data".
 1. [metasfresh speichert automatisch](Speicheranzeige).
-1. Die importierten Vertragsdaten findest Du nun unter dem Menüpunkt "[Vertrag Aboverlauf](Menu)" wieder.
+1. Die importierten Vertragsdaten findest du nun unter dem Menüpunkt "[Vertrag Aboverlauf](Menu)" wieder.
