@@ -18,7 +18,7 @@ In metasfresh, time frame conditions of a contract include the term duration, te
 1. Open "Contract Period" from the [menu](Menu).
 1. [Create a new entry](New_Record_Window).
 1. Give the contract period a **Name**.
-1. Select a **Calendar**.
+1. Pick a **Calendar**.
 1. Define a **Term Duration** and a **Term Unit**, e.g., "1 Year".
 1. Define a **Term of Notice** and a **Term of Notice Unit**, e.g., "1 Month".
 
@@ -29,13 +29,13 @@ In metasfresh, time frame conditions of a contract include the term duration, te
 1. In the field **Extension Type**, pick the way to automatically extend a contract after it expires.
 1. In the field **Next Contract Terms**, you can select the follow-up contract for the expired one.
 
-### Specify the Transition Conditions
+### <a name="transition-conditions">Specify the Transition Conditions</a>
 The transition conditions determine at what moment before the end or change of a contract the contractual party may perform a status change, such as the termination of the contract.
 
 1. Go to the record tab "Transition Conditions" at the bottom of the page and click !["Add new"](assets/Add_New_Button.png). An overlay window opens up.
 1. Define a **Deadline** and a **Deadline Unit**, e.g., "1 Month".
-1. Select the **Action** *Status Change*.
-1. Select the **Contract Status** *Terminated*.
+1. Pick the **Action** *Status Change*.
+1. Pick the **Contract Status** *Terminated*.
 1. Click "Done" to close the overlay window and add the transition conditions to the record tab.
 
 ### Complete the document
