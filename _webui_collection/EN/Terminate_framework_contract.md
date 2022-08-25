@@ -11,7 +11,7 @@ ref: terminate_framework_contract
 
 ## Requirements
 1. [Create a framework contract](Generate_framework_contract).
-1. Make sure the [framework contract conditions](define_contractual_terms_framework_contract) include a [contract period](Define_contract_period) with the following specifications:
+1. Make sure the [framework contract conditions](Define_contractual_terms_framework_contract) include a [contract period](Define_contract_period) with the following specifications:
     - As **Calendar** pick *Buchführungs-Kalender*.
     - As **Term Duration** and **Term Unit** enter "1 Year".
     - As **Term of Notice** and **Term of Notice Unit** enter "1 Month".
