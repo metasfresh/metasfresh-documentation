@@ -3,7 +3,7 @@ title: Setting up development environment with intelliJ IDEA
 layout: default
 tags:
   - Setup
-lang: en 
+lang: en
 sequence: 20
 ref: setting_up_development_environment_with_intelliJ_IDEA
 ---
@@ -88,18 +88,18 @@ Run the following code in powershell:
 
     $env:JAVA_HOME = "C:\Program Files\Eclipse Adoptium\jdk-8.0.312.7-hotspot"
     $mvnSettingsFile = "C:\Users\username\.m2\settings.xml"
-    
+
     cd C:\work-metas\metasfresh\misc\parent-pom\
     C:\mvn\bin\mvn.cmd -T 2C -DskipTests --settings $mvnSettingsFile clean install
-    
+
     cd C:\work-metas\metasfresh\misc\de-metas-common\
     C:\mvn\bin\mvn.cmd -T 2C -DskipTests --settings $mvnSettingsFile clean install
-    
+
     cd C:\work-metas\metasfresh\backend\
     C:\mvn\bin\mvn.cmd -T 2C -DskipTests --settings $mvnSettingsFile clean install
-    
+
     echo "Elapsed: "
-    
+
     (Date) - $start
 
 Info: Change your `JAVA_HOME` and `SettingsFile` PATH if necessary.
@@ -289,7 +289,7 @@ This should cover the basic installation process.
 
 - Use Eclipser plugin
 There are some eclipse launcher files in the project. You could install eclipser plugin and
-convert the files whenever you need them. Just right-click on a “.launch” file and you’ll find the `Convert with eclipser` option.
+convert the files whenever you need them. Just right-click on a ".launch" file and you’ll find the `Convert with eclipser` option.
 
 - Eclipse and IntelliJ IDEA interop
 Eclipse can only find `// todo comments` if todo is in caps rage.

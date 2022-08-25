@@ -14,7 +14,7 @@ Processes can be created in two ways: via the Java client or via the WebUI.
 ## Steps via Java Client
 
 ### Login
-1. Log in to the desired Java back-end instance with the user role “System Administrator”.
+1. Log in to the desired Java back-end instance with the user role "System Administrator".
 1. Open **Report & Process** from the menu.
 1. Click on <kbd><img src="../../images/icons/New24.png" alt="Fig.: Create New Process"></kbd> to create a new process.
 
