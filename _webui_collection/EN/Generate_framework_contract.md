@@ -36,3 +36,4 @@ After completing the purchase order:
 
 ## Next Steps
 - [Create a call-off order](Create_call_off_order_purchase).
+- ***Optional:*** [Terminate the framework contract](Terminate_framework_contract).
