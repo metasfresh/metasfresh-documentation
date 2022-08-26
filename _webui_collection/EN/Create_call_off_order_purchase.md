@@ -22,7 +22,7 @@ Follow these [instructions for entering a purchase order](CreatePurchaseOrder), 
 1. Pick a **Pricing System** that includes the [vendor price list linked to the call-off order product](Add_call_off_order_product).
 1. Go to the record tab "PO Line" at the bottom of the page and add the call-off order product with the desired amount.
 1. Move the horizontal scrollbar of the purchase order line table to the right until you reach the column **Flatrate Term** and pick the desired [contract period](Define_contract_period_framework_contract).
-    >**Note:** The product price will be automatically recalculated for this call-off order based on the framework contract conditions.
+    >**Note:** The product price will be automatically recalculated for this call-off order based on the [framework contract conditions](Define_contractual_terms_framework_contract).
 
 ## Result
 After [completing the purchase order](DocumentProcessingComplete):
@@ -35,4 +35,4 @@ After [completing the purchase order](DocumentProcessingComplete):
 
 ## Next Steps
 1. [Create a goods receipt](CreateGoodsReceipt) for the call-off order.
-1. [Create an invoice](CreatePurchaseInvoice) for the call-off order.
+1. [Create a purchase invoice](CreatePurchaseInvoice) for the call-off order.
