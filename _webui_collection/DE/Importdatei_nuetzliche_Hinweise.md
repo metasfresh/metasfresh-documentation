@@ -48,7 +48,7 @@ Bitte achte bei der Erstellung einer Importdatei auf Folgendes:
 - [Postalische Daten importieren](Postalische_Daten_importieren).
 - [Produktdaten importieren](Produktdaten_importieren).
 - [Rabattschemadaten importieren](Rabattschema_importieren).
-- [Vertragsdaten importieren](Vertragsdaten_Importieren)
+- [Vertragsdaten importieren](Vertragsdaten_importieren)
 
 ## Beispiel: Excel-Tabelle (Produktdaten)
 ![](assets/Excel-Tabelle_Produktdaten.png)

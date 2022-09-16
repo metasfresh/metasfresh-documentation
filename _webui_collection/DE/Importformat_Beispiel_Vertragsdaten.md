@@ -38,9 +38,9 @@ Die Angabe der Pflichtfelder ist unerlässlich für einen erfolgreichen Datenimp
 | X | <abbr title="ProductValue_Produktschlüssel">Produkt-Schlüssel</abbr> | 2005577 | Der Produktschlüssel gibt das verwendete Produkt an |
 |  | <abbr title="Price_Preis">Preis</abbr> | 1,49 | Preis des gewählten Produkts |
 |  | <abbr title="Qty_Menge">Menge</abbr> | 20 | Menge des gewählten Produkts |
-| X | <abbr title="DropShip_BPartner_Value_Lieferempfänger_Key">Lieferempfänger</abbr> | 2156425 | Der Leistungsempfängerschlüssel legt fest, an wen das Abonnement geliefert wird  |
+| X | <abbr title="DropShip_BPartner_Value_Lieferempfänger_Key">Lieferempfänger</abbr> | 2156425 | Der Lieferempfängerschlüssel legt fest, an wen das Abonnement geliefert wird  |
 |  | <abbr title="MasterStartDate_Master Start Date">Vertrag Startdatum</abbr> | 10.03.2020 | Beginn des Vertrags |
 |  | <abbr title="MasterEndDate_Master End Date">Vertrag Enddatum</abbr> | 09.03.2022 | Ende des Vertrags |
 
 ## Nächste Schritte
-- [Vertragsdaten importieren](Vertragsdaten_Importieren).
+- [Vertragsdaten importieren](Vertragsdaten_importieren).
