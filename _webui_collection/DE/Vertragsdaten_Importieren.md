@@ -11,8 +11,8 @@ ref: import_contract_details
 ---
 
 ## Voraussetzungen
-Stelle sicher, dass alle Voraussetzungen für den  [Datenimport in metasfresh](Datenimport_nach_metasfresh) erfüllt sind. [Hier findest du ein Formatbeispiel für den Import von Vertragsdaten](Importformat_Beispiel_Vertragsdaten).
->**Hinweis:** Für den Import von Vertragsdaten benötigst du ein Importformat, in dem die **DB-Tabelle** *Contract Import* eingestellt ist.
+Stelle sicher, dass alle Voraussetzungen für den  [Datenimport in metasfresh](Datenimport_nach_metasfresh) erfüllt sind. [Hier findest Du ein Formatbeispiel für den Import von Vertragsdaten](Importformat_Beispiel_Vertragsdaten).
+>**Hinweis:** Für den Import von Vertragsdaten benötigst Du ein Importformat, in dem die **DB-Tabelle** *Contract Import* eingestellt ist.
 
 ## Schritte
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Daten Import".
@@ -25,13 +25,13 @@ Stelle sicher, dass alle Voraussetzungen für den  [Datenimport in metasfresh](D
 1. Klicke auf "Start", um die Vertragsdaten zu importieren und das Overlay-Fenster zu schließen.
 
 ### Vertragsdaten überprüfen
-1. [Gehe ins Menü](Menu) und öffne das Fenster "Import Abos". Hier findest du alle importierten Vertragsdaten.
-1. Öffne den Eintrag der Vertragsdaten, die du überprüfen und ggf. korrigieren möchtest.
+1. [Gehe ins Menü](Menu) und öffne das Fenster "Import Abos". Hier findest Du alle importierten Vertragsdaten.
+1. Öffne den Eintrag der Vertragsdaten, die Du überprüfen und ggf. korrigieren möchtest.
 
- - Konnten beim Import alle Daten fehlerfrei übertragen werden, dann ist der Eintrag der Vertragsdaten hier schreibgeschützt und du findest die importierten Daten unter dem Menüpunkt "[Vertrag Aboverlauf](Menu)" wieder, wo du nun Änderungen vornehmen kannst.
- - Sollten einige Daten beim Import nicht oder fehlerhaft übertragen worden sein, kannst du diese Fehler im jeweiligen Eintrag der Vertragsdaten unter "[Import Abos](Menu)" korrigieren. Hast du alle Fehler behoben, kannst du die Vertragsdatenaten nun manuell importieren. Gehe hierzu wie folgt vor:
+ - Konnten beim Import alle Daten fehlerfrei übertragen werden, dann ist der Eintrag der Vertragsdaten hier schreibgeschützt und Du findest die importierten Daten unter dem Menüpunkt "[Vertrag Aboverlauf](Menu)" wieder, wo Du nun Änderungen vornehmen kannst.
+ - Sollten einige Daten beim Import nicht oder fehlerhaft übertragen worden sein, kannst Du diese Fehler im jeweiligen Eintrag der Vertragsdaten unter "[Import Abos](Menu)" korrigieren. Hast Du alle Fehler behoben, kannst Du die Vertragsdatenaten nun manuell importieren. Gehe hierzu wie folgt vor:
 
 #### Vertragsdaten manuell importieren
 1. [Starte die Aktion](AktionStarten#aktionsmenue) "Import Subscription Data".
 1. [metasfresh speichert automatisch](Speicheranzeige).
-1. Die importierten Vertragsdaten findest du nun unter dem Menüpunkt "[Vertrag Aboverlauf](Menu)" wieder.
+1. Die importierten Vertragsdaten findest Du nun unter dem Menüpunkt "[Vertrag Aboverlauf](Menu)" wieder.
