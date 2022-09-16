@@ -24,6 +24,7 @@ Hier sind ein paar Formatbeispiele für den Import von:
 - [Postalische Daten](Importformat_Beispiel_postalische_Daten)
 - [Produktdaten](Importformat_Beispiel_Produkt)
 - [Rabattschemadaten](Importformat_Beispiel_Rabattschema)
+- [Vertragsdaten](Importformat_Beispiel_Vertragsdaten)
 
 ## Nützliche Hinweise
 Bitte achte bei der Erstellung einer Importdatei auf Folgendes:
@@ -33,7 +34,7 @@ Bitte achte bei der Erstellung einer Importdatei auf Folgendes:
 - Möchtest Du eine Importdatei mit dem **Tabulatorzeichen** als Trennzeichen erstellen und verwendest dazu eine Tabellenkalkulationssoftware wie z.B. *Microsoft Excel*, dann wähle beim Speichern einfach das Dateiformat `Text (Tabstopp-getrennt)(*.txt)` aus.
 - Die Positionen der Spalten in der Importdatei müssen den Werten der **Startnummern** der Formatfelder des Importformats entsprechen.<br>
 ***Beispiel:*** Die **Spalte C** der Excel-Tabelle steht an dritter Stelle, d.h. das entsprechende Formatfeld bekommt die **Start-Nr. 3**.
- >**Hinweis:** metasfresh erwartet ***keine Spaltennamen*** in der Importdatei. Alleine die ***Position*** der Spalte muss mit der Startnummer übereinstimmmen.
+ >**Hinweis:** metasfresh erwartet ***keine Spaltennamen*** in der Importdatei. Alleine die ***Position*** der Spalte muss mit der Startnummer übereinstimmen.
 
 ## Nächste Schritte
 - [Bankauszugsdaten importieren](Bankauszugsdaten_importieren).
@@ -47,6 +48,7 @@ Bitte achte bei der Erstellung einer Importdatei auf Folgendes:
 - [Postalische Daten importieren](Postalische_Daten_importieren).
 - [Produktdaten importieren](Produktdaten_importieren).
 - [Rabattschemadaten importieren](Rabattschema_importieren).
+- [Vertragsdaten importieren](Vertragsdaten_Importieren)
 
 ## Beispiel: Excel-Tabelle (Produktdaten)
 ![](assets/Excel-Tabelle_Produktdaten.png)
