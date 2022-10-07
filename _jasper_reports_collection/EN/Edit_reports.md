@@ -4,14 +4,17 @@ layout: default
 tags:
   - Reports
 lang: en
-sequence: 10
+sequence: 20
 ref: edit_reports
 ---
 
 ## Precondition
-Make sure your Jasper Studio has Version 6.5.1. 
+- Make sure your Jasper Studio is this specific Version 6.5.1.
 
-Download the source files from here: https://github.com/metasfresh/metasfresh/tree/master/backend/de.metas.fresh/de.metas.fresh.base/src/main/jasperreports/de/metas
+   - Download the source files from here: https://github.com/metasfresh/metasfresh/tree/master/backend/de.metas.fresh/de.metas.fresh.base/src/main/jasperreports/de/metas
+
+- <p><a href="./Set_up_Jasper_Studio_Environment.md" title="How to set up your Jasper Studio environment">How to set up your Jasper Studio environment
+</a></font></p>
 
 ## Index
 <ol type="I">
@@ -24,6 +27,7 @@ Download the source files from here: https://github.com/metasfresh/metasfresh/tr
  <li><a href="#language" title="Language">Language</a></li>
  <li><a href="#source" title="Source">Source</a></li>
  <li><a href="#preview" title="Preview">Preview</a></li>
+ <li><a href="#Database_Adapter" title="Set up Database Adapter">Set up Database Adapter</a></li>
 </ol>
 
 ## Steps
@@ -126,5 +130,17 @@ For instance, select *Group* if you want to obtain the sum per business partner,
 1. Before you click on "run", you have to add your database, language Java.
 1. If you want to set the language for your report you have to click icon "Report Parameter" and add the language via "Report locale" drop-down.
 1. If you want to go back to the parameters after running the report you have to press the arrow icon "show parameters".
+
+<p style="text-align:right"><font size="2"><em><a href="#top" title="Jump to top of page">Return to index</a></em></font><font size="3"> &#x2BA5;</font></p>
+
+
+### <a name="Database_Adapter">X. Set up Database Adapter</a>
+1. In the **Repository Explorer** tab right click on **Data Adapter** then **Create Data Adapter**.
+1. In the window **Create Data Adapter** choose **Database JDBC Connection** and click **Next**.
+1. Set your connection preferences. As an example, for `localhost`:
+<kbd><img src="./assets/data_adapter_preferences.png" alt="Data Adapter preferences"></kbd>
+1. Afterwards, you can use it in the following steps: **IX. Preview**.
+
+
 
 <p style="text-align:right"><font size="2"><em><a href="#top" title="Jump to top of page">Return to index</a></em></font><font size="3"> &#x2BA5;</font></p>
