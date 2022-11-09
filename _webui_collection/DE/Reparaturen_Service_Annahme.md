@@ -12,7 +12,7 @@ ref: service_repair_customer_return
 ## Überblick
 Manchmal kann es vorkommen, dass Kunden defekte Produkte reklamieren und zur Reparatur zurücksenden, um anschließend (ggf. auf Kulanz) ein funktionsfähiges Produkt zurückzuerhalten. In metasfresh können solche Fälle über die Serviceannahme abgewickelt und Reparaturen inkl. Zubehörteilen, Serviceleistungen usw. im Rahmen von Produktionsaufträgen durchgeführt werden.
 
-<kbd><img src="assets/Service Annahme bis Angebot (Reparaturprozess).png" alt="Abb.: Serviceannahme bis Angebot (Reparaturprozess)"></kbd>
+<img src="assets/Service Annahme bis Angebot (Reparaturprozess).png" alt="Abb.: Serviceannahme bis Angebot (Reparaturprozess)">
 
 ## Voraussetzungen
 1. [Produziere ein Produkt mit Seriennummer](ProduktionFertigstellung).
@@ -27,7 +27,6 @@ Manchmal kann es vorkommen, dass Kunden defekte Produkte reklamieren und zur Rep
 1. Gib in das Feld **Kunde** einen Teil des Namens oder der Nummer des [Kunden](Neuer_Geschaeftspartner_Kunde) ein, der ein Produkt zur Reparatur zurückgesendet hat, und klicke auf den passenden Treffer in der <a href="Keyboard_Shortcuts_Liste#dropdown" title="Dynamisches Suchfeld (Autocomplete)">Dropdown-Liste</a>.
 1. Wähle ein **Lager** aus, in dem das re­pa­ra­tur­be­dürf­tige Produkt in Empfang genommen wird.
 1. Wähle die **Belegart** [*Service Annahme*](Belegart_Service_Annahme) aus.
-1. ***Optional:*** Gib in das Feld **Auftrag** einen Teil der Nummer des [Auftrages](Auftrag_erfassen) ein, über den das Produkt verkauft wurde, und klicke auf den passenden Treffer in der <a href="Keyboard_Shortcuts_Liste#dropdown" title="Dynamisches Suchfeld (Autocomplete)">Dropdown-Liste</a>.
 
 ### Zurückgesendete Produkte erfassen
 1. [Starte die Aktion](AktionStarten#aktionsmenue) "HU für Retoure auswählen". Es öffnet sich ein Overlay-Fenster.
@@ -63,5 +62,5 @@ Manchmal kann es vorkommen, dass Kunden defekte Produkte reklamieren und zur Rep
 1. Es wird automatisch ein neuer Vorgang zu dieser Serviceannahme angelegt, der nun zur Prüfung und Freigabe durch eine verantwortliche Person bereitliegt.
 
 ## Nächste Schritte
-1. [Springe über die verknüpften Belege](SpringezuBelegen) in das Fenster "Vorgänge" (unter CRM in der Sidebar) und öffne dort den bereits [herausgefilterten](Filterfunktion) Vorgang.
+1. [Springe über die verknüpften Belege](SpringezuBelegen) in das Fenster "Vorgänge (alle)" (unter CRM in der Sidebar) und öffne dort den bereits [herausgefilterten](Filterfunktion) Vorgang.
 1. [Starte ein Reparaturprojekt nach erfolgreicher Prüfung](Reparaturprojekt_starten).
