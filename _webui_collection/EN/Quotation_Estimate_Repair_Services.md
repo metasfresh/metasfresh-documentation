@@ -31,7 +31,7 @@ Order lines for accessories are not printed on the document by default. To chang
 3. Click on "Confirm" to apply the changes and close the "Advanced edit".
 >**Note:** Please note that the sum of the printed order lines may differ from the total amount displayed on the receipt if the hidden lines have a value other than 0.
 
-### Angebot fertigstellen und Auftrag erzeugen
+### Complete offer and create an order
 1. [Finish the estimate](documentprocessingcomplete).
 2. [Start the action](startaction#actionmenu) "Order from quote" to make an order from the cost estimate. An overlay window opens.
 3. Set the **Document type** field to *Standard order*.

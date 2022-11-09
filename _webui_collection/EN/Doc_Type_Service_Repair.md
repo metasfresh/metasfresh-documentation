@@ -29,16 +29,3 @@ tags:
 
 1. Scroll down to the **Doc Sub Type** field and select the document subtype *SR - Service Return*.
 2. Click on "Confirm" to apply the changes and close the "Advanced capture".
-
-
-
-
-
-
-
-
-
-
-
-
-
