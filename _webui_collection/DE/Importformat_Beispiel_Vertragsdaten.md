@@ -43,4 +43,4 @@ Die Angabe der Pflichtfelder ist unerlässlich für einen erfolgreichen Datenimp
 |  | <abbr title="MasterEndDate_Master End Date">Vertrag Enddatum</abbr> | 09.03.2022 | Ende des Vertrags |
 
 ## Nächste Schritte
-- [Vertragsdaten importieren](Vertragsdaten_importieren).
+- [Vertragsdaten importieren](Vertragsdaten_Importieren).
