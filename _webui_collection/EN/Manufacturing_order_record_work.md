@@ -2,8 +2,8 @@
 title: How do I record my work efforts for manufacturing order?
 layout: default
 tags:
-  - Customer service
-  - Repair
+  - Customer Service
+  - Repairs
 lang: en
 sequence: 30
 ref: manufacturing_order_record_work

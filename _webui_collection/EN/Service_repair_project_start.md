@@ -2,8 +2,8 @@
 title: How to start a new repair project
 layout: default
 tags:
-  - Customer service
-  - Repair
+  - Customer Service
+  - Repairs
 lang: en
 sequence: 20
 ref: service_repair_project_start

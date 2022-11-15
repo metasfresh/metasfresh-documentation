@@ -1,13 +1,13 @@
 ---
-title: How is the document type defined for the service reception?
+title: How is the document type defined for repair service returns?
 layout: default
 tags:
-- Customer service
-- Repair
-- Setup
-  lang: EN
-  sequence: 10
-  ref: Belegart_Service_Annahme
+  - Customer Service
+  - Repairs
+  - Setup
+lang: en
+sequence: 10
+ref: doc_type_service_repair
 ---
 
 ## Steps

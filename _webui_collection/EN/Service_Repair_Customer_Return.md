@@ -2,31 +2,31 @@
 title: How do I receive returned faulty products (guarantee)?
 layout: default
 tags:
-- Customer Service
-- Repairs
-  lang: en
-  sequence: 10
-  ref: service_repair_customer_return
+  - Customer Service
+  - Repairs
+lang: en
+sequence: 10
+ref: service_repair_customer_return
 ---
 
 ## Overview
 Sometimes a customer might file a complaint or return faulty products and potentially receive a repair, partial or full refund. The service acceptance in metasfresh allows for handling repairs incl. accessory components, services, etc. for manufacturing orders.
 
-<img src="assets/Service Acceptance to Offer (repair process).png" alt="Abb.: Service Acceptance to Offer (repair process)">
+<kbd><img src="assets/Service Acceptance to Offer (repair process).png" alt="Abb.: Service Acceptance to Offer (repair process)"></kbd>
 
 ## Requirements
 1. [Produce a Product with a serial number.](ProductionCompletion)
 1. For the produced product [enter a sales order](SalesOrder_recording) and [complete it.](DocumentProcessingComplete)
 1. [Create a shipment for the sales order.](Ship_SalesOrder)
 
-##Steps
+## Steps
 
 ### Enter data in the service acceptance
 1. Open the window "Service/Repair Customer Return" [from the menu](Menu)
 1. [Create a new entry.](New_Record_Window.md)
 1. In the field **Business Partner** enter a part of the name or number from the [business partner](New_Business_Partner) who returned a product for repair. Then select the appropriate business partner from the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box Content (Autocomplete)">dropdown list</a>.
 1. Choose a **warehouse** to take care of the returned product.
-1. Choose the **document type** [Service Annahme](Doc_Type_Service_Repair).
+1. Choose the **document type** [Service Annahme](Doc_type_service_repair).
 
 ### Enter returned products
 1. [Start the Action](StartAction#actions-menu) "Select HUs to return" and an overlay will open.
@@ -45,8 +45,8 @@ Sometimes a customer might file a complaint or return faulty products and potent
 >**Info:** This does only work until the service acceptance is completed.
 
 ### Adding Spare Parts for a repair
-| **Info:**                                                                                                                                                                                                                                                                 |
-|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Info:** |
+|:--- |
 | The Accessories of a manufacturing product also need an extra [Spare Parts BOM](Create_BOM#spare-parts-bom). This is in addition to the [Bill of Materials (BOM)](Create_BOM) that contains all components for the manufacturing (material or immaterial, e.g. services). |
 
 1. [Start the Action](StartAction#actions-menu) "Add Spare Parts" and an overlay will open.

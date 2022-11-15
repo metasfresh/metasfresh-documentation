@@ -1,5 +1,5 @@
 ---
-title: Wie ist die Belegart für die Serviceannahme definiert?
+title: Wie wird die Belegart für die Serviceannahme definiert?
 layout: default
 tags:
   - Kun­den­ser­vice
