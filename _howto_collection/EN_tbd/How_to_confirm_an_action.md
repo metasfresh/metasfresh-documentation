@@ -7,4 +7,4 @@ tags:
 lang: en
 ---
 
-Click "OK"  ![printpreview](../images/icons/Ok24.png) to confirm your action.
+Click "OK"  ![printpreview](/images/icons/Ok24.png) to confirm your action.

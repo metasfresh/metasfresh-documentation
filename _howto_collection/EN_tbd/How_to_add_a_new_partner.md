@@ -15,6 +15,6 @@ ref: how_to_add_a_new_partner
 1. Change to the tab called **Address**
 	>**Note:** A partner can have as many addresses as you like.
 	1. [Create new data](How_to_add_new_data)
-	1. Click on the field [Address](../images/de_feld_anschrift.png)
+	1. Click on the field Address ![Address](/images/de_feld_anschrift.png)
 	1. Fill out the address fields and confirm using okay
 	1. [Save](How_to_add_new_data)
