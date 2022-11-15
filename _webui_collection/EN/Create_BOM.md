@@ -26,7 +26,7 @@ ref: create_bom
 1. ***Optional:*** Pick a **Serial No. Sequence**. To do so, enter a part of the [document sequence](Define_new_doc_sequence) name and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
  >**Note:** The [product category](NewProductCategory) must be linked to an **Attribute Set** where the attribute *serial number* is defined.
 
-#### <a name="spare-parts-bom">Special Case: Spare Parts BOM (for [repair service returns](Service_Repair_Customer_Return))</a>
+#### <a name="spare-parts-bom">Special Case: Spare Parts BOM</a> (for [repair service returns](Service_Repair_Customer_Return))
 - Pick the **BOM Type** *Spare Parts*.
 
 | **Tip:** |

@@ -2,11 +2,11 @@
 title: How do I create an estimate for repair services performed?
 layout: default
 tags:
-- Customer service
-- Repair
-  lang: EN
-  sequence: 40
-  ref: Angebot_kostenvoranschlag_Reparaturleistungen
+  - Customer Service
+  - Repairs
+lang: en
+sequence: 40
+ref: quotation_estimate_repair_services
 ---
 
 ## Requirements
