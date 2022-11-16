@@ -15,13 +15,13 @@ A repair project in metasfresh contains all necessary work steps, materials, ser
 ## Requirements
 1. [Receive returned faulty products through the
 Service/Repair Customer Return and create a process](Service_repair_customer_return).
-1. [Jump over to the linked documents](JumptoviaSidebar)  Serviceannahme in the window "Request (all)" (under CRM in the sidebar) and open the already [filtered](Filterting_funktion) process.
+1. [Jump over to the linked documents](JumptoviaSidebar)  Serviceannahme in the window "Request (all)" (under CRM in the sidebar) and open the already [filtered](Filtering_function) process.
 
 ## Steps
 
 ### Review process and start the project
 1. [Go to the menu](Menu) and open the window "Request (all)".
-1. [Use the filtering function](Filterting_funktion), to help you find the desired process, e.g. by filtering after the **Request Type** *Service Annahme* with or without **Project**.
+1. [Use the filtering function](Filtering_function), to help you find the desired process, e.g. by filtering after the **Request Type** *Service Annahme* with or without **Project**.
 1. Open the record of the process in question and check it for completeness.
 1. [Start the action](StartAction) "Start Service/Repair Project". A new tab will open with the window name "[Service/Repair Project](Menu)".
 1. Go to the register "Project Repair Task" at the bottom of the page. Here you can see the different types of tasks to be executed, e.g. *Service/Repair Order* oder *Spare Parts*.
@@ -30,7 +30,7 @@ Service/Repair Customer Return and create a process](Service_repair_customer_ret
 ### Creating a Service/Repair Order
 1. [Select](RecordSelection) a taskline of the **Type** *Service/Repair Order*.
 1. [Start the action](StartAction) "Create Repair Order(s)".
-1. A Service/Repair Order with the status *In Progress* will be generated and in the column **Repair Order** of the taskline the project will be linked. [Zoom](Zoomen_into_table_field) in the field to open the Order.
+1. A Service/Repair Order with the status *In Progress* will be generated and in the column **Repair Order** of the taskline the project will be linked. [Zoom](Zoom_into_table_field) in the field to open the Order.
  >**Info:** A Repair Order is an order with the documenttype *Service/Repair Order*.
 
 1. In the entry of the repair order you can record all of the required [work effort](Manufacturing_order_record_work).

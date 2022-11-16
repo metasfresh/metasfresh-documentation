@@ -16,14 +16,14 @@ Service/Repair Customer Return and create a process](Service_repair_customer_ret
 
 ## Steps
 1. [Go to the menu](Menu) and open the window "Manufacturing Order".
-1. [Use the filtering function](Filterting_funktion), to help you find the desired manufacturing order, e.g. by filtering after the **Target Document Type** *Service/Repair Order* and the **Planning Status** *Planning*.
+1. [Use the filtering function](Filtering_function), to help you find the desired manufacturing order, e.g. by filtering after the **Target Document Type** *Service/Repair Order* and the **Planning Status** *Planning*.
 1. Open the record of the manufacturing order in question.
 
 ### Issue/Receipt (for Service/Repair Order)
 1. [Start the action](StartAction) "Issue/Receipt". This will open an overlay-window, the "PP Order Issue/Receipt" window.
 1. <a href="ProductionCompletion" title="Record the consumption of materials">Record the consumption of manufacturing materials in the repair</a>.
 
-### <a name="serviceexpenses">Record service expense (for Service/Repair Order)</a>
+### <a name="service-expenses">Record service expenses (for Service/Repair Orders)</a>
 The service expenses can be recorded with a [service product](Add_service_product), which is then used in the quotation or order creation process to calculate all expenses from the respective repair order in a [compensation group](Create_manual_compensation_groups), so that an [Order line group discounts](Order_line_group_discount) can be applied to it if needed. Such a service product can be a flat-rate repair charge or drop costs completely in the case of warranty claims.
 
 1. In the field **Repair Service Performed** enter a part of the name or the number of the service product and choose the suitable entry from the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box Context (Autocomplete)">drop-down list</a>.
