@@ -1,5 +1,5 @@
 ---
-title: How do I receive returned faulty products (guarantee)?
+title: How do I receive returned products in need of repair (warranty cases)?
 layout: default
 tags:
   - Customer Service
@@ -9,8 +9,13 @@ sequence: 10
 ref: service_repair_customer_return
 ---
 
+<!--
+Warranty Vs. Guarantee => https://www.easternarchitectural.com/blog/understanding-the-difference-warranty-vs.-guarantee
+-->
+
 ## Overview
-Sometimes a customer might file a complaint or return faulty products and potentially receive a repair, partial or full refund. The service acceptance in metasfresh allows for handling repairs incl. accessory components, services, etc. for manufacturing orders.
+
+Sometimes customers may report faulty products and send them back for repair in order to receive a mended product back in return (as a gesture of goodwill, if applicable). In metasfresh, such cases can be handled via the service reception and repairs incl. spare parts, other services, etc. can be carried out as part of manufacturing orders.
 
 <kbd><img src="assets/Service Acceptance to Offer (repair process).png" alt="Abb.: Service Acceptance to Offer (repair process)"></kbd>
 
@@ -23,7 +28,7 @@ Sometimes a customer might file a complaint or return faulty products and potent
 
 ### Enter data in the service acceptance
 1. Open the window "Service/Repair Customer Return" [from the menu](Menu)
-1. [Create a new entry.](New_Record_Window.md)
+1. [Create a new entry.](New_Record_Window)
 1. In the field **Business Partner** enter a part of the name or number from the [business partner](New_Business_Partner) who returned a product for repair. Then select the appropriate business partner from the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box Content (Autocomplete)">dropdown list</a>.
 1. Choose a **warehouse** to take care of the returned product.
 1. Choose the **document type** [Service Annahme](Doc_type_service_repair).
