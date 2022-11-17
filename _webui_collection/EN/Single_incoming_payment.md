@@ -20,7 +20,7 @@ After receiving a payment, you can enter the amount as an *Incoming Payment* in 
 1. Open "Payment" from the [menu](Menu).
 1. [Add a new payment entry](New_Record_Window).
 1. In the field **Business Partner**, enter a part of the [business partner](New_Business_Partner) name or number and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
-1. Select the **Document Type** *Incoming Payment*.
+1. Pick the **Document Type** *Incoming Payment*.
 1. Enter the **Invoice** for which you have received the payment.
  >**Note:** Hit [`SPACE`](Keyboard_shortcuts_reference) to see a selection of available outstanding invoices of the business partner.
 
