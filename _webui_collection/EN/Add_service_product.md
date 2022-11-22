@@ -4,9 +4,9 @@ layout: default
 tags:
 - Master Data
 - Product
-  lang: en
-  sequence: 60
-  ref: add_service_product
+lang: en
+sequence: 60
+ref: add_service_product
 ---
 
 ## Overview
