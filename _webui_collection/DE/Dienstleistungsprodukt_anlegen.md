@@ -23,7 +23,7 @@ Folge dieser [Anleitung zur Erfassung eines Produktes](NeuesProdukt) unter Berü
 1. Wähle die **Produktart** *Dienstleistung* aus.
  >**Hinweis:** Das Kontrollkästchen **lagerhaltig** wird automatisch ausgeblendet, da es sich bei dieser Art von Produkten um immaterielle Artikel handelt, die nicht im Bestand geführt werden.
 
-1. Wähle eine geeignete **Maßeinheit** aus, z.B. *Arbeitseinheit* oder *Stück*.
+1. Wähle eine geeignete **Maßeinheit** aus, z.B. *Arbeitstag* oder *Stück*.
 1. Deaktiviere die Kontrollkästchen für **Wird provisioniert** und **Wird Eingekauft**.
 
 ### Für entgeltliche Serviceleistungen (Reparaturaufträge)
