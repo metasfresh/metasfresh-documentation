@@ -19,7 +19,7 @@ Um den Webservice nutzen zu können, benötigst Du allerdings ein Autorisierungs
 ## Schritte
 1. [Halte Dein Autorisierungstoken bereit](../../webui_collection/DE/Authentifizierungstoken).
 1. Erlange Zugang zur metasfresh Application Server REST API.
- >**Hinweis:** Die URL setzt sich in der Regel folgendermaßen zusammen:<br> https://`instanzname###`.metasfresh.com/app/swagger-ui.html#/
+ >**Hinweis:** Die URL setzt sich in der Regel folgendermaßen zusammen:<br> `https://instanzname###.metasfresh.com/app/swagger-ui/`
 
 1. Öffne den Endpunkt, den Du zur Datenmigration verwenden möchtest, durch Anklicken des Endpunktnamens.
 1. Klicke links unterhalb des Endpunktnamens auf die gewünschte <a href="https://wiki.selfhtml.org/wiki/HTTP/Anfragemethoden" title="HTTP-Anfragemethoden" target="\_blank">Anfragemethode</a>.
