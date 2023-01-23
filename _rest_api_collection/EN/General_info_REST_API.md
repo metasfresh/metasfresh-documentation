@@ -18,7 +18,7 @@ In order to use the web service, you require an authentication token that you wi
 ## Steps
 1. [Have your authentication token ready](../../webui_collection/EN/Authentication_token).
 1. Get access to the metasfresh application server REST API.
- >**Note:** The URL is usually composed as follows:<br> https://`instance.name###`.metasfresh.com/app/swagger-ui.html#/
+ >**Note:** The URL is usually composed as follows:<br> `https://instancename###.metasfresh.com/app/swagger-ui/`
 
 1. Open the endpoint you want to use for data migration by clicking on the endpoint name.
 1. Click on the desired <a href="https://www.w3schools.com/tags/ref_httpmethods.asp" title="HTTP Request Methods" target="\_blank">request method</a> on the left below the endpoint name.
