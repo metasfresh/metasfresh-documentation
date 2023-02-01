@@ -31,8 +31,8 @@ This manual describes the installation of the following services according to [t
 ### Install Docker and Docker Compose
 Install Docker and Docker Compose plugin via the official Docker repository
 
-1. [Install Docker](https://docs.docker.com/engine/installation/linux/ubuntu/).
-1. [Install Docker Compose plugin](https://docs.docker.com/compose/install/linux/#install-using-the-repository).
+1. <a href="https://docs.docker.com/engine/installation/linux/ubuntu/" title="Install Docker Engine on Ubuntu | docs.docker.com" target="\_blank">Install Docker</a>.
+1. <a href="https://docs.docker.com/compose/install/linux/#install-using-the-repository" title="Install using the repository | docs.docker.com" target="\_blank">Install Docker Compose plugin</a>.
 
 ### Install metasfresh
 1. Clone the Docker Compose file and go to the newly created directory.
@@ -50,7 +50,7 @@ Install Docker and Docker Compose plugin via the official Docker repository
    ```
    ...
    environment:
-   - WEBAPI_URL=http://example.com:8080
+     - WEBAPI_URL=http://example.com:8080
    ...
    ```
    >**Note:** Port `:8080` is only necessary if another port should be used as port 80. <br> See also: [How do I change the WebUI ports for metasfresh-Docker?](How_do_I_change_the_webui_ports_for_metasfresh_docker)
@@ -65,14 +65,17 @@ Install Docker and Docker Compose plugin via the official Docker repository
 
 1. Now you can start and stop docker with the folowing commands:
 
-  ```
-  #start#
-  docker-compose up -d
-  #stop#
-  docker-compose down
-  ```
-
+   ```
+   #start#
+   docker-compose up -d
+   #stop#
+   docker-compose down
+   ```
    >**Note:** The first time you start the container, it may take a few minutes until the database is populated and the service is available.
+
+1. ***Optional:*** Stop the Docker container.
+
+   `docker-compose down`
 
 ## Access
 After the successful installation you can access the WebUI via:

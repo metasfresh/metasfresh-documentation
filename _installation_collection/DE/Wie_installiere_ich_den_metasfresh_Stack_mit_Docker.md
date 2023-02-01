@@ -52,7 +52,6 @@ Installiere Docker über das offizielle Docker Repository und anschließend das 
      - WEBAPI_URL=http://example.com:8080
    ...
    ```
-
    >**Hinweis:** Port `:8080` wird nur benötigt, wenn ein anderer als Port 80 verwendet werden soll. <br> Siehe hierzu auch: [Wie ändere ich die WebUI-Ports für metasfresh-Docker?](Wie_aendere_ich_die_ports_fuer_webui_in_docker)
 
    | **WICHTIG:** |
@@ -61,7 +60,7 @@ Installiere Docker über das offizielle Docker Repository und anschließend das 
 
 1. Erstelle die Docker Container.
 
-    `docker-compose build`
+   `docker-compose build`
 
 1. Mit folgenden Befehlen kann Docker gestartet und gestoppt werden.
 
@@ -71,12 +70,11 @@ Installiere Docker über das offizielle Docker Repository und anschließend das 
    #stoppen#
    docker-compose down
    ```
-
    >**Hinweis:** Beim ersten Start kann es ein paar Minuten dauern, bis die Datenbank initialisiert und die Services verfügbar sind.
 
 1. ***Optional:*** Den Docker-Container wieder stoppen.
 
-    `docker-compose down`
+   `docker-compose down`
 
 ## Zugriff
 Nach erfolgreicher Installation kannst Du hierüber auf das WebUI zugreifen:
