@@ -11,11 +11,11 @@ ref: How_do_I_setup_the_metasfresh_stack_using_Docker
 
 ## Überblick
 Diese Anleitung beschreibt die Installation der folgenden Dienste gemäß [dieser Übersicht](../../howto_collection/Wie_sieht_die_Architektur_aus):
-* DB
-* App
-* API
-* WebUI
-* Search
+- DB
+- App
+- API
+- WebUI
+- Search
 
 ## Hardware-Anforderungen
 
@@ -24,40 +24,45 @@ Diese Anleitung beschreibt die Installation der folgenden Dienste gemäß [diese
 | RAM | 4 GB | 8 GB (steigt mit Größe der Datenbank) |
 | CPU | 1 VCPU | 4 VCPU |
 | HDD | 10 GB | 20 GB |
-|OS Empfehlung |Linux Server|Ubuntu 22.04|
+| OS Empfehlung | Linux Server | Ubuntu 22.04 |
 
 ## Installation mit Docker
 
-### Installieren Sie Docker über das offizielle Docker Repository und anschließend Docker-compose plugin.
+### Docker und Docker Compose installieren
+Installiere Docker über das offizielle Docker Repository und anschließend das Docker-compose Plugin.
 1. [Docker installieren](https://docs.docker.com/engine/installation/linux/ubuntu/).
 1. [Docker Compose installieren](https://docs.docker.com/compose/install/linux/#install-using-the-repository).
 
 ### metasfresh installieren
-1. Klone den metasfresh-docker Ordner und gehe in das Verzeichnis.
+1. Klone den metasfresh-docker Ordner und wechsle in das neu erstellte Verzeichnis.
 
    ```
    git clone https://github.com/metasfresh/metasfresh-docker.git
    cd metasfresh-docker/
    ```
 
-1. Folgend öffne mit einem Editor deiner Wahl (nano, vi) die docker-compose.yml und passe diese so an, wie du es benötigst. z.b. (ein Beispiel dafür findet man am Ende der Doku)
-Kommentiere environment und http://example.com:8080 ein und ersetzte example.com:8080 durch die URL und Port , unter der der Server vom Browser aus erreichbar sein soll.
+1. Öffne als nächstes mit einem Editor deiner Wahl (z.B. nano, vi) die `docker-compose.yml` und passe diese so an, wie du es benötigst.
+  >**Hinweis:** Ein Beispiel dafür findest Du [am Ende dieser Anleitung](#beispiel-docker-compose-yml).
 
-    ```
-   ...
-   environment:
-      - WEBAPI_URL=http://example.com:8080
-   ...
-   ```
-   >**Hinweis:** Port `:8080` ist nur nötig, wenn ein anderer als Port 80 verwendet werden soll. <br> Siehe hierzu auch: [Wie ändere ich die WebUI-Ports für metasfresh-Docker?](Wie_aendere_ich_die_ports_fuer_webui_in_docker)
+1. Kommentiere `environment` und `http://example.com:8080` ein und ersetzte `example.com:8080` durch die URL und den Port, unter denen der Server vom Browser aus erreichbar sein soll.
 
-   >***WICHTIG:*** Solltest Du eine RPM basierende Distribution einsetzen und/oder auf Deinem Host die Datei `/etc/timezone` nicht vorfinden, lösche oder kommentiere die Zeile `- /etc/timezone:/etc/timezone:ro` aus deiner `docker-compose.yml` aus!
+  ```
+  ...
+  environment:
+    - WEBAPI_URL=http://example.com:8080
+  ...
+  ```
+   >**Hinweis:** Port `:8080` wird nur benötigt, wenn ein anderer als Port 80 verwendet werden soll. <br> Siehe hierzu auch: [Wie ändere ich die WebUI-Ports für metasfresh-Docker?](Wie_aendere_ich_die_ports_fuer_webui_in_docker)
 
-1. Dann erstelle die Docker Container.
+   | **WICHTIG:** |
+   | :--- |
+   | Solltest Du eine RPM-basierende Distribution einsetzen und/oder auf Deinem Host die Datei `/etc/timezone` nicht vorfinden, lösche oder kommentiere die Zeile `- /etc/timezone:/etc/timezone:ro` aus deiner `docker-compose.yml` aus! |
+
+1. Erstelle die Docker Container.
 
   `docker-compose build`
 
-1. Dann kannst du mit den befehlen docker starten und stoppen.
+1. Mit folgenden Befehlen kann Docker gestartet und gestoppt werden.
 
   ```
   #starten#
@@ -74,16 +79,16 @@ Kommentiere environment und http://example.com:8080 ein und ersetzte example.com
 
 ## Zugriff
 Nach erfolgreicher Installation kannst Du hierüber auf das WebUI zugreifen:
-
-http://example.com/
+- http://example.com/
 
 oder
 
-http://example.com:PORT (falls der Standard-Port nicht 80 ist).
+- http://example.com:PORT (falls der Standard-Port nicht 80 ist).
 
-[**Einsetzen eines SSL-Zertifikats**](Wie_richte_ich_ssl_in_metasfresh_docker_ein)
+## Nächste Schritte
+- [Wie führe ich metasfresh-docker mit SSL aus?](Wie_richte_ich_ssl_in_metasfresh_docker_ein)
 
-## Beispiel docker-compose.yml
+## <a name="beispiel-docker-compose-yml">Beispiel docker-compose.yml</a>
 ```yml
 db:
   build: db
@@ -169,7 +174,7 @@ webui:
 ```
 
 ## Sichtbar machen der Reports zwecks Bearbeitung
-Möchte man die Reports, welche im metasfresh app-Docker-Image enthalten sind, editierbar machen, so muss man diese im docker-compose.yml zuerst als Volume nach außen legen.
+Möchte man die Reports, welche im metasfresh app-Docker-Image enthalten sind, editierbar machen, so muss man diese im `docker-compose.yml` zuerst als Volume nach außen legen.
 
 ```
 # Neues Volume reports hinzugefügt, um die Jasper
@@ -182,10 +187,13 @@ Möchte man die Reports, welche im metasfresh app-Docker-Image enthalten sind, e
 
 ```
 
-ACHTUNG: Hier liegen natürlich die kompilierten jasper-Dateien. Man muss also zum Ändern der Reports sich zuerst das Repository mit den Quellen der Reports ziehen und dann mit Jasper Reports kompilieren.
+| **ACHTUNG:** |
+| :--- |
+| Hier liegen natürlich die kompilierten jasper-Dateien. Man muss sich also zum Ändern der Reports zuerst das Repository mit den Quellen der Reports ziehen und dann mit Jasper Reports kompilieren. |
 
 ## Visualisierung der Docker-Container
-In diesem [Forumsbeitrag](https://forum.metasfresh.org/t/docker-gui-recommendation) (*auf Englisch*) über dieses Thema werden zwei weit verbreitete Tools empfohlen.
+In diesem <a href="https://forum.metasfresh.org/t/docker-gui-recommendation" title="Docker GUI recommendation | forum.metasfresh.org" target="\_blank">Forumsbeitrag</a> (*auf Englisch*) über dieses Thema werden zwei weit verbreitete Tools empfohlen.
 
 ## Feedback
-Bei Fragen oder Problemen kannst Du uns gerne in unserem offiziellen Forum um Unterstützung bitten: [forum.metasfresh.org](http://forum.metasfresh.org).
+Bei Fragen oder Problemen kannst Du uns gerne in unserem offiziellen Forum um Unterstützung bitten:
+- <a href="http://forum.metasfresh.org" title="metasfresh Community Forum | forum.metasfresh.org" target="\_blank">forum.metasfresh.org</a>.

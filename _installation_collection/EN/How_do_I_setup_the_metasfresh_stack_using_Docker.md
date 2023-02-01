@@ -24,11 +24,12 @@ This manual describes the installation of the following services according to [t
 | RAM | 4 GB | 8 GB (increases with db size) |
 | CPU | 1 VCPU | 4 VCPU |
 | HDD | 10 GB | 20 GB |
-|OS Recommendation |Linux server|Ubuntu 22.04|
+| OS Recommendation | Linux server | Ubuntu 22.04 |
 
 ## Installation with Docker
 
-### Install Docker and Docker Compose plugin via the official Docker repository
+### Install Docker and Docker Compose
+Install Docker and Docker Compose plugin via the official Docker repository
 
 1. [Install Docker](https://docs.docker.com/engine/installation/linux/ubuntu/).
 1. [Install Docker Compose plugin](https://docs.docker.com/compose/install/linux/#install-using-the-repository).
@@ -41,8 +42,10 @@ This manual describes the installation of the following services according to [t
    cd metasfresh-docker/
    ```
 
-1. Following open with an editor of your choice (nano, vi) the docker-compose.yml and adapt it as you need it. e.g. (an example for this can be found at the end of the docu) *
-comment environment and http://example.com:8080 and replace example.com:8080 with the URL and port, where the server should be reachable from the browser.
+1. Next, with an editor of your choice (e.g., nano, vi) open the `docker-compose.yml` and adapt it as you need it.
+ >**Note:** You will find an example for this [at the end of this guide](#example-docker-compose-yml).
+
+1. Comment `environment` and `http://example.com:8080` and replace `example.com:8080` with the URL and port, where the server should be reachable from the browser.
 
    ```
    ...
@@ -52,13 +55,15 @@ comment environment and http://example.com:8080 and replace example.com:8080 wit
    ```
    >**Note:** Port `:8080` is only necessary if another port should be used as port 80. <br> See also: [How do I change the WebUI ports for metasfresh-Docker?](How_do_I_change_the_webui_ports_for_metasfresh_docker)
 
-   >***IMPORTANT:*** If you are using an RPM-based distribution and/or the file `/etc/timezone` is not available on your Docker host, comment out or remove the line `- /etc/timezone:/etc/timezone:ro` from your `docker-compose.yml` file!
+   | **IMPORTANT:** |
+   | :--- |
+   | If you are using an RPM-based distribution and/or the file `/etc/timezone` is not available on your Docker host, comment out or remove the line `- /etc/timezone:/etc/timezone:ro` from your `docker-compose.yml` file! |
 
 1. Create the Docker containers.
 
    `docker-compose build`
 
-1. Then you can start and stop docker with the commands.
+1. Now you can start and stop docker with the folowing commands:
 
   ```
   #start#
@@ -69,20 +74,19 @@ comment environment and http://example.com:8080 and replace example.com:8080 wit
 
    >**Note:** The first time you start the container, it may take a few minutes until the database is populated and the service is available.
 
-
-
 ## Access
 After the successful installation you can access the WebUI via:
 
-http://example.com
+- http://example.com
 
 or
 
-http://example.com:PORT (if the default port is not 80).
+- http://example.com:PORT (if the default port is not 80).
 
-[ **Inserting an SSL certificate** ](how_do_i_setup_metasfresh_docker_with_ssl)
+## Next Steps
+- [How do I run metasfresh-docker with SSL?](How_do_I_setup_metasfresh_docker_with_ssl)
 
-## Example docker-compose.yml
+## <a name="example-docker-compose-yml">Example docker-compose.yml</a>
 ```yml
 db:
   build: db
@@ -163,7 +167,8 @@ webui:
 ```
 
 ## Docker Container Visualization
-See this [forum post](https://forum.metasfresh.org/t/docker-gui-recommendation) about this topic for recommendations on two widely used tools.
+See this <a href="https://forum.metasfresh.org/t/docker-gui-recommendation" title="Docker GUI recommendation | forum.metasfresh.org" target="\_blank">forum post</a> about this topic for recommendations on two widely used tools.
 
 ## Feedback
-If you have any questions or problems, feel free to ask for support in our official public forum: [forum.metasfresh.org](http://forum.metasfresh.org).
+If you have any questions or problems, feel free to ask for support in our official public forum:
+- <a href="http://forum.metasfresh.org" title="metasfresh Community Forum | forum.metasfresh.org" target="\_blank">forum.metasfresh.org</a>.
