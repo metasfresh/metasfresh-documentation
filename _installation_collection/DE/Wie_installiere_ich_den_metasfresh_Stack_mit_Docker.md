@@ -30,8 +30,8 @@ Diese Anleitung beschreibt die Installation der folgenden Dienste gemäß [diese
 
 ### Docker und Docker Compose installieren
 Installiere Docker über das offizielle Docker Repository und anschließend das Docker-compose Plugin.
-1. [Docker installieren](https://docs.docker.com/engine/installation/linux/ubuntu/).
-1. [Docker Compose installieren](https://docs.docker.com/compose/install/linux/#install-using-the-repository).
+1. <a href="https://docs.docker.com/engine/installation/linux/ubuntu/" title="Install Docker Engine on Ubuntu | docs.docker.com" target="\_blank">Docker installieren</a>.
+1. <a href="https://docs.docker.com/compose/install/linux/#install-using-the-repository" title="Install using the repository | docs.docker.com" target="\_blank">Docker Compose installieren</a>.
 
 ### metasfresh installieren
 1. Klone den metasfresh-docker Ordner und wechsle in das neu erstellte Verzeichnis.
@@ -46,12 +46,13 @@ Installiere Docker über das offizielle Docker Repository und anschließend das 
 
 1. Kommentiere `environment` und `http://example.com:8080` ein und ersetzte `example.com:8080` durch die URL und den Port, unter denen der Server vom Browser aus erreichbar sein soll.
 
-  ```
-  ...
-  environment:
-    - WEBAPI_URL=http://example.com:8080
-  ...
-  ```
+   ```
+   ...
+   environment:
+     - WEBAPI_URL=http://example.com:8080
+   ...
+   ```
+
    >**Hinweis:** Port `:8080` wird nur benötigt, wenn ein anderer als Port 80 verwendet werden soll. <br> Siehe hierzu auch: [Wie ändere ich die WebUI-Ports für metasfresh-Docker?](Wie_aendere_ich_die_ports_fuer_webui_in_docker)
 
    | **WICHTIG:** |
@@ -60,22 +61,22 @@ Installiere Docker über das offizielle Docker Repository und anschließend das 
 
 1. Erstelle die Docker Container.
 
-  `docker-compose build`
+    `docker-compose build`
 
 1. Mit folgenden Befehlen kann Docker gestartet und gestoppt werden.
 
-  ```
-  #starten#
-  docker-compose up -d
-  #stoppen#
-  docker-compose down
-  ```
+   ```
+   #starten#
+   docker-compose up -d
+   #stoppen#
+   docker-compose down
+   ```
 
    >**Hinweis:** Beim ersten Start kann es ein paar Minuten dauern, bis die Datenbank initialisiert und die Services verfügbar sind.
 
 1. ***Optional:*** Den Docker-Container wieder stoppen.
 
-   `docker-compose down`
+    `docker-compose down`
 
 ## Zugriff
 Nach erfolgreicher Installation kannst Du hierüber auf das WebUI zugreifen:
