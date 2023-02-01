@@ -19,47 +19,52 @@ Diese Anleitung beschreibt die Installation der folgenden Dienste gemäß [diese
 
 ## Hardware-Anforderungen
 
-|     | Mindestens      | Empfohlen
-| :------------- | :------------- |
-| RAM | 4 GB       | 8 GB (steigt mit Größe der Datenbank)
-| CPU | 1 VCPU | 4 VCPU
-| HDD | 10 GB | 20 GB
-
+|  | Mindestens | Empfohlen |
+| :--- | :--- | :--- |
+| RAM | 4 GB | 8 GB (steigt mit Größe der Datenbank) |
+| CPU | 1 VCPU | 4 VCPU |
+| HDD | 10 GB | 20 GB |
+|OS Empfehlung |Linux Server|Ubuntu 22.04|
 
 ## Installation mit Docker
 
-### Docker und Docker Compose installieren
+### Installieren Sie Docker über das offizielle Docker Repository und anschließend Docker-compose plugin.
 1. [Docker installieren](https://docs.docker.com/engine/installation/linux/ubuntu/).
-1. [Docker Compose installieren](https://docs.docker.com/compose/install/).
+1. [Docker Compose installieren](https://docs.docker.com/compose/install/linux/#install-using-the-repository).
 
 ### metasfresh installieren
-1. Klone die Docker Compose-Datei und wechsle in das neu erstellte Verzeichnis.
+1. Klone den metasfresh-docker Ordner und gehe in das Verzeichnis.
 
    ```
    git clone https://github.com/metasfresh/metasfresh-docker.git
    cd metasfresh-docker/
    ```
 
-1. Kommentiere `http://beispiel.com:8080` aus und ersetze die Zeile durch einen vom Browser extern erreichbaren Hostnamen und Port.
+1. Folgend öffne mit einem Editor deiner Wahl (nano, vi) die docker-compose.yml und passe diese so an, wie du es benötigst. z.b. (ein Beispiel dafür findet man am Ende der Doku)
+Kommentiere environment und http://example.com:8080 ein und ersetzte example.com:8080 durch die URL und Port , unter der der Server vom Browser aus erreichbar sein soll.
 
-   `vi ./docker-compose.yml`
-   ```
+    ```
    ...
-   #environment:
-    #- WEBAPI_URL=http://beispiel.com:8080
+   environment:
+      - WEBAPI_URL=http://example.com:8080
    ...
    ```
    >**Hinweis:** Port `:8080` ist nur nötig, wenn ein anderer als Port 80 verwendet werden soll. <br> Siehe hierzu auch: [Wie ändere ich die WebUI-Ports für metasfresh-Docker?](Wie_aendere_ich_die_ports_fuer_webui_in_docker)
 
    >***WICHTIG:*** Solltest Du eine RPM basierende Distribution einsetzen und/oder auf Deinem Host die Datei `/etc/timezone` nicht vorfinden, lösche oder kommentiere die Zeile `- /etc/timezone:/etc/timezone:ro` aus deiner `docker-compose.yml` aus!
 
-1. Baue den Docker-Container.
+1. Dann erstelle die Docker Container.
 
-   `docker-compose build`
+  `docker-compose build`
 
-1. Starte den Docker-Container.
+1. Dann kannst du mit den befehlen docker starten und stoppen.
 
-   `docker-compose up -d`
+  ```
+  #starten#
+  docker-compose up -d
+  #stoppen#
+  docker-compose down
+  ```
 
    >**Hinweis:** Beim ersten Start kann es ein paar Minuten dauern, bis die Datenbank initialisiert und die Services verfügbar sind.
 
@@ -70,11 +75,13 @@ Diese Anleitung beschreibt die Installation der folgenden Dienste gemäß [diese
 ## Zugriff
 Nach erfolgreicher Installation kannst Du hierüber auf das WebUI zugreifen:
 
-http://MYDOCKERHOST
+http://example.com/
 
 oder
 
-http://MYDOCKERHOST:PORT  (falls der Standard-Port nicht 80 ist).
+http://example.com:PORT (falls der Standard-Port nicht 80 ist).
+
+[**Einsetzen eines SSL-Zertifikats**](Wie_richte_ich_ssl_in_metasfresh_docker_ein)
 
 ## Beispiel docker-compose.yml
 ```yml
