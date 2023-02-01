@@ -188,7 +188,7 @@ Möchte man die Reports, welche im metasfresh app-Docker-Image enthalten sind, e
 
 | **ACHTUNG:** |
 | :--- |
-| Hier liegen natürlich die kompilierten jasper-Dateien. Man muss sich also zum Ändern der Reports zuerst das Repository mit den Quellen der Reports ziehen und dann mit Jasper Reports kompilieren. |
+| Hier liegen natürlich die kompilierten Jasper-Dateien. Man muss sich also zum Ändern der Reports zuerst das Repository mit den Quellen der Reports ziehen und dann mit Jasper Reports kompilieren. |
 
 ## Visualisierung der Docker-Container
 In diesem <a href="https://forum.metasfresh.org/t/docker-gui-recommendation" title="Docker GUI recommendation | forum.metasfresh.org" target="\_blank">Forumsbeitrag</a> (*auf Englisch*) über dieses Thema werden zwei weit verbreitete Tools empfohlen.

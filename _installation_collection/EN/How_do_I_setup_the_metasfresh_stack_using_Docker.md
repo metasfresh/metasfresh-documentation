@@ -78,7 +78,7 @@ Install Docker and Docker Compose plugin via the official Docker repository
    `docker-compose down`
 
 ## Access
-After the successful installation you can access the WebUI via:
+After successful installation you can access the WebUI via:
 
 - http://example.com
 
