@@ -24,12 +24,14 @@ This manual describes the installation of the following services according to [t
 | RAM | 4 GB | 8 GB (increases with db size) |
 | CPU | 1 VCPU | 4 VCPU |
 | HDD | 10 GB | 20 GB |
+|OS Recommendation |Linux server|Ubuntu 22.04|
 
 ## Installation with Docker
 
-### Install Docker and Docker Compose
+### Install Docker and Docker Compose plugin via the official Docker repository
+
 1. [Install Docker](https://docs.docker.com/engine/installation/linux/ubuntu/).
-1. [Install Docker Compose](https://docs.docker.com/compose/install/).
+1. [Install Docker Compose plugin](https://docs.docker.com/compose/install/linux/#install-using-the-repository).
 
 ### Install metasfresh
 1. Clone the Docker Compose file and go to the newly created directory.
@@ -39,40 +41,46 @@ This manual describes the installation of the following services according to [t
    cd metasfresh-docker/
    ```
 
-1. Comment out and replace `http://example.com:8080` with an externally available hostname and port of the docker host.
+1. Following open with an editor of your choice (nano, vi) the docker-compose.yml and adapt it as you need it. e.g. (an example for this can be found at the end of the docu) *
+comment environment and http://example.com:8080 and replace example.com:8080 with the URL and port, where the server should be reachable from the browser.
 
-   `vi ./metasfresh-docker/docker-compose.yml`
    ```
    ...
-   #environment:
-    #- WEBAPI_URL=http://example.com:8080
+   environment:
+   - WEBAPI_URL=http://example.com:8080
    ...
    ```
    >**Note:** Port `:8080` is only necessary if another port should be used as port 80. <br> See also: [How do I change the WebUI ports for metasfresh-Docker?](How_do_I_change_the_webui_ports_for_metasfresh_docker)
 
    >***IMPORTANT:*** If you are using an RPM-based distribution and/or the file `/etc/timezone` is not available on your Docker host, comment out or remove the line `- /etc/timezone:/etc/timezone:ro` from your `docker-compose.yml` file!
 
-1. Build the Docker container.
+1. Create the Docker containers.
 
    `docker-compose build`
 
-1. Start the Docker container.
+1. Then you can start and stop docker with the commands.
 
-   `docker-compose up -d`
+  ```
+  #start#
+  docker-compose up -d
+  #stop#
+  docker-compose down
+  ```
+
    >**Note:** The first time you start the container, it may take a few minutes until the database is populated and the service is available.
 
-1. ***Optional:*** Stop the Docker container.
 
-   `docker-compose down`
 
 ## Access
 After the successful installation you can access the WebUI via:
 
-http://MYDOCKERHOST
+http://example.com
 
 or
 
-http://MYDOCKERHOST:PORT (if the default port is not 80).
+http://example.com:PORT (if the default port is not 80).
+
+[ **Inserting an SSL certificate** ](how_do_i_setup_metasfresh_docker_with_ssl)
 
 ## Example docker-compose.yml
 ```yml
