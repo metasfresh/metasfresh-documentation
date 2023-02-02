@@ -29,13 +29,13 @@ This manual describes the installation of the following services according to [t
 ## Installation with Docker
 
 ### Install Docker and Docker Compose
-Install Docker and Docker Compose plugin via the official Docker repository
+Install Docker and Docker Compose plugin via the official Docker repository.
 
 1. <a href="https://docs.docker.com/engine/installation/linux/ubuntu/" title="Install Docker Engine on Ubuntu | docs.docker.com" target="\_blank">Install Docker</a>.
-1. <a href="https://docs.docker.com/compose/install/linux/#install-using-the-repository" title="Install using the repository | docs.docker.com" target="\_blank">Install Docker-Compose Plugin</a>.
+1. <a href="https://docs.docker.com/compose/install/linux/#install-using-the-repository" title="Install using the repository | docs.docker.com" target="\_blank">Install Docker Compose plugin</a>.
 
 ### Install metasfresh
-1. Clone the metasfresh-docker folder and change to the newly created directory
+1. Clone the metasfresh-docker folder and change into the newly created directory.
 
    ```
    git clone https://github.com/metasfresh/metasfresh-docker.git
@@ -73,15 +73,14 @@ Install Docker and Docker Compose plugin via the official Docker repository
    ```
    >**Note:** The first time you start the container, it may take a few minutes until the database is populated and the service is available.
 
-
 ## Access
 After successful installation you can access the WebUI via:
 
-- http://example.com
+- `http://example.com`
 
 or
 
-- http://example.com:PORT (if the default port is not 80).
+- `http://example.com:PORT` (if the default port is not 80).
 
 ## Next Steps
 - [How do I run metasfresh-docker with SSL?](How_do_I_setup_metasfresh_docker_with_ssl)
@@ -166,23 +165,21 @@ webui:
       restart: always
 ```
 ## Making the reports visible for editing purposes
-If you want to make the reports, which are contained in the metasfresh app-Docker image, editable, you have to put them in the `docker-compose.yml` as a volume outside first.
-
+If you want to make the reports contained in the metasfresh app Docker image editable, you first have to move them outside as a volume in the `docker-compose.yml`.
 
 ```
-# Added new Reports volume to customize the Jasper
-# Reports files to be able to customize them
+# Added new reports volume to be able to
+# to customize the Jasper Reports files
   volumes:
     - ./volumes/app/reports:/opt/metasfresh/reports:rw
     - ./volumes/app/log:/opt/metasfresh/log:rw
     - /etc/localtime:/etc/localtime:ro
     - /etc/timezone:/etc/timezone:ro
-
 ```
 
 | **ATTENTION:** |
 | :--- |
-| Of course the compiled Jasper files are located here. So to change the reports you first have to pull the repository with the sources of the reports and then compile them with Jasper Reports. |
+| This is where the compiled Jasper files are located of course. So to change the reports you first have to pull the repository with the sources of the reports and then compile them with Jasper Reports. |
 
 ## Docker Container Visualization
 See this <a href="https://forum.metasfresh.org/t/docker-gui-recommendation" title="Docker GUI recommendation | forum.metasfresh.org" target="\_blank">forum post</a> about this topic for recommendations on two widely used tools.

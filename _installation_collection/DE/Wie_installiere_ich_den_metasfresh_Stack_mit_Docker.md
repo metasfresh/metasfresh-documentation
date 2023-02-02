@@ -29,9 +29,9 @@ Diese Anleitung beschreibt die Installation der folgenden Dienste gemäß [diese
 ## Installation mit Docker
 
 ### Docker und Docker Compose installieren
-Installiere Docker über das offizielle Docker Repository und anschließend das Docker-compose Plugin.
+Installiere Docker über das offizielle Docker Repository und anschließend das Docker-Compose-Plugin.
 1. <a href="https://docs.docker.com/engine/installation/linux/ubuntu/" title="Install Docker Engine on Ubuntu | docs.docker.com" target="\_blank">Docker installieren</a>.
-1. <a href="https://docs.docker.com/compose/install/linux/#install-using-the-repository" title="Install using the repository | docs.docker.com" target="\_blank">Docker-Compose Plugin installieren</a>.
+1. <a href="https://docs.docker.com/compose/install/linux/#install-using-the-repository" title="Install using the repository | docs.docker.com" target="\_blank">Docker-Compose-Plugin installieren</a>.
 
 ### metasfresh installieren
 1. Klone den metasfresh-docker Ordner und wechsle in das neu erstellte Verzeichnis.
@@ -62,24 +62,25 @@ Installiere Docker über das offizielle Docker Repository und anschließend das 
 
    `docker-compose build`
 
-1. Mit folgenden Befehlen kann Docker gestartet und gestoppt werden.
+1. Mit folgenden Befehlen kann Docker gestartet und wieder gestoppt werden.
 
    ```
    #starten#
    docker-compose up -d
+
    #stoppen#
    docker-compose down
    ```
    >**Hinweis:** Beim ersten Start kann es ein paar Minuten dauern, bis die Datenbank initialisiert und die Services verfügbar sind.
 
-
 ## Zugriff
 Nach erfolgreicher Installation kannst Du hierüber auf das WebUI zugreifen:
-- http://example.com/
+
+- `http://example.com/`
 
 oder
 
-- http://example.com:PORT (falls der Standard-Port nicht 80 ist).
+- `http://example.com:PORT` (falls der Standard-Port nicht 80 ist).
 
 ## Nächste Schritte
 - [Wie führe ich metasfresh-docker mit SSL aus?](Wie_richte_ich_ssl_in_metasfresh_docker_ein)
@@ -170,19 +171,17 @@ webui:
 ```
 
 ## Sichtbar machen der Reports zwecks Bearbeitung
-Möchte man die Reports, welche im metasfresh app-Docker-Image enthalten sind, editierbar machen, so muss man diese im `docker-compose.yml` zuerst als Volume nach außen legen.
+Möchte man die Reports, welche im metasfresh App-Docker-Image enthalten sind, editierbar machen, so muss man diese im `docker-compose.yml` zuerst als Volume nach außen legen.
 
 ```
-# Neues Volumen Reports hinzugefügt, um die Jasper
+# Neues Volume reports hinzugefügt, um die Jasper
 # Reports Dateien anpassen zu können
   volumes:
     - ./volumes/app/reports:/opt/metasfresh/reports:rw
     - ./volumes/app/log:/opt/metasfresh/log:rw
     - /etc/localtime:/etc/localtime:ro
     - /etc/timezone:/etc/timezone:ro
-
 ```
-
 
 | **ACHTUNG:** |
 | :--- |
