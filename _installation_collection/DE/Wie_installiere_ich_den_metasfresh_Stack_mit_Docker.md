@@ -31,7 +31,7 @@ Diese Anleitung beschreibt die Installation der folgenden Dienste gemäß [diese
 ### Docker und Docker Compose installieren
 Installiere Docker über das offizielle Docker Repository und anschließend das Docker-compose Plugin.
 1. <a href="https://docs.docker.com/engine/installation/linux/ubuntu/" title="Install Docker Engine on Ubuntu | docs.docker.com" target="\_blank">Docker installieren</a>.
-1. <a href="https://docs.docker.com/compose/install/linux/#install-using-the-repository" title="Install using the repository | docs.docker.com" target="\_blank">Docker Compose installieren</a>.
+1. <a href="https://docs.docker.com/compose/install/linux/#install-using-the-repository" title="Install using the repository | docs.docker.com" target="\_blank">Docker-Compose Plugin installieren</a>.
 
 ### metasfresh installieren
 1. Klone den metasfresh-docker Ordner und wechsle in das neu erstellte Verzeichnis.
@@ -72,9 +72,6 @@ Installiere Docker über das offizielle Docker Repository und anschließend das 
    ```
    >**Hinweis:** Beim ersten Start kann es ein paar Minuten dauern, bis die Datenbank initialisiert und die Services verfügbar sind.
 
-1. ***Optional:*** Den Docker-Container wieder stoppen.
-
-   `docker-compose down`
 
 ## Zugriff
 Nach erfolgreicher Installation kannst Du hierüber auf das WebUI zugreifen:
@@ -176,8 +173,8 @@ webui:
 Möchte man die Reports, welche im metasfresh app-Docker-Image enthalten sind, editierbar machen, so muss man diese im `docker-compose.yml` zuerst als Volume nach außen legen.
 
 ```
-# Neues Volume reports hinzugefügt, um die Jasper
-# Reports Dateien customizen zu können
+# Neues Volumen Reports hinzugefügt, um die Jasper
+# Reports Dateien anpassen zu können
   volumes:
     - ./volumes/app/reports:/opt/metasfresh/reports:rw
     - ./volumes/app/log:/opt/metasfresh/log:rw
@@ -185,6 +182,7 @@ Möchte man die Reports, welche im metasfresh app-Docker-Image enthalten sind, e
     - /etc/timezone:/etc/timezone:ro
 
 ```
+
 
 | **ACHTUNG:** |
 | :--- |
