@@ -32,10 +32,10 @@ This manual describes the installation of the following services according to [t
 Install Docker and Docker Compose plugin via the official Docker repository
 
 1. <a href="https://docs.docker.com/engine/installation/linux/ubuntu/" title="Install Docker Engine on Ubuntu | docs.docker.com" target="\_blank">Install Docker</a>.
-1. <a href="https://docs.docker.com/compose/install/linux/#install-using-the-repository" title="Install using the repository | docs.docker.com" target="\_blank">Install Docker Compose plugin</a>.
+1. <a href="https://docs.docker.com/compose/install/linux/#install-using-the-repository" title="Install using the repository | docs.docker.com" target="\_blank">Install Docker-Compose Plugin</a>.
 
 ### Install metasfresh
-1. Clone the Docker Compose file and go to the newly created directory.
+1. Clone the metasfresh-docker folder and change to the newly created directory
 
    ```
    git clone https://github.com/metasfresh/metasfresh-docker.git
@@ -73,9 +73,6 @@ Install Docker and Docker Compose plugin via the official Docker repository
    ```
    >**Note:** The first time you start the container, it may take a few minutes until the database is populated and the service is available.
 
-1. ***Optional:*** Stop the Docker container.
-
-   `docker-compose down`
 
 ## Access
 After successful installation you can access the WebUI via:
@@ -168,6 +165,24 @@ webui:
         - "ES_JAVA_OPTS=-Xms128M -Xmx256m"
       restart: always
 ```
+## Making the reports visible for editing purposes
+If you want to make the reports, which are contained in the metasfresh app-Docker image, editable, you have to put them in the `docker-compose.yml` as a volume outside first.
+
+
+```
+# Added new Reports volume to customize the Jasper
+# Reports files to be able to customize them
+  volumes:
+    - ./volumes/app/reports:/opt/metasfresh/reports:rw
+    - ./volumes/app/log:/opt/metasfresh/log:rw
+    - /etc/localtime:/etc/localtime:ro
+    - /etc/timezone:/etc/timezone:ro
+
+```
+
+| **ATTENTION:** |
+| :--- |
+| Of course the compiled Jasper files are located here. So to change the reports you first have to pull the repository with the sources of the reports and then compile them with Jasper Reports. |
 
 ## Docker Container Visualization
 See this <a href="https://forum.metasfresh.org/t/docker-gui-recommendation" title="Docker GUI recommendation | forum.metasfresh.org" target="\_blank">forum post</a> about this topic for recommendations on two widely used tools.
