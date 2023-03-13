@@ -9,8 +9,9 @@ ref: sessiontimeout
 ---
 
 
-
 ### configure
+
+Set `"-Dspring.session.timeout=4h"` to get 4 hours session timeout to override the default timeout which is 30 min.
 
 ```
 webapi
