@@ -60,3 +60,6 @@ The "Open Items Report" (see example below) serves as the standard document spec
     - Alignment: Left
 - Right: Page number of current page and page count
     - Alignment: Right
+
+## Example
+<kbd><img src="https://user-images.githubusercontent.com/15378036/172624413-feeb8682-b1d8-4a01-8d34-ad2ab954a346.png" alt="Fig.: Open Items Report (sample)"></kbd>
