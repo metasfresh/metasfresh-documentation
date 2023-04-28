@@ -3,7 +3,7 @@ title: How do I pick a sales order for shipments using handling units? (Picking 
 layout: default
 tags:
   - Sales
-  - Order Picking
+  - Order Picking (Picking Terminal)
 lang: en
 sequence: 10
 ref: order_picking_terminal

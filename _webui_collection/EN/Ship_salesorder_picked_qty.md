@@ -3,7 +3,7 @@ title: How do I create a shipment with picked quantities?
 layout: default
 tags:
   - Sales
-  - Order Picking
+  - Order Picking (Picking Terminal)
 lang: en
 sequence: 20
 ref: ship_salesorder_picked_qty

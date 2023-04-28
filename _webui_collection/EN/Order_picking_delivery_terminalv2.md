@@ -3,7 +3,7 @@ title: How do I pick a sales order for shipping? (Picking Terminal v2)
 layout: default
 tags:
   - Sales
-  - Order Picking
+  - Order Picking (Picking Terminal)
 lang: en
 sequence: 30
 ref: order_picking_delivery_terminalv2
