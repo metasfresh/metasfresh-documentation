@@ -37,7 +37,7 @@ Order lines for accessories are not printed on the document by default. To chang
 3. Set the **Document type** field to *Standard order*.
 4. ***Optional:*** Set a checkmark at **Complete order** if the order should be completed automatically after creation.
 5. Click "Start" to confirm and close the overlay window. The job opens in the same tab.
->**Note:** You can find the newly created order under the menu item "[Orders](menu)".
+>**Note:** You can find the newly created order under the menu item "[Orders](Menu)".
 
 ### Complete order (optional)
 1. [Complete the document](DocumentProcessingComplete).
