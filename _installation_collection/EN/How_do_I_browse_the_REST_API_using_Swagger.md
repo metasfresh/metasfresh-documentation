@@ -13,7 +13,7 @@ metasfresh uses Swagger to expose REST API functions.
 
 You can browse the REST API via Swagger using:
 
-`http://<yourserver:port>/swagger-ui.html#`
+`http://<yourserver:port>/app/swagger-ui/index.html`
 
 ## Set User Session Language using Swagger
 
