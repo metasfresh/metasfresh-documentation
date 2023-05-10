@@ -9,7 +9,7 @@ ref: how_do_I_find_webui_version_number
 
 Öffne diese URL in Deinem Internetbrowser:
 
-`http://<your-server-name>/info`
+`https://<your-server-name>/info`
 
 Der Server wird Dir mit einem JSON String antworten, der ungefähr so aussieht:
 

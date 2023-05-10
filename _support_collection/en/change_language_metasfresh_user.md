@@ -11,7 +11,7 @@ ref: change_language_metasfresh_user
 1. Open swagger via
 
    ```
-   https://<yourserver:port>/swagger-ui.html#/user-session-rest-controller/setLanguageUsingPUT
+   https://<yourserver:port>/app/swagger-ui/index.html#/user-session-rest-controller/setLanguageUsingPUT
    ```
 
 1. Click "Try it out".
