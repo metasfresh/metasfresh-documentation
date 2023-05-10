@@ -11,7 +11,7 @@ ref: how_do_I_find_webui_version_number
 
 Open this URL in your web browser:
 
-`http://<your-server-name>/info`
+`https://<your-server-name>/info`
 
 The server will answer with a JSON String, which looks like this:
 
