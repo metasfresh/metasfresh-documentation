@@ -4,7 +4,7 @@ layout: default
 tags:  
   - General
 lang: en
-sequence:
+sequence: 30
 ref: display_bp_with_location_and_address
 ---
 

@@ -48,23 +48,25 @@ In this advanced edit you can enter:
   1. *Entity Type*: Shows what Entity Type the parameter is
   1. *Default Logic*: What value should be selected as default, see: [Provide the result of an SQL as process to the user](configure_sql_process)
 
-<kbd><img src="./assets/X2Go_Parameter.png" alt="Fig.: Checkbox '' (SwingUI)"></kbd>
+<kbd><img src="assets/X2Go_Parameter.png" alt="Fig.: Parameters (SwingUI)"></kbd>
 
 ### Assigned to tables
 1. Process: Designation of the process.
 1. Table: The table to which the process is applied.
 1. Entity Type: Dictionary entry type: Determines ownership and synchronization.
 
-<kbd><img src="./assets/X2Go_Assingnes_to_table.png" alt="Fig.: Checkbox '' (SwingUI)"></kbd>
+<kbd><img src="assets/X2Go_Assingnes_to_table.png" alt="Fig.: Assigned to tables (SwingUI)"></kbd>
 
 ---
 
 ## Steps via WebUI
-### Login in the WebUI
-1. login in the WebUI as **System Administrator**.
-1. Go in navigation to **Report&Process**.
+
+### WebUI Login
+1. Log in to the WebUI as **System Administrator**.
+1. Go in navigation to **Report & Process**.
 1. Create a new process.
-<kbd><img src="./assets/webUI_New_Process.png" alt="Fig.: Checkbox '' (SwingUI)"></kbd>
+
+<kbd><img src="assets/webUI_New_Process.png" alt="Fig.: Create a new process (WebUI)"></kbd>
 
 ### Setup the process
 
@@ -74,12 +76,13 @@ In this advanced edit you can enter:
 1. Entity Type: Dictionary entry type: Determines ownership and synchronization.
 1. Data Access Level: Specifies who has access to this process and who can use it.
 1. Type: Validation of the type of process.
-<kbd><img src="./assets/webUI_Process.png" alt="Fig.: Checkbox '' (SwingUI)"></kbd>
+
+<kbd><img src="assets/webUI_Process.png" alt="Fig.: Process (WebUI)"></kbd>
 
 ### In Report Access
 Here you enter the access rights for the roles.
-- **Add neu**
-<kbd><img src="./assets/webUI_Report_Access.png" alt="Fig.: Checkbox 'Report Access Window' (SwingUI)"></kbd>
+- **Add new**
+<kbd><img src="assets/webUI_Report_Access.png" alt="Fig.: Report Access (WebUI)"></kbd>
 
 ### Parameters
 To add a parameters click `add new` and the advanced edit with the following parameters will open up.
@@ -94,25 +97,25 @@ In this advanced edit you can enter:
   1. *Entity Type*: Shows what Entity Type the parameter is
   1. *Default Logic*: What value should be selected as default, see: [Provide the result of an SQL as process to the user](configure_sql_process)
 
-<kbd><img src="./assets/webUI_Parameters.png" alt="Fig.: Checkbox '' (SwingUI)"></kbd>
+<kbd><img src="assets/webUI_Parameters.png" alt="Fig.: Parameters (WebUI)" style="max-width: 600px"></kbd>
 
 ### Assigned to tables
 1. Process: Designation of the process.
 1. Table: The table to which the process is applied.
 1. Entity Type: Dictionary entry type: Determines ownership and synchronization.
 
-<kbd><img src="./assets/webUI_Assigned_to_tables.png" alt="Fig.: Checkbox '' (SwingUI)"></kbd>
+<kbd><img src="assets/webUI_Assigned_to_tables.png" alt="Fig.: Assigned to tables (WebUI)"></kbd>
+
 ---
-## **Optional Translations**
+## Optional Translations
 
-### If you still want to do translations
-1. you have to open tools.
-1. put a tick in **show Translation Tabs**
+### If you want to add translations
+1. [Activate the translation tabs](activate_translations_tab).
 
-<kbd><img src="./assets/X2Go_show_translations.png" alt="Fig.: Checkbox '' (SwingUI)"></kbd>
+    <kbd><img src="assets/X2Go_show_translations.png" alt="Fig.: Under the tools, tick the checkbox 'Show Translation Tabs'"></kbd>
 
-3. Then restarted your Java client.
-1. Now in **report & processes** the **translation tabs** should be visible.
+1. After restarting your Java client, the translation subtabs **Report Translation** and **Parameter Translation** should be visible under "Report & Processes".
 
-<kbd><img src="./assets/X2Go_Report_Translation.png" alt="Fig.: Checkbox '' (SwingUI)"></kbd>
-<kbd><img src="./assets/X2Go_Parameter_Translation.png" alt="Fig.: Checkbox '' (SwingUI)"></kbd>
+    <kbd><img src="assets/X2Go_Report_Translation.png" alt="Fig.: Subtab 'Report Translation'"></kbd>
+
+    <kbd><img src="assets/X2Go_Parameter_Translation.png" alt="Fig.: Subtab 'Parameter Translation'"></kbd>
