@@ -2,9 +2,9 @@
 title: Activate the translations tab
 layout: default
 tags:  
-  - General
+  - Languages & Translations
 lang: en
-sequence: 40
+sequence: 20
 ref: activate_translations_tab
 ---
 
@@ -21,6 +21,6 @@ This guide shows you how to activate translations in the Java Swing Client.
 1. Tick the checkbox **Übersetzungs-Register zeigen** (*Show translations tab*).
 
     <kbd><a href="https://user-images.githubusercontent.com/29163573/104922589-32156d00-599b-11eb-8ef5-b4a3ebf47088.png" title="Click to enlarge" target="\_blank"><img src="https://user-images.githubusercontent.com/29163573/104922589-32156d00-599b-11eb-8ef5-b4a3ebf47088.png" alt="Activate translations tab"></a></kbd>
-    
+
 1. Click ![](../../images/icons/Ok24.png) to save the preferences.
 1. Restart the swing client to apply the settings.

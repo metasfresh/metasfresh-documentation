@@ -2,9 +2,9 @@
 title: Add new languages to the system
 layout: default
 tags:  
-  - Languages
+  - Languages & Translations
 lang: en
-sequence:
+sequence: 10
 ref: add_new_system_language
 ---
 
