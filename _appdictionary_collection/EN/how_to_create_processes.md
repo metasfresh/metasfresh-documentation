@@ -82,7 +82,8 @@ In this advanced edit you can enter:
 ### In Report Access
 Here you enter the access rights for the roles.
 - **Add new**
-<kbd><img src="assets/webUI_Report_Access.png" alt="Fig.: Report Access (WebUI)"></kbd>
+
+    <kbd><img src="assets/webUI_Report_Access.png" alt="Fig.: Report Access (WebUI)"></kbd>
 
 ### Parameters
 To add a parameters click `add new` and the advanced edit with the following parameters will open up.
@@ -93,9 +94,9 @@ In this advanced edit you can enter:
 1. *System Element*: The system element can be selected from the already existing system elements and also prefills Name, DB Column Name, Description and Comment.
 1. *Reference*, *Reference Key*: Show the Type of parameter and optionally a Key if the data is in a table or list.
 1. **Further options**
-  1. *Mandatory*: If the box is checked, the user must enter information and cannot leave it blank
-  1. *Entity Type*: Shows what Entity Type the parameter is
-  1. *Default Logic*: What value should be selected as default, see: [Provide the result of an SQL as process to the user](configure_sql_process)
+    - *Mandatory*: If the box is checked, the user must enter information and cannot leave it blank
+    - *Entity Type*: Shows what Entity Type the parameter is
+    - *Default Logic*: What value should be selected as default, see: [Provide the result of an SQL as process to the user](configure_sql_process)
 
 <kbd><img src="assets/webUI_Parameters.png" alt="Fig.: Parameters (WebUI)" style="max-width: 600px"></kbd>
 
