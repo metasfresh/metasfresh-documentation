@@ -23,7 +23,7 @@ Instead you can simply use the existing elements (`AD_Element`), add the custome
 
 
 ## Requirements
-- [Activate the translation subtab for system elements (AD_Element)](activate_translations_tab).
+- [Activate the translation subtab for system elements (AD_Element)](activate_translation_tabs).
 
     <kbd><img src="https://github.com/metasfresh/metasfresh-documentation/assets/50820854/0160dd31-3d9c-43a1-a9c0-379ca00d96c5" alt="Fig.: System element (AD_Elemet) with translation subtab"></kbd>
 

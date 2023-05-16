@@ -18,7 +18,7 @@ See original issue comment: https://github.com/metasfresh/me03/issues/6700#issue
     <kbd><a href="https://user-images.githubusercontent.com/73820536/104612394-d3947a00-568e-11eb-8af2-dc0fe64503d6.png" title="Click to enlarge" target="\_blank"><img src="https://user-images.githubusercontent.com/73820536/104612394-d3947a00-568e-11eb-8af2-dc0fe64503d6.png" alt="Create new system element"></a></kbd>
 
 1. Translate the system element.
-    >**Note:** If the translation tab is not displayed, follow [these steps to activate translations in swing](activate_translations_tab).
+    >**Note:** If the translation tab is not displayed, follow [these steps to activate translations in swing](activate_translation_tabs).
 
     <kbd><a href="https://user-images.githubusercontent.com/73820536/104612520-f6269300-568e-11eb-8408-9809ac42f66d.png" title="Click to enlarge" target="\_blank"><img src="https://user-images.githubusercontent.com/73820536/104612520-f6269300-568e-11eb-8408-9809ac42f66d.png" alt="Add system element translation"></a></kbd>
 
