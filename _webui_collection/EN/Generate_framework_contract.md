@@ -23,7 +23,7 @@ One business partner may have multiple framework contracts in place, but each fr
 
 ## Steps
 Follow these [instructions for entering a purchase order](CreatePurchaseOrder), taking into account the following settings:
-1. Pick any **Target Document Type** except *Call Off PO* for distinguishing purposes.
+1. Pick any **Target Document Type** except *Call-off purchase order* for distinguishing purposes.
 1. Pick a **Pricing System** used for [call-off order products](Add_call_off_order_product).
 1. Go to the record tab "PO Line" at the bottom of the page and add the call-off order product with the desired amount.
 1. Move the horizontal scrollbar of the purchase order line table to the right until you reach the column **Contract Terms** and pick the desired [framework contract terms](Define_contractual_terms_framework_contract).
@@ -31,7 +31,7 @@ Follow these [instructions for entering a purchase order](CreatePurchaseOrder), 
 ## Result
 After [completing the purchase order](DocumentProcessingComplete):
 
-1. The framework contract will be generated automatically based on the **Pricing System** and the **Contract Terms** and can be found under "[Call-off order overview](Menu)" in the menu.
+1. The framework contract will be generated automatically based on the **Pricing System** and **Contract Terms** and can be found under "[Call-off order overview](Menu)" in the menu.
 1. Under "[Call-off order overview](Menu)" in the menu you will be able to review all transactions related to the respective call-off order (e.g., goods receipts/shipments, invoices) in the record tab "Call-off order details" at the bottom of the page.
 1. Under "[Contract Period](Menu)" (window ID `540359`) in the menu a new contract entry is created automatically in connection with the framework contract.
 
