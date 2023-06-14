@@ -19,7 +19,8 @@ Wenn Du in einem Fenster nach ganz bestimmten Einträgen suchst (wie z.B. nach [
 1. Trage die Stichwörter Deiner Wahl in die Suchfelder ein und/oder wähle die gewünschten [Attribute](Attribute_GP_hinzufuegen) aus, nach denen Du die Tabelle filtern möchtest, und klicke auf !["Anwenden"](assets/Anwenden Button.png).
  >**Hinweis:** Drücke `Alt` + `↵ Enter` / `⌥ alt` + `↵ Enter`, um die Filterkriterien anzuwenden.
 
-1. Um die Suchfelder wieder zu leeren, klicke auf ![](assets/Filter_nach_X.png) und dann auf ![](assets/Clear_filter.png) in der oberen rechten Ecke der Filtermaske.
+### Filter entfernen
+- Um die Filtereinstellungen wieder zu löschen und die Suchfelder zu leeren, klicke auf ![](assets/Filter_nach_X.png) und dann auf ![](assets/Clear_filter.png) in der oberen rechten Ecke der Filtermaske.
 
 ### Nach "Aktiv"-Status filtern
 Manche Einträge können auch anhand von "Aktiv"-Status gefiltert werden, d.h. ob eine Eigenschaft aktiv oder inaktiv ist. Beispielsweise kannst Du im Fenster "[Anrufliste](Anrufplanung_Anrufe_filtern)" die Einträge nach erteilten und ***nicht*** erteilten Aufträgen sowie nach getätigten und ***nicht*** getätigten Anrufen filtern.

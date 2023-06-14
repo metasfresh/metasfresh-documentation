@@ -19,7 +19,8 @@ If you are searching for specific entries in a window (such as [business partner
 1. Enter the keywords of your choice into the search fields and/or pick the desired [attributes](Add_attributes_to_BP) by which you want to filter the table and click !["Apply"](assets/Apply button.png).
  >**Note:** Press `Alt` + `↵ Enter` / `⌥ alt` + `↵ Enter` to apply the filter criteria.
 
-1. To empty the search fields, click ![](assets/Filter_by_X.png) and then click ![](assets/Clear_filter.png) in the top right-hand corner of the filter mask.
+### Remove filter
+- To clear the filter settings and empty the search fields, click ![](assets/Filter_by_X.png) and then click ![](assets/Clear_filter.png) in the top right-hand corner of the filter mask.
 
 ### Filter by "Active" status
 Some entries can also be filtered by "Active" status, i.e. whether a property is active or inactive. For example, in the "[Phone Call Schedule](Phone_call_scheduling_filtering)" window, you can filter by entries with and ***without*** sales orders, as well as by entries with called contacts and ***calls yet to be made***.

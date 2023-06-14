@@ -44,6 +44,12 @@ Manchmal kann es vorkommen, dass Kunden defekte Produkte reklamieren und zur Rep
 1. Wenn Du die Auswahl einer HU rückgängig machen möchtest, öffne einfach mit einem Rechtsklick auf die jeweilige Zeile das Kontextmenü und klicke auf "Löschen" (`Alt` + `Y` / `⌥ alt` + `Y`). Anschließend kann die HU dann wieder für die Retoure ausgewählt werden.
  >**Hinweis:** Dies funktioniert nur, solange der Eintrag für die Serviceannahme noch nicht fertiggestellt wurde.
 
+<br>
+
+| **Besonderer Hinweis:** |
+| :--- |
+| Garantiefälle, die nach ihrer Abwicklung wieder an die reklamierende Person zurückgeschickt werden sollen, werden beim Wareneingang nicht dem internen Bestand zugerechnet, sondern als Fremdbestand gekennzeichnet, der für keine anderen Transaktionen als die Reparaturabwicklung zur Verfügung steht. |
+
 ### Zubehörteile für Reparatur hinzufügen
 
 | **Hinweis:** |
