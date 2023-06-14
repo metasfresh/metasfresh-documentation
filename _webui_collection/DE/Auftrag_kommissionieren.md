@@ -23,6 +23,8 @@ Den Lagerbestand kannst Du im "[Handling Unit Editor](Menu)" jederzeit nachschau
 1. [Selektiere](AuswahlBelege) in der linken Hälfte des Kommissionierfensters den zu kommissionierenden Auftrag.
 1. [Selektiere](AuswahlBelege) in der rechten Hälfte einen Kommissionierplatz, z.B. "101.0", und [starte die Quick-Action](AktionStarten#quick-actions) "HU-Auswahlfenster öffnen".
 1. [Selektiere](AuswahlBelege) eine HU und [starte die Quick-Action](AktionStarten#quick-actions) "HU kommissionieren". Nun befindet sich die HU auf dem Kommissionierplatz 101.0.
+ >**Hinweis:** Sollte die gewünschte HU nicht aufgelistet sein, prüfe, ob ein [Filter](Filterfunktion) gesetzt ist und entferne ihn, um weitere Vorschläge zu sehen.
+
 1. [Selektiere](AuswahlBelege) die HU-Zeile und [starte die Quick-Action](AktionStarten#quick-actions) "Kommissionierung verarbeiten". Die HU-Zeile wird schreibgeschützt.
  >**Hinweis:** Die HU-Zeile muss ausgewählt sein, damit die Quick-Action verfügbar wird.<br><br>
  ![](assets/Kommissionierung_HU_auswählen.png)

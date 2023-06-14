@@ -48,6 +48,12 @@ Sometimes customers may report faulty products and send them back for repair in 
 1. If you want to undo the selection of an HU, simply open the context menu by right-clicking on the respective line and then click on "Delete" (`Alt` + `Y` / `⌥ alt` + `Y`). Afterwards, the HU can be selected again for the return.
  >**Note:** This only works as long as the entry for the service reception has not yet been completed.
 
+<br>
+
+| **Special Note:** |
+| :--- |
+| Warranty cases that are to be returned after processing to the person making the claim are not assigned to internal stock at goods receipt, but instead are marked as externally-owned stock that is not available for any transactions other than repair processing. |
+
 ### Add spare parts for repair
 
 | **Info:** |
