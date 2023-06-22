@@ -18,7 +18,8 @@ Den Lagerbestand kannst Du im "[Handling Unit Editor](Menu)" jederzeit nachschau
 
 ## Schritte
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Kommissionier-Terminal".
-1. [Selektiere](AuswahlBelege) in der [Listenansicht](Ansichten#listenansicht) das Produkt, für das Du HUs kommissionieren möchtest.
+1. ***Optional:*** [Verwende die Filterfunktion](Filterfunktion), um Dir bei der Suche nach dem gewünschten Produkt zu helfen, für das Du HUs kommissionieren möchtest.
+1. [Selektiere](AuswahlBelege) in der [Listenansicht](Ansichten#listenansicht) das Produkt.
 1. [Starte die Quick-Action](AktionStarten#quick-actions) "Kommissionieren". Es öffnet sich das Kommissionierfenster.
 1. [Selektiere](AuswahlBelege) in der linken Hälfte des Kommissionierfensters den zu kommissionierenden Auftrag.
 1. [Selektiere](AuswahlBelege) in der rechten Hälfte einen Kommissionierplatz, z.B. "101.0", und [starte die Quick-Action](AktionStarten#quick-actions) "HU-Auswahlfenster öffnen".

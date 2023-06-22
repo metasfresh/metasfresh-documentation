@@ -5,7 +5,7 @@ tags:
   - Kun­den­ser­vice
   - Reparaturen
 lang: de
-sequence: 30
+sequence: 40
 ref: manufacturing_order_record_work
 ---
 
