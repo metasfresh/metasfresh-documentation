@@ -5,7 +5,7 @@ tags:
   - Customer Service
   - Repairs
 lang: en
-sequence: 40
+sequence: 50
 ref: quotation_estimate_repair_services
 ---
 
@@ -15,7 +15,6 @@ ref: quotation_estimate_repair_services
 3. [Record your work effort for the repair order](Manufacturing_order_record_work).
 
 ## Steps
-
 1. [Go to Menu](Menu) and open the "Service/Repair Project" window.
 2. [Use the filter function](Filtering_function) to help you find the repair project you want and open the entry.
 3. [Start the action](StartAction#actions-menu) "Create quote". A new browser tab opens with the quote.
@@ -42,3 +41,8 @@ Order lines for accessories are not printed on the document by default. To chang
 ### Complete order (optional)
 1. [Complete the document](DocumentProcessingComplete).
 2. [Open the PDF Preview](PrintPreview).
+
+## Next Steps
+1. [Pick the repaired product for delivery back to the customer](Order_picking_terminal).
+1. [Create a shipment with the picked product](Ship_salesorder_picked_qty).
+1. ***Optional:*** [Close the service/repair project](Service_repair_project_close).

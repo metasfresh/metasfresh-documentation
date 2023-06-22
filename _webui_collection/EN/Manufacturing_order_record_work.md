@@ -5,7 +5,7 @@ tags:
   - Customer Service
   - Repairs
 lang: en
-sequence: 30
+sequence: 40
 ref: manufacturing_order_record_work
 ---
 

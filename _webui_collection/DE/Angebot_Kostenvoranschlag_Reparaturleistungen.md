@@ -5,7 +5,7 @@ tags:
   - Kun­den­ser­vice
   - Reparaturen
 lang: de
-sequence: 40
+sequence: 50
 ref: quotation_estimate_repair_services
 ---
 
@@ -41,3 +41,8 @@ Auftragszeilen für Zubehörteile werden standardmäßig nicht auf den Beleg ged
 ### Auftrag fertigstellen (optional)
 1. [Stelle den Beleg fertig](BelegverarbeitungFertigstellen).
 1. [Öffne die PDF-Vorschau](PDFVorschau).
+
+## Nächste Schritte
+1. [Kommissioniere das reparierte Produkt für die Lieferung zurück an den Kunden](Auftrag_kommissionieren).
+1. [Erstelle eine Lieferung mit dem kommissionierten Produkt](Lieferung_mit_kommissionierter_Menge).
+1. ***Optional:*** [Schließe das Reparaturprojekt](Reparaturprojekt_schliessen).

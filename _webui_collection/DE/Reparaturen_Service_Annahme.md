@@ -1,18 +1,13 @@
 ---
-title: Wie empfange ich re­pa­ra­tur­be­dürf­tige Retouren (Garantiefälle)?
+title: Wie empfange ich re­pa­ra­tur­be­dürf­tige Retouren?
 layout: default
 tags:
   - Kun­den­ser­vice
   - Reparaturen
 lang: de
-sequence: 10
+sequence: 20
 ref: service_repair_customer_return
 ---
-
-## Überblick
-Manchmal kann es vorkommen, dass Kunden defekte Produkte reklamieren und zur Reparatur zurücksenden, um anschließend (ggf. auf Kulanz) ein funktionsfähiges Produkt zurückzuerhalten. In metasfresh können solche Fälle über die Serviceannahme abgewickelt und Reparaturen inkl. Zubehörteilen, Serviceleistungen usw. im Rahmen von Produktionsaufträgen durchgeführt werden (Reparaturaufträge).
-
-<kbd><img src="assets/Service Annahme bis Angebot (Reparaturprozess).png" alt="Abb.: Serviceannahme bis Angebot (Reparaturprozess)"></kbd>
 
 ## Voraussetzungen
 1. [Produziere ein Produkt mit Seriennummer](ProduktionFertigstellung).

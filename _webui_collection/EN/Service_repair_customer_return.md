@@ -1,22 +1,17 @@
 ---
-title: How do I receive returned products in need of repair (warranty cases)?
+title: How do I receive returned products in need of repair?
 layout: default
 tags:
   - Customer Service
   - Repairs
 lang: en
-sequence: 10
+sequence: 20
 ref: service_repair_customer_return
 ---
 
 <!--
 Warranty Vs. Guarantee => https://www.easternarchitectural.com/blog/understanding-the-difference-warranty-vs.-guarantee
 -->
-
-## Overview
-Sometimes customers may report faulty products and send them back for repair in order to receive a mended product back in return (as a gesture of goodwill, if applicable). In metasfresh, such cases can be handled via the service reception and repairs incl. spare parts, other services, etc. can be carried out as part of manufacturing orders (repair orders).
-
-<kbd><img src="assets/Service Acceptance to Offer (repair process).png" alt="Abb.: Service reception to Quotation (repair process)"></kbd>
 
 ## Requirements
 1. [Produce a product with a serial number](ProductionCompletion).

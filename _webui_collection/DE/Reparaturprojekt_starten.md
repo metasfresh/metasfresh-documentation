@@ -5,7 +5,7 @@ tags:
   - Kun­den­ser­vice
   - Reparaturen
 lang: de
-sequence: 20
+sequence: 30
 ref: service_repair_project_start
 ---
 

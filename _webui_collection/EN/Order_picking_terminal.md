@@ -18,7 +18,8 @@ You can check your stock inventory at any time in the "[Handling Unit Editor](Me
 
 ## Steps
 1. Open "Picking Terminal" from the [menu](Menu).
-1. From the [list view](ViewModes#list-view), [select](RecordSelection) the product for which you want to pick an HU.
+1. ***Optional:*** [Use the filtering function](Filtering_function), to help you find the desired product for which you want to pick an HU.
+1. From the [list view](ViewModes#list-view), [select](RecordSelection) the product.
 1. [Start the quick action](StartAction#quick-actions) "Pick". The picking window opens up.
 1. In the left pane of the picking window, [select](RecordSelection) the sales order to be picked.
 1. In the right pane, [select](RecordSelection) a picking slot, e.g., "101.0", and [start the quick action](StartAction#quick-actions) "Open HU selection window".
