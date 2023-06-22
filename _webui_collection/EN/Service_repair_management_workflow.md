@@ -9,6 +9,10 @@ sequence: 10
 ref: service_repair_management_workflow
 ---
 
+<!--
+See original issue comment: https://github.com/metasfresh/me03/issues/15901#issuecomment-1567097003
+-->
+
 ## Overview
 Sometimes customers may report faulty products and send them back for repair in order to receive a mended product back in return (as a gesture of goodwill, if applicable). In metasfresh, such cases can be handled via the service reception and repairs incl. spare parts, other services, etc. can be carried out as part of manufacturing orders (repair orders).
 
