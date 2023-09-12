@@ -27,4 +27,4 @@ ref: excel_report_protect_unprotect_sheet
 1. ***Optional:*** To protect the sheet again, [follow the above steps](#protect-excel-sheet).
 
 ## Example
-<kbd><img src="assets/Excel report - Protect sheet with password.png" alt="Fig.: Screenshot of the 'Protect Sheet' dialog box in Excel sheet"></kbd>
+<kbd><a href="assets/Excel report - Protect sheet with password.png" title="Click to enlarge" target="\_blank"><img src="assets/Excel report - Protect sheet with password.png" alt="Fig.: Screenshot of the 'Protect Sheet' dialog box in Excel sheet"></a></kbd>
