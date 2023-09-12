@@ -14,4 +14,4 @@ ref: excel_report_hide_columns
 1. To display the column again, you can use the option **Unhide** from the context menu.
 
 ## Example
-<kbd><img src="assets/Excel report - Hide entire column.png" alt="Fig.: Screenshot of the selected column's context menu with option 'Hide' highlighted"></kbd>
+<kbd><a href="assets/Excel report - Hide entire column.png" title="Click to enlarge" target="\_blank"><img src="assets/Excel report - Hide entire column.png" alt="Fig.: Screenshot of the selected column's context menu with option 'Hide' highlighted"></a></kbd>

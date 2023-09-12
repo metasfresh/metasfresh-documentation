@@ -8,6 +8,10 @@ sequence: 10
 ref: excel_report_templates_add_columns
 ---
 
+<!--
+See original issue comment: https://github.com/metasfresh/me03/issues/16163#issuecomment-1695841844
+-->
+
 ## Steps
 1. Add the respective column in the view `ModCntr_Log_Details_Template_Report_V` (e.g., column `X`).
 1. Open the report template from `backend\de.metas.fresh\de.metas.fresh.base\src\main\jasperreports\de\metas\reports\modcntrlog`.
@@ -19,4 +23,4 @@ ref: excel_report_templates_add_columns
 1. When done editing, [protect the sheet again](excel_report_protect_unprotect_sheet#protect-excel-sheet) using the same **password from step 3**.
 
 ## Example
-<kbd><img src="assets/Excel report - Add column.png" alt="Fig.: Screenshot of added column in Excel sheet"></kbd>
+<kbd><a href="assets/Excel report - Add column.png" title="Click to enlarge" target="\_blank"><img src="assets/Excel report - Add column.png" alt="Fig.: Screenshot of added column in Excel sheet"></a></kbd>

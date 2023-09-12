@@ -15,4 +15,4 @@ ref: excel_report_lock_cell_read-only
 1. Click *OK* to save the settings.
 
 ## Example
-<kbd><img src="assets/Excel report - Format cell protection 'Locked' (read-only).png" alt="Fig.: Screenshot of the 'Format Cells...' dialog box, tab 'Protection' and ticked checkbox 'Locked'"></kbd>
+<kbd><a href="assets/Excel report - Format cell protection 'Locked' (read-only).png" title="Click to enlarge" target="\_blank"><img src="assets/Excel report - Format cell protection 'Locked' (read-only).png" alt="Fig.: Screenshot of the 'Format Cells...' dialog box, tab 'Protection' and ticked checkbox 'Locked'"></a></kbd>
