@@ -1,5 +1,5 @@
 ---
-title: How do I change my login password? (Forgot password)
+title: How do I change my login password? (Forgot password / Reset password)
 layout: default
 tags:
   - A Beginner's Guide to metasfresh
@@ -12,7 +12,12 @@ ref: change_password
 ## Overview
 If you are having a hard time remembering your login password or simply want to change it, just follow the "Forgot password" feature the next time you log in and reset your password or pick a new one.
 
-## Change password (Forgot password)
+## Change password ("Forgot password")
+
+| **Important note for system administrators:** |
+| :--- |
+| Make sure that when setting up the "forgot password" feature via [email server routing](Setup_email_server_routing), the routing class (**Custom Type**) `org.compiere.util.Login` is set so that the feature can be used without restrictions. |
+
 1. On the login page, click on the "Forgot password" link below the login button. A new input field appears.
 1. In the input field, enter your user email address which is registered in metasfresh and click ![](assets/SendResetCodeButton.png).
 1. You will receive an email from metasfresh containing password reset instructions.
