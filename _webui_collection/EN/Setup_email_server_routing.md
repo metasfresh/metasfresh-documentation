@@ -16,6 +16,7 @@ In metasfresh, you can use email server routing to specify the [contact/user](Ad
 1. Open "Outbound Email Server (SMTP)" from the [menu](Menu).
 1. [Create a new entry](New_Record_Window).
 1. Pick a [**Mail Box**](Outbound_documents_setup_email_server) to use for sending emails from metasfresh.
+1. ***Optional:*** In the field **Custom Type**, pick a routing class, e.g., `org.compiere.util.Login` (see also "[Reset password](Change_password)").
 1. In the field **Column User To**, either pick *Ansprechpartner* (= Contact) or *Rechnungskontakt* (= Bill-to contact) depending on whose email should be used.
  >**Note:** Make sure the [email address of the respective contact](Add_user_to_BPartner) is provided in the entry of the associated business partner.
 

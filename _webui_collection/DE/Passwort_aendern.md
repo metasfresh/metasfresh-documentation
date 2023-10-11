@@ -1,5 +1,5 @@
 ---
-title: Wie ändere ich mein Login-Passwort? (Passwort vergessen)
+title: Wie ändere ich mein Login-Passwort? (Passwort vergessen / zurücksetzen)
 layout: default
 tags:
   - Anfängertipps für metasfresh
@@ -12,8 +12,13 @@ ref: change_password
 ## Überblick
 Ist Dir Dein Login-Passwort entfallen oder möchtest Du es ändern, dann folge bei Deiner nächsten Anmeldung einfach der "Passwort vergessen"-Funktion und richte Dein neues Passwort ein.
 
-## Passwort ändern (Passwort vergessen)
-1. Klicke auf der Anmeldeseite unterhalb des Login-Buttons auf den Link "Forgot Password". Es erscheint ein neues Eingabefeld.
+## Passwort ändern ("Passwort vergessen")
+
+| **Wichtiger Hinweis für Systemadministratoren:** |
+| :--- |
+| Stelle sicher, dass bei der Einrichtung der "Passwort vergessen"-Funktion in den Einstellungen des [E-Mail-Server-Routings](Email_Server_Routing_einrichten) die Routing-Klasse (**Individueller Typ**) `org.compiere.util.Login` eingestellt ist, damit die Funktion uneingeschränkt genutzt werden kann. |
+
+1. Klicke auf der Anmeldeseite unterhalb des Login-Buttons auf den Link "Passwort vergessen". Es erscheint ein neues Eingabefeld.
 1. Gib in das Eingabefeld Deine in metasfresh gespeicherte Nutzer-E-Mail-Adresse ein und klicke auf ![](../EN/assets/SendResetCodeButton.png).
 1. Du erhältst nun von metasfresh eine E-Mail mit den Anweisungen zur Einrichtung eines neuen Passworts.
 1. Öffne die E-Mail in Deinem Postfach und klicke auf den darin enthaltenen Link. Es öffnet sich ein neuer Browser-Tab.
