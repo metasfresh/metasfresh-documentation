@@ -96,7 +96,7 @@ When displaying the following fields, always show them together:
 ## Dos and Dont's (unless the opposite is specifically requested) 
 * If a column is a filter, the field for it should be displayed in grid view;
 * If a list contains more than 10 entries, it should be changed into a search field;
-* The Client (mandant) should nor be displayed in a grid view;
+* The Client (mandant) should not be displayed in a grid view;
 * Any new field should be translated in German and English;
 * Organization should be the last field displayed in grid view;
 * In the advanced edit view of a subtab, the Organization and Client should be the last 2 fields displayed.
