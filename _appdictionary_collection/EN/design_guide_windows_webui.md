@@ -90,3 +90,13 @@ When displaying the following fields, always show them together:
 
 ### Example
 <kbd><a href="assets/design_guide_webui_included_record_tabs.png" title="Click to enlarge" target="\_blank"><img src="assets/design_guide_webui_included_record_tabs.png" alt="Default Filter for Documents (WebUI)"></a></kbd>
+
+
+
+## Dos and Dont's (unless the opposite is specifically requested) 
+* If a column is a filter, the field for it should be displayed in grid view;
+* If a list contains more than 10 entries, it should be changed into a search field;
+* The Client (mandant) should nor be displayed in a grid view;
+* Any new field should be translated in German and English
+* Organization should be the last field displayed in grid view
+* In the advanced edit view of a subtab, the Organization and Client should be the last 2 fields displayed
