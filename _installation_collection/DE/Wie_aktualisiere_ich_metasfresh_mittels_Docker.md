@@ -5,8 +5,9 @@ tags:
   - Docker
   - Update
 lang: de
-sequence: 10
+sequence:
 ref: how_do_I_update_metasfresh_using_docker
+published: false
 ---
 
 ## Voraussetzung

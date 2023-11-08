@@ -5,7 +5,7 @@ tags:
   - Docker
   - Updating
 lang: en
-sequence: 30
+sequence: 20
 ref: update_release_5.175_incl_upgrade_to_postgres_v15
 ---
 
@@ -16,7 +16,7 @@ See also original issue comment: https://github.com/metasfresh/me03/issues/17356
 ## Overview
 We upgraded our database since our [release 5.174](https://metasfresh.com/2022/03/25/release-5-174/) from PostgreSQL version 9.5 to version 15.
 
-In order to [install the update package](https://docs.metasfresh.org/installation_collection/EN/install_Release_Candidate_using_docker.html) "Release 5.175" (and future release versions, too), your **database needs to be upgraded**.
+In order to [install the update package](install_Release_Candidate_using_docker) "Release 5.175" (and future release versions, too), your **database needs to be upgraded**.
 
 The following guide will help you perform both the **database upgrade** using the relevant scripts provided in the [metasfresh-docker repository](https://github.com/metasfresh/metasfresh-docker), specifically in the "[extras](https://github.com/metasfresh/metasfresh-docker/tree/master/extras)" directory (see also instructions below), and the **metasfresh update** to the release version 5.175.
 

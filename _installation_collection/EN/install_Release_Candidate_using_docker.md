@@ -5,7 +5,7 @@ tags:
   - Docker
   - Updating
 lang: en
-sequence: 20
+sequence: 10
 ref: install_release_candidate_using_docker
 ---
 
@@ -23,7 +23,7 @@ ref: install_release_candidate_using_docker
     tar cvzf ../backup.tar.gz ./<mydocker fir>/* --BACKUP
     docker-compose rm
     ```
-1. In the [metasfresh-docker directory](https://github.com/metasfresh/metasfresh-docker), change the Dockerfile versions of [App](https://github.com/metasfresh/metasfresh-docker/blob/master/app/Dockerfile), [WebAPI](https://github.com/metasfresh/metasfresh-docker/blob/master/webapi/Dockerfile), [WebUI](https://github.com/metasfresh/metasfresh-docker/blob/master/webui/Dockerfile) and [DB](https://github.com/metasfresh/metasfresh-docker/blob/master/db/Dockerfile) (in the subdirectories) to the next version number, e.g. [`5.175`](update_release_5.175_incl_upgrade_to_postgres_v15).
+1. In the [metasfresh-docker directory](https://github.com/metasfresh/metasfresh-docker), change the Dockerfile versions of [App](https://github.com/metasfresh/metasfresh-docker/blob/master/app/Dockerfile), [WebAPI](https://github.com/metasfresh/metasfresh-docker/blob/master/webapi/Dockerfile), [WebUI](https://github.com/metasfresh/metasfresh-docker/blob/master/webui/Dockerfile) and [DB](https://github.com/metasfresh/metasfresh-docker/blob/master/db/Dockerfile) (in the subdirectories) to the next version number, e.g., [`5.175`](update_release_5.175_incl_upgrade_to_postgres_v15).
 1. Rebuild the images.
     ```sh
     docker-compose build --no-cache
@@ -39,7 +39,7 @@ If you want to pull the new [Docker files from GitHub](https://github.com/metasf
 1. Stop all Docker containers.
 1. Create a backup of the current Docker workspace.
 1. Delete the host's images of **app**, **webui** and **webapi**.
-1. Get the new Docker files from GitHub.
+1. Get the new Docker files and configurations from GitHub.
 1. Adjust the hostname in the `docker-compose.yml` file.
 1. Rebuild the images.
 1. Start the Docker containers.
