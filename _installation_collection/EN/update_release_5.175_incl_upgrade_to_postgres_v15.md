@@ -1,5 +1,5 @@
 ---
-title: Update to release 5.175 using Docker (incl. required PostgreSQL database upgrade)
+title: Update to release version 5.175 using Docker (incl. required PostgreSQL database upgrade)
 layout: default
 tags:
   - Docker
@@ -16,16 +16,16 @@ See also original issue comment: https://github.com/metasfresh/me03/issues/17356
 ## Overview
 We upgraded our database since our [release 5.174](https://metasfresh.com/2022/03/25/release-5-174/) from PostgreSQL version 9.5 to version 15.
 
-In order to [install the update package](https://docs.metasfresh.org/installation_collection/EN/install_Release_Candidate_using_docker.html) "Release 5.175" (and future releases, too), your **database needs to be upgraded** as well.
+In order to [install the update package](https://docs.metasfresh.org/installation_collection/EN/install_Release_Candidate_using_docker.html) "Release 5.175" (and future release versions, too), your **database needs to be upgraded**.
 
-The following guide will help you perform both the **database upgrade** using the relevant scripts provided in the [metasfresh-docker repository](https://github.com/metasfresh/metasfresh-docker), specifically in the "[extras](https://github.com/metasfresh/metasfresh-docker/tree/master/extras)" directory (see also instructions below), and the **metasfresh update** to the release 5.175.
+The following guide will help you perform both the **database upgrade** using the relevant scripts provided in the [metasfresh-docker repository](https://github.com/metasfresh/metasfresh-docker), specifically in the "[extras](https://github.com/metasfresh/metasfresh-docker/tree/master/extras)" directory (see also instructions below), and the **metasfresh update** to the release version 5.175.
 
-The main script executing the upgrade (`upgrade_postgres.sh`) comprises the following actions:
+The main script executing the database upgrade (`upgrade_postgres.sh`) comprises the following actions:
 - It stops your metasfresh instance.
 - It alters your existing database to remove any upgrade conflicts.
     - It handles database tables with OIDs, which aren't supported by newer Postgres versions.
 - It upgrades your database to PostgreSQL version 15.
-    - It creates a new database in a new database volume.
+    - It creates a new database (`newdb`) in a new database volume.
     - The old database volume is preserved as a backup/fallback.
 - After the upgrade the script
     - copies the configuration files to the new database.
@@ -57,7 +57,7 @@ Adjust the Postgres password in the docker-compose files to match the Postgres p
     - `docker-compose-after-upgrade-postgres.yml`
 
 ### Run the Upgrade
-1. Start the upgrade script (from the "[extras](https://github.com/metasfresh/metasfresh-docker/tree/master/extras)" directory):
+1. Start the upgrade script (from the "[extras](https://github.com/metasfresh/metasfresh-docker/tree/master/extras)" directory).
     ```sh
     nohup bash ./upgrade_postgres.sh
     ```
@@ -67,7 +67,7 @@ Adjust the Postgres password in the docker-compose files to match the Postgres p
     ```
 1. Add a new parameter `shm_size: 256m` to your database in the [`docker-compose.yml`](https://github.com/metasfresh/metasfresh-docker/blob/master/docker-compose.yml) file.
 1. Change the Dockerfile versions of [App](https://github.com/metasfresh/metasfresh-docker/blob/master/app/Dockerfile), [WebAPI](https://github.com/metasfresh/metasfresh-docker/blob/master/webapi/Dockerfile), [WebUI](https://github.com/metasfresh/metasfresh-docker/blob/master/webui/Dockerfile) and [DB](https://github.com/metasfresh/metasfresh-docker/blob/master/db/Dockerfile) to `5.175`.
-1. Rebuild the images with:
+1. Rebuild the images (from `metasfresh-docker` directory).
     ```sh
     # go back to metasfresh-docker
     cd ..
@@ -77,7 +77,7 @@ Adjust the Postgres password in the docker-compose files to match the Postgres p
 
 | Special Note: |
 | :--- |
-| If the upgrade fails the **new database** volume (`newdb`) is removed and your instance with your **original database** (backup) can be restarted and used as usual. **No data will be lost**.<br>After resolving the conflicts, the upgrade process can be started anew.<br>Only after a **successful upgrade**, both the original and the new databases are renamed and indexed accordingly. The original database is retained as a backup. |
+| If the upgrade fails the **new database** volume (`newdb`) will be removed and your instance with your **original database** (backup) can be restarted and used as usual. **No data will be lost**.<br>After resolving the conflicts, the upgrade process can be started anew.<br>Only after a **successful upgrade**, both the original and the new databases are renamed and indexed accordingly. The original database is retained as a backup. |
 
 ### Start the instance after successfull upgrade
 1. Start the upgraded instance with:
