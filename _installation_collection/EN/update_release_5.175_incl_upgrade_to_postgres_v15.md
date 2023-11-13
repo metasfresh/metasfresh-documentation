@@ -14,11 +14,11 @@ See also original issue comment: https://github.com/metasfresh/me03/issues/17356
 -->
 
 ## Overview
-We upgraded our database since our [release 5.174](https://metasfresh.com/2022/03/25/release-5-174/) from PostgreSQL version 9.5 to version 15.
+We upgraded our database since our <a href="https://metasfresh.com/2022/03/25/release-5-174/" title="Release 5.174 &#124; metasfresh.com" target="\_blank">release 5.174</a> from PostgreSQL version 9.5 to version 15.
 
-In order to [install the update package](install_Release_Candidate_using_docker) "Release 5.175" (and future release versions, too), your **database needs to be upgraded**.
+In order to [install the update package](install_Release_Candidate_using_docker) "<a href="https://metasfresh.com/2023/11/10/release-5-175/" title="Release 5.175 &#124; metasfresh.com" target="\_blank">Release 5.175</a>" (and future release versions, too), your **database needs to be upgraded**.
 
-The following guide will help you perform both the **database upgrade** using the relevant scripts provided in the [metasfresh-docker repository](https://github.com/metasfresh/metasfresh-docker), specifically in the "[extras](https://github.com/metasfresh/metasfresh-docker/tree/master/extras)" directory (see also instructions below), and the **metasfresh update** to the release version 5.175.
+The following guide will help you perform both the **database upgrade** using the relevant scripts provided in the [metasfresh-docker repository](https://github.com/metasfresh/metasfresh-docker), specifically in the "[extras](https://github.com/metasfresh/metasfresh-docker/tree/master/extras)" directory (see also instructions below), and the **metasfresh update** to the <a href="https://metasfresh.com/2023/11/10/release-5-175/" title="Release 5.175 &#124; metasfresh.com" target="\_blank">release version 5.175</a>.
 
 The main script executing the database upgrade (`upgrade_postgres.sh`) comprises the following actions:
 - It stops your metasfresh instance.

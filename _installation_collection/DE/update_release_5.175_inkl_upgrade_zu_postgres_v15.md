@@ -14,11 +14,11 @@ See also original issue comment: https://github.com/metasfresh/me03/issues/17356
 -->
 
 ## Überblick
-Wir haben unsere Datenbank seit unserem [Release 5.174](https://metasfresh.com/2022/03/25/release-5-174/) von PostgreSQL Version 9.5 auf die Version 15 aktualisiert.
+Wir haben unsere Datenbank seit unserem <a href="https://metasfresh.com/2022/03/25/release-5-174/" title="Release 5.174 &#124; metasfresh.com" target="\_blank">Release 5.174</a> von PostgreSQL Version 9.5 auf die Version 15 aktualisiert.
 
-Um das Update-Paket "Release 5.175" (und auch künftige Release-Versionen) zu [installieren](Wie_installiere_ich_den_Release_Candidate_mit_docker), muss zunächst ein **Upgrade deiner Datenbank** durchgeführt werden.
+Um das Update-Paket "<a href="https://metasfresh.com/2023/11/10/release-5-175/" title="Release 5.175 &#124; metasfresh.com" target="\_blank">Release 5.175</a>" (und auch künftige Release-Versionen) zu [installieren](Wie_installiere_ich_den_Release_Candidate_mit_docker), muss zunächst ein **Upgrade deiner Datenbank** durchgeführt werden.
 
-Die folgende Anleitung hilft dir sowohl bei der Durchführung des **Datenbank-Upgrades** unter Verwendung der entsprechenden Skripte, die im [metasfresh-docker Repository](https://github.com/metasfresh/metasfresh-docker), speziell im Verzeichnis "[extras](https://github.com/metasfresh/metasfresh-docker/tree/master/extras)", zur Verfügung gestellt werden (siehe auch Schritte unten), als auch beim **Update von metasfresh** auf die Release-Version 5.175.
+Die folgende Anleitung hilft dir sowohl bei der Durchführung des **Datenbank-Upgrades** unter Verwendung der entsprechenden Skripte, die im [metasfresh-docker Repository](https://github.com/metasfresh/metasfresh-docker), speziell im Verzeichnis "[extras](https://github.com/metasfresh/metasfresh-docker/tree/master/extras)", zur Verfügung gestellt werden (siehe auch Schritte unten), als auch beim **Update von metasfresh** auf die <a href="https://metasfresh.com/2023/11/10/release-5-175/" title="Release 5.175 &#124; metasfresh.com" target="\_blank">Release-Version 5.175</a>.
 
 Das Hauptskript, das das Datenbank-Upgrade ausführt (`upgrade_postgres.sh`), umfasst die folgenden Aktionen:
 - Es stoppt deine metasfresh-Instanz.
