@@ -11,7 +11,7 @@ ref: install_release_candidate_using_docker
 
 ## Voraussetzung
 1. Du benötigst ein [laufendes metasfresh System auf Docker-Basis](Wie_installiere_ich_den_metasfresh_Stack_mit_Docker).
-1. Stelle sicher, dass du die **PostgreSQL Datenbankversion 15** auf deiner metasfresh Instanz verwendest (seit Version 5.175). [Folge dieser Anleitung, um deine Datenbank entsprechend zu aktualisieren](update_release_5.175_inkl_upgrade_zu_postgres_v15).
+1. Stelle sicher, dass du die **PostgreSQL Datenbankversion 15** auf deiner metasfresh Instanz verwendest (seit <a href="https://metasfresh.com/2022/03/25/release-5-174/" title="Release 5.174 &#124; metasfresh.com" target="\_blank">Version 5.175</a>). [Folge dieser Anleitung, um deine Datenbank entsprechend zu aktualisieren](update_release_5.175_inkl_upgrade_zu_postgres_v15).
 
 ## Schritte für das Versions-Update
 1. Stoppe alle Docker-Container.
