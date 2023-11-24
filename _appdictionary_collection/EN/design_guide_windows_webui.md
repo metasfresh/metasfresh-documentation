@@ -99,4 +99,5 @@ When displaying the following fields, always show them together:
 * The Client (mandant) should not be displayed in a grid view;
 * Any new field should be translated in German and English;
 * Organization should be the last field displayed in grid view;
-* In the advanced edit view of a subtab, the Organization and Client should be the last 2 fields displayed.
+* In the advanced edit view of a subtab, the Organization and Client should be the last 2 fields displayed;
+* When adding/modifying a virtual (SQL) column, make sure it gets updated when the source information updates.
