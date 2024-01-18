@@ -11,7 +11,7 @@ If you'd like to suggest an update of an existing documentation page, please als
 
 As a guideline, please
 - name and describe the topic/feature/context you are referring to in coherent units and as **detailed and specific** as possible. Such details may include
-    - describing how the feature fits into the [**operational structure**](https://www.quam.cloud/en-us/knowledgebase/quam53-glossar-ablauforganisation-en-us) of a business ("bird's eye perspective") - i.e. moving down from the global process into the individual procedures and work steps, which can eventually be linked together again to create a comprehensive guide (instruction manual) of the feature at hand.
+    - describing how the feature fits into the [**operational structure**](https://www.quam.cloud/en-us/knowledgebase/quam53-glossar-ablauforganisation-en-us) <!-- (DE: [**Ablauforganisation**](https://www.quam.cloud/knowledgebase/quam53-glossar-ablauforganisation)) --> of a business ("bird's eye perspective") - i.e. moving down from the global process into the individual procedures and work steps, which can eventually be linked together again to create a comprehensive guide (instruction manual) of the feature at hand.
     - indicating **dependencies/prerequisites** (such as previously created documents, system configurations, etc.).
     - anything that helps the next person to understand what they are looking at when they are confronted with the feature **for the first time**.
 - assume the **user's perspective** when describing the topic/feature/context, e.g.,
