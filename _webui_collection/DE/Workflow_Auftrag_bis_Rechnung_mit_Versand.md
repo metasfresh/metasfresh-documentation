@@ -16,6 +16,6 @@ ref: workflow_salesorder_to_invoice_with_delivery
 1. [Erstelle einen Transportauftrag im Status *Entwurf*](Transportauftrag_erstellen), über den der kommissionierte Auftrag abgewickelt werden soll.
 1. Vergewissere Dich vor der Kommissionierung, dass die georderten Produkte in ausreichender Menge für den Verkauf auf Lager sind.
 1. Um den Bestand aufzufüllen, kannst Du entweder:<br>
-  **a)** einen [Wareneingang erstellen](Zu_Bestellung_Wareneingang_erstellen).<br>
+  **a)** einen [Wareneingang erstellen](Zu_Bestellung_Wareneingang_erstellen) oder<br>
   **b)** per [Inventur neue Handling Units erstellen](Inventur_HUs_erstellen).
 1. [Kommissioniere den Auftrag für den Versand](Auftrag_kommissionieren_Versand_Terminalv2).

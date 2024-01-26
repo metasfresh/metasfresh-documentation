@@ -5,7 +5,7 @@ tags:
   - Stammdaten
   - Stückliste
 lang: de
-sequence: 30
+sequence: 60
 ref: create_bom_upon_so_generation
 ---
 

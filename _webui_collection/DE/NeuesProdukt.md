@@ -42,7 +42,7 @@ ref: newproduct
   | Artikel | Materieller Artikel, z.B. Stückgut, Verpackung usw. (Standard) |
   | Dienstleistung | Immaterieller Artikel, z.B. Serviceleistung |
   | Erfolgskonto | Steuert Kontierung |
-  | Ressource | Artikel, der zeitlich nur einmal belegt werden kann, z.B. eine Maschine, ein\*e Angestellte\*r usw. |
+  | Ressource | Artikel, der zeitlich nur einmal belegt werden kann, z.B. eine Maschine, ein/e Angestellte/r usw. |
 
 - Das Kontrollkästchen **Wird provisioniert** zeigt an, ob das Produkt für [Provisionsverträge](Provisionsvertrag_erzeugen) zugelassen ist.
 - Das Kontrollkästchen **Lagerhaltig** zeigt an, ob das Produkt (sofern die Produktart auf der Option "Artikel" steht) im Bestand geführt wird.
