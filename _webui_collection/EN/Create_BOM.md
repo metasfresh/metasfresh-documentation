@@ -3,67 +3,22 @@ title: How do I create a bill of materials (BOM)?
 layout: default
 tags:
   - Master Data
-  - Bill of Materials
+  - Bill of Materials (BOM)
 lang: en
 sequence: 10
 ref: create_bom
 ---
 
 ## Steps
-
-### Create a BOM
 1. Open "Bill of Materials" from the [menu](Menu).
 1. [Create a new BOM entry](New_Record_Window).
-1. In the field **Product**, enter a part of the name or number of the [product](NewProduct) for which you want to create a BOM and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>, e.g., "Guitar".
-1. Make sure the **Search Key** of the BOM is ***identical*** to the search key of the product.
-1. In the field **BOM Use**, pick *Manufacturing*.
- >**Note:** For commercial BOMs for finished products whose components are not manufactured but shall be listed individually in the order, pick *Phantom*.
+1. In the field **Product**, enter a part of the name or number of the [product](NewProduct) (manufacturing product) for which you want to create a BOM and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
+1. The **BOM components** are added as part of the BOM version in the **next steps**. All versions will then be listed accordingly under the record tab "BOM & Formula Version" at the bottom of the page.
 
-1. ***Optional:*** In the field **No.**, enter a custom document number.
-1. ***Optional:*** Set a **Valid from** date.
- >**Note:** If this date lies in the *past*, the BOM will be effective *immediately*. If it lies in the *future*, it will only apply *from that date*.
-
-1. ***Optional:*** Pick a **Serial No. Sequence**. To do so, enter a part of the [document sequence](Define_new_doc_sequence) name and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
- >**Note:** The [product category](NewProductCategory) must be linked to an **Attribute Set** where the attribute *serial number* is defined.
-
-#### <a name="spare-parts-bom">Special Case: Spare Parts BOM</a> (for [repair service returns](Service_repair_customer_return))
-- Pick the **BOM Type** *Spare Parts*.
-
-| **Tip:** |
-| :--- |
-| [Clone the entry of a manufacturing BOM](clone_record_window) and then remove all unnecessary components from the record tab "Components of the BOM & Formula". Just make sure that the **Search Keys** are different when cloning. |
-
-### Add BOM components
-1. Go to the record tab "Components of the BOM & Formula" at the bottom of the page and click !["Add new"](assets/Add_New_Button.png). An overlay window opens up.
-1. In the field **Product**, enter a part of the name or number of the [product](NewProduct) you want to add as a component to the BOM and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>, e.g., "Body" or "Strings".
-1. Pick a **Component Type**, e.g., *Component*.
- >**Note:** The *Co-Product* is a by-product from the production of the actual finished product and can be added to stock as a finished product itself.
-
-1. In the field **Qty**, enter a quantity. To record the quantity in percent, tick the checkbox **Is %** and enter the amount in the field **% Qty**.
- >**Note:** A BOM contains the specifications for a single finished product. When the BOM is used, the quantity specified here will be multiplied by the quantity ordered in each case.
-
-1. Pick an **Issue Method** how to deduct the consumed materials, e.g., *Issue only for what was received* or *Backflush*.
- >**Note 1:** For automatic issuing, i.e. deducting only the quantity of materials actually consumed, pick "Issue only for what was received".<br><br>
- >**Note 2:** To deduct the quantity of material per BOM component individually, pick "Backflush".
-
-1. Click "Done" to close the overlay window and add the component to the list.
- >**Note:** You can add any number of components to a BOM.
-
-| **Note:** |
-| :--- |
-| You can also view the individual BOM components in detail under "[Components of the BOM & Formula](Menu)" in the menu. |
-
-### Verify BOM
-To obtain a valid BOM that can be used in manufacturing it has to be verified first.
-
-1. [Start the action](StartAction#actions-menu) "Verify BOM". An overlay window opens up.
-1. Pick a [**Product Category**](NewProductCategory).
-1. Click "Start" to confirm and close the overlay window.
-1. To check the verification status of the BOM product, [jump into the field](Jumpto) **Product** of the entry and confirm that the checkbox **Verified** is ticked off: ![Verified='Y'](assets/BOM_product_verified.png).
-
-    | **Note:** |
-    | :--- |
-    | After any change made to the BOM it must be verified again! |
+## Next Steps
+1. [Create a BOM version](create_bom_version).
+1. [Add the BOM components required for production](add_bom_components).
+1. [Complete the bill of materials and verify it](verify_bom).
 
 ## Example
 <kbd><img src="assets/Create_BOM.gif" alt="GIF: Create BOM"></kbd>

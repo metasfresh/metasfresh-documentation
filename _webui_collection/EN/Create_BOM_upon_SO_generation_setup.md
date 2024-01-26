@@ -3,9 +3,9 @@ title: How do I set up automatic BOM creation upon sales order generation from a
 layout: default
 tags:
   - Master Data
-  - Bill of Materials
+  - Bill of Materials (BOM)
 lang: en
-sequence: 20
+sequence: 50
 ref: create_bom_upon_so_generation_setup
 ---
 

@@ -3,9 +3,9 @@ title: How do I automatically create a bill of materials upon sales order genera
 layout: default
 tags:
   - Master Data
-  - Bill of Materials
+  - Bill of Materials (BOM)
 lang: en
-sequence: 30
+sequence: 60
 ref: create_bom_upon_so_generation
 ---
 
