@@ -17,7 +17,7 @@ ref: create_bom
 
 ## Nächste Schritte
 1. [Erstelle eine Stücklistenversion](Stuecklistenversion_erstellen).
-1. [Erfasse die für die Produktion benötigten Stücklistenbestandteile (Komponenten)](Stuecklistenversion_erstellen_und_Komponenten_erfassen#stuecklistenbestandteile-hinzufuegen).
+1. [Erfasse die für die Produktion benötigten Stücklistenbestandteile (Komponenten)](Stuecklistenbestandteile_erfassen).
 1. [Stelle die Stückliste fertig und verifiziere sie](Stueckliste_verifizieren).
 
 ## Beispiel
