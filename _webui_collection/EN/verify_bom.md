@@ -19,7 +19,7 @@ In order to obtain a valid BOM that can be used in manufacturing it has to be ve
 
 ## Steps
 1. Open "Bill of Material Version" from the [menu](Menu).
-1. Open the entry of an existing BOM version or [add a new one](...).
+1. Open the entry of an existing BOM version or [add a new one](create_bom_version).
 1. [Complete the BOM version](DocumentProcessingComplete), if not yet done.
 
 ### Verify Bill of Materials
@@ -34,7 +34,7 @@ In order to obtain a valid BOM that can be used in manufacturing it has to be ve
     | Changes can only be made to a bill of materials as long as it has not yet been used in production. After each change to a BOM, it must be verified again! |
 
 ## Next Steps
-- [Use the BOM in a manufacturing order](NewManufacturingOrder).
+- [Create a manufacturing order using a bill of materials](NewManufacturingOrder).
 
 ## Example
 <kbd><img src="assets/Create_BOM.gif" alt="GIF: Create BOM"></kbd>

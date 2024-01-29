@@ -50,7 +50,7 @@ The BOM components required for the production are deducted from stock. Adding t
 1. [Select](RecordSelection) the HU that was consumed during production.
 
 #### Consume entire HUs
-1. Select "Issue complete HUs" via the actions button.
+1. Select "Issue complete HUs" via the [actions button](StartAction#quick-actions).
 1. When the allocation was successful, you will find the issued HU below the component.
 
     <kbd><img src="assets/ProductionCompletion_Booked.png" alt="Fig.: Deduction"></kbd>

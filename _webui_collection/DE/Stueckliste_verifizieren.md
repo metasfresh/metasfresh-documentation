@@ -34,7 +34,7 @@ Damit eine Stückliste gültig wird und in der Produktion verwendet werden kann,
     | Änderungen an einer Stückliste können nur vorgenommen werden, solange sie noch nicht in der Produktion eingesetzt wurde. Nach jeder Änderung an einer Stückliste muss diese erneut verifiziert werden! |
 
 ## Nächste Schritte
-- [Verwende die Stückliste in einem Produktionsauftrag](NeuerProduktionsauftrag).
+- [Lege einen Produktionsauftrag unter Verwendung einer Stückliste](NeuerProduktionsauftrag).
 
 ## Beispiel
 <kbd><img src="assets/Stueckliste_erstellen.gif" alt="GIF: Stückliste erstellen"></kbd>

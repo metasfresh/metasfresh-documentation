@@ -43,7 +43,7 @@ ref: create_bom_version
     | [Klone den Eintrag einer Produktionsstückliste](Klonen_Datensatz_Fenster) und entferne anschließend alle unbenötigten Bestandteile aus der Registerkarte "Stücklistenbestandteile", die keine Zubehörteile sind. Achte beim Klonen lediglich darauf, dass die **Suchschlüssel unterschiedlich** sind. |
 
 ## Nächste Schritte
-1. [Erfasse die für die Produktion benötigten Stücklistenbestandteile (Komponenten)](Stuecklistenversion_erstellen_und_Komponenten_erfassen#stuecklistenbestandteile-hinzufuegen).
+1. [Erfasse die für die Produktion benötigten Stücklistenbestandteile (Komponenten)](Stuecklistenbestandteile_erfassen).
 1. [Stelle die Stückliste fertig und verifiziere sie](Stueckliste_verifizieren).
 
 ## Beispiel
