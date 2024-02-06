@@ -4,7 +4,13 @@ layout: default
 tags:
   - Printing WebUI
 lang: en
+published: false
 ---
+
+<!--
+Declared OBSOLETE by Tobi via https://github.com/metasfresh/mf15-documentation/issues/6#issue-2099995966 (January 2024)
+Current documentation up to date at that time: https://docs.metasfresh.org/setup/Printing_PDF_Setup_Guide.html
+-->
 
 ## Intro
 A standalone printing client is useful in different scenarios.
