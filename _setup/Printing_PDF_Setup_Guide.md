@@ -4,53 +4,47 @@ layout: default
 tags:
   - System
 lang: en
-ref: printpdfsetup
+ref: Printing_PDF_Setup_Guide
 
 ---
 
-
 ## Server
-### enable printing 
 
-1. set sysconfig `de.metas.printing.Enabled` to Y
-1. restart app server
+### Enable printing
+1. Set sysconfig `de.metas.printing.Enabled` to `Y`.
+1. Restart app server.
 
-eventually add to docoutbound config to have printing queue records
+Eventually add to docoutbound config to have printing queue records.
 
 ### Client Archive Setting
-1. Open window "Client"
-2. Make sure the archive settings are NOT set to NOTHING. e.g. Documents
+1. Open window "Client".
+1. Make sure the **Auto Archive** settings are NOT set to *None*. e.g., *Documents*.
 
-### enable hostkey of user
+### Enable HostKey of User
+1. Open user window.
+1. Set checkbox `isloginhostkey`.
 
-1. open user window
-2. set checkbox isloginhostkey
+By enabling this the system will not use the session ID but the login name of the user as HostKey which is used to do the matching between the user and the printer settings.
 
-By enabling this the system will not use the session ID but the login name of the user as Hostkey which is used to do the matching between the user and the printer settings.
+### Create PDF printer
+1. Open window "Printer".
+1. Create new PDF printer.
+1. Output type = PDF.
 
-### create pdf printer
+### Create printer allocation
+1. Open Java client.
+1. Log in with the user where you want to use the PDF printer.
+1. Open window "printing allocation".
+1. Create new record printer allocation.
 
-1. open window printer
-1. create new pdf printer
-1. output type = PDF
+### Create printer tray allocation
+1. Go to Window "Printer Tray Allocation".
+1. Go to subtab "Tray" and add one record that links the logical tray with the printer tray.
 
-### create printer allocation
+### Configure logical printer
+You can go with the existing logical printer.
 
-1. open java client
-1. login with the user where you want to use the PDF printer
-1. open window "printing allocation"
-1. create new record printer allocation
-
-### create printer tray allocation
-1. Go to Window "Printer Tray Allocation"
-1. go to subtab tray and add one record that links the logical tray with the printer tray
-
-### configure logical printer
-
-you can go with the existing logical printer
-
-### test print
-
-1. open window printing queue 
-1. select a record which is not processed yet
-1. run action "print all"
+### Test print
+1. Open window "Printing Queue".
+1. Select a record which is not processed yet.
+1. Run action "Print all".
