@@ -10,7 +10,7 @@ ref: verify_bom
 ---
 
 ## Überblick
-Damit eine Stückliste gültig wird und in der Produktion verwendet werden kann, muss sie vorher verifiziert werden.
+Damit eine Stückliste gültig wird und in der Produktion verwendet werden kann, muss sie zunächst verifiziert werden. Bei der Verifizierung prüft metasfresh, dass die Stücklisten bzw. Stücklistenbestandteile nicht auf sich selbst verweisen oder auf andere Weise aufeinander beziehen, sodass eine zirkuläre Abhängigkeit entsteht.
 
 ## Voraussetzungen
 1. [Erstelle eine Stückliste für das zu fertigende Produkt](Stueckliste_erstellen).
@@ -20,13 +20,15 @@ Damit eine Stückliste gültig wird und in der Produktion verwendet werden kann,
 ## Schritte
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Stückliste Version".
 1. Öffne den Eintrag einer bestehenden Stücklistenversion bzw. [lege eine neue an](Stuecklistenversion_erstellen).
-1. [Stelle die Stücklistenversion fertig](BelegverarbeitungFertigstellen), sofern noch nicht geschehen.
 
 ### Stückliste verifizieren
 1. [Starte die Aktion](AktionStarten#aktionsmenue) "Stückliste verifizieren". Es öffnet sich ein Overlay-Fenster.
 1. ***Optional:*** Wähle eine [**Produktkategorie**](NeueProduktkategorie) aus.
 1. Klicke auf "Start", um zu bestätigen und das Overlay-Fenster zu schließen.
 1. [metasfresh speichert automatisch](Speicheranzeige).
+
+### Stücklistenversion fertigstellen
+1. [Stelle die Stücklistenversion fertig](BelegverarbeitungFertigstellen).
 1. Um den Verifizierungsstatus der Stückliste zu überprüfen, [springe in das Feld](Springezu) **Produkt** des Eintrages und stelle sicher, dass dort das Kontrollkästchen <kbd><img src="assets/Stueckliste_Produkt_verifiziert.png" alt="Verifiziert='Y'"></kbd> angehakt ist.
 
     | **Hinweis:** |

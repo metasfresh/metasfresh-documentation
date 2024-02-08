@@ -44,7 +44,7 @@ ref: create_bom_version
 
 ## Nächste Schritte
 1. [Erfasse die für die Produktion benötigten Stücklistenbestandteile (Komponenten)](Stuecklistenbestandteile_erfassen).
-1. [Stelle die Stückliste fertig und verifiziere sie](Stueckliste_verifizieren).
+1. [Verifiziere die Stückliste und stelle die Version fertig](Stueckliste_verifizieren).
 
 ## Beispiel
 <kbd><img src="assets/Stueckliste_erstellen.gif" alt="GIF: Stückliste erstellen"></kbd>

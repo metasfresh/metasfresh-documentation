@@ -40,7 +40,7 @@ ref: add_bom_components
 | Die einzelnen Stücklistenbestandteile kannst Du ebenfalls unter dem Menüpunkt "[Stücklistenbestandteile](Menu)" übersichtlich einsehen. |
 
 ## Nächste Schritte
-- [Stelle die Stückliste fertig und verifiziere sie](Stueckliste_verifizieren).
+- [Verifiziere die Stückliste und stelle die Version fertig](Stueckliste_verifizieren).
 
 ## Beispiel
 <kbd><img src="assets/Stueckliste_erstellen.gif" alt="GIF: Stückliste erstellen"></kbd>

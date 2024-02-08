@@ -14,4 +14,4 @@ Neben [eindeutigen Fenster-URLs](Eindeutige_Fenster_URLs) bietet metasfresh eben
 So ermöglicht metasfresh eine globale, simultane Zusammenarbeit im Team, wodurch sichergestellt wird, dass alle dieselben Daten einsehen können und keine unerwünschten Duplikate erstellt werden.
 
 ### Echtzeit-Fensteraktualisierung
-![](assets/Echtzeit_Feature.gif)
+<kbd><img src="assets/Echtzeit_Feature.gif" alt="GIF: Echtzeit-Fensteraktualisierung"></kbd>
