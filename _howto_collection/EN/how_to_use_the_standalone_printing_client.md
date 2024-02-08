@@ -4,6 +4,8 @@ layout: default
 tags:
   - Printing WebUI
 lang: en
+sequence:
+ref: how_to_use_the_standalone_printing_client.
 published: false
 ---
 

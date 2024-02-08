@@ -40,7 +40,7 @@ ref: add_bom_components
 | You can also view the individual BOM components in detail under "[Components of the BOM & Formula](Menu)" in the menu. |
 
 ## Next Steps
-- [Complete the bill of materials and verify it](verify_bom).
+- [Verify the bill of materials and complete the BOM version](verify_bom).
 
 ## Example
 <kbd><img src="assets/Create_BOM.gif" alt="GIF: Create BOM"></kbd>

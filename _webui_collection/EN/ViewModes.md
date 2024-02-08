@@ -11,19 +11,19 @@ ref: viewmodes
 ---
 
 ## <a name="list-view">List view</a>
-In general, all windows (e.g., "sales order") open up in list view. No edits can be done here, only filtering and sorting of data entries.
+All windows in metasfresh essentially open in the list view first. No editing can be done there, only [filtering](Filtering_function), [selecting](RecordSelection) and sorting data records.
 
 ## <a name="detailed-view">Detailed view</a>
-When you double-click an entry or [add a new entry](New_Record_Window), metasfresh automatically switches to the detailed view. Here you can edit your data.
+By double-clicking on an entry in the list view or when [adding a new entry](New_Record_Window), metasfresh switches to the detailed view where data can be edited.
 
-To switch back to the list view, simply go to the navigation menu and click on the previous link. Alternatively, you can also use the back button of your web browser.
+To switch back from the detailed view to the list view, simply click on the previous menu item in the breadcrumb navigation trail. Alternatively, you can also use the back button of your web browser.
 
 See here how to switch between detailed view and list view:
 
 <kbd><img src="assets/ListAndDetailedView.gif" alt="GIF: List and detailed view"></kbd>
 
 ## <a name="adv-edit">Advanced Edit</a>
-The detailed view only shows the main fields. To see and edit all additional fields, go to the [actions menu](StartAction#actions-menu) and click on "Advanced Edit".
+The detailed view only shows the main, most frequently used fields. To see all fields of a data record and also edit the ones required for specific purposes, you can switch to the "Advanced Edit" menu via the [actions menu](StartAction#actions-menu). The same applies to the [tables in the record tabs](Open_AdvancedEditTab) in the bottom section of the data records.
  >**Note:** Use shortcut `Alt` + `E` / `⌥ alt` + `E` to open the advanced edit menu.
 
 See here how to switch from the detailed view into the advanced edit menu:

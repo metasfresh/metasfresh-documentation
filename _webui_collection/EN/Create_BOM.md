@@ -18,7 +18,7 @@ ref: create_bom
 ## Next Steps
 1. [Create a BOM version](create_bom_version).
 1. [Add the BOM components required for production](add_bom_components).
-1. [Complete the bill of materials and verify it](verify_bom).
+1. [Verify the bill of materials and complete the BOM version](verify_bom).
 
 ## Example
 <kbd><img src="assets/Create_BOM.gif" alt="GIF: Create BOM"></kbd>
