@@ -11,9 +11,9 @@ ref: set_up_packing_material
 ---
 
 ## Overview
-Packing material is used for packaging products ([CU](Handling_Unit_System)) and may differ depending on the nature of the product.
+Packaging materials are used to package products ([CU](Handling_Unit_System)) and may vary in material and form depending on the nature of the product.
 
-In metasfresh, packing material is treated as a product and added to sales or purchase orders automatically after their completion.
+In metasfresh, packaging materials themselves are managed as products that can be automatically added as additional items to sales or purchase orders when completing them. This procedure is primarily used when returnable containers/packaging are involved (similar to the bottle deposit shown on a receipt).
 
 ## Requirements
 - Before packing material can be used as such in metasfresh, it must first be [added to your products](NewProduct).
