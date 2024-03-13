@@ -15,12 +15,11 @@ Current documentation up to date at that time: https://docs.metasfresh.org/setup
 -->
 
 ## Intro
-A standalone printing client is useful in different scenarios.
-For example, if you use a hosted metasfresh instance, that instance which runs on our server has no access to your local printers.
-Still, your processes might require that at certain stages, documents are automatically printed by your local servers.
+A standalone printing client is useful in different scenarios. For example, if you use a hosted metasfresh instance, that instance which runs on our server has no access to your local printers.
+Still, your processes might require that at certain stages documents are automatically printed by your local servers.
 
 To address this and other scenarios, the standalone printing client can run locally, with access to your local printers.
-It can retrieve print jobs from metasfresh and perform them using your printers.
+It can retrieve print jobs from metasfresh and execute them using your printers.
 
 ## 0. Get the printing client software
 
