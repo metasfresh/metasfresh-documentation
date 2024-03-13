@@ -36,7 +36,7 @@ By linking packing instructions hierarchically, you can also assign different HU
 In metasfresh, "packaged goods" is synonymous with "[sales unit (CU)](Handling_Unit_System)" and defines whether and how many goods may be packaged according to the packing instructions.
 
 1. Go to the record tab "Item" at the bottom of the page and click !["Add new"](assets/Add_New_Button.png). An overlay window opens up.
-1. Select the **Item Type** *Packaged good* (Ger.: Packgut).
+1. Select the **Item Type** *Packaged good* (Ger.: *Packgut*).
 1. Click "Done" to close the overlay window and add the item to the list.
 1. In the newly added packaged goods line, double-click the field in the column **Quantity** and enter the maximum permitted quantity of goods to be packed. To confirm, press `↵ Enter` or click on a blank area.
 
@@ -44,7 +44,7 @@ In metasfresh, "packaged goods" is synonymous with "[sales unit (CU)](Handling_U
 Packing material is used to link the packing instructions to a physical product in stock intended for packing [sales units (CU)](Handling_Unit_System). Packing materials are primarily used for returnable containers/packaging that are to be shown separately on sales/purchase orders.
 
 1. Go to the record tab "Item" at the bottom of the page and click !["Add new"](assets/Add_New_Button.png). An overlay window opens up.
-1. Select the **Item Type** *Packing material* (Ger.: Packmittel). A new field "[**Packing Material**](Set_up_packing_material)" appears.
+1. Select the **Item Type** *Packing material* (Ger.: *Packmittel*). A new field "[**Packing Material**](Set_up_packing_material)" appears.
 1. Pick the desired **Packing Material**.
 1. Click "Done" to close the overlay window and add the packing material to the list.
 
@@ -54,7 +54,7 @@ Subordinate packing instructions are used to combine different HU types into log
 <!-- https://help.sap.com/docs/SAP_S4HANA_CLOUD/32da8359c8ee4e8b8e8c5e15cacba5aa/691db9537cceb44ce10000000a174cb4.html?locale=en-US#features -->
 
 1. Go to the record tab "Item" at the bottom of the page and click !["Add new"](assets/Add_New_Button.png). An overlay window opens up.
-1. Select the **Item Type** *Sub-Packing Instructions* (Ger.: Unterpackvorschrift). New fields appear.
+1. Select the **Item Type** *Sub-Packing Instructions* (Ger.: *Unterpackvorschrift*). New fields appear.
 1. Pick the desired **Sub-Packing Instructions**, e.g., cardboard box.
 1. Enter a **Quantity** of how many individual packing units of the sub-packing instructions are allowed in/on the higher-level packing instructions.
 1. Click "Done" to close the overlay window and add the sub-packing instructions to the list.
