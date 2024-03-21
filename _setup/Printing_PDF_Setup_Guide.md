@@ -9,5 +9,5 @@ sequence: 10
 ref: Printing_PDF_Setup_Guide_moved
 ---
 
-## Overview
+## Set Up Printer & PDF Routing
 This guide has been moved [here](../webui_collection/EN/Printing_PDF_Setup_Guide).

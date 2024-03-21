@@ -11,7 +11,7 @@ ref: enable_userlogin_as_hostkey_for_printing
 ---
 
 ## Overview
-When [setting up printing in metasfresh](Printing_PDF_Setup_Guide), the user session ID is used by default as host key to manage printer access rights for individual users.
+When [setting up printing in metasfresh](Printing_PDF_Setup_Guide), the user session ID is used by default as host key to control printer access rights for individual users.
 
 By enabling the setting as described below the system will apply the **user login name** instead of the session ID as host key which is used to do the matching between the user and the printer settings.
 
@@ -26,3 +26,6 @@ By enabling the setting as described below the system will apply the **user logi
 
 1. Click "Done" to apply the changes and close the advanced edit menu.
 1. [metasfresh saves the progress automatically](Saveindicator).
+
+## Next Steps
+- [Set up printing in metasfresh](Printing_PDF_Setup_Guide).

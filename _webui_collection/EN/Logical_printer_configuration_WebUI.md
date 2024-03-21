@@ -29,7 +29,7 @@ Logical printers contain **specific attributes and configurations** determining 
 1. Open "Logical Printer" (Ger.: *Logischer Drucker*) from the [menu](Menu).
 1. [Create a new entry](New_Record_Window).
 1. Give the **Printer** a name.
-1. Pick a **Printer Type**, e.g. *General*, *Label*, *Fax*.
+1. Pick a **Printer Type**, e.g., *General*, *Label*, *Fax*.
 
 ### Add logical printer trays (optional)
 1. Go to the record tab "Tray" (Ger.: *Schacht*) at the bottom of the page and click !["Add new"](assets/Add_New_Button.png). An overlay window opens up.

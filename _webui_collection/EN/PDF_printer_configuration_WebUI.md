@@ -13,7 +13,7 @@ ref: PDF_printer_configuration_WebUI
 ## Overview
 In metasfresh, a PDF printer can be construed as a virtual representation of a physical printer, which can be an actual (hardware) printer, a file, or a follow-up process for further processing.
 
-You can configure PDF printers to represent the physical properties of the hardware printers where the generated PDFs are be routed to for actual printing. This means that output directories are created on the servers for every single printer and its individual trays (subdirectories) where the digital printouts are then stored for final processing by the designated hardware printers.
+You can configure PDF printers to represent the physical properties of the hardware printers where the generated PDFs are routed to for actual printing. This means that output directories are created on the servers for every single printer and its individual trays (subdirectories) where the digital printouts are then stored for final processing by the designated hardware printers.
 
 ## Steps
 
@@ -26,7 +26,7 @@ You can configure PDF printers to represent the physical properties of the hardw
 1. The **Host Key** is automatically filled in with the current user session ID. Alternatively, you can replace it with the user's **login name**, provided the [corresponding option is activated in the user entry](Enable_UserLogin_as_HostKey_for_Printing).
 1. Pick the **Output Type** *Store PDF to disk*.
 
-#### Add hardware printer trays (optional)
+### Add hardware printer trays (optional)
 1. Go to the record tab "Tray" (Ger.: *Schacht*) at the bottom of the page and click !["Add new"](assets/Add_New_Button.png). An overlay window opens up.
 1. Give the tray a **Name**.
     >**Note:** This name will be used to name the **subdirectory** of the main printer directory defined in the previous steps above.
