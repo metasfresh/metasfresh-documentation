@@ -10,7 +10,7 @@ ref: add_print_format
 ---
 
 ## Überblick
-Mit dem Druckformat kannst Du u.a. das Papierformat sowie das Seitenlayout, wie z.B. Hoch- oder Querformat, für Belege, die für den Druck bestimmt sind, festlegen.
+Mit dem Druckformat kannst Du u.a. das Papierformat sowie das Seitenlayout, wie z.B. Hoch- oder Querformat, für Belege festlegen, die für den [Druck](PDF_Drucker_Einrichtung_Guide) bestimmt sind.
 
 ## Schritte
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Druck - Format".

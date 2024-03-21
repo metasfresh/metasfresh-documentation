@@ -21,16 +21,16 @@ In metasfresh, when talking about a printer we primarily refer to virtual printi
 
 The way this works is that your (hosted) metasfresh instance generates the PDFs of your required documents, saves ("prints") them to dedicated folders which can be configured individually, both for remote and on-premise servers, and then you can take those digital printouts and assign them to your local printers as required to produce hard copies.
 
-**Care for a Pro tip?** A proven method for automatically processing these incoming documents in a corporate environment is to use <abbr title="e.g., FolderMill">server-side applications</abbr> that continuously monitor the defined "hot folders" and automatically convert incoming files or print them on a specified printer according to predefined rules on a server, workstation, or desktop PC.
+**Care for a Pro tip?** A proven method for automatically processing these incoming documents in a corporate environment is to use <abbr title="e.g., FolderMill, e-FileWatcher">server-side applications</abbr> that continuously monitor the defined "hot folders" and automatically convert incoming files or print them on a specified printer according to predefined rules on a server, workstation, or desktop PC.
 
 <!-- compare also SAP Print Queues Quick Guide: https://help.sap.com/docs/SAP_BUSINESS_BYDESIGN/2754875d2d2a403f95e58a41a9c7d6de/2dd40a0c722d1014aa7791b695bc8fdf.html?locale=en-US -->
 
 ## Requirements
 
 ### Configure outbound documents for the printing queue
-In order to automatically forward your documents to the printing queue from where they can then be processed individually or as part of collective print jobs via their assigned printer, make sure to [follow theses steps for outbound documents](../webui_collection/EN/Outbound_Documents_Config), taking into account the following settings:
+In order to automatically forward your documents to the printing queue from where they can then be processed individually or as part of collective print jobs via their assigned printer, make sure to [follow theses steps for outbound documents](Outbound_Documents_Config), taking into account the following settings:
 - Pick the appropriate database **Table** whose documents are targeted for printing.
-- Tick the checkbox **Is Direct Enqueue** so the documents are added to the [printing queue](../webui_collection/EN/Menu).
+- Tick the checkbox **Is Direct Enqueue** so the documents are added to the [printing queue](Menu).
 - If enqueued documents shall be processed automatically (i.e. their PDFs saved to the printer folder), tick the checkbox **Directly process queue item**.
 
 <!--

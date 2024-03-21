@@ -10,7 +10,7 @@ ref: add_print_format
 ---
 
 ## Overview
-The print format enables you, among other things, to set paper size and page layout, e.g., portrait or landscape, for the documents intended for printing.
+The print format enables you, among other things, to set paper size and page layout, e.g., portrait or landscape, for the documents intended for [printing](Printing_PDF_Setup_Guide).
 
 ## Steps
 1. Open "Print Fromat" from the [menu](Menu).
