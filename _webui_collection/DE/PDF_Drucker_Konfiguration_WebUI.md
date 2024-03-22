@@ -13,7 +13,7 @@ ref: PDF_printer_configuration_WebUI
 ## Überblick
 In metasfresh kann ein PDF-Drucker als virtuelle Repräsentation eines physischen Druckers verstanden werden, der ein tatsächlicher (Hardware-)Drucker, eine Datei oder ein Folgeprozess zur Weiterverarbeitung sein kann.
 
-PDF-Drucker können so konfiguriert werden, dass sie die physischen Eigenschaften der Hardware-Drucker abbilden, an die die generierten PDF-Dateien zum tatsächlichen Druck weitergeleitet werden. Das bedeutet, dass auf den Servern Ausgabeverzeichnisse für jeden einzelnen Drucker und seine jeweiligen Schächte (Unterverzeichnisse) angelegt werden, in denen die digitalen Ausdrucke dann gespeichert werden, um von den zugewiesenen Hardware-Druckern endgültig verarbeitet (gedruckt) zu werden.
+PDF-Drucker können so konfiguriert werden, dass sie die physischen Eigenschaften der Hardware-Drucker abbilden, an die die generierten PDF-Dateien zum tatsächlichen Druck weitergeleitet werden. Das bedeutet, dass auf den Servern Ausgabeverzeichnisse für jeden einzelnen Drucker und seine jeweiligen Schächte (Unterverzeichnisse) angelegt werden, in denen die digitalen Ausdrucke dann gespeichert werden, um anschließend von den zugewiesenen Hardware-Druckern endgültig verarbeitet (gedruckt) zu werden.
 
 ## Schritte
 

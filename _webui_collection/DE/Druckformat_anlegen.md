@@ -25,7 +25,7 @@ Mit dem Druckformat kannst Du u.a. das Papierformat sowie das Seitenlayout, wie 
 
 | **Wichtiger Hinweis:** |
 | :--- |
-| Damit die Einstellungen auf dem Anwendungsserver aktiv werden, muss dieser erst vom Admin neugestartet werden. |
+| Damit die Einstellungen auf dem Anwendungsserver aktiv werden, muss dieser erst von einem Benutzer mit Administrationsrechten neugestartet werden. |
 
 ## Beispiel
 <kbd><img src="assets/Druckformat_anlegen.gif" alt="GIF: Neues Druckformat anlegen"></kbd>

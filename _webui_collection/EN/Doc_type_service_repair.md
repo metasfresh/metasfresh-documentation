@@ -11,21 +11,15 @@ ref: doc_type_service_repair
 ---
 
 ## Steps
-1. [Go to menu](menu) and open the "Document type" window.
-2. [Create a new entry](New_Record_Window).
-3. Name the document type in the **Name** field, e.g. "Service Acceptance".
-4. Enter a **print text** which will appear later on the documents, e.g. "Service acceptance".
-5. Select the **entity type** *User maintained*.
-6. Select the **main book category** *Material Management*.
-7. Select the **Document base type** *Goods received*.
-8. Enter `0` for the number of **copies** to be printed.
-9. In the **Request Type** field, select the [Task Type](Request_type_new) *Service Acceptance*.
-10. set a check mark at **sale transaction**.
-11. Set a check mark at **Document is Number Controlled** (*Document is serial number controlled*). A new field **Number sequences for documents** appears.
-12. In the **Voucher number sequences** field, select a [Document numbering](Define_new_doc_sequence) that you have defined previously, e.g. *MM Returns*.
-13. Select the [**print_format**](Add_print_format) *customer goods return*.
-14. Open the "[Advanced capture](ViewModes#adv-edit)" from the [Action menu](StartAction#actions-menu).
->**Note:** Press `Alt` + `E` / `⌥ alt` + `E`.
-
-1. Scroll down to the **Doc Sub Type** field and select the document subtype *SR - Service Return*.
-2. Click on "Confirm" to apply the changes and close the "Advanced capture".
+Follow these [instructions for creating a new document type](Define_new_doc_type), taking into account the following settings:
+1. Give the document type an appropriate **Name** and **Print Text**, e.g., "Service Reception".
+1. Pick the **Entity Type** *User maintained*.
+1. Pick the **General Ledger Category** *Material Management*.
+1. Pick the **Document Base Type** *Material Receipt*.
+1. Enter `0` for the number of **Document Copies**.
+1. Pick the [**Request Type**](Request_type_new) *Service Reception*.
+1. Tick the checkbox **Sales Transaction**.
+1. Tick the checkbox **Document is Number Controlled**.
+1. Pick a previously defined [**Document Sequence**](Define_new_doc_sequence), e.g., *MM Returns*.
+1. Pick the [**Print Format**](Add_print_format) *Customer goods return*.
+1. Pick the **Document Subtype** *SR - Service Return* (advanced edit menu).

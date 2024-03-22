@@ -62,9 +62,9 @@ Warranty Vs. Guarantee => https://www.easternarchitectural.com/blog/understandin
 1. Change the **UOM** or **Quantity** if needed.
 1. Press "Start" in order to close the overlay and add the spare parts to the tab "Lines".
 
-### Complete the Service Acceptance
+### Complete the Service Reception
 1. [Complete the document.](DocumentProcessingComplete)
-1. A process is automatically created for the service acceptance. This process is now available for the assigned person to be checked and released.
+1. A process is automatically created for the service reception. This process is now available for the assigned person to be checked and released.
 
 ### Next Steps
 1. [Jump via the related documents](JumptoviaSidebar) to the window "Request (all)" (in CRM in the sidebar). There you can open the [already filtered](Filtering_function) request.

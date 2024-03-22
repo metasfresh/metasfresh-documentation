@@ -10,7 +10,7 @@ ref: quotation_estimate_repair_services
 ---
 
 ## Requirements
-1. [Receive returns in need of repair via service acceptance and create a transaction](Service_repair_customer_return).
+1. [Receive returns in need of repair via service reception and create a transaction](Service_repair_customer_return).
 2. [Start a repair project and create a repair order](Service_repair_project_start).
 3. [Record your work effort for the repair order](Manufacturing_order_record_work).
 
