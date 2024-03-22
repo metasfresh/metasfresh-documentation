@@ -25,7 +25,7 @@ The print format enables you, among other things, to set paper size and page lay
 
 | **Important note:** |
 | :--- |
-| For the configurations to take effect on the application server, it first has to be restarted by the admin. |
+| For the settings to take effect on the application server, it first has to be restarted by a user with administration rights. |
 
 ## Example
 <kbd><img src="assets/Add_print_format.gif" alt="GIF: How to add a new print format"></kbd>

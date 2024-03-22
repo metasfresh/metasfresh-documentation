@@ -19,7 +19,7 @@ ref: counter_documents_configure_doc_type
  >**Note:** If, e.g., as shown in the figure above, a purchase order placed by Org. A shall automatically trigger the generation of a sales order at Org. B, then set Org. A here.
 
 1. Give the configuration entry a **Name**, e.g., specifying the purpose of the counter document creation, such as "Sales Order upon Purchase Order".
-1. Pick the **Document Type** for which a counter document shall be created, e.g., *Purchase Order*.
+1. Pick the [**Document Type**](Define_new_doc_type) for which a counter document shall be created, e.g., *Purchase Order*.
 1. In the field **Counter Document Type**, pick the type of counter document to be created, e.g., *Sales Order*.
 1. Pick the **Document Action** to be performed automatically for the counter document upon its creation, e.g., *Prepare*.
 1. Go to the [menu](Menu) and look for the process "Verify Document Types". Run the process in order to validate the counter document configuration and exclude errors.

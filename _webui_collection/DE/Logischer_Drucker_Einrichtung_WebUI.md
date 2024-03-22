@@ -11,7 +11,7 @@ ref: Logical_printer_configuration_WebUI
 ---
 
 ## Überblick
-Ein logischer Drucker ist eine **benannte Zusammenstellung von Druckereinstellungen** für einen physischen Drucker, anhand derer die Erstellung und/oder Verteilung elektronischer Dokumente ausgelöst wird. Es kann mehr als ein logischer Drucker für denselben physischen Drucker definiert werden. Ein **physischer Drucker** kann ein tatsächlicher (Hardware-)Drucker, eine Datei oder ein Folgeprozess zur Weiterverarbeitung sein.
+Ein logischer Drucker ist eine **benannte Kombination von Druckereinstellungen** für einen physischen Drucker, anhand derer die Erstellung und/oder Verteilung elektronischer Dokumente ausgelöst wird. Es kann mehr als ein logischer Drucker für denselben physischen Drucker definiert werden. Ein **physischer Drucker** kann ein tatsächlicher (Hardware-)Drucker, eine Datei oder ein Folgeprozess zur Weiterverarbeitung sein.
 
 Logische Drucker enthalten **spezifische Attribute und Konfigurationen**, die die Druckeigenschaften und -formate der für physische Drucker bestimmten Dokumente festlegen. Zudem ist es möglich, logische **Druckerschächte** zu definieren und diese mit bestimmten Regeln zur **Weiterleitung von Dokumenten** an den entsprechenden Schacht zu versehen. Natürlich können diese logischen Schächte auch mit physischen Dokumentenausgabeschächten verknüpft werden.
 
