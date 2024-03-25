@@ -17,4 +17,4 @@ Du musst die ausgehenden Belege für die Serienbrief-Funktion einrichten, damit 
  >**Hinweis:** Sollte das Druckformat nicht vorhanden sein, dann [lege ein neues an](Druckformat_anlegen) mit der **DB-Tabelle** *Letter* und dem **Jasper-Prozess** *Serial Letter*.
 
 ## Beispiel
-![](assets/Ausgehende_Belege_Konfig_Serienbriefe.gif)
+<kbd><img src="assets/Ausgehende_Belege_Konfig_Serienbriefe.gif" alt="GIF: Ausgehende Belege für die Serienbrief-Funktion einrichten"></kbd>

@@ -15,7 +15,7 @@ You need to set up outbound documents for dunning so the created dunning letters
 
 ## Steps
 [Follow these instructions](Outbound_Documents_Config) and pick the **Table** *Dunning type* and the **Print Format** *Mahnbrief (swat)*.
- >**Note:** Should the print format not be available, then [add a new one](Add_print_format) and use the **Table** *C_Dunning_Header_v* and the **Jasper Process** *Mahnbrief (Jasper)*.
+ >**Note:** Should the print format not be available, then [add a new one](Add_print_format) and use the **Table** `C_Dunning_Header_v` and the **Jasper Process** *Mahnbrief (Jasper)*.
 
 ## Example
-![](assets/Outbound_documents_config+dunning.gif)
+<kbd><img src="assets/Outbound_documents_config+dunning.gif" alt="GIF: How to configure outbound documents for dunning"></kbd>

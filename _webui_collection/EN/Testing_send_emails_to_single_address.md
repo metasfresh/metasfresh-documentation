@@ -9,6 +9,10 @@ sequence: 40
 ref: testing_send_emails_to_single_address
 ---
 
+## Requirements
+1. [Configure outbound documents](Outbound_Documents_Config).
+1. [Set up a mailbox for outbound documents](Outbound_documents_setup_email_server).
+
 ## Steps
 1. [Log in to metasfresh](Login) with the [user role](NewUserRole) "System Administrator".
 1. Open "System Configuration" from the [menu](Menu).
@@ -18,3 +22,8 @@ ref: testing_send_emails_to_single_address
  >**Note:** If the field remains empty the emails will be sent to the respective users directly. In this case, the testing email feature is deactivated.
 
 1. [metasfresh saves the progress automatically](Saveindicator). The changes apply immediately.
+
+## Next Steps
+- [Set up email server routing for outbound documents](Setup_email_server_routing).
+- [Send outbound documents via email](Send_email_from_outbound_docs).
+- **For Admins:** [Troubleshoot a failed email transmission of an outbound document](Outbound_documents_troubleshooting).

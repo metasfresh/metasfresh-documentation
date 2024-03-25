@@ -17,4 +17,4 @@ You need to set up outbound documents for the serial letter feature so the creat
  >**Note:** Should the print format not be available, then [add a new one](Add_print_format) and use the **Table** *Letter* and the **Jasper Process** *Serial Letter*.
 
 ## Example
-![](assets/Outbound_documents_config_serial_letters.gif)
+<kbd><img src="assets/Outbound_documents_config_serial_letters.gif" alt="GIF: How to set up outbound documents for the serial letter feature"></kbd>

@@ -15,7 +15,7 @@ ref: quotation_estimate_repair_services
 3. [Record your work effort for the repair order](Manufacturing_order_record_work).
 
 ## Steps
-1. [Go to Menu](Menu) and open the "Service/Repair Project" window.
+1. Open "Service/Repair Project" from the [menu](Menu).
 2. [Use the filter function](Filtering_function) to help you find the repair project you want and open the entry.
 3. [Start the action](StartAction#actions-menu) "Create quote". A new browser tab opens with the quote.
 >**Note:** An estimate is an [order](SalesOrder_recording) with the document type "estimate".

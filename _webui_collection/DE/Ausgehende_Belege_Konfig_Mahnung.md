@@ -15,7 +15,7 @@ Du musst die ausgehenden Belege für das Mahnverfahren einrichten, damit die ers
 
 ## Schritte
 [Folge dieser Anleitung](Ausgehende_Belege_Konfig) und verwende die **DB-Tabelle** *Mahnart* und das **Druck-Format** *Mahnbrief (swat)*.
- >**Hinweis:** Sollte das Druckformat nicht vorhanden sein, dann [lege ein neues an](Druckformat_anlegen) mit der **DB-Tabelle** *C_Dunning_Header_v* und dem **Jasper-Prozess** *Mahnbrief (Jasper)*.
+ >**Hinweis:** Sollte das Druckformat nicht vorhanden sein, dann [lege ein neues an](Druckformat_anlegen) mit der **DB-Tabelle** `C_Dunning_Header_v` und dem **Jasper-Prozess** *Mahnbrief (Jasper)*.
 
 ## Beispiel
-![](assets/Ausgehende_Belege_Konfig+Mahnung.gif)
+<kbd><img src="assets/Ausgehende_Belege_Konfig+Mahnung.gif" alt="GIF: Ausgehende Belege einrichten"></kbd>

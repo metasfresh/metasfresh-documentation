@@ -32,9 +32,12 @@ Um diese Herausforderung zu meistern, können ausgehende Belege in metasfresh in
 | Damit die Einstellungen auf dem Anwendungsserver aktiv werden, muss dieser erst von einem Benutzer mit Administrationsrechten neugestartet werden. |
 
 ## Nächste Schritte (optional)
+- [Richte ein E-Mail-Postfach für ausgehende Belege ein](Ausgehende_Belege_Mail_Server_einrichten).
+    - ***Optional:*** [Richte ein E-Mail-Server-Routing für ausgehende Belege ein](Email_Server_Routing_einrichten).
+- [Versende ausgehende Belege per E-Mail](Email_senden_ausgehende_Belege).
+- [Richte ausgehenden Belege](Ausgehende_Belege_Konfig_Mahnung) für das [Mahnverfahren](Mahnlauf) ein.
+- [Richte ausgehenden Belege](Ausgehende_Belege_Konfig_Serienbriefe) für die [Serienbrief-Funktion](Serienbriefe_erstellen) ein.
 - [Richte einen Drucker in metasfresh ein](PDF_Drucker_Einrichtung_Guide).
-- [Richte die ausgehenden Belege für](Ausgehende_Belege_Konfig_Mahnung) [das Mahnverfahren ein](Mahnlauf).
-- [Richte die ausgehenden Belege für](Ausgehende_Belege_Konfig_Serienbriefe) [die Serienbrief-Funktion ein](Serienbriefe_erstellen).
 
 ## Beispiel
 <kbd><img src="assets/Ausgehende_Belege_Konfig+Mahnung.gif" alt="GIF: Ausgehende Belege einrichten"></kbd>

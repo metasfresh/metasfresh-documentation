@@ -12,7 +12,7 @@ ref: define_new_doc_type
 ## Steps
 
 ### Create and Configure a New Document Type
-1. [Go to menu](menu) and open the "Document Type" window.
+1. Open "Document Type" from the [menu](Menu).
 1. [Create a new entry](New_Record_Window).
 1. Give the document type a **Name**, e.g., "Service Reception".
 1. Enter a **Print Text** to appear later on the documents, e.g., "Service Reception".
