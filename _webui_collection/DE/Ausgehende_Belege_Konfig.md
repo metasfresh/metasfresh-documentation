@@ -19,10 +19,10 @@ Um diese Herausforderung zu meistern, können ausgehende Belege in metasfresh in
 1. [Erstelle einen neuen Konfigurationseintrag](Neuer_Datensatz_Fenster_Webui).
 1. Gib in das Feld **DB-Tabelle** einen Teil des Namens der Datenbanktabelle ein, für die Du die ausgehenden Belege konfigurieren möchtest, und klicke auf den passenden Treffer in der <a href="Keyboard_Shortcuts_Liste#dropdown" title="Dynamisches Suchfeld (Autocomplete)">Dropdown-Liste</a>, z.B. "Mahnart".
 1. ***Optional:*** Wähle ein [**Druck-Format**](Druckformat_anlegen) aus, z.B. *Mahnbrief (swat)*.
-    >**Hinweis:** Wird kein Druckformat angegeben, wird automatisch das für die jeweilige Belegart standardmäßig definierte Druckformat verwendet.
+    >**Hinweis:** Wird kein Druckformat angegeben, wird automatisch das für die jeweilige [Belegart](Belegart_neu_definieren) standardmäßig definierte Druckformat verwendet.
 
 1. ***Optional:*** Wähle einen **Dokument Basis Typ** aus, falls die Konfiguration nur für eine bestimmte Belegart aus der gewählten Datenbanktabelle gelten soll, z.B. Basistyp *Auftrag* aus der Tabelle *Auftrag/Bestellung*.
-1. ***Optional:*** Setze ein Häkchen bei **In Druck-Warteschlange**, wenn die fertiggestellten Belege automatisch an die Druckwarteschlange weitergleitet werden sollen.
+1. ***Optional:*** Setze ein Häkchen bei **In Druck-Warteschlange**, wenn die fertiggestellten Belege automatisch an die [Druckwarteschlange](PDF_Drucker_Einrichtung_Guide) weitergleitet werden sollen.
 1. ***Optional:*** Setze ein Häkchen bei **Warteschlangen-Eintrag sofort verarbeiten**, wenn ein in die Druckwarteschlange eingereihter Beleg direkt als Druckauftrag weiterverarbeitet (gedruckt) werden soll.
 1. [metasfresh speichert automatisch](Speicheranzeige).
 <br><br>
