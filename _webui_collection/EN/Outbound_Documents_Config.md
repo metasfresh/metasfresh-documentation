@@ -19,10 +19,10 @@ To address this challenge, outbound documents can be individually configured in 
 1. [Create a new configuration entry](New_Record_Window).
 1. In the field **Table**, enter a part of the name of the database table for which you want to configure the outbound documents and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>, e.g., "Dunning type".
 1. ***Optional:*** Pick a [**Print Format**](Add_print_format), e.g., *Mahnbrief (swat)*.
-    >**Note:** If no print format is specified, the default print format defined for the respective document type is automatically used.
+    >**Note:** If no print format is specified, the default print format defined for the respective [document type](Define_new_doc_type) is automatically applied.
 
 1. ***Optional:*** Pick a **Document Base Type** if the configuration should only apply to a specific document type from the selected database table, e.g., base type *Sales Order* from the table *Order*.
-1. ***Optional:*** Tick the checkbox **Is Direct Enqueue** if the completed documents shall be automatically forwarded to the print queue.
+1. ***Optional:*** Tick the checkbox **Is Direct Enqueue** if the completed documents shall be automatically forwarded to the [print queue](Printing_PDF_Setup_Guide).
 1. ***Optional:*** Tick the checkbox **Directly process queue item** if a document placed in the print queue is to be processed (printed) directly as a print job.
 1. [metasfresh saves the progress automatically](Saveindicator).
 <br><br>
