@@ -1,5 +1,5 @@
 ---
-title: How do I send emails from "Outbound Documents"?
+title: How do I send outbound documents via email?
 layout: default
 tags:
   - Emails and Outbound Documents
@@ -14,6 +14,7 @@ Under "Outbound Documents" in the menu you will find all documents along with th
 In order to send multiple mailable documents via email, please proceed as follows:
 
 ## Requirements
+1. [Configure outbound documents](Outbound_Documents_Config).
 1. [Set up a mailbox for outbound documents](Outbound_documents_setup_email_server).
 1. [Set up email server routing for outbound documents](Setup_email_server_routing).
 
@@ -30,7 +31,9 @@ In order to send multiple mailable documents via email, please proceed as follow
 1. If a document was emailed successfully, you can go to the record tab "Log" of the respective entry under "Outbound Documents" where you will find a line with the **Status** *Mitteilung versendet* (= message sent).
 
 ## Next Steps (optional)
+- [Create templates for your emails](Create_email_template).
 - [Manually change the email recipient of outbound documents under "Outbound Documents"](Outbound_docs_change_recipient_email).
+- **For Admins:** [For testing purposes, set up one single email address for all outbound documents](Testing_send_emails_to_single_address).
 
 ## Example
-![](assets/Send_email_from_outbound_docs.gif)
+<kbd><img src="assets/Send_email_from_outbound_docs.gif" alt="GIF: Send outbound documents via email"></kbd>

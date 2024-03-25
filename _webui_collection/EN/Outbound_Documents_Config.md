@@ -32,9 +32,12 @@ To address this challenge, outbound documents can be individually configured in 
 | For the settings to take effect on the application server, it first has to be restarted by a user with administration rights. |
 
 ## Next Steps (optional)
+- [Set up a mailbox for outbound documents](Outbound_documents_setup_email_server).
+    - ***Optional:*** [Set up email server routing for outbound documents](Setup_email_server_routing).
+- [Send outbound documents via email](Send_email_from_outbound_docs).
+- [Set up outbound documents](Outbound_Documents_Config_Dunning) for [dunning](Dunning_Run).
+- [Set up outbound documents](Outbound_documents_config_serial_letters) for the [serial letter feature](Create_serial_letters).
 - [Set up printing in metasfresh](Printing_PDF_Setup_Guide).
-- [Set up outbound documents for](Outbound_Documents_Config_Dunning) [dunning](Dunning_Run).
-- [Set up outbound documents for the](Outbound_documents_config_serial_letters) [serial letter feature](Create_serial_letters).
 
 ## Example
 <kbd><img src="assets/Outbound_documents_config+dunning.gif" alt="GIF: How to configure outbound documents"></kbd>

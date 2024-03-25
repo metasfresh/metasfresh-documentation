@@ -1,5 +1,5 @@
 ---
-title: Wie versende ich eine E-Mail aus "Ausgehende Belege"?
+title: Wie versende ich ausgehende Belege per E-Mail?
 layout: default
 tags:
   - E-Mails und ausgehende Belege
@@ -14,6 +14,7 @@ Unter dem Menüpunkt "Ausgehende Belege" findest Du alle Belege samt Folgebelege
 Um mehrere versandfertige Belege per E-Mail zu versenden, gehe wie folgt vor:
 
 ## Voraussetzungen
+1. [Richte die ausgehenden Belege ein](Ausgehende_Belege_Konfig).
 1. [Richte ein E-Mail-Postfach für ausgehende Belege ein](Ausgehende_Belege_Mail_Server_einrichten).
 1. [Richte ein E-Mail-Server-Routing für ausgehende Belege ein](Email_Server_Routing_einrichten).
 
@@ -30,7 +31,9 @@ Um mehrere versandfertige Belege per E-Mail zu versenden, gehe wie folgt vor:
 1. Bei erfolgreichem Versand eines Beleges, findest Du in dem jeweiligen Eintrag unter "Ausgehende Belege" unter der Registerkarte "Verlauf" ebenfalls eine Zeile mit dem **Log Status** *Mitteilung versendet*.
 
 ## Nächste Schritte (optional)
+- [Lege E-Mail-Vorlagen an](Email-Vorlage_anlegen).
 - [Ändere den E-Mail-Empfänger von ausgehenden Belegen manuell unter "Ausgehende Belege"](Ausgehende_Belege_Empfaenger_aendern).
+- **Für Admins:** [Richte zu Testzwecken eine einzige E-Mail-Adresse für alle ausgehenden Belege ein](Testing_Emails_an_eine_Adresse).
 
 ## Beispiel
-![](assets/Email_senden_ausgehende_Belege.gif)
+<kbd><img src="assets/Email_senden_ausgehende_Belege.gif" alt="GIF: Ausgehende Belege per E-Mail versenden"></kbd>

@@ -26,4 +26,4 @@ In metasfresh, you can use email server routing to specify the [contact/user](Ad
 1. [metasfresh saves the progress automatically](Saveindicator).
 
 ## Next Steps (optional)
-- [Send emails from "Outbound Documents"](Send_email_from_outbound_docs).
+- [Send outbound documents via email](Send_email_from_outbound_docs).

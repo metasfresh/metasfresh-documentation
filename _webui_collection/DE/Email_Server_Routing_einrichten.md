@@ -26,4 +26,4 @@ In metasfresh kannst Du mittels E-Mail-Server-Routing einstellen, an welchen [Ko
 1. [metasfresh speichert automatisch](Speicheranzeige).
 
 ## Nächste Schritte
-- [Versende E-Mails über "Ausgehende Belege"](Email_senden_ausgehende_Belege).
+- [Versende ausgehende Belege per E-Mail](Email_senden_ausgehende_Belege).
