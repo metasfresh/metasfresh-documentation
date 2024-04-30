@@ -92,6 +92,11 @@ When displaying the following fields, always show them together:
 <kbd><a href="assets/design_guide_webui_included_record_tabs.png" title="Click to enlarge" target="\_blank"><img src="assets/design_guide_webui_included_record_tabs.png" alt="Default Filter for Documents (WebUI)"></a></kbd>
 
 
+## UOM
+* Each time a quantity is shown, show the UOM next to it
+* Each time a price is shown, show the price uom next to it ( unless it's the same as the uom above)
+* If the UOM is missing in the data structure, create followupo to add it. 
+
 
 ## Dos and Dont's (unless the opposite is specifically requested) 
 * If a column is a filter, the field for it should be displayed in grid view;
