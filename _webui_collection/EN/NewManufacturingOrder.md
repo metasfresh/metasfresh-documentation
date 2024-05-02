@@ -9,6 +9,9 @@ sequence: 10
 ref: newmanufacturingorder
 ---
 
+## Requirements
+- [Create a bill of materials (BOM)](Create_BOM) for the product to be manufactured with the [required components](add_bom_components) and [verify it](verify_bom).
+
 ## Steps
 1. Open "Manufacturing Order" from the [menu](Menu).
 1. [Create a new manufacturing order](New_Record_Window).

@@ -83,7 +83,7 @@ Dynamische Suchfelder sind durchsuchbare Dropdown-Listen, die sich mit jeder Ein
 | `HOME` | `Fn` + `←` | Auf erste Seite springen |
 | `END` | `Fn` + `→` | Auf letzte Seite springen |
 
-### Kontext: Listenansicht mit Unterpunkten
+### <a name="listenelemente-verwalten">Kontext: Listenansicht mit Unterpunkten</a>
 
 | Tastenkombination <br> (Windows) | Tastenkombination <br> (MacOS) | Befehl |
 | :---: | :---: | :--- |

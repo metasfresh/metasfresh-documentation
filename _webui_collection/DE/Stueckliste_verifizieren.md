@@ -10,7 +10,7 @@ ref: verify_bom
 ---
 
 ## Überblick
-Damit eine Stückliste gültig wird und in der Produktion verwendet werden kann, muss sie zunächst verifiziert werden. Bei der Verifizierung prüft metasfresh, dass die Stücklisten bzw. Stücklistenbestandteile nicht auf sich selbst verweisen oder sich auf andere Weise aufeinander beziehen, sodass eine zirkuläre Abhängigkeit entsteht.
+Damit eine Stückliste gültig wird und in der Produktion verwendet werden kann, muss sie zunächst verifiziert werden. Bei der Verifizierung prüft metasfresh, dass die Stücklisten bzw. Stücklistenbestandteile nicht auf sich selbst verweisen oder sich auf andere Weise referenzieren, sodass eine zirkuläre Abhängigkeit entsteht.
 
 ## Voraussetzungen
 1. [Erstelle eine Stückliste für das zu fertigende Produkt](Stueckliste_erstellen).

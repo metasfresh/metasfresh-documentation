@@ -21,7 +21,7 @@ Service/Repair Customer Return and create a process](Service_repair_customer_ret
 
 ### Review process and start the project
 1. [Go to the menu](Menu) and open the window "Request (all)".
-1. [Use the filtering function](Filtering_function), to help you find the desired process, e.g. by filtering after the **Request Type** *Service Annahme* with or without **Project**.
+1. [Use the filtering function](Filtering_function), to help you find the desired process, e.g. by filtering after the **Request Type** *Service Annahme* [with or without](Filtering_function#active-status-checkbox) **Project**.
 1. Open the record of the process in question and check it for completeness.
 1. [Start the action](StartAction) "Start Service/Repair Project". A new tab will open with the window name "[Service/Repair Project](Menu)".
 1. Go to the register "Project Repair Task" at the bottom of the page. Here you can see the different types of tasks to be executed, e.g. *Service/Repair Order* oder *Spare Parts*.

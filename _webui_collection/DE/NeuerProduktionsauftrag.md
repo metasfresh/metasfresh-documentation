@@ -9,6 +9,9 @@ sequence: 10
 ref: newmanufacturingorder
 ---
 
+## Voraussetzungen
+- [Erstelle eine Stückliste](Stueckliste_erstellen) für das herzustellende Produkt mit den [benötigten Komponenten](Stuecklistenbestandteile_erfassen) und [verifiziere sie](Stueckliste_verifizieren).
+
 ## Schritte
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Produktionsaufträge".
 1. [Lege einen neuen Produktionsauftrag an](Neuer_Datensatz_Fenster_Webui).

@@ -44,10 +44,10 @@ ref: newproduct
   | Expense type | Controls the account assignment |
   | Resource | Product that can temporally only be accounted for once, e.g., a machine, an employee, etc. |
 
-- The checkbox **Is commissioned** specifies whether the product is eligible for [commission contracts](Create_commission_contract).
+- The checkbox **Is commissioned** (i.e. *Commissionable*) specifies whether the product is eligible for [commission contracts](Create_commission_contract).
 - The checkbox **Stocked** specifies whether the product is kept in stock (provided the product type is set on "Item").
-- The checkbox **Purchased** specifies whether the product is available in purchasing.
-- The checkbox **Sold** specifies whether the product is available in sales.
+- The checkbox **Purchased** (i.e. *Procurement item*) specifies whether the product is available in purchasing.
+- The checkbox **Sold** (i.e. *Sales item*) specifies whether the product is available in sales.
 
 ## Example
 <kbd><img src="assets/NewProduct.gif" alt="GIF: Add new product"></kbd>

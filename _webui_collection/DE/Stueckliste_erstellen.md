@@ -9,6 +9,9 @@ sequence: 10
 ref: create_bom
 ---
 
+## Voraussetzungen
+- [Lege ein Produkt an](NeuesProdukt), für das du eine Stückliste konfigurieren möchtest.
+
 ## Schritte
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Stückliste".
 1. [Lege eine neue Stückliste an](Neuer_Datensatz_Fenster_Webui).

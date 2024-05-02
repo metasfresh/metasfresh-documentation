@@ -18,7 +18,7 @@ metasfresh bietet zwei Möglichkeiten, den Materialverbrauch bei der Produktion 
 
 ## Voraussetzungen
 1. [Erfasse einen Produktionsauftrag](NeuerProduktionsauftrag) für das Fertigungsprodukt und [stelle ihn fertig](BelegverarbeitungFertigstellen).
-1. Vergewissere Dich vor der Produktion, dass die benötigten [Produktionskomponenten](Stuecklistenbestandteile_erfassen) **in ausreichender Menge** für den Verbrauch auf Lager sind. Um den Bestand aufzufüllen, kannst Du entweder:<br>
+1. Vergewissere Dich vor der Produktion über das [Material Cockpit](Material-Cockpit), dass die benötigten [Produktionskomponenten](Stuecklistenbestandteile_erfassen) **in ausreichender Menge** für den Verbrauch auf Lager sind. Um den Bestand aufzufüllen, kannst Du entweder:<br>
   **a)** einen [Wareneingang erstellen](Zu_Bestellung_Wareneingang_erstellen) oder<br>
   **b)** per [Inventur neue Handling Units erstellen](Inventur_HUs_erstellen).
 
@@ -120,7 +120,7 @@ Dies ist die einfachste Möglichkeit in metasfresh zu produzieren. Hierbei wird 
 
      >**Hinweis:** Möchtest Du die Zuordnung rückgängig machen, [selektiere](AuswahlBelege) einfach die hinzugefügte HU, gehe zum Quick-Actions-Button und klicke auf "HU entfernen".
 
-#### HUs mit Seriennummern manuell erfassen (optional)
+#### <a name="seriennummer-manuell-produktion">Seriennummern für HUs manuell erfassen (optional)</a>
 1. [Selektiere](AuswahlBelege) im Produktionsfenster die HU, dessen Seriennummer Du erfassen möchtest.
 1. Gib auf der rechten Seite unter "[Merkmale](Merkmal_Produkt_neu_anlegen)" in das Feld **SerialNo** die Seriennummer der HU ein.
 1. [metasfresh speichert automatisch](Speicheranzeige).

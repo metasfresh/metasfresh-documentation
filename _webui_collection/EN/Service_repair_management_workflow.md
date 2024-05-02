@@ -14,12 +14,15 @@ See original issue comment: https://github.com/metasfresh/me03/issues/15901#issu
 -->
 
 ## Overview
-Sometimes customers may report faulty products and send them back for repair in order to receive a mended product back in return (as a gesture of goodwill, if applicable). In metasfresh, such cases can be handled via the service reception and repairs incl. spare parts, other services, etc. can be carried out as part of manufacturing orders (repair orders).
+Sometimes customers may report defective products and return them for repair in order to receive a functional product back (on a goodwill basis, if applicable). In metasfresh, such cases can be handled via the service reception and repairs incl. spare parts, additional services, etc. can be carried out as part of manufacturing orders (repair orders).
 
-<kbd><img src="assets/Service Acceptance to Offer (repair process).png" alt="Abb.: Service reception to Quotation (repair process)"></kbd>
+<kbd><img src="assets/Service Acceptance to Offer (repair process).png" alt="Fig.: Service reception to Quotation (repair process)"></kbd>
+
+## Requirements
+- [Define a document type for repair service returns](Doc_type_service_repair).
 
 ## Steps
-1. [Record the returned product in need of repair as goods received via "Service/Repair Customer Return"](Service_repair_customer_return).
+1. [Create a goods receipt for the returned item in need of repair via the service reception](Service_repair_customer_return).
 1. [Start a repair project and create a service/repair order](Service_repair_project_start).
 1. [Record your work efforts for the service/repair order (repair-related manufacturing order)](Manufacturing_order_record_work).
 1. [Create an estimate for repair services performed](Quotation_estimate_repair_services).

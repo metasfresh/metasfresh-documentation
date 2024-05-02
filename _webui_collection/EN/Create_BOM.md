@@ -9,6 +9,9 @@ sequence: 10
 ref: create_bom
 ---
 
+## Requirements
+- [Add a product](NewProduct) for which you want to configure a BOM.
+
 ## Steps
 1. Open "Bill of Materials" from the [menu](Menu).
 1. [Create a new BOM entry](New_Record_Window).
