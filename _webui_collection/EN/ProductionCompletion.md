@@ -18,7 +18,7 @@ metasfresh offers two possibilities to record the consumption of materials for p
 
 ## Requirements
 1. [Create a manufacturing order](NewManufacturingOrder) for the manufacturing product and [complete it](DocumentProcessingComplete).
-1. Prior to production, make sure that the required [manufacturing components](add_bom_components) are in stock **in sufficient quantity** for consumption. To replenish stocks, you can either:<br>
+1. Prior to production, make sure via the [material cockpit](Material-Cockpit) that the required [manufacturing components](add_bom_components) are in stock **in sufficient quantity** for consumption. To replenish stocks, you can either:<br>
   **a)** [create a goods receipt](CreateGoodsReceipt) or<br>
   **b)** [add new handling units via physical inventory](Physical_inventory_create_HUs).
 
@@ -108,9 +108,15 @@ This is the easiest way to produce in metasfresh. The produced quantity is simpl
 
     >**Note:** If you want to undo the allocation, simply [select](RecordSelection) the added HU, go to the quick actions button and click "Remove HU".
 
+#### <a name="serial-number-manually-manufacturing">Enter serial numbers for HUs manually (optional)</a>
+1. In the production window, [select](RecordSelection) the HU for which you want to enter the serial number.
+1. On the right-hand side under "Selection attributes" in the field **S/N** (SerialNo), enter the serial number of the HU.
+1. [metasfresh saves the progress automatically](Saveindicator).
+
 <!-- NEEDS UPDATING/TRANSLATION FROM DE:
-=> Manually record HUs with serial numbers
-=> Automatically generate HU attributes with the component generator
+=> Create and link to doc about attributes (above, serial numbers manually)
+=> Automatically generate HU attributes with the [component generator](...)
+    => link with Add_service_product
 -->
 
 ### Process manufacturing order and trigger stock postings

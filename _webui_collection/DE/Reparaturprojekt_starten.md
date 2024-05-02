@@ -14,13 +14,13 @@ Ein Reparaturprojekt in metasfresh beinhaltet alle für die Reparatur notwendige
 
 ## Voraussetzungen
 1. [Empfange re­pa­ra­tur­be­dürf­tige Retouren über die Serviceannahme und lege einen Vorgang an](Reparaturen_Service_Annahme).
-1. [Springe über die verknüpften Belege](SpringezuBelegen) der Serviceannahme in das Fenster "Vorgang (alle)" (unter CRM in der Sidebar) und öffne dort den bereits [herausgefilterten](Filterfunktion) Vorgang.
+1. [Springe über die verknüpften Belege](SpringezuBelegen) des Retoureneintrags in der Serviceannahme in das Fenster "Vorgang (alle)" (unter CRM in der Sidebar) und öffne dort den bereits [herausgefilterten](Filterfunktion) Vorgang.
 
 ## Schritte
 
 ### Vorgang prüfen und Projekt starten
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Vorgang (alle)".
-1. [Verwende die Filterfunktion](Filterfunktion), um Dir bei der Suche nach dem gewünschten Vorgang zu helfen, z.B. durch Filtern nach dem **Aufgabentyp** (*Request Type*) *Service Annahme* mit oder ohne **Projekt**.
+1. [Verwende die Filterfunktion](Filterfunktion), um Dir bei der Suche nach dem gewünschten Vorgang zu helfen, z.B. durch Filtern nach dem **Aufgabentyp** *Service Annahme* [mit oder ohne](Filterfunktion#aktivstatus-checkbox) **Projekt**.
 1. Öffne den Eintrag des betreffenden Vorganges und prüfe ihn auf seine Vollständigkeit.
 1. [Starte die Aktion](AktionStarten#aktionsmenue) "Reparaturprojekt starten". Es öffnet sich ein neuer Browser-Tab mit dem "[Service/Reparatur Projekt](Menu)".
 1. Gehe zur Registerkarte "Reparaturaufgabe" unten auf der Seite. Hier kannst Du die verschiedenen Arten der zu tätigenden Aufgaben einsehen, z.B. *Reparaturauftrag* oder *Zubehörteile*.

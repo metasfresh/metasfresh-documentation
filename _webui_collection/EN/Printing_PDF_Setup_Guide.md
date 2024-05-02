@@ -50,7 +50,7 @@ In order to automatically forward your documents to the printing queue from wher
 1. [Allocate logical and physical printers](Allocate_logical_and_physical_printers).
 1. [Allocate logical and physical printer trays, if any](Allocate_logical_and_physical_printer_trays).
 
-### Test Print
+### <a name="test-print">Test Print</a>
 1. Open "Printing Queue" from the [menu](Menu).
 1. [Select](RecordSelection) a printing queue item that has not yet been processed.
 1. [Start the action](StartAction#actions-menu) "Print all" (Ger.: *Alle drucken*).

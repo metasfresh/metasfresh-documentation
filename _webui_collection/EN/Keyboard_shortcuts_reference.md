@@ -83,7 +83,7 @@ A dynamic search box is a searchable drop-down list, which updates with each let
 | `HOME` | `Fn` + `←` | Jump to first page |
 | `END` | `Fn` + `→` | Jump to last page |
 
-### List View Context with subitems
+### <a name="manage-list-elements">List View Context with subitems</a>
 
 | Keyboard Shortcut <br> (Windows) | Keyboard Shortcut <br> (MacOS) | Command |
 | :---: | :---: | :--- |

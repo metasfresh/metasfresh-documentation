@@ -34,7 +34,7 @@ Damit Dokumente automatisch an die Druckwarteschlange weitergeleitet werden, von
 1. [Ordne logische und physische Drucker zu](Zuordnung_logische_und_physische_Drucker).
 1. [Ordne logische und physische Druckerschächte zu, falls vorhanden](Zuordnung_logische_und_physische_Druckerschaechte).
 
-### Testdruck
+### <a name="testdruck">Testdruck</a>
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Druck Warteschlange".
 1. [Selektiere](AuswahlBelege) einen Eintrag in der Druckwarteschlange, der noch nicht verarbeitet wurde.
 1. [Starte die Aktion](AktionStarten#aktionsmenue) "Alle drucken".

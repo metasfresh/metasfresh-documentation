@@ -35,4 +35,4 @@ In metasfresh kannst Du mittels einer Inventur Bestandsmengen erfassen sowie neu
 1. Klicke auf "Bestätigen", um das Overlay-Fenster zu schließen und die Bestandszählung zur Liste hinzuzufügen.
  >**Hinweis:** Wiederhole die oben beschriebenen Schritte, um weitere Bestandszählungen zu erfassen.
 
-1. [Stelle den Beleg fertig](BelegverarbeitungFertigstellen) sobald alle Inventurzeilen erfasst wurden. Die Lagerbestände kannst Du im "[Handling Unit Editor](Menu)" jederzeit nachschauen.
+1. [Stelle den Beleg fertig](BelegverarbeitungFertigstellen) sobald alle Inventurzeilen erfasst wurden. Die Lagerbestände kannst Du im "[Material Cockpit](Material-Cockpit)" jederzeit nachschauen.

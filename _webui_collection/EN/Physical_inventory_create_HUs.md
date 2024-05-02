@@ -11,7 +11,7 @@ ref: physical_inventory_create_hus
 ---
 
 ## Overview
-In metasfresh, you can record inventory levels and also add new [handling units](Handling_Unit_System) to your stock via physical inventory.
+In metasfresh, you can record stock quantities and also add new [handling units](Handling_Unit_System) to your stock via physical inventory.
 
 ## Requirements
 - You will need a [warehouse](Add_new_warehouse) and a [storage location](Add_new_warehouse#locator) for the counted quantity to be booked.
@@ -35,4 +35,4 @@ In metasfresh, you can record inventory levels and also add new [handling units]
 1. Click "Done" to close the overlay window and add the quantity count to the list.
  >**Note:** Repeat the above steps to add more quantity counts.
 
-1. After recording all inventory lines, [complete the document](DocumentProcessingComplete). You can review the your inventory levels at any time via the "[Handling Unit Editor](Menu)".
+1. After recording all inventory lines, [complete the document](DocumentProcessingComplete). You can review inventory levels at any time via the "[Material Cockpit](Material-Cockpit)".

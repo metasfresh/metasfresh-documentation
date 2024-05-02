@@ -44,10 +44,10 @@ ref: newproduct
   | Erfolgskonto | Steuert Kontierung |
   | Ressource | Artikel, der zeitlich nur einmal belegt werden kann, z.B. eine Maschine, ein/e Angestellte/r usw. |
 
-- Das Kontrollkästchen **Wird provisioniert** zeigt an, ob das Produkt für [Provisionsverträge](Provisionsvertrag_erzeugen) zugelassen ist.
+- Das Kontrollkästchen **Wird provisioniert** (bzw. *provisionsberechtigt*) zeigt an, ob das Produkt für [Provisionsverträge](Provisionsvertrag_erzeugen) zugelassen ist.
 - Das Kontrollkästchen **Lagerhaltig** zeigt an, ob das Produkt (sofern die Produktart auf der Option "Artikel" steht) im Bestand geführt wird.
-- Das Kontrollkästchen **Wird eingekauft** zeigt an, ob das Produkt im Einkauf zur Verfügung steht.
-- Das Kontrollkästchen **Verkauft** zeigt an, ob das Produkt im Verkauf zur Verfügung steht.
+- Das Kontrollkästchen **Wird eingekauft** (bzw. *Beschaffungsartikel*) zeigt an, ob das Produkt im Einkauf zur Verfügung steht.
+- Das Kontrollkästchen **Verkauft** (bzw. *Verkaufsartikel*) zeigt an, ob das Produkt im Verkauf zur Verfügung steht.
 
 ## Beispiel
 <kbd><img src="assets/neuesprodukt.gif" alt="GIF: Neues Produkt anlegen"></kbd>

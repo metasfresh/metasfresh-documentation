@@ -15,14 +15,14 @@ If you are searching for specific entries in a window (such as [business partner
 
 ## Steps
 1. [Open a window](Menu) of your choice in [list view](ViewModes#list-view), e.g., "[Sales Order](Menu)".
-1. Click !["Filter"](assets/Filter button.png) at the top left of the window to open the filter mask and then click ![](assets/Filter button_Default.png).
+1. Click !["Filter"](assets/Filter button.png) at the top left of the window to open the filter mask and then click !["Default"](assets/Filter button_Default.png).
 1. Enter the keywords of your choice into the search fields and/or pick the desired [attributes](Add_attributes_to_BP) by which you want to filter the table and click !["Apply"](assets/Apply button.png).
  >**Note:** Press `Alt` + `↵ Enter` / `⌥ alt` + `↵ Enter` to apply the filter criteria.
 
 ### Remove filter
-- To clear the filter settings and empty the search fields, click ![](assets/Filter_by_X.png) and then click ![](assets/Clear_filter.png) in the top right-hand corner of the filter mask.
+- To clear the filter settings and empty the search fields, click !["Filter by: ..."](assets/Filter_by_X.png) and then click ![Clear filter](assets/Clear_filter.png) in the top right-hand corner of the filter mask.
 
-### Filter by "Active" status
+### <a name="active-status-checkbox">Filter by "Active" status</a>
 Some entries can also be filtered by "Active" status, i.e. whether a property is active or inactive. For example, in the "[Phone Call Schedule](Phone_call_scheduling_filtering)" window, you can filter by entries with and ***without*** sales orders, as well as by entries with called contacts and ***calls yet to be made***.
 
 | Option | Checkbox |

@@ -14,6 +14,9 @@ Manchmal kann es vorkommen, dass Kunden defekte Produkte reklamieren und zur Rep
 
 <kbd><img src="assets/Service Annahme bis Angebot (Reparaturprozess).png" alt="Abb.: Serviceannahme bis Angebot (Reparaturprozess)"></kbd>
 
+## Voraussetzungen
+- [Definiere eine Belegart für die Serviceannahme](Belegart_Service_Annahme).
+
 ## Schritte
 1. [Erfasse die re­pa­ra­tur­be­dürf­tige Retoure als Wareneingang über die Serviceannahme](Reparaturen_Service_Annahme).
 1. [Starte ein Reparaturprojekt und erstelle einen Reparaturauftrag](Reparaturprojekt_starten).
