@@ -95,7 +95,7 @@ When displaying the following fields, always show them together:
 ## UOM
 * Each time a quantity is shown, show the UOM next to it
 * Each time a price is shown, show the price uom next to it ( unless it's the same as the uom above)
-* If the UOM is missing in the data structure, create followupo to add it. 
+* If the UOM is missing in the data structure, create follow-up to add it. 
 
 
 ## Dos and Dont's (unless the opposite is specifically requested) 
