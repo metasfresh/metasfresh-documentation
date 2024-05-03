@@ -136,10 +136,37 @@ oder
     docker compose down && docker compose up -d
     ```
 
-## <a name="beispiel-docker-compose-yml">Beispiel docker-compose.yml</a>
+## Beispiel docker-compose.yml
+🖱️ [Hier klicken, um das Beispiel anzusehen](#beispiel-docker-compose-yml). 👀
 
-<details><summary><em>Hier klicken, um das Beispiel anzusehen.</em> 👀</summary>
-<br>
+## Nächste Schritte
+- [Wie führe ich metasfresh-docker mit SSL aus?](Wie_richte_ich_ssl_in_metasfresh_docker_ein)
+
+## Sichtbar machen der Reports zwecks Bearbeitung
+Möchte man die Reports, welche im metasfresh App-Docker-Image enthalten sind, editierbar machen, so muss man diese im `docker-compose.yml` zuerst als Volume nach außen legen.
+
+```
+# Neues Volume reports hinzugefügt, um die Jasper
+# Reports Dateien anpassen zu können
+  volumes:
+    - ./volumes/app/reports:/opt/metasfresh/reports:rw
+    - ./volumes/app/log:/opt/metasfresh/log:rw
+    - /etc/localtime:/etc/localtime:ro
+    - /etc/timezone:/etc/timezone:ro
+```
+
+| **ACHTUNG:** |
+| :--- |
+| Hier liegen natürlich die kompilierten Jasper-Dateien. Man muss sich also zum Ändern der Reports zuerst das Repository mit den Quellen der Reports ziehen und dann mit Jasper Reports kompilieren. |
+
+## Visualisierung der Docker-Container
+In diesem <a href="https://forum.metasfresh.org/t/docker-gui-recommendation" title="Docker GUI recommendation | forum.metasfresh.org" target="\_blank">Forumsbeitrag</a> (*auf Englisch*) über dieses Thema werden zwei weit verbreitete Tools empfohlen.
+
+## Feedback
+Bei Fragen oder Problemen kannst Du uns gerne in unserem offiziellen **Community Forum** um Unterstützung bitten:
+- <a href="http://forum.metasfresh.org" title="metasfresh Community Forum | forum.metasfresh.org" target="\_blank">forum.metasfresh.org</a>
+
+## <a name="beispiel-docker-compose-yml">Beispiel docker-compose.yml</a>
 
 ```yml
 version: '3'
@@ -280,31 +307,3 @@ services:
         max-file: '3'
       driver: json-file
 ```
-</details>
-
-## Nächste Schritte
-- [Wie führe ich metasfresh-docker mit SSL aus?](Wie_richte_ich_ssl_in_metasfresh_docker_ein)
-
-## Sichtbar machen der Reports zwecks Bearbeitung
-Möchte man die Reports, welche im metasfresh App-Docker-Image enthalten sind, editierbar machen, so muss man diese im `docker-compose.yml` zuerst als Volume nach außen legen.
-
-```
-# Neues Volume reports hinzugefügt, um die Jasper
-# Reports Dateien anpassen zu können
-  volumes:
-    - ./volumes/app/reports:/opt/metasfresh/reports:rw
-    - ./volumes/app/log:/opt/metasfresh/log:rw
-    - /etc/localtime:/etc/localtime:ro
-    - /etc/timezone:/etc/timezone:ro
-```
-
-| **ACHTUNG:** |
-| :--- |
-| Hier liegen natürlich die kompilierten Jasper-Dateien. Man muss sich also zum Ändern der Reports zuerst das Repository mit den Quellen der Reports ziehen und dann mit Jasper Reports kompilieren. |
-
-## Visualisierung der Docker-Container
-In diesem <a href="https://forum.metasfresh.org/t/docker-gui-recommendation" title="Docker GUI recommendation | forum.metasfresh.org" target="\_blank">Forumsbeitrag</a> (*auf Englisch*) über dieses Thema werden zwei weit verbreitete Tools empfohlen.
-
-## Feedback
-Bei Fragen oder Problemen kannst Du uns gerne in unserem offiziellen **Community Forum** um Unterstützung bitten:
-- <a href="http://forum.metasfresh.org" title="metasfresh Community Forum | forum.metasfresh.org" target="\_blank">forum.metasfresh.org</a>.
