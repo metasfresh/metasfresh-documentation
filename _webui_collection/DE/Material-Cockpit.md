@@ -4,14 +4,14 @@ layout: default
 tags:
   - Stammdaten
   - Lagerverwaltung
-  - Material Cockpit
+  - Material Cockpit / Handelsbord
 lang: de
 sequence: 10
 ref: material-cockpit
 ---
 
 ## Überblick
-In metasfresh kannst du über das sogenannte **Material Cockpit** die Bestände deiner Produkte auf Lager sowie weitere Bestands- und Belegdetails einsehen und verwalten.
+In metasfresh kannst du über das sogenannte **Material Cockpit** (oder Handelsbord) die Bestände deiner Produkte auf Lager sowie weitere Bestands- und Belegdetails einsehen und verwalten.
 
 ## Schritte
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Material Cockpit".
