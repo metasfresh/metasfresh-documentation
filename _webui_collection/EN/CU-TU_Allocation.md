@@ -1,5 +1,5 @@
 ---
-title: How do I allocate a product to a transport unit?
+title: How do I allocate a product to a transport unit (packing instructions)?
 layout: default
 tags:
   - Master Data
@@ -16,14 +16,14 @@ A product is a [consumer unit (CU)](Handling_Unit_System) which in bigger amount
 ## Steps
 1. Open the entry of an existing [product](Menu) or [add a new one](NewProduct).
 1. Go to the record tab "CU-TU Allocation" at the bottom of the page and click !["Add new"](assets/Add_New_Button.png). An overlay window opens up.
-1. Pick some **Packing Instructions**, e.g., *IFCO*.
-1. ***a)*** Enter a specific fixed **Quantity** to put into the TU. The **UOM** is always the product's stock-keeping UOM.<br><br>
-***b)*** If the quantity is unknown or variable, tick the checkbox **Unspecified Capacity**.
+1. Pick a **Packing Instruction Item**, e.g., *IFCO*.
+1. ***a)*** Enter a specific fixed **Quantity** to put into the TU. The **UOM** is always the product's stock-keeping UOM.<br>
+***b)*** If the quantity is unknown or variable, tick the checkbox **Indefinite Capacity**.<br>
 1. Set a **Valid from** date.
  >**Note:** If this date lies in the *past*, the packing instructions will be effective *immediately*. If it lies in the *future*, they will only apply *from that date*. metasfresh suggests the currently valid packing instructions automatically based on the date promised of sales orders or purchase orders.
 
 1. ***Optional:*** Add a [**Business Partner**](New_Business_Partner) if you want these packing instructions to apply to this one partner only.
-1. Click "Done" to close the overlay window and add the allocation to the list.
+1. Click "Done" to close the overlay window and add the allocated packing instructions to the list.
  >**Note:** Repeat steps 2 to 7 to add further allocations with different packing instructions to the list.
 
 ## Next Steps
