@@ -19,5 +19,9 @@ ref: set_current_vendor
 1. Setze ein Häkchen bei **Gegenwärtiger Lieferant**.
 1. Klicke auf "Bestätigen", um die Änderungen zu übernehmen und die "Erweiterte Erfassung" zu schließen.
 
+## Nächste Schritte (optional)
+- [Erzeuge eine auftragsbezogene Bestellung](Auftragsbezogene_Bestellung_generieren).
+- [Konfiguriere Plandaten für den Einkauf eines Produkts (autom. Bestellanforderungen)](Produktplandaten).
+
 ## Beispiel
 ![](assets/Gegenwaertigen Lieferanten festlegen.gif)

@@ -19,5 +19,9 @@ ref: set_current_vendor
 1. Tick the checkbox **Current vendor**.
 1. Click "Done" to apply the changes and close the advanced edit menu.
 
+## Next Steps (optional)
+- [Generate a sales order-related purchase order](Generate_SO-related_PO).
+- [Configure planning data for purchasing a product (automatic purchase requisitions)](Product_planning).
+
 ## Example
 ![](assets/Set current vendor.gif)
