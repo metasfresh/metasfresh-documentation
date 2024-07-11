@@ -30,6 +30,10 @@ Zusätzlich überprüft die [*Materialdisposition*](Materialdisposition_Grundlag
 1. Setze das Feld **Wird eingekauft** auf *Ja*.
 1. [metasfresh speichert automatisch](Speicheranzeige).
 
+    | **Wichtiger Hinweis:** |
+    | :--- |
+    | Vergewissere dich außerdem, dass das zu bestellende Produkt mit einem [gegenwärtigen Lieferanten verknüpft](Gegenwaertigen_Lieferanten_festlegen) ist. |
+
 #### b) Für die Produktion konfigurieren
 1. Wähle eine **BOM & Formula** ([*Stücklistenkonfiguration*](Stueckliste_erstellen)) aus.
 1. Wähle einen **Workflow** (*Arbeitsablauf*) aus.

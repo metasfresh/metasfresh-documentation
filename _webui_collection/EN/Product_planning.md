@@ -30,6 +30,10 @@ In addition, metasfresh's [*material schedule*](Material_schedule_basics) uses t
 1. Set the field **Purchased** to *Yes*.
 1. [metasfresh saves the progress automatically](Saveindicator).
 
+    | **Important note:** |
+    | :--- |
+    | In addition, make sure that the product to be ordered is [linked to a current vendor](Set_current_vendor). |
+
 #### b) For Manufacturing
 1. Pick a [**BOM & Formula**](Create_BOM).
 1. Pick a **Workflow**.
