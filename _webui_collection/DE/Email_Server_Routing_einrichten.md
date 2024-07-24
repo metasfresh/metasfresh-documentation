@@ -13,7 +13,7 @@ ref: setup_email_server_routing
 In metasfresh kannst Du mittels E-Mail-Server-Routing einstellen, an welchen [Kontakt/Nutzer](GPartner_Nutzer_hinzufuegen) ein bestimmter Beleg bei seiner Erstellung automatisch adressiert wird, um den E-Mail-Versand aus "Ausgehende Belege" einfacher und effizienter zu machen.
 
 ## Schritte
-1. [Gehe ins Menü](Menu) und öffne das Fenster "EMail Server Routing".
+1. [Gehe ins Menü](Menu) und öffne das Fenster "EMail Server Routing" oder "EMail Server Konfiguration" (je nach Versionsstand).
 1. [Erstelle einen neuen Eintrag](Neuer_Datensatz_Fenster_Webui).
 1. Wähle im Feld **Mail Box** ein [Postfach](Ausgehende_Belege_Mail_Server_einrichten) aus, über das E-Mails aus metasfresh versendet werden sollen.
 1. ***Optional:*** Wähle im Feld **Individueller Typ** eine Routing-Klasse aus, z.B. `org.compiere.util.Login` (siehe auch "[Passwort zurücksetzen](Passwort_aendern)").
