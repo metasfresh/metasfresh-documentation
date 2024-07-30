@@ -21,7 +21,7 @@ A price list schema in metasfresh can be used to [copy existing product prices f
 ### Add schema lines
 1. Open "Price List Schema Line" from the [menu](Menu).
 1. [Create a new entry](New_Record_Window).
-1. In the field **Discount Schema**, enter a part of the name of the [price list schema](Add_price_list_schema) to which the schema line shall be assigned and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
+1. In the field **Discount Schema**, enter part of the name of the [price list schema](Add_price_list_schema) to which the schema line shall be assigned and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
 1. In case of multiple lines for the same schema you can specify their order via the field **SeqNo**.
  >**Note:** The lowest number comes first.
 
@@ -31,9 +31,9 @@ A price list schema in metasfresh can be used to [copy existing product prices f
 | :--- |
 | The following specifications are all ***optional*** and can be combined with each other as required. |
 
-1. In the field **Product**, enter a part of the name or number of the [product](NewProduct) of your choice and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
+1. In the field **Product**, enter part of the name or number of the [product](NewProduct) of your choice and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
 1. Pick a [**Product Category**](NewProductCategory).
-1. In the field **Business Partner**, enter a part of the name or number of the [business partner](New_Business_Partner) of your choice and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
+1. In the field **Business Partner**, enter part of the name or number of the [business partner](New_Business_Partner) of your choice and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
 1. Pick a **Tax Category**.
 1. Enter a **Std. Price Surcharge Amt.** or leave it at *0.00*.
 1. The field **Standard Price Rounding** specifies the number of decimal places for price calculations.

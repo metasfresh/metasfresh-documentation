@@ -22,7 +22,7 @@ To enable these access management functions, please proceed as follows:
 1. Open the entry of an existing [user role](Menu) or [add a new one](NewUserRole).
 1. Go to the record tab "Role Record Access Config" at the bottom of the page and click !["Add new"](assets/Add_New_Button.png). An overlay window opens up.
 1. Pick the **Type** of record for which it should be possible to manage user permissions, e.g., *Table* or *Business Partner Hierarchy*.
-    - **If you select "Type: *Table*":** In the field **Table**, enter a part of the name of the database table for which you want to enable access management features and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>, e.g., *Business Partner* or *Product*.
+    - **If you select "Type: *Table*":** In the field **Table**, enter part of the name of the database table for which you want to enable access management features and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>, e.g., *Business Partner* or *Product*.
 1. Click "Done" to close the overlay window and add the record permission to the list.
     >**Note:** Repeat steps 4 to 6 to add further permission entries.
 

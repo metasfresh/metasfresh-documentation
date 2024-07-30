@@ -26,11 +26,11 @@ In metasfresh, you can record stock quantities and also add new [handling units]
 
 ### Record counted quantities
 1. Go to the record tab "Inventory Count Line" at the bottom of the page and click !["Add new"](assets/Add_New_Button.png). An overlay window opens up.
-1. In the field **Product**, enter a part of the name or number of the [product](NewProduct) whose stock quantity you want to record and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
-1. In the field **UOM**, enter a part of the name of the [unit of measure](Menu) used for the product stock quantity recorded and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
-1. In the field **Locator**, enter a part of the [storage location name](Add_new_warehouse#locator) and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
+1. In the field **Product**, enter part of the name or number of the [product](NewProduct) whose stock quantity you want to record and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
+1. In the field **UOM**, enter part of the name of the [unit of measure](Menu) used for the product stock quantity recorded and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
+1. In the field **Locator**, enter part of the [storage location name](Add_new_warehouse#locator) and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
 1. In the field **Quantity count**, enter the actual (physically counted) product stock quantity.
-1. ***Optional:*** Pick an existing handling unit to book the counted quantity on. To do so, in the field **Handling Units**, enter a part of the name or number of the handling unit and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
+1. ***Optional:*** Pick an existing handling unit to book the counted quantity on. To do so, in the field **Handling Units**, enter part of the name or number of the handling unit and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
 1. Tick the checkbox **Counted**.
 1. Click "Done" to close the overlay window and add the quantity count to the list.
  >**Note:** Repeat the above steps to add more quantity counts.

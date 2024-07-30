@@ -15,7 +15,9 @@ ref: add_new_warehouse
 1. Open "Warehouse" from the [menu](Menu).
 1. [Add a new warehouse](New_Record_Window).
 1. Give the warehouse a **Name**, e.g., "[Empty Container Depot](Add_empty_container_depot)".
-1. In the field **Partner Location**, enter a part of the [location](Add_address_tab) name and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
+1. Depending on the version build, one of the following steps may apply:
+    - **a)** In the field **Partner Location**, enter part of the [location](Add_address_tab) name and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
+    - **b)** ***Optional (Managing partner warehouses):*** In the field **Business Partner** (i.e. *Supplier for provision*), remove your default organization. Then in the first input area of the line, enter part of the name or number of the [business partner](New_Business_Partner) providing the services/materials and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>. Now <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">in the same way</a>, pick a **Partner Location** in the next eponymous part of the line and, if required, a **User/Contact**.
 1. Pick a **Manufacturing Plant**, if available.
  >**Note:** Manufacturing plants are required for [product planning](Product_planning) and [automatic order checkups](Automatic_order_checkup).
 

@@ -18,7 +18,7 @@ In metasfresh, multiple users can be combined into a group to make it possible t
 1. [Create a new user group](New_Record_Window).
 1. Give the user group a **Name**.
 1. Go to the record tab "Users Group User Assignment" at the bottom of the page and click !["Add new"](assets/Add_New_Button.png). An overlay window opens up.
-1. In the field **Contact**, enter a part of the name of the user you want to add to the group and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
+1. In the field **Contact**, enter part of the name of the user you want to add to the group and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
 1. Set a **Valid from** date.
  >**Note:** If this date lies in the *past*, the entry will be effective *immediately*. If it lies in the *future*, it will only apply *from that date*.
 

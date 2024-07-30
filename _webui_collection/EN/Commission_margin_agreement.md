@@ -23,8 +23,8 @@ A margin agreement between a [sales partner who is entitled to commission](Add_n
 ## Steps
 1. Open "Customer Margin Settings" from the [menu](Menu).
 1. [Create a new entry](New_Record_Window).
-1. In the field **Sales partner**, enter a part of the name or number of the [sales partner](Add_new_sales_partner) based on whose commission the discount shall be calculated and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
-1. In the field **Business Partner**, enter a part of the name or number of the [customer](New_business_partner_customer) to receive the discount and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
+1. In the field **Sales partner**, enter part of the name or number of the [sales partner](Add_new_sales_partner) based on whose commission the discount shall be calculated and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
+1. In the field **Business Partner**, enter part of the name or number of the [customer](New_business_partner_customer) to receive the discount and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
  >**Note 1:** If the field remains empty, the margin agreement applies to ***all customers***.<br><br>
  >**Note 2:** If both general agreements and those with specific customers exist, the one with the more specific data will always prevail.
 

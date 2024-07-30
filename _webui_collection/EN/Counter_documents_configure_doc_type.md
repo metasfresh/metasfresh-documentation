@@ -15,7 +15,7 @@ ref: counter_documents_configure_doc_type
 ## Steps
 1. Open "Counter Document" from the [menu](Menu).
 1. [Create a new configuration entry](New_Record_Window).
-1. Set the desired [**Organization**](Org_add_new_organization) for which the configuration shall apply. To do so, enter a part of the organization's name into the field and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
+1. Set the desired [**Organization**](Org_add_new_organization) for which the configuration shall apply. To do so, enter part of the organization's name into the field and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
  >**Note:** If, e.g., as shown in the figure above, a purchase order placed by Org. A shall automatically trigger the generation of a sales order at Org. B, then set Org. A here.
 
 1. Give the configuration entry a **Name**, e.g., specifying the purpose of the counter document creation, such as "Sales Order upon Purchase Order".

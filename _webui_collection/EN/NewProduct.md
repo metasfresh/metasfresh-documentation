@@ -23,7 +23,7 @@ ref: newproduct
 1. Pick a **UOM** (unit of measure) for the product.
  >**Note:** This UOM is used for *inventory management* and ***must not be confused*** with the sales UOM defined when [adding a price](ProductPrice)!
 
-1. Set the desired [**Organization**](Org_add_new_organization) at the bottom right. To do so, enter a part of the organization's name into the field and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
+1. Set the desired [**Organization**](Org_add_new_organization) at the bottom right. To do so, enter part of the organization's name into the field and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
 
 ## Next Steps
 - [Record purchase and sales prices for the product](ProductPrice).

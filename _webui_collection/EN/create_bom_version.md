@@ -15,7 +15,7 @@ ref: create_bom_version
 ## Steps
 1. Open "Bill of Material Version" from the [menu](Menu).
 1. [Create a new BOM version entry](New_Record_Window).
-1. In the field **BOM & Formula**, enter a part of the name or number of the [bill of materials](Create_BOM) for which you want to create a BOM version and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
+1. In the field **BOM & Formula**, enter part of the name or number of the [bill of materials](Create_BOM) for which you want to create a BOM version and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
 1. The **Product** (manufacturing product) is automatically copied from the BOM.
 1. The **Name** of the BOM version is automatically copied from the BOM and can be edited here.
 1. Pick a **UOM** (unit of measure) for the manufactured product.
@@ -30,7 +30,7 @@ ref: create_bom_version
 1. Set a **Valid from** date.
  >**Note:** If this date lies in the *past*, the BOM version will be effective *immediately*. If it lies in the *future*, it will only apply *from that date*.
 
-1. ***Optional:*** Pick a **Serial No. Sequence**. To do so, enter a part of the [document sequence](Define_new_doc_sequence) name and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
+1. ***Optional:*** Pick a **Serial No. Sequence**. To do so, enter part of the [document sequence](Define_new_doc_sequence) name and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
  >**Note:** The [product category](NewProductCategory) must be linked to an **Attribute Set** where the attribute *serial number* is defined.
 
 1. [metasfresh saves the progress automatically](Saveindicator). As soon as the BOM version has been saved, the checkbox <kbd><img src="assets/checkbox-bom-defined.png" alt="Bill of Materials defined/available/provided='Y'"></kbd> in the entry of the linked manufacturing product is activated (read-only). Before using the BOM, [it must first be verified](verify_bom).

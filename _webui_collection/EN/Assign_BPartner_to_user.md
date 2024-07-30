@@ -12,7 +12,7 @@ ref: assign_bpartner_to_user
 
 ## Steps
 1. Open the entry of an existing [user](Menu) or [add a new one](Add_user).
-1. Go to the field **Business Partner**, enter a part of the required [business partner](New_Business_Partner) name or number and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
+1. Go to the field **Business Partner**, enter part of the required [business partner](New_Business_Partner) name or number and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
 1. [metasfresh saves the progress automatically](Saveindicator).
 <br><br>
 

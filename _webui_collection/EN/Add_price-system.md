@@ -21,7 +21,7 @@ You can find further details on the difference between pricing systems and price
 1. Open "Price System" from the [menu](Menu).
 1. [Create a new pricing system](New_Record_Window).
 1. Give the pricing system a **Name**.
-1. ***Optional:*** Set the desired [**Organization**](Org_add_new_organization). To do so, enter a part of the organization's name into the field and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
+1. ***Optional:*** Set the desired [**Organization**](Org_add_new_organization). To do so, enter part of the organization's name into the field and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
 1. [metasfresh saves the progress automatically](Saveindicator).
 
 ## Next Steps

@@ -19,7 +19,7 @@ If a customer makes a single payment to settle multiple invoices, you have to *m
 ## Steps
 1. Open "Payment" from the [menu](Menu).
 1. [Add a new payment entry](New_Record_Window).
-1. In the field **Business Partner**, enter a part of the [business partner](New_Business_Partner) name or number and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
+1. In the field **Business Partner**, enter part of the [business partner](New_Business_Partner) name or number and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
 1. Pick the **Document Type** *Incoming Payment*.
 1. Select the **Currency** corresponding to the invoice.
 1. Go to the record tab "Allocate" at the bottom of the page and click !["Add new"](assets/Add_New_Button.png). An overlay window opens up.

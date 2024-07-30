@@ -17,7 +17,7 @@ To address this challenge, outbound documents can be individually configured in 
 ## Steps
 1. Open "Outbound Documents Config" from the [menu](Menu).
 1. [Create a new configuration entry](New_Record_Window).
-1. In the field **Table**, enter a part of the name of the database table for which you want to configure the outbound documents and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>, e.g., "Dunning type".
+1. In the field **Table**, enter part of the name of the database table for which you want to configure the outbound documents and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>, e.g., "Dunning type".
 1. ***Optional:*** Pick a [**Print Format**](Add_print_format), e.g., *Mahnbrief (swat)*.
     >**Note:** If no print format is specified, the default print format defined for the respective [document type](Define_new_doc_type) is automatically applied.
 

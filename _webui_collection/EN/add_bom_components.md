@@ -17,7 +17,7 @@ ref: add_bom_components
 1. Open "Bill of Material Version" from the [menu](Menu).
 1. Open the entry of an existing BOM version or [add a new one](...).
 1. Go to the record tab "Components of the BOM & Formula" at the bottom of the page and click !["Add new"](assets/Add_New_Button.png). An overlay window opens up.
-1. In the field **Product**, enter a part of the name or number of the [product](NewProduct) you want to add as a component to the BOM and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
+1. In the field **Product**, enter part of the name or number of the [product](NewProduct) you want to add as a component to the BOM and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
 1. Pick a **Component Type**, e.g., *Component*.
  >**Note:** The *Co-Product* is a joint product from the production of the main product and can subsequently be added to stock as a finished product itself.
 

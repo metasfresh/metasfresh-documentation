@@ -46,7 +46,7 @@ The following parameters can be combined with each other as needed:
 
 ### Add a business partner
 1. Go to the record tab "Tour Version Line" at the bottom of the page and click !["Add new"](assets/Add_New_Button.png). An overlay window opens up.
-1. In the field **Business Partner**, enter a part of the [business partner](New_Business_Partner) name or number and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
+1. In the field **Business Partner**, enter part of the [business partner](New_Business_Partner) name or number and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
 1. Also in the field **Business Partner**, pick a location, if the partner has more than one [location](Add_address_tab) associated with their entry.
 1. ***Optional:*** Enter a **Buffer (hours)**. It indicates how much time lies between dispatch and actual delivery of the goods.
 1. Tick the checkbox **To be fetched**, if the goods are collected.

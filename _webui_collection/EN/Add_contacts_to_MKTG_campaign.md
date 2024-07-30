@@ -29,7 +29,7 @@ For contacts (users or business partners) to be added to the mailing list of a [
 1. [Start the quick action](StartAction#quick-actions) "Export in Email Campaign". An overlay window opens up.
  >**Note:** You will also find this action in the actions menu in both the list view and the detailed view of an entry.
 
-1. In the field [**Marketing Campaign**](Create_MKTG_campaign), enter a part of the email campaign and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
+1. In the field [**Marketing Campaign**](Create_MKTG_campaign), enter part of the email campaign and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
 1. Click "Start" to close the overlay window and add the contacts to the email campaign.
 
 #### b) to a Serial Letter Campaign
@@ -38,7 +38,7 @@ For contacts (users or business partners) to be added to the mailing list of a [
 1. [Start the action](StartAction#actions-menu) "Export in Serial Letter Campaign". An overlay window opens up.
  >**Note:** You will also find this action in the actions menu in the detailed view of an entry.
 
-1. In the field [**Marketing Campaign**](Create_MKTG_campaign), enter a part of the serial letter campaign and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
+1. In the field [**Marketing Campaign**](Create_MKTG_campaign), enter part of the serial letter campaign and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
 1. In the field **DefaultAddressType**, select the type of default address to be used for the serial letters, e.g., *BillToDefault* or *ShipToDefault*.
  >**Note:** Make sure the corresponding fields in the corresponding line under the record tab "Location" of the respective business partner entry are activated (<a href="#requirements-serial-letters" title="Requirements for Serial Letter Campaigns">see above</a>).
 
@@ -57,7 +57,7 @@ For contacts (users or business partners) to be added to the mailing list of a [
 1. [Start the quick action](StartAction#quick-actions) "Kontaktperson aus Nutzer" (*Add contact from user*). An overlay window opens up.
  >**Note:** You will also find this action in the actions menu in both the list view and the detailed view of an entry.
 
-1. Enter a part of the [**Marketing Campaign**](Create_MKTG_campaign) and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
+1. Enter part of the [**Marketing Campaign**](Create_MKTG_campaign) and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
 1. Click "Start" to close the overlay window and add the contacts to the marketing campaign.
 <br><br>
 

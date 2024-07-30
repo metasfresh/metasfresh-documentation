@@ -13,7 +13,7 @@ ref: quick_create_new_business_partner
 If in the course of creating a [sales order](SalesOrder_recording) or a [purchase order](CreatePurchaseOrder) you realize that the entry of the business partner in question does not yet exist in metasfresh, you can easily quick create it from that very window.
 
 ## Steps
-1. In the field **Business Partner** ([Sales Order](SalesOrder_recording)) or **Delivery from** ([Purchase Order](CreatePurchaseOrder)), enter a part of the missing partner's name. A drop-down list opens up.<br>
+1. In the field **Business Partner** ([Sales Order](SalesOrder_recording)) or **Delivery from** ([Purchase Order](CreatePurchaseOrder)), enter part of the missing partner's name. A drop-down list opens up.<br>
 ![](assets/New_Businesspartner_quickcreate.png)
 
 1. Click on the option *New Business Partner*. An overlay window for the quick creation opens up.

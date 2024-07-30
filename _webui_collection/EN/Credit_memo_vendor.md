@@ -23,14 +23,14 @@ In metasfresh, you can create vendor credit notes (or memos) if a credit balance
 1. Open "Purchase Invoice" from the [menu](Menu).
 1. [Create a new entry](New_Record_Window).
 1. Pick the **Document Type** *Credit Memo (Vendor)*.
-1. In the field **Business Partner**, enter a part of the [vendor](New_business_partner_vendor) name or number and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
+1. In the field **Business Partner**, enter part of the [vendor](New_business_partner_vendor) name or number and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
  >**Note:** If the required partner does not appear in the list, you can add them through [quick create](Quick_create_new_business_partner).
 
 ### Add Invoice Lines
 1. Go to the record tab "Invoice Line" at the bottom of the page and click !["Batch entry"](assets/Batch_Entry_Button.png) to open the fast invoice line input.
  >**Note:** Use shortcut `Alt` + `Q` / `⌥ alt` + `Q`.
 
-1. In the field **Product**, enter a part of the name or number of the [product](NewProduct) relevant for the credit note and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
+1. In the field **Product**, enter part of the name or number of the [product](NewProduct) relevant for the credit note and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
 1. Enter a **Quantity**.
  >**Note:** Use the mouse or `Tab ↹` key to go to the field.
 
