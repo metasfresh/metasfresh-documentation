@@ -19,10 +19,10 @@ In metasfresh, you can launch special price actions for a limited period of time
 ## Steps
 1. Open "Campaign Price" from the [menu](Menu).
 1. [Create a new entry](New_Record_Window).
-1. Select the [**Product**](NewProduct) for which you want to make a special offer. To do so, enter a part of the product name or number into the field and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
-1. **a)** In the field **Business Partner**, pick the [customer](New_business_partner_customer) who shall receive the special offer. To do so, enter a part of the customer name or number into the field and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.<br><br>
-**b)** Select the **Business Partner Group** to which the special offer shall apply. To do so, enter a part of the name of the [business partner group](New_Business_Partner_Group) into the field and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
-1. Select the **Country** in which the special offer shall apply. To do so, enter a part of the country name into the field and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
+1. Select the [**Product**](NewProduct) for which you want to make a special offer. To do so, enter part of the product name or number into the field and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
+1. **a)** In the field **Business Partner**, pick the [customer](New_business_partner_customer) who shall receive the special offer. To do so, enter part of the customer name or number into the field and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.<br><br>
+**b)** Select the **Business Partner Group** to which the special offer shall apply. To do so, enter part of the name of the [business partner group](New_Business_Partner_Group) into the field and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
+1. Select the **Country** in which the special offer shall apply. To do so, enter part of the country name into the field and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
  >**Note:** The **Currency** will be automatically updated according to the selected country but can be changed manually afterwards.
 
 1. Set a **Valid from** date.

@@ -24,7 +24,7 @@ ref: add_price
 
 1. In the field **Tax Category**, pick a value-added tax (VAT) category, e.g., *standard*, *reduced*, *tax-free*, etc.
 1. In the field **Invoiceable Quantity per**, pick the weight to be used for invoicing, e.g., *Nominal* weight (default) or *Catch Weight* ([for products with variable weight](Sales_order_catch_weight)).
-1. ***Optional:*** Set the desired [**Organization**](Org_add_new_organization). To do so, enter a part of the organization's name into the field and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
+1. ***Optional:*** Set the desired [**Organization**](Org_add_new_organization). To do so, enter part of the organization's name into the field and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
 1. [metasfresh saves the progress automatically](Saveindicator).
 
 ## Further Information

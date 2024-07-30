@@ -15,7 +15,9 @@ ref: add_new_warehouse
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Lager".
 1. [Lege ein neues Lager an](Neuer_Datensatz_Fenster_Webui).
 1. Benenne das Lager im Feld **Name**, z.B. "[Leergebindelager](Leergebindelager_anlegen)".
-1. Gib in das Feld **Standort** einen Teil des [Standort](Adresse_erfassen_Tab)namens ein und klicke auf den passenden Treffer in der <a href="Keyboard_Shortcuts_Liste#dropdown" title="Dynamisches Suchfeld (Autocomplete)">Dropdown-Liste</a>.
+1. Je nach Versionsstand trifft einer der folgenden Schritte zu:
+    - **a)** Gib in das Feld **Standort** einen Teil des [Standort](Adresse_erfassen_Tab)namens ein und klicke auf den passenden Treffer in der <a href="Keyboard_Shortcuts_Liste#dropdown" title="Dynamisches Suchfeld (Autocomplete)">Dropdown-Liste</a>.
+    - **b)** ***Optional (Verwaltung von Partnerlagern):*** Entferne im Feld **Lieferant für Beistellung** deine standardmäßig voreingestellte Organisation. Gib anschließend im ersten Eingabebereich der Zeile einen Teil des Namens oder der Nummer des beistellenden [Geschäftspartners](Neuer_Geschaeftspartner) ein und klicke auf den passenden Treffer in der <a href="Keyboard_Shortcuts_Liste#dropdown" title="Dynamisches Suchfeld (Autocomplete)">Dropdown-Liste</a>. Wähle nun auf <a href="Keyboard_Shortcuts_Liste#dropdown" title="Dynamisches Suchfeld (Autocomplete)">die gleiche Weise</a> einen **Standort** im nächsten gleichnamigen Teil der Zeile aus und bei Bedarf auch noch einen **Ansprechpartner**.
 1. Wähle eine **Produktionsstätte** aus, sofern vorhanden.
  >**Hinweis:** Produktionsstätten werden für [Produktplanungen](Produktplandaten) und [automatische Bestellkontrollen](Automatische_Bestellkontrollen) benötigt.
 

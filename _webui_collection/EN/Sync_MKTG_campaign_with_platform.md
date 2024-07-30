@@ -22,7 +22,7 @@ ref: sync_mktg_campaign_with_platform
 
    An overlay window opens up.
 
-1. Enter a part of the [**Marketing Platform**](Create_MKTG_platform) to/from which you want to sync the data and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
+1. Enter part of the [**Marketing Platform**](Create_MKTG_platform) to/from which you want to sync the data and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
 1. Click "Start" to begin data synchronization and close the overlay window.
 1. [metasfresh saves the progress automatically](Saveindicator).
 

@@ -24,7 +24,7 @@ In metasfresh, you can create custom record tabs in several input windows where 
 1. In the field **Registername** (*Tab name*), enter a tab name.
  >**Note:** This name will be displayed on the tab in the input window.
 
-1. In the field **Eingabefenster** (*Input window*), enter a part of the name of the [window](Menu) where you want the record tab to appear and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>, e.g., *Product*.
+1. In the field **Eingabefenster** (*Input window*), enter part of the name of the [window](Menu) where you want the record tab to appear and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>, e.g., *Product*.
  >**Note:** In case of multiple custom record tabs for the same input window you can specify their order via the field **SeqNo**.
 
 1. ***Optional:*** Enter a **Description** into the text box provided.

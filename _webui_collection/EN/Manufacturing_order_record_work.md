@@ -26,7 +26,7 @@ Service/Repair Customer Return and create a process](Service_repair_customer_ret
 ### <a name="service-expenses">Record service expenses (for Service/Repair Orders)</a>
 The service expenses can be recorded with a [service product](Add_service_product), which is then used in the quotation or order creation process to calculate all expenses from the respective repair order in a [compensation group](Create_manual_compensation_groups), so that an [Order line group discounts](Order_line_group_discount) can be applied to it if needed. Such a service product can be a flat-rate repair charge or drop costs completely in the case of warranty claims.
 
-1. In the field **Repair Service Performed**, enter a part of the name or the number of the service product and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
+1. In the field **Repair Service Performed**, enter part of the name or the number of the service product and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
 1. Record a **Summary** of the service expenses.
  >**Info:** The text entered here will subsequently also appear on the cost estimate (quotation) or order beneath the service product as information for the customer.
 

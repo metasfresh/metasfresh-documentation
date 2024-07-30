@@ -25,7 +25,7 @@ These preparatory steps are necessary in order to obtain clearly labeled product
 ### Record service reception data
 1. Open "Service/Repair Customer Return" from the [menu](Menu).
 1. [Create a new entry](New_Record_Window).
-1. In the field **Business Partner**, enter a part of the name or number of the [customer](New_business_partner_customer) who returned a product for repair and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
+1. In the field **Business Partner**, enter part of the name or number of the [customer](New_business_partner_customer) who returned a product for repair and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
 1. Pick the **Warehouse** where the product in need of repair was received.
 1. Pick a [**Document Type** for repair service returns](Doc_type_service_repair).
 

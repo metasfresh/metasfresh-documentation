@@ -24,7 +24,7 @@ The following components are required for a marketing campaign:
 1. Open "Marketing Campaign" from the [menu](Menu).
 1. [Create a new marketing campaign](New_Record_Window).
 1. Give the marketing campaign a **Name**.
-1. Enter a part of the **Marketing Platform** and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
+1. Enter part of the **Marketing Platform** and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
 1. Set a **Start Date**.
 1. Set an **End Date**.
 1. Pick a **Boilerplate** (*Textbaustein*).

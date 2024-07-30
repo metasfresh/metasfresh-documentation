@@ -15,7 +15,7 @@ ref: newmanufacturingorder
 ## Steps
 1. Open "Manufacturing Order" from the [menu](Menu).
 1. [Create a new manufacturing order](New_Record_Window).
-1. In the field **Product**, enter a part of the name or number of the [product](NewProduct) to be manufactured and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
+1. In the field **Product**, enter part of the name or number of the [product](NewProduct) to be manufactured and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
 1. The [**BOM & Formula Version**](create_bom_version) linked to the manufacturing product, and thus the respective [bill of materials](Create_BOM), is automatically applied.
 1. In the field **Resource**, pick the designated production facility/line.
 1. In the field **Workflow**, set the required manufacturing work steps.

@@ -20,7 +20,7 @@ In metasfresh, you can create projects and manage them clearly. Apart from gener
 1. Give the project a **Name**.
 1. Pick a **Project Status**, e.g., *Planung* (*Planning*).
 1. ***Optional:*** Enter a **Description** of the project into the text box provided.
-1. In the field **Business Partner** (*Geschäftspartner*), enter a part of the name or number of the [business partner](New_Business_Partner) involved in the project and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
+1. In the field **Business Partner** (*Geschäftspartner*), enter part of the name or number of the [business partner](New_Business_Partner) involved in the project and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
 1. In the field **Sales Representative** pick the name of the responsible company representative.
 1. In the field **Datum Auftragseingang** (*Order received date*), set the date on which the project order was received.
 1. In the field **Projektabschluss** (*Project completion*), set the agreed date until which the project is to be completed.
@@ -37,7 +37,7 @@ In metasfresh, you can create projects and manage them clearly. Apart from gener
 
 ### Record project members
 1. Go to the record tab "Projektkontakt" (*Project Contacts*) at the bottom of the page and click !["Add new"](assets/Add_New_Button.png). An overlay window opens up.
-1. In the field **Business Partner**, enter a part of the name or number of the [business partner](New_Business_Partner) involved in the project and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
+1. In the field **Business Partner**, enter part of the name or number of the [business partner](New_Business_Partner) involved in the project and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
 1. Pick a **Ansprechpartner** (*Contact Partner*) for this business partner.
 1. ***Optional:*** Enter a **Description**.
 1. Pick a **Projektrolle** (*Project Role*), e.g. *Project Manager* or *Project Team Member*.

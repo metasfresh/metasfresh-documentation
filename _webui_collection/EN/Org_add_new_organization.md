@@ -23,7 +23,7 @@ metasfresh offers the possibility to map inter-company cooperations between any 
 
 ### Link a business partner to the organization
 1. Follow these [instructions for adding a new business partner](New_Business_Partner), taking into account the following settings:
-   - Set the newly created **Organisation** at the bottom right. To do so, enter a part of the organization's name into the field and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
+   - Set the newly created **Organisation** at the bottom right. To do so, enter part of the organization's name into the field and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
    - The optional steps are not required.<br><br>
 
    | **Important note:** |
@@ -31,7 +31,7 @@ metasfresh offers the possibility to map inter-company cooperations between any 
    | The location, i.e. **Country** of the business partner is ***absolutely necessary*** for the calculation of prices and VAT! |
 
 1. [Start the action](StartAction#actions-menu) "Link Organization". An overlay window opens up.
-1. Set the newly created **Organisation**. To do so, enter a part of the organization's name into the field and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
+1. Set the newly created **Organisation**. To do so, enter part of the organization's name into the field and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
 1. Pick a **Location**.
  >**Note:** This location is needed for the automatic creation of this organization's main warehouse and for correctly calculating the VAT.
 

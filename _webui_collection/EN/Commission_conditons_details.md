@@ -24,15 +24,15 @@ In the commission conditions, you can determine the commission percentage to be 
  >**Note:** In the case of sales partner hierarchies, the commission points of the higher levels are determined based on the difference between the (gradually reduced) basis points number and the percentage of the commission points of the respective lower levels.
 
 1. The field **Points precision** specifies the number of decimal places to which commission points are rounded when calculated by the system.
-1. In the field **Commission product**, enter a part of the name or number of the [product (e.g., *commission point*) used to specify the unit in which commission points are to be managed and settled](Commission_points_price) and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
+1. In the field **Commission product**, enter part of the name or number of the [product (e.g., *commission point*) used to specify the unit in which commission points are to be managed and settled](Commission_points_price) and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
 
 ### Commission percentage and further details
 1. Go to the record tab "Settings detail" at the bottom of the page and click !["Add new"](assets/Add_New_Button.png). An overlay window opens up.
 1. In the field **SeqNo**, enter a sequence number for commission details.
  >**Note:** The lower the sequence number of a line, the higher its precedence in the presence of similar commission details.
 
-1. ***Optional:*** Select a **Business Partner Group** for which the commission shall be granted. To do so, enter a part of the name of the [business partner group](New_Business_Partner_Group) into the field and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
-1. ***Optional:*** Select a **Product Category** for which the commission shall be granted. To do so, enter a part of the name of the [product category](NewProductCategory) into the field and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
+1. ***Optional:*** Select a **Business Partner Group** for which the commission shall be granted. To do so, enter part of the name of the [business partner group](New_Business_Partner_Group) into the field and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
+1. ***Optional:*** Select a **Product Category** for which the commission shall be granted. To do so, enter part of the name of the [product category](NewProductCategory) into the field and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
  >**Note:** If neither a business partner group nor a product category is specified, the commission details are applied in general.
 
 1. In the field **% of base points**, enter the percentage to be deducted from the basis points number (line amount in the sales order) for the commission.

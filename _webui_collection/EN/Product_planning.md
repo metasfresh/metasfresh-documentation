@@ -22,7 +22,7 @@ In addition, metasfresh's [*material schedule*](Material_schedule_basics) uses t
 ### Configure Planning Data
 1. Open "Product Planning" from the [menu](Menu).
 1. [Create a new planning data entry](New_Record_Window).
-1. In the field **Product**, enter a part of the [product](NewProduct) name or number and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
+1. In the field **Product**, enter part of the [product](NewProduct) name or number and click on the matching result in the <a href="Keyboard_shortcuts_reference#dropdown" title="Dynamic Search Box (Autocompletion)">drop-down list</a>.
 1. Pick a [**Warehouse**](Add_new_warehouse) where the product is kept in store.
 
 #### a) For Purchasing
