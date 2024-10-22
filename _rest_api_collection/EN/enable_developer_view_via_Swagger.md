@@ -13,7 +13,7 @@ In case you want to see the columns behind the fields (independent from your lan
 
 ## Steps
 1. [Open Swagger](How_do_I_browse_the_REST_API_using_Swagger).
-1. Search for `/debug-rest-controller/setShowColumnNamesForCaptionUsingPUT` <br> or run this URL directly <br> `https://<yourserver:port>/app/swagger-ui/index.html#/debug-rest-controller/setShowColumnNamesForCaptionUsingPUT`.
+1. Search for `/debug-rest-controller/setShowColumnNamesForCaptionUsingPUT` <br> or run this URL directly <br> `https://<yourserver:port>/swagger-ui/index.html#/debug-rest-controller/setShowColumnNamesForCaptionUsingPUT`.
 1. Enter the language code `true` into the field **adLanguage**.
 1. Click on "Try it out".
 1. Refresh the metasfresh WebUI browser session to apply the change.
