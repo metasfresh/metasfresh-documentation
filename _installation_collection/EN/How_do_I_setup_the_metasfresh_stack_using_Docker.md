@@ -63,7 +63,9 @@ Install Docker and then the Docker Compose plugin via the official Docker reposi
 
 1. Create the Docker containers.
 
-   `docker-compose build`
+   ```
+   docker compose build
+   ```
 
 1. Now you can start and stop docker with the folowing commands:
 
