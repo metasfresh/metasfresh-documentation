@@ -21,7 +21,7 @@ This manual describes the installation of the following services according to [t
 
 |  | Minimum | Recommended |
 | :--- | :--- | :--- |
-| RAM | 4 GB | 8 GB (increases with db size) |
+| RAM | 4 GB | 8 GB (increases with database size) |
 | CPU | 1 VCPU | 4 VCPU |
 | HDD | 10 GB | 20 GB |
 | OS Recommendation | Linux server | Ubuntu 22.04 |
@@ -29,18 +29,20 @@ This manual describes the installation of the following services according to [t
 ## Installation with Docker
 
 ### Install Docker and Docker Compose
-Install Docker and Docker Compose plugin via the official Docker repository.
+Install Docker and then the Docker Compose plugin via the official Docker repository.
 
 1. <a href="https://docs.docker.com/engine/installation/linux/ubuntu/" title="Install Docker Engine on Ubuntu | docs.docker.com" target="\_blank">Install Docker</a>.
 1. <a href="https://docs.docker.com/compose/install/linux/#install-using-the-repository" title="Install using the repository | docs.docker.com" target="\_blank">Install Docker Compose plugin</a>.
 
 ### Install metasfresh
-1. Clone the metasfresh-docker folder and change into the newly created directory.
+1. Clone the `metasfresh-docker` folder and change into the newly created directory.
 
    ```
    git clone https://github.com/metasfresh/metasfresh-docker.git
    cd metasfresh-docker/
    ```
+
+   This directory contains the `docker-compose.yml` file.
 
 1. Next, with an editor of your choice (e.g., nano, vi) open the `docker-compose.yml` and adapt it as you need it.
  >**Note:** You will find an example for this [at the end of this guide](#example-docker-compose-yml).
@@ -55,9 +57,9 @@ Install Docker and Docker Compose plugin via the official Docker repository.
    ```
    >**Note:** Port `:8080` is only necessary if another port should be used as port 80. <br> See also: [How do I change the WebUI ports for metasfresh-Docker?](How_do_I_change_the_webui_ports_for_metasfresh_docker)
 
-   | **IMPORTANT:** |
+   | **WICHTIG:** |
    | :--- |
-   | If you are using an RPM-based distribution and/or the file `/etc/timezone` is not available on your Docker host, comment out or remove the line `- /etc/timezone:/etc/timezone:ro` from your `docker-compose.yml` file! |
+   | If you are using an **RPM-based distribution** and/or the file `/etc/timezone` is **not available** on your Docker host, comment out or remove the line `- /etc/timezone:/etc/timezone:ro` from your `docker-compose.yml` file! |
 
 1. Create the Docker containers.
 
@@ -68,6 +70,7 @@ Install Docker and Docker Compose plugin via the official Docker repository.
    ```
    #start#
    docker-compose up -d
+
    #stop#
    docker-compose down
    ```
@@ -86,6 +89,7 @@ or
 - [How do I run metasfresh-docker with SSL?](How_do_I_setup_metasfresh_docker_with_ssl)
 
 ## <a name="example-docker-compose-yml">Example docker-compose.yml</a>
+
 ```yml
 db:
   build: db
@@ -164,12 +168,13 @@ webui:
         - "ES_JAVA_OPTS=-Xms128M -Xmx256m"
       restart: always
 ```
+
 ## Making the reports visible for editing purposes
 If you want to make the reports contained in the metasfresh app Docker image editable, you first have to move them outside as a volume in the `docker-compose.yml`.
 
 ```
 # Added new reports volume to be able to
-# to customize the Jasper Reports files
+# customize the Jasper Reports files
   volumes:
     - ./volumes/app/reports:/opt/metasfresh/reports:rw
     - ./volumes/app/log:/opt/metasfresh/log:rw

@@ -26,16 +26,16 @@ Diese Anleitung beschreibt die Installation der folgenden Dienste gemäß [diese
 | HDD | 10 GB | 20 GB |
 | OS Empfehlung | Linux Server | Ubuntu 22.04 |
 
-## Voraussetzungen
+## Installation mittels Docker
 
 ### Docker und Docker Compose installieren
-Installiere Docker über das offizielle Docker Repository und anschließend das Docker-Compose-Plugin.
+Installiere Docker und anschließend das Docker-Compose-Plugin über das offizielle Docker Repository.
+
 1. <a href="https://docs.docker.com/engine/installation/linux/ubuntu/" title="Install Docker Engine on Ubuntu | docs.docker.com" target="\_blank">Docker installieren</a>.
 1. <a href="https://docs.docker.com/compose/install/linux/#install-using-the-repository" title="Install using the repository | docs.docker.com" target="\_blank">Docker-Compose-Plugin installieren</a>.
 
-## metasfresh installieren (mit Docker)
+## metasfresh installieren
 
-### Verzeichnis erstellen
 1. Klone den `metasfresh-docker` Ordner und wechsle in das neu erstellte Verzeichnis.
 
    ```
@@ -43,104 +43,134 @@ Installiere Docker über das offizielle Docker Repository und anschließend das 
    cd metasfresh-docker/
    ```
 
-   In dem Verzeichnis befinden sich die beiden Dateien `docker-compose.yml` und `docker-compose_v3.yml`.
+   In diesem Verzeichnis befindet sich die Datei `docker-compose.yml`.
 
-1. Ersetze die `docker-compose.yml` mit der `docker-compose_v3.yml`, z.B. durch
+1. Öffne als Nächstes mit einem Texteditor deiner Wahl (z.B. nano, vi) die `docker-compose.yml`-Datei und passe sie deinen Anforderungen entsprechend an.
+    >**Hinweis:** Ein Beispiel hierfür findest du [am Ende dieser Anleitung](#beispiel-docker-compose-yml).
 
-    ```
-    cp docker-compose_v3.yml docker-compose.yml
-    ```
+1. Kommentiere `environment` und `http://example.com:8080` ein und ersetze `example.com:8080` durch die URL und den Port, an dem der Server vom Browser aus erreichbar sein soll.
 
-### Docker-Compose anpassen (DNS und Ports)
-1. Öffne als nächstes mit einem Texteditor deiner Wahl (z.B. Nano, vi) die `docker-compose.yml`-Datei und passe diese deinen Anforderungen entsprechend an.<br>**Alternativ** kannst du dich auch an unserem **Beispiel** [am Ende dieser Anleitung](#beispiel-docker-compose-yml) orientieren.
-1. Lege fest, unter welcher **URL das Webinterface** aufgerufen werden soll. Die entsprechenden **DNS-Einträge** müssen entweder real existieren oder es müssen auf den beteiligten Systemen entsprechende Einträge in der **Hosts-Datei** gesetzt werden.<br>Für unser Beispiel verwenden wir: `http://example.com`.
-1. Kommentiere `environment` und `http://example.com:8080` ein.
-1. Ersetzte `example.com:8080` durch die URL und den Port, unter denen der Server vom Browser aus erreichbar sein soll. In unserem Beispiel setzen wir den Wert also auf `WEBAPI_URL=http://example.com:8080`.
-  >**Wichtig:** Der hier gesetzte `WEBAPI_URL`-Wert darf **keinen Slash** am Ende enthalten.
-
-1. Passe nun den Port unter `ports: "80:80"` entsprechend an auf `8080:80`, damit der oben gesetzte Port benutzt wird.
-1. Kommentiere den Port 443 aus.
-
-#### Ergebnis
-- Die Datei sollte nun wie folgt aussehen:
-
-    ```
-       ...
-      webui:
-        build: webui
-        links:
-          - webapi:webapi
-        ports:
-          - "8080:80"
-        #  - "443:443"
-        restart: always
-        volumes:
-          - /etc/localtime:/etc/localtime:ro
-          - /etc/timezone:/etc/timezone:ro
-        #uncomment and set to URL where metasfresh will be available from browsers
-        environment:
-          - WEBAPI_URL=http://example.com:8080
-       ...
-    ```
-   >**Hinweis:** Ein anderer Port, wie z.B. `:8080`, wird dann benötigt, wenn Port 80 nicht verwendet werden soll. In der Regel würde man noch einen Proxy davorschalten, für den Port 80/443 dann ja bereits reserviert ist.<br>Siehe hierzu auch: [Wie ändere ich die WebUI-Ports für metasfresh-Docker?](Wie_aendere_ich_die_ports_fuer_webui_in_docker)
+   ```
+   ...
+   environment:
+     - WEBAPI_URL=http://example.com:8080
+   ...
+   ```
+   >**Hinweis:** Port `:8080` wird nur dann benötigt, wenn ein anderer Port als Port 80 verwendet werden soll. <br> Siehe hierzu auch: [Wie ändere ich die WebUI-Ports für metasfresh-Docker?](Wie_aendere_ich_die_ports_fuer_webui_in_docker)
 
    | **WICHTIG:** |
    | :--- |
-   | Solltest Du eine **RPM-basierende Distribution** einsetzen und/oder auf Deinem Host die Datei **`/etc/timezone` nicht vorfinden**, lösche oder kommentiere die Zeile `- /etc/timezone:/etc/timezone:ro` aus deiner `docker-compose.yml` aus! |
+   | Solltest Du eine **RPM-basierende Distribution** einsetzen und/oder auf Deinem Docker-Host die Datei **`/etc/timezone` nicht vorfinden**, lösche oder kommentiere die Zeile `- /etc/timezone:/etc/timezone:ro` aus deiner `docker-compose.yml` aus! |
 
-### Docker Container erstellen
 1. Erstelle die Docker Container.
 
     ```
     docker compose build
     ```
 
-1. Mit folgenden Befehlen kann Docker gestartet und ggf. wieder gestoppt werden.
-   >**Hinweis:** Beim ersten Start wird es sehr wahrscheinlich **ein paar Minuten dauern**, bis die Datenbank initialisiert ist und die Services verfügbar sind. Bei der erstmaligen Initialisierung können es durchaus 5-10 Minuten sein. Darauf folgende Starts sollten deutlich weniger Zeit benötigen.
+1. Mit den folgenden Befehlen kann Docker nun gestartet und wieder gestoppt werden:
 
    ```
    #starten#
-   docker compose up -d
+   docker-compose up -d
 
    #stoppen#
-   docker compose down
+   docker-compose down
    ```
+   >**Hinweis:** Beim ersten Start des Containers kann es einige Minuten dauern, bis die Datenbank gefüllt und der Dienst verfügbar ist.
 
 ## Zugriff
 Nach erfolgreicher Installation kannst Du über folgende URLs auf das metasfresh WebUI zugreifen:
 
-- `http://example.com:8080`
+- `http://example.com`
 
 oder
 
-- `http://example.com:PORT` (falls ein anderer Port gesetzt wurde).
-
-## Wichtig: Weitere Konfigurationswerte in der Datenbank setzen
-1. Folgende Konfigurationswerte müssen gesetzt werden:
-
-    ```
-    docker exec -u postgres metasfresh-docker-db-1 psql -d metasfresh -c "UPDATE AD_SysConfig SET Value='http://example.com:8080' WHERE Name='webui.frontend.url'"
-    ```
-
-    ```
-    docker exec -u postgres metasfresh-docker-db-1 psql -d metasfresh -c "UPDATE AD_SysConfig SET Value='http://app:8282/adempiereJasper/ReportServlet' WHERE Name ilike '%de.metas.adempiere.report.jasper.JRServerServlet%';"
-    ```
-
-    ```
-    docker exec -u postgres metasfresh-docker-db-1 psql -d metasfresh -c "UPDATE AD_SysConfig SET Value='http://app:8282/adempiereJasper/BarcodeServlet' WHERE Name ilike '%de.metas.adempiere.report.barcode.BarcodeServlet%';"
-    ```
-
-1. **Neustart!** Anschließend muss die Instanz noch ein letztes Mal **neugestartet** werden:
-
-    ```
-    docker compose down && docker compose up -d
-    ```
-
-## Beispiel docker-compose.yml
-🖱️ [Hier klicken, um das Beispiel anzusehen](#beispiel-docker-compose-yml). 👀
+- `http://example.com:PORT` (falls der Standardport nicht 80 ist).
 
 ## Nächste Schritte
 - [Wie führe ich metasfresh-docker mit SSL aus?](Wie_richte_ich_ssl_in_metasfresh_docker_ein)
+
+## <a name="beispiel-docker-compose-yml">Beispiel docker-compose.yml</a>
+
+```yml
+db:
+  build: db
+  restart: always
+  volumes:
+    - ./volumes/db/data:/var/lib/postgresql/data
+    - ./volumes/db/log:/var/log/postgresql
+    - /etc/localtime:/etc/localtime:ro
+    - /etc/timezone:/etc/timezone:ro
+  environment:
+    - METASFRESH_USERNAME=metasfresh
+    - METASFRESH_PASSWORD=metasfresh
+    - METASFRESH_DBNAME=metasfresh
+    - DB_SYSPASS=System
+app:
+  build: app
+  hostname: app
+  links:
+    - db:db
+    - search:search
+  expose:
+    - "8282"
+    - "61616"
+  restart: always
+  volumes:
+    - ./volumes/app/log:/opt/metasfresh/log:rw
+    - /etc/localtime:/etc/localtime:ro
+    - /etc/timezone:/etc/timezone:ro
+  environment:
+    - METASFRESH_HOME=/opt/metasfresh
+webapi:
+  build: webapi
+  links:
+    - app:app
+    - db:db
+    - search:search
+  #for accessing the api directly (eg. for debugging or connecting your
+  #app to the metasfresh api) uncomment following lines:
+  #ports:
+    #- "8080:8080"
+  restart: always
+  volumes:
+    - ./volumes/webapi/log:/opt/metasfresh-webui-api/log:rw
+    - /etc/localtime:/etc/localtime:ro
+    - /etc/timezone:/etc/timezone:ro
+webui:
+  build: webui
+  links:
+    - webapi:webapi
+  ports:
+    - "80:80"
+    - "443:443"
+  restart: always
+  volumes:
+    - /etc/localtime:/etc/localtime:ro
+    - /etc/timezone:/etc/timezone:ro
+  #uncomment and set to URL where metasfresh will be available from browsers
+  environment:
+    - WEBAPI_URL=http://myserver.com
+    search:
+      build: search
+      ulimits:
+        memlock:
+          soft: -1
+          hard: -1
+        nofile:
+          soft: 65536
+          hard: 65536
+      cap_add:
+        - IPC_LOCK
+      volumes:
+        - ./volumes/search/data:/usr/share/elasticsearch/data
+        - /etc/localtime:/etc/localtime:ro
+        - /etc/timezone:/etc/timezone:ro
+      environment:
+        - "ES_JAVA_OPTS=-Xms128M -Xmx256m"
+      restart: always
+```
 
 ## Sichtbar machen der Reports zwecks Bearbeitung
 Möchte man die Reports, welche im metasfresh App-Docker-Image enthalten sind, editierbar machen, so muss man diese im `docker-compose.yml` zuerst als Volume nach außen legen.
@@ -157,153 +187,11 @@ Möchte man die Reports, welche im metasfresh App-Docker-Image enthalten sind, e
 
 | **ACHTUNG:** |
 | :--- |
-| Hier liegen natürlich die kompilierten Jasper-Dateien. Man muss sich also zum Ändern der Reports zuerst das Repository mit den Quellen der Reports ziehen und dann mit Jasper Reports kompilieren. |
+| Hier befinden sich natürlich die kompilierten Jasper-Dateien. Man muss sich also zum Ändern der Reports zuerst das Repository mit den Quellen der Reports ziehen und dann mit Jasper Reports kompilieren. |
 
 ## Visualisierung der Docker-Container
 In diesem <a href="https://forum.metasfresh.org/t/docker-gui-recommendation" title="Docker GUI recommendation | forum.metasfresh.org" target="\_blank">Forumsbeitrag</a> (*auf Englisch*) über dieses Thema werden zwei weit verbreitete Tools empfohlen.
 
 ## Feedback
-Bei Fragen oder Problemen kannst Du uns gerne in unserem offiziellen **Community Forum** um Unterstützung bitten:
+Bei Fragen oder Problemen kannst du in unserem offiziellen **Community Forum** gerne um Unterstützung bitten:
 - <a href="http://forum.metasfresh.org" title="metasfresh Community Forum | forum.metasfresh.org" target="\_blank">forum.metasfresh.org</a>
-
-## <a name="beispiel-docker-compose-yml">Beispiel docker-compose.yml</a>
-
-```yml
-version: '3'
-services:
-  db:
-    build: db
-    shm_size: 256m
-    restart: always
-    volumes:
-      - ./volumes/db/data:/var/lib/postgresql/data
-      - ./volumes/db/log:/var/log/postgresql
-      - /etc/localtime:/etc/localtime:ro
-      - /etc/timezone:/etc/timezone:ro
-    environment:
-      - METASFRESH_USERNAME=metasfresh
-      - METASFRESH_PASSWORD=metasfresh
-      - METASFRESH_DBNAME=metasfresh
-      - DB_SYSPASS=System
-      - POSTGRES_PASSWORD=ip2LmNzXX8p8iXg9lZTWEJ9524kQDbXFudB7LR03T-xK9fLweX3TLMkA2AYcEiaS
-    logging:
-      options:
-        max-size: '30m'
-        max-file: '3'
-      driver: json-file
-  app:
-    build: app
-    hostname: app
-    links:
-      - db:db
-      - rabbitmq:rabbitmq
-      - search:search
-    expose:
-      - "8282"
-      - "8788"
-    restart: always
-    volumes:
-      - ./volumes/app/log:/opt/metasfresh/log:rw
-      - ./volumes/app/heapdump:/opt/metasfresh/heapdump:rw
-      - ./volumes/app/external-lib:/opt/metasfresh/external-lib:rw
-      - /etc/localtime:/etc/localtime:ro
-      - /etc/timezone:/etc/timezone:ro
-    environment:
-      - METASFRESH_HOME=/opt/metasfresh
-    logging:
-      options:
-        max-size: '30m'
-        max-file: '3'
-      driver: json-file
-  webapi:
-    build: webapi
-    links:
-      - app:app
-      - db:db
-      - rabbitmq:rabbitmq
-      - search:search
-    expose:
-      - "8789"
-  # to access the webui-api directly
-  # (eg. for debugging or connecting your app to the metasfresh api)
-  # uncomment following port:
-    #ports:
-     #- "8080:8080"
-    restart: always
-    volumes:
-      - ./volumes/webapi/log:/opt/metasfresh-webui-api/log:rw
-      - ./volumes/webapi/heapdump:/opt/metasfresh-webui-api/heapdump:rw
-      - /etc/localtime:/etc/localtime:ro
-      - /etc/timezone:/etc/timezone:ro
-    logging:
-      options:
-        max-size: '30m'
-        max-file: '3'
-      driver: json-file
-  webui:
-    build: webui
-    links:
-      - webapi:webapi
-    ports:
-      - "8080:80"
-      # - "443:443"
-    restart: always
-    volumes:
-      - /etc/localtime:/etc/localtime:ro
-      - /etc/timezone:/etc/timezone:ro
-    #uncomment and set to URL where metasfresh will be available from browsers
-    #environment:
-      #- WEBAPI_URL=http://example.com:8080
-    logging:
-      options:
-        max-size: '30m'
-        max-file: '3'
-      driver: json-file
-  rabbitmq:
-    build: rabbitmq
-    expose:
-      - "5672"
-    restart: always
-    volumes:
-      - ./volumes/rabbitmq/log:/var/log/rabbitmq/log
-      - /etc/localtime:/etc/localtime:ro
-      - /etc/timezone:/etc/timezone:ro
-    environment:
-      RABBITMQ_DEFAULT_USER: "metasfresh"
-      RABBITMQ_DEFAULT_PASS: "metasfresh"
-      RABBITMQ_DEFAULT_VHOST: "/"
-    logging:
-      options:
-        max-size: '30m'
-        max-file: '3'
-      driver: json-file
-  search:
-    build: search
-    ulimits:
-      memlock:
-        soft: -1
-        hard: -1
-      nofile:
-        soft: 65536
-        hard: 65536
-    cap_add:
-      - IPC_LOCK
-  # to access the search api directly
-  # (e.g. if you did docker-compose up search to have the deachboard with your locally running metasfresh services)
-  # uncomment following ports:
-  # ports:
-  #   - "9200:9200"
-  #   - "9300:9300"
-    volumes:
-      - ./volumes/search/data:/usr/share/elasticsearch/data
-      - /etc/localtime:/etc/localtime:ro
-      - /etc/timezone:/etc/timezone:ro
-    environment:
-      - "ES_JAVA_OPTS=-Xms128M -Xmx256m"
-    restart: always
-    logging:
-      options:
-        max-size: '30m'
-        max-file: '3'
-      driver: json-file
-```
