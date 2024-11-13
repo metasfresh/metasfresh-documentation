@@ -9,6 +9,12 @@ lang: en
 
 ## SELECT Examples
 
+### Find Window for Table Name
+
+```SQL
+select * from ad_table_windows_v where tablename='C_ValidCombination';
+```
+
 ### Window including tabs, fields and Web UI Config
 ```
 SELECT
