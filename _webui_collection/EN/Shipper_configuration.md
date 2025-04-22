@@ -24,14 +24,18 @@ metasfresh currently offers interfaces for shipping with the following service p
 1. Go to the record tab of the respective shipper (e.g., "DPD Configuration") at the bottom of the page and click !["Add new"](assets/Add_New_Button.png). An overlay window opens up.
 
 ### <a name="dhl-configuration">DHL Configuration</a>
-#### Prerequisites:
-1. Have an account [here](https://developer.dhl.com/) and create an application for `Parcel DE Shipping`
-2. Create a DHL business account [here](https://geschaeftskunden.dhl.de/)
+
+#### Requirements:
+1. Register for an account at the <a href="https://developer.dhl.com/" title="DHL API Developer Portal" target="\_blank">DHL API Developer Portal</a> and create an application for `Parcel DE Shipping`.
+1. Create a <a href="https://geschaeftskunden.dhl.de/" title="DHL Business Client Portal" target="\_blank">DHL business account here</a>.
+
 #### Setup
-1. In the field **DHL API URL**, enter the URL for logging on to the DHL API. Production URL: https://api-eu.dhl.com/
+1. In the field **DHL API URL**, enter the URL for logging on to the DHL API.
+    >**Note:** Production URL: https://api-eu.dhl.com/
+
 1. Enter the **Application ID** provided by DHL for setup. This will be the `API key` in the application.
 1. Enter the **Application Token** provided by DHL for setup. This will be the `API Secret` in the application.
-1. Enter the **Account Number** provided by DHL for setup. This is the business account number. It will end in 0101 for domestic shipping and 5301 for international shipping.
+1. Enter the **Account Number** provided by DHL for setup. This is the business account number. It will end in `0101` for domestic shipping and `5301` for international shipping.
 1. Enter the **Username** for account login.
 1. In the field **Signature**, enter the password for account login.
 1. Click "Done" to close the overlay window and add the configurations to the list.
