@@ -11,7 +11,12 @@ ref: viewmodes
 ---
 
 ## <a name="listenansicht">Listenansicht</a>
-Sämtliche Fenster in metasfresh öffnen sich prinzipiell zuerst in der Listenansicht. Dort sind Bearbeitungen nicht möglich, sondern nur das [Filtern](Filterfunktion), [Selektieren](AuswahlBelege) und Sortieren von Datensätzen.
+Sämtliche Fenster in metasfresh öffnen sich grundsätzlich zuerst in der Listenansicht. Dort sind Bearbeitungen nicht möglich, sondern nur das [Filtern](Filterfunktion), [Selektieren](AuswahlBelege) und Sortieren von Datensätzen.
+
+### Gefilterte Listen statt individueller Fenster
+metasfresh bietet die Flexibilität, alle zentral eindeutig verwalteten Daten in beliebiger, individuell definierter Form anzuzeigen, ob in Fenstern, Formularen, Registerkarten, auf Belegen usw. Die Listenansicht zählt ebenfalls dazu und ermöglicht dank der dort integrierten [Filterfunktion](Filterfunktion) zudem eine vielfältige Nutzung derselben Ansicht zur Anzeige ausgewählter Daten. Dies erspart die Ergänzung eines neuen Fensters und damit eines neuen Menüpunktes, wodurch wiederum das ganze System schlank und übersichtlich gehalten wird. Des Weiteren lassen sich auf diese Weise ausgewählte [Daten schnell und einfach aus dem System exportieren](Datenexport_aus_metasfresh) (z.B. für **Berichte/Reports**).
+
+Durch Verwendung der Filterfunktion kann beispielsweise das Fenster "[Geschäftspartner](Neuer_Geschaeftspartner)" zur Anzeige von ausschließlich [Kunden](Neuer_Geschaeftspartner_Kunde), [Lieferanten](Neuer_Geschaeftspartner_Lieferant) oder anderer Eigenschaftskombinationen genutzt werden, ohne separate Fenster dafür erforderlich zu machen.
 
 ## <a name="einzelansicht">Einzelansicht (Detailansicht)</a>
 Bei einem Doppelklick auf einen Eintrag in der Listenansicht oder beim [Anlegen eines neuen Eintrags](Neuer_Datensatz_Fenster_Webui) wechselt metasfresh in die Detailansicht, in der die Daten bearbeitet werden können.
