@@ -19,13 +19,13 @@ metasfresh currently offers interfaces for shipping with the following service p
 
 ## Steps
 1. Open "Shipper" from the [menu](Menu).
-1. Open the entry of an existing shipper in the [detailed view](ViewModes#detailed-view), e.g., "DPD".
+1. Open the entry of an existing shipper in the [detailed view](ViewModes#detailed-view), e.g., "DHL".
 1. Enter the **Tracking URL** provided to you by the shipping service.
-1. Go to the record tab of the respective shipper (e.g., "DPD Configuration") at the bottom of the page and click !["Add new"](assets/Add_New_Button.png). An overlay window opens up.
+1. Go to the record tab of the respective shipper (e.g., "DHL Configuration") at the bottom of the page and click !["Add new"](assets/Add_New_Button.png). An overlay window opens up.
 
 ### <a name="dhl-configuration">DHL Configuration</a>
 
-#### Requirements:
+#### Requirements
 1. Register for an account at the <a href="https://developer.dhl.com/" title="DHL API Developer Portal" target="\_blank">DHL API Developer Portal</a> and create an application for `Parcel DE Shipping`.
 1. Create a <a href="https://geschaeftskunden.dhl.de/" title="DHL Business Client Portal" target="\_blank">DHL business account here</a>.
 

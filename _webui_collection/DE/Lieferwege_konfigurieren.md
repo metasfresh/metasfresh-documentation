@@ -19,15 +19,23 @@ metasfresh verfügt derzeit über Schnittstellen für den Versand mit folgenden 
 
 ## Schritte
 1. [Gehe ins Menü](Menu) und öffne das Fenster "Lieferweg".
-1. Öffne den Eintrag eines bestehenden Lieferweges in der [Einzelansicht](Ansichten#einzelansicht), z.B. "DPD".
+1. Öffne den Eintrag eines bestehenden Lieferweges in der [Einzelansicht](Ansichten#einzelansicht), z.B. "DHL".
 1. Trage die **Nachverfolgungs-URL** ein, die Dir vom Versanddienstleister bereitgestellt wurde.
-1. Gehe zur Registerkarte des jeweiligen Lieferweges (z.B. "DPD Konfiguration") unten auf der Seite und klicke auf !["Neu hinzufügen"](assets/Neu_hinzufuegen_Button.png). Es öffnet sich ein Overlay-Fenster.
+1. Gehe zur Registerkarte des jeweiligen Lieferweges (z.B. "DHL Konfiguration") unten auf der Seite und klicke auf !["Neu hinzufügen"](assets/Neu_hinzufuegen_Button.png). Es öffnet sich ein Overlay-Fenster.
 
 ### <a name="dhl-konfiguration">DHL Konfiguration</a>
-1. Trage in das Feld **DHL API URL** die URL für die Anmeldung bei der DHL-Anwendungsschnittstelle ein.
-1. Trage die **Anwendungs-ID** ein, die Du von DHL für die Einrichtung erhalten hast.
-1. Trage das **Anwendungs-Token** ein, das Du von DHL für die Einrichtung erhalten hast.
-1. Trage die **Kontonummer** ein, die Du von DHL für die Einrichtung erhalten hast.
+
+#### Voraussetzungen
+1. Registriere dich über das <a href="https://developer.dhl.com/" title="DHL API Developer Portal" target="\_blank">DHL API Entwickler-Portal</a> und erstelle eine Applikation für `Parcel DE Shipping`.
+1. Erstelle ein Konto über das <a href="https://geschaeftskunden.dhl.de/" title="DHL Geschäftskundenportal" target="\_blank">DHL Geschäftskundenportal</a>.
+
+#### Einrichtung
+1. Trage in das Feld **DHL API URL** die URL für die Anmeldung bei der DHL-Anwendungsschnittstelle (API) ein.
+    >**Note:** Produktions-URL: [https://api-eu.dhl.com/](https://api-eu.dhl.com/)
+
+1. Trage die **Anwendungs-ID** ein, die Du von DHL für die Einrichtung erhalten hast. Diese entspricht dem `API-Schlüssel` in der Applikation.
+1. Trage das **Anwendungs-Token** ein, das Du von DHL für die Einrichtung erhalten hast. Dieses entspricht dem `API-Secret` in der Applikation.
+1. Trage die **Kontonummer** ein, die Du von DHL für die Einrichtung erhalten hast. Diese entspricht der Geschäftskontonummer. Sie endet mit `0101` für den Inlandsversand und mit `5301` für den internationalen Versand.
 1. Trage in das Feld **Nutzer-ID/Login** Deinen Benutzernamen zur Kontoanmeldung ein.
 1. Trage in das Feld **Unterschrift** Dein Passwort zur Kontoanmeldung ein.
 1. Klicke auf "Bestätigen", um das Overlay-Fenster zu schließen und die Konfigurationen zur Liste hinzuzufügen.
