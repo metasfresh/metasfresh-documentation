@@ -31,7 +31,7 @@ metasfresh currently offers interfaces for shipping with the following service p
 
 #### Setup
 1. In the field **DHL API URL**, enter the URL for logging on to the DHL API.
-    >**Note:** Production URL: https://api-eu.dhl.com/
+    >**Note:** Production URL: <a href="https://api-eu.dhl.com/" title="DHL API Developer Portal &#124; dhl.com" target="\_blank">https://api-eu.dhl.com/</a>
 
 1. Enter the **Application ID** provided by DHL for setup. This will be the `API key` in the application.
 1. Enter the **Application Token** provided by DHL for setup. This will be the `API Secret` in the application.
