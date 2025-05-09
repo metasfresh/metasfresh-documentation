@@ -33,7 +33,7 @@ In order to **set up MS Entra to integrate metasfresh ERP using the MS Graph ser
 
     <details><summary><small><em>Click to view screenshot</em></small></summary>
 
-    <kbd><img src="assets/MS Entra & Graph resources/01 - App registration.png" alt="Fig.: New app registration"></kbd>
+    <kbd><img src="assets/MS_Entra_and_Graph_resources/01_App_registration.png" alt="Fig.: New app registration"></kbd>
 
     </details>
 
@@ -41,16 +41,16 @@ In order to **set up MS Entra to integrate metasfresh ERP using the MS Graph ser
 
     <details><summary><small><em>Click to view screenshot</em></small></summary>
 
-    <kbd><img src="assets/MS Entra & Graph resources/02 - App registration - name.png" alt="Fig.: App registration options"></kbd>
+    <kbd><img src="assets/MS_Entra_and_Graph_resources/02_App_registration_name.png" alt="Fig.: App registration options"></kbd>
 
     </details>
 
-1. Click !['Register'](assets/MS Entra & Graph resources/Register button blue.png) to save the app settings.
+1. Click !['Register'](assets/MS_Entra_and_Graph_resources/Register_button_blue.png) to save the app settings.
 1. Go to "Overview" to see the app information such as display name, app (client) ID, directory (tenant) ID, etc.
 
     <details><summary><small><em>Click to view screenshot</em></small></summary>
 
-    <kbd><img src="assets/MS Entra & Graph resources/03 - App registration - registered_cropped.png" alt="Fig.: Overview registered app details"></kbd>
+    <kbd><img src="assets/MS_Entra_and_Graph_resources/03_App_registration_registered_cropped.png" alt="Fig.: Overview registered app details"></kbd>
 
     </details>
 
@@ -59,7 +59,7 @@ In order to **set up MS Entra to integrate metasfresh ERP using the MS Graph ser
 
     <details><summary><small><em>Click to view screenshot</em></small></summary>
 
-    <kbd><img src="assets/MS Entra & Graph resources/04 - App registration - certificates & secrets.png" alt="Fig.: Add new client secret"></kbd>
+    <kbd><img src="assets/MS_Entra_and_Graph_resources/04_App_registration_certificates_and_secrets.png" alt="Fig.: Add new client secret"></kbd>
 
     </details>
 
@@ -67,25 +67,25 @@ In order to **set up MS Entra to integrate metasfresh ERP using the MS Graph ser
 
     <details><summary><small><em>Click to view screenshot</em></small></summary>
 
-    <kbd><img src="assets/MS Entra & Graph resources/05 - certificates & secrets - add client secret_cropped.png" alt="Fig.: Client secret fields"></kbd>
+    <kbd><img src="assets/MS_Entra_and_Graph_resources/05_certificates_and_secrets_add_client_secret_cropped.png" alt="Fig.: Client secret fields"></kbd>
 
     </details>
 
     >**Note:** If you want to set a custom expiry date, keep in mind that the secret's maximum expiration time is 2 years.
     <details><summary><small><em>Click to view screenshot</em></small></summary>
-    <kbd><img src="assets/MS Entra & Graph resources/16 - Client Secret Expiry Date.png" alt="Fig.: Maximum expiration time of client secret"></kbd>
+    <kbd><img src="assets/MS_Entra_and_Graph_resources/16_Client_Secret_Expiry_Date.png" alt="Fig.: Maximum expiration time of client secret"></kbd>
     </details>
 
 | **Important note: Note down the Secret!** |
 | :--- |
-| Client secret values cannot be viewed, except for immediately after creation. Be sure to **save the secret when created before leaving the page**.<br><details><summary><small><em>Click to view screenshot</em></small></summary><kbd><img src="assets/MS Entra & Graph resources/06 - certificates & secrets - client secret.png" alt="Fig.: Client secret info"></kbd></details> |
+| Client secret values cannot be viewed, except for immediately after creation. Be sure to **save the secret when created before leaving the page**.<br><details><summary><small><em>Click to view screenshot</em></small></summary><kbd><img src="assets/MS_Entra_and_Graph_resources/06_certificates_and_secrets_client_secret.png" alt="Fig.: Client secret info"></kbd></details> |
 
 ### Add API Permissions
 1. Go to "API permissions" and click **Add a permission**. An overlay window "Request API permissions" opens up.
 
     <details><summary><small><em>Click to view screenshot</em></small></summary>
 
-    <kbd><img src="assets/MS Entra & Graph resources/07 - API permissions.png" alt="Fig.: Add API permissions"></kbd>
+    <kbd><img src="assets/MS_Entra_and_Graph_resources/07_API_permissions.png" alt="Fig.: Add API permissions"></kbd>
 
     </details>
 
@@ -93,7 +93,7 @@ In order to **set up MS Entra to integrate metasfresh ERP using the MS Graph ser
 
     <details><summary><small><em>Click to view screenshot</em></small></summary>
 
-    <kbd><img src="assets/MS Entra & Graph resources/08 - API permissions - request permissions MS Graph.png" alt="Fig.: Microsoft Graph API"></kbd>
+    <kbd><img src="assets/MS_Entra_and_Graph_resources/08_API_permissions_request_permissions_MS_Graph.png" alt="Fig.: Microsoft Graph API"></kbd>
 
     </details>
 
@@ -101,15 +101,15 @@ In order to **set up MS Entra to integrate metasfresh ERP using the MS Graph ser
 
     <details><summary><small><em>Click to view screenshot</em></small></summary>
 
-    <kbd><img src="assets/MS Entra & Graph resources/09 - API permissions - request permissions - app permissions_cropped.png" alt="Fig.: Microsoft Graph API app permissions"></kbd>
+    <kbd><img src="assets/MS_Entra_and_Graph_resources/09_API_permissions_request_permissions_app_permissionss_cropped.png" alt="Fig.: Microsoft Graph API app permissions"></kbd>
 
     </details>
 
-1. In the search box under "Select permissions", search for `mail.send`, select the homonymous option from the results and click !['Add permissions'](assets/MS Entra & Graph resources/Add permissions button blue.png).
+1. In the search box under "Select permissions", search for `mail.send`, select the homonymous option from the results and click !['Add permissions'](assets/MS_Entra_and_Graph_resources/Add_permissions_button_blue.png).
 
     <details><summary><small><em>Click to view screenshot</em></small></summary>
 
-    <kbd><img src="assets/MS Entra & Graph resources/10 - API permissions - request permissions - mail send_cropped.png" alt="Fig.: Microsoft Graph API - select mail.send permission"></kbd>
+    <kbd><img src="assets/MS_Entra_and_Graph_resources/10_API_permissions_request_permissions_mail_send_cropped.png" alt="Fig.: Microsoft Graph API - select mail.send permission"></kbd>
 
     </details>
 
@@ -118,7 +118,7 @@ After adding new API permissions, you need to grant them for your organization.
 
 <details><summary><small><em>Click to view screenshot</em></small></summary>
 
-<kbd><img src="assets/MS Entra & Graph resources/11 - API permissions - NOT granted.png" alt="Fig.: Microsoft Graph API - permissions not granted"></kbd>
+<kbd><img src="assets/MS_Entra_and_Graph_resources/11_API_permissions_NOT_granted.png" alt="Fig.: Microsoft Graph API - permissions not granted"></kbd>
 
 </details>
 
@@ -126,7 +126,7 @@ After adding new API permissions, you need to grant them for your organization.
 
     <details><summary><small><em>Click to view screenshot</em></small></summary>
 
-    <kbd><img src="assets/MS Entra & Graph resources/12 - API permissions - grant permissions.png" alt="Fig.: Microsoft Graph API - Grant admin consent"></kbd>
+    <kbd><img src="assets/MS_Entra_and_Graph_resources/12_API_permissions_grant_permissions.png" alt="Fig.: Microsoft Graph API - Grant admin consent"></kbd>
 
     </details>
 
@@ -134,7 +134,7 @@ After adding new API permissions, you need to grant them for your organization.
 
     <details><summary><small><em>Click to view screenshot</em></small></summary>
 
-    <kbd><img src="assets/MS Entra & Graph resources/13 - API permissions - grant permissions YES.png" alt="Fig.: Microsoft Graph API - Confirm granting admin consent"></kbd>
+    <kbd><img src="assets/MS_Entra_and_Graph_resources/13_API_permissions_grant_permissions_YES.png" alt="Fig.: Microsoft Graph API - Confirm granting admin consent"></kbd>
 
     </details>
 
@@ -142,7 +142,7 @@ After adding new API permissions, you need to grant them for your organization.
 
     <details><summary><small><em>Click to view screenshot</em></small></summary>
 
-    <kbd><img src="assets/MS Entra & Graph resources/14 - API permissions - permission GRANTED.png" alt="Fig.: Microsoft Graph API - Permissions granted successfully"></kbd>
+    <kbd><img src="assets/MS_Entra_and_Graph_resources/14_API_permissions_permission_GRANTED.png" alt="Fig.: Microsoft Graph API - Permissions granted successfully"></kbd>
 
     </details>
 
@@ -151,7 +151,7 @@ After successfully completing all steps described above, you will find the infor
 
 <details><summary><small><em>Click to view screenshot</em></small></summary>
 
-<kbd><img src="assets/MS Entra & Graph resources/15 - Overview IDs.png" alt="Fig.: Overview IDs"></kbd>
+<kbd><img src="assets/MS_Entra_and_Graph_resources/15_Overview_IDs.png" alt="Fig.: Overview IDs"></kbd>
 
 </details>
 
