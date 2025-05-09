@@ -43,7 +43,7 @@ In order to **set up MS Entra to integrate metasfresh ERP using the MS Graph ser
 
     <kbd><img src="assets/MS_Entra_and_Graph_resources/02_App_registration_name.png" alt="Fig.: App registration options"></kbd>
 
-    </details>
+    </details><br>
 
 1. Click !['Register'](assets/MS_Entra_and_Graph_resources/Register_button_blue.png) to save the app settings.
 1. Go to "Overview" to see the app information such as display name, app (client) ID, directory (tenant) ID, etc.
@@ -76,9 +76,18 @@ In order to **set up MS Entra to integrate metasfresh ERP using the MS Graph ser
     <kbd><img src="assets/MS_Entra_and_Graph_resources/16_Client_Secret_Expiry_Date.png" alt="Fig.: Maximum expiration time of client secret"></kbd>
     </details>
 
-| **Important note: Note down the Secret!** |
-| :--- |
-| Client secret values cannot be viewed, except for immediately after creation. Be sure to **save the secret when created before leaving the page**.<br><details><summary><small><em>Click to view screenshot</em></small></summary><kbd><img src="assets/MS_Entra_and_Graph_resources/06_certificates_and_secrets_client_secret.png" alt="Fig.: Client secret info"></kbd></details> |
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left"><strong>Important note: Note down the Secret!</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">Client secret values cannot be viewed, except for immediately after creation. Be sure to <strong>save the secret when created before leaving the page</strong>.<br><br><details><summary><small><em>Click to view screenshot</em></small></summary><kbd><img src="assets/MS_Entra_and_Graph_resources/06_certificates_and_secrets_client_secret.png" alt="Fig.: Client secret info"></kbd></details></td>
+    </tr>
+  </tbody>
+</table>
 
 ### Add API Permissions
 1. Go to "API permissions" and click **Add a permission**. An overlay window "Request API permissions" opens up.
