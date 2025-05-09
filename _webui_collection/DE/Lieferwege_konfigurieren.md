@@ -31,7 +31,7 @@ metasfresh verfügt derzeit über Schnittstellen für den Versand mit folgenden 
 
 #### Einrichtung
 1. Trage in das Feld **DHL API URL** die URL für die Anmeldung bei der DHL-Anwendungsschnittstelle (API) ein.
-    >**Note:** Produktions-URL: [https://api-eu.dhl.com/](https://api-eu.dhl.com/)
+    >**Note:** Produktions-URL: <a href="https://api-eu.dhl.com/" title="DHL API Entwickler-Portal &#124; dhl.com" target="\_blank">https://api-eu.dhl.com/</a>
 
 1. Trage die **Anwendungs-ID** ein, die Du von DHL für die Einrichtung erhalten hast. Diese entspricht dem `API-Schlüssel` in der Applikation.
 1. Trage das **Anwendungs-Token** ein, das Du von DHL für die Einrichtung erhalten hast. Dieses entspricht dem `API-Secret` in der Applikation.
