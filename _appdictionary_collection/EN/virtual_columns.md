@@ -57,7 +57,32 @@ limit 1
 
 ## Dos and Don't
 1. When using `select` statements, add parentheses `()` around them, e.g., *`(select value from other table where...)`*.
-1. Never use slashes `/` in column names even though they are virtual.
+2. Never use slashes `/` in column names even though they are virtual.
+3. **Make sure your subquery always returns exactly one result**, even if the underlying data is inconsistent.  
+   - You can ensure this by using functions like `max()`, `min()`, or `string_agg(...)` (if a concatenated string is acceptable), or by adding `limit 1`.
+   - **Example:** the `ContainerNo` field:
+     ```sql
+     , (SELECT st.ContainerNo
+          FROM m_shippertransportation st
+                   INNER JOIN M_ShippingPackage sp ON st.m_shippertransportation_id = sp.m_shippertransportation_id
+                   INNER JOIN M_ReceiptSchedule r ON r.c_order_id = sp.c_order_id
+          WHERE r.m_receiptschedule_id = M_ReceiptSchedule.M_ReceiptSchedule_ID) AS ContainerNo
+     ```
+     This can fail if the subquery returns multiple results.  
+     The subquery can be rewritten safely as:
+     ```sql
+     (SELECT string_agg(DISTINCT st.ContainerNo, ', ')
+        FROM m_shippertransportation st
+                 INNER JOIN M_ShippingPackage sp ON st.m_shippertransportation_id = sp.m_shippertransportation_id
+                 INNER JOIN M_ReceiptSchedule r ON r.c_order_id = sp.c_order_id
+       WHERE r.m_receiptschedule_id = M_ReceiptSchedule.M_ReceiptSchedule_ID
+         AND st.ContainerNo IS NOT NULL)
+     ```
+     **Remarks:**
+     1. Only non-null `ContainerNo` values are considered.  
+     2. Only distinct values are aggregated.  
+     3. `string_agg` ensures the query always returns a single value, preventing view failures.
+
 
 
 ## How to avoid some corner-case issues
