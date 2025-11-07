@@ -58,7 +58,7 @@ limit 1
 ## Dos and Don't
 1. When using `select` statements, add parentheses `()` around them, e.g., *`(select value from other table where...)`*.
 2. Never use slashes `/` in column names even though they are virtual.
-3. **Make sure your subquery always returns exactly one result**, even if the underlying data is inconsistent.  
+3. **Make sure your subquery always returns either `null` or exactly one result**, even if the underlying data is inconsistent.  
    - You can ensure this by using functions like `max()`, `min()`, or `string_agg(...)` (if a concatenated string is acceptable), or by adding `limit 1`.
    - **Example:** the `ContainerNo` field:
      ```sql
