@@ -75,11 +75,8 @@ When displaying the following fields, always show them together:
 - Instead of "Document No.", write **No.**
 - Instead of "Document Status", write **Status**.
 
-## Default Filter for Documents
-- Date (Document Date)
-- Business Partner
-- No. (Document No.)
-- Document Type
+## Creating Windows Filters – Best Practice
+- [Creating Windows Filters – Best Practice](../../webui_collection/EN/creating_window_filters_best_practice)
 
 ### Example
 <kbd><a href="assets/design_guide_webui_default_filter_documents.png" title="Click to enlarge" target="\_blank"><img src="assets/design_guide_webui_default_filter_documents.png" alt="Default Filter for Documents (WebUI)"></a></kbd>
