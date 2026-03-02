@@ -23,7 +23,7 @@ In this guide you see how the window feature is used to retrieve data that you t
   100 as createdby, --or any other ad_user_id
   now() as updated, --or a fixed timestamp
   100 as updatedby, --or any other ad_user_id
-  'Y' as isactive,
+  'Y'::char(1)   as isactive,
   ```
 
 1. Add more columns.
