@@ -47,7 +47,8 @@ Install Docker and then the Docker Compose plugin via the official Docker reposi
 1. Next, with an editor of your choice (e.g., nano, vi) open the `docker-compose.yml` and adapt it as you need it.
  >**Note:** You will find an example for this [at the end of this guide](#example-docker-compose-yml).
 
-1. Comment `environment` and `http://example.com:8080` and replace `example.com:8080` with the URL and port, where the server should be reachable from the browser.
+1. Uncomment(Remove # to uncomment) `environment` and `http://example.com:8080` and replace `example.com:8080` with the URL and port, where the server should be reachable from the browser.
+
 
    ```
    ...
